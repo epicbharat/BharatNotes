@@ -51,12 +51,12 @@ The term "Mamluk" means "owned" — these rulers were originally slave-soldiers 
 
 | Ruler | Reign | Key Facts |
 |-------|-------|-----------|
-| **Qutb-ud-din Aibak** | 1206–1210 | Slave-general of Muhammad of Ghor; began construction of **Quwwat-ul-Islam Mosque** (Delhi) and **Qutub Minar** (completed by Iltutmish); known as **Lakh Bakhsh** (giver of lakhs) for his generosity; died in a polo accident |
-| **Iltutmish** | 1210–1236 | Son-in-law of Aibak; **true consolidator** of the Delhi Sultanate; completed the **Qutub Minar**; introduced the **silver tanka** and **copper jital** — first standard coinage of the Sultanate; organised the **Iqta system**; received investiture from the **Abbasid Caliph** (legitimising his rule); repelled Mongol threat by refusing shelter to Jalal-ud-din Mangbarni (Khwarazmian prince) |
-| **Razia Sultan** | 1236–1240 | Daughter of Iltutmish; **first and only female ruler** of the Delhi Sultanate; competent administrator but faced opposition from the **Chahalgani** (Turkish nobility, the "Forty"); killed in 1240 near Kaithal after being defeated by nobles |
+| **Qutb-ud-din Aibak** | 1206–1210 | Slave-general of Muhammad of Ghor; began construction of **Quwwat-ul-Islam Mosque** (Delhi) and the **Qutub Minar** (built only the **first storey**); known as **Lakh Bakhsh** (giver of lakhs) for his generosity; died in a polo accident |
+| **Iltutmish** | 1210–1236 | Son-in-law of Aibak; **true consolidator** of the Delhi Sultanate; completed **storeys 2–4** of the **Qutub Minar** (the **5th storey** was added later by **Firoz Shah Tughlaq** after lightning damage); introduced the **silver tanka** and **copper jital** — first standard coinage of the Sultanate; organised the **Iqta system**; received investiture from the **Abbasid Caliph** (legitimising his rule); repelled Mongol threat by refusing shelter to Jalal-ud-din Mangbarni (Khwarazmian prince) |
+| **Razia Sultan** | 1236–1240 | Daughter of Iltutmish; **first and only female ruler** of the Delhi Sultanate; she preferred the title **Sultan** (not "Sultana," which she considered diminutive); competent administrator but faced opposition from the **Chahalgani** (Turkish nobility, the "Forty"); killed in 1240 near Kaithal after being defeated by nobles |
 | **Balban** | 1266–1287 | Established the theory of **divine right of kingship** (Niyabat-i-Khudai); destroyed the power of the Chahalgani; enforced strict discipline through a policy of **"blood and iron"**; maintained a formidable spy network; repelled Mongol invasions; introduced the Persian practice of **Sijda** (prostration) and **Paibos** (kissing the feet) at court |
 
-> **Prelims Trap:** Qutb-ud-din Aibak **started** the Qutub Minar, but **Iltutmish completed** it. The Quwwat-ul-Islam Mosque was built by Aibak. Students often confuse these attributions.
+> **Prelims Trap:** Qutb-ud-din Aibak built only the **first storey** of the Qutub Minar. **Iltutmish** added **storeys 2–4**. The **5th storey** was rebuilt by **Firoz Shah Tughlaq** after the top two storeys were damaged by lightning. Students often oversimplify this as "started by Aibak, completed by Iltutmish."
 
 ### 2. Khalji Dynasty (1290–1320)
 
@@ -72,7 +72,7 @@ The term "Mamluk" means "owned" — these rulers were originally slave-soldiers 
 
 | Campaign/Event | Detail |
 |----------------|--------|
-| **Conquest of Chittor** | 1303 — besieged and captured the Rajput fortress; linked by legend to Rani Padmini (historicity debated) |
+| **Conquest of Chittor** | 1303 — besieged and captured the Rajput fortress; linked by the legend of Rani Padmini (from Malik Muhammad Jayasi's **Padmavat**, 1540 — a Sufi allegorical poem written ~240 years after the siege; **modern historians reject it as historical fact**; no contemporary source mentions Padmini) |
 | **Mongol invasions repelled** | Repelled multiple Mongol invasions (1299, 1303, 1306) — the 1299 invasion under Qutlugh Khwaja reached the gates of Delhi; Alauddin fortified Delhi and built Siri Fort |
 | **Deccan campaigns** | Sent general **Malik Kafur** on devastating raids into the Deccan (Devagiri 1306–07, Warangal 1309, Hoysala & Pandya territories 1310–11); extracted enormous wealth |
 
@@ -119,7 +119,7 @@ The term "Mamluk" means "owned" — these rulers were originally slave-soldiers 
 
 | Achievement | Detail |
 |-------------|--------|
-| **Canals** | Built 5 major canals, including one from Yamuna to Hissar (~150 miles) — the most extensive irrigation works of the medieval period |
+| **Canals** | Built 5 major canals — the longest from the **Sutlej to Hansi** (~200 km); also built canals from the Yamuna to Hissar and Firozabad — the most extensive irrigation works of the medieval period |
 | **Public works** | Founded cities (Firozabad, Jaunpur, Hissar-Firoza); built hospitals (Dar-ul-Shafa), madrasas, bridges |
 | **Slavery** | Maintained approximately **180,000 slaves** — some employed in royal karkhanas (workshops) |
 | **Revenue reforms** | Abolished arbitrary cess; recognized only four taxes sanctioned by Sharia — Kharaj (land tax), Khams (1/5 of war booty), Jizya (on non-Muslims), Zakat (religious alms tax on Muslims) |
@@ -138,7 +138,7 @@ The term "Mamluk" means "owned" — these rulers were originally slave-soldiers 
 
 | Feature | Detail |
 |---------|--------|
-| **Year** | December 1398 |
+| **Year** | **17 December 1398** (entry into Delhi) |
 | **Invader** | Timur (Tamerlane) — Central Asian conqueror, claiming descent from Genghis Khan |
 | **Delhi Sultan** | Nasir-ud-din Mahmud Tughlaq (last Tughlaq Sultan) — fled Delhi |
 | **Massacre** | Ordered the massacre of approximately 100,000 captives before the battle; Delhi was plundered for 15 days |
@@ -173,9 +173,9 @@ The term "Mamluk" means "owned" — these rulers were originally slave-soldiers 
 ### Prelims Focus Areas
 - Five dynasties: Mamluk (1206–1290), Khalji (1290–1320), Tughlaq (1320–1414), Sayyid (1414–1451), Lodi (1451–1526)
 - Second Battle of Tarain (1192) — gateway to Muslim rule in North India
-- Qutub Minar: started by Aibak, completed by Iltutmish
+- Qutub Minar: 1st storey by Aibak, storeys 2–4 by Iltutmish, 5th storey by Firoz Shah Tughlaq
 - Iltutmish: silver tanka and copper jital, Iqta system, Abbasid Caliph investiture
-- Razia Sultan: first female ruler of Delhi Sultanate (1236–1240)
+- Razia Sultan: first female ruler of Delhi Sultanate (1236–1240); preferred title "Sultan" not "Sultana"
 - Alauddin Khalji: market reforms (military necessity), dagh-chehra system, Malik Kafur's Deccan campaigns
 - Muhammad bin Tughlaq: capital transfer to Daulatabad, token currency experiment
 - Firoz Shah Tughlaq: canals, 180,000 slaves, four Sharia taxes
