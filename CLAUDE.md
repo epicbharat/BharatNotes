@@ -10,7 +10,7 @@
 
 **Site:** https://bharatnotes.com
 **Tech:** Eleventy (11ty) v3 + Nunjucks + Vanilla CSS/JS
-**Hosting:** Hostinger (static files only)
+**Hosting:** Cloudflare Pages (auto-deploy from GitHub on push to main)
 
 ---
 

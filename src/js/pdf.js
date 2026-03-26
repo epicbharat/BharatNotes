@@ -153,21 +153,24 @@
       "body { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:11.5pt; line-height:1.75; color:#1a1a1a; background:#fff; }",
 
       /* ─── TITLE PAGE ─── */
-      ".tp { width:210mm; height:297mm; display:flex; flex-direction:column; justify-content:center; padding:30mm 28mm; page-break-after:always; position:relative; }",
-      ".tp::before { content:''; position:absolute; top:0; left:0; right:0; height:4px; background:#1a1a1a; }",
-      ".tp::after { content:''; position:absolute; bottom:0; left:0; right:0; height:1px; background:#999; }",
-      ".tp-paper { font-family:'Inter','Helvetica Neue',sans-serif; font-size:8.5pt; font-weight:600; letter-spacing:0.18em; text-transform:uppercase; color:#555; margin-bottom:12px; }",
-      ".tp-subject { font-family:'Inter','Helvetica Neue',sans-serif; font-size:9pt; color:#888; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:48px; }",
-      ".tp-rule { width:60px; height:1.5px; background:#1a1a1a; margin-bottom:36px; }",
-      ".tp-title { font-family:'EB Garamond','Crimson Pro','Georgia',serif; font-size:36pt; font-weight:400; line-height:1.15; color:#1a1a1a; margin-bottom:18px; letter-spacing:-0.02em; }",
-      ".tp-desc { font-size:11pt; color:#666; line-height:1.6; max-width:130mm; margin-bottom:60px; }",
-      ".tp-meta { margin-top:auto; display:flex; justify-content:space-between; align-items:flex-end; }",
-      ".tp-meta-left { display:flex; align-items:center; gap:14px; }",
-      ".tp-photo { width:42px; height:42px; border-radius:50%; object-fit:cover; }",
-      ".tp-author { font-family:'Inter',sans-serif; font-size:9pt; font-weight:600; color:#1a1a1a; }",
-      ".tp-role { font-family:'Inter',sans-serif; font-size:7.5pt; color:#888; margin-top:2px; }",
-      ".tp-meta-right { text-align:right; font-family:'Inter',sans-serif; font-size:7.5pt; color:#888; line-height:1.8; }",
-      ".tp-brand { font-family:'EB Garamond','Georgia',serif; font-size:11pt; color:#1a1a1a; }",
+      ".tp { width:210mm; height:297mm; display:flex; flex-direction:column; padding:0; page-break-after:always; position:relative; overflow:hidden; }",
+      ".tp-top { background:#0f172a; color:#fff; padding:28mm 28mm 24mm; flex-shrink:0; }",
+      ".tp-brand-row { display:flex; justify-content:space-between; align-items:center; margin-bottom:40px; }",
+      ".tp-logo { font-family:'EB Garamond','Georgia',serif; font-size:14pt; color:#fff; letter-spacing:-0.01em; }",
+      ".tp-logo span { color:#d4a017; }",
+      ".tp-paper { font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:600; letter-spacing:0.18em; text-transform:uppercase; color:rgba(255,255,255,0.5); }",
+      ".tp-title { font-family:'EB Garamond','Georgia',serif; font-size:38pt; font-weight:400; line-height:1.12; color:#fff; margin-bottom:16px; letter-spacing:-0.02em; }",
+      ".tp-desc { font-size:11pt; color:rgba(255,255,255,0.6); line-height:1.6; max-width:140mm; }",
+      ".tp-bottom { flex:1; display:flex; flex-direction:column; justify-content:flex-end; padding:24mm 28mm 28mm; }",
+      ".tp-subject { font-family:'Inter',sans-serif; font-size:8pt; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#999; margin-bottom:auto; }",
+      ".tp-author-block { display:flex; align-items:center; gap:16px; margin-bottom:24px; }",
+      ".tp-photo { width:64px; height:64px; border-radius:50%; object-fit:cover; border:2px solid #e2e8f0; }",
+      ".tp-author { font-family:'Inter',sans-serif; font-size:11pt; font-weight:600; color:#1a1a1a; }",
+      ".tp-role { font-family:'Inter',sans-serif; font-size:8pt; color:#888; margin-top:3px; }",
+      ".tp-info { display:flex; gap:20px; flex-wrap:wrap; font-family:'Inter',sans-serif; font-size:7.5pt; color:#999; }",
+      ".tp-info span { display:inline-flex; align-items:center; gap:4px; }",
+      ".tp-info strong { color:#555; font-weight:600; }",
+      ".tp-btn { display:inline-block; margin-top:16px; padding:7px 18px; font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:#0f172a; background:#f1f5f9; border:1px solid #e2e8f0; border-radius:4px; text-decoration:none; }",
 
       /* ─── CONTENT ─── */
       ".ct { padding:0; }",
@@ -255,20 +258,23 @@
       ".ft { margin-top:36px; padding-top:12px; border-top:0.5px solid #ccc; display:flex; justify-content:space-between; font-family:'Inter',sans-serif; font-size:7.5pt; color:#999; letter-spacing:0.04em; }",
 
       /* ─── COLOPHON (back page) ─── */
-      ".col { page-break-before:always; display:flex; flex-direction:column; justify-content:center; align-items:center; min-height:250mm; padding:40mm 28mm; text-align:center; }",
-      ".col-brand { font-family:'EB Garamond','Georgia',serif; font-size:28pt; color:#1a1a1a; margin-bottom:6px; }",
-      ".col-tag { font-family:'Inter',sans-serif; font-size:8.5pt; color:#888; letter-spacing:0.12em; text-transform:uppercase; margin-bottom:48px; }",
-      ".col-rule { width:40px; height:1px; background:#1a1a1a; margin:0 auto 40px; }",
-      ".col-sites { display:flex; justify-content:center; gap:56px; margin-bottom:40px; text-align:center; }",
-      ".col-site-name { font-family:'EB Garamond','Georgia',serif; font-size:15pt; color:#1a1a1a; margin-bottom:4px; }",
-      ".col-site-desc { font-size:9pt; color:#777; line-height:1.5; max-width:55mm; }",
-      ".col-site-url { display:inline-block; margin-top:10px; font-family:'Inter',sans-serif; font-size:8pt; font-weight:600; color:#1a1a1a; text-decoration:none; letter-spacing:0.06em; text-transform:uppercase; }",
-      ".col-divider { width:1px; height:80px; background:#ddd; align-self:center; }",
-      ".col-author { display:flex; align-items:center; gap:14px; justify-content:center; margin-bottom:36px; }",
-      ".col-author-photo { width:44px; height:44px; border-radius:50%; object-fit:cover; filter:grayscale(100%); }",
-      ".col-author-name { font-family:'Inter',sans-serif; font-size:9pt; font-weight:600; color:#333; text-align:left; }",
-      ".col-author-link { font-family:'Inter',sans-serif; font-size:7.5pt; color:#999; text-decoration:none; }",
-      ".col-disc { font-size:8pt; color:#999; line-height:1.7; max-width:130mm; margin:0 auto 24px; }",
+      ".col { page-break-before:always; display:flex; flex-direction:column; min-height:250mm; padding:0; overflow:hidden; }",
+      ".col-top { background:#0f172a; color:#fff; padding:32mm 28mm 28mm; text-align:center; flex:1; display:flex; flex-direction:column; justify-content:center; align-items:center; }",
+      ".col-brand { font-family:'EB Garamond','Georgia',serif; font-size:32pt; color:#fff; margin-bottom:6px; }",
+      ".col-brand span { color:#d4a017; }",
+      ".col-tag { font-family:'Inter',sans-serif; font-size:8pt; color:rgba(255,255,255,0.45); letter-spacing:0.14em; text-transform:uppercase; margin-bottom:36px; }",
+      ".col-rule { width:40px; height:1.5px; background:#d4a017; margin:0 auto 36px; }",
+      ".col-sites { display:flex; justify-content:center; gap:40px; margin-bottom:36px; text-align:center; }",
+      ".col-site-name { font-family:'EB Garamond','Georgia',serif; font-size:16pt; color:#fff; margin-bottom:6px; }",
+      ".col-site-desc { font-size:8.5pt; color:rgba(255,255,255,0.5); line-height:1.55; max-width:55mm; margin-bottom:12px; }",
+      ".col-site-btn { display:inline-block; padding:8px 20px; font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:#fff; background:transparent; border:1.5px solid rgba(255,255,255,0.3); border-radius:4px; text-decoration:none; }",
+      ".col-divider { width:1px; height:70px; background:rgba(255,255,255,0.12); align-self:center; }",
+      ".col-author { display:flex; align-items:center; gap:16px; justify-content:center; margin-bottom:28px; }",
+      ".col-author-photo { width:56px; height:56px; border-radius:50%; object-fit:cover; border:2px solid rgba(255,255,255,0.2); }",
+      ".col-author-name { font-family:'Inter',sans-serif; font-size:10pt; font-weight:600; color:#e2e8f0; text-align:left; }",
+      ".col-author-link { display:inline-block; margin-top:4px; padding:4px 12px; font-family:'Inter',sans-serif; font-size:7pt; font-weight:600; letter-spacing:0.06em; color:rgba(255,255,255,0.6); background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15); border-radius:3px; text-decoration:none; }",
+      ".col-disc { font-size:7.5pt; color:rgba(255,255,255,0.35); line-height:1.7; max-width:130mm; margin:0 auto; }",
+      ".col-bottom { background:#fff; padding:14mm 28mm; text-align:center; }",
       ".col-copy { font-family:'Inter',sans-serif; font-size:7pt; color:#bbb; letter-spacing:0.1em; text-transform:uppercase; }"
     ].join(" ");
 
@@ -288,20 +294,26 @@
 
       /* ═══ TITLE PAGE ═══ */
       '<div class="tp">' +
-        '<div class="tp-paper">' + paperText + '</div>' +
-        (subjectText ? '<div class="tp-subject">' + subjectText + '</div>' : '<div style="margin-bottom:48px;"></div>') +
-        '<div class="tp-rule"></div>' +
-        '<h1 class="tp-title">' + titleText + '</h1>' +
-        (descText ? '<p class="tp-desc">' + descText + '</p>' : '') +
-        '<div class="tp-meta">' +
-          '<div class="tp-meta-left">' +
+        '<div class="tp-top">' +
+          '<div class="tp-brand-row">' +
+            '<div class="tp-logo">Bharat<span>Notes</span></div>' +
+            '<div class="tp-paper">' + paperText + '</div>' +
+          '</div>' +
+          '<h1 class="tp-title">' + titleText + '</h1>' +
+          (descText ? '<p class="tp-desc">' + descText + '</p>' : '') +
+        '</div>' +
+        '<div class="tp-bottom">' +
+          (subjectText ? '<div class="tp-subject">' + subjectText + '</div>' : '') +
+          '<div class="tp-author-block">' +
             '<img class="tp-photo" src="' + photoSrc + '" alt="" onerror="this.style.display=\'none\'">' +
             '<div><div class="tp-author">Bharat Choudhary</div><div class="tp-role">Founder, BharatNotes &amp; Ujiyari</div></div>' +
           '</div>' +
-          '<div class="tp-meta-right">' +
-            '<div class="tp-brand">BharatNotes</div>' +
-            dateStr + '<br>bharatnotes.com' +
+          '<div class="tp-info">' +
+            '<span><strong>Source</strong> bharatnotes.com</span>' +
+            '<span><strong>Generated</strong> ' + dateStr + '</span>' +
+            '<span><strong>License</strong> Free for personal use</span>' +
           '</div>' +
+          '<a href="https://bharatnotes.com" class="tp-btn">Visit BharatNotes.com &rarr;</a>' +
         '</div>' +
       '</div>' +
 
@@ -315,28 +327,35 @@
 
       /* ═══ COLOPHON ═══ */
       '<div class="col">' +
-        '<div class="col-brand">BharatNotes</div>' +
-        '<div class="col-tag">Free UPSC Study Notes</div>' +
-        '<div class="col-rule"></div>' +
-        '<div class="col-sites">' +
-          '<div>' +
-            '<div class="col-site-name">BharatNotes</div>' +
-            '<div class="col-site-desc">Comprehensive notes for all GS papers with verified facts &amp; PYQ analysis</div>' +
-            '<a href="https://bharatnotes.com" class="col-site-url">bharatnotes.com</a>' +
+        '<div class="col-top">' +
+          '<div class="col-brand">Bharat<span>Notes</span></div>' +
+          '<div class="col-tag">Free UPSC Study Notes &mdash; Prelims, Mains &amp; Beyond</div>' +
+          '<div class="col-rule"></div>' +
+          '<div class="col-sites">' +
+            '<div>' +
+              '<div class="col-site-name">BharatNotes</div>' +
+              '<div class="col-site-desc">Comprehensive notes for all GS papers with verified facts &amp; PYQ analysis</div>' +
+              '<a href="https://bharatnotes.com" class="col-site-btn">bharatnotes.com &rarr;</a>' +
+            '</div>' +
+            '<div class="col-divider"></div>' +
+            '<div>' +
+              '<div class="col-site-name">Ujiyari</div>' +
+              '<div class="col-site-desc">Daily current affairs, editorial analysis &amp; Mains answer practice</div>' +
+              '<a href="https://ujiyari.com" class="col-site-btn">ujiyari.com &rarr;</a>' +
+            '</div>' +
           '</div>' +
-          '<div class="col-divider"></div>' +
-          '<div>' +
-            '<div class="col-site-name">Ujiyari</div>' +
-            '<div class="col-site-desc">Daily current affairs, editorial analysis &amp; Mains answer practice</div>' +
-            '<a href="https://ujiyari.com" class="col-site-url">ujiyari.com</a>' +
+          '<div class="col-author">' +
+            '<img class="col-author-photo" src="' + photoSrc + '" alt="" onerror="this.style.display=\'none\'">' +
+            '<div>' +
+              '<div class="col-author-name">Bharat Choudhary</div>' +
+              '<a class="col-author-link" href="https://www.linkedin.com/in/epicbharat/">LinkedIn &rarr;</a>' +
+            '</div>' +
           '</div>' +
+          '<p class="col-disc">All content is sourced from official government publications and standard UPSC references. For current affairs and daily updates, visit ujiyari.com.</p>' +
         '</div>' +
-        '<div class="col-author">' +
-          '<img class="col-author-photo" src="' + photoSrc + '" alt="" onerror="this.style.display=\'none\'">' +
-          '<div><div class="col-author-name">Bharat Choudhary</div><a class="col-author-link" href="https://www.linkedin.com/in/epicbharat/">linkedin.com/in/epicbharat</a></div>' +
+        '<div class="col-bottom">' +
+          '<div class="col-copy">&copy; ' + new Date().getFullYear() + ' BharatNotes.com &middot; 100% Free &middot; No Login Required</div>' +
         '</div>' +
-        '<p class="col-disc">All content is sourced from official government publications and standard UPSC references. For current affairs and daily updates, visit ujiyari.com.</p>' +
-        '<div class="col-copy">&copy; ' + new Date().getFullYear() + ' BharatNotes.com &middot; Free for personal use</div>' +
       '</div>' +
 
       '</body></html>';
