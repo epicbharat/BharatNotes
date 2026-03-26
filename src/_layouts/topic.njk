@@ -593,6 +593,31 @@ layout: base.njk
         var explicitOpts = card.dataset.options ? JSON.parse(decodeURIComponent(card.dataset.options)) : null;
         var options, correctIdx;
 
+        // Try to extract (a)/(b)/(c)/(d) options from question text divs
+        if (!explicitOpts) {
+          var qTexts = card.querySelectorAll('.pyq-question-text');
+          var extractedOpts = [];
+          var optNodes = [];
+          qTexts.forEach(function(qt) {
+            var txt = qt.textContent.trim();
+            // Check for single-line inline: (a) ... (b) ... (c) ... (d) ...
+            var inlineM = extractInlineOptions(txt);
+            if (inlineM && extractedOpts.length === 0) {
+              extractedOpts = inlineM;
+              optNodes.push(qt);
+              return;
+            }
+            // Check for one-option-per-line: (a) some text
+            var m = txt.match(/^\(([a-d])\)\s*(.+)/i);
+            if (m) { extractedOpts.push(m[2].trim()); optNodes.push(qt); }
+          });
+          if (extractedOpts.length === 4) {
+            explicitOpts = extractedOpts;
+            optNodes.forEach(function(n) { n.remove(); });
+            card.setAttribute('data-options', encodeURIComponent(JSON.stringify(explicitOpts)));
+          }
+        }
+
         if (explicitOpts && explicitOpts.length === 4) {
           options = explicitOpts;
           correctIdx = parseCorrectFromAnswer(answerText, options);
