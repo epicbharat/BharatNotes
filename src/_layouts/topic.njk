@@ -476,10 +476,12 @@ layout: base.njk
       });
     }
 
-    // Wrap "Vocabulary" / "Key Vocabulary" in flashcard section
-    if (/^(?:key\s+)?vocabular(?:y|ies)$/i.test(text)) {
+    // ── Vocabulary / Key Terms — rich expandable entries ──
+    if (/^(?:key\s+)?vocabular(?:y|ies)$/i.test(text) || /^key\s+(?:terms?|concepts?)$/i.test(text)) {
+      var isVocab = /vocabular/i.test(text);
+      var variant = isVocab ? 'vocab' : 'terms';
       var wrapper = document.createElement('div');
-      wrapper.className = 'section-card section-card--vocab';
+      wrapper.className = 'section-card section-card--' + variant;
       h2.parentNode.insertBefore(wrapper, h2);
       wrapper.appendChild(h2);
       var next = wrapper.nextElementSibling;
@@ -490,126 +492,203 @@ layout: base.njk
       }
       if (next && next.tagName === 'HR') next.remove();
 
-      // Transform table into flashcards
-      var table = wrapper.querySelector('table');
-      if (table) {
-        var rows = table.querySelectorAll('tbody tr');
-        if (rows.length > 0) {
-          var grid = document.createElement('div');
-          grid.className = 'vocab-grid';
-          var progress = document.createElement('div');
-          progress.className = 'vocab-progress';
-          progress.innerHTML = '<span class="vocab-progress-text">Tap cards to reveal definitions</span>'
-            + '<span class="vocab-progress-count"><span class="vocab-revealed">0</span> / ' + rows.length + ' revealed</span>';
-          wrapper.insertBefore(progress, table);
-          var revealedCount = 0;
+      /* ── Parse H3-based entries ── */
+      var fieldMap = {
+        'pronunciation': 'pronunciation', 'pron': 'pronunciation',
+        'definition': 'definition', 'def': 'definition',
+        'explanation': 'explanation', 'detail': 'explanation', 'details': 'explanation',
+        'origin': 'origin', 'etymology': 'origin', 'root': 'origin',
+        'synonyms': 'synonyms', 'synonym': 'synonyms',
+        'antonyms': 'antonyms', 'antonym': 'antonyms',
+        'upsc': 'upsc', 'upsc context': 'upsc', 'exam relevance': 'upsc',
+        'related': 'related'
+      };
+      var entries = [];
+      var h3List = wrapper.querySelectorAll('h3');
 
-          rows.forEach(function(row) {
-            var cells = row.querySelectorAll('td');
-            if (cells.length < 2) return;
-            var term = cells[0].innerHTML.trim();
-            var def  = cells[1].innerHTML.trim();
-            var card = document.createElement('div');
-            card.className = 'vocab-card';
-            card.setAttribute('tabindex', '0');
-            card.setAttribute('role', 'button');
-            card.setAttribute('aria-expanded', 'false');
-            card.innerHTML = '<div class="vocab-card__term">' + term + '</div>'
-              + '<div class="vocab-card__def" hidden>' + def + '</div>'
-              + '<div class="vocab-card__hint">Click to reveal</div>';
-
-            card.addEventListener('click', function() {
-              var defEl = card.querySelector('.vocab-card__def');
-              var hintEl = card.querySelector('.vocab-card__hint');
-              var wasRevealed = !defEl.hidden;
-              defEl.hidden = wasRevealed;
-              if (hintEl) hintEl.hidden = !wasRevealed;
-              card.classList.toggle('vocab-card--revealed', !wasRevealed);
-              card.setAttribute('aria-expanded', String(!wasRevealed));
-              if (!wasRevealed && !card.dataset.counted) {
-                card.dataset.counted = 'true';
-                revealedCount++;
-                var countEl = wrapper.querySelector('.vocab-revealed');
-                if (countEl) countEl.textContent = revealedCount;
+      h3List.forEach(function(h3) {
+        var entry = { term: h3.textContent.trim(), fields: {}, sourceEls: [h3] };
+        var slugBase = entry.term.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+        entry.slug = slugBase;
+        // Collect UL(s) after this H3 until next H3 or end
+        var sib = h3.nextElementSibling;
+        while (sib && sib.tagName !== 'H3' && sib.tagName !== 'H2') {
+          entry.sourceEls.push(sib);
+          if (sib.tagName === 'UL') {
+            sib.querySelectorAll('li').forEach(function(li) {
+              var strong = li.querySelector('strong');
+              if (!strong) return;
+              var label = strong.textContent.replace(/[:：]\s*$/, '').trim().toLowerCase();
+              var key = fieldMap[label];
+              if (!key) return;
+              // Get content after the strong tag
+              var clone = li.cloneNode(true);
+              var s = clone.querySelector('strong');
+              if (s) {
+                var nx = s.nextSibling;
+                s.remove();
+                if (nx && nx.nodeType === 3) nx.textContent = nx.textContent.replace(/^[:：]\s*/, '');
               }
-            });
-            card.addEventListener('keydown', function(e) {
-              if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); card.click(); }
-            });
-            grid.appendChild(card);
-          });
-
-          table.parentNode.insertBefore(grid, table);
-          table.hidden = true;
-          table.classList.add('vocab-source-table');
-        }
-      }
-    }
-
-    // Wrap "Key Terms" / "Key Concepts" in glossary section
-    if (/^key\s+(?:terms?|concepts?)$/i.test(text)) {
-      var wrapper = document.createElement('div');
-      wrapper.className = 'section-card section-card--terms';
-      h2.parentNode.insertBefore(wrapper, h2);
-      wrapper.appendChild(h2);
-      var next = wrapper.nextElementSibling;
-      while (next && next.tagName !== 'H2' && next.tagName !== 'HR') {
-        var move = next;
-        next = next.nextElementSibling;
-        wrapper.appendChild(move);
-      }
-      if (next && next.tagName === 'HR') next.remove();
-
-      var table = wrapper.querySelector('table');
-      if (table) {
-        var rows = table.querySelectorAll('tbody tr');
-        if (rows.length > 0) {
-          // Search filter for 5+ terms
-          if (rows.length >= 5) {
-            var searchBox = document.createElement('div');
-            searchBox.className = 'terms-search';
-            searchBox.innerHTML = '<input type="text" class="terms-search__input" placeholder="Search terms\u2026" aria-label="Filter terms">';
-            wrapper.insertBefore(searchBox, table);
-            var input = searchBox.querySelector('input');
-            input.addEventListener('input', function() {
-              var q = input.value.toLowerCase().trim();
-              var cards = wrapper.querySelectorAll('.term-card');
-              var visibleCount = 0;
-              cards.forEach(function(c) {
-                var match = !q || c.textContent.toLowerCase().indexOf(q) !== -1;
-                c.hidden = !match;
-                if (match) visibleCount++;
-              });
-              var noRes = wrapper.querySelector('.terms-no-results');
-              if (visibleCount === 0) {
-                if (!noRes) {
-                  noRes = document.createElement('p');
-                  noRes.className = 'terms-no-results';
-                  noRes.textContent = 'No matching terms found.';
-                  list.appendChild(noRes);
-                }
-                noRes.hidden = false;
-              } else if (noRes) { noRes.hidden = true; }
+              entry.fields[key] = clone.innerHTML.trim();
             });
           }
+          sib = sib.nextElementSibling;
+        }
+        if (entry.fields.definition || Object.keys(entry.fields).length > 0) entries.push(entry);
+      });
 
-          var list = document.createElement('div');
-          list.className = 'terms-list';
-          rows.forEach(function(row) {
+      /* ── Fallback: parse 2-column table if no H3s ── */
+      if (entries.length === 0) {
+        var table = wrapper.querySelector('table');
+        if (table) {
+          table.querySelectorAll('tbody tr').forEach(function(row) {
             var cells = row.querySelectorAll('td');
             if (cells.length < 2) return;
-            var term = cells[0].innerHTML.trim();
-            var def  = cells[1].innerHTML.trim();
-            var card = document.createElement('div');
-            card.className = 'term-card';
-            card.innerHTML = '<div class="term-card__term">' + term + '</div>'
-              + '<div class="term-card__def">' + def + '</div>';
-            list.appendChild(card);
+            var t = cells[0].textContent.trim();
+            entries.push({
+              term: t,
+              slug: t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
+              fields: { definition: cells[1].innerHTML.trim() },
+              sourceEls: []
+            });
+          });
+          if (entries.length > 0) {
+            table.hidden = true;
+            table.classList.add('vocab-src-hidden');
+          }
+        }
+      }
+
+      if (entries.length > 0) {
+        // Hide source H3/UL elements
+        entries.forEach(function(e) {
+          e.sourceEls.forEach(function(el) { el.hidden = true; el.classList.add('vocab-src-hidden'); });
+        });
+
+        // Search box (3+ entries)
+        if (entries.length >= 3) {
+          var searchDiv = document.createElement('div');
+          searchDiv.className = 'vocab-search';
+          searchDiv.innerHTML = '<input type="text" class="vocab-search__input" placeholder="Search ' + entries.length + ' terms\u2026" aria-label="Filter terms">';
+          wrapper.appendChild(searchDiv);
+        }
+
+        // Progress
+        var progressDiv = document.createElement('div');
+        progressDiv.className = 'vocab-progress';
+        progressDiv.innerHTML = '<span>' + entries.length + ' terms</span><span class="vocab-progress__count"><span class="vocab-expanded-count">0</span> / ' + entries.length + ' explored</span>';
+        wrapper.appendChild(progressDiv);
+
+        var entriesDiv = document.createElement('div');
+        entriesDiv.className = 'vocab-entries';
+        var expandedCount = 0;
+
+        entries.forEach(function(entry) {
+          var card = document.createElement('div');
+          card.className = 'vocab-entry';
+          card.setAttribute('data-term', entry.slug);
+          card.id = 'term-' + entry.slug;
+
+          var f = entry.fields;
+          // Header
+          var header = document.createElement('div');
+          header.className = 'vocab-entry__header';
+          header.setAttribute('tabindex', '0');
+          header.setAttribute('role', 'button');
+          header.setAttribute('aria-expanded', 'false');
+          header.innerHTML =
+            '<span class="vocab-entry__term">' + entry.term + '</span>' +
+            (f.pronunciation ? '<span class="vocab-entry__pron">' + f.pronunciation + '</span>' : '') +
+            '<span class="vocab-entry__brief">' + (f.definition || '') + '</span>' +
+            '<svg class="vocab-entry__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>';
+
+          // Body
+          var body = document.createElement('div');
+          body.className = 'vocab-entry__body';
+          body.hidden = true;
+          var bodyHtml = '';
+
+          var fieldOrder = [
+            ['definition', 'Definition'],
+            ['explanation', 'Explanation'],
+            ['origin', 'Origin & Etymology'],
+            ['synonyms', 'Synonyms'],
+            ['antonyms', 'Antonyms'],
+            ['upsc', 'UPSC Context']
+          ];
+          fieldOrder.forEach(function(pair) {
+            if (f[pair[0]]) {
+              bodyHtml += '<div class="vocab-entry__field"><div class="vocab-entry__label">' + pair[1] + '</div><div class="vocab-entry__value">' + f[pair[0]] + '</div></div>';
+            }
           });
 
-          table.parentNode.insertBefore(list, table);
-          table.hidden = true;
-          table.classList.add('terms-source-table');
+          // Related terms chips
+          if (f.related) {
+            var chips = f.related.match(/\[\[([^\]]+)\]\]/g);
+            if (chips && chips.length > 0) {
+              bodyHtml += '<div class="vocab-entry__related">';
+              chips.forEach(function(chip) {
+                var name = chip.replace(/^\[\[|\]\]$/g, '');
+                var slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+                bodyHtml += '<span class="vocab-related-chip" data-term="' + slug + '" tabindex="0" role="button">' + name + '</span>';
+              });
+              bodyHtml += '</div>';
+            }
+          }
+
+          body.innerHTML = bodyHtml;
+          card.appendChild(header);
+          card.appendChild(body);
+
+          // Toggle expand
+          function toggleCard() {
+            var isExpanded = !body.hidden;
+            body.hidden = isExpanded;
+            card.classList.toggle('vocab-entry--expanded', !isExpanded);
+            header.setAttribute('aria-expanded', String(!isExpanded));
+            if (!isExpanded && !card.dataset.counted) {
+              card.dataset.counted = 'true';
+              expandedCount++;
+              var cEl = wrapper.querySelector('.vocab-expanded-count');
+              if (cEl) cEl.textContent = expandedCount;
+            }
+          }
+          header.addEventListener('click', toggleCard);
+          header.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleCard(); }
+          });
+
+          entriesDiv.appendChild(card);
+
+          // Store parsed data on the DOM element for dialog use
+          card._vocabData = entry;
+        });
+
+        wrapper.appendChild(entriesDiv);
+
+        // Wire search
+        var sInput = wrapper.querySelector('.vocab-search__input');
+        if (sInput) {
+          sInput.addEventListener('input', function() {
+            var q = sInput.value.toLowerCase().trim();
+            var cards = entriesDiv.querySelectorAll('.vocab-entry');
+            var vis = 0;
+            cards.forEach(function(c) {
+              var match = !q || c.textContent.toLowerCase().indexOf(q) !== -1;
+              c.hidden = !match;
+              if (match) vis++;
+            });
+            var noRes = entriesDiv.querySelector('.vocab-no-results');
+            if (vis === 0) {
+              if (!noRes) {
+                noRes = document.createElement('p');
+                noRes.className = 'vocab-no-results';
+                noRes.textContent = 'No matching terms found.';
+                entriesDiv.appendChild(noRes);
+              }
+              noRes.hidden = false;
+            } else if (noRes) { noRes.hidden = true; }
+          });
         }
       }
     }
@@ -640,6 +719,133 @@ layout: base.njk
       btn.innerHTML = (expanded ? 'Hide Answer' : 'Reveal Answer') + ' ' + chevronSvg;
     });
   });
+
+  // ── Vocab: Interlink processor + Dialog ──
+  (function() {
+    // Create shared dialog (HTML <dialog> element — native modal)
+    var dialog = document.createElement('dialog');
+    dialog.className = 'vocab-dialog';
+    dialog.innerHTML =
+      '<div class="vocab-dialog__header">' +
+        '<div class="vocab-dialog__info">' +
+          '<div class="vocab-dialog__term"></div>' +
+          '<div class="vocab-dialog__pron"></div>' +
+        '</div>' +
+        '<button class="vocab-dialog__close" aria-label="Close">' +
+          '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>' +
+        '</button>' +
+      '</div>' +
+      '<div class="vocab-dialog__body"></div>' +
+      '<div class="vocab-dialog__footer">' +
+        '<button class="vocab-dialog__more">Know More &rarr;</button>' +
+      '</div>';
+    document.body.appendChild(dialog);
+
+    dialog.querySelector('.vocab-dialog__close').addEventListener('click', function() { dialog.close(); });
+    dialog.addEventListener('click', function(e) { if (e.target === dialog) dialog.close(); });
+
+    function slugify(t) { return t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
+
+    function openVocabDialog(termSlug, termName) {
+      var entry = document.querySelector('.vocab-entry[data-term="' + termSlug + '"]');
+      var data = entry && entry._vocabData ? entry._vocabData : null;
+
+      dialog.querySelector('.vocab-dialog__term').textContent = termName || (data ? data.term : termSlug);
+      dialog.querySelector('.vocab-dialog__pron').textContent = data && data.fields.pronunciation ? data.fields.pronunciation : '';
+      dialog.querySelector('.vocab-dialog__body').innerHTML = data && data.fields.definition
+        ? data.fields.definition
+        : 'This term is covered in detail on this page.';
+
+      var moreBtn = dialog.querySelector('.vocab-dialog__more');
+      if (entry) {
+        moreBtn.onclick = function() {
+          dialog.close();
+          entry.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          // Expand if collapsed
+          var body = entry.querySelector('.vocab-entry__body');
+          var header = entry.querySelector('.vocab-entry__header');
+          if (body && body.hidden) {
+            body.hidden = false;
+            entry.classList.add('vocab-entry--expanded');
+            if (header) header.setAttribute('aria-expanded', 'true');
+          }
+        };
+        moreBtn.style.display = '';
+      } else {
+        moreBtn.style.display = 'none';
+      }
+
+      if (typeof dialog.showModal === 'function') dialog.showModal();
+    }
+
+    // Process [[Term]] interlinks in text nodes via TreeWalker
+    var walker = document.createTreeWalker(
+      article,
+      NodeFilter.SHOW_TEXT,
+      { acceptNode: function(node) {
+        // Skip code, pre, script, style elements
+        var parent = node.parentElement;
+        if (!parent) return NodeFilter.FILTER_REJECT;
+        var tag = parent.tagName;
+        if (tag === 'CODE' || tag === 'PRE' || tag === 'SCRIPT' || tag === 'STYLE') return NodeFilter.FILTER_REJECT;
+        return node.textContent.indexOf('[[') !== -1 ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+      }}
+    );
+
+    var textNodes = [];
+    while (walker.nextNode()) textNodes.push(walker.currentNode);
+
+    textNodes.forEach(function(textNode) {
+      var parts = textNode.textContent.split(/(\[\[[^\]]+\]\])/g);
+      if (parts.length <= 1) return;
+      var frag = document.createDocumentFragment();
+      parts.forEach(function(part) {
+        var match = part.match(/^\[\[([^\]]+)\]\]$/);
+        if (match) {
+          var name = match[1].trim();
+          var span = document.createElement('span');
+          span.className = 'vocab-interlink';
+          span.textContent = name;
+          span.setAttribute('data-term', slugify(name));
+          span.setAttribute('tabindex', '0');
+          span.setAttribute('role', 'button');
+          span.addEventListener('click', function() { openVocabDialog(slugify(name), name); });
+          span.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openVocabDialog(slugify(name), name); }
+          });
+          frag.appendChild(span);
+        } else {
+          frag.appendChild(document.createTextNode(part));
+        }
+      });
+      textNode.parentNode.replaceChild(frag, textNode);
+    });
+
+    // Wire related-chip clicks to open dialog
+    document.querySelectorAll('.vocab-related-chip').forEach(function(chip) {
+      var slug = chip.getAttribute('data-term');
+      var name = chip.textContent.trim();
+      chip.addEventListener('click', function() { openVocabDialog(slug, name); });
+      chip.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openVocabDialog(slug, name); }
+      });
+    });
+
+    // Auto-expand entry if URL hash matches #term-{slug}
+    if (window.location.hash) {
+      var target = document.getElementById(window.location.hash.slice(1));
+      if (target && target.classList.contains('vocab-entry')) {
+        var body = target.querySelector('.vocab-entry__body');
+        var header = target.querySelector('.vocab-entry__header');
+        if (body) {
+          body.hidden = false;
+          target.classList.add('vocab-entry--expanded');
+          if (header) header.setAttribute('aria-expanded', 'true');
+        }
+        setTimeout(function() { target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 200);
+      }
+    }
+  })();
 
   // ── Convert blockquotes with prefixes to annotation callouts ──
   // Markdown usage: > **Exam Tip:** Your text here

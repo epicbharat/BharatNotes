@@ -97,13 +97,18 @@
       el.remove();
     });
 
-    // 7. Remove vocab/terms interactive elements; reveal source tables for PDF
-    clone.querySelectorAll(".vocab-grid, .vocab-progress, .terms-search, .terms-list, .terms-no-results").forEach(function (el) {
+    // 7. Vocab/Terms: remove interactive UI, build clean PDF entries from source data
+    clone.querySelectorAll(".vocab-entries, .vocab-search, .vocab-progress, .vocab-no-results, .vocab-dialog").forEach(function (el) {
       el.remove();
     });
-    clone.querySelectorAll(".vocab-source-table, .terms-source-table").forEach(function (el) {
+    // Convert interlink spans to plain text
+    clone.querySelectorAll(".vocab-interlink").forEach(function (el) {
+      el.replaceWith(document.createTextNode(el.textContent));
+    });
+    // Reveal hidden source elements (H3s, ULs, tables) for PDF rendering
+    clone.querySelectorAll(".vocab-src-hidden").forEach(function (el) {
       el.removeAttribute("hidden");
-      el.classList.remove("vocab-source-table", "terms-source-table");
+      el.classList.remove("vocab-src-hidden");
     });
 
     return clone;

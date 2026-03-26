@@ -180,34 +180,109 @@ The backbone of GST — eliminates cascading (tax-on-tax) effect.
 
 ## Vocabulary
 
-| Term | Definition |
-|------|-----------|
-| CGST | Central Goods and Services Tax — the central component levied on intra-state supplies |
-| SGST | State Goods and Services Tax — the state component levied on intra-state supplies |
-| IGST | Integrated GST — levied on inter-state supplies and imports, collected by the Centre |
-| UTGST | Union Territory GST — equivalent of SGST for Union Territories without legislature |
-| ITC | Input Tax Credit — credit claimed by businesses for tax already paid on inputs used in making taxable supplies |
-| RCM | Reverse Charge Mechanism — recipient of goods/services pays GST instead of the supplier |
-| E-way Bill | Electronic Way Bill — mandatory document for movement of goods valued above Rs 50,000 |
-| GSTN | Goods and Services Tax Network — the IT backbone that processes all GST returns and payments |
-| HSN Code | Harmonised System of Nomenclature — international classification system used to identify goods under GST |
-| Anti-profiteering | Mandate under Section 171 of CGST Act that businesses must pass on GST rate reduction benefits to consumers |
+### CGST
+- **Pronunciation:** /siː-dʒiː-ɛs-tiː/
+- **Definition:** Central Goods and Services Tax — the central government's share of tax on intra-state supplies
+- **Explanation:** CGST is levied by the Central Government on every intra-state supply of goods and services. It is collected alongside SGST (or UTGST) so that both Centre and State receive revenue from the same transaction. For example, if a Delhi shopkeeper sells goods to a Delhi customer at 18% GST, 9% goes as CGST to the Centre and 9% as SGST to Delhi.
+- **Origin:** Acronym from *Central* (Latin *centralis*, relating to the centre) + *Goods and Services Tax*. The term was coined by the 101st Constitutional Amendment Act, 2016, which inserted Article 246A empowering both Centre and States to levy GST.
+- **Synonyms:** Central tax (used interchangeably in the CGST Act, 2017) — both refer to the same levy; no practical difference
+- **Antonyms:** SGST (State GST) — the state counterpart levied alongside CGST on the same transaction; IGST — the integrated tax that replaces both CGST and SGST on inter-state transactions
+- **UPSC:** GS3 — Indian Economy, Fiscal Federalism; Prelims (distinguish CGST/SGST/IGST/UTGST), Mains (Centre-State fiscal relations under GST)
+- **Related:** [[SGST]], [[IGST]], [[Dual GST]]
+
+### Input Tax Credit
+- **Pronunciation:** /ˈɪnpʊt tæks ˈkrɛdɪt/
+- **Definition:** Credit available to a registered person for GST paid on inputs (goods/services) used in furtherance of business
+- **Explanation:** Under Section 16 of the CGST Act, 2017, every registered person is entitled to claim credit of input tax charged on inward supplies that are used in the course of business. This mechanism ensures tax is levied only on value addition at each stage, not on the cumulative value — thereby eliminating the cascading effect (tax-on-tax). For instance, a manufacturer paying 18% GST on raw materials can set off this amount against the GST collected on finished goods.
+- **Origin:** *Input* (goods/services acquired for use in production) + *Tax Credit* (a deduction against tax liability). The concept existed in pre-GST indirect taxes (CENVAT credit, VAT input credit) but was fragmented across Centre and State levies. GST unified it into a seamless national credit chain.
+- **Synonyms:** ITC (standard abbreviation used in the Act and GST returns); CENVAT Credit (the pre-GST equivalent under Central Excise — narrower, covered only central taxes)
+- **Antonyms:** Output tax (the GST collected on outward supplies, against which ITC is set off); Exempt supply (no ITC can be claimed on inputs used for exempt supplies)
+- **UPSC:** GS3 — Taxation, Economic Reforms; Prelims (ITC conditions, Section 16), Mains (how ITC eliminates cascading effect, ITC fraud issues, inverted duty structure problems)
+- **Related:** [[Cascading Effect]], [[Inverted Duty Structure]], [[Zero-rated Supply]]
+
+### E-way Bill
+- **Pronunciation:** /iː-weɪ bɪl/
+- **Definition:** Electronic Way Bill — a mandatory digital document for transporting goods valued above Rs 50,000
+- **Explanation:** Introduced on 1 April 2018 for inter-state movement and phased in for intra-state movement, the E-way Bill is generated on the common GST portal before goods are dispatched. It tracks goods in transit to prevent tax evasion, replacing the multiple waybill systems that existed under state VAT regimes. Every consignment of goods exceeding Rs 50,000 in value must have an E-way Bill, which is valid for a distance-based time period.
+- **Origin:** *E-way* is short for *Electronic Way* — a digital adaptation of the traditional *waybill* (a document listing goods in a shipment, from *way* + *bill* of lading). The concept was mandated under Rule 138 of the CGST Rules, 2017.
+- **Synonyms:** Electronic waybill (formal name); transit pass (informal, used in pre-GST state VAT systems — but these were state-specific and not electronic)
+- **Antonyms:** No direct antonym; the absence of an E-way Bill for sub-Rs 50,000 consignments is simply an exemption, not a separate concept
+- **UPSC:** GS3 — GST compliance infrastructure; Prelims (threshold limit of Rs 50,000, inter-state mandatory date), Mains (role in reducing tax evasion, logistic efficiency, ease of doing business)
+- **Related:** [[GSTN]], [[Input Tax Credit]]
+
+### Anti-profiteering
+- **Pronunciation:** /ˌæntɪ-ˈprɒfɪtɪərɪŋ/
+- **Definition:** Legal mandate under Section 171 of CGST Act requiring businesses to pass on benefits of GST rate reductions or ITC gains to consumers
+- **Explanation:** When GST rates are reduced or when a business gains additional ITC benefits due to GST implementation, Section 171 mandates that such benefits must be passed on to consumers through commensurate price reductions. The National Anti-Profiteering Authority (NAA) was constituted to examine complaints. The GST Council recommended a sunset clause for anti-profiteering with effect from 1 April 2025, with the Competition Commission of India (CCI) handling residual cases.
+- **Origin:** *Anti-* (Greek *anti*, against) + *profiteering* (making excessive profits, from *profit* — Latin *profectus*, advancement). The concept draws from wartime price control laws; in the GST context, it was borrowed from Malaysia and Australia's GST implementation models.
+- **Synonyms:** Price pass-through mandate (descriptive term used in economic analysis); no exact synonym exists in Indian tax law
+- **Antonyms:** Price gouging (the practice anti-profiteering aims to prevent); profiteering (excessive profit-making that this provision targets)
+- **UPSC:** GS3 — Consumer protection, GST governance; Prelims (Section 171, NAA, CCI takeover), Mains (effectiveness of anti-profiteering, comparison with other countries' GST models)
+- **Related:** [[GST Compensation]], [[Composition Scheme]]
+
+### GSTN
+- **Pronunciation:** /dʒiː-ɛs-tiː-ɛn/
+- **Definition:** Goods and Services Tax Network — the IT infrastructure backbone that processes all GST registrations, returns, and payments
+- **Explanation:** GSTN is a Section 8 (not-for-profit) company set up to provide shared IT infrastructure and services to Central and State governments, tax payers, and other stakeholders. It manages the GST portal (gst.gov.in) where all GST compliance — registration, return filing, tax payment, refund processing, and E-way Bill generation — takes place. Initially, the Centre held 24.5% equity and states held 24.5%, with the remaining 51% held by private institutions. In 2018, the government converted GSTN into a fully government-owned entity (50% Centre, 50% States collectively).
+- **Origin:** Acronym from *Goods and Services Tax Network*. Incorporated on 28 March 2013, well before GST launch, to build the technology platform.
+- **Synonyms:** GST portal (refers specifically to the website, not the company); GST common portal (the legal term used in the CGST Act for the electronic platform)
+- **Antonyms:** No direct antonym; the pre-GST equivalent was fragmented — ACES (for Central Excise) and state-specific VAT portals
+- **UPSC:** GS3 — Digital governance, IT in taxation; Prelims (ownership structure, Section 8 company status), Mains (role of technology in tax reform, GSTN's role in cooperative federalism)
+- **Related:** [[E-way Bill]], [[Input Tax Credit]]
 
 ---
 
 ## Key Terms
 
-| Term | Definition |
-|------|-----------|
-| Destination-based tax | Tax accrues to the state where goods or services are consumed, not where they are produced |
-| Cascading effect | Tax-on-tax problem where each production stage adds tax on the already-taxed value — eliminated by GST's ITC mechanism |
-| Dual GST | India's model where both Centre (CGST) and State (SGST) levy tax simultaneously on the same intra-state transaction |
-| Composition Scheme | Simplified scheme for small taxpayers (turnover up to Rs 1.5 crore) with lower flat-rate tax and no ITC eligibility |
-| Zero-rated supply | Exports and supplies to SEZs — taxable at 0% but eligible for full ITC refund |
-| Exempt supply | Supply on which no GST is charged and no ITC can be claimed (e.g., fresh milk, education, healthcare) |
-| Place of Supply | Rules under IGST Act determining whether a transaction is intra-state or inter-state — decides if CGST+SGST or IGST applies |
-| GST Compensation | Centre guaranteed states 14% annual revenue growth for 5 years (2017-2022); shortfall funded by compensation cess on luxury and demerit goods |
-| Inverted Duty Structure | When tax rate on inputs exceeds tax rate on output — leads to ITC accumulation and cash-flow problems for manufacturers |
+### Cascading Effect
+- **Pronunciation:** /kæˈskeɪdɪŋ ɪˈfɛkt/
+- **Definition:** Tax-on-tax problem where each stage of production adds tax on the already-taxed value of inputs
+- **Explanation:** Before GST, India's indirect tax system suffered from cascading — Central Excise was levied on manufacture, then State VAT on sale, then service tax on services, with no cross-credit between them. Each tax was charged on a value that already included previous taxes. For example, if a manufacturer paid 12% excise on raw materials and a 14% VAT was charged on the sale price (which included the excise component), the consumer paid tax on top of tax. GST's Input Tax Credit mechanism eliminates this by allowing full credit of all taxes paid at earlier stages.
+- **Origin:** *Cascade* (from Italian *cascata*, a waterfall — taxes falling one upon another like water over rocks) + *effect* (Latin *effectus*, result). The term is standard in public finance literature worldwide.
+- **Synonyms:** Tax-on-tax effect (descriptive), double taxation (informal but technically imprecise — double taxation usually refers to the same income being taxed twice)
+- **Antonyms:** Value Added Tax principle (where tax is levied only on value addition, not on cumulative value); tax neutrality (the ideal state where tax doesn't distort economic decisions)
+- **UPSC:** GS3 — Taxation reform, economic rationale for GST; Prelims (what cascading means, how ITC prevents it), Mains (pre-GST vs post-GST tax burden analysis, impact on prices and GDP)
+- **Related:** [[Input Tax Credit]], [[Dual GST]]
+
+### Dual GST
+- **Pronunciation:** /ˈdjuːəl dʒiː-ɛs-tiː/
+- **Definition:** India's unique GST model where both Centre (CGST) and State (SGST/UTGST) levy tax simultaneously on the same intra-state transaction
+- **Explanation:** Unlike countries with a single national GST (e.g., Singapore, New Zealand), India adopted a dual structure to preserve states' constitutional right to tax. On every intra-state sale, two taxes are levied concurrently — CGST (going to Centre) and SGST (going to the State). For inter-state sales, a single IGST is levied by the Centre, which is then apportioned between the origin and destination states. This was a political necessity given India's federal structure and the states' dependence on indirect tax revenue.
+- **Origin:** *Dual* (Latin *dualis*, containing two) + *GST*. The model was recommended by the Kelkar Task Force (2004) and refined through the Empowered Committee of State Finance Ministers. Canada's federal-provincial GST (GST + PST/HST) was a reference model.
+- **Synonyms:** Concurrent dual GST (the formal term — both levels of government tax the same base concurrently); no other synonym in common use
+- **Antonyms:** Unified GST (single national levy as in New Zealand, Singapore); non-concurrent dual model (where Centre and States tax different stages — this was rejected for India)
+- **UPSC:** GS3 — Fiscal federalism, cooperative federalism; Prelims (distinguish dual from unified GST), Mains (why India chose dual model, comparison with other countries, implications for cooperative federalism)
+- **Related:** [[CGST]], [[GST Compensation]]
+
+### Composition Scheme
+- **Pronunciation:** /ˌkɒmpəˈzɪʃən skiːm/
+- **Definition:** A simplified GST compliance scheme for small taxpayers with aggregate turnover up to Rs 1.5 crore, offering a low flat-rate tax but no ITC eligibility
+- **Explanation:** Under Section 10 of the CGST Act, taxpayers with turnover up to Rs 1.5 crore (Rs 75 lakh for special category states in the North-East and Uttarakhand) can opt for the Composition Scheme. They pay tax at a flat rate (typically 1% for manufacturers, 5% for restaurants, 0.5% for other suppliers) without the complexity of regular GST returns. However, they cannot claim Input Tax Credit, cannot make inter-state supplies, and must mention "composition taxable person" on every bill. A separate category for service providers with turnover up to Rs 50 lakh was introduced later at 6% (3% CGST + 3% SGST).
+- **Origin:** *Composition* (Latin *compositio*, a putting together — here meaning a simplified arrangement or settlement) + *scheme*. The concept mirrors the Composition Levy that existed under earlier State VAT laws for small dealers.
+- **Synonyms:** Composition levy (the legal term in the CGST Act); compounding scheme (informal term from pre-GST VAT systems — similar in concept but differed by state)
+- **Antonyms:** Regular GST registration (full compliance with monthly/quarterly returns, ITC eligibility, and standard GST rates); no other formal antonym
+- **UPSC:** GS3 — MSME support, ease of doing business; Prelims (turnover threshold, flat rates, restrictions), Mains (has Composition Scheme helped MSMEs? What are its limitations?)
+- **Related:** [[Input Tax Credit]], [[Anti-profiteering]]
+
+### Zero-rated Supply
+- **Pronunciation:** /ˈzɪəroʊ-reɪtɪd səˈplaɪ/
+- **Definition:** Supplies taxed at 0% GST but where the supplier retains full eligibility to claim Input Tax Credit refund
+- **Explanation:** Under Section 16 of the IGST Act, two categories are zero-rated — exports of goods/services and supplies to Special Economic Zones (SEZs). The critical distinction from exempt supplies is that zero-rated suppliers can claim full refund of ITC on their inputs, ensuring Indian exports are completely free of domestic tax burden. This maintains the destination-based principle — goods consumed abroad should bear the tax of the destination country, not India's GST. Exporters can either supply without paying tax (under Letter of Undertaking) or pay IGST and claim refund.
+- **Origin:** *Zero-rated* (tax rate is explicitly set to zero, as opposed to being exempt from the tax framework entirely) + *supply*. The term originated in the UK's VAT system (1973) and is standard in international VAT/GST terminology.
+- **Synonyms:** Tax-free export (informal, used loosely — but technically less precise because "tax-free" could also mean exempt); zero-rated export (narrower, refers only to the export component)
+- **Antonyms:** Exempt supply (also no tax charged, but crucially no ITC refund either — the supplier absorbs all input taxes); taxable supply (supply on which full GST is charged and collected)
+- **UPSC:** GS3 — Foreign trade, export promotion; Prelims (distinguish zero-rated from exempt supply — a classic UPSC trap), Mains (impact on export competitiveness, SEZ policy and GST)
+- **Related:** [[Input Tax Credit]], [[Cascading Effect]]
+
+### GST Compensation
+- **Pronunciation:** /dʒiː-ɛs-tiː ˌkɒmpɛnˈseɪʃən/
+- **Definition:** Constitutional guarantee under the 101st Amendment that the Centre would compensate states for any revenue shortfall from GST implementation, assuring 14% annual growth over a base year of 2015-16, for five years (July 2017 to June 2022)
+- **Explanation:** States surrendered their independent power to levy multiple indirect taxes (VAT, entry tax, luxury tax, etc.) when GST was introduced. To secure their consent, the Centre guaranteed that if a state's GST revenue grew below 14% per annum (using 2015-16 as the base year), the Centre would make up the difference. This compensation was funded through a dedicated GST Compensation Cess levied on luxury and demerit goods (pan masala, tobacco, coal, certain motor vehicles, aerated beverages). The five-year period ended in June 2022, but the cess was extended to March 2026 to repay borrowings made during the COVID-19 pandemic when compensation shortfalls were severe.
+- **Origin:** *Compensation* (Latin *compensatio*, from *compensare* — to weigh together, make up for) + *GST*. The mechanism was legislated through the GST (Compensation to States) Act, 2017.
+- **Synonyms:** GST Compensation Cess (refers specifically to the cess that funds the compensation, not the compensation itself); revenue guarantee (informal description of the 14% growth assurance)
+- **Antonyms:** Revenue surplus (when a state's GST collections exceed the protected revenue level — no compensation is paid); own-tax revenue (the pre-GST regime where states set their own tax rates independently)
+- **UPSC:** GS3 — Fiscal federalism, Centre-State relations; Prelims (14% growth rate, base year 2015-16, 5-year period, cess items), Mains (was compensation adequate? Impact of COVID on GST revenue, post-compensation fiscal challenges for states)
+- **Related:** [[Dual GST]], [[CGST]]
 
 ---
 
