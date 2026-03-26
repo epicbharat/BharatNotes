@@ -141,6 +141,19 @@ This is one of the most frequently tested areas in UPSC.
 | Beneficiary | Individual citizens | Society as a whole | Nation |
 | Amendable? | Yes (Basic Structure limit) | Yes | Yes |
 
+## Article 44 — Uniform Civil Code: Current Status
+
+The UCC is the most debated DPSP. Recent developments have made it a live exam topic:
+
+| Development | Date | Detail |
+|-------------|------|--------|
+| **Uttarakhand UCC Act** | Passed **7 February 2024**; President's assent **11 March 2024** | First state to enact a comprehensive UCC — covers marriage, divorce, inheritance, adoption for all citizens (STs exempted) |
+| **Uttarakhand UCC enforced** | **27 January 2025** | First state to implement UCC; mandates registration of marriages and live-in relationships |
+| **Uttarakhand UCC (Amendment) Ordinance** | **2026** | Procedural and penal improvements for smoother implementation |
+| **Gujarat UCC Bill** | Passed **24 March 2026** | Second state after Uttarakhand; covers marriage, divorce, succession, live-in relationships; STs exempted; penalties for bigamy and forced marriages |
+
+> **Key distinction:** Article 44 directs a UCC "throughout the territory of India" — i.e., a national code. State-level UCCs are a new approach. The question of whether a state can enact UCC under its legislative competence (Entry 5, Concurrent List — "Marriage and divorce") vs. the need for a Central law is an evolving constitutional question. Expect this in Mains 2026.
+
 ---
 
 ## Important for UPSC

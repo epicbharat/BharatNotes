@@ -170,7 +170,7 @@
       '<div class="cover-corner-br"></div>' +
       '<div class="cover-inner">' +
       '<div class="cover-logo">Bharat<span>Notes</span></div>' +
-      '<div class="cover-tagline">Free UPSC General Studies Notes</div>' +
+      '<div class="cover-tagline">Free UPSC Civil Services (IAS/CSE) GS Notes &mdash; Prelims, Mains &amp; Interview</div>' +
       '<div class="cover-divider"></div>' +
       '<div class="cover-badges">' + coverBadgeHTML + "</div>" +
       '<h1 class="cover-title">' + titleText + "</h1>" +
@@ -205,7 +205,7 @@
       "</div>" +
       '<div class="pdf-body">' + clone.innerHTML + "</div>" +
       '<div class="pdf-footer">' +
-      "<span>BharatNotes.com &mdash; Free UPSC GS Notes</span>" +
+      "<span>BharatNotes.com &mdash; Free UPSC Civil Services Notes</span>" +
       "<span>Generated on " + dateStr + "</span>" +
       "</div>" +
       "</div>" +
@@ -223,7 +223,7 @@
       '<span class="thankyou-author-link">linkedin.com/in/epicbharat</span>' +
       "</div></div>" +
       '<div class="thankyou-heading">Keep <span>Preparing.</span></div>' +
-      '<p class="thankyou-text">You\'re one step closer to cracking UPSC. BharatNotes provides free, verified, and comprehensive notes for every General Studies topic. Bookmark us and visit daily for new content.</p>' +
+      '<p class="thankyou-text">You\'re one step closer to cracking UPSC CSE. BharatNotes provides free, verified, and comprehensive notes for every General Studies topic &mdash; Prelims to Interview. Bookmark us and visit daily for new content.</p>' +
       '<div class="thankyou-divider"></div>' +
       '<div class="thankyou-features">' +
       '<div class="thankyou-feature"><div class="thankyou-feature-icon">&#128218;</div><div class="thankyou-feature-label">GS 1 &ndash; 4 Notes</div></div>' +

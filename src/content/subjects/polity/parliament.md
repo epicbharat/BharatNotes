@@ -241,6 +241,23 @@ Called by the **President** when there is a deadlock between the two Houses on a
 
 ---
 
+## One Nation One Election (ONOE) — Live Issue
+
+The **Constitution (129th Amendment) Bill, 2024** was introduced in Lok Sabha on **17 December 2024** to enable simultaneous Lok Sabha and State Assembly elections. Key facts:
+
+| Feature | Detail |
+|---------|--------|
+| **Introduced by** | Law Minister Arjun Ram Meghwal |
+| **Vote** | 269 in favour, 198 against — referred to a **39-member Joint Parliamentary Committee (JPC)** on 19 December 2024 |
+| **Proposed amendments** | Articles 82, 83, 327; new Article 82A(1–7) |
+| **Based on** | Ramnath Kovind Committee report (March 2024) |
+| **Implementation timeline** | Possibly 2034 |
+| **Key concern** | Requires ratification by half the state legislatures (federal provision); opposition argues it undermines federalism |
+
+> **Exam Tip:** ONOE is almost certain to appear in CSE 2026 — either Prelims (which Amendment Bill number? 129th. Which committee? JPC) or Mains (federalism, election cycle, governance continuity vs democratic accountability). Know the Kovind Committee's key arguments: saves Rs 4,000–5,000 crore per election cycle, ensures policy continuity, reduces Model Code of Conduct disruptions.
+
+---
+
 ## Current Affairs Connect
 
 Link these static concepts with live developments:
