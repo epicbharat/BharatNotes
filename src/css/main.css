@@ -571,7 +571,7 @@ a.card:hover { text-decoration: none; }
 /* ── Table of Contents ───────────────────────────────────── */
 .topic-sidebar {
   position: sticky;
-  top: var(--space-4);
+  top: 72px;
 }
 .toc-list {
   list-style: none;
