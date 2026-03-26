@@ -49,9 +49,16 @@ Fundamental Rights are inspired by the **US Bill of Rights** and represent the c
 | **17** | Abolition of untouchability (enforced by Protection of Civil Rights Act, 1955) |
 | **18** | Abolition of titles (except military and academic distinctions) |
 
-#### Landmark Cases
-- **Indra Sawhney v. Union of India (1992)** — 50% ceiling on total reservations; creamy layer concept for OBCs
-- **Janhit Abhiyan v. Union of India (2022)** — upheld 103rd Amendment (EWS reservation)
+#### Landmark Cases — Reservation Jurisprudence
+
+| Case | Year | Ruling |
+|------|------|--------|
+| **Indra Sawhney v. UOI** | 1992 | 9-judge bench. Upheld 27% OBC reservation; imposed **50% ceiling**; introduced **creamy layer** for OBCs |
+| **103rd Amendment** | 2019 | Added Articles 15(6) and 16(6) — **10% EWS reservation** (annual income below Rs. 8 lakh; excludes SC/ST/OBC) |
+| **Janhit Abhiyan v. UOI** | 2022 | **3:2 majority** upheld EWS reservation. Held 50% ceiling applies to caste-based reservation; EWS is a separate class |
+| **State of Punjab v. Davinder Singh** | 2024 | **7-judge bench, 6:1 majority** (1 August 2024). States can **sub-classify within SC/ST** lists for reservation. **Overruled** E.V. Chinnaiah (2004). Sub-classification must be backed by quantifiable empirical data |
+
+**States exceeding 50% ceiling:** Tamil Nadu (69%, protected under 9th Schedule); Maharashtra's Maratha 16% quota struck down in 2021 reaffirming ceiling.
 
 ---
 
@@ -76,18 +83,42 @@ Fundamental Rights are inspired by the **US Bill of Rights** and represent the c
 - **20(3)** — No self-incrimination (cannot be compelled to be a witness against oneself)
 
 ### Article 21: Right to Life and Personal Liberty
-The most expanded article through judicial interpretation. The Supreme Court has included under Article 21:
-- Right to live with dignity
-- Right to livelihood
-- Right to privacy (**K.S. Puttaswamy v. Union of India, 2017** — 9-judge bench)
-- Right to clean environment
-- Right to health and medical care
-- Right to shelter
-- Right to free legal aid
-- Right against solitary confinement
-- Right to speedy trial
-- Right to sleep
-- Right against custodial violence
+
+The most expanded article through judicial interpretation. The landmark shift from narrow to expansive reading:
+
+| Case | Year | Significance |
+|------|------|-------------|
+| **A.K. Gopalan v. State of Madras** | 1950 | Narrow reading — "procedure established by law" meant any law enacted by legislature |
+| **Maneka Gandhi v. UOI** | 1978 | **Overruled Gopalan.** Articles 14, 19, 21 form the **"Golden Triangle"** — procedure must be "just, fair, and reasonable" (de facto due process) |
+| **K.S. Puttaswamy v. UOI** | 2017 | **9-judge bench, unanimous** — Right to **privacy** is a fundamental right; overruled M.P. Sharma and Kharak Singh |
+| **K.S. Puttaswamy (Aadhaar)** | 2018 | **5-judge bench, 4:1** — Upheld Aadhaar Act but struck down Section 57 (private use); Justice Chandrachud dissented |
+| **Common Cause v. UOI** | 2018 | Right to **die with dignity** (passive euthanasia/living will) |
+| **M.K. Ranjitsinh v. UOI** | 2024 | Right to be **free from adverse effects of climate change** — newest addition to Article 21 |
+
+**Rights read into Article 21 (with case citations):**
+
+| Right | Case |
+|-------|------|
+| Live with dignity | Maneka Gandhi (1978) |
+| Livelihood | Olga Tellis v. BMC (1985) |
+| Shelter | Chameli Singh v. State of UP (1996) |
+| Privacy | K.S. Puttaswamy (2017) |
+| Education | Mohini Jain (1992); codified as Art. 21A |
+| Health / emergency medical care | Parmanand Katara (1989) |
+| Clean environment / pollution-free water | Subhash Kumar (1991); M.C. Mehta (1986) |
+| Speedy trial | Hussainara Khatoon (1979) |
+| Free legal aid | M.H. Hoskot (1978) |
+| Travel abroad | Maneka Gandhi (1978) |
+| Against solitary confinement | Sunil Batra (1978) |
+| Against handcuffing | Prem Shankar Shukla (1980) |
+| Against sexual harassment | Vishaka (1997) |
+| Sleep | Ramlila Maidan v. Home Secretary (2012) |
+| Die with dignity | Common Cause (2018) |
+| Reputation | Subramanian Swamy (2016) |
+| Protection from climate change | M.K. Ranjitsinh (2024) |
+| Maternity leave | K. Umadevi v. Govt of TN (2025) |
+
+> **Exam Tip:** Article 21 is the most important article for UPSC Mains. Whenever you encounter a rights-based question, check if Article 21 applies — it almost always does. The "Golden Triangle" (Articles 14 + 19 + 21) is the standard framework for any FR analysis.
 
 ### Article 21A: Right to Education
 Added by the **86th Amendment, 2002**. Free and compulsory education for children aged 6–14 years. Implemented via **Right of Children to Free and Compulsory Education Act (RTE), 2009**.
@@ -156,6 +187,28 @@ Dr. B.R. Ambedkar called Article 32 the **"heart and soul"** of the Constitution
 | **Quo Warranto** | "By what authority" — questions the legal right of a person to hold a public office | Person holding a public office |
 
 > **Article 226** gives High Courts the power to issue the same writs — but with a wider scope (not just for Fundamental Rights, but for "any other purpose").
+
+### Article 32 vs. Article 226 — Key Differences
+
+| Feature | Article 32 (SC) | Article 226 (HC) |
+|---------|-----------------|------------------|
+| **Nature** | Fundamental right itself | Constitutional right (not FR) |
+| **Scope** | Only for FR violations | FRs AND ordinary legal rights (wider) |
+| **Discretion** | SC **cannot refuse** if FR violated | HC **has discretion** to refuse |
+| **During Emergency** | Can be suspended under Art. 359 | **Cannot be suspended** |
+
+---
+
+## Recent Landmark Cases on Fundamental Rights (2023–2025)
+
+| Case | Date | Key Holding |
+|------|------|-------------|
+| **In Re: Article 370** | 11 Dec 2023 | 5-judge bench, unanimous. Upheld abrogation of Article 370. J&K's "asymmetric federalism" was temporary, not sovereignty. Directed statehood restoration "at the earliest" |
+| **Electoral Bonds (ADR v. UOI)** | 15 Feb 2024 | 5-judge bench, unanimous. Struck down Electoral Bond Scheme as **unconstitutional** — violates voters' right to information under **Article 19(1)(a)**. SBI ordered to disclose all purchaser details |
+| **Same-Sex Marriage (Supriyo v. UOI)** | 17 Oct 2023 | 5-judge bench. Declined to recognise legal right to same-sex marriage (legislative domain). But recognised right to **cohabit without discrimination** under Articles 19(1)(a) and 21 |
+| **Property Owners Assn v. Maharashtra** | 5 Nov 2024 | 9-judge bench, 7:2. Not all private property is "material resource of community" under Art. 39(b). Art. 31C survives Minerva Mills |
+| **M.K. Ranjitsinh v. UOI** | 21 Mar 2024 | Recognised **right to be free from adverse effects of climate change** — derived from Articles 21 and 14 |
+| **Bulldozer Demolitions** | Nov 2024 | Guidelines against arbitrary demolitions violating Art. 21 (shelter) and Art. 14 (equality). UP ordered to pay Rs. 10 lakh compensation (March 2025) |
 
 ---
 

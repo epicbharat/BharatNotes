@@ -9,8 +9,7 @@ module.exports = [
     description: "Indian Constitution, governance, Parliament, judiciary, federalism, local government",
     gs_papers: ["gs2"],
     syllabus_sections: [
-      "Indian Constitution & Polity",
-      "Governance & Social Justice"
+      "Indian Constitution & Polity"
     ]
   },
   {
@@ -21,8 +20,7 @@ module.exports = [
     description: "Economic development, budgeting, agriculture, industry, infrastructure, trade, poverty, demographics, fiscal policy",
     gs_papers: ["gs3"],
     syllabus_sections: [
-      "Indian Economy",
-      "Economic & Social Development"
+      "Indian Economy"
     ]
   },
   {
@@ -42,9 +40,10 @@ module.exports = [
     description: "Ancient to modern India, freedom struggle, world history, art forms, architecture, post-independence consolidation",
     gs_papers: ["gs1"],
     syllabus_sections: [
-      "Indian Culture",
+      "Indian Heritage & Culture",
+      "Ancient India",
+      "Medieval Indian History",
       "Modern Indian History",
-      "Freedom Struggle",
       "Post-Independence India",
       "World History"
     ]
@@ -82,8 +81,8 @@ module.exports = [
     icon: "\uD83D\uDC65",
     color: "#be123c",
     description: "Indian society, diversity, women, urbanization, globalization, communalism, secularism",
-    gs_papers: ["gs1"],
-    syllabus_sections: ["Indian Society"]
+    gs_papers: ["gs1", "gs2"],
+    syllabus_sections: ["Indian Society", "Social Justice", "Governance"]
   },
   {
     slug: "ethics",
@@ -93,8 +92,7 @@ module.exports = [
     description: "Ethics, attitude, aptitude, emotional intelligence, moral thinkers, case studies",
     gs_papers: ["gs4"],
     syllabus_sections: [
-      "Ethics & Human Interface",
-      "Public Administration Ethics"
+      "Ethics, Integrity & Aptitude"
     ]
   },
   {
@@ -113,7 +111,7 @@ module.exports = [
     color: "#0d9488",
     description: "Physics, chemistry, biology, human body systems, genetics, biotechnology, diseases & nutrition",
     gs_papers: ["gs3"],
-    syllabus_sections: ["Science & Technology", "General Science"]
+    syllabus_sections: ["General Science"]
   },
   {
     slug: "disaster-management",

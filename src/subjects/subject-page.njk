@@ -47,8 +47,13 @@ eleventyComputed:
     <div style="margin-bottom:var(--space-8);">
       <h2 style="font-family:var(--font-serif); font-size:var(--text-xl); color:var(--color-brand-dark); margin-bottom:var(--space-4); padding-bottom:var(--space-2); border-bottom:3px solid {{ subj.color }};">{{ sectionName }}</h2>
 
-      {# Find topics matching this subject #}
-      {% set topicList = collections.allTopics | selectattr("data.subject", "equalto", subj.slug) %}
+      {# Find topics matching this subject AND this syllabus section #}
+      {% set topicList = [] %}
+      {% for topic in collections.allTopics %}
+        {% if topic.data.subject == subj.slug and topic.data.syllabus_topic == sectionName %}
+          {% set topicList = (topicList.push(topic), topicList) %}
+        {% endif %}
+      {% endfor %}
 
       {% if topicList.length > 0 %}
       <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); gap:var(--space-4);">

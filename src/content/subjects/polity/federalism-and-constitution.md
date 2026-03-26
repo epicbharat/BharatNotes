@@ -152,6 +152,136 @@ Parliament has **exclusive power** to legislate on subjects not in any of the th
 
 ---
 
+## Key Commissions on Centre-State Relations
+
+### Sarkaria Commission (1983–1988)
+
+| Detail | Fact |
+|--------|------|
+| **Full name** | Commission on Centre-State Relations |
+| **Chairman** | Justice Ranjit Singh Sarkaria (retired SC judge) |
+| **Members** | B. Sivaraman, S.R. Sen |
+| **Constituted** | 1983 |
+| **Report submitted** | 1988 (1,600-page report) |
+| **Total recommendations** | **247** |
+
+**Key Recommendations:**
+
+| Area | Recommendation |
+|------|----------------|
+| **Governor** | Active politicians should not be appointed; Governor should not belong to the Centre's ruling party when a different party rules the state; 5-year tenure; State CM should be consulted during appointment |
+| **Article 356** | Use sparingly, only as **last resort** in genuine constitutional breakdown — not for political instability or law-and-order problems; Centre must exhaust all alternatives first |
+| **Inter-State Council** | Establish a **permanent Inter-State Council** under Article 263 (implemented in 1990) |
+| **Overall approach** | Largely recommended **maintaining the status quo** in Centre-State relations |
+
+### Punchhi Commission (2007–2010)
+
+| Detail | Fact |
+|--------|------|
+| **Chairman** | Justice Madan Mohan Punchhi (former CJI) |
+| **Constituted** | April 2007 |
+| **Report submitted** | 30 March 2010 (seven-volume report) |
+| **Total recommendations** | **273** |
+
+**Key Recommendations:**
+
+| Area | Recommendation |
+|------|----------------|
+| **Governor removal** | "Doctrine of Pleasure" should be deleted; proposed **impeachment of Governors** by state legislature (modelled on President's impeachment) |
+| **Governor appointment** | Entrust to a committee: PM + Home Minister + Lok Sabha Speaker + concerned State CM |
+| **Governor as Chancellor** | Should **not** hold positions as University Chancellors |
+| **Article 356** | Proposed **"localised emergency"** — bring only affected districts under Governor's rule instead of the entire state; maximum duration: 3 months |
+
+### Sarkaria vs Punchhi — Key Differences
+
+| Issue | Sarkaria (1988) | Punchhi (2010) |
+|-------|-----------------|----------------|
+| **Overall approach** | Status quo with minor tweaks | Significant structural reforms |
+| **Governor removal** | Restraint by Centre | Formal impeachment mechanism |
+| **Governor appointment** | CM consultation | Formal committee (PM + HM + Speaker + CM) |
+| **Article 356** | "Use sparingly" | Localised emergency instead of full state takeover |
+
+> **UPSC Relevance:** Sarkaria and Punchhi Commissions are directly tested in Prelims (number of recommendations, key proposals) and Mains (Centre-State reform debates). The key difference to remember: Sarkaria was conservative (status quo), Punchhi was reformist (structural changes). Neither commission's recommendations have been fully implemented.
+
+---
+
+## Inter-State Council (Article 263)
+
+| Detail | Fact |
+|--------|------|
+| **Constitutional basis** | Article 263 |
+| **Established** | 28 May 1990 by Presidential Order (on Sarkaria Commission's recommendation) |
+| **Latest reconstitution** | May 2022 — PM as Chairman; CMs of all states and UTs with legislatures; select Union Cabinet Ministers |
+| **Meetings held** | Only **11 meetings** since 1990; last full meeting in **July 2016** |
+| **Criticism** | Despite mandate of regular meetings, the Council has remained largely dormant — a major gap in cooperative federalism |
+
+---
+
+## Recent Federalism Debates
+
+### One Nation One Election
+
+| Detail | Fact |
+|--------|------|
+| **Committee** | High-Level Committee headed by **former President Ram Nath Kovind** |
+| **Constituted** | 2 September 2023 |
+| **Report** | 18,626-page report after 191 days |
+| **Key recommendation** | Phase 1: Simultaneous Lok Sabha + State Assembly elections; Phase 2: Municipal and Panchayat elections within 100 days |
+| **Public response** | 21,500+ responses; ~80% in favour |
+| **Cabinet acceptance** | 18 September 2024 |
+| **Legislative progress** | Constitution (129th Amendment) Bill, 2024 introduced in Lok Sabha on 17 December 2024; referred to Joint Parliamentary Committee on 19 December 2024 |
+
+### Governor Controversies — SC Rulings (2025)
+
+| Ruling | Key Holding |
+|--------|-------------|
+| **State of Tamil Nadu v. Governor (April 2025)** | SC ruled Governors cannot sit indefinitely on Bills; no "absolute veto" or "pocket veto" exists under Article 200; prescribed timelines (1 month to withhold assent, 3 months if acting against Cabinet advice) |
+| **Presidential Reference (November 2025)** | 5-judge Constitution Bench **overruled the April ruling**; held President and Governors **cannot be bound by judicially imposed timelines**; rejected "deemed assent" doctrine; decisions under Articles 200 and 201 held **not justiciable** |
+
+> **Warning:** The Governor controversy is a live, evolving issue. The November 2025 Presidential Reference overruled the April 2025 judgment — so be careful citing the "timelines for Governors" in answers. The current legal position is that **no judicial timelines** can be imposed on the Governor/President for acting on Bills.
+
+### GST Council as Cooperative Federalism
+
+| Feature | Detail |
+|---------|--------|
+| **Constitutional basis** | Article 279A (101st Amendment, 2016) |
+| **Voting structure** | Centre: 1/3 of total votes; all States collectively: 2/3; decisions require 3/4 majority |
+| **Design** | Neither Centre nor states can override unilaterally — a constitutional innovation in fiscal federalism |
+| **SC ruling (Union of India v. Mohit Minerals, May 2022)** | GST Council recommendations are **not binding** — they have only **persuasive value**; legislative power rests with Parliament and State legislatures under Article 246A |
+
+---
+
+## Cooperative vs Competitive Federalism
+
+### NITI Aayog's Role
+
+NITI Aayog (constituted 1 January 2015) replaced the Planning Commission to actualise **cooperative federalism** — it does not impose centrally designed plans but enables states to adapt policies autonomously.
+
+**Competitive Federalism — State Rankings:**
+
+NITI Aayog promotes healthy competition among states through transparent indices:
+
+| Index | What It Measures |
+|-------|------------------|
+| School Education Quality Index | Learning outcomes, access, equity |
+| State Health Index | Health outcomes, governance, key inputs |
+| Composite Water Management Index | Groundwater, restoration, policy, governance |
+| SDG India Index | Progress on 17 Sustainable Development Goals |
+| India Innovation Index | Innovation ecosystem across states |
+| Export Competitiveness Index | State-level export performance |
+
+### Aspirational Districts Programme (ADP)
+
+| Detail | Fact |
+|--------|------|
+| **Launched** | January 2018 |
+| **Coverage** | 112 most under-developed districts (minimum 1 per state) |
+| **Framework** | 49 KPIs across 5 themes: Health & Nutrition, Education, Agriculture & Water, Financial Inclusion & Skills, Infrastructure |
+| **Impact** | By 2019, 8 districts moved from Tier IV to Tier I; over 25 crore people positively impacted (as of Oct 2022) |
+| **Model** | Convergence of central and state schemes + district-level governance innovation — exemplifies cooperative and competitive federalism simultaneously |
+
+---
+
 ## Important for UPSC
 
 ### Prelims Focus
@@ -161,12 +291,18 @@ Parliament has **exclusive power** to legislate on subjects not in any of the th
 - Amendment categories — simple majority vs special majority vs special + state ratification
 - Constituent Assembly facts — 389→299 members, first meeting 9 Dec 1946, Drafting Committee 7 members
 - Residuary powers with Parliament (not states — unlike USA)
+- Sarkaria Commission: 1983, 247 recommendations; Punchhi Commission: 2007, 273 recommendations
+- Inter-State Council: Article 263, established 1990, only 11 meetings
+- GST Council: Article 279A, 3/4 majority, recommendations not binding (Mohit Minerals, 2022)
+- One Nation One Election: Kovind Committee, 129th Amendment Bill (Dec 2024)
 
 ### Mains Dimensions
-- **Cooperative vs Competitive Federalism** — GST Council as model; NITI Aayog replacing Planning Commission
+- **Cooperative vs Competitive Federalism** — GST Council as model; NITI Aayog rankings; Aspirational Districts Programme
 - **Basic Structure — judicial overreach or safeguard?** Compare with UK (Parliamentary sovereignty) and USA (constitutional amendments unchecked)
-- **Centre-State tensions** — Governor's role, Article 356 misuse, fiscal autonomy debate, One Nation One Election implications
+- **Centre-State tensions** — Governor's role, Article 356 misuse, fiscal autonomy, One Nation One Election implications
 - **42nd vs 44th Amendment** — Indira Gandhi's centralisation vs Morarji Desai's corrective; analyse which provisions survived
+- **Sarkaria vs Punchhi** — Compare approaches to Governor's role and Article 356; evaluate why recommendations remain unimplemented
+- **Governor controversies** — The 2025 SC rulings on Bills; balance between federalism and executive authority
 
 ---
 

@@ -17,16 +17,30 @@ tags:
 
 ## India's Economic Profile
 
-India is the **5th largest economy** in the world by nominal GDP and **3rd largest by PPP** (Purchasing Power Parity). Key indicators for FY 2025-26:
+India is the **5th largest economy** in the world by nominal GDP (overtook the UK in Q1 2022) and **3rd largest by PPP** (Purchasing Power Parity). Key indicators:
 
-| Indicator | Value (FY 2025-26) |
-|-----------|---------------------|
-| **Real GDP Growth** | 7.4% (Economic Survey 2025-26) |
-| **GDP Growth Projection FY 2026-27** | 6.8%–7.2% |
-| **Fiscal Deficit** | 4.4% of GDP (target) |
-| **Inflation (CPI)** | ~2.1% (well below RBI's 4% target) |
-| **Current Account Deficit** | 0.8% of GDP (H1 FY26) |
-| **Medium-term Growth Potential** | 7% (Economic Survey estimate) |
+| Indicator | Value | Source |
+|-----------|-------|--------|
+| **Nominal GDP (FY 2024-25)** | Rs. 330.68 lakh crore (~$3.89 trillion) | MoSPI Provisional Estimates |
+| **Real GDP Growth (FY 2024-25)** | 6.5% | NSO |
+| **Real GDP Growth (FY 2025-26)** | 7.4% (First Advance Estimate) | NSO |
+| **Fiscal Deficit (FY 2025-26)** | 4.4% of GDP (Budget target) | Union Budget |
+| **Inflation (CPI, FY 2024-25 avg)** | 4.6% (6-year low) | RBI |
+| **CPI Inflation (Feb 2026)** | 3.21% | MoSPI |
+| **RBI Repo Rate** | 5.25% (neutral stance) | RBI (cut 25 bps on 5 Dec 2025) |
+| **Current Account Deficit** | 1.2% of GDP (Q2 FY25) | Economic Survey |
+| **Per Capita Income (FY 2024-25)** | Rs. 2,34,859 (~$2,730 nominal); $9,817 PPP | MoSPI/World Bank |
+| **Forex Reserves** | ~$600 billion+ | RBI |
+
+### Sector-wise GDP Composition (FY 2024-25, GVA at Current Prices)
+
+| Sector | Share of GVA |
+|--------|-------------|
+| **Services** | 54.93% |
+| **Industry** | 27.13% |
+| **Agriculture & Allied** | 17.94% |
+
+> **Exam Tip:** India's GDP rank (5th) vs HDI rank (134th) is a classic UPSC question. The gap exists because GDP is an aggregate measure that doesn't capture per capita income ($2,730 vs $85,000+ for the US) or non-income dimensions (health, education). Always use both metrics in Mains answers to demonstrate analytical depth.
 
 ---
 
@@ -89,6 +103,80 @@ India is the **5th largest economy** in the world by nominal GDP and **3rd large
 
 ---
 
+## Union Budget 2025-26 — Key Highlights
+
+Presented on **1 February 2025**:
+
+| Parameter | Figure |
+|-----------|--------|
+| **Total Expenditure** | Rs. 50,65,345 crore (+7.4% over RE 2024-25) |
+| **Total Receipts (excl. borrowings)** | Rs. 34.96 lakh crore |
+| **Fiscal Deficit Target** | 4.4% of GDP |
+| **Capital Expenditure** | Rs. 11.21 lakh crore (3.1% of GDP) |
+| **Defence Allocation** | Rs. 6,81,210 crore (13.4% of total expenditure) |
+| **PM-KISAN** | Rs. 63,500 crore |
+
+**Key New Schemes:**
+- **PM Dhan-Dhaanya Krishi Yojana** — covers 100 low-productivity districts, benefits 1.7 crore farmers
+- **Nuclear Energy Mission** — Rs. 20,000 crore for Small Modular Reactors; 5 SMRs by 2033
+- **Urban Challenge Fund** — Rs. 1 lakh crore total outlay
+- **FDI in Insurance** raised from 74% to **100%** (for companies investing entire premium in India)
+
+**Income Tax — New Regime:** No tax up to Rs. 12 lakh income (Rs. 12.75 lakh for salaried with standard deduction). Top rate 30% above Rs. 24 lakh.
+
+---
+
+## India's Trade Profile (FY 2024-25)
+
+| Parameter | Value |
+|-----------|-------|
+| **Total Exports (Goods + Services)** | $820.93 billion (+5.50% YoY) |
+| **Total Imports (Goods + Services)** | $915.19 billion (+6.85% YoY) |
+| **Overall Trade Deficit** | ~$94.26 billion |
+| **Services Exports** | $387.54 billion (record; +13.63% YoY) |
+| **Services Trade Surplus** | $188.57 billion |
+| **Merchandise Trade Deficit** | $282.83 billion |
+
+**Top Import Items:** Crude petroleum (~$220.6 billion, 31.4% of total); Gold ($51.7 billion); Electronic components. **Top crude oil source:** Russia (>1/3 of oil imports).
+
+---
+
+## Digital India — UPI Revolution
+
+| Indicator | Value |
+|-----------|-------|
+| **UPI Transactions (FY 2024-25)** | 18,587 crore (CAGR 114% from 92 crore in FY 2017-18) |
+| **UPI Share of Retail Digital Payments** | 81% of transactions, 85% of volumes |
+| **Users** | 491 million |
+| **Merchants** | 65 million |
+| **Global Position** | World's largest real-time payment system — 49% of global real-time transactions (IMF) |
+
+---
+
+## GST Collections
+
+| Year | Total Collection |
+|------|-----------------|
+| **FY 2024-25** | Rs. 22.08 lakh crore (record; +9.4% YoY) |
+| **Average Monthly** | Rs. 1.84 lakh crore |
+
+GST was launched on **1 July 2017** — "One Nation, One Tax." It replaced 17 central and state taxes and 13 cesses.
+
+---
+
+## PLI Schemes — Manufacturing Push
+
+| Metric | Value (as of Sep 2025) |
+|--------|----------------------|
+| **Sectors covered** | 14 |
+| **Total outlay** | Rs. 1.97 lakh crore |
+| **Investments realised** | Rs. 2 lakh crore |
+| **Incremental production/sales** | Rs. 18.7 lakh crore |
+| **Employment generated** | 12.6 lakh+ |
+| **Key achievement** | India became **net exporter of mobile phones** and **net exporter of bulk drugs** |
+
+---
+
 ## Fiscal Policy
 
 ### Key Concepts
@@ -134,6 +222,36 @@ India is the **5th largest economy** in the world by nominal GDP and **3rd large
 - GDP calculation methods: **Production (value-added)**, **Income**, and **Expenditure** methods
 
 > **Exam Tip:** UPSC often tests the difference between GDP at factor cost and GDP at market prices. The formula is: **GDP at market prices = GDP at factor cost + Indirect taxes − Subsidies**. Since 2015, India uses GVA (Gross Value Added) at basic prices for sectoral analysis and GDP at market prices as the headline number. If a question asks about the "new methodology," remember: GVA replaced GDP at factor cost, NOT GDP at market prices.
+
+---
+
+## Employment Data (PLFS 2023-24)
+
+| Indicator | Value | Trend |
+|-----------|-------|-------|
+| **Unemployment Rate (Usual Status)** | 3.2% | Down from 6.0% (2017-18) |
+| **LFPR (Overall)** | 59.6% | Marginally down from 59.8% |
+| **Female LFPR** | 41.7% | Up from 23.3% (2017-18) — nearly doubled |
+| **Youth Unemployment** | 10.2% | Below global average of 13.3% (ILO) |
+| **Urban Female Unemployment** | 8.2% | Remains elevated |
+
+> **Warning:** The sharp rise in female LFPR from 23.3% to 41.7% is contested. CEDA-Ashoka researchers have questioned whether this reflects genuine improvement or methodological changes in PLFS surveys (inclusion of unpaid family work). In Mains, present both interpretations.
+
+---
+
+## Economic Survey 2024-25 — Key Takeaways
+
+Tabled in Parliament on **31 January 2025**:
+
+| Finding | Detail |
+|---------|--------|
+| **Growth** | FY25 real GDP growth at 6.4%; FY26 projected at 6.3–6.8% |
+| **Private consumption** | Grew 7.3%, driven by rural demand rebound; 61.8% of GDP |
+| **Services exports** | India secured 7th-largest share in global services exports |
+| **Banking health** | Gross NPAs at 12-year low of 2.6% |
+| **Key recommendation** | "Ease of Doing Business 2.0" — systematic deregulation, especially for MSMEs |
+| **Labour reforms** | Promote flexible working hours, remove overtime restrictions |
+| **Infrastructure** | 2,031 km railway network commissioned (Apr–Nov 2024); 17 new Vande Bharat trains |
 
 ---
 

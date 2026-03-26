@@ -96,19 +96,33 @@ This is one of the most frequently tested areas in UPSC.
 
 ### Evolution Through Landmark Cases
 
-| Case | Year | Ruling |
-|------|------|--------|
-| **Champakam Dorairajan v. State of Madras** | 1951 | FRs prevail over DPSPs. Led to the **1st Amendment** (added Article 15(4)) |
-| **Golaknath v. State of Punjab** | 1967 | Parliament cannot amend Fundamental Rights |
-| **Kesavananda Bharati v. State of Kerala** | 1973 | Parliament can amend FRs but not destroy the Basic Structure. DPSPs can be implemented if they don't violate the Basic Structure |
-| **Minerva Mills v. Union of India** | 1980 | **Harmony between FRs and DPSPs is the Basic Structure.** Neither can override the other absolutely. Struck down Section 4 of the 42nd Amendment which gave primacy to DPSPs over FRs |
-| **Unni Krishnan v. State of AP** | 1993 | Right to education (then a DPSP) is part of Right to Life (Article 21) — DPSPs can give content to FRs |
+| Case | Year | Bench | Ruling |
+|------|------|-------|--------|
+| **Champakam Dorairajan v. State of Madras** | 1951 | — | FRs prevail over DPSPs. Madras communal reservation in education struck down (Art. 29(2)). Led to **1st Amendment** adding Article 15(4) |
+| **Golaknath v. State of Punjab** | 1967 | 11 judges (6:5) | Parliament cannot amend Fundamental Rights. Applied **prospective overruling** doctrine |
+| **Kesavananda Bharati v. State of Kerala** | 1973 | **13 judges (7:6)** | Parliament can amend FRs but cannot destroy the **Basic Structure**. Overruled Golaknath on amending power. Harmony between FRs and DPSPs is part of basic structure |
+| **Minerva Mills v. Union of India** | 1980 | 5 judges (4:1) | **Struck down Section 4 of the 42nd Amendment** which gave all DPSPs primacy over FRs. FRs and DPSPs are "two wheels of a chariot" (Granville Austin). Article 31C **reverted** to original form (protecting only Arts. 39(b)/(c)) |
+| **Unnikrishnan v. State of AP** | 1993 | Constitution Bench | Right to education (DPSP Art. 41) is part of Right to Life (Art. 21). Paved way for **86th Amendment** adding Art. 21A |
+| **Ashoka Kumar Thakur v. UOI** | 2008 | Constitution Bench | Upheld 27% OBC reservation in central higher education (93rd Amendment, Art. 15(5)). Mandated creamy layer exclusion |
+| **Property Owners Assn v. Maharashtra** | 2024 | **9 judges (8:1)** | Not all private property is "material resources of community" under Art. 39(b). Overruled Justice Krishna Iyer's 1978 broad interpretation. **Confirmed Article 31C survives** in original form post-Minerva Mills |
+
+### The Article 31C Story — Essential for Mains
+
+| Stage | What Happened |
+|-------|---------------|
+| **25th Amendment (1971)** | Inserted Article 31C — laws implementing Arts. 39(b) and 39(c) protected from challenge under Arts. 14 and 19 |
+| **42nd Amendment (1976)** | Section 4 expanded 31C to cover **all DPSPs** — effectively making DPSPs supreme over FRs |
+| **Minerva Mills (1980)** | Struck down Section 4 — 31C reverted to original form (only Arts. 39(b)/(c)) |
+| **Property Owners Assn (2024)** | 9-judge bench **unanimously confirmed** Article 31C still exists in its original form |
+
+> **Exam Tip:** The Article 31C evolution is one of the most complex — and most tested — topics in Polity. The key point: Article 31C exists today but only protects laws implementing Articles 39(b) and 39(c), not all DPSPs. The 42nd Amendment's expansion was struck down in Minerva Mills.
 
 ### Current Position
-- **FRs and DPSPs are complementary**, not conflicting
+- **FRs and DPSPs are complementary**, not conflicting — "two wheels of a chariot"
 - Courts use DPSPs to **interpret** the scope of Fundamental Rights
 - Parliament can curtail FRs to implement DPSPs, provided the Basic Structure is not violated
-- Several DPSPs have been converted into FRs or laws (e.g., RTE, legal aid, environment protection)
+- Several DPSPs have been **converted into FRs or laws**: education (Art. 21A), legal aid (NALSA), environment (EPA 1986)
+- Courts have progressively **read DPSPs into Article 21**: right to education (Art. 45 DPSP → Art. 21A FR), right to clean environment (Art. 48A DPSP → Art. 21), right to livelihood (Arts. 39/41 DPSP → Art. 21)
 
 ---
 
@@ -127,6 +141,20 @@ This is one of the most frequently tested areas in UPSC.
 | Article 48A (Environment) | Environment Protection Act, 1986; Wildlife Protection Act, 1972; Forest Conservation Act, 1980 |
 | Article 49 (Heritage protection) | Ancient Monuments Act, 1958 |
 | Article 50 (Judicial separation) | Criminal Procedure Code, 1973 (separated judiciary from executive at lower levels) |
+
+---
+
+## Right to Property — From FR to Constitutional Right
+
+The **44th Amendment (1978)** made a landmark change directly connected to the DPSP-FR conflict:
+
+| Before 44th Amendment | After 44th Amendment |
+|------------------------|---------------------|
+| Art. 19(1)(f) — Right to acquire, hold, and dispose of property (FR) | **Deleted** from Part III |
+| Art. 31 — Right against deprivation of property (FR) | **Deleted** from Part III |
+| Enforceable under Art. 32 (SC) | New **Art. 300A** (Part XII): "No person shall be deprived of his property save by authority of law" — enforceable only under Art. 226 (HC) |
+
+**Why this matters for DPSP:** The removal was motivated by the conflict between property rights (FR) and land reform DPSPs (Arts. 39(b)/(c)). The 44th Amendment also added **Art. 38(2)** (minimise inequalities in income, status, and opportunities).
 
 ---
 
@@ -151,6 +179,19 @@ The UCC is the most debated DPSP. Recent developments have made it a live exam t
 | **Uttarakhand UCC enforced** | **27 January 2025** | First state to implement UCC; mandates registration of marriages and live-in relationships |
 | **Uttarakhand UCC (Amendment) Ordinance** | **2026** | Procedural and penal improvements for smoother implementation |
 | **Gujarat UCC Bill** | Passed **24 March 2026** | Second state after Uttarakhand; covers marriage, divorce, succession, live-in relationships; STs exempted; penalties for bigamy and forced marriages |
+
+### UCC — Key Case Law
+
+| Case | Year | Significance |
+|------|------|-------------|
+| **Shah Bano (Mohd. Ahmed Khan v. Shah Bano Begum)** | 1985 | 5-judge bench, unanimous. Muslim divorced woman entitled to maintenance under S.125 CrPC beyond iddat. Court criticised non-implementation of Art. 44 as a "dead letter." **Aftermath:** Rajiv Gandhi govt passed Muslim Women (Protection of Rights on Divorce) Act, 1986, nullifying the ruling |
+| **Sarla Mudgal v. UOI** | 1995 | Second marriage by Hindu husband after conversion to Islam without dissolving first marriage is **void** (bigamy under S.494 IPC). Directed govt to file affidavit on UCC steps |
+| **John Vallamattom v. UOI** | 2003 | Struck down S.118 of Indian Succession Act (discriminatory conditions on Christian charitable bequests) — violated Art. 14. Emphasised need for UCC |
+| **Danial Latifi v. UOI** | 2001 | Reinterpreted the 1986 Act to restore Shah Bano's spirit — reasonable provision must cover divorced Muslim woman's future needs |
+
+### Law Commission on UCC
+- **21st Law Commission (2018):** Concluded *"UCC is neither necessary nor desirable at this stage"* — recommended reforming personal laws from within
+- **22nd Law Commission (2023–ongoing):** Solicited fresh public views from June 2023; no final report as of March 2026
 
 > **Key distinction:** Article 44 directs a UCC "throughout the territory of India" — i.e., a national code. State-level UCCs are a new approach. The question of whether a state can enact UCC under its legislative competence (Entry 5, Concurrent List — "Marriage and divorce") vs. the need for a Central law is an evolving constitutional question. Expect this in Mains 2026.
 

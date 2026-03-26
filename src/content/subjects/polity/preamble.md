@@ -65,6 +65,40 @@ The Resolution declared India's resolve to be a sovereign, independent republic 
 
 > **Exam Tip:** UPSC often asks "Who moved the Objective Resolution?" (Nehru) and "Who chaired the Drafting Committee?" (Ambedkar). Don't confuse the two — Nehru set the **philosophy**, Ambedkar drafted the **legal text**. The Preamble was the last item adopted by the Constituent Assembly (after all other provisions were finalised).
 
+### B.N. Rau — The Forgotten Architect
+
+**Sir Benegal Narsing Rau** was appointed Constitutional Adviser to the Constituent Assembly in 1946. He prepared the initial rough draft of the Constitution — starting work in September 1947 and producing a blueprint in about a month — which the Drafting Committee then refined. On the Preamble specifically, Rau shaped its language; he explained that *"the reason for putting the dignity of the individual first was that unless the dignity of the individual is assured, the nation cannot be united."* Ambedkar acknowledged Rau's contribution in his concluding speech on 25 November 1949.
+
+### Constituent Assembly Debate on the Preamble (17 October 1949)
+
+The Preamble was debated on **17 October 1949** — after the second reading of all other articles was complete — and adopted as part of the full Constitution on **26 November 1949**.
+
+| Member | Position Taken |
+|--------|---------------|
+| **Prof. K.T. Shah** | Moved amendment to add "Secular, Federal, and Socialist" to the Preamble — **rejected** at the time (these words were added only via the 42nd Amendment in 1976) |
+| **Maulana Hasrat Mohani** | Moved to replace "Sovereign Democratic Republic" with "Sovereign Federal Republic" — rejected |
+| **Brajeshwar Prasad** | Had eight proposed amendments; remarked that "secular" had not found a place in the Constitution |
+| **Deshbandhu Gupta** | Pointed out inconsistencies in Mohani's proposed changes |
+
+**The "God" Debate:** H.V. Kamath moved an amendment to add *"In the name of God"* before "We, the people of India." It was supported by Shibban Lal Saksena and Pandit Govind Malaviya, and opposed by Purnima Banerji (who appealed to Kamath "not to put us to the embarrassment of having to vote upon God"). Dr. Rajendra Prasad (presiding) advised Kamath not to press it. The amendment was **negatived 68 to 41**. Kamath remarked it was *"a black day in the annals of India."*
+
+> **Common Mistake:** Many aspirants assume "Socialist" and "Secular" were deliberately omitted by the founders. In reality, K.T. Shah specifically proposed these words in the Constituent Assembly, but they were rejected — Ambedkar argued the economic/social policy should be left to future governments. The 42nd Amendment (1976) later added them during the Emergency.
+
+### How Eminent Jurists Describe the Preamble
+
+| Person | Description |
+|--------|------------|
+| **Pandit Thakur Das Bhargava** | *"The soul of the Constitution… a key to the Constitution… a jewel set in the Constitution"* |
+| **N.A. Palkhivala** | *"The identity card of the Constitution"* — his books *We, the People* and *Our Constitution Defaced and Defiled* (critiquing the 42nd Amendment) are essential reading |
+| **Sir Ernest Barker** | *"The key-note to the Constitution"* |
+| **K.M. Munshi** | *"The horoscope of our sovereign democratic republic"* |
+
+### "We, the People" — The Popular Sovereignty Question
+
+The phrase **"We, the people of India"** asserts popular sovereignty — the Constitution derives authority from the people, not from any monarch or external power. However, a frequently raised critique is that the Constituent Assembly was **not directly elected by universal adult suffrage** — its members were elected by provincial assemblies under the restricted franchise of the 1935 Act (roughly 28% of the adult population).
+
+**How this is reconciled:** The Constituent Assembly was the most representative body feasible at the time (before universal suffrage existed in India). The Constitution's subsequent adoption by "the people" is validated by its continuous acceptance — every election held under it reaffirms popular consent. The phrase is thus both aspirational and retroactively legitimised by democratic practice since 1950.
+
 ## Philosophical Basis
 
 - **"We, the people of India"** — Popular sovereignty; the Constitution derives authority from the people, not from any external power or monarch
@@ -91,6 +125,10 @@ The Resolution declared India's resolve to be a sovereign, independent republic 
 | **Berubari Union case** | 1960 | The Supreme Court held that the Preamble is **not** a part of the Constitution; it is a key to understanding the makers' intent but not a source of power |
 | **Kesavananda Bharati v. State of Kerala** | 1973 | Overruled Berubari. A 13-judge bench held that the Preamble **is** a part of the Constitution and is subject to amendment under Article 368, provided the basic structure is not destroyed |
 | **LIC of India v. Consumer Education & Research Centre** | 1995 | Reaffirmed that the Preamble is an integral part of the Constitution |
+| **S.R. Bommai v. Union of India** | 1994 | 9-judge bench; held **secularism is part of the basic structure**. Key observation: *"The Constitution does not recognize, it does not permit, mixing religion and State power."* Secularism defined as "benevolent neutrality" — more than passive tolerance. Citation: (1994) 3 SCC 1 |
+| **Preamble challenge dismissed** | 2024 | On **25 November 2024**, a bench of CJI Sanjiv Khanna and Justice PV Sanjay Kumar **dismissed** petitions (by Subramanian Swamy, Ashwini Upadhyay, and Balram Singh) seeking removal of "socialist" and "secular" from the Preamble — held these are integral to the basic structure |
+
+> **Warning:** Many sources incorrectly cite "Subramanian Swamy v. UOI (2016)" as the Preamble challenge case. The **2016 case** ((2016) 7 SCC 221, decided 13 May 2016) was about **criminal defamation** (Sections 499–500 IPC), not the Preamble. The actual Preamble challenge was dismissed on **25 November 2024**. Do not confuse these in your answers.
 
 ## Can the Preamble Be Amended?
 
@@ -110,6 +148,19 @@ The Preamble has been amended **once** — by the **42nd Amendment Act, 1976** �
 | Amendable? | Yes (basic structure protected) | Yes (basic structure protected) | Yes |
 | Source of power? | No (Berubari reaffirmed) | Yes | No |
 
+## Comparison with Other Countries' Preambles
+
+| Country | Key Feature | How India Differs |
+|---------|-------------|-------------------|
+| **USA (1787)** | "We the People of the United States…" — 52 words, 6 objectives (Justice, Tranquility, Defence, Welfare, Liberty). **Never amended.** | India's Preamble is longer, more detailed, includes social and economic justice, and has been amended (42nd Amendment). The "We, the people" phrase is directly borrowed from the US. |
+| **France (1958)** | References the 1789 Declaration of Rights of Man. "Liberté, Égalité, Fraternité" appears in Article 2 as the national motto (constitutional status since 1848). | India's Justice–Liberty–Equality–Fraternity ideals are influenced by the French Revolution, but India adds "social, economic and political" dimensions to justice — going beyond the French formulation. |
+| **South Africa (1996)** | "We, the people of South Africa…" — explicitly **acknowledges past injustices** and honours those who suffered for freedom. Ends with a multilingual prayer. | Most comparable to India's Preamble in emphasis on social justice and equality. India's Preamble does not explicitly acknowledge colonial injustice, though this is implicit in the "give to ourselves" phrase. |
+| **Japan (1947)** | Emphasises pacifism — "We… resolved that never again shall we be visited with the horrors of war." Article 9 renounces war. | India's Preamble does not mention peace or war. India has no equivalent of Japan's pacifist clause. |
+
+> **Exam Tip:** For GS2 Mains, if asked to compare India's Preamble with other nations, highlight that India uniquely combines **social-economic justice** (influenced by the Russian Revolution) with **political liberties** (influenced by the American and French traditions) — a synthesis not found in any single Western preamble.
+
+---
+
 ## Important for UPSC
 
 ### Prelims Focus
@@ -120,8 +171,9 @@ The Preamble has been amended **once** — by the **42nd Amendment Act, 1976** �
 
 ### Mains GS-2 Dimensions
 - **Preamble as the "identity card"** of the Constitution — Thakurdas Bhargava called it the "soul of the Constitution"
-- **"Secular" — integral or political?** The 42nd Amendment added it during Emergency (1976). Argue both sides: (a) merely made explicit what was implicit in Articles 25–28, (b) imposed by executive fiat without referendum. The Supreme Court in **S.R. Bommai (1994)** held secularism is part of the basic structure
-- **Can Parliament remove "socialist" or "secular"?** No — both are now part of the basic structure. The SC in **Subramanian Swamy v. UOI (2016)** refused to delete "socialist" and "secular" from the Preamble
+- **"Secular" — integral or political?** The 42nd Amendment added it during Emergency (1976). Argue both sides: (a) merely made explicit what was implicit in Articles 25–28, (b) imposed by executive fiat without referendum. The Supreme Court in **S.R. Bommai (1994)** held secularism is part of the basic structure — defined it as "benevolent neutrality," not mere tolerance
+- **Can Parliament remove "socialist" or "secular"?** No — both are now part of the basic structure. The SC **dismissed** petitions to remove these words on **25 November 2024** (CJI Sanjiv Khanna bench), holding they are integral to the basic structure after 48 years of acceptance
+- **K.T. Shah's rejected amendment (1949)** — He proposed adding "Secular, Federal, Socialist" to the Preamble in the Constituent Assembly itself; Ambedkar opposed, arguing economic/social policy should be left to future governments. The 42nd Amendment vindicated Shah's proposal 27 years later
 - **Preamble vs ground reality** — test each objective against data: Justice (undertrial crisis, legal aid gaps), Liberty (sedition debates, internet shutdowns), Equality (caste/gender disparities), Fraternity (communal polarisation)
 
 ### Interview Angles

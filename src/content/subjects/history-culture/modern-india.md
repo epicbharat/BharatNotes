@@ -184,21 +184,92 @@ The **Indian National Congress (INC)** was founded on **28 December 1885** in Bo
 
 ---
 
+## Constitutional Evolution Under British Rule
+
+This is one of the most heavily tested topics in UPSC Prelims. Each Act represents a step in the constitutional development of India — from Company rule to Crown rule to self-governance.
+
+### Timeline of Key Acts
+
+| Act | Year | Key Provisions |
+|-----|------|----------------|
+| **Regulating Act** | 1773 | Governor of Bengal elevated to **Governor-General of Bengal** (Warren Hastings — first holder); Executive Council of 4 members; **Supreme Court** established at Calcutta (4 judges) |
+| **Pitt's India Act** | 1784 | Established **dual control** — **Board of Control** (political affairs, 6 Privy Counsellors) + **Court of Directors** (commercial affairs); dual system lasted until 1858 |
+| **Charter Act** | 1833 | Governor-General of Bengal redesignated as **Governor-General of India** (Lord William Bentinck — first holder); Company's commercial activities ended; **Law Member** added to Executive Council |
+| **Charter Act** | 1853 | **Separated legislative and executive functions** of the Council; open competition for civil services on recommendation of **Macaulay Committee** (1854); competitive exams began 1855 |
+| **Government of India Act** | 1858 | **Abolished East India Company**; Crown rule began; created **Secretary of State for India** + **Council of India** (15 members); Governor-General given title of **Viceroy** |
+| **Indian Councils Act** | 1861 | **Portfolio system** introduced; **Indians nominated to legislative council** for the first time (advisory role only) |
+| **Indian Councils Act** | 1892 | Increased council size; introduced concept of **indirect elections** (though word "election" not used); councils could discuss budget but not vote |
+| **Indian Councils Act (Morley-Minto Reforms)** | 1909 | **Separate electorates for Muslims** (first communal representation); **Satyendra Prasanna Sinha** — first Indian member of Viceroy's Executive Council (Law Member, 1909–10) |
+| **Government of India Act (Montagu-Chelmsford Reforms)** | 1919 | **Dyarchy in provinces** — subjects divided into Reserved (Governor) and Transferred (Indian ministers); **Bicameral legislature at Centre** — Legislative Assembly (lower, 145 members) + Council of State (upper, 60 members); franchise extended to ~5 million (~3% of adults) |
+| **Government of India Act** | 1935 | Federal scheme (never implemented — princely states refused); **Provincial autonomy** (implemented 1937); abolished dyarchy in provinces; **Federal Court** established; three legislative lists (federal, provincial, concurrent) |
+| **Indian Independence Act** | 1947 | Created two dominions (India and Pakistan) from 15 August 1947; Constituent Assemblies given **sovereign legislative authority**; office of Secretary of State abolished |
+
+> **Exam Tip:** The constitutional evolution follows a clear pattern of increasing Indian participation: 1861 (nominated Indians), 1892 (indirect elections), 1909 (separate electorates), 1919 (dyarchy — partial Indian control), 1935 (provincial autonomy — fuller Indian control), 1947 (complete sovereignty). Frame your Mains answers around this trajectory of "gradual devolution" which always remained one step behind Indian demands.
+
+### Key Distinctions for Prelims
+
+| Confusion Point | Correct Answer |
+|----------------|----------------|
+| First Governor-General of **Bengal** | Warren Hastings (1772) |
+| First Governor-General of **India** | Lord William Bentinck (1833) |
+| Last Governor-General of **Company rule** | Lord Canning |
+| First **Viceroy** | Lord Canning (same person, 1858) |
+| Last Viceroy | Lord Mountbatten (1947) |
+| First Indian in Viceroy's Executive Council | Satyendra Prasanna Sinha (1909) |
+| Separate electorates introduced | 1909 (Morley-Minto) — for Muslims |
+| Dyarchy introduced | 1919 (provinces) |
+| Provincial autonomy | 1935 Act (implemented 1937) |
+| Federal Court | 1935 Act (replaced by Supreme Court in 1950) |
+
+> **Common Mistake:** The Government of India Act, 1935 proposed a Federation but it was **never implemented** because the required number of princely states did not agree to join. Only the **provincial autonomy** provisions came into effect (from April 1937). Also, the RBI was created under the separate **Reserve Bank of India Act, 1934** (commenced 1 April 1935) — not the Government of India Act, 1935, though they are closely associated.
+
+---
+
+## Economic Impact of British Rule
+
+### Drain of Wealth Theory
+
+**Dadabhai Naoroji** first articulated the "Drain Theory" in his book *Poverty and Un-British Rule in India* (1901). He argued that a significant portion of India's wealth was being drained to Britain with no economic return.
+
+| Channel of Drain | Mechanism |
+|------------------|-----------|
+| **Home Charges** | Payments for Secretary of State's office, India Office, pensions of British officials — all paid from Indian revenue |
+| **Salaries and remittances** | British officials sent their savings to England |
+| **Trade surplus exploitation** | India's export surplus used to pay Britain's imports from other countries |
+| **Railway investment returns** | Guaranteed 5% returns to British investors on Indian railways — paid from Indian taxes |
+
+### Deindustrialisation
+
+| Phase | Impact |
+|-------|--------|
+| **Destruction of handicrafts** | British machine-made textiles destroyed India's cotton and silk industries; Dhaka muslin virtually disappeared |
+| **Raw material economy** | India reduced to a supplier of raw materials (cotton, jute, indigo, opium) and buyer of manufactured British goods |
+| **Artisan displacement** | Millions of artisans pushed into agriculture, increasing pressure on land |
+| **Famines** | Commercialisation of agriculture (cash crops over food crops) contributed to devastating famines — Great Famine of 1876-78 (~5.5 million deaths), Bengal Famine of 1943 (~3 million deaths) |
+
+> **UPSC Relevance:** The economic critique of colonialism is a core GS1 Mains theme. Always reference Dadabhai Naoroji (Drain Theory), R.C. Dutt ("Economic History of India"), and the Cambridge School debate (which argues drain was exaggerated). Presenting both sides demonstrates analytical depth.
+
+---
+
 ## Important for UPSC
 
 ### Prelims Focus
+- Constitutional Acts timeline (1773, 1784, 1833, 1853, 1858, 1861, 1892, 1909, 1919, 1935, 1947) — provisions and key distinctions
 - Governor-Generals and their key policies (Dalhousie — Doctrine of Lapse; Cornwallis — Permanent Settlement)
 - Revolt of 1857 — leaders and their regions
 - Social reform movements — founder, year, and key contributions
 - Gandhian movements — chronological order, triggers, outcomes
 - INC sessions — year, place, president, significance
 - Land revenue systems — Zamindari vs Ryotwari vs Mahalwari
+- Morley-Minto (1909) — separate electorates; Montagu-Chelmsford (1919) — dyarchy; 1935 Act — provincial autonomy
 
 ### Mains Dimensions
 - **GS1**: Evaluate the nature of the 1857 Revolt — "First War of Independence" vs "Sepoy Mutiny" vs regional uprising
+- **GS1**: Trace the constitutional evolution from Regulating Act to Independence Act — was devolution genuine or cosmetic?
 - **GS1**: Assess the role of moderates vs extremists in the growth of Indian nationalism
 - **GS1**: Compare the methods and contributions of Gandhi and Bose to the freedom struggle
 - **GS1**: Analyze the social reform movements — were they truly reformist or elitist?
+- **GS1**: Evaluate the economic impact of British rule — was it wholly exploitative or did it modernise India?
 - **GS2**: How did British land revenue systems shape post-independence agrarian structure?
 - **GS4 (Ethics)**: Gandhi's Satyagraha as an ethical framework for conflict resolution
 
@@ -207,6 +278,8 @@ The **Indian National Congress (INC)** was founded on **28 December 1885** in Bo
 - Why did the Congress accept Partition in 1947?
 - Relevance of Gandhian methods in modern protest movements
 - Did the British "divide and rule" policy succeed because of pre-existing fault lines?
+- Were the British Acts genuine steps toward self-governance or delaying tactics?
+- Did colonialism leave any positive institutional legacy (railways, civil services, legal system)?
 
 ---
 
