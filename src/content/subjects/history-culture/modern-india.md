@@ -283,49 +283,6 @@ This is one of the most heavily tested topics in UPSC Prelims. Each Act represen
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q1. (2019):** With reference to the British colonial rule in India, consider the following statements:
-1. Mahatma Gandhi was instrumental in the abolition of the system of 'ichthus' in British India.
-2. The practice of sati was banned during the reign of Lord William Bentinck.
-
-Which of the above statements is/are correct?
-Consider the following events:
-1. The first session of the Indian National Congress was held in Bombay.
-2. The Ilbert Bill controversy took place during the viceroyalty of Lord Ripon.
-
-Which of the above statements is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (c) *(Both are correct facts — INC first session was held in Bombay in 1885; Ilbert Bill controversy occurred during Lord Ripon's viceroyalty, 1880-84)* *(Prelims PYQ, GS Paper I)*
-
-**Q2. (2017):** With reference to the 'Revolt of 1857', who of the following was/were betrayed by a friend, captured and put to death by the British?
-(a) Nana Sahib (b) Kunwar Singh (c) Khan Bahadur Khan (d) Tantia Tope
-**Answer:** (d) *(Tantia Tope was betrayed by his friend Man Singh, captured and executed in 1859)* *(Prelims 2017, GS Paper I)*
-
-**Q3. (2020):** With reference to the history of India, consider the following pairs:
-1. Aurobindo Ghosh — Karmayogin
-2. Bal Gangadhar Tilak — Kesari
-3. Bipin Chandra Pal — New India
-
-Which of the above pairs is/are correctly matched?
-(a) 1 only (b) 1 and 2 only (c) 2 and 3 only (d) 1, 2 and 3
-**Answer:** (d) *(All three pairs are correctly matched)* *(Prelims 2020, GS Paper I)*
-
-**Q4. (2014):** The Rowlatt Act aimed at:
-(a) compulsory economic support to British war efforts
-(b) imprisonment without trial and suppression of political activities
-(c) suppression of the Khilafat Movement
-(d) imposition of restrictions on freedom of the press
-**Answer:** (b) *(Prelims 2012, GS Paper I)*
-
-### Mains
-
-**Q5. (2019):** Assess the role of British imperial power in complicating the process of transfer of power during the 1940s. *(GS Paper I, 250 words)*
-
-**Q6. (2017):** Highlight the differences in the approaches of Subhash Chandra Bose and Mahatma Gandhi in the struggle for freedom. *(GS Paper I, 250 words)*
-
 ---
 
 ## Current Affairs Connect

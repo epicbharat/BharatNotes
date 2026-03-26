@@ -217,14 +217,6 @@ India is known as the **"pharmacy of the world"**, accounting for approximately 
 
 ---
 
-## Previous Year Questions (PYQs)
-
-**Prelims 2018:** *Consider the following statements: 1. The__(Ni-kshay)__ portal is related to tuberculosis. 2. India has the highest burden of tuberculosis in the world.* — Both statements are correct and frequently tested.
-
-**Mains 2020 (GS2):** *"India has made phenomenal progress in access and availability of health services since independence. Identify the bottlenecks in health service delivery and suggest solutions."* (250 words)
-
-**Mains 2009 (GS):** *"The last National Family Health Survey (NFHS) displayed a very dismal picture of nutrition as regards several indicators for average Indians. Highlight the salient aspects of this problem."* (150 words)
-
 ---
 
 ## Current Affairs Connect

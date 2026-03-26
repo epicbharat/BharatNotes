@@ -275,24 +275,6 @@ tags:
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Mains (GS Paper IV)
-
-**Q1. (2017):** "The right to speak one's mind is the most elementary of freedoms, as combated by all the villainies." — Do you agree? Justify your answer in the context of the relationship between duty, rights, and moral courage. *(Section A, 150 words)*
-
-**Q2. (2020):** "If a country is to be corruption-free and become a nation of beautiful minds, I strongly feel there are three key societal members who can make a difference. They are the father, the mother and the teacher." — A.P.J. Abdul Kalam. Discuss the role of these societal members in inculcating ethical values in citizens. *(Section A, 150 words)*
-
-**Q3. (2017):** Explain the relevance of the following in the context of civil service ethics:
-(a) Gandhi's concept of seven social sins
-(b) Kant's categorical imperative *(Section A, 150 words each)*
-
-**Q4. (2014):** What do you understand by the concept of a 'just society'? How has this concept evolved with the views of John Rawls? What are its implications for the design of welfare policies in India? *(Section A, 250 words)*
-
-**Q5. (2022):** Case Study: You are the CEO of a Zila Parishad. A contractor employed by the ZP has been using substandard materials in the construction of school buildings. The contractor is the brother of a powerful local politician who is also a member of the ZP. Several complaints have been made but no action has been taken. You now have documentary proof of the corruption. What would you do? *(Section B, 250 words)*
-
-**Q6. (2023):** What are the key ethical considerations in disaster management? How should an administrator balance between short-term relief and long-term rehabilitation? *(Section A, 150 words)*
-
 ---
 
 ## Current Affairs Connect

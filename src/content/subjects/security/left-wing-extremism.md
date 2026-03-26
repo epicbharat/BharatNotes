@@ -240,18 +240,6 @@ Northeast insurgency is **distinct from LWE** — it is **ethnic/identity-based*
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Mains
-
-1. **"The Government of India recently stated that Left Wing Extremism (LWE) will be eliminated by 2026. What do you understand by LWE and how are the people affected by it? What measures have been taken by the government to eliminate LWE?"** — UPSC 2025, GS-3, 150 words, 10 marks
-
-2. **"Naxalism is a social, economic and developmental issue manifesting as a violent internal security threat. In this context, discuss the emerging issues and suggest a multilayered strategy to tackle the menace of Naxalism."** — UPSC 2022, GS-3, 250 words, 15 marks
-
-3. **"Human rights activists constantly highlight the view that the Armed Forces (Special Powers) Act, 1958 (AFSPA) is a draconian act leading to cases of human rights abuses by the security forces. What sections of AFSPA are opposed by the activists? Critically evaluate the requirement with reference to the view held by the Apex Court."** — UPSC 2015, GS-3, 200 words, 12.5 marks
-
-4. **"Left Wing Extremism (LWE) is showing a downward trend, but still affects many parts of the country. Briefly explain the Government of India's approach to counter the challenges posed by LWE."** — UPSC 2018, GS-3, 150 words, 10 marks
-
 ---
 
 ## Current Affairs Connect

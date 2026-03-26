@@ -323,37 +323,6 @@ India adopted centralised economic planning through the **Planning Commission** 
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q1. (2014):** The Parliament of India acquires the power to legislate on any item in the State List in the national interest if a resolution to that effect is passed by the:
-(a) Lok Sabha by a simple majority of its total membership
-(b) Lok Sabha by a majority of not less than two-thirds of its total membership
-(c) Rajya Sabha by a simple majority of its total membership
-(d) Rajya Sabha by a majority of not less than two-thirds of its members present and voting
-**Answer:** (d) *(Article 249)*
-
-**Q2. (2015):** There is a Parliamentary
-
-
- system of government in India because:
-(a) the Lok Sabha is elected directly by the people
-(b) the Parliament can amend the Constitution
-(c) the Rajya Sabha cannot be dissolved
-(d) the Council of Ministers is responsible to the Lok Sabha
-**Answer:** (d)
-
-### Mains
-
-**Q3. (2017):** "The Indian Constitution has borrowed provisions from the constitutions of various countries." Discuss and evaluate the impact of these borrowings on the Indian political system. *(GS Paper I, 250 words)*
-
-**Q4. (2018):** "India's foreign policy has been shaped by its post-independence experience of nation-building." Examine this statement with specific reference to India's relationship with its immediate neighbours. *(GS Paper I, 250 words)*
-
-**Q5. (2019):** Critically examine the role of the Planning Commission and NITI Aayog in India's economic development. *(GS Paper III, 250 words)*
-
-**Q6. (2020):** "The 1991 economic reforms were a turning point in the economic history of India." Discuss. *(GS Paper III, 250 words)*
-
 ---
 
 ## Current Affairs Connect

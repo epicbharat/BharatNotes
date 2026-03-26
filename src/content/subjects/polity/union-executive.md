@@ -255,38 +255,6 @@ The President can grant:
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### UPSC Prelims
-
-**Q1. (2014)** Which of the following are the discretionary powers of the President of India?
-1. Sending back the advice of the Council of Ministers for reconsideration
-2. Dissolving the Lok Sabha when no party has a clear majority
-3. Appointing the Prime Minister when no party has a clear majority in Lok Sabha
-
-**Answer**: All three involve situations where the President can exercise discretion (particularly No. 2 and 3 in a hung Parliament scenario). The 44th Amendment explicitly provides for power No. 1.
-
-**Q2. (2017)** Consider the following statements:
-1. The President of India can summon a session of Parliament at such place as he/she thinks fit.
-2. The Constitution of India provides for three sessions of the Parliament in a year, but it is not mandatory to conduct all three sessions.
-
-Which is correct?
-**Answer**: Statement 1 is correct (Article 85). Statement 2 is incorrect — the Constitution only mandates that the gap between two sessions shall not exceed 6 months; there is no mention of three sessions.
-
-**Q3. (2019)** Which of the following statements is/are correct regarding the pardoning power of the President?
-1. The President can pardon a sentence inflicted by a Court Martial.
-2. The President can pardon a death sentence.
-
-**Answer**: Both are correct under Article 72.
-
-### UPSC Mains
-
-**Q. (GS-II, 2017)** "The President of India is not a mere rubber stamp." Discuss the discretionary powers and constitutional position of the President with suitable examples.
-
-**Q. (GS-II, 2020)** "The ordinance-making power of the President has been described as a tool to subvert parliamentary democracy." Critically examine.
-
-**Q. (GS-II, 2014)** The size of the Council of Ministers shall not exceed 15% of total strength of Lok Sabha. Discuss the constitutional provisions and the rationale behind this ceiling.
-
 ---
 
 ## Current Affairs Connect

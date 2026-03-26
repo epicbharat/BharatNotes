@@ -255,41 +255,6 @@ tags:
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q1. (2023):** Consider the following statements about 5G technology:
-1. 5G uses millimetre wave spectrum and offers data speeds up to 10 Gbps.
-2. India launched 5G services in October 2022.
-3. 5G only supports enhanced mobile broadband (eMBB) and not machine-type communications.
-
-Which of the statements given above is/are correct?
-(a) 1 and 2 only (b) 2 only (c) 1 and 3 only (d) 1, 2 and 3
-**Answer:** (a) *(5G supports eMBB, Ultra-Reliable Low-Latency Communications (URLLC), and massive Machine-Type Communications (mMTC))* *(Prelims 2023)*
-
-**Q2. (2019):** BrahMos missile is a joint venture between India and:
-(a) Israel (b) France (c) Russia (d) USA
-**Answer:** (c) *(BrahMos Aerospace is a joint venture between DRDO (India) and NPOM (Russia))* *(Prelims PYQ)*
-
-**Q3. (2021):** Consider the following statements:
-1. Agni-V is India's first intercontinental ballistic missile.
-2. It is capable of carrying multiple independently targetable re-entry vehicles (MIRVs).
-
-Which of the statements given above is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (c) *(Agni-V with MIRV technology was successfully tested in 2024 under Mission Divyastra)* *(Prelims PYQ)*
-
-### Mains
-
-**Q4. (2020):** Discuss different types of cybercrimes and measures required to be taken to fight the menace. *(GS Paper III, 250 words)*
-
-**Q5. (2022):** What is the significance of the Indo-US nuclear deal for India's energy security and strategic autonomy? *(GS Paper III, 250 words)*
-
-**Q6. (2024):** Discuss the challenges faced by India in building an indigenous semiconductor ecosystem and the steps taken by the government to address them. *(GS Paper III, 150 words)*
-
-**Q7. (2019):** What are the key features of the Information Technology Act, 2000? How does it address cybercrime in India? *(GS Paper III)*
-
 ---
 
 ## Current Affairs Connect

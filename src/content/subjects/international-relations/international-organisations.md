@@ -260,44 +260,6 @@ The United Nations was founded on **24 October 1945** (UN Day) with 51 original 
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q1. (2015):** The terms 'amber box, blue box and green box' are sometimes seen in the news in the context of the affairs of:
-(a) WTO (b) SAARC (c) UNFCCC (d) FTA between India and EU
-**Answer:** (a) *(These terms refer to different categories of domestic support measures in the WTO Agreement on Agriculture)* *(Prelims 2015, GS Paper I)*
-
-**Q2. (2019):** Consider the following statements:
-1. The IMF's SDR basket includes the US dollar, Euro, Chinese renminbi, Japanese yen, and British pound sterling.
-2. The Chinese renminbi was included in the SDR basket in 2016.
-
-Which of the above statements is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (c) *(Prelims PYQ, GS Paper I)*
-
-**Q3. (2014):** With reference to the International Labour Organisation's Conventions, consider the following statements:
-1. Convention 138 relates to the minimum age for admission to employment.
-2. Convention 182 relates to the worst forms of child labour.
-
-Which of the statements given above is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (c) *(Both conventions are correctly described)* *(Prelims PYQ, GS Paper I)*
-
-**Q4. (2018):** Consider the following statements about the G4 nations:
-1. G4 nations include India, Brazil, Germany and Japan.
-2. These nations support each other's bids for permanent seats on the UNSC.
-
-Which of the statements given above is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (c) *(Prelims PYQ, GS Paper I)*
-
-### Mains
-
-**Q5. (2018):** What are the key areas of reform if the WTO has to survive in the present context of the 'trade war'? *(GS Paper II, 250 words)*
-
-**Q6. (2019):** "The long-standing demand for reform in the United Nations Security Council reflects the changing dynamics of global power." Critically analyse India's claim for a permanent seat in the UNSC. *(GS Paper II, 250 words)*
-
 ---
 
 ## Current Affairs Connect

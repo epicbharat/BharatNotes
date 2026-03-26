@@ -228,34 +228,6 @@ Introduced in the late 1970s–early 1980s by **Justice P.N. Bhagwati** and **Ju
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q. With reference to the Constitution of India, consider the following statements: 1. No High Court shall have the jurisdiction to declare any central law to be constitutionally invalid. 2. An amendment to the Constitution of India cannot be called into question by the Supreme Court of India. Which of the statements given above is/are correct?** (CSE Prelims 2019)
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (d) — High Courts retain the power to examine the constitutional validity of central laws (Articles 226, 227). The Supreme Court can question constitutional amendments that violate the Basic Structure (Kesavananda Bharati, 1973).
-
-**Q. With reference to the writs issued by the Courts in India, consider the following statements: 1. Mandamus will not lie against a private organisation unless it is entrusted with a public duty. 2. Mandamus will not lie against a Company even though it may be a Government Company. 3. Any public minded person can be a petitioner to move the Court to obtain the writ of Quo Warranto. Which of the statements given above are correct?** (CSE Prelims 2022)
-(a) 1 and 2 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3
-**Answer:** (c) — Mandamus can be issued against a Government Company (Statement 2 is wrong). Quo Warranto can be sought by any public-spirited citizen (Statement 3 is correct).
-
-**Q. A Writ of Prohibition is an order issued by the Supreme Court or High Courts to:** (CSE Prelims 2024)
-(a) A government officer prohibiting him from taking a particular action (b) A subordinate officer prohibiting him from acting beyond authority (c) The lower court prohibiting continuation of proceedings in a case (d) The Government prohibiting it from following an unconstitutional policy
-**Answer:** (c) — A Writ of Prohibition is issued by a higher court to a lower court or tribunal to prevent it from exceeding its jurisdiction or usurping jurisdiction it does not possess.
-
-**Q. Right to Privacy is protected as an intrinsic part of Right to Life and Personal Liberty. Which of the following in the Constitution of India correctly and appropriately imply the above statement?** (CSE Prelims 2018)
-(a) Article 14 and the provisions under the 42nd Amendment to the Constitution (b) Article 17 and the Directive Principles of State Policy in Part IV (c) Article 21 and the freedoms guaranteed in Part III (d) Article 24 and the provisions under the 44th Amendment to the Constitution
-**Answer:** (c) — The SC in K.S. Puttaswamy v. Union of India (2017) held Right to Privacy as a fundamental right under Article 21 and the freedoms in Part III.
-
-### Mains
-
-**Q. Explain the reasons for the growth of public interest litigation in India. As a result of it, has the Indian Supreme Court emerged as the world's most powerful judiciary?** (CSE Mains 2024, GS Paper 2, 15 marks)
-
-**Q. Starting from inventing the 'basic structure' doctrine, the judiciary has played a highly proactive role in ensuring that India develops into a thriving democracy. In light of the statement, evaluate the role played by judicial activism in achieving the ideals of democracy.** (CSE Mains 2014, GS Paper 2, 12.5 marks)
-
-**Q. "Constitutionally guaranteed judicial independence is a prerequisite of democracy." Comment.** (CSE Mains 2023, GS Paper 2, 10 marks)
-
 ---
 
 ## Current Affairs Connect

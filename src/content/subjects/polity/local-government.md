@@ -332,48 +332,6 @@ Article 243I (Panchayats) and Article 243Y (Municipalities) mandate the State Go
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### UPSC Prelims
-
-**Q1. (2016)** Under which Schedule of the Indian Constitution are the subjects over which Panchayats have been given administrative control listed?
-(a) 9th Schedule
-(b) 10th Schedule
-(c) 11th Schedule
-(d) 12th Schedule
-
-**Answer**: (c) 11th Schedule
-
-**Q2. (2017)** Local self-government can be best explained as an exercise in:
-(a) Federalism
-(b) Democratic decentralisation
-(c) Administrative delegation
-(d) Direct democracy
-
-**Answer**: (b) Democratic decentralisation
-
-**Q3. (2018)** Consider the following statements about the 73rd Constitutional Amendment:
-1. It provides for a three-tier system of Panchayati Raj for all States having a population of more than 20 lakh.
-2. It provides for reservation of seats for SC, ST, and women.
-3. It provides for a fixed five-year term for Panchayats.
-
-Which of the statements given above is/are correct?
-**Answer**: All three statements are correct.
-
-**Q4. (2019)** Which of the following statements regarding the District Planning Committee is/are correct?
-1. The District Planning Committee is a constitutional body under Article 243ZD.
-2. At least four-fifths of the members shall be elected from among the elected members of Panchayats and Municipalities.
-
-**Answer**: Both statements are correct.
-
-### UPSC Mains
-
-**Q. (GS-II, 2018)** "The 73rd and 74th Constitutional Amendments have not been able to achieve the desired objective of democratic decentralisation." Critically evaluate.
-
-**Q. (GS-II, 2021)** Analyse the role of the State Finance Commission in strengthening the financial position of Panchayati Raj Institutions. What reforms are needed?
-
-**Q. (GS-II, 2017)** "Devolution of powers and finances to local bodies remains a challenge in India." Discuss in the context of the 73rd and 74th Amendments.
-
 ---
 
 ## Current Affairs Connect

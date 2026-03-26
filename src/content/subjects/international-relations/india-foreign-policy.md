@@ -251,47 +251,6 @@ The expanded BRICS represents approximately half the world's population and 41% 
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q1. (2020):** Consider the following statements:
-1. The first BRICS Summit was held in Rio de Janeiro in 2009.
-2. South Africa was the last to join the BRICS grouping.
-
-Which of the statements given above is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (b) *(The first BRIC summit was held in Yekaterinburg, Russia, in 2009, not Rio de Janeiro; South Africa joined in 2010)* *(Prelims PYQ, GS Paper I)*
-
-**Q2. (2021):** With reference to the Quadrilateral Security Dialogue (QUAD), consider the following statements:
-1. It is a grouping of India, Japan, Australia and the USA.
-2. The first meeting was held on the sidelines of the ASEAN Regional Forum in 2007.
-
-Which of the statements given above is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (c) *(Prelims PYQ, GS Paper I)*
-
-**Q3. (2015):** The term "__(Gujral Doctrine)" is sometimes seen in the news in the context of:
-(a) India's foreign policy towards its neighbouring countries
-(b) India's nuclear energy programme
-(c) India's climate change commitments
-(d) India's digital governance strategy
-**Answer:** (a) *(The Gujral Doctrine outlines five principles for India's neighbourhood policy emphasising unilateral concessions to smaller neighbours)* *(Prelims PYQ, GS Paper I)*
-
-**Q4. (2018):** Consider the following statements about the Shanghai Cooperation Organisation (SCO):
-1. India and Pakistan became full members of the SCO in 2017.
-2. The SCO was founded in 2001.
-
-Which of the statements given above is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (c) *(Prelims PYQ, GS Paper I)*
-
-### Mains
-
-**Q5. (2017):** "India's relations with Israel have, of late, acquired a depth and diversity, which cannot be rolled back." Discuss. *(GS Paper II, 250 words)*
-
-**Q6. (2022):** How will I2U2 (India, Israel, UAE, USA) grouping help India? *(GS Paper II, 150 words)*
-
 ---
 
 ## Current Affairs Connect

@@ -221,34 +221,6 @@ A comprehensive National Cyber Security Strategy has been under preparation (Lt 
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q. (UPSC 2022):** With reference to "Software as a Service (SaaS)" and "Cloud Computing," consider the following statements...
-*(Questions on cyber security concepts frequently appear embedded within Science & Technology or Economy questions.)*
-
-**Q. (UPSC 2017):** In India, it is legally mandatory for which of the following to report on cyber security incidents to the Indian Computer Emergency Response Team (CERT-In)?
-1. Service providers
-2. Data centres
-3. Body corporate
-
-Select the correct answer:
-(a) 1 only
-(b) 1 and 2 only
-(c) 3 only
-(d) **1, 2 and 3** ✓
-
-**Q. (UPSC 2015):** With reference to the Indian Cyber Crime Coordination Centre (I4C)... *(Questions testing institutional knowledge of India's cyber security architecture.)*
-
-### Mains
-
-**Q. (UPSC 2022, GS-3):** "What are the different elements of cyber security? Keeping in mind the challenges in cyber security, examine the extent to which India has successfully developed a comprehensive National Cyber Security Strategy."
-
-**Q. (UPSC 2021, GS-3):** "Analyse the multidimensional challenges posed by external state and non-state actors, to the internal security of India. Also discuss measures taken to combat these threats."
-
-**Q. (UPSC 2017, GS-3):** "Discuss the potential threats of cyber-attack and the security framework to prevent it."
-
 ---
 
 ## Current Affairs Connect

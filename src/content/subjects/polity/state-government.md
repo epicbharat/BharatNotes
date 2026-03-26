@@ -257,38 +257,6 @@ The Chief Minister must:
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### UPSC Prelims
-
-**Q1. (2014)** Which of the following are the discretionary powers given to the Governor of a State?
-1. Sending a report to the President of India for imposing President's Rule
-2. Appointing the Ministers
-3. Reserving certain bills passed by the State Legislature for consideration of the President of India
-4. Making the rules to conduct the business of the State Government
-
-**Answer**: Statements 1 and 3 are correct. Appointing Ministers is done on the advice of the CM (not discretion). Making rules for business is done on the CM's advice.
-
-**Q2. (2019)** In India, the Governor of a State can act in his/her discretion in which of the following matters?
-1. Determining whether a Bill is a Money Bill or not
-2. Reserving a Bill for the consideration of the President
-
-**Answer**: Statement 2 is correct. At the state level, the Speaker of the Vidhan Sabha decides Money Bills, not the Governor. However, the Governor has discretion to reserve any Bill for the President.
-
-**Q3. (2018)** Consider the following statements regarding the Legislative Council:
-1. It is created by an Act of Parliament.
-2. It can be abolished by a resolution of the State Legislature.
-
-**Answer**: Statement 1 is correct (Parliament passes the Act after the State Legislature adopts a resolution by special majority). Statement 2 is incorrect — abolition also requires an Act of Parliament (after the State resolution).
-
-### UPSC Mains
-
-**Q. (GS-II, 2018)** "The office of the Governor has been a subject of controversy since the inception of the Constitution." Critically examine the role of the Governor in state politics with reference to recent controversies.
-
-**Q. (GS-II, 2021)** Discuss the recommendations of the Sarkaria Commission and the Punchhi Commission regarding the Governor's role. How relevant are they in the current political context?
-
-**Q. (GS-II, 2015)** "The Governor is not a mere constitutional figurehead." Examine the discretionary powers of the Governor and their impact on Centre-State relations.
-
 ---
 
 ## Current Affairs Connect

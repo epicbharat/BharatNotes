@@ -222,49 +222,6 @@ tags:
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q1. (2019):** In India, the term "weights and measures" is mentioned in which of the following?
-This is a related governance question. More directly on environment:
-
-**Q1. (2022):** With reference to the National Green Tribunal (NGT), consider the following statements:
-1. NGT was established under the Environment Protection Act, 1986.
-2. NGT has jurisdiction over all civil cases relating to environmental issues.
-3. NGT applies the principle of "polluter pays" while passing orders.
-
-Which of the above is/are correct?
-(a) 1 and 2 only (b) 2 and 3 only (c) 3 only (d) 1, 2 and 3
-**Answer:** (b) *(NGT was established under the NGT Act, 2010, not EPA 1986. It has jurisdiction over civil cases involving substantial questions under 7 laws in Schedule I, and it applies polluter pays principle)* *(Prelims PYQ)*
-
-**Q2. (2014):** Consider the following pairs:
-1. Montreal Protocol — Ozone-depleting substances
-2. Kyoto Protocol — Climate change
-3. Basel Convention — Hazardous waste
-
-Which of the above is/are correctly matched?
-(a) 1 and 2 only (b) 2 only (c) 1, 2 and 3 (d) 1 and 3 only
-**Answer:** (c) *(All three are correctly matched)* *(Prelims PYQ)*
-
-**Q3. (2020):** With reference to Compensatory Afforestation Fund, consider the following statements:
-1. The fund is managed by the National CAMPA Advisory Council.
-2. It can only be used for compensatory afforestation.
-
-Which of the above is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (a) *(CAMPA funds can also be used for additional compensatory afforestation, penal compensatory afforestation, NPV, wildlife protection, and other specified purposes)* *(Prelims PYQ)*
-
-### Mains
-
-**Q4. (2020):** How does the draft Environment Impact Assessment (EIA) Notification, 2020 differ from the existing EIA Notification, 2006? *(GS Paper III, 250 words)*
-
-**Q5. (2018):** How does biodiversity vary in India? How is the Biological Diversity Act, 2002 helpful in conservation of flora and fauna? *(GS Paper III, 250 words)*
-
-**Q6. (2024):** What role do environmental NGOs and activists play in influencing Environmental Impact Assessment (EIA) outcomes for major projects in India? Cite four examples with all important details. *(GS Paper III, 250 words)*
-
-**Q7. (2017):** 'The Paris Agreement on climate change is both a landmark and a launchpad.' Discuss. *(GS Paper III, 250 words)*
-
 ---
 
 ## Current Affairs Connect

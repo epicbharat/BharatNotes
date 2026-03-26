@@ -418,42 +418,6 @@ These five Deccan Sultanates later united to defeat the Vijayanagara Empire at t
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q1. (2023):** Consider the following statements about the Chola administration:
-1. The village assembly in Brahmadeya villages was known as Sabha.
-2. The Uttaramerur inscription provides details of the election of village committees.
-
-Which of the statements given above is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (c)
-
-**Q2. (2020):** With reference to the history of India, consider the following pairs:
-Famous Place — Present State
-1. Bhilsa — Madhya Pradesh
-2. Dwarasamudra — Maharashtra
-3. Girinagar — Gujarat
-4. Sthambha (Khambhat) — Gujarat
-
-Which of the above pairs are correctly matched?
-(a) 1 and 3 only (b) 1, 3 and 4 only (c) 2 and 4 only (d) 1, 2, 3 and 4
-**Answer:** (b) *(Dwarasamudra, capital of the Hoysala Empire, is in Karnataka, not Maharashtra)*
-
-**Q3. (2017):** With reference to the cultural history of India, which one of the following is the correct description of the term "__(term relating to Sufi)__"?
-*(UPSC frequently tests Sufi terminology — khanqah, sama, silsilah, murshid)*
-
-### Mains
-
-**Q4. (2020):** Evaluate the nature of the Bhakti Literature and its contribution to Indian culture. *(GS Paper I, 250 words)*
-
-**Q5. (2017):** Assess the role of Sufism in the cultural and social integration of medieval India. *(GS Paper I, 150 words)*
-
-**Q6. (2022):** What were the factors responsible for the rise and decline of the Mughal Empire? Discuss. *(GS Paper I, 250 words)*
-
-**Q7. (2019):** Assess the significance of the Vijayanagara Empire in the history of South India. *(GS Paper I, 150 words)*
-
 ---
 
 ## Current Affairs Connect

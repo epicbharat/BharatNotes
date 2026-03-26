@@ -413,46 +413,6 @@ The Eighth Schedule to the Constitution of India currently recognises **22 sched
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### UPSC Prelims
-
-**Q.** According to the Census of India 2011, how many "million-plus" Urban Agglomerations are there in India? (UPSC Prelims-type)
-(a) 46
-(b) 50
-(c) 53
-(d) 55
-**Answer: (c)** -- 53 as per provisional Census 2011 data (52 in final count)
-
-**Q.** Which of the following statements about the Sixth Schedule of the Constitution of India is/are correct?
-1. It provides for the administration of tribal areas in Assam, Meghalaya, Tripura and Mizoram.
-2. The Autonomous District Councils can constitute village courts.
-3. The Governor can reorganise the autonomous districts.
-
-(a) 1 and 2 only
-(b) 2 and 3 only
-(c) 1 and 3 only
-(d) 1, 2 and 3
-**Answer: (d)**
-
-**Q.** The__(Eighth)__ Schedule to the Constitution of India currently recognises __ (22) __ languages.
-
-### UPSC Mains (GS Paper 1)
-
-**Q.** "Discuss the causes of urban floods in India. Suggest sustainable solutions." (UPSC Mains 2023)
-
-**Q.** "How is the Smart Cities Mission transforming urban governance in India? Assess critically." (UPSC Mains 2022)
-
-**Q.** "What are the main features of the Demographic Transition Model? How is it applicable to India?" (UPSC Mains 2019)
-
-**Q.** "Explain the major factors responsible for internal migration in India. How does seasonal migration affect the urban economy?" (UPSC Mains 2018)
-
-**Q.** "What are the advantages and disadvantages of the 'demographic dividend' India is experiencing? How can it be harnessed effectively?" (UPSC Mains 2016)
-
-**Q.** "Why is the Indian subcontinent said to be the linguistic mosaic of the world? Explain." (UPSC Mains 2015)
-
-**Q.** "Discuss the causes of deprivation and poverty in India. How has NITI Aayog addressed regional disparity?" (UPSC Mains 2020)
-
 ---
 
 ## Current Affairs Connect

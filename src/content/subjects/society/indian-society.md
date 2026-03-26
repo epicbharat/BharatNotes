@@ -321,42 +321,6 @@ Key trends:
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q1. (2019):** Consider the following statements regarding the 103rd Constitutional Amendment Act, 2019:
-1. It provides for 10% reservation in government jobs and educational institutions for Economically Weaker Sections (EWS).
-2. The EWS reservation is in addition to the existing reservation for SC, ST, and OBC.
-
-Which of the statements given above is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (c) *(Prelims PYQ, GS Paper I)*
-
-**Q2. (2013):** The 'Indra Sawhney v. Union of India' case is related to:
-(a) Reservation for OBCs in government services
-(b) Right to education
-(c) Uniform Civil Code
-(d) Freedom of speech
-**Answer:** (a) *(The 1992 Indra Sawhney case upheld 27% OBC reservation with a 50% cap and creamy layer exclusion)* *(Prelims PYQ, GS Paper I)*
-
-**Q3. (2020):** Consider the following statements:
-1. Article 15 of the Indian Constitution prohibits discrimination on grounds of religion, race, caste, sex, or place of birth.
-2. Article 17 abolishes 'Untouchability' and forbids its practice in any form.
-3. The Sixth Schedule of the Constitution provides for Autonomous District Councils in tribal areas of four North-Eastern states.
-
-Which of the statements given above is/are correct?
-(a) 1 and 2 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3
-**Answer:** (d) *(Prelims PYQ, GS Paper I)*
-
-### Mains
-
-**Q4. (2019):** "Communalism arises either due to power struggle or relative deprivation." Argue by giving suitable illustrations. *(GS Paper I, 150 words)*
-
-**Q5. (2020):** Are tolerance, assimilation and pluralism the key elements in the making of an Indian form of secularism? Justify your answer. *(GS Paper I, 150 words)*
-
-**Q6. (2018):** "The growth of cities as I.T. hubs has opened up new avenues of employment, but has also created new problems." Substantiate this statement with examples. *(GS Paper I, 150 words)*
-
 ---
 
 ## Current Affairs Connect

@@ -351,20 +351,6 @@ The five ECQs required for entry to the US Senior Executive Service (OPM):
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Mains (GS Paper IV)
-
-**Q1. (2013):** "Our attitudes towards life, work, other people and society are generally shaped unconsciously by the family and the social surroundings in which we grow up. Some of these unconsciously acquired attitudes and values are often undesirable in the citizens of a modern democratic and egalitarian society.
-(a) Discuss such undesirable values prevalent in today's educated Indians.
-(b) How can such undesirable attitudes be changed and socio-ethical values considered necessary in public services be cultivated in the aspiring and serving civil servants?"
-
-**Q2. (2014):** "What factors affect the formation of a person's attitude towards social problems? In our society, contrasting attitudes are prevalent about many social problems. What contrasting attitudes do you notice about the caste system in our society? How do you explain the existence of these contrasting attitudes?"
-
-**Q3. (2016):** "Two different kinds of attitudes exhibited by public servants towards their work have been identified as bureaucratic attitudes and democratic attitudes. Distinguish between these two terms and write their merits and demerits. Is it possible to balance the two to create a better administration for the faster development of our country?"
-
-**Q4. (2022):** "A positive attitude is considered to be an essential characteristic of a civil servant who is often required to function under extreme stress. What contributes to a positive attitude in a person?"
-
 ---
 
 ## Current Affairs Connect

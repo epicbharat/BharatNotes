@@ -230,42 +230,6 @@ The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy was ap
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q1. (2012):** Genetically modified "__(golden rice)" is engineered to be rich in:
-(a) Vitamin A (b) Vitamin B (c) Vitamin C (d) Vitamin D
-**Answer:** (a) *(Golden rice contains beta-carotene (pro-vitamin A), which is converted to Vitamin A in the human body)* *(Prelims 2010, GS Paper I)*
-
-**Q2. (2018):** Consider the following statements regarding GM mustard (DMH-11) developed in India:
-1. GM mustard has the genes that allow the plant cross-pollination and hybridization.
-2. GM mustard has been developed jointly by the IARI and Punjab Agricultural University.
-
-Which of the statements given above is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (a) *(DMH-11 was developed by the Centre for Genetic Manipulation of Crop Plants at the University of Delhi, not jointly by IARI and PAU)* *(Prelims 2018, GS Paper I)*
-
-**Q3. (2019):** What is Cas9 protein that is often mentioned in news?
-(a) A molecular scissors used in targeted gene editing
-(b) A biosensor used in laboratory analysis
-(c) A gene that makes plants pest-resistant
-(d) A herbicidal substance synthesized in the laboratory
-**Answer:** (a) *(CRISPR-Cas9 acts as molecular scissors to cut DNA at a specific location)* *(Prelims 2019, GS Paper I)*
-
-**Q4. (2022):** In India, which one of the following is responsible for approving the environmental release of genetically modified organisms?
-(a) Indian Council of Agricultural Research (ICAR)
-(b) Genetic Engineering Appraisal Committee (GEAC)
-(c) Department of Biotechnology (DBT)
-(d) National Biodiversity Authority (NBA)
-**Answer:** (b) *(GEAC under MoEFCC is the apex body for approval of GM organisms)* *(Prelims PYQ, GS Paper I)*
-
-### Mains
-
-**Q5. (2018):** What are the research and developmental achievements in applied biotechnology? How will these achievements help to uplift the poorer sections of the society? *(GS Paper III, 250 words)*
-
-**Q6. (2020):** What are the salient features of the National Health Policy, 2017, and how does it aim to provide healthcare to all? Discuss the role of Ayushman Bharat in this context. *(GS Paper II, 250 words)*
-
 ---
 
 ## Current Affairs Connect

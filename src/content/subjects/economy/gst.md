@@ -310,41 +310,6 @@ The backbone of GST — eliminates cascading (tax-on-tax) effect.
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q. What is/are the most likely advantages of implementing 'Goods and Services Tax (GST)'?** (CSE Prelims 2017)
-1. It will replace multiple taxes collected by multiple authorities and will thus create a single market in India.
-2. It will drastically reduce the 'Current Account Deficit' of India and will enable it to increase its foreign exchange reserves.
-3. It will enormously increase the growth and size of economy of India and will enable it to overtake China in the near future.
-(a) 1 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3
-**Answer:** (a)
-
-**Q. Consider the following items:** (CSE Prelims 2018)
-1. Cereal grains hulled
-2. Chicken eggs cooked
-3. Fish processed and canned
-4. Newspapers containing advertising material
-Which of the above items is/are exempted under GST (Goods and Services Tax)?
-(a) 1 only (b) 2 and 3 only (c) 1, 2 and 4 only (d) 1, 2, 3 and 4
-**Answer:** (c)
-
-**Q. Which of the following statements is/are correct regarding the Monetary Policy Committee (MPC)?** (CSE Prelims 2017)
-1. It decides the RBI's benchmark interest rate.
-2. It is a 12-member body including the Governor of RBI and is reconstituted every year.
-3. It functions under the Chairmanship of the Union Finance Minister.
-(a) 1 only (b) 1 and 2 only (c) 3 only (d) 2 and 3 only
-**Answer:** (a)
-
-### Mains
-
-**Q. Discuss the rationale for introducing Goods and Services Tax in India. Bring out critically the reasons for the delay in roll out for its regime.** (CSE Mains 2013, GS Paper 3, 15 marks)
-
-**Q. Enumerate the indirect taxes which have been subsumed in the Goods and Services Tax (GST) in India. Also, comment on the revenue implications of the GST introduced in India since July 2017.** (CSE Mains 2019, GS Paper 3, 10 marks)
-
-**Q. Explain the rationale behind the Goods and Services Tax (Compensation to States) Act of 2017. How has COVID-19 impacted the GST compensation fund and created new federal tensions?** (CSE Mains 2020, GS Paper 3, 15 marks)
-
 ---
 
 ## Current Affairs Connect

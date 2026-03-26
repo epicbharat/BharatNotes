@@ -252,24 +252,6 @@ Effective DRR depends on **knowing where the risks are** before disasters strike
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Mains
-
-1. **"What is disaster resilience? How is it determined? Describe various elements of a resilience framework. Also mention the global targets of Sendai Framework for Disaster Risk Reduction (2015-2030)."** — UPSC CSE 2024, GS-3
-
-2. **"Describe various measures taken in India for Disaster Risk Reduction (DRR) before and after signing 'Sendai Framework for DRR (2015-2030)'. How is this framework different from 'Hyogo Framework for Action, 2005'?"** — UPSC CSE 2018, GS-3
-
-3. **"How important are vulnerability and risk assessment for pre-disaster management? As an administrator, what are key areas that you would focus on in a Disaster Management System?"** — UPSC CSE 2013, GS-3
-
-### Answer Strategy
-
-- **Always define DRR** before diving into specifics — show conceptual clarity
-- **Use the Yokohama-Hyogo-Sendai evolution** to demonstrate analytical depth
-- **Cite Odisha with specific numbers** — 10,000+ deaths (1999) to 64 deaths (2019) with 1.2 million evacuated
-- **Link DRR to development** — not just a humanitarian issue but an economic and governance imperative
-- **Mention CDRI** to show India's global leadership dimension
-
 ---
 
 ## Current Affairs Connect

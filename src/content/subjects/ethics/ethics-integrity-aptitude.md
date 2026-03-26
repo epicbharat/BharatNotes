@@ -271,22 +271,6 @@ The **Right to Information Act, 2005** was passed by Parliament on 15 June 2005 
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Mains (GS Paper IV)
-
-**Q1. (2019):** "A man is but the product of his thoughts. What he thinks, he becomes." -- M.K. Gandhi. *(150 words, 10 marks)*
-
-**Q2. (2019):** "Emotional Intelligence is the ability to make your emotions work for you instead of against you." Do you agree with this view? Discuss. *(150 words, 10 marks)*
-
-**Q3. (2023):** 'Probity is essential for an effective system of governance and socio-economic development.' Discuss. *(150 words, 10 marks)*
-
-**Q4. (2020):** "Hatred is destructive of a person's wisdom and conscience that can poison a nation's spirit." Do you agree with this view? Justify your answer. *(150 words, 10 marks)*
-
-**Q5. (2019):** What do you understand by 'probity' in governance? Based on your understanding of the term, suggest measures for ensuring probity in government. *(150 words, 10 marks)*
-
-**Q6. (2021):** "The best way to find yourself is to lose yourself in the service of others." -- Mahatma Gandhi. Examine the relevance of this statement in the context of public service. *(150 words, 10 marks)*
-
 ---
 
 ## Current Affairs Connect

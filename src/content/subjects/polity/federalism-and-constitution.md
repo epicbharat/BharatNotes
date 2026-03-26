@@ -306,32 +306,6 @@ NITI Aayog promotes healthy competition among states through transparent indices
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q. Consider the following statements: 1. The Constitution of India defines its 'basic structure' in terms of federalism, secularism, fundamental rights and democracy. 2. The Constitution of India provides for 'judicial review' to safeguard the citizens' liberties and to preserve the ideals on which the Constitution is based. Which of the statements given above is/are correct?** (CSE Prelims 2020)
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (d) — The Constitution does not define "basic structure" — this concept was judicially created in Kesavananda Bharati (1973). Similarly, "judicial review" is not explicitly mentioned but is derived from Articles 13, 32, 226, etc.
-
-**Q. The Ninth Schedule was introduced in the Constitution of India during the prime ministership of:** (CSE Prelims 2019)
-(a) Jawaharlal Nehru (b) Lal Bahadur Shastri (c) Indira Gandhi (d) Morarji Desai
-**Answer:** (a) — The Ninth Schedule was added by the 1st Amendment Act, 1951, during Nehru's tenure, to protect land reform laws from being challenged on grounds of violation of Fundamental Rights.
-
-**Q. What was the exact constitutional status of India on 26th January, 1950?** (CSE Prelims 2021)
-(a) A Democratic Republic (b) A Sovereign Democratic Republic (c) A Sovereign Secular Democratic Republic (d) A Sovereign Socialist Secular Democratic Republic
-**Answer:** (b) — The original Preamble declared India a "Sovereign Democratic Republic." The words "Socialist," "Secular," and "Integrity" were added by the 42nd Amendment Act, 1976.
-
-**Q. With reference to the Constitution of India, consider the following statements: 1. No High Court shall have the jurisdiction to declare any central law to be constitutionally invalid. 2. An amendment to the Constitution of India cannot be called into question by the Supreme Court of India. Which of the statements given above is/are correct?** (CSE Prelims 2019)
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (d) — High Courts can examine the constitutional validity of central laws (the 43rd Amendment restored this power after the 42nd Amendment had curtailed it). The SC can strike down amendments violating the Basic Structure.
-
-### Mains
-
-**Q. Discuss each adjective attached to the word 'Republic' in the Preamble. Are they defendable in the present circumstances?** (CSE Mains 2016, GS Paper 2, 12.5 marks)
-
-**Q. Starting from inventing the 'basic structure' doctrine, the judiciary has played a highly proactive role in ensuring that India develops into a thriving democracy. In light of the statement, evaluate the role played by judicial activism in achieving the ideals of democracy.** (CSE Mains 2014, GS Paper 2, 12.5 marks)
-
 ---
 
 ## Current Affairs Connect

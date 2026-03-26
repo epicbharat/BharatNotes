@@ -246,14 +246,6 @@ India's 7,516 km coastline and ~1,382 islands require a separate security archit
 
 ---
 
-## Previous Year Questions (PYQs)
-
-**Q. Elucidate the challenges and strategies for effective border management, with specific reference to India's western and eastern borders.** *(UPSC GS3 Mains, 2016)*
-
-**Q. How does illegal transborder migration pose a threat to India's security? Discuss the strategies to curb this, bringing out the factors which give impetus to such migration.** *(UPSC GS3 Mains, 2014)*
-
-**Q. India has a long and troubled border with China and Pakistan fraught with contentious issues. Examine the conflicting issues and security challenges along the border. Also give out the development being undertaken in these areas under the Border Area Development Programme (BADP) and Border Infrastructure and Management (BIM) Scheme.** *(UPSC GS3 Mains, 2024)*
-
 ---
 
 ## Current Affairs Connect

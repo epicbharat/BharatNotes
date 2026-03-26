@@ -274,43 +274,6 @@ The Bureau of Indian Standards (BIS) classifies India into **four seismic zones*
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q1. (2019):** Consider the following statements regarding the Sendai Framework for Disaster Risk Reduction:
-1. It was adopted in 2015 and will be in force until 2030.
-2. It has four priorities for action and seven global targets.
-3. It succeeded the Hyogo Framework for Action (2005-2015).
-
-Which of the above statements is/are correct?
-(a) 1 and 2 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3
-**Answer:** (d) *(Prelims PYQ, GS Paper I)*
-
-**Q2. (2015):** Consider the following statements regarding the National Disaster Management Authority (NDMA):
-1. The Prime Minister of India is the ex officio Chairman of the NDMA.
-2. It was constituted under the Disaster Management Act, 2005.
-
-Which of the statements given above is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (c) *(Prelims PYQ, GS Paper I)*
-
-**Q3. (2017):** Consider the following statements regarding the National Disaster Response Force (NDRF):
-1. It was raised under the Disaster Management Act, 2005.
-2. Its battalions are drawn from paramilitary forces like BSF, CRPF, CISF, ITBP and SSB.
-
-Which of the statements given above is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (c) *(Prelims PYQ, GS Paper I)*
-
-### Mains
-
-**Q4. (2018):** Describe various measures taken in India for Disaster Risk Reduction (DRR) before and after signing 'Sendai Framework for DRR (2015-2030)'. How is this framework different from 'Hyogo Framework for Action, 2005'? *(GS Paper III, 250 words)*
-
-**Q5. (2017):** On December 2004, tsunami brought havoc on 14 countries including India. Discuss the factors responsible for the occurrence of Tsunami and its effects on life and economy. In the light of guidelines of NDMA (2010), describe the mechanisms for preparedness to reduce the risk during such events. *(GS Paper III, 250 words)*
-
-**Q6. (2016):** With reference to National Disaster Management Authority (NDMA) guidelines, discuss the measures to be adopted to mitigate the impact of the recent incidents of cloudbursts in many places of Uttarakhand. *(GS Paper I, 200 words)*
-
 ---
 
 ## Current Affairs Connect

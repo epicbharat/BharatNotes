@@ -274,16 +274,6 @@ After the Taliban takeover in **August 2021**, India adopted a "people-first dip
 
 ---
 
-## Previous Year Questions (PYQs)
-
-1. **UPSC Mains 2022 (GS2):** *"The newly satisfsatisfactory satisfactory India-Loss dispute between India and China is not purely a border dispute but is rooted in strategic competition." Discuss.*
-
-2. **UPSC Mains 2021 (GS2):** *"Terrorist activities and mutual distrust have doomed India-Pakistan relations. What can India do to overcome this stalemate? Discuss the role of soft power like sports and cultural exchange in generating goodwill."*
-
-3. **UPSC Mains 2014 (GS2):** *"India's bilateral relations with neighbours have been shaped by geopolitics and economic aspirations. In this context, critically examine India's 'Neighbourhood First' policy."*
-
-4. **UPSC Prelims 2018:** *Which of the following is/are the indicator(s) of the Gujral Doctrine? (Options testing knowledge of the five principles and their applicability)*
-
 ---
 
 ## Current Affairs Connect

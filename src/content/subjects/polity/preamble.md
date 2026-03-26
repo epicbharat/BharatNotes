@@ -184,28 +184,6 @@ The Preamble has been amended **once** — by the **42nd Amendment Act, 1976** �
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q. What was the exact constitutional status of India on 26th January, 1950?** (CSE Prelims 2021)
-(a) A Democratic Republic (b) A Sovereign Democratic Republic (c) A Sovereign Secular Democratic Republic (d) A Sovereign Socialist Secular Democratic Republic
-**Answer:** (b) — The original Preamble declared India a "Sovereign Democratic Republic." The words "Socialist" and "Secular" were added only by the 42nd Amendment in 1976.
-
-**Q. Consider the following statements: 1. The Constitution of India defines its 'basic structure' in terms of federalism, secularism, fundamental rights and democracy. 2. The Constitution of India provides for 'judicial review' to safeguard the citizens' liberties and to preserve the ideals on which the Constitution is based. Which of the statements given above is/are correct?** (CSE Prelims 2020)
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (d) — The Constitution does not explicitly define "basic structure" — this was a judicial creation (Kesavananda Bharati, 1973). Similarly, "judicial review" is not explicitly mentioned but is derived from Articles 13, 32, 226, etc.
-
-**Q. The Preamble to the Constitution of India is:** (CSE Prelims 2020)
-(a) A part of the Constitution but has no legal effect (b) Not a part of the Constitution and has no legal effect (c) A part of the Constitution and has the same legal effect as any other part (d) A part of the Constitution but does not confer any power or impose any duty
-**Answer:** (d) — As held in Kesavananda Bharati (1973), the Preamble is a part of the Constitution, but it does not confer substantive powers or impose enforceable duties.
-
-### Mains
-
-**Q. Discuss each adjective attached to the word 'Republic' in the Preamble. Are they defendable in the present circumstances?** (CSE Mains 2016, GS Paper 2, 12.5 marks)
-
-**Q. "The Preamble of the Indian Constitution is a reflection of the 'philosophy of the Constitution' and the 'ideal of a welfare state'." Discuss.** (CSE Mains 2020, GS Paper 2, 15 marks)
-
 ---
 
 ## Current Affairs Connect

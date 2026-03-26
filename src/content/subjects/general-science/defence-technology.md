@@ -235,36 +235,6 @@ Agni-V was successfully tested with **MIRV (Multiple Independently Targetable Re
 
 ---
 
-## Previous Year Questions (PYQs)
-
-**Q1. (Prelims 2014)** With reference to Agni-IV missile, which of the following statements is/are correct?
-1. It is a surface-to-surface missile
-2. It is fuelled by liquid propellant only
-3. It can deliver one-tonne nuclear warheads about 7,500 km away
-
-Select the correct answer using the code given below:
-(a) 1 only **(Correct Answer)**
-(b) 2 and 3 only
-(c) 1 and 3 only
-(d) 1, 2 and 3
-
-*Analysis: Agni-IV is solid-fuelled (not liquid), and its range is approximately 4,000 km (not 7,500 km). Only statement 1 is correct.*
-
-**Q2. (Mains 2013, GS3)** What do you understand by cyber warfare? Outline the cyber threats which India is vulnerable to and bring out the country's preparedness to deal with the same.
-
-*Approach: Define cyber warfare, discuss threats (critical infrastructure attacks, espionage, data theft), and mention India's institutions (CERT-In, NCIIPC, Cyber Command) and policies (National Cyber Security Policy).*
-
-**Q3. (Prelims 2019)** Consider the following statements about BrahMos missile:
-1. It is developed jointly by India and Russia
-2. It is a supersonic cruise missile
-3. It can be launched from land, sea, and air platforms
-
-Which of the statements is/are correct?
-(a) 1 and 2 only
-(b) 2 and 3 only
-(c) 1, 2 and 3 **(Correct Answer)**
-(d) 1 only
-
 ---
 
 ## Current Affairs Connect

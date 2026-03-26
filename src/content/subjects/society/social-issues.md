@@ -248,39 +248,6 @@ tags:
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q1. (2019):** Consider the following statements:
-1. The Multidimensional Poverty Index is released by NITI Aayog.
-2. It measures poverty across health, education, and standard of living dimensions.
-
-Which of the above is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (c) *(National MPI by NITI Aayog; Global MPI by UNDP/OPHI. Both use health, education, standard of living dimensions)* *(Prelims PYQ)*
-
-**Q2. (2022):** With reference to the National Education Policy 2020, consider the following statements:
-1. It replaces the 10+2 structure with 5+3+3+4.
-2. It recommends mother tongue as medium of instruction up to Grade 5.
-3. It mandates teaching in English medium from Grade 6 onwards.
-
-Which of the above is/are correct?
-(a) 1 and 2 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3
-**Answer:** (a) *(NEP 2020 recommends mother tongue/regional language up to Grade 5 and preferably Grade 8; it does not mandate English from Grade 6)* *(Prelims PYQ)*
-
-### Mains
-
-**Q3. (2019):** 'Empowering women is the key to control population growth.' Discuss. *(GS Paper I, 250 words)*
-
-**Q4. (2020):** 'Despite the implementation of various programmes for eradication of poverty by the government in India, poverty is still existing.' Explain by giving reasons. *(GS Paper I, 250 words)*
-
-**Q5. (2020):** National Education Policy 2020 is in conformity with the Sustainable Development Goal-4 (2030). It intends to restructure and reorient education system in India. Critically examine the statement. *(GS Paper II, 250 words)*
-
-**Q6. (2018):** 'Though women in post-Independent India have excelled in various fields, the social attitude towards women and the feminist movement has been patriarchal.' Apart from women education and women empowerment schemes, what interventions can help change this milieu? *(GS Paper I, 250 words)*
-
-**Q7. (2023):** Analyse the factors contributing to the disproportionate impact of poverty on women in India and suggest strategies to empower women, enhance their economic participation, ensuring inclusive and sustainable development. *(GS Paper I, 250 words)*
-
 ---
 
 ## Current Affairs Connect

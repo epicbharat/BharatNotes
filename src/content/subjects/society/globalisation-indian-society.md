@@ -287,20 +287,6 @@ The central question UPSC asks is: **Does globalisation homogenise or strengthen
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Mains (GS Paper I)
-
-**Q1. (2016):** "To what extent has globalisation influenced the core of cultural diversity in India? Explain." *(250 words)*
-
-**Q2. (2018):** "Globalisation is generally said to promote cultural homogenisation but due to this, cultural specificities appear to be strengthened in the Indian society. Elucidate." *(250 words)*
-
-**Q3. (2019):** "Are we losing our local identity for the global identity? Discuss." *(250 words)*
-
-**Q4. (2020):** "Is diversity and pluralism in India under threat due to globalisation? Justify your answer." *(250 words)*
-
-> **PYQ Trend Analysis:** Post-2019, UPSC has shifted from simple "positive vs negative" framing to more nuanced questions on cultural identity, technology, migration, and whether globalisation strengthens or homogenises local identities. Always use the "glocalisation" framework to provide a balanced answer.
-
 ---
 
 ## Current Affairs Connect

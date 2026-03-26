@@ -220,32 +220,6 @@ The UCC is the most debated DPSP. Recent developments have made it a live exam t
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q. Which part of the Constitution of India declares the ideal of a Welfare State?** (CSE Prelims 2020)
-(a) Directive Principles of State Policy (b) Fundamental Rights (c) Preamble (d) Seventh Schedule
-**Answer:** (a) — The DPSPs in Part IV embody the ideal of a welfare state, directing the state to promote the welfare of the people.
-
-**Q. Consider the following statements regarding the Directive Principles of State Policy: 1. The Principles spell out the socio-economic democracy in the country. 2. The provisions contained in these Principles are not enforceable by any court. Which of the statements given above is/are correct?** (CSE Prelims 2015)
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (c) — DPSPs aim at socio-economic democracy, and Article 37 explicitly states they are non-justiciable (not enforceable by courts).
-
-**Q. In the Constitution of India, promotion of international peace and security is included in the:** (CSE Prelims 2014)
-(a) Preamble to the Constitution (b) Directive Principles of State Policy (c) Fundamental Duties (d) Ninth Schedule
-**Answer:** (b) — Article 51 of the DPSPs directs the state to promote international peace and security, maintain honourable relations between nations, and foster respect for international law.
-
-**Q. The Ninth Schedule was introduced in the Constitution of India during the prime ministership of:** (CSE Prelims 2019)
-(a) Jawaharlal Nehru (b) Lal Bahadur Shastri (c) Indira Gandhi (d) Morarji Desai
-**Answer:** (a) — The Ninth Schedule was added by the 1st Amendment Act, 1951, during Nehru's prime ministership, to protect land reform laws from judicial review.
-
-### Mains
-
-**Q. The Directive Principles which are fundamental in the governance of the country cannot be isolated from the Fundamental Rights guaranteed. Examine.** (CSE Mains 2019, GS Paper 2, 15 marks)
-
-**Q. "The equilibrium between Fundamental Rights and Directive Principles is an essential feature of the Basic Structure of the Constitution." Discuss in the light of the Minerva Mills case.** (CSE Mains 2017, GS Paper 2, 15 marks)
-
 ---
 
 ## Current Affairs Connect

@@ -289,16 +289,6 @@ Instituted to recognise outstanding work by districts and organisations in imple
 
 ---
 
-## Previous Year Questions (PYQs)
-
-**Q1. (UPSC Mains 2018, GS2):** "The Citizen's Charter is an ideal instrument of organizational transparency and accountability, but it has its own limitations. Identify the limitations and suggest measures for greater effectiveness."
-
-**Q2. (UPSC Mains 2025, GS2):** "Do you think that e-governance projects have a built-in bias towards technology and back-end integration rather than user-centric designs? Critically examine."
-
-**Q3. (UPSC Mains 2024, GS2):** "The citizen charter has been a landmark initiative in ensuring citizen-centric administration but is yet to reach its full potential. Identify the factors hindering its realization and suggest measures to overcome them."
-
-**Q4. (UPSC Prelims 2017):** Which of the following is/are the aim(s) of "Digital India" plan? (1) Formation of India's own Internet companies (2) Establish a policy framework for IT sector (3) IT-based jobs for all — *Answer: Only (2)*
-
 ---
 
 ## Current Affairs Connect

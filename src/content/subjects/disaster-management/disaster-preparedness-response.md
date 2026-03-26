@@ -229,28 +229,6 @@ India's disaster financing framework involves dedicated funds at the national an
 - **Urban disasters**: Flooding, building collapses, fire — need for UDMAs, urban-specific planning
 - **Financial resilience**: Disaster insurance, crop insurance (PMFBY), micro-insurance for vulnerable communities
 
-## Previous Year Questions (PYQs)
-
-| Year | Paper | Question |
-|------|-------|----------|
-| **2023** | GS-3 | "Discuss the vulnerabilities of Indian urban areas to floods. How can urban flooding be addressed to build flood-resilient cities in India?" |
-| **2019** | GS-3 | "Disaster preparedness is the first step in any disaster management process. Explain how preparedness is different from mitigation with reference to floods." |
-| **2015** | GS-3 | "Describe the various causes and the effects of landslides. Mention the important components of the National Landslide Risk Management Strategy." |
-| **2013** | GS-3 | "What are the consequences of Illegal Mining? Discuss the Ministry of Environment and Forests' concept of 'Go' and 'No Go' zones for coal mining." |
-
-> **PYQ Trend:** UPSC favours questions that combine institutional knowledge with practical application. Avoid merely listing NDMA/SDMA/DDMA — instead, discuss how the framework operates during actual disasters. Use case studies (Odisha cyclone management, Kerala floods 2018, Uttarakhand disaster 2013) to substantiate your answers.
-
-### Sample Mains Answer Framework
-
-For a question like *"Disaster preparedness is the first step in any disaster management process. Explain how preparedness is different from mitigation with reference to floods"* (2019):
-
-1. **Define** preparedness (readiness to respond) vs mitigation (reducing impact)
-2. **Institutional angle**: NDMA guidelines on flood management, DDMA's role in preparedness
-3. **Preparedness measures**: Early warning (CWC), evacuation plans, NDRF pre-positioning, community training
-4. **Mitigation measures**: Embankments, watershed management, land-use zoning, flood plain regulation
-5. **Case study**: Bihar/Assam annual floods — what works and what does not
-6. **Conclusion**: Both are complementary; preparedness without mitigation is reactive, mitigation without preparedness is incomplete
-
 ## Current Affairs Connect
 
 | Development | UPSC Relevance | Read More |

@@ -211,47 +211,6 @@ RBI
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q. If the RBI decides to adopt an expansionist monetary policy, which of the following would it not do?** (CSE Prelims 2020)
-1. Cut and optimise the Statutory Liquidity Ratio
-2. Increase the Marginal Standing Facility Rate
-3. Cut the Bank Rate and Repo Rate
-(a) 1 and 2 only (b) 2 only (c) 1 and 3 only (d) 1, 2 and 3
-**Answer:** (b)
-
-**Q. Which of the following statements is/are correct regarding the Monetary Policy Committee (MPC)?** (CSE Prelims 2017)
-1. It decides the RBI's benchmark interest rate.
-2. It is a 12-member body including the Governor of RBI and is reconstituted every year.
-3. It functions under the Chairmanship of the Union Finance Minister.
-(a) 1 only (b) 1 and 2 only (c) 3 only (d) 2 and 3 only
-**Answer:** (a)
-
-**Q. When the Reserve Bank of India reduced the Statutory Liquidity Ratio by 50 basis points, which of the following is likely to happen?** (CSE Prelims 2015)
-(a) India's GDP growth rate increases drastically (b) Foreign Institutional Investors may bring more capital into our country (c) Scheduled Commercial Banks may cut their lending rates (d) It may drastically reduce the liquidity to the banking system
-**Answer:** (c)
-
-**Q. Consider the following statements:** (CSE Prelims 2018)
-1. Capital Adequacy Ratio (CAR) is the amount that banks have to maintain in the form of their own funds to offset any loss that banks incur if the account holders fail to repay dues.
-2. CAR is decided by each individual bank.
-Which of the statements given above is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (a)
-
-**Q. 'Basel III Accord' or simply 'Basel III', often seen in the news, seeks to** (CSE Prelims 2015)
-(a) Develop national strategies for the conservation and sustainable use of biological diversity (b) Improve the banking sector's ability to deal with financial and economic stress and improve risk management (c) Reduce the greenhouse gas emissions but place a heavier burden on developed countries (d) Transfer technology from developed countries to poor countries to enable them to replace the use of chlorofluorocarbons in refrigeration with harmless chemicals
-**Answer:** (b)
-
-### Mains
-
-**Q. What are the causes of persistent high food inflation in India? Comment on the effectiveness of the monetary policy of the RBI to control this type of inflation.** (CSE Mains 2024, GS Paper 3, 10 marks)
-
-**Q. Is inclusive growth possible under market economy? State the significance of financial inclusion in achieving economic growth in India.** (CSE Mains 2022, GS Paper 3, 10 marks)
-
-**Q. Pradhan Mantri Jan Dhan Yojana (PMJDY) is necessary for bringing the unbanked to the institutional finance fold. Do you agree with this for the financial inclusion of the poor section of the Indian society?** (CSE Mains 2016, GS Paper 3, 15 marks)
-
 ---
 
 ## Current Affairs Connect

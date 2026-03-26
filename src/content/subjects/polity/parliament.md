@@ -217,28 +217,6 @@ Called by the **President** when there is a deadlock between the two Houses on a
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q. With reference to Finance Bill and Money Bill in the Indian Parliament, consider the following statements: 1. When the Lok Sabha transmits Finance Bill to the Rajya Sabha, it can amend or reject the Bill. 2. When the Lok Sabha transmits Money Bill to the Rajya Sabha, it cannot amend or reject the Bill, it can only make recommendations. 3. In the case of disagreement between the Lok Sabha and the Rajya Sabha, there is no joint sitting for Money Bill, but a joint sitting becomes necessary for Finance Bill. How many of the above statements are correct?** (CSE Prelims 2023)
-(a) Only one (b) Only two (c) All three (d) None
-**Answer:** (b) — Statement 1 is incorrect (Rajya Sabha can amend or reject a Finance Bill, unlike a Money Bill). Statements 2 and 3 are correct.
-
-**Q. Consider the following statements: 1. The Rajya Sabha has no power either to reject or to amend a Money Bill. 2. The Rajya Sabha cannot vote on the Demands for Grants. 3. The Rajya Sabha cannot discuss the Annual Financial Statement. Which of the statements given above is/are correct?** (CSE Prelims 2015)
-(a) 1 only (b) 1 and 2 only (c) 2 and 3 only (d) 1, 2 and 3
-**Answer:** (b) — Rajya Sabha cannot reject/amend a Money Bill and cannot vote on Demands for Grants. However, it can discuss the Annual Financial Statement (Budget).
-
-**Q. The Parliament of India exercises control over the functions of the Council of Ministers through: 1. Adjournment motion 2. Question hour 3. Supplementary questions. Select the correct answer using the code given below:** (CSE Prelims 2017)
-(a) 1 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3
-**Answer:** (d) — All three are parliamentary devices to hold the Council of Ministers accountable: adjournment motions draw attention to urgent matters, question hour enables direct questioning of ministers, and supplementary questions allow follow-up probing.
-
-### Mains
-
-**Q. Rajya Sabha has been transformed from a 'useless stepney tyre' to the most useful supporting organ in past few decades. Highlight the factors as well as the areas in which this transformation could be visible.** (CSE Mains 2020, GS Paper 2, 15 marks)
-
-**Q. How far have the financial committees helped in the institutionalisation of the Indian Parliament? Explain.** (CSE Mains 2018, GS Paper 2, 15 marks)
-
 ---
 
 ## One Nation One Election (ONOE) — Live Issue

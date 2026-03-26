@@ -242,47 +242,6 @@ Adopted at CBD COP-15, this landmark framework sets 4 goals and 23 targets for 2
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q1. (2019):** Consider the following statements:
-1. Under Ramsar Convention, it is mandatory on the part of the Government of India to protect and conserve all the wetlands in the territory of India.
-2. The Wetlands (Conservation and Management) Rules, 2010 were framed by the Government of India based on the recommendations of Ramsar Convention.
-3. The Wetlands (Conservation and Management) Rules, 2010 also encompass the drainage area or catchment regions of the wetlands as determined by the authority.
-
-Which of the statements given above is/are correct?
-(a) 1 and 2 only (b) 2 and 3 only (c) 3 only (d) 1, 2 and 3
-**Answer:** (c) *(Prelims 2019, GS Paper I)*
-
-**Q2. (2018):** Consider the following statements:
-1. The__(CITES) is legally binding on the States that have joined it, but this Convention does not take the place of national laws.
-2. IUCN is an organ of the United Nations.
-
-Which of the statements given above is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (a) *(CITES is legally binding but does not replace national laws; IUCN is not a UN organ — it is an independent international organisation)* *(Prelims 2018, GS Paper I)*
-
-**Q3. (2020):** Which of the following Protected Areas are located in the Cauvery basin?
-1. Nagarhole National Park
-2. Papikonda National Park
-3. Sathyamangalam Tiger Reserve
-4. Wayanad Wildlife Sanctuary
-
-Select the correct answer using the code given below:
-(a) 1 and 2 only (b) 3 and 4 only (c) 1, 3 and 4 only (d) 1, 2, 3 and 4
-**Answer:** (c) *(Papikonda is in the Godavari basin, not Cauvery)* *(Prelims 2020, GS Paper I)*
-
-**Q4. (2017):** Among the following Tiger Reserves, which one has the largest area under "Critical Tiger Habitat"?
-(a) Corbett (b) Ranthambore (c) Nagarjunasagar-Srisailam (d) Sundarbans
-**Answer:** (c) *(Nagarjunasagar-Srisailam has the largest Critical Tiger Habitat area)* *(Prelims 2020, GS Paper I)*
-
-### Mains
-
-**Q5. (2018):** How does the Biodiversity Act, 2002 seek to ensure equitable sharing of benefits arising out of the use of biological resources? Discuss the role of the National Biodiversity Authority in this regard. *(GS Paper III, 250 words)*
-
-**Q6. (2021):** Discuss the role of Wetlands in the ecosystem, their threats and strategies for conservation. *(GS Paper III, 250 words)*
-
 ---
 
 ## Current Affairs Connect

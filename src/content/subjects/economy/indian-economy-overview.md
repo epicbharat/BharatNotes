@@ -290,49 +290,6 @@ Tabled in Parliament on **31 January 2025**:
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q. Suppose the revenue expenditure is Rs. 80,000 crores and the revenue receipts of the Government are Rs. 60,000 crores. The Government budget also shows borrowings of Rs. 10,000 crores and interest payments of Rs. 6,000 crores. Which of the following statements are correct?** (CSE Prelims 2025)
-I. Revenue deficit is Rs. 20,000 crores.
-II. Fiscal deficit is Rs. 10,000 crores.
-III. Primary deficit is Rs. 4,000 crores.
-(a) I and II only (b) II and III only (c) I and III only (d) I, II and III
-**Answer:** (d)
-
-**Q. There has been a persistent deficit budget year after year. Which action/actions of the following can be taken by the Government to reduce the deficit?** (CSE Prelims 2016)
-1. Reducing revenue expenditure
-2. Introducing new welfare schemes
-3. Rationalizing subsidies
-4. Reducing import duty
-(a) 1 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2, 3 and 4
-**Answer:** (c)
-
-**Q. With reference to Indian economy, consider the following:** (CSE Prelims 2015)
-1. Bank Rate
-2. Open Market Operations
-3. Public Debt
-4. Public Revenue
-Which of the above is/are component/components of Monetary Policy?
-(a) 1 only (b) 2, 3, and 4 (c) 1 and 2 (d) 1, 3, and 4
-**Answer:** (c)
-
-**Q. What is/are the most likely advantages of implementing 'Goods and Services Tax (GST)'?** (CSE Prelims 2017)
-1. It will replace multiple taxes collected by multiple authorities and will thus create a single market in India.
-2. It will drastically reduce the 'Current Account Deficit' of India and will enable it to increase its foreign exchange reserves.
-3. It will enormously increase the growth and size of economy of India and will enable it to overtake China in the near future.
-(a) 1 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3
-**Answer:** (a)
-
-### Mains
-
-**Q. What are the reasons for the introduction of the Fiscal Responsibility and Budget Management (FRBM) Act, 2003? Discuss critically its salient features and their effectiveness.** (CSE Mains 2013, GS Paper 3, 15 marks)
-
-**Q. How are the principles followed by the NITI Aayog different from those followed by the erstwhile Planning Commission in India?** (CSE Mains 2018, GS Paper 3, 15 marks)
-
-**Q. The public expenditure management is a challenge to the Government of India in the context of budget making during the post-liberalisation period. Clarify it.** (CSE Mains 2019, GS Paper 3, 15 marks)
-
 ---
 
 ## Current Affairs Connect

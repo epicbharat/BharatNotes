@@ -250,46 +250,6 @@ Buddhist texts mention **16 Mahajanapadas** (great kingdoms) that dominated nort
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q1. (2013):** Which of the following characterizes/characterize the people of Indus Civilization?
-1. They possessed great palaces and temples.
-2. They worshipped both male and female deities.
-3. They employed horse-drawn chariots in warfare.
-
-Select the correct answer using the code given below:
-(a) 1 and 2 only (b) 2 only (c) 1, 2 and 3 (d) None of the statements given above is correct
-**Answer:** (b) *(Prelims 2013, GS Paper I)*
-
-**Q2. (2017):** Consider the following pairs:
-1. Sautrantika and Sammitiya — Sects of Jainism
-2. Sthanakavasi — A sect of Buddhism
-
-Which of the above is/are correctly matched?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (d) *(Sautrantika and Sammitiya are sects of Buddhism, not Jainism; Sthanakavasi is a sub-sect of Jainism, not Buddhism)* *(Prelims 2017, GS Paper I)*
-
-**Q3. (2018):** Which one of the following was a very important seaport in the Kakatiya kingdom?
-(a) Kakinada (b) Motupalli (c) Machilipatnam (Masulipatnam) (d) Nelluru
-**Answer:** (b) *(Prelims 2018, GS Paper I)*
-
-**Q4. (2014):** With reference to the history of ancient India, which of the following was/were common to both Buddhism and Jainism?
-1. Avoidance of extremities of penance and enjoyment
-2. Indifference to the authority of the Vedas
-3. Denial of efficacy of rituals
-
-Select the correct answer using the code given below:
-(a) 1 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3
-**Answer:** (b) *(Prelims 2012, GS Paper I)*
-
-### Mains
-
-**Q5. (2018):** Assess the importance of the accounts of the Chinese and Arab travellers in the reconstruction of the history of India. *(GS Paper I, 250 words)*
-
-**Q6. (2020):** Evaluate the nature of the Bhakti literature and its contribution to Indian culture and heritage. *(GS Paper I, 250 words)*
-
 ---
 
 ## Current Affairs Connect

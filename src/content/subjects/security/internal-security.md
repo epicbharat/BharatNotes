@@ -263,43 +263,6 @@ The PMLA was enacted in January 2003 and came into force on **1 July 2005**.
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-**Q1. (2019):** Consider the following statements about the National Investigation Agency (NIA):
-1. It was established under the NIA Act, 2008.
-2. It can investigate terror-related cases across India without requiring permission from the state government.
-
-Which of the statements given above is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (c) *(Prelims PYQ, GS Paper I)*
-
-**Q2. (2018):** Consider the following statements about CERT-In:
-1. It is the national nodal agency for responding to computer security incidents.
-2. It functions under the Ministry of Electronics and Information Technology.
-
-Which of the statements given above is/are correct?
-(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
-**Answer:** (c) *(Prelims PYQ, GS Paper I)*
-
-**Q3. (2020):** Consider the following statements about the Financial Action Task Force (FATF):
-1. It was established in 1989 at the G7 Summit.
-2. Its headquarters is in Paris, France.
-3. India is a full member of the FATF.
-
-Which of the above statements is/are correct?
-(a) 1 and 2 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3
-**Answer:** (d) *(Prelims PYQ, GS Paper I)*
-
-### Mains
-
-**Q4. (2019):** Indian Government has recently strengthened the anti-terrorism laws by amending the Unlawful Activities (Prevention) Act (UAPA), 1967 and the NIA Act. Analyze the changes in the context of prevailing security environment while discussing the scope and reasons for opposing the UAPA by human rights organizations. *(GS Paper III, 250 words)*
-
-**Q5. (2019):** Cross-border movement of insurgents is only one of the several security challenges facing the policing of the border in North-East India. Examine the various challenges currently emanating across the India-Myanmar border. Also, discuss the steps to counter the challenges. *(GS Paper III, 250 words)*
-
-**Q6. (2020):** Analyze internal security threats and transborder crimes along Myanmar, Bangladesh and Pakistan borders including Line of Control (LoC). Also discuss the role played by various security forces in this regard. *(GS Paper III, 250 words)*
-
 ---
 
 ## Current Affairs Connect

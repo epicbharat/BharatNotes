@@ -462,26 +462,6 @@ In 1960, seventeen African nations gained independence — 13 former French colo
 
 ---
 
-## Previous Year Questions (PYQs)
-
-### Mains
-
-**Q1. (2025):** The French Revolution has enduring relevance to the contemporary world. Explain. *(GS Paper I, 150 words)*
-
-**Q2. (2014):** Why did the Industrial Revolution first occur in England? Discuss the quality of life of the people there during the industrialization. How does it compare with that in India at present? *(GS Paper I, 250 words)*
-
-**Q3. (2023):** "Latecomer" Industrial Revolution in Japan involved certain factors that were markedly different from what the West had experienced. Analyse. *(GS Paper I, 150 words)*
-
-**Q4. (2017):** What were the events that led to the Suez Crisis in 1956? How did it deal a final blow to Britain's self-image as a world power? *(GS Paper I, 250 words)*
-
-**Q5. (2016):** The anti-colonial struggles in West Africa were led by the new elite of Western-educated Africans. Examine. *(GS Paper I, 250 words)*
-
-**Q6. (2015):** What problems are germane to the decolonisation process in the Malay Peninsula? *(GS Paper I, 200 words)*
-
-**Q7. (2014):** To what extent can Germany be held responsible for causing the two World Wars? Discuss critically. *(GS Paper I, 250 words)*
-
-**Q8. (2019):** What is the significance of the Industrial Revolution in world history? *(GS Paper I, 150 words)*
-
 ---
 
 ## Current Affairs Connect
