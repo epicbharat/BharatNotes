@@ -170,7 +170,13 @@
       ".tp-info { display:flex; gap:20px; flex-wrap:wrap; font-family:'Inter',sans-serif; font-size:7.5pt; color:#999; }",
       ".tp-info span { display:inline-flex; align-items:center; gap:4px; }",
       ".tp-info strong { color:#555; font-weight:600; }",
-      ".tp-btn { display:inline-block; margin-top:16px; padding:7px 18px; font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:#0f172a; background:#f1f5f9; border:1px solid #e2e8f0; border-radius:4px; text-decoration:none; }",
+      ".tp-btn { display:inline-block; margin-top:16px; padding:7px 18px; font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:#0f172a; background:#f1f5f9; border:1px solid #e2e8f0; border-radius:4px; text-decoration:none; margin-right:10px; }",
+      ".tp-btn--accent { color:#92400e; background:#fffbeb; border-color:#fde68a; }",
+      ".tp-ujiyari { margin-top:20px; padding:14px 18px; background:#fffbeb; border:1px solid #fde68a; border-radius:6px; display:flex; align-items:center; gap:14px; }",
+      ".tp-ujiyari-icon { font-size:18pt; flex-shrink:0; }",
+      ".tp-ujiyari-text { font-family:'Inter',sans-serif; font-size:8pt; color:#78350f; line-height:1.5; }",
+      ".tp-ujiyari-text strong { color:#451a03; font-weight:700; }",
+      ".tp-ujiyari-btn { flex-shrink:0; display:inline-block; padding:6px 14px; font-family:'Inter',sans-serif; font-size:7pt; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:#fff; background:#d97706; border-radius:4px; text-decoration:none; }",
 
       /* ─── CONTENT ─── */
       ".ct { padding:0; }",
@@ -274,6 +280,12 @@
       ".col-author-name { font-family:'Inter',sans-serif; font-size:10pt; font-weight:600; color:#e2e8f0; text-align:left; }",
       ".col-author-link { display:inline-block; margin-top:4px; padding:4px 12px; font-family:'Inter',sans-serif; font-size:7pt; font-weight:600; letter-spacing:0.06em; color:rgba(255,255,255,0.6); background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15); border-radius:3px; text-decoration:none; }",
       ".col-disc { font-size:7.5pt; color:rgba(255,255,255,0.35); line-height:1.7; max-width:130mm; margin:0 auto; }",
+      ".col-ujiyari { margin-top:28px; padding:18px 22px; background:rgba(217,119,6,0.12); border:1px solid rgba(217,119,6,0.25); border-radius:8px; max-width:140mm; text-align:center; }",
+      ".col-ujiyari-title { font-family:'EB Garamond','Georgia',serif; font-size:14pt; color:#fbbf24; margin-bottom:6px; }",
+      ".col-ujiyari-desc { font-size:8.5pt; color:rgba(255,255,255,0.55); line-height:1.55; margin-bottom:10px; }",
+      ".col-ujiyari-features { display:flex; justify-content:center; gap:16px; margin-bottom:12px; flex-wrap:wrap; }",
+      ".col-ujiyari-feat { font-family:'Inter',sans-serif; font-size:7pt; font-weight:600; color:rgba(255,255,255,0.5); letter-spacing:0.06em; text-transform:uppercase; padding:4px 10px; background:rgba(255,255,255,0.06); border-radius:3px; }",
+      ".col-ujiyari-btn { display:inline-block; padding:8px 22px; font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#1a1a1a; background:#fbbf24; border-radius:4px; text-decoration:none; }",
       ".col-bottom { background:#fff; padding:14mm 28mm; text-align:center; }",
       ".col-copy { font-family:'Inter',sans-serif; font-size:7pt; color:#bbb; letter-spacing:0.1em; text-transform:uppercase; }"
     ].join(" ");
@@ -313,7 +325,15 @@
             '<span><strong>Generated</strong> ' + dateStr + '</span>' +
             '<span><strong>License</strong> Free for personal use</span>' +
           '</div>' +
-          '<a href="https://bharatnotes.com" class="tp-btn">Visit BharatNotes.com &rarr;</a>' +
+          '<div style="display:flex; gap:10px; margin-top:16px;">' +
+            '<a href="https://bharatnotes.com" class="tp-btn">BharatNotes.com &rarr;</a>' +
+            '<a href="https://ujiyari.com" class="tp-btn tp-btn--accent">Ujiyari.com &rarr;</a>' +
+          '</div>' +
+          '<div class="tp-ujiyari">' +
+            '<div class="tp-ujiyari-icon">📰</div>' +
+            '<div class="tp-ujiyari-text"><strong>Ujiyari.com</strong> &mdash; Daily current affairs, editorial analysis, monthly compilations &amp; Mains answer writing practice. Pair these static notes with live news coverage.</div>' +
+            '<a href="https://ujiyari.com" class="tp-ujiyari-btn">Visit &rarr;</a>' +
+          '</div>' +
         '</div>' +
       '</div>' +
 
@@ -351,7 +371,18 @@
               '<a class="col-author-link" href="https://www.linkedin.com/in/epicbharat/">LinkedIn &rarr;</a>' +
             '</div>' +
           '</div>' +
-          '<p class="col-disc">All content is sourced from official government publications and standard UPSC references. For current affairs and daily updates, visit ujiyari.com.</p>' +
+          '<p class="col-disc">All content is sourced from official government publications and standard UPSC references.</p>' +
+          '<div class="col-ujiyari">' +
+            '<div class="col-ujiyari-title">Stay Updated with Ujiyari.com</div>' +
+            '<div class="col-ujiyari-desc">Your daily companion for UPSC current affairs — editorials, PIB summaries, monthly compilations, and Mains answer practice.</div>' +
+            '<div class="col-ujiyari-features">' +
+              '<span class="col-ujiyari-feat">Daily News</span>' +
+              '<span class="col-ujiyari-feat">Editorial Analysis</span>' +
+              '<span class="col-ujiyari-feat">Monthly Compilations</span>' +
+              '<span class="col-ujiyari-feat">Mains Practice</span>' +
+            '</div>' +
+            '<a href="https://ujiyari.com" class="col-ujiyari-btn">Visit Ujiyari.com &rarr;</a>' +
+          '</div>' +
         '</div>' +
         '<div class="col-bottom">' +
           '<div class="col-copy">&copy; ' + new Date().getFullYear() + ' BharatNotes.com &middot; 100% Free &middot; No Login Required</div>' +
