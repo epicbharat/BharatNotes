@@ -78,7 +78,7 @@ The Maratha Empire (1674–1818) was the last great indigenous power in India be
 |---------|--------|
 | **Significance** | Shivaji built a formidable **navy** — one of the first Indian rulers to recognise the strategic importance of sea power in the face of European (particularly Portuguese and British) maritime dominance |
 | **Fleet** | Maintained several hundred warships; established dockyards at **Vijaydurg, Sindhudurg, and other coastal forts** |
-| **Commanders** | **Kanhoji Angre** (later, under Sambhaji and the Peshwas) became the most famous Maratha naval commander; controlled the western coast and challenged British, Portuguese, and Dutch shipping |
+| **Shivaji's commanders** | **Sidhoji Gujar** and others manned the fleet during Shivaji's lifetime; **Kanhoji Angre** (1669–1729) became the most famous Maratha admiral decades later under **Chhatrapati Shahu** — called "Samudratla Shivaji" (Shivaji of the Seas); controlled the western coast and challenged British, Portuguese, and Dutch shipping |
 | **"Father of Indian Navy"** | Shivaji is informally honoured as the founder of the Indian naval tradition; the Indian Navy's coastal command insignia honours his legacy |
 
 ---
@@ -87,7 +87,7 @@ The Maratha Empire (1674–1818) was the last great indigenous power in India be
 
 | Ruler | Period | Key Facts |
 |-------|--------|-----------|
-| **Sambhaji** | 1680–1689 | Shivaji's elder son; brave but considered reckless; captured by Mughal forces; **tortured and executed** by Aurangzeb (1689) — his refusal to convert to Islam made him a martyr |
+| **Sambhaji** | 1681–1689 | Shivaji's elder son; brave but considered reckless; captured at Sangameshwar (1 February 1689); **tortured and executed** at Tulapur on **11 March 1689** by Aurangzeb — his refusal to convert to Islam made him a martyr |
 | **Rajaram** | 1689–1700 | Shivaji's younger son; continued resistance from Jinji (Tamil Nadu) after the fall of Raigad |
 | **Tarabai** | 1700–1707 (regent) | Rajaram's wife; led Maratha resistance as regent for her infant son Shivaji II; one of the most capable women rulers in Indian history |
 
@@ -153,7 +153,7 @@ By the mid-18th century, the Maratha Empire had evolved into a **confederacy** o
 - Ashtapradhan: eight ministers with specialised roles (Peshwa = PM, Amatya = Finance, etc.)
 - Chauth (1/4) and Sardeshmukhi (1/10)
 - Killing of Afzal Khan (1659), escape from Agra (1666), Treaty of Purandar (1665)
-- Sambhaji: executed by Aurangzeb (1689)
+- Sambhaji: captured Sangameshwar, executed 11 March 1689 at Tulapur
 - Peshwas: Balaji Vishwanath (first hereditary), Bajirao I (never lost), Balaji Bajirao (Panipat)
 - Third Battle of Panipat: 14 January 1761, Sadashivrao Bhau vs Ahmad Shah Abdali
 - Maratha Confederacy: Holkar, Scindia, Bhonsle, Gaekwad, Peshwa
