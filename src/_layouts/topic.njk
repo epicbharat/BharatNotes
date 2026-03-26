@@ -15,7 +15,7 @@ layout: base.njk
       {% if subjectData %}<a href="/subjects/{{ subject }}/">{{ subjectData.name }}</a><span class="breadcrumb__sep">/</span>{% endif %}
       {{ title }}
     </nav>
-    <div style="display:flex; align-items:center; gap:var(--space-2); margin-bottom:var(--space-2);">
+    <div class="page-header__tags">
       {% if subjectData %}<span style="font-size:1.5rem;">{{ subjectData.icon }}</span>{% endif %}
       {% for paper in gs_papers %}
       <span class="gs-badge gs-badge--{{ paper }}">{{ paper | upper }}</span>

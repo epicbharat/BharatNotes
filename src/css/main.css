@@ -256,6 +256,18 @@ h1, h2, h3, h4, h5, h6 { color: inherit; line-height: var(--leading-tight); }
   font-weight: var(--font-semibold);
   font-family: var(--font-body);
 }
+.page-header__tags {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+.page-header__tags::-webkit-scrollbar { display: none; }
 .page-header__title {
   font-family: var(--font-heading);
   font-size: clamp(1.75rem, 3.5vw, var(--text-3xl));
