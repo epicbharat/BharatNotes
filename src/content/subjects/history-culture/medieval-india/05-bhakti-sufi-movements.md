@@ -85,12 +85,12 @@ The Bhakti and Sufi movements were the two most transformative spiritual current
 | **Significance** | First **Sikh Guru** and founder of **Sikhism** |
 | **Background** | Born in Talwandi (now Nankana Sahib, Pakistan) to a Hindu Khatri family |
 | **Stream** | **Nirguna Bhakti** |
-| **Key concepts** | **Naam** (meditation on God's name), **Daan** (charity), **Ishnan** (purity/honest living); **Ik Onkar** (God is One) |
+| **Key concepts** | Three pillars: **Naam Japna** (meditation on God's name), **Kirat Karni** (honest earning/living), **Vand Chakko** (sharing with others); **Ik Onkar** (God is One) |
 | **Langar** | Established the **langar** tradition — free community kitchen open to all, regardless of caste or religion |
 | **Travels** | Undertook four great journeys (**Udasis**) — to Sri Lanka, Mecca, Baghdad, and across India |
 | **Successor** | Appointed **Guru Angad** (not his sons) as the second Guru — establishing the principle of spiritual merit over heredity |
 
-### Chaitanya Mahaprabhu (1486–1533)
+### Chaitanya Mahaprabhu (1486–1534)
 
 | Feature | Detail |
 |---------|--------|
@@ -104,7 +104,7 @@ The Bhakti and Sufi movements were the two most transformative spiritual current
 
 | Feature | Detail |
 |---------|--------|
-| **Background** | Rajput princess of **Merta** (Rajasthan); married into the royal family of Mewar |
+| **Background** | **Rathore Rajput** princess of **Merta** (Marwar, Rajasthan); married into the **Sisodiya dynasty of Mewar** — her husband was **Bhoj Raj**, crown prince of Mewar (died 1521) |
 | **Stream** | **Saguna Bhakti** — devoted to **Lord Krishna** |
 | **Significance** | Defied the social norms of Rajput royalty to pursue her devotion; faced persecution from her in-laws; left the palace to become a wandering devotee |
 | **Works** | Composed devotional **bhajans** in Rajasthani and Hindi that remain immensely popular today |
