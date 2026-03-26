@@ -94,11 +94,11 @@
       '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Instrument+Serif&display=swap">' +
       "<style>" +
       "* { margin:0; padding:0; box-sizing:border-box; }" +
-      "@page { size:A4; margin:0; }" +
+      "@page { size:A4; margin:18mm 20mm 20mm 20mm; }" +
       "body { font-family:'Inter',system-ui,sans-serif; font-size:12pt; line-height:1.7; color:#1e293b; background:#fff; -webkit-font-smoothing:antialiased; }" +
 
       /* ── Cover Page — clean white minimal ── */
-      ".cover-page { width:210mm; min-height:297mm; position:relative; display:flex; flex-direction:column; background:#fff; page-break-after:always; padding:20mm 22mm; }" +
+      ".cover-page { position:relative; display:flex; flex-direction:column; background:#fff; page-break-after:always; margin:-18mm -20mm 0 -20mm; padding:20mm 22mm; min-height:297mm; }" +
       ".cover-accent { position:absolute; top:0; left:0; width:6px; height:100%; background:#0f4c3a; }" +
       ".cover-top { padding:0; }" +
       ".cover-logo { font-family:'Instrument Serif',Georgia,serif; font-size:15pt; color:#0f4c3a; letter-spacing:-0.01em; }" +
@@ -119,7 +119,7 @@
       ".cover-url { font-size:8.5pt; color:#94a3b8; letter-spacing:0.02em; }" +
 
       /* ── Content Pages ── */
-      ".content-pages { padding:22mm 20mm 24mm 20mm; }" +
+      ".content-pages { padding:0; }" +
       ".pdf-header { border-bottom:2px solid #0f4c3a; padding-bottom:16px; margin-bottom:24px; }" +
       ".pdf-header .breadcrumb { font-size:9pt; color:#94a3b8; margin-bottom:8px; text-transform:uppercase; letter-spacing:0.08em; font-weight:500; }" +
       ".pdf-header .badges { margin-bottom:10px; }" +
@@ -151,7 +151,7 @@
       ".pdf-footer { margin-top:32px; padding-top:14px; border-top:1px solid #e2e8f0; font-size:9pt; color:#94a3b8; display:flex; justify-content:space-between; }" +
 
       /* ── Back Page — minimal dark ── */
-      ".back-page { width:210mm; min-height:297mm; position:relative; display:flex; flex-direction:column; justify-content:center; align-items:center; background:#0f172a; page-break-before:always; padding:24mm 22mm; }" +
+      ".back-page { position:relative; display:flex; flex-direction:column; justify-content:center; align-items:center; background:#0f172a; page-break-before:always; margin:0 -20mm -20mm -20mm; padding:24mm 22mm; min-height:297mm; }" +
       ".back-inner { text-align:center; padding:0; max-width:150mm; }" +
       ".back-logo { font-family:'Instrument Serif',Georgia,serif; font-size:32pt; color:#fff; letter-spacing:-0.02em; margin-bottom:8px; }" +
       ".back-logo span { color:#d4a017; }" +
