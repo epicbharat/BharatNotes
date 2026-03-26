@@ -12,49 +12,174 @@ description: "Build your UPSC vocabulary — pronunciation, etymology, synonyms,
       Vocab Builder
     </nav>
     <p class="page-header__eyebrow">Resources</p>
-    <h1 class="page-header__title">Vocab Builder</h1>
-    <p class="page-header__subtitle">Master essential UPSC vocabulary — each word includes pronunciation, definition, etymology, synonyms, antonyms, and exam context.</p>
+    <h1 class="page-header__title">Vocabulary Builder</h1>
+    <p class="page-header__subtitle">Master words that elevate your UPSC Essay, GS answer writing, and Interview performance.</p>
   </div>
 </section>
 
-<section style="padding:var(--space-8) 0;">
+<section class="vocab-hub" style="padding:var(--space-8) 0;">
   <div class="container">
 
-    <div class="card" style="margin-bottom:var(--space-8); background:linear-gradient(135deg, rgba(8,145,178,0.08), rgba(8,145,178,0.02)); border-left:4px solid #0891b2;">
-      <div class="article-body">
-        <h3 style="color:#0891b2; margin-bottom:var(--space-3);">What You Get</h3>
-        <p>Every vocab entry on BharatNotes is a comprehensive, dictionary-grade card — not just a flashcard. Each entry includes:</p>
-        <ul>
-          <li><strong>Pronunciation</strong> — IPA guide so you say it right in interviews</li>
-          <li><strong>Definition & Explanation</strong> — Clear, exam-ready meaning with context</li>
-          <li><strong>Etymology (Origin)</strong> — Root word analysis to deepen understanding and aid recall</li>
-          <li><strong>Synonyms & Antonyms</strong> — With differences explained so you use the right word</li>
-          <li><strong>UPSC Context</strong> — Exactly where and how it appears in Prelims, Mains, and Essay</li>
-          <li><strong>Related Terms</strong> — Interlinked for connected learning across topics</li>
-        </ul>
-        <p style="margin-top:var(--space-3); font-size:var(--text-sm); color:var(--color-text-muted);">All entries are fact-checked against official government sources. Nothing is made up.</p>
+    {# ── Stats bar ── #}
+    <div class="vocab-hub__stats">
+      <span class="vocab-hub__count"><strong>{{ vocabIndex.vocab | length }}</strong> Total Words</span>
+      <span class="vocab-hub__sep">|</span>
+      <span class="vocab-hub__learned" id="vh-learned">0 Learned</span>
+      <span class="vocab-hub__sep">|</span>
+      <span class="vocab-hub__remaining" id="vh-remaining">{{ vocabIndex.vocab | length }} Remaining</span>
+    </div>
+
+    {# ── Search + Filters ── #}
+    <div class="vocab-hub__controls">
+      <div class="vocab-hub__search-wrap">
+        <input type="text" id="vh-search" class="vocab-hub__search" placeholder="Search vocabulary..." autocomplete="off">
+        <span class="vocab-hub__search-count" id="vh-search-count"></span>
+      </div>
+
+      <div class="vocab-hub__filters">
+        <button class="vocab-hub__filter active" data-subject="all">All Subjects</button>
+        {% for s in subjects %}
+        {%- set hasEntries = false -%}
+        {%- for v in vocabIndex.vocab -%}{%- if v.subject == s.slug -%}{%- set hasEntries = true -%}{%- endif -%}{%- endfor -%}
+        {%- if hasEntries %}
+        <button class="vocab-hub__filter" data-subject="{{ s.slug }}">{{ s.icon }} {{ s.name }}</button>
+        {%- endif -%}
+        {% endfor %}
       </div>
     </div>
 
-    <h2 style="font-family:var(--font-serif); font-size:var(--text-2xl); color:var(--color-brand-dark); margin-bottom:var(--space-5); padding-bottom:var(--space-2); border-bottom:3px solid #0891b2;">Topics with Vocabulary</h2>
-    <p style="color:var(--color-text-muted); margin-bottom:var(--space-6);">Vocabulary sections are embedded within topic pages. Click any topic below to jump directly to its vocabulary entries.</p>
+    {# ── Alphabet nav ── #}
+    <nav class="vocab-hub__alpha" id="vh-alpha" aria-label="Jump to letter">
+      {%- set letters = [] -%}
+      {%- for v in vocabIndex.vocab -%}
+        {%- set letter = v.term | upper | truncate(1, true, "") -%}
+        {%- if letter not in letters -%}{%- set letters = (letters.push(letter), letters) -%}{%- endif -%}
+      {%- endfor -%}
+      {%- for ch in "ABCDEFGHIJKLMNOPQRSTUVWXYZ" -%}
+        {%- if ch in letters -%}
+        <a href="#vocab-letter-{{ ch }}" class="vocab-hub__alpha-btn active-letter">{{ ch }}</a>
+        {%- else -%}
+        <span class="vocab-hub__alpha-btn disabled">{{ ch }}</span>
+        {%- endif -%}
+      {%- endfor -%}
+    </nav>
 
-    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:var(--space-5); margin-bottom:var(--space-10);">
-
-      <!-- Economy -->
-      <a href="/subjects/economy/gst/#vocabulary" class="card" style="text-decoration:none; border-left:4px solid #0891b2;">
-        <span class="gs-badge gs-badge--gs3" style="margin-bottom:var(--space-2);">Economy</span>
-        <h4 style="color:var(--color-brand-dark); margin:var(--space-2) 0;">Goods and Services Tax (GST)</h4>
-        <p class="card__desc">CGST, Input Tax Credit, E-way Bill, Anti-profiteering, GSTN</p>
-        <span style="font-size:var(--text-xs); color:#0891b2; font-weight:var(--font-semibold); margin-top:var(--space-2); display:inline-block;">5 vocabulary entries &rarr;</span>
-      </a>
-
+    {# ── No results message ── #}
+    <div class="vocab-hub__no-results" id="vh-no-results" hidden>
+      <p>No matching vocabulary found. Try a different search or filter.</p>
     </div>
 
-    <div class="card" style="background:var(--color-bg-alt); text-align:center; padding:var(--space-8);">
-      <p style="font-size:var(--text-lg); color:var(--color-brand-dark); font-weight:var(--font-semibold); margin-bottom:var(--space-2);">More vocabulary coming soon</p>
-      <p style="color:var(--color-text-muted);">We're adding rich vocabulary entries to every topic page across all 12 subjects. Check back regularly or browse <a href="/subjects/" style="color:#0891b2; font-weight:var(--font-medium);">all subjects</a> to explore available content.</p>
-    </div>
+    {# ── Cards grouped by letter ── #}
+    {%- set currentLetter = "" -%}
+    {%- for v in vocabIndex.vocab -%}
+      {%- set letter = v.term | upper | truncate(1, true, "") -%}
+      {%- if letter != currentLetter -%}
+        {%- if currentLetter != "" %}</div>{%- endif -%}
+        {%- set currentLetter = letter -%}
+    <div class="vocab-hub__letter-group" id="vocab-letter-{{ letter }}" data-letter="{{ letter }}">
+      <h2 class="vocab-hub__letter-heading">{{ letter }}</h2>
+      {%- endif %}
+
+      {%- set subjectName = v.subject -%}
+      {%- for s in subjects -%}{%- if s.slug == v.subject -%}{%- set subjectName = s.name -%}{%- endif -%}{%- endfor -%}
+
+      <div class="vocab-hub__card" data-subject="{{ v.subject }}" data-term="{{ v.term | lower }}" data-def="{{ v.definition | lower }}">
+        <div class="vocab-hub__card-header">
+          <h3 class="vocab-hub__term">{{ v.term }}</h3>
+          {% if v.pronunciation %}<span class="vocab-hub__pron">{{ v.pronunciation }}</span>{% endif %}
+        </div>
+        <p class="vocab-hub__def">{{ v.definition }}</p>
+        {% if v.origin %}<p class="vocab-hub__origin"><strong>Origin:</strong> {{ v.origin | truncate(120, true) }}</p>{% endif %}
+        <div class="vocab-hub__card-footer">
+          <div class="vocab-hub__tags">
+            {%- for gp in v.gs_papers %}<span class="gs-badge gs-badge--{{ gp }}">{{ gp | upper }}</span>{% endfor %}
+            <a href="/subjects/{{ v.subject }}/" class="vocab-hub__subject-tag">{{ subjectName }}</a>
+          </div>
+          <div class="vocab-hub__actions">
+            <a href="{{ v.topicUrl }}#term-{{ v.slug }}" class="vocab-hub__detail-link">Details &rarr;</a>
+            <button class="vocab-hub__learn-btn" data-term-id="vocab-{{ v.slug }}" aria-label="Mark as learned">Revise</button>
+          </div>
+        </div>
+      </div>
+
+    {%- endfor -%}
+    {%- if currentLetter != "" %}</div>{%- endif -%}
 
   </div>
 </section>
+
+<script>
+(function() {
+  var search = document.getElementById("vh-search");
+  var countEl = document.getElementById("vh-search-count");
+  var noResults = document.getElementById("vh-no-results");
+  var cards = document.querySelectorAll(".vocab-hub__card");
+  var groups = document.querySelectorAll(".vocab-hub__letter-group");
+  var filters = document.querySelectorAll(".vocab-hub__filter");
+  var activeSubject = "all";
+
+  function applyFilters() {
+    var q = search.value.toLowerCase().trim();
+    var shown = 0;
+    cards.forEach(function(c) {
+      var matchSubject = activeSubject === "all" || c.dataset.subject === activeSubject;
+      var matchSearch = !q || c.dataset.term.indexOf(q) !== -1 || c.dataset.def.indexOf(q) !== -1;
+      var visible = matchSubject && matchSearch;
+      c.style.display = visible ? "" : "none";
+      if (visible) shown++;
+    });
+    // Hide empty letter groups
+    groups.forEach(function(g) {
+      var hasVisible = g.querySelector('.vocab-hub__card:not([style*="display: none"])');
+      g.style.display = hasVisible ? "" : "none";
+    });
+    countEl.textContent = q ? shown + " found" : "";
+    noResults.hidden = shown > 0;
+  }
+
+  search.addEventListener("input", applyFilters);
+
+  filters.forEach(function(btn) {
+    btn.addEventListener("click", function() {
+      filters.forEach(function(b) { b.classList.remove("active"); });
+      btn.classList.add("active");
+      activeSubject = btn.dataset.subject;
+      applyFilters();
+    });
+  });
+
+  // Learn/Revise toggle
+  var learnedSet = JSON.parse(localStorage.getItem("bn_vocab_learned") || "[]");
+  var learnedEl = document.getElementById("vh-learned");
+  var remainEl = document.getElementById("vh-remaining");
+  var total = cards.length;
+
+  function updateProgress() {
+    learnedEl.textContent = learnedSet.length + " Learned";
+    remainEl.textContent = (total - learnedSet.length) + " Remaining";
+    localStorage.setItem("bn_vocab_learned", JSON.stringify(learnedSet));
+  }
+
+  document.querySelectorAll(".vocab-hub__learn-btn").forEach(function(btn) {
+    var id = btn.dataset.termId;
+    if (learnedSet.indexOf(id) !== -1) {
+      btn.classList.add("learned");
+      btn.textContent = "Learned ✓";
+    }
+    btn.addEventListener("click", function() {
+      var idx = learnedSet.indexOf(id);
+      if (idx === -1) {
+        learnedSet.push(id);
+        btn.classList.add("learned");
+        btn.textContent = "Learned ✓";
+      } else {
+        learnedSet.splice(idx, 1);
+        btn.classList.remove("learned");
+        btn.textContent = "Revise";
+      }
+      updateProgress();
+    });
+  });
+  updateProgress();
+})();
+</script>
