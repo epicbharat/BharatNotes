@@ -87,16 +87,18 @@ GST is a **comprehensive, multi-stage, destination-based indirect tax** levied o
 | **18%** | Standard rate — most goods and services (electronics, financial services, restaurants in hotels) |
 | **28%** | Luxury and demerit goods (cars, AC, aerated drinks, tobacco, cement) + Compensation Cess |
 
-#### GST 2.0 Reforms (Effective 22 September 2025)
+#### GST 2.0 Reforms (56th GST Council, 3 September 2025; effective 22 September 2025)
 
-Major simplification — merged from 5 slabs to **4 slabs**:
+Major simplification — the 12% and 28% slabs were eliminated. The new structure has **3 effective tax rates** (plus exempt):
 
 | New Rate | Coverage |
 |----------|---------|
-| **0%** | Essentials unchanged |
-| **5%** | Essential and merit goods |
-| **18%** | Standard rate (absorbed most of the old 12% slab) |
-| **40%** | Luxury and sin goods (replaced 28%; renamed to include higher-end luxury) |
+| **0%** | Essentials — unpackaged food, fresh produce, milk, education, health services |
+| **5%** | Merit goods — packaged food, processed food (99% of old 12% slab moved here), transport |
+| **18%** | Standard rate — most goods and services (90% of old 28% slab moved here); electronics, ACs, TVs, cement moved down from 28% |
+| **40%** | Demerit/luxury goods — luxury vehicles, aerated drinks, tobacco, gambling |
+
+Other key reforms: life and health **insurance exempted** from GST; automated risk-based refund system (90% provisional refund for exporters from 1 November 2025); **GSTAT** (GST Appellate Tribunal) operationalised.
 
 ---
 

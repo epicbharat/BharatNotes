@@ -73,7 +73,8 @@ Constituted under Section 45ZB of the amended RBI Act:
 | Tool | Current Rate (Feb 2026) | Mechanism |
 |------|------------------------|-----------|
 | **Repo Rate** | **5.25%** | Rate at which banks borrow from RBI (overnight) against government securities. Increase → tightens liquidity → reduces inflation |
-| **Reverse Repo Rate** | **3.35%** | Rate at which banks deposit surplus funds with RBI. Increase → banks park more with RBI → reduces money supply |
+| **Standing Deposit Facility (SDF)** | **5.00%** | Introduced April 2022 — replaced reverse repo as the **floor of the LAF corridor** (repo − 0.25%). Banks park surplus with RBI at this rate; no collateral required |
+| **Reverse Repo Rate** | **3.35%** | Technically still exists but **effectively dormant** since SDF (at 5.00%) offers a higher rate. Banks use SDF instead |
 | **CRR (Cash Reserve Ratio)** | **3.00%** | Percentage of NDTL (Net Demand and Time Liabilities) banks must keep as cash with RBI. No interest earned |
 | **SLR (Statutory Liquidity Ratio)** | **18.00%** | Percentage of NDTL banks must maintain in liquid assets (cash, gold, government securities) |
 
@@ -81,7 +82,7 @@ Constituted under Section 45ZB of the amended RBI Act:
 | **MSF (Marginal Standing Facility)** | **5.50%** | Emergency borrowing window for banks (at repo + 0.25%); can dip into SLR up to 2% |
 | **Bank Rate** | **5.50%** | Rate at which RBI lends long-term to banks without collateral (used as penalty rate) |
 
-> **Mnemonic:** To remember the rate hierarchy: **Reverse Repo < Repo < MSF = Bank Rate**. MSF is always repo rate + 0.25%, and Bank Rate equals MSF rate. When RBI changes the repo rate, MSF and Bank Rate adjust automatically. This ordering is a Prelims favourite.
+> **Mnemonic:** The LAF corridor (since April 2022): **SDF (floor) < Repo (middle) < MSF = Bank Rate (ceiling)**. SDF = repo − 0.25%, MSF = repo + 0.25%. Currently: 5.00% < 5.25% < 5.50%. When RBI changes the repo rate, SDF, MSF and Bank Rate adjust automatically. The old "Reverse Repo < Repo" hierarchy is outdated — use **SDF < Repo < MSF**.
 
 ### Qualitative (Selective) Tools
 

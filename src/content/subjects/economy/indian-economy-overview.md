@@ -107,7 +107,7 @@ India is the **5th largest economy** in the world by nominal GDP and **3rd large
 - Target: Eliminate revenue deficit and reduce fiscal deficit to **3% of GDP**
 - **N.K. Singh Committee (2017)** recommended replacing rigid targets with a debt-to-GDP anchor of **40% for Centre** and **20% for States** by 2022-23
 - COVID-19 disrupted timelines — fiscal deficit rose to 9.2% in FY21
-- Current trajectory: 4.4% in FY26, aiming for below 4.5%
+- **Union Budget 2026-27** (1 February 2026): Fiscal deficit target **4.3% of GDP** (down from 4.4% RE in FY26); debt-to-GDP ratio **55.6%**; capital expenditure **Rs 12.2 lakh crore**; nominal GDP growth projected at **10%**
 
 ### Government Accounts
 
