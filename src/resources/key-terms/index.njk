@@ -22,37 +22,50 @@ description: "Comprehensive glossary of UPSC key terms and concepts — definiti
 
     {# ── Stats bar ── #}
     <div class="vocab-hub__stats">
-      <span class="vocab-hub__count"><strong>{{ vocabIndex.terms | length }}</strong> Total Terms</span>
-      <span class="vocab-hub__sep">|</span>
-      <span class="vocab-hub__learned" id="vh-learned">0 Learned</span>
-      <span class="vocab-hub__sep">|</span>
-      <span class="vocab-hub__remaining" id="vh-remaining">{{ vocabIndex.terms | length }} Remaining</span>
+      <div class="vocab-hub__stat">
+        <span class="vocab-hub__stat-num">{{ vocabIndex.terms | length }}</span>
+        <span class="vocab-hub__stat-label">Total Terms</span>
+      </div>
+      <div class="vocab-hub__stat-divider"></div>
+      <div class="vocab-hub__stat">
+        <span class="vocab-hub__stat-num" id="vh-learned-num">0</span>
+        <span class="vocab-hub__stat-label" id="vh-learned">Revised</span>
+      </div>
+      <div class="vocab-hub__stat-divider"></div>
+      <div class="vocab-hub__stat">
+        <span class="vocab-hub__stat-num" id="vh-remaining-num">{{ vocabIndex.terms | length }}</span>
+        <span class="vocab-hub__stat-label" id="vh-remaining">Remaining</span>
+      </div>
+      <div class="vocab-hub__progress-bar">
+        <div class="vocab-hub__progress-fill" id="vh-progress" style="width:0%"></div>
+      </div>
     </div>
 
-    {# ── Search + Filters ── #}
-    <div class="vocab-hub__controls">
-      <div class="vocab-hub__search-wrap">
-        <input type="text" id="vh-search" class="vocab-hub__search" placeholder="Search key terms..." autocomplete="off">
-        <span class="vocab-hub__search-count" id="vh-search-count"></span>
-      </div>
+    {# ── Search ── #}
+    <div class="vocab-hub__search-wrap">
+      <svg class="vocab-hub__search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="vh-search" class="vocab-hub__search" placeholder="Search key terms..." autocomplete="off">
+      <span class="vocab-hub__search-count" id="vh-search-count"></span>
+    </div>
 
-      <div class="vocab-hub__filters">
-        <button class="vocab-hub__filter active" data-subject="all">All Subjects</button>
-        {% for s in subjects %}
-        {%- set hasEntries = false -%}
-        {%- for t in vocabIndex.terms -%}{%- if t.subject == s.slug -%}{%- set hasEntries = true -%}{%- endif -%}{%- endfor -%}
-        {%- if hasEntries %}
-        <button class="vocab-hub__filter" data-subject="{{ s.slug }}">{{ s.icon }} {{ s.name }}</button>
-        {%- endif -%}
-        {% endfor %}
-      </div>
+    {# ── Subject filters ── #}
+    <div class="vocab-hub__filters">
+      <button class="vocab-hub__filter active" data-subject="all">All Subjects</button>
+      {% for s in subjects %}
+      {%- set hasEntries = false -%}
+      {%- for t in vocabIndex.terms -%}{%- if t.subject == s.slug -%}{%- set hasEntries = true -%}{%- endif -%}{%- endfor -%}
+      {%- if hasEntries %}
+      <button class="vocab-hub__filter" data-subject="{{ s.slug }}">{{ s.icon }} {{ s.name }}</button>
+      {%- endif -%}
+      {% endfor %}
     </div>
 
     {# ── Alphabet nav ── #}
     <nav class="vocab-hub__alpha" id="vh-alpha" aria-label="Jump to letter">
+      <span class="vocab-hub__alpha-label">Jump to:</span>
       {%- set letters = [] -%}
       {%- for t in vocabIndex.terms -%}
-        {%- set letter = t.term | upper | truncate(1, true, "") -%}
+        {%- set letter = (t.term | upper)[0] -%}
         {%- if letter not in letters -%}{%- set letters = (letters.push(letter), letters) -%}{%- endif -%}
       {%- endfor -%}
       {%- for ch in "ABCDEFGHIJKLMNOPQRSTUVWXYZ" -%}
@@ -72,7 +85,7 @@ description: "Comprehensive glossary of UPSC key terms and concepts — definiti
     {# ── Cards grouped by letter ── #}
     {%- set currentLetter = "" -%}
     {%- for t in vocabIndex.terms -%}
-      {%- set letter = t.term | upper | truncate(1, true, "") -%}
+      {%- set letter = (t.term | upper)[0] -%}
       {%- if letter != currentLetter -%}
         {%- if currentLetter != "" %}</div>{%- endif -%}
         {%- set currentLetter = letter -%}
@@ -81,23 +94,30 @@ description: "Comprehensive glossary of UPSC key terms and concepts — definiti
       {%- endif %}
 
       {%- set subjectName = t.subject -%}
-      {%- for s in subjects -%}{%- if s.slug == t.subject -%}{%- set subjectName = s.name -%}{%- endif -%}{%- endfor -%}
+      {%- set subjectIcon = "" -%}
+      {%- for s in subjects -%}{%- if s.slug == t.subject -%}{%- set subjectName = s.name -%}{%- set subjectIcon = s.icon -%}{%- endif -%}{%- endfor -%}
 
       <div class="vocab-hub__card" data-subject="{{ t.subject }}" data-term="{{ t.term | lower }}" data-def="{{ t.definition | lower }}">
-        <div class="vocab-hub__card-header">
-          <h3 class="vocab-hub__term">{{ t.term }}</h3>
-          {% if t.pronunciation %}<span class="vocab-hub__pron">{{ t.pronunciation }}</span>{% endif %}
+        <div class="vocab-hub__card-top">
+          <div class="vocab-hub__card-header">
+            <a href="{{ t.topicUrl }}#term-{{ t.slug }}" class="vocab-hub__term-link">
+              <h3 class="vocab-hub__term">{{ t.term }}</h3>
+            </a>
+            {% if t.pronunciation %}<span class="vocab-hub__pron">{{ t.pronunciation }}</span>{% endif %}
+          </div>
+          <div class="vocab-hub__gs-tags">
+            {%- for gp in t.gs_papers %}<span class="gs-badge gs-badge--{{ gp }}">{{ gp | upper }}</span>{% endfor %}
+          </div>
         </div>
         <p class="vocab-hub__def">{{ t.definition }}</p>
-        {% if t.upsc %}<p class="vocab-hub__upsc"><strong>UPSC:</strong> {{ t.upsc | truncate(120, true) }}</p>{% endif %}
+        {% if t.upsc %}<p class="vocab-hub__meta"><strong>UPSC:</strong> {{ t.upsc | truncate(150, true) }}</p>{% endif %}
         <div class="vocab-hub__card-footer">
-          <div class="vocab-hub__tags">
-            {%- for gp in t.gs_papers %}<span class="gs-badge gs-badge--{{ gp }}">{{ gp | upper }}</span>{% endfor %}
-            <a href="/subjects/{{ t.subject }}/" class="vocab-hub__subject-tag">{{ subjectName }}</a>
+          <div class="vocab-hub__subject-tags">
+            <a href="/subjects/{{ t.subject }}/" class="vocab-hub__subject-tag">{{ subjectIcon }} {{ subjectName }}</a>
           </div>
           <div class="vocab-hub__actions">
-            <a href="{{ t.topicUrl }}#term-{{ t.slug }}" class="vocab-hub__detail-link">Details &rarr;</a>
-            <button class="vocab-hub__learn-btn" data-term-id="terms-{{ t.slug }}" aria-label="Mark as learned">Revise</button>
+            <a href="{{ t.topicUrl }}#term-{{ t.slug }}" class="vocab-hub__detail-link">Definition &rarr;</a>
+            <button class="vocab-hub__learn-btn" data-term-id="terms-{{ t.slug }}" aria-label="Mark as revised">Revise</button>
           </div>
         </div>
       </div>
@@ -147,15 +167,17 @@ description: "Comprehensive glossary of UPSC key terms and concepts — definiti
     });
   });
 
-  // Learn/Revise toggle
+  // Learn/Revise toggle with progress bar
   var learnedSet = JSON.parse(localStorage.getItem("bn_terms_learned") || "[]");
-  var learnedEl = document.getElementById("vh-learned");
-  var remainEl = document.getElementById("vh-remaining");
+  var learnedNum = document.getElementById("vh-learned-num");
+  var remainNum = document.getElementById("vh-remaining-num");
+  var progressBar = document.getElementById("vh-progress");
   var total = cards.length;
 
   function updateProgress() {
-    learnedEl.textContent = learnedSet.length + " Learned";
-    remainEl.textContent = (total - learnedSet.length) + " Remaining";
+    learnedNum.textContent = learnedSet.length;
+    remainNum.textContent = total - learnedSet.length;
+    progressBar.style.width = total ? Math.round((learnedSet.length / total) * 100) + "%" : "0%";
     localStorage.setItem("bn_terms_learned", JSON.stringify(learnedSet));
   }
 
@@ -163,14 +185,14 @@ description: "Comprehensive glossary of UPSC key terms and concepts — definiti
     var id = btn.dataset.termId;
     if (learnedSet.indexOf(id) !== -1) {
       btn.classList.add("learned");
-      btn.textContent = "Learned ✓";
+      btn.textContent = "Learned \u2713";
     }
     btn.addEventListener("click", function() {
       var idx = learnedSet.indexOf(id);
       if (idx === -1) {
         learnedSet.push(id);
         btn.classList.add("learned");
-        btn.textContent = "Learned ✓";
+        btn.textContent = "Learned \u2713";
       } else {
         learnedSet.splice(idx, 1);
         btn.classList.remove("learned");
