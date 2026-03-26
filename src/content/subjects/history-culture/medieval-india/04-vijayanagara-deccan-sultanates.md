@@ -33,7 +33,7 @@ South India in the medieval period was defined by the rivalry between the Hindu 
 | **Founders** | Brothers **Harihara I** and **Bukka Raya I** of the **Sangama dynasty** |
 | **Capital** | **Hampi** (on the banks of the Tungabhadra River, Karnataka) — **UNESCO World Heritage Site (1986)** |
 | **Context** | Founded in response to the southward expansion of the Delhi Sultanate under Muhammad bin Tughlaq |
-| **Sage Vidyaranya** | According to tradition, the brothers were inspired by the sage **Vidyaranya** (Madhava) of Sringeri to establish the kingdom — his historical role is debated, but the connection to the Sringeri matha is well attested |
+| **Sage Vidyaranya** | According to tradition, the brothers were inspired by the sage **Vidyaranya** (Madhava) of Sringeri to establish the kingdom — modern historians consider this a **political foundation myth** likely created ~200 years later by the Sringeri matha to reassert prestige; mention the tradition but note the scholarly scepticism |
 
 ### Four Dynasties
 
@@ -72,14 +72,14 @@ Widely regarded as one of the greatest rulers in Indian history:
 | **Nicolo de' Conti** (Italian) | c. 1420s | Described the city as having a circumference of ~60 miles and an army of 90,000 |
 | **Abdur Razzaq** (Persian ambassador) | 1443 | Described Vijayanagara as a city with "no equal in the world"; noted its seven concentric fortification walls |
 | **Domingo Paes** (Portuguese) | c. 1520 | Most detailed and admiring account — described Krishnadevaraya's court, the Mahanavami festival, and the city's prosperity |
-| **Fernao Nuniz** (Portuguese) | c. 1535 | Provided a history of the empire from its founding |
+| **Fernao Nuniz** (Portuguese) | c. 1535–37 (during **Achyutaraya's** reign, not Krishnadevaraya's) | Provided a history of the empire from its founding; chronicled the horse trade |
 
 ### Battle of Talikota / Rakkasa-Tangadi (23 January 1565)
 
 | Feature | Detail |
 |---------|--------|
 | **Also called** | Battle of Rakkasa-Tangadi (the actual village where fighting occurred; "Talikota" is the nearby town) |
-| **Combatants** | Vijayanagara (under regent Aliya Rama Raya) vs a combined alliance of four Deccan Sultanates — **Ahmadnagar, Bijapur, Golconda, and Bidar** |
+| **Combatants** | Vijayanagara (under regent Aliya Rama Raya) vs a combined alliance of four Deccan Sultanates — **Ahmadnagar, Bijapur, Golconda, and Bidar** (Berar had already been absorbed by Ahmadnagar) |
 | **Cause** | Rama Raya's policy of playing sultanates against each other finally united them against Vijayanagara |
 | **Result** | Decisive defeat of Vijayanagara; **Rama Raya was captured and beheaded** on the battlefield; his severed head was displayed to break Vijayanagara morale |
 | **Aftermath** | Hampi was sacked, looted, and devastated for months; the capital was permanently abandoned; the city's ruins are now the UNESCO World Heritage Site |
