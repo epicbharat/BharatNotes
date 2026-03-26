@@ -263,31 +263,43 @@
       /* Running footer */
       ".ft { margin-top:36px; padding-top:12px; border-top:0.5px solid #ccc; display:flex; justify-content:space-between; font-family:'Inter',sans-serif; font-size:7.5pt; color:#999; letter-spacing:0.04em; }",
 
-      /* ─── COLOPHON (back page) ─── */
-      ".col { page-break-before:always; display:flex; flex-direction:column; min-height:250mm; padding:0; overflow:hidden; }",
-      ".col-top { background:#0f172a; color:#fff; padding:32mm 28mm 28mm; text-align:center; flex:1; display:flex; flex-direction:column; justify-content:center; align-items:center; }",
-      ".col-brand { font-family:'EB Garamond','Georgia',serif; font-size:32pt; color:#fff; margin-bottom:6px; }",
-      ".col-brand span { color:#d4a017; }",
-      ".col-tag { font-family:'Inter',sans-serif; font-size:8pt; color:rgba(255,255,255,0.45); letter-spacing:0.14em; text-transform:uppercase; margin-bottom:36px; }",
-      ".col-rule { width:40px; height:1.5px; background:#d4a017; margin:0 auto 36px; }",
-      ".col-sites { display:flex; justify-content:center; gap:40px; margin-bottom:36px; text-align:center; }",
-      ".col-site-name { font-family:'EB Garamond','Georgia',serif; font-size:16pt; color:#fff; margin-bottom:6px; }",
-      ".col-site-desc { font-size:8.5pt; color:rgba(255,255,255,0.5); line-height:1.55; max-width:55mm; margin-bottom:12px; }",
-      ".col-site-btn { display:inline-block; padding:8px 20px; font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:#fff; background:transparent; border:1.5px solid rgba(255,255,255,0.3); border-radius:4px; text-decoration:none; }",
-      ".col-divider { width:1px; height:70px; background:rgba(255,255,255,0.12); align-self:center; }",
-      ".col-author { display:flex; align-items:center; gap:16px; justify-content:center; margin-bottom:28px; }",
-      ".col-author-photo { width:56px; height:56px; border-radius:50%; object-fit:cover; border:2px solid rgba(255,255,255,0.2); }",
-      ".col-author-name { font-family:'Inter',sans-serif; font-size:10pt; font-weight:600; color:#e2e8f0; text-align:left; }",
-      ".col-author-link { display:inline-block; margin-top:4px; padding:4px 12px; font-family:'Inter',sans-serif; font-size:7pt; font-weight:600; letter-spacing:0.06em; color:rgba(255,255,255,0.6); background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15); border-radius:3px; text-decoration:none; }",
-      ".col-disc { font-size:7.5pt; color:rgba(255,255,255,0.35); line-height:1.7; max-width:130mm; margin:0 auto; }",
-      ".col-ujiyari { margin-top:28px; padding:18px 22px; background:rgba(217,119,6,0.12); border:1px solid rgba(217,119,6,0.25); border-radius:8px; max-width:140mm; text-align:center; }",
-      ".col-ujiyari-title { font-family:'EB Garamond','Georgia',serif; font-size:14pt; color:#fbbf24; margin-bottom:6px; }",
-      ".col-ujiyari-desc { font-size:8.5pt; color:rgba(255,255,255,0.55); line-height:1.55; margin-bottom:10px; }",
-      ".col-ujiyari-features { display:flex; justify-content:center; gap:16px; margin-bottom:12px; flex-wrap:wrap; }",
-      ".col-ujiyari-feat { font-family:'Inter',sans-serif; font-size:7pt; font-weight:600; color:rgba(255,255,255,0.5); letter-spacing:0.06em; text-transform:uppercase; padding:4px 10px; background:rgba(255,255,255,0.06); border-radius:3px; }",
-      ".col-ujiyari-btn { display:inline-block; padding:8px 22px; font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#1a1a1a; background:#fbbf24; border-radius:4px; text-decoration:none; }",
-      ".col-bottom { background:#fff; padding:14mm 28mm; text-align:center; }",
-      ".col-copy { font-family:'Inter',sans-serif; font-size:7pt; color:#bbb; letter-spacing:0.1em; text-transform:uppercase; }"
+      /* ─── BACK PAGE ─── */
+      ".bp { page-break-before:always; min-height:250mm; padding:28mm 26mm 20mm; display:flex; flex-direction:column; }",
+
+      /* Author & brand */
+      ".bp-header { display:flex; align-items:center; gap:18px; margin-bottom:32px; }",
+      ".bp-photo { width:72px; height:72px; border-radius:50%; object-fit:cover; border:3px solid #e2e8f0; }",
+      ".bp-author-name { font-family:'EB Garamond','Georgia',serif; font-size:16pt; color:#1a1a1a; margin-bottom:2px; }",
+      ".bp-author-role { font-family:'Inter',sans-serif; font-size:8pt; color:#888; margin-bottom:6px; }",
+      ".bp-author-links { display:flex; gap:8px; }",
+      ".bp-link { display:inline-block; padding:4px 12px; font-family:'Inter',sans-serif; font-size:7pt; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:#555; background:#f1f5f9; border:1px solid #e2e8f0; border-radius:3px; text-decoration:none; }",
+
+      /* Separator */
+      ".bp-sep { border:none; border-top:1px solid #e2e8f0; margin:0 0 28px; }",
+
+      /* Two-column sites */
+      ".bp-sites { display:flex; gap:24px; margin-bottom:28px; }",
+      ".bp-site { flex:1; padding:18px 20px; border:1px solid #e2e8f0; border-radius:8px; }",
+      ".bp-site-label { font-family:'Inter',sans-serif; font-size:6.5pt; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#999; margin-bottom:8px; }",
+      ".bp-site-name { font-family:'EB Garamond','Georgia',serif; font-size:15pt; color:#1a1a1a; margin-bottom:4px; }",
+      ".bp-site-desc { font-size:9pt; color:#666; line-height:1.5; margin-bottom:12px; }",
+      ".bp-site-features { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px; }",
+      ".bp-feat { font-family:'Inter',sans-serif; font-size:6.5pt; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; color:#666; padding:3px 8px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:3px; }",
+      ".bp-site-btn { display:inline-block; padding:7px 18px; font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; border-radius:4px; text-decoration:none; }",
+      ".bp-site-btn--primary { color:#fff; background:#0f172a; }",
+      ".bp-site-btn--accent { color:#fff; background:#b45309; }",
+
+      /* Ad placement */
+      ".bp-ad { padding:16px 20px; background:#fafaf5; border:1px dashed #d4d4c8; border-radius:6px; margin-bottom:28px; display:flex; align-items:center; gap:16px; }",
+      ".bp-ad-text { flex:1; }",
+      ".bp-ad-title { font-family:'Inter',sans-serif; font-size:8pt; font-weight:700; color:#555; letter-spacing:0.06em; text-transform:uppercase; margin-bottom:3px; }",
+      ".bp-ad-desc { font-size:8.5pt; color:#777; line-height:1.5; }",
+      ".bp-ad-cta { flex-shrink:0; padding:7px 16px; font-family:'Inter',sans-serif; font-size:7pt; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:#555; background:#fff; border:1.5px solid #ccc; border-radius:4px; text-decoration:none; }",
+
+      /* Footer */
+      ".bp-footer { margin-top:auto; text-align:center; padding-top:16px; border-top:1px solid #e2e8f0; }",
+      ".bp-disc { font-size:7.5pt; color:#bbb; line-height:1.7; margin-bottom:6px; }",
+      ".bp-copy { font-family:'Inter',sans-serif; font-size:7pt; color:#ccc; letter-spacing:0.1em; text-transform:uppercase; }"
     ].join(" ");
 
     /* ──────────────
@@ -345,47 +357,56 @@
         '<div class="ft"><span>bharatnotes.com</span><span>' + dateStr + '</span></div>' +
       '</div>' +
 
-      /* ═══ COLOPHON ═══ */
-      '<div class="col">' +
-        '<div class="col-top">' +
-          '<div class="col-brand">Bharat<span>Notes</span></div>' +
-          '<div class="col-tag">Free UPSC Study Notes &mdash; Prelims, Mains &amp; Beyond</div>' +
-          '<div class="col-rule"></div>' +
-          '<div class="col-sites">' +
-            '<div>' +
-              '<div class="col-site-name">BharatNotes</div>' +
-              '<div class="col-site-desc">Comprehensive notes for all GS papers with verified facts &amp; PYQ analysis</div>' +
-              '<a href="https://bharatnotes.com" class="col-site-btn">bharatnotes.com &rarr;</a>' +
+      /* ═══ BACK PAGE ═══ */
+      '<div class="bp">' +
+        '<div class="bp-header">' +
+          '<img class="bp-photo" src="' + photoSrc + '" alt="" onerror="this.style.display=\'none\'">' +
+          '<div>' +
+            '<div class="bp-author-name">Bharat Choudhary</div>' +
+            '<div class="bp-author-role">Founder &amp; Content Lead</div>' +
+            '<div class="bp-author-links">' +
+              '<a class="bp-link" href="https://www.linkedin.com/in/epicbharat/">LinkedIn</a>' +
+              '<a class="bp-link" href="https://bharatnotes.com">BharatNotes</a>' +
+              '<a class="bp-link" href="https://ujiyari.com">Ujiyari</a>' +
             '</div>' +
-            '<div class="col-divider"></div>' +
-            '<div>' +
-              '<div class="col-site-name">Ujiyari</div>' +
-              '<div class="col-site-desc">Daily current affairs, editorial analysis &amp; Mains answer practice</div>' +
-              '<a href="https://ujiyari.com" class="col-site-btn">ujiyari.com &rarr;</a>' +
-            '</div>' +
-          '</div>' +
-          '<div class="col-author">' +
-            '<img class="col-author-photo" src="' + photoSrc + '" alt="" onerror="this.style.display=\'none\'">' +
-            '<div>' +
-              '<div class="col-author-name">Bharat Choudhary</div>' +
-              '<a class="col-author-link" href="https://www.linkedin.com/in/epicbharat/">LinkedIn &rarr;</a>' +
-            '</div>' +
-          '</div>' +
-          '<p class="col-disc">All content is sourced from official government publications and standard UPSC references.</p>' +
-          '<div class="col-ujiyari">' +
-            '<div class="col-ujiyari-title">Stay Updated with Ujiyari.com</div>' +
-            '<div class="col-ujiyari-desc">Your daily companion for UPSC current affairs — editorials, PIB summaries, monthly compilations, and Mains answer practice.</div>' +
-            '<div class="col-ujiyari-features">' +
-              '<span class="col-ujiyari-feat">Daily News</span>' +
-              '<span class="col-ujiyari-feat">Editorial Analysis</span>' +
-              '<span class="col-ujiyari-feat">Monthly Compilations</span>' +
-              '<span class="col-ujiyari-feat">Mains Practice</span>' +
-            '</div>' +
-            '<a href="https://ujiyari.com" class="col-ujiyari-btn">Visit Ujiyari.com &rarr;</a>' +
           '</div>' +
         '</div>' +
-        '<div class="col-bottom">' +
-          '<div class="col-copy">&copy; ' + new Date().getFullYear() + ' BharatNotes.com &middot; 100% Free &middot; No Login Required</div>' +
+        '<hr class="bp-sep">' +
+        '<div class="bp-sites">' +
+          '<div class="bp-site">' +
+            '<div class="bp-site-label">Study Notes</div>' +
+            '<div class="bp-site-name">BharatNotes</div>' +
+            '<div class="bp-site-desc">Comprehensive, fact-verified GS notes with syllabus mapping, PYQ analysis &amp; exam strategy for every topic.</div>' +
+            '<div class="bp-site-features">' +
+              '<span class="bp-feat">Static Notes</span>' +
+              '<span class="bp-feat">PYQ Analysis</span>' +
+              '<span class="bp-feat">Exam Strategy</span>' +
+            '</div>' +
+            '<a href="https://bharatnotes.com" class="bp-site-btn bp-site-btn--primary">bharatnotes.com &rarr;</a>' +
+          '</div>' +
+          '<div class="bp-site">' +
+            '<div class="bp-site-label">Current Affairs</div>' +
+            '<div class="bp-site-name">Ujiyari</div>' +
+            '<div class="bp-site-desc">Your daily companion for UPSC current affairs &mdash; editorials, PIB digests, monthly compilations &amp; Mains answer practice.</div>' +
+            '<div class="bp-site-features">' +
+              '<span class="bp-feat">Daily News</span>' +
+              '<span class="bp-feat">Editorials</span>' +
+              '<span class="bp-feat">Monthly Compilations</span>' +
+              '<span class="bp-feat">Mains Practice</span>' +
+            '</div>' +
+            '<a href="https://ujiyari.com" class="bp-site-btn bp-site-btn--accent">ujiyari.com &rarr;</a>' +
+          '</div>' +
+        '</div>' +
+        '<div class="bp-ad">' +
+          '<div class="bp-ad-text">' +
+            '<div class="bp-ad-title">Advertise with Us</div>' +
+            '<div class="bp-ad-desc">Reach thousands of serious UPSC aspirants. Place your coaching, book, or ed-tech brand right here &mdash; inside every PDF download.</div>' +
+          '</div>' +
+          '<a class="bp-ad-cta" href="mailto:epicbharat@gmail.com">epicbharat@gmail.com</a>' +
+        '</div>' +
+        '<div class="bp-footer">' +
+          '<p class="bp-disc">All content sourced from official government publications &amp; standard UPSC references. Free for personal use.</p>' +
+          '<div class="bp-copy">&copy; ' + new Date().getFullYear() + ' BharatNotes.com &middot; 100% Free &middot; No Login Required</div>' +
         '</div>' +
       '</div>' +
 
