@@ -7,10 +7,10 @@
   <meta name="author" content="Bharat Choudhary">
   <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
-  {%- set pageTitle %}{% if title %}{{ title }} | BharatNotes{% else %}BharatNotes — Free UPSC GS Notes{% endif %}{% endset -%}
+  {%- set pageTitle %}{% if title %}{{ title }} — UPSC Notes | BharatNotes{% else %}BharatNotes — Free UPSC Notes for IAS Prelims, Mains & Interview | Foundation to Interview{% endif %}{% endset -%}
   {%- set pageDesc -%}
     {%- if description -%}{{ description }}
-    {%- elif syllabus_topic -%}{{ title }} — UPSC GS notes with PYQs, key concepts & exam strategy.
+    {%- elif syllabus_topic -%}{{ title }} — Free UPSC {{ syllabus_topic }} notes with PYQs, key concepts & exam strategy for IAS Prelims and Mains.
     {%- else -%}{{ site.description }}
     {%- endif -%}
   {%- endset -%}
@@ -24,28 +24,39 @@
   <link rel="alternate" type="application/rss+xml" title="BharatNotes RSS" href="{{ site.url }}/feed.xml">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="{{ title or 'BharatNotes — Free UPSC GS Notes' }}">
+  <meta property="og:title" content="{{ pageTitle | safe }}">
   <meta property="og:description" content="{{ pageDesc | safe }}">
-  <meta property="og:type" content="{% if date %}article{% else %}website{% endif %}">
+  <meta property="og:type" content="{% if layout == 'topic.njk' %}article{% else %}website{% endif %}">
   <meta property="og:url" content="{{ pageUrl }}">
-  <meta property="og:site_name" content="BharatNotes">
+  <meta property="og:site_name" content="BharatNotes — Free UPSC Notes">
   <meta property="og:locale" content="en_IN">
   <meta property="og:image" content="{{ site.url }}/images/logos/bharatnotes-og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="BharatNotes — Free UPSC Civil Services Notes">
+  {% if layout == 'topic.njk' %}
+  <meta property="article:published_time" content="{{ date | isoDate }}">
+  <meta property="article:author" content="https://www.linkedin.com/in/epicbharat/">
+  <meta property="article:section" content="{{ syllabus_topic or subject }}">
+  {% if tags %}{% for tag in tags %}<meta property="article:tag" content="{{ tag }}">
+  {% endfor %}{% endif %}
+  {% endif %}
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ title or 'BharatNotes' }}">
+  <meta name="twitter:title" content="{{ pageTitle | safe }}">
   <meta name="twitter:description" content="{{ pageDesc | safe }}">
+  <meta name="twitter:image" content="{{ site.url }}/images/logos/bharatnotes-og.jpg">
 
   <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "{% if layout == 'topic.njk' %}Article{% else %}WebSite{% endif %}",
-    "name": "{{ title or site.name }}",
+    "name": "{{ title or site.shortName }}",
     "url": "{{ pageUrl }}",
     {% if layout == 'topic.njk' %}"headline": "{{ title }}",
     "datePublished": "{{ date | isoDate }}",
     "author": {"@type": "Person", "name": "Bharat Choudhary", "url": "https://www.linkedin.com/in/epicbharat/"},
-    "publisher": {"@type": "Organization", "name": "BharatNotes", "url": "{{ site.url }}", "logo": {"@type": "ImageObject", "url": "{{ site.url }}/images/logos/bharatnotes-logo.png"}},
+    "publisher": {"@type": "Organization", "name": "{{ site.shortName }}", "url": "{{ site.url }}", "logo": {"@type": "ImageObject", "url": "{{ site.url }}/images/logos/bharatnotes-logo.png"}},
     {% endif %}"description": "{{ pageDesc | safe }}"
   }
   </script>
@@ -53,7 +64,7 @@
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "BharatNotes",
+    "name": "{{ site.shortName }}",
     "url": "{{ site.url }}",
     "logo": "{{ site.url }}/images/logos/bharatnotes-logo.png",
     "founder": {"@type": "Person", "name": "Bharat Choudhary", "url": "https://www.linkedin.com/in/epicbharat/"},
@@ -130,7 +141,7 @@
   <div class="container">
     <div class="footer-inner">
       <div>
-        <div style="font-family:var(--font-serif); font-size:var(--text-xl); font-weight:var(--font-bold); color:var(--color-white); margin-bottom:var(--space-3);">📚 BharatNotes</div>
+        <div style="font-family:var(--font-serif); font-size:var(--text-xl); font-weight:var(--font-bold); color:var(--color-white); margin-bottom:var(--space-3);">📚 {{ site.shortName }}</div>
         <p style="font-size:var(--text-sm);">{{ site.tagline }}</p>
         <p style="font-size:var(--text-xs); margin-top:var(--space-3);">A companion to <a href="https://ujiyari.com" style="color:var(--color-accent-light);">Ujiyari.com</a> — daily current affairs.</p>
       </div>
