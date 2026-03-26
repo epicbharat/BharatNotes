@@ -178,6 +178,39 @@ The backbone of GST — eliminates cascading (tax-on-tax) effect.
 
 ---
 
+## Vocabulary
+
+| Term | Definition |
+|------|-----------|
+| CGST | Central Goods and Services Tax — the central component levied on intra-state supplies |
+| SGST | State Goods and Services Tax — the state component levied on intra-state supplies |
+| IGST | Integrated GST — levied on inter-state supplies and imports, collected by the Centre |
+| UTGST | Union Territory GST — equivalent of SGST for Union Territories without legislature |
+| ITC | Input Tax Credit — credit claimed by businesses for tax already paid on inputs used in making taxable supplies |
+| RCM | Reverse Charge Mechanism — recipient of goods/services pays GST instead of the supplier |
+| E-way Bill | Electronic Way Bill — mandatory document for movement of goods valued above Rs 50,000 |
+| GSTN | Goods and Services Tax Network — the IT backbone that processes all GST returns and payments |
+| HSN Code | Harmonised System of Nomenclature — international classification system used to identify goods under GST |
+| Anti-profiteering | Mandate under Section 171 of CGST Act that businesses must pass on GST rate reduction benefits to consumers |
+
+---
+
+## Key Terms
+
+| Term | Definition |
+|------|-----------|
+| Destination-based tax | Tax accrues to the state where goods or services are consumed, not where they are produced |
+| Cascading effect | Tax-on-tax problem where each production stage adds tax on the already-taxed value — eliminated by GST's ITC mechanism |
+| Dual GST | India's model where both Centre (CGST) and State (SGST) levy tax simultaneously on the same intra-state transaction |
+| Composition Scheme | Simplified scheme for small taxpayers (turnover up to Rs 1.5 crore) with lower flat-rate tax and no ITC eligibility |
+| Zero-rated supply | Exports and supplies to SEZs — taxable at 0% but eligible for full ITC refund |
+| Exempt supply | Supply on which no GST is charged and no ITC can be claimed (e.g., fresh milk, education, healthcare) |
+| Place of Supply | Rules under IGST Act determining whether a transaction is intra-state or inter-state — decides if CGST+SGST or IGST applies |
+| GST Compensation | Centre guaranteed states 14% annual revenue growth for 5 years (2017-2022); shortfall funded by compensation cess on luxury and demerit goods |
+| Inverted Duty Structure | When tax rate on inputs exceeds tax rate on output — leads to ITC accumulation and cash-flow problems for manufacturers |
+
+---
+
 ## Important for UPSC
 
 ### Prelims Focus

@@ -476,6 +476,144 @@ layout: base.njk
       });
     }
 
+    // Wrap "Vocabulary" / "Key Vocabulary" in flashcard section
+    if (/^(?:key\s+)?vocabular(?:y|ies)$/i.test(text)) {
+      var wrapper = document.createElement('div');
+      wrapper.className = 'section-card section-card--vocab';
+      h2.parentNode.insertBefore(wrapper, h2);
+      wrapper.appendChild(h2);
+      var next = wrapper.nextElementSibling;
+      while (next && next.tagName !== 'H2' && next.tagName !== 'HR') {
+        var move = next;
+        next = next.nextElementSibling;
+        wrapper.appendChild(move);
+      }
+      if (next && next.tagName === 'HR') next.remove();
+
+      // Transform table into flashcards
+      var table = wrapper.querySelector('table');
+      if (table) {
+        var rows = table.querySelectorAll('tbody tr');
+        if (rows.length > 0) {
+          var grid = document.createElement('div');
+          grid.className = 'vocab-grid';
+          var progress = document.createElement('div');
+          progress.className = 'vocab-progress';
+          progress.innerHTML = '<span class="vocab-progress-text">Tap cards to reveal definitions</span>'
+            + '<span class="vocab-progress-count"><span class="vocab-revealed">0</span> / ' + rows.length + ' revealed</span>';
+          wrapper.insertBefore(progress, table);
+          var revealedCount = 0;
+
+          rows.forEach(function(row) {
+            var cells = row.querySelectorAll('td');
+            if (cells.length < 2) return;
+            var term = cells[0].innerHTML.trim();
+            var def  = cells[1].innerHTML.trim();
+            var card = document.createElement('div');
+            card.className = 'vocab-card';
+            card.setAttribute('tabindex', '0');
+            card.setAttribute('role', 'button');
+            card.setAttribute('aria-expanded', 'false');
+            card.innerHTML = '<div class="vocab-card__term">' + term + '</div>'
+              + '<div class="vocab-card__def" hidden>' + def + '</div>'
+              + '<div class="vocab-card__hint">Click to reveal</div>';
+
+            card.addEventListener('click', function() {
+              var defEl = card.querySelector('.vocab-card__def');
+              var hintEl = card.querySelector('.vocab-card__hint');
+              var wasRevealed = !defEl.hidden;
+              defEl.hidden = wasRevealed;
+              if (hintEl) hintEl.hidden = !wasRevealed;
+              card.classList.toggle('vocab-card--revealed', !wasRevealed);
+              card.setAttribute('aria-expanded', String(!wasRevealed));
+              if (!wasRevealed && !card.dataset.counted) {
+                card.dataset.counted = 'true';
+                revealedCount++;
+                var countEl = wrapper.querySelector('.vocab-revealed');
+                if (countEl) countEl.textContent = revealedCount;
+              }
+            });
+            card.addEventListener('keydown', function(e) {
+              if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); card.click(); }
+            });
+            grid.appendChild(card);
+          });
+
+          table.parentNode.insertBefore(grid, table);
+          table.hidden = true;
+          table.classList.add('vocab-source-table');
+        }
+      }
+    }
+
+    // Wrap "Key Terms" / "Key Concepts" in glossary section
+    if (/^key\s+(?:terms?|concepts?)$/i.test(text)) {
+      var wrapper = document.createElement('div');
+      wrapper.className = 'section-card section-card--terms';
+      h2.parentNode.insertBefore(wrapper, h2);
+      wrapper.appendChild(h2);
+      var next = wrapper.nextElementSibling;
+      while (next && next.tagName !== 'H2' && next.tagName !== 'HR') {
+        var move = next;
+        next = next.nextElementSibling;
+        wrapper.appendChild(move);
+      }
+      if (next && next.tagName === 'HR') next.remove();
+
+      var table = wrapper.querySelector('table');
+      if (table) {
+        var rows = table.querySelectorAll('tbody tr');
+        if (rows.length > 0) {
+          // Search filter for 5+ terms
+          if (rows.length >= 5) {
+            var searchBox = document.createElement('div');
+            searchBox.className = 'terms-search';
+            searchBox.innerHTML = '<input type="text" class="terms-search__input" placeholder="Search terms\u2026" aria-label="Filter terms">';
+            wrapper.insertBefore(searchBox, table);
+            var input = searchBox.querySelector('input');
+            input.addEventListener('input', function() {
+              var q = input.value.toLowerCase().trim();
+              var cards = wrapper.querySelectorAll('.term-card');
+              var visibleCount = 0;
+              cards.forEach(function(c) {
+                var match = !q || c.textContent.toLowerCase().indexOf(q) !== -1;
+                c.hidden = !match;
+                if (match) visibleCount++;
+              });
+              var noRes = wrapper.querySelector('.terms-no-results');
+              if (visibleCount === 0) {
+                if (!noRes) {
+                  noRes = document.createElement('p');
+                  noRes.className = 'terms-no-results';
+                  noRes.textContent = 'No matching terms found.';
+                  list.appendChild(noRes);
+                }
+                noRes.hidden = false;
+              } else if (noRes) { noRes.hidden = true; }
+            });
+          }
+
+          var list = document.createElement('div');
+          list.className = 'terms-list';
+          rows.forEach(function(row) {
+            var cells = row.querySelectorAll('td');
+            if (cells.length < 2) return;
+            var term = cells[0].innerHTML.trim();
+            var def  = cells[1].innerHTML.trim();
+            var card = document.createElement('div');
+            card.className = 'term-card';
+            card.innerHTML = '<div class="term-card__term">' + term + '</div>'
+              + '<div class="term-card__def">' + def + '</div>';
+            list.appendChild(card);
+          });
+
+          table.parentNode.insertBefore(list, table);
+          table.hidden = true;
+          table.classList.add('terms-source-table');
+        }
+      }
+    }
+
     // Wrap "Current Affairs Connect" in styled card
     if (/current\s+affairs/i.test(text)) {
       var wrapper = document.createElement('div');

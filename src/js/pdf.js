@@ -68,6 +68,10 @@
           h2.setAttribute("data-pdf-type", "pyq");
         } else if (card.classList.contains("section-card--news")) {
           h2.setAttribute("data-pdf-type", "news");
+        } else if (card.classList.contains("section-card--vocab")) {
+          h2.setAttribute("data-pdf-type", "vocab");
+        } else if (card.classList.contains("section-card--terms")) {
+          h2.setAttribute("data-pdf-type", "terms");
         }
       }
       // Unwrap: move children out, remove wrapper
@@ -91,6 +95,15 @@
         el.parentNode.insertBefore(el.firstChild, el);
       }
       el.remove();
+    });
+
+    // 7. Remove vocab/terms interactive elements; reveal source tables for PDF
+    clone.querySelectorAll(".vocab-grid, .vocab-progress, .terms-search, .terms-list, .terms-no-results").forEach(function (el) {
+      el.remove();
+    });
+    clone.querySelectorAll(".vocab-source-table, .terms-source-table").forEach(function (el) {
+      el.removeAttribute("hidden");
+      el.classList.remove("vocab-source-table", "terms-source-table");
     });
 
     return clone;
@@ -192,6 +205,10 @@
       ".ct h2[data-pdf-type='pyq'] { color:#1a1a1a; border-bottom:1.5px solid #1a1a1a; }",
       ".ct h2[data-pdf-type='pyq']::before { content:'\\25C6  '; font-size:9pt; }",
       ".ct h2[data-pdf-type='news'] { color:#1a1a1a; border-bottom:1.5px solid #1a1a1a; }",
+      ".ct h2[data-pdf-type='vocab'] { color:#1a1a1a; border-bottom:1.5px solid #1a1a1a; }",
+      ".ct h2[data-pdf-type='vocab']::before { content:'\\25A0  '; font-size:9pt; }",
+      ".ct h2[data-pdf-type='terms'] { color:#1a1a1a; border-bottom:1.5px solid #1a1a1a; }",
+      ".ct h2[data-pdf-type='terms']::before { content:'\\25A1  '; font-size:9pt; }",
       ".ct h3 { font-family:'EB Garamond','Georgia',serif; font-size:13.5pt; font-weight:400; font-style:italic; color:#333; margin:24px 0 8px; }",
       ".ct h4 { font-family:'Inter','Helvetica Neue',sans-serif; font-size:9pt; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#555; margin:20px 0 8px; }",
 
