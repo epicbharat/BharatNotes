@@ -6,6 +6,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Governance"
 description: "Complete notes on RTI Act 2005, e-governance initiatives (IndiaStack, UPI, DigiLocker, UMANG), administrative tribunals (CAT, Article 323A/323B), and UPSC relevance."
+chapter: 11
 date: 2026-03-27
 foundation: true
 prelims: true

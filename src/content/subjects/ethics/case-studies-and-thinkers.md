@@ -6,6 +6,7 @@ gs_papers:
   - gs4
 syllabus_topic: "Ethics, Integrity & Aptitude"
 description: "Comprehensive UPSC guide to major ethical thinkers — Gandhi, Ambedkar, Vivekananda, Kautilya, Rawls, Kant, Aristotle, Bentham, Mill, Peter Singer — and a structured framework for solving ethical case studies with five model answers."
+chapter: 5
 date: 2026-03-26
 foundation: true
 prelims: true

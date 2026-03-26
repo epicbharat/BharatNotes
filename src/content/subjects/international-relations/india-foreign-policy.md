@@ -6,6 +6,7 @@ gs_papers:
   - gs2
 syllabus_topic: "International Relations"
 description: "Comprehensive UPSC notes on India's foreign policy — NAM, Panchsheel, Act East, Neighbourhood First, QUAD, BRICS, SCO, G20, India-US/China/Russia relations, SAGAR doctrine, and Indo-Pacific strategy."
+chapter: 1
 date: 2026-03-26
 foundation: true
 prelims: true

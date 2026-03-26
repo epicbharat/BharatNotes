@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Disaster Management"
 description: "UPSC GS3 notes on disaster preparedness and response — Disaster Management Act 2005 (and 2024 Amendment), NDMA, SDMA, DDMA, NDRF, early warning systems (IMD, INCOIS, CWC), community-based disaster management, and India's response mechanisms."
+chapter: 3
 date: 2026-03-26
 foundation: true
 prelims: true

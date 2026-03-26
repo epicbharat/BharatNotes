@@ -6,6 +6,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Constitution & Polity"
 description: "Comprehensive UPSC notes on Local Government — 73rd Amendment (Panchayati Raj, Articles 243-243O, 11th Schedule), 74th Amendment (Municipalities, Articles 243P-243ZG, 12th Schedule), State Election Commission, District Planning Committee, and Finance Commission for local bodies."
+chapter: 9
 date: 2026-03-26
 foundation: true
 prelims: true

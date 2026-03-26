@@ -6,6 +6,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Governance"
 description: "UPSC GS2 notes on governance, transparency and accountability — Right to Information Act 2005, e-governance (Digital India, UMANG, DigiLocker), Citizen's Charter, social audit, Lokpal & Lokayuktas, whistleblower protection, and good governance reforms."
+chapter: 6
 date: 2026-03-26
 foundation: true
 prelims: true

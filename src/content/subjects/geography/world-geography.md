@@ -6,6 +6,7 @@ gs_papers:
   - gs1
 syllabus_topic: "World Geography"
 description: "Comprehensive guide to Earth's interior, plate tectonics, ocean currents, Koppen climate classification, biomes, geomorphological processes, population distribution and urbanisation for UPSC."
+chapter: 5
 date: 2026-03-26
 foundation: true
 prelims: true

@@ -7,6 +7,7 @@ gs_papers:
   - gs3
 syllabus_topic: "International Relations"
 description: "Complete notes on India's international trade — WTO structure and disputes, FTAs, RCEP, trade policy, balance of trade, and UPSC relevance."
+chapter: 4
 date: 2026-03-27
 foundation: true
 prelims: true

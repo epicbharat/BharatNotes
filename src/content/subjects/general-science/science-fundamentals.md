@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "General Science"
 description: "Comprehensive UPSC notes on general science fundamentals — Newton's laws, electromagnetism, nuclear fission and fusion, acids and bases, periodic table, polymers, cell biology, DNA/RNA, evolution, human diseases, immunity, quantum computing, AI/ML, graphene, and hydrogen fuel."
+chapter: 1
 date: 2026-03-26
 foundation: true
 prelims: true

@@ -6,6 +6,7 @@ gs_papers:
   - gs1
 syllabus_topic: "World History"
 description: "Comprehensive UPSC notes on World History — Industrial Revolution, French Revolution, American Revolution, Unification of Italy and Germany, World Wars, Russian Revolution, Rise of Fascism and Nazism, Cold War, Decolonisation, and Globalisation."
+chapter: 6
 date: 2026-03-26
 foundation: true
 prelims: true

@@ -6,6 +6,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Medieval Indian History"
 description: "Comprehensive UPSC notes on Medieval India — Delhi Sultanate (five dynasties), Mughal Empire (Babur to Aurangzeb), Vijayanagara Empire, Bhakti & Sufi movements, Maratha Empire, Chola naval power, and Bahmani Sultanate."
+chapter: 2
 date: 2026-03-26
 foundation: true
 prelims: true

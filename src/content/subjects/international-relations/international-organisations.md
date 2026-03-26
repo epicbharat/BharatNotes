@@ -6,6 +6,7 @@ gs_papers:
   - gs2
 syllabus_topic: "International Relations"
 description: "Complete UPSC notes on international organisations — UN system (UNGA, UNSC, ICJ, WHO, UNESCO), WTO, IMF, World Bank, regional organisations (ASEAN, EU, AU, SAARC, BIMSTEC), and multilateral groupings (G7, G20, BRICS, SCO, QUAD, AUKUS, I2U2)."
+chapter: 3
 date: 2026-03-26
 foundation: true
 prelims: true

@@ -6,6 +6,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Constitution & Polity"
 description: "Comprehensive notes on all six Fundamental Rights — Right to Equality, Freedom, Against Exploitation, Religion, Cultural & Educational Rights, and Constitutional Remedies with landmark cases."
+chapter: 2
 date: 2026-03-26
 foundation: true
 prelims: true

@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Disaster Management"
 description: "Comprehensive UPSC GS3 notes on disaster management — types of disasters, NDMA, SDMA, DDMA, NDRF, DM Act 2005, Sendai Framework 2015-2030, early warning systems (IMD, INCOIS, CWC), India's vulnerability zones, and disaster risk reduction strategies."
+chapter: 1
 date: 2026-03-26
 foundation: true
 prelims: true

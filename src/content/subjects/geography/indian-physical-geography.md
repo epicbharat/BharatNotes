@@ -6,6 +6,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Geography"
 description: "Comprehensive guide to India's physiographic divisions, major rivers, drainage patterns, and soil types for UPSC preparation."
+chapter: 1
 date: 2026-03-26
 foundation: true
 prelims: true

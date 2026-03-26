@@ -6,6 +6,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Constitution & Polity"
 description: "Complete notes on the making of the Indian Constitution, its key features, landmark amendments, and the Basic Structure doctrine — essential for UPSC Prelims, Mains GS2 & Interview."
+chapter: 8
 date: 2026-03-26
 foundation: true
 prelims: true

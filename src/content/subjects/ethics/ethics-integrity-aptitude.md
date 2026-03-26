@@ -6,6 +6,7 @@ gs_papers:
   - gs4
 syllabus_topic: "Ethics, Integrity & Aptitude"
 description: "Comprehensive UPSC GS4 notes covering ethical theories, Indian ethical thinkers (Gandhi, Ambedkar, Vivekananda, Kautilya), emotional intelligence, Nolan Principles, corporate governance, RTI, probity in governance, and ethical dilemmas."
+chapter: 1
 date: 2026-03-26
 foundation: true
 prelims: true

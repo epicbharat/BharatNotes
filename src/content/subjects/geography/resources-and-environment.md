@@ -6,6 +6,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Geography"
 description: "Comprehensive coverage of India's mineral resources, energy resources including coal, petroleum, solar, and wind, water resources, resource planning, and conservation for UPSC."
+chapter: 3
 date: 2026-03-26
 foundation: true
 prelims: true

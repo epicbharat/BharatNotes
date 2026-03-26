@@ -6,6 +6,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Society"
 description: "UPSC GS1 notes on globalisation and Indian society — economic, cultural, and technological dimensions, FDI trends, digital divide, diaspora, IT sector, income inequality, WTO disputes, anti-globalisation movements, and cultural identity debates."
+chapter: 4
 date: 2026-03-26
 foundation: true
 prelims: true

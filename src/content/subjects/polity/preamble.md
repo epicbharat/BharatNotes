@@ -6,6 +6,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Constitution & Polity"
 description: "Complete notes on the Preamble — its text, keywords, philosophy, amendability, landmark cases (Berubari, Kesavananda), and UPSC relevance."
+chapter: 1
 date: 2026-03-26
 foundation: true
 prelims: true

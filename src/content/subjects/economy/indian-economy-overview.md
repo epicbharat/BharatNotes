@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "Complete notes on Indian economy — GDP growth, planning era to liberalisation, NITI Aayog, fiscal policy, fiscal deficit, economic survey highlights, and development indicators."
+chapter: 1
 date: 2026-03-26
 foundation: true
 prelims: true

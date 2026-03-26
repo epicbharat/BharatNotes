@@ -6,6 +6,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Geography"
 description: "Detailed study of India's climate factors, monsoon mechanism including ITCZ, Somali Jet, El Nino, La Nina, IOD, seasons, and rainfall distribution for UPSC."
+chapter: 2
 date: 2026-03-26
 foundation: true
 prelims: true

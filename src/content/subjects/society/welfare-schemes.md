@@ -6,6 +6,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Social Justice"
 description: "UPSC GS2 notes on welfare schemes and social justice — poverty alleviation (MGNREGA, PMAY, NFSA), reservation policy (Articles 15(4), 16(4), SC/ST/OBC/EWS), women empowerment schemes, tribal welfare, disability rights, senior citizens, and social justice mechanisms."
+chapter: 5
 date: 2026-03-26
 foundation: true
 prelims: true

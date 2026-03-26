@@ -6,6 +6,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Post-Independence India"
 description: "Comprehensive UPSC GS1 notes on Post-Independence India — integration of princely states, Five-Year Plans, Green & White Revolutions, constitutional amendments, the Emergency, wars with China & Pakistan, NAM, nuclear tests, and 1991 economic reforms."
+chapter: 5
 date: 2026-03-26
 foundation: true
 prelims: true

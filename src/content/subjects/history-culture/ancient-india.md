@@ -6,6 +6,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Ancient India"
 description: "Comprehensive UPSC notes on Ancient Indian History — Indus Valley Civilization, Vedic Period, Mahajanapadas, Maurya Empire, Gupta Empire, Buddhism, Jainism, and ancient art & architecture."
+chapter: 1
 date: 2026-03-26
 foundation: true
 prelims: true

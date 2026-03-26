@@ -6,6 +6,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Modern Indian History"
 description: "Comprehensive UPSC notes on Modern Indian History — British conquest, Governor-Generals, Revolt of 1857, social reform movements, Indian National Congress, Gandhi era, major freedom movements, Subhas Chandra Bose & INA, and Partition of India."
+chapter: 3
 date: 2026-03-26
 foundation: true
 prelims: true

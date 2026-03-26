@@ -254,5 +254,20 @@
   });
 })();
 </script>
+
+<!-- Copy attribution -->
+<script>
+document.addEventListener('copy', function(e) {
+  var sel = window.getSelection();
+  if (!sel || sel.toString().length < 40) return;
+  var text = sel.toString();
+  var source = '\n\n— Source: BharatNotes.com (' + window.location.href + ')';
+  if (e.clipboardData) {
+    e.clipboardData.setData('text/plain', text + source);
+    e.clipboardData.setData('text/html', sel.getRangeAt(0).cloneContents().textContent + '<br><br><small>— Source: <a href="' + window.location.href + '">BharatNotes.com</a></small>');
+    e.preventDefault();
+  }
+});
+</script>
 </body>
 </html>

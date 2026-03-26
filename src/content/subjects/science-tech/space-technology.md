@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Science & Technology"
 description: "Comprehensive UPSC guide to India's space programme — ISRO, Chandrayaan, Mangalyaan, Gaganyaan, Aditya-L1, satellite systems, launch vehicles, and commercial space policy."
+chapter: 1
 date: 2026-03-26
 foundation: true
 prelims: true

@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Science and Technology"
 description: "Complete notes on India's biotechnology sector — GM crops (Bt cotton, GM mustard), CRISPR gene editing, regulatory framework, Genome India Project, bioeconomy, and UPSC relevance."
+chapter: 3
 date: 2026-03-27
 foundation: true
 prelims: true

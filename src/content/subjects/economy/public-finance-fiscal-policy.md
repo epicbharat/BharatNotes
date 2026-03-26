@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "Complete notes on India's public finance system — Union Budget process, types of deficits, FRBM Act, 15th Finance Commission, tax structure, fiscal consolidation, and UPSC relevance."
+chapter: 5
 date: 2026-03-27
 foundation: true
 prelims: true

@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "Comprehensive UPSC notes on poverty measurement (Tendulkar, Rangarajan, MPI), inequality (Gini coefficient, Oxfam), unemployment (PLFS data, CMIE), employment schemes (MGNREGA, PMEGP), demographic dividend, skill development (PMKVY, NSDC), and gig economy."
+chapter: 3
 date: 2026-03-26
 foundation: true
 prelims: true

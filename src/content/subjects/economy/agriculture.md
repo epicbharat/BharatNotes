@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "Complete notes on Indian agriculture — cropping patterns, Green Revolution, MSP mechanism, land reforms, food security (PDS & NFSA), irrigation, farm subsidies, and agricultural marketing reforms."
+chapter: 2
 date: 2026-03-26
 foundation: true
 prelims: true

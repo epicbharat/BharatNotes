@@ -6,6 +6,7 @@ gs_papers:
   - gs4
 syllabus_topic: "Ethics, Integrity & Aptitude"
 description: "UPSC GS4 notes on attitude (ABC model, Katz's functional theory, cognitive dissonance, persuasion), aptitude, foundational values for civil services, Sardar Patel's vision, Nolan Principles, OECD ethics principles, 2nd ARC recommendations, and international best practices."
+chapter: 2
 date: 2026-03-26
 foundation: true
 prelims: true

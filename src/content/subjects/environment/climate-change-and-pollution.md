@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Environment & Biodiversity"
 description: "UPSC study guide covering climate change science, IPCC reports, India's climate commitments under Paris Agreement, Panchamrit, Net Zero 2070, NAPCC 8 missions, pollution types, AQI, Swachh Bharat Mission, waste management rules, EIA process, and National Green Tribunal."
+chapter: 3
 date: 2026-03-26
 foundation: true
 prelims: true

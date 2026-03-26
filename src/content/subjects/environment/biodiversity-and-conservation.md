@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Environment & Biodiversity"
 description: "Comprehensive UPSC guide to biodiversity hotspots in India, endangered species, IUCN categories, National Parks, Tiger Reserves, Biosphere Reserves, Ramsar Sites, environmental legislation, and international conventions like CBD, CITES, CMS, and Ramsar."
+chapter: 1
 date: 2026-03-26
 foundation: true
 prelims: true

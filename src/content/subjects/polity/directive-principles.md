@@ -6,6 +6,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Constitution & Polity"
 description: "Complete notes on DPSP — Articles 36–51, classification into Socialist, Gandhian & Liberal principles, comparison with Fundamental Rights, landmark cases, and amendments."
+chapter: 3
 date: 2026-03-26
 foundation: true
 prelims: true

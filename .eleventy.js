@@ -67,6 +67,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("json", (value) => JSON.stringify(value));
   eleventyConfig.addFilter("upper", (str) => (str || "").toUpperCase());
+  eleventyConfig.addFilter("padStart", (val, len, char) => String(val).padStart(len, char || "0"));
 
   eleventyConfig.addFilter("truncate", (str, len) => {
     str = str || "";

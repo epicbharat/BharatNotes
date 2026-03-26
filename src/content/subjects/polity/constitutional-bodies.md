@@ -6,6 +6,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Constitution & Polity"
 description: "Comprehensive UPSC notes on Constitutional Bodies — Election Commission (Article 324), CAG (Articles 148-151), UPSC (Articles 315-323), Finance Commission (Article 280), and National Commissions for SC, ST, OBC, Women, Minorities, and Human Rights."
+chapter: 10
 date: 2026-03-26
 foundation: true
 prelims: true

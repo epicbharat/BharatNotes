@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "General Science"
 description: "UPSC GS3 notes on India's defence technology — DRDO and key projects, missile programme (Agni, BrahMos, Prithvi, Akash, ASAT), nuclear doctrine (No First Use, nuclear triad), defence indigenisation (Make in India, SRIJAN, iDEX), and strategic defence systems."
+chapter: 3
 date: 2026-03-26
 foundation: true
 prelims: true

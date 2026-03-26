@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Environment"
 description: "Complete notes on India's wildlife conservation — Wildlife Protection Act, national parks, wildlife sanctuaries, tiger reserves, Project Tiger, CITES, Ramsar sites, and UPSC relevance."
+chapter: 2
 date: 2026-03-27
 foundation: true
 prelims: true

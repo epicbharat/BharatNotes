@@ -6,6 +6,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Constitution & Polity"
 description: "Complete notes on the Indian Judiciary — Supreme Court composition, jurisdiction, appointment of judges, collegium vs NJAC, judicial review, PIL, High Courts, and subordinate courts."
+chapter: 7
 date: 2026-03-26
 foundation: true
 prelims: true

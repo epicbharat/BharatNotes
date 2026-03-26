@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Internal Security"
 description: "UPSC GS3 notes on cyber security — CERT-In, NCIIPC, IT Act 2000 amendments, Digital Personal Data Protection Act 2023, cyber warfare, critical infrastructure protection, and India's cyber security architecture."
+chapter: 4
 date: 2026-03-26
 foundation: true
 prelims: true

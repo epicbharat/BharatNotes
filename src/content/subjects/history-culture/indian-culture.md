@@ -6,6 +6,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Heritage & Culture"
 description: "Comprehensive UPSC notes on Indian Culture — classical dance forms, Hindustani and Carnatic music, painting traditions, temple architecture (Nagara, Dravida, Vesara), UNESCO World Heritage Sites, festivals, and Eighth Schedule languages."
+chapter: 7
 date: 2026-03-26
 foundation: true
 prelims: true

@@ -6,6 +6,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Geography"
 description: "Comprehensive guide to India's population, Census 2011 data, demographic transition, urbanisation, migration, tribal areas, linguistic diversity, regional disparities, and transport networks for UPSC."
+chapter: 4
 date: 2026-03-26
 foundation: true
 prelims: true

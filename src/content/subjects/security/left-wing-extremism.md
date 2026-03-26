@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Internal Security"
 description: "UPSC GS3 notes on Left Wing Extremism (LWE) — Naxalism origins, affected regions, SAMADHAN doctrine, government response (security + development), NE insurgency, AFSPA, and peace accords."
+chapter: 2
 date: 2026-03-26
 foundation: true
 prelims: true

@@ -6,6 +6,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Constitution & Polity"
 description: "Comprehensive UPSC notes on the Union Executive — President (Articles 52-62), Vice-President, Prime Minister, Council of Ministers, Attorney General, veto powers, ordinance-making power, and pardoning power."
+chapter: 4
 date: 2026-03-26
 foundation: true
 prelims: true

@@ -6,6 +6,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Constitution & Polity"
 description: "Comprehensive UPSC notes on State Government — Governor (Articles 153-162), Chief Minister, State Council of Ministers (Articles 163-167), State Legislature (Articles 168-212), Advocate General (Article 165), and related controversies."
+chapter: 6
 date: 2026-03-26
 foundation: true
 prelims: true

@@ -6,6 +6,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Modern Indian History"
 description: "Comprehensive UPSC notes on the Indian Freedom Struggle from 1857 to 1947 — Indian National Congress, Moderate and Extremist phases, Gandhian movements, revolutionary nationalists, INA, Quit India, Partition, and Independence."
+chapter: 4
 date: 2026-03-26
 foundation: true
 prelims: true

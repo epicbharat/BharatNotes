@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "Comprehensive UPSC notes on India's external sector — Balance of Payments, current account deficit, forex reserves, FDI policy, FPI, trade agreements (CEPA, ECTA, RCEP), WTO issues, and export promotion schemes (PLI, RoDTEP, SEZ)."
+chapter: 8
 date: 2026-03-26
 foundation: true
 prelims: true

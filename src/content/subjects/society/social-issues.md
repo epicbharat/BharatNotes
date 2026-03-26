@@ -6,6 +6,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Society"
 description: "Comprehensive UPSC guide to social issues in India — poverty measurement, women empowerment, child welfare, NEP 2020, health schemes, urbanisation, communalism, casteism, and regionalism."
+chapter: 2
 date: 2026-03-26
 foundation: true
 prelims: true

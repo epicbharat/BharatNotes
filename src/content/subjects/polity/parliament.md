@@ -6,6 +6,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Constitution & Polity"
 description: "Complete notes on Indian Parliament — Lok Sabha, Rajya Sabha, composition, sessions, legislative process, money bills, joint sitting, parliamentary privileges, and key articles."
+chapter: 5
 date: 2026-03-26
 foundation: true
 prelims: true

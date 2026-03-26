@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Disaster Management"
 description: "UPSC GS3 notes on disaster risk reduction — Sendai Framework 2015-2030, CDRI, Hyogo Framework, Build Back Better, climate change adaptation, vulnerability mapping, and India's DRR initiatives."
+chapter: 2
 date: 2026-03-26
 foundation: true
 prelims: true

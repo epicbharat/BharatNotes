@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "General Science"
 description: "UPSC GS3 notes on health, nutrition and disease — communicable and non-communicable diseases, malnutrition (stunting, wasting, anaemia), government health schemes (Ayushman Bharat, PMJAY, POSHAN Abhiyaan), epidemics (COVID-19, Nipah, Zika), One Health approach, and India's public health infrastructure."
+chapter: 2
 date: 2026-03-26
 foundation: true
 prelims: true

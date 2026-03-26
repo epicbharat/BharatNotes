@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Internal Security"
 description: "Comprehensive UPSC GS3 notes on internal security challenges — terrorism, LWE/Naxalism, NE insurgency, cyber security (CERT-In, NCIIPC, IT Act 2000, DPDP Act 2023), border management, money laundering (PMLA, FATF), organised crime, and role of media in security."
+chapter: 1
 date: 2026-03-26
 foundation: true
 prelims: true

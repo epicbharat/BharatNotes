@@ -6,6 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Science & Technology"
 description: "UPSC comprehensive guide on biotechnology applications, GM crops, CRISPR, India's biotech sector, Ayushman Bharat, NHM, PMJAY, COVID-19 response, One Health, and antimicrobial resistance."
+chapter: 2
 date: 2026-03-26
 foundation: true
 prelims: true
