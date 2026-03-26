@@ -260,7 +260,7 @@ The EIA Notification, 2006 (under EPA 1986) lays down the procedure for obtainin
 
 ---
 
-## UPSC Previous Year Questions (PYQs)
+## Previous Year Questions (PYQs)
 
 ### Prelims
 

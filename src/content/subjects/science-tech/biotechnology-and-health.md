@@ -15,7 +15,7 @@ tags:
   - topic
 ---
 
-## 1. Biotechnology — Overview and Applications
+## Biotechnology — Overview and Applications
 
 Biotechnology is the use of biological systems, living organisms, or their derivatives to develop products and processes for specific use. It spans agriculture, medicine, industry, and environment.
 
@@ -32,7 +32,7 @@ Biotechnology is the use of biological systems, living organisms, or their deriv
 
 ---
 
-## 2. Agricultural Biotechnology
+## Agricultural Biotechnology
 
 ### 2.1 GM Crops in India
 
@@ -60,7 +60,7 @@ In October 2022, DBT notified Standard Operating Procedures (SOPs) for regulator
 
 ---
 
-## 3. Medical Biotechnology
+## Medical Biotechnology
 
 ### 3.1 Gene Therapy and CRISPR
 
@@ -91,7 +91,7 @@ In October 2022, DBT notified Standard Operating Procedures (SOPs) for regulator
 
 ---
 
-## 4. India's Biotech Institutional Framework
+## India's Biotech Institutional Framework
 
 ### 4.1 Department of Biotechnology (DBT)
 
@@ -117,7 +117,7 @@ The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy was ap
 
 ---
 
-## 5. India's Health Sector — Key Schemes and Missions
+## India's Health Sector — Key Schemes and Missions
 
 ### 5.1 Ayushman Bharat
 
@@ -151,7 +151,7 @@ The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy was ap
 
 ---
 
-## 6. COVID-19 Response — India's Strategy
+## COVID-19 Response — India's Strategy
 
 | Aspect | Detail |
 |--------|--------|
@@ -164,7 +164,7 @@ The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy was ap
 
 ---
 
-## 7. One Health Approach
+## One Health Approach
 
 | Aspect | Detail |
 |--------|--------|
@@ -176,7 +176,7 @@ The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy was ap
 
 ---
 
-## 8. Antimicrobial Resistance (AMR)
+## Antimicrobial Resistance (AMR)
 
 | Parameter | Detail |
 |-----------|--------|
@@ -188,7 +188,7 @@ The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy was ap
 
 ---
 
-## 9. Important for UPSC
+## Important for UPSC
 
 ### Prelims Focus
 
@@ -224,7 +224,7 @@ The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy was ap
 
 ---
 
-## UPSC Previous Year Questions (PYQs)
+## Previous Year Questions (PYQs)
 
 ### Prelims
 

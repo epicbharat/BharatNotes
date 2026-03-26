@@ -15,7 +15,7 @@ tags:
   - topic
 ---
 
-## 1. Indian Ethical Thinkers
+## Indian Ethical Thinkers
 
 ### 1.1 Mahatma Gandhi (1869--1948)
 
@@ -63,7 +63,7 @@ tags:
 
 ---
 
-## 2. Western Ethical Thinkers
+## Western Ethical Thinkers
 
 ### 2.1 Immanuel Kant (1724--1804) — Deontological Ethics
 
@@ -116,7 +116,7 @@ tags:
 
 ---
 
-## 3. Comparative Framework of Thinkers
+## Comparative Framework of Thinkers
 
 | Parameter | Gandhi | Kant | Rawls | Aristotle | Bentham/Mill |
 |-----------|--------|------|-------|-----------|--------------|
@@ -129,7 +129,7 @@ tags:
 
 ---
 
-## 4. Case Study Framework for UPSC GS-IV
+## Case Study Framework for UPSC GS-IV
 
 ### 4.1 Step-by-Step Approach
 
@@ -145,7 +145,7 @@ tags:
 
 ---
 
-## 5. Model Case Studies
+## Model Case Studies
 
 ### Case Study 1: Conflict of Interest
 
@@ -247,7 +247,7 @@ tags:
 
 ---
 
-## 6. Important for UPSC
+## Important for UPSC
 
 ### Key Themes for GS Paper IV
 
@@ -269,7 +269,7 @@ tags:
 
 ---
 
-## 7. UPSC Previous Year Questions (PYQs)
+## Previous Year Questions (PYQs)
 
 ### Mains (GS Paper IV)
 
@@ -289,7 +289,7 @@ tags:
 
 ---
 
-## 8. Current Affairs Connect
+## Current Affairs Connect
 
 | Resource | Link |
 |----------|------|

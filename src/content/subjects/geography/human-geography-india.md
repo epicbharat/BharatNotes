@@ -379,6 +379,34 @@ The Eighth Schedule to the Constitution of India currently recognises **22 sched
 
 ---
 
+## Important for UPSC
+
+### Prelims Focus
+- Census 2011 data: population, literacy, sex ratio, density, urbanisation figures for India and states
+- Scheduled languages and Eighth Schedule (number: 22)
+- Fifth and Sixth Schedule: states covered, key differences
+- National Waterways: NW-1 to NW-5 rivers and routes
+- Dedicated Freight Corridors: Eastern and Western routes
+- Smart Cities Mission: number of cities (100), year (2015)
+- Bharatmala/Sagarmala: key features and pillars
+
+### Mains Dimensions (GS Paper 1)
+- **Population:** Demographic transition in India; demographic dividend -- opportunities and challenges
+- **Urbanisation:** Causes, consequences, and remedies; smart city initiatives; slum rehabilitation
+- **Migration:** Push-pull factors; impact on source and destination areas; seasonal migration
+- **Tribal Areas:** Fifth vs Sixth Schedule; PESA Act; constitutional safeguards for tribals
+- **Regional Disparity:** NITI Aayog MPI findings; inter-state and rural-urban disparities
+- **Transport:** Role of DFCs, Sagarmala, Bharatmala in economic integration; multimodal connectivity
+
+### Interview Angles
+- Why has India not conducted a census since 2011? What are the implications?
+- How can India's demographic dividend become a demographic disaster if not managed well?
+- What is the relationship between urbanisation and economic growth in India?
+- How do Fifth and Sixth Schedule provisions empower tribal communities differently?
+- Evaluate the success of the Smart Cities Mission after its conclusion in 2025.
+
+---
+
 ## Previous Year Questions (PYQs)
 
 ### UPSC Prelims
@@ -418,34 +446,6 @@ The Eighth Schedule to the Constitution of India currently recognises **22 sched
 **Q.** "Why is the Indian subcontinent said to be the linguistic mosaic of the world? Explain." (UPSC Mains 2015)
 
 **Q.** "Discuss the causes of deprivation and poverty in India. How has NITI Aayog addressed regional disparity?" (UPSC Mains 2020)
-
----
-
-## Important for UPSC
-
-### Prelims Focus
-- Census 2011 data: population, literacy, sex ratio, density, urbanisation figures for India and states
-- Scheduled languages and Eighth Schedule (number: 22)
-- Fifth and Sixth Schedule: states covered, key differences
-- National Waterways: NW-1 to NW-5 rivers and routes
-- Dedicated Freight Corridors: Eastern and Western routes
-- Smart Cities Mission: number of cities (100), year (2015)
-- Bharatmala/Sagarmala: key features and pillars
-
-### Mains Dimensions (GS Paper 1)
-- **Population:** Demographic transition in India; demographic dividend -- opportunities and challenges
-- **Urbanisation:** Causes, consequences, and remedies; smart city initiatives; slum rehabilitation
-- **Migration:** Push-pull factors; impact on source and destination areas; seasonal migration
-- **Tribal Areas:** Fifth vs Sixth Schedule; PESA Act; constitutional safeguards for tribals
-- **Regional Disparity:** NITI Aayog MPI findings; inter-state and rural-urban disparities
-- **Transport:** Role of DFCs, Sagarmala, Bharatmala in economic integration; multimodal connectivity
-
-### Interview Angles
-- Why has India not conducted a census since 2011? What are the implications?
-- How can India's demographic dividend become a demographic disaster if not managed well?
-- What is the relationship between urbanisation and economic growth in India?
-- How do Fifth and Sixth Schedule provisions empower tribal communities differently?
-- Evaluate the success of the Smart Cities Mission after its conclusion in 2025.
 
 ---
 

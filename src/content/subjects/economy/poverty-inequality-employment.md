@@ -343,6 +343,38 @@ The **Code on Social Security, 2020** (one of four labour codes passed by Parlia
 
 ---
 
+## Important for UPSC
+
+### Prelims Focus
+
+- Poverty line amounts — Tendulkar (Rs. 816 rural, Rs. 1,000 urban per month) vs Rangarajan (Rs. 972 rural, Rs. 1,407 urban)
+- MPI — 3 dimensions, 12 indicators; 33.33% deprivation threshold; NITI Aayog publishes it
+- MGNREGA — 100 days guarantee; demand-driven; unemployment allowance; 2005 Act
+- Types of unemployment — especially disguised unemployment
+- PLFS — conducted by NSO (not CMIE); methodological revamp from January 2025
+- PMKVY phases (1.0 to 4.0); NSDC as PPP body
+- Gig worker definition under Code on Social Security 2020
+- Demographic dividend window — ~2005 to 2055
+
+### Mains Dimensions
+
+- **Poverty measurement debate:** Tendulkar vs Rangarajan vs MPI — which approach captures deprivation better? Is a single poverty line sufficient for a diverse country?
+- **Inequality and growth:** Does GDP growth automatically reduce inequality? Kuznets curve applicability to India
+- **Employment challenge:** Jobless growth; why manufacturing is not absorbing labour; services vs manufacturing debate
+- **MGNREGA evaluation:** Demand vs actual delivery; asset creation quality; convergence with other schemes
+- **Demographic dividend:** India's window is closing in southern states (aging faster); north-south divergence
+- **Gig economy regulation:** Balancing innovation and worker protection; global models (EU, UK, California AB5)
+
+### Interview Angles
+
+- Should India adopt a Universal Basic Income (UBI) instead of multiple welfare schemes?
+- Is MGNREGA still relevant or should it be replaced with a more productive employment scheme?
+- How can India ensure its demographic dividend doesn't become a demographic disaster?
+- Should gig workers be classified as employees rather than independent contractors?
+- How do you measure poverty in a country as diverse as India — is the MPI approach better than income-based lines?
+
+---
+
 ## Previous Year Questions (PYQs)
 
 ### UPSC Prelims
@@ -392,38 +424,6 @@ Which of the statements given above is/are correct?
 **Q. Suggest the growth pattern that will lead to creation of more jobs without compromising labour productivity. (GS3, 2022)**
 
 **Q. What are the salient features of the National Skill Development Policy 2015? How is it expected to meet the skill gap in India? (GS3, 2016)**
-
----
-
-## Important for UPSC
-
-### Prelims Focus
-
-- Poverty line amounts — Tendulkar (Rs. 816 rural, Rs. 1,000 urban per month) vs Rangarajan (Rs. 972 rural, Rs. 1,407 urban)
-- MPI — 3 dimensions, 12 indicators; 33.33% deprivation threshold; NITI Aayog publishes it
-- MGNREGA — 100 days guarantee; demand-driven; unemployment allowance; 2005 Act
-- Types of unemployment — especially disguised unemployment
-- PLFS — conducted by NSO (not CMIE); methodological revamp from January 2025
-- PMKVY phases (1.0 to 4.0); NSDC as PPP body
-- Gig worker definition under Code on Social Security 2020
-- Demographic dividend window — ~2005 to 2055
-
-### Mains Dimensions
-
-- **Poverty measurement debate:** Tendulkar vs Rangarajan vs MPI — which approach captures deprivation better? Is a single poverty line sufficient for a diverse country?
-- **Inequality and growth:** Does GDP growth automatically reduce inequality? Kuznets curve applicability to India
-- **Employment challenge:** Jobless growth; why manufacturing is not absorbing labour; services vs manufacturing debate
-- **MGNREGA evaluation:** Demand vs actual delivery; asset creation quality; convergence with other schemes
-- **Demographic dividend:** India's window is closing in southern states (aging faster); north-south divergence
-- **Gig economy regulation:** Balancing innovation and worker protection; global models (EU, UK, California AB5)
-
-### Interview Angles
-
-- Should India adopt a Universal Basic Income (UBI) instead of multiple welfare schemes?
-- Is MGNREGA still relevant or should it be replaced with a more productive employment scheme?
-- How can India ensure its demographic dividend doesn't become a demographic disaster?
-- Should gig workers be classified as employees rather than independent contractors?
-- How do you measure poverty in a country as diverse as India — is the MPI approach better than income-based lines?
 
 ---
 

@@ -93,6 +93,16 @@ Established in **Kesavananda Bharati v. State of Kerala (1973)** — the Supreme
 > **Mains GS-2:** Evolution of the Constitution, Basic Structure doctrine, federalism, amendment process
 > **Interview:** "Is the Basic Structure doctrine a judicial overreach or necessary safeguard?"
 
+## Important for UPSC
+
+### Prelims Focus
+- Key facts and articles to remember
+
+### Mains Dimensions
+- Analytical angles for essay and GS papers
+
+---
+
 ## Previous Year Questions (PYQs)
 
 ### Prelims
@@ -121,7 +131,7 @@ Established in **Kesavananda Bharati v. State of Kerala (1973)** — the Supreme
 
 ---
 
-## 📰 Current Affairs Connect
+## Current Affairs Connect
 
 | Topic | Where to Follow | Why It Matters |
 |-------|----------------|----------------|

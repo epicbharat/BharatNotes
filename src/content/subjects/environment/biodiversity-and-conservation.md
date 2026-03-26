@@ -236,7 +236,7 @@ Adopted at CBD COP-15, this landmark framework sets 4 goals and 23 targets for 2
 
 ---
 
-## UPSC Previous Year Questions (PYQs)
+## Previous Year Questions (PYQs)
 
 ### Prelims
 

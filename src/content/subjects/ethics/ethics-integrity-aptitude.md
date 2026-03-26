@@ -23,7 +23,7 @@ This paper carries **250 marks** and is unique because it evaluates not just kno
 
 ---
 
-## 1. Foundations of Ethics — Key Theories
+## Foundations of Ethics — Key Theories
 
 ### Determinism vs Free Will
 
@@ -45,7 +45,7 @@ This paper carries **250 marks** and is unique because it evaluates not just kno
 
 ---
 
-## 2. Indian Ethical Thinkers
+## Indian Ethical Thinkers
 
 ### Mahatma Gandhi (1869–1948)
 
@@ -91,7 +91,7 @@ This paper carries **250 marks** and is unique because it evaluates not just kno
 
 ---
 
-## 3. Key Ethical Concepts for UPSC
+## Key Ethical Concepts for UPSC
 
 ### Integrity
 
@@ -119,7 +119,7 @@ Daniel Goleman's framework identifies five domains of emotional intelligence. Cr
 
 ---
 
-## 4. Ethics in Public Administration
+## Ethics in Public Administration
 
 ### Nolan Committee — Seven Principles of Public Life (1995, UK)
 
@@ -150,7 +150,7 @@ The Committee on Standards in Public Life was established in October 1994 by Pri
 
 ---
 
-## 5. Ethical Dilemmas in Governance
+## Ethical Dilemmas in Governance
 
 ### Common Types of Dilemmas
 
@@ -175,7 +175,7 @@ The Committee on Standards in Public Life was established in October 1994 by Pri
 
 ---
 
-## 6. Corporate Governance
+## Corporate Governance
 
 | Principle | Description |
 |-----------|-------------|
@@ -197,7 +197,7 @@ The Committee on Standards in Public Life was established in October 1994 by Pri
 
 ---
 
-## 7. Probity in Governance
+## Probity in Governance
 
 Probity means **proven integrity** — the quality of having strong ethical standards and acting accordingly. In governance, it encompasses:
 
@@ -213,7 +213,7 @@ Probity means **proven integrity** — the quality of having strong ethical stan
 
 ---
 
-## 8. RTI & Transparency
+## RTI & Transparency
 
 The **Right to Information Act, 2005** was passed by Parliament on 15 June 2005 and came into force on **12 October 2005**. It empowers citizens to access information held by public authorities.
 
@@ -265,7 +265,7 @@ The **Right to Information Act, 2005** was passed by Parliament on 15 June 2005 
 
 ---
 
-## UPSC Previous Year Questions (PYQs)
+## Previous Year Questions (PYQs)
 
 ### Mains (GS Paper IV)
 

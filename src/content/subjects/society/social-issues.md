@@ -15,7 +15,7 @@ tags:
   - topic
 ---
 
-## 1. Poverty and Inequality
+## Poverty and Inequality
 
 ### 1.1 Poverty Measurement in India
 
@@ -47,7 +47,7 @@ tags:
 
 ---
 
-## 2. Women Empowerment
+## Women Empowerment
 
 ### 2.1 Legal Framework for Women
 
@@ -81,7 +81,7 @@ tags:
 
 ---
 
-## 3. Child Issues
+## Child Issues
 
 ### 3.1 Key Legislation
 
@@ -105,7 +105,7 @@ tags:
 
 ---
 
-## 4. Education System
+## Education System
 
 ### 4.1 National Education Policy (NEP) 2020
 
@@ -141,7 +141,7 @@ tags:
 
 ---
 
-## 5. Health
+## Health
 
 ### 5.1 National Health Mission (NHM)
 
@@ -170,7 +170,7 @@ tags:
 
 ---
 
-## 6. Urbanisation Challenges
+## Urbanisation Challenges
 
 ### 6.1 Key Issues
 
@@ -186,7 +186,7 @@ tags:
 
 ---
 
-## 7. Social Challenges
+## Social Challenges
 
 ### 7.1 Communalism
 
@@ -218,7 +218,7 @@ tags:
 
 ---
 
-## 8. Important for UPSC
+## Important for UPSC
 
 ### Key Themes for Prelims
 
@@ -242,7 +242,7 @@ tags:
 
 ---
 
-## 9. UPSC Previous Year Questions (PYQs)
+## Previous Year Questions (PYQs)
 
 ### Prelims
 
@@ -277,7 +277,7 @@ Which of the above is/are correct?
 
 ---
 
-## 10. Current Affairs Connect
+## Current Affairs Connect
 
 | Resource | Link |
 |----------|------|

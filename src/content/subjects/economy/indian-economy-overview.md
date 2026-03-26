@@ -211,7 +211,7 @@ Which of the above is/are component/components of Monetary Policy?
 
 ---
 
-## 📰 Current Affairs Connect
+## Current Affairs Connect
 
 Link these static concepts with live developments:
 

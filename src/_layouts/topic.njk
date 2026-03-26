@@ -29,8 +29,8 @@ layout: base.njk
 <section style="padding:var(--space-8) 0;">
   <div class="container">
 
-    <!-- Depth Level Tabs -->
-    <div class="topic-tabs" style="display:flex; gap:var(--space-1); margin-bottom:var(--space-6); border-bottom:2px solid var(--color-border); overflow-x:auto;">
+    <!-- Jump-to Navigation -->
+    <nav class="topic-tabs" style="display:flex; gap:var(--space-1); margin-bottom:var(--space-6); border-bottom:2px solid var(--color-border); overflow-x:auto; position:sticky; top:0; z-index:10; background:var(--color-bg); padding-top:var(--space-2);" aria-label="Jump to section">
       {% if foundation %}
       <button class="topic-tab active" data-tab="foundation" style="padding:var(--space-2) var(--space-4); font-size:var(--text-sm); font-weight:var(--font-semibold); border:none; background:none; cursor:pointer; border-bottom:3px solid var(--color-brand); color:var(--color-brand);">🌱 Foundation</button>
       {% endif %}
@@ -40,21 +40,15 @@ layout: base.njk
       {% if mains %}
       <button class="topic-tab" data-tab="mains" style="padding:var(--space-2) var(--space-4); font-size:var(--text-sm); font-weight:var(--font-semibold); border:none; background:none; cursor:pointer; border-bottom:3px solid transparent; color:var(--color-text-muted);">✍️ Mains</button>
       {% endif %}
-      <button class="topic-tab" data-tab="pyqs" style="padding:var(--space-2) var(--space-4); font-size:var(--text-sm); font-weight:var(--font-semibold); border:none; background:none; cursor:pointer; border-bottom:3px solid transparent; color:var(--color-text-muted);">📝 PYQs</button>
-    </div>
+      <button class="topic-tab" data-tab="pyqs" style="padding:var(--space-2) var(--space-4); font-size:var(--text-sm); font-weight:var(--font-semibold); border:none; background:none; cursor:pointer; border-bottom:3px solid transparent; color:var(--color-text-muted);">📝 PYQs <span class="pyq-count" id="pyq-tab-count" hidden>0</span></button>
+    </nav>
 
     <div class="layout-with-sidebar">
-      <!-- Main content -->
+      <!-- Single flowing article -->
       <div>
         <article class="article-body" data-pagefind-body>
           {{ content | safe }}
         </article>
-
-        <!-- PYQ Tab (shown when PYQ tab active) -->
-        <div id="pyqs-panel" class="card" hidden style="margin-top:var(--space-4);">
-          <h3 class="card__title">Previous Year Questions on this Topic</h3>
-          <p class="card__desc">PYQ analysis for this topic is being compiled. Check back soon or browse the <a href="/pyq/">full PYQ section</a>.</p>
-        </div>
       </div>
 
       <!-- Sidebar -->
@@ -82,11 +76,13 @@ layout: base.njk
         <!-- Quick Actions — topic-specific -->
         <div class="card" style="margin-bottom:var(--space-5);">
           <h4 style="color:var(--color-brand); font-size:var(--text-xs); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:var(--space-3);">Practice This Topic</h4>
-          <a href="/prelims/?subject={{ subject }}&topic={{ page.fileSlug }}" class="btn btn--accent btn--sm" style="width:100%; justify-content:center; margin-bottom:var(--space-2);"><span role="img" aria-label="Target">🎯</span> MCQ Quiz: {{ title | truncate(30) }}</a>
-          <a href="/mains/?subject={{ subject }}&topic={{ page.fileSlug }}" class="btn btn--ghost btn--sm" style="width:100%; justify-content:center; margin-bottom:var(--space-2);"><span role="img" aria-label="Writing">✍️</span> Mains Q&A: {{ title | truncate(30) }}</a>
-          {% for paper in gs_papers %}
-          <a href="/pyq/?paper={{ paper }}&topic={{ page.fileSlug }}" class="btn btn--ghost btn--sm" style="width:100%; justify-content:center;"><span role="img" aria-label="Paper">📝</span> PYQs — {{ paper | upper }}</a>
-          {% endfor %}
+          {% if prelims %}
+          <a href="/prelims/" class="btn btn--accent btn--sm" style="width:100%; justify-content:center; margin-bottom:var(--space-2);"><span role="img" aria-label="Target">🎯</span> Prelims Practice</a>
+          {% endif %}
+          {% if mains %}
+          <a href="/mains/" class="btn btn--ghost btn--sm" style="width:100%; justify-content:center; margin-bottom:var(--space-2);"><span role="img" aria-label="Writing">✍️</span> Mains Practice</a>
+          {% endif %}
+          <a href="/pyq/" class="btn btn--ghost btn--sm" style="width:100%; justify-content:center; margin-bottom:var(--space-2);"><span role="img" aria-label="Paper">📝</span> PYQ Analysis</a>
         </div>
 
         <!-- Download PDF -->
@@ -106,7 +102,7 @@ layout: base.njk
           {% set siblings = collections.allTopics | selectattr("data.subject", "equalto", subject) %}
           {% for sibling in siblings | limit(8) %}
           {% if sibling.url != page.url %}
-          <a href="{{ sibling.url }}" style="display:block; font-size:var(--text-xs); padding:var(--space-1) 0; color:var(--color-text-muted);">{{ sibling.data.title | truncate(50) }}</a>
+          <a href="{{ sibling.url }}" style="display:block; font-size:var(--text-xs); padding:var(--space-1) 0; color:var(--color-text-muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{{ sibling.data.title }}</a>
           {% endif %}
           {% endfor %}
           <a href="/subjects/{{ subject }}/" style="display:block; font-size:var(--text-xs); padding:var(--space-2) 0; color:var(--color-brand-light); font-weight:var(--font-semibold);">View all →</a>
@@ -127,28 +123,387 @@ layout: base.njk
 </section>
 
 <script>
-// Tab switching
-document.querySelectorAll('.topic-tab').forEach(tab => {
-  tab.addEventListener('click', () => {
-    document.querySelectorAll('.topic-tab').forEach(t => {
-      t.style.borderBottomColor = 'transparent';
-      t.style.color = 'var(--color-text-muted)';
-      t.classList.remove('active');
-    });
-    tab.style.borderBottomColor = 'var(--color-brand)';
-    tab.style.color = 'var(--color-brand)';
-    tab.classList.add('active');
+(function() {
+  var article = document.querySelector('.article-body');
+  if (!article) return;
+  var chevronSvg = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="6 9 12 15 18 9"/></svg>';
+  var checkSvg = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>';
+  var crossSvg = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>';
+  var qCount = 0;
 
-    const panel = tab.dataset.tab;
-    const pyqPanel = document.getElementById('pyqs-panel');
-    const articleBody = document.querySelector('.article-body');
-    if (panel === 'pyqs') {
-      if (articleBody) articleBody.hidden = true;
-      if (pyqPanel) pyqPanel.hidden = false;
-    } else {
-      if (articleBody) articleBody.hidden = false;
-      if (pyqPanel) pyqPanel.hidden = true;
+  /* ── Helper: strip Q number + year from question text (shown in badge) ── */
+  function cleanQText(html) {
+    return html.replace(/^(<strong>)?Q\d*[\.\)]\s*(\(\d{4}\)\s*)?(<\/strong>)?\s*/i, '');
+  }
+
+  /* ── Helper: generate UPSC answer options based on statement count ── */
+  function generateOptions(n) {
+    if (n === 2) return ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'];
+    if (n === 3) return ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'];
+    if (n === 4) return ['1, 2 and 3 only', '1 and 4 only', '2, 3 and 4 only', '1, 2, 3 and 4'];
+    return null;
+  }
+
+  /* ── Helper: parse answer text to find correct option index ── */
+  function parseCorrectAnswer(answerText, numStatements) {
+    var t = answerText.toLowerCase();
+    var correct = [];
+
+    // Detect "neither" / "none"
+    if (/neither|none\s+(is|are)\s+correct/.test(t)) { correct = []; }
+    // Detect "both" (2 statements)
+    else if (/both.*correct/.test(t) && numStatements === 2) { correct = [1, 2]; }
+    // Detect "all" correct
+    else if (/all.*correct|all\s+three|all\s+four/.test(t)) {
+      for (var i = 1; i <= numStatements; i++) correct.push(i);
+    }
+    // Detect specific patterns: "Statements 1 and 3 are correct" or "1 and 3"
+    else {
+      var match = t.match(/statements?\s+([\d,\s]+(?:and\s+\d+)?)\s+(?:is|are)\s+correct/);
+      if (match) { var nums = match[1].match(/\d+/g); if (nums) correct = nums.map(Number); }
+      // Check individual: "Statement 1 is correct"
+      if (correct.length === 0) {
+        for (var i = 1; i <= numStatements; i++) {
+          if (new RegExp('statement\\s+' + i + '\\s+(?:is\\s+)?correct').test(t)) correct.push(i);
+        }
+      }
+      // Fallback: check for "X is correct" without "statement" prefix
+      if (correct.length === 0) {
+        var nums = t.match(/(\d+)\s+(?:and\s+(\d+)\s+)?(?:is|are)\s+correct/);
+        if (nums) {
+          correct.push(parseInt(nums[1]));
+          if (nums[2]) correct.push(parseInt(nums[2]));
+        }
+      }
+    }
+
+    correct.sort();
+    // Map to option index
+    if (numStatements === 2) {
+      if (correct.length === 0) return 3;
+      if (correct.length === 1 && correct[0] === 1) return 0;
+      if (correct.length === 1 && correct[0] === 2) return 1;
+      if (correct.length === 2) return 2;
+    }
+    if (numStatements === 3) {
+      var key = correct.join(',');
+      if (key === '1,2') return 0;
+      if (key === '2,3') return 1;
+      if (key === '1,3') return 2;
+      if (key === '1,2,3') return 3;
+    }
+    if (numStatements === 4) {
+      var key = correct.join(',');
+      if (key === '1,2,3') return 0;
+      if (key === '1,4') return 1;
+      if (key === '2,3,4') return 2;
+      if (key === '1,2,3,4') return 3;
+    }
+    return -1; // can't determine
+  }
+
+  // ── Style "Important for UPSC" as a highlighted card section ──
+  var headings = article.querySelectorAll('h2');
+  headings.forEach(function(h2) {
+    var text = h2.textContent.trim().toLowerCase();
+
+    // Wrap "Important for UPSC" in a styled card
+    if (/important\s+for\s+upsc|upsc\s+relevance|exam\s+strategy/i.test(text)) {
+      var wrapper = document.createElement('div');
+      wrapper.className = 'section-card section-card--upsc';
+      h2.parentNode.insertBefore(wrapper, h2);
+      wrapper.appendChild(h2);
+      var next = wrapper.nextElementSibling;
+      while (next && next.tagName !== 'H2' && next.tagName !== 'HR') {
+        var move = next;
+        next = next.nextElementSibling;
+        wrapper.appendChild(move);
+      }
+      if (next && next.tagName === 'HR') next.remove();
+    }
+
+    // Wrap "PYQs" in styled card + convert questions to cards
+    if (/previous\s+year\s+questions|pyq/i.test(text)) {
+      var wrapper = document.createElement('div');
+      wrapper.className = 'section-card section-card--pyq';
+      h2.parentNode.insertBefore(wrapper, h2);
+      wrapper.appendChild(h2);
+
+      var nodes = [];
+      var next = wrapper.nextElementSibling;
+      while (next && next.tagName !== 'H2') {
+        nodes.push(next);
+        next = next.nextElementSibling;
+      }
+      if (next && next.tagName === 'HR') next.remove();
+
+      var currentSection = '';
+      var cardsHtml = '';
+
+      nodes.forEach(function(node) {
+        node.remove();
+        var tag = node.tagName;
+        var content = node.innerHTML || '';
+        var textContent = node.textContent || '';
+
+        if (tag === 'H3') {
+          var t = textContent.trim().toLowerCase();
+          if (t.indexOf('prelims') !== -1) currentSection = 'prelims';
+          else if (t.indexOf('mains') !== -1) currentSection = 'mains';
+          cardsHtml += '<h3 class="pyq-section-heading">' + node.innerHTML + '</h3>';
+          return;
+        }
+
+        if (/^\*?\*?Q\d*\.|^<strong>Q\d*\./i.test(content.trim())) {
+          qCount++;
+          var isMains = currentSection === 'mains';
+          var cardClass = isMains ? 'pyq-card pyq-card--mains' : 'pyq-card';
+          var yearMatch = textContent.match(/\d{4}/);
+          var yearText = yearMatch ? yearMatch[0] : '';
+          var typeLabel = isMains ? 'Mains' : 'Prelims';
+          var cleanContent = cleanQText(content);
+          cardsHtml += '<div class="' + cardClass + '" data-q="' + qCount + '" data-type="' + (isMains ? 'mains' : 'prelims') + '">';
+          cardsHtml += '<div class="pyq-meta"><span class="pyq-q-number">' + qCount + '</span><span class="pyq-year-badge">' + typeLabel + (yearText ? ' · ' + yearText : '') + '</span></div>';
+          cardsHtml += '<div class="pyq-question-text">' + cleanContent + '</div></div>';
+          return;
+        }
+
+        if (/^\*?\*?Answer|^<strong>Answer/i.test(content.trim())) {
+          var answerId = 'pyq-ans-' + qCount;
+          var lastDiv = cardsHtml.lastIndexOf('</div>');
+          if (lastDiv !== -1) {
+            var toggle = '<button class="pyq-answer-toggle" aria-expanded="false" aria-controls="' + answerId + '">Reveal Answer ' + chevronSvg + '</button>';
+            toggle += '<div class="pyq-answer" id="' + answerId + '" hidden>' + content + '</div>';
+            cardsHtml = cardsHtml.substring(0, lastDiv) + toggle + '</div>';
+          }
+          return;
+        }
+
+        if (textContent.trim() && qCount > 0) {
+          var lastDiv = cardsHtml.lastIndexOf('</div>');
+          if (lastDiv !== -1) {
+            var answerSplit = content.split(/<strong>Answer<\/strong>\s*:/i);
+            if (answerSplit.length > 1) {
+              var qPart = answerSplit[0].trim();
+              var aPart = '<strong>Answer</strong>: ' + answerSplit.slice(1).join('');
+              var answerId = 'pyq-ans-' + qCount;
+              var insert = '';
+              if (qPart) insert += '<div class="pyq-question-text" style="margin-top:var(--space-1);">' + qPart + '</div>';
+              insert += '<button class="pyq-answer-toggle" aria-expanded="false" aria-controls="' + answerId + '">Reveal Answer ' + chevronSvg + '</button>';
+              insert += '<div class="pyq-answer" id="' + answerId + '" hidden>' + aPart + '</div>';
+              cardsHtml = cardsHtml.substring(0, lastDiv) + insert + '</div>';
+            } else {
+              cardsHtml = cardsHtml.substring(0, lastDiv) + '<div class="pyq-question-text" style="margin-top:var(--space-1);">' + content + '</div></div>';
+            }
+          }
+        }
+      });
+
+      cardsHtml = cardsHtml.replace(/<h3[^>]*>([^<]*)<\/h3>(?=\s*<h3|$)/g, '');
+      var pyqInner = document.createElement('div');
+      pyqInner.className = 'pyq-panel-inner';
+      pyqInner.innerHTML = cardsHtml;
+      wrapper.appendChild(pyqInner);
+
+      if (qCount > 0) {
+        var badge = document.getElementById('pyq-tab-count');
+        if (badge) { badge.textContent = qCount; badge.hidden = false; }
+      }
+
+      /* ── Post-process: add interactive quiz options to prelims cards ── */
+      pyqInner.querySelectorAll('.pyq-card:not(.pyq-card--mains)').forEach(function(card) {
+        var statements = card.querySelectorAll('ol li');
+        if (statements.length < 2 || statements.length > 4) return;
+
+        var answerDiv = card.querySelector('.pyq-answer');
+        var toggle = card.querySelector('.pyq-answer-toggle');
+        if (!answerDiv) return;
+
+        var answerText = answerDiv.textContent;
+        var correctIdx = parseCorrectAnswer(answerText, statements.length);
+        var options = generateOptions(statements.length);
+        if (!options) return;
+
+        // Build options HTML
+        var optionsEl = document.createElement('div');
+        optionsEl.className = 'pyq-options';
+        optionsEl.innerHTML = '<div class="pyq-options-label">Select your answer:</div>';
+        var letters = ['a', 'b', 'c', 'd'];
+        options.forEach(function(opt, i) {
+          var btn = document.createElement('button');
+          btn.className = 'pyq-option';
+          btn.setAttribute('data-idx', i);
+          btn.innerHTML = '<span class="pyq-option-label">' + letters[i] + '</span><span>' + opt + '</span>';
+          optionsEl.appendChild(btn);
+        });
+
+        // Insert options before the toggle
+        if (toggle) toggle.parentNode.insertBefore(optionsEl, toggle);
+
+        // Replace toggle with "Check Answer" button (disabled until selection)
+        var checkBtn = document.createElement('button');
+        checkBtn.className = 'pyq-check-btn';
+        checkBtn.disabled = true;
+        checkBtn.textContent = 'Check Answer';
+        if (toggle) {
+          toggle.parentNode.insertBefore(checkBtn, toggle);
+          toggle.hidden = true; // hide old toggle, keep for fallback
+        }
+
+        var selectedIdx = -1;
+        var answered = false;
+
+        // Option click handlers
+        optionsEl.querySelectorAll('.pyq-option').forEach(function(btn) {
+          btn.addEventListener('click', function() {
+            if (answered) return;
+            optionsEl.querySelectorAll('.pyq-option').forEach(function(b) { b.classList.remove('pyq-option--selected'); });
+            btn.classList.add('pyq-option--selected');
+            selectedIdx = parseInt(btn.getAttribute('data-idx'));
+            checkBtn.disabled = false;
+          });
+        });
+
+        // Check answer handler
+        checkBtn.addEventListener('click', function() {
+          if (answered || selectedIdx === -1) return;
+          answered = true;
+
+          var resultEl = document.createElement('div');
+          resultEl.className = 'pyq-result';
+
+          if (correctIdx >= 0) {
+            // We know the correct answer
+            optionsEl.querySelectorAll('.pyq-option').forEach(function(btn, i) {
+              btn.disabled = true;
+              if (i === correctIdx) btn.classList.add('pyq-option--correct');
+              if (i === selectedIdx && i !== correctIdx) btn.classList.add('pyq-option--wrong');
+            });
+            if (selectedIdx === correctIdx) {
+              resultEl.className += ' pyq-result--correct';
+              resultEl.innerHTML = checkSvg + ' Correct!';
+            } else {
+              resultEl.className += ' pyq-result--wrong';
+              resultEl.innerHTML = crossSvg + ' Incorrect — the correct answer is (' + letters[correctIdx] + ')';
+            }
+          } else {
+            // Couldn't parse answer — just reveal
+            optionsEl.querySelectorAll('.pyq-option').forEach(function(btn) { btn.disabled = true; });
+            resultEl.className += ' pyq-result--correct';
+            resultEl.innerHTML = 'See explanation below';
+          }
+
+          checkBtn.parentNode.insertBefore(resultEl, checkBtn);
+          checkBtn.hidden = true;
+
+          // Show explanation
+          if (answerDiv) answerDiv.hidden = false;
+          if (toggle) toggle.hidden = true;
+        });
+      });
+    }
+
+    // Wrap "Current Affairs Connect" in styled card
+    if (/current\s+affairs/i.test(text)) {
+      var wrapper = document.createElement('div');
+      wrapper.className = 'section-card section-card--news';
+      h2.parentNode.insertBefore(wrapper, h2);
+      wrapper.appendChild(h2);
+      var next = wrapper.nextElementSibling;
+      while (next && next.tagName !== 'H2' && next.tagName !== 'HR') {
+        var move = next;
+        next = next.nextElementSibling;
+        wrapper.appendChild(move);
+      }
+      if (next && next.tagName === 'HR') next.remove();
     }
   });
-});
+
+  // Wire up answer toggles (for mains cards + any non-enhanced prelims)
+  document.querySelectorAll('.pyq-answer-toggle:not([hidden])').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!expanded));
+      var ans = document.getElementById(btn.getAttribute('aria-controls'));
+      if (ans) ans.hidden = expanded;
+      btn.innerHTML = (expanded ? 'Hide Answer' : 'Reveal Answer') + ' ' + chevronSvg;
+    });
+  });
+
+  // ── Convert blockquotes with prefixes to annotation callouts ──
+  // Markdown usage: > **Exam Tip:** Your text here
+  // Supported: Info, Tip, Exam Tip, Warning, Why in News, Key Point, Note, Remember
+  var calloutMap = {
+    'info': 'info', 'note': 'info', 'key point': 'info', 'key points': 'info',
+    'tip': 'tip', 'remember': 'tip', 'hint': 'tip',
+    'exam tip': 'exam', 'exam strategy': 'exam', 'upsc tip': 'exam', 'prelims tip': 'exam', 'mains tip': 'exam',
+    'warning': 'warning', 'caution': 'warning', 'common mistake': 'warning',
+    'why in news': 'news', 'in news': 'news', 'current affairs': 'news',
+    'quote': 'quote'
+  };
+  article.querySelectorAll('blockquote').forEach(function(bq) {
+    var firstEl = bq.querySelector('p:first-child, strong:first-child');
+    if (!firstEl) return;
+    var text = (firstEl.tagName === 'STRONG' ? firstEl : bq.querySelector('p:first-child strong'));
+    if (!text) return;
+    var label = text.textContent.replace(/[:：]\s*$/, '').trim().toLowerCase();
+    var variant = calloutMap[label];
+    if (!variant) return;
+
+    var callout = document.createElement('div');
+    callout.className = 'callout callout--' + variant;
+    var titleSpan = '<span class="callout-title">' + text.textContent.replace(/[:：]\s*$/, '') + '</span>';
+
+    // Get the rest of content after the label
+    var firstP = bq.querySelector('p:first-child');
+    if (firstP) {
+      var clone = firstP.cloneNode(true);
+      var strong = clone.querySelector('strong:first-child');
+      if (strong) {
+        // Remove the label strong and any trailing colon/space
+        var next = strong.nextSibling;
+        strong.remove();
+        if (next && next.nodeType === 3) {
+          next.textContent = next.textContent.replace(/^[:：]\s*/, '');
+        }
+      }
+      var remainingFirst = clone.innerHTML.trim();
+      var restHtml = '';
+      var sibling = firstP.nextElementSibling;
+      while (sibling) {
+        restHtml += sibling.outerHTML;
+        sibling = sibling.nextElementSibling;
+      }
+      callout.innerHTML = titleSpan + (remainingFirst ? '<p>' + remainingFirst + '</p>' : '') + restHtml;
+    }
+    bq.parentNode.replaceChild(callout, bq);
+  });
+
+  // ── Tabs = scroll-to-section navigation ──
+  var sectionMap = {
+    foundation: article.querySelector('h2'),
+    prelims: article.querySelector('.section-card--upsc'),
+    mains: article.querySelector('.section-card--upsc'),
+    pyqs: article.querySelector('.section-card--pyq')
+  };
+
+  document.querySelectorAll('.topic-tab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      document.querySelectorAll('.topic-tab').forEach(function(t) {
+        t.style.borderBottomColor = 'transparent';
+        t.style.color = 'var(--color-text-muted)';
+        t.classList.remove('active');
+      });
+      tab.style.borderBottomColor = 'var(--color-brand)';
+      tab.style.color = 'var(--color-brand)';
+      tab.classList.add('active');
+
+      var target = sectionMap[tab.dataset.tab];
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+
+})();
 </script>

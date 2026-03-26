@@ -228,6 +228,31 @@ The Chief Minister must:
 
 ---
 
+## Important for UPSC
+
+### Prelims Focus
+- Articles: 153-162 (Governor), 163-167 (CM & CoM), 165 (Advocate General), 168-212 (State Legislature)
+- Governor's discretionary powers — reserving Bills, recommending President's Rule, appointing CM in hung assembly
+- Vidhan Parishad — composition (1/3rd MLAs, 1/3rd local bodies, 1/12th graduates, 1/12th teachers, 1/6th nominated), creation/abolition procedure, states that have it
+- Pardoning power: Governor vs President — no Court Martial, no death sentence pardon for Governor
+- No joint sitting at state level
+- 91st Amendment — 15% cap applies to state-level CoM also (minimum 12)
+
+### Mains Dimensions
+- **Governor as Centre's agent**: Is the Governor a federal check or a tool of Central Government interference?
+- **Sarkaria and Punchhi Commission recommendations**: Why have they not been fully implemented?
+- **Bills pending with Governor**: Constitutional silence on time limits — need for reform
+- **Bicameralism at state level**: Utility of Vidhan Parishad — does it aid deliberation or delay legislation?
+- **S.R. Bommai case (1994)**: Judicial safeguards against misuse of Article 356
+
+### Interview Angles
+- Should Governors be elected instead of appointed?
+- Should there be a Collegium system for appointing Governors?
+- Is the Vidhan Parishad relevant in modern India?
+- How can Centre-State relations be improved regarding the Governor's office?
+
+---
+
 ## Previous Year Questions (PYQs)
 
 ### UPSC Prelims
@@ -262,36 +287,11 @@ The Chief Minister must:
 
 ---
 
-## Important for UPSC
-
-### Prelims Focus
-- Articles: 153-162 (Governor), 163-167 (CM & CoM), 165 (Advocate General), 168-212 (State Legislature)
-- Governor's discretionary powers — reserving Bills, recommending President's Rule, appointing CM in hung assembly
-- Vidhan Parishad — composition (1/3rd MLAs, 1/3rd local bodies, 1/12th graduates, 1/12th teachers, 1/6th nominated), creation/abolition procedure, states that have it
-- Pardoning power: Governor vs President — no Court Martial, no death sentence pardon for Governor
-- No joint sitting at state level
-- 91st Amendment — 15% cap applies to state-level CoM also (minimum 12)
-
-### Mains Dimensions
-- **Governor as Centre's agent**: Is the Governor a federal check or a tool of Central Government interference?
-- **Sarkaria and Punchhi Commission recommendations**: Why have they not been fully implemented?
-- **Bills pending with Governor**: Constitutional silence on time limits — need for reform
-- **Bicameralism at state level**: Utility of Vidhan Parishad — does it aid deliberation or delay legislation?
-- **S.R. Bommai case (1994)**: Judicial safeguards against misuse of Article 356
-
-### Interview Angles
-- Should Governors be elected instead of appointed?
-- Should there be a Collegium system for appointing Governors?
-- Is the Vidhan Parishad relevant in modern India?
-- How can Centre-State relations be improved regarding the Governor's office?
-
----
-
 ## Current Affairs Connect
 
-- [Latest Polity updates on Ujiyari.com](/subjects/polity/)
-- [Editorials on Centre-State Relations](/editorials/)
-- [Daily Current Affairs](/daily/)
+- [Latest Polity updates on Ujiyari.com](https://ujiyari.com/subjects/polity/)
+- [Editorials on Centre-State Relations](https://ujiyari.com/editorials/)
+- [Daily Current Affairs](https://ujiyari.com/daily/)
 
 ---
 

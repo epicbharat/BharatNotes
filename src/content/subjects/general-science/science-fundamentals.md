@@ -21,7 +21,7 @@ General Science is a critical component of UPSC Prelims and features in GS3 (Mai
 
 ---
 
-## 1. Physics Fundamentals
+## Physics Fundamentals
 
 ### Newton's Laws of Motion
 
@@ -82,7 +82,7 @@ Published by Sir Isaac Newton in **Principia Mathematica (1687)**, these three l
 
 ---
 
-## 2. Chemistry Fundamentals
+## Chemistry Fundamentals
 
 ### Acids and Bases
 
@@ -140,7 +140,7 @@ Published by Sir Isaac Newton in **Principia Mathematica (1687)**, these three l
 
 ---
 
-## 3. Biology Fundamentals
+## Biology Fundamentals
 
 ### Cell Structure
 
@@ -214,7 +214,7 @@ Published by Sir Isaac Newton in **Principia Mathematica (1687)**, these three l
 
 ---
 
-## 4. Recent Science Developments
+## Recent Science Developments
 
 ### Quantum Computing
 
@@ -291,7 +291,7 @@ Published by Sir Isaac Newton in **Principia Mathematica (1687)**, these three l
 
 ---
 
-## UPSC Previous Year Questions (PYQs)
+## Previous Year Questions (PYQs)
 
 ### Prelims
 

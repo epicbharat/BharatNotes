@@ -227,6 +227,30 @@ The President can grant:
 
 ---
 
+## Important for UPSC
+
+### Prelims Focus
+- Article numbers: 52-62 (President), 63-71 (VP), 74-75 (PM & CoM), 76 (AG), 72 (Pardoning), 123 (Ordinance)
+- Three types of veto (absolute, suspensive, pocket) — examples
+- Electoral college composition for President vs Vice-President
+- Pardoning powers: President (Art. 72) vs Governor (Art. 161) — Court Martial and death sentence distinctions
+- 91st Amendment — 15% cap and anti-defection strengthening
+- Impeachment — ground (violation of Constitution), process, majority required (2/3rd of total membership)
+
+### Mains Dimensions
+- **Nature of executive power**: Nominal vs real — is the President a rubber stamp?
+- **Ordinance-making power**: Balance between executive necessity and parliamentary supremacy (D.C. Wadhwa case)
+- **Collective responsibility**: Erosion in coalition era — floor tests, trust votes
+- **Attorney General**: Independence vs government obligation — comparison with CAG, CEC
+
+### Interview Angles
+- Should India switch to a Presidential system?
+- Is the 44th Amendment's provision allowing the President to send back advice adequate?
+- Should there be a time limit on the President's assent to Bills (to prevent pocket veto)?
+- Role of the VP — is it merely ceremonial?
+
+---
+
 ## Previous Year Questions (PYQs)
 
 ### UPSC Prelims
@@ -261,35 +285,11 @@ Which is correct?
 
 ---
 
-## Important for UPSC
-
-### Prelims Focus
-- Article numbers: 52-62 (President), 63-71 (VP), 74-75 (PM & CoM), 76 (AG), 72 (Pardoning), 123 (Ordinance)
-- Three types of veto (absolute, suspensive, pocket) — examples
-- Electoral college composition for President vs Vice-President
-- Pardoning powers: President (Art. 72) vs Governor (Art. 161) — Court Martial and death sentence distinctions
-- 91st Amendment — 15% cap and anti-defection strengthening
-- Impeachment — ground (violation of Constitution), process, majority required (2/3rd of total membership)
-
-### Mains Dimensions
-- **Nature of executive power**: Nominal vs real — is the President a rubber stamp?
-- **Ordinance-making power**: Balance between executive necessity and parliamentary supremacy (D.C. Wadhwa case)
-- **Collective responsibility**: Erosion in coalition era — floor tests, trust votes
-- **Attorney General**: Independence vs government obligation — comparison with CAG, CEC
-
-### Interview Angles
-- Should India switch to a Presidential system?
-- Is the 44th Amendment's provision allowing the President to send back advice adequate?
-- Should there be a time limit on the President's assent to Bills (to prevent pocket veto)?
-- Role of the VP — is it merely ceremonial?
-
----
-
 ## Current Affairs Connect
 
-- [Latest Polity updates on Ujiyari.com](/subjects/polity/)
-- [Editorials on Executive Power](/editorials/)
-- [Daily Current Affairs](/daily/)
+- [Latest Polity updates on Ujiyari.com](https://ujiyari.com/subjects/polity/)
+- [Editorials on Executive Power](https://ujiyari.com/editorials/)
+- [Daily Current Affairs](https://ujiyari.com/daily/)
 
 ---
 

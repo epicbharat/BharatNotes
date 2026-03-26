@@ -21,7 +21,7 @@ India's cultural heritage is among the richest and most diverse in the world, sh
 
 ---
 
-## 1. Indian Art Forms
+## Indian Art Forms
 
 ### Painting Traditions
 
@@ -51,7 +51,7 @@ India's cultural heritage is among the richest and most diverse in the world, sh
 
 ---
 
-## 2. Classical Dance Forms of India
+## Classical Dance Forms of India
 
 India recognizes **eight classical dance forms**, each with roots in the Natyashastra of Bharata Muni (c. 2nd century BCE – 2nd century CE).
 
@@ -68,7 +68,7 @@ India recognizes **eight classical dance forms**, each with roots in the Natyash
 
 ---
 
-## 3. Classical Music
+## Classical Music
 
 Indian classical music has two major traditions that diverged gradually from about the 13th century CE, partly due to the Islamic influence on northern musical traditions.
 
@@ -97,7 +97,7 @@ Indian classical music has two major traditions that diverged gradually from abo
 
 ---
 
-## 4. Temple Architecture
+## Temple Architecture
 
 ### Three Major Styles
 
@@ -124,7 +124,7 @@ Indian classical music has two major traditions that diverged gradually from abo
 
 ---
 
-## 5. UNESCO World Heritage Sites in India
+## UNESCO World Heritage Sites in India
 
 As of 2025, India has **44 UNESCO World Heritage Sites** (36 Cultural, 7 Natural, 1 Mixed) — the **6th highest** in the world.
 
@@ -157,7 +157,7 @@ As of 2025, India has **44 UNESCO World Heritage Sites** (36 Cultural, 7 Natural
 
 ---
 
-## 6. Festivals of India
+## Festivals of India
 
 | Festival | Religion / Region | Significance |
 |----------|------------------|--------------|
@@ -177,7 +177,7 @@ As of 2025, India has **44 UNESCO World Heritage Sites** (36 Cultural, 7 Natural
 
 ---
 
-## 7. Languages of India — Eighth Schedule
+## Languages of India — Eighth Schedule
 
 The **Eighth Schedule** of the Indian Constitution currently recognizes **22 languages**.
 
@@ -244,7 +244,7 @@ The **Eighth Schedule** of the Indian Constitution currently recognizes **22 lan
 
 ---
 
-## UPSC Previous Year Questions (PYQs)
+## Previous Year Questions (PYQs)
 
 ### Prelims
 

@@ -254,7 +254,7 @@ The United Nations was founded on **24 October 1945** (UN Day) with 51 original 
 
 ---
 
-## UPSC Previous Year Questions (PYQs)
+## Previous Year Questions (PYQs)
 
 ### Prelims
 

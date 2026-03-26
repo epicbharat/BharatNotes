@@ -21,7 +21,7 @@ The Indian Freedom Struggle (1857–1947) encompasses the organised political, s
 
 ---
 
-## 1. Post-1857 Political Awakening
+## Post-1857 Political Awakening
 
 After the Revolt of 1857, the British Crown assumed direct control of India from the East India Company through the **Government of India Act 1858**. The period that followed saw the rise of modern Indian nationalism, spurred by Western education, the press, and a growing awareness of colonial exploitation.
 
@@ -37,7 +37,7 @@ After the Revolt of 1857, the British Crown assumed direct control of India from
 
 ---
 
-## 2. Formation of the Indian National Congress (INC)
+## Formation of the Indian National Congress (INC)
 
 | Detail | Fact |
 |--------|------|
@@ -53,7 +53,7 @@ After the Revolt of 1857, the British Crown assumed direct control of India from
 
 ---
 
-## 3. The Moderate Phase (1885–1905)
+## The Moderate Phase (1885–1905)
 
 The Moderates believed in constitutional methods — petitions, prayers, and protests — to achieve reforms within the British framework.
 
@@ -86,7 +86,7 @@ The Moderates believed in constitutional methods — petitions, prayers, and pro
 
 ---
 
-## 4. The Extremist Phase (1905–1920)
+## The Extremist Phase (1905–1920)
 
 The Extremists (also called the "Assertive Nationalists") believed that mere constitutional methods were inadequate and advocated for more assertive action, including Swadeshi, Boycott, and passive resistance.
 
@@ -117,7 +117,7 @@ The Congress split at the Surat session (1907) between Moderates (led by Gokhale
 
 ---
 
-## 5. The Revolutionary Movement
+## The Revolutionary Movement
 
 While the Congress debated methods, revolutionary nationalists chose armed struggle against British rule.
 
@@ -140,7 +140,7 @@ While the Congress debated methods, revolutionary nationalists chose armed strug
 
 ---
 
-## 6. Gandhi's Arrival and Early Movements
+## Gandhi's Arrival and Early Movements
 
 ### Mahatma Gandhi: Key Timeline
 
@@ -153,7 +153,7 @@ While the Congress debated methods, revolutionary nationalists chose armed strug
 
 ---
 
-## 7. Rowlatt Act and Jallianwala Bagh Massacre (1919)
+## Rowlatt Act and Jallianwala Bagh Massacre (1919)
 
 ### The Rowlatt Act (March 1919)
 
@@ -178,7 +178,7 @@ While the Congress debated methods, revolutionary nationalists chose armed strug
 
 ---
 
-## 8. Non-Cooperation Movement (1920–1922)
+## Non-Cooperation Movement (1920–1922)
 
 | Aspect | Details |
 |--------|---------|
@@ -197,7 +197,7 @@ After the withdrawal of Non-Cooperation, **C.R. Das** and **Motilal Nehru** form
 
 ---
 
-## 9. Simon Commission and Nehru Report
+## Simon Commission and Nehru Report
 
 ### Simon Commission (1927–1928)
 
@@ -227,7 +227,7 @@ After the withdrawal of Non-Cooperation, **C.R. Das** and **Motilal Nehru** form
 
 ---
 
-## 10. Civil Disobedience Movement (1930–1934)
+## Civil Disobedience Movement (1930–1934)
 
 ### The Dandi March / Salt Satyagraha
 
@@ -256,7 +256,7 @@ After the withdrawal of Non-Cooperation, **C.R. Das** and **Motilal Nehru** form
 
 ---
 
-## 11. Round Table Conferences (1930–1932)
+## Round Table Conferences (1930–1932)
 
 | Conference | Date | Key Points |
 |-----------|------|------------|
@@ -272,7 +272,7 @@ After the withdrawal of Non-Cooperation, **C.R. Das** and **Motilal Nehru** form
 
 ---
 
-## 12. Government of India Act 1935
+## Government of India Act 1935
 
 | Feature | Details |
 |---------|---------|
@@ -286,7 +286,7 @@ After the withdrawal of Non-Cooperation, **C.R. Das** and **Motilal Nehru** form
 
 ---
 
-## 13. Quit India Movement (1942)
+## Quit India Movement (1942)
 
 | Aspect | Details |
 |--------|---------|
@@ -303,7 +303,7 @@ After the withdrawal of Non-Cooperation, **C.R. Das** and **Motilal Nehru** form
 
 ---
 
-## 14. Subhas Chandra Bose and the Indian National Army (INA)
+## Subhas Chandra Bose and the Indian National Army (INA)
 
 ### Timeline
 
@@ -332,7 +332,7 @@ After the withdrawal of Non-Cooperation, **C.R. Das** and **Motilal Nehru** form
 
 ---
 
-## 15. Royal Indian Navy Mutiny (1946)
+## Royal Indian Navy Mutiny (1946)
 
 | Detail | Fact |
 |--------|------|
@@ -346,7 +346,7 @@ After the withdrawal of Non-Cooperation, **C.R. Das** and **Motilal Nehru** form
 
 ---
 
-## 16. The Road to Independence (1946–1947)
+## The Road to Independence (1946–1947)
 
 ### Cabinet Mission Plan (March 1946)
 
@@ -396,7 +396,7 @@ After the withdrawal of Non-Cooperation, **C.R. Das** and **Motilal Nehru** form
 
 ---
 
-## 17. Comprehensive Timeline: Indian Freedom Struggle (1857–1947)
+## Comprehensive Timeline: Indian Freedom Struggle (1857–1947)
 
 | Year | Event |
 |------|-------|
@@ -440,7 +440,7 @@ After the withdrawal of Non-Cooperation, **C.R. Das** and **Motilal Nehru** form
 
 ---
 
-## 18. Key Debates and Essay Topics
+## Key Debates and Essay Topics
 
 - Why did the Moderates fail to achieve significant reform?
 - Was Gandhi right to call off the Non-Cooperation Movement after Chauri Chaura?
@@ -453,7 +453,21 @@ After the withdrawal of Non-Cooperation, **C.R. Das** and **Motilal Nehru** form
 
 ---
 
-## UPSC Previous Year Questions (PYQs)
+## Important for UPSC
+
+| What to Focus On | Why |
+|-----------------|-----|
+| **Phases of the National Movement** | Prelims frequently tests on chronology, leaders, and methods of Moderate, Extremist, and Gandhian phases |
+| **Gandhi's movements in detail** | Dates, causes, methods, outcomes, and significance of each Satyagraha are high-frequency topics |
+| **Revolutionary movement** | Names, events, organisations, and ideological evolution (from HRA to HSRA to Marxism) |
+| **Constitutional developments** | Morley-Minto Reforms, Montagu-Chelmsford Reforms, GoI Act 1935, Cabinet Mission — tested in both Prelims and Mains |
+| **Role of Subhas Chandra Bose and INA** | Compare-and-contrast questions with Gandhi's approach are common in Mains |
+| **Partition and transfer of power** | Mains essays on inevitability of Partition, role of British in communal politics |
+| **Linkages across movements** | UPSC values answers that show how one movement influenced the next |
+
+---
+
+## Previous Year Questions (PYQs)
 
 ### Prelims
 
@@ -501,20 +515,6 @@ After the withdrawal of Non-Cooperation, **C.R. Das** and **Motilal Nehru** form
 **Q8. (2013):** Critically discuss the objectives of Bhoodan and Gramdan Movements initiated by Acharya Vinoba Bhave and their success. *(GS Paper I, 250 words)*
 
 **Q9. (2022):** Bring out the constructive programmes of Mahatma Gandhi during Non-Cooperation Movement and Civil Disobedience Movement. *(GS Paper I, 150 words)*
-
----
-
-## Important for UPSC
-
-| What to Focus On | Why |
-|-----------------|-----|
-| **Phases of the National Movement** | Prelims frequently tests on chronology, leaders, and methods of Moderate, Extremist, and Gandhian phases |
-| **Gandhi's movements in detail** | Dates, causes, methods, outcomes, and significance of each Satyagraha are high-frequency topics |
-| **Revolutionary movement** | Names, events, organisations, and ideological evolution (from HRA to HSRA to Marxism) |
-| **Constitutional developments** | Morley-Minto Reforms, Montagu-Chelmsford Reforms, GoI Act 1935, Cabinet Mission — tested in both Prelims and Mains |
-| **Role of Subhas Chandra Bose and INA** | Compare-and-contrast questions with Gandhi's approach are common in Mains |
-| **Partition and transfer of power** | Mains essays on inevitability of Partition, role of British in communal politics |
-| **Linkages across movements** | UPSC values answers that show how one movement influenced the next |
 
 ---
 

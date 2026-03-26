@@ -15,7 +15,7 @@ tags:
   - topic
 ---
 
-## 1. Indian Space Research Organisation (ISRO) — Overview
+## Indian Space Research Organisation (ISRO) — Overview
 
 | Parameter | Detail |
 |-----------|--------|
@@ -44,7 +44,7 @@ tags:
 
 ---
 
-## 2. Key Space Missions
+## Key Space Missions
 
 ### 2.1 Chandrayaan Programme (Lunar Missions)
 
@@ -88,7 +88,7 @@ tags:
 
 ---
 
-## 3. Satellite Systems
+## Satellite Systems
 
 ### 3.1 Overview of Satellite Series
 
@@ -116,7 +116,7 @@ tags:
 
 ---
 
-## 4. Launch Vehicles
+## Launch Vehicles
 
 | Vehicle | Full Name | Payload Capacity | Key Features |
 |---------|-----------|-------------------|-------------|
@@ -138,7 +138,7 @@ tags:
 
 ---
 
-## 5. Space Sector Reforms and Commercial Space
+## Space Sector Reforms and Commercial Space
 
 ### 5.1 Indian Space Policy 2023
 
@@ -172,7 +172,7 @@ The number of space start-ups in India has grown from just 1 in 2014 to over 266
 
 ---
 
-## 6. International Space Cooperation
+## International Space Cooperation
 
 | Partner / Agreement | Details |
 |--------------------|---------|
@@ -185,7 +185,7 @@ The number of space start-ups in India has grown from just 1 in 2014 to over 266
 
 ---
 
-## 7. Important for UPSC
+## Important for UPSC
 
 ### Prelims Focus
 
@@ -217,7 +217,7 @@ The number of space start-ups in India has grown from just 1 in 2014 to over 266
 
 ---
 
-## UPSC Previous Year Questions (PYQs)
+## Previous Year Questions (PYQs)
 
 ### Prelims
 

@@ -254,7 +254,7 @@ Introduced in the late 1970s–early 1980s by **Justice P.N. Bhagwati** and **Ju
 
 ---
 
-## 📰 Current Affairs Connect
+## Current Affairs Connect
 
 Link these static concepts with live developments:
 

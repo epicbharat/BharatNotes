@@ -30,7 +30,7 @@ Fundamental Rights are inspired by the **US Bill of Rights** and represent the c
 
 ---
 
-## 1. Right to Equality (Articles 14–18)
+## Right to Equality (Articles 14–18)
 
 | Article | Provision |
 |---------|-----------|
@@ -53,7 +53,7 @@ Fundamental Rights are inspired by the **US Bill of Rights** and represent the c
 
 ---
 
-## 2. Right to Freedom (Articles 19–22)
+## Right to Freedom (Articles 19–22)
 
 ### Article 19: Six Freedoms (available only to citizens)
 
@@ -98,7 +98,7 @@ Added by the **86th Amendment, 2002**. Free and compulsory education for childre
 
 ---
 
-## 3. Right Against Exploitation (Articles 23–24)
+## Right Against Exploitation (Articles 23–24)
 
 | Article | Provision |
 |---------|-----------|
@@ -109,7 +109,7 @@ Added by the **86th Amendment, 2002**. Free and compulsory education for childre
 
 ---
 
-## 4. Right to Freedom of Religion (Articles 25–28)
+## Right to Freedom of Religion (Articles 25–28)
 
 | Article | Provision |
 |---------|-----------|
@@ -125,7 +125,7 @@ Added by the **86th Amendment, 2002**. Free and compulsory education for childre
 
 ---
 
-## 5. Cultural and Educational Rights (Articles 29–30)
+## Cultural and Educational Rights (Articles 29–30)
 
 | Article | Provision |
 |---------|-----------|
@@ -139,7 +139,7 @@ Added by the **86th Amendment, 2002**. Free and compulsory education for childre
 
 ---
 
-## 6. Right to Constitutional Remedies (Articles 32–35)
+## Right to Constitutional Remedies (Articles 32–35)
 
 Dr. B.R. Ambedkar called Article 32 the **"heart and soul"** of the Constitution.
 
@@ -232,7 +232,7 @@ Dr. B.R. Ambedkar called Article 32 the **"heart and soul"** of the Constitution
 
 ---
 
-## 📰 Current Affairs Connect
+## Current Affairs Connect
 
 Link these static concepts with live developments:
 

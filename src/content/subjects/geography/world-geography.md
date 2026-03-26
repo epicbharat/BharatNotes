@@ -327,6 +327,32 @@ Weathering is the in-situ breakdown of rocks without transportation.
 
 ---
 
+## Important for UPSC
+
+### Prelims Focus
+- Seismic discontinuities (Moho, Gutenberg, Lehmann) and their depths
+- Types of plate boundaries with specific examples
+- Warm vs cold ocean currents -- names, locations, effects
+- Koppen classification codes and their meanings
+- Identification of specific landforms (drumlins, eskers, barchans, spits)
+- Ring of Fire and earthquake distribution zones
+
+### Mains Dimensions (GS Paper 1)
+- **Geomorphology:** Explain formation of specific landforms with diagrams (fluvial, glacial, aeolian, marine)
+- **Oceanography:** Role of ocean currents in climate moderation, fisheries, and navigation
+- **Plate Tectonics:** Relationship between plate boundaries, earthquakes, volcanoes, and mountain building
+- **Climatology:** Koppen classification and its application; factors affecting world climate
+- **Population Geography:** Push-pull factors of migration; urbanisation challenges
+- **Linkages:** Connect geomorphology with human settlements, agriculture, and disaster vulnerability
+
+### Interview Angles
+- How does El Nino relate to ocean currents and Indian monsoons?
+- Why are cold currents associated with deserts on western coasts?
+- How does plate tectonics explain the distribution of mineral resources?
+- What is the geomorphological significance of the Deccan Trap in India?
+
+---
+
 ## Previous Year Questions (PYQs)
 
 ### UPSC Prelims
@@ -372,32 +398,6 @@ Which of the statements given above is/are correct?
 
 
 distribution of Fold Mountains and the earthquakes and volcanoes." (UPSC Mains 2014)
-
----
-
-## Important for UPSC
-
-### Prelims Focus
-- Seismic discontinuities (Moho, Gutenberg, Lehmann) and their depths
-- Types of plate boundaries with specific examples
-- Warm vs cold ocean currents -- names, locations, effects
-- Koppen classification codes and their meanings
-- Identification of specific landforms (drumlins, eskers, barchans, spits)
-- Ring of Fire and earthquake distribution zones
-
-### Mains Dimensions (GS Paper 1)
-- **Geomorphology:** Explain formation of specific landforms with diagrams (fluvial, glacial, aeolian, marine)
-- **Oceanography:** Role of ocean currents in climate moderation, fisheries, and navigation
-- **Plate Tectonics:** Relationship between plate boundaries, earthquakes, volcanoes, and mountain building
-- **Climatology:** Koppen classification and its application; factors affecting world climate
-- **Population Geography:** Push-pull factors of migration; urbanisation challenges
-- **Linkages:** Connect geomorphology with human settlements, agriculture, and disaster vulnerability
-
-### Interview Angles
-- How does El Nino relate to ocean currents and Indian monsoons?
-- Why are cold currents associated with deserts on western coasts?
-- How does plate tectonics explain the distribution of mineral resources?
-- What is the geomorphological significance of the Deccan Trap in India?
 
 ---
 

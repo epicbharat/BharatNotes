@@ -21,7 +21,7 @@ Modern Indian history (c. 1757–1947) covers the period of British colonial rul
 
 ---
 
-## 1. British Conquest and Consolidation
+## British Conquest and Consolidation
 
 ### Key Battles
 
@@ -49,7 +49,7 @@ Modern Indian history (c. 1757–1947) covers the period of British colonial rul
 
 ---
 
-## 2. Land Revenue Systems Under the British
+## Land Revenue Systems Under the British
 
 | System | Year | Region | Key Feature |
 |--------|------|--------|-------------|
@@ -59,7 +59,7 @@ Modern Indian history (c. 1757–1947) covers the period of British colonial rul
 
 ---
 
-## 3. The Revolt of 1857
+## The Revolt of 1857
 
 ### Causes
 
@@ -91,7 +91,7 @@ Modern Indian history (c. 1757–1947) covers the period of British colonial rul
 
 ---
 
-## 4. Social Reform Movements
+## Social Reform Movements
 
 | Movement / Organization | Founder | Year | Key Reforms |
 |------------------------|---------|------|-------------|
@@ -106,7 +106,7 @@ Modern Indian history (c. 1757–1947) covers the period of British colonial rul
 
 ---
 
-## 5. Indian National Congress and the Freedom Movement
+## Indian National Congress and the Freedom Movement
 
 ### Formation and Early Phase
 
@@ -123,7 +123,7 @@ The **Indian National Congress (INC)** was founded on **28 December 1885** in Bo
 
 ---
 
-## 6. Gandhi Era — Major Movements
+## Gandhi Era — Major Movements
 
 ### Timeline of Gandhian Movements
 
@@ -150,7 +150,7 @@ The **Indian National Congress (INC)** was founded on **28 December 1885** in Bo
 
 ---
 
-## 7. Subhas Chandra Bose and the INA
+## Subhas Chandra Bose and the INA
 
 | Date / Event | Details |
 |-------------|---------|
@@ -166,7 +166,7 @@ The **Indian National Congress (INC)** was founded on **28 December 1885** in Bo
 
 ---
 
-## 8. Partition and Independence (1947)
+## Partition and Independence (1947)
 
 | Event | Date | Details |
 |-------|------|---------|
@@ -204,7 +204,7 @@ The **Indian National Congress (INC)** was founded on **28 December 1885** in Bo
 
 ---
 
-## UPSC Previous Year Questions (PYQs)
+## Previous Year Questions (PYQs)
 
 ### Prelims
 

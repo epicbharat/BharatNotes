@@ -16,8 +16,8 @@
   {%- endset -%}
   {%- set pageUrl = site.url + (page.url or '/') -%}
 
-  <title>{{ pageTitle }}</title>
-  <meta name="description" content="{{ pageDesc }}">
+  <title>{{ pageTitle | safe }}</title>
+  <meta name="description" content="{{ pageDesc | safe }}">
   <link rel="canonical" href="{{ pageUrl }}">
   {% if robotsMeta %}<meta name="robots" content="{{ robotsMeta }}">{% endif %}
   <link rel="alternate" hreflang="en-in" href="{{ pageUrl }}">
@@ -25,7 +25,7 @@
 
   <!-- Open Graph -->
   <meta property="og:title" content="{{ title or 'BharatNotes — Free UPSC GS Notes' }}">
-  <meta property="og:description" content="{{ pageDesc }}">
+  <meta property="og:description" content="{{ pageDesc | safe }}">
   <meta property="og:type" content="{% if date %}article{% else %}website{% endif %}">
   <meta property="og:url" content="{{ pageUrl }}">
   <meta property="og:site_name" content="BharatNotes">
@@ -33,7 +33,7 @@
   <meta property="og:image" content="{{ site.url }}/images/logos/bharatnotes-og.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ title or 'BharatNotes' }}">
-  <meta name="twitter:description" content="{{ pageDesc }}">
+  <meta name="twitter:description" content="{{ pageDesc | safe }}">
 
   <!-- Structured Data -->
   <script type="application/ld+json">
@@ -46,7 +46,7 @@
     "datePublished": "{{ date | isoDate }}",
     "author": {"@type": "Person", "name": "Bharat Choudhary", "url": "https://www.linkedin.com/in/epicbharat/"},
     "publisher": {"@type": "Organization", "name": "BharatNotes", "url": "{{ site.url }}", "logo": {"@type": "ImageObject", "url": "{{ site.url }}/images/logos/bharatnotes-logo.png"}},
-    {% endif %}"description": "{{ pageDesc }}"
+    {% endif %}"description": "{{ pageDesc | safe }}"
   }
   </script>
   <script type="application/ld+json">
@@ -62,6 +62,8 @@
   }
   </script>
   {% if layout == 'topic.njk' %}
+  {%- set _subjectName = subject -%}
+  {%- for s in subjects -%}{%- if s.slug == subject -%}{%- set _subjectName = s.name -%}{%- endif -%}{%- endfor -%}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -69,7 +71,7 @@
     "itemListElement": [
       {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/"},
       {"@type": "ListItem", "position": 2, "name": "Subjects", "item": "{{ site.url }}/subjects/"},
-      {"@type": "ListItem", "position": 3, "name": "{{ subject }}", "item": "{{ site.url }}/subjects/{{ subject }}/"},
+      {"@type": "ListItem", "position": 3, "name": "{{ _subjectName }}", "item": "{{ site.url }}/subjects/{{ subject }}/"},
       {"@type": "ListItem", "position": 4, "name": "{{ title }}"}
     ]
   }
@@ -155,8 +157,32 @@
   </div>
 </footer>
 
+<!-- Go to Top -->
+<button id="go-top" class="go-top" aria-label="Back to top" hidden>
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
 <script src="/js/nav.js" defer></script>
 <script src="/js/bookmarks.js" defer></script>
 <script src="/js/pdf.js" defer></script>
+<script>
+// Go to Top button
+(function(){
+  var btn = document.getElementById('go-top');
+  if (!btn) return;
+  var shown = false;
+  window.addEventListener('scroll', function() {
+    var shouldShow = window.scrollY > 400;
+    if (shouldShow !== shown) {
+      shown = shouldShow;
+      btn.hidden = !shown;
+      btn.classList.toggle('go-top--visible', shown);
+    }
+  }, { passive: true });
+  btn.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
 </body>
 </html>

@@ -237,7 +237,7 @@ Called by the **President** when there is a deadlock between the two Houses on a
 
 ---
 
-## 📰 Current Affairs Connect
+## Current Affairs Connect
 
 Link these static concepts with live developments:
 

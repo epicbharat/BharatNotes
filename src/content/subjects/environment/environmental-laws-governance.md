@@ -15,7 +15,7 @@ tags:
   - topic
 ---
 
-## 1. Key Environmental Laws in India
+## Key Environmental Laws in India
 
 ### 1.1 Umbrella Legislation
 
@@ -47,7 +47,7 @@ tags:
 
 ---
 
-## 2. Environmental Impact Assessment (EIA)
+## Environmental Impact Assessment (EIA)
 
 ### 2.1 EIA Notification 2006
 
@@ -74,7 +74,7 @@ tags:
 
 ---
 
-## 3. Coastal Regulation Zone (CRZ)
+## Coastal Regulation Zone (CRZ)
 
 ### 3.1 CRZ Notification 2019
 
@@ -95,7 +95,7 @@ tags:
 
 ---
 
-## 4. Compensatory Afforestation Fund Act (CAMPA), 2016
+## Compensatory Afforestation Fund Act (CAMPA), 2016
 
 | Parameter | Detail |
 |-----------|--------|
@@ -110,7 +110,7 @@ tags:
 
 ---
 
-## 5. Key Environmental Institutions
+## Key Environmental Institutions
 
 ### 5.1 Domestic Institutions
 
@@ -161,7 +161,7 @@ tags:
 
 ---
 
-## 6. International Environmental Governance
+## International Environmental Governance
 
 ### 6.1 Key Multilateral Environmental Agreements (MEAs)
 
@@ -188,7 +188,7 @@ tags:
 
 ---
 
-## 7. Important for UPSC
+## Important for UPSC
 
 ### Key Themes for Prelims
 
@@ -216,7 +216,7 @@ tags:
 
 ---
 
-## 8. UPSC Previous Year Questions (PYQs)
+## Previous Year Questions (PYQs)
 
 ### Prelims
 
@@ -261,7 +261,7 @@ Which of the above is/are correct?
 
 ---
 
-## 9. Current Affairs Connect
+## Current Affairs Connect
 
 | Resource | Link |
 |----------|------|

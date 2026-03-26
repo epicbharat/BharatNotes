@@ -23,7 +23,7 @@ The **Disaster Management Act, 2005** provides the legal and institutional frame
 
 ---
 
-## 1. Types of Disasters
+## Types of Disasters
 
 ### Natural Disasters
 
@@ -51,7 +51,7 @@ The **Disaster Management Act, 2005** provides the legal and institutional frame
 
 ---
 
-## 2. Institutional Framework — DM Act, 2005
+## Institutional Framework — DM Act, 2005
 
 The **Disaster Management Act, 2005** was passed by Parliament — Rajya Sabha on **28 November 2005** and Lok Sabha on **12 December 2005** — and received Presidential assent on **23 December 2005**. The Act has **11 chapters and 79 sections** and extends to the whole of India.
 
@@ -83,7 +83,7 @@ The **Disaster Management Act, 2005** was passed by Parliament — Rajya Sabha o
 
 ---
 
-## 3. National Disaster Response Force (NDRF)
+## National Disaster Response Force (NDRF)
 
 | Parameter | Details |
 |-----------|---------|
@@ -99,7 +99,7 @@ The **Disaster Management Act, 2005** was passed by Parliament — Rajya Sabha o
 
 ---
 
-## 4. Disaster Preparedness — Early Warning Systems
+## Disaster Preparedness — Early Warning Systems
 
 ### Key Agencies
 
@@ -129,7 +129,7 @@ India's investment in early warning systems has dramatically reduced disaster mo
 
 ---
 
-## 5. Sendai Framework for Disaster Risk Reduction (2015–2030)
+## Sendai Framework for Disaster Risk Reduction (2015–2030)
 
 Adopted at the **Third UN World Conference on DRR** in **Sendai, Japan** on **18 March 2015**, this framework succeeded the Hyogo Framework for Action (2005–2015).
 
@@ -162,7 +162,7 @@ Adopted at the **Third UN World Conference on DRR** in **Sendai, Japan** on **18
 
 ---
 
-## 6. India's Vulnerability Zones
+## India's Vulnerability Zones
 
 ### Seismic Zones
 
@@ -207,7 +207,7 @@ The Bureau of Indian Standards (BIS) classifies India into **four seismic zones*
 
 ---
 
-## 7. Relief and Rehabilitation
+## Relief and Rehabilitation
 
 ### Framework
 
@@ -268,7 +268,7 @@ The Bureau of Indian Standards (BIS) classifies India into **four seismic zones*
 
 ---
 
-## UPSC Previous Year Questions (PYQs)
+## Previous Year Questions (PYQs)
 
 ### Prelims
 

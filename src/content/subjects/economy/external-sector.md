@@ -311,6 +311,33 @@ Launched to boost domestic manufacturing and reduce import dependence.
 
 ---
 
+## Important for UPSC
+
+### Prelims Focus
+
+- Current Account components (trade in goods, services, primary income, secondary income)
+- Difference between FDI and FPI (10% equity threshold)
+- FDI sector caps and routes (insurance raised to 100%, defence at 74%)
+- NEER vs REER — conceptual clarity
+- RoDTEP replacing MEIS (WTO compliance reason)
+- Capital Account components — ECB, NRI deposits, FDI, FPI
+- Forex reserves composition — FCA, gold, SDR, IMF reserve position
+
+### Mains Dimensions
+
+- **GS3 Essay themes:** India's trade deficit with China — structural causes and remedies; impact of FTAs on domestic industry; WTO's relevance in the age of bilateral trade agreements
+- **Analytical approach:** CAD management through capital flows vs structural export improvement; managed float vs fixed exchange rate debate
+- **Policy evaluation:** PLI scheme impact on domestic manufacturing; effectiveness of SEZs; India's decision to exit RCEP — cost-benefit analysis
+
+### Interview Angles
+
+- Should India join RCEP? Weigh economic integration vs protection of domestic industry
+- Is India's forex reserve level adequate? How should RBI manage the impossible trinity?
+- How effective are PLI schemes in genuine import substitution vs assembly operations?
+- India's strategy for WTO reform — is the multilateral trading system dying?
+
+---
+
 ## Previous Year Questions (PYQs)
 
 ### UPSC Prelims
@@ -361,33 +388,6 @@ Which of the above are part of Capital Account?
  agreements are becoming more important in the present context of WTO negotiations failing to address the developmental concerns of developing countries. Discuss in the light of India's recent bilateral trade agreements." (GS3, 2022)**
 
 **Q. Evaluate India's stand on the issue of Public Stockholding for Food Security at the WTO. Is India justified in demanding a permanent solution? (GS3, 2023)**
-
----
-
-## Important for UPSC
-
-### Prelims Focus
-
-- Current Account components (trade in goods, services, primary income, secondary income)
-- Difference between FDI and FPI (10% equity threshold)
-- FDI sector caps and routes (insurance raised to 100%, defence at 74%)
-- NEER vs REER — conceptual clarity
-- RoDTEP replacing MEIS (WTO compliance reason)
-- Capital Account components — ECB, NRI deposits, FDI, FPI
-- Forex reserves composition — FCA, gold, SDR, IMF reserve position
-
-### Mains Dimensions
-
-- **GS3 Essay themes:** India's trade deficit with China — structural causes and remedies; impact of FTAs on domestic industry; WTO's relevance in the age of bilateral trade agreements
-- **Analytical approach:** CAD management through capital flows vs structural export improvement; managed float vs fixed exchange rate debate
-- **Policy evaluation:** PLI scheme impact on domestic manufacturing; effectiveness of SEZs; India's decision to exit RCEP — cost-benefit analysis
-
-### Interview Angles
-
-- Should India join RCEP? Weigh economic integration vs protection of domestic industry
-- Is India's forex reserve level adequate? How should RBI manage the impossible trinity?
-- How effective are PLI schemes in genuine import substitution vs assembly operations?
-- India's strategy for WTO reform — is the multilateral trading system dying?
 
 ---
 

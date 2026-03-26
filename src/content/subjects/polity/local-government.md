@@ -299,6 +299,35 @@ Article 243I (Panchayats) and Article 243Y (Municipalities) mandate the State Go
 
 ---
 
+## Important for UPSC
+
+### Prelims Focus
+- 73rd Amendment: Part IX, Articles 243-243O, 11th Schedule (29 subjects), came into force 24 April 1993
+- 74th Amendment: Part IX-A, Articles 243P-243ZG, 12th Schedule (18 functions), came into force 1 June 1993
+- Reservation: SC/ST in proportion to population + 1/3rd for women at all levels
+- State Finance Commission: Article 243I — constituted every 5 years
+- State Election Commission: Article 243K — appointed by Governor, removed like a High Court Judge
+- DPC (Art. 243ZD): 4/5th members elected; MPC (Art. 243ZE): 2/3rd members elected, for metro areas of 10 lakh+ population
+- PESA Act, 1996: Extends Panchayati Raj to Fifth Schedule areas
+- States below 20 lakh population may not have intermediate tier
+- Wards Committees mandatory for municipalities with 3 lakh+ population
+
+### Mains Dimensions
+- **3Fs — Funds, Functions, Functionaries**: The real challenge of decentralisation — actual devolution vs constitutional mandate
+- **Gram Sabha as instrument of direct democracy**: Potential and limitations
+- **Urban governance challenges**: 74th Amendment implementation gaps, smart cities and municipal reforms
+- **16th Finance Commission**: Impact of new grants formula on local body finances
+- **PESA and tribal self-governance**: Conflicts between Panchayati Raj and tribal autonomy
+- **Women's representation**: Impact of 1/3rd reservation at the grassroots — some states have increased to 50%
+
+### Interview Angles
+- Should reservation for women in Panchayats be increased to 50% across all states?
+- Why has urban decentralisation lagged behind rural decentralisation?
+- How can District Planning Committees be made more effective?
+- Should the State Election Commission be merged with the Election Commission of India?
+
+---
+
 ## Previous Year Questions (PYQs)
 
 ### UPSC Prelims
@@ -343,40 +372,11 @@ Which of the statements given above is/are correct?
 
 ---
 
-## Important for UPSC
-
-### Prelims Focus
-- 73rd Amendment: Part IX, Articles 243-243O, 11th Schedule (29 subjects), came into force 24 April 1993
-- 74th Amendment: Part IX-A, Articles 243P-243ZG, 12th Schedule (18 functions), came into force 1 June 1993
-- Reservation: SC/ST in proportion to population + 1/3rd for women at all levels
-- State Finance Commission: Article 243I — constituted every 5 years
-- State Election Commission: Article 243K — appointed by Governor, removed like a High Court Judge
-- DPC (Art. 243ZD): 4/5th members elected; MPC (Art. 243ZE): 2/3rd members elected, for metro areas of 10 lakh+ population
-- PESA Act, 1996: Extends Panchayati Raj to Fifth Schedule areas
-- States below 20 lakh population may not have intermediate tier
-- Wards Committees mandatory for municipalities with 3 lakh+ population
-
-### Mains Dimensions
-- **3Fs — Funds, Functions, Functionaries**: The real challenge of decentralisation — actual devolution vs constitutional mandate
-- **Gram Sabha as instrument of direct democracy**: Potential and limitations
-- **Urban governance challenges**: 74th Amendment implementation gaps, smart cities and municipal reforms
-- **16th Finance Commission**: Impact of new grants formula on local body finances
-- **PESA and tribal self-governance**: Conflicts between Panchayati Raj and tribal autonomy
-- **Women's representation**: Impact of 1/3rd reservation at the grassroots — some states have increased to 50%
-
-### Interview Angles
-- Should reservation for women in Panchayats be increased to 50% across all states?
-- Why has urban decentralisation lagged behind rural decentralisation?
-- How can District Planning Committees be made more effective?
-- Should the State Election Commission be merged with the Election Commission of India?
-
----
-
 ## Current Affairs Connect
 
-- [Latest Polity updates on Ujiyari.com](/subjects/polity/)
-- [Editorials on Decentralisation](/editorials/)
-- [Daily Current Affairs](/daily/)
+- [Latest Polity updates on Ujiyari.com](https://ujiyari.com/subjects/polity/)
+- [Editorials on Decentralisation](https://ujiyari.com/editorials/)
+- [Daily Current Affairs](https://ujiyari.com/daily/)
 
 ---
 

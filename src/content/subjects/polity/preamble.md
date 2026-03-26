@@ -134,7 +134,7 @@ The Preamble has been amended **once** — by the **42nd Amendment Act, 1976** �
 
 ---
 
-## 📰 Current Affairs Connect
+## Current Affairs Connect
 
 Link these static concepts with live developments:
 

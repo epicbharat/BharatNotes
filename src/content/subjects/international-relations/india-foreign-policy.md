@@ -245,7 +245,7 @@ The expanded BRICS represents approximately half the world's population and 41% 
 
 ---
 
-## UPSC Previous Year Questions (PYQs)
+## Previous Year Questions (PYQs)
 
 ### Prelims
 

@@ -340,6 +340,36 @@ Conceived by **Dr. Homi Bhabha** in the 1950s to leverage India's limited uraniu
 
 ---
 
+## Important for UPSC
+
+### Prelims Focus
+
+- NIP total outlay (Rs. 111 lakh crore, period 2020-25) and sector shares
+- PM Gati Shakti — 16 ministries, GIS platform, 200+ layers
+- Three-stage nuclear programme — which reactor at which stage; PFBR at Kalpakkam
+- Green Hydrogen Mission — 5 MMT target by 2030; Rs. 19,744 crore outlay
+- 500 GW RE target by 2030 (COP26); current installed capacity figures
+- UDAN scheme — "Ude Desh ka Aam Naagrik"; Modified UDAN Rs. 28,840 crore
+- Sagarmala — port-led development; four pillars
+- Electricity Act 2003 — key provisions (de-licensing, open access)
+
+### Mains Dimensions
+
+- **Infrastructure financing**: NIP financing gap; role of DFIs (NaBFID), InvITs, municipal bonds, PPP models
+- **Energy transition**: Coal to renewables — just transition for coal-dependent regions; storage challenges; grid integration
+- **Logistics efficiency**: PM Gati Shakti as a tool for reducing logistics costs from 13-14% to 8% of GDP
+- **Federalism in energy**: Centre-state coordination in DISCOM reforms; electricity as Concurrent List subject
+- **Nuclear energy debate**: Safety concerns (CLNDA), thorium potential vs timeline reality, SMR prospects
+
+### Interview Angles
+
+- Is India's 500 GW RE target by 2030 achievable given current pace? What are the bottlenecks?
+- Should India invest more in nuclear energy given the urgency of net-zero?
+- How can Smart Cities Mission learnings be scaled beyond 100 cities?
+- Role of green hydrogen in India's energy security and industrial decarbonisation
+
+---
+
 ## Previous Year Questions (PYQs)
 
 ### UPSC Prelims
@@ -388,36 +418,6 @@ Which of the above are related to renewable energy?
 **Q. Discuss the advantages of the PPP (Public-Private Partnership) model for infrastructure development in India. What are the challenges in its implementation? (GS3, 2019)**
 
 **Q. Give an account of the current status and the targets to be achieved pertaining to renewable energy sources in the country. Discuss in brief the importance of the National Action Plan on Climate Change (NAPCC). (GS3, 2016)**
-
----
-
-## Important for UPSC
-
-### Prelims Focus
-
-- NIP total outlay (Rs. 111 lakh crore, period 2020-25) and sector shares
-- PM Gati Shakti — 16 ministries, GIS platform, 200+ layers
-- Three-stage nuclear programme — which reactor at which stage; PFBR at Kalpakkam
-- Green Hydrogen Mission — 5 MMT target by 2030; Rs. 19,744 crore outlay
-- 500 GW RE target by 2030 (COP26); current installed capacity figures
-- UDAN scheme — "Ude Desh ka Aam Naagrik"; Modified UDAN Rs. 28,840 crore
-- Sagarmala — port-led development; four pillars
-- Electricity Act 2003 — key provisions (de-licensing, open access)
-
-### Mains Dimensions
-
-- **Infrastructure financing**: NIP financing gap; role of DFIs (NaBFID), InvITs, municipal bonds, PPP models
-- **Energy transition**: Coal to renewables — just transition for coal-dependent regions; storage challenges; grid integration
-- **Logistics efficiency**: PM Gati Shakti as a tool for reducing logistics costs from 13-14% to 8% of GDP
-- **Federalism in energy**: Centre-state coordination in DISCOM reforms; electricity as Concurrent List subject
-- **Nuclear energy debate**: Safety concerns (CLNDA), thorium potential vs timeline reality, SMR prospects
-
-### Interview Angles
-
-- Is India's 500 GW RE target by 2030 achievable given current pace? What are the bottlenecks?
-- Should India invest more in nuclear energy given the urgency of net-zero?
-- How can Smart Cities Mission learnings be scaled beyond 100 cities?
-- Role of green hydrogen in India's energy security and industrial decarbonisation
 
 ---
 

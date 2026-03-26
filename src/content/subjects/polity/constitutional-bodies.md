@@ -301,6 +301,33 @@ The recommendations of the Finance Commission are **advisory** — the governmen
 
 ---
 
+## Important for UPSC
+
+### Prelims Focus
+- **ECI**: Article 324; CEC removal like SC Judge; ECs removed on CEC's recommendation; 2023 Act — Selection Committee (PM + LoP + Cabinet Minister); term 6 years or 65 years
+- **CAG**: Articles 148-151; removal like SC Judge; term 6 years or 65 years; not eligible for further government office; reports examined by PAC
+- **UPSC**: Articles 315-323; term 6 years or 65 years; removal by President after SC inquiry; SPSC members' age limit is 62 years; Chairman of UPSC not eligible for further government employment
+- **Finance Commission**: Article 280; Chairman + 4 members; constituted every 5 years; advisory recommendations; 16th FC — Arvind Panagariya, 41% devolution
+- **National Commissions**: NCSC (Art. 338), NCST (Art. 338A — 89th Amendment, 2003), NCBC (Art. 338B — 102nd Amendment, 2018); NCW and NHRC are statutory, not constitutional
+- **NHRC**: PHR Act, 1993; Chairperson — retired CJI or SC Judge; term 3 years or 70 years; cannot investigate armed forces; one-year complaint limit
+
+### Mains Dimensions
+- **ECI independence**: Impact of the 2023 Act on selection process — does it compromise autonomy?
+- **MCC**: Should it be given statutory backing?
+- **CAG**: Relevance of audit in the age of digital governance — performance audit vs compliance audit
+- **UPSC**: Lateral entry debate — does it bypass UPSC's constitutional role?
+- **Finance Commission**: Vertical devolution — is 41% adequate for cooperative federalism?
+- **National Commissions**: Effectiveness — are they toothless tigers? Recommendations are advisory — impact assessment
+
+### Interview Angles
+- Should the CEC and ECs be appointed through a Collegium system?
+- Is the MCC adequate for regulating freebies — the Supreme Court's stance
+- Why does India need both a Finance Commission and NITI Aayog?
+- Should the NHRC be given power to investigate the armed forces?
+- How effective has the NCBC been after gaining constitutional status in 2018?
+
+---
+
 ## Previous Year Questions (PYQs)
 
 ### UPSC Prelims
@@ -347,38 +374,11 @@ Which of the above statements is/are correct?
 
 ---
 
-## Important for UPSC
-
-### Prelims Focus
-- **ECI**: Article 324; CEC removal like SC Judge; ECs removed on CEC's recommendation; 2023 Act — Selection Committee (PM + LoP + Cabinet Minister); term 6 years or 65 years
-- **CAG**: Articles 148-151; removal like SC Judge; term 6 years or 65 years; not eligible for further government office; reports examined by PAC
-- **UPSC**: Articles 315-323; term 6 years or 65 years; removal by President after SC inquiry; SPSC members' age limit is 62 years; Chairman of UPSC not eligible for further government employment
-- **Finance Commission**: Article 280; Chairman + 4 members; constituted every 5 years; advisory recommendations; 16th FC — Arvind Panagariya, 41% devolution
-- **National Commissions**: NCSC (Art. 338), NCST (Art. 338A — 89th Amendment, 2003), NCBC (Art. 338B — 102nd Amendment, 2018); NCW and NHRC are statutory, not constitutional
-- **NHRC**: PHR Act, 1993; Chairperson — retired CJI or SC Judge; term 3 years or 70 years; cannot investigate armed forces; one-year complaint limit
-
-### Mains Dimensions
-- **ECI independence**: Impact of the 2023 Act on selection process — does it compromise autonomy?
-- **MCC**: Should it be given statutory backing?
-- **CAG**: Relevance of audit in the age of digital governance — performance audit vs compliance audit
-- **UPSC**: Lateral entry debate — does it bypass UPSC's constitutional role?
-- **Finance Commission**: Vertical devolution — is 41% adequate for cooperative federalism?
-- **National Commissions**: Effectiveness — are they toothless tigers? Recommendations are advisory — impact assessment
-
-### Interview Angles
-- Should the CEC and ECs be appointed through a Collegium system?
-- Is the MCC adequate for regulating freebies — the Supreme Court's stance
-- Why does India need both a Finance Commission and NITI Aayog?
-- Should the NHRC be given power to investigate the armed forces?
-- How effective has the NCBC been after gaining constitutional status in 2018?
-
----
-
 ## Current Affairs Connect
 
-- [Latest Polity updates on Ujiyari.com](/subjects/polity/)
-- [Editorials on Constitutional Bodies](/editorials/)
-- [Daily Current Affairs](/daily/)
+- [Latest Polity updates on Ujiyari.com](https://ujiyari.com/subjects/polity/)
+- [Editorials on Constitutional Bodies](https://ujiyari.com/editorials/)
+- [Daily Current Affairs](https://ujiyari.com/daily/)
 
 ---
 

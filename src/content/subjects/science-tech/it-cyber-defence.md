@@ -15,7 +15,7 @@ tags:
   - topic
 ---
 
-## 1. India's Information Technology Sector
+## India's Information Technology Sector
 
 ### 1.1 Overview
 
@@ -43,7 +43,7 @@ tags:
 
 ---
 
-## 2. Artificial Intelligence (AI) in India
+## Artificial Intelligence (AI) in India
 
 ### 2.1 India AI Mission
 
@@ -69,7 +69,7 @@ tags:
 
 ---
 
-## 3. Cybersecurity Framework
+## Cybersecurity Framework
 
 ### 3.1 Key Institutions
 
@@ -105,7 +105,7 @@ tags:
 
 ---
 
-## 4. Blockchain Technology
+## Blockchain Technology
 
 | Parameter | Detail |
 |-----------|--------|
@@ -117,7 +117,7 @@ tags:
 
 ---
 
-## 5. 5G Rollout in India
+## 5G Rollout in India
 
 | Parameter | Detail |
 |-----------|--------|
@@ -131,7 +131,7 @@ tags:
 
 ---
 
-## 6. India Semiconductor Mission (ISM)
+## India Semiconductor Mission (ISM)
 
 | Parameter | Detail |
 |-----------|--------|
@@ -145,7 +145,7 @@ tags:
 
 ---
 
-## 7. Defence Technology
+## Defence Technology
 
 ### 7.1 Defence Research and Development Organisation (DRDO)
 
@@ -186,7 +186,7 @@ tags:
 
 ---
 
-## 8. India's Nuclear Programme
+## India's Nuclear Programme
 
 ### 8.1 Timeline of Key Events
 
@@ -224,7 +224,7 @@ tags:
 
 ---
 
-## 9. Important for UPSC
+## Important for UPSC
 
 ### Key Themes for Prelims
 
@@ -249,7 +249,7 @@ tags:
 
 ---
 
-## 10. UPSC Previous Year Questions (PYQs)
+## Previous Year Questions (PYQs)
 
 ### Prelims
 
@@ -286,7 +286,7 @@ Which of the statements given above is/are correct?
 
 ---
 
-## 11. Current Affairs Connect
+## Current Affairs Connect
 
 | Resource | Link |
 |----------|------|

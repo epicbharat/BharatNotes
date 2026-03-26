@@ -23,7 +23,7 @@ India faces a complex internal security environment shaped by its geography, div
 
 ---
 
-## 1. Internal Security Challenges
+## Internal Security Challenges
 
 ### A. Terrorism
 
@@ -66,7 +66,7 @@ India faces a complex internal security environment shaped by its geography, div
 
 ---
 
-## 2. Cyber Security
+## Cyber Security
 
 ### Institutional Framework
 
@@ -117,7 +117,7 @@ The **DPDP Act** received Presidential assent on **11 August 2023** — India's 
 
 ---
 
-## 3. Border Management
+## Border Management
 
 ### India's Borders at a Glance
 
@@ -152,7 +152,7 @@ The **DPDP Act** received Presidential assent on **11 August 2023** — India's 
 
 ---
 
-## 4. Money Laundering
+## Money Laundering
 
 ### Prevention of Money Laundering Act (PMLA), 2002
 
@@ -183,7 +183,7 @@ The PMLA was enacted in January 2003 and came into force on **1 July 2005**.
 
 ---
 
-## 5. Organised Crime
+## Organised Crime
 
 | Type | Description | Key Legislation |
 |------|-------------|----------------|
@@ -196,7 +196,7 @@ The PMLA was enacted in January 2003 and came into force on **1 July 2005**.
 
 ---
 
-## 6. Role of Media & Social Media in Security
+## Role of Media & Social Media in Security
 
 | Aspect | Positive Role | Negative Role |
 |--------|--------------|---------------|
@@ -214,7 +214,7 @@ The PMLA was enacted in January 2003 and came into force on **1 July 2005**.
 
 ---
 
-## 7. Security Forces and Their Mandate
+## Security Forces and Their Mandate
 
 | Force | Ministry | Primary Mandate |
 |-------|----------|----------------|
@@ -257,7 +257,7 @@ The PMLA was enacted in January 2003 and came into force on **1 July 2005**.
 
 ---
 
-## UPSC Previous Year Questions (PYQs)
+## Previous Year Questions (PYQs)
 
 ### Prelims
 

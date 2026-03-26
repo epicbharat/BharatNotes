@@ -21,7 +21,7 @@ Ancient Indian history spans from the earliest urban civilization in the Indus V
 
 ---
 
-## 1. Indus Valley Civilization (c. 2500–1700 BCE)
+## Indus Valley Civilization (c. 2500–1700 BCE)
 
 Also called the **Harappan Civilization**, it flourished in the northwestern Indian subcontinent and is one of the world's earliest urban civilizations, contemporary with Mesopotamia and Egypt.
 
@@ -63,7 +63,7 @@ Also called the **Harappan Civilization**, it flourished in the northwestern Ind
 
 ---
 
-## 2. Vedic Period (c. 1500–600 BCE)
+## Vedic Period (c. 1500–600 BCE)
 
 ### Early Vedic Period (c. 1500–1000 BCE)
 
@@ -89,7 +89,7 @@ Also called the **Harappan Civilization**, it flourished in the northwestern Ind
 
 ---
 
-## 3. Mahajanapadas (c. 600–325 BCE)
+## Mahajanapadas (c. 600–325 BCE)
 
 Buddhist texts mention **16 Mahajanapadas** (great kingdoms) that dominated northern India in the 6th century BCE.
 
@@ -118,7 +118,7 @@ Buddhist texts mention **16 Mahajanapadas** (great kingdoms) that dominated nort
 
 ---
 
-## 4. Maurya Empire (c. 321–185 BCE)
+## Maurya Empire (c. 321–185 BCE)
 
 ### Rulers
 
@@ -152,7 +152,7 @@ Buddhist texts mention **16 Mahajanapadas** (great kingdoms) that dominated nort
 
 ---
 
-## 5. Gupta Empire — The Golden Age (c. 320–550 CE)
+## Gupta Empire — The Golden Age (c. 320–550 CE)
 
 ### Rulers
 
@@ -178,7 +178,7 @@ Buddhist texts mention **16 Mahajanapadas** (great kingdoms) that dominated nort
 
 ---
 
-## 6. Origin of Major Religions
+## Origin of Major Religions
 
 ### Buddhism
 
@@ -205,7 +205,7 @@ Buddhist texts mention **16 Mahajanapadas** (great kingdoms) that dominated nort
 
 ---
 
-## 7. Ancient Art and Architecture
+## Ancient Art and Architecture
 
 | Type | Examples | Period |
 |------|----------|--------|
@@ -242,7 +242,7 @@ Buddhist texts mention **16 Mahajanapadas** (great kingdoms) that dominated nort
 
 ---
 
-## UPSC Previous Year Questions (PYQs)
+## Previous Year Questions (PYQs)
 
 ### Prelims
 

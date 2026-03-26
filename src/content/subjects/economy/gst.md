@@ -231,7 +231,7 @@ Which of the above items is/are exempted under GST (Goods and Services Tax)?
 
 ---
 
-## 📰 Current Affairs Connect
+## Current Affairs Connect
 
 Link these static concepts with live developments:
 

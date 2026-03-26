@@ -247,7 +247,7 @@ Which of the statements given above is/are correct?
 
 ---
 
-## 📰 Current Affairs Connect
+## Current Affairs Connect
 
 Link these static concepts with live developments:
 

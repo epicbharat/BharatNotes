@@ -190,7 +190,7 @@ This is one of the most frequently tested areas in UPSC.
 
 ---
 
-## 📰 Current Affairs Connect
+## Current Affairs Connect
 
 Link these static concepts with live developments:
 

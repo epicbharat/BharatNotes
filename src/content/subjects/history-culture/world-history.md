@@ -21,7 +21,7 @@ The UPSC GS Paper I syllabus covers events from the 18th century onwards that si
 
 ---
 
-## 1. The Industrial Revolution (c. 1760–1840)
+## The Industrial Revolution (c. 1760–1840)
 
 ### Why Britain First?
 
@@ -59,7 +59,7 @@ The UPSC GS Paper I syllabus covers events from the 18th century onwards that si
 
 ---
 
-## 2. The American Revolution (1765–1783)
+## The American Revolution (1765–1783)
 
 ### Causes
 
@@ -91,7 +91,7 @@ The UPSC GS Paper I syllabus covers events from the 18th century onwards that si
 
 ---
 
-## 3. The French Revolution (1789–1799)
+## The French Revolution (1789–1799)
 
 ### Causes
 
@@ -122,7 +122,7 @@ The UPSC GS Paper I syllabus covers events from the 18th century onwards that si
 
 ---
 
-## 4. Unification of Italy (1815–1871)
+## Unification of Italy (1815–1871)
 
 ### Key Figures
 
@@ -147,7 +147,7 @@ The UPSC GS Paper I syllabus covers events from the 18th century onwards that si
 
 ---
 
-## 5. Unification of Germany (1864–1871)
+## Unification of Germany (1864–1871)
 
 ### Key Figure: Otto von Bismarck
 
@@ -178,7 +178,7 @@ The UPSC GS Paper I syllabus covers events from the 18th century onwards that si
 
 ---
 
-## 6. World War I (1914–1918)
+## World War I (1914–1918)
 
 ### Causes (MAIN acronym)
 
@@ -218,7 +218,7 @@ The UPSC GS Paper I syllabus covers events from the 18th century onwards that si
 
 ---
 
-## 7. The Russian Revolution (1917)
+## The Russian Revolution (1917)
 
 ### Background
 
@@ -254,7 +254,7 @@ The UPSC GS Paper I syllabus covers events from the 18th century onwards that si
 
 ---
 
-## 8. Rise of Fascism and Nazism
+## Rise of Fascism and Nazism
 
 ### Italian Fascism under Mussolini
 
@@ -290,7 +290,7 @@ The UPSC GS Paper I syllabus covers events from the 18th century onwards that si
 
 ---
 
-## 9. World War II (1939–1945)
+## World War II (1939–1945)
 
 ### Causes
 
@@ -336,7 +336,7 @@ The UPSC GS Paper I syllabus covers events from the 18th century onwards that si
 
 ---
 
-## 10. The Cold War (1947–1991)
+## The Cold War (1947–1991)
 
 ### Overview
 
@@ -370,7 +370,7 @@ The Cold War was a geopolitical rivalry between the **United States** (and Weste
 
 ---
 
-## 11. Decolonisation of Asia and Africa
+## Decolonisation of Asia and Africa
 
 ### Factors Behind Decolonisation
 
@@ -404,7 +404,7 @@ In 1960, seventeen African nations gained independence — 13 former French colo
 
 ---
 
-## 12. European Integration and Globalisation
+## European Integration and Globalisation
 
 ### European Integration
 
@@ -429,7 +429,7 @@ In 1960, seventeen African nations gained independence — 13 former French colo
 
 ---
 
-## 13. Key Debates and Essay Topics
+## Key Debates and Essay Topics
 
 - Did the Treaty of Versailles make World War II inevitable?
 - Compare the French and Russian Revolutions — causes, processes, and outcomes
@@ -441,7 +441,22 @@ In 1960, seventeen African nations gained independence — 13 former French colo
 
 ---
 
-## UPSC Previous Year Questions (PYQs)
+## Important for UPSC
+
+| What to Focus On | Why |
+|-----------------|-----|
+| **Industrial Revolution** | Tested every 2–3 years; questions on causes, impact on India, comparison with other countries |
+| **French Revolution** | 2025 saw a direct question; enduring relevance theme is a perennial favourite |
+| **World Wars and Treaty of Versailles** | Tested 4 times in 2013–2025; understand causes, consequences, and linkages between the two wars |
+| **Cold War** | Despite being a syllabus topic, it has **never been explicitly tested** — making it a high-probability topic for future exams |
+| **Decolonisation** | Tested 3 times (2014–2017), then disappeared — likely to return; focus on Africa and Southeast Asia |
+| **Unification of Italy and Germany** | Tested less frequently but important for understanding 19th-century European nationalism |
+| **Russian Revolution** | Important for understanding the ideological basis of the Cold War and communist movements in India |
+| **Globalisation** | Cross-cutting theme that appears in GS Paper I, II, and III; connect with India's liberalisation (1991) |
+
+---
+
+## Previous Year Questions (PYQs)
 
 ### Mains
 
@@ -460,21 +475,6 @@ In 1960, seventeen African nations gained independence — 13 former French colo
 **Q7. (2014):** To what extent can Germany be held responsible for causing the two World Wars? Discuss critically. *(GS Paper I, 250 words)*
 
 **Q8. (2019):** What is the significance of the Industrial Revolution in world history? *(GS Paper I, 150 words)*
-
----
-
-## Important for UPSC
-
-| What to Focus On | Why |
-|-----------------|-----|
-| **Industrial Revolution** | Tested every 2–3 years; questions on causes, impact on India, comparison with other countries |
-| **French Revolution** | 2025 saw a direct question; enduring relevance theme is a perennial favourite |
-| **World Wars and Treaty of Versailles** | Tested 4 times in 2013–2025; understand causes, consequences, and linkages between the two wars |
-| **Cold War** | Despite being a syllabus topic, it has **never been explicitly tested** — making it a high-probability topic for future exams |
-| **Decolonisation** | Tested 3 times (2014–2017), then disappeared — likely to return; focus on Africa and Southeast Asia |
-| **Unification of Italy and Germany** | Tested less frequently but important for understanding 19th-century European nationalism |
-| **Russian Revolution** | Important for understanding the ideological basis of the Cold War and communist movements in India |
-| **Globalisation** | Cross-cutting theme that appears in GS Paper I, II, and III; connect with India's liberalisation (1991) |
 
 ---
 
