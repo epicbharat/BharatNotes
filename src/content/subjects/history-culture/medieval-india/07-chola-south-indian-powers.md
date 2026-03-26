@@ -162,9 +162,9 @@ Medieval South India was shaped by a succession of powerful dynasties — **Pall
 
 | Temple | Location | Key Facts |
 |--------|----------|-----------|
-| **Brihadeeswarar Temple** | Thanjavur | Built by **Rajaraja I** (completed c. 1010 CE); dedicated to Shiva; vimana (tower) is ~66 metres tall — one of the tallest in the world; the capstone (80-tonne granite block) was reportedly moved to the top using a 6-km ramp; **UNESCO WHS (1987)** — part of "Great Living Chola Temples" |
-| **Gangaikonda Cholapuram Temple** | Gangaikonda Cholapuram | Built by **Rajendra I**; similar to the Thanjavur temple but with its own distinctive style; **UNESCO WHS (1987)** |
-| **Airavatesvara Temple** | Darasuram (near Kumbakonam) | Built by **Rajaraja II** (12th century); exquisite sculptural detail; **UNESCO WHS (2004)** — added to the Great Living Chola Temples group |
+| **Brihadeeswarar Temple** | Thanjavur | Built by **Rajaraja I** (completed c. 1010 CE); dedicated to Shiva; vimana (tower) is ~66 metres tall — one of the tallest in the world; the capstone (80-tonne granite block) was reportedly moved to the top using a 6-km ramp; **UNESCO WHS (1987)** — "Great Living Chola Temples" |
+| **Gangaikonda Cholapuram Temple** | Gangaikonda Cholapuram | Built by **Rajendra I** (completed c. 1035 CE); 53-metre vimana; similar to the Thanjavur temple but with its own distinctive style; **UNESCO WHS (2004)** — added to the Great Living Chola Temples group |
+| **Airavatesvara Temple** | Darasuram (near Kumbakonam) | Built by **Rajaraja II** (12th century); exquisite sculptural detail; **UNESCO WHS (2004)** — added to the Great Living Chola Temples group along with Gangaikonda Cholapuram |
 
 ---
 
@@ -202,7 +202,7 @@ Medieval South India was shaped by a succession of powerful dynasties — **Pall
 - Rashtrakutas: Krishna I — Kailasa Temple (Ellora); Amoghavarsha I — Kavirajamarga
 - Chola: Vijayalaya (revival), Rajaraja I (Brihadeeswarar Temple, 1010), Rajendra I (Srivijaya expedition 1025, Gangaikonda Cholapuram)
 - Uttaramerur inscription: village committee election process, selection by lot
-- Great Living Chola Temples: UNESCO WHS (Thanjavur, Gangaikonda Cholapuram, Darasuram)
+- Great Living Chola Temples: UNESCO WHS — Thanjavur (1987), Gangaikonda Cholapuram + Darasuram added (2004)
 - Hoysala temples: Belur, Halebidu, soapstone; UNESCO WHS 2023
 - Kakatiya: Ramappa Temple (UNESCO WHS 2021), Rudramadevi, Warangal
 
