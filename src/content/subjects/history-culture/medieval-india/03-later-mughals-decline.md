@@ -32,7 +32,7 @@ The Mughal Empire after Akbar experienced both its cultural zenith (under Shah J
 | **Chain of Justice** | Hung a golden chain with bells between Agra Fort and the Yamuna bank, so any subject could ring it to seek justice directly from the emperor |
 | **Nur Jahan** | Married **Mehr-un-Nissa** in 1611; she took the title **Nur Jahan** ("Light of the World"); became the most powerful woman in Mughal history — effectively ran the government, issued coins in her name, and managed court politics through the "Junta" (Nur Jahan, her father Itimad-ud-Daulah, and brother Asaf Khan) |
 | **Art patronage** | Mughal painting reached its zenith — Jahangir had an exceptional eye for art; painters like **Mansur** (nature and animal paintings, titled **Nadir-ul-Asr** — "Wonder of the Age") and **Abul Hasan** (titled **Nadir-uz-Zaman**) flourished |
-| **Foreign visitors** | **Captain William Hawkins** (1608–1611) from the English East India Company sought trading privileges; **Sir Thomas Roe** (1615–1619), English ambassador, secured a farman for trade rights at Surat |
+| **Foreign visitors** | **William Hawkins** (arrived Surat 1608, met Jahangir 1609) from the English East India Company sought trading privileges; **Sir Thomas Roe** (1615–1618), English ambassador of King James I, secured a farman for trade rights at Surat |
 | **Memoir** | **Tuzuk-i-Jahangiri** — autobiography in Persian |
 
 ### Jahangir and the Sikhs
@@ -57,12 +57,12 @@ The Mughal Empire after Akbar experienced both its cultural zenith (under Shah J
 
 | Monument | Date | Key Facts |
 |----------|------|-----------|
-| **Taj Mahal** (Agra) | Construction began **1632**; mausoleum completed **1643**; entire complex completed **c. 1653** | Built in memory of wife **Mumtaz Mahal** (died 1631 during childbirth); chief architect **Ustad Ahmad Lahori**; white Makrana marble with **pietra dura** (semi-precious stone inlay); **UNESCO World Heritage Site (1983)**; cost ~32 million rupees |
-| **Red Fort** (Delhi) | Construction began **1639**; completed **1648** | Built as the palace of Shahjahanabad; designed by **Ustad Ahmad Lahori**; red sandstone walls; contains Diwan-i-Am, Diwan-i-Khas (with the famous inscription: *"If there be paradise on earth, it is this, it is this, it is this"*); **UNESCO WHS (2007)** |
-| **Jama Masjid** (Delhi) | 1644–1656 | India's largest mosque at the time; built with red sandstone and white marble |
+| **Taj Mahal** (Agra) | Commissioned 1631; construction began **1632**; mausoleum completed **1648**; entire complex completed **c. 1653** | Built in memory of wife **Mumtaz Mahal** (died 17 June 1631 during childbirth); chief architect **Ustad Ahmad Lahori** (led a board of architects); white Makrana marble with **pietra dura** (semi-precious stone inlay); ~20,000 artisans; **UNESCO World Heritage Site (1983)** |
+| **Red Fort** (Delhi) | Foundation laid **1638**; completed **1648** | Built as the palace of Shahjahanabad; designed by **Ustad Ahmad Lahori**; red sandstone walls; contains Diwan-i-Am, Diwan-i-Khas (with the famous inscription: *"If there be paradise on earth, it is this, it is this, it is this"*); **UNESCO WHS (2007)** |
+| **Jama Masjid** (Delhi) | 1650–1656 (inaugurated 23 July 1656) | India's largest mosque at the time; built with red sandstone and white marble; courtyard accommodates 25,000 worshippers |
 | **Moti Masjid** (Agra Fort) | 1648–1654 | "Pearl Mosque" — built in pure white marble for Shah Jahan's personal use |
 
-> **Prelims Trap:** The Taj Mahal mausoleum was completed in **1643** (not 1648 as sometimes cited — 1648 refers to the completion of surrounding structures; the entire complex was finished c. 1653). The architect was **Ustad Ahmad Lahori**. Some sources attribute it to Ustad Isa — this is disputed; Lahori is the most widely accepted attribution based on the claim of his son Lutfullah Muhandis.
+> **Prelims Fact:** The Taj Mahal mausoleum was completed in **1648**; the entire complex (gardens, gates, mosque) was finished c. **1653**. The chief architect was **Ustad Ahmad Lahori**, who led a board of architects. Some sources attribute it to Ustad Isa — this is disputed; Lahori is the most widely accepted attribution based on the claim of his son Lutfullah Muhandis.
 
 ### Deccan Policy
 
@@ -146,8 +146,8 @@ Shah Jahan fell ill in 1657, triggering a war among his four sons:
 ## UPSC Relevance
 
 ### Prelims Focus Areas
-- Jahangir: Chain of Justice, Nur Jahan, Sir Thomas Roe (1615–1619), Guru Arjan Dev's execution (1606)
-- Shah Jahan: Taj Mahal (1632–1653, Ustad Ahmad Lahori), Red Fort (1639–1648), Peacock Throne, Shahjahanabad
+- Jahangir: Chain of Justice, Nur Jahan, Sir Thomas Roe (1615–1618), Guru Arjan Dev's execution (1606)
+- Shah Jahan: Taj Mahal (1632–1653, Ustad Ahmad Lahori), Red Fort (1638–1648), Peacock Throne, Shahjahanabad
 - Aurangzeb: Jizya reimposed (1679), Fatawa-i-Alamgiri, conquered Bijapur (1686) and Golconda (1687), maximum territorial extent
 - War of Succession: Dara Shikoh translated Upanishads (Sirr-i-Akbar)
 - Nadir Shah (1739): Peacock Throne and Koh-i-Noor taken

@@ -56,7 +56,7 @@ Medieval India (c. 8th–18th century) was a period of remarkable cultural synth
 |----------|-------|---------------|
 | **Humayun's Tomb** (Delhi) | Haji Begum (1572) | **First Mughal garden tomb**; architect Mirak Mirza Ghiyas; introduced charbagh layout; UNESCO WHS (1993) |
 | **Fatehpur Sikri** | Akbar (1571–85) | Synthesis of Hindu and Islamic elements — Panch Mahal (Buddhist vihara-like), Buland Darwaza (54 metres, largest gateway in the world at the time); UNESCO WHS (1986) |
-| **Taj Mahal** | Shah Jahan (1632–53) | Pinnacle of Mughal architecture; perfect symmetry, pietra dura, white Makrana marble; UNESCO WHS (1983) |
+| **Taj Mahal** | Shah Jahan (1632–53, mausoleum 1648) | Pinnacle of Mughal architecture; perfect symmetry, pietra dura, white Makrana marble; UNESCO WHS (1983) |
 | **Red Fort** | Shah Jahan (1639–48) | Palace-fortress of Shahjahanabad; Diwan-i-Khas, Diwan-i-Am; UNESCO WHS (2007) |
 | **Badshahi Mosque** | Aurangzeb (1671–73) | Lahore; one of the largest mosques in the world; red sandstone with marble domes |
 
@@ -206,7 +206,7 @@ Medieval India (c. 8th–18th century) was a period of remarkable cultural synth
 - Alai Darwaza (1311): first true dome in India; Alauddin Khalji
 - Lodi tombs: introduced double dome and octagonal plan
 - Humayun's Tomb: first Mughal garden tomb, UNESCO WHS 1993
-- Taj Mahal: 1632–1653, Ustad Ahmad Lahori, pietra dura, UNESCO WHS 1983
+- Taj Mahal: 1632–1653 (mausoleum 1648), Ustad Ahmad Lahori, pietra dura, UNESCO WHS 1983
 - Sher Shah's Rupiya: 178 grains, basis of modern rupee
 - Iltutmish: silver tanka and copper jital
 - Muhammad bin Tughlaq: token currency experiment (failed)

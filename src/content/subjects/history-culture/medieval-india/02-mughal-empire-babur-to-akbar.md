@@ -37,7 +37,7 @@ The Mughal Empire was founded by **Babur** in 1526 and became one of the largest
 | Battle | Date | Against | Significance |
 |--------|------|---------|-------------|
 | **First Battle of Panipat** | 21 April 1526 | Ibrahim Lodi (last Delhi Sultan) | Founded the Mughal Empire; introduced **gunpowder warfare** (matchlock muskets + cannons) to India; used **Tulughma** (flanking) tactics and **araba** (cart barricade) |
-| **Battle of Khanwa** | 17 March 1527 | **Rana Sanga** (Mewar Rajput confederacy) | Decisive Mughal victory; Babur declared it a **jihad** and took the title **Ghazi**; ended Rajput hopes of filling the power vacuum |
+| **Battle of Khanwa** | 16 March 1527 | **Rana Sanga** (Mewar Rajput confederacy of 120+ chieftains) | Decisive Mughal victory; Babur declared it a **jihad** and took the title **Ghazi**; ended Rajput hopes of filling the power vacuum |
 | **Battle of Chanderi** | 1528 | Medini Rai (Rajput chief) | Consolidated Mughal control over central India |
 | **Battle of Ghaghra** | 1529 | Afghan confederacy (Bihar-Bengal) | Defeated combined Afghan forces; secured the eastern frontier |
 
@@ -55,9 +55,9 @@ The Mughal Empire was founded by **Babur** in 1526 and became one of the largest
 | **Battle of Kannauj (Bilgram)** | 1540 — decisive defeat by Sher Shah; Humayun lost the empire entirely |
 | **Exile** | Spent **15 years** (1540–1555) in exile — wandered through Sindh, Rajputana, and eventually took refuge in **Safavid Persia** under Shah Tahmasp |
 | **Reconquest** | Recaptured Delhi and Agra in 1555 after Sher Shah's successors weakened |
-| **Death** | January 1556 — died after **falling from the stairs of his library** (Sher Mandal, Delhi); reportedly slipped while responding to the call for prayer |
+| **Death** | Fell on 24 January 1556 descending the stairs of the **Sher Mandal** (his library in Purana Qila, Delhi); caught his foot in his robe while kneeling for the azaan; struck his temple and **died three days later on 27 January 1556** |
 
-> **Prelims Fact:** Humayun died from a fall in his library — this unusual death is a frequently tested fact. His tomb in Delhi (built by his widow Haji Begum, completed 1572, architect Mirak Mirza Ghiyas) is the **first great example of Mughal garden tomb architecture** and a **UNESCO World Heritage Site (1993)**.
+> **Prelims Fact:** Humayun fell from the **Sher Mandal** (his library in Purana Qila, Delhi) on 24 January 1556 and died three days later — this unusual death is a frequently tested fact. His tomb in Delhi (built by his widow Haji Begum, completed 1572, architect Mirak Mirza Ghiyas) is the **first great example of Mughal garden tomb architecture** and a **UNESCO World Heritage Site (1993)**.
 
 ---
 
@@ -109,7 +109,7 @@ Though he ruled for only **five years**, Sher Shah Suri's administrative reforms
 | **Architect** | **Raja Todar Mal** — appointed Diwan-i-Ashraf (finance minister) |
 | **System** | **Dahsala** ("ten-year") system — also called **Zabti** (measurement) system |
 | **Method** | Revenue fixed on each crop based on **average yields and prices over 10 years** (1570–1580); land measured using the standardised **jarib** (measuring rope reinforced with iron rings) |
-| **Formally introduced** | **1580** |
+| **Formally introduced** | Implemented **1580–82**; Twelve Regulations formally promulgated 3 March 1582 |
 | **Payment** | Revenue collected in **cash** (commutation from grain payments); one-third of average produce as tax |
 | **Classification** | Land classified into four categories: **Polaj** (cultivated every year), **Parauti** (fallow for 1–2 years), **Chachar** (fallow 3–4 years), **Banjar** (fallow 5+ years) |
 | **Limitation** | Applied mainly in the directly administered provinces (Punjab, Delhi, Agra, Allahabad, etc.); other regions used different systems (Nasaq in some areas) |
@@ -118,8 +118,8 @@ Though he ruled for only **five years**, Sher Shah Suri's administrative reforms
 
 | Policy | Detail |
 |--------|--------|
-| **Abolition of Jizya** | Abolished the poll tax on non-Muslims — a landmark decision signalling equal treatment of all subjects |
-| **Abolition of pilgrim tax** | Removed tax on Hindu pilgrimages |
+| **Abolition of pilgrim tax** | Abolished in **1563** — removed tax on Hindu pilgrimages |
+| **Abolition of Jizya** | Abolished in **1564** — removed the poll tax on non-Muslims; a landmark decision signalling equal treatment of all subjects |
 | **Ibadat Khana** | "House of Worship" at **Fatehpur Sikri** — established in **1575** for theological discussions; initially with Muslim scholars only, later (1578) opened to Hindus, Jains, Christians, Zoroastrians |
 | **Mahzar (Infallibility Decree)** | **1579** — signed by senior ulema; declared Akbar the supreme arbiter in religious disputes; allowed him to interpret Islamic law independently of orthodox ulema |
 | **Din-i-Ilahi** | **1582** — a syncretic spiritual order (NOT a religion) combining elements of Islam, Hinduism, Jainism, Zoroastrianism, and Christianity; had no scriptures, priesthood, or places of worship; only about **18 people** joined, including **Birbal** (the only Hindu member); died out with Akbar |
@@ -138,7 +138,7 @@ Though he ruled for only **five years**, Sher Shah Suri's administrative reforms
 
 ### Akbar's Navratna (Nine Gems)
 
-The tradition of nine gems in Akbar's court is well attested in later literary sources:
+**CAUTION:** No contemporary source (Akbarnama, Ain-i-Akbari, Muntakhab-ut-Tawarikh) mentions the term "Navratna." The tradition is likely **folklore** modelled on Vikramaditya's legendary court. Know the list for Prelims, but note this caveat in Mains:
 
 | Name | Contribution |
 |------|-------------|
@@ -149,8 +149,8 @@ The tradition of nine gems in Akbar's court is well attested in later literary s
 | **Raja Todar Mal** | Revenue reformer; architect of the Dahsala system |
 | **Raja Man Singh** | Military commander; led major campaigns including Haldighati |
 | **Abdul Rahim Khan-i-Khanan** | Poet and military commander; translated Baburnama from Chagatai Turkish to Persian; composed Hindi dohas |
-| **Fakir Aziao-Din** | Sufi mystic and advisor |
-| **Mullah Do-Piyaza** | Advisor (historically less attested; possibly legendary) |
+| **Fakir Aziao-Din** | Sufi mystic and advisor — **likely fictional** (no contemporary historical evidence) |
+| **Mullah Do-Piyaza** | Advisor — **likely fictional** (no contemporary historical evidence) |
 
 ### Fatehpur Sikri
 
