@@ -127,6 +127,7 @@ h1, h2, h3, h4, h5, h6 { color: inherit; line-height: var(--leading-tight); }
 }
 
 /* ── Vocab / Terms Hub Pages ────────────────────────────── */
+.vocab-hub { overflow-x: hidden; }
 
 /* Stats bar */
 .vocab-hub__stats {
@@ -198,6 +199,7 @@ h1, h2, h3, h4, h5, h6 { color: inherit; line-height: var(--leading-tight); }
   display: flex; flex-wrap: wrap; gap: 3px; align-items: center;
   margin-bottom: var(--space-6); padding: var(--space-3) var(--space-4);
   background: var(--color-bg-alt); border-radius: var(--radius-lg);
+  max-width: 100%; overflow: hidden;
 }
 .vocab-hub__alpha-label {
   font-size: 11px; font-weight: var(--font-bold); color: var(--color-text-muted);
@@ -232,6 +234,7 @@ h1, h2, h3, h4, h5, h6 { color: inherit; line-height: var(--leading-tight); }
   border-radius: var(--radius-lg); padding: var(--space-5) var(--space-6);
   margin-bottom: var(--space-4);
   transition: all var(--transition-fast);
+  overflow: hidden; min-width: 0;
 }
 .vocab-hub__card:hover {
   box-shadow: 0 4px 16px rgba(0,0,0,0.08);
@@ -259,12 +262,13 @@ h1, h2, h3, h4, h5, h6 { color: inherit; line-height: var(--leading-tight); }
 
 .vocab-hub__def {
   font-size: var(--text-sm); color: var(--color-text); line-height: var(--leading-relaxed);
-  margin-bottom: var(--space-3);
+  margin-bottom: var(--space-3); overflow-wrap: break-word; word-break: break-word;
 }
 .vocab-hub__meta {
   font-size: var(--text-xs); color: var(--color-text-muted); line-height: var(--leading-relaxed);
   margin-bottom: var(--space-3); padding: var(--space-2) var(--space-3);
   background: var(--color-bg-alt); border-radius: var(--radius-md);
+  overflow-wrap: break-word; word-break: break-word;
 }
 
 .vocab-hub__card-footer {
