@@ -1825,6 +1825,119 @@ a:focus-visible {
   .pyq-hint-body { padding: var(--space-3) var(--space-4); }
 }
 
+/* ── Prelims/Mains Hub Pages ───────────────────────────── */
+.section-heading {
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  color: var(--color-brand-dark);
+  margin-bottom: var(--space-5);
+  padding-bottom: var(--space-2);
+  border-bottom: 3px solid var(--color-accent);
+}
+
+/* Info card (exam format stats) */
+.info-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-xl);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-sm);
+}
+.info-card__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: var(--space-5);
+  text-align: center;
+  margin-bottom: var(--space-4);
+}
+.info-card__item { display: flex; flex-direction: column; gap: var(--space-1); }
+.info-card__num {
+  font-family: var(--font-heading);
+  font-size: var(--text-3xl);
+  font-weight: var(--font-bold);
+  color: var(--color-brand);
+}
+.info-card__label {
+  font-size: var(--text-xs);
+  font-weight: var(--font-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-muted);
+}
+.info-card__note {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+  text-align: center;
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-border-light);
+}
+
+/* Syllabus block */
+.syllabus-block__title {
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  font-weight: var(--font-bold);
+  color: var(--color-text);
+  margin-bottom: var(--space-3);
+  padding: var(--space-2) var(--space-4);
+  border-left: 4px solid var(--color-brand);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+.syllabus-block__icon { font-size: 1.2em; }
+
+/* Topic link grid */
+.topic-link-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  padding: 0 var(--space-4);
+}
+.topic-link {
+  display: inline-block;
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
+  color: var(--color-brand);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-full);
+  text-decoration: none;
+  transition: all 0.15s;
+}
+.topic-link:hover {
+  background: var(--color-brand);
+  color: var(--color-white);
+  border-color: var(--color-brand);
+}
+
+/* Strategy cards */
+.strategy-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.strategy-card:hover {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-md);
+}
+.strategy-card__title {
+  font-family: var(--font-heading);
+  font-size: var(--text-base);
+  font-weight: var(--font-bold);
+  color: var(--color-brand-dark);
+  margin-bottom: var(--space-2);
+}
+.strategy-card__text {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+}
+
 /* ── Go to Top Button ───────────────────────────────────── */
 .go-top {
   position: fixed;
