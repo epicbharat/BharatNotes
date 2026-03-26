@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: "Mains Preparation"
-description: "UPSC Mains GS Paper-wise notes, answer writing practice, essay frameworks. Deep analytical content for GS1, GS2, GS3, GS4 and Essay."
+title: "UPSC Mains — GS Paper-wise Notes & Strategy"
+description: "Complete UPSC Mains GS preparation guide — Paper 1 to 4 syllabus mapped to BharatNotes topic notes, answer writing strategy, and Essay frameworks."
 ---
 
 <section class="page-header">
@@ -10,73 +10,403 @@ description: "UPSC Mains GS Paper-wise notes, answer writing practice, essay fra
       <a href="/">Home</a><span class="breadcrumb__sep">/</span>
       Mains
     </nav>
-    <p class="page-header__eyebrow">Analytical Depth</p>
-    <h1 class="page-header__title">Mains Preparation</h1>
-    <p class="page-header__subtitle">GS Paper-wise notes with answer frameworks, model dimensions, and writing practice. Integrate current affairs from Ujiyari.com for top scores.</p>
+    <p class="page-header__eyebrow">UPSC Civil Services</p>
+    <h1 class="page-header__title">Mains — GS Papers &amp; Essay</h1>
+    <p class="page-header__subtitle">All four GS papers and Essay mapped to BharatNotes topic notes. Read, practise answer writing, and score.</p>
   </div>
 </section>
 
 <section style="padding:var(--space-8) 0;">
   <div class="container">
 
-    <!-- GS Papers -->
-    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); gap:var(--space-6); margin-bottom:var(--space-10);">
-      {% for key, paper in syllabus %}
-      <div class="card" style="border-top:4px solid var(--color-brand);">
-        <span class="gs-badge gs-badge--{{ paper.slug }}">{{ paper.slug | upper }}</span>
-        <h3 class="card__title" style="margin-top:var(--space-2);">{{ paper.title }}</h3>
-        <p class="card__desc">{{ paper.subtitle }}</p>
-        <div style="margin-top:var(--space-3);">
-          {% for section in paper.sections %}
-          <div style="font-size:var(--text-xs); color:var(--color-text-muted); padding:var(--space-1) 0; border-bottom:1px solid var(--color-border);">{{ section.title }} <span style="color:var(--color-brand-light);">({{ section.topics | length }} topics)</span></div>
-          {% endfor %}
+    {# ── Exam Format ── #}
+    <div class="info-card" style="margin-bottom:var(--space-8);">
+      <div class="info-card__grid" style="grid-template-columns:repeat(auto-fit, minmax(100px, 1fr));">
+        <div class="info-card__item">
+          <span class="info-card__num">9</span>
+          <span class="info-card__label">Papers total</span>
         </div>
-        <div style="margin-top:var(--space-3); display:flex; gap:var(--space-2);">
-          <span style="font-size:var(--text-xs); color:var(--color-text-muted);">{{ collections.allTopics | countByPaper(paper.slug) }} notes available</span>
+        <div class="info-card__item">
+          <span class="info-card__num">4</span>
+          <span class="info-card__label">GS Papers</span>
+        </div>
+        <div class="info-card__item">
+          <span class="info-card__num">250</span>
+          <span class="info-card__label">Marks / paper</span>
+        </div>
+        <div class="info-card__item">
+          <span class="info-card__num">3 hrs</span>
+          <span class="info-card__label">Per paper</span>
+        </div>
+        <div class="info-card__item">
+          <span class="info-card__num">1750</span>
+          <span class="info-card__label">Total marks</span>
         </div>
       </div>
-      {% endfor %}
+      <p class="info-card__note">Mains = 4 GS papers (250 each) + Essay (250) + 2 Language papers (qualifying) + Optional (500). GS + Essay = 1250 marks count toward final merit along with Interview (275).</p>
+    </div>
 
-      <!-- Essay -->
-      <div class="card" style="border-top:4px solid #7c3aed;">
-        <span class="gs-badge gs-badge--essay">ESSAY</span>
-        <h3 class="card__title" style="margin-top:var(--space-2);">Essay Paper</h3>
-        <p class="card__desc">Structured frameworks for Section A (philosophical/abstract) and Section B (socio-economic/political). Model outlines and practice topics.</p>
-        <a href="/essay/" style="font-size:var(--text-sm); color:var(--color-brand-light); margin-top:var(--space-3); display:block;">View Essay Prep →</a>
+    {# ══════════════════════════════════════════════════════════
+       GS PAPER 1
+       ══════════════════════════════════════════════════════════ #}
+    <h2 class="section-heading">GS Paper 1 — History, Geography &amp; Society</h2>
+    <div class="syllabus-grid" style="margin-bottom:var(--space-8);">
+
+      <div class="syl-card" style="--syl-color:#9f1239;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">🏛️</span>
+          <div>
+            <h3 class="syl-card__title">History &amp; Culture</h3>
+            <span class="syl-card__count">7 topics</span>
+          </div>
+          <a href="/subjects/history-culture/" class="syl-card__all">View all &rarr;</a>
+        </div>
+        <div class="syl-card__topics">
+          <a href="/subjects/history-culture/ancient-india/" class="syl-topic">Ancient India</a>
+          <a href="/subjects/history-culture/medieval-india/" class="syl-topic">Medieval India</a>
+          <a href="/subjects/history-culture/modern-india/" class="syl-topic">Modern India</a>
+          <a href="/subjects/history-culture/freedom-struggle/" class="syl-topic">Freedom Struggle</a>
+          <a href="/subjects/history-culture/post-independence-india/" class="syl-topic">Post-Independence</a>
+          <a href="/subjects/history-culture/world-history/" class="syl-topic">World History</a>
+          <a href="/subjects/history-culture/indian-culture/" class="syl-topic">Indian Culture</a>
+        </div>
       </div>
+
+      <div class="syl-card" style="--syl-color:#b45309;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">🌍</span>
+          <div>
+            <h3 class="syl-card__title">Geography</h3>
+            <span class="syl-card__count">5 topics</span>
+          </div>
+          <a href="/subjects/geography/" class="syl-card__all">View all &rarr;</a>
+        </div>
+        <div class="syl-card__topics">
+          <a href="/subjects/geography/indian-physical-geography/" class="syl-topic">Physical Geography</a>
+          <a href="/subjects/geography/world-geography/" class="syl-topic">World Geography</a>
+          <a href="/subjects/geography/climate-and-monsoon/" class="syl-topic">Climate &amp; Monsoon</a>
+          <a href="/subjects/geography/human-geography-india/" class="syl-topic">Human Geography</a>
+          <a href="/subjects/geography/resources-and-environment/" class="syl-topic">Resources</a>
+        </div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#be123c;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">👥</span>
+          <div>
+            <h3 class="syl-card__title">Indian Society</h3>
+            <span class="syl-card__count">4 topics</span>
+          </div>
+          <a href="/subjects/society/" class="syl-card__all">View all &rarr;</a>
+        </div>
+        <div class="syl-card__topics">
+          <a href="/subjects/society/indian-society/" class="syl-topic">Society &amp; Diversity</a>
+          <a href="/subjects/society/social-issues/" class="syl-topic">Social Issues</a>
+          <a href="/subjects/society/globalisation-indian-society/" class="syl-topic">Globalisation</a>
+          <a href="/subjects/society/welfare-schemes/" class="syl-topic">Welfare Schemes</a>
+        </div>
+      </div>
+
     </div>
 
-    <!-- Answer Writing Tips -->
-    <div class="card article-body">
-      <h2>Mains Answer Writing Strategy</h2>
-      <h3>The 150-Word Answer (10 marks)</h3>
-      <ul>
-        <li><strong>Introduction (1-2 lines):</strong> Define the concept or state the context</li>
-        <li><strong>Body (8-10 lines):</strong> 3-4 points with examples, data, or case studies</li>
-        <li><strong>Conclusion (1-2 lines):</strong> Way forward or balanced assessment</li>
-        <li><strong>Time:</strong> 7-8 minutes per answer</li>
-      </ul>
-      <h3>The 250-Word Answer (15 marks)</h3>
-      <ul>
-        <li><strong>Introduction (2-3 lines):</strong> Context + define the issue</li>
-        <li><strong>Body (15-18 lines):</strong> Multiple dimensions — economic, social, political, environmental</li>
-        <li><strong>Diagram/Flowchart:</strong> Add one if relevant (saves words, scores marks)</li>
-        <li><strong>Conclusion (2-3 lines):</strong> Balanced view + way forward</li>
-        <li><strong>Time:</strong> 12-13 minutes per answer</li>
-      </ul>
-      <h4>Golden Rules</h4>
-      <ul>
-        <li>Use <strong>current affairs examples</strong> in every answer — read <a href="https://ujiyari.com/editorials/" target="_blank">Ujiyari editorials</a> daily</li>
-        <li>Underline keywords — examiners scan fast</li>
-        <li>Start each point on a new line — visual clarity matters</li>
-        <li>Never leave a question unanswered — write something, even 3 points</li>
-      </ul>
+    {# ══════════════════════════════════════════════════════════
+       GS PAPER 2
+       ══════════════════════════════════════════════════════════ #}
+    <h2 class="section-heading">GS Paper 2 — Polity, Governance &amp; IR</h2>
+    <div class="syllabus-grid" style="margin-bottom:var(--space-8);">
+
+      <div class="syl-card" style="--syl-color:#7c3aed;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">⚖️</span>
+          <div>
+            <h3 class="syl-card__title">Polity &amp; Constitution</h3>
+            <span class="syl-card__count">10 topics</span>
+          </div>
+          <a href="/subjects/polity/" class="syl-card__all">View all &rarr;</a>
+        </div>
+        <div class="syl-card__topics">
+          <a href="/subjects/polity/preamble/" class="syl-topic">Preamble</a>
+          <a href="/subjects/polity/fundamental-rights/" class="syl-topic">Fundamental Rights</a>
+          <a href="/subjects/polity/directive-principles/" class="syl-topic">DPSPs</a>
+          <a href="/subjects/polity/federalism-and-constitution/" class="syl-topic">Federalism</a>
+          <a href="/subjects/polity/parliament/" class="syl-topic">Parliament</a>
+          <a href="/subjects/polity/union-executive/" class="syl-topic">Union Executive</a>
+          <a href="/subjects/polity/state-government/" class="syl-topic">State Govt</a>
+          <a href="/subjects/polity/judiciary/" class="syl-topic">Judiciary</a>
+          <a href="/subjects/polity/local-government/" class="syl-topic">Local Govt</a>
+          <a href="/subjects/polity/constitutional-bodies/" class="syl-topic">Constitutional Bodies</a>
+        </div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#be123c;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">👥</span>
+          <div>
+            <h3 class="syl-card__title">Governance &amp; Social Justice</h3>
+            <span class="syl-card__count">2 topics</span>
+          </div>
+        </div>
+        <div class="syl-card__topics">
+          <a href="/subjects/society/governance-transparency/" class="syl-topic">Governance &amp; Transparency</a>
+          <a href="/subjects/society/welfare-schemes/" class="syl-topic">Welfare Schemes</a>
+        </div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#0e7490;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">🤝</span>
+          <div>
+            <h3 class="syl-card__title">International Relations</h3>
+            <span class="syl-card__count">3 topics</span>
+          </div>
+          <a href="/subjects/international-relations/" class="syl-card__all">View all &rarr;</a>
+        </div>
+        <div class="syl-card__topics">
+          <a href="/subjects/international-relations/india-foreign-policy/" class="syl-topic">Foreign Policy</a>
+          <a href="/subjects/international-relations/india-and-neighbours/" class="syl-topic">India &amp; Neighbours</a>
+          <a href="/subjects/international-relations/international-organisations/" class="syl-topic">Intl Organisations</a>
+        </div>
+      </div>
+
     </div>
 
-    <!-- Answer Practice -->
-    <div style="margin-top:var(--space-8);">
-      <h2 style="font-family:var(--font-serif); font-size:var(--text-2xl); color:var(--color-brand-dark); margin-bottom:var(--space-4);">Practice Answer Writing</h2>
-      <a href="/mains-practice/" class="btn btn--accent">View All Practice Prompts →</a>
+    {# ══════════════════════════════════════════════════════════
+       GS PAPER 3
+       ══════════════════════════════════════════════════════════ #}
+    <h2 class="section-heading">GS Paper 3 — Economy, Environment, Security &amp; Tech</h2>
+    <div class="syllabus-grid" style="margin-bottom:var(--space-8);">
+
+      <div class="syl-card" style="--syl-color:#0369a1;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">💰</span>
+          <div>
+            <h3 class="syl-card__title">Indian Economy</h3>
+            <span class="syl-card__count">7 topics</span>
+          </div>
+          <a href="/subjects/economy/" class="syl-card__all">View all &rarr;</a>
+        </div>
+        <div class="syl-card__topics">
+          <a href="/subjects/economy/indian-economy-overview/" class="syl-topic">Overview</a>
+          <a href="/subjects/economy/agriculture/" class="syl-topic">Agriculture</a>
+          <a href="/subjects/economy/banking-monetary-policy/" class="syl-topic">Banking &amp; RBI</a>
+          <a href="/subjects/economy/gst/" class="syl-topic">GST &amp; Taxation</a>
+          <a href="/subjects/economy/external-sector/" class="syl-topic">External Sector</a>
+          <a href="/subjects/economy/infrastructure-and-energy/" class="syl-topic">Infrastructure</a>
+          <a href="/subjects/economy/poverty-inequality-employment/" class="syl-topic">Poverty &amp; Jobs</a>
+        </div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#4338ca;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">🔬</span>
+          <div>
+            <h3 class="syl-card__title">Science &amp; Technology</h3>
+            <span class="syl-card__count">6 topics</span>
+          </div>
+          <a href="/subjects/science-tech/" class="syl-card__all">View all &rarr;</a>
+        </div>
+        <div class="syl-card__topics">
+          <a href="/subjects/science-tech/space-technology/" class="syl-topic">Space Tech</a>
+          <a href="/subjects/science-tech/biotechnology-and-health/" class="syl-topic">Biotech</a>
+          <a href="/subjects/science-tech/it-cyber-defence/" class="syl-topic">IT &amp; Cyber</a>
+          <a href="/subjects/general-science/science-fundamentals/" class="syl-topic">Fundamentals</a>
+          <a href="/subjects/general-science/defence-technology/" class="syl-topic">Defence Tech</a>
+          <a href="/subjects/general-science/health-nutrition-disease/" class="syl-topic">Health &amp; Nutrition</a>
+        </div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#047857;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">🌿</span>
+          <div>
+            <h3 class="syl-card__title">Environment &amp; Ecology</h3>
+            <span class="syl-card__count">3 topics</span>
+          </div>
+          <a href="/subjects/environment/" class="syl-card__all">View all &rarr;</a>
+        </div>
+        <div class="syl-card__topics">
+          <a href="/subjects/environment/biodiversity-and-conservation/" class="syl-topic">Biodiversity</a>
+          <a href="/subjects/environment/climate-change-and-pollution/" class="syl-topic">Climate &amp; Pollution</a>
+          <a href="/subjects/environment/environmental-laws-governance/" class="syl-topic">Environmental Laws</a>
+        </div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#1e3a5f;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">🛡️</span>
+          <div>
+            <h3 class="syl-card__title">Internal Security</h3>
+            <span class="syl-card__count">4 topics</span>
+          </div>
+          <a href="/subjects/security/" class="syl-card__all">View all &rarr;</a>
+        </div>
+        <div class="syl-card__topics">
+          <a href="/subjects/security/internal-security/" class="syl-topic">Overview</a>
+          <a href="/subjects/security/left-wing-extremism/" class="syl-topic">LWE</a>
+          <a href="/subjects/security/cyber-security/" class="syl-topic">Cyber Security</a>
+          <a href="/subjects/security/border-management/" class="syl-topic">Border Mgmt</a>
+        </div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#dc2626;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">⚠️</span>
+          <div>
+            <h3 class="syl-card__title">Disaster Management</h3>
+            <span class="syl-card__count">3 topics</span>
+          </div>
+          <a href="/subjects/disaster-management/" class="syl-card__all">View all &rarr;</a>
+        </div>
+        <div class="syl-card__topics">
+          <a href="/subjects/disaster-management/disaster-management/" class="syl-topic">Overview</a>
+          <a href="/subjects/disaster-management/disaster-preparedness-response/" class="syl-topic">Preparedness</a>
+          <a href="/subjects/disaster-management/disaster-risk-reduction/" class="syl-topic">Risk Reduction</a>
+        </div>
+      </div>
+
+    </div>
+
+    {# ══════════════════════════════════════════════════════════
+       GS PAPER 4
+       ══════════════════════════════════════════════════════════ #}
+    <h2 class="section-heading">GS Paper 4 — Ethics, Integrity &amp; Aptitude</h2>
+    <div class="syllabus-grid" style="margin-bottom:var(--space-8);">
+
+      <div class="syl-card" style="--syl-color:#854d0e;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">🧭</span>
+          <div>
+            <h3 class="syl-card__title">Ethics &amp; Integrity</h3>
+            <span class="syl-card__count">3 topics</span>
+          </div>
+          <a href="/subjects/ethics/" class="syl-card__all">View all &rarr;</a>
+        </div>
+        <div class="syl-card__topics">
+          <a href="/subjects/ethics/ethics-integrity-aptitude/" class="syl-topic">Ethics &amp; Aptitude</a>
+          <a href="/subjects/ethics/attitude-aptitude-foundational-values/" class="syl-topic">Foundational Values</a>
+          <a href="/subjects/ethics/case-studies-and-thinkers/" class="syl-topic">Case Studies &amp; Thinkers</a>
+        </div>
+      </div>
+
+    </div>
+
+    {# ══════════════════════════════════════════════════════════
+       ESSAY + UJIYARI
+       ══════════════════════════════════════════════════════════ #}
+    <h2 class="section-heading">Essay &amp; Current Affairs</h2>
+    <div class="syllabus-grid" style="margin-bottom:var(--space-8);">
+
+      <div class="syl-card" style="--syl-color:#7c3aed;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">✍️</span>
+          <div>
+            <h3 class="syl-card__title">Essay Paper</h3>
+            <span class="syl-card__count">250 marks — 2 essays in 3 hours</span>
+          </div>
+        </div>
+        <div class="syl-card__topics">
+          <span class="syl-topic" style="cursor:default;">Section A — Philosophical / Abstract</span>
+          <span class="syl-topic" style="cursor:default;">Section B — Socio-economic / Political</span>
+        </div>
+        <div class="syl-card__footer" style="border-color:rgba(124,58,237,0.2); color:#5b21b6; background:rgba(124,58,237,0.03);">
+          Pick 1 from each section. ~1000-1200 words per essay. Structure: Introduction &rarr; Multi-dimensional body (social, economic, political, philosophical) &rarr; Conclusion with personal touch.
+        </div>
+      </div>
+
+      <div class="syl-card syl-card--ujiyari">
+        <div class="syl-card__head" style="background:linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); border-color:#fde68a;">
+          <span class="syl-card__icon">📰</span>
+          <div>
+            <h3 class="syl-card__title" style="color:#92400e;">Current Affairs</h3>
+            <span class="syl-card__count" style="color:#b45309;">Essential for every GS answer — via Ujiyari.com</span>
+          </div>
+          <a href="https://ujiyari.com/" target="_blank" rel="noopener" class="syl-card__all" style="color:#b45309;">Visit &rarr;</a>
+        </div>
+        <div class="syl-card__topics" style="background:#fffdf5;">
+          <a href="https://ujiyari.com/daily/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">Daily News</a>
+          <a href="https://ujiyari.com/editorial/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">Editorials</a>
+          <a href="https://ujiyari.com/monthly/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">Monthly Digest</a>
+          <a href="https://ujiyari.com/subjects/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">Subject-wise CA</a>
+        </div>
+        <div class="syl-card__footer">
+          Every Mains answer benefits from current affairs examples. Daily editorial reading is the single highest-ROI activity for Mains.
+        </div>
+      </div>
+
+    </div>
+
+    {# ══════════════════════════════════════════════════════════
+       ANSWER WRITING STRATEGY
+       ══════════════════════════════════════════════════════════ #}
+    <h2 class="section-heading">Answer Writing Strategy</h2>
+
+    <div class="syllabus-grid" style="margin-bottom:var(--space-5);">
+
+      <div class="syl-card" style="--syl-color:#0f4c3a;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">📝</span>
+          <div>
+            <h3 class="syl-card__title">10-Mark Answer (150 words)</h3>
+            <span class="syl-card__count">~7-8 minutes</span>
+          </div>
+        </div>
+        <div style="padding:var(--space-4) var(--space-5); font-size:var(--text-sm); color:var(--color-text-secondary); line-height:var(--leading-relaxed);">
+          <strong style="color:var(--color-text);">Intro</strong> (1-2 lines) — Define concept or state context<br>
+          <strong style="color:var(--color-text);">Body</strong> (8-10 lines) — 3-4 points with examples or data<br>
+          <strong style="color:var(--color-text);">Conclusion</strong> (1-2 lines) — Way forward or balanced view
+        </div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#0f4c3a;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">📝</span>
+          <div>
+            <h3 class="syl-card__title">15-Mark Answer (250 words)</h3>
+            <span class="syl-card__count">~12-13 minutes</span>
+          </div>
+        </div>
+        <div style="padding:var(--space-4) var(--space-5); font-size:var(--text-sm); color:var(--color-text-secondary); line-height:var(--leading-relaxed);">
+          <strong style="color:var(--color-text);">Intro</strong> (2-3 lines) — Context + define the issue<br>
+          <strong style="color:var(--color-text);">Body</strong> (15-18 lines) — Multi-dimensional: economic, social, political, environmental<br>
+          <strong style="color:var(--color-text);">Diagram</strong> — Add one if relevant (saves words, scores marks)<br>
+          <strong style="color:var(--color-text);">Conclusion</strong> (2-3 lines) — Balanced view + way forward
+        </div>
+      </div>
+
+    </div>
+
+    <div class="strategy-grid" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-5); margin-bottom:var(--space-8);">
+
+      <div class="strategy-card">
+        <h4 class="strategy-card__title">Use Current Affairs</h4>
+        <p class="strategy-card__text">Weave recent examples into every answer — committees, schemes, court judgments, international events. This separates average from top-scoring answers.</p>
+      </div>
+
+      <div class="strategy-card">
+        <h4 class="strategy-card__title">Underline Keywords</h4>
+        <p class="strategy-card__text">Examiners scan fast across 500+ answer sheets. Underline key terms, names, and data points. It draws the eye to your strongest content.</p>
+      </div>
+
+      <div class="strategy-card">
+        <h4 class="strategy-card__title">Never Skip a Question</h4>
+        <p class="strategy-card__text">Write something for every question — even 3-4 points. An attempt with a basic structure scores 3-5 marks. A blank scores zero. That adds up.</p>
+      </div>
+
+      <div class="strategy-card">
+        <h4 class="strategy-card__title">Visual Clarity</h4>
+        <p class="strategy-card__text">Start each point on a new line. Use headings and sub-points. Add simple diagrams or flowcharts. Presentation matters as much as content in Mains.</p>
+      </div>
+
+      <div class="strategy-card">
+        <h4 class="strategy-card__title">Time Discipline</h4>
+        <p class="strategy-card__text">20 questions in 3 hours = 9 minutes average. Budget 7 min for 10-markers, 13 min for 15-markers. Practice with a stopwatch. Speed comes from revision, not shortcuts.</p>
+      </div>
+
+      <div class="strategy-card">
+        <h4 class="strategy-card__title">Directive Words</h4>
+        <p class="strategy-card__text">"Discuss" means cover all sides. "Critically examine" demands your conclusion. "Enumerate" means list with explanation. Misreading the directive loses marks on content you already know.</p>
+      </div>
+
     </div>
 
   </div>
