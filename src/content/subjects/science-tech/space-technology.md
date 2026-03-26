@@ -61,6 +61,8 @@ tags:
 | **Launch Date** | 5 November 2013 (PSLV-C25) |
 | **Mars Orbit Insertion** | 24 September 2014 |
 | **Significance** | India became the first Asian nation and the fourth space agency globally to reach Mars orbit — on its very first attempt |
+
+> **Remember:** Mangalyaan made India the FIRST Asian nation to reach Mars orbit (Japan's Nozomi and China's Yinghuo-1 had failed). India was also the FIRST to succeed on its maiden attempt. The mission cost approximately Rs 450 crore (~USD 74 million) -- less than the budget of the Hollywood film Gravity (USD 100 million). This cost-effectiveness angle is frequently asked in Mains for discussing India's space programme model.
 | **Cost** | Approximately Rs. 450 crore (~USD 74 million) — remarkably cost-effective |
 | **Designed Life** | 6 months; operated for over 7 years (till 2021) |
 
@@ -125,6 +127,8 @@ tags:
 | **PSLV** | Polar Satellite Launch Vehicle | ~1,750 kg to SSO (600 km); ~1,425 kg to SSO in core-alone | India's workhorse; 4 variants (PSLV-G, PSLV-CA, PSLV-XL, PSLV-DL); has launched Chandrayaan-1, Mangalyaan, Aditya-L1 |
 | **GSLV** | Geosynchronous Satellite Launch Vehicle | ~2,500 kg to GTO | Uses indigenous Cryogenic Upper Stage (CUS); enables 2-tonne class communication satellites |
 | **LVM3 (GSLV Mk III)** | Launch Vehicle Mark 3 | ~4,000 kg to GTO; ~8,000 kg to LEO | India's heaviest launch vehicle; indigenous high-thrust cryogenic engine; launched Chandrayaan-2, Chandrayaan-3, OneWeb satellites |
+
+> **Key distinction:** PSLV is for polar/sun-synchronous orbits (lighter satellites like remote sensing), while GSLV is for geostationary orbits (heavier communication satellites). GSLV Mk III (now called LVM3) can carry 4-tonne class satellites to GTO. Know which vehicle launched which mission: PSLV launched Chandrayaan-1, Mangalyaan, and Aditya-L1; LVM3 launched Chandrayaan-2 and Chandrayaan-3. UPSC frequently tests vehicle-mission pairings.
 | **SSLV** | Small Satellite Launch Vehicle | ~300 kg to 500 km LEO | Low-cost, quick turnaround; designed for small/micro satellites; multiple satellite deployment capability |
 
 ### PSLV Variants
@@ -154,6 +158,8 @@ tags:
 | Body | Established | Role |
 |------|-------------|------|
 | **IN-SPACe** (Indian National Space Promotion and Authorisation Centre) | June 2020 | Single-window facilitator for private sector participation; promotes, authorises, and supervises NGE space activities |
+
+> **Exam Tip:** Do not confuse the three space-sector bodies: ISRO (R&D and missions), NSIL (commercial arm -- sells launch services and transfers technology), and IN-SPACe (regulator and facilitator for private players). The Indian Space Policy 2023 clearly delineated these roles, separating ISRO's R&D function from commercial and regulatory functions. This institutional architecture is relevant for GS2 governance questions on space sector reforms.
 | **NSIL** (NewSpace India Limited) | 6 March 2019 | Commercial arm of DoS (CPSE); end-to-end commercial space business including launch services, satellite manufacturing, technology transfer |
 | **ANTRIX Corporation** | 1992 | Marketing arm for ISRO products and services internationally |
 

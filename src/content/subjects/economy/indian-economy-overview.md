@@ -51,6 +51,8 @@ India is the **5th largest economy** in the world by nominal GDP and **3rd large
 
 ### NITI Aayog (2015–present)
 
+> **Common Mistake:** Aspirants often state that NITI Aayog was established by a Constitutional Amendment or an Act of Parliament. It was NOT — it was created by a **Cabinet Resolution** (executive order). Unlike the Finance Commission (Article 280) or GST Council (Article 279A), NITI Aayog has no constitutional or statutory basis. This distinction is frequently tested in Prelims.
+
 - Replaced the Planning Commission on **1 January 2015**
 - **Chairman:** Prime Minister (ex officio)
 - **Vice-Chairman:** Appointed by PM (currently Suman Bery)
@@ -96,6 +98,8 @@ India is the **5th largest economy** in the world by nominal GDP and **3rd large
 | **Fiscal Deficit** | Total expenditure − Total receipts (excluding borrowings). Indicates how much the government needs to borrow |
 | **Revenue Deficit** | Revenue expenditure − Revenue receipts. Indicates government's consumption exceeding its income |
 | **Primary Deficit** | Fiscal deficit − Interest payments. Shows borrowing need excluding debt servicing |
+
+> **Key distinction:** A zero primary deficit does NOT mean the government is debt-free — it means the government is borrowing only to pay interest on past loans (not for new spending). If the primary deficit is negative (surplus), the government can service past debt from current revenues. UPSC loves numerical questions on this — always subtract interest payments from fiscal deficit, not the other way around.
 | **Effective Revenue Deficit** | Revenue deficit − Grants for capital asset creation (introduced in Union Budget 2011-12) |
 
 ### FRBM Act, 2003 (Fiscal Responsibility and Budget Management)
@@ -128,6 +132,8 @@ India is the **5th largest economy** in the world by nominal GDP and **3rd large
 - **Base year for GDP calculation:** 2011-12 (current series by CSO/NSO)
 - India uses **GDP at market prices** as the headline measure (shifted from GDP at factor cost in 2015)
 - GDP calculation methods: **Production (value-added)**, **Income**, and **Expenditure** methods
+
+> **Exam Tip:** UPSC often tests the difference between GDP at factor cost and GDP at market prices. The formula is: **GDP at market prices = GDP at factor cost + Indirect taxes − Subsidies**. Since 2015, India uses GVA (Gross Value Added) at basic prices for sectoral analysis and GDP at market prices as the headline number. If a question asks about the "new methodology," remember: GVA replaced GDP at factor cost, NOT GDP at market prices.
 
 ---
 

@@ -264,6 +264,10 @@ The 11th Schedule lists 29 subjects for which Panchayats may be given powers and
 
 ---
 
+> **Common Mistake:** Aspirants confuse the Schedules — **11th Schedule** has **29 subjects** for Panchayats, **12th Schedule** has **18 functions** for Municipalities. Remember: 11th came first (Panchayats, rural, more subjects) and 12th came second (Municipalities, urban, fewer functions). Also note: 11th says "subjects" while 12th says "functions" — this difference in terminology is intentional.
+
+> **Exam Tip:** The real challenge of decentralisation is the **3Fs problem** — Funds, Functions, and Functionaries. The 73rd/74th Amendments transferred functions on paper, but most states have not genuinely devolved funds or functionaries to local bodies. This is the core analytical point for any Mains question on Panchayati Raj effectiveness.
+
 ## Comparison: 73rd Amendment vs 74th Amendment
 
 | Feature | 73rd Amendment (Panchayats) | 74th Amendment (Municipalities) |

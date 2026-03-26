@@ -99,6 +99,10 @@ The Constitution says the Governor exercises functions "in his discretion" in ce
 | **Sixth Schedule areas** (Assam, Meghalaya, Tripura, Mizoram) | Specific discretionary powers regarding tribal areas |
 | **Special responsibility** for certain states | E.g., Maharashtra and Gujarat (Article 371), Nagaland (Article 371A) |
 
+> **Key distinction:** The President has a **fixed 5-year term** and can only be removed by impeachment (a quasi-judicial process requiring special majority in both Houses). The Governor also has a 5-year term but serves at the **pleasure of the President** — meaning the Centre can remove a Governor at any time without reason, without notice, and without Parliament's approval. This difference makes the Governor's office inherently vulnerable to political manipulation.
+
+> **Exam Tip:** The **S.R. Bommai case (1994)** is the single most important judgment on Centre-State relations. It held that the President's satisfaction under Article 356 is **judicially reviewable**, the state assembly should be dissolved only after Parliament approves the proclamation, and the floor of the House is the only test of majority — not the Governor's subjective assessment. Cite this case in every Mains answer on Article 356 or Governor controversies.
+
 ### Governor Controversies
 
 | Issue | Detail |

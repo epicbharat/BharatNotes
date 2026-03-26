@@ -59,6 +59,8 @@ tags:
 | **Process** | Screening, Scoping, Public Consultation (minimum 30 days), Appraisal, Decision |
 | **Validity of EC** | Varies by project type (mining: 30 years; river valley: 10 years; others: 7-10 years) |
 
+> **Exam Tip:** The EIA process has four stages -- remember "S-S-P-A" (Screening, Scoping, Public Consultation, Appraisal). Category B2 projects are exempt from both EIA study and public consultation -- only a pre-feasibility report is needed. This exemption was a major point of controversy in the Draft EIA 2020, which proposed expanding the B2 category.
+
 ### 2.2 Draft EIA Notification 2020 (Controversy)
 
 | Issue | Detail |
@@ -89,6 +91,8 @@ tags:
 | Key Change (2019 vs 2011) | Detail |
 |---------------------------|--------|
 | **NDZ Reduction** | CRZ-IIIA reduced from 200 m to 50 m from HTL |
+
+> **Remember:** CRZ-IIIA (densely populated rural coast) has an NDZ of only 50 m from HTL, while CRZ-IIIB (sparsely populated rural coast) retains the 200 m NDZ. The population density threshold separating IIIA from IIIB is 2,161 per sq km. UPSC often tests whether the NDZ was reduced uniformly or selectively -- it was selective, applying only to IIIA.
 | **Tourism** | Temporary tourism facilities (eco-tourism, home stays) permitted in CRZ-III areas |
 | **CRZ clearance** | Streamlined; delegated to State Coastal Zone Management Authorities for CRZ-II and CRZ-III |
 | **Island Protection** | Separate Island Coastal Regulation Zone (ICRZ) notification retained |
@@ -171,6 +175,8 @@ tags:
 | **Kyoto Protocol** | 1997 (effective 2005) | Legally binding emission reduction targets for Annex I (developed) countries; Clean Development Mechanism (CDM); no binding targets for developing countries | Ratified 2002; no binding targets (non-Annex I) |
 | **Paris Agreement** | 2015 (COP 21) | Bottom-up approach: Nationally Determined Contributions (NDCs); limit warming to well below 2 degrees C, pursue 1.5 degrees C; no distinction between developed and developing; Global Stocktake every 5 years | Ratified 2016; updated NDC 2022 |
 | **Montreal Protocol** | 1987 | Phase-out of ozone-depleting substances (ODS) like CFCs; Kigali Amendment (2016) added HFC phase-down; most successful environmental treaty | Ratified 1992; ratified Kigali Amendment 2021 |
+
+> **Key distinction:** Kyoto Protocol vs Paris Agreement -- Kyoto followed a top-down approach with legally binding targets only for developed (Annex I) countries, based on CBDR. Paris follows a bottom-up approach where ALL countries submit NDCs, but targets themselves are not legally binding. Know that the Kigali Amendment (2016) to the Montreal Protocol deals with HFCs (greenhouse gases used in refrigeration), NOT ozone-depleting substances -- it was added to the Montreal Protocol for practical reasons of using existing institutional machinery.
 | **Stockholm Convention** | 2001 (effective 2004) | Eliminates or restricts Persistent Organic Pollutants (POPs); 12 initial POPs ("dirty dozen") | Ratified 2006 |
 | **Basel Convention** | 1989 (effective 1992) | Regulates transboundary movement of hazardous wastes; prior informed consent; environmentally sound management | Ratified 1992 |
 | **Convention on Biological Diversity (CBD)** | 1992 (Rio Earth Summit) | Three objectives: conservation of biodiversity, sustainable use, equitable benefit sharing from genetic resources; Nagoya Protocol (2010) on access and benefit sharing; Kunming-Montreal Global Biodiversity Framework (2022, COP 15) with 30x30 target | Ratified 1994; host to COP 11 (Hyderabad, 2012) |

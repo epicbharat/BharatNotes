@@ -64,6 +64,8 @@ Published by Sir Isaac Newton in **Principia Mathematica (1687)**, these three l
 | **Energy Source** | Mass defect converted to energy (E = mc2) | Mass defect converted to energy (E = mc2) |
 | **Conditions** | Requires neutron bombardment; chain reaction | Requires extremely high temperature (~150 million degC) and pressure |
 | **Example in Nature** | None (artificial process) | Powers the Sun and all stars |
+
+> **Key distinction:** Nuclear fission SPLITS heavy atoms (uranium/plutonium) and produces long-lived radioactive waste. Nuclear fusion COMBINES light atoms (hydrogen isotopes) and produces minimal waste (helium). The Sun runs on fusion, not fission. India's three-stage nuclear programme uses fission. India is also a member of the ITER project (International Thermonuclear Experimental Reactor) in France, which aims to demonstrate commercial fusion power. UPSC often asks whether a process is fission or fusion -- always check the direction of the reaction.
 | **Human Application** | Nuclear power plants, nuclear weapons | Hydrogen bomb; experimental fusion reactors (ITER) |
 | **Waste** | Produces long-lived radioactive waste | Minimal radioactive waste; produces helium |
 | **India's Programme** | Three-stage nuclear programme (uranium, thorium cycle) | India is a member of the ITER project |
@@ -212,6 +214,8 @@ Published by Sir Isaac Newton in **Principia Mathematica (1687)**, these three l
 | **Passive Immunity** | Pre-formed antibodies received externally | Mother's milk (IgA), anti-venom, convalescent plasma |
 | **Herd Immunity** | Community-level protection when sufficient proportion is immune | Achieved through vaccination programmes |
 
+> **Common Mistake:** Active immunity (vaccination, natural infection) produces MEMORY CELLS and is long-lasting. Passive immunity (mother's antibodies, anti-venom) provides immediate but TEMPORARY protection -- no memory cells are formed. UPSC Prelims tests this: if a question asks about "long-lasting immunity," the answer involves active immunity. Also note: herd immunity thresholds vary by disease -- measles requires ~95% coverage, while COVID-19 required ~70-80%.
+
 ---
 
 ## Recent Science Developments
@@ -256,6 +260,8 @@ Published by Sir Isaac Newton in **Principia Mathematica (1687)**, these three l
 |--------|---------|
 | **Principle** | Hydrogen reacts with oxygen in a fuel cell to produce electricity, with water as the only by-product |
 | **Types** | Grey hydrogen (from natural gas — CO2 emitted), Blue hydrogen (grey + carbon capture), Green hydrogen (from renewable energy electrolysis) |
+
+> **Mnemonic:** Remember hydrogen types by colour logic: **Grey** = dirty (fossil fuels, CO2 emitted), **Blue** = cleaner grey (fossil fuels + carbon capture), **Green** = cleanest (renewable energy electrolysis, zero emissions). India's National Green Hydrogen Mission (2023) targets 5 MTPA of GREEN hydrogen by 2030 with Rs 19,744 crore outlay. The key challenge is cost -- green hydrogen currently costs 3-4x more than grey hydrogen. Bringing costs down through scale and cheaper electrolysers is the mission's core objective.
 | **Advantages** | Zero emissions at point of use; high energy density by weight; versatile fuel |
 | **Challenges** | Production cost of green hydrogen; storage and transportation; lack of infrastructure |
 | **India's Initiative** | National Green Hydrogen Mission (2023) — target of 5 million tonnes per annum (MTPA) of green hydrogen production by 2030; initial outlay of Rs 19,744 crore |

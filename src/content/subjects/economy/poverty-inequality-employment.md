@@ -37,6 +37,8 @@ Poverty estimation in India has evolved through several expert committees, each 
 | **Poverty ratio (2011-12)** | 21.9% | 29.5% |
 | **Poor population (2011-12)** | ~269 million | ~363 million |
 | **Status** | Used as official methodology | Report submitted; not formally accepted by government |
+
+> **Exam Tip:** UPSC loves to test whether you know which poverty line is "official." As of 2026, there is NO officially accepted poverty line after Tendulkar. The Rangarajan Committee report was submitted in 2014 but the incoming government never accepted it. The Tendulkar line is effectively the last official benchmark, but NITI Aayog has pivoted entirely to MPI. If a question asks "how many poor in India?" — the answer depends entirely on which methodology you use. Always state the methodology before citing numbers.
 | **Recall period** | Mixed Reference Period (MRP) | Modified Mixed Recall Period (MMRP) |
 
 ### Current Status
@@ -146,6 +148,8 @@ Oxfam's annual reports (released during Davos) highlight extreme inequality in I
 | **Cyclical** | Due to economic downturns | Seen during COVID-19 lockdowns |
 | **Seasonal** | Periodic unemployment in agriculture-dependent regions | Dominant in rural India — post-harvest unemployment |
 | **Disguised** | More workers employed than needed; marginal productivity near zero | Widespread in agriculture — key structural problem |
+
+> **Key distinction:** Disguised unemployment and underemployment are frequently confused. In **disguised unemployment**, removing a worker would NOT reduce total output (marginal productivity is zero). In **underemployment**, the worker IS contributing but below their capacity — either working fewer hours than desired or in a job below their skill level. A B.Tech graduate driving a cab is underemployed, not disguisedly unemployed. A family farm with 5 members doing the work of 2 has disguised unemployment. UPSC tests this difference directly.
 | **Open Unemployment** | Workers willing and able to work but cannot find jobs | Measured by PLFS |
 | **Underemployment** | Workers employed below their capacity (in hours or skill level) | Very common; not fully captured in headline rates |
 
@@ -199,6 +203,8 @@ Oxfam's annual reports (released during Davos) highlight extreme inequality in I
 | **Coverage** | All rural districts across India |
 | **Target** | Adult members of rural households willing to do unskilled manual work |
 | **Demand-driven** | Work must be provided within 15 days of demand; else unemployment allowance |
+
+> **Remember:** MGNREGA's unemployment allowance is a frequently missed detail. If the state fails to provide employment within 15 days, it must pay an **unemployment allowance from its own funds** (not Centre's). This creates a financial incentive for states to actually provide work. The allowance is 1/4th of the wage rate for the first 30 days and 1/2 for the remaining period. This is both a rights-based feature and a federalism question — states bear the penalty cost, not the Centre.
 | **Wages** | Notified state-wise; linked to CPI-AL (revised annually); currently between Rs. 230–350/day depending on state |
 | **Budget 2025-26** | Rs. 86,000 crore (stagnant for 5th consecutive year) |
 | **Key works** | Water conservation, drought proofing, land development, rural connectivity, flood control |

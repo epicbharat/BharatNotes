@@ -28,6 +28,8 @@ GST is a **comprehensive, multi-stage, destination-based indirect tax** levied o
 | **Replaces** | Central Excise, Service Tax, VAT, CST, Octroi, Entry Tax, Purchase Tax, Luxury Tax, Entertainment Tax, and others |
 | **Does NOT cover** | Petroleum products (crude oil, natural gas, ATF, petrol, diesel), alcoholic liquor for human consumption, electricity |
 
+> **Key distinction:** Petroleum and alcohol are excluded from GST for fundamentally different reasons. **Alcohol** is excluded by the **Constitution itself** (Article 246A(1) — states retain exclusive power). **Petroleum products** are technically within GST's scope but the GST Council has not yet notified a date for their inclusion — this is a political decision, not a constitutional bar. So petroleum CAN be brought under GST by Council recommendation; alcohol CANNOT without a Constitutional Amendment. This distinction is a Prelims trap.
+
 ---
 
 ## Constitutional Framework
@@ -52,6 +54,8 @@ GST is a **comprehensive, multi-stage, destination-based indirect tax** levied o
 | **Voting** | Centre has **1/3rd** weightage; States collectively have **2/3rd** weightage |
 | **Quorum** | 50% of total members |
 | **Decision** | By **3/4th majority** of weighted votes |
+
+> **Exam Tip:** The GST Council's voting design ensures neither Centre nor States can unilaterally push through decisions. Centre has 1/3rd votes, so it CANNOT reach 3/4th alone. States collectively have 2/3rd, which is also less than 3/4th. This forces consensus — a deliberate cooperative federalism feature. But after the **Mohit Minerals (2022)** ruling, even this consensus is advisory, not binding. For Mains, connect this to the broader Centre-State fiscal autonomy debate.
 | **Recommendations** | On GST rates, exemptions, model laws, threshold limits, dispute resolution |
 
 > **Union of India v. Mohit Minerals (2022):** The Supreme Court held that GST Council's recommendations are **not binding** on Centre or States — they are persuasive. This preserves cooperative federalism.
@@ -104,6 +108,8 @@ The backbone of GST — eliminates cascading (tax-on-tax) effect.
 - Only available for **registered taxable persons**
 - Conditions: Must have a valid tax invoice; goods/services must be used for business purposes; supplier must have filed returns
 - **Inverted duty structure** — when input tax rate > output tax rate, taxpayer can claim refund
+
+> **Common Mistake:** Aspirants assume GST completely eliminated cascading. It did not — since petroleum, alcohol, and electricity are outside GST, businesses using these as inputs (e.g., transport companies buying diesel, restaurants buying liquor) CANNOT claim ITC on them. This creates a "broken chain" in the credit mechanism, effectively reintroducing cascading for these inputs. This is one of the strongest arguments for including petroleum under GST.
 
 ---
 

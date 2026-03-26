@@ -103,6 +103,8 @@ tags:
 | **Key Rights** | Right to notice, access, correction, erasure, and grievance redressal |
 | **Key Principles** | Purpose limitation, data minimisation, storage limitation, accuracy, accountability |
 
+> **Key distinction:** The DPDP Act 2023 introduces the concepts of "Data Fiduciary" (entity that determines purpose and means of processing) and "Data Principal" (individual whose data is processed). Unlike the EU's GDPR, the DPDP Act does NOT include a right to data portability, and it grants broad government exemptions on grounds of national security. For Mains, compare DPDP with GDPR to show analytical depth -- DPDP is simpler and less rights-heavy than GDPR.
+
 ---
 
 ## Blockchain Technology
@@ -166,6 +168,8 @@ tags:
 | **Agni-III** | IRBM | 3,000--5,000 km | Two-stage, solid fuel; nuclear-capable |
 | **Agni-IV** | IRBM | 3,500--4,000 km | Two-stage, solid fuel; road-mobile |
 | **Agni-V** | ICBM | 5,000--7,000+ km | Three-stage, solid fuel; MIRV-capable (multiple warheads); canisterised for rapid deployment |
+
+> **Remember:** India's IGMDP (1983) under Dr. A.P.J. Abdul Kalam originally developed five missiles -- Prithvi (surface-to-surface), Agni (IRBM), Trishul (SAM), Akash (SAM), and NAG (anti-tank). The programme was declared complete in 2008. BrahMos is NOT part of IGMDP -- it is a separate India-Russia joint venture. Agni-V's MIRV capability (tested as Mission Divyastra, 2024) means a single missile can carry multiple warheads targeting different locations -- a key deterrence upgrade.
 | **Prithvi-I** | SRBM | 150 km | Surface-to-surface; India's first indigenous ballistic missile; inducted 1994 |
 | **Prithvi-II** | SRBM | 250--350 km | Air Force variant; inducted 1996 |
 | **Prithvi-III (Dhanush)** | SRBM | 350 km | Naval variant; ship-launched |
@@ -211,6 +215,8 @@ tags:
 | **Stage I** | Natural uranium fuelled Pressurised Heavy Water Reactors (PHWRs) | Operational; 22+ reactors |
 | **Stage II** | Plutonium-based Fast Breeder Reactors (FBRs) | Prototype FBR at Kalpakkam under commissioning |
 | **Stage III** | Thorium-based reactors (Thorium-232 to Uranium-233) | R&D stage; India holds ~25% of world's known thorium reserves (500,000+ tonnes) |
+
+> **Common Mistake:** India's three-stage nuclear programme progresses sequentially -- Stage II (Fast Breeder Reactors) must produce sufficient Uranium-233 from Thorium-232 before Stage III can become operational. India is still in the transition between Stage I and Stage II. The Prototype Fast Breeder Reactor (PFBR) at Kalpakkam is under commissioning. Do not write in exams that India has already operationalised thorium-based reactors -- that is Stage III and remains in R&D.
 
 ### 8.3 India's Nuclear Doctrine
 

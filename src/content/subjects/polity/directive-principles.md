@@ -75,6 +75,10 @@ The Constitution does not classify DPSPs. The following classification is based 
 
 ---
 
+> **Common Mistake:** Many aspirants believe FRs always prevail over DPSPs. This was true only until 1980. After **Minerva Mills v. Union of India (1980)**, the Supreme Court held that **harmony between FRs and DPSPs is itself part of the Basic Structure**. Neither can destroy the other. This is the settled position and a frequent Mains question.
+
+> **Mnemonic:** To remember Gandhian DPSPs, think **"PVCC"** — **P**anchayats (Art 40), **V**illage/cottage industries (Art 43), **C**ow protection (Art 48), **C**ooperatives (Art 43B). These reflect Gandhi's vision of self-sufficient village republics.
+
 ## DPSPs Added by Constitutional Amendments
 
 | Amendment | Year | Article Added/Modified |

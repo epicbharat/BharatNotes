@@ -63,6 +63,10 @@ The head of state (President) is elected, not hereditary. This distinguishes Ind
 - **"Give to ourselves"** — Self-enacted; the Constituent Assembly acted as the representative body of the people
 - **"26th November 1949"** — Date of adoption; the Constitution came into **effect on 26 January 1950** (chosen to honour the 1930 Purna Swaraj declaration)
 
+> **Common Mistake:** Aspirants often write "Sovereign Socialist Secular Democratic Republic" as the original Preamble text. The original (1949) said only "Sovereign Democratic Republic." The words **Socialist**, **Secular**, and **Integrity** were added by the 42nd Amendment in 1976. UPSC has tested this directly (CSE 2021).
+
+> **Mnemonic:** Remember the four Preamble objectives as **J-L-E-F** — Justice, Liberty, Equality, Fraternity. This is also the order in which they appear in the text.
+
 ## Is the Preamble Part of the Constitution?
 
 | Case | Year | Ruling |

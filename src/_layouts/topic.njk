@@ -508,12 +508,16 @@ layout: base.njk
   // Markdown usage: > **Exam Tip:** Your text here
   // Supported: Info, Tip, Exam Tip, Warning, Why in News, Key Point, Note, Remember
   var calloutMap = {
-    'info': 'info', 'note': 'info', 'key point': 'info', 'key points': 'info',
+    'info': 'info', 'note': 'info', 'key point': 'info', 'key points': 'info', 'historical note': 'info', 'important': 'info',
     'tip': 'tip', 'remember': 'tip', 'hint': 'tip',
-    'exam tip': 'exam', 'exam strategy': 'exam', 'upsc tip': 'exam', 'prelims tip': 'exam', 'mains tip': 'exam',
-    'warning': 'warning', 'caution': 'warning', 'common mistake': 'warning',
-    'why in news': 'news', 'in news': 'news', 'current affairs': 'news',
-    'quote': 'quote'
+    'exam tip': 'exam', 'exam strategy': 'exam', 'upsc tip': 'exam', 'prelims tip': 'exam', 'mains tip': 'exam', 'upsc relevance': 'exam', 'upsc note': 'exam',
+    'warning': 'warning', 'caution': 'warning', 'common mistake': 'warning', 'exception': 'warning',
+    'why in news': 'news', 'in news': 'news',
+    'quote': 'quote',
+    'definition': 'definition', 'key definition': 'definition',
+    'example': 'example', 'illustration': 'example', 'analogy': 'example', 'case study': 'example',
+    'comparison': 'comparison', 'key distinction': 'comparison', 'distinguish': 'comparison', 'compare': 'comparison', 'vs': 'comparison',
+    'mnemonic': 'mnemonic', 'memory trick': 'mnemonic', 'trick to remember': 'mnemonic'
   };
   article.querySelectorAll('blockquote').forEach(function(bq) {
     var firstEl = bq.querySelector('p:first-child, strong:first-child');

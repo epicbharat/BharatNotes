@@ -122,6 +122,8 @@ India follows a **parliamentary system** — the President is the nominal (de ju
 | **Nature** | Supreme Court has described it as an **emergency power** given to the executive to meet emergent situations |
 | **Limitation** | Cannot be used to override Fundamental Rights; subject to judicial review (D.C. Wadhwa case, 1987) |
 
+> **Mnemonic:** Remember the President's 5 pardoning powers as **"PC-RRR"** — **P**ardon (full absolution), **C**ommutation (lighter punishment type), **R**emission (shorter duration), **R**espite (lesser sentence on special grounds), **R**eprieve (temporary stay, especially for death sentence).
+
 #### 5. Pardoning Power (Article 72)
 
 The President can grant:
@@ -161,6 +163,8 @@ The President can grant:
 | **Removal** | Resolution of Rajya Sabha passed by **effective majority** (majority of then-members) and agreed to by Lok Sabha — **no impeachment needed**; requires 14 days' notice |
 | **Acting President** | Acts as President when the office is vacant due to death, resignation, removal, or otherwise (Article 65); also discharges functions when President is unable due to absence, illness, or other cause |
 | **Salary** | Draws salary as Chairman of Rajya Sabha (no separate salary as VP) |
+
+> **Common Mistake:** Aspirants assume the Vice-President's electoral college is the same as the President's. It is not. The President is elected by **elected members** of both Houses of Parliament + **elected MLAs**. The VP is elected by **all members** (elected + nominated) of **both Houses of Parliament only** — no MLAs participate. This is a classic Prelims trap.
 
 ### Key Differences: President vs Vice-President Election
 

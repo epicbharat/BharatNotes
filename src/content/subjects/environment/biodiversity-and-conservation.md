@@ -25,6 +25,8 @@ India is one of the 17 mega-diverse countries in the world, hosting approximatel
 
 A biodiversity hotspot must contain at least 1,500 endemic vascular plant species and must have lost at least 70% of its primary vegetation. Conservation International recognises 36 global hotspots; India hosts four.
 
+> **Common Mistake:** Students often confuse the criteria for biodiversity hotspots. Both conditions must be met simultaneously -- at least 1,500 endemic vascular plants AND at least 70% habitat loss. High biodiversity alone does not qualify a region as a hotspot; the threat element (habitat loss) is equally essential. UPSC has tested this distinction.
+
 | Hotspot | Indian States / Regions Covered | Key Features |
 |---|---|---|
 | **Western Ghats** | Gujarat, Maharashtra, Goa, Karnataka, Kerala, Tamil Nadu | ~1,600 km stretch; UNESCO World Heritage Site; ~7,402 plant species (24 endemic genera); 508 bird species; 131 amphibian species (87% endemic) |
@@ -87,6 +89,8 @@ India has over 100 national parks covering approximately 44,403 sq km (about 1.3
 ### Wildlife Sanctuaries
 
 India has over 560 wildlife sanctuaries. Unlike national parks, limited human activities (grazing, timber collection) may be permitted in sanctuaries with the Chief Wildlife Warden's approval.
+
+> **Key distinction:** National Parks vs Wildlife Sanctuaries -- In a National Park, no human activity is permitted (no grazing, no forestry). In a Wildlife Sanctuary, certain activities like grazing may be allowed with the Chief Wildlife Warden's permission. Also, a Sanctuary can be upgraded to a National Park, but not vice versa. UPSC Prelims frequently tests this difference.
 
 ---
 
@@ -196,6 +200,8 @@ India became a signatory to the Ramsar Convention in **1982**. As of early 2026,
 |---|---|---|---|
 | **Ramsar Convention** (Wetlands) | 1971 | 1982 | Conservation and wise use of wetlands; Montreux Record for degraded sites |
 | **CITES** (Trade in Endangered Species) | 1973 | 1976 | Regulates international trade in wildlife through 3 Appendices; legally binding |
+
+> **Exam Tip:** Do not confuse CITES Appendices with WPA Schedules. CITES has 3 Appendices (I = trade ban, II = regulated trade, III = voluntary listing by a country). WPA has 4 Schedules (post-2022 amendment, reduced from 6). CITES is an international treaty; WPA is domestic law. Both protect species but operate at different levels. This overlap is a Prelims favourite.
 | **CMS / Bonn Convention** (Migratory Species) | 1979 | 1983 | Conservation of terrestrial, marine, and avian migratory species; India hosted COP-13 in Gandhinagar (2020) |
 | **CBD** (Biological Diversity) | 1992 | 1994 | Three objectives: conservation, sustainable use, benefit-sharing; Cartagena Protocol (biosafety); Nagoya Protocol (access and benefit-sharing); Kunming-Montreal Global Biodiversity Framework (2022) |
 | **UNFCCC** | 1992 | 1993 | Framework for climate action; led to Kyoto Protocol and Paris Agreement |

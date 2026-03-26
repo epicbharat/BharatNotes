@@ -47,6 +47,8 @@ A **Search Committee** headed by the Minister of Law and Justice, with two Secre
 
 **Eligibility**: Persons holding or having held posts equivalent to the rank of **Secretary to the Central Government**, with expertise in managing and conducting elections.
 
+> **Common Mistake:** Aspirants assume the CEC has superior power over other Election Commissioners. In reality, all three have **equal voting power** and the CEC can be **overruled** by the two ECs in a 2-1 decision. The CEC's only additional protection is in removal — like a Supreme Court Judge — while ECs can be removed on the CEC's recommendation.
+
 ### CEC vs Election Commissioners
 
 | Feature | CEC | Election Commissioners |
@@ -226,6 +228,8 @@ The recommendations of the Finance Commission are **advisory** — the governmen
 | **SPSEs** | Recommended review and closure of 308 inactive State Public Sector Enterprises |
 
 ---
+
+> **Key distinction:** The **ECI**, **CAG**, **UPSC**, and **Finance Commission** are **constitutional bodies** — established directly by the Constitution with guaranteed independence. The **NHRC**, **NCW**, and **National Commission for Minorities** are **statutory bodies** — created by Acts of Parliament and can be dissolved by Parliament. UPSC frequently tests whether a body is constitutional or statutory.
 
 ## National Commissions
 

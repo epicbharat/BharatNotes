@@ -89,6 +89,8 @@ India follows a **bicameral** legislature at the Union level. The President is a
 | **Financial Bill** | Lok Sabha only | Can amend/reject | Yes (for Type I) |
 | **Constitutional Amendment Bill** | Either House | Must be passed by both Houses separately with special majority | No |
 
+> **Key distinction:** A **Money Bill** (Art 110) deals *exclusively* with taxation/expenditure — Rajya Sabha gets only 14 days and cannot amend. A **Financial Bill** contains money matters *plus* other provisions — Rajya Sabha has full power to amend or reject. UPSC frequently tests this distinction. The Aadhaar Act controversy was precisely about misclassifying a Financial Bill as a Money Bill to bypass Rajya Sabha.
+
 ### Money Bill (Article 110)
 
 A bill is a Money Bill if it deals **exclusively** with:
@@ -144,6 +146,8 @@ Called by the **President** when there is a deadlock between the two Houses on a
 > **Note:** Parliamentary privileges are not codified (unlike in the UK). Article 105(3) says Parliament may by law define its privileges — but no such law has been enacted.
 
 ---
+
+> **Common Mistake:** Aspirants confuse **Adjournment Motion** with **No-Confidence Motion**. An Adjournment Motion is a censure device to discuss an urgent matter — even if passed, the government does NOT fall. A No-Confidence Motion, if passed, compels the government to resign. Both need 50 members' support to be admitted, but their consequences are entirely different.
 
 ## Key Parliamentary Devices
 

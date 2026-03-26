@@ -127,6 +127,8 @@ The **Disaster Management Act, 2005** was passed by Parliament — Rajya Sabha o
 
 India's investment in early warning systems has dramatically reduced disaster mortality — cyclone deaths fell from thousands during the 1999 Odisha super cyclone to single digits during recent cyclonic events. According to the UN, effective early warning systems can reduce disaster mortality by **up to 75%**.
 
+> **Example:** The 1999 Odisha Super Cyclone killed nearly 10,000 people. By contrast, Cyclone Fani (2019), a similarly intense cyclone hitting the same coast, resulted in fewer than 90 deaths -- thanks to IMD's 72-hour advance warning, massive evacuation of ~1.2 million people, and NDRF pre-positioning. This transformation is one of India's strongest disaster management success stories and an excellent case study for Mains answers on early warning effectiveness.
+
 ---
 
 ## Sendai Framework for Disaster Risk Reduction (2015–2030)
@@ -167,6 +169,8 @@ Adopted at the **Third UN World Conference on DRR** in **Sendai, Japan** on **18
 ### Seismic Zones
 
 The Bureau of Indian Standards (BIS) classifies India into **four seismic zones** (Zone II to Zone V). The earlier five-zone system was revised in 2002, merging Zone I into Zone II.
+
+> **Common Mistake:** India has FOUR seismic zones (II to V), not five -- Zone I was merged into Zone II in 2002. Delhi falls in Zone IV (high risk), not Zone V. The entire Himalayan belt, North-East India, Rann of Kutch, and Andaman & Nicobar Islands are in Zone V (very high risk). About 59% of India's landmass is susceptible to moderate-to-severe earthquakes. Know which major cities fall in which zone -- this is a Prelims favourite.
 
 | Zone | Risk Level | Key Regions | Percentage of India's Area |
 |------|-----------|-------------|---------------------------|
@@ -236,6 +240,8 @@ The Bureau of Indian Standards (BIS) classifies India into **four seismic zones*
 | **Flood Management & Border Areas Programme** | River management, flood control infrastructure |
 | **Aapda Mitra** | Training community volunteers for disaster response |
 | **CDRI** (Coalition for Disaster Resilient Infrastructure) | International coalition launched by India in 2019; HQ in New Delhi |
+
+> **Exam Tip:** CDRI (Coalition for Disaster Resilient Infrastructure) was launched by India at the UN Climate Action Summit in September 2019 and is headquartered in New Delhi. It is one of India's flagship global initiatives -- linking climate change with disaster resilience. For Mains, use CDRI to demonstrate India's proactive role in global disaster governance alongside the Sendai Framework. CDRI focuses specifically on INFRASTRUCTURE resilience -- bridges, roads, power systems, telecom -- during disasters.
 
 ---
 

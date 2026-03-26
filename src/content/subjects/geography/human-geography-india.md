@@ -83,6 +83,8 @@ India is currently in the late second to early third stage of the Demographic Tr
 | Life Expectancy at Birth | 32 years | 54 years | 67.9 years | ~71 years |
 | Infant Mortality Rate (per 1000) | 146 | 110 | 44 | ~26 |
 
+> **Common Mistake:** Students often assume all of India is at the same demographic stage. In reality, southern states (Kerala, Tamil Nadu, Andhra Pradesh) are already at or below replacement-level fertility (TFR ~1.6-1.8), while states like Bihar and UP still have higher TFR (~3.0+). This north-south demographic divide is critical for Mains answers — it affects inter-state migration, political representation (delimitation freeze until 2026), and resource allocation.
+
 ### Demographic Dividend
 
 India has one of the youngest populations in the world, with a median age of about 28 years (2025). The working-age population (15-64 years) is expected to remain above 65% until 2040, providing a demographic dividend window.
@@ -138,6 +140,8 @@ India has one of the youngest populations in the world, with a median age of abo
 
 ## Migration in India
 
+> **Exam Tip:** Census migration data shows that ~70% of all migrants in India are female, but this does NOT mean women migrate for employment. The overwhelming reason for female migration is marriage (intra-district, rural-to-rural). Male migration is primarily employment-driven (inter-state, rural-to-urban). UPSC Mains questions on migration expect you to make this gender-reason distinction clearly.
+
 ### Census 2011 Migration Data
 
 | Indicator | Value |
@@ -190,6 +194,8 @@ India has one of the youngest populations in the world, with a median age of abo
 | Governor's Role | Special powers to modify/annul laws; make regulations for peace and good governance |
 | Tribes Advisory Council | Each state with Scheduled Areas must have one; 3/4 members from ST representatives |
 | Key Legislation | Panchayats (Extension to Scheduled Areas) Act, 1996 (PESA) -- extends Panchayati Raj to Scheduled Areas |
+
+> **Key distinction:** Fifth Schedule and Sixth Schedule serve different tribal areas and have fundamentally different governance models. Fifth Schedule areas (10 states, mostly central India) are governed through the Governor's special powers and Tribes Advisory Councils — the state government retains control. Sixth Schedule areas (4 NE states only — Assam, Meghalaya, Tripura, Mizoram) have Autonomous District Councils with legislative, judicial, and executive powers, giving tribals far greater self-governance. PESA (1996) applies only to Fifth Schedule areas.
 
 ### Sixth Schedule
 

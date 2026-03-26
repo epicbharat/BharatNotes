@@ -88,6 +88,8 @@ Infrastructure forms the backbone of economic growth by reducing transaction cos
 4. **Reduce logistics costs** — India's logistics cost ~13–14% of GDP vs 8–10% in developed countries
 5. **Data-driven decision making** — real-time visualization, review, and monitoring of cross-sectoral projects
 
+> **Exam Tip:** When writing about infrastructure in Mains, always connect logistics cost to manufacturing competitiveness. India's 13-14% logistics-to-GDP ratio means Indian goods carry a 4-6% cost disadvantage over competitors like China (~8%) before they even reach the market. PM Gati Shakti's real value is not any single highway or rail line — it is the **elimination of coordination failures** between ministries that cause, for example, a highway to reach a port with no last-mile rail link. Use this as an analytical frame, not just a scheme description.
+
 ### Integration with Existing Schemes
 
 PM Gati Shakti incorporates the infrastructure plans of: **Bharatmala** (highways), **Sagarmala** (ports), **inland waterways**, **dry/land ports**, **UDAN** (aviation), **industrial corridors** (DMIC, CBIC, etc.), and state-level infrastructure projects.
@@ -214,6 +216,8 @@ The government is advancing **Sagarmala 2.0** with budgetary support of Rs. 40,0
 
 **Non-fossil fuel share: 51.93%** — crossing 50% for the first time, up from 32.54% in March 2014.
 
+> **Remember:** "Installed capacity" and "actual generation" are very different things. While non-fossil fuels now exceed 50% of installed capacity, their share in actual electricity generation is much lower (~25-30%) because solar and wind have low capacity utilisation factors (17-25%) compared to coal (~60-65%). UPSC Mains questions often ask about India's energy transition — always distinguish between capacity (what's built) and generation (what's produced). India still generates over 70% of its electricity from coal.
+
 ---
 
 ### Coal Sector
@@ -278,6 +282,8 @@ Conceived by **Dr. Homi Bhabha** in the 1950s to leverage India's limited uraniu
 | **Stage I** | Natural Uranium | Pressurised Heavy Water Reactors (PHWRs) | Operational — 20 PHWRs running; produces plutonium-239 as by-product |
 | **Stage II** | Plutonium-239 (from Stage I spent fuel) | Fast Breeder Reactors (FBRs) | 500 MWe Prototype Fast Breeder Reactor (PFBR) at Kalpakkam — core loading began 2024; commissioning expected by 2026; breeds Uranium-233 from thorium |
 | **Stage III** | Thorium → Uranium-233 | Advanced Heavy Water Reactors (AHWR) | Still in development; large-scale thorium use depends on adequate plutonium inventory from FBRs; a few decades away |
+
+> **Common Mistake:** Aspirants often write that India has "abundant uranium" as justification for nuclear energy. The opposite is true — India has **limited uranium** but the world's **largest thorium reserves** (~25% of global). The entire three-stage programme was designed precisely because India CANNOT depend on uranium alone. Stage I uses scarce natural uranium to breed plutonium; Stage II uses plutonium in FBRs to breed U-233 from thorium; Stage III finally uses thorium directly. Understanding this scarcity logic is essential for both Prelims and Mains answers on nuclear policy.
 
 | Key Facts | Details |
 |-----------|---------|

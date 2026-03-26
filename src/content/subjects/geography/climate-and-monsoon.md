@@ -46,6 +46,8 @@ The Indian monsoon is a large-scale seasonal wind system driven by differential 
 | Onset Explanation | Low pressure over heated landmass draws moist winds | Burst of monsoon linked to Tropical Easterly Jet establishment |
 | Limitations | Cannot explain variability and breaks | Better explains variability through ENSO, IOD, jet streams |
 
+> **Remember:** The Indian monsoon is NOT simply caused by "differential heating of land and sea" — that is the classical (thermal) theory, which is incomplete. The modern explanation involves the seasonal shift of the ITCZ, the role of the Tropical Easterly Jet and Subtropical Westerly Jet, the Tibetan Plateau as an elevated heat source, and the Somali Jet. UPSC Mains expects you to go beyond the textbook thermal theory and discuss the dynamic factors.
+
 ### Inter-Tropical Convergence Zone (ITCZ)
 
 The ITCZ is a low-pressure belt that shifts seasonally. During the Indian summer, it migrates northward to approximately 20-25 degrees N over the Ganga Plain. This northward shift draws in moisture-laden trade winds from the southern hemisphere, which, after crossing the Equator, turn right (Coriolis effect) and arrive over India as the **southwest monsoon**.
@@ -85,6 +87,8 @@ These oceanic-atmospheric phenomena significantly modulate monsoon rainfall from
 | Negative IOD | Cooler western Indian Ocean, warmer eastern Indian Ocean | Reduced moisture; below-normal rainfall; zonal dipole rainfall pattern over India |
 | Neutral IOD | No significant east-west SST gradient | ENSO dominates monsoon variability |
 
+> **Common Mistake:** Students often confuse IOD with ENSO. The IOD operates in the Indian Ocean (SST difference between western and eastern Indian Ocean), while ENSO operates in the Pacific Ocean (SST anomaly in central/eastern Pacific). A 2017 Prelims question tested exactly this — Statement 1 wrongly paired IOD with the "Eastern Pacific Ocean" and many aspirants marked it correct. Always remember: IOD = Indian Ocean only.
+
 ### Interplay of ENSO and IOD
 
 | Combination | Likely Monsoon Outcome |
@@ -113,6 +117,8 @@ India experiences four distinct seasons, primarily governed by the monsoon cycle
 
 | Phenomenon | Region | Cause |
 |-----------|--------|-------|
+> **Exam Tip:** Pre-monsoon phenomena are a Prelims favourite. Remember that Mango Showers (Kerala/Karnataka), Nor'westers/Kalbaisakhi (West Bengal/Assam), and Cherry Blossoms (Karnataka coffee areas) are all PRE-monsoon events occurring in March-May. Do not confuse them with the actual southwest monsoon which arrives in June. Also note: Loo is a hot dry wind (not rain), while the others bring rainfall.
+
 | Mango Showers | Kerala, Karnataka | Convective activity before monsoon onset |
 | Nor'westers (Kalbaisakhi) | West Bengal, Assam, Bihar | Convergence of moisture from Bay of Bengal and dry hot air |
 | Cherry Blossoms (Blossom Showers) | Karnataka coffee-growing areas | Pre-monsoon thunderstorms beneficial for coffee flowering |

@@ -50,6 +50,8 @@ A person to be appointed as a Supreme Court Judge must:
 - **Second Judges Case (1993)** — Supreme Court Advocates-on-Record Association: CJI's opinion has primacy; introduced the Collegium (CJI + 2 senior-most judges)
 - **Third Judges Case (1998)** — Presidential reference: Expanded Collegium to CJI + **4 senior-most judges** for Supreme Court appointments
 
+> **Remember:** The Collegium is a **judicial creation** — the word "Collegium" does not appear anywhere in the Constitution. It evolved through three Judges Cases (1981, 1993, 1998). The Constitution only says the President shall appoint judges "after consultation" with the CJI. The Collegium effectively converted "consultation" into "concurrence."
+
 #### NJAC (Struck Down)
 - **99th Constitutional Amendment Act, 2014** — Created the National Judicial Appointments Commission (NJAC) consisting of:
   - CJI (Chairperson)
@@ -126,6 +128,8 @@ The power of the judiciary to examine the constitutionality of legislative enact
 | Example: Striking down Section 66A of IT Act | Example: Expanding Article 21 to include right to privacy |
 
 ---
+
+> **Comparison:** Article 32 (SC) vs Article 226 (HC) — the most tested distinction: Article 32 is itself a **Fundamental Right** (can't be suspended except during Emergency), while Article 226 is not. But Article 226 has a **wider scope** — it can issue writs for "any other purpose", not just for FRs. So the SC's writ jurisdiction is narrower but more protected, while the HC's is broader but less protected.
 
 ## Public Interest Litigation (PIL)
 

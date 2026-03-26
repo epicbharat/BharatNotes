@@ -33,6 +33,8 @@ The Panchsheel Agreement was signed on **29 April 1954** between India and China
 
 The five principles were enunciated by Nehru and Zhou Enlai. They were incorporated into the **Ten Principles of the Bandung Conference** (April 1955) and adopted unanimously by the **UN General Assembly on 11 December 1957**.
 
+> **Common Mistake:** Despite signing the Panchsheel Agreement in 1954, China invaded India in 1962 -- just 8 years later. UPSC Mains often asks aspirants to critically evaluate Panchsheel. Do not present it uncritically as a success. Acknowledge its idealistic value while noting its failure to prevent the 1962 war. This nuance is essential for balanced answer writing.
+
 ### Non-Aligned Movement (NAM)
 
 | Detail | Fact |
@@ -86,6 +88,8 @@ Announced by PM Modi on **12 March 2015** during the commissioning of MCGS Barra
 PM Modi articulated India's Indo-Pacific vision at the **Shangri-La Dialogue, Singapore, on 1 June 2018**, describing the Indo-Pacific as "a free, open, inclusive region" embracing all nations in the geography.
 
 Key features of India's approach:
+
+> **Key distinction:** India's Indo-Pacific vision differs fundamentally from the US approach. India emphasises "free, open, and INCLUSIVE" -- explicitly not excluding any country (including China). The US version is more exclusionary and security-focused. In UPSC Mains, when asked to compare, highlight this difference along with India's insistence on ASEAN centrality versus the US's hub-and-spoke alliance model.
 
 - **Inclusiveness** — Unlike the US, India includes China in its Indo-Pacific construct
 - **ASEAN centrality** — ASEAN is the connecting link between the Indian and Pacific Oceans
@@ -173,6 +177,8 @@ The expanded BRICS represents approximately half the world's population and 41% 
 ### India-Russia
 
 - **Strategic partnership** since 2000; elevated to Special and Privileged Strategic Partnership (2010)
+> **Exam Tip:** India's relationship with Russia is frequently tested in the context of "strategic autonomy." India purchases the S-400 from Russia despite US CAATSA (Countering America's Adversaries Through Sanctions Act) threats, imports discounted Russian oil despite Western sanctions, yet simultaneously deepens the Quad partnership with the US. Frame this as India's "multi-alignment" strategy -- not non-alignment, not alliance, but issue-based engagement with all major powers.
+
 - Defence cooperation: S-400 missile system, BrahMos (joint venture), INS Vikramaditya (aircraft carrier)
 - Energy: Rosneft-ONGC partnership; Russian oil imports surged post-2022
 - Multilateral: Coordination in BRICS, SCO, RIC (Russia-India-China) trilateral

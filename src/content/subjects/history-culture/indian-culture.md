@@ -66,6 +66,8 @@ India recognizes **eight classical dance forms**, each with roots in the Natyash
 | **Sattriya** | Assam | Created by Vaishnavite saint Shankaradeva (15th–16th century); performed in Sattras (monasteries); recognized as classical form in 2000 |
 | **Mohiniyattam** | Kerala | "Dance of the enchantress"; solo female dance; Lasya (graceful) style; white and gold costume; Kerala's own Sopana music accompaniment |
 
+> **Mnemonic:** Remember the 8 classical dance forms with "**BKK-OMSM**" — **B**haratanatyam (TN), **K**athak (UP), **K**athakali (Kerala), **O**dissi (Odisha), **M**anipuri (Manipur), **S**attriya (Assam), **M**ohiniyattam (Kerala), and Kuchipudi (AP). Note that Kerala has *two* classical forms (Kathakali and Mohiniyattam) — a fact UPSC has tested.
+
 ---
 
 ## Classical Music
@@ -111,6 +113,8 @@ Indian classical music has two major traditions that diverged gradually from abo
 | **Material** | Sandstone, granite | Granite, soapstone | Soapstone (Hoysala), sandstone |
 | **Examples** | Kandariya Mahadeva (Khajuraho), Lingaraja (Bhubaneswar), Sun Temple (Konark) | Brihadeshwara (Thanjavur), Meenakshi (Madurai), Shore Temple (Mahabalipuram) | Hoysaleshwara (Halebidu), Belur temples, Durga Temple (Aihole) |
 | **Dynasty Patrons** | Chandellas, Solankis, Pratiharas | Pallavas, Cholas, Pandyas, Vijayanagara | Chalukyas, Rashtrakutas, Hoysalas |
+
+> **Common Mistake:** Students often confuse Shikhara and Vimana. In Nagara (North) style, the tower over the sanctum is called **Shikhara**. In Dravida (South) style, the tower over the sanctum is called **Vimana**, and the tall gateway towers are called **Gopurams**. The Gopuram is *not* the main temple tower — it is the entrance tower. In later Dravida temples (like Meenakshi at Madurai), the Gopurams became taller than the Vimana, which confuses many aspirants.
 
 ### Other Architectural Forms
 
@@ -214,6 +218,8 @@ The **Eighth Schedule** of the Indian Constitution currently recognizes **22 lan
 - **Konkani, Manipuri, Nepali** added by the 71st Amendment (1992)
 - **Bodo, Dogri, Maithili, Santali** added by the 92nd Amendment (2003)
 - **Classical Language** status (separate from Eighth Schedule): Tamil (2004), Sanskrit (2005), Telugu (2008), Kannada (2008), Malayalam (2013), Odia (2014)
+
+> **Exam Tip:** UPSC often tests which amendment added which languages to the Eighth Schedule. Remember the pattern: **original 14** (1950) → **+1** Sindhi (21st Amendment, 1967) → **+3** Konkani, Manipuri, Nepali (71st Amendment, 1992) → **+4** Bodo, Dogri, Maithili, Santali (92nd Amendment, 2003) = **22 total**. Also note that "Classical Language" status is completely separate from the Eighth Schedule — a language can be Classical without being Scheduled, or vice versa.
 
 ---
 

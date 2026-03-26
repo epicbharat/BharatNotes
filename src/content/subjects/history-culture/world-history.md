@@ -55,6 +55,8 @@ The UPSC GS Paper I syllabus covers events from the 18th century onwards that si
 | **Social** | Urbanisation; growth of working class; child labour; poor living conditions in factory towns |
 | **Political** | Rise of trade unions; Chartist movement; demands for democratic reform |
 | **On India** | De-industrialisation — destruction of Indian handicrafts (especially textiles); India reduced to a raw material supplier and captive market for British goods |
+
+> **Remember:** UPSC frequently asks about the Industrial Revolution's impact on India specifically. Always connect it to the "Drain of Wealth" theory (Dadabhai Naoroji), de-industrialisation of Indian textiles, and how India was transformed from a manufacturing economy into a raw-material exporter. This cross-links Modern Indian History with World History — examiners reward such connections.
 | **Global** | Spread of industrialisation to continental Europe, USA, and Japan; widened gap between industrialised and non-industrialised nations |
 
 ---
@@ -216,6 +218,8 @@ The UPSC GS Paper I syllabus covers events from the 18th century onwards that si
 | **Negotiators ("Big Four")** | Woodrow Wilson (USA), David Lloyd George (Britain), Georges Clemenceau (France), Vittorio Orlando (Italy) |
 | **Significance** | Harsh terms created resentment in Germany; contributed directly to the rise of Hitler and World War II |
 
+> **Exam Tip:** "Did the Treaty of Versailles make WWII inevitable?" is a classic Mains question. A balanced answer should argue that Versailles created *necessary* conditions (resentment, economic ruin) but not *sufficient* ones — the Great Depression (1929), failure of the League of Nations, and the appeasement policy were equally critical. Avoid one-dimensional "Versailles caused WWII" arguments.
+
 ---
 
 ## The Russian Revolution (1917)
@@ -251,6 +255,8 @@ The UPSC GS Paper I syllabus covers events from the 18th century onwards that si
 - First successful Marxist revolution; created the Soviet Union (1922)
 - Inspired communist movements worldwide, including in India and China
 - Cold War ideological rivalry between communism and capitalism shaped the 20th century
+
+> **Common Mistake:** The Russian Revolution of 1917 involved *two* separate revolutions, not one. The **February Revolution** (March 1917, Gregorian calendar) overthrew the Tsar and established a Provisional Government. The **October Revolution** (November 1917, Gregorian calendar) was when Lenin's Bolsheviks overthrew that Provisional Government. The date confusion arises because Russia used the Julian calendar, which was 13 days behind the Gregorian calendar.
 
 ---
 

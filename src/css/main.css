@@ -1276,6 +1276,38 @@ a:focus-visible {
 .callout--quote::before { content: '💬'; }
 .callout--quote .callout-title { color: var(--color-highlight); font-style: normal; }
 
+.callout--definition {
+  background: rgba(124,58,237,0.05);
+  border-color: rgba(124,58,237,0.25);
+  color: var(--color-text);
+}
+.callout--definition::before { content: '📖'; }
+.callout--definition .callout-title { color: #7c3aed; }
+
+.callout--example {
+  background: rgba(6,182,212,0.05);
+  border-color: rgba(6,182,212,0.25);
+  color: var(--color-text);
+}
+.callout--example::before { content: '📋'; }
+.callout--example .callout-title { color: #0891b2; }
+
+.callout--comparison {
+  background: rgba(236,72,153,0.05);
+  border-color: rgba(236,72,153,0.25);
+  color: var(--color-text);
+}
+.callout--comparison::before { content: '⚖️'; }
+.callout--comparison .callout-title { color: #db2777; }
+
+.callout--mnemonic {
+  background: rgba(168,85,247,0.05);
+  border-color: rgba(168,85,247,0.25);
+  color: var(--color-text);
+}
+.callout--mnemonic::before { content: '🧠'; }
+.callout--mnemonic .callout-title { color: #9333ea; }
+
 @media (max-width: 480px) {
   .callout { padding: var(--space-4) var(--space-4) var(--space-4) var(--space-10, 2.5rem); }
   .callout::before { left: var(--space-3); font-size: 1rem; }

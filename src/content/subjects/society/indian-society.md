@@ -46,6 +46,8 @@ The caste system is a form of social stratification based on birth, traditionall
 
 **50% cap on reservations**: The Supreme Court in the **Indra Sawhney v. Union of India (1992)** case held that total reservations should not exceed 50%, though the 103rd Amendment (EWS quota) was upheld in **Janhit Abhiyan v. Union of India (2022)**, taking the total above 50%.
 
+> **Common Mistake:** The 50% cap on reservations established in Indra Sawhney (1992) was a judicial ruling, NOT a constitutional provision. The Constitution does not specify any percentage cap. This is why the 103rd Amendment (EWS quota) could take the total above 50% -- it was upheld by the Supreme Court in Janhit Abhiyan (2022) by a 3:2 majority. Also note: the "creamy layer" exclusion applies to OBCs, but NOT to SC/STs (as per the Jarnail Singh v. Lachhmi Narain Gupta, 2018 ruling on promotions).
+
 ### Tribal Communities
 
 | Detail | Fact |
@@ -92,6 +94,8 @@ India's demographic dividend refers to the economic growth potential arising fro
 - Inadequate healthcare and nutrition (stunting, anaemia)
 - Regional disparities — southern states aging faster than northern states
 - Risk of "aging before becoming rich" if dividend is not harnessed
+
+> **Warning:** India's demographic dividend is NOT automatic -- it can turn into a "demographic disaster" if the working-age population lacks skills, employment, and health. Southern states (Kerala, Tamil Nadu, Karnataka) are already aging and will need migrant workers from northern states, while northern states (UP, Bihar) have the youngest populations but weakest education/health infrastructure. This north-south divergence is a frequently tested Mains theme.
 
 ### Urbanisation
 
@@ -141,6 +145,8 @@ India follows a model of **principled distance** (as described by political theo
 | **Article 29-30** | Cultural and educational rights of minorities |
 
 The Supreme Court held that India was secular from the date of adoption of the Constitution itself; the 42nd Amendment merely made explicit what was already implicit in Articles 25-28.
+
+> **Key distinction:** Indian secularism is NOT the same as Western (French laicite) secularism. Western secularism mandates strict separation of state and religion. Indian secularism follows "principled distance" (Rajeev Bhargava's term) -- the state can intervene in religion to ensure reform and equality (e.g., abolition of untouchability, regulation of temples). The state is not anti-religion but equidistant from all religions. This distinction is essential for GS1 Mains answers on secularism.
 
 ---
 

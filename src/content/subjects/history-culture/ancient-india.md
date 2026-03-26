@@ -51,6 +51,8 @@ Also called the **Harappan Civilization**, it flourished in the northwestern Ind
 | **Technology** | Standardized weights and measures, bronze tools, kiln-fired bricks |
 | **Trade** | Seals found in Mesopotamia; Lothal dockyard indicates maritime trade |
 
+> **Mnemonic:** Remember key IVC sites in Gujarat with the mnemonic "**DLS**" — **D**holavira (water reservoirs, signboard), **L**othal (dockyard), **S**urkotada (horse remains). Gujarat has the most important Indian IVC sites — this is a high-frequency Prelims area.
+
 ### Theories of Decline
 
 | Theory | Proposed By / Details |
@@ -129,6 +131,8 @@ Buddhist texts mention **16 Mahajanapadas** (great kingdoms) that dominated nort
 | **Ashoka** | c. 268–232 BCE | Kalinga War (c. 261 BCE); embraced Buddhism; spread Dhamma through edicts |
 | **Later Mauryas** | c. 232–185 BCE | Empire declined; last ruler Brihadratha killed by Pushyamitra Shunga |
 
+> **Mnemonic:** Remember the Mauryan chronology as "**C-B-A**" — **C**handragupta Maurya (founder, 321 BCE) → **B**indusara → **A**shoka (268 BCE). The empire collapsed within ~50 years of Ashoka's death in 232 BCE.
+
 ### Mauryan Administration
 
 | Feature | Details |
@@ -192,6 +196,8 @@ Buddhist texts mention **16 Mahajanapadas** (great kingdoms) that dominated nort
 | **Councils** | 1st — Rajagriha (483 BCE); 2nd — Vaishali (383 BCE); 3rd — Pataliputra (250 BCE, under Ashoka); 4th — Kundalvana, Kashmir (1st century CE, under Kanishka) |
 | **Schools** | Hinayana (Theravada) — individual salvation; Mahayana — universal salvation, Bodhisattva concept |
 
+> **Common Mistake:** Students often confuse the Buddhist Councils. The 3rd Council (Pataliputra, under Ashoka) compiled the Abhidhamma Pitaka, while the 4th Council (Kashmir, under Kanishka) split Buddhism into Hinayana and Mahayana. UPSC frequently tests which patron is associated with which council — don't mix up Ashoka (3rd) and Kanishka (4th).
+
 ### Jainism
 
 | Aspect | Details |
@@ -214,6 +220,8 @@ Buddhist texts mention **16 Mahajanapadas** (great kingdoms) that dominated nort
 | **Rock-Cut Caves** | Barabar Caves (Mauryan, oldest); Ajanta and Ellora (Gupta to later periods) | 3rd century BCE onward |
 | **Gandhara Art** | Greco-Buddhist sculpture; first anthropomorphic Buddha images | 1st–5th century CE |
 | **Mathura Art** | Indigenous Indian style; standing Buddha images in red sandstone | 1st–3rd century CE |
+
+> **Key distinction:** Gandhara vs Mathura art is a perennial Prelims favourite. Gandhara = grey schist/stucco, Greco-Roman features (wavy hair, toga-like robes, muscular body), found in NW India/Pakistan. Mathura = red sandstone, purely Indian features (shaven head, transparent robes, spiritual halo), found in UP. Both schools produced Buddha images, but Gandhara did so first with Hellenistic influence.
 | **Gupta Temples** | Dashavatara Temple (Deogarh), Vishnu Temple (Tigawa) — earliest structural temples | 5th–6th century CE |
 | **Paintings** | Ajanta Caves — Buddhist murals (finest example of ancient Indian painting) | 2nd century BCE–6th century CE |
 

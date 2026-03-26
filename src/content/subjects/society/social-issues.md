@@ -26,6 +26,8 @@ tags:
 | **Tendulkar Committee** | 2009 | Rs 27/day (rural), Rs 33/day (urban) | Shifted from calorie-only to broader consumption basket including health & education; became official line |
 | **Rangarajan Committee** | 2014 | Rs 32/day (rural), Rs 47/day (urban) | Higher poverty estimates; included food and non-food components separately; report not formally adopted |
 
+> **Common Mistake:** The Tendulkar Committee (2009) shifted the methodology from calorie-based (Alagh/Lakdawala approach) to a broader consumption basket including health and education spending. The Rangarajan Committee (2014) gave higher poverty estimates but was never formally adopted. UPSC often tests which committee is the current official benchmark -- it is still the Tendulkar methodology (updated with recent HCES data), not Rangarajan.
+
 ### 1.2 Poverty Statistics
 
 | Metric | Estimate |
@@ -60,6 +62,8 @@ tags:
 | **Maternity Benefit (Amendment) Act** | 2017 | Increased paid maternity leave from 12 to 26 weeks for first two children; creche facility mandated for 50+ employees |
 | **Criminal Law (Amendment) Act** | 2018 | Death penalty for rape of girls under 12; stricter punishment for sexual offences |
 | **Nari Shakti Vandan Adhiniyam (106th Amendment)** | 2023 | Reserves one-third seats for women in Lok Sabha and State Assemblies (effective after delimitation) |
+
+> **Remember:** The Nari Shakti Vandan Adhiniyam (2023) reserves 33% seats for women in Lok Sabha AND State Assemblies, but it will take effect only AFTER the next Census and delimitation exercise. This is a critical caveat -- the reservation is enacted but not yet operational. Also, it does NOT apply to Rajya Sabha or State Legislative Councils. The 73rd and 74th Amendments (1992) already provide 33% reservation for women in Panchayats and Municipalities, and many states have increased this to 50%.
 
 ### 2.2 Key Schemes for Women
 
@@ -135,6 +139,8 @@ tags:
 | **Three-Language Formula** | Flexibility for states; no imposition of any language |
 | **Academic Bank of Credits (ABC)** | Digital repository allowing credit transfer across institutions |
 | **Multiple Entry-Exit** | UG programmes with certificate (1 year), diploma (2 years), degree (3 years), honours/research (4 years) |
+
+> **Exam Tip:** NEP 2020's 5+3+3+4 structure replaces the old 10+2 system. The most tested features are: (a) mother tongue instruction up to Grade 5, (b) multiple entry-exit with Academic Bank of Credits, (c) no rigid stream separation in secondary stage, and (d) 6% GDP spending target on education. Note that NEP 2020 is a policy, not a law -- implementation depends on states since education is on the Concurrent List.
 | **Multidisciplinary Approach** | HEIs to become multidisciplinary by 2040 |
 | **National Research Foundation** | Established to fund and promote research across all disciplines |
 | **HECI** | Higher Education Commission of India to replace UGC, AICTE, NAAC under single umbrella regulator |

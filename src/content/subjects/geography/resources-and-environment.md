@@ -30,6 +30,8 @@ India is endowed with diverse mineral resources, forming the backbone of its ind
 | Chromite | ~344 million tonnes | Odisha (Sukinda Valley -- ~97% of India's production) | Ultramafic rock formations |
 | Gold | Limited reserves | Karnataka (Kolar, Hutti), Rajasthan, Jharkhand | Dharwar schist belts |
 
+> **Exam Tip:** Odisha is India's mineral powerhouse — it leads in iron ore reserves (~35%), bauxite reserves (~50%), chromite production (~97% from Sukinda Valley alone), and is a top state for manganese. When a Prelims question asks about India's leading mineral-producing state, Odisha is the safest answer for metallic minerals. Do not confuse with Jharkhand, which leads in coal (Jharia coalfield) but not metallic minerals.
+
 ### Major Non-Metallic Minerals
 
 | Mineral | Leading States | Key Uses |
@@ -130,6 +132,8 @@ India has made remarkable strides in renewable energy, achieving 50% of its inst
 | Rajasthan | Jaisalmer corridor; growing capacity |
 | Maharashtra | Western Ghats wind corridors |
 
+> **Remember:** India's Three-Stage Nuclear Programme is designed around India's thorium abundance (world's largest reserves). Stage 1 uses natural uranium in PHWRs, Stage 2 breeds plutonium in Fast Breeder Reactors (the Prototype FBR at Kalpakkam), and Stage 3 will use thorium-232 converted to fissile uranium-233. UPSC tests this progression — remember that India is still primarily in Stage 1 with Stage 2 under development. The programme was conceived by Dr. Homi Bhabha.
+
 ### Nuclear Energy
 
 | Parameter | Details |
@@ -164,6 +168,8 @@ India has made remarkable strides in renewable energy, achieving 50% of its inst
 | Mahanadi | 1,41,589 | ~67 |
 | Narmada | 98,796 | ~46 |
 | Kaveri | 81,155 | ~21 |
+
+> **Key distinction:** "Water-stressed" and "water-scarce" are NOT the same thing. A country is water-stressed when per capita water availability falls below 1,700 cubic metres/year, and water-scarce when it falls below 1,000 cubic metres/year. India's per capita availability has declined from ~5,177 m3 (1951) to ~1,486 m3 (2021), meaning India is already water-stressed and approaching scarcity. This distinction matters in Mains answers on water security.
 
 ### Water Stress and Challenges
 

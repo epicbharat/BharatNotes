@@ -48,6 +48,8 @@ The United Nations was founded on **24 October 1945** (UN Day) with 51 original 
 - **Uniting for Consensus** group (led by Pakistan, Italy, South Korea, Argentina) opposes expansion of permanent seats
 - India has served as a non-permanent UNSC member **8 times**, most recently in 2021-22
 
+> **Common Mistake:** The "Uniting for Consensus" (UfC) group is NOT the same as the G4. The UfC (also called the "Coffee Club"), led by Pakistan, Italy, South Korea, and Argentina, OPPOSES the expansion of permanent seats. They propose adding only non-permanent seats. Do not confuse these two groups -- UPSC has tested this distinction in both Prelims and Mains.
+
 ### Key UN Specialised Agencies
 
 | Agency | Full Name | HQ | Key Role |
@@ -86,6 +88,8 @@ The United Nations was founded on **24 October 1945** (UN Day) with 51 original 
 - Often called the "jewel in the crown" of the WTO
 - Dispute Settlement Body (DSB) administers the process
 - **Appellate Body crisis**: Since December 2019, the Appellate Body has been non-functional due to US blocking of new appointments — only 2 of 7 positions filled; quorum (3) not met
+
+> **Exam Tip:** The WTO's Dispute Settlement Mechanism is called the "jewel in the crown" of the WTO, but the Appellate Body has been paralysed since December 2019. For Mains, this is a critical point when discussing WTO reform. India benefits from a functional dispute mechanism as it is both complainant and respondent in multiple cases. The Appellate Body crisis effectively means there is no binding final appeal -- panels can issue rulings but losing parties can "appeal into the void."
 - India has been a party to numerous disputes, including solar energy, poultry, steel
 
 ### Fisheries Subsidies Agreement
@@ -113,6 +117,8 @@ The United Nations was founded on **24 October 1945** (UN Day) with 51 original 
 - International reserve asset created by the IMF in 1969
 - SDR basket currencies: US dollar, Euro, Chinese renminbi (added 2016), Japanese yen, British pound
 - Not a currency but a claim on freely usable currencies of IMF members
+
+> **Remember:** SDR is NOT a currency -- it is a supplementary international reserve asset. It is a claim on freely usable currencies. The Chinese renminbi was added to the SDR basket in 2016 (effective 1 October 2016), making it 5 currencies. India's quota share is 2.75% (8th largest), but its voting share is 2.63% -- note the difference between quota and voting share, which UPSC has tested.
 
 ### Quota Reforms
 

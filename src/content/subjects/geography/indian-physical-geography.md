@@ -78,6 +78,8 @@ The Indo-Gangetic plain is formed by the alluvial deposits of the Indus, Ganga, 
 | Bhangar | Older alluvium; above flood level; contains kankar (calcareous nodules) | Higher terraces of river valleys |
 | Khadar | Newer alluvium; renewed by annual floods; highly fertile | Flood plains of rivers |
 
+> **Mnemonic:** Remember the Northern Plains zones from north to south as **"B-T-B-K"** (Bhabar, Terai, Bhangar, Khadar). Think: "**B**ig **T**igers **B**ring **K**haos." Also remember: Bhabar = streams disappear (porous pebbles), Terai = streams re-emerge (marshy), Bhangar = old alluvium with kankar, Khadar = new alluvium (fertile flood plains).
+
 ---
 
 ## The Peninsular Plateau
@@ -92,6 +94,8 @@ The Peninsular Plateau is India's oldest and most stable landmass, composed prim
 | Deccan Plateau | South of Narmada; triangular; higher on western side; slopes eastward |
 | Western Ghats | Average height 900-1600 m; continuous range; higher than Eastern Ghats |
 | Eastern Ghats | Discontinuous; average 600 m; cut by Godavari, Krishna, Kaveri rivers |
+
+> **Common Mistake:** The Western Ghats are NOT fold mountains — they are a faulted edge (escarpment) of the Deccan Plateau, formed by down-faulting of the western coast. The Himalayas are fold mountains. UPSC frequently tests the distinction between young fold mountains, block mountains, and residual mountains. Similarly, the Aravalli Range is a residual mountain (oldest fold mountains, now heavily eroded), not a young fold mountain.
 
 ### Important Peaks of Western and Eastern Ghats
 
@@ -129,6 +133,8 @@ India's rivers are classified into two major groups based on their origin: **Him
 | Radial | Rivers flow outward from a central high point | Rivers originating from Amarkantak |
 | Rectangular | Right-angle bends due to jointed rocks | Chambal drainage in parts |
 | Centripetal | Rivers converge into a depression | Loktak Lake drainage |
+
+> **Key distinction:** Narmada and Tapi are the only two major peninsular rivers that flow westward into the Arabian Sea. Both flow through rift valleys (linear, fault-formed troughs), NOT ordinary valleys. This is why they do NOT form deltas — they form estuaries instead. All other major peninsular rivers (Godavari, Krishna, Kaveri, Mahanadi) flow eastward and form deltas. UPSC has directly tested this in Prelims 2013.
 
 ### Himalayan vs. Peninsular Rivers
 

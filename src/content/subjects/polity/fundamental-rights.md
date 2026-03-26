@@ -28,6 +28,8 @@ Fundamental Rights are inspired by the **US Bill of Rights** and represent the c
 - **Can be suspended during Emergency** (except Articles 20 and 21 — even during National Emergency, per the 44th Amendment)
 - **Can be amended** by Parliament under Article 368, subject to the Basic Structure doctrine
 
+> **Remember:** Articles 20 (protection from conviction) and 21 (right to life) can **never** be suspended — not even during a National Emergency. The 44th Amendment made this ironclad after the excesses of the 1975 Emergency. This is one of the most tested facts in Prelims.
+
 ---
 
 ## Right to Equality (Articles 14–18)
@@ -166,6 +168,8 @@ Dr. B.R. Ambedkar called Article 32 the **"heart and soul"** of the Constitution
 | **35** | Only Parliament (not state legislatures) can make laws for implementing certain Fundamental Rights |
 
 ---
+
+> **Common Mistake:** Aspirants confuse Article 14 (available to ALL persons including foreigners) with Article 15 (citizens only). Both deal with "equality" but their scope is different. Article 14 = equality before law (universal). Article 15 = non-discrimination on specific grounds (citizens only). UPSC exploits this confusion regularly.
 
 ## Fundamental Rights That Are NOT Available to Foreigners
 

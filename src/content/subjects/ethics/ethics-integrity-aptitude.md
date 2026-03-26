@@ -39,6 +39,8 @@ This paper carries **250 marks** and is unique because it evaluates not just kno
 |--------|---------------|----------------|-----------|
 | **Consequentialism / Utilitarianism** | Jeremy Bentham, J.S. Mill | Actions are right if they produce the greatest good for the greatest number | Ignores individual rights; "ends justify the means" problem |
 | **Deontological Ethics** | Immanuel Kant | Actions are moral based on duty and universal rules, regardless of consequences | Rigid; cannot resolve conflicts between duties |
+
+> **Exam Tip:** In GS4 case studies, never rely on a single ethical theory. The examiner expects you to apply multiple frameworks -- use utilitarianism to assess consequences, Kant's duty-based approach to check if the action can be universalised, and Rawls' Difference Principle to see if the most disadvantaged are protected. Citing 2-3 thinkers with their specific concepts (not just names) significantly improves marks.
 | **Virtue Ethics** | Aristotle | Focus on developing virtuous character traits (courage, justice, temperance, wisdom) | Vague on specific action guidance; culturally relative |
 | **Social Contract Theory** | Hobbes, Locke, Rousseau | Morality arises from agreements among individuals for mutual benefit | Hypothetical consent is not real consent |
 | **Ethics of Care** | Carol Gilligan, Nel Noddings | Emphasises relationships, empathy, and contextual moral reasoning | May neglect justice and universal principles |
@@ -109,6 +111,8 @@ The quality of being honest and having strong moral principles. In public life, 
 
 Daniel Goleman's framework identifies five domains of emotional intelligence. Critically, Goleman asserts these are **learned capabilities, not inborn traits**, and can be developed.
 
+> **Remember:** Goleman's five EI components follow a logical hierarchy: Self-Awareness comes first (you must know your emotions before managing them), then Self-Regulation, then Motivation (internal drive), then Empathy (understanding others), and finally Social Skills (managing relationships). In GS4, always emphasise that EI is learnable and developable -- this is what makes it relevant for civil services training.
+
 | Component | Description | Relevance for Civil Servants |
 |-----------|-------------|------------------------------|
 | **Self-Awareness** | Recognising one's own emotions, strengths, weaknesses, and their effect on others | Foundation of all EI — aids in unbiased decision-making |
@@ -147,6 +151,8 @@ The Committee on Standards in Public Life was established in October 1994 by Pri
 | **Scope** | Specific behaviours and actions | Overall ethical framework |
 | **Example** | CCS (Conduct) Rules, 1964 | AIS (Code of Conduct) — values like integrity, impartiality |
 | **Limitation** | Cannot cover every situation | Vague; open to interpretation |
+
+> **Key distinction:** Code of Conduct is PRESCRIPTIVE (tells you what to do/not do -- like CCS Conduct Rules), while Code of Ethics is ASPIRATIONAL (guiding values). In answer writing, use this distinction to argue that both are needed -- a Code of Ethics without a Code of Conduct lacks teeth, while a Code of Conduct without ethical grounding becomes a mere checklist. This shows depth of understanding.
 
 ---
 

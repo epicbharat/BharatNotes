@@ -54,6 +54,8 @@ The Indian Constitution was adopted on **26 November 1949** and came into effect
 9. **Universal Adult Franchise** — every citizen 18+ can vote (61st Amendment, 1989)
 10. **Single Citizenship**
 
+> **Common Mistake:** The Constitution does **not** define "basic structure" anywhere. There is no article that lists its elements. The doctrine was entirely a **judicial creation** in Kesavananda Bharati (1973), and its contours are still evolving through subsequent judgments. UPSC tested this directly in CSE 2020 — both statements were wrong because aspirants assumed basic structure is codified.
+
 ## Basic Structure Doctrine
 
 Established in **Kesavananda Bharati v. State of Kerala (1973)** — the Supreme Court held that Parliament can amend any part of the Constitution but cannot alter its "basic structure."
@@ -68,6 +70,8 @@ Established in **Kesavananda Bharati v. State of Kerala (1973)** — the Supreme
 - Judicial review
 - Rule of law
 - Free and fair elections
+
+> **Key distinction:** India's amendment procedure (Article 368) has **three categories**: (1) Simple majority — like an ordinary law (e.g., creation of new states), (2) Special majority — majority of total membership + 2/3rd present and voting (most amendments), (3) Special majority + ratification by half the state legislatures (federal provisions like election of President, distribution of powers). Knowing which category an amendment falls into is critical for Prelims.
 
 ## Landmark Amendments
 

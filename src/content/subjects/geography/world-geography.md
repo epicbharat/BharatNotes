@@ -74,6 +74,8 @@ Plate tectonics is the unifying theory in geology that explains the movement of 
 | Convergent (Destructive) | Plates move toward each other | Mountains, trenches, volcanic arcs, subduction zones | Himalayas (continental-continental); Andes (oceanic-continental); Mariana Trench (oceanic-oceanic) |
 | Transform (Conservative) | Plates slide past each other | Faults, earthquakes; no creation or destruction of crust | San Andreas Fault (California); Dead Sea Transform |
 
+> **Common Mistake:** The Ring of Fire is NOT associated with divergent boundaries — it is primarily a zone of convergent and transform plate boundaries around the Pacific Ocean. A 2020 Prelims question tested this exact misconception. Also remember: mid-ocean ridges (like the Mid-Atlantic Ridge) are divergent boundaries, NOT part of the Ring of Fire.
+
 ### Convergent Boundary Sub-types
 
 | Sub-type | Process | Landforms | Example |
@@ -129,6 +131,8 @@ Ocean currents are large-scale movements of seawater driven by wind, the Corioli
 | Oyashio Current | Pacific | Flows southward from Bering Sea past Kuril Islands | Mixes with Kuroshio creating rich fishing grounds |
 | West Australian Current | Indian | Flows northward along west coast of Australia | Weak cold current |
 | Falkland Current | Atlantic | Flows northward along east coast of South America | Meets warm Brazil Current |
+
+> **Remember:** Cold ocean currents on western coasts of continents create coastal deserts — this is a pattern UPSC loves to test. The Peru (Humboldt) Current creates the Atacama Desert, the Benguela Current creates the Namib Desert, the Canary Current contributes to Saharan aridity, and the West Australian Current contributes to Western Australian aridity. The mechanism is: cold water cools the air above it, preventing moisture from rising, thus suppressing rainfall.
 
 ### Impact of Ocean Currents
 
@@ -295,6 +299,8 @@ Weathering is the in-situ breakdown of rocks without transportation.
 | Depositional | Esker | Long, winding ridge of sand and gravel deposited by meltwater stream in ice tunnel |
 | Depositional | Outwash Plain (Sandur) | Flat area of sediment deposited by meltwater beyond glacier terminus |
 | Depositional | Erratic | Large boulder transported and deposited by glacier far from source |
+
+> **Mnemonic:** For glacial depositional landforms, remember **"M-D-E-O-E"** (Moraine, Drumlin, Esker, Outwash plain, Erratic). Drumlins are egg-shaped hills with the steeper end facing upstream (direction of ice flow), while eskers are long winding ridges formed by meltwater streams INSIDE ice tunnels. Prelims may show diagrams — drumlins look like inverted spoons, eskers look like winding snakes.
 
 ### Aeolian Landforms (Wind Action)
 

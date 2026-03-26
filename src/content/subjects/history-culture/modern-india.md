@@ -41,6 +41,8 @@ Modern Indian history (c. 1757–1947) covers the period of British colonial rul
 | **Lord Cornwallis** | 1786–1793 | Permanent Settlement (1793) — fixed land revenue with zamindars in Bengal; Cornwallis Code — Europeanized civil services |
 | **Lord Wellesley** | 1798–1805 | Subsidiary Alliance System — Indian states forced to accept British troops and resident |
 | **Lord William Bentinck** | 1828–1835 | First Governor-General of India; abolished Sati (1829); English as medium of instruction (Macaulay's Minute, 1835) |
+
+> **Key distinction:** Warren Hastings was the first **Governor-General of Bengal** (1772), while Lord William Bentinck was the first **Governor-General of India** (1828). UPSC has tested this distinction directly — don't confuse the two titles.
 | **Lord Dalhousie** | 1848–1856 | Doctrine of Lapse — annexed Satara, Jhansi, Nagpur, Oudh (Awadh); railways, telegraph, postal reforms |
 | **Lord Canning** | 1856–1862 | Last Governor-General of EIC, first Viceroy of British India; managed the 1857 Revolt aftermath |
 | **Lord Ripon** | 1880–1884 | Local Self-Government Resolution (1882); Ilbert Bill controversy; Factory Act (1881) |
@@ -56,6 +58,8 @@ Modern Indian history (c. 1757–1947) covers the period of British colonial rul
 | **Permanent Settlement (Zamindari)** | 1793 | Bengal, Bihar, Orissa | Revenue fixed permanently with zamindars; zamindar treated as landowner; peasants had no rights |
 | **Ryotwari** | 1820 | Madras, Bombay | Settlement directly with ryots (cultivators); revenue revised periodically |
 | **Mahalwari** | 1833 | Central Provinces, NW Provinces, Punjab | Revenue collected from village (mahal) as a unit; village headman responsible |
+
+> **Exam Tip:** UPSC loves to test the differences between land revenue systems. The key distinction: in Zamindari, the **zamindar** was the intermediary; in Ryotwari, the **individual cultivator** dealt directly with the state; in Mahalwari, the **village community** was collectively responsible. Remember "Z for Zamindar, R for Ryot, M for Mahal (village)."
 
 ---
 
@@ -133,6 +137,8 @@ The **Indian National Congress (INC)** was founded on **28 December 1885** in Bo
 | **Kheda Satyagraha** | 1918 | Crop failure; government demanded full revenue | Revenue collection suspended |
 | **Rowlatt Satyagraha** | 1919 | Rowlatt Act — detention without trial | Jallianwala Bagh Massacre (13 April 1919) — General Dyer ordered firing; ~379 killed (official) |
 | **Non-Cooperation Movement (NCM)** | 1920–1922 | Jallianwala Bagh, Khilafat issue | Boycott of legislatures, courts, schools; withdrew after Chauri Chaura incident (5 Feb 1922) |
+
+> **Common Mistake:** The Quit India Movement (1942) was launched by Gandhi, but he was arrested within hours along with the entire Congress leadership. The movement was largely leaderless and spontaneous — underground leaders like Jayaprakash Narayan, Aruna Asaf Ali, and Ram Manohar Lohia kept it alive. Don't credit Gandhi with directing the day-to-day movement.
 | **Civil Disobedience Movement (CDM)** | 1930–1934 | Salt tax; demand for Purna Swaraj (26 Jan 1930 declaration) | Salt March (Dandi March): 12 March – 6 April 1930; Gandhi-Irwin Pact (1931); Round Table Conferences |
 | **Quit India Movement (QIM)** | 1942–1943 | Failure of Cripps Mission; WWII crisis | "Do or Die" call (8 August 1942); entire Congress leadership arrested; underground movement; severely repressed |
 

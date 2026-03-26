@@ -60,6 +60,8 @@ The Intergovernmental Panel on Climate Change (IPCC), established in 1988 by WMO
 
 India ratified the Paris Agreement on 2 October 2016. The Agreement aims to limit global temperature rise to well below 2 degrees C, preferably 1.5 degrees C, above pre-industrial levels.
 
+> **Common Mistake:** The Paris Agreement (2015) is NOT legally binding in terms of emission reduction targets. Each country sets its own NDCs (Nationally Determined Contributions) voluntarily. Only the reporting and transparency mechanisms are mandatory. Contrast this with the Kyoto Protocol, which had legally binding targets for Annex I (developed) countries. UPSC tests this distinction repeatedly.
+
 ### Panchamrit -- Five Climate Pledges (COP26, Glasgow, 2021)
 
 Prime Minister Narendra Modi announced five climate targets at COP26 in November 2021:
@@ -121,6 +123,8 @@ Launched in **2014** by the Central Pollution Control Board (CPCB), the AQI uses
 | 401--500 | Severe | Maroon | Affects healthy people; serious impact on those with existing diseases |
 
 **Pollutants Monitored:** PM10, PM2.5, NO2, SO2, CO, O3, NH3, and Pb (8 pollutants).
+
+> **Mnemonic:** Remember the 8 AQI pollutants with "**PM PM NO SO CO O AN PB**" -- PM10, PM2.5, NO2, SO2, CO, O3 (ozone), NH3 (ammonia), Pb (lead). The AQI value is determined by the worst-performing pollutant on a given day (called the "predominant pollutant"). In Indian cities, PM2.5 is almost always the predominant pollutant in winter.
 
 #### National Clean Air Programme (NCAP)
 
@@ -222,6 +226,8 @@ The EIA Notification, 2006 (under EPA 1986) lays down the procedure for obtainin
 | Regional Benches | Bhopal, Pune, Kolkata, Chennai |
 | Suo Motu Powers | Yes (confirmed by Supreme Court, 2021) |
 | Jurisdiction Covers | 7 environmental laws including EPA 1986, Water Act 1974, Air Act 1981, Forest Conservation Act, Biological Diversity Act, Public Liability Insurance Act, NGT Act |
+
+> **Remember:** NGT was established under the NGT Act, 2010 -- NOT under EPA 1986. This is a common Prelims trap. Also note: NGT does not cover the Wildlife (Protection) Act, 1972 under its Schedule I jurisdiction. Wildlife-related cases must go to regular courts or the Supreme Court.
 
 ---
 

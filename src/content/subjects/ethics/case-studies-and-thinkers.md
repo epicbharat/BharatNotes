@@ -72,6 +72,8 @@ tags:
 | **Categorical Imperative** | "Act only according to that maxim whereby you can at the same time will that it should become a universal law" — moral duty is absolute, not dependent on consequences | Universal application of rules; impartial administration; duty-bound governance |
 | **Duty-Based Ethics (Deontology)** | Actions are morally right based on adherence to rules/duties, not outcomes; right action is an end in itself | Following rules and procedures; upholding constitutional obligations regardless of outcomes |
 | **Humanity as an End** | "Treat humanity, whether in your own person or in the person of any other, always as an end and never merely as a means" | Human dignity; anti-exploitation; citizen-centric governance |
+
+> **Exam Tip:** Kant's Categorical Imperative has two formulations that UPSC tests -- (1) the Universalisability Test ("Can I will this maxim to become a universal law?") and (2) the Humanity Formula ("Never treat people merely as means"). In case studies, apply both: ask whether the proposed action could be universalised without contradiction, AND whether it treats all stakeholders as ends in themselves, not just instruments.
 | **Moral Autonomy** | Rational beings are capable of self-legislation; morality comes from reason, not external authority | Individual conscience; ethical decision-making; whistleblowing |
 | **Good Will** | The only thing good without qualification; acting from duty rather than inclination | Public service motivation; integrity; selfless service |
 
@@ -127,6 +129,8 @@ tags:
 | **Limitation** | May be impractical in extreme situations | Rigid; ignores consequences | Abstract; hard to implement | Vague; culturally relative | Can justify oppression of minorities |
 | **UPSC Relevance** | Frequently asked; foundational | Theoretical questions | Social justice questions | Character-building questions | Policy evaluation questions |
 
+> **Warning:** Do not confuse Gandhi's ethics with pure deontology or pure consequentialism. Gandhi blended both -- he was committed to duty (Satya, Ahimsa) but also cared deeply about outcomes (Sarvodaya). He is best classified as a deontological thinker with virtue ethics elements. Similarly, Ambedkar is NOT merely about reservation -- his core contribution is "Constitutional Morality," which means adherence to constitutional processes and values over popular sentiment or majoritarian impulse.
+
 ---
 
 ## Case Study Framework for UPSC GS-IV
@@ -142,6 +146,8 @@ tags:
 | **Step 5** | Evaluate each option | Apply ethical theories (Kant: duty; Rawls: justice; Utilitarianism: consequences; Gandhi: truth/ahimsa; Aristotle: virtue) |
 | **Step 6** | Choose best option | Select the option that best balances competing values; justify with ethical reasoning |
 | **Step 7** | Address implementation | Describe how you would execute the chosen option; mention safeguards |
+
+> **Exam Tip:** In GS4 case studies (Section B, 20 marks each), the examiner expects a structured answer with: (a) identification of stakeholders, (b) values at stake, (c) multiple options with ethical evaluation, (d) recommended option with justification citing specific thinkers, and (e) a concrete action plan. Simply stating "I would do the right thing" scores poorly -- you must show the reasoning process. Allocate roughly 15-18 minutes per case study.
 
 ---
 

@@ -44,6 +44,8 @@ Biotechnology is the use of biological systems, living organisms, or their deriv
 | **GM Mustard (DMH-11)** | Developed by Delhi University; GEAC recommended; pending commercial release; environmental bio-safety data being generated |
 | **Bt Brinjal** | GEAC approved in 2009; moratorium imposed in 2010 by then Environment Minister; Supreme Court Technical Expert Committee recommended 10-year moratorium |
 
+> **Common Mistake:** Bt Cotton is the ONLY commercially approved GM crop in India (since 2002). Bt Brinjal was approved by GEAC but placed under an indefinite moratorium in 2010. GM Mustard (DMH-11) was recommended by GEAC but is still pending. UPSC Prelims has repeatedly tested which GM crops are actually approved for cultivation -- the answer is only Bt Cotton. Do not confuse GEAC recommendation with final commercial approval.
+
 ### 2.2 Regulatory Framework for GM Crops
 
 | Body | Role |
@@ -67,6 +69,8 @@ In October 2022, DBT notified Standard Operating Procedures (SOPs) for regulator
 | Aspect | Detail |
 |--------|--------|
 | **CRISPR-Cas9** | Revolutionary gene-editing tool; allows precise modification of DNA sequences |
+
+> **Key distinction:** CRISPR-Cas9 is gene EDITING (precise modification of existing DNA), which is different from traditional genetic MODIFICATION (inserting foreign genes from another organism). India's 2022 SOPs provide a simplified regulatory pathway for SDN-1 and SDN-2 genome-edited plants (which do not contain foreign DNA), treating them differently from transgenic GM crops. This regulatory distinction is increasingly important for Prelims.
 | **India's first CRISPR therapy** | BIRSA 101 — indigenous CRISPR-based gene therapy for Sickle Cell Disease, developed by CSIR-IGIB |
 | **Technology Partner** | Serum Institute of India — collaboration for scalable, affordable CRISPR therapies |
 | **CRISPR Diagnostic** | Tata CRISPR test (FELUDA) — India's first CRISPR-based COVID-19 diagnostic; 96% sensitivity, 98% specificity; approved by DCGI |
@@ -170,6 +174,8 @@ The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy was ap
 |--------|--------|
 | **Concept** | Integrated approach recognising the interconnection between human health, animal health, and the environment |
 | **Relevance** | ~75% of emerging infectious diseases are zoonotic in origin |
+
+> **Exam Tip:** "One Health" recognises the interconnection between human health, animal health, and the environment. This is a high-frequency Mains theme post-COVID. Key fact: ~75% of emerging infectious diseases are zoonotic. For answers on COVID-19, AMR, or avian flu, always invoke the One Health framework and mention that India's NAP-AMR (2017) explicitly adopted this approach. The institutional challenge is inter-ministerial coordination between MoHFW, MoAHD, and MoEFCC -- a governance angle that adds value.
 | **India's Adoption** | NAP-AMR (2017) adopted One Health framework; inter-ministerial coordination between MoHFW, MoAHD, MoEFCC |
 | **Key Focus Areas** | Zoonotic diseases, food safety, antibiotic resistance, environmental health |
 | **ICMR Initiative** | Integrated One Health Surveillance Network for AMR in collaboration with ICAR |

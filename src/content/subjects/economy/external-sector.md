@@ -56,6 +56,8 @@ Key drivers: Goods deficit eased to USD 87.4 billion in H1 FY26; services surplu
 |-----------|--------|-------------|
 | **FDI** | Long-term, stable | Investor acquires 10%+ equity stake; brings technology, management |
 | **FPI** | Short-term, volatile | Investment in stocks, bonds without control; sensitive to global risk appetite |
+
+> **Common Mistake:** The 10% equity threshold between FDI and FPI is about **managerial control intent**, not just a number. If a foreign investor buys exactly 10% of an Indian company's equity, it is classified as FDI. If the same investor buys 9.9%, it is FPI — even though the economic impact may be similar. Also note: FDI is recorded in the BoP at the time of actual investment, while FPI fluctuates with market valuation. This is why capital account volatility is driven more by FPI than FDI.
 | **ECB** | Debt instrument | Foreign currency loans by Indian corporates; regulated by RBI under FEMA |
 | **NRI Deposits** | Debt flows | FCNR(B), NRE, NRO accounts |
 | **Banking Capital** | Short-term | Nostro/Vostro balances, overseas borrowing by banks |
@@ -104,6 +106,8 @@ India follows a **managed float** (dirty float) exchange rate regime since 1993,
 - RBI publishes NEER/REER indices with **base year 2015-16** covering a basket of **40 currencies**
 - A rising REER implies Indian goods becoming relatively more expensive compared to trading partners — loss of competitiveness
 - A falling REER implies improved price competitiveness
+
+> **Exam Tip:** REER is counter-intuitive: a REER above 100 means the rupee is **overvalued in real terms** even if the nominal exchange rate has depreciated. This happens when India's inflation is higher than trading partners'. So even if the rupee falls from 83 to 86 per dollar (nominal depreciation), REER can still rise if Indian inflation outpaces US inflation. UPSC tests this conceptual nuance, not the numbers.
 
 ### Factors Affecting Exchange Rate
 
@@ -277,6 +281,8 @@ Launched to boost domestic manufacturing and reduce import dependence.
 | **Mechanism** | Incentive of 4–6% on incremental sales for 5 years after meeting investment and production thresholds |
 | **Performance (by March 2025)** | Realized investments ~Rs. 1.76 lakh crore; 806 approved applications |
 | **Budget 2025-26 highlights** | Electronics allocation increased from Rs. 5,777 crore to Rs. 9,000 crore; auto components doubled |
+
+> **Remember:** India's "impossible trinity" (or trilemma) is critical for Mains. A country cannot simultaneously have all three: (1) free capital movement, (2) fixed exchange rate, and (3) independent monetary policy. India chose a managed float + largely open capital account, which means RBI's monetary policy autonomy is partially constrained. When FPI inflows surge, RBI must either let the rupee appreciate (hurting exports) or buy dollars (increasing money supply and inflation). This trilemma explains most of RBI's forex intervention decisions.
 
 ### RoDTEP (Remission of Duties and Taxes on Exported Products)
 

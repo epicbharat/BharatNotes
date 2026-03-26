@@ -71,6 +71,8 @@ tags:
 - Small and marginal farmers could not afford HYV technology
 - MSP-driven procurement of wheat/rice led to neglect of crop diversification
 
+> **Mnemonic:** Remember the colour-coded revolutions with "**WBYGP**" — **W**hite (dairy, Kurien), **B**lue (fisheries), **Y**ellow (oilseeds), **G**reen (food grains, Swaminathan), **P**ink (pharmaceuticals/onion). For exams, always pair the revolution with its pioneer AND the commodity — UPSC 2020 tested White Revolution's connection to Operation Flood specifically.
+
 ### Post-Green Revolution Developments
 - **White Revolution (Operation Flood)** — dairy (Verghese Kurien, 1970); India became world's largest milk producer
 - **Blue Revolution** — fisheries and aquaculture
@@ -104,6 +106,8 @@ tags:
 
 > Government policy (since 2018-19 budget): MSP set at **minimum 1.5 times A2+FL cost**. Farmers' groups demand MSP at 1.5 times C2 cost (which includes land rent).
 
+> **Key distinction:** The difference between A2+FL and C2 is NOT trivial — it can be 30-50% higher. For example, if A2+FL for wheat is Rs. 1,100/quintal, the MSP at 1.5x would be Rs. 1,650. But C2 might be Rs. 1,500/quintal, making 1.5x C2 = Rs. 2,250. The Swaminathan Commission (2006) recommended MSP at 1.5x C2, which the government has not accepted. This A2+FL vs C2 debate is the single most important MSP issue for Mains — know the numbers and the politics.
+
 ### MSP Procurement Issues
 - Only **6% of farmers** benefit from MSP procurement (primarily wheat and rice farmers in Punjab, Haryana, MP)
 - Creates surplus of rice/wheat, storage problems in FCI godowns
@@ -132,6 +136,8 @@ tags:
 | **Antyodaya Anna Yojana (AAY)** | Poorest of the poor — 35 kg/family/month |
 | **Priority Households (PHH)** | 5 kg/person/month |
 | **Maternity benefit** | Rs. 6,000 for pregnant and lactating mothers (Pradhan Mantri Matru Vandana Yojana) |
+
+> **Warning:** NFSA prices (Rs. 3/2/1 per kg) were the original statutory rates. After PMGKAY was subsumed into NFSA from January 2024, food grains are now provided **completely free** to all NFSA beneficiaries for 5 years. If a Prelims question asks about the "current" entitlement under NFSA, the answer is free — not Rs. 3/2/1. Many standard textbooks still cite the old prices.
 | **Mid-Day Meal** | Free lunch for children in government schools (now PM POSHAN) |
 
 ### PM Garib Kalyan Anna Yojana (PMGKAY)

@@ -64,6 +64,8 @@ India faces a complex internal security environment shaped by its geography, div
 
 **Root Causes:** Ethnic identity assertion, perceived neglect by mainland India, porous Myanmar border, demand for autonomy/sovereignty.
 
+> **Remember:** The 1986 Mizo Accord is considered the most successful peace accord in India's history -- Mizoram has been peaceful since. Know the key accords: Mizo Accord (1986), Naga Peace Accord framework (2015, still unresolved), Assam Accord (1985), Bodo Accord (2020). For Mains, contrast the Mizo success (statehood + genuine autonomy) with the prolonged Naga issue (sovereignty demand vs. territorial integrity) to show analytical depth.
+
 ---
 
 ## Cyber Security
@@ -91,6 +93,8 @@ The IT Act 2000 is India's primary legislation dealing with cybercrime and elect
 | **Section 69** | Power to intercept, monitor, or decrypt information for national security |
 | **Section 69A** | Power to block public access to information on the internet |
 | **Section 79** | Safe harbour for intermediaries — conditional immunity from third-party content |
+
+> **Key distinction:** Section 66A (criminalising "offensive" online content) was struck down by the Supreme Court in Shreya Singhal v. Union of India (2015) as violating Article 19(1)(a). However, Section 69A (power to block websites for national security) remains valid. Students often confuse these two sections. Section 66F (cyber terrorism) carries punishment up to life imprisonment -- the harshest penalty under the IT Act.
 
 ### Digital Personal Data Protection Act, 2023
 
@@ -180,6 +184,8 @@ The PMLA was enacted in January 2003 and came into force on **1 July 2005**.
 | **Grey List** | Countries with strategic deficiencies in AML/CFT — subject to increased monitoring |
 | **Black List** | High-risk jurisdictions — counter-measures applied |
 | **India's Status** | Full member since 2010; currently not on grey or black list |
+
+> **Exam Tip:** FATF's Grey List (officially "Jurisdictions Under Increased Monitoring") is NOT the same as the Black List ("High-Risk Jurisdictions Subject to a Call for Action"). Pakistan was on the Grey List from 2018 to 2022. Being grey-listed affects a country's credit ratings, foreign investment, and international banking relations. India, as a full FATF member since 2010, participates in evaluating other countries -- a fact useful for Mains answers on India's role in global financial governance.
 
 ---
 
