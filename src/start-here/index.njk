@@ -1,90 +1,274 @@
 ---
 layout: base.njk
 title: "Start Here — Your UPSC Preparation Guide"
-description: "New to UPSC? Start here. Choose your preparation stage and get a personalised study path — from foundation basics to interview preparation."
+description: "New to UPSC? Start here. Choose your preparation stage and get a clear study path — from foundation basics to Mains answer writing."
 ---
 
 <section class="page-header">
-  <div class="container" style="text-align:center;">
+  <div class="container">
     <p class="page-header__eyebrow">Welcome to BharatNotes</p>
     <h1 class="page-header__title">Where Should You Start?</h1>
-    <p class="page-header__subtitle">Tell us your preparation stage and we'll guide you to the right resources. No login needed — just start studying.</p>
+    <p class="page-header__subtitle">Pick your preparation stage below. Each path gives you a clear action plan with links to exactly what you need.</p>
   </div>
 </section>
 
 <section style="padding:var(--space-8) 0;">
   <div class="container">
 
-    <!-- Stage Selection -->
+    {# ── Quick Nav ── #}
+    <div class="info-card" style="margin-bottom:var(--space-8);">
+      <div class="info-card__grid" style="grid-template-columns:repeat(auto-fit, minmax(140px, 1fr));">
+        <a href="#beginner" class="info-card__item" style="text-decoration:none;">
+          <span class="info-card__num" style="color:#16a34a;">1</span>
+          <span class="info-card__label">Beginner</span>
+        </a>
+        <a href="#prelims" class="info-card__item" style="text-decoration:none;">
+          <span class="info-card__num" style="color:#d4a017;">2</span>
+          <span class="info-card__label">Prelims Focus</span>
+        </a>
+        <a href="#mains" class="info-card__item" style="text-decoration:none;">
+          <span class="info-card__num" style="color:#0f4c3a;">3</span>
+          <span class="info-card__label">Mains Prep</span>
+        </a>
+        <a href="#revision" class="info-card__item" style="text-decoration:none;">
+          <span class="info-card__num" style="color:#7c3aed;">4</span>
+          <span class="info-card__label">Revision Mode</span>
+        </a>
+      </div>
+    </div>
+
+    {# ══════════════════════════════════════════════════════════
+       STAGE 1 — BEGINNER
+       ══════════════════════════════════════════════════════════ #}
     <div id="beginner" style="margin-bottom:var(--space-10);">
-      <div class="card" style="border-left:6px solid #16a34a; padding:var(--space-6);">
-        <h2 style="font-family:var(--font-serif); font-size:var(--text-xl); color:#16a34a; margin-bottom:var(--space-3);">🌱 Stage 1 — Complete Beginner</h2>
-        <p style="font-size:var(--text-sm); color:var(--color-text-muted); margin-bottom:var(--space-4);">You're new to UPSC or just decided to prepare. You need to understand the exam first, then build a strong foundation.</p>
+      <h2 class="section-heading" style="border-color:#16a34a;">🌱 Stage 1 — Complete Beginner</h2>
+      <p style="color:var(--color-text-muted); font-size:var(--text-sm); margin-bottom:var(--space-6);">You're new to UPSC or just decided to prepare. Understand the exam first, then build a strong foundation.</p>
 
-        <h4 style="color:var(--color-brand); margin-bottom:var(--space-2);">Your First 4 Weeks:</h4>
-        <ol style="font-size:var(--text-sm); margin-left:var(--space-5); margin-bottom:var(--space-4);">
-          <li style="margin-bottom:var(--space-2);"><strong>Week 1:</strong> Understand the exam — read our <a href="/resources/">Resources page</a> for exam structure, booklist, and strategy</li>
-          <li style="margin-bottom:var(--space-2);"><strong>Week 2:</strong> Start with <a href="/subjects/polity/">Polity</a> — read Foundation-level notes, then try 10 MCQs</li>
-          <li style="margin-bottom:var(--space-2);"><strong>Week 3:</strong> Add <a href="/subjects/economy/">Economy</a> and <a href="/subjects/geography/">Geography</a> — Foundation notes + MCQs</li>
-          <li style="margin-bottom:var(--space-2);"><strong>Week 4:</strong> Start daily current affairs on <a href="https://ujiyari.com/daily/" target="_blank">Ujiyari.com</a> (30 min/day)</li>
-        </ol>
+      <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-5); margin-bottom:var(--space-6);">
+        <div class="strategy-card">
+          <h4 class="strategy-card__title">Week 1 — Know the Exam</h4>
+          <p class="strategy-card__text">Understand the 3-stage structure (Prelims → Mains → Interview), marking scheme, and syllabus. Read the <a href="/resources/" style="color:var(--color-brand); font-weight:600;">Resources page</a> for booklist and strategy.</p>
+        </div>
+        <div class="strategy-card">
+          <h4 class="strategy-card__title">Week 2 — Start Polity</h4>
+          <p class="strategy-card__text">Begin with <a href="/subjects/polity/" style="color:var(--color-brand); font-weight:600;">Polity</a> — it's the most structured subject. Read Preamble, Fundamental Rights, and DPSPs to build momentum.</p>
+        </div>
+        <div class="strategy-card">
+          <h4 class="strategy-card__title">Week 3 — Add Economy &amp; Geography</h4>
+          <p class="strategy-card__text">Start <a href="/subjects/economy/" style="color:var(--color-brand); font-weight:600;">Economy</a> (overview + banking) and <a href="/subjects/geography/" style="color:var(--color-brand); font-weight:600;">Geography</a> (physical geography). One topic per day.</p>
+        </div>
+        <div class="strategy-card">
+          <h4 class="strategy-card__title">Week 4 — Build the Daily Habit</h4>
+          <p class="strategy-card__text">Start 30 min/day current affairs on <a href="https://ujiyari.com/daily/" target="_blank" rel="noopener" style="color:var(--color-brand); font-weight:600;">Ujiyari.com</a>. This habit will carry you through the entire preparation.</p>
+        </div>
+      </div>
 
-        <div style="display:flex; gap:var(--space-3); flex-wrap:wrap;">
-          <a href="/subjects/" class="btn btn--accent btn--sm">Browse All Subjects →</a>
-          <a href="/study-plan/#beginner" class="btn btn--ghost btn--sm">See 12-Month Plan</a>
+      <div class="syllabus-grid">
+        <div class="syl-card" style="--syl-color:#16a34a;">
+          <div class="syl-card__head">
+            <span class="syl-card__icon">📚</span>
+            <div>
+              <h3 class="syl-card__title">Start Reading</h3>
+              <span class="syl-card__count">High-priority subjects for beginners</span>
+            </div>
+          </div>
+          <div class="syl-card__topics">
+            <a href="/subjects/polity/" class="syl-topic">Polity</a>
+            <a href="/subjects/economy/" class="syl-topic">Economy</a>
+            <a href="/subjects/geography/" class="syl-topic">Geography</a>
+            <a href="/subjects/history-culture/" class="syl-topic">History</a>
+            <a href="/subjects/environment/" class="syl-topic">Environment</a>
+          </div>
+          <div class="syl-card__footer">Start with these 5 — they cover ~70% of Prelims questions.</div>
+        </div>
+
+        <div class="syl-card" style="--syl-color:#16a34a;">
+          <div class="syl-card__head">
+            <span class="syl-card__icon">🛠️</span>
+            <div>
+              <h3 class="syl-card__title">Use These Tools</h3>
+              <span class="syl-card__count">Track progress from day one</span>
+            </div>
+          </div>
+          <div class="syl-card__topics">
+            <a href="/syllabus-tracker/" class="syl-topic">Syllabus Tracker</a>
+            <a href="/resources/vocab-builder/" class="syl-topic">Vocab Builder</a>
+            <a href="/resources/key-terms/" class="syl-topic">Key Terms</a>
+            <a href="/study-plan/" class="syl-topic">Study Plan</a>
+          </div>
+          <div class="syl-card__footer">Check off topics as you go. Build vocabulary from day one — it pays off in comprehension and answer writing.</div>
         </div>
       </div>
     </div>
 
-    <div style="margin-bottom:var(--space-10);">
-      <div class="card" style="border-left:6px solid var(--color-accent); padding:var(--space-6);">
-        <h2 style="font-family:var(--font-serif); font-size:var(--text-xl); color:var(--color-accent); margin-bottom:var(--space-3);">🎯 Stage 2 — Prelims Focused</h2>
-        <p style="font-size:var(--text-sm); color:var(--color-text-muted); margin-bottom:var(--space-4);">You know the basics. Now you need to build factual depth, practice MCQs, and develop elimination skills for Prelims GS Paper 1.</p>
+    {# ══════════════════════════════════════════════════════════
+       STAGE 2 — PRELIMS FOCUSED
+       ══════════════════════════════════════════════════════════ #}
+    <div id="prelims" style="margin-bottom:var(--space-10);">
+      <h2 class="section-heading" style="border-color:#d4a017;">🎯 Stage 2 — Prelims Focused</h2>
+      <p style="color:var(--color-text-muted); font-size:var(--text-sm); margin-bottom:var(--space-6);">You know the basics. Now build factual depth, practise elimination, and target the cutoff.</p>
 
-        <h4 style="color:var(--color-brand); margin-bottom:var(--space-2);">Your Action Plan:</h4>
-        <ol style="font-size:var(--text-sm); margin-left:var(--space-5); margin-bottom:var(--space-4);">
-          <li style="margin-bottom:var(--space-2);">Read <strong>Prelims-level</strong> notes for each subject — facts, dates, numbers</li>
-          <li style="margin-bottom:var(--space-2);">Take <a href="/prelims/">daily 10-question sprints</a> — build speed + accuracy</li>
-          <li style="margin-bottom:var(--space-2);">Solve <a href="/pyq/">previous year questions</a> topic-wise — the best prep there is</li>
-          <li style="margin-bottom:var(--space-2);">Take full mocks monthly — <a href="/prelims/">100-question timed tests</a></li>
-          <li style="margin-bottom:var(--space-2);">Track weak subjects on <a href="/tracker/">Progress Tracker</a> — focus on lowest-scoring areas</li>
-        </ol>
+      <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-5); margin-bottom:var(--space-6);">
+        <div class="strategy-card">
+          <h4 class="strategy-card__title">Deepen Every Subject</h4>
+          <p class="strategy-card__text">Read all topic notes across <a href="/prelims/" style="color:var(--color-brand); font-weight:600;">10 subjects</a>. Focus on facts, dates, numbers, and schemes — Prelims tests recall, not analysis.</p>
+        </div>
+        <div class="strategy-card">
+          <h4 class="strategy-card__title">PYQ Analysis</h4>
+          <p class="strategy-card__text">Solve <a href="/pyq/" style="color:var(--color-brand); font-weight:600;">previous year questions</a> topic-wise. Understand what UPSC asks and where your gaps are. PYQs are the single best prep tool.</p>
+        </div>
+        <div class="strategy-card">
+          <h4 class="strategy-card__title">Current Affairs Daily</h4>
+          <p class="strategy-card__text">30-40% of Prelims is current affairs. Use <a href="https://ujiyari.com/" target="_blank" rel="noopener" style="color:var(--color-brand); font-weight:600;">Ujiyari.com</a> daily — news, editorials, and monthly compilations.</p>
+        </div>
+        <div class="strategy-card">
+          <h4 class="strategy-card__title">Track &amp; Target Weak Areas</h4>
+          <p class="strategy-card__text">Use the <a href="/tracker/" style="color:var(--color-brand); font-weight:600;">Progress Tracker</a> to see which subjects you've covered and which need more work. Aim for 90+ correct on D-day.</p>
+        </div>
+      </div>
 
-        <div style="display:flex; gap:var(--space-3); flex-wrap:wrap;">
-          <a href="/prelims/" class="btn btn--accent btn--sm">Start Prelims Practice →</a>
-          <a href="/study-plan/#prelims" class="btn btn--ghost btn--sm">See 6-Month Plan</a>
+      <div class="syllabus-grid">
+        <div class="syl-card" style="--syl-color:#d4a017;">
+          <div class="syl-card__head">
+            <span class="syl-card__icon">📋</span>
+            <div>
+              <h3 class="syl-card__title">Prelims Hub</h3>
+              <span class="syl-card__count">Full syllabus mapped to notes</span>
+            </div>
+            <a href="/prelims/" class="syl-card__all">Open &rarr;</a>
+          </div>
+          <div class="syl-card__topics">
+            <a href="/prelims/" class="syl-topic">GS Paper 1 Syllabus</a>
+            <a href="/prelims/#csat" class="syl-topic">CSAT Paper 2</a>
+            <a href="/syllabus-tracker/" class="syl-topic">Syllabus Tracker</a>
+          </div>
+        </div>
+
+        <div class="syl-card" style="--syl-color:#d4a017;">
+          <div class="syl-card__head">
+            <span class="syl-card__icon">⚡</span>
+            <div>
+              <h3 class="syl-card__title">Elimination Strategy</h3>
+              <span class="syl-card__count">-0.66 per wrong answer</span>
+            </div>
+          </div>
+          <div class="syl-card__topics">
+            <span class="syl-topic" style="cursor:default;">Eliminate 2 → attempt</span>
+            <span class="syl-topic" style="cursor:default;">Skip if unsure</span>
+            <span class="syl-topic" style="cursor:default;">Target 90+ correct</span>
+          </div>
+          <div class="syl-card__footer">With negative marking, smart attempts beat more attempts. Never guess randomly — always eliminate first.</div>
         </div>
       </div>
     </div>
 
-    <div style="margin-bottom:var(--space-10);">
-      <div class="card" style="border-left:6px solid var(--color-brand); padding:var(--space-6);">
-        <h2 style="font-family:var(--font-serif); font-size:var(--text-xl); color:var(--color-brand); margin-bottom:var(--space-3);">✍️ Stage 3 — Mains Preparation</h2>
-        <p style="font-size:var(--text-sm); color:var(--color-text-muted); margin-bottom:var(--space-4);">You're preparing for Mains or doing Prelims + Mains together. You need analytical depth, answer writing practice, and essay frameworks.</p>
+    {# ══════════════════════════════════════════════════════════
+       STAGE 3 — MAINS PREPARATION
+       ══════════════════════════════════════════════════════════ #}
+    <div id="mains" style="margin-bottom:var(--space-10);">
+      <h2 class="section-heading" style="border-color:#0f4c3a;">✍️ Stage 3 — Mains Preparation</h2>
+      <p style="color:var(--color-text-muted); font-size:var(--text-sm); margin-bottom:var(--space-6);">Prelims done or doing both together. You need analytical depth, answer writing practice, and current affairs integration.</p>
 
-        <h4 style="color:var(--color-brand); margin-bottom:var(--space-2);">Your Action Plan:</h4>
-        <ol style="font-size:var(--text-sm); margin-left:var(--space-5); margin-bottom:var(--space-4);">
-          <li style="margin-bottom:var(--space-2);">Read <strong>Mains-level</strong> notes — analysis, dimensions, current affairs integration</li>
-          <li style="margin-bottom:var(--space-2);">Browse by <a href="/mains/">GS Paper</a> — GS1 through GS4 + Essay</li>
-          <li style="margin-bottom:var(--space-2);">Practice answer writing daily — use <a href="/mains-practice/">Mains prompts</a></li>
-          <li style="margin-bottom:var(--space-2);">Read editorials on <a href="https://ujiyari.com/editorials/" target="_blank">Ujiyari.com</a> — essential for GS2/GS3 answers</li>
-          <li style="margin-bottom:var(--space-2);">Analyse Mains PYQs — understand what UPSC expects in 150/250 word answers</li>
-        </ol>
+      <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-5); margin-bottom:var(--space-6);">
+        <div class="strategy-card">
+          <h4 class="strategy-card__title">Read for Dimensions</h4>
+          <p class="strategy-card__text">Mains needs analysis, not facts. Read BharatNotes topic pages for multiple dimensions — social, economic, political, ethical — on every issue.</p>
+        </div>
+        <div class="strategy-card">
+          <h4 class="strategy-card__title">Answer Writing Daily</h4>
+          <p class="strategy-card__text">Write 2-3 answers daily. Use the <a href="https://ujiyari.com/mains-guide/" target="_blank" rel="noopener" style="color:var(--color-brand); font-weight:600;">Mains Guide</a> I-B-C formula: Introduction → Body → Conclusion with way forward.</p>
+        </div>
+        <div class="strategy-card">
+          <h4 class="strategy-card__title">Editorials Are Mandatory</h4>
+          <p class="strategy-card__text">Read <a href="https://ujiyari.com/editorial/" target="_blank" rel="noopener" style="color:var(--color-brand); font-weight:600;">editorials on Ujiyari</a> daily — they give you ready-made arguments for GS2/GS3 answers and Essay.</p>
+        </div>
+        <div class="strategy-card">
+          <h4 class="strategy-card__title">Mains PYQ Trends</h4>
+          <p class="strategy-card__text">Study <a href="/pyq/" style="color:var(--color-brand); font-weight:600;">Mains PYQ trends</a> — GS2 is moving to case studies, GS3 needs current data, GS4 is 50% case studies.</p>
+        </div>
+      </div>
 
-        <div style="display:flex; gap:var(--space-3); flex-wrap:wrap;">
-          <a href="/mains/" class="btn btn--primary btn--sm">Start Mains Prep →</a>
-          <a href="/study-plan/#mains" class="btn btn--ghost btn--sm">See 4-Month Plan</a>
+      <div class="syllabus-grid">
+        <div class="syl-card" style="--syl-color:#0f4c3a;">
+          <div class="syl-card__head">
+            <span class="syl-card__icon">📄</span>
+            <div>
+              <h3 class="syl-card__title">Mains Hub</h3>
+              <span class="syl-card__count">GS 1-4 + Essay</span>
+            </div>
+            <a href="/mains/" class="syl-card__all">Open &rarr;</a>
+          </div>
+          <div class="syl-card__topics">
+            <a href="/mains/" class="syl-topic">GS Paper 1</a>
+            <a href="/mains/" class="syl-topic">GS Paper 2</a>
+            <a href="/mains/" class="syl-topic">GS Paper 3</a>
+            <a href="/mains/" class="syl-topic">GS Paper 4</a>
+            <a href="/mains/" class="syl-topic">Essay</a>
+          </div>
+        </div>
+
+        <div class="syl-card syl-card--ujiyari">
+          <div class="syl-card__head" style="background:linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); border-color:#fde68a;">
+            <span class="syl-card__icon">📝</span>
+            <div>
+              <h3 class="syl-card__title" style="color:#92400e;">Mains Answer Writing Guide</h3>
+              <span class="syl-card__count" style="color:#b45309;">I-B-C formula + practice lab</span>
+            </div>
+            <a href="https://ujiyari.com/mains-guide/" target="_blank" rel="noopener" class="syl-card__all" style="color:#b45309;">Open &rarr;</a>
+          </div>
+          <div class="syl-card__topics" style="background:#fffdf5;">
+            <a href="https://ujiyari.com/mains-guide/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">I-B-C Framework</a>
+            <a href="https://ujiyari.com/mains-guide/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">Directive Decoder</a>
+            <a href="https://ujiyari.com/mains-guide/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">Practice Lab</a>
+            <a href="https://ujiyari.com/mains-guide/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">Value Bank</a>
+          </div>
         </div>
       </div>
     </div>
 
-    <div style="margin-bottom:var(--space-10);">
-      <div class="card" style="border-left:6px solid #7c3aed; padding:var(--space-6);">
-        <h2 style="font-family:var(--font-serif); font-size:var(--text-xl); color:#7c3aed; margin-bottom:var(--space-3);">🎤 Stage 4 — Interview Preparation</h2>
-        <p style="font-size:var(--text-sm); color:var(--color-text-muted); margin-bottom:var(--space-4);">Cleared Mains? Congratulations! Now build opinions, prepare DAF-based questions, and polish your personality.</p>
+    {# ══════════════════════════════════════════════════════════
+       STAGE 4 — REVISION MODE
+       ══════════════════════════════════════════════════════════ #}
+    <div id="revision" style="margin-bottom:var(--space-10);">
+      <h2 class="section-heading" style="border-color:#7c3aed;">🔄 Stage 4 — Revision Mode</h2>
+      <p style="color:var(--color-text-muted); font-size:var(--text-sm); margin-bottom:var(--space-6);">Exam is close. No new topics — only revise, practise, and consolidate what you already know.</p>
 
-        <div style="display:flex; gap:var(--space-3); flex-wrap:wrap;">
-          <a href="/interview/" class="btn btn--ghost btn--sm" style="border-color:#7c3aed; color:#7c3aed;">Interview Prep →</a>
+      <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-5); margin-bottom:var(--space-6);">
+        <div class="strategy-card">
+          <h4 class="strategy-card__title">Revise Using Bookmarks</h4>
+          <p class="strategy-card__text">Open your <a href="/tracker/" style="color:var(--color-brand); font-weight:600;">bookmarked topics</a> and re-read the key sections. Focus on tables, mnemonics, and fact sheets you built.</p>
+        </div>
+        <div class="strategy-card">
+          <h4 class="strategy-card__title">PYQs as Flashcards</h4>
+          <p class="strategy-card__text">Go through <a href="/pyq/" style="color:var(--color-brand); font-weight:600;">PYQ trends</a> by subject. Can you answer each theme confidently? If not, that topic needs one more pass.</p>
+        </div>
+        <div class="strategy-card">
+          <h4 class="strategy-card__title">Vocab &amp; Terms Sprint</h4>
+          <p class="strategy-card__text">Final pass through <a href="/resources/vocab-builder/" style="color:var(--color-brand); font-weight:600;">Vocab Builder</a> and <a href="/resources/key-terms/" style="color:var(--color-brand); font-weight:600;">Key Terms</a>. These small details make the difference on exam day.</p>
+        </div>
+        <div class="strategy-card">
+          <h4 class="strategy-card__title">Current Affairs Consolidation</h4>
+          <p class="strategy-card__text">Read <a href="https://ujiyari.com/monthly/" target="_blank" rel="noopener" style="color:var(--color-brand); font-weight:600;">monthly digests</a> for the last 12 months. In the final week, focus only on the last 6 months.</p>
+        </div>
+      </div>
+
+      <div class="syllabus-grid">
+        <div class="syl-card" style="--syl-color:#7c3aed;">
+          <div class="syl-card__head">
+            <span class="syl-card__icon">✅</span>
+            <div>
+              <h3 class="syl-card__title">Revision Checklist</h3>
+              <span class="syl-card__count">Use these tools in the final stretch</span>
+            </div>
+          </div>
+          <div class="syl-card__topics">
+            <a href="/tracker/" class="syl-topic">Progress Tracker</a>
+            <a href="/syllabus-tracker/" class="syl-topic">Syllabus Tracker</a>
+            <a href="/resources/vocab-builder/" class="syl-topic">Vocab Builder</a>
+            <a href="/resources/key-terms/" class="syl-topic">Key Terms</a>
+            <a href="/pyq/" class="syl-topic">PYQ Analysis</a>
+          </div>
+          <div class="syl-card__footer">In the last 2 months, revision matters more than new topics. Use these tools to fill gaps, not start fresh.</div>
         </div>
       </div>
     </div>

@@ -1,111 +1,433 @@
 ---
 layout: base.njk
-title: "Syllabus Tracker"
-description: "Track your UPSC GS preparation progress — mark topics as done, see completion percentage per paper."
+title: "Syllabus Tracker — Mark Your UPSC Preparation Progress"
+description: "Track your UPSC GS preparation progress — mark syllabus topics as done, see completion percentage per paper. Saved locally in your browser."
 ---
 
 <section class="page-header">
   <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Home</a><span class="breadcrumb__sep">/</span>
+      <a href="/tracker/">Tracker</a><span class="breadcrumb__sep">/</span>
+      Syllabus
+    </nav>
     <p class="page-header__eyebrow">Your Progress</p>
     <h1 class="page-header__title">Syllabus Tracker</h1>
-    <p class="page-header__subtitle">Mark topics as you complete them. Your progress is saved in your browser — no login needed.</p>
+    <p class="page-header__subtitle">Check off syllabus topics as you complete them. Progress is saved in your browser — no login needed.</p>
   </div>
 </section>
 
 <section style="padding:var(--space-8) 0;">
   <div class="container">
 
-    <!-- Overall Progress -->
-    <div id="overall-progress" style="margin-bottom:var(--space-8); display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:var(--space-4);"></div>
+    {# ── Overall Progress ── #}
+    <div class="info-card" style="margin-bottom:var(--space-8);">
+      <div class="info-card__grid">
+        <div class="info-card__item">
+          <span class="info-card__num" id="stat-pct">0%</span>
+          <span class="info-card__label">Overall</span>
+        </div>
+        <div class="info-card__item">
+          <span class="info-card__num" id="stat-done">0</span>
+          <span class="info-card__label">Completed</span>
+        </div>
+        <div class="info-card__item">
+          <span class="info-card__num" id="stat-remaining">0</span>
+          <span class="info-card__label">Remaining</span>
+        </div>
+      </div>
+      <div style="background:var(--color-border); border-radius:99px; height:10px; overflow:hidden; margin-top:var(--space-3);">
+        <div id="bar-overall" style="background:var(--color-brand, #0f4c3a); height:100%; width:0%; border-radius:99px; transition:width 0.4s;"></div>
+      </div>
+    </div>
 
-    <!-- Per-paper sections -->
+    {# ══════════════════════════════════════════════════════════
+       PRELIMS — BharatNotes Topic Notes
+       ══════════════════════════════════════════════════════════ #}
+    <h2 class="section-heading">Prelims — Topic Notes Read</h2>
+    <p style="color:var(--color-text-muted); font-size:var(--text-sm); margin-bottom:var(--space-6);">Track which BharatNotes articles you've read. These map to Prelims GS Paper 1 syllabus areas.</p>
+
+    <div id="prelims-progress-bar" class="info-card" style="margin-bottom:var(--space-6);">
+      <div style="display:flex; justify-content:space-between; font-size:0.85rem; margin-bottom:0.4rem;">
+        <span style="color:var(--color-text-muted);"><span id="prelims-done">0</span> / <span id="prelims-total">0</span> topics read</span>
+        <span style="font-weight:700; color:var(--color-brand);" id="prelims-pct">0%</span>
+      </div>
+      <div style="background:var(--color-border); border-radius:99px; height:9px; overflow:hidden;">
+        <div id="bar-prelims" style="background:var(--color-brand, #0f4c3a); height:100%; width:0%; border-radius:99px; transition:width 0.4s;"></div>
+      </div>
+    </div>
+
+    <div class="syllabus-grid" style="margin-bottom:var(--space-10);">
+
+      <div class="syl-card" style="--syl-color:#9f1239;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">🏛️</span>
+          <div>
+            <h3 class="syl-card__title">History &amp; Culture</h3>
+            <span class="syl-card__count" id="prelims-count-history-culture">0 / 7</span>
+          </div>
+        </div>
+        <div style="padding:var(--space-3) var(--space-4) var(--space-4);">
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="history-culture" data-slug="ancient-india"><span class="syllabus-label__text"><a href="/subjects/history-culture/ancient-india/">Ancient India</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="history-culture" data-slug="medieval-india"><span class="syllabus-label__text"><a href="/subjects/history-culture/medieval-india/">Medieval India</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="history-culture" data-slug="modern-india"><span class="syllabus-label__text"><a href="/subjects/history-culture/modern-india/">Modern India</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="history-culture" data-slug="freedom-struggle"><span class="syllabus-label__text"><a href="/subjects/history-culture/freedom-struggle/">Freedom Struggle</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="history-culture" data-slug="post-independence-india"><span class="syllabus-label__text"><a href="/subjects/history-culture/post-independence-india/">Post-Independence</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="history-culture" data-slug="world-history"><span class="syllabus-label__text"><a href="/subjects/history-culture/world-history/">World History</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="history-culture" data-slug="indian-culture"><span class="syllabus-label__text"><a href="/subjects/history-culture/indian-culture/">Indian Culture</a></span></label>
+        </div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#7c3aed;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">⚖️</span>
+          <div>
+            <h3 class="syl-card__title">Polity &amp; Governance</h3>
+            <span class="syl-card__count" id="prelims-count-polity">0 / 10</span>
+          </div>
+        </div>
+        <div style="padding:var(--space-3) var(--space-4) var(--space-4);">
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="polity" data-slug="preamble"><span class="syllabus-label__text"><a href="/subjects/polity/preamble/">Preamble</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="polity" data-slug="fundamental-rights"><span class="syllabus-label__text"><a href="/subjects/polity/fundamental-rights/">Fundamental Rights</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="polity" data-slug="directive-principles"><span class="syllabus-label__text"><a href="/subjects/polity/directive-principles/">DPSPs</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="polity" data-slug="federalism-and-constitution"><span class="syllabus-label__text"><a href="/subjects/polity/federalism-and-constitution/">Federalism</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="polity" data-slug="parliament"><span class="syllabus-label__text"><a href="/subjects/polity/parliament/">Parliament</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="polity" data-slug="union-executive"><span class="syllabus-label__text"><a href="/subjects/polity/union-executive/">Union Executive</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="polity" data-slug="state-government"><span class="syllabus-label__text"><a href="/subjects/polity/state-government/">State Government</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="polity" data-slug="judiciary"><span class="syllabus-label__text"><a href="/subjects/polity/judiciary/">Judiciary</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="polity" data-slug="local-government"><span class="syllabus-label__text"><a href="/subjects/polity/local-government/">Local Government</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="polity" data-slug="constitutional-bodies"><span class="syllabus-label__text"><a href="/subjects/polity/constitutional-bodies/">Constitutional Bodies</a></span></label>
+        </div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#b45309;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">🌍</span>
+          <div>
+            <h3 class="syl-card__title">Geography</h3>
+            <span class="syl-card__count" id="prelims-count-geography">0 / 5</span>
+          </div>
+        </div>
+        <div style="padding:var(--space-3) var(--space-4) var(--space-4);">
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="geography" data-slug="indian-physical-geography"><span class="syllabus-label__text"><a href="/subjects/geography/indian-physical-geography/">Physical Geography</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="geography" data-slug="world-geography"><span class="syllabus-label__text"><a href="/subjects/geography/world-geography/">World Geography</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="geography" data-slug="climate-and-monsoon"><span class="syllabus-label__text"><a href="/subjects/geography/climate-and-monsoon/">Climate &amp; Monsoon</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="geography" data-slug="human-geography-india"><span class="syllabus-label__text"><a href="/subjects/geography/human-geography-india/">Human Geography</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="geography" data-slug="resources-and-environment"><span class="syllabus-label__text"><a href="/subjects/geography/resources-and-environment/">Resources</a></span></label>
+        </div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#0369a1;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">💰</span>
+          <div>
+            <h3 class="syl-card__title">Indian Economy</h3>
+            <span class="syl-card__count" id="prelims-count-economy">0 / 7</span>
+          </div>
+        </div>
+        <div style="padding:var(--space-3) var(--space-4) var(--space-4);">
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="economy" data-slug="indian-economy-overview"><span class="syllabus-label__text"><a href="/subjects/economy/indian-economy-overview/">Overview</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="economy" data-slug="agriculture"><span class="syllabus-label__text"><a href="/subjects/economy/agriculture/">Agriculture</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="economy" data-slug="banking-monetary-policy"><span class="syllabus-label__text"><a href="/subjects/economy/banking-monetary-policy/">Banking &amp; RBI</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="economy" data-slug="gst"><span class="syllabus-label__text"><a href="/subjects/economy/gst/">GST &amp; Taxation</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="economy" data-slug="external-sector"><span class="syllabus-label__text"><a href="/subjects/economy/external-sector/">External Sector</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="economy" data-slug="infrastructure-and-energy"><span class="syllabus-label__text"><a href="/subjects/economy/infrastructure-and-energy/">Infrastructure</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="economy" data-slug="poverty-inequality-employment"><span class="syllabus-label__text"><a href="/subjects/economy/poverty-inequality-employment/">Poverty &amp; Jobs</a></span></label>
+        </div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#be123c;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">👥</span>
+          <div>
+            <h3 class="syl-card__title">Indian Society</h3>
+            <span class="syl-card__count" id="prelims-count-society">0 / 5</span>
+          </div>
+        </div>
+        <div style="padding:var(--space-3) var(--space-4) var(--space-4);">
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="society" data-slug="indian-society"><span class="syllabus-label__text"><a href="/subjects/society/indian-society/">Society &amp; Diversity</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="society" data-slug="social-issues"><span class="syllabus-label__text"><a href="/subjects/society/social-issues/">Social Issues</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="society" data-slug="globalisation-indian-society"><span class="syllabus-label__text"><a href="/subjects/society/globalisation-indian-society/">Globalisation</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="society" data-slug="welfare-schemes"><span class="syllabus-label__text"><a href="/subjects/society/welfare-schemes/">Welfare Schemes</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="society" data-slug="governance-transparency"><span class="syllabus-label__text"><a href="/subjects/society/governance-transparency/">Governance &amp; Transparency</a></span></label>
+        </div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#0e7490;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">🤝</span>
+          <div>
+            <h3 class="syl-card__title">International Relations</h3>
+            <span class="syl-card__count" id="prelims-count-international-relations">0 / 3</span>
+          </div>
+        </div>
+        <div style="padding:var(--space-3) var(--space-4) var(--space-4);">
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="international-relations" data-slug="india-foreign-policy"><span class="syllabus-label__text"><a href="/subjects/international-relations/india-foreign-policy/">Foreign Policy</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="international-relations" data-slug="india-and-neighbours"><span class="syllabus-label__text"><a href="/subjects/international-relations/india-and-neighbours/">India &amp; Neighbours</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="international-relations" data-slug="international-organisations"><span class="syllabus-label__text"><a href="/subjects/international-relations/international-organisations/">Intl Organisations</a></span></label>
+        </div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#047857;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">🌿</span>
+          <div>
+            <h3 class="syl-card__title">Environment &amp; Ecology</h3>
+            <span class="syl-card__count" id="prelims-count-environment">0 / 3</span>
+          </div>
+        </div>
+        <div style="padding:var(--space-3) var(--space-4) var(--space-4);">
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="environment" data-slug="biodiversity-and-conservation"><span class="syllabus-label__text"><a href="/subjects/environment/biodiversity-and-conservation/">Biodiversity</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="environment" data-slug="climate-change-and-pollution"><span class="syllabus-label__text"><a href="/subjects/environment/climate-change-and-pollution/">Climate &amp; Pollution</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="environment" data-slug="environmental-laws-governance"><span class="syllabus-label__text"><a href="/subjects/environment/environmental-laws-governance/">Environmental Laws</a></span></label>
+        </div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#4338ca;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">🔬</span>
+          <div>
+            <h3 class="syl-card__title">Science &amp; Technology</h3>
+            <span class="syl-card__count" id="prelims-count-science-tech">0 / 6</span>
+          </div>
+        </div>
+        <div style="padding:var(--space-3) var(--space-4) var(--space-4);">
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="science-tech" data-slug="space-technology"><span class="syllabus-label__text"><a href="/subjects/science-tech/space-technology/">Space Tech</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="science-tech" data-slug="biotechnology-and-health"><span class="syllabus-label__text"><a href="/subjects/science-tech/biotechnology-and-health/">Biotech</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="science-tech" data-slug="it-cyber-defence"><span class="syllabus-label__text"><a href="/subjects/science-tech/it-cyber-defence/">IT &amp; Cyber</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="general-science" data-slug="science-fundamentals"><span class="syllabus-label__text"><a href="/subjects/general-science/science-fundamentals/">Fundamentals</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="general-science" data-slug="defence-technology"><span class="syllabus-label__text"><a href="/subjects/general-science/defence-technology/">Defence Tech</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="general-science" data-slug="health-nutrition-disease"><span class="syllabus-label__text"><a href="/subjects/general-science/health-nutrition-disease/">Health &amp; Nutrition</a></span></label>
+        </div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#1e3a5f;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">🛡️</span>
+          <div>
+            <h3 class="syl-card__title">Internal Security</h3>
+            <span class="syl-card__count" id="prelims-count-security">0 / 4</span>
+          </div>
+        </div>
+        <div style="padding:var(--space-3) var(--space-4) var(--space-4);">
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="security" data-slug="internal-security"><span class="syllabus-label__text"><a href="/subjects/security/internal-security/">Overview</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="security" data-slug="left-wing-extremism"><span class="syllabus-label__text"><a href="/subjects/security/left-wing-extremism/">LWE</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="security" data-slug="cyber-security"><span class="syllabus-label__text"><a href="/subjects/security/cyber-security/">Cyber Security</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="security" data-slug="border-management"><span class="syllabus-label__text"><a href="/subjects/security/border-management/">Border Mgmt</a></span></label>
+        </div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#dc2626;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">⚠️</span>
+          <div>
+            <h3 class="syl-card__title">Disaster Management</h3>
+            <span class="syl-card__count" id="prelims-count-disaster-management">0 / 3</span>
+          </div>
+        </div>
+        <div style="padding:var(--space-3) var(--space-4) var(--space-4);">
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="disaster-management" data-slug="disaster-management"><span class="syllabus-label__text"><a href="/subjects/disaster-management/disaster-management/">Overview</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="disaster-management" data-slug="disaster-preparedness-response"><span class="syllabus-label__text"><a href="/subjects/disaster-management/disaster-preparedness-response/">Preparedness</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="disaster-management" data-slug="disaster-risk-reduction"><span class="syllabus-label__text"><a href="/subjects/disaster-management/disaster-risk-reduction/">Risk Reduction</a></span></label>
+        </div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#854d0e;">
+        <div class="syl-card__head">
+          <span class="syl-card__icon">🧭</span>
+          <div>
+            <h3 class="syl-card__title">Ethics &amp; Integrity</h3>
+            <span class="syl-card__count" id="prelims-count-ethics">0 / 3</span>
+          </div>
+        </div>
+        <div style="padding:var(--space-3) var(--space-4) var(--space-4);">
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="ethics" data-slug="ethics-integrity-aptitude"><span class="syllabus-label__text"><a href="/subjects/ethics/ethics-integrity-aptitude/">Ethics Overview</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="ethics" data-slug="attitude-aptitude-foundational-values"><span class="syllabus-label__text"><a href="/subjects/ethics/attitude-aptitude-foundational-values/">Attitude &amp; Aptitude</a></span></label>
+          <label class="syllabus-label"><input type="checkbox" class="prelims-check" data-subject="ethics" data-slug="case-studies-and-thinkers"><span class="syllabus-label__text"><a href="/subjects/ethics/case-studies-and-thinkers/">Case Studies &amp; Thinkers</a></span></label>
+        </div>
+      </div>
+
+    </div>
+
+    {# ══════════════════════════════════════════════════════════
+       MAINS — UPSC Syllabus Topics
+       ══════════════════════════════════════════════════════════ #}
+    <h2 class="section-heading">Mains — UPSC Syllabus Topics</h2>
+    <p style="color:var(--color-text-muted); font-size:var(--text-sm); margin-bottom:var(--space-6);">Official UPSC Mains GS syllabus broken down by paper. Check off topics as you cover them.</p>
+
+    {# ── Per-paper sections ── #}
+    {% set paperColors = { gs1: '#9f1239', gs2: '#7c3aed', gs3: '#0369a1', gs4: '#047857' } %}
+
     {% for key, paper in syllabus %}
-    <div class="card" style="margin-bottom:var(--space-6);">
-      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:var(--space-4);">
-        <h2 style="font-family:var(--font-serif); font-size:var(--text-xl); color:var(--color-brand-dark);">{{ paper.icon }} {{ paper.title }}</h2>
-        <span id="progress-{{ paper.slug }}" style="font-size:var(--text-sm); font-weight:var(--font-bold); color:var(--color-brand);">0%</span>
-      </div>
-      <div style="background:var(--color-border); border-radius:var(--radius-full); height:8px; margin-bottom:var(--space-4); overflow:hidden;">
-        <div id="bar-{{ paper.slug }}" style="background:var(--color-accent); height:100%; width:0%; border-radius:var(--radius-full); transition:width 0.3s ease;"></div>
+    <div class="syl-card" style="--syl-color:{{ paperColors[paper.slug] }}; margin-bottom:var(--space-6);">
+      <div class="syl-card__head">
+        <span class="syl-card__icon">{{ paper.icon }}</span>
+        <div>
+          <h2 class="syl-card__title" style="font-size:1.15rem;">{{ paper.title }}</h2>
+          <span class="syl-card__count">{{ paper.subtitle }}</span>
+        </div>
+        <span id="progress-{{ paper.slug }}" style="font-size:0.85rem; font-weight:700; color:{{ paperColors[paper.slug] }};">0%</span>
       </div>
 
-      {% for section in paper.sections %}
-      <div style="margin-bottom:var(--space-4);">
-        <h4 style="font-size:var(--text-sm); color:var(--color-brand); text-transform:uppercase; letter-spacing:0.04em; margin-bottom:var(--space-2);">{{ section.title }}</h4>
-        {% for topic in section.topics %}
-        <label style="display:flex; align-items:flex-start; gap:var(--space-2); padding:var(--space-2) 0; font-size:var(--text-sm); cursor:pointer; border-bottom:1px solid var(--color-border);">
-          <input type="checkbox" class="syllabus-check" data-paper="{{ paper.slug }}" data-topic="{{ topic | slugify }}" style="margin-top:3px; accent-color:var(--color-brand);">
-          <span>{{ topic }}</span>
-        </label>
+      {# Progress bar #}
+      <div style="padding:0 var(--space-4); padding-top:var(--space-3);">
+        <div style="background:var(--color-border); border-radius:99px; height:7px; overflow:hidden;">
+          <div id="bar-{{ paper.slug }}" style="background:{{ paperColors[paper.slug] }}; height:100%; width:0%; border-radius:99px; transition:width 0.3s;"></div>
+        </div>
+      </div>
+
+      {# Sections with checkboxes #}
+      <div style="padding:var(--space-4);">
+        {% for section in paper.sections %}
+        <div style="margin-bottom:var(--space-4);">
+          <h4 style="font-size:0.78rem; color:{{ paperColors[paper.slug] }}; text-transform:uppercase; letter-spacing:0.05em; font-weight:700; margin-bottom:var(--space-2);">{{ section.title }}</h4>
+          {% for topic in section.topics %}
+          <label class="syllabus-label">
+            <input type="checkbox" class="syllabus-check" data-paper="{{ paper.slug }}" data-topic="{{ topic | slugify }}">
+            <span class="syllabus-label__text">{{ topic }}</span>
+          </label>
+          {% endfor %}
+        </div>
         {% endfor %}
       </div>
-      {% endfor %}
     </div>
     {% endfor %}
+
+    {# ── Reset ── #}
+    <div style="text-align:center; margin-top:var(--space-4); padding-top:var(--space-6); border-top:1px solid var(--color-border);">
+      <button id="reset-syllabus" style="background:none; border:1.5px solid var(--color-error, #dc2626); color:var(--color-error, #dc2626); padding:0.5em 1.5em; border-radius:8px; font-size:var(--text-sm); font-weight:600; cursor:pointer;">Reset All Checkmarks</button>
+    </div>
 
   </div>
 </section>
 
 <script>
 (function() {
-  const STORAGE_KEY = 'bharatnotes_syllabus';
-  const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+  /* ── Storage keys ── */
+  var PRELIMS_KEY = 'bharatnotes_prelims_tracker';
+  var MAINS_KEY = 'bharatnotes_syllabus';
 
-  // Restore state
-  document.querySelectorAll('.syllabus-check').forEach(cb => {
-    const key = cb.dataset.paper + '/' + cb.dataset.topic;
-    if (saved[key]) cb.checked = true;
+  var prelimsSaved = {};
+  var mainsSaved = {};
+  try { prelimsSaved = JSON.parse(localStorage.getItem(PRELIMS_KEY) || '{}'); } catch(e) {}
+  try { mainsSaved = JSON.parse(localStorage.getItem(MAINS_KEY) || '{}'); } catch(e) {}
 
-    cb.addEventListener('change', () => {
-      const k = cb.dataset.paper + '/' + cb.dataset.topic;
-      if (cb.checked) saved[k] = true;
-      else delete saved[k];
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
-      updateProgress();
+  /* ── Helper: bind checkboxes ── */
+  function bindChecks(selector, storageObj, storageKey, keyFn) {
+    var cbs = document.querySelectorAll(selector);
+    cbs.forEach(function(cb) {
+      var key = keyFn(cb);
+      if (storageObj[key]) {
+        cb.checked = true;
+        cb.closest('.syllabus-label').classList.add('syllabus-label--done');
+      }
+      cb.addEventListener('change', function() {
+        var k = keyFn(cb);
+        var label = cb.closest('.syllabus-label');
+        if (cb.checked) {
+          storageObj[k] = true;
+          label.classList.add('syllabus-label--done');
+        } else {
+          delete storageObj[k];
+          label.classList.remove('syllabus-label--done');
+        }
+        localStorage.setItem(storageKey, JSON.stringify(storageObj));
+        updateAll();
+      });
     });
-  });
-
-  function updateProgress() {
-    const papers = {};
-    let totalChecked = 0, totalAll = 0;
-
-    document.querySelectorAll('.syllabus-check').forEach(cb => {
-      const p = cb.dataset.paper;
-      if (!papers[p]) papers[p] = { checked: 0, total: 0 };
-      papers[p].total++;
-      totalAll++;
-      if (cb.checked) { papers[p].checked++; totalChecked++; }
-    });
-
-    for (const [slug, data] of Object.entries(papers)) {
-      const pct = Math.round((data.checked / data.total) * 100);
-      const progEl = document.getElementById('progress-' + slug);
-      const barEl = document.getElementById('bar-' + slug);
-      if (progEl) progEl.textContent = pct + '%';
-      if (barEl) barEl.style.width = pct + '%';
-    }
-
-    // Overall cards
-    const container = document.getElementById('overall-progress');
-    if (container) {
-      const totalPct = totalAll ? Math.round((totalChecked / totalAll) * 100) : 0;
-      container.innerHTML = `
-        <div class="card" style="text-align:center;">
-          <div style="font-size:var(--text-3xl); font-weight:var(--font-extrabold); color:var(--color-brand);">${totalPct}%</div>
-          <div style="font-size:var(--text-sm); color:var(--color-text-muted);">Overall Progress</div>
-        </div>
-        <div class="card" style="text-align:center;">
-          <div style="font-size:var(--text-3xl); font-weight:var(--font-extrabold); color:var(--color-accent);">${totalChecked}</div>
-          <div style="font-size:var(--text-sm); color:var(--color-text-muted);">Topics Completed</div>
-        </div>
-        <div class="card" style="text-align:center;">
-          <div style="font-size:var(--text-3xl); font-weight:var(--font-extrabold); color:var(--color-text-muted);">${totalAll - totalChecked}</div>
-          <div style="font-size:var(--text-sm); color:var(--color-text-muted);">Topics Remaining</div>
-        </div>
-      `;
-    }
+    return cbs;
   }
 
-  updateProgress();
+  var prelimsCbs = bindChecks('.prelims-check', prelimsSaved, PRELIMS_KEY, function(cb) {
+    return cb.dataset.subject + '/' + cb.dataset.slug;
+  });
+  var mainsCbs = bindChecks('.syllabus-check', mainsSaved, MAINS_KEY, function(cb) {
+    return cb.dataset.paper + '/' + cb.dataset.topic;
+  });
+
+  /* ── Prelims per-subject counts ── */
+  var subjectTotals = {};
+  prelimsCbs.forEach(function(cb) {
+    var s = cb.dataset.subject;
+    if (!subjectTotals[s]) subjectTotals[s] = { total: 0, checked: 0 };
+    subjectTotals[s].total++;
+  });
+
+  function updateAll() {
+    /* Prelims */
+    var pDone = 0, pTotal = 0;
+    /* Reset subject counts */
+    Object.keys(subjectTotals).forEach(function(s) { subjectTotals[s].checked = 0; });
+
+    prelimsCbs.forEach(function(cb) {
+      pTotal++;
+      if (cb.checked) {
+        pDone++;
+        subjectTotals[cb.dataset.subject].checked++;
+      }
+    });
+
+    var pPct = pTotal ? Math.round((pDone / pTotal) * 100) : 0;
+    document.getElementById('prelims-done').textContent = pDone;
+    document.getElementById('prelims-total').textContent = pTotal;
+    document.getElementById('prelims-pct').textContent = pPct + '%';
+    document.getElementById('bar-prelims').style.width = pPct + '%';
+
+    /* Per-subject counters */
+    Object.keys(subjectTotals).forEach(function(s) {
+      var el = document.getElementById('prelims-count-' + s);
+      if (el) el.textContent = subjectTotals[s].checked + ' / ' + subjectTotals[s].total;
+    });
+
+    /* Mains */
+    var mPapers = {};
+    var mDone = 0, mTotal = 0;
+    mainsCbs.forEach(function(cb) {
+      var p = cb.dataset.paper;
+      if (!mPapers[p]) mPapers[p] = { checked: 0, total: 0 };
+      mPapers[p].total++;
+      mTotal++;
+      if (cb.checked) { mPapers[p].checked++; mDone++; }
+    });
+
+    Object.keys(mPapers).forEach(function(slug) {
+      var data = mPapers[slug];
+      var pct = Math.round((data.checked / data.total) * 100);
+      var progEl = document.getElementById('progress-' + slug);
+      var barEl = document.getElementById('bar-' + slug);
+      if (progEl) progEl.textContent = pct + '%';
+      if (barEl) barEl.style.width = pct + '%';
+    });
+
+    /* Overall = prelims + mains combined */
+    var allDone = pDone + mDone;
+    var allTotal = pTotal + mTotal;
+    var allPct = allTotal ? Math.round((allDone / allTotal) * 100) : 0;
+    document.getElementById('stat-pct').textContent = allPct + '%';
+    document.getElementById('stat-done').textContent = allDone;
+    document.getElementById('stat-remaining').textContent = allTotal - allDone;
+    document.getElementById('bar-overall').style.width = allPct + '%';
+  }
+
+  updateAll();
+
+  /* ── Reset ── */
+  document.getElementById('reset-syllabus').addEventListener('click', function() {
+    if (confirm('This will uncheck everything — Prelims topics and Mains syllabus. Are you sure?')) {
+      localStorage.removeItem(PRELIMS_KEY);
+      localStorage.removeItem(MAINS_KEY);
+      prelimsSaved = {};
+      mainsSaved = {};
+      prelimsCbs.forEach(function(cb) {
+        cb.checked = false;
+        cb.closest('.syllabus-label').classList.remove('syllabus-label--done');
+      });
+      mainsCbs.forEach(function(cb) {
+        cb.checked = false;
+        cb.closest('.syllabus-label').classList.remove('syllabus-label--done');
+      });
+      updateAll();
+    }
+  });
 })();
 </script>

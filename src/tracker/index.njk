@@ -1,11 +1,15 @@
 ---
 layout: base.njk
-title: "Progress Tracker"
-description: "Track your UPSC preparation progress — syllabus completion, quiz accuracy, study streaks, weak areas. All saved locally."
+title: "Progress Tracker — Your UPSC Preparation Dashboard"
+description: "Track your UPSC preparation — syllabus completion, bookmarked topics, vocab and key terms progress. All saved locally in your browser."
 ---
 
 <section class="page-header">
   <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Home</a><span class="breadcrumb__sep">/</span>
+      Tracker
+    </nav>
     <p class="page-header__eyebrow">Your Dashboard</p>
     <h1 class="page-header__title">Progress Tracker</h1>
     <p class="page-header__subtitle">All your preparation stats in one place. Saved in your browser — no login needed.</p>
@@ -15,32 +19,102 @@ description: "Track your UPSC preparation progress — syllabus completion, quiz
 <section style="padding:var(--space-8) 0;">
   <div class="container">
 
-    <!-- Overall Stats -->
-    <div id="tracker-overview" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:var(--space-4); margin-bottom:var(--space-8);"></div>
-
-    <!-- Syllabus Progress -->
-    <div style="margin-bottom:var(--space-10);">
-      <h2 style="font-family:var(--font-serif); font-size:var(--text-xl); color:var(--color-brand-dark); margin-bottom:var(--space-5);">Syllabus Completion</h2>
-      <div id="syllabus-progress" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-4);"></div>
-      <a href="/syllabus-tracker/" class="btn btn--ghost btn--sm" style="margin-top:var(--space-4);">Open Full Syllabus Tracker →</a>
+    {# ── Overview Stats ── #}
+    <div class="info-card" style="margin-bottom:var(--space-8);">
+      <div class="info-card__grid" style="grid-template-columns:repeat(auto-fit, minmax(120px, 1fr));">
+        <div class="info-card__item">
+          <span class="info-card__num" id="stat-prelims">0%</span>
+          <span class="info-card__label">Prelims notes</span>
+        </div>
+        <div class="info-card__item">
+          <span class="info-card__num" id="stat-mains">0%</span>
+          <span class="info-card__label">Mains syllabus</span>
+        </div>
+        <div class="info-card__item">
+          <span class="info-card__num" id="stat-bookmarks">0</span>
+          <span class="info-card__label">Bookmarked</span>
+        </div>
+        <div class="info-card__item">
+          <span class="info-card__num" id="stat-vocab">0</span>
+          <span class="info-card__label">Vocab learned</span>
+        </div>
+        <div class="info-card__item">
+          <span class="info-card__num" id="stat-terms">0</span>
+          <span class="info-card__label">Key terms</span>
+        </div>
+      </div>
+      <p class="info-card__note">Your progress is stored locally in this browser. Clearing browser data will reset it.</p>
     </div>
 
-    <!-- Quiz Accuracy by Subject -->
-    <div style="margin-bottom:var(--space-10);">
-      <h2 style="font-family:var(--font-serif); font-size:var(--text-xl); color:var(--color-brand-dark); margin-bottom:var(--space-5);">Quiz Accuracy by Subject</h2>
-      <div id="quiz-accuracy" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-4);"></div>
-      <a href="/prelims/" class="btn btn--accent btn--sm" style="margin-top:var(--space-4);">Practice More →</a>
+    {# ── Prelims Topic Notes ── #}
+    <h2 class="section-heading">Prelims — Topic Notes Read</h2>
+    <p style="color:var(--color-text-muted); font-size:var(--text-sm); margin-bottom:var(--space-6);">BharatNotes articles you've checked off in the <a href="/syllabus-tracker/" style="color:var(--color-brand);">Syllabus Tracker</a>.</p>
+
+    <div class="info-card" style="margin-bottom:var(--space-6);">
+      <div style="display:flex; justify-content:space-between; font-size:0.85rem; margin-bottom:0.4rem;">
+        <span style="color:var(--color-text-muted);"><span id="prelims-done">0</span> / <span id="prelims-total">56</span> topics read</span>
+        <span style="font-weight:700; color:var(--color-brand);" id="prelims-pct">0%</span>
+      </div>
+      <div style="background:var(--color-border); border-radius:99px; height:9px; overflow:hidden;">
+        <div id="bar-prelims" style="background:var(--color-brand, #0f4c3a); height:100%; width:0%; border-radius:99px; transition:width 0.4s;"></div>
+      </div>
     </div>
 
-    <!-- Weak Areas -->
-    <div style="margin-bottom:var(--space-10);">
-      <h2 style="font-family:var(--font-serif); font-size:var(--text-xl); color:var(--color-brand-dark); margin-bottom:var(--space-5);">Focus Areas</h2>
-      <div id="weak-areas" class="card" style="padding:var(--space-5);"></div>
+    <div class="syllabus-grid" id="prelims-progress" style="margin-bottom:var(--space-10);"></div>
+
+    {# ── Mains Syllabus ── #}
+    <h2 class="section-heading">Mains — Syllabus Completion</h2>
+    <p style="color:var(--color-text-muted); font-size:var(--text-sm); margin-bottom:var(--space-6);">UPSC Mains syllabus checkmarks from the <a href="/syllabus-tracker/" style="color:var(--color-brand);">Syllabus Tracker</a>.</p>
+
+    <div class="syllabus-grid" id="mains-progress" style="margin-bottom:var(--space-10);"></div>
+
+    {# ── Bookmarked Topics ── #}
+    <h2 class="section-heading">Bookmarked Topics</h2>
+    <p style="color:var(--color-text-muted); font-size:var(--text-sm); margin-bottom:var(--space-6);">Topics you've bookmarked for revision. Bookmark any topic from its article page.</p>
+
+    <div id="bookmarks-list" style="margin-bottom:var(--space-10);"></div>
+
+    {# ── Learning Tools Progress ── #}
+    <h2 class="section-heading">Learning Tools</h2>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-5); margin-bottom:var(--space-10);">
+
+      <div class="strategy-card" id="card-vocab">
+        <h4 class="strategy-card__title">Vocab Builder</h4>
+        <p class="strategy-card__text"><span id="vocab-count">0</span> words marked as learned.</p>
+        <div style="background:var(--color-border); border-radius:99px; height:6px; margin:var(--space-3) 0; overflow:hidden;">
+          <div id="vocab-bar" style="background:#047857; height:100%; width:0%; border-radius:99px; transition:width 0.3s;"></div>
+        </div>
+        <a href="/resources/vocab-builder/" style="font-size:var(--text-sm); color:var(--color-brand); font-weight:600;">Continue learning &rarr;</a>
+      </div>
+
+      <div class="strategy-card" id="card-terms">
+        <h4 class="strategy-card__title">Key Terms</h4>
+        <p class="strategy-card__text"><span id="terms-count">0</span> terms marked as learned.</p>
+        <div style="background:var(--color-border); border-radius:99px; height:6px; margin:var(--space-3) 0; overflow:hidden;">
+          <div id="terms-bar" style="background:#4338ca; height:100%; width:0%; border-radius:99px; transition:width 0.3s;"></div>
+        </div>
+        <a href="/resources/key-terms/" style="font-size:var(--text-sm); color:var(--color-brand); font-weight:600;">Continue learning &rarr;</a>
+      </div>
+
+      <div class="strategy-card">
+        <h4 class="strategy-card__title">Quick Links</h4>
+        <p class="strategy-card__text" style="margin-bottom:var(--space-2);">Jump to study tools:</p>
+        <div style="display:flex; flex-wrap:wrap; gap:0.4rem;">
+          <a href="/prelims/" class="syl-topic" style="cursor:pointer;">Prelims Hub</a>
+          <a href="/mains/" class="syl-topic" style="cursor:pointer;">Mains Hub</a>
+          <a href="/pyq/" class="syl-topic" style="cursor:pointer;">PYQ Analysis</a>
+          <a href="/study-plan/" class="syl-topic" style="cursor:pointer;">Study Plan</a>
+          <a href="/resources/" class="syl-topic" style="cursor:pointer;">Resources</a>
+        </div>
+      </div>
+
     </div>
 
-    <!-- Reset -->
-    <div style="text-align:center; margin-top:var(--space-8);">
-      <button id="reset-data" class="btn btn--ghost btn--sm" style="color:var(--color-error); border-color:var(--color-error);">Reset All Progress Data</button>
+    {# ── Reset ── #}
+    <div style="text-align:center; margin-top:var(--space-4); padding-top:var(--space-6); border-top:1px solid var(--color-border);">
+      <button id="reset-data" style="background:none; border:1.5px solid var(--color-error, #dc2626); color:var(--color-error, #dc2626); padding:0.5em 1.5em; border-radius:8px; font-size:var(--text-sm); font-weight:600; cursor:pointer;">Reset All Progress Data</button>
+      <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin-top:var(--space-2);">This clears syllabus checkmarks, bookmarks, vocab, and key terms progress.</p>
     </div>
 
   </div>
@@ -48,113 +122,182 @@ description: "Track your UPSC preparation progress — syllabus completion, quiz
 
 <script>
 (function() {
-  const syllabusData = JSON.parse(localStorage.getItem('bharatnotes_syllabus') || '{}');
-  const quizData = JSON.parse(localStorage.getItem('bharatnotes_prelims') || '{"total":0,"correct":0,"subjects":{}}');
+  /* ── Read localStorage ── */
+  var prelimsData = {};
+  var mainsData = {};
+  var bookmarks = [];
+  var vocabLearned = [];
+  var termsLearned = [];
+  try { prelimsData = JSON.parse(localStorage.getItem('bharatnotes_prelims_tracker') || '{}'); } catch(e) {}
+  try { mainsData = JSON.parse(localStorage.getItem('bharatnotes_syllabus') || '{}'); } catch(e) {}
+  try { bookmarks = JSON.parse(localStorage.getItem('bharatnotes_bookmarks') || '[]'); } catch(e) {}
+  try { vocabLearned = JSON.parse(localStorage.getItem('bn_vocab_learned') || '[]'); } catch(e) {}
+  try { termsLearned = JSON.parse(localStorage.getItem('bn_terms_learned') || '[]'); } catch(e) {}
 
-  const subjectMeta = {{ subjects | json | safe }};
+  /* ── Prelims subjects config (matches syllabus-tracker prelims-check keys) ── */
+  var prelimsSubjects = [
+    { slug: 'history-culture', title: 'History & Culture', icon: '\uD83C\uDFDB\uFE0F', color: '#9f1239', total: 7 },
+    { slug: 'polity', title: 'Polity & Governance', icon: '\u2696\uFE0F', color: '#7c3aed', total: 10 },
+    { slug: 'geography', title: 'Geography', icon: '\uD83C\uDF0D', color: '#b45309', total: 5 },
+    { slug: 'economy', title: 'Indian Economy', icon: '\uD83D\uDCB0', color: '#0369a1', total: 7 },
+    { slug: 'society', title: 'Indian Society', icon: '\uD83D\uDC65', color: '#be123c', total: 5 },
+    { slug: 'international-relations', title: 'Intl Relations', icon: '\uD83E\uDD1D', color: '#0e7490', total: 3 },
+    { slug: 'environment', title: 'Environment', icon: '\uD83C\uDF3F', color: '#047857', total: 3 },
+    { slug: 'science-tech', title: 'Science & Tech', icon: '\uD83D\uDD2C', color: '#4338ca', total: 3 },
+    { slug: 'general-science', title: 'General Science', icon: '\u2697\uFE0F', color: '#0d9488', total: 3 },
+    { slug: 'security', title: 'Internal Security', icon: '\uD83D\uDEE1\uFE0F', color: '#1e3a5f', total: 4 },
+    { slug: 'disaster-management', title: 'Disaster Mgmt', icon: '\u26A0\uFE0F', color: '#dc2626', total: 3 },
+    { slug: 'ethics', title: 'Ethics', icon: '\uD83E\uDDED', color: '#854d0e', total: 3 }
+  ];
 
-  // Overview
-  const syllabusTotal = Object.keys(syllabusData).length;
-  const quizAccuracy = quizData.total ? Math.round((quizData.correct / quizData.total) * 100) : 0;
+  /* ── Count prelims progress ── */
+  var prelimsKeys = Object.keys(prelimsData);
+  var prelimsChecked = prelimsKeys.length;
+  var prelimsTotal = 0;
+  prelimsSubjects.forEach(function(s) { prelimsTotal += s.total; });
+  var prelimsPct = prelimsTotal ? Math.round((prelimsChecked / prelimsTotal) * 100) : 0;
 
-  document.getElementById('tracker-overview').innerHTML = `
-    <div class="card" style="text-align:center;">
-      <div style="font-size:var(--text-3xl); font-weight:var(--font-extrabold); color:var(--color-brand);">${syllabusTotal}</div>
-      <div style="font-size:var(--text-sm); color:var(--color-text-muted);">Topics Completed</div>
-    </div>
-    <div class="card" style="text-align:center;">
-      <div style="font-size:var(--text-3xl); font-weight:var(--font-extrabold); color:var(--color-accent);">${quizData.total}</div>
-      <div style="font-size:var(--text-sm); color:var(--color-text-muted);">MCQs Attempted</div>
-    </div>
-    <div class="card" style="text-align:center;">
-      <div style="font-size:var(--text-3xl); font-weight:var(--font-extrabold); color:#16a34a;">${quizAccuracy}%</div>
-      <div style="font-size:var(--text-sm); color:var(--color-text-muted);">Quiz Accuracy</div>
-    </div>
-    <div class="card" style="text-align:center;">
-      <div style="font-size:var(--text-3xl); font-weight:var(--font-extrabold); color:var(--color-text-muted);">${quizData.total - quizData.correct}</div>
-      <div style="font-size:var(--text-sm); color:var(--color-text-muted);">Wrong Answers</div>
-    </div>
-  `;
-
-  // Syllabus progress per subject
-  const syllEl = document.getElementById('syllabus-progress');
-  let syllHTML = '';
-  subjectMeta.forEach(subj => {
-    const completed = Object.keys(syllabusData).filter(k => k.startsWith(subj.slug.replace(/-/g, ''))).length;
-    syllHTML += `
-      <div class="card">
-        <div style="display:flex; align-items:center; gap:var(--space-2); margin-bottom:var(--space-2);">
-          <span>${subj.icon}</span>
-          <strong style="font-size:var(--text-sm); color:${subj.color};">${subj.name}</strong>
-        </div>
-        <div style="background:var(--color-border); border-radius:var(--radius-full); height:6px; overflow:hidden;">
-          <div style="background:${subj.color}; height:100%; width:0%; border-radius:var(--radius-full);"></div>
-        </div>
-        <div style="font-size:var(--text-xs); color:var(--color-text-muted); margin-top:var(--space-1);">
-          <a href="/subjects/${subj.slug}/" style="color:var(--color-brand-light);">Study →</a>
-        </div>
-      </div>`;
+  /* Per-subject counts */
+  var subjCounts = {};
+  prelimsSubjects.forEach(function(s) { subjCounts[s.slug] = 0; });
+  prelimsKeys.forEach(function(key) {
+    var subj = key.split('/')[0];
+    if (subjCounts[subj] !== undefined) subjCounts[subj]++;
   });
-  syllEl.innerHTML = syllHTML;
 
-  // Quiz accuracy per subject
-  const quizEl = document.getElementById('quiz-accuracy');
-  let quizHTML = '';
-  subjectMeta.forEach(subj => {
-    const sd = quizData.subjects[subj.slug] || { total: 0, correct: 0 };
-    const pct = sd.total ? Math.round((sd.correct / sd.total) * 100) : 0;
-    const barColor = pct >= 70 ? '#16a34a' : pct >= 40 ? 'var(--color-accent)' : 'var(--color-error)';
-    quizHTML += `
-      <div class="card">
-        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:var(--space-2);">
-          <div style="display:flex; align-items:center; gap:var(--space-2);">
-            <span>${subj.icon}</span>
-            <strong style="font-size:var(--text-sm);">${subj.name}</strong>
-          </div>
-          <span style="font-size:var(--text-sm); font-weight:var(--font-bold); color:${barColor};">${sd.total ? pct + '%' : '—'}</span>
-        </div>
-        <div style="background:var(--color-border); border-radius:var(--radius-full); height:6px; overflow:hidden;">
-          <div style="background:${barColor}; height:100%; width:${pct}%; border-radius:var(--radius-full); transition:width 0.3s;"></div>
-        </div>
-        <div style="font-size:var(--text-xs); color:var(--color-text-muted); margin-top:var(--space-1);">${sd.total} questions attempted</div>
-      </div>`;
+  /* ── Mains paper config ── */
+  var papers = [
+    { slug: 'gs1', title: 'GS Paper 1', subtitle: 'History, Geography, Society', icon: '\uD83C\uDFDB\uFE0F', color: '#9f1239', total: 16 },
+    { slug: 'gs2', title: 'GS Paper 2', subtitle: 'Polity, Governance, IR', icon: '\u2696\uFE0F', color: '#7c3aed', total: 14 },
+    { slug: 'gs3', title: 'GS Paper 3', subtitle: 'Economy, S&T, Environment, Security', icon: '\uD83D\uDCA1', color: '#0369a1', total: 27 },
+    { slug: 'gs4', title: 'GS Paper 4', subtitle: 'Ethics, Integrity & Aptitude', icon: '\uD83E\uDDED', color: '#047857', total: 8 }
+  ];
+
+  var mainsKeys = Object.keys(mainsData);
+  var mainsTotal = 0;
+  var mainsChecked = 0;
+  var paperCounts = {};
+  papers.forEach(function(p) {
+    paperCounts[p.slug] = { checked: 0, total: p.total };
+    mainsTotal += p.total;
   });
-  quizEl.innerHTML = quizHTML;
+  mainsKeys.forEach(function(key) {
+    var paper = key.split('/')[0];
+    if (paperCounts[paper]) { paperCounts[paper].checked++; mainsChecked++; }
+  });
+  var mainsPct = mainsTotal ? Math.round((mainsChecked / mainsTotal) * 100) : 0;
 
-  // Weak areas
-  const weakEl = document.getElementById('weak-areas');
-  const weakSubjects = subjectMeta
-    .map(s => ({ ...s, data: quizData.subjects[s.slug] || { total: 0, correct: 0 } }))
-    .filter(s => s.data.total >= 3)
-    .sort((a, b) => {
-      const aPct = a.data.correct / a.data.total;
-      const bPct = b.data.correct / b.data.total;
-      return aPct - bPct;
-    })
-    .slice(0, 3);
+  /* ── Overview stats ── */
+  document.getElementById('stat-prelims').textContent = prelimsPct + '%';
+  document.getElementById('stat-mains').textContent = mainsPct + '%';
+  document.getElementById('stat-bookmarks').textContent = bookmarks.length;
+  document.getElementById('stat-vocab').textContent = vocabLearned.length;
+  document.getElementById('stat-terms').textContent = termsLearned.length;
 
-  if (weakSubjects.length > 0) {
-    weakEl.innerHTML = '<p style="font-size:var(--text-sm); color:var(--color-text-muted); margin-bottom:var(--space-3);">These subjects need more attention (lowest quiz accuracy):</p>' +
-      weakSubjects.map(s => {
-        const pct = Math.round((s.data.correct / s.data.total) * 100);
-        return `<div style="display:flex; align-items:center; justify-content:space-between; padding:var(--space-2) 0; border-bottom:1px solid var(--color-border);">
-          <span style="font-size:var(--text-sm);">${s.icon} ${s.name}</span>
-          <div>
-            <span style="font-size:var(--text-sm); color:var(--color-error); font-weight:var(--font-bold);">${pct}%</span>
-            <a href="/prelims/?subject=${s.slug}" style="font-size:var(--text-xs); color:var(--color-brand-light); margin-left:var(--space-2);">Practice →</a>
-          </div>
-        </div>`;
-      }).join('');
+  /* ── Prelims progress bar ── */
+  document.getElementById('prelims-done').textContent = prelimsChecked;
+  document.getElementById('prelims-total').textContent = prelimsTotal;
+  document.getElementById('prelims-pct').textContent = prelimsPct + '%';
+  document.getElementById('bar-prelims').style.width = prelimsPct + '%';
+
+  /* ── Prelims subject cards ── */
+  var prelimsEl = document.getElementById('prelims-progress');
+  var pHTML = '';
+  prelimsSubjects.forEach(function(s) {
+    var done = subjCounts[s.slug] || 0;
+    var pct = s.total ? Math.round((done / s.total) * 100) : 0;
+    pHTML += '<div class="syl-card" style="--syl-color:' + s.color + ';">' +
+      '<div class="syl-card__head">' +
+        '<span class="syl-card__icon">' + s.icon + '</span>' +
+        '<div>' +
+          '<h3 class="syl-card__title">' + s.title + '</h3>' +
+          '<span class="syl-card__count">' + done + ' / ' + s.total + ' read</span>' +
+        '</div>' +
+        '<a href="/syllabus-tracker/" class="syl-card__all">Track &rarr;</a>' +
+      '</div>' +
+      '<div style="padding:var(--space-4);">' +
+        '<div style="background:var(--color-border); border-radius:99px; height:8px; overflow:hidden;">' +
+          '<div style="background:' + s.color + '; height:100%; width:' + pct + '%; border-radius:99px; transition:width 0.3s;"></div>' +
+        '</div>' +
+      '</div>' +
+    '</div>';
+  });
+  prelimsEl.innerHTML = pHTML;
+
+  /* ── Mains progress cards ── */
+  var mainsEl = document.getElementById('mains-progress');
+  var mHTML = '';
+  papers.forEach(function(p) {
+    var data = paperCounts[p.slug];
+    var pct = data.total ? Math.round((data.checked / data.total) * 100) : 0;
+    mHTML += '<div class="syl-card" style="--syl-color:' + p.color + ';">' +
+      '<div class="syl-card__head">' +
+        '<span class="syl-card__icon">' + p.icon + '</span>' +
+        '<div>' +
+          '<h3 class="syl-card__title">' + p.title + '</h3>' +
+          '<span class="syl-card__count">' + p.subtitle + '</span>' +
+        '</div>' +
+        '<a href="/syllabus-tracker/" class="syl-card__all">Track &rarr;</a>' +
+      '</div>' +
+      '<div style="padding:var(--space-4);">' +
+        '<div style="display:flex; justify-content:space-between; font-size:0.82rem; margin-bottom:0.4rem;">' +
+          '<span style="color:var(--color-text-muted);">' + data.checked + ' / ' + data.total + ' topics</span>' +
+          '<span style="font-weight:700; color:' + p.color + ';">' + pct + '%</span>' +
+        '</div>' +
+        '<div style="background:var(--color-border); border-radius:99px; height:8px; overflow:hidden;">' +
+          '<div style="background:' + p.color + '; height:100%; width:' + pct + '%; border-radius:99px; transition:width 0.3s;"></div>' +
+        '</div>' +
+      '</div>' +
+    '</div>';
+  });
+  mainsEl.innerHTML = mHTML;
+
+  /* ── Bookmarks list ── */
+  var bmEl = document.getElementById('bookmarks-list');
+  if (bookmarks.length === 0) {
+    bmEl.innerHTML = '<div class="strategy-card" style="text-align:center;">' +
+      '<p class="strategy-card__text">No bookmarked topics yet. Open any topic article and click the Bookmark button to save it for revision.</p>' +
+      '</div>';
   } else {
-    weakEl.innerHTML = '<p style="font-size:var(--text-sm); color:var(--color-text-muted); text-align:center; padding:var(--space-4);">Take at least 3 questions per subject to see your weak areas. <a href="/prelims/">Start practicing →</a></p>';
+    var bmHTML = '<div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-4);">';
+    var shown = bookmarks.slice(0, 12);
+    shown.forEach(function(bm) {
+      var dateStr = '';
+      if (bm.date) {
+        var d = new Date(bm.date);
+        dateStr = d.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
+      }
+      bmHTML += '<a href="' + bm.url + '" style="display:block; text-decoration:none;">' +
+        '<div class="strategy-card" style="transition:transform 0.15s; cursor:pointer;" onmouseover="this.style.transform=\'translateY(-2px)\'" onmouseout="this.style.transform=\'none\'">' +
+          '<h4 class="strategy-card__title" style="font-size:0.92rem;">' + bm.title + '</h4>' +
+          (dateStr ? '<p style="font-size:var(--text-xs); color:var(--color-text-muted); margin-top:var(--space-1);">Bookmarked ' + dateStr + '</p>' : '') +
+        '</div>' +
+      '</a>';
+    });
+    bmHTML += '</div>';
+    if (bookmarks.length > 12) {
+      bmHTML += '<p style="font-size:var(--text-sm); color:var(--color-text-muted); margin-top:var(--space-3);">+ ' + (bookmarks.length - 12) + ' more bookmarked topics</p>';
+    }
+    bmEl.innerHTML = bmHTML;
   }
 
-  // Reset
-  document.getElementById('reset-data').addEventListener('click', () => {
-    if (confirm('This will reset ALL your progress data (syllabus, quizzes, bookmarks). Are you sure?')) {
+  /* ── Vocab & Terms progress ── */
+  document.getElementById('vocab-count').textContent = vocabLearned.length;
+  document.getElementById('terms-count').textContent = termsLearned.length;
+  /* Approximate total vocab/terms — these are dynamic so we show count only, bar fills proportionally */
+  var vocabPct = Math.min(100, Math.round(vocabLearned.length / 3));
+  var termsPct = Math.min(100, Math.round(termsLearned.length / 3));
+  document.getElementById('vocab-bar').style.width = vocabPct + '%';
+  document.getElementById('terms-bar').style.width = termsPct + '%';
+
+  /* ── Reset ── */
+  document.getElementById('reset-data').addEventListener('click', function() {
+    if (confirm('This will reset ALL your progress — Prelims notes, Mains syllabus, bookmarks, vocab, and key terms. Are you sure?')) {
+      localStorage.removeItem('bharatnotes_prelims_tracker');
       localStorage.removeItem('bharatnotes_syllabus');
-      localStorage.removeItem('bharatnotes_prelims');
       localStorage.removeItem('bharatnotes_bookmarks');
+      localStorage.removeItem('bn_vocab_learned');
+      localStorage.removeItem('bn_terms_learned');
       location.reload();
     }
   });

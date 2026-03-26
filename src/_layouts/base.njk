@@ -168,6 +168,12 @@
         <a href="/resources/" class="footer-link">Books & Resources</a>
         <a href="https://ujiyari.com/daily/" class="footer-link">Daily Current Affairs</a>
       </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <a href="/about/" class="footer-link">About BharatNotes</a>
+        <a href="/privacy/" class="footer-link">Privacy Policy</a>
+        <a href="/disclaimer/" class="footer-link">Disclaimer</a>
+      </div>
     </div>
     <div class="footer-copy">
       <p>&copy; {{ site.year }} BharatNotes by Bharat Choudhary. All rights reserved.</p>
@@ -199,6 +205,52 @@
   }, { passive: true });
   btn.addEventListener('click', function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="cookie-banner" hidden>
+  <div class="cookie-banner__inner">
+    <p class="cookie-banner__text">We use cookies for ads (Google AdSense) to keep BharatNotes free. No personal data is collected by us. <a href="/privacy/">Learn more</a></p>
+    <div class="cookie-banner__actions">
+      <button id="cookie-accept" class="btn btn--accent btn--sm">Accept</button>
+      <button id="cookie-reject" class="btn btn--ghost btn--sm">Reject</button>
+    </div>
+  </div>
+</div>
+<script>
+// Cookie consent — loads AdSense only after acceptance
+(function(){
+  var KEY = 'bharatnotes_cookie_consent';
+  var banner = document.getElementById('cookie-banner');
+  var consent = localStorage.getItem(KEY);
+
+  function loadAdSense() {
+    if (document.getElementById('adsense-script')) return;
+    var s = document.createElement('script');
+    s.id = 'adsense-script';
+    s.async = true;
+    s.crossOrigin = 'anonymous';
+    s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9707179008545368';
+    document.head.appendChild(s);
+  }
+
+  if (consent === 'accepted') {
+    loadAdSense();
+  } else if (consent !== 'rejected') {
+    banner.hidden = false;
+  }
+
+  document.getElementById('cookie-accept').addEventListener('click', function() {
+    localStorage.setItem(KEY, 'accepted');
+    banner.hidden = true;
+    loadAdSense();
+  });
+
+  document.getElementById('cookie-reject').addEventListener('click', function() {
+    localStorage.setItem(KEY, 'rejected');
+    banner.hidden = true;
   });
 })();
 </script>

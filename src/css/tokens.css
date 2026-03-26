@@ -22,20 +22,20 @@
   --color-highlight:     #d97706;
   --color-highlight-pale:#fefbf0;
 
-  /* Surfaces */
-  --color-bg:          #f8f9fa;
+  /* Surfaces — warm cream base */
+  --color-bg:          #faf8f6;
   --color-surface:     #ffffff;
-  --color-surface-alt: #f1f3f5;
+  --color-surface-alt: #f5f2ee;
 
   /* Text */
   --color-text:         #1a1a2e;
   --color-text-secondary:#3a3a54;
-  --color-text-muted:   #64647a;
+  --color-text-muted:   #6b6b80;
   --color-white:        #ffffff;
 
-  /* Borders */
-  --color-border:       #d1d5db;
-  --color-border-light: #e2e4e9;
+  /* Borders — warm-tinted */
+  --color-border:       #d6d1ca;
+  --color-border-light: #e8e3dc;
 
   /* Status */
   --color-success: #0f8a4c;

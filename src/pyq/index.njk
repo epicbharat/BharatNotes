@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: "Previous Year Questions (PYQ)"
-description: "UPSC CSE Prelims & Mains Previous Year Questions — topic-wise, paper-wise, with answer analysis and trends."
+title: "PYQ Analysis — UPSC Prelims & Mains Trends"
+description: "UPSC Previous Year Question analysis with verified data — subject-wise weightage, year-wise trends, cutoff analysis, and strategy to use PYQs effectively for Prelims & Mains."
 ---
 
 <section class="page-header">
@@ -10,69 +10,661 @@ description: "UPSC CSE Prelims & Mains Previous Year Questions — topic-wise, p
       <a href="/">Home</a><span class="breadcrumb__sep">/</span>
       PYQ Analysis
     </nav>
-    <p class="page-header__eyebrow">Learn from the Exam</p>
+    <p class="page-header__eyebrow">Data-Driven Preparation</p>
     <h1 class="page-header__title">Previous Year Questions</h1>
-    <p class="page-header__subtitle">Topic-wise PYQ analysis for Prelims & Mains — understand what UPSC asks and how to approach it.</p>
+    <p class="page-header__subtitle">Verified year-wise data, subject weightage trends, cutoff analysis, and strategic insights from 6 years of UPSC papers.</p>
   </div>
 </section>
 
 <section style="padding:var(--space-8) 0;">
   <div class="container">
 
-    <!-- Why PYQs Matter -->
-    <div class="card" style="margin-bottom:var(--space-8);">
-      <div class="article-body">
-        <h3 style="color:var(--color-brand-dark);">Why PYQs Are Your Best Teacher</h3>
-        <ul>
-          <li><strong>Pattern recognition:</strong> UPSC repeats themes (not exact questions). PYQs reveal which sub-topics are asked repeatedly.</li>
-          <li><strong>Depth calibration:</strong> Know exactly how deep to study each topic — no more, no less.</li>
-          <li><strong>Answer framework:</strong> Mains PYQs teach you the dimensions UPSC expects in answers.</li>
-          <li><strong>Elimination skill:</strong> Prelims PYQs build your ability to eliminate wrong options.</li>
-        </ul>
+    {# ── Key Numbers ── #}
+    <div class="info-card" style="margin-bottom:var(--space-8);">
+      <div class="info-card__grid" style="grid-template-columns:repeat(auto-fit, minmax(140px, 1fr));">
+        <div class="info-card__item">
+          <span class="info-card__num">100</span>
+          <span class="info-card__label">Prelims Qs / year</span>
+        </div>
+        <div class="info-card__item">
+          <span class="info-card__num">20</span>
+          <span class="info-card__label">Mains Qs / GS paper</span>
+        </div>
+        <div class="info-card__item">
+          <span class="info-card__num">250</span>
+          <span class="info-card__label">Marks per GS paper</span>
+        </div>
+        <div class="info-card__item">
+          <span class="info-card__num">-0.66</span>
+          <span class="info-card__label">Prelims penalty / wrong</span>
+        </div>
       </div>
+      <p class="info-card__note">UPSC doesn't repeat exact questions, but it repeats themes and sub-topics. PYQ analysis reveals what UPSC actually values — and what you can safely deprioritise.</p>
     </div>
 
-    <!-- PYQ by Paper -->
-    <h2 style="font-family:var(--font-serif); font-size:var(--text-2xl); color:var(--color-brand-dark); margin-bottom:var(--space-5); padding-bottom:var(--space-2); border-bottom:3px solid var(--color-accent);">Browse by GS Paper</h2>
+    {# ── Why PYQs Matter ── #}
+    <h2 class="section-heading">Why PYQs Are Your Best Teacher</h2>
 
     <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-5); margin-bottom:var(--space-10);">
-      {% for key, paper in syllabus %}
-      <div class="card">
-        <span class="gs-badge gs-badge--{{ paper.slug }}">{{ paper.slug | upper }}</span>
-        <h3 class="card__title" style="margin-top:var(--space-2);">{{ paper.title }}</h3>
-        <p class="card__desc">{{ paper.subtitle }}</p>
-        <div style="margin-top:var(--space-3);">
-          {% for section in paper.sections %}
-          <span style="display:inline-block; font-size:var(--text-xs); background:var(--color-bg); padding:2px 8px; border-radius:var(--radius-full); margin:2px; color:var(--color-text-muted);">{{ section.title }}</span>
-          {% endfor %}
-        </div>
-        <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin-top:var(--space-3);">PYQ analysis coming soon</p>
+      <div class="strategy-card">
+        <h4 class="strategy-card__title">Pattern Recognition</h4>
+        <p class="strategy-card__text">UPSC repeats themes, not exact questions. PYQs reveal which sub-topics are asked repeatedly — these are your high-ROI areas. Focus study time where the exam actually tests.</p>
       </div>
-      {% endfor %}
+      <div class="strategy-card">
+        <h4 class="strategy-card__title">Depth Calibration</h4>
+        <p class="strategy-card__text">Know exactly how deep to study each topic. If UPSC has never asked about X in 25 years, don't waste 3 days on it. PYQs set your depth ceiling.</p>
+      </div>
+      <div class="strategy-card">
+        <h4 class="strategy-card__title">Elimination Skill</h4>
+        <p class="strategy-card__text">Prelims PYQs build your ability to spot wrong options. With -0.66 negative marking, elimination is more valuable than knowledge — it turns guesses into safe attempts.</p>
+      </div>
+      <div class="strategy-card">
+        <h4 class="strategy-card__title">Answer Frameworks</h4>
+        <p class="strategy-card__text">Mains PYQs teach you the dimensions UPSC expects. "Discuss" vs "Critically examine" vs "Enumerate" — each directive word maps to a specific answer structure.</p>
+      </div>
     </div>
 
-    <!-- PYQ Trends -->
-    <h2 style="font-family:var(--font-serif); font-size:var(--text-2xl); color:var(--color-brand-dark); margin-bottom:var(--space-5); padding-bottom:var(--space-2); border-bottom:3px solid var(--color-accent);">Key PYQ Trends (2019-2025)</h2>
+    {# ══════════════════════════════════════════════════════════
+       PRELIMS: YEAR-WISE DATA TABLE
+       ══════════════════════════════════════════════════════════ #}
+    <h2 class="section-heading">Prelims — Subject-wise Question Count (2019-2024)</h2>
+    <p style="color:var(--color-text-muted); font-size:var(--text-sm); margin-bottom:var(--space-6);">Verified question counts from official UPSC CSE Prelims GS Paper 1. Subject classification based on primary theme of each question.</p>
 
-    <div class="card">
-      <div class="article-body">
-        <h4 style="color:var(--color-accent);">Prelims Trends</h4>
-        <ul>
-          <li><strong>Environment & Ecology:</strong> 15-20 questions per year consistently — highest weightage</li>
-          <li><strong>Polity:</strong> 12-18 questions — more from less-studied areas (tribunals, statutory bodies)</li>
-          <li><strong>Economy:</strong> 15-18 questions — increasing focus on banking, external sector, schemes</li>
-          <li><strong>Science & Tech:</strong> 8-12 questions — space, biotech, defence tech trending up</li>
-          <li><strong>History & Culture:</strong> 10-15 questions — ancient and medieval culture increasing</li>
-        </ul>
+    <div class="pyq-table-wrap" style="margin-bottom:var(--space-5);">
+      <table class="pyq-table">
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+            <th>2022</th>
+            <th>2023</th>
+            <th>2024</th>
+            <th>Avg</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Current Affairs</td>
+            <td>17</td>
+            <td>19</td>
+            <td>14</td>
+            <td>13</td>
+            <td>16</td>
+            <td class="pyq-table__highlight">20</td>
+            <td><strong>16.5</strong></td>
+          </tr>
+          <tr>
+            <td>Environment &amp; Ecology</td>
+            <td>14</td>
+            <td>11</td>
+            <td>15</td>
+            <td class="pyq-table__highlight">27</td>
+            <td>13</td>
+            <td>10</td>
+            <td><strong>15.0</strong></td>
+          </tr>
+          <tr>
+            <td>Geography</td>
+            <td>12</td>
+            <td>12</td>
+            <td>10</td>
+            <td>12</td>
+            <td>16</td>
+            <td class="pyq-table__highlight">19</td>
+            <td><strong>13.5</strong></td>
+          </tr>
+          <tr>
+            <td>Economy</td>
+            <td>16</td>
+            <td>14</td>
+            <td>15</td>
+            <td class="pyq-table__highlight">17</td>
+            <td>14</td>
+            <td>15</td>
+            <td><strong>15.2</strong></td>
+          </tr>
+          <tr>
+            <td>Polity &amp; Governance</td>
+            <td>15</td>
+            <td>15</td>
+            <td>14</td>
+            <td>8</td>
+            <td>15</td>
+            <td class="pyq-table__highlight">18</td>
+            <td><strong>14.2</strong></td>
+          </tr>
+          <tr>
+            <td>History &amp; Culture</td>
+            <td>17</td>
+            <td>19</td>
+            <td class="pyq-table__highlight">20</td>
+            <td>9</td>
+            <td>14</td>
+            <td>9</td>
+            <td><strong>14.7</strong></td>
+          </tr>
+          <tr>
+            <td>Science &amp; Technology</td>
+            <td>10</td>
+            <td>10</td>
+            <td>12</td>
+            <td>14</td>
+            <td>12</td>
+            <td>9</td>
+            <td><strong>11.2</strong></td>
+          </tr>
+        </tbody>
+        <caption>Sources: SuperKalam PYQ analysis (2019-2023), PW OnlyIAS (2024). Highlighted cells = highest for that year. Subject classification may vary slightly between sources due to overlapping themes.</caption>
+      </table>
+    </div>
 
-        <h4 style="color:var(--color-accent);">Mains Trends</h4>
-        <ul>
-          <li><strong>GS2:</strong> More case-study-based questions on governance failures and reforms</li>
-          <li><strong>GS3:</strong> Current affairs integration mandatory — no pure static answers score well</li>
-          <li><strong>GS4:</strong> Case studies dominate (125/250 marks) — ethics application, not theory</li>
-          <li><strong>Essay:</strong> Balanced philosophical + contemporary; one abstract + one socio-economic</li>
-        </ul>
+    <div class="pyq-insight">
+      <strong>Key insight:</strong> No single subject dominates every year. Environment spiked to 27 in 2022, Geography surged to 19 in 2024, History hit 20 in 2021. UPSC deliberately rotates emphasis — you cannot afford to skip any subject.
+    </div>
+    <div class="pyq-insight">
+      <strong>Current Affairs:</strong> Averaged ~16.5 standalone questions, but this undercounts its real impact. CA-linked questions appear in every subject — Economy schemes, Environment conventions, S&amp;T missions. True CA exposure is 30-40% of the paper.
+    </div>
+
+    {# ── Prelims Cutoff Trends ── #}
+    <h2 class="section-heading">Prelims Cutoff Trends — General Category</h2>
+    <p style="color:var(--color-text-muted); font-size:var(--text-sm); margin-bottom:var(--space-6);">Minimum qualifying marks (out of 200) to clear Prelims for General category candidates.</p>
+
+    <div class="pyq-table-wrap" style="margin-bottom:var(--space-5);">
+      <table class="pyq-table">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+            <th>2022</th>
+            <th>2023</th>
+            <th>2024</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cutoff (General)</td>
+            <td>98.00</td>
+            <td>92.51</td>
+            <td>87.54</td>
+            <td>88.22</td>
+            <td class="pyq-table__low">75.41</td>
+            <td>87.98</td>
+          </tr>
+          <tr>
+            <td>As % of 200</td>
+            <td>49.0%</td>
+            <td>46.3%</td>
+            <td>43.8%</td>
+            <td>44.1%</td>
+            <td class="pyq-table__low">37.7%</td>
+            <td>44.0%</td>
+          </tr>
+        </tbody>
+        <caption>Source: UPSC official cutoff notifications. 2023 cutoff dipped sharply — widely attributed to a harder paper with more Environment questions.</caption>
+      </table>
+    </div>
+
+    <div class="pyq-insight">
+      <strong>What does the cutoff mean?</strong> You need roughly 90-100 marks (45-50%) in a normal year. With negative marking of -0.66, answering 75 questions correctly out of 85 attempted is a safe strategy. The 2023 dip shows that paper difficulty varies — don't panic if the paper feels hard; cutoff adjusts.
+    </div>
+
+    {# ── Prelims Subject Cards ── #}
+    <h2 class="section-heading">Prelims — Subject Snapshots</h2>
+    <p style="color:var(--color-text-muted); font-size:var(--text-sm); margin-bottom:var(--space-6);">Year-wise range, high-frequency sub-topics, and strategic notes for each subject.</p>
+
+    <div class="syllabus-grid" style="margin-bottom:var(--space-10);">
+
+      <div class="syl-card" style="--syl-color:#047857;">
+        <div class="syl-card__head">
+          <div>
+            <h3 class="syl-card__title">Environment &amp; Ecology</h3>
+            <span class="syl-card__count">10-27 Qs / year &mdash; avg 15.0</span>
+          </div>
+          <a href="/subjects/environment/" class="syl-card__all">Notes &rarr;</a>
+        </div>
+        <div class="syl-card__topics">
+          <span class="syl-topic" style="cursor:default;">Biodiversity &amp; IUCN Red List</span>
+          <span class="syl-topic" style="cursor:default;">National parks &amp; sanctuaries</span>
+          <span class="syl-topic" style="cursor:default;">International conventions (CBD, UNFCCC)</span>
+          <span class="syl-topic" style="cursor:default;">Pollution &amp; climate policy</span>
+          <span class="syl-topic" style="cursor:default;">Environmental laws</span>
+        </div>
+        <div class="syl-card__footer">Most volatile subject — 27 Qs in 2022, just 10 in 2024. When UPSC tilts Environment-heavy, it becomes the paper decider. Never underprepare this.</div>
       </div>
+
+      <div class="syl-card" style="--syl-color:#0369a1;">
+        <div class="syl-card__head">
+          <div>
+            <h3 class="syl-card__title">Economy</h3>
+            <span class="syl-card__count">14-17 Qs / year &mdash; avg 15.2</span>
+          </div>
+          <a href="/subjects/economy/" class="syl-card__all">Notes &rarr;</a>
+        </div>
+        <div class="syl-card__topics">
+          <span class="syl-topic" style="cursor:default;">Banking &amp; RBI policy</span>
+          <span class="syl-topic" style="cursor:default;">External sector &amp; trade</span>
+          <span class="syl-topic" style="cursor:default;">Govt schemes &amp; budgets</span>
+          <span class="syl-topic" style="cursor:default;">Taxation (GST, direct)</span>
+          <span class="syl-topic" style="cursor:default;">Agriculture &amp; food security</span>
+        </div>
+        <div class="syl-card__footer">Most consistent subject — always 14-17 Qs. Banking, external sector, and government schemes dominate. Current Budget provisions are frequently tested.</div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#7c3aed;">
+        <div class="syl-card__head">
+          <div>
+            <h3 class="syl-card__title">Polity &amp; Governance</h3>
+            <span class="syl-card__count">8-18 Qs / year &mdash; avg 14.2</span>
+          </div>
+          <a href="/subjects/polity/" class="syl-card__all">Notes &rarr;</a>
+        </div>
+        <div class="syl-card__topics">
+          <span class="syl-topic" style="cursor:default;">Tribunals &amp; statutory bodies</span>
+          <span class="syl-topic" style="cursor:default;">Constitutional amendments</span>
+          <span class="syl-topic" style="cursor:default;">Fundamental Rights &amp; DPSPs</span>
+          <span class="syl-topic" style="cursor:default;">Parliament procedures</span>
+          <span class="syl-topic" style="cursor:default;">Judiciary &amp; judicial review</span>
+        </div>
+        <div class="syl-card__footer">Crashed to 8 Qs in 2022 but bounced to 18 in 2024. Questions increasingly come from less-studied areas — tribunals, statutory bodies, obscure provisions. Go beyond Laxmikanth basics.</div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#9f1239;">
+        <div class="syl-card__head">
+          <div>
+            <h3 class="syl-card__title">History &amp; Culture</h3>
+            <span class="syl-card__count">9-20 Qs / year &mdash; avg 14.7</span>
+          </div>
+          <a href="/subjects/history-culture/" class="syl-card__all">Notes &rarr;</a>
+        </div>
+        <div class="syl-card__topics">
+          <span class="syl-topic" style="cursor:default;">Ancient &amp; medieval culture</span>
+          <span class="syl-topic" style="cursor:default;">Freedom struggle events</span>
+          <span class="syl-topic" style="cursor:default;">Art forms &amp; architecture</span>
+          <span class="syl-topic" style="cursor:default;">Post-independence consolidation</span>
+        </div>
+        <div class="syl-card__footer">Second most volatile — 20 Qs in 2021, 9 in 2022 and 2024. Art, architecture, and literary traditions are high-frequency. Ancient India questions are increasingly specific.</div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#b45309;">
+        <div class="syl-card__head">
+          <div>
+            <h3 class="syl-card__title">Geography</h3>
+            <span class="syl-card__count">10-19 Qs / year &mdash; avg 13.5</span>
+          </div>
+          <a href="/subjects/geography/" class="syl-card__all">Notes &rarr;</a>
+        </div>
+        <div class="syl-card__topics">
+          <span class="syl-topic" style="cursor:default;">Indian physical geography</span>
+          <span class="syl-topic" style="cursor:default;">Climate &amp; monsoon patterns</span>
+          <span class="syl-topic" style="cursor:default;">Map-based questions</span>
+          <span class="syl-topic" style="cursor:default;">Resources &amp; industrial geography</span>
+        </div>
+        <div class="syl-card__footer">Surged to 19 Qs in 2024 — Geography is back. Map-based and applied questions dominate. Physical geography and monsoon are perennial favourites.</div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#4338ca;">
+        <div class="syl-card__head">
+          <div>
+            <h3 class="syl-card__title">Science &amp; Technology</h3>
+            <span class="syl-card__count">9-14 Qs / year &mdash; avg 11.2</span>
+          </div>
+          <a href="/subjects/science-tech/" class="syl-card__all">Notes &rarr;</a>
+        </div>
+        <div class="syl-card__topics">
+          <span class="syl-topic" style="cursor:default;">Space missions (ISRO)</span>
+          <span class="syl-topic" style="cursor:default;">Biotechnology &amp; genetics</span>
+          <span class="syl-topic" style="cursor:default;">Defence technology</span>
+          <span class="syl-topic" style="cursor:default;">Health &amp; diseases</span>
+        </div>
+        <div class="syl-card__footer">Lowest average count but highly current-affairs-driven. Space, biotech, and defence tech are the three pillars. Read science news regularly — most Qs come from recent developments.</div>
+      </div>
+
+      <div class="syl-card syl-card--ujiyari">
+        <div class="syl-card__head" style="background:linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); border-color:#fde68a;">
+          <div>
+            <h3 class="syl-card__title" style="color:#92400e;">Current Affairs</h3>
+            <span class="syl-card__count" style="color:#b45309;">16-20 standalone + 30-40% of paper overall</span>
+          </div>
+          <a href="https://ujiyari.com/" target="_blank" rel="noopener" class="syl-card__all" style="color:#b45309;">Ujiyari &rarr;</a>
+        </div>
+        <div class="syl-card__topics" style="background:#fffdf5;">
+          <a href="https://ujiyari.com/daily/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">Daily News</a>
+          <a href="https://ujiyari.com/monthly/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">Monthly Digest</a>
+          <a href="https://ujiyari.com/subjects/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">Subject-wise CA</a>
+        </div>
+        <div class="syl-card__footer">Current affairs isn't a separate subject — it cuts across every card above. Static + current = how UPSC actually frames questions.</div>
+      </div>
+
+    </div>
+
+    {# ══════════════════════════════════════════════════════════
+       MAINS: PAPER-WISE DATA TABLES
+       ══════════════════════════════════════════════════════════ #}
+    <h2 class="section-heading">Mains — GS Paper Topic Distribution (2018-2024)</h2>
+    <p style="color:var(--color-text-muted); font-size:var(--text-sm); margin-bottom:var(--space-6);">Number of questions from each topic area per GS paper. Each GS paper has 20 questions totalling 250 marks.</p>
+
+    {# ── GS Paper 1 ── #}
+    <h3 style="font-family:var(--font-heading); color:var(--color-brand-dark); margin-bottom:var(--space-3); font-size:var(--text-lg);">GS Paper 1 — History, Geography, Society</h3>
+    <div class="pyq-table-wrap" style="margin-bottom:var(--space-5);">
+      <table class="pyq-table">
+        <thead>
+          <tr>
+            <th>Topic</th>
+            <th>2018</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+            <th>2022</th>
+            <th>2023</th>
+            <th>2024</th>
+            <th>Avg</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Geography</td>
+            <td class="pyq-table__highlight">9</td>
+            <td>7</td>
+            <td>8</td>
+            <td>8</td>
+            <td>7</td>
+            <td>8</td>
+            <td>8</td>
+            <td><strong>7.9</strong></td>
+          </tr>
+          <tr>
+            <td>Society</td>
+            <td>6</td>
+            <td>7</td>
+            <td>6</td>
+            <td>7</td>
+            <td>6</td>
+            <td>7</td>
+            <td>6</td>
+            <td><strong>6.4</strong></td>
+          </tr>
+          <tr>
+            <td>History</td>
+            <td>3</td>
+            <td>4</td>
+            <td>3</td>
+            <td>2</td>
+            <td>5</td>
+            <td>4</td>
+            <td>3</td>
+            <td><strong>3.4</strong></td>
+          </tr>
+          <tr>
+            <td>Art &amp; Culture</td>
+            <td>2</td>
+            <td>2</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>3</td>
+            <td><strong>2.3</strong></td>
+          </tr>
+        </tbody>
+        <caption>Source: PW OnlyIAS Mains analysis (2018-2024). Total = 20 Qs per paper.</caption>
+      </table>
+    </div>
+    <div class="pyq-insight">
+      <strong>GS1 strategy:</strong> Geography dominates with ~8 Qs every year — it's the most predictable section. Society is stable at 6-7 Qs and needs specific data + examples. History and Art &amp; Culture together form only ~5-6 Qs — study smart, not exhaustive.
+    </div>
+
+    {# ── GS Paper 2 ── #}
+    <h3 style="font-family:var(--font-heading); color:var(--color-brand-dark); margin-bottom:var(--space-3); font-size:var(--text-lg);">GS Paper 2 — Polity, Governance, IR</h3>
+    <div class="pyq-table-wrap" style="margin-bottom:var(--space-5);">
+      <table class="pyq-table">
+        <thead>
+          <tr>
+            <th>Topic</th>
+            <th>2018</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+            <th>2022</th>
+            <th>2023</th>
+            <th>2024</th>
+            <th>Avg</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Polity &amp; Constitution</td>
+            <td class="pyq-table__highlight">10</td>
+            <td class="pyq-table__highlight">9</td>
+            <td>9</td>
+            <td>9</td>
+            <td class="pyq-table__highlight">10</td>
+            <td class="pyq-table__highlight">10</td>
+            <td>9</td>
+            <td><strong>9.4</strong></td>
+          </tr>
+          <tr>
+            <td>Social Justice</td>
+            <td>4</td>
+            <td>4</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>3</td>
+            <td>4</td>
+            <td><strong>3.9</strong></td>
+          </tr>
+          <tr>
+            <td>International Relations</td>
+            <td>3</td>
+            <td>4</td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>4</td>
+            <td><strong>3.4</strong></td>
+          </tr>
+          <tr>
+            <td>Governance</td>
+            <td>3</td>
+            <td>3</td>
+            <td>4</td>
+            <td>4</td>
+            <td>2</td>
+            <td>4</td>
+            <td>3</td>
+            <td><strong>3.3</strong></td>
+          </tr>
+        </tbody>
+        <caption>Source: PW OnlyIAS Mains analysis (2018-2024). Total = 20 Qs per paper.</caption>
+      </table>
+    </div>
+    <div class="pyq-insight">
+      <strong>GS2 strategy:</strong> Polity is king — always 9-10 Qs (half the paper). Focus on constitutional provisions, amendments, and landmark judgments. IR is stable at 3-4 Qs with India's neighbourhood focus. Governance questions increasingly use case-study format.
+    </div>
+
+    {# ── GS Paper 3 ── #}
+    <h3 style="font-family:var(--font-heading); color:var(--color-brand-dark); margin-bottom:var(--space-3); font-size:var(--text-lg);">GS Paper 3 — Economy, S&amp;T, Environment, Security</h3>
+    <div class="pyq-table-wrap" style="margin-bottom:var(--space-5);">
+      <table class="pyq-table">
+        <thead>
+          <tr>
+            <th>Topic</th>
+            <th>2018</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+            <th>2022</th>
+            <th>2023</th>
+            <th>2024</th>
+            <th>Avg</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Env, S&amp;T &amp; Disaster</td>
+            <td>6</td>
+            <td>6</td>
+            <td>7</td>
+            <td>7</td>
+            <td class="pyq-table__highlight">8</td>
+            <td>7</td>
+            <td>7</td>
+            <td><strong>6.9</strong></td>
+          </tr>
+          <tr>
+            <td>Economy</td>
+            <td>5</td>
+            <td>5</td>
+            <td>4</td>
+            <td>5</td>
+            <td>5</td>
+            <td>5</td>
+            <td>4</td>
+            <td><strong>4.7</strong></td>
+          </tr>
+          <tr>
+            <td>Internal Security</td>
+            <td>4</td>
+            <td>4</td>
+            <td>4</td>
+            <td>4</td>
+            <td>4</td>
+            <td>4</td>
+            <td>4</td>
+            <td><strong>4.0</strong></td>
+          </tr>
+          <tr>
+            <td>Agriculture</td>
+            <td>5</td>
+            <td>5</td>
+            <td>5</td>
+            <td>4</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td><strong>4.4</strong></td>
+          </tr>
+        </tbody>
+        <caption>Source: PW OnlyIAS Mains analysis (2018-2024). Total = 20 Qs per paper.</caption>
+      </table>
+    </div>
+    <div class="pyq-insight">
+      <strong>GS3 strategy:</strong> Environment + S&amp;T + Disaster cluster dominates (~7 Qs). Internal Security is the most predictable — exactly 4 Qs every single year since 2018. No pure static answers score well in this paper; every answer needs recent data, schemes, or policy developments.
+    </div>
+
+    {# ── GS Paper 4 ── #}
+    <h3 style="font-family:var(--font-heading); color:var(--color-brand-dark); margin-bottom:var(--space-3); font-size:var(--text-lg);">GS Paper 4 — Ethics, Integrity &amp; Aptitude</h3>
+    <div class="pyq-table-wrap" style="margin-bottom:var(--space-5);">
+      <table class="pyq-table">
+        <thead>
+          <tr>
+            <th>Component</th>
+            <th>Questions</th>
+            <th>Marks</th>
+            <th>% of Paper</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Theory (Ethics concepts, thinkers, aptitude)</td>
+            <td>~14</td>
+            <td>125</td>
+            <td>50%</td>
+          </tr>
+          <tr>
+            <td>Case Studies</td>
+            <td class="pyq-table__highlight">6 (always)</td>
+            <td>125</td>
+            <td>50%</td>
+          </tr>
+        </tbody>
+        <caption>GS4 has the most fixed structure — exactly 6 case studies every year, worth 125 marks (half the paper).</caption>
+      </table>
+    </div>
+    <div class="pyq-insight">
+      <strong>GS4 strategy:</strong> Case studies are 125/250 marks — half your score from just 6 questions. UPSC tests ethical application, not textbook definitions. Prepare 15-20 real-life examples (Kiran Bedi, T.N. Seshan, Aruna Roy, etc.) and map them to ethical concepts. For theory, thinkers like Kant, Rawls, Gandhi, Kautilya are perennially asked.
+    </div>
+
+    {# ── Mains Paper Cards ── #}
+    <div class="syllabus-grid" style="margin-bottom:var(--space-10); margin-top:var(--space-6);">
+
+      <div class="syl-card syl-card--ujiyari">
+        <div class="syl-card__head" style="background:linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); border-color:#fde68a;">
+          <div>
+            <h3 class="syl-card__title" style="color:#92400e;">Mains Answer Writing</h3>
+            <span class="syl-card__count" style="color:#b45309;">I-B-C formula &amp; practice lab</span>
+          </div>
+          <a href="https://ujiyari.com/mains-guide/" target="_blank" rel="noopener" class="syl-card__all" style="color:#b45309;">Guide &rarr;</a>
+        </div>
+        <div class="syl-card__topics" style="background:#fffdf5;">
+          <a href="https://ujiyari.com/mains-guide/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">I-B-C Framework</a>
+          <a href="https://ujiyari.com/mains-guide/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">Directive Decoder</a>
+          <a href="https://ujiyari.com/mains-guide/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">Practice Lab</a>
+          <a href="https://ujiyari.com/mains-guide/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">Value Bank</a>
+        </div>
+        <div class="syl-card__footer">Knowing what to write is half the battle. The Mains Guide on Ujiyari teaches structure, presentation, and scoring technique.</div>
+      </div>
+
+      <div class="syl-card" style="--syl-color:#b45309;">
+        <div class="syl-card__head">
+          <div>
+            <h3 class="syl-card__title">Essay Paper</h3>
+            <span class="syl-card__count">250 marks &mdash; 2 essays in 3 hours</span>
+          </div>
+          <a href="/mains/" class="syl-card__all">Mains hub &rarr;</a>
+        </div>
+        <div class="syl-card__topics">
+          <span class="syl-topic" style="cursor:default;">1 philosophical + 1 socio-economic</span>
+          <span class="syl-topic" style="cursor:default;">Multi-dimensional approach</span>
+          <span class="syl-topic" style="cursor:default;">Quotes &amp; examples essential</span>
+        </div>
+        <div class="syl-card__footer">UPSC offers 4 topics per section (philosophical &amp; socio-economic). Pick one from each. Aim for 1000-1200 words per essay with a clear introduction-body-conclusion structure.</div>
+      </div>
+
+    </div>
+
+    {# ══════════════════════════════════════════════════════════
+       HOW TO USE PYQs
+       ══════════════════════════════════════════════════════════ #}
+    <h2 class="section-heading">How to Use PYQs Effectively</h2>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-5); margin-bottom:var(--space-8);">
+
+      <div class="strategy-card">
+        <h4 class="strategy-card__title">Step 1: Topic-wise, Not Year-wise</h4>
+        <p class="strategy-card__text">Don't solve PYQs paper-by-paper. Group them by topic (e.g., all Polity PYQs together). This reveals which sub-topics UPSC returns to — and which it ignores.</p>
+      </div>
+
+      <div class="strategy-card">
+        <h4 class="strategy-card__title">Step 2: Attempt Before Reading</h4>
+        <p class="strategy-card__text">Try each PYQ before studying the topic. If you can't answer it, you know what to focus on. If you can, that's a confidence boost and you can move faster through notes.</p>
+      </div>
+
+      <div class="strategy-card">
+        <h4 class="strategy-card__title">Step 3: Analyse Wrong Answers</h4>
+        <p class="strategy-card__text">For Prelims: why was each wrong option wrong? For Mains: what dimensions did the model answer cover that you missed? The gap is your study guide.</p>
+      </div>
+
+      <div class="strategy-card">
+        <h4 class="strategy-card__title">Step 4: Track Frequency</h4>
+        <p class="strategy-card__text">If a sub-topic appears 5+ times in 10 years, it's a UPSC favourite. Invest disproportionate time there. If it appeared once in 20 years, learn it but don't obsess.</p>
+      </div>
+
+      <div class="strategy-card">
+        <h4 class="strategy-card__title">Step 5: Simulate Exam Conditions</h4>
+        <p class="strategy-card__text">Do full-length PYQ papers under timed conditions — 100 questions, 2 hours, no notes. This builds exam temperament, the #1 factor on D-day.</p>
+      </div>
+
+      <div class="strategy-card">
+        <h4 class="strategy-card__title">Step 6: Revise With PYQs</h4>
+        <p class="strategy-card__text">In final revision, use PYQs as flashcards. Can you answer each one confidently? If not, revisit that topic. PYQs are the ultimate revision checklist.</p>
+      </div>
+
     </div>
 
   </div>
