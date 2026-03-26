@@ -300,22 +300,19 @@ layout: base.njk
           var yearMatch = textContent.match(/\b(19|20)\d{2}\b/);
           var yearText = yearMatch ? yearMatch[0] : '';
           var typeLabel = isMains ? 'Mains' : 'Prelims';
-          // Check for inline options in the question text itself
           var inlineOpts = extractInlineOptions(textContent);
           var cleanContent = cleanQText(content);
-          // Strip inline (a)(b)(c)(d) options from display — quiz will generate them
           if (inlineOpts) cleanContent = stripInlineOptions(cleanContent);
-          // Also strip inline **Answer:** if embedded in the question paragraph
           var inlineAnswerSplit = cleanContent.split(/<strong>Answer:?<\/strong>\s*:?\s*/i);
           var answerHtml = '';
           if (inlineAnswerSplit.length > 1) {
             answerHtml = inlineAnswerSplit.slice(1).join('');
             cleanContent = inlineAnswerSplit[0];
           }
-          cardsHtml += '<div class="' + cardClass + '" data-q="' + qCount + '" data-type="' + (isMains ? 'mains' : 'prelims') + '"';
+          cardsHtml += '<div class="' + cardClass + '" data-q="' + qCount + '" data-type="' + (isMains ? 'mains' : 'prelims') + '" data-year="' + yearText + '"';
           if (inlineOpts) cardsHtml += ' data-options="' + encodeURIComponent(JSON.stringify(inlineOpts)) + '"';
           cardsHtml += '>';
-          cardsHtml += '<div class="pyq-meta"><span class="pyq-q-number">' + qCount + '</span><span class="pyq-year-badge">' + typeLabel + (yearText ? ' · ' + yearText : '') + '</span></div>';
+          cardsHtml += '<div class="pyq-meta"><span class="pyq-q-number">' + qCount + '</span><span class="pyq-year-badge">' + typeLabel + (yearText ? ' \u00B7 ' + yearText : '') + '</span></div>';
           cardsHtml += '<div class="pyq-question-text">' + cleanContent + '</div>';
           if (answerHtml) {
             var answerId = 'pyq-ans-' + qCount;
@@ -368,6 +365,222 @@ layout: base.njk
         if (badge) { badge.textContent = qCount; badge.hidden = false; }
       }
 
+      /* ── Score tracking (localStorage) ── */
+      var pageSlug = window.location.pathname;
+      var pyqScoresKey = 'bharatnotes_pyq_scores';
+      function loadScores() {
+        try { return JSON.parse(localStorage.getItem(pyqScoresKey)) || {}; } catch(e) { return {}; }
+      }
+      function saveScore(qNum, type, selectedIdx, isCorrect) {
+        var scores = loadScores();
+        if (!scores[pageSlug]) scores[pageSlug] = { prelims: { total: 0, correct: 0, answers: {} }, mains: { attempted: [] }, lastAttempted: '' };
+        var s = scores[pageSlug];
+        if (type === 'prelims') {
+          if (!s.prelims.answers[qNum]) {
+            s.prelims.total++;
+            if (isCorrect) s.prelims.correct++;
+          }
+          s.prelims.answers[qNum] = selectedIdx;
+        } else {
+          if (s.mains.attempted.indexOf(qNum) === -1) s.mains.attempted.push(qNum);
+        }
+        s.lastAttempted = new Date().toISOString();
+        localStorage.setItem(pyqScoresKey, JSON.stringify(scores));
+        document.dispatchEvent(new CustomEvent('pyq-score-updated'));
+      }
+      function removeScore(qNum, type) {
+        var scores = loadScores();
+        var s = scores[pageSlug];
+        if (!s) return;
+        if (type === 'prelims' && s.prelims.answers[qNum] !== undefined) {
+          s.prelims.total--;
+          // We don't know if it was correct — recalculate
+          delete s.prelims.answers[qNum];
+          s.prelims.correct = 0;
+          // Recalc from remaining answers by re-checking cards
+          pyqInner.querySelectorAll('.pyq-card[data-type="prelims"]').forEach(function(c) {
+            var q = c.getAttribute('data-q');
+            if (s.prelims.answers[q] !== undefined && c.querySelector('.pyq-option--correct.pyq-option--selected')) {
+              s.prelims.correct++;
+            }
+          });
+        } else if (type === 'mains') {
+          var idx = s.mains.attempted.indexOf(qNum);
+          if (idx !== -1) s.mains.attempted.splice(idx, 1);
+        }
+        localStorage.setItem(pyqScoresKey, JSON.stringify(scores));
+        document.dispatchEvent(new CustomEvent('pyq-score-updated'));
+      }
+      function clearAllScores() {
+        var scores = loadScores();
+        delete scores[pageSlug];
+        localStorage.setItem(pyqScoresKey, JSON.stringify(scores));
+        document.dispatchEvent(new CustomEvent('pyq-score-updated'));
+      }
+
+      /* ── Progress bar ── */
+      var totalCards = pyqInner.querySelectorAll('.pyq-card').length;
+      var progressEl = document.createElement('div');
+      progressEl.className = 'pyq-progress';
+      progressEl.innerHTML = '<div class="pyq-progress__top"><div class="pyq-progress__text"><span class="pyq-progress__label">Progress</span><span class="pyq-progress__count" id="pyq-prog-count">0 / ' + totalCards + ' attempted</span></div><button class="pyq-reset-all" id="pyq-reset-all" title="Reset all answers">Reset All</button></div><div class="pyq-progress__bar"><div class="pyq-progress__fill pyq-progress__fill--correct" id="pyq-fill-correct"></div><div class="pyq-progress__fill pyq-progress__fill--wrong" id="pyq-fill-wrong"></div></div><div class="pyq-progress__score" id="pyq-prog-score" hidden></div>';
+      wrapper.insertBefore(progressEl, pyqInner);
+
+      function updateProgress() {
+        var scores = loadScores();
+        var s = scores[pageSlug] || { prelims: { total: 0, correct: 0, answers: {} }, mains: { attempted: [] } };
+        var attempted = s.prelims.total + s.mains.attempted.length;
+        var correct = s.prelims.correct;
+        var wrong = s.prelims.total - correct;
+        document.getElementById('pyq-prog-count').textContent = attempted + ' / ' + totalCards + ' attempted';
+        var scoreEl = document.getElementById('pyq-prog-score');
+        if (s.prelims.total > 0) {
+          scoreEl.hidden = false;
+          scoreEl.innerHTML = 'Prelims Score: <strong>' + correct + '/' + s.prelims.total + '</strong> correct';
+        } else {
+          scoreEl.hidden = true;
+        }
+        var pCorrect = totalCards ? (correct / totalCards * 100) : 0;
+        var pWrong = totalCards ? (wrong / totalCards * 100) : 0;
+        document.getElementById('pyq-fill-correct').style.width = pCorrect + '%';
+        document.getElementById('pyq-fill-wrong').style.width = pWrong + '%';
+      }
+      document.addEventListener('pyq-score-updated', updateProgress);
+
+      /* ── Reset All button ── */
+      document.getElementById('pyq-reset-all').addEventListener('click', function() {
+        clearAllScores();
+        location.reload();
+      });
+
+      /* ── Filter bar ── */
+      var years = {};
+      pyqInner.querySelectorAll('.pyq-card').forEach(function(c) {
+        var y = c.getAttribute('data-year');
+        if (y) years[y] = true;
+      });
+      var yearOpts = '<option value="all">All Years</option>';
+      Object.keys(years).sort().reverse().forEach(function(y) {
+        yearOpts += '<option value="' + y + '">' + y + '</option>';
+      });
+      var filterBar = document.createElement('div');
+      filterBar.className = 'pyq-filters';
+      filterBar.innerHTML = '<button class="pyq-filter active" data-filter="all">All</button><button class="pyq-filter" data-filter="prelims">Prelims</button><button class="pyq-filter" data-filter="mains">Mains</button><span class="pyq-filter-sep"></span><select class="pyq-filter-year" id="pyq-filter-year">' + yearOpts + '</select><span class="pyq-filter-sep"></span><button class="pyq-filter" data-filter="unanswered">Unanswered</button>';
+      wrapper.insertBefore(filterBar, pyqInner);
+
+      var activeFilter = 'all';
+      function applyPyqFilters() {
+        var yearVal = document.getElementById('pyq-filter-year').value;
+        var scores = loadScores();
+        var s = scores[pageSlug] || { prelims: { total: 0, correct: 0, answers: {} }, mains: { attempted: [] } };
+        pyqInner.querySelectorAll('.pyq-card').forEach(function(c) {
+          var type = c.getAttribute('data-type');
+          var year = c.getAttribute('data-year');
+          var qNum = parseInt(c.getAttribute('data-q'));
+          var matchType = activeFilter === 'all' || activeFilter === type;
+          var matchYear = yearVal === 'all' || year === yearVal;
+          var matchUnanswered = true;
+          if (activeFilter === 'unanswered') {
+            matchType = true;
+            var isAnswered = (type === 'prelims' && s.prelims.answers[qNum] !== undefined) || (type === 'mains' && s.mains.attempted.indexOf(qNum) !== -1);
+            matchUnanswered = !isAnswered;
+          }
+          c.hidden = !(matchType && matchYear && matchUnanswered);
+        });
+        // Hide empty section headings
+        pyqInner.querySelectorAll('.pyq-section-heading').forEach(function(h3) {
+          var next = h3.nextElementSibling;
+          var hasVisible = false;
+          while (next && !next.classList.contains('pyq-section-heading')) {
+            if (next.classList.contains('pyq-card') && !next.hidden) hasVisible = true;
+            next = next.nextElementSibling;
+          }
+          h3.hidden = !hasVisible;
+        });
+      }
+      filterBar.querySelectorAll('.pyq-filter').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          filterBar.querySelectorAll('.pyq-filter').forEach(function(b) { b.classList.remove('active'); });
+          btn.classList.add('active');
+          activeFilter = btn.getAttribute('data-filter');
+          applyPyqFilters();
+        });
+      });
+      document.getElementById('pyq-filter-year').addEventListener('change', applyPyqFilters);
+
+      /* ── Mains directive hints ── */
+      var directiveMap = {
+        'discuss': 'Cover multiple dimensions \u2014 what, why, significance, challenges, way forward',
+        'critically examine': 'Present both sides with evidence, give your reasoned conclusion',
+        'critically analyse': 'Break down into components, evaluate strengths and weaknesses, conclude',
+        'enumerate': 'List systematically with brief explanation of each point',
+        'comment': 'Express a reasoned opinion supported by facts and examples',
+        'evaluate': 'Assess the value or effectiveness with evidence from both sides',
+        'elucidate': 'Explain clearly with examples to make the concept accessible',
+        'examine': 'Investigate in detail, look at different angles and implications',
+        'analyse': 'Break into components, study relationships, draw conclusions',
+        'assess': 'Determine the significance, value, or extent of something',
+        'justify': 'Provide reasons and evidence in support of a position',
+        'compare': 'Identify similarities and differences between two or more things'
+      };
+
+      pyqInner.querySelectorAll('.pyq-card--mains').forEach(function(card) {
+        var qText = card.querySelector('.pyq-question-text');
+        if (!qText) return;
+        var fullText = qText.textContent;
+        var yearBadge = card.querySelector('.pyq-year-badge');
+        var badgeText = yearBadge ? yearBadge.textContent : '';
+
+        // Extract marks and derive word count
+        var marksMatch = fullText.match(/(\d+(?:\.5)?)\s*marks/i) || badgeText.match(/(\d+(?:\.5)?)\s*marks/i);
+        var marks = marksMatch ? parseFloat(marksMatch[1]) : 0;
+        var wordCount = marks >= 15 ? 250 : marks >= 10 ? 150 : marks > 0 ? 150 : 0;
+        // Extract GS Paper
+        var paperMatch = fullText.match(/GS\s*Paper\s*(\d|I{1,3}V?)/i);
+        var paper = paperMatch ? 'GS' + paperMatch[1] : '';
+        // Extract directive
+        var directive = '';
+        var directiveHint = '';
+        for (var d in directiveMap) {
+          if (new RegExp('\\b' + d + '\\b', 'i').test(fullText)) {
+            directive = d.charAt(0).toUpperCase() + d.slice(1);
+            directiveHint = directiveMap[d];
+            break;
+          }
+        }
+
+        if (marks || directive) {
+          var metaHtml = '<div class="pyq-mains-hints">';
+          metaHtml += '<div class="pyq-mains-meta">';
+          if (wordCount) metaHtml += '<span class="pyq-mains-badge">\u270D ~' + wordCount + ' words</span>';
+          if (marks) metaHtml += '<span class="pyq-mains-badge">' + marks + ' marks</span>';
+          if (paper) metaHtml += '<span class="pyq-mains-badge">' + paper + '</span>';
+          if (directive) metaHtml += '<span class="pyq-mains-badge pyq-mains-badge--directive">' + directive + '</span>';
+          metaHtml += '</div>';
+          if (directiveHint) {
+            metaHtml += '<button class="pyq-hint-toggle">\uD83D\uDCA1 Approach Hint ' + chevronSvg + '</button>';
+            metaHtml += '<div class="pyq-hint-body" hidden><p><strong>Directive \u2014 ' + directive + ':</strong> ' + directiveHint + '</p><p><strong>Structure:</strong> Introduction (1\u20132 lines) \u2192 Body (multi-dimensional analysis) \u2192 Conclusion (way forward / your view)</p></div>';
+          }
+          metaHtml += '</div>';
+          var hintsEl = document.createElement('div');
+          hintsEl.innerHTML = metaHtml;
+          var toggle = card.querySelector('.pyq-answer-toggle');
+          if (toggle) card.insertBefore(hintsEl.firstChild, toggle);
+          else card.appendChild(hintsEl.firstChild);
+        }
+
+        // Hint toggle handler
+        var hintBtn = card.querySelector('.pyq-hint-toggle');
+        if (hintBtn) {
+          hintBtn.addEventListener('click', function() {
+            var body = card.querySelector('.pyq-hint-body');
+            if (body) {
+              body.hidden = !body.hidden;
+              hintBtn.classList.toggle('pyq-hint-toggle--open', !body.hidden);
+            }
+          });
+        }
+      });
+
       /* ── Post-process: add interactive quiz options to prelims cards ── */
       pyqInner.querySelectorAll('.pyq-card:not(.pyq-card--mains)').forEach(function(card) {
         var answerDiv = card.querySelector('.pyq-answer');
@@ -375,21 +588,19 @@ layout: base.njk
         if (!answerDiv) return;
 
         var answerText = answerDiv.textContent;
+        var qNum = parseInt(card.getAttribute('data-q'));
 
-        // Try explicit options from data attribute first (from inline (a)(b)(c)(d) in markdown)
         var explicitOpts = card.dataset.options ? JSON.parse(decodeURIComponent(card.dataset.options)) : null;
         var options, correctIdx;
 
         if (explicitOpts && explicitOpts.length === 4) {
           options = explicitOpts;
           correctIdx = parseCorrectFromAnswer(answerText, options);
-          // Fallback: try parseCorrectAnswer with statement count
           if (correctIdx === -1) {
             var statements = card.querySelectorAll('ol li');
             if (statements.length >= 2) correctIdx = parseCorrectAnswer(answerText, statements.length);
           }
         } else {
-          // Auto-generate based on statement count
           var statements = card.querySelectorAll('ol li');
           if (statements.length < 2 || statements.length > 4) return;
           options = generateOptions(statements.length);
@@ -397,7 +608,6 @@ layout: base.njk
           correctIdx = parseCorrectAnswer(answerText, statements.length);
         }
 
-        // Build options HTML
         var optionsEl = document.createElement('div');
         optionsEl.className = 'pyq-options';
         optionsEl.innerHTML = '<div class="pyq-options-label">Select your answer:</div>';
@@ -410,23 +620,85 @@ layout: base.njk
           optionsEl.appendChild(btn);
         });
 
-        // Insert options before the toggle
         if (toggle) toggle.parentNode.insertBefore(optionsEl, toggle);
 
-        // Replace toggle with "Check Answer" button (disabled until selection)
         var checkBtn = document.createElement('button');
         checkBtn.className = 'pyq-check-btn';
         checkBtn.disabled = true;
         checkBtn.textContent = 'Check Answer';
         if (toggle) {
           toggle.parentNode.insertBefore(checkBtn, toggle);
-          toggle.hidden = true; // hide old toggle, keep for fallback
+          toggle.hidden = true;
         }
 
         var selectedIdx = -1;
         var answered = false;
 
-        // Option click handlers
+        function resetCard() {
+          answered = false;
+          selectedIdx = -1;
+          optionsEl.querySelectorAll('.pyq-option').forEach(function(b) {
+            b.classList.remove('pyq-option--selected', 'pyq-option--correct', 'pyq-option--wrong');
+            b.disabled = false;
+          });
+          checkBtn.disabled = true;
+          checkBtn.hidden = false;
+          if (answerDiv) answerDiv.hidden = true;
+          if (toggle) toggle.hidden = true;
+          var result = card.querySelector('.pyq-result');
+          if (result) result.remove();
+          var retry = card.querySelector('.pyq-retry-btn');
+          if (retry) retry.remove();
+        }
+
+        function showResult(selIdx, skipSave) {
+          answered = true;
+          selectedIdx = selIdx;
+
+          var resultEl = document.createElement('div');
+          resultEl.className = 'pyq-result';
+          var isCorrect = false;
+
+          if (correctIdx >= 0) {
+            optionsEl.querySelectorAll('.pyq-option').forEach(function(btn, i) {
+              btn.disabled = true;
+              if (i === correctIdx) btn.classList.add('pyq-option--correct');
+              if (i === selIdx && i !== correctIdx) btn.classList.add('pyq-option--wrong');
+              if (i === selIdx) btn.classList.add('pyq-option--selected');
+            });
+            if (selIdx === correctIdx) {
+              isCorrect = true;
+              resultEl.className += ' pyq-result--correct';
+              resultEl.innerHTML = checkSvg + ' Correct!';
+            } else {
+              resultEl.className += ' pyq-result--wrong';
+              resultEl.innerHTML = crossSvg + ' Incorrect \u2014 the correct answer is (' + letters[correctIdx] + ')';
+            }
+          } else {
+            optionsEl.querySelectorAll('.pyq-option').forEach(function(btn) { btn.disabled = true; });
+            resultEl.className += ' pyq-result--correct';
+            resultEl.innerHTML = 'See explanation below';
+            isCorrect = true;
+          }
+
+          checkBtn.parentNode.insertBefore(resultEl, checkBtn);
+          checkBtn.hidden = true;
+          if (answerDiv) answerDiv.hidden = false;
+          if (toggle) toggle.hidden = true;
+
+          // Try Again button
+          var retryBtn = document.createElement('button');
+          retryBtn.className = 'pyq-retry-btn';
+          retryBtn.innerHTML = '\u21BB Try Again';
+          resultEl.parentNode.insertBefore(retryBtn, resultEl.nextSibling);
+          retryBtn.addEventListener('click', function() {
+            resetCard();
+            removeScore(qNum, 'prelims');
+          });
+
+          if (!skipSave) saveScore(qNum, 'prelims', selIdx, isCorrect);
+        }
+
         optionsEl.querySelectorAll('.pyq-option').forEach(function(btn) {
           btn.addEventListener('click', function() {
             if (answered) return;
@@ -437,43 +709,59 @@ layout: base.njk
           });
         });
 
-        // Check answer handler
         checkBtn.addEventListener('click', function() {
           if (answered || selectedIdx === -1) return;
-          answered = true;
+          showResult(selectedIdx, false);
+        });
 
-          var resultEl = document.createElement('div');
-          resultEl.className = 'pyq-result';
+        // Store refs for state restoration
+        card._pyqShowResult = showResult;
+        card._pyqCorrectIdx = correctIdx;
+      });
 
-          if (correctIdx >= 0) {
-            // We know the correct answer
-            optionsEl.querySelectorAll('.pyq-option').forEach(function(btn, i) {
-              btn.disabled = true;
-              if (i === correctIdx) btn.classList.add('pyq-option--correct');
-              if (i === selectedIdx && i !== correctIdx) btn.classList.add('pyq-option--wrong');
-            });
-            if (selectedIdx === correctIdx) {
-              resultEl.className += ' pyq-result--correct';
-              resultEl.innerHTML = checkSvg + ' Correct!';
-            } else {
-              resultEl.className += ' pyq-result--wrong';
-              resultEl.innerHTML = crossSvg + ' Incorrect — the correct answer is (' + letters[correctIdx] + ')';
-            }
-          } else {
-            // Couldn't parse answer — just reveal
-            optionsEl.querySelectorAll('.pyq-option').forEach(function(btn) { btn.disabled = true; });
-            resultEl.className += ' pyq-result--correct';
-            resultEl.innerHTML = 'See explanation below';
+      /* ── Mains answer-toggle with score tracking ── */
+      pyqInner.querySelectorAll('.pyq-card--mains .pyq-answer-toggle').forEach(function(toggle) {
+        var card = toggle.closest('.pyq-card');
+        var qNum = parseInt(card.getAttribute('data-q'));
+        var answerDiv = card.querySelector('.pyq-answer');
+        toggle.addEventListener('click', function() {
+          var expanded = toggle.getAttribute('aria-expanded') === 'true';
+          toggle.setAttribute('aria-expanded', !expanded);
+          if (answerDiv) {
+            answerDiv.hidden = expanded;
+            if (!expanded) saveScore(qNum, 'mains', -1, false);
           }
-
-          checkBtn.parentNode.insertBefore(resultEl, checkBtn);
-          checkBtn.hidden = true;
-
-          // Show explanation
-          if (answerDiv) answerDiv.hidden = false;
-          if (toggle) toggle.hidden = true;
         });
       });
+
+      /* ── Restore state from localStorage ── */
+      var savedScores = loadScores();
+      var savedPage = savedScores[pageSlug];
+      if (savedPage) {
+        // Restore prelims answers
+        if (savedPage.prelims && savedPage.prelims.answers) {
+          Object.keys(savedPage.prelims.answers).forEach(function(qNum) {
+            var selIdx = savedPage.prelims.answers[qNum];
+            var card = pyqInner.querySelector('.pyq-card[data-q="' + qNum + '"][data-type="prelims"]');
+            if (card && card._pyqShowResult) {
+              card._pyqShowResult(selIdx, true);
+            }
+          });
+        }
+        // Restore mains revealed
+        if (savedPage.mains && savedPage.mains.attempted) {
+          savedPage.mains.attempted.forEach(function(qNum) {
+            var card = pyqInner.querySelector('.pyq-card[data-q="' + qNum + '"][data-type="mains"]');
+            if (card) {
+              var answerDiv = card.querySelector('.pyq-answer');
+              var toggle = card.querySelector('.pyq-answer-toggle');
+              if (answerDiv) answerDiv.hidden = false;
+              if (toggle) toggle.setAttribute('aria-expanded', 'true');
+            }
+          });
+        }
+      }
+      updateProgress();
     }
 
     // ── Vocabulary / Key Terms — rich expandable entries ──
