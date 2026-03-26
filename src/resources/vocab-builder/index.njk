@@ -22,30 +22,38 @@ description: "Build your UPSC vocabulary — pronunciation, etymology, synonyms,
 
     <div class="card" style="margin-bottom:var(--space-8); background:linear-gradient(135deg, rgba(8,145,178,0.08), rgba(8,145,178,0.02)); border-left:4px solid #0891b2;">
       <div class="article-body">
-        <h3 style="color:#0891b2; margin-bottom:var(--space-3);">How It Works</h3>
-        <p>Every topic page on BharatNotes includes a <strong>Vocabulary</strong> section with rich, dictionary-grade entries. Each entry includes:</p>
+        <h3 style="color:#0891b2; margin-bottom:var(--space-3);">What You Get</h3>
+        <p>Every vocab entry on BharatNotes is a comprehensive, dictionary-grade card — not just a flashcard. Each entry includes:</p>
         <ul>
-          <li><strong>Pronunciation</strong> — IPA guide so you say it right</li>
-          <li><strong>Definition & Explanation</strong> — Clear, exam-ready meaning</li>
-          <li><strong>Etymology</strong> — Root word analysis to deepen understanding</li>
-          <li><strong>Synonyms & Antonyms</strong> — With differences explained</li>
-          <li><strong>UPSC Context</strong> — Where and how it appears in the exam</li>
-          <li><strong>Related Terms</strong> — Interlinked for connected learning</li>
+          <li><strong>Pronunciation</strong> — IPA guide so you say it right in interviews</li>
+          <li><strong>Definition & Explanation</strong> — Clear, exam-ready meaning with context</li>
+          <li><strong>Etymology (Origin)</strong> — Root word analysis to deepen understanding and aid recall</li>
+          <li><strong>Synonyms & Antonyms</strong> — With differences explained so you use the right word</li>
+          <li><strong>UPSC Context</strong> — Exactly where and how it appears in Prelims, Mains, and Essay</li>
+          <li><strong>Related Terms</strong> — Interlinked for connected learning across topics</li>
         </ul>
+        <p style="margin-top:var(--space-3); font-size:var(--text-sm); color:var(--color-text-muted);">All entries are fact-checked against official government sources. Nothing is made up.</p>
       </div>
     </div>
 
-    <h2 style="font-family:var(--font-serif); font-size:var(--text-2xl); color:var(--color-brand-dark); margin-bottom:var(--space-5); padding-bottom:var(--space-2); border-bottom:3px solid #0891b2;">Browse by Subject</h2>
-    <p style="color:var(--color-text-muted); margin-bottom:var(--space-6);">Vocabulary sections are embedded within each topic page. Browse subjects to find vocab entries relevant to your study.</p>
+    <h2 style="font-family:var(--font-serif); font-size:var(--text-2xl); color:var(--color-brand-dark); margin-bottom:var(--space-5); padding-bottom:var(--space-2); border-bottom:3px solid #0891b2;">Topics with Vocabulary</h2>
+    <p style="color:var(--color-text-muted); margin-bottom:var(--space-6);">Vocabulary sections are embedded within topic pages. Click any topic below to jump directly to its vocabulary entries.</p>
 
-    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-5);">
-      {% for s in subjects %}
-      <a href="/subjects/{{ s.slug }}/" class="card" style="text-decoration:none; border-left:4px solid #0891b2;">
-        <span style="font-size:var(--text-2xl);">{{ s.icon }}</span>
-        <h4 style="color:var(--color-brand-dark); margin:var(--space-2) 0;">{{ s.name }}</h4>
-        <p class="card__desc">Explore vocabulary across {{ s.name }} topics.</p>
+    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:var(--space-5); margin-bottom:var(--space-10);">
+
+      <!-- Economy -->
+      <a href="/subjects/economy/gst/#vocabulary" class="card" style="text-decoration:none; border-left:4px solid #0891b2;">
+        <span class="gs-badge gs-badge--gs3" style="margin-bottom:var(--space-2);">Economy</span>
+        <h4 style="color:var(--color-brand-dark); margin:var(--space-2) 0;">Goods and Services Tax (GST)</h4>
+        <p class="card__desc">CGST, Input Tax Credit, E-way Bill, Anti-profiteering, GSTN</p>
+        <span style="font-size:var(--text-xs); color:#0891b2; font-weight:var(--font-semibold); margin-top:var(--space-2); display:inline-block;">5 vocabulary entries &rarr;</span>
       </a>
-      {% endfor %}
+
+    </div>
+
+    <div class="card" style="background:var(--color-bg-alt); text-align:center; padding:var(--space-8);">
+      <p style="font-size:var(--text-lg); color:var(--color-brand-dark); font-weight:var(--font-semibold); margin-bottom:var(--space-2);">More vocabulary coming soon</p>
+      <p style="color:var(--color-text-muted);">We're adding rich vocabulary entries to every topic page across all 12 subjects. Check back regularly or browse <a href="/subjects/" style="color:#0891b2; font-weight:var(--font-medium);">all subjects</a> to explore available content.</p>
     </div>
 
   </div>

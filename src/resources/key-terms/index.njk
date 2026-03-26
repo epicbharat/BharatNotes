@@ -13,7 +13,7 @@ description: "Comprehensive glossary of UPSC key terms and concepts — definiti
     </nav>
     <p class="page-header__eyebrow">Resources</p>
     <h1 class="page-header__title">Key Terms & Concepts</h1>
-    <p class="page-header__subtitle">Essential UPSC concepts explained in depth — with definitions, explanations, origins, and exam strategy for every term.</p>
+    <p class="page-header__subtitle">Essential UPSC concepts explained in depth — definitions, explanations, origins, and exam strategy for every term.</p>
   </div>
 </section>
 
@@ -22,30 +22,38 @@ description: "Comprehensive glossary of UPSC key terms and concepts — definiti
 
     <div class="card" style="margin-bottom:var(--space-8); background:linear-gradient(135deg, rgba(124,58,237,0.08), rgba(124,58,237,0.02)); border-left:4px solid #7c3aed;">
       <div class="article-body">
-        <h3 style="color:#7c3aed; margin-bottom:var(--space-3);">How It Works</h3>
-        <p>Every topic page on BharatNotes includes a <strong>Key Terms & Concepts</strong> section with comprehensive entries. Each entry includes:</p>
+        <h3 style="color:#7c3aed; margin-bottom:var(--space-3);">What You Get</h3>
+        <p>Every Key Terms entry on BharatNotes goes far beyond a simple glossary. Each concept includes:</p>
         <ul>
-          <li><strong>Pronunciation</strong> — IPA guide for confident usage</li>
-          <li><strong>Definition & Explanation</strong> — Detailed, exam-oriented meaning</li>
-          <li><strong>Etymology</strong> — Root word analysis for deeper understanding</li>
-          <li><strong>Synonyms & Antonyms</strong> — With nuanced differences</li>
-          <li><strong>UPSC Context</strong> — Paper, topic, and question patterns</li>
-          <li><strong>Related Concepts</strong> — Interlinked for holistic preparation</li>
+          <li><strong>Pronunciation</strong> — IPA guide for confident usage in interviews</li>
+          <li><strong>Definition & Explanation</strong> — Detailed, exam-oriented meaning with real-world context</li>
+          <li><strong>Etymology (Origin)</strong> — Root word analysis for deeper understanding and retention</li>
+          <li><strong>Synonyms & Antonyms</strong> — With nuanced differences for precise answer writing</li>
+          <li><strong>UPSC Context</strong> — Paper, topic, and question patterns for targeted preparation</li>
+          <li><strong>Related Concepts</strong> — Interlinked for holistic, connected learning</li>
         </ul>
+        <p style="margin-top:var(--space-3); font-size:var(--text-sm); color:var(--color-text-muted);">All entries are fact-checked against official government sources. Nothing is made up.</p>
       </div>
     </div>
 
-    <h2 style="font-family:var(--font-serif); font-size:var(--text-2xl); color:var(--color-brand-dark); margin-bottom:var(--space-5); padding-bottom:var(--space-2); border-bottom:3px solid #7c3aed;">Browse by Subject</h2>
-    <p style="color:var(--color-text-muted); margin-bottom:var(--space-6);">Key Terms sections are embedded within each topic page. Browse subjects to find concept entries relevant to your study.</p>
+    <h2 style="font-family:var(--font-serif); font-size:var(--text-2xl); color:var(--color-brand-dark); margin-bottom:var(--space-5); padding-bottom:var(--space-2); border-bottom:3px solid #7c3aed;">Topics with Key Terms</h2>
+    <p style="color:var(--color-text-muted); margin-bottom:var(--space-6);">Key Terms sections are embedded within topic pages. Click any topic below to jump directly to its concept entries.</p>
 
-    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-5);">
-      {% for s in subjects %}
-      <a href="/subjects/{{ s.slug }}/" class="card" style="text-decoration:none; border-left:4px solid #7c3aed;">
-        <span style="font-size:var(--text-2xl);">{{ s.icon }}</span>
-        <h4 style="color:var(--color-brand-dark); margin:var(--space-2) 0;">{{ s.name }}</h4>
-        <p class="card__desc">Explore key terms across {{ s.name }} topics.</p>
+    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:var(--space-5); margin-bottom:var(--space-10);">
+
+      <!-- Economy -->
+      <a href="/subjects/economy/gst/#key-terms" class="card" style="text-decoration:none; border-left:4px solid #7c3aed;">
+        <span class="gs-badge gs-badge--gs3" style="margin-bottom:var(--space-2);">Economy</span>
+        <h4 style="color:var(--color-brand-dark); margin:var(--space-2) 0;">Goods and Services Tax (GST)</h4>
+        <p class="card__desc">Cascading Effect, Dual GST, Composition Scheme, Zero-rated Supply, GST Compensation</p>
+        <span style="font-size:var(--text-xs); color:#7c3aed; font-weight:var(--font-semibold); margin-top:var(--space-2); display:inline-block;">5 key term entries &rarr;</span>
       </a>
-      {% endfor %}
+
+    </div>
+
+    <div class="card" style="background:var(--color-bg-alt); text-align:center; padding:var(--space-8);">
+      <p style="font-size:var(--text-lg); color:var(--color-brand-dark); font-weight:var(--font-semibold); margin-bottom:var(--space-2);">More key terms coming soon</p>
+      <p style="color:var(--color-text-muted);">We're adding comprehensive concept entries to every topic page across all 12 subjects. Check back regularly or browse <a href="/subjects/" style="color:#7c3aed; font-weight:var(--font-medium);">all subjects</a> to explore available content.</p>
     </div>
 
   </div>
