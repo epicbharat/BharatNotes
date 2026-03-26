@@ -148,6 +148,7 @@
       "*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }",
       "@page { size:A4; margin:22mm 20mm 24mm 20mm; }",
       "@page :first { margin:0; }",
+      "@page backpage { margin:0; }",
 
       /* Base typography — Crimson Pro body, EB Garamond display */
       "body { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:11.5pt; line-height:1.75; color:#1a1a1a; background:#fff; }",
@@ -264,7 +265,7 @@
       ".ft { margin-top:36px; padding-top:12px; border-top:0.5px solid #ccc; display:flex; justify-content:space-between; font-family:'Inter',sans-serif; font-size:7.5pt; color:#999; letter-spacing:0.04em; }",
 
       /* ─── BACK PAGE ─── */
-      ".bp { page-break-before:always; min-height:250mm; padding:28mm 26mm 20mm; display:flex; flex-direction:column; }",
+      ".bp { page-break-before:always; page:backpage; min-height:250mm; padding:28mm 26mm 20mm; display:flex; flex-direction:column; }",
 
       /* Author & brand */
       ".bp-header { display:flex; align-items:center; gap:18px; margin-bottom:32px; }",
@@ -412,7 +413,7 @@
 
       '</body></html>';
 
-    return html;
+    return { html: html, title: titleText, paper: paperText, subject: subjectText };
   }
 
   function showPDFToast(msg, type) {
@@ -443,24 +444,46 @@
     btn.innerHTML =
       '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="animation:spin 1s linear infinite;vertical-align:-2px;margin-right:6px;"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>Generating...';
 
-    var html = buildTopicHTML();
-    if (!html) {
+    var result = buildTopicHTML();
+    if (!result) {
       showPDFToast("No content found to export", "error");
       btn.disabled = false;
       btn.innerHTML = origHTML;
       return;
     }
 
-    var titleEl = document.querySelector(".page-header__title");
-    var filename = titleEl
-      ? "BharatNotes - " + titleEl.textContent.trim()
-      : "BharatNotes - Topic";
+    var html = result.html;
+    var filename = "BharatNotes - " + (result.title || "Topic");
+
+    /* ── Puppeteer header & footer templates ──
+       These use Puppeteer's special classes: pageNumber, totalPages.
+       The API may or may not support these — sent optimistically. */
+    var headerLabel = result.title;
+    if (result.paper) headerLabel += '  ·  ' + result.paper;
+
+    var headerTemplate =
+      '<div style="width:100%;font-family:Inter,Helvetica,sans-serif;font-size:7.5pt;padding:0 20mm;display:flex;justify-content:space-between;align-items:center;color:#aaa;">' +
+        '<span style="letter-spacing:0.04em;">BharatNotes</span>' +
+        '<span style="max-width:70%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + headerLabel + '</span>' +
+      '</div>';
+
+    var footerTemplate =
+      '<div style="width:100%;font-family:Inter,Helvetica,sans-serif;font-size:7.5pt;padding:0 20mm;display:flex;justify-content:space-between;align-items:center;color:#aaa;">' +
+        '<span>bharatnotes.com</span>' +
+        '<span>Page <span class="pageNumber"></span> of <span class="totalPages"></span></span>' +
+      '</div>';
 
     try {
       var res = await fetch(PDF_API_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ html: html, filename: filename }),
+        body: JSON.stringify({
+          html: html,
+          filename: filename,
+          displayHeaderFooter: true,
+          headerTemplate: headerTemplate,
+          footerTemplate: footerTemplate
+        }),
       });
 
       if (!res.ok) {
