@@ -58,7 +58,8 @@
       "select",
       "button",
       ".pyq-empty",
-      "svg"
+      "svg",
+      ".adsbygoogle"
     ].join(",")).forEach(function (el) {
       el.remove();
     });
