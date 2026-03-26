@@ -13,6 +13,7 @@ layout: base.njk
       <a href="/">Home</a><span class="breadcrumb__sep">/</span>
       <a href="/subjects/">Subjects</a><span class="breadcrumb__sep">/</span>
       {% if subjectData %}<a href="/subjects/{{ subject }}/">{{ subjectData.name }}</a><span class="breadcrumb__sep">/</span>{% endif %}
+      {% if parent_topic_url %}<a href="{{ parent_topic_url }}">{{ parent_topic }}</a><span class="breadcrumb__sep">/</span>{% endif %}
       {{ title }}
     </nav>
     <div class="page-header__tags">
@@ -58,6 +59,49 @@ layout: base.njk
         <article class="article-body" data-pagefind-body>
           {{ content | safe }}
         </article>
+
+        {% if parent_topic_url %}
+        {# Prev / Next chapter navigation #}
+        {%- set chapterSiblings = [] -%}
+        {%- for item in collections.all -%}
+          {%- if item.data.parent_topic_url == parent_topic_url -%}
+            {%- set chapterSiblings = (chapterSiblings.push(item), chapterSiblings) -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- set chapterSiblings = chapterSiblings | sort(false, false, "data.sub_chapter") -%}
+        {%- set prevCh = null -%}{%- set nextCh = null -%}{%- set foundSelf = false -%}
+        {%- for ch in chapterSiblings -%}
+          {%- if ch.url == page.url -%}{%- set foundSelf = true -%}
+          {%- elif not foundSelf -%}{%- set prevCh = ch -%}
+          {%- elif foundSelf and not nextCh -%}{%- set nextCh = ch -%}
+          {%- endif -%}
+        {%- endfor -%}
+
+        <nav class="chapter-nav" style="display:flex; justify-content:space-between; align-items:center; gap:var(--space-4); margin-top:var(--space-8); padding-top:var(--space-6); border-top:2px solid var(--color-border);">
+          {% if prevCh %}
+          <a href="{{ prevCh.url }}" style="flex:1; text-decoration:none; padding:var(--space-3) var(--space-4); border-radius:var(--radius-md); border:1px solid var(--color-border); transition:border-color 0.15s ease;">
+            <span style="font-size:var(--text-xs); color:var(--color-text-muted); display:block;">← Previous Chapter</span>
+            <span style="font-size:var(--text-sm); font-weight:var(--font-semibold); color:var(--color-brand-dark);">Ch {{ prevCh.data.sub_chapter | string | padStart(2, "0") }}: {{ prevCh.data.title }}</span>
+          </a>
+          {% else %}
+          <a href="{{ parent_topic_url }}" style="flex:1; text-decoration:none; padding:var(--space-3) var(--space-4); border-radius:var(--radius-md); border:1px solid var(--color-border); transition:border-color 0.15s ease;">
+            <span style="font-size:var(--text-xs); color:var(--color-text-muted); display:block;">← Back to</span>
+            <span style="font-size:var(--text-sm); font-weight:var(--font-semibold); color:var(--color-brand-dark);">{{ parent_topic }}</span>
+          </a>
+          {% endif %}
+          {% if nextCh %}
+          <a href="{{ nextCh.url }}" style="flex:1; text-decoration:none; padding:var(--space-3) var(--space-4); border-radius:var(--radius-md); border:1px solid var(--color-border); text-align:right; transition:border-color 0.15s ease;">
+            <span style="font-size:var(--text-xs); color:var(--color-text-muted); display:block;">Next Chapter →</span>
+            <span style="font-size:var(--text-sm); font-weight:var(--font-semibold); color:var(--color-brand-dark);">Ch {{ nextCh.data.sub_chapter | string | padStart(2, "0") }}: {{ nextCh.data.title }}</span>
+          </a>
+          {% else %}
+          <a href="{{ parent_topic_url }}" style="flex:1; text-decoration:none; padding:var(--space-3) var(--space-4); border-radius:var(--radius-md); border:1px solid var(--color-border); text-align:right; transition:border-color 0.15s ease;">
+            <span style="font-size:var(--text-xs); color:var(--color-text-muted); display:block;">Back to →</span>
+            <span style="font-size:var(--text-sm); font-weight:var(--font-semibold); color:var(--color-brand-dark);">{{ parent_topic }}</span>
+          </a>
+          {% endif %}
+        </nav>
+        {% endif %}
       </div>
 
       <!-- Sidebar -->
