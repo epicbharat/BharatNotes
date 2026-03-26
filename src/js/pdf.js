@@ -98,20 +98,20 @@
       "body { font-family:'Inter',system-ui,sans-serif; font-size:12pt; line-height:1.7; color:#1e293b; background:#fff; -webkit-font-smoothing:antialiased; }" +
 
       /* ── Cover Page — clean white minimal ── */
-      ".cover-page { width:210mm; min-height:297mm; position:relative; display:flex; flex-direction:column; background:#fff; page-break-after:always; }" +
+      ".cover-page { width:210mm; min-height:297mm; position:relative; display:flex; flex-direction:column; background:#fff; page-break-after:always; padding:20mm 22mm; }" +
       ".cover-accent { position:absolute; top:0; left:0; width:6px; height:100%; background:#0f4c3a; }" +
-      ".cover-top { padding:48px 48px 0; }" +
+      ".cover-top { padding:0; }" +
       ".cover-logo { font-family:'Instrument Serif',Georgia,serif; font-size:15pt; color:#0f4c3a; letter-spacing:-0.01em; }" +
       ".cover-logo span { color:#d4a017; }" +
-      ".cover-main { flex:1; display:flex; flex-direction:column; justify-content:center; padding:0 48px 0 48px; }" +
+      ".cover-main { flex:1; display:flex; flex-direction:column; justify-content:center; padding:0; }" +
       ".cover-badges { margin-bottom:20px; }" +
       ".cover-badge { display:inline-block; padding:5px 14px; border-radius:4px; font-size:8.5pt; font-weight:600; text-transform:uppercase; letter-spacing:0.08em; margin-right:8px; }" +
-      ".cover-title { font-family:'Instrument Serif',Georgia,serif; font-size:36pt; font-weight:400; color:#0f172a; line-height:1.15; margin-bottom:16px; letter-spacing:-0.02em; }" +
-      ".cover-subtitle { font-size:11pt; color:#64748b; line-height:1.6; max-width:140mm; margin-bottom:40px; }" +
+      ".cover-title { font-family:'Instrument Serif',Georgia,serif; font-size:34pt; font-weight:400; color:#0f172a; line-height:1.15; margin-bottom:16px; letter-spacing:-0.02em; }" +
+      ".cover-subtitle { font-size:11pt; color:#64748b; line-height:1.6; max-width:130mm; margin-bottom:40px; }" +
       ".cover-line { width:48px; height:2px; background:#d4a017; margin-bottom:24px; }" +
       ".cover-meta { font-size:9pt; color:#94a3b8; line-height:2; }" +
       ".cover-meta strong { color:#334155; font-weight:600; }" +
-      ".cover-bottom { padding:0 48px 40px; display:flex; justify-content:space-between; align-items:flex-end; }" +
+      ".cover-bottom { padding:0; display:flex; justify-content:space-between; align-items:flex-end; }" +
       ".cover-author { display:flex; align-items:center; gap:12px; }" +
       ".cover-author-photo { width:40px; height:40px; border-radius:50%; object-fit:cover; }" +
       ".cover-author-name { font-size:9.5pt; font-weight:600; color:#1e293b; }" +
@@ -119,7 +119,7 @@
       ".cover-url { font-size:8.5pt; color:#94a3b8; letter-spacing:0.02em; }" +
 
       /* ── Content Pages ── */
-      ".content-pages { padding:20mm 18mm 22mm 18mm; }" +
+      ".content-pages { padding:22mm 20mm 24mm 20mm; }" +
       ".pdf-header { border-bottom:2px solid #0f4c3a; padding-bottom:16px; margin-bottom:24px; }" +
       ".pdf-header .breadcrumb { font-size:9pt; color:#94a3b8; margin-bottom:8px; text-transform:uppercase; letter-spacing:0.08em; font-weight:500; }" +
       ".pdf-header .badges { margin-bottom:10px; }" +
@@ -151,8 +151,8 @@
       ".pdf-footer { margin-top:32px; padding-top:14px; border-top:1px solid #e2e8f0; font-size:9pt; color:#94a3b8; display:flex; justify-content:space-between; }" +
 
       /* ── Back Page — minimal dark ── */
-      ".back-page { width:210mm; min-height:297mm; position:relative; display:flex; flex-direction:column; justify-content:center; align-items:center; background:#0f172a; page-break-before:always; }" +
-      ".back-inner { text-align:center; padding:48px; max-width:150mm; }" +
+      ".back-page { width:210mm; min-height:297mm; position:relative; display:flex; flex-direction:column; justify-content:center; align-items:center; background:#0f172a; page-break-before:always; padding:24mm 22mm; }" +
+      ".back-inner { text-align:center; padding:0; max-width:150mm; }" +
       ".back-logo { font-family:'Instrument Serif',Georgia,serif; font-size:32pt; color:#fff; letter-spacing:-0.02em; margin-bottom:8px; }" +
       ".back-logo span { color:#d4a017; }" +
       ".back-tagline { font-size:10pt; color:#64748b; margin-bottom:48px; letter-spacing:0.02em; }" +
