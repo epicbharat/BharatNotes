@@ -1950,34 +1950,27 @@ a:focus-visible {
   .syllabus-grid { grid-template-columns: 1fr; }
 }
 
-/* Current Affairs callout */
-.ca-callout {
-  display: flex;
-  align-items: flex-start;
-  gap: var(--space-4);
-  padding: var(--space-5) var(--space-6);
-  background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
-  border: 1px solid #fde68a;
-  border-radius: var(--radius-xl);
-  margin-bottom: var(--space-8);
-}
-.ca-callout__icon { font-size: 2rem; flex-shrink: 0; margin-top: 2px; }
-.ca-callout__title {
-  font-family: var(--font-heading);
-  font-size: var(--text-base);
-  font-weight: var(--font-bold);
+/* Ujiyari card variant */
+.syl-card--ujiyari { border-color: #fde68a; }
+.syl-card--ujiyari:hover { border-color: #f59e0b; box-shadow: 0 4px 20px rgba(245,158,11,0.12); }
+.syl-card--ujiyari .syl-card__head { border-bottom-color: #fde68a; }
+.syl-topic--ujiyari {
+  background: #fffbeb;
+  border-color: #fde68a;
   color: #92400e;
-  margin-bottom: var(--space-1);
 }
-.ca-callout__text {
-  font-size: var(--text-sm);
-  color: #78350f;
+.syl-topic--ujiyari:hover {
+  background: #f59e0b;
+  color: #fff;
+  border-color: #f59e0b;
+}
+.syl-card__footer {
+  padding: var(--space-3) var(--space-5);
+  font-size: var(--text-xs);
+  color: #92400e;
+  background: #fffdf5;
+  border-top: 1px solid #fde68a;
   line-height: var(--leading-relaxed);
-}
-.ca-callout__text a {
-  color: #b45309;
-  font-weight: var(--font-bold);
-  text-decoration: underline;
 }
 
 /* Strategy cards */
