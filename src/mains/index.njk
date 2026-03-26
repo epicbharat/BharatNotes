@@ -1,0 +1,83 @@
+---
+layout: base.njk
+title: "Mains Preparation"
+description: "UPSC Mains GS Paper-wise notes, answer writing practice, essay frameworks. Deep analytical content for GS1, GS2, GS3, GS4 and Essay."
+---
+
+<section class="page-header">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Home</a><span class="breadcrumb__sep">/</span>
+      Mains
+    </nav>
+    <p class="page-header__eyebrow">Analytical Depth</p>
+    <h1 class="page-header__title">Mains Preparation</h1>
+    <p class="page-header__subtitle">GS Paper-wise notes with answer frameworks, model dimensions, and writing practice. Integrate current affairs from Ujiyari.com for top scores.</p>
+  </div>
+</section>
+
+<section style="padding:var(--space-8) 0;">
+  <div class="container">
+
+    <!-- GS Papers -->
+    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); gap:var(--space-6); margin-bottom:var(--space-10);">
+      {% for key, paper in syllabus %}
+      <div class="card" style="border-top:4px solid var(--color-brand);">
+        <span class="gs-badge gs-badge--{{ paper.slug }}">{{ paper.slug | upper }}</span>
+        <h3 class="card__title" style="margin-top:var(--space-2);">{{ paper.title }}</h3>
+        <p class="card__desc">{{ paper.subtitle }}</p>
+        <div style="margin-top:var(--space-3);">
+          {% for section in paper.sections %}
+          <div style="font-size:var(--text-xs); color:var(--color-text-muted); padding:var(--space-1) 0; border-bottom:1px solid var(--color-border);">{{ section.title }} <span style="color:var(--color-brand-light);">({{ section.topics | length }} topics)</span></div>
+          {% endfor %}
+        </div>
+        <div style="margin-top:var(--space-3); display:flex; gap:var(--space-2);">
+          <span style="font-size:var(--text-xs); color:var(--color-text-muted);">{{ collections.allTopics | countByPaper(paper.slug) }} notes available</span>
+        </div>
+      </div>
+      {% endfor %}
+
+      <!-- Essay -->
+      <div class="card" style="border-top:4px solid #7c3aed;">
+        <span class="gs-badge gs-badge--essay">ESSAY</span>
+        <h3 class="card__title" style="margin-top:var(--space-2);">Essay Paper</h3>
+        <p class="card__desc">Structured frameworks for Section A (philosophical/abstract) and Section B (socio-economic/political). Model outlines and practice topics.</p>
+        <a href="/essay/" style="font-size:var(--text-sm); color:var(--color-brand-light); margin-top:var(--space-3); display:block;">View Essay Prep →</a>
+      </div>
+    </div>
+
+    <!-- Answer Writing Tips -->
+    <div class="card article-body" style="max-width:720px;">
+      <h2>Mains Answer Writing Strategy</h2>
+      <h3>The 150-Word Answer (10 marks)</h3>
+      <ul>
+        <li><strong>Introduction (1-2 lines):</strong> Define the concept or state the context</li>
+        <li><strong>Body (8-10 lines):</strong> 3-4 points with examples, data, or case studies</li>
+        <li><strong>Conclusion (1-2 lines):</strong> Way forward or balanced assessment</li>
+        <li><strong>Time:</strong> 7-8 minutes per answer</li>
+      </ul>
+      <h3>The 250-Word Answer (15 marks)</h3>
+      <ul>
+        <li><strong>Introduction (2-3 lines):</strong> Context + define the issue</li>
+        <li><strong>Body (15-18 lines):</strong> Multiple dimensions — economic, social, political, environmental</li>
+        <li><strong>Diagram/Flowchart:</strong> Add one if relevant (saves words, scores marks)</li>
+        <li><strong>Conclusion (2-3 lines):</strong> Balanced view + way forward</li>
+        <li><strong>Time:</strong> 12-13 minutes per answer</li>
+      </ul>
+      <h4>Golden Rules</h4>
+      <ul>
+        <li>Use <strong>current affairs examples</strong> in every answer — read <a href="https://ujiyari.com/editorials/" target="_blank">Ujiyari editorials</a> daily</li>
+        <li>Underline keywords — examiners scan fast</li>
+        <li>Start each point on a new line — visual clarity matters</li>
+        <li>Never leave a question unanswered — write something, even 3 points</li>
+      </ul>
+    </div>
+
+    <!-- Answer Practice -->
+    <div style="margin-top:var(--space-8);">
+      <h2 style="font-family:var(--font-serif); font-size:var(--text-2xl); color:var(--color-brand-dark); margin-bottom:var(--space-4);">Practice Answer Writing</h2>
+      <a href="/mains-practice/" class="btn btn--accent">View All Practice Prompts →</a>
+    </div>
+
+  </div>
+</section>

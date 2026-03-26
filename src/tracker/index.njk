@@ -1,0 +1,162 @@
+---
+layout: base.njk
+title: "Progress Tracker"
+description: "Track your UPSC preparation progress — syllabus completion, quiz accuracy, study streaks, weak areas. All saved locally."
+---
+
+<section class="page-header">
+  <div class="container">
+    <p class="page-header__eyebrow">Your Dashboard</p>
+    <h1 class="page-header__title">Progress Tracker</h1>
+    <p class="page-header__subtitle">All your preparation stats in one place. Saved in your browser — no login needed.</p>
+  </div>
+</section>
+
+<section style="padding:var(--space-8) 0;">
+  <div class="container">
+
+    <!-- Overall Stats -->
+    <div id="tracker-overview" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:var(--space-4); margin-bottom:var(--space-8);"></div>
+
+    <!-- Syllabus Progress -->
+    <div style="margin-bottom:var(--space-10);">
+      <h2 style="font-family:var(--font-serif); font-size:var(--text-xl); color:var(--color-brand-dark); margin-bottom:var(--space-5);">Syllabus Completion</h2>
+      <div id="syllabus-progress" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-4);"></div>
+      <a href="/syllabus-tracker/" class="btn btn--ghost btn--sm" style="margin-top:var(--space-4);">Open Full Syllabus Tracker →</a>
+    </div>
+
+    <!-- Quiz Accuracy by Subject -->
+    <div style="margin-bottom:var(--space-10);">
+      <h2 style="font-family:var(--font-serif); font-size:var(--text-xl); color:var(--color-brand-dark); margin-bottom:var(--space-5);">Quiz Accuracy by Subject</h2>
+      <div id="quiz-accuracy" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-4);"></div>
+      <a href="/prelims/" class="btn btn--accent btn--sm" style="margin-top:var(--space-4);">Practice More →</a>
+    </div>
+
+    <!-- Weak Areas -->
+    <div style="margin-bottom:var(--space-10);">
+      <h2 style="font-family:var(--font-serif); font-size:var(--text-xl); color:var(--color-brand-dark); margin-bottom:var(--space-5);">Focus Areas</h2>
+      <div id="weak-areas" class="card" style="padding:var(--space-5);"></div>
+    </div>
+
+    <!-- Reset -->
+    <div style="text-align:center; margin-top:var(--space-8);">
+      <button id="reset-data" class="btn btn--ghost btn--sm" style="color:var(--color-error); border-color:var(--color-error);">Reset All Progress Data</button>
+    </div>
+
+  </div>
+</section>
+
+<script>
+(function() {
+  const syllabusData = JSON.parse(localStorage.getItem('bharatnotes_syllabus') || '{}');
+  const quizData = JSON.parse(localStorage.getItem('bharatnotes_prelims') || '{"total":0,"correct":0,"subjects":{}}');
+
+  const subjectMeta = {{ subjects | json | safe }};
+
+  // Overview
+  const syllabusTotal = Object.keys(syllabusData).length;
+  const quizAccuracy = quizData.total ? Math.round((quizData.correct / quizData.total) * 100) : 0;
+
+  document.getElementById('tracker-overview').innerHTML = `
+    <div class="card" style="text-align:center;">
+      <div style="font-size:var(--text-3xl); font-weight:var(--font-extrabold); color:var(--color-brand);">${syllabusTotal}</div>
+      <div style="font-size:var(--text-sm); color:var(--color-text-muted);">Topics Completed</div>
+    </div>
+    <div class="card" style="text-align:center;">
+      <div style="font-size:var(--text-3xl); font-weight:var(--font-extrabold); color:var(--color-accent);">${quizData.total}</div>
+      <div style="font-size:var(--text-sm); color:var(--color-text-muted);">MCQs Attempted</div>
+    </div>
+    <div class="card" style="text-align:center;">
+      <div style="font-size:var(--text-3xl); font-weight:var(--font-extrabold); color:#16a34a;">${quizAccuracy}%</div>
+      <div style="font-size:var(--text-sm); color:var(--color-text-muted);">Quiz Accuracy</div>
+    </div>
+    <div class="card" style="text-align:center;">
+      <div style="font-size:var(--text-3xl); font-weight:var(--font-extrabold); color:var(--color-text-muted);">${quizData.total - quizData.correct}</div>
+      <div style="font-size:var(--text-sm); color:var(--color-text-muted);">Wrong Answers</div>
+    </div>
+  `;
+
+  // Syllabus progress per subject
+  const syllEl = document.getElementById('syllabus-progress');
+  let syllHTML = '';
+  subjectMeta.forEach(subj => {
+    const completed = Object.keys(syllabusData).filter(k => k.startsWith(subj.slug.replace(/-/g, ''))).length;
+    syllHTML += `
+      <div class="card">
+        <div style="display:flex; align-items:center; gap:var(--space-2); margin-bottom:var(--space-2);">
+          <span>${subj.icon}</span>
+          <strong style="font-size:var(--text-sm); color:${subj.color};">${subj.name}</strong>
+        </div>
+        <div style="background:var(--color-border); border-radius:var(--radius-full); height:6px; overflow:hidden;">
+          <div style="background:${subj.color}; height:100%; width:0%; border-radius:var(--radius-full);"></div>
+        </div>
+        <div style="font-size:var(--text-xs); color:var(--color-text-muted); margin-top:var(--space-1);">
+          <a href="/subjects/${subj.slug}/" style="color:var(--color-brand-light);">Study →</a>
+        </div>
+      </div>`;
+  });
+  syllEl.innerHTML = syllHTML;
+
+  // Quiz accuracy per subject
+  const quizEl = document.getElementById('quiz-accuracy');
+  let quizHTML = '';
+  subjectMeta.forEach(subj => {
+    const sd = quizData.subjects[subj.slug] || { total: 0, correct: 0 };
+    const pct = sd.total ? Math.round((sd.correct / sd.total) * 100) : 0;
+    const barColor = pct >= 70 ? '#16a34a' : pct >= 40 ? 'var(--color-accent)' : 'var(--color-error)';
+    quizHTML += `
+      <div class="card">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:var(--space-2);">
+          <div style="display:flex; align-items:center; gap:var(--space-2);">
+            <span>${subj.icon}</span>
+            <strong style="font-size:var(--text-sm);">${subj.name}</strong>
+          </div>
+          <span style="font-size:var(--text-sm); font-weight:var(--font-bold); color:${barColor};">${sd.total ? pct + '%' : '—'}</span>
+        </div>
+        <div style="background:var(--color-border); border-radius:var(--radius-full); height:6px; overflow:hidden;">
+          <div style="background:${barColor}; height:100%; width:${pct}%; border-radius:var(--radius-full); transition:width 0.3s;"></div>
+        </div>
+        <div style="font-size:var(--text-xs); color:var(--color-text-muted); margin-top:var(--space-1);">${sd.total} questions attempted</div>
+      </div>`;
+  });
+  quizEl.innerHTML = quizHTML;
+
+  // Weak areas
+  const weakEl = document.getElementById('weak-areas');
+  const weakSubjects = subjectMeta
+    .map(s => ({ ...s, data: quizData.subjects[s.slug] || { total: 0, correct: 0 } }))
+    .filter(s => s.data.total >= 3)
+    .sort((a, b) => {
+      const aPct = a.data.correct / a.data.total;
+      const bPct = b.data.correct / b.data.total;
+      return aPct - bPct;
+    })
+    .slice(0, 3);
+
+  if (weakSubjects.length > 0) {
+    weakEl.innerHTML = '<p style="font-size:var(--text-sm); color:var(--color-text-muted); margin-bottom:var(--space-3);">These subjects need more attention (lowest quiz accuracy):</p>' +
+      weakSubjects.map(s => {
+        const pct = Math.round((s.data.correct / s.data.total) * 100);
+        return `<div style="display:flex; align-items:center; justify-content:space-between; padding:var(--space-2) 0; border-bottom:1px solid var(--color-border);">
+          <span style="font-size:var(--text-sm);">${s.icon} ${s.name}</span>
+          <div>
+            <span style="font-size:var(--text-sm); color:var(--color-error); font-weight:var(--font-bold);">${pct}%</span>
+            <a href="/prelims/?subject=${s.slug}" style="font-size:var(--text-xs); color:var(--color-brand-light); margin-left:var(--space-2);">Practice →</a>
+          </div>
+        </div>`;
+      }).join('');
+  } else {
+    weakEl.innerHTML = '<p style="font-size:var(--text-sm); color:var(--color-text-muted); text-align:center; padding:var(--space-4);">Take at least 3 questions per subject to see your weak areas. <a href="/prelims/">Start practicing →</a></p>';
+  }
+
+  // Reset
+  document.getElementById('reset-data').addEventListener('click', () => {
+    if (confirm('This will reset ALL your progress data (syllabus, quizzes, bookmarks). Are you sure?')) {
+      localStorage.removeItem('bharatnotes_syllabus');
+      localStorage.removeItem('bharatnotes_prelims');
+      localStorage.removeItem('bharatnotes_bookmarks');
+      location.reload();
+    }
+  });
+})();
+</script>

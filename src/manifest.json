@@ -1,0 +1,15 @@
+{
+  "name": "BharatNotes — UPSC GS Notes",
+  "short_name": "BharatNotes",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f9fa",
+  "theme_color": "#1e293b",
+  "icons": [
+    {
+      "src": "/images/logos/bharatnotes-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

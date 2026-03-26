@@ -1,0 +1,79 @@
+---
+layout: base.njk
+title: "Previous Year Questions (PYQ)"
+description: "UPSC CSE Prelims & Mains Previous Year Questions — topic-wise, paper-wise, with answer analysis and trends."
+---
+
+<section class="page-header">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Home</a><span class="breadcrumb__sep">/</span>
+      PYQ Analysis
+    </nav>
+    <p class="page-header__eyebrow">Learn from the Exam</p>
+    <h1 class="page-header__title">Previous Year Questions</h1>
+    <p class="page-header__subtitle">Topic-wise PYQ analysis for Prelims & Mains — understand what UPSC asks and how to approach it.</p>
+  </div>
+</section>
+
+<section style="padding:var(--space-8) 0;">
+  <div class="container">
+
+    <!-- Why PYQs Matter -->
+    <div class="card" style="margin-bottom:var(--space-8); max-width:720px;">
+      <div class="article-body">
+        <h3 style="color:var(--color-brand-dark);">Why PYQs Are Your Best Teacher</h3>
+        <ul>
+          <li><strong>Pattern recognition:</strong> UPSC repeats themes (not exact questions). PYQs reveal which sub-topics are asked repeatedly.</li>
+          <li><strong>Depth calibration:</strong> Know exactly how deep to study each topic — no more, no less.</li>
+          <li><strong>Answer framework:</strong> Mains PYQs teach you the dimensions UPSC expects in answers.</li>
+          <li><strong>Elimination skill:</strong> Prelims PYQs build your ability to eliminate wrong options.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- PYQ by Paper -->
+    <h2 style="font-family:var(--font-serif); font-size:var(--text-2xl); color:var(--color-brand-dark); margin-bottom:var(--space-5); padding-bottom:var(--space-2); border-bottom:3px solid var(--color-accent);">Browse by GS Paper</h2>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-5); margin-bottom:var(--space-10);">
+      {% for key, paper in syllabus %}
+      <div class="card">
+        <span class="gs-badge gs-badge--{{ paper.slug }}">{{ paper.slug | upper }}</span>
+        <h3 class="card__title" style="margin-top:var(--space-2);">{{ paper.title }}</h3>
+        <p class="card__desc">{{ paper.subtitle }}</p>
+        <div style="margin-top:var(--space-3);">
+          {% for section in paper.sections %}
+          <span style="display:inline-block; font-size:var(--text-xs); background:var(--color-bg); padding:2px 8px; border-radius:var(--radius-full); margin:2px; color:var(--color-text-muted);">{{ section.title }}</span>
+          {% endfor %}
+        </div>
+        <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin-top:var(--space-3);">PYQ analysis coming soon</p>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- PYQ Trends -->
+    <h2 style="font-family:var(--font-serif); font-size:var(--text-2xl); color:var(--color-brand-dark); margin-bottom:var(--space-5); padding-bottom:var(--space-2); border-bottom:3px solid var(--color-accent);">Key PYQ Trends (2019-2025)</h2>
+
+    <div class="card" style="max-width:720px;">
+      <div class="article-body">
+        <h4 style="color:var(--color-accent);">Prelims Trends</h4>
+        <ul>
+          <li><strong>Environment & Ecology:</strong> 15-20 questions per year consistently — highest weightage</li>
+          <li><strong>Polity:</strong> 12-18 questions — more from less-studied areas (tribunals, statutory bodies)</li>
+          <li><strong>Economy:</strong> 15-18 questions — increasing focus on banking, external sector, schemes</li>
+          <li><strong>Science & Tech:</strong> 8-12 questions — space, biotech, defence tech trending up</li>
+          <li><strong>History & Culture:</strong> 10-15 questions — ancient and medieval culture increasing</li>
+        </ul>
+
+        <h4 style="color:var(--color-accent);">Mains Trends</h4>
+        <ul>
+          <li><strong>GS2:</strong> More case-study-based questions on governance failures and reforms</li>
+          <li><strong>GS3:</strong> Current affairs integration mandatory — no pure static answers score well</li>
+          <li><strong>GS4:</strong> Case studies dominate (125/250 marks) — ethics application, not theory</li>
+          <li><strong>Essay:</strong> Balanced philosophical + contemporary; one abstract + one socio-economic</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>

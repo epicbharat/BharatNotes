@@ -1,0 +1,85 @@
+---
+layout: base.njk
+title: "Interview Preparation"
+description: "UPSC Interview / Personality Test preparation — opinion bank, DAF-based questions, current affairs integration, and panel simulation tips."
+---
+
+<section class="page-header">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Home</a><span class="breadcrumb__sep">/</span>
+      Interview
+    </nav>
+    <p class="page-header__eyebrow">Personality Test</p>
+    <h1 class="page-header__title">Interview Preparation</h1>
+    <p class="page-header__subtitle">Build strong opinions, prepare DAF-based answers, and stay sharp on current affairs for the UPSC Personality Test.</p>
+  </div>
+</section>
+
+<section style="padding:var(--space-8) 0;">
+  <div class="container" style="max-width:800px;">
+
+    <div class="card article-body" style="margin-bottom:var(--space-8);">
+      <h2>What the Interview Tests</h2>
+      <p>The UPSC Interview (275 marks) is NOT a knowledge test — it's a <strong>personality test</strong>. The board assesses:</p>
+      <ul>
+        <li><strong>Mental alertness</strong> — can you think on your feet?</li>
+        <li><strong>Critical assimilation</strong> — can you connect dots across subjects?</li>
+        <li><strong>Balance of judgment</strong> — are your views balanced or extreme?</li>
+        <li><strong>Social cohesion</strong> — do you have leadership and integrity?</li>
+        <li><strong>Intellectual depth</strong> — do you understand your own interests and background?</li>
+      </ul>
+      <h2>Key Preparation Areas</h2>
+      <h3>1. DAF (Detailed Application Form)</h3>
+      <p>60-70% of questions come from YOUR DAF — hobbies, optional, hometown, education, work experience. Prepare 10 questions for each DAF entry.</p>
+      <h3>2. Current Affairs (last 6 months)</h3>
+      <p>Stay updated with <a href="https://ujiyari.com/daily/" target="_blank">Ujiyari.com daily coverage</a>. Focus on forming OPINIONS, not just facts. For every major event, prepare: "What is your view on X?"</p>
+      <h3>3. Opinion Building</h3>
+      <p>The board asks questions like "Should India have a Presidential system?" or "Is social media a threat to democracy?" You need structured, balanced opinions — not sitting on the fence, but acknowledging both sides.</p>
+      <h3>4. State & District Knowledge</h3>
+      <p>Know your home state and district — GDP, major crops, industries, rivers, cultural specialties, development challenges, and government schemes running there.</p>
+    </div>
+
+    <!-- Opinion Bank -->
+    <div style="margin-bottom:var(--space-8);">
+      <h2 style="font-family:var(--font-serif); font-size:var(--text-2xl); color:var(--color-brand-dark); margin-bottom:var(--space-5); padding-bottom:var(--space-2); border-bottom:3px solid var(--color-accent);">Opinion Bank</h2>
+      <p style="color:var(--color-text-muted); font-size:var(--text-sm); margin-bottom:var(--space-4);">Practice forming and articulating opinions on these common interview topics. Each topic links to relevant Ujiyari editorials for current context.</p>
+
+      {% set opinionTopics = [
+        { q: "Should India shift to a Presidential form of government?", subject: "polity" },
+        { q: "Is lateral entry into civil services good for governance?", subject: "polity" },
+        { q: "Should India have a Uniform Civil Code?", subject: "society" },
+        { q: "Is social media a threat to democracy?", subject: "polity" },
+        { q: "Should India pursue nuclear energy aggressively?", subject: "science-tech" },
+        { q: "Is One Nation One Election feasible and desirable?", subject: "polity" },
+        { q: "Should India aim for a permanent UNSC seat or reform the UN?", subject: "international-relations" },
+        { q: "Is the Indian judiciary overstepping its role?", subject: "polity" },
+        { q: "Should MSP be made a legal right?", subject: "economy" },
+        { q: "Is reservation still relevant in modern India?",  subject: "society" },
+        { q: "Should India ban cryptocurrency?", subject: "economy" },
+        { q: "Is the death penalty justified?", subject: "ethics" },
+        { q: "Should environmental protection take priority over development?", subject: "environment" },
+        { q: "Is AI a threat to employment in India?", subject: "science-tech" },
+        { q: "Should India have a population control law?", subject: "society" }
+      ] %}
+
+      <div style="display:grid; gap:var(--space-3);">
+        {% for topic in opinionTopics %}
+        <div class="card" style="padding:var(--space-3) var(--space-5);">
+          <div style="display:flex; align-items:center; justify-content:space-between; gap:var(--space-3);">
+            <p style="font-size:var(--text-sm); font-weight:var(--font-semibold); color:var(--color-brand-dark); margin:0;">{{ topic.q }}</p>
+            <span style="font-size:0.6rem; background:var(--color-bg); padding:1px 8px; border-radius:var(--radius-full); color:var(--color-text-muted); white-space:nowrap;">{{ topic.subject }}</span>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="card" style="border-left:4px solid var(--color-accent);">
+      <h3 class="card__title">Stay Current</h3>
+      <p class="card__desc" style="margin-bottom:var(--space-3);">Interview boards test current awareness heavily. Read Ujiyari.com editorials daily — they provide the analytical depth you need to form opinions.</p>
+      <a href="https://ujiyari.com/editorials/" class="btn btn--accent btn--sm" target="_blank">Read Editorials →</a>
+    </div>
+
+  </div>
+</section>

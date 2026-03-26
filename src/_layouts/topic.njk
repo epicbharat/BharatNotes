@@ -1,0 +1,149 @@
+---
+layout: base.njk
+---
+
+{%- set subjectData = null -%}
+{%- for s in subjects -%}
+  {%- if s.slug == subject -%}{%- set subjectData = s -%}{%- endif -%}
+{%- endfor -%}
+
+<section class="page-header">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Home</a><span class="breadcrumb__sep">/</span>
+      <a href="/subjects/">Subjects</a><span class="breadcrumb__sep">/</span>
+      {% if subjectData %}<a href="/subjects/{{ subject }}/">{{ subjectData.name }}</a><span class="breadcrumb__sep">/</span>{% endif %}
+      {{ title }}
+    </nav>
+    <div style="display:flex; align-items:center; gap:var(--space-2); margin-bottom:var(--space-2);">
+      {% if subjectData %}<span style="font-size:1.5rem;">{{ subjectData.icon }}</span>{% endif %}
+      {% for paper in gs_papers %}
+      <span class="gs-badge gs-badge--{{ paper }}">{{ paper | upper }}</span>
+      {% endfor %}
+    </div>
+    <h1 class="page-header__title">{{ title }}</h1>
+    {% if description %}<p class="page-header__subtitle">{{ description }}</p>{% endif %}
+  </div>
+</section>
+
+<section style="padding:var(--space-8) 0;">
+  <div class="container">
+
+    <!-- Depth Level Tabs -->
+    <div class="topic-tabs" style="display:flex; gap:var(--space-1); margin-bottom:var(--space-6); border-bottom:2px solid var(--color-border); overflow-x:auto;">
+      {% if foundation %}
+      <button class="topic-tab active" data-tab="foundation" style="padding:var(--space-2) var(--space-4); font-size:var(--text-sm); font-weight:var(--font-semibold); border:none; background:none; cursor:pointer; border-bottom:3px solid var(--color-brand); color:var(--color-brand);">🌱 Foundation</button>
+      {% endif %}
+      {% if prelims %}
+      <button class="topic-tab" data-tab="prelims" style="padding:var(--space-2) var(--space-4); font-size:var(--text-sm); font-weight:var(--font-semibold); border:none; background:none; cursor:pointer; border-bottom:3px solid transparent; color:var(--color-text-muted);">🎯 Prelims</button>
+      {% endif %}
+      {% if mains %}
+      <button class="topic-tab" data-tab="mains" style="padding:var(--space-2) var(--space-4); font-size:var(--text-sm); font-weight:var(--font-semibold); border:none; background:none; cursor:pointer; border-bottom:3px solid transparent; color:var(--color-text-muted);">✍️ Mains</button>
+      {% endif %}
+      <button class="topic-tab" data-tab="pyqs" style="padding:var(--space-2) var(--space-4); font-size:var(--text-sm); font-weight:var(--font-semibold); border:none; background:none; cursor:pointer; border-bottom:3px solid transparent; color:var(--color-text-muted);">📝 PYQs</button>
+    </div>
+
+    <div class="layout-with-sidebar">
+      <!-- Main content -->
+      <div>
+        <article class="article-body" data-pagefind-body>
+          {{ content | safe }}
+        </article>
+
+        <!-- PYQ Tab (shown when PYQ tab active) -->
+        <div id="pyqs-panel" class="card" hidden style="margin-top:var(--space-4);">
+          <h3 class="card__title">Previous Year Questions on this Topic</h3>
+          <p class="card__desc">PYQ analysis for this topic is being compiled. Check back soon or browse the <a href="/pyq/">full PYQ section</a>.</p>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <aside>
+        <!-- Topic Info -->
+        <div class="card" style="margin-bottom:var(--space-5);">
+          <h4 style="color:var(--color-brand); font-size:var(--text-xs); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:var(--space-3);">Topic Info</h4>
+          {% if syllabus_topic %}
+          <div style="font-size:var(--text-xs); color:var(--color-text-muted); margin-bottom:var(--space-2);">
+            <strong>Syllabus:</strong> {{ syllabus_topic }}
+          </div>
+          {% endif %}
+          {% if gs_papers %}
+          <div style="font-size:var(--text-xs); color:var(--color-text-muted); margin-bottom:var(--space-2);">
+            <strong>GS Paper:</strong>
+            {% for paper in gs_papers %}{{ paper | upper }}{% if not loop.last %}, {% endif %}{% endfor %}
+          </div>
+          {% endif %}
+          <div style="font-size:var(--text-xs); color:var(--color-text-muted);">
+            <strong>Depth:</strong>
+            {% if foundation %}Foundation {% endif %}{% if prelims %}Prelims {% endif %}{% if mains %}Mains{% endif %}
+          </div>
+        </div>
+
+        <!-- Quick Actions -->
+        <div class="card" style="margin-bottom:var(--space-5);">
+          <h4 style="color:var(--color-brand); font-size:var(--text-xs); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:var(--space-3);">Practice</h4>
+          <a href="/prelims/?subject={{ subject }}" class="btn btn--accent btn--sm" style="width:100%; justify-content:center; margin-bottom:var(--space-2);">🎯 Take MCQ Quiz</a>
+          <a href="/mains-practice/" class="btn btn--ghost btn--sm" style="width:100%; justify-content:center;">✍️ Write an Answer</a>
+        </div>
+
+        <!-- Download PDF -->
+        <div class="card" style="margin-bottom:var(--space-5);">
+          <h4 style="color:var(--color-brand); font-size:var(--text-xs); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:var(--space-3);">Download</h4>
+          <button id="btn-download-pdf" class="btn btn--primary btn--sm" style="width:100%; justify-content:center;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:-2px;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download PDF
+          </button>
+          <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin-top:var(--space-2);">Save this topic as a clean PDF for offline study.</p>
+        </div>
+
+        <!-- More in this subject -->
+        {% if subjectData %}
+        <div class="card" style="margin-bottom:var(--space-5);">
+          <h4 style="color:var(--color-brand); font-size:var(--text-xs); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:var(--space-3);">More in {{ subjectData.name }}</h4>
+          {% set siblings = collections.allTopics | selectattr("data.subject", "equalto", subject) %}
+          {% for sibling in siblings | limit(8) %}
+          {% if sibling.url != page.url %}
+          <a href="{{ sibling.url }}" style="display:block; font-size:var(--text-xs); padding:var(--space-1) 0; color:var(--color-text-muted);">{{ sibling.data.title | truncate(50) }}</a>
+          {% endif %}
+          {% endfor %}
+          <a href="/subjects/{{ subject }}/" style="display:block; font-size:var(--text-xs); padding:var(--space-2) 0; color:var(--color-brand-light); font-weight:var(--font-semibold);">View all →</a>
+        </div>
+        {% endif %}
+
+        <!-- Current Affairs -->
+        <div class="card">
+          <h4 style="color:var(--color-brand); font-size:var(--text-xs); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:var(--space-3);">Current Affairs</h4>
+          <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin-bottom:var(--space-3);">Latest news on this topic from Ujiyari.com</p>
+          <a href="https://ujiyari.com/subjects/{{ subject }}/" class="btn btn--ghost btn--sm" target="_blank" style="width:100%; justify-content:center;">View on Ujiyari →</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<script>
+// Tab switching
+document.querySelectorAll('.topic-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.topic-tab').forEach(t => {
+      t.style.borderBottomColor = 'transparent';
+      t.style.color = 'var(--color-text-muted)';
+      t.classList.remove('active');
+    });
+    tab.style.borderBottomColor = 'var(--color-brand)';
+    tab.style.color = 'var(--color-brand)';
+    tab.classList.add('active');
+
+    const panel = tab.dataset.tab;
+    const pyqPanel = document.getElementById('pyqs-panel');
+    const articleBody = document.querySelector('.article-body');
+    if (panel === 'pyqs') {
+      if (articleBody) articleBody.hidden = true;
+      if (pyqPanel) pyqPanel.hidden = false;
+    } else {
+      if (articleBody) articleBody.hidden = false;
+      if (pyqPanel) pyqPanel.hidden = true;
+    }
+  });
+});
+</script>

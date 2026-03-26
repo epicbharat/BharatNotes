@@ -1,0 +1,111 @@
+---
+layout: base.njk
+title: "Syllabus Tracker"
+description: "Track your UPSC GS preparation progress — mark topics as done, see completion percentage per paper."
+---
+
+<section class="page-header">
+  <div class="container">
+    <p class="page-header__eyebrow">Your Progress</p>
+    <h1 class="page-header__title">Syllabus Tracker</h1>
+    <p class="page-header__subtitle">Mark topics as you complete them. Your progress is saved in your browser — no login needed.</p>
+  </div>
+</section>
+
+<section style="padding:var(--space-8) 0;">
+  <div class="container">
+
+    <!-- Overall Progress -->
+    <div id="overall-progress" style="margin-bottom:var(--space-8); display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:var(--space-4);"></div>
+
+    <!-- Per-paper sections -->
+    {% for key, paper in syllabus %}
+    <div class="card" style="margin-bottom:var(--space-6);">
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:var(--space-4);">
+        <h2 style="font-family:var(--font-serif); font-size:var(--text-xl); color:var(--color-brand-dark);">{{ paper.icon }} {{ paper.title }}</h2>
+        <span id="progress-{{ paper.slug }}" style="font-size:var(--text-sm); font-weight:var(--font-bold); color:var(--color-brand);">0%</span>
+      </div>
+      <div style="background:var(--color-border); border-radius:var(--radius-full); height:8px; margin-bottom:var(--space-4); overflow:hidden;">
+        <div id="bar-{{ paper.slug }}" style="background:var(--color-accent); height:100%; width:0%; border-radius:var(--radius-full); transition:width 0.3s ease;"></div>
+      </div>
+
+      {% for section in paper.sections %}
+      <div style="margin-bottom:var(--space-4);">
+        <h4 style="font-size:var(--text-sm); color:var(--color-brand); text-transform:uppercase; letter-spacing:0.04em; margin-bottom:var(--space-2);">{{ section.title }}</h4>
+        {% for topic in section.topics %}
+        <label style="display:flex; align-items:flex-start; gap:var(--space-2); padding:var(--space-2) 0; font-size:var(--text-sm); cursor:pointer; border-bottom:1px solid var(--color-border);">
+          <input type="checkbox" class="syllabus-check" data-paper="{{ paper.slug }}" data-topic="{{ topic | slugify }}" style="margin-top:3px; accent-color:var(--color-brand);">
+          <span>{{ topic }}</span>
+        </label>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+
+  </div>
+</section>
+
+<script>
+(function() {
+  const STORAGE_KEY = 'bharatnotes_syllabus';
+  const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+
+  // Restore state
+  document.querySelectorAll('.syllabus-check').forEach(cb => {
+    const key = cb.dataset.paper + '/' + cb.dataset.topic;
+    if (saved[key]) cb.checked = true;
+
+    cb.addEventListener('change', () => {
+      const k = cb.dataset.paper + '/' + cb.dataset.topic;
+      if (cb.checked) saved[k] = true;
+      else delete saved[k];
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+      updateProgress();
+    });
+  });
+
+  function updateProgress() {
+    const papers = {};
+    let totalChecked = 0, totalAll = 0;
+
+    document.querySelectorAll('.syllabus-check').forEach(cb => {
+      const p = cb.dataset.paper;
+      if (!papers[p]) papers[p] = { checked: 0, total: 0 };
+      papers[p].total++;
+      totalAll++;
+      if (cb.checked) { papers[p].checked++; totalChecked++; }
+    });
+
+    for (const [slug, data] of Object.entries(papers)) {
+      const pct = Math.round((data.checked / data.total) * 100);
+      const progEl = document.getElementById('progress-' + slug);
+      const barEl = document.getElementById('bar-' + slug);
+      if (progEl) progEl.textContent = pct + '%';
+      if (barEl) barEl.style.width = pct + '%';
+    }
+
+    // Overall cards
+    const container = document.getElementById('overall-progress');
+    if (container) {
+      const totalPct = totalAll ? Math.round((totalChecked / totalAll) * 100) : 0;
+      container.innerHTML = `
+        <div class="card" style="text-align:center;">
+          <div style="font-size:var(--text-3xl); font-weight:var(--font-extrabold); color:var(--color-brand);">${totalPct}%</div>
+          <div style="font-size:var(--text-sm); color:var(--color-text-muted);">Overall Progress</div>
+        </div>
+        <div class="card" style="text-align:center;">
+          <div style="font-size:var(--text-3xl); font-weight:var(--font-extrabold); color:var(--color-accent);">${totalChecked}</div>
+          <div style="font-size:var(--text-sm); color:var(--color-text-muted);">Topics Completed</div>
+        </div>
+        <div class="card" style="text-align:center;">
+          <div style="font-size:var(--text-3xl); font-weight:var(--font-extrabold); color:var(--color-text-muted);">${totalAll - totalChecked}</div>
+          <div style="font-size:var(--text-sm); color:var(--color-text-muted);">Topics Remaining</div>
+        </div>
+      `;
+    }
+  }
+
+  updateProgress();
+})();
+</script>

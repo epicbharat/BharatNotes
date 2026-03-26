@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {%- set pageTitle %}{% if title %}{{ title }} | BharatNotes{% else %}BharatNotes — Free UPSC GS Notes{% endif %}{% endset -%}
+  {%- set pageDesc -%}
+    {%- if description -%}{{ description }}
+    {%- elif syllabus_topic -%}{{ title }} — UPSC GS notes with PYQs, key concepts & exam strategy.
+    {%- else -%}{{ site.description }}
+    {%- endif -%}
+  {%- endset -%}
+  {%- set pageUrl = site.url + (page.url or '/') -%}
+
+  <title>{{ pageTitle }}</title>
+  <meta name="description" content="{{ pageDesc }}">
+  <link rel="canonical" href="{{ pageUrl }}">
+  {% if robotsMeta %}<meta name="robots" content="{{ robotsMeta }}">{% endif %}
+  <link rel="alternate" hreflang="en-in" href="{{ pageUrl }}">
+  <link rel="alternate" type="application/rss+xml" title="BharatNotes RSS" href="{{ site.url }}/feed.xml">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ title or 'BharatNotes — Free UPSC GS Notes' }}">
+  <meta property="og:description" content="{{ pageDesc }}">
+  <meta property="og:type" content="{% if date %}article{% else %}website{% endif %}">
+  <meta property="og:url" content="{{ pageUrl }}">
+  <meta property="og:site_name" content="BharatNotes">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:image" content="{{ site.url }}/images/logos/bharatnotes-og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ title or 'BharatNotes' }}">
+  <meta name="twitter:description" content="{{ pageDesc }}">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "{% if layout == 'topic.njk' %}Article{% else %}WebSite{% endif %}",
+    "name": "{{ title or site.name }}",
+    "url": "{{ pageUrl }}",
+    {% if layout == 'topic.njk' %}"headline": "{{ title }}",
+    "datePublished": "{{ date | isoDate }}",
+    "author": {"@type": "Person", "name": "Bharat Choudhary"},
+    "publisher": {"@type": "Organization", "name": "BharatNotes", "url": "{{ site.url }}"},
+    {% endif %}"description": "{{ pageDesc }}"
+  }
+  </script>
+
+  <!-- Favicon & PWA -->
+  <link rel="icon" type="image/png" href="/images/logos/bharatnotes-logo.png">
+  <link rel="apple-touch-icon" href="/images/logos/bharatnotes-logo.png">
+  <meta name="theme-color" content="#1e293b">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/main.css?v={{ site.buildTime }}">
+</head>
+<body>
+
+<!-- Header -->
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="/" class="site-logo">
+        <span style="font-size:1.5rem;">📚</span>
+        BharatNotes
+      </a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
+      <nav class="primary-nav">
+        <a href="/start-here/" class="primary-nav__link {% if '/start-here/' in page.url %}active{% endif %}">🚀 Start Here</a>
+        <a href="/subjects/" class="primary-nav__link {% if '/subjects/' in page.url %}active{% endif %}">📖 Subjects</a>
+        <a href="/prelims/" class="primary-nav__link {% if '/prelims/' in page.url %}active{% endif %}">🎯 Prelims</a>
+        <a href="/mains/" class="primary-nav__link {% if '/mains/' in page.url %}active{% endif %}">✍️ Mains</a>
+        <a href="/pyq/" class="primary-nav__link {% if '/pyq/' in page.url %}active{% endif %}">📝 PYQ</a>
+        <a href="/tracker/" class="primary-nav__link {% if '/tracker/' in page.url %}active{% endif %}">📊 Tracker</a>
+        <a href="/resources/" class="primary-nav__link {% if '/resources/' in page.url %}active{% endif %}">📖 Resources</a>
+        <a href="https://ujiyari.com" class="primary-nav__link" target="_blank" style="color:var(--color-accent-light);">Ujiyari ↗</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  {{ content | safe }}
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <div style="font-family:var(--font-serif); font-size:var(--text-xl); font-weight:var(--font-bold); color:var(--color-white); margin-bottom:var(--space-3);">📚 BharatNotes</div>
+        <p style="font-size:var(--text-sm);">{{ site.tagline }}</p>
+        <p style="font-size:var(--text-xs); margin-top:var(--space-3);">A companion to <a href="https://ujiyari.com" style="color:var(--color-accent-light);">Ujiyari.com</a> — daily current affairs.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Study</h4>
+        <a href="/subjects/" class="footer-link">Browse Subjects</a>
+        <a href="/prelims/" class="footer-link">Prelims Practice</a>
+        <a href="/mains/" class="footer-link">Mains Preparation</a>
+        <a href="/interview/" class="footer-link">Interview Prep</a>
+        <a href="/pyq/" class="footer-link">PYQ Analysis</a>
+      </div>
+      <div class="footer-col">
+        <h4>Tools</h4>
+        <a href="/start-here/" class="footer-link">Start Here</a>
+        <a href="/study-plan/" class="footer-link">Study Plans</a>
+        <a href="/tracker/" class="footer-link">Progress Tracker</a>
+        <a href="/resources/" class="footer-link">Books & Resources</a>
+        <a href="https://ujiyari.com/daily/" class="footer-link">Daily Current Affairs</a>
+      </div>
+    </div>
+    <div class="footer-copy">
+      <p>&copy; {{ site.year }} BharatNotes by Bharat Choudhary. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/nav.js" defer></script>
+<script src="/js/bookmarks.js" defer></script>
+<script src="/js/pdf.js" defer></script>
+</body>
+</html>
