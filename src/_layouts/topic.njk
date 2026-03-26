@@ -133,7 +133,33 @@ layout: base.njk
 
   /* ── Helper: strip Q number + year from question text (shown in badge) ── */
   function cleanQText(html) {
-    return html.replace(/^(<strong>)?Q\d*[\.\)]\s*(\(\d{4}\)\s*)?(<\/strong>)?\s*/i, '');
+    // Strip patterns like: **Q1. (2017)**, **Q. (CSE Prelims 2017)**, Q1., Q.
+    return html
+      .replace(/^(<strong>)?Q\d*[\.\)]\s*/i, '')
+      .replace(/^\((?:CSE\s+)?(?:Prelims|Mains)?\s*\d{4}\)\s*(<\/strong>)?\s*/i, '')
+      .replace(/^(<\/strong>)?\s*/, '');
+  }
+
+  /* ── Helper: strip inline answer options (a) 1 only (b) 2 only... from text ── */
+  function stripInlineOptions(html) {
+    // Remove patterns like: (a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither
+    return html.replace(/\s*\(a\)\s+.*$/i, '');
+  }
+
+  /* ── Helper: parse inline (a)(b)(c)(d) options from text ── */
+  function extractInlineOptions(text) {
+    var match = text.match(/\(a\)\s+(.+?)\s+\(b\)\s+(.+?)\s+\(c\)\s+(.+?)\s+\(d\)\s+(.+?)(?:\s*$|\s*\*)/i);
+    if (match) return [match[1].trim(), match[2].trim(), match[3].trim(), match[4].trim()];
+    return null;
+  }
+
+  /* ── Helper: find correct option from answer text when options are explicit ── */
+  function parseCorrectFromAnswer(answerText, options) {
+    var t = answerText.trim();
+    // Match patterns like "(b)", "(b) --", "Answer: (b)"
+    var match = t.match(/^\(?([a-d])\)?/i) || t.match(/:\s*\(?([a-d])\)?/i);
+    if (match) return match[1].toLowerCase().charCodeAt(0) - 97; // a=0, b=1, c=2, d=3
+    return -1;
   }
 
   /* ── Helper: generate UPSC answer options based on statement count ── */
@@ -254,21 +280,40 @@ layout: base.njk
           return;
         }
 
-        if (/^\*?\*?Q\d*\.|^<strong>Q\d*\./i.test(content.trim())) {
+        if (/^\*?\*?Q\d*[\.\)]\s|^<strong>Q\d*[\.\)]\s/i.test(content.trim())) {
           qCount++;
           var isMains = currentSection === 'mains';
           var cardClass = isMains ? 'pyq-card pyq-card--mains' : 'pyq-card';
-          var yearMatch = textContent.match(/\d{4}/);
+          var yearMatch = textContent.match(/\b(19|20)\d{2}\b/);
           var yearText = yearMatch ? yearMatch[0] : '';
           var typeLabel = isMains ? 'Mains' : 'Prelims';
+          // Check for inline options in the question text itself
+          var inlineOpts = extractInlineOptions(textContent);
           var cleanContent = cleanQText(content);
-          cardsHtml += '<div class="' + cardClass + '" data-q="' + qCount + '" data-type="' + (isMains ? 'mains' : 'prelims') + '">';
+          // Strip inline (a)(b)(c)(d) options from display — quiz will generate them
+          if (inlineOpts) cleanContent = stripInlineOptions(cleanContent);
+          // Also strip inline **Answer:** if embedded in the question paragraph
+          var inlineAnswerSplit = cleanContent.split(/<strong>Answer:?<\/strong>\s*:?\s*/i);
+          var answerHtml = '';
+          if (inlineAnswerSplit.length > 1) {
+            answerHtml = inlineAnswerSplit.slice(1).join('');
+            cleanContent = inlineAnswerSplit[0];
+          }
+          cardsHtml += '<div class="' + cardClass + '" data-q="' + qCount + '" data-type="' + (isMains ? 'mains' : 'prelims') + '"';
+          if (inlineOpts) cardsHtml += ' data-options="' + encodeURIComponent(JSON.stringify(inlineOpts)) + '"';
+          cardsHtml += '>';
           cardsHtml += '<div class="pyq-meta"><span class="pyq-q-number">' + qCount + '</span><span class="pyq-year-badge">' + typeLabel + (yearText ? ' · ' + yearText : '') + '</span></div>';
-          cardsHtml += '<div class="pyq-question-text">' + cleanContent + '</div></div>';
+          cardsHtml += '<div class="pyq-question-text">' + cleanContent + '</div>';
+          if (answerHtml) {
+            var answerId = 'pyq-ans-' + qCount;
+            cardsHtml += '<button class="pyq-answer-toggle" aria-expanded="false" aria-controls="' + answerId + '">Reveal Answer ' + chevronSvg + '</button>';
+            cardsHtml += '<div class="pyq-answer" id="' + answerId + '" hidden>' + answerHtml + '</div>';
+          }
+          cardsHtml += '</div>';
           return;
         }
 
-        if (/^\*?\*?Answer|^<strong>Answer/i.test(content.trim())) {
+        if (/^\*?\*?Answer|^<strong>Answer:?<\/strong>/i.test(content.trim())) {
           var answerId = 'pyq-ans-' + qCount;
           var lastDiv = cardsHtml.lastIndexOf('</div>');
           if (lastDiv !== -1) {
@@ -282,7 +327,7 @@ layout: base.njk
         if (textContent.trim() && qCount > 0) {
           var lastDiv = cardsHtml.lastIndexOf('</div>');
           if (lastDiv !== -1) {
-            var answerSplit = content.split(/<strong>Answer<\/strong>\s*:/i);
+            var answerSplit = content.split(/<strong>Answer:?<\/strong>\s*:?\s*/i);
             if (answerSplit.length > 1) {
               var qPart = answerSplit[0].trim();
               var aPart = '<strong>Answer</strong>: ' + answerSplit.slice(1).join('');
@@ -312,17 +357,32 @@ layout: base.njk
 
       /* ── Post-process: add interactive quiz options to prelims cards ── */
       pyqInner.querySelectorAll('.pyq-card:not(.pyq-card--mains)').forEach(function(card) {
-        var statements = card.querySelectorAll('ol li');
-        if (statements.length < 2 || statements.length > 4) return;
-
         var answerDiv = card.querySelector('.pyq-answer');
         var toggle = card.querySelector('.pyq-answer-toggle');
         if (!answerDiv) return;
 
         var answerText = answerDiv.textContent;
-        var correctIdx = parseCorrectAnswer(answerText, statements.length);
-        var options = generateOptions(statements.length);
-        if (!options) return;
+
+        // Try explicit options from data attribute first (from inline (a)(b)(c)(d) in markdown)
+        var explicitOpts = card.dataset.options ? JSON.parse(decodeURIComponent(card.dataset.options)) : null;
+        var options, correctIdx;
+
+        if (explicitOpts && explicitOpts.length === 4) {
+          options = explicitOpts;
+          correctIdx = parseCorrectFromAnswer(answerText, options);
+          // Fallback: try parseCorrectAnswer with statement count
+          if (correctIdx === -1) {
+            var statements = card.querySelectorAll('ol li');
+            if (statements.length >= 2) correctIdx = parseCorrectAnswer(answerText, statements.length);
+          }
+        } else {
+          // Auto-generate based on statement count
+          var statements = card.querySelectorAll('ol li');
+          if (statements.length < 2 || statements.length > 4) return;
+          options = generateOptions(statements.length);
+          if (!options) return;
+          correctIdx = parseCorrectAnswer(answerText, statements.length);
+        }
 
         // Build options HTML
         var optionsEl = document.createElement('div');
