@@ -125,7 +125,14 @@
         <a href="/mains/" class="primary-nav__link" {% if '/mains/' in page.url %}aria-current="page"{% endif %}>Mains</a>
         <a href="/pyq/" class="primary-nav__link" {% if '/pyq/' in page.url %}aria-current="page"{% endif %}>PYQ</a>
         <a href="/tracker/" class="primary-nav__link" {% if '/tracker/' in page.url %}aria-current="page"{% endif %}>Tracker</a>
-        <a href="/resources/" class="primary-nav__link" {% if '/resources/' in page.url %}aria-current="page"{% endif %}>Resources</a>
+        <div class="primary-nav__dropdown">
+          <button class="primary-nav__link primary-nav__dropdown-toggle" aria-expanded="false" aria-haspopup="true">Resources <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="vertical-align:-1px;margin-left:2px;"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="primary-nav__dropdown-menu" role="menu">
+            <a href="/resources/" class="primary-nav__dropdown-item" role="menuitem">All Resources</a>
+            <a href="/resources/vocab-builder/" class="primary-nav__dropdown-item" role="menuitem">📚 Vocab Builder</a>
+            <a href="/resources/key-terms/" class="primary-nav__dropdown-item" role="menuitem">📖 Key Terms & Concepts</a>
+          </div>
+        </div>
         <a href="https://ujiyari.com" class="primary-nav__link" target="_blank" rel="noopener" style="color:var(--color-accent-light);">Ujiyari ↗</a>
       </nav>
     </div>

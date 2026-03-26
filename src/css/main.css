@@ -87,6 +87,45 @@ h1, h2, h3, h4, h5, h6 { color: inherit; line-height: var(--leading-tight); }
   background: rgba(255,255,255,0.06);
 }
 
+/* ── Nav Dropdown ──────────────────────────────────────── */
+.primary-nav__dropdown { position: relative; display: flex; align-items: center; }
+.primary-nav__dropdown-toggle {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  line-height: inherit;
+}
+.primary-nav__dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  min-width: 200px;
+  background: var(--color-brand-dark);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: var(--radius-md);
+  padding: var(--space-2) 0;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  z-index: 200;
+}
+.primary-nav__dropdown.open .primary-nav__dropdown-menu { display: block; }
+.primary-nav__dropdown-item {
+  display: block;
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--text-sm);
+  color: rgba(255,255,255,0.72);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: all 0.15s;
+}
+.primary-nav__dropdown-item:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.08);
+}
+
 /* ── Hero (Homepage) ─────────────────────────────────────── */
 .hero {
   position: relative;
@@ -703,6 +742,16 @@ a.card:hover { text-decoration: none; }
     font-size: var(--text-sm);
     border-radius: var(--radius-sm);
   }
+  .primary-nav__dropdown-menu {
+    position: static;
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0 0 0 var(--space-4);
+    min-width: 0;
+  }
+  .primary-nav__dropdown.open .primary-nav__dropdown-menu { display: block; }
+  .primary-nav__dropdown-item { padding: var(--space-2) var(--space-4); font-size: var(--text-xs); }
   .layout-with-sidebar { grid-template-columns: 1fr; }
   .topic-sidebar { position: static; max-height: none; overflow-y: visible; }
   #toc-sidebar { display: none; }

@@ -1,0 +1,52 @@
+---
+layout: base.njk
+title: "Vocab Builder"
+description: "Build your UPSC vocabulary — pronunciation, etymology, synonyms, antonyms, and exam context for every key term across all GS subjects."
+---
+
+<section class="page-header">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Home</a><span class="breadcrumb__sep">/</span>
+      <a href="/resources/">Resources</a><span class="breadcrumb__sep">/</span>
+      Vocab Builder
+    </nav>
+    <p class="page-header__eyebrow">Resources</p>
+    <h1 class="page-header__title">Vocab Builder</h1>
+    <p class="page-header__subtitle">Master essential UPSC vocabulary — each word includes pronunciation, definition, etymology, synonyms, antonyms, and exam context.</p>
+  </div>
+</section>
+
+<section style="padding:var(--space-8) 0;">
+  <div class="container">
+
+    <div class="card" style="margin-bottom:var(--space-8); background:linear-gradient(135deg, rgba(8,145,178,0.08), rgba(8,145,178,0.02)); border-left:4px solid #0891b2;">
+      <div class="article-body">
+        <h3 style="color:#0891b2; margin-bottom:var(--space-3);">How It Works</h3>
+        <p>Every topic page on BharatNotes includes a <strong>Vocabulary</strong> section with rich, dictionary-grade entries. Each entry includes:</p>
+        <ul>
+          <li><strong>Pronunciation</strong> — IPA guide so you say it right</li>
+          <li><strong>Definition & Explanation</strong> — Clear, exam-ready meaning</li>
+          <li><strong>Etymology</strong> — Root word analysis to deepen understanding</li>
+          <li><strong>Synonyms & Antonyms</strong> — With differences explained</li>
+          <li><strong>UPSC Context</strong> — Where and how it appears in the exam</li>
+          <li><strong>Related Terms</strong> — Interlinked for connected learning</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 style="font-family:var(--font-serif); font-size:var(--text-2xl); color:var(--color-brand-dark); margin-bottom:var(--space-5); padding-bottom:var(--space-2); border-bottom:3px solid #0891b2;">Browse by Subject</h2>
+    <p style="color:var(--color-text-muted); margin-bottom:var(--space-6);">Vocabulary sections are embedded within each topic page. Browse subjects to find vocab entries relevant to your study.</p>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-5);">
+      {% for s in subjects %}
+      <a href="/subjects/{{ s.slug }}/" class="card" style="text-decoration:none; border-left:4px solid #0891b2;">
+        <span style="font-size:var(--text-2xl);">{{ s.icon }}</span>
+        <h4 style="color:var(--color-brand-dark); margin:var(--space-2) 0;">{{ s.name }}</h4>
+        <p class="card__desc">Explore vocabulary across {{ s.name }} topics.</p>
+      </a>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>

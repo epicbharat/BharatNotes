@@ -1,0 +1,52 @@
+---
+layout: base.njk
+title: "Key Terms & Concepts"
+description: "Comprehensive glossary of UPSC key terms and concepts — definitions, explanations, etymology, and exam relevance for all GS papers."
+---
+
+<section class="page-header">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Home</a><span class="breadcrumb__sep">/</span>
+      <a href="/resources/">Resources</a><span class="breadcrumb__sep">/</span>
+      Key Terms & Concepts
+    </nav>
+    <p class="page-header__eyebrow">Resources</p>
+    <h1 class="page-header__title">Key Terms & Concepts</h1>
+    <p class="page-header__subtitle">Essential UPSC concepts explained in depth — with definitions, explanations, origins, and exam strategy for every term.</p>
+  </div>
+</section>
+
+<section style="padding:var(--space-8) 0;">
+  <div class="container">
+
+    <div class="card" style="margin-bottom:var(--space-8); background:linear-gradient(135deg, rgba(124,58,237,0.08), rgba(124,58,237,0.02)); border-left:4px solid #7c3aed;">
+      <div class="article-body">
+        <h3 style="color:#7c3aed; margin-bottom:var(--space-3);">How It Works</h3>
+        <p>Every topic page on BharatNotes includes a <strong>Key Terms & Concepts</strong> section with comprehensive entries. Each entry includes:</p>
+        <ul>
+          <li><strong>Pronunciation</strong> — IPA guide for confident usage</li>
+          <li><strong>Definition & Explanation</strong> — Detailed, exam-oriented meaning</li>
+          <li><strong>Etymology</strong> — Root word analysis for deeper understanding</li>
+          <li><strong>Synonyms & Antonyms</strong> — With nuanced differences</li>
+          <li><strong>UPSC Context</strong> — Paper, topic, and question patterns</li>
+          <li><strong>Related Concepts</strong> — Interlinked for holistic preparation</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 style="font-family:var(--font-serif); font-size:var(--text-2xl); color:var(--color-brand-dark); margin-bottom:var(--space-5); padding-bottom:var(--space-2); border-bottom:3px solid #7c3aed;">Browse by Subject</h2>
+    <p style="color:var(--color-text-muted); margin-bottom:var(--space-6);">Key Terms sections are embedded within each topic page. Browse subjects to find concept entries relevant to your study.</p>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-5);">
+      {% for s in subjects %}
+      <a href="/subjects/{{ s.slug }}/" class="card" style="text-decoration:none; border-left:4px solid #7c3aed;">
+        <span style="font-size:var(--text-2xl);">{{ s.icon }}</span>
+        <h4 style="color:var(--color-brand-dark); margin:var(--space-2) 0;">{{ s.name }}</h4>
+        <p class="card__desc">Explore key terms across {{ s.name }} topics.</p>
+      </a>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
