@@ -54,9 +54,9 @@ GST is a **comprehensive, multi-stage, destination-based indirect tax** levied o
 | **Voting** | Centre has **1/3rd** weightage; States collectively have **2/3rd** weightage |
 | **Quorum** | 50% of total members |
 | **Decision** | By **3/4th majority** of weighted votes |
+| **Recommendations** | On GST rates, exemptions, model laws, threshold limits, dispute resolution |
 
 > **Exam Tip:** The GST Council's voting design ensures neither Centre nor States can unilaterally push through decisions. Centre has 1/3rd votes, so it CANNOT reach 3/4th alone. States collectively have 2/3rd, which is also less than 3/4th. This forces consensus — a deliberate cooperative federalism feature. But after the **Mohit Minerals (2022)** ruling, even this consensus is advisory, not binding. For Mains, connect this to the broader Centre-State fiscal autonomy debate.
-| **Recommendations** | On GST rates, exemptions, model laws, threshold limits, dispute resolution |
 
 > **Union of India v. Mohit Minerals (2022):** The Supreme Court held that GST Council's recommendations are **not binding** on Centre or States — they are persuasive. This preserves cooperative federalism.
 

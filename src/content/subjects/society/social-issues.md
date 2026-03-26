@@ -139,11 +139,11 @@ tags:
 | **Three-Language Formula** | Flexibility for states; no imposition of any language |
 | **Academic Bank of Credits (ABC)** | Digital repository allowing credit transfer across institutions |
 | **Multiple Entry-Exit** | UG programmes with certificate (1 year), diploma (2 years), degree (3 years), honours/research (4 years) |
-
-> **Exam Tip:** NEP 2020's 5+3+3+4 structure replaces the old 10+2 system. The most tested features are: (a) mother tongue instruction up to Grade 5, (b) multiple entry-exit with Academic Bank of Credits, (c) no rigid stream separation in secondary stage, and (d) 6% GDP spending target on education. Note that NEP 2020 is a policy, not a law -- implementation depends on states since education is on the Concurrent List.
 | **Multidisciplinary Approach** | HEIs to become multidisciplinary by 2040 |
 | **National Research Foundation** | Established to fund and promote research across all disciplines |
 | **HECI** | Higher Education Commission of India to replace UGC, AICTE, NAAC under single umbrella regulator |
+
+> **Exam Tip:** NEP 2020's 5+3+3+4 structure replaces the old 10+2 system. The most tested features are: (a) mother tongue instruction up to Grade 5, (b) multiple entry-exit with Academic Bank of Credits, (c) no rigid stream separation in secondary stage, and (d) 6% GDP spending target on education. Note that NEP 2020 is a policy, not a law -- implementation depends on states since education is on the Concurrent List.
 
 ---
 

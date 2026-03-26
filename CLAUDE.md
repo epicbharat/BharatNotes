@@ -99,3 +99,4 @@ All variables in `src/css/tokens.css`. Never hardcode values.
 6. Cross-link to Ujiyari.com for current affairs integration
 7. Run `npm run build` after changes to verify no errors
 8. Do not add React, Vue, TypeScript, Sass, Tailwind, or any framework
+9. **NEVER place blockquotes (`>`) inside markdown tables** — blockquotes break table rendering, turning subsequent rows into raw pipe-separated text. Always place exam tips, mnemonics, and notes BEFORE or AFTER the complete table, never between table rows

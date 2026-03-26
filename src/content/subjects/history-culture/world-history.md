@@ -55,9 +55,9 @@ The UPSC GS Paper I syllabus covers events from the 18th century onwards that si
 | **Social** | Urbanisation; growth of working class; child labour; poor living conditions in factory towns |
 | **Political** | Rise of trade unions; Chartist movement; demands for democratic reform |
 | **On India** | De-industrialisation — destruction of Indian handicrafts (especially textiles); India reduced to a raw material supplier and captive market for British goods |
+| **Global** | Spread of industrialisation to continental Europe, USA, and Japan; widened gap between industrialised and non-industrialised nations |
 
 > **Remember:** UPSC frequently asks about the Industrial Revolution's impact on India specifically. Always connect it to the "Drain of Wealth" theory (Dadabhai Naoroji), de-industrialisation of Indian textiles, and how India was transformed from a manufacturing economy into a raw-material exporter. This cross-links Modern Indian History with World History — examiners reward such connections.
-| **Global** | Spread of industrialisation to continental Europe, USA, and Japan; widened gap between industrialised and non-industrialised nations |
 
 ---
 

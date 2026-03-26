@@ -39,11 +39,11 @@ This paper carries **250 marks** and is unique because it evaluates not just kno
 |--------|---------------|----------------|-----------|
 | **Consequentialism / Utilitarianism** | Jeremy Bentham, J.S. Mill | Actions are right if they produce the greatest good for the greatest number | Ignores individual rights; "ends justify the means" problem |
 | **Deontological Ethics** | Immanuel Kant | Actions are moral based on duty and universal rules, regardless of consequences | Rigid; cannot resolve conflicts between duties |
-
-> **Exam Tip:** In GS4 case studies, never rely on a single ethical theory. The examiner expects you to apply multiple frameworks -- use utilitarianism to assess consequences, Kant's duty-based approach to check if the action can be universalised, and Rawls' Difference Principle to see if the most disadvantaged are protected. Citing 2-3 thinkers with their specific concepts (not just names) significantly improves marks.
 | **Virtue Ethics** | Aristotle | Focus on developing virtuous character traits (courage, justice, temperance, wisdom) | Vague on specific action guidance; culturally relative |
 | **Social Contract Theory** | Hobbes, Locke, Rousseau | Morality arises from agreements among individuals for mutual benefit | Hypothetical consent is not real consent |
 | **Ethics of Care** | Carol Gilligan, Nel Noddings | Emphasises relationships, empathy, and contextual moral reasoning | May neglect justice and universal principles |
+
+> **Exam Tip:** In GS4 case studies, never rely on a single ethical theory. The examiner expects you to apply multiple frameworks -- use utilitarianism to assess consequences, Kant's duty-based approach to check if the action can be universalised, and Rawls' Difference Principle to see if the most disadvantaged are protected. Citing 2-3 thinkers with their specific concepts (not just names) significantly improves marks.
 
 ---
 

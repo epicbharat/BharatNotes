@@ -168,14 +168,14 @@ tags:
 | **Agni-III** | IRBM | 3,000--5,000 km | Two-stage, solid fuel; nuclear-capable |
 | **Agni-IV** | IRBM | 3,500--4,000 km | Two-stage, solid fuel; road-mobile |
 | **Agni-V** | ICBM | 5,000--7,000+ km | Three-stage, solid fuel; MIRV-capable (multiple warheads); canisterised for rapid deployment |
-
-> **Remember:** India's IGMDP (1983) under Dr. A.P.J. Abdul Kalam originally developed five missiles -- Prithvi (surface-to-surface), Agni (IRBM), Trishul (SAM), Akash (SAM), and NAG (anti-tank). The programme was declared complete in 2008. BrahMos is NOT part of IGMDP -- it is a separate India-Russia joint venture. Agni-V's MIRV capability (tested as Mission Divyastra, 2024) means a single missile can carry multiple warheads targeting different locations -- a key deterrence upgrade.
 | **Prithvi-I** | SRBM | 150 km | Surface-to-surface; India's first indigenous ballistic missile; inducted 1994 |
 | **Prithvi-II** | SRBM | 250--350 km | Air Force variant; inducted 1996 |
 | **Prithvi-III (Dhanush)** | SRBM | 350 km | Naval variant; ship-launched |
 | **BrahMos** | Cruise Missile | 290 km (extended: 450+ km) | Supersonic (Mach 2.8); joint India-Russia venture (BrahMos Aerospace); land, sea, air, submarine variants |
 | **BrahMos-II** | Hypersonic Cruise Missile | Under development | Targeting Mach 7+ speed |
 | **NAG (Prospina)** | Anti-Tank Guided Missile | 4--8 km | Fire-and-forget; infrared imaging seeker; all-weather, top-attack capability |
+
+> **Remember:** India's IGMDP (1983) under Dr. A.P.J. Abdul Kalam originally developed five missiles -- Prithvi (surface-to-surface), Agni (IRBM), Trishul (SAM), Akash (SAM), and NAG (anti-tank). The programme was declared complete in 2008. BrahMos is NOT part of IGMDP -- it is a separate India-Russia joint venture. Agni-V's MIRV capability (tested as Mission Divyastra, 2024) means a single missile can carry multiple warheads targeting different locations -- a key deterrence upgrade.
 
 ### 7.3 Key Defence Platforms
 

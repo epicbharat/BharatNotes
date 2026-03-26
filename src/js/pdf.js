@@ -1,6 +1,5 @@
-// BharatNotes — PDF Generator
-// Uses the same Vercel Puppeteer API as RBSE Result Explorer
-// POST html → returns application/pdf
+// BharatNotes — Oxford-Style PDF Generator
+// Uses Vercel Puppeteer API: POST html → returns application/pdf
 
 (function () {
   "use strict";
@@ -24,233 +23,323 @@
     img.src = "/img/bharat-choudhary.png";
   })();
 
-  function buildTopicHTML() {
-    const article = document.querySelector(".article-body");
-    if (!article) return null;
-
-    const title = document.querySelector(".page-header__title");
-    const eyebrow = document.querySelector(".page-header__eyebrow");
-    const badges = document.querySelectorAll(".gs-badge");
-    const breadcrumb = document.querySelector(".breadcrumb");
-
-    // Build badge HTML
-    const badgeColors = {
-      gs1: { bg: "#eff6ff", color: "#1e40af", border: "#bfdbfe", label: "General Studies I" },
-      gs2: { bg: "#fdf2f8", color: "#9d174d", border: "#fbcfe8", label: "General Studies II" },
-      gs3: { bg: "#ecfdf5", color: "#065f46", border: "#a7f3d0", label: "General Studies III" },
-      gs4: { bg: "#fffbeb", color: "#92400e", border: "#fde68a", label: "General Studies IV" },
-      essay: { bg: "#f5f3ff", color: "#5b21b6", border: "#ddd6fe", label: "Essay Paper" },
-    };
-
-    var badgeList = [];
-    let badgeHTML = "";
-    badges.forEach(function (b) {
-      const text = b.textContent.trim();
-      const key = text.toLowerCase();
-      const c = badgeColors[key] || { bg: "#f8fafc", color: "#334155", border: "#e2e8f0", label: text };
-      badgeList.push({ text: text, key: key, colors: c });
-      badgeHTML +=
-        '<span style="display:inline-block;padding:3px 10px;border-radius:4px;font-size:8.5pt;font-weight:600;letter-spacing:0.04em;background:' +
-        c.bg + ";color:" + c.color + ";border:1px solid " + c.border + ';">' + text + "</span> ";
-    });
-
-    // Build breadcrumb text
-    let breadcrumbText = "";
-    if (breadcrumb) {
-      breadcrumbText = breadcrumb.textContent
-        .replace(/\s+/g, " ")
-        .trim()
-        .replace(/\//g, " / ");
-    }
-
-    // Clone article and clean it
+  /* ══════════════════════════════════════════════════════════
+     cleanClone — aggressively sanitize the DOM clone for PDF
+     ══════════════════════════════════════════════════════════ */
+  function cleanClone(article) {
     var clone = article.cloneNode(true);
     clone.removeAttribute("data-pagefind-body");
-    clone.removeAttribute("hidden");
 
-    var titleText = title ? title.textContent.trim() : "BharatNotes";
-    var eyebrowText = eyebrow ? eyebrow.textContent.trim() : "";
+    // 1. Reveal everything hidden
+    clone.querySelectorAll("[hidden]").forEach(function (el) {
+      el.removeAttribute("hidden");
+    });
+
+    // 2. Open all <details>
+    clone.querySelectorAll("details").forEach(function (el) {
+      el.setAttribute("open", "");
+    });
+
+    // 3. Remove interactive-only elements
+    clone.querySelectorAll([
+      ".pyq-check-btn",
+      ".pyq-options",
+      ".pyq-answer-toggle",
+      ".pyq-result",
+      ".topic-tab",
+      ".toc-mobile",
+      "select",
+      "button",
+      ".pyq-empty",
+      "svg"
+    ].join(",")).forEach(function (el) {
+      el.remove();
+    });
+
+    // 4. Unwrap section-card divs — keep content, strip wrapper
+    //    (We'll style content directly instead of relying on website classes)
+    clone.querySelectorAll(".section-card").forEach(function (card) {
+      // Mark h2 inside for special treatment
+      var h2 = card.querySelector("h2");
+      if (h2) {
+        if (card.classList.contains("section-card--upsc")) {
+          h2.setAttribute("data-pdf-type", "upsc");
+        } else if (card.classList.contains("section-card--pyq")) {
+          h2.setAttribute("data-pdf-type", "pyq");
+        } else if (card.classList.contains("section-card--news")) {
+          h2.setAttribute("data-pdf-type", "news");
+        }
+      }
+      // Unwrap: move children out, remove wrapper
+      while (card.firstChild) {
+        card.parentNode.insertBefore(card.firstChild, card);
+      }
+      card.remove();
+    });
+
+    // 5. Unwrap pyq-panel-inner (just a wrapper)
+    clone.querySelectorAll(".pyq-panel-inner").forEach(function (el) {
+      while (el.firstChild) {
+        el.parentNode.insertBefore(el.firstChild, el);
+      }
+      el.remove();
+    });
+
+    // 6. Unwrap .table-wrap divs
+    clone.querySelectorAll(".table-wrap").forEach(function (el) {
+      while (el.firstChild) {
+        el.parentNode.insertBefore(el.firstChild, el);
+      }
+      el.remove();
+    });
+
+    return clone;
+  }
+
+  /* ══════════════════════════════════════════════════════════
+     buildTopicHTML — creates a self-contained Oxford-style HTML
+     ══════════════════════════════════════════════════════════ */
+  function buildTopicHTML() {
+    var article = document.querySelector(".article-body");
+    if (!article) return null;
+
+    var titleEl = document.querySelector(".page-header__title");
+    var badges = document.querySelectorAll(".gs-badge");
+    var breadcrumb = document.querySelector(".breadcrumb");
+
+    var titleText = titleEl ? titleEl.textContent.trim() : "BharatNotes";
     var dateStr = new Date().toLocaleDateString("en-IN", {
       day: "numeric",
       month: "long",
       year: "numeric",
     });
 
-    // Cover page badge pills for large display
-    var coverBadgeHTML = "";
-    badgeList.forEach(function (b) {
-      coverBadgeHTML +=
-        '<span class="cover-badge" style="background:' +
-        b.colors.bg + ";color:" + b.colors.color + ";border:1px solid " + b.colors.border + ';">' +
-        b.colors.label + "</span>";
+    // Paper labels
+    var paperLabels = [];
+    badges.forEach(function (b) {
+      var key = b.textContent.trim().toLowerCase();
+      var labels = {
+        gs1: "General Studies I",
+        gs2: "General Studies II",
+        gs3: "General Studies III",
+        gs4: "General Studies IV",
+        essay: "Essay Paper"
+      };
+      paperLabels.push(labels[key] || b.textContent.trim());
     });
+    var paperText = paperLabels.join(" · ");
 
-    // ── Build full HTML with cover + content + back page ──
-    const html =
-      '<!DOCTYPE html><html><head><meta charset="utf-8"><title>' +
-      titleText + "</title>" +
+    // Subject from breadcrumb
+    var subjectText = "";
+    if (breadcrumb) {
+      var links = breadcrumb.querySelectorAll("a");
+      if (links.length >= 3) subjectText = links[2].textContent.trim();
+      else if (links.length >= 2) subjectText = links[1].textContent.trim();
+    }
+
+    // Clean the clone
+    var clone = cleanClone(article);
+
+    /* ──────────────────────
+       CSS — Oxford Academic
+       ────────────────────── */
+    var css = [
+      /* Reset & page */
+      "*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }",
+      "@page { size:A4; margin:22mm 20mm 24mm 20mm; }",
+      "@page :first { margin:0; }",
+
+      /* Base typography — Crimson Pro body, EB Garamond display */
+      "body { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:11.5pt; line-height:1.75; color:#1a1a1a; background:#fff; }",
+
+      /* ─── TITLE PAGE ─── */
+      ".tp { width:210mm; height:297mm; display:flex; flex-direction:column; justify-content:center; padding:30mm 28mm; page-break-after:always; position:relative; }",
+      ".tp::before { content:''; position:absolute; top:0; left:0; right:0; height:4px; background:#1a1a1a; }",
+      ".tp::after { content:''; position:absolute; bottom:0; left:0; right:0; height:1px; background:#999; }",
+      ".tp-paper { font-family:'Inter','Helvetica Neue',sans-serif; font-size:8.5pt; font-weight:600; letter-spacing:0.18em; text-transform:uppercase; color:#555; margin-bottom:12px; }",
+      ".tp-subject { font-family:'Inter','Helvetica Neue',sans-serif; font-size:9pt; color:#888; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:48px; }",
+      ".tp-rule { width:60px; height:1.5px; background:#1a1a1a; margin-bottom:36px; }",
+      ".tp-title { font-family:'EB Garamond','Crimson Pro','Georgia',serif; font-size:36pt; font-weight:400; line-height:1.15; color:#1a1a1a; margin-bottom:18px; letter-spacing:-0.02em; }",
+      ".tp-desc { font-size:11pt; color:#666; line-height:1.6; max-width:130mm; margin-bottom:60px; }",
+      ".tp-meta { margin-top:auto; display:flex; justify-content:space-between; align-items:flex-end; }",
+      ".tp-meta-left { display:flex; align-items:center; gap:14px; }",
+      ".tp-photo { width:42px; height:42px; border-radius:50%; object-fit:cover; }",
+      ".tp-author { font-family:'Inter',sans-serif; font-size:9pt; font-weight:600; color:#1a1a1a; }",
+      ".tp-role { font-family:'Inter',sans-serif; font-size:7.5pt; color:#888; margin-top:2px; }",
+      ".tp-meta-right { text-align:right; font-family:'Inter',sans-serif; font-size:7.5pt; color:#888; line-height:1.8; }",
+      ".tp-brand { font-family:'EB Garamond','Georgia',serif; font-size:11pt; color:#1a1a1a; }",
+
+      /* ─── CONTENT ─── */
+      ".ct { padding:0; }",
+      ".ct h1 { font-family:'EB Garamond','Georgia',serif; font-size:24pt; font-weight:400; color:#1a1a1a; margin-bottom:6px; line-height:1.2; letter-spacing:-0.01em; }",
+      ".ct-sub { font-family:'Inter',sans-serif; font-size:8.5pt; color:#888; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:20px; padding-bottom:16px; border-bottom:1px solid #1a1a1a; }",
+
+      /* Headings */
+      ".ct h2 { font-family:'EB Garamond','Georgia',serif; font-size:17pt; font-weight:400; color:#1a1a1a; margin:32px 0 10px; padding-bottom:6px; border-bottom:0.5px solid #ccc; }",
+      ".ct h2:first-child { margin-top:0; }",
+      ".ct h2[data-pdf-type='upsc'] { color:#1a1a1a; border-bottom:1.5px solid #1a1a1a; }",
+      ".ct h2[data-pdf-type='upsc']::before { content:'\\25B6  '; font-size:9pt; }",
+      ".ct h2[data-pdf-type='pyq'] { color:#1a1a1a; border-bottom:1.5px solid #1a1a1a; }",
+      ".ct h2[data-pdf-type='pyq']::before { content:'\\25C6  '; font-size:9pt; }",
+      ".ct h2[data-pdf-type='news'] { color:#1a1a1a; border-bottom:1.5px solid #1a1a1a; }",
+      ".ct h3 { font-family:'EB Garamond','Georgia',serif; font-size:13.5pt; font-weight:400; font-style:italic; color:#333; margin:24px 0 8px; }",
+      ".ct h4 { font-family:'Inter','Helvetica Neue',sans-serif; font-size:9pt; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#555; margin:20px 0 8px; }",
+
+      /* Body text */
+      ".ct p { margin-bottom:10px; text-align:justify; hyphens:auto; }",
+      ".ct ul, .ct ol { margin:0 0 12px 20px; }",
+      ".ct li { margin-bottom:4px; }",
+      ".ct li::marker { color:#555; }",
+      ".ct li strong { color:#1a1a1a; }",
+
+      /* Blockquotes — scholarly indent */
+      ".ct blockquote { margin:14px 0 14px 24px; padding:10px 16px; border-left:2px solid #999; font-style:italic; color:#444; font-size:11pt; line-height:1.65; background:none; }",
+      ".ct blockquote strong { font-style:normal; color:#1a1a1a; }",
+
+      /* Tables — Oxford booktabs style */
+      ".ct table { width:100%; border-collapse:collapse; margin:16px 0; font-size:10.5pt; line-height:1.5; page-break-inside:auto; }",
+      ".ct tr { page-break-inside:avoid; }",
+      ".ct thead { border-top:2px solid #1a1a1a; border-bottom:1px solid #1a1a1a; }",
+      ".ct th { padding:8px 10px; text-align:left; font-family:'Inter',sans-serif; font-size:8.5pt; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:#333; background:none; }",
+      ".ct td { padding:7px 10px; border-bottom:none; color:#333; vertical-align:top; }",
+      ".ct tbody tr:last-child td { border-bottom:2px solid #1a1a1a; }",
+      ".ct tbody tr:nth-child(even) td { background:rgba(0,0,0,0.015); }",
+
+      /* Links */
+      ".ct a { color:#1a1a1a; text-decoration:underline; text-decoration-color:#aaa; text-underline-offset:2px; }",
+
+      /* Code */
+      ".ct pre, .ct code { font-family:'JetBrains Mono','Fira Code','Courier New',monospace; font-size:9.5pt; }",
+      ".ct code { background:#f5f5f5; padding:1px 4px; border-radius:2px; }",
+      ".ct pre { background:#f5f5f5; padding:12px 14px; border-radius:3px; margin:12px 0; overflow-x:auto; white-space:pre-wrap; border:0.5px solid #ddd; }",
+
+      /* Horizontal rules */
+      ".ct hr { border:none; border-top:0.5px solid #ccc; margin:24px 0; }",
+
+      /* PYQ cards — scholarly numbered questions */
+      ".pyq-card { border:0.5px solid #ccc; margin:14px 0; padding:0; page-break-inside:avoid; }",
+      ".pyq-meta { display:flex; align-items:center; gap:10px; padding:8px 14px; border-bottom:0.5px solid #ccc; background:#fafafa; }",
+      ".pyq-q-number { display:inline-flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:50%; border:1.5px solid #1a1a1a; font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:700; color:#1a1a1a; background:none; }",
+      ".pyq-year-badge { font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:600; color:#666; letter-spacing:0.06em; text-transform:uppercase; }",
+      ".pyq-question-text { padding:12px 14px; font-size:11pt; line-height:1.65; }",
+      ".pyq-question-text strong { color:#1a1a1a; }",
+      ".pyq-card ol, .pyq-card ul { padding:0 14px; margin:0 0 10px 10px; }",
+      ".pyq-card li { padding:2px 0; font-size:10.5pt; line-height:1.55; margin-bottom:2px; }",
+      ".pyq-answer { padding:10px 14px; background:#f9f9f5; border-top:0.5px solid #ccc; font-size:10.5pt; line-height:1.6; }",
+      ".pyq-answer strong { font-weight:700; }",
+      ".pyq-card--mains { border-color:#aaa; }",
+      ".pyq-card--mains .pyq-meta { background:#f7f7f2; }",
+      ".pyq-section-heading { font-family:'EB Garamond','Georgia',serif; font-size:13pt; font-style:italic; color:#333; margin:20px 0 10px; }",
+
+      /* Callout boxes — scholarly notes */
+      ".callout { margin:14px 0; padding:12px 16px; border:0.5px solid #ccc; border-left:3px solid #555; background:#fafafa; font-size:10.5pt; }",
+      ".callout-title { font-family:'Inter',sans-serif; font-size:8pt; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#555; margin-bottom:6px; }",
+      ".callout p { margin-bottom:4px; font-size:10.5pt; } .callout p:last-child { margin-bottom:0; }",
+      ".callout ul, .callout ol { margin:4px 0 4px 18px; font-size:10.5pt; }",
+      ".callout--info { border-left-color:#4a7ab5; }",
+      ".callout--info .callout-title { color:#4a7ab5; }",
+      ".callout--tip { border-left-color:#3a7a4a; }",
+      ".callout--tip .callout-title { color:#3a7a4a; }",
+      ".callout--exam { border-left-color:#b57a2a; }",
+      ".callout--exam .callout-title { color:#b57a2a; }",
+      ".callout--warning { border-left-color:#b54a2a; }",
+      ".callout--warning .callout-title { color:#b54a2a; }",
+      ".callout::before { display:none; }",
+
+      /* Details/summary */
+      "details { margin:10px 0; padding:8px 14px; border:0.5px solid #ccc; background:#fafafa; }",
+      "details[open] { background:#f9f9f5; }",
+      "summary { font-family:'Inter',sans-serif; font-size:9pt; font-weight:600; color:#333; cursor:default; }",
+
+      /* Running footer */
+      ".ft { margin-top:36px; padding-top:12px; border-top:0.5px solid #ccc; display:flex; justify-content:space-between; font-family:'Inter',sans-serif; font-size:7.5pt; color:#999; letter-spacing:0.04em; }",
+
+      /* ─── COLOPHON (back page) ─── */
+      ".col { page-break-before:always; display:flex; flex-direction:column; justify-content:center; align-items:center; min-height:250mm; padding:40mm 28mm; text-align:center; }",
+      ".col-brand { font-family:'EB Garamond','Georgia',serif; font-size:28pt; color:#1a1a1a; margin-bottom:6px; }",
+      ".col-tag { font-family:'Inter',sans-serif; font-size:8.5pt; color:#888; letter-spacing:0.12em; text-transform:uppercase; margin-bottom:48px; }",
+      ".col-rule { width:40px; height:1px; background:#1a1a1a; margin:0 auto 40px; }",
+      ".col-sites { display:flex; justify-content:center; gap:56px; margin-bottom:40px; text-align:center; }",
+      ".col-site-name { font-family:'EB Garamond','Georgia',serif; font-size:15pt; color:#1a1a1a; margin-bottom:4px; }",
+      ".col-site-desc { font-size:9pt; color:#777; line-height:1.5; max-width:55mm; }",
+      ".col-site-url { display:inline-block; margin-top:10px; font-family:'Inter',sans-serif; font-size:8pt; font-weight:600; color:#1a1a1a; text-decoration:none; letter-spacing:0.06em; text-transform:uppercase; }",
+      ".col-divider { width:1px; height:80px; background:#ddd; align-self:center; }",
+      ".col-author { display:flex; align-items:center; gap:14px; justify-content:center; margin-bottom:36px; }",
+      ".col-author-photo { width:44px; height:44px; border-radius:50%; object-fit:cover; filter:grayscale(100%); }",
+      ".col-author-name { font-family:'Inter',sans-serif; font-size:9pt; font-weight:600; color:#333; text-align:left; }",
+      ".col-author-link { font-family:'Inter',sans-serif; font-size:7.5pt; color:#999; text-decoration:none; }",
+      ".col-disc { font-size:8pt; color:#999; line-height:1.7; max-width:130mm; margin:0 auto 24px; }",
+      ".col-copy { font-family:'Inter',sans-serif; font-size:7pt; color:#bbb; letter-spacing:0.1em; text-transform:uppercase; }"
+    ].join(" ");
+
+    /* ──────────────
+       HTML Assembly
+       ────────────── */
+    var photoSrc = authorPhotoB64 || "https://bharatnotes.com/img/bharat-choudhary.png";
+    var desc = document.querySelector(".page-header__subtitle");
+    var descText = desc ? desc.textContent.trim() : "";
+
+    var html =
+      '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>' + titleText + '</title>' +
       '<link rel="preconnect" href="https://fonts.googleapis.com">' +
       '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' +
-      '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Instrument+Serif&display=swap">' +
-      "<style>" +
-      "* { margin:0; padding:0; box-sizing:border-box; }" +
-      "@page { size:A4; margin:18mm 20mm 20mm 20mm; }" +
-      "body { font-family:'Inter',system-ui,sans-serif; font-size:12pt; line-height:1.7; color:#1e293b; background:#fff; -webkit-font-smoothing:antialiased; }" +
+      '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap">' +
+      '<style>' + css + '</style></head><body>' +
 
-      /* ── Cover Page — clean white minimal ── */
-      ".cover-page { position:relative; display:flex; flex-direction:column; background:#fff; page-break-after:always; margin:-18mm -20mm 0 -20mm; padding:20mm 22mm; min-height:297mm; }" +
-      ".cover-accent { position:absolute; top:0; left:0; width:6px; height:100%; background:#0f4c3a; }" +
-      ".cover-top { padding:0; }" +
-      ".cover-logo { font-family:'Instrument Serif',Georgia,serif; font-size:15pt; color:#0f4c3a; letter-spacing:-0.01em; }" +
-      ".cover-logo span { color:#d4a017; }" +
-      ".cover-main { flex:1; display:flex; flex-direction:column; justify-content:center; padding:0; }" +
-      ".cover-badges { margin-bottom:20px; }" +
-      ".cover-badge { display:inline-block; padding:5px 14px; border-radius:4px; font-size:8.5pt; font-weight:600; text-transform:uppercase; letter-spacing:0.08em; margin-right:8px; }" +
-      ".cover-title { font-family:'Instrument Serif',Georgia,serif; font-size:34pt; font-weight:400; color:#0f172a; line-height:1.15; margin-bottom:16px; letter-spacing:-0.02em; }" +
-      ".cover-subtitle { font-size:11pt; color:#64748b; line-height:1.6; max-width:130mm; margin-bottom:40px; }" +
-      ".cover-line { width:48px; height:2px; background:#d4a017; margin-bottom:24px; }" +
-      ".cover-meta { font-size:9pt; color:#94a3b8; line-height:2; }" +
-      ".cover-meta strong { color:#334155; font-weight:600; }" +
-      ".cover-bottom { padding:0; display:flex; justify-content:space-between; align-items:flex-end; }" +
-      ".cover-author { display:flex; align-items:center; gap:12px; }" +
-      ".cover-author-photo { width:40px; height:40px; border-radius:50%; object-fit:cover; }" +
-      ".cover-author-name { font-size:9.5pt; font-weight:600; color:#1e293b; }" +
-      ".cover-author-role { font-size:8pt; color:#94a3b8; }" +
-      ".cover-url { font-size:8.5pt; color:#94a3b8; letter-spacing:0.02em; }" +
+      /* ═══ TITLE PAGE ═══ */
+      '<div class="tp">' +
+        '<div class="tp-paper">' + paperText + '</div>' +
+        (subjectText ? '<div class="tp-subject">' + subjectText + '</div>' : '<div style="margin-bottom:48px;"></div>') +
+        '<div class="tp-rule"></div>' +
+        '<h1 class="tp-title">' + titleText + '</h1>' +
+        (descText ? '<p class="tp-desc">' + descText + '</p>' : '') +
+        '<div class="tp-meta">' +
+          '<div class="tp-meta-left">' +
+            '<img class="tp-photo" src="' + photoSrc + '" alt="" onerror="this.style.display=\'none\'">' +
+            '<div><div class="tp-author">Bharat Choudhary</div><div class="tp-role">Founder, BharatNotes &amp; Ujiyari</div></div>' +
+          '</div>' +
+          '<div class="tp-meta-right">' +
+            '<div class="tp-brand">BharatNotes</div>' +
+            dateStr + '<br>bharatnotes.com' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
 
-      /* ── Content Pages ── */
-      ".content-pages { padding:0; }" +
-      ".pdf-header { border-bottom:2px solid #0f4c3a; padding-bottom:16px; margin-bottom:24px; }" +
-      ".pdf-header .breadcrumb { font-size:9pt; color:#94a3b8; margin-bottom:8px; text-transform:uppercase; letter-spacing:0.08em; font-weight:500; }" +
-      ".pdf-header .badges { margin-bottom:10px; }" +
-      ".pdf-header h1 { font-family:'Instrument Serif',Georgia,serif; font-size:26pt; font-weight:400; color:#0f172a; line-height:1.2; margin-bottom:6px; letter-spacing:-0.02em; }" +
-      ".pdf-header .subtitle { font-size:11pt; color:#64748b; line-height:1.5; }" +
-      ".pdf-body h2 { font-family:'Instrument Serif',Georgia,serif; font-size:18pt; font-weight:400; color:#0f172a; margin:28px 0 12px; padding-bottom:8px; border-bottom:1px solid #e2e8f0; letter-spacing:-0.01em; }" +
-      ".pdf-body h2:first-child { margin-top:0; }" +
-      ".pdf-body h3 { font-family:'Instrument Serif',Georgia,serif; font-size:14pt; font-weight:400; color:#1e293b; margin:22px 0 10px; }" +
-      ".pdf-body h4 { font-size:11pt; font-weight:700; color:#0f4c3a; letter-spacing:0.03em; text-transform:uppercase; margin:18px 0 8px; }" +
-      ".pdf-body p { margin-bottom:12px; color:#374151; font-size:12pt; line-height:1.7; }" +
-      ".pdf-body ul, .pdf-body ol { margin:0 0 14px 22px; color:#374151; font-size:12pt; line-height:1.7; }" +
-      ".pdf-body li { margin-bottom:6px; }" +
-      ".pdf-body li strong { color:#0f172a; }" +
-      ".pdf-body blockquote { border-left:3px solid #d4a017; padding:12px 16px; background:#fefce8; margin:16px 0; border-radius:0 6px 6px 0; font-size:11pt; line-height:1.65; color:#4b5563; }" +
-      ".pdf-body blockquote strong { color:#92400e; }" +
-      ".pdf-body table { width:100%; border-collapse:collapse; margin:16px 0; font-size:11pt; line-height:1.5; }" +
-      ".pdf-body th { background:#0f4c3a; color:#fff; padding:10px 12px; text-align:left; font-weight:600; font-size:10pt; letter-spacing:0.04em; text-transform:uppercase; }" +
-      ".pdf-body th:first-child { border-radius:6px 0 0 0; }" +
-      ".pdf-body th:last-child { border-radius:0 6px 0 0; }" +
-      ".pdf-body td { padding:9px 12px; border-bottom:1px solid #e2e8f0; color:#374151; }" +
-      ".pdf-body tr:nth-child(even) td { background:#f8fafc; }" +
-      ".pdf-body tr:last-child td:first-child { border-radius:0 0 0 6px; }" +
-      ".pdf-body tr:last-child td:last-child { border-radius:0 0 6px 0; }" +
-      ".pdf-body a { color:#0f4c3a; font-weight:500; text-decoration:underline; text-decoration-color:#d4a017; text-underline-offset:2px; }" +
-      ".pdf-body pre, .pdf-body code { font-family:'JetBrains Mono','Fira Code',monospace; font-size:10pt; }" +
-      ".pdf-body code { background:#f1f5f9; padding:1px 5px; border-radius:3px; }" +
-      ".pdf-body pre { background:#f1f5f9; padding:14px 16px; border-radius:6px; margin:14px 0; overflow-x:auto; white-space:pre-wrap; }" +
-      ".pdf-body hr { border:none; border-top:1px solid #e2e8f0; margin:24px 0; }" +
-      ".pdf-footer { margin-top:32px; padding-top:14px; border-top:1px solid #e2e8f0; font-size:9pt; color:#94a3b8; display:flex; justify-content:space-between; }" +
+      /* ═══ CONTENT ═══ */
+      '<div class="ct">' +
+        '<h1>' + titleText + '</h1>' +
+        '<div class="ct-sub">' + paperText + (subjectText ? '  ·  ' + subjectText : '') + '  ·  ' + dateStr + '</div>' +
+        clone.innerHTML +
+        '<div class="ft"><span>bharatnotes.com</span><span>' + dateStr + '</span></div>' +
+      '</div>' +
 
-      /* ── Back Page — minimal dark ── */
-      ".back-page { position:relative; display:flex; flex-direction:column; justify-content:center; align-items:center; background:#0f172a; page-break-before:always; margin:0 -20mm -20mm -20mm; padding:24mm 22mm; min-height:297mm; }" +
-      ".back-inner { text-align:center; padding:0; max-width:150mm; }" +
-      ".back-logo { font-family:'Instrument Serif',Georgia,serif; font-size:32pt; color:#fff; letter-spacing:-0.02em; margin-bottom:8px; }" +
-      ".back-logo span { color:#d4a017; }" +
-      ".back-tagline { font-size:10pt; color:#64748b; margin-bottom:48px; letter-spacing:0.02em; }" +
-      ".back-line { width:48px; height:2px; background:#d4a017; margin:0 auto 48px; }" +
-      ".back-sites { display:flex; justify-content:center; gap:48px; margin-bottom:48px; }" +
-      ".back-site { text-align:center; }" +
-      ".back-site-name { font-family:'Instrument Serif',Georgia,serif; font-size:18pt; color:#fff; margin-bottom:4px; }" +
-      ".back-site-desc { font-size:8.5pt; color:#64748b; line-height:1.5; max-width:55mm; }" +
-      ".back-site-url { display:inline-block; margin-top:12px; font-size:9pt; font-weight:600; color:#d4a017; text-decoration:none; letter-spacing:0.02em; }" +
-      ".back-divider { width:1px; background:#1e293b; }" +
-      ".back-author { display:flex; align-items:center; gap:14px; justify-content:center; margin-bottom:48px; }" +
-      ".back-author-photo { width:48px; height:48px; border-radius:50%; object-fit:cover; }" +
-      ".back-author-name { font-size:10pt; font-weight:600; color:#e2e8f0; text-align:left; }" +
-      ".back-author-link { font-size:8.5pt; color:#64748b; text-decoration:none; }" +
-      ".back-disclaimer { font-size:7.5pt; color:#475569; line-height:1.7; max-width:130mm; margin:0 auto; }" +
-      ".back-disclaimer a { color:#d4a017; text-decoration:none; }" +
-      ".back-bottom { position:absolute; bottom:32px; left:0; right:0; text-align:center; font-size:8pt; color:#334155; }" +
+      /* ═══ COLOPHON ═══ */
+      '<div class="col">' +
+        '<div class="col-brand">BharatNotes</div>' +
+        '<div class="col-tag">Free UPSC Study Notes</div>' +
+        '<div class="col-rule"></div>' +
+        '<div class="col-sites">' +
+          '<div>' +
+            '<div class="col-site-name">BharatNotes</div>' +
+            '<div class="col-site-desc">Comprehensive notes for all GS papers with verified facts &amp; PYQ analysis</div>' +
+            '<a href="https://bharatnotes.com" class="col-site-url">bharatnotes.com</a>' +
+          '</div>' +
+          '<div class="col-divider"></div>' +
+          '<div>' +
+            '<div class="col-site-name">Ujiyari</div>' +
+            '<div class="col-site-desc">Daily current affairs, editorial analysis &amp; Mains answer practice</div>' +
+            '<a href="https://ujiyari.com" class="col-site-url">ujiyari.com</a>' +
+          '</div>' +
+        '</div>' +
+        '<div class="col-author">' +
+          '<img class="col-author-photo" src="' + photoSrc + '" alt="" onerror="this.style.display=\'none\'">' +
+          '<div><div class="col-author-name">Bharat Choudhary</div><a class="col-author-link" href="https://www.linkedin.com/in/epicbharat/">linkedin.com/in/epicbharat</a></div>' +
+        '</div>' +
+        '<p class="col-disc">All content is sourced from official government publications and standard UPSC references. For current affairs and daily updates, visit ujiyari.com.</p>' +
+        '<div class="col-copy">&copy; ' + new Date().getFullYear() + ' BharatNotes.com &middot; Free for personal use</div>' +
+      '</div>' +
 
-      "</style></head><body>" +
-
-      /* ═══ COVER PAGE ═══ */
-      '<div class="cover-page">' +
-      '<div class="cover-accent"></div>' +
-      '<div class="cover-top">' +
-      '<div class="cover-logo">Bharat<span>Notes</span></div>' +
-      "</div>" +
-      '<div class="cover-main">' +
-      '<div class="cover-badges">' + coverBadgeHTML + "</div>" +
-      '<h1 class="cover-title">' + titleText + "</h1>" +
-      (eyebrowText
-        ? '<p class="cover-subtitle">' + eyebrowText + "</p>"
-        : "") +
-      '<div class="cover-line"></div>' +
-      '<div class="cover-meta">' +
-      "<strong>Source</strong> &mdash; bharatnotes.com<br>" +
-      "<strong>Generated</strong> &mdash; " + dateStr + "<br>" +
-      "<strong>License</strong> &mdash; Free for personal use" +
-      "</div>" +
-      "</div>" +
-      '<div class="cover-bottom">' +
-      '<div class="cover-author">' +
-      '<img class="cover-author-photo" src="' + (authorPhotoB64 || "https://bharatnotes.com/img/bharat-choudhary.png") + '" alt="Bharat Choudhary" onerror="this.style.display=\'none\'">' +
-      "<div>" +
-      '<div class="cover-author-name">Bharat Choudhary</div>' +
-      '<div class="cover-author-role">Founder, BharatNotes &amp; Ujiyari</div>' +
-      "</div></div>" +
-      '<div class="cover-url">bharatnotes.com</div>' +
-      "</div>" +
-      "</div>" +
-
-      /* ═══ CONTENT PAGES ═══ */
-      '<div class="content-pages">' +
-      '<div class="pdf-header">' +
-      '<div class="breadcrumb">' + breadcrumbText + "</div>" +
-      '<div class="badges">' + badgeHTML + "</div>" +
-      "<h1>" + titleText + "</h1>" +
-      (eyebrowText
-        ? '<div class="subtitle">' + eyebrowText + "</div>"
-        : "") +
-      "</div>" +
-      '<div class="pdf-body">' + clone.innerHTML + "</div>" +
-      '<div class="pdf-footer">' +
-      "<span>bharatnotes.com</span>" +
-      "<span>" + dateStr + "</span>" +
-      "</div>" +
-      "</div>" +
-
-      /* ═══ BACK PAGE ═══ */
-      '<div class="back-page">' +
-      '<div class="back-inner">' +
-      '<div class="back-logo">Bharat<span>Notes</span></div>' +
-      '<div class="back-tagline">Free UPSC GS Notes &mdash; Prelims, Mains &amp; Interview</div>' +
-      '<div class="back-line"></div>' +
-      '<div class="back-sites">' +
-      '<div class="back-site">' +
-      '<div class="back-site-name">BharatNotes</div>' +
-      '<div class="back-site-desc">Comprehensive static notes for all GS papers with verified facts and PYQ analysis</div>' +
-      '<a href="https://bharatnotes.com" class="back-site-url">bharatnotes.com</a>' +
-      "</div>" +
-      '<div class="back-divider"></div>' +
-      '<div class="back-site">' +
-      '<div class="back-site-name">Ujiyari</div>' +
-      '<div class="back-site-desc">Daily current affairs, editorials, monthly compilations and Mains answer practice</div>' +
-      '<a href="https://ujiyari.com" class="back-site-url">ujiyari.com</a>' +
-      "</div>" +
-      "</div>" +
-      '<div class="back-author">' +
-      '<img class="back-author-photo" src="' + (authorPhotoB64 || "https://bharatnotes.com/img/bharat-choudhary.png") + '" alt="Bharat Choudhary" onerror="this.style.display=\'none\'">' +
-      "<div>" +
-      '<div class="back-author-name">Bharat Choudhary</div>' +
-      '<a class="back-author-link" href="https://www.linkedin.com/in/epicbharat/">linkedin.com/in/epicbharat</a>' +
-      "</div></div>" +
-      '<p class="back-disclaimer">All content is sourced from official government publications and standard UPSC references. For current affairs, visit <a href="https://ujiyari.com">ujiyari.com</a>.<br>&copy; ' + new Date().getFullYear() + ' BharatNotes.com</p>' +
-      "</div>" +
-      '<div class="back-bottom">100% Free &bull; No Login Required</div>' +
-      "</div>" +
-
-      "</body></html>";
+      '</body></html>';
 
     return html;
   }

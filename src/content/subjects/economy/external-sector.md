@@ -56,11 +56,11 @@ Key drivers: Goods deficit eased to USD 87.4 billion in H1 FY26; services surplu
 |-----------|--------|-------------|
 | **FDI** | Long-term, stable | Investor acquires 10%+ equity stake; brings technology, management |
 | **FPI** | Short-term, volatile | Investment in stocks, bonds without control; sensitive to global risk appetite |
-
-> **Common Mistake:** The 10% equity threshold between FDI and FPI is about **managerial control intent**, not just a number. If a foreign investor buys exactly 10% of an Indian company's equity, it is classified as FDI. If the same investor buys 9.9%, it is FPI — even though the economic impact may be similar. Also note: FDI is recorded in the BoP at the time of actual investment, while FPI fluctuates with market valuation. This is why capital account volatility is driven more by FPI than FDI.
 | **ECB** | Debt instrument | Foreign currency loans by Indian corporates; regulated by RBI under FEMA |
 | **NRI Deposits** | Debt flows | FCNR(B), NRE, NRO accounts |
 | **Banking Capital** | Short-term | Nostro/Vostro balances, overseas borrowing by banks |
+
+> **Common Mistake:** The 10% equity threshold between FDI and FPI is about **managerial control intent**, not just a number. If a foreign investor buys exactly 10% of an Indian company's equity, it is classified as FDI. If the same investor buys 9.9%, it is FPI — even though the economic impact may be similar. Also note: FDI is recorded in the BoP at the time of actual investment, while FPI fluctuates with market valuation. This is why capital account volatility is driven more by FPI than FDI.
 
 ---
 

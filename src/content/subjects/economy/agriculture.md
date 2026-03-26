@@ -136,9 +136,9 @@ tags:
 | **Antyodaya Anna Yojana (AAY)** | Poorest of the poor — 35 kg/family/month |
 | **Priority Households (PHH)** | 5 kg/person/month |
 | **Maternity benefit** | Rs. 6,000 for pregnant and lactating mothers (Pradhan Mantri Matru Vandana Yojana) |
+| **Mid-Day Meal** | Free lunch for children in government schools (now PM POSHAN) |
 
 > **Warning:** NFSA prices (Rs. 3/2/1 per kg) were the original statutory rates. After PMGKAY was subsumed into NFSA from January 2024, food grains are now provided **completely free** to all NFSA beneficiaries for 5 years. If a Prelims question asks about the "current" entitlement under NFSA, the answer is free — not Rs. 3/2/1. Many standard textbooks still cite the old prices.
-| **Mid-Day Meal** | Free lunch for children in government schools (now PM POSHAN) |
 
 ### PM Garib Kalyan Anna Yojana (PMGKAY)
 - Launched during COVID-19 (April 2020)

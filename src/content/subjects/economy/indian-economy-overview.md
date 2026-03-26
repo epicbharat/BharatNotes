@@ -186,9 +186,9 @@ GST was launched on **1 July 2017** — "One Nation, One Tax." It replaced 17 ce
 | **Fiscal Deficit** | Total expenditure − Total receipts (excluding borrowings). Indicates how much the government needs to borrow |
 | **Revenue Deficit** | Revenue expenditure − Revenue receipts. Indicates government's consumption exceeding its income |
 | **Primary Deficit** | Fiscal deficit − Interest payments. Shows borrowing need excluding debt servicing |
+| **Effective Revenue Deficit** | Revenue deficit − Grants for capital asset creation (introduced in Union Budget 2011-12) |
 
 > **Key distinction:** A zero primary deficit does NOT mean the government is debt-free — it means the government is borrowing only to pay interest on past loans (not for new spending). If the primary deficit is negative (surplus), the government can service past debt from current revenues. UPSC loves numerical questions on this — always subtract interest payments from fiscal deficit, not the other way around.
-| **Effective Revenue Deficit** | Revenue deficit − Grants for capital asset creation (introduced in Union Budget 2011-12) |
 
 ### FRBM Act, 2003 (Fiscal Responsibility and Budget Management)
 

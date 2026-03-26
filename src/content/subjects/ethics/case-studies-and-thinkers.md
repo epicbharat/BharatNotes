@@ -72,10 +72,10 @@ tags:
 | **Categorical Imperative** | "Act only according to that maxim whereby you can at the same time will that it should become a universal law" — moral duty is absolute, not dependent on consequences | Universal application of rules; impartial administration; duty-bound governance |
 | **Duty-Based Ethics (Deontology)** | Actions are morally right based on adherence to rules/duties, not outcomes; right action is an end in itself | Following rules and procedures; upholding constitutional obligations regardless of outcomes |
 | **Humanity as an End** | "Treat humanity, whether in your own person or in the person of any other, always as an end and never merely as a means" | Human dignity; anti-exploitation; citizen-centric governance |
-
-> **Exam Tip:** Kant's Categorical Imperative has two formulations that UPSC tests -- (1) the Universalisability Test ("Can I will this maxim to become a universal law?") and (2) the Humanity Formula ("Never treat people merely as means"). In case studies, apply both: ask whether the proposed action could be universalised without contradiction, AND whether it treats all stakeholders as ends in themselves, not just instruments.
 | **Moral Autonomy** | Rational beings are capable of self-legislation; morality comes from reason, not external authority | Individual conscience; ethical decision-making; whistleblowing |
 | **Good Will** | The only thing good without qualification; acting from duty rather than inclination | Public service motivation; integrity; selfless service |
+
+> **Exam Tip:** Kant's Categorical Imperative has two formulations that UPSC tests -- (1) the Universalisability Test ("Can I will this maxim to become a universal law?") and (2) the Humanity Formula ("Never treat people merely as means"). In case studies, apply both: ask whether the proposed action could be universalised without contradiction, AND whether it treats all stakeholders as ends in themselves, not just instruments.
 
 ### 2.2 John Rawls (1921--2002) — Theory of Justice
 

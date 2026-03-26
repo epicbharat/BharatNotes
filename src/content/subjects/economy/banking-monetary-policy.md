@@ -77,10 +77,10 @@ Constituted under Section 45ZB of the amended RBI Act:
 | **Reverse Repo Rate** | **3.35%** | Technically still exists but **effectively dormant** since SDF (at 5.00%) offers a higher rate. Banks use SDF instead |
 | **CRR (Cash Reserve Ratio)** | **3.00%** | Percentage of NDTL (Net Demand and Time Liabilities) banks must keep as cash with RBI. No interest earned |
 | **SLR (Statutory Liquidity Ratio)** | **18.00%** | Percentage of NDTL banks must maintain in liquid assets (cash, gold, government securities) |
-
-> **Key distinction:** CRR deposits are held as **cash with RBI** and earn **no interest** — money is completely locked up. SLR can be maintained in **liquid assets including government securities**, which DO earn interest. This is why a CRR hike is more contractionary than an equivalent SLR hike. Also note: CRR is prescribed under RBI Act Section 42, while SLR is under Banking Regulation Act Section 24. Different Acts — different tools.
 | **MSF (Marginal Standing Facility)** | **5.50%** | Emergency borrowing window for banks (at repo + 0.25%); can dip into SLR up to 2% |
 | **Bank Rate** | **5.50%** | Rate at which RBI lends long-term to banks without collateral (used as penalty rate) |
+
+> **Key distinction:** CRR deposits are held as **cash with RBI** and earn **no interest** — money is completely locked up. SLR can be maintained in **liquid assets including government securities**, which DO earn interest. This is why a CRR hike is more contractionary than an equivalent SLR hike. Also note: CRR is prescribed under RBI Act Section 42, while SLR is under Banking Regulation Act Section 24. Different Acts — different tools.
 
 > **Mnemonic:** The LAF corridor (since April 2022): **SDF (floor) < Repo (middle) < MSF = Bank Rate (ceiling)**. SDF = repo − 0.25%, MSF = repo + 0.25%. Currently: 5.00% < 5.25% < 5.50%. When RBI changes the repo rate, SDF, MSF and Bank Rate adjust automatically. The old "Reverse Repo < Repo" hierarchy is outdated — use **SDF < Repo < MSF**.
 
@@ -142,10 +142,10 @@ RBI
 | Concept | Definition |
 |---------|-----------|
 | **NPA** | A loan where interest/principal remains overdue for > 90 days |
-
-> **Common Mistake:** Aspirants confuse NPA classification with wilful default. An NPA is simply a loan overdue for 90+ days — the borrower may be genuinely unable to pay. A **wilful defaulter** deliberately refuses to pay despite having capacity. Also remember: NPAs are further classified into Sub-standard (up to 12 months), Doubtful (12-36 months), and Loss assets (unrecoverable). SARFAESI Act applies only to NPAs above Rs. 1 lakh and secured loans — not unsecured loans.
 | **Gross NPA ratio** | Gross NPAs as % of total advances |
 | **Net NPA** | Gross NPA − Provisions |
+
+> **Common Mistake:** Aspirants confuse NPA classification with wilful default. An NPA is simply a loan overdue for 90+ days — the borrower may be genuinely unable to pay. A **wilful defaulter** deliberately refuses to pay despite having capacity. Also remember: NPAs are further classified into Sub-standard (up to 12 months), Doubtful (12-36 months), and Loss assets (unrecoverable). SARFAESI Act applies only to NPAs above Rs. 1 lakh and secured loans — not unsecured loans.
 
 **Resolution Mechanisms:**
 - **IBC (Insolvency and Bankruptcy Code), 2016** — time-bound resolution (330 days); NCLT adjudicates

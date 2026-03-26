@@ -189,9 +189,9 @@ While the Congress debated methods, revolutionary nationalists chose armed strug
 | **Mass participation** | Lawyers (Motilal Nehru, C.R. Das, Rajendra Prasad) gave up practice; students left government schools; widespread strikes |
 | **Chauri Chaura Incident** | **4 February 1922** — at Chauri Chaura in Gorakhpur (UP), a violent mob attacked and burnt down a police station, killing **22 police officers** |
 | **Withdrawal** | Gandhi unilaterally called off the movement on **12 February 1922** after the Chauri Chaura violence |
+| **Criticism** | Leaders like Motilal Nehru, Subhas Chandra Bose, C.R. Das, and Lala Lajpat Rai criticised the withdrawal |
 
 > **Exam Tip:** "Was Gandhi right to call off NCM after Chauri Chaura?" is one of the most repeated Mains questions. A strong answer must present both sides: Gandhi's commitment to non-violence vs the criticism by leaders like Motilal Nehru, C.R. Das, and Subhas Bose that the movement was at its peak and withdrawal demoralised the masses. Always mention the Swaraj Party (1923) as the direct political consequence of the withdrawal.
-| **Criticism** | Leaders like Motilal Nehru, Subhas Chandra Bose, C.R. Das, and Lala Lajpat Rai criticised the withdrawal |
 
 ### Swaraj Party (1923)
 
@@ -300,12 +300,12 @@ After the withdrawal of Non-Cooperation, **C.R. Das** and **Motilal Nehru** form
 | **Gandhi's call** | **"Do or Die"** — "The mantra is 'Do or Die'. We shall either free India or die in the attempt; we shall not live to see the perpetuation of our slavery." |
 | **Also called** | August Kranti Movement (August Revolution) |
 | **Immediate cause** | Failure of the **Cripps Mission** (March 1942); hardships of World War II; threat of Japanese invasion |
-
-> **Mnemonic:** Remember the chronological order of major Gandhi-led movements with "**NCM-CDM-QIM**" (Non-Cooperation 1920, Civil Disobedience 1930, Quit India 1942) — roughly a decade apart. Each movement was more radical than the last: NCM demanded self-rule within the Empire, CDM demanded Purna Swaraj, QIM demanded immediate British withdrawal.
 | **British response** | Arrested Gandhi and nearly the entire Congress leadership within hours under the Defence of India Act |
 | **Underground movement** | Leaders like **Jayaprakash Narayan**, **Ram Manohar Lohia**, **Aruna Asaf Ali** led underground resistance; **Usha Mehta** ran the secret **Congress Radio** |
 | **Nature** | Initially non-violent; turned violent after mass arrests — railway lines cut, telegraph wires destroyed, government buildings attacked |
 | **Suppression** | Movement crushed by 1944; thousands killed, over 100,000 arrested |
+
+> **Mnemonic:** Remember the chronological order of major Gandhi-led movements with "**NCM-CDM-QIM**" (Non-Cooperation 1920, Civil Disobedience 1930, Quit India 1942) — roughly a decade apart. Each movement was more radical than the last: NCM demanded self-rule within the Empire, CDM demanded Purna Swaraj, QIM demanded immediate British withdrawal.
 
 ---
 

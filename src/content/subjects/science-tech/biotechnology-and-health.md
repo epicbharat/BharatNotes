@@ -69,13 +69,13 @@ In October 2022, DBT notified Standard Operating Procedures (SOPs) for regulator
 | Aspect | Detail |
 |--------|--------|
 | **CRISPR-Cas9** | Revolutionary gene-editing tool; allows precise modification of DNA sequences |
-
-> **Key distinction:** CRISPR-Cas9 is gene EDITING (precise modification of existing DNA), which is different from traditional genetic MODIFICATION (inserting foreign genes from another organism). India's 2022 SOPs provide a simplified regulatory pathway for SDN-1 and SDN-2 genome-edited plants (which do not contain foreign DNA), treating them differently from transgenic GM crops. This regulatory distinction is increasingly important for Prelims.
 | **India's first CRISPR therapy** | BIRSA 101 — indigenous CRISPR-based gene therapy for Sickle Cell Disease, developed by CSIR-IGIB |
 | **Technology Partner** | Serum Institute of India — collaboration for scalable, affordable CRISPR therapies |
 | **CRISPR Diagnostic** | Tata CRISPR test (FELUDA) — India's first CRISPR-based COVID-19 diagnostic; 96% sensitivity, 98% specificity; approved by DCGI |
 | **National Centre** | National Genome Editing & Training Centre (NGETC) established at Mohali, Punjab |
 | **Regulatory Framework** | National Guidelines for Gene Therapy Product Development and Clinical Trials, 2019; overseen by CDSCO under NDCT Rules, 2019 |
+
+> **Key distinction:** CRISPR-Cas9 is gene EDITING (precise modification of existing DNA), which is different from traditional genetic MODIFICATION (inserting foreign genes from another organism). India's 2022 SOPs provide a simplified regulatory pathway for SDN-1 and SDN-2 genome-edited plants (which do not contain foreign DNA), treating them differently from transgenic GM crops. This regulatory distinction is increasingly important for Prelims.
 
 ### 3.2 Vaccines — Key Indian Contributions
 
@@ -174,11 +174,11 @@ The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy was ap
 |--------|--------|
 | **Concept** | Integrated approach recognising the interconnection between human health, animal health, and the environment |
 | **Relevance** | ~75% of emerging infectious diseases are zoonotic in origin |
-
-> **Exam Tip:** "One Health" recognises the interconnection between human health, animal health, and the environment. This is a high-frequency Mains theme post-COVID. Key fact: ~75% of emerging infectious diseases are zoonotic. For answers on COVID-19, AMR, or avian flu, always invoke the One Health framework and mention that India's NAP-AMR (2017) explicitly adopted this approach. The institutional challenge is inter-ministerial coordination between MoHFW, MoAHD, and MoEFCC -- a governance angle that adds value.
 | **India's Adoption** | NAP-AMR (2017) adopted One Health framework; inter-ministerial coordination between MoHFW, MoAHD, MoEFCC |
 | **Key Focus Areas** | Zoonotic diseases, food safety, antibiotic resistance, environmental health |
 | **ICMR Initiative** | Integrated One Health Surveillance Network for AMR in collaboration with ICAR |
+
+> **Exam Tip:** "One Health" recognises the interconnection between human health, animal health, and the environment. This is a high-frequency Mains theme post-COVID. Key fact: ~75% of emerging infectious diseases are zoonotic. For answers on COVID-19, AMR, or avian flu, always invoke the One Health framework and mention that India's NAP-AMR (2017) explicitly adopted this approach. The institutional challenge is inter-ministerial coordination between MoHFW, MoAHD, and MoEFCC -- a governance angle that adds value.
 
 ---
 

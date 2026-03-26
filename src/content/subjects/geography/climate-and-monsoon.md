@@ -117,12 +117,12 @@ India experiences four distinct seasons, primarily governed by the monsoon cycle
 
 | Phenomenon | Region | Cause |
 |-----------|--------|-------|
-> **Exam Tip:** Pre-monsoon phenomena are a Prelims favourite. Remember that Mango Showers (Kerala/Karnataka), Nor'westers/Kalbaisakhi (West Bengal/Assam), and Cherry Blossoms (Karnataka coffee areas) are all PRE-monsoon events occurring in March-May. Do not confuse them with the actual southwest monsoon which arrives in June. Also note: Loo is a hot dry wind (not rain), while the others bring rainfall.
-
 | Mango Showers | Kerala, Karnataka | Convective activity before monsoon onset |
 | Nor'westers (Kalbaisakhi) | West Bengal, Assam, Bihar | Convergence of moisture from Bay of Bengal and dry hot air |
 | Cherry Blossoms (Blossom Showers) | Karnataka coffee-growing areas | Pre-monsoon thunderstorms beneficial for coffee flowering |
 | Loo | Punjab, Haryana, UP, Rajasthan | Hot, dry westerly/northwesterly winds during summer |
+
+> **Exam Tip:** Pre-monsoon phenomena are a Prelims favourite. Remember that Mango Showers (Kerala/Karnataka), Nor'westers/Kalbaisakhi (West Bengal/Assam), and Cherry Blossoms (Karnataka coffee areas) are all PRE-monsoon events occurring in March-May. Do not confuse them with the actual southwest monsoon which arrives in June. Also note: Loo is a hot dry wind (not rain), while the others bring rainfall.
 
 ---
 

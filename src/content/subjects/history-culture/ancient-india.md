@@ -220,10 +220,10 @@ Buddhist texts mention **16 Mahajanapadas** (great kingdoms) that dominated nort
 | **Rock-Cut Caves** | Barabar Caves (Mauryan, oldest); Ajanta and Ellora (Gupta to later periods) | 3rd century BCE onward |
 | **Gandhara Art** | Greco-Buddhist sculpture; first anthropomorphic Buddha images | 1st–5th century CE |
 | **Mathura Art** | Indigenous Indian style; standing Buddha images in red sandstone | 1st–3rd century CE |
-
-> **Key distinction:** Gandhara vs Mathura art is a perennial Prelims favourite. Gandhara = grey schist/stucco, Greco-Roman features (wavy hair, toga-like robes, muscular body), found in NW India/Pakistan. Mathura = red sandstone, purely Indian features (shaven head, transparent robes, spiritual halo), found in UP. Both schools produced Buddha images, but Gandhara did so first with Hellenistic influence.
 | **Gupta Temples** | Dashavatara Temple (Deogarh), Vishnu Temple (Tigawa) — earliest structural temples | 5th–6th century CE |
 | **Paintings** | Ajanta Caves — Buddhist murals (finest example of ancient Indian painting) | 2nd century BCE–6th century CE |
+
+> **Key distinction:** Gandhara vs Mathura art is a perennial Prelims favourite. Gandhara = grey schist/stucco, Greco-Roman features (wavy hair, toga-like robes, muscular body), found in NW India/Pakistan. Mathura = red sandstone, purely Indian features (shaven head, transparent robes, spiritual halo), found in UP. Both schools produced Buddha images, but Gandhara did so first with Hellenistic influence.
 
 ---
 

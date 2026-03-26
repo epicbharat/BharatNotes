@@ -200,12 +200,12 @@ India became a signatory to the Ramsar Convention in **1982**. As of early 2026,
 |---|---|---|---|
 | **Ramsar Convention** (Wetlands) | 1971 | 1982 | Conservation and wise use of wetlands; Montreux Record for degraded sites |
 | **CITES** (Trade in Endangered Species) | 1973 | 1976 | Regulates international trade in wildlife through 3 Appendices; legally binding |
-
-> **Exam Tip:** Do not confuse CITES Appendices with WPA Schedules. CITES has 3 Appendices (I = trade ban, II = regulated trade, III = voluntary listing by a country). WPA has 4 Schedules (post-2022 amendment, reduced from 6). CITES is an international treaty; WPA is domestic law. Both protect species but operate at different levels. This overlap is a Prelims favourite.
 | **CMS / Bonn Convention** (Migratory Species) | 1979 | 1983 | Conservation of terrestrial, marine, and avian migratory species; India hosted COP-13 in Gandhinagar (2020) |
 | **CBD** (Biological Diversity) | 1992 | 1994 | Three objectives: conservation, sustainable use, benefit-sharing; Cartagena Protocol (biosafety); Nagoya Protocol (access and benefit-sharing); Kunming-Montreal Global Biodiversity Framework (2022) |
 | **UNFCCC** | 1992 | 1993 | Framework for climate action; led to Kyoto Protocol and Paris Agreement |
 | **World Heritage Convention** | 1972 | 1977 | Protection of cultural and natural heritage sites |
+
+> **Exam Tip:** Do not confuse CITES Appendices with WPA Schedules. CITES has 3 Appendices (I = trade ban, II = regulated trade, III = voluntary listing by a country). WPA has 4 Schedules (post-2022 amendment, reduced from 6). CITES is an international treaty; WPA is domestic law. Both protect species but operate at different levels. This overlap is a Prelims favourite.
 
 ### Kunming-Montreal Global Biodiversity Framework (GBF), 2022
 
