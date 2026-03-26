@@ -387,11 +387,7 @@ Which of the above are part of Capital Account?
 
 **Q. "Craze for gold in India has led to surge in import of gold in recent years and put pressure on balance of payments and external value of rupee. In view of this, examine the merits of Gold Monetization Scheme." (GS3, 2015)**
 
-**Q. "Bilateral
-
-
-
- agreements are becoming more important in the present context of WTO negotiations failing to address the developmental concerns of developing countries. Discuss in the light of India's recent bilateral trade agreements." (GS3, 2022)**
+**Q. "Bilateral agreements are becoming more important in the present context of WTO negotiations failing to address the developmental concerns of developing countries. Discuss in the light of India's recent bilateral trade agreements." (GS3, 2022)**
 
 **Q. Evaluate India's stand on the issue of Public Stockholding for Food Security at the WTO. Is India justified in demanding a permanent solution? (GS3, 2023)**
 
