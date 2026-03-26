@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="language" content="en">
+  <meta name="author" content="Bharat Choudhary">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
   {%- set pageTitle %}{% if title %}{{ title }} | BharatNotes{% else %}BharatNotes — Free UPSC GS Notes{% endif %}{% endset -%}
   {%- set pageDesc -%}
@@ -41,11 +44,37 @@
     "url": "{{ pageUrl }}",
     {% if layout == 'topic.njk' %}"headline": "{{ title }}",
     "datePublished": "{{ date | isoDate }}",
-    "author": {"@type": "Person", "name": "Bharat Choudhary"},
-    "publisher": {"@type": "Organization", "name": "BharatNotes", "url": "{{ site.url }}"},
+    "author": {"@type": "Person", "name": "Bharat Choudhary", "url": "https://www.linkedin.com/in/epicbharat/"},
+    "publisher": {"@type": "Organization", "name": "BharatNotes", "url": "{{ site.url }}", "logo": {"@type": "ImageObject", "url": "{{ site.url }}/images/logos/bharatnotes-logo.png"}},
     {% endif %}"description": "{{ pageDesc }}"
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "BharatNotes",
+    "url": "{{ site.url }}",
+    "logo": "{{ site.url }}/images/logos/bharatnotes-logo.png",
+    "founder": {"@type": "Person", "name": "Bharat Choudhary", "url": "https://www.linkedin.com/in/epicbharat/"},
+    "description": "{{ site.description }}",
+    "sameAs": ["https://ujiyari.com", "https://www.linkedin.com/in/epicbharat/"]
+  }
+  </script>
+  {% if layout == 'topic.njk' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/"},
+      {"@type": "ListItem", "position": 2, "name": "Subjects", "item": "{{ site.url }}/subjects/"},
+      {"@type": "ListItem", "position": 3, "name": "{{ subject }}", "item": "{{ site.url }}/subjects/{{ subject }}/"},
+      {"@type": "ListItem", "position": 4, "name": "{{ title }}"}
+    ]
+  }
+  </script>
+  {% endif %}
 
   <!-- Favicon & PWA -->
   <link rel="icon" type="image/png" href="/images/logos/bharatnotes-logo.png">
@@ -64,30 +93,33 @@
 </head>
 <body>
 
+<!-- Skip to main content (accessibility) -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
 <!-- Header -->
 <header class="site-header">
   <div class="container">
     <div class="header-inner">
       <a href="/" class="site-logo">
-        <span style="font-size:1.5rem;">📚</span>
+        <span role="img" aria-label="Books">📚</span>
         BharatNotes
       </a>
-      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
-      <nav class="primary-nav">
-        <a href="/start-here/" class="primary-nav__link {% if '/start-here/' in page.url %}active{% endif %}">🚀 Start Here</a>
-        <a href="/subjects/" class="primary-nav__link {% if '/subjects/' in page.url %}active{% endif %}">📖 Subjects</a>
-        <a href="/prelims/" class="primary-nav__link {% if '/prelims/' in page.url %}active{% endif %}">🎯 Prelims</a>
-        <a href="/mains/" class="primary-nav__link {% if '/mains/' in page.url %}active{% endif %}">✍️ Mains</a>
-        <a href="/pyq/" class="primary-nav__link {% if '/pyq/' in page.url %}active{% endif %}">📝 PYQ</a>
-        <a href="/tracker/" class="primary-nav__link {% if '/tracker/' in page.url %}active{% endif %}">📊 Tracker</a>
-        <a href="/resources/" class="primary-nav__link {% if '/resources/' in page.url %}active{% endif %}">📖 Resources</a>
-        <a href="https://ujiyari.com" class="primary-nav__link" target="_blank" style="color:var(--color-accent-light);">Ujiyari ↗</a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
+      <nav class="primary-nav" aria-label="Main navigation">
+        <a href="/start-here/" class="primary-nav__link" {% if '/start-here/' in page.url %}aria-current="page"{% endif %}>Start Here</a>
+        <a href="/subjects/" class="primary-nav__link" {% if '/subjects/' in page.url %}aria-current="page"{% endif %}>Subjects</a>
+        <a href="/prelims/" class="primary-nav__link" {% if '/prelims/' in page.url %}aria-current="page"{% endif %}>Prelims</a>
+        <a href="/mains/" class="primary-nav__link" {% if '/mains/' in page.url %}aria-current="page"{% endif %}>Mains</a>
+        <a href="/pyq/" class="primary-nav__link" {% if '/pyq/' in page.url %}aria-current="page"{% endif %}>PYQ</a>
+        <a href="/tracker/" class="primary-nav__link" {% if '/tracker/' in page.url %}aria-current="page"{% endif %}>Tracker</a>
+        <a href="/resources/" class="primary-nav__link" {% if '/resources/' in page.url %}aria-current="page"{% endif %}>Resources</a>
+        <a href="https://ujiyari.com" class="primary-nav__link" target="_blank" rel="noopener" style="color:var(--color-accent-light);">Ujiyari ↗</a>
       </nav>
     </div>
   </div>
 </header>
 
-<main>
+<main id="main-content">
   {{ content | safe }}
 </main>
 

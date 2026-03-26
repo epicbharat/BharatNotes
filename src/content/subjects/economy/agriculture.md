@@ -195,4 +195,59 @@ tags:
 
 ---
 
+## Previous Year Questions (PYQs)
+
+### Prelims
+
+**Q. Consider the following statements:** (CSE Prelims 2020)
+1. In the case of all cereals, pulses and oil-seeds, the procurement at Minimum Support Price (MSP) is unlimited in any State/UT of India.
+2. In the case of cereals and pulses, the MSP is fixed in any State/UT at a level to which the market price will never rise.
+Which of the statements given above is/are correct?
+(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
+**Answer:** (d)
+
+**Q. Which of the following factors/policies were affecting the price of rice in India in the recent past?** (CSE Prelims 2020)
+1. Minimum Support Price
+2. Government's trading
+3. Government's stockpiling
+4. Consumer subsidies
+(a) 1, 2 and 4 only (b) 1, 3 and 4 only (c) 2 and 3 only (d) 1, 2, 3 and 4
+**Answer:** (d)
+
+**Q. The economic cost of food grains to the Food Corporation of India is Minimum Support Price and bonus (if any) paid to the farmers plus** (CSE Prelims 2019)
+(a) Procurement incidentals and distribution cost (b) Transportation cost only (c) Interest cost only (d) Procurement incidentals and charges for godowns
+**Answer:** (a)
+
+**Q. With reference to the provisions made under the National Food Security Act, 2013, consider the following statements:** (CSE Prelims 2018)
+1. The families coming under the category of 'below poverty line (BPL)' only are eligible to receive subsidised food grains.
+2. The eldest woman in a household, of age 18 years or above, shall be the head of the household for the purpose of issuance of a ration card.
+3. Pregnant women and lactating mothers are entitled to a 'take-home ration' of 1600 calories per day during pregnancy and six months thereafter.
+Which of the statements given above is/are correct?
+(a) 1 and 2 (b) 2 only (c) 1 and 3 (d) 3 only
+**Answer:** (b)
+
+### Mains
+
+**Q. What do you mean by Minimum Support Price (MSP)? How will MSP rescue the farmers from the low income trap?** (CSE Mains 2018, GS Paper 3, 10 marks)
+
+**Q. How do subsidies affect the cropping pattern, crop diversity and economy of farmers? What is the significance of crop insurance, minimum support price and food processing for small and marginal farmers?** (CSE Mains 2017, GS Paper 3, 15 marks)
+
+**Q. What are the salient features of the National Food Security Act, 2013? How has the Food Security Bill helped in eliminating hunger and malnutrition in India?** (CSE Mains 2021, GS Paper 3, 15 marks)
+
+---
+
+## 📰 Current Affairs Connect
+
+Link these static concepts with live developments:
+
+| Topic | Where to Follow | Why It Matters |
+|-------|----------------|----------------|
+| MSP announcements & farmer protests | [Ujiyari — Economy News](https://ujiyari.com/subjects/economy/) | Kharif & Rabi MSP hikes, legal MSP demand — hot Mains + Interview topic |
+| Food grain production & monsoon forecasts | [Ujiyari — Daily Updates](https://ujiyari.com/daily/) | IMD monsoon forecast directly impacts Kharif output — know the numbers |
+| PM-KISAN, crop insurance, agri reforms | [Ujiyari — Editorials](https://ujiyari.com/editorials/) | Scheme modifications, DBT statistics, and reform debates for analytical answers |
+
+> **Exam tip:** Track Kharif/Rabi MSP announcements and monsoon performance every year. Read [Ujiyari's economy section](https://ujiyari.com/subjects/economy/) — agriculture current affairs are guaranteed in both Prelims and Mains GS3.
+
+---
+
 *Sources: [PRS India — Agriculture](https://prsindia.org/policy/analytical-reports/state-agriculture-india), [Economic Survey 2025-26](https://prsindia.org/policy/report-summaries/economic-survey-2025-26), [PIB](https://pib.gov.in), [NFSA](https://nfsa.gov.in)*

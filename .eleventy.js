@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/images");
+  eleventyConfig.addPassthroughCopy("src/img");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
   eleventyConfig.addPassthroughCopy("src/manifest.json");
   eleventyConfig.addPassthroughCopy("src/.htaccess");
@@ -20,7 +21,7 @@ module.exports = function (eleventyConfig) {
   const subjectSlugs = [
     "polity", "economy", "geography", "history-culture",
     "environment", "science-tech", "international-relations",
-    "society", "ethics", "security"
+    "society", "ethics", "security", "general-science", "disaster-management"
   ];
   subjectSlugs.forEach(slug => {
     eleventyConfig.addCollection(slug, (api) =>

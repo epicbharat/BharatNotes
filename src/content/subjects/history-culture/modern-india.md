@@ -1,0 +1,262 @@
+---
+layout: topic.njk
+title: "Modern India — British Rule to Independence"
+subject: history-culture
+gs_papers:
+  - gs1
+syllabus_topic: "Modern Indian History"
+description: "Comprehensive UPSC notes on Modern Indian History — British conquest, Governor-Generals, Revolt of 1857, social reform movements, Indian National Congress, Gandhi era, major freedom movements, Subhas Chandra Bose & INA, and Partition of India."
+date: 2026-03-26
+foundation: true
+prelims: true
+mains: true
+tags:
+  - history-culture
+  - topic
+---
+
+## Overview
+
+Modern Indian history (c. 1757–1947) covers the period of British colonial rule and the Indian struggle for independence. It encompasses the consolidation of British power through the East India Company, exploitative economic policies, the rise of Indian nationalism, social reform movements, and the eventual attainment of independence on 15 August 1947.
+
+---
+
+## 1. British Conquest and Consolidation
+
+### Key Battles
+
+| Battle | Year | Significance |
+|--------|------|--------------|
+| **Battle of Plassey** | 1757 | Robert Clive defeated Siraj ud-Daulah (Nawab of Bengal); established British political dominance in India |
+| **Battle of Buxar** | 1764 | British defeated combined forces of Mughal Emperor Shah Alam II, Nawab of Oudh Shuja-ud-Daulah, and Mir Qasim; secured Diwani (revenue collection) rights over Bengal, Bihar, and Orissa |
+| **Anglo-Mysore Wars** | 1767–1799 | Four wars; Tipu Sultan (Tiger of Mysore) killed at Seringapatam (1799) |
+| **Anglo-Maratha Wars** | 1775–1818 | Three wars; final defeat of Marathas (1818) — British became paramount power |
+| **Anglo-Sikh Wars** | 1845–1849 | Two wars; annexation of Punjab (1849) under Lord Dalhousie |
+
+### Important Governor-Generals
+
+| Governor-General | Tenure | Key Policies / Events |
+|------------------|--------|----------------------|
+| **Warren Hastings** | 1772–1785 | First Governor-General of Bengal; Regulating Act (1773); impeached in England |
+| **Lord Cornwallis** | 1786–1793 | Permanent Settlement (1793) — fixed land revenue with zamindars in Bengal; Cornwallis Code — Europeanized civil services |
+| **Lord Wellesley** | 1798–1805 | Subsidiary Alliance System — Indian states forced to accept British troops and resident |
+| **Lord William Bentinck** | 1828–1835 | First Governor-General of India; abolished Sati (1829); English as medium of instruction (Macaulay's Minute, 1835) |
+| **Lord Dalhousie** | 1848–1856 | Doctrine of Lapse — annexed Satara, Jhansi, Nagpur, Oudh (Awadh); railways, telegraph, postal reforms |
+| **Lord Canning** | 1856–1862 | Last Governor-General of EIC, first Viceroy of British India; managed the 1857 Revolt aftermath |
+| **Lord Ripon** | 1880–1884 | Local Self-Government Resolution (1882); Ilbert Bill controversy; Factory Act (1881) |
+| **Lord Curzon** | 1899–1905 | Partition of Bengal (1905); Ancient Monuments Preservation Act (1904); Universities Act (1904) |
+| **Lord Mountbatten** | 1947 | Last Viceroy; oversaw Partition and transfer of power; Mountbatten Plan (3 June 1947) |
+
+---
+
+## 2. Land Revenue Systems Under the British
+
+| System | Year | Region | Key Feature |
+|--------|------|--------|-------------|
+| **Permanent Settlement (Zamindari)** | 1793 | Bengal, Bihar, Orissa | Revenue fixed permanently with zamindars; zamindar treated as landowner; peasants had no rights |
+| **Ryotwari** | 1820 | Madras, Bombay | Settlement directly with ryots (cultivators); revenue revised periodically |
+| **Mahalwari** | 1833 | Central Provinces, NW Provinces, Punjab | Revenue collected from village (mahal) as a unit; village headman responsible |
+
+---
+
+## 3. The Revolt of 1857
+
+### Causes
+
+| Category | Details |
+|----------|---------|
+| **Military** | Greased cartridges (Enfield rifle) — pig and cow fat offensive to Muslims and Hindus; General Service Enlistment Act (1856) — required service overseas |
+| **Political** | Doctrine of Lapse; annexation of Oudh (1856); abolition of titles and pensions (Nana Sahib's pension stopped) |
+| **Economic** | Drain of wealth; destruction of Indian handicrafts; heavy taxation |
+| **Social/Religious** | Western education, missionaries, social legislation (Sati abolition, widow remarriage) seen as interference in traditions |
+
+### Major Leaders
+
+| Leader | Region | Role |
+|--------|--------|------|
+| **Bahadur Shah Zafar** | Delhi | Proclaimed Emperor by rebels; symbolic figurehead |
+| **Rani Lakshmibai** | Jhansi | Fought fiercely; died in battle at Gwalior (June 1858) |
+| **Nana Sahib** | Kanpur | Adopted son of Peshwa Baji Rao II; led uprising at Kanpur |
+| **Tantia Tope** | Central India | Military commander; executed in 1859 |
+| **Begum Hazrat Mahal** | Lucknow (Oudh) | Led resistance in Lucknow |
+| **Kunwar Singh** | Bihar (Jagdishpur) | 80-year-old zamindar; led revolt in Bihar |
+| **Mangal Pandey** | Barrackpore | First to rebel (29 March 1857); executed 8 April 1857 |
+
+### Consequences
+
+- East India Company rule ended; Crown took direct control (Government of India Act, 1858)
+- Queen Victoria's Proclamation (1858) — promised non-interference in religious matters, equality under law
+- Indian Councils Act (1861) — Indians given limited representation
+- Reorganization of the army — increased proportion of European soldiers
+
+---
+
+## 4. Social Reform Movements
+
+| Movement / Organization | Founder | Year | Key Reforms |
+|------------------------|---------|------|-------------|
+| **Brahmo Samaj** | Raja Ram Mohan Roy | 1828 | Opposed Sati, idol worship, caste rigidity; promoted monotheism, women's education, widow remarriage |
+| **Arya Samaj** | Dayananda Saraswati | 1875 | "Back to the Vedas"; opposed idol worship, caste discrimination; Shuddhi (reconversion) movement; promoted education (DAV schools) |
+| **Ramakrishna Mission** | Swami Vivekananda | 1897 | Service to humanity as worship of God; represented Hinduism at Parliament of Religions (Chicago, 1893) |
+| **Prarthana Samaj** | Atmaram Pandurang | 1867 | Social reform in western India; influenced by Brahmo Samaj |
+| **Theosophical Society** | H.P. Blavatsky, H.S. Olcott | 1875 (India HQ: Adyar, 1882) | Revival of ancient Indian thought; Annie Besant promoted Home Rule |
+| **Aligarh Movement** | Sir Syed Ahmed Khan | 1875 (MAO College) | Modern education for Muslims; founded Muhammadan Anglo-Oriental College (later Aligarh Muslim University, 1920) |
+| **Satyashodhak Samaj** | Jyotirao Phule | 1873 | Anti-caste movement; championed rights of lower castes and women |
+| **Self-Respect Movement** | E.V. Ramasamy (Periyar) | 1925 | Anti-Brahminism; social equality in Tamil Nadu |
+
+---
+
+## 5. Indian National Congress and the Freedom Movement
+
+### Formation and Early Phase
+
+The **Indian National Congress (INC)** was founded on **28 December 1885** in Bombay. **Allan Octavian Hume** (retired British civil servant) is credited as the chief organizer. First President: **W.C. Bonnerjee**. The first session was attended by 72 delegates.
+
+### Phases of the National Movement
+
+| Phase | Period | Leaders | Methods |
+|-------|--------|---------|---------|
+| **Moderate Phase** | 1885–1905 | Dadabhai Naoroji, Gopal Krishna Gokhale, Surendranath Banerjee, Pherozeshah Mehta | Prayer, petition, constitutional means; "Drain of Wealth" theory (Naoroji) |
+| **Extremist Phase** | 1905–1920 | Bal Gangadhar Tilak, Bipin Chandra Pal, Lala Lajpat Rai ("Lal-Bal-Pal"), Aurobindo Ghosh | Boycott, Swadeshi, national education; Surat Split (1907) |
+| **Gandhian Phase** | 1920–1947 | Mahatma Gandhi, Jawaharlal Nehru, Sardar Patel, Maulana Azad | Non-violent mass movements; civil disobedience; constructive programme |
+| **Revolutionary Phase** | Parallel (1900s–1930s) | Bhagat Singh, Chandrashekhar Azad, Surya Sen, Khudiram Bose, Udham Singh | Armed resistance; Kakori Conspiracy (1925); Lahore Conspiracy Case (1929); Chittagong Armoury Raid (1930) |
+
+---
+
+## 6. Gandhi Era — Major Movements
+
+### Timeline of Gandhian Movements
+
+| Movement | Year | Cause / Trigger | Outcome |
+|----------|------|-----------------|---------|
+| **Champaran Satyagraha** | 1917 | Indigo planters' exploitation in Bihar | First civil disobedience in India; tinkathia system abolished |
+| **Kheda Satyagraha** | 1918 | Crop failure; government demanded full revenue | Revenue collection suspended |
+| **Rowlatt Satyagraha** | 1919 | Rowlatt Act — detention without trial | Jallianwala Bagh Massacre (13 April 1919) — General Dyer ordered firing; ~379 killed (official) |
+| **Non-Cooperation Movement (NCM)** | 1920–1922 | Jallianwala Bagh, Khilafat issue | Boycott of legislatures, courts, schools; withdrew after Chauri Chaura incident (5 Feb 1922) |
+| **Civil Disobedience Movement (CDM)** | 1930–1934 | Salt tax; demand for Purna Swaraj (26 Jan 1930 declaration) | Salt March (Dandi March): 12 March – 6 April 1930; Gandhi-Irwin Pact (1931); Round Table Conferences |
+| **Quit India Movement (QIM)** | 1942–1943 | Failure of Cripps Mission; WWII crisis | "Do or Die" call (8 August 1942); entire Congress leadership arrested; underground movement; severely repressed |
+
+### Key Conferences and Pacts
+
+| Event | Year | Significance |
+|-------|------|--------------|
+| **Lucknow Pact** | 1916 | Congress-Muslim League agreement; Moderates-Extremists reunited |
+| **Lahore Session** | 1929 | Purna Swaraj (complete independence) resolution; 26 January as Independence Day |
+| **Karachi Session** | 1931 | Resolution on Fundamental Rights and Economic Policy |
+| **Gandhi-Irwin Pact** | 1931 | CDM suspended; political prisoners released; Congress attended 2nd Round Table Conference |
+| **Poona Pact** | 1932 | Agreement between Gandhi and Ambedkar on reserved seats (not separate electorates) for Depressed Classes |
+| **Cripps Mission** | 1942 | Offered Dominion Status after WWII; rejected by Congress ("a post-dated cheque on a failing bank" — Gandhi) |
+| **Cabinet Mission** | 1946 | Proposed a three-tier federal structure; accepted initially by both Congress and Muslim League |
+
+---
+
+## 7. Subhas Chandra Bose and the INA
+
+| Date / Event | Details |
+|-------------|---------|
+| **1938, 1939** | Elected Congress President (Haripura, 1938; Tripuri, 1939); resigned after conflict with Gandhi |
+| **January 1941** | Escaped from house arrest in Kolkata; traveled to Germany via Kabul |
+| **July 1943** | Arrived in Tokyo; assumed leadership of the Indian Independence Movement in East Asia |
+| **21 October 1943** | Proclaimed the **Provisional Government of Free India (Azad Hind)** in Singapore |
+| **Indian National Army (INA)** | Organized ~40,000 soldiers from Indian POWs and civilians in Southeast Asia; also called **Azad Hind Fauj** |
+| **March 1944** | INA troops reached Indian soil (Imphal-Kohima); fought alongside Japanese forces |
+| **1944–1945** | INA defeated at Imphal; disbanded after Japan's surrender (August 1945) |
+| **INA Trials (Red Fort, 1945)** | Trial of INA officers sparked massive public sympathy; galvanized Indian nationalism |
+| **18 August 1945** | Bose reportedly died in a plane crash in Taiwan (circumstances debated) |
+
+---
+
+## 8. Partition and Independence (1947)
+
+| Event | Date | Details |
+|-------|------|---------|
+| **Mountbatten Plan** | 3 June 1947 | Announced partition of British India into India and Pakistan |
+| **Indian Independence Act** | 18 July 1947 | Passed by British Parliament; ordered creation of two dominions by midnight 14–15 August 1947 |
+| **Radcliffe Line** | Published 17 August 1947 | International boundary drawn by Sir Cyril Radcliffe; divided Punjab and Bengal |
+| **Independence** | 15 August 1947 | India became independent; Jawaharlal Nehru — first Prime Minister |
+| **Consequences** | — | Largest mass migration in history (~12–15 million displaced); communal violence (estimated up to 2 million deaths); integration of 562 princely states led by Sardar Patel and V.P. Menon |
+
+---
+
+## Important for UPSC
+
+### Prelims Focus
+- Governor-Generals and their key policies (Dalhousie — Doctrine of Lapse; Cornwallis — Permanent Settlement)
+- Revolt of 1857 — leaders and their regions
+- Social reform movements — founder, year, and key contributions
+- Gandhian movements — chronological order, triggers, outcomes
+- INC sessions — year, place, president, significance
+- Land revenue systems — Zamindari vs Ryotwari vs Mahalwari
+
+### Mains Dimensions
+- **GS1**: Evaluate the nature of the 1857 Revolt — "First War of Independence" vs "Sepoy Mutiny" vs regional uprising
+- **GS1**: Assess the role of moderates vs extremists in the growth of Indian nationalism
+- **GS1**: Compare the methods and contributions of Gandhi and Bose to the freedom struggle
+- **GS1**: Analyze the social reform movements — were they truly reformist or elitist?
+- **GS2**: How did British land revenue systems shape post-independence agrarian structure?
+- **GS4 (Ethics)**: Gandhi's Satyagraha as an ethical framework for conflict resolution
+
+### Interview Angles
+- Was Partition inevitable or could it have been avoided?
+- Why did the Congress accept Partition in 1947?
+- Relevance of Gandhian methods in modern protest movements
+- Did the British "divide and rule" policy succeed because of pre-existing fault lines?
+
+---
+
+## UPSC Previous Year Questions (PYQs)
+
+### Prelims
+
+**Q1. (2019):** With reference to the British colonial rule in India, consider the following statements:
+1. Mahatma Gandhi was instrumental in the abolition of the system of 'ichthus' in British India.
+2. The practice of sati was banned during the reign of Lord William Bentinck.
+
+Which of the above statements is/are correct?
+Consider the following events:
+1. The first session of the Indian National Congress was held in Bombay.
+2. The Ilbert Bill controversy took place during the viceroyalty of Lord Ripon.
+
+Which of the above statements is/are correct?
+(a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2
+**Answer:** (c) *(Both are correct facts — INC first session was held in Bombay in 1885; Ilbert Bill controversy occurred during Lord Ripon's viceroyalty, 1880-84)* *(Prelims PYQ, GS Paper I)*
+
+**Q2. (2017):** With reference to the 'Revolt of 1857', who of the following was/were betrayed by a friend, captured and put to death by the British?
+(a) Nana Sahib (b) Kunwar Singh (c) Khan Bahadur Khan (d) Tantia Tope
+**Answer:** (d) *(Tantia Tope was betrayed by his friend Man Singh, captured and executed in 1859)* *(Prelims 2017, GS Paper I)*
+
+**Q3. (2020):** With reference to the history of India, consider the following pairs:
+1. Aurobindo Ghosh — Karmayogin
+2. Bal Gangadhar Tilak — Kesari
+3. Bipin Chandra Pal — New India
+
+Which of the above pairs is/are correctly matched?
+(a) 1 only (b) 1 and 2 only (c) 2 and 3 only (d) 1, 2 and 3
+**Answer:** (d) *(All three pairs are correctly matched)* *(Prelims 2020, GS Paper I)*
+
+**Q4. (2014):** The Rowlatt Act aimed at:
+(a) compulsory economic support to British war efforts
+(b) imprisonment without trial and suppression of political activities
+(c) suppression of the Khilafat Movement
+(d) imposition of restrictions on freedom of the press
+**Answer:** (b) *(Prelims 2012, GS Paper I)*
+
+### Mains
+
+**Q5. (2019):** Assess the role of British imperial power in complicating the process of transfer of power during the 1940s. *(GS Paper I, 250 words)*
+
+**Q6. (2017):** Highlight the differences in the approaches of Subhash Chandra Bose and Mahatma Gandhi in the struggle for freedom. *(GS Paper I, 250 words)*
+
+---
+
+## Current Affairs Connect
+
+| Link | Relevance |
+|------|-----------|
+| [Ujiyari -- History & Culture News](https://ujiyari.com/subjects/history-culture/) | Latest developments on freedom fighter commemorations, historical debates |
+| [Ujiyari -- Editorials](https://ujiyari.com/editorials/) | Analysis on colonial legacy, land reform issues, historical revisionism |
+| [Ujiyari -- Daily Updates](https://ujiyari.com/daily/) | Daily current affairs linking modern history to contemporary governance |
+
+---
+
+*Sources: National Portal of India (india.gov.in), Press Information Bureau (pib.gov.in), NCERT History Textbooks, Legislative Department (legislative.gov.in)*
