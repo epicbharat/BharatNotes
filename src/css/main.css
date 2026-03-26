@@ -572,9 +572,6 @@ a.card:hover { text-decoration: none; }
 .topic-sidebar {
   position: sticky;
   top: var(--space-4);
-  max-height: calc(100vh - var(--space-8));
-  overflow-y: auto;
-  scrollbar-width: thin;
 }
 .toc-list {
   list-style: none;
