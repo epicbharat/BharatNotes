@@ -89,21 +89,84 @@ Established in **Kesavananda Bharati v. State of Kerala (1973)** — the Supreme
 | 101st | 2016 | Goods and Services Tax (GST) |
 | 103rd | 2019 | 10% EWS reservation |
 
+## 12 Schedules of the Constitution
+
+| Schedule | Subject | Key Detail |
+|----------|---------|------------|
+| **1st** | States and UTs | Names, territories — updated with every reorganisation |
+| **2nd** | Emoluments | Salaries of President, Governors, Judges, CAG, etc. |
+| **3rd** | Oaths & Affirmations | Forms for President, Ministers, Judges, MPs, MLAs |
+| **4th** | Rajya Sabha seats | Allocation per state (based on population) |
+| **5th** | Scheduled Areas & Tribes | Administration of tribal areas (Articles 244(1)) |
+| **6th** | Tribal Areas (NE) | Autonomous District Councils — Assam, Meghalaya, Tripura, Mizoram |
+| **7th** | Three Lists | Union List (100), State List (61), Concurrent List (52) — Article 246 |
+| **8th** | Official Languages | **22 languages** (originally 14; Sindhi added 1967; Konkani/Manipuri/Nepali added 1992; Bodo/Dogri/Maithili/Santhali added 2003) |
+| **9th** | Validated Acts | Laws shielded from judicial review (added by 1st Amendment, 1951) — but SC held in **I.R. Coelho (2007)** that laws violating basic structure can be reviewed even if placed in 9th Schedule |
+| **10th** | Anti-Defection | Grounds, procedure, role of Presiding Officer (52nd Amendment, 1985) |
+| **11th** | Panchayat Powers | 29 subjects (73rd Amendment, 1992) |
+| **12th** | Municipality Powers | 18 subjects (74th Amendment, 1992) |
+
+> **Mnemonic:** Remember the 12 Schedules sequence as: **"States Salaries Oaths Rajya Tribes Tribes-NE Lists Languages Laws Defection Panchayat Municipality"** — or the short form **"SS-OR-TT-LL-DPM"**.
+
+## Seventh Schedule: Distribution of Legislative Powers (Article 246)
+
+| List | Subjects | Examples | Who Legislates |
+|------|----------|----------|---------------|
+| **Union List** | 100 | Defence, atomic energy, railways, banking, foreign affairs, currency, census, CBI | Parliament exclusively |
+| **State List** | 61 | Police, public health, agriculture, land, water, local government, state taxes | State Legislature exclusively |
+| **Concurrent List** | 52 | Education, forests, trade unions, criminal law, marriage, bankruptcy, electricity | Both — but **Central law prevails** in case of conflict (Article 254) |
+
+> **Key distinction:** The **42nd Amendment (1976)** transferred 5 subjects from State List to Concurrent List — education, forests, weights & measures, protection of wild animals & birds, and administration of justice. This is a classic Prelims question. Remember: **"EFWPA"** — Education, Forests, Weights, Protection of wildlife, Administration of justice.
+
+### Residuary Powers (Article 248)
+
+Parliament has **exclusive power** to legislate on subjects not in any of the three lists. This is unlike the USA (where residuary powers lie with states) and similar to Canada.
+
+## Centre-State Relations
+
+### Legislative Relations (Articles 245–255)
+
+- Parliament can legislate on **State List** subjects in 5 situations:
+  1. During **National Emergency** (Article 250)
+  2. On Rajya Sabha resolution by 2/3rd majority that it is in national interest (Article 249) — valid for 1 year, renewable
+  3. When **two or more states request** Parliament to legislate on their behalf (Article 252)
+  4. To implement **international treaties** (Article 253)
+  5. During **President's Rule** in a state (Article 357)
+
+### Administrative Relations (Articles 256–263)
+
+| Mechanism | Article | Purpose |
+|-----------|---------|---------|
+| Directions to States | 256–257 | Centre can direct states on executive matters |
+| Inter-State Council | 263 | Advisory body for Centre-State disputes (set up in 1990 on Sarkaria Commission's recommendation) |
+| All-India Services | 312 | IAS, IPS, IFoS — created by Rajya Sabha resolution |
+| Interstate Water Disputes | 262 | Tribunals under Interstate River Water Disputes Act, 1956 |
+
+### Financial Relations (Articles 268–293)
+
+| Feature | Detail |
+|---------|--------|
+| **Finance Commission** (Article 280) | Recommends distribution of taxes between Centre and States; currently **16th Finance Commission** (chaired by Arvind Panagariya; report submitted November 2025, tabled in Parliament 1 February 2026; recommended **41% share** for states in divisible pool for 2026–31) |
+| **GST Council** (Article 279A) | Joint body — decisions by 3/4th majority (Centre has 1/3rd weightage, all states collectively 2/3rd) — inserted by 101st Amendment, 2016 |
+| **Grants-in-Aid** (Articles 275, 282) | Centre provides statutory and discretionary grants to states |
+
 ---
-
-**UPSC Relevance**
-
-> **Prelims:** Constitutional history, amendment numbers, landmark cases, Schedules
-> **Mains GS-2:** Evolution of the Constitution, Basic Structure doctrine, federalism, amendment process
-> **Interview:** "Is the Basic Structure doctrine a judicial overreach or necessary safeguard?"
 
 ## Important for UPSC
 
 ### Prelims Focus
-- Key facts and articles to remember
+- 12 Schedules — what each contains, which amendment added 9th/10th/11th/12th
+- Seventh Schedule — number of subjects in each list (100/61/52), subjects transferred by 42nd Amendment
+- Basic Structure elements — not codified, judicial creation
+- Amendment categories — simple majority vs special majority vs special + state ratification
+- Constituent Assembly facts — 389→299 members, first meeting 9 Dec 1946, Drafting Committee 7 members
+- Residuary powers with Parliament (not states — unlike USA)
 
 ### Mains Dimensions
-- Analytical angles for essay and GS papers
+- **Cooperative vs Competitive Federalism** — GST Council as model; NITI Aayog replacing Planning Commission
+- **Basic Structure — judicial overreach or safeguard?** Compare with UK (Parliamentary sovereignty) and USA (constitutional amendments unchecked)
+- **Centre-State tensions** — Governor's role, Article 356 misuse, fiscal autonomy debate, One Nation One Election implications
+- **42nd vs 44th Amendment** — Indira Gandhi's centralisation vs Morarji Desai's corrective; analyse which provisions survived
 
 ---
 

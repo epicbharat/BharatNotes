@@ -57,11 +57,28 @@ The head of state (President) is elected, not hereditary. This distinguishes Ind
 | **Equality** | Of status (no titles except military/academic — Article 18) and of opportunity (Articles 15, 16) |
 | **Fraternity** | Assuring dignity of the individual and unity & integrity of the nation |
 
+## Origin: The Objective Resolution
+
+The Preamble is based on the **Objective Resolution** moved by **Jawaharlal Nehru** on **13 December 1946** in the Constituent Assembly. After extensive debate (16–19 December 1946, resumed 21 January 1947), it was **adopted on 22 January 1947** with all members standing.
+
+The Resolution declared India's resolve to be a sovereign, independent republic securing justice, equality, and freedom for all citizens. It became the philosophical blueprint for the Preamble and, through it, the entire Constitution.
+
+> **Exam Tip:** UPSC often asks "Who moved the Objective Resolution?" (Nehru) and "Who chaired the Drafting Committee?" (Ambedkar). Don't confuse the two — Nehru set the **philosophy**, Ambedkar drafted the **legal text**. The Preamble was the last item adopted by the Constituent Assembly (after all other provisions were finalised).
+
 ## Philosophical Basis
 
 - **"We, the people of India"** — Popular sovereignty; the Constitution derives authority from the people, not from any external power or monarch
 - **"Give to ourselves"** — Self-enacted; the Constituent Assembly acted as the representative body of the people
-- **"26th November 1949"** — Date of adoption; the Constitution came into **effect on 26 January 1950** (chosen to honour the 1930 Purna Swaraj declaration)
+- **"26th November 1949"** — Date of adoption; the Constitution came into **effect on 26 January 1950** (chosen to honour the **1930 Purna Swaraj declaration** at the Lahore Session of the INC)
+
+### Influences on the Preamble
+
+| Ideal | Influenced By |
+|-------|--------------|
+| **Justice, Liberty, Equality, Fraternity** | French Revolution (1789) — "Liberté, Égalité, Fraternité" |
+| **"We, the people"** | American Constitution (1787) |
+| **Social, economic and political justice** | Russian Revolution (1917) — emphasis on economic democracy |
+| **Democratic Republic** | Irish Constitution (1937) — also influenced DPSPs |
 
 > **Common Mistake:** Aspirants often write "Sovereign Socialist Secular Democratic Republic" as the original Preamble text. The original (1949) said only "Sovereign Democratic Republic." The words **Socialist**, **Secular**, and **Integrity** were added by the 42nd Amendment in 1976. UPSC has tested this directly (CSE 2021).
 
@@ -102,15 +119,16 @@ The Preamble has been amended **once** — by the **42nd Amendment Act, 1976** �
 - Preamble adopted on 26 Nov 1949, Constitution effective 26 Jan 1950
 
 ### Mains GS-2 Dimensions
-- Preamble as the "identity card" of the Constitution
-- Is "secular" integral to India's polity or a politically motivated addition?
-- Can Parliament remove "socialist" or "secular" from the Preamble? (Basic Structure constraint)
-- Compare Preamble objectives with ground reality — are justice, liberty, equality, fraternity achieved?
+- **Preamble as the "identity card"** of the Constitution — Thakurdas Bhargava called it the "soul of the Constitution"
+- **"Secular" — integral or political?** The 42nd Amendment added it during Emergency (1976). Argue both sides: (a) merely made explicit what was implicit in Articles 25–28, (b) imposed by executive fiat without referendum. The Supreme Court in **S.R. Bommai (1994)** held secularism is part of the basic structure
+- **Can Parliament remove "socialist" or "secular"?** No — both are now part of the basic structure. The SC in **Subramanian Swamy v. UOI (2016)** refused to delete "socialist" and "secular" from the Preamble
+- **Preamble vs ground reality** — test each objective against data: Justice (undertrial crisis, legal aid gaps), Liberty (sedition debates, internet shutdowns), Equality (caste/gender disparities), Fraternity (communal polarisation)
 
 ### Interview Angles
-- "Is the Preamble enforceable in court?"
-- "Should the words 'socialist' and 'secular' be removed since they were not in the original?"
-- "How does the Preamble guide interpretation of Fundamental Rights?"
+- "Is the Preamble enforceable in court?" — No direct enforcement, but it guides interpretation (Union of India v. Madan Gopal, 1954)
+- "Should 'socialist' and 'secular' be removed since they were not original?" — Frame answer around basic structure + original implicit intent
+- "How does the Preamble guide interpretation of Fundamental Rights?" — Courts use it as an interpretive lens when two rights conflict
+- "If you had to rewrite the Preamble today, what would you add?" — Think: digital rights, environmental sustainability, gender justice
 
 ---
 
