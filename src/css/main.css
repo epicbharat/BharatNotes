@@ -550,9 +550,9 @@ h1, h2, h3, h4, h5, h6 { color: inherit; line-height: var(--leading-tight); }
 }
 a.card:hover { text-decoration: none; }
 .card__title {
-  font-family: var(--font-heading);
-  font-size: var(--text-lg);
-  font-weight: var(--font-normal);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  font-weight: var(--font-semibold);
   color: var(--color-brand-dark);
   margin-bottom: var(--space-2);
   line-height: var(--leading-snug);
@@ -2056,8 +2056,8 @@ a:focus-visible {
   min-width: 0;
 }
 .section-block__title {
-  font-family: var(--font-heading);
-  font-size: var(--text-lg);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
   font-weight: var(--font-semibold);
   color: var(--color-brand);
   margin: 0 0 var(--space-1);
@@ -2409,7 +2409,7 @@ a:focus-visible {
   margin-bottom: var(--space-2);
 }
 .mains-guide-card__title {
-  font-family: var(--font-heading, 'Playfair Display', serif);
+  font-family: var(--font-body);
   font-size: 1.35rem;
   color: var(--color-brand, #0f4c3a);
   margin: 0 0 var(--space-2);
