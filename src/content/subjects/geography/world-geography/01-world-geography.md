@@ -2,13 +2,13 @@
 layout: topic.njk
 title: "World Geography"
 subject: geography
-parent_topic: "Indian & World Geography"
-parent_topic_url: "/subjects/geography/indian-geography/"
+parent_topic: "World Geography"
+parent_topic_url: /subjects/geography/world-geography/
 gs_papers:
   - gs1
-syllabus_topic: "Geography"
+syllabus_topic: "World Geography"
 description: "Comprehensive guide to Earth's interior, plate tectonics, ocean currents, Koppen climate classification, biomes, geomorphological processes, population distribution and urbanisation for UPSC."
-sub_chapter: 5
+sub_chapter: 1
 date: 2026-03-26
 foundation: true
 prelims: true

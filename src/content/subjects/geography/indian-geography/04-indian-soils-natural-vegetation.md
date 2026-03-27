@@ -2,12 +2,12 @@
 layout: topic.njk
 title: "Indian Soils & Natural Vegetation — Types, Distribution & Conservation"
 subject: geography
-parent_topic: "Indian & World Geography"
+parent_topic: "Indian Geography"
 parent_topic_url: /subjects/geography/indian-geography/
-sub_chapter: 9
+sub_chapter: 4
 gs_papers:
   - gs1
-syllabus_topic: "Geography"
+syllabus_topic: "Indian Geography"
 description: "Comprehensive UPSC notes on Indian soils and natural vegetation — soil types, degradation, conservation, forest types (Champion & Seth), biogeographic zones, and biosphere reserves."
 date: 2026-03-27
 foundation: true

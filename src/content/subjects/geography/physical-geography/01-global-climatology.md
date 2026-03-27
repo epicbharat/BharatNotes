@@ -2,12 +2,12 @@
 layout: topic.njk
 title: "Climatology — Atmosphere, Pressure Belts, Winds & Cyclones"
 subject: geography
-parent_topic: "Indian & World Geography"
-parent_topic_url: /subjects/geography/indian-geography/
-sub_chapter: 10
+parent_topic: "Physical Geography"
+parent_topic_url: /subjects/geography/physical-geography/
+sub_chapter: 1
 gs_papers:
   - gs1
-syllabus_topic: "Geography"
+syllabus_topic: "Physical Geography"
 description: "Comprehensive UPSC notes on global climatology — atmospheric structure, insolation, pressure belts, planetary winds, cyclones, jet streams, and climate classification."
 date: 2026-03-27
 foundation: true

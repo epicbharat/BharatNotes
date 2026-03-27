@@ -2,12 +2,12 @@
 layout: topic.njk
 title: "World Resource Distribution & Geopolitical Locations"
 subject: geography
-parent_topic: "Indian & World Geography"
-parent_topic_url: /subjects/geography/indian-geography/
-sub_chapter: 12
+parent_topic: "World Geography"
+parent_topic_url: /subjects/geography/world-geography/
+sub_chapter: 2
 gs_papers:
   - gs1
-syllabus_topic: "Geography"
+syllabus_topic: "World Geography"
 description: "Comprehensive UPSC notes on world resource distribution and geopolitically significant locations — global minerals, oil & gas, rare earths, straits, canals, contested borders, and strategic waterways."
 date: 2026-03-27
 foundation: true

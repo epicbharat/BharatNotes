@@ -2,14 +2,14 @@
 layout: topic.njk
 title: "Agriculture Geography & Food Security — Crops, Green Revolution, MSP, PDS & NFSA"
 subject: geography
-parent_topic: "Indian & World Geography"
-parent_topic_url: "/subjects/geography/indian-geography/"
+parent_topic: "Human & Economic Geography"
+parent_topic_url: /subjects/geography/human-economic-geography/
 gs_papers:
   - gs1
   - gs3
-syllabus_topic: "Geography"
+syllabus_topic: "Human & Economic Geography"
 description: "Complete notes on India's agriculture geography — major crops, cropping patterns, Green Revolution, irrigation, MSP, food security (NFSA, PDS), and UPSC relevance."
-sub_chapter: 6
+sub_chapter: 2
 date: 2026-03-27
 foundation: true
 prelims: true

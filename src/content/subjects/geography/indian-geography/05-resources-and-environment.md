@@ -2,13 +2,13 @@
 layout: topic.njk
 title: "Resources and Environment"
 subject: geography
-parent_topic: "Indian & World Geography"
-parent_topic_url: "/subjects/geography/indian-geography/"
+parent_topic: "Indian Geography"
+parent_topic_url: /subjects/geography/indian-geography/
 gs_papers:
   - gs1
-syllabus_topic: "Geography"
+syllabus_topic: "Indian Geography"
 description: "Comprehensive coverage of India's mineral resources, energy resources including coal, petroleum, solar, and wind, water resources, resource planning, and conservation for UPSC."
-sub_chapter: 3
+sub_chapter: 5
 date: 2026-03-26
 foundation: true
 prelims: true

@@ -2,13 +2,13 @@
 layout: topic.njk
 title: "Climate of India and Monsoon Mechanism"
 subject: geography
-parent_topic: "Indian & World Geography"
-parent_topic_url: "/subjects/geography/indian-geography/"
+parent_topic: "Indian Geography"
+parent_topic_url: /subjects/geography/indian-geography/
 gs_papers:
   - gs1
-syllabus_topic: "Geography"
+syllabus_topic: "Indian Geography"
 description: "Detailed study of India's climate factors, monsoon mechanism including ITCZ, Somali Jet, El Nino, La Nina, IOD, seasons, and rainfall distribution for UPSC."
-sub_chapter: 2
+sub_chapter: 3
 date: 2026-03-26
 foundation: true
 prelims: true

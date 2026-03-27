@@ -2,11 +2,11 @@
 layout: topic.njk
 title: "Indian Physical Geography"
 subject: geography
-parent_topic: "Indian & World Geography"
-parent_topic_url: "/subjects/geography/indian-geography/"
+parent_topic: "Indian Geography"
+parent_topic_url: /subjects/geography/indian-geography/
 gs_papers:
   - gs1
-syllabus_topic: "Geography"
+syllabus_topic: "Indian Geography"
 description: "Comprehensive guide to India's physiographic divisions, major rivers, drainage patterns, and soil types for UPSC preparation."
 sub_chapter: 1
 date: 2026-03-26

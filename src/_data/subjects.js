@@ -28,9 +28,14 @@ module.exports = [
     name: "Geography",
     icon: "\uD83C\uDF0D",
     color: "#b45309",
-    description: "Physical geography, resources, industries, geophysical phenomena, climatology",
+    description: "Physical geography, Indian geography, human & economic geography, world geography",
     gs_papers: ["gs1"],
-    syllabus_sections: ["Geography"]
+    syllabus_sections: [
+      "Physical Geography",
+      "Indian Geography",
+      "Human & Economic Geography",
+      "World Geography"
+    ]
   },
   {
     slug: "history-culture",

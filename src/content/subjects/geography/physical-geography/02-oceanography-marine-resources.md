@@ -2,14 +2,14 @@
 layout: topic.njk
 title: "Oceanography & Marine Resources — Ocean Currents, Coral Reefs & Blue Economy"
 subject: geography
-parent_topic: "Indian Geography"
-parent_topic_url: "/subjects/geography/indian-geography/"
+parent_topic: "Physical Geography"
+parent_topic_url: /subjects/geography/physical-geography/
 gs_papers:
   - gs1
   - gs3
-syllabus_topic: "Indian Geography"
+syllabus_topic: "Physical Geography"
 description: "UPSC notes on oceanography — ocean currents, tides, coral reefs, mangroves, marine resources, EEZ, blue economy, deep-sea mining, and India's maritime geography."
-sub_chapter: 7
+sub_chapter: 2
 date: 2026-03-27
 foundation: true
 prelims: true

@@ -2,12 +2,12 @@
 layout: topic.njk
 title: "Industries & Location Factors — Economic Geography of India & World"
 subject: geography
-parent_topic: "Indian & World Geography"
-parent_topic_url: /subjects/geography/indian-geography/
-sub_chapter: 11
+parent_topic: "Human & Economic Geography"
+parent_topic_url: /subjects/geography/human-economic-geography/
+sub_chapter: 3
 gs_papers:
   - gs1
-syllabus_topic: "Geography"
+syllabus_topic: "Human & Economic Geography"
 description: "Comprehensive UPSC notes on industries and location factors — Weber's theory, major Indian industries, industrial corridors, SEZs, and global industrial regions."
 date: 2026-03-27
 foundation: true

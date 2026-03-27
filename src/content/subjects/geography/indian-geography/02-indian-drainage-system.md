@@ -2,12 +2,12 @@
 layout: topic.njk
 title: "Indian Drainage System — Rivers, Basins & Water Disputes"
 subject: geography
-parent_topic: "Indian & World Geography"
+parent_topic: "Indian Geography"
 parent_topic_url: /subjects/geography/indian-geography/
-sub_chapter: 8
+sub_chapter: 2
 gs_papers:
   - gs1
-syllabus_topic: "Geography"
+syllabus_topic: "Indian Geography"
 description: "Comprehensive UPSC notes on India's drainage system — Himalayan and Peninsular rivers, river basins, drainage patterns, water disputes, interlinking of rivers, and dam infrastructure."
 date: 2026-03-27
 foundation: true

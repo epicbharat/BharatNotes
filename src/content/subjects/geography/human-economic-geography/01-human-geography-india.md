@@ -2,13 +2,13 @@
 layout: topic.njk
 title: "Human Geography of India"
 subject: geography
-parent_topic: "Indian & World Geography"
-parent_topic_url: "/subjects/geography/indian-geography/"
+parent_topic: "Human & Economic Geography"
+parent_topic_url: /subjects/geography/human-economic-geography/
 gs_papers:
   - gs1
-syllabus_topic: "Geography"
+syllabus_topic: "Human & Economic Geography"
 description: "Comprehensive guide to India's population, Census 2011 data, demographic transition, urbanisation, migration, tribal areas, linguistic diversity, regional disparities, and transport networks for UPSC."
-sub_chapter: 4
+sub_chapter: 1
 date: 2026-03-26
 foundation: true
 prelims: true
