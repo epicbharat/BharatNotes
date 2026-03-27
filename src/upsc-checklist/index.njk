@@ -4,6 +4,87 @@ title: "UPSC CSE Syllabus Checklist — Complete Exam Pattern & Progress Tracker
 description: "Interactive UPSC Civil Services checklist — exam pattern, marks breakdown, full decoded syllabus with micro-topic tracking. Save progress locally."
 ---
 
+<style>
+/* ── Checklist Page Styles ── */
+.ck-ring-wrap { flex-shrink:0; }
+.ck-ring-svg { display:block; }
+.ck-ring-bg { fill:none; stroke:var(--color-border); stroke-width:7; }
+.ck-ring-fill { fill:none; stroke:var(--color-brand); stroke-width:7; stroke-linecap:round; transform:rotate(-90deg); transform-origin:50% 50%; transition:stroke-dashoffset 600ms ease-out; }
+.ck-ring-pct { fill:var(--color-text); font-size:20px; font-weight:800; font-family:var(--font-body); }
+.ck-ring-sub { fill:var(--color-text-muted); font-size:10px; }
+.ck-hero { display:flex; align-items:center; gap:var(--space-5); padding:var(--space-5); background:var(--color-surface); border:1px solid var(--color-border); border-radius:var(--radius-lg); margin-bottom:var(--space-6); }
+.ck-hero-stats { flex:1; }
+.ck-hero-label { font-size:var(--text-lg); font-weight:700; color:var(--color-text); margin:0 0 var(--space-1); }
+.ck-hero-sub { font-size:var(--text-sm); color:var(--color-text-muted); margin:0; }
+.ck-paper-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)); gap:var(--space-3); margin-bottom:var(--space-6); }
+.ck-paper-card { background:var(--color-surface); border:1px solid var(--color-border); border-radius:var(--radius-md); padding:var(--space-3) var(--space-4); cursor:pointer; transition:all 0.15s; border-left:3px solid var(--ck-color, var(--color-brand)); }
+.ck-paper-card:hover { box-shadow:var(--shadow-md); transform:translateY(-1px); }
+.ck-paper-card.active { background:color-mix(in srgb, var(--ck-color) 8%, var(--color-surface)); border-color:var(--ck-color); }
+.ck-paper-card__title { font-size:var(--text-xs); font-weight:700; color:var(--color-text); margin:0 0 var(--space-2); line-height:1.3; }
+.ck-paper-card__bar { background:var(--color-border); border-radius:99px; height:5px; overflow:hidden; }
+.ck-paper-card__fill { height:100%; border-radius:99px; transition:width 0.3s; }
+.ck-paper-card__meta { display:flex; justify-content:space-between; font-size:0.65rem; color:var(--color-text-muted); margin-top:4px; }
+.ck-controls { display:flex; flex-wrap:wrap; gap:var(--space-2); margin-bottom:var(--space-4); align-items:center; padding:var(--space-3) var(--space-4); background:var(--color-surface); border:1px solid var(--color-border); border-radius:var(--radius-md); position:sticky; top:0; z-index:10; }
+.ck-search { flex:1; min-width:180px; padding:8px 12px; border:1px solid var(--color-border); border-radius:var(--radius-sm); font-size:var(--text-sm); background:var(--color-bg); }
+.ck-select { padding:8px 12px; border:1px solid var(--color-border); border-radius:var(--radius-sm); font-size:var(--text-xs); background:var(--color-bg); }
+.ck-btn { padding:6px 12px; border:1.5px solid var(--color-border); background:none; border-radius:var(--radius-sm); font-size:var(--text-xs); font-weight:600; cursor:pointer; transition:all 0.15s; display:inline-flex; align-items:center; gap:4px; }
+.ck-btn:hover { background:var(--color-surface); }
+.ck-btn--brand { border-color:var(--color-brand); color:var(--color-brand); }
+.ck-btn--danger { border-color:var(--color-error, #dc2626); color:var(--color-error, #dc2626); }
+.ck-btn--accent { border-color:var(--color-accent); color:var(--color-accent-hover); }
+.ck-section { margin-bottom:var(--space-4); border:1px solid var(--color-border); border-radius:var(--radius-md); overflow:hidden; }
+.ck-section__head { display:flex; align-items:center; gap:var(--space-3); padding:var(--space-3) var(--space-4); background:var(--color-surface); cursor:pointer; user-select:none; transition:background 0.15s; }
+.ck-section__head:hover { background:rgba(15,76,58,0.03); }
+.ck-section__color { width:4px; height:28px; border-radius:2px; flex-shrink:0; }
+.ck-section__info { flex:1; min-width:0; }
+.ck-section__title { font-size:var(--text-sm); font-weight:700; color:var(--color-text); margin:0; }
+.ck-section__count { font-size:0.65rem; color:var(--color-text-muted); }
+.ck-section__pct { font-size:var(--text-xs); font-weight:700; min-width:36px; text-align:right; }
+.ck-section__arrow { color:var(--color-text-muted); transition:transform 0.2s; flex-shrink:0; }
+.ck-section__arrow.open { transform:rotate(180deg); }
+.ck-section__body { display:none; border-top:1px solid var(--color-border-light, rgba(0,0,0,0.06)); }
+.ck-section__body.open { display:block; }
+.ck-topic { display:flex; align-items:flex-start; gap:0.5rem; padding:var(--space-2) var(--space-4) var(--space-2) var(--space-5); font-size:var(--text-sm); line-height:1.5; cursor:pointer; border-bottom:1px solid var(--color-border-light, rgba(0,0,0,0.04)); transition:background 0.1s; }
+.ck-topic:last-child { border-bottom:none; }
+.ck-topic:hover { background:rgba(15,76,58,0.02); }
+.ck-topic input { margin-top:4px; flex-shrink:0; accent-color:var(--ck-color, var(--color-brand)); width:15px; height:15px; }
+.ck-topic span { flex:1; }
+.ck-topic--done span { text-decoration:line-through; color:var(--color-text-muted); }
+.ck-topic__link { font-size:0.6rem; color:var(--color-brand); text-decoration:none; white-space:nowrap; margin-left:auto; flex-shrink:0; align-self:center; opacity:0.6; }
+.ck-topic__link:hover { opacity:1; text-decoration:underline; }
+.ck-stage-tabs { display:flex; gap:var(--space-2); margin-bottom:var(--space-4); flex-wrap:wrap; }
+.ck-stage-tab { padding:8px 16px; border:1.5px solid var(--color-border); background:var(--color-surface); border-radius:var(--radius-md); font-size:var(--text-xs); font-weight:600; cursor:pointer; transition:all 0.15s; }
+.ck-stage-tab:hover { border-color:var(--color-brand); }
+.ck-stage-tab.active { background:var(--color-brand); color:#fff; border-color:var(--color-brand); }
+.ck-exam-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:var(--space-5); margin-bottom:var(--space-8); }
+.ck-exam-card { background:var(--color-surface); border:1px solid var(--color-border); border-radius:var(--radius-lg); padding:var(--space-5); border-top:3px solid var(--ck-color); }
+.ck-exam-card h3 { font-family:var(--font-heading); color:var(--ck-color); margin:0 0 var(--space-2); font-size:var(--text-base); }
+.ck-exam-card__sub { font-size:var(--text-xs); color:var(--color-text-muted); margin-bottom:var(--space-3); }
+.ck-exam-table { width:100%; font-size:var(--text-sm); border-collapse:collapse; }
+.ck-exam-table td { padding:5px 0; }
+.ck-exam-table td:last-child { text-align:right; font-weight:700; }
+.ck-exam-table tr { border-bottom:1px solid var(--color-border-light, rgba(0,0,0,0.06)); }
+.ck-exam-table tr:last-child { border-bottom:none; }
+.ck-exam-total { border-top:2px solid var(--color-border); font-weight:800; }
+.ck-key-stats { display:grid; grid-template-columns:repeat(auto-fit, minmax(140px, 1fr)); gap:var(--space-3); margin-bottom:var(--space-8); }
+.ck-stat { text-align:center; padding:var(--space-4); background:var(--color-surface); border:1px solid var(--color-border); border-radius:var(--radius-md); }
+.ck-stat__num { display:block; font-size:var(--text-xl); font-weight:800; color:var(--color-brand); }
+.ck-stat__label { display:block; font-size:var(--text-xs); color:var(--color-text-muted); margin-top:2px; }
+@media (max-width:768px) {
+  .ck-hero { flex-direction:column; text-align:center; }
+  .ck-paper-grid { grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); }
+  .ck-controls { flex-direction:column; align-items:stretch; }
+  .ck-search { min-width:0; }
+  .ck-exam-grid { grid-template-columns:1fr; }
+}
+@media (max-width:480px) {
+  .ck-paper-grid { grid-template-columns:1fr 1fr; }
+  .ck-key-stats { grid-template-columns:1fr 1fr; }
+  .ck-stage-tabs { gap:var(--space-1); }
+  .ck-stage-tab { padding:6px 10px; font-size:0.65rem; }
+}
+</style>
+
 <section class="page-header">
   <div class="container">
     <nav class="breadcrumb">
@@ -12,167 +93,108 @@ description: "Interactive UPSC Civil Services checklist — exam pattern, marks 
     </nav>
     <p class="page-header__eyebrow">UPSC CSE 2025</p>
     <h1 class="page-header__title">Syllabus Checklist & Exam Navigator</h1>
-    <p class="page-header__subtitle">Full decoded syllabus with micro-topic tracking. Check off topics as you study. All progress saved locally.</p>
+    <p class="page-header__subtitle">Full decoded syllabus with micro-topic tracking. Check off topics as you study — progress saved locally in your browser.</p>
   </div>
 </section>
 
 <section style="padding:var(--space-8) 0;">
   <div class="container">
 
-    {# ── Exam Statistics ── #}
-    <div class="info-card" style="margin-bottom:var(--space-8);">
-      <h2 style="font-family:var(--font-heading); font-size:var(--text-lg); color:var(--color-brand); margin-bottom:var(--space-4);">Exam Pattern at a Glance</h2>
-      <div class="info-card__grid" style="grid-template-columns:repeat(auto-fit, minmax(100px, 1fr));">
-        <div class="info-card__item">
-          <span class="info-card__num">3</span>
-          <span class="info-card__label">Stages</span>
-        </div>
-        <div class="info-card__item">
-          <span class="info-card__num">2025</span>
-          <span class="info-card__label">Total Marks</span>
-        </div>
-        <div class="info-card__item">
-          <span class="info-card__num">11</span>
-          <span class="info-card__label">Papers</span>
-        </div>
-        <div class="info-card__item">
-          <span class="info-card__num">275</span>
-          <span class="info-card__label">Interview</span>
-        </div>
+    {# ── Key Statistics ── #}
+    <div class="ck-key-stats">
+      <div class="ck-stat"><span class="ck-stat__num">3</span><span class="ck-stat__label">Stages</span></div>
+      <div class="ck-stat"><span class="ck-stat__num">2025</span><span class="ck-stat__label">Total Marks</span></div>
+      <div class="ck-stat"><span class="ck-stat__num">9</span><span class="ck-stat__label">Mains Papers</span></div>
+      <div class="ck-stat"><span class="ck-stat__num">1750</span><span class="ck-stat__label">Written Marks</span></div>
+      <div class="ck-stat"><span class="ck-stat__num">275</span><span class="ck-stat__label">Interview</span></div>
+      <div class="ck-stat"><span class="ck-stat__num">21-32</span><span class="ck-stat__label">Age Limit (Gen)</span></div>
+      <div class="ck-stat"><span class="ck-stat__num">6</span><span class="ck-stat__label">Attempts (Gen)</span></div>
+      <div class="ck-stat"><span class="ck-stat__num">~1000</span><span class="ck-stat__label">Approx Vacancies</span></div>
+    </div>
+
+    {# ── Exam Pattern Cards ── #}
+    <h2 class="section-heading" style="margin-bottom:var(--space-5);">Exam Pattern</h2>
+    <div class="ck-exam-grid">
+      <div class="ck-exam-card" style="--ck-color:var(--color-brand);">
+        <h3>Stage 1: Preliminary</h3>
+        <p class="ck-exam-card__sub">Objective MCQs | 2 hours each | Qualifying stage</p>
+        <table class="ck-exam-table">
+          <tr><td>Paper I — General Studies</td><td style="color:var(--color-brand);">200</td></tr>
+          <tr><td>Paper II — CSAT <span style="font-size:0.65rem;color:var(--color-text-muted);">(33% qualifying)</span></td><td style="color:var(--color-brand);">200</td></tr>
+          <tr class="ck-exam-total"><td>Total</td><td style="color:var(--color-brand);">400</td></tr>
+        </table>
+      </div>
+      <div class="ck-exam-card" style="--ck-color:var(--color-accent);">
+        <h3>Stage 2: Mains</h3>
+        <p class="ck-exam-card__sub">Descriptive | 3 hours each | 9 papers</p>
+        <table class="ck-exam-table">
+          <tr><td>Paper A — Indian Language</td><td style="color:var(--color-text-muted);">300 (Q)</td></tr>
+          <tr><td>Paper B — English</td><td style="color:var(--color-text-muted);">300 (Q)</td></tr>
+          <tr><td><strong>Essay</strong></td><td>250</td></tr>
+          <tr><td><strong>GS 1</strong> — History, Geo, Society</td><td>250</td></tr>
+          <tr><td><strong>GS 2</strong> — Polity, Governance, IR</td><td>250</td></tr>
+          <tr><td><strong>GS 3</strong> — Economy, S&T, Env, Security</td><td>250</td></tr>
+          <tr><td><strong>GS 4</strong> — Ethics</td><td>250</td></tr>
+          <tr><td><strong>Optional I</strong></td><td>250</td></tr>
+          <tr><td><strong>Optional II</strong></td><td>250</td></tr>
+          <tr class="ck-exam-total"><td>Total for Ranking</td><td style="color:var(--color-accent-hover);">1750</td></tr>
+        </table>
+      </div>
+      <div class="ck-exam-card" style="--ck-color:#7c3aed;">
+        <h3>Stage 3: Interview</h3>
+        <p class="ck-exam-card__sub">Personality Test | 275 marks</p>
+        <table class="ck-exam-table">
+          <tr><td>Mental alertness & critical assimilation</td><td></td></tr>
+          <tr><td>Clear and logical exposition</td><td></td></tr>
+          <tr><td>Balance of judgment</td><td></td></tr>
+          <tr><td>Intellectual and moral integrity</td><td></td></tr>
+          <tr><td>Leadership and social traits</td><td></td></tr>
+          <tr class="ck-exam-total"><td><strong>Final = Written + Interview</strong></td><td style="color:#7c3aed;">2025</td></tr>
+        </table>
       </div>
     </div>
 
-    {# ── Three Stages ── #}
-    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:var(--space-5); margin-bottom:var(--space-8);">
-
-      {# Prelims #}
-      <div class="strategy-card" style="border-top:3px solid var(--color-brand);">
-        <h3 style="font-family:var(--font-heading); color:var(--color-brand); margin-bottom:var(--space-3);">Stage 1: Preliminary</h3>
-        <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin-bottom:var(--space-3);">Qualifying — Objective MCQs — 2 hours each</p>
-        <table style="width:100%; font-size:var(--text-sm); border-collapse:collapse;">
-          <tr style="border-bottom:1px solid var(--color-border);">
-            <td style="padding:6px 0; font-weight:600;">Paper I — General Studies</td>
-            <td style="padding:6px 0; text-align:right; font-weight:700; color:var(--color-brand);">200</td>
-          </tr>
-          <tr>
-            <td style="padding:6px 0; font-weight:600;">Paper II — CSAT</td>
-            <td style="padding:6px 0; text-align:right; font-weight:700; color:var(--color-brand);">200</td>
-          </tr>
-          <tr style="border-top:1px solid var(--color-border);">
-            <td style="padding:6px 0; font-size:var(--text-xs); color:var(--color-text-muted);">CSAT is qualifying (33% min)</td>
-            <td style="padding:6px 0; text-align:right; font-weight:800; color:var(--color-brand);">400</td>
-          </tr>
-        </table>
-      </div>
-
-      {# Mains #}
-      <div class="strategy-card" style="border-top:3px solid var(--color-accent);">
-        <h3 style="font-family:var(--font-heading); color:var(--color-accent-hover); margin-bottom:var(--space-3);">Stage 2: Main Examination</h3>
-        <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin-bottom:var(--space-3);">Written Descriptive — 3 hours each</p>
-        <table style="width:100%; font-size:var(--text-sm); border-collapse:collapse;">
-          <tr style="border-bottom:1px solid var(--color-border);">
-            <td style="padding:4px 0;">Paper A — Indian Language</td>
-            <td style="padding:4px 0; text-align:right; color:var(--color-text-muted);">300 (Q)</td>
-          </tr>
-          <tr style="border-bottom:1px solid var(--color-border);">
-            <td style="padding:4px 0;">Paper B — English</td>
-            <td style="padding:4px 0; text-align:right; color:var(--color-text-muted);">300 (Q)</td>
-          </tr>
-          <tr style="border-bottom:1px solid var(--color-border);">
-            <td style="padding:4px 0; font-weight:600;">Essay</td>
-            <td style="padding:4px 0; text-align:right; font-weight:700;">250</td>
-          </tr>
-          <tr style="border-bottom:1px solid var(--color-border);">
-            <td style="padding:4px 0; font-weight:600;">GS Paper 1</td>
-            <td style="padding:4px 0; text-align:right; font-weight:700;">250</td>
-          </tr>
-          <tr style="border-bottom:1px solid var(--color-border);">
-            <td style="padding:4px 0; font-weight:600;">GS Paper 2</td>
-            <td style="padding:4px 0; text-align:right; font-weight:700;">250</td>
-          </tr>
-          <tr style="border-bottom:1px solid var(--color-border);">
-            <td style="padding:4px 0; font-weight:600;">GS Paper 3</td>
-            <td style="padding:4px 0; text-align:right; font-weight:700;">250</td>
-          </tr>
-          <tr style="border-bottom:1px solid var(--color-border);">
-            <td style="padding:4px 0; font-weight:600;">GS Paper 4 — Ethics</td>
-            <td style="padding:4px 0; text-align:right; font-weight:700;">250</td>
-          </tr>
-          <tr style="border-bottom:1px solid var(--color-border);">
-            <td style="padding:4px 0; font-weight:600;">Optional Paper 1</td>
-            <td style="padding:4px 0; text-align:right; font-weight:700;">250</td>
-          </tr>
-          <tr>
-            <td style="padding:4px 0; font-weight:600;">Optional Paper 2</td>
-            <td style="padding:4px 0; text-align:right; font-weight:700;">250</td>
-          </tr>
-          <tr style="border-top:2px solid var(--color-border);">
-            <td style="padding:6px 0; font-weight:800;">Total for Ranking</td>
-            <td style="padding:6px 0; text-align:right; font-weight:800; color:var(--color-accent-hover);">1750</td>
-          </tr>
-        </table>
-      </div>
-
-      {# Interview #}
-      <div class="strategy-card" style="border-top:3px solid #7c3aed;">
-        <h3 style="font-family:var(--font-heading); color:#7c3aed; margin-bottom:var(--space-3);">Stage 3: Interview</h3>
-        <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin-bottom:var(--space-3);">Personality Test — 275 marks</p>
-        <div style="font-size:var(--text-sm); line-height:1.7;">
-          <p style="margin-bottom:var(--space-2);">Assessed on:</p>
-          <ul style="margin:0; padding-left:var(--space-5); color:var(--color-text-secondary);">
-            <li>Mental alertness</li>
-            <li>Critical powers of assimilation</li>
-            <li>Clear and logical exposition</li>
-            <li>Balance of judgment</li>
-            <li>Intellectual and moral integrity</li>
-            <li>Leadership and social traits</li>
-          </ul>
-        </div>
-        <div style="margin-top:var(--space-4); padding-top:var(--space-3); border-top:1px solid var(--color-border); font-size:var(--text-sm); font-weight:700; display:flex; justify-content:space-between;">
-          <span>Final Ranking</span>
-          <span style="color:#7c3aed;">1750 + 275 = 2025</span>
-        </div>
-      </div>
-    </div>
-
-    {# ── Syllabus Progress Overview ── #}
+    {# ── Progress Ring Hero ── #}
     <h2 class="section-heading" style="margin-bottom:var(--space-4);">Syllabus Progress</h2>
-    <div class="info-card" style="margin-bottom:var(--space-4);">
-      <div class="info-card__grid" style="grid-template-columns:repeat(auto-fit, minmax(100px, 1fr));">
-        <div class="info-card__item">
-          <span class="info-card__num" id="ck-pct">0%</span>
-          <span class="info-card__label">Overall</span>
-        </div>
-        <div class="info-card__item">
-          <span class="info-card__num" id="ck-done">0</span>
-          <span class="info-card__label">Done</span>
-        </div>
-        <div class="info-card__item">
-          <span class="info-card__num" id="ck-total">0</span>
-          <span class="info-card__label">Total Topics</span>
-        </div>
-        <div class="info-card__item">
-          <span class="info-card__num" id="ck-left">0</span>
-          <span class="info-card__label">Remaining</span>
-        </div>
+    <div class="ck-hero">
+      <div class="ck-ring-wrap">
+        <svg class="ck-ring-svg" viewBox="0 0 100 100" width="110" height="110">
+          <circle class="ck-ring-bg" cx="50" cy="50" r="42"/>
+          <circle class="ck-ring-fill" id="ck-ring" cx="50" cy="50" r="42" stroke-dasharray="263.89" stroke-dashoffset="263.89"/>
+          <text class="ck-ring-pct" id="ck-ring-pct" x="50" y="47" dominant-baseline="central" text-anchor="middle">0%</text>
+          <text class="ck-ring-sub" id="ck-ring-sub" x="50" y="62" dominant-baseline="central" text-anchor="middle">0 / 0</text>
+        </svg>
       </div>
-      <div style="background:var(--color-border); border-radius:99px; height:10px; overflow:hidden; margin-top:var(--space-3);">
-        <div id="ck-bar" style="background:var(--color-brand); height:100%; width:0%; border-radius:99px; transition:width 0.4s;"></div>
+      <div class="ck-hero-stats">
+        <p class="ck-hero-label" id="ck-hero-label">0 of 0 topics completed</p>
+        <p class="ck-hero-sub" id="ck-hero-sub">Check off topics as you study. Progress is saved automatically.</p>
       </div>
     </div>
 
-    {# ── Controls ── #}
-    <div style="display:flex; flex-wrap:wrap; gap:var(--space-3); margin-bottom:var(--space-5); align-items:center;">
-      <input id="ck-search" type="search" placeholder="Search topics..." style="flex:1; min-width:200px; padding:8px 14px; border:1px solid var(--color-border); border-radius:var(--radius-md); font-size:var(--text-sm); background:var(--color-surface);">
-      <select id="ck-filter" style="padding:8px 14px; border:1px solid var(--color-border); border-radius:var(--radius-md); font-size:var(--text-sm); background:var(--color-surface);">
-        <option value="all">All Sections</option>
-      </select>
-      <select id="ck-status" style="padding:8px 14px; border:1px solid var(--color-border); border-radius:var(--radius-md); font-size:var(--text-sm); background:var(--color-surface);">
+    {# ── Paper Mini Cards ── #}
+    <div class="ck-paper-grid" id="ck-paper-grid"></div>
+
+    {# ── Stage Tabs ── #}
+    <div class="ck-stage-tabs" id="ck-stage-tabs">
+      <button class="ck-stage-tab active" data-stage="all">All Papers</button>
+      <button class="ck-stage-tab" data-stage="prelims">Prelims</button>
+      <button class="ck-stage-tab" data-stage="mains">Mains</button>
+    </div>
+
+    {# ── Controls Bar ── #}
+    <div class="ck-controls">
+      <input id="ck-search" class="ck-search" type="search" placeholder="Search topics..." autocomplete="off">
+      <select id="ck-status" class="ck-select">
         <option value="all">All Status</option>
         <option value="pending">Pending</option>
         <option value="done">Completed</option>
       </select>
-      <button id="ck-reset" style="padding:8px 14px; border:1.5px solid var(--color-error, #dc2626); color:var(--color-error, #dc2626); background:none; border-radius:var(--radius-md); font-size:var(--text-xs); font-weight:600; cursor:pointer;">Reset All</button>
+      <button id="ck-mark-visible" class="ck-btn ck-btn--brand" type="button">Mark Visible Done</button>
+      <button id="ck-clear-visible" class="ck-btn ck-btn--accent" type="button">Clear Visible</button>
+      <button id="ck-export" class="ck-btn" type="button">Export</button>
+      <button id="ck-import-btn" class="ck-btn" type="button">Import</button>
+      <input id="ck-import-file" type="file" accept="application/json" hidden>
+      <button id="ck-reset" class="ck-btn ck-btn--danger" type="button">Reset</button>
     </div>
 
     {# ── Checklist Container ── #}
@@ -183,675 +205,682 @@ description: "Interactive UPSC Civil Services checklist — exam pattern, marks 
 
 <script>
 (function() {
-  // ── Syllabus Data (from UPSC Syllabus Decoded PDF) ──
   var SYLLABUS = [
     {
-      id: "prelims-gs",
+      id: "prelims-gs", stage: "prelims",
       title: "Prelims Paper I — General Studies",
-      color: "#0f4c3a",
+      short: "Prelims GS",
+      color: "#0f4c3a", marks: 200,
       sections: [
-        {
-          name: "Current Events",
-          topics: [
-            "Major government schemes (PMAY, Ayushman Bharat, Jal Jeevan Mission)",
-            "Recent constitutional amendments",
-            "Key Supreme Court and High Court judgments",
-            "Major bills and acts passed in Parliament",
-            "Economic Survey and Union Budget highlights",
-            "India's rankings in global indices (HDI, EPI, GHI)",
-            "International summits (G20, BRICS, COP, SCO)",
-            "India's bilateral and multilateral agreements",
-            "Important appointments (national and international)",
-            "Major awards (Padma, Nobel, Bharat Ratna, sports)",
-            "Major scientific and technological developments (ISRO, DRDO)",
-            "Environmental disasters and responses",
-            "Reports by NITI Aayog, World Bank, IMF, UN agencies",
-            "Major infrastructure projects (Bharatmala, Sagarmala, Smart Cities)",
-            "India's foreign policy developments"
-          ]
-        },
-        {
-          name: "History — Ancient India",
-          topics: [
-            "Indus Valley Civilization: sites, features, decline",
-            "Vedic Age: Rig Vedic vs Later Vedic society",
-            "Mahajanapadas and urbanization",
-            "Rise of Jainism and Buddhism: teachings, councils",
-            "Mauryan Empire: administration, Ashoka's Dhamma",
-            "Post-Mauryan kingdoms: Shungas, Satavahanas, Kushanas",
-            "Sangam Age: literature, polity",
-            "Gupta Empire: Golden Age, administration, decline",
-            "Harshavardhana and his times",
-            "South Indian dynasties: Cholas, Cheras, Pandyas",
-            "Art and architecture: Stupa, temple, cave",
-            "Science and technology: Aryabhata, Charaka, Sushruta",
-            "Literature: Vedas, Upanishads, epics, Puranas",
-            "Education: Nalanda, Takshashila"
-          ]
-        },
-        {
-          name: "History — Medieval India",
-          topics: [
-            "Early medieval kingdoms: Chalukyas, Pallavas, Rashtrakutas",
-            "Delhi Sultanate: Slave, Khilji, Tughlaq, Sayyid, Lodi dynasties",
-            "Administration and military reforms of Sultanate",
-            "Bhakti and Sufi movements",
-            "Vijayanagara and Bahmani kingdoms",
-            "Mughal Empire: Babur to Aurangzeb, administration, art",
-            "Regional kingdoms: Marathas, Rajputs, Sikhs, Ahoms",
-            "Mughal decline and causes",
-            "Art and culture: Mughal painting, architecture, music",
-            "Foreign travelers' accounts"
-          ]
-        },
-        {
-          name: "History — Modern India",
-          topics: [
-            "Advent of Europeans and British expansion",
-            "Anglo-French, Anglo-Mysore, Anglo-Maratha wars",
-            "Economic impact: land revenue systems, deindustrialization",
-            "Social reform movements: Brahmo, Arya, Aligarh, Prarthana Samaj",
-            "Revolt of 1857: causes, course, consequences",
-            "Formation and growth of Indian National Congress",
-            "Partition of Bengal and Swadeshi movement",
-            "Home Rule Movement",
-            "Constitutional developments: 1909, 1919, 1935 Acts",
-            "Gandhian movements: Non-Cooperation, Civil Disobedience, Quit India",
-            "Revolutionary movements: Ghadar, HSRA, INA",
-            "Role of women, peasants, tribals in freedom struggle",
-            "Partition and independence: Cabinet Mission, Mountbatten Plan",
-            "Integration of princely states",
-            "Linguistic reorganization post-independence",
-            "Major post-1947 events: Green Revolution, Emergency"
-          ]
-        },
-        {
-          name: "Geography — Physical",
-          topics: [
-            "Earth's structure: crust, mantle, core",
-            "Plate tectonics and continental drift",
-            "Geomorphic processes: weathering, erosion, deposition",
-            "Landforms: mountains, plateaus, plains, deserts",
-            "Earthquakes and volcanoes: causes, distribution",
-            "Rocks: types and rock cycle",
-            "Atmosphere: composition, layers, ozone",
-            "Winds: planetary, monsoon, local winds",
-            "Pressure belts and wind systems",
-            "Precipitation: types, world distribution",
-            "Oceanography: currents, tides, waves",
-            "Coral reefs and mangroves",
-            "Biomes and ecological zones",
-            "Soils: types, formation, conservation",
-            "Natural hazards: cyclones, droughts, floods"
-          ]
-        },
-        {
-          name: "Geography — Indian",
-          topics: [
-            "Physiographic divisions: Himalayas, plains, plateau, coasts, islands",
-            "River systems: Ganga, Brahmaputra, Godavari, Narmada etc.",
-            "Climate: monsoon, droughts, floods, cyclones",
-            "Soils: alluvial, black, red, laterite, saline, desert, peat",
-            "Natural vegetation: forests, grasslands, wetlands",
-            "Wildlife: national parks, sanctuaries, biosphere reserves",
-            "Mineral resources: distribution, production",
-            "Energy resources: coal, oil, gas, renewables",
-            "Agriculture: cropping patterns, green revolution, issues",
-            "Irrigation: types, major projects",
-            "Industries: types, major regions",
-            "Transport: road, rail, air, waterways",
-            "Urbanization: trends, problems",
-            "Population: distribution, density, growth, migration",
-            "Disaster management: earthquakes, floods, cyclones"
-          ]
-        },
-        {
-          name: "Indian Polity & Governance",
-          topics: [
-            "Historical evolution: Regulating Act, Charter Acts, GoI Acts",
-            "Constitution: features, preamble, schedules, amendments",
-            "Fundamental Rights and Duties",
-            "Directive Principles of State Policy",
-            "Union Executive: President, Vice President, PM, Council of Ministers",
-            "State Executive: Governor, CM, Council of Ministers",
-            "Parliament: structure, powers, procedures",
-            "State Legislatures: structure, powers",
-            "Judiciary: Supreme Court, High Courts, judicial review, PIL",
-            "Federalism: Centre-State relations, Finance Commission",
-            "Emergency provisions: national, state, financial",
-            "Local government: Panchayati Raj (73rd), Municipalities (74th)",
-            "Constitutional bodies: EC, UPSC, CAG, Finance Commission",
-            "Statutory bodies: NHRC, NCW, NCSC, NCST, Lokpal",
-            "Political parties and election process",
-            "Anti-defection law",
-            "RTI, Citizen's Charter, e-governance",
-            "Important Supreme Court judgments"
-          ]
-        },
-        {
-          name: "Economic & Social Development",
-          topics: [
-            "National income: GDP, GNP, NDP concepts",
-            "Economic planning: Five-Year Plans, NITI Aayog",
-            "Economic reforms: LPG, GST, IBC",
-            "Monetary policy: RBI, repo, reverse repo",
-            "Fiscal policy: budget, deficits, FRBM Act",
-            "Banking: types, functions, financial inclusion, digital banking",
-            "Inflation: types, causes, measures",
-            "Poverty: measurement, causes, trends, schemes",
-            "Unemployment: types, causes, trends, schemes",
-            "Agriculture: MSP, subsidies, crop insurance, PM-KISAN",
-            "Industry: Make in India, MSMEs, industrial corridors",
-            "Infrastructure: roads, railways, ports, airports, logistics",
-            "Social sector: health, education, nutrition (Ayushman, NEP, POSHAN)",
-            "Human development: HDI, gender indices, literacy, health",
-            "Demographics: population policy, census, migration",
-            "Inclusive growth: financial inclusion, SHGs, microfinance",
-            "Sustainable development: SDGs, green economy",
-            "Government schemes: PMJDY, PMUY, PMGSY, Swachh Bharat"
-          ]
-        },
-        {
-          name: "Environment, Ecology & Climate Change",
-          topics: [
-            "Ecosystem: structure, types, functions, energy flow",
-            "Food chains and food webs",
-            "Biodiversity: levels, hotspots, threats, conservation",
-            "Wildlife protection: acts, reserves, endangered species",
-            "Environmental pollution: air, water, soil, noise, e-waste",
-            "Climate change: causes, effects, adaptation, mitigation",
-            "Ozone depletion, acid rain, global warming",
-            "Environmental laws: EPA, Forest Act, Wildlife Protection Act",
-            "International conventions: CBD, CITES, Ramsar, Kyoto, Paris",
-            "Environmental impact assessment (EIA)",
-            "Renewable energy: solar, wind, hydro, bioenergy",
-            "Conservation: afforestation, social forestry, JFM",
-            "Wetlands, mangroves, coral reefs: significance, threats",
-            "Sustainable development: SDGs, indicators, challenges"
-          ]
-        },
-        {
-          name: "General Science",
-          topics: [
-            "Physics: motion, force, work, energy, sound, light, electricity, magnetism",
-            "Chemistry: atomic structure, periodic table, bonding, acids-bases-salts",
-            "Biology: cell structure, genetics, evolution, plant and animal physiology",
-            "Human health and diseases, nutrition, vaccines, biotechnology",
-            "Space technology: ISRO missions, satellites, GSLV, PSLV, Gaganyaan",
-            "Nuclear technology: reactors, radiation, safety",
-            "Information technology: internet, cybersecurity, e-governance",
-            "Defense technology: missiles, drones, indigenous weapons",
-            "Health and medicine: diseases, vaccines, diagnostics",
-            "Science in news: Nobel Prizes, major discoveries"
-          ]
-        }
+        { name: "Current Events", topics: [
+          "Major government schemes (PMAY, Ayushman Bharat, Jal Jeevan Mission)",
+          "Recent constitutional amendments",
+          "Key Supreme Court and High Court judgments",
+          "Major bills and acts passed in Parliament",
+          "Economic Survey and Union Budget highlights",
+          "India's rankings in global indices (HDI, EPI, GHI)",
+          "International summits (G20, BRICS, COP, SCO)",
+          "India's bilateral and multilateral agreements",
+          "Important appointments (national and international)",
+          "Major awards (Padma, Nobel, Bharat Ratna, sports)",
+          "Major scientific and technological developments (ISRO, DRDO)",
+          "Environmental disasters and responses",
+          "Reports by NITI Aayog, World Bank, IMF, UN agencies",
+          "Major infrastructure projects (Bharatmala, Sagarmala, Smart Cities)",
+          "India's foreign policy developments"
+        ]},
+        { name: "History — Ancient India", topics: [
+          "Indus Valley Civilization: sites, features, decline",
+          "Vedic Age: Rig Vedic vs Later Vedic society",
+          "Mahajanapadas and urbanization",
+          "Rise of Jainism and Buddhism: teachings, councils",
+          "Mauryan Empire: administration, Ashoka's Dhamma",
+          "Post-Mauryan kingdoms: Shungas, Satavahanas, Kushanas",
+          "Sangam Age: literature, polity",
+          "Gupta Empire: Golden Age, administration, decline",
+          "Harshavardhana and his times",
+          "South Indian dynasties: Cholas, Cheras, Pandyas",
+          "Art and architecture: Stupa, temple, cave",
+          "Science and technology: Aryabhata, Charaka, Sushruta",
+          "Literature: Vedas, Upanishads, epics, Puranas",
+          "Education: Nalanda, Takshashila"
+        ]},
+        { name: "History — Medieval India", topics: [
+          "Early medieval kingdoms: Chalukyas, Pallavas, Rashtrakutas",
+          "Delhi Sultanate: Slave, Khilji, Tughlaq, Sayyid, Lodi",
+          "Administration and military reforms of Sultanate",
+          "Bhakti and Sufi movements",
+          "Vijayanagara and Bahmani kingdoms",
+          "Mughal Empire: Babur to Aurangzeb, administration, art",
+          "Regional kingdoms: Marathas, Rajputs, Sikhs, Ahoms",
+          "Mughal decline and causes",
+          "Art and culture: Mughal painting, architecture, music",
+          "Foreign travelers' accounts"
+        ]},
+        { name: "History — Modern India", topics: [
+          "Advent of Europeans and British expansion",
+          "Anglo-French, Anglo-Mysore, Anglo-Maratha wars",
+          "Economic impact: land revenue systems, deindustrialization",
+          "Social reform movements: Brahmo, Arya, Aligarh, Prarthana Samaj",
+          "Revolt of 1857: causes, course, consequences",
+          "Formation and growth of Indian National Congress",
+          "Partition of Bengal and Swadeshi movement",
+          "Home Rule Movement",
+          "Constitutional developments: 1909, 1919, 1935 Acts",
+          "Gandhian movements: Non-Cooperation, Civil Disobedience, Quit India",
+          "Revolutionary movements: Ghadar, HSRA, INA",
+          "Role of women, peasants, tribals in freedom struggle",
+          "Partition and independence: Cabinet Mission, Mountbatten Plan",
+          "Integration of princely states",
+          "Linguistic reorganization post-independence",
+          "Major post-1947 events: Green Revolution, Emergency"
+        ]},
+        { name: "Geography — Physical", topics: [
+          "Earth's structure: crust, mantle, core",
+          "Plate tectonics and continental drift",
+          "Geomorphic processes: weathering, erosion, deposition",
+          "Landforms: mountains, plateaus, plains, deserts",
+          "Earthquakes and volcanoes: causes, distribution",
+          "Rocks: types and rock cycle",
+          "Atmosphere: composition, layers, ozone",
+          "Winds: planetary, monsoon, local winds",
+          "Pressure belts and wind systems",
+          "Precipitation: types, world distribution",
+          "Oceanography: currents, tides, waves",
+          "Coral reefs and mangroves",
+          "Biomes and ecological zones",
+          "Soils: types, formation, conservation",
+          "Natural hazards: cyclones, droughts, floods"
+        ]},
+        { name: "Geography — Indian", topics: [
+          "Physiographic divisions: Himalayas, plains, plateau, coasts, islands",
+          "River systems: Ganga, Brahmaputra, Godavari, Narmada",
+          "Climate: monsoon, droughts, floods, cyclones",
+          "Soils: alluvial, black, red, laterite, saline, desert, peat",
+          "Natural vegetation: forests, grasslands, wetlands",
+          "Wildlife: national parks, sanctuaries, biosphere reserves",
+          "Mineral resources: distribution, production",
+          "Energy resources: coal, oil, gas, renewables",
+          "Agriculture: cropping patterns, green revolution, issues",
+          "Irrigation: types, major projects",
+          "Industries: types, major regions, location factors",
+          "Transport: road, rail, air, waterways",
+          "Urbanization: trends, problems",
+          "Population: distribution, density, growth, migration",
+          "Disaster management: earthquakes, floods, cyclones"
+        ]},
+        { name: "Indian Polity & Governance", topics: [
+          "Historical evolution: Regulating Act, Charter Acts, GoI Acts",
+          "Constitution: features, preamble, schedules, amendments",
+          "Fundamental Rights and Duties",
+          "Directive Principles of State Policy",
+          "Union Executive: President, Vice President, PM, Council of Ministers",
+          "State Executive: Governor, CM, Council of Ministers",
+          "Parliament: structure, powers, procedures",
+          "State Legislatures: structure, powers",
+          "Judiciary: Supreme Court, High Courts, judicial review, PIL",
+          "Federalism: Centre-State relations, Finance Commission",
+          "Emergency provisions: national, state, financial",
+          "Local government: Panchayati Raj (73rd), Municipalities (74th)",
+          "Constitutional bodies: EC, UPSC, CAG, Finance Commission",
+          "Statutory bodies: NHRC, NCW, NCSC, NCST, Lokpal",
+          "Political parties and election process",
+          "Anti-defection law",
+          "RTI, Citizen's Charter, e-governance",
+          "Important Supreme Court judgments"
+        ]},
+        { name: "Economic & Social Development", topics: [
+          "National income: GDP, GNP, NDP concepts",
+          "Economic planning: Five-Year Plans, NITI Aayog",
+          "Economic reforms: LPG, GST, IBC",
+          "Monetary policy: RBI, repo, reverse repo",
+          "Fiscal policy: budget, deficits, FRBM Act",
+          "Banking: types, functions, financial inclusion, digital banking",
+          "Inflation: types, causes, measures",
+          "Poverty: measurement, causes, trends, schemes",
+          "Unemployment: types, causes, trends, schemes",
+          "Agriculture: MSP, subsidies, crop insurance, PM-KISAN",
+          "Industry: Make in India, MSMEs, industrial corridors",
+          "Infrastructure: roads, railways, ports, airports, logistics",
+          "Social sector: health, education, nutrition",
+          "Human development: HDI, gender indices, literacy",
+          "Demographics: population policy, census, migration",
+          "Inclusive growth: financial inclusion, SHGs, microfinance",
+          "Sustainable development: SDGs, green economy",
+          "Government schemes: PMJDY, PMUY, PMGSY, Swachh Bharat"
+        ]},
+        { name: "Environment, Ecology & Climate Change", topics: [
+          "Ecosystem: structure, types, functions, energy flow",
+          "Food chains and food webs",
+          "Biodiversity: levels, hotspots, threats, conservation",
+          "Wildlife protection: acts, reserves, endangered species",
+          "Environmental pollution: air, water, soil, noise, e-waste",
+          "Climate change: causes, effects, adaptation, mitigation",
+          "Ozone depletion, acid rain, global warming",
+          "Environmental laws: EPA, Forest Act, Wildlife Protection Act",
+          "International conventions: CBD, CITES, Ramsar, Kyoto, Paris",
+          "Environmental impact assessment (EIA)",
+          "Renewable energy: solar, wind, hydro, bioenergy",
+          "Conservation: afforestation, social forestry, JFM",
+          "Wetlands, mangroves, coral reefs: significance, threats",
+          "Sustainable development: SDGs, indicators, challenges"
+        ]},
+        { name: "General Science", topics: [
+          "Physics: motion, force, work, energy, sound, light, electricity",
+          "Chemistry: atomic structure, periodic table, bonding, acids-bases-salts",
+          "Biology: cell structure, genetics, evolution, physiology",
+          "Human health and diseases, nutrition, vaccines, biotechnology",
+          "Space technology: ISRO, satellites, GSLV, PSLV, Gaganyaan",
+          "Nuclear technology: reactors, radiation, safety",
+          "IT: internet, cybersecurity, e-governance, AI",
+          "Defense technology: missiles, drones, indigenous weapons",
+          "Health and medicine: diseases, vaccines, diagnostics",
+          "Science in news: Nobel Prizes, major discoveries"
+        ]}
       ]
     },
     {
-      id: "prelims-csat",
+      id: "prelims-csat", stage: "prelims",
       title: "Prelims Paper II — CSAT (Qualifying)",
-      color: "#6366f1",
+      short: "CSAT",
+      color: "#6366f1", marks: 200,
       sections: [
-        {
-          name: "Comprehension",
-          topics: [
-            "Reading comprehension (short and long passages)",
-            "Main idea identification and inference",
-            "Fact vs opinion, tone and attitude",
-            "Data-based comprehension (passages with charts/tables)"
-          ]
-        },
-        {
-          name: "Logical Reasoning & Analytical Ability",
-          topics: [
-            "Number series, alphabet series, coding-decoding",
-            "Blood relations, direction sense, seating arrangements",
-            "Syllogisms, statement-assumptions-conclusions",
-            "Cause and effect, course of action",
-            "Puzzles (logical, analytical), Venn diagrams"
-          ]
-        },
-        {
-          name: "Decision Making & Problem Solving",
-          topics: [
-            "Case studies with administrative scenarios",
-            "Ethical dilemmas and choices",
-            "Prioritization of tasks, conflict of interest",
-            "Resource allocation, crisis management"
-          ]
-        },
-        {
-          name: "Basic Numeracy & Data Interpretation",
-          topics: [
-            "Number system, LCM/HCF, simplification",
-            "Ratio, proportion, percentage, average",
-            "Profit/loss, interest, time-work-distance",
-            "Mensuration (area, perimeter, volume)",
-            "Tables, bar graphs, line graphs, pie charts",
-            "Mixed graphs, caselets, trends and patterns"
-          ]
-        }
+        { name: "Comprehension", topics: [
+          "Reading comprehension (short and long passages)",
+          "Main idea identification and inference",
+          "Fact vs opinion, tone and attitude",
+          "Data-based comprehension (passages with charts/tables)"
+        ]},
+        { name: "Logical Reasoning & Analytical Ability", topics: [
+          "Number series, alphabet series, coding-decoding",
+          "Blood relations, direction sense, seating arrangements",
+          "Syllogisms, statement-assumptions-conclusions",
+          "Cause and effect, course of action",
+          "Puzzles (logical, analytical), Venn diagrams"
+        ]},
+        { name: "Decision Making & Problem Solving", topics: [
+          "Case studies with administrative scenarios",
+          "Ethical dilemmas and choices",
+          "Prioritization of tasks, conflict of interest",
+          "Resource allocation, crisis management"
+        ]},
+        { name: "Basic Numeracy & Data Interpretation", topics: [
+          "Number system, LCM/HCF, simplification",
+          "Ratio, proportion, percentage, average",
+          "Profit/loss, interest, time-work-distance",
+          "Mensuration (area, perimeter, volume)",
+          "Tables, bar graphs, line graphs, pie charts",
+          "Mixed graphs, caselets, trends and patterns"
+        ]}
       ]
     },
     {
-      id: "mains-gs1",
-      title: "Mains GS Paper 1 — History, Geography, Society (250 marks)",
-      color: "#9f1239",
+      id: "mains-gs1", stage: "mains",
+      title: "GS Paper 1 — History, Geography, Society",
+      short: "GS 1",
+      color: "#9f1239", marks: 250,
       sections: [
-        {
-          name: "Indian Heritage & Culture",
-          topics: [
-            "Salient features of Indian culture",
-            "Art forms: classical and folk (music, dance, drama, painting)",
-            "Architecture: ancient, medieval, modern",
-            "Literature: Vedic, classical, medieval, modern",
-            "Religion and philosophy: Hinduism, Buddhism, Jainism, Islam, Sikhism",
-            "Cultural institutions and preservation (ASI, UNESCO sites)",
-            "Handicrafts, textiles, and cultural exchange",
-            "Impact of colonialism on Indian culture"
-          ]
-        },
-        {
-          name: "Modern Indian History",
-          topics: [
-            "British expansion and consolidation",
-            "Socio-religious reform movements",
-            "Revolt of 1857: causes, course, consequences",
-            "Formation of Indian National Congress",
-            "Gandhian movements: Non-Cooperation, Civil Disobedience, Quit India",
-            "Revolutionary activities and organizations (INA, Ghadar)",
-            "Role of women, Dalits, and marginalized groups",
-            "Constitutional developments (1909, 1919, 1935 Acts)",
-            "Communalism and partition",
-            "Post-independence consolidation and reorganization"
-          ]
-        },
-        {
-          name: "World History",
-          topics: [
-            "Renaissance and Reformation",
-            "Industrial Revolution",
-            "American and French Revolutions",
-            "Unification of Germany and Italy",
-            "Colonialism and imperialism",
-            "World Wars I & II: causes, events, consequences",
-            "Russian Revolution and Communism",
-            "Rise of Fascism and Nazism",
-            "Cold War: events, impact, end",
-            "Decolonization in Asia and Africa"
-          ]
-        },
-        {
-          name: "Geography of India & World",
-          topics: [
-            "Physical geography: landforms, climate, vegetation",
-            "Drainage systems: rivers, lakes, wetlands",
-            "Climate and monsoon: patterns, variability, climate change",
-            "Natural resources: minerals, energy, forests, water",
-            "Agriculture: cropping patterns, irrigation, green revolution",
-            "Industrial regions and infrastructure",
-            "Urbanization: trends, problems, smart cities",
-            "Population: distribution, density, migration",
-            "World geography: continents, oceans, climatic zones",
-            "Geopolitical features and boundaries",
-            "Recent geographical phenomena (El Nino, La Nina)"
-          ]
-        },
-        {
-          name: "Indian Society",
-          topics: [
-            "Indian society: diversity and pluralism",
-            "Caste, class, and ethnicity",
-            "Role of women and women's organizations",
-            "Population and associated issues",
-            "Poverty and developmental challenges",
-            "Urbanization and migration",
-            "Social empowerment and affirmative action",
-            "Regionalism and communalism",
-            "Social movements (environmental, gender, tribal)",
-            "Globalization and social change",
-            "Education and health issues",
-            "Role of NGOs and civil society"
-          ]
-        }
+        { name: "Indian Heritage & Culture", topics: [
+          "Salient features of Indian culture",
+          "Art forms: classical and folk (music, dance, drama, painting)",
+          "Architecture: ancient, medieval, modern",
+          "Literature: Vedic, classical, medieval, modern",
+          "Religion and philosophy: Hinduism, Buddhism, Jainism, Islam, Sikhism",
+          "Cultural institutions and preservation (ASI, UNESCO sites)",
+          "Handicrafts, textiles, and cultural exchange",
+          "Impact of colonialism on Indian culture"
+        ]},
+        { name: "Modern Indian History", topics: [
+          "British expansion and consolidation",
+          "Socio-religious reform movements",
+          "Revolt of 1857: causes, course, consequences",
+          "Formation of Indian National Congress",
+          "Gandhian movements: Non-Cooperation, Civil Disobedience, Quit India",
+          "Revolutionary activities and organizations (INA, Ghadar)",
+          "Role of women, Dalits, and marginalized groups",
+          "Constitutional developments (1909, 1919, 1935 Acts)",
+          "Communalism and partition",
+          "Post-independence consolidation and reorganization"
+        ]},
+        { name: "World History", topics: [
+          "Renaissance and Reformation",
+          "Industrial Revolution",
+          "American and French Revolutions",
+          "Unification of Germany and Italy",
+          "Colonialism and imperialism",
+          "World Wars I & II: causes, events, consequences",
+          "Russian Revolution and Communism",
+          "Rise of Fascism and Nazism",
+          "Cold War: events, impact, end",
+          "Decolonization in Asia and Africa"
+        ]},
+        { name: "Geography of India & World", topics: [
+          "Physical geography: landforms, climate, vegetation",
+          "Drainage systems: rivers, lakes, wetlands",
+          "Climate and monsoon: patterns, variability, climate change",
+          "Natural resources: minerals, energy, forests, water",
+          "Agriculture: cropping patterns, irrigation, green revolution",
+          "Industrial regions and infrastructure",
+          "Urbanization: trends, problems, smart cities",
+          "Population: distribution, density, migration",
+          "World geography: continents, oceans, climatic zones",
+          "Geopolitical features and boundaries",
+          "Recent geographical phenomena (El Nino, La Nina)"
+        ]},
+        { name: "Indian Society", topics: [
+          "Indian society: diversity and pluralism",
+          "Caste, class, and ethnicity",
+          "Role of women and women's organizations",
+          "Population and associated issues",
+          "Poverty and developmental challenges",
+          "Urbanization and migration",
+          "Social empowerment and affirmative action",
+          "Regionalism and communalism",
+          "Social movements (environmental, gender, tribal)",
+          "Globalization and social change",
+          "Education and health issues",
+          "Role of NGOs and civil society"
+        ]}
       ]
     },
     {
-      id: "mains-gs2",
-      title: "Mains GS Paper 2 — Polity, Governance, IR (250 marks)",
-      color: "#7c3aed",
+      id: "mains-gs2", stage: "mains",
+      title: "GS Paper 2 — Polity, Governance, IR",
+      short: "GS 2",
+      color: "#7c3aed", marks: 250,
       sections: [
-        {
-          name: "Indian Constitution & Polity",
-          topics: [
-            "Historical evolution: Acts, Constituent Assembly",
-            "Preamble and salient features",
-            "Fundamental Rights and Duties",
-            "Directive Principles of State Policy",
-            "Union and State Executive: President, PM, Governor, CM",
-            "Parliament and State Legislatures: structure, functioning",
-            "Judiciary: Supreme Court, High Courts, judicial review",
-            "Federalism: Centre-State relations, Finance Commission",
-            "Emergency provisions",
-            "Local self-government: Panchayati Raj, Municipalities",
-            "Election process and electoral reforms",
-            "Anti-defection law, separation of powers",
-            "Constitutional bodies: EC, UPSC, CAG, Finance Commission",
-            "Recent constitutional developments"
-          ]
-        },
-        {
-          name: "Governance",
-          topics: [
-            "Good governance: transparency, accountability, e-governance",
-            "Citizen charters and public service delivery",
-            "RTI Act and transparency measures",
-            "Role of civil services in democracy",
-            "Reforms: police, administrative, judicial",
-            "Digital governance and cybersecurity",
-            "Public-private partnerships",
-            "Regulatory bodies (SEBI, TRAI, IRDAI)",
-            "Decentralization and devolution"
-          ]
-        },
-        {
-          name: "Social Justice",
-          topics: [
-            "Welfare schemes for vulnerable sections",
-            "Health, education, and nutrition initiatives",
-            "Poverty alleviation programs",
-            "Affirmative action and reservations",
-            "Issues of SC/ST/OBC/minorities",
-            "Gender justice and women empowerment",
-            "Child rights and protection",
-            "Transgender rights and disability rights",
-            "Food security and PDS",
-            "Skill development and employment"
-          ]
-        },
-        {
-          name: "International Relations",
-          topics: [
-            "India's foreign policy: evolution, principles, priorities",
-            "Bilateral: US, China, Russia, Pakistan, Bangladesh, Nepal, Sri Lanka, Myanmar",
-            "Multilateral: UN, WTO, IMF, World Bank, BRICS, G20, SCO, ASEAN",
-            "Regional: SAARC, BIMSTEC, IORA",
-            "India's role in global governance",
-            "Diaspora and NRI affairs",
-            "Border disputes and security issues",
-            "International treaties and agreements",
-            "Nuclear policy and disarmament",
-            "India's maritime interests",
-            "Strategic partnerships and alliances"
-          ]
-        }
+        { name: "Indian Constitution & Polity", topics: [
+          "Historical evolution: Acts, Constituent Assembly",
+          "Preamble and salient features",
+          "Fundamental Rights and Duties",
+          "Directive Principles of State Policy",
+          "Union and State Executive",
+          "Parliament and State Legislatures",
+          "Judiciary: Supreme Court, High Courts, judicial review",
+          "Federalism: Centre-State relations, Finance Commission",
+          "Emergency provisions",
+          "Local self-government: Panchayati Raj, Municipalities",
+          "Election process and electoral reforms",
+          "Anti-defection law, separation of powers",
+          "Constitutional bodies: EC, UPSC, CAG",
+          "Recent constitutional developments"
+        ]},
+        { name: "Governance", topics: [
+          "Good governance: transparency, accountability, e-governance",
+          "Citizen charters and public service delivery",
+          "RTI Act and transparency measures",
+          "Role of civil services in democracy",
+          "Reforms: police, administrative, judicial",
+          "Digital governance and cybersecurity",
+          "Public-private partnerships",
+          "Regulatory bodies (SEBI, TRAI, IRDAI)",
+          "Decentralization and devolution"
+        ]},
+        { name: "Social Justice", topics: [
+          "Welfare schemes for vulnerable sections",
+          "Health, education, and nutrition initiatives",
+          "Poverty alleviation programs",
+          "Affirmative action and reservations",
+          "Issues of SC/ST/OBC/minorities",
+          "Gender justice and women empowerment",
+          "Child rights and protection",
+          "Transgender rights and disability rights",
+          "Food security and PDS",
+          "Skill development and employment"
+        ]},
+        { name: "International Relations", topics: [
+          "India's foreign policy: evolution, principles, priorities",
+          "Bilateral: US, China, Russia, neighbours",
+          "Multilateral: UN, WTO, IMF, World Bank, BRICS, G20, SCO, ASEAN",
+          "Regional: SAARC, BIMSTEC, IORA",
+          "India's role in global governance",
+          "Diaspora and NRI affairs",
+          "Border disputes and security issues",
+          "International treaties and agreements",
+          "Nuclear policy and disarmament",
+          "India's maritime interests",
+          "Strategic partnerships and alliances"
+        ]}
       ]
     },
     {
-      id: "mains-gs3",
-      title: "Mains GS Paper 3 — Economy, S&T, Environment, Security (250 marks)",
-      color: "#0369a1",
+      id: "mains-gs3", stage: "mains",
+      title: "GS Paper 3 — Economy, S&T, Env, Security",
+      short: "GS 3",
+      color: "#0369a1", marks: 250,
       sections: [
-        {
-          name: "Indian Economy",
-          topics: [
-            "Economic growth and development",
-            "Planning: NITI Aayog, Five-Year Plans",
-            "Agriculture: reforms, MSP, subsidies, irrigation, technology",
-            "Industry: Make in India, MSMEs, industrial corridors",
-            "Infrastructure: roads, railways, ports, airports, logistics",
-            "Banking and finance: RBI, monetary policy, NPAs, digital banking",
-            "Fiscal policy: budget, taxation, FRBM Act",
-            "Inflation: causes, trends, measures",
-            "Poverty and unemployment: measurement, trends, schemes",
-            "Economic reforms: LPG, GST, IBC",
-            "External sector: trade, FDI, balance of payments",
-            "Inclusive growth and financial inclusion",
-            "Startups and innovation ecosystem"
-          ]
-        },
-        {
-          name: "Science & Technology",
-          topics: [
-            "Space technology: ISRO missions, satellites, applications",
-            "Nuclear technology: reactors, safety, applications",
-            "IT: AI, IoT, cybersecurity, e-governance",
-            "Biotechnology: GM crops, stem cells, vaccines",
-            "Nanotechnology: applications and issues",
-            "Defense technology: missiles, drones, indigenous weapons",
-            "Renewable energy: solar, wind, bioenergy",
-            "Intellectual property rights",
-            "Emerging tech: quantum computing, blockchain",
-            "Science and society: ethical, legal, social issues"
-          ]
-        },
-        {
-          name: "Environment & Ecology",
-          topics: [
-            "Ecosystem structure and functions",
-            "Biodiversity: hotspots, conservation, endangered species",
-            "Environmental pollution: air, water, soil, noise, e-waste",
-            "Climate change: causes, impacts, adaptation, mitigation",
-            "Environmental laws: EPA, Forest Act, Wildlife Protection Act",
-            "International conventions: CBD, CITES, Ramsar, Kyoto, Paris",
-            "EIA and renewable energy",
-            "Wetlands, mangroves, coral reefs: significance, threats",
-            "Urban environmental issues: waste, green buildings",
-            "Environmental movements (Chipko, Narmada Bachao)",
-            "Sustainable development goals (SDGs)"
-          ]
-        },
-        {
-          name: "Disaster Management & Internal Security",
-          topics: [
-            "Disaster types: natural, man-made, biological",
-            "DM cycle: prevention, mitigation, preparedness, response, recovery",
-            "Institutional framework: NDMA, NDRF, SDMA",
-            "Early warning systems and technology",
-            "Community-based disaster management",
-            "Internal security: terrorism, insurgency, LWE",
-            "Border management and security",
-            "Cybersecurity and information warfare",
-            "Organized crime and trafficking",
-            "Money laundering and financial crimes",
-            "Role of media and social media in security",
-            "Police reforms and modernization",
-            "Coastal and maritime security"
-          ]
-        }
+        { name: "Indian Economy", topics: [
+          "Economic growth and development",
+          "Planning: NITI Aayog, Five-Year Plans",
+          "Agriculture: reforms, MSP, subsidies, irrigation, technology",
+          "Industry: Make in India, MSMEs, industrial corridors",
+          "Infrastructure: roads, railways, ports, airports, logistics",
+          "Banking and finance: RBI, monetary policy, NPAs, digital banking",
+          "Fiscal policy: budget, taxation, FRBM Act",
+          "Inflation: causes, trends, measures",
+          "Poverty and unemployment: measurement, trends, schemes",
+          "Economic reforms: LPG, GST, IBC",
+          "External sector: trade, FDI, balance of payments",
+          "Inclusive growth and financial inclusion",
+          "Startups and innovation ecosystem"
+        ]},
+        { name: "Science & Technology", topics: [
+          "Space technology: ISRO missions, satellites, applications",
+          "Nuclear technology: reactors, safety, applications",
+          "IT: AI, IoT, cybersecurity, e-governance",
+          "Biotechnology: GM crops, stem cells, vaccines",
+          "Nanotechnology: applications and issues",
+          "Defense technology: missiles, drones, indigenous weapons",
+          "Renewable energy: solar, wind, bioenergy",
+          "Intellectual property rights",
+          "Emerging tech: quantum computing, blockchain",
+          "Science and society: ethical, legal, social issues"
+        ]},
+        { name: "Environment & Ecology", topics: [
+          "Ecosystem structure and functions",
+          "Biodiversity: hotspots, conservation, endangered species",
+          "Environmental pollution: air, water, soil, noise, e-waste",
+          "Climate change: causes, impacts, adaptation, mitigation",
+          "Environmental laws: EPA, Forest Act, Wildlife Protection Act",
+          "International conventions: CBD, CITES, Ramsar, Paris",
+          "EIA and renewable energy",
+          "Wetlands, mangroves, coral reefs",
+          "Urban environmental issues: waste, green buildings",
+          "Environmental movements (Chipko, Narmada Bachao)",
+          "Sustainable development goals (SDGs)"
+        ]},
+        { name: "Disaster Management & Internal Security", topics: [
+          "Disaster types: natural, man-made, biological",
+          "DM cycle: prevention, mitigation, preparedness, response, recovery",
+          "NDMA, NDRF, SDMA institutional framework",
+          "Early warning systems and technology",
+          "Community-based disaster management",
+          "Internal security: terrorism, insurgency, LWE",
+          "Border management and security",
+          "Cybersecurity and information warfare",
+          "Organized crime and trafficking",
+          "Money laundering and financial crimes",
+          "Role of media and social media in security",
+          "Police reforms and modernization",
+          "Coastal and maritime security"
+        ]}
       ]
     },
     {
-      id: "mains-gs4",
-      title: "Mains GS Paper 4 — Ethics, Integrity & Aptitude (250 marks)",
-      color: "#854d0e",
+      id: "mains-gs4", stage: "mains",
+      title: "GS Paper 4 — Ethics, Integrity & Aptitude",
+      short: "GS 4",
+      color: "#854d0e", marks: 250,
       sections: [
-        {
-          name: "Ethics & Human Interface",
-          topics: [
-            "Essence and determinants of ethics",
-            "Consequences of ethical and unethical behavior",
-            "Human values: lessons from great leaders, reformers",
-            "Role of family, society, educational institutions",
-            "Moral and political attitudes",
-            "Corporate social responsibility",
-            "Environmental ethics and media ethics",
-            "Digital and AI ethics",
-            "Ethical theories and frameworks"
-          ]
-        },
-        {
-          name: "Attitude & Aptitude",
-          topics: [
-            "Foundational values: integrity, impartiality, non-partisanship, objectivity",
-            "Dedication to public service, empathy, tolerance, compassion",
-            "Emotional intelligence: concepts, utilities, application",
-            "Attitude: formation, change, impact on behavior",
-            "Social influence and persuasion",
-            "Conflict of interest: identification, resolution"
-          ]
-        },
-        {
-          name: "Integrity in Public Administration",
-          topics: [
-            "Probity in governance, concept of public service",
-            "Philosophical basis of governance and probity",
-            "Information sharing, transparency, RTI Act",
-            "Codes of ethics and conduct, citizen's charter",
-            "Work culture and quality of service delivery",
-            "Corruption: causes, consequences, control measures",
-            "Vigilance and anti-corruption agencies",
-            "Whistleblower protection",
-            "Social audit and participatory governance"
-          ]
-        },
-        {
-          name: "Case Studies",
-          topics: [
-            "Real-life ethical dilemmas in public administration",
-            "Balancing competing interests and values",
-            "Handling pressure, influence, and whistleblowing",
-            "Ensuring fairness, justice, and inclusivity",
-            "Leadership in crisis situations",
-            "Implementing citizen-centric policies",
-            "Upholding constitutional values"
-          ]
-        }
+        { name: "Ethics & Human Interface", topics: [
+          "Essence and determinants of ethics",
+          "Consequences of ethical and unethical behavior",
+          "Human values: lessons from great leaders, reformers",
+          "Role of family, society, educational institutions",
+          "Moral and political attitudes",
+          "Corporate social responsibility",
+          "Environmental ethics and media ethics",
+          "Digital and AI ethics",
+          "Ethical theories and frameworks"
+        ]},
+        { name: "Attitude & Aptitude", topics: [
+          "Foundational values: integrity, impartiality, non-partisanship",
+          "Dedication to public service, empathy, tolerance, compassion",
+          "Emotional intelligence: concepts, utilities, application",
+          "Attitude: formation, change, impact on behavior",
+          "Social influence and persuasion",
+          "Conflict of interest: identification, resolution"
+        ]},
+        { name: "Integrity in Public Administration", topics: [
+          "Probity in governance, concept of public service",
+          "Philosophical basis of governance and probity",
+          "Information sharing, transparency, RTI Act",
+          "Codes of ethics and conduct, citizen's charter",
+          "Work culture and quality of service delivery",
+          "Corruption: causes, consequences, control measures",
+          "Vigilance and anti-corruption agencies",
+          "Whistleblower protection",
+          "Social audit and participatory governance"
+        ]},
+        { name: "Case Studies", topics: [
+          "Real-life ethical dilemmas in public administration",
+          "Balancing competing interests and values",
+          "Handling pressure, influence, and whistleblowing",
+          "Ensuring fairness, justice, and inclusivity",
+          "Leadership in crisis situations",
+          "Implementing citizen-centric policies",
+          "Upholding constitutional values"
+        ]}
       ]
     }
   ];
 
-  // ── localStorage ──
   var KEY = 'bharatnotes_upsc_checklist';
-  function getState() {
-    try { return JSON.parse(localStorage.getItem(KEY) || '{}'); } catch(e) { return {}; }
-  }
-  function saveState(st) { localStorage.setItem(KEY, JSON.stringify(st)); }
-
+  function getState() { try { return JSON.parse(localStorage.getItem(KEY) || '{}'); } catch(e) { return {}; } }
+  function saveState(s) { localStorage.setItem(KEY, JSON.stringify(s)); }
   var state = getState();
 
-  // ── Build total topic count ──
   var totalTopics = 0;
-  SYLLABUS.forEach(function(paper) {
-    paper.sections.forEach(function(sec) { totalTopics += sec.topics.length; });
+  SYLLABUS.forEach(function(p) { p.sections.forEach(function(s) { totalTopics += s.topics.length; }); });
+
+  var CIRC = 2 * Math.PI * 42; // 263.89
+
+  // ── Paper mini cards ──
+  var gridEl = document.getElementById('ck-paper-grid');
+  function renderPaperCards() {
+    var html = '';
+    SYLLABUS.forEach(function(paper) {
+      var t = 0, d = 0;
+      paper.sections.forEach(function(s) { s.topics.forEach(function(tp) { t++; if (state[paper.id+'/'+s.name+'/'+tp]) d++; }); });
+      var pct = t ? Math.round(d/t*100) : 0;
+      html += '<div class="ck-paper-card" style="--ck-color:'+paper.color+';" data-paper="'+paper.id+'">';
+      html += '<p class="ck-paper-card__title">'+paper.short+'</p>';
+      html += '<div class="ck-paper-card__bar"><div class="ck-paper-card__fill" style="width:'+pct+'%;background:'+paper.color+';"></div></div>';
+      html += '<div class="ck-paper-card__meta"><span>'+d+'/'+t+'</span><span style="font-weight:700;color:'+paper.color+';">'+pct+'%</span></div>';
+      html += '</div>';
+    });
+    gridEl.innerHTML = html;
+  }
+
+  // ── Progress ring ──
+  function updateRing() {
+    var d = 0;
+    SYLLABUS.forEach(function(p) { p.sections.forEach(function(s) { s.topics.forEach(function(t) { if (state[p.id+'/'+s.name+'/'+t]) d++; }); }); });
+    var pct = totalTopics ? Math.round(d/totalTopics*100) : 0;
+    var offset = CIRC - (pct/100)*CIRC;
+    document.getElementById('ck-ring').setAttribute('stroke-dashoffset', offset);
+    document.getElementById('ck-ring-pct').textContent = pct+'%';
+    document.getElementById('ck-ring-sub').textContent = d+' / '+totalTopics;
+    document.getElementById('ck-hero-label').textContent = d+' of '+totalTopics+' topics completed';
+    var left = totalTopics - d;
+    document.getElementById('ck-hero-sub').textContent = left > 0 ? left+' remaining — keep going!' : 'All topics covered! Revision time.';
+  }
+
+  // ── Stage tabs ──
+  var activeStage = 'all';
+  document.getElementById('ck-stage-tabs').addEventListener('click', function(e) {
+    var tab = e.target.closest('.ck-stage-tab');
+    if (!tab) return;
+    activeStage = tab.dataset.stage;
+    document.querySelectorAll('.ck-stage-tab').forEach(function(t) { t.classList.toggle('active', t === tab); });
+    renderChecklist();
   });
 
-  // ── Populate filter dropdown ──
-  var filterEl = document.getElementById('ck-filter');
-  SYLLABUS.forEach(function(paper) {
-    var opt = document.createElement('option');
-    opt.value = paper.id;
-    opt.textContent = paper.title.split('—')[0].trim();
-    filterEl.appendChild(opt);
+  // ── Paper card click → filter ──
+  gridEl.addEventListener('click', function(e) {
+    var card = e.target.closest('.ck-paper-card');
+    if (!card) return;
+    var pid = card.dataset.paper;
+    var paper = SYLLABUS.find(function(p) { return p.id === pid; });
+    if (paper) {
+      activeStage = paper.stage;
+      document.querySelectorAll('.ck-stage-tab').forEach(function(t) { t.classList.toggle('active', t.dataset.stage === activeStage); });
+      renderChecklist();
+      // Scroll to that paper section
+      var el = document.querySelector('[data-section-paper="'+pid+'"]');
+      if (el) el.scrollIntoView({ behavior:'smooth', block:'start' });
+    }
   });
 
   // ── Render checklist ──
   var listEl = document.getElementById('ck-list');
-
-  function renderAll() {
-    var search = (document.getElementById('ck-search').value || '').toLowerCase();
-    var filterPaper = filterEl.value;
-    var filterStatus = document.getElementById('ck-status').value;
+  function renderChecklist() {
+    var search = (document.getElementById('ck-search').value||'').toLowerCase();
+    var statusF = document.getElementById('ck-status').value;
     var html = '';
 
     SYLLABUS.forEach(function(paper) {
-      if (filterPaper !== 'all' && paper.id !== filterPaper) return;
+      if (activeStage !== 'all' && paper.stage !== activeStage) return;
 
-      var paperTopics = 0, paperDone = 0;
-      paper.sections.forEach(function(sec) {
-        sec.topics.forEach(function(t) {
-          paperTopics++;
-          if (state[paper.id + '/' + sec.name + '/' + t]) paperDone++;
-        });
-      });
-      var paperPct = paperTopics ? Math.round((paperDone / paperTopics) * 100) : 0;
+      var pt = 0, pd = 0;
+      paper.sections.forEach(function(s) { s.topics.forEach(function(t) { pt++; if (state[paper.id+'/'+s.name+'/'+t]) pd++; }); });
+      var ppct = pt ? Math.round(pd/pt*100) : 0;
 
-      html += '<div class="syl-card" style="--syl-color:' + paper.color + '; margin-bottom:var(--space-5);">';
-      html += '<div class="syl-card__head">';
-      html += '<div style="flex:1;"><h3 class="syl-card__title" style="font-size:var(--text-sm);">' + paper.title + '</h3>';
-      html += '<span class="syl-card__count">' + paperDone + ' / ' + paperTopics + ' done (' + paperPct + '%)</span></div></div>';
-      html += '<div style="padding:0 var(--space-4) var(--space-2);"><div style="background:var(--color-border);border-radius:99px;height:6px;overflow:hidden;">';
-      html += '<div style="background:' + paper.color + ';height:100%;width:' + paperPct + '%;border-radius:99px;transition:width 0.3s;"></div></div></div>';
+      var sectionsHtml = '';
+      var hasAny = false;
 
-      paper.sections.forEach(function(sec) {
-        var secHasVisible = false;
-        var secHtml = '';
+      paper.sections.forEach(function(sec, si) {
+        var topicsHtml = '';
+        var st = 0, sd = 0;
 
-        sec.topics.forEach(function(topic, ti) {
-          var tid = paper.id + '/' + sec.name + '/' + topic;
+        sec.topics.forEach(function(topic) {
+          var tid = paper.id+'/'+sec.name+'/'+topic;
           var done = !!state[tid];
+          st++; if (done) sd++;
 
-          if (filterStatus === 'done' && !done) return;
-          if (filterStatus === 'pending' && done) return;
+          if (statusF === 'done' && !done) return;
+          if (statusF === 'pending' && done) return;
           if (search && topic.toLowerCase().indexOf(search) === -1 && sec.name.toLowerCase().indexOf(search) === -1) return;
 
-          secHasVisible = true;
-          secHtml += '<label class="syllabus-label' + (done ? ' syllabus-label--done' : '') + '">';
-          secHtml += '<input type="checkbox" data-tid="' + tid.replace(/"/g, '&quot;') + '"' + (done ? ' checked' : '') + '>';
-          secHtml += '<span class="syllabus-label__text">' + topic + '</span></label>';
+          topicsHtml += '<label class="ck-topic'+(done?' ck-topic--done':'')+'" style="--ck-color:'+paper.color+';">';
+          topicsHtml += '<input type="checkbox" data-tid="'+tid.replace(/"/g,'&quot;')+'"'+(done?' checked':'')+'>';
+          topicsHtml += '<span>'+topic+'</span></label>';
         });
 
-        if (secHasVisible) {
-          html += '<div style="padding:var(--space-2) var(--space-4) var(--space-3);">';
-          html += '<p style="font-size:var(--text-xs); font-weight:700; color:' + paper.color + '; text-transform:uppercase; letter-spacing:0.05em; margin-bottom:var(--space-2);">' + sec.name + '</p>';
-          html += secHtml + '</div>';
-        }
+        if (!topicsHtml) return;
+        hasAny = true;
+        var spct = st ? Math.round(sd/st*100) : 0;
+
+        sectionsHtml += '<div class="ck-section" data-section-id="'+paper.id+'-'+si+'">';
+        sectionsHtml += '<div class="ck-section__head" data-toggle="'+paper.id+'-'+si+'">';
+        sectionsHtml += '<div class="ck-section__color" style="background:'+paper.color+';"></div>';
+        sectionsHtml += '<div class="ck-section__info"><p class="ck-section__title">'+sec.name+'</p>';
+        sectionsHtml += '<span class="ck-section__count">'+sd+' / '+st+'</span></div>';
+        sectionsHtml += '<span class="ck-section__pct" style="color:'+paper.color+';">'+spct+'%</span>';
+        sectionsHtml += '<span class="ck-section__arrow"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>';
+        sectionsHtml += '</div>';
+        sectionsHtml += '<div class="ck-section__body">'+topicsHtml+'</div></div>';
       });
 
-      html += '</div>';
+      if (!hasAny) return;
+
+      html += '<div style="margin-bottom:var(--space-6);" data-section-paper="'+paper.id+'">';
+      html += '<div style="display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-3);">';
+      html += '<div style="width:6px;height:6px;border-radius:50%;background:'+paper.color+';flex-shrink:0;"></div>';
+      html += '<h3 style="font-size:var(--text-sm);font-weight:700;color:'+paper.color+';margin:0;flex:1;">'+paper.title+'</h3>';
+      html += '<span style="font-size:var(--text-xs);font-weight:700;color:'+paper.color+';">'+ppct+'%</span></div>';
+      html += sectionsHtml + '</div>';
     });
 
-    listEl.innerHTML = html || '<p style="text-align:center; color:var(--color-text-muted); padding:var(--space-8);">No topics match your filters.</p>';
-    updateStats();
+    listEl.innerHTML = html || '<p style="text-align:center;color:var(--color-text-muted);padding:var(--space-8);">No topics match your filters.</p>';
   }
 
-  function updateStats() {
-    var done = 0;
-    SYLLABUS.forEach(function(paper) {
-      paper.sections.forEach(function(sec) {
-        sec.topics.forEach(function(t) {
-          if (state[paper.id + '/' + sec.name + '/' + t]) done++;
-        });
-      });
-    });
-    var pct = totalTopics ? Math.round((done / totalTopics) * 100) : 0;
-    document.getElementById('ck-pct').textContent = pct + '%';
-    document.getElementById('ck-done').textContent = done;
-    document.getElementById('ck-total').textContent = totalTopics;
-    document.getElementById('ck-left').textContent = totalTopics - done;
-    document.getElementById('ck-bar').style.width = pct + '%';
-  }
+  function updateAll() { updateRing(); renderPaperCards(); renderChecklist(); }
 
-  // ── Event: checkbox toggle ──
+  // ── Accordion toggle ──
+  listEl.addEventListener('click', function(e) {
+    var head = e.target.closest('.ck-section__head');
+    if (!head) return;
+    var body = head.nextElementSibling;
+    var arrow = head.querySelector('.ck-section__arrow');
+    body.classList.toggle('open');
+    if (arrow) arrow.classList.toggle('open');
+  });
+
+  // ── Checkbox toggle ──
   listEl.addEventListener('change', function(e) {
     if (e.target.type !== 'checkbox') return;
     var tid = e.target.dataset.tid;
-    if (e.target.checked) {
-      state[tid] = 1;
-    } else {
-      delete state[tid];
-    }
+    if (e.target.checked) state[tid] = 1; else delete state[tid];
     saveState(state);
-    var label = e.target.closest('.syllabus-label');
-    if (label) label.classList.toggle('syllabus-label--done', e.target.checked);
-    renderAll();
+    var label = e.target.closest('.ck-topic');
+    if (label) label.classList.toggle('ck-topic--done', e.target.checked);
+    updateRing(); renderPaperCards();
+    // Update section counts without full re-render
+    var section = e.target.closest('.ck-section');
+    if (section) {
+      var checks = section.querySelectorAll('input[type="checkbox"]');
+      var total = checks.length, done = 0;
+      checks.forEach(function(c) { if (c.checked) done++; });
+      var pct = total ? Math.round(done/total*100) : 0;
+      var countEl = section.querySelector('.ck-section__count');
+      var pctEl = section.querySelector('.ck-section__pct');
+      if (countEl) countEl.textContent = done+' / '+total;
+      if (pctEl) pctEl.textContent = pct+'%';
+    }
   });
 
-  // ── Event: search and filters ──
-  document.getElementById('ck-search').addEventListener('input', renderAll);
-  filterEl.addEventListener('change', renderAll);
-  document.getElementById('ck-status').addEventListener('change', renderAll);
+  // ── Search & status filter ──
+  var searchTimer;
+  document.getElementById('ck-search').addEventListener('input', function() {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(renderChecklist, 200);
+  });
+  document.getElementById('ck-status').addEventListener('change', renderChecklist);
 
-  // ── Event: reset ──
+  // ── Bulk actions ──
+  document.getElementById('ck-mark-visible').addEventListener('click', function() {
+    var boxes = listEl.querySelectorAll('input[type="checkbox"]:not(:checked)');
+    boxes.forEach(function(cb) { cb.checked = true; state[cb.dataset.tid] = 1; });
+    saveState(state); updateAll();
+  });
+  document.getElementById('ck-clear-visible').addEventListener('click', function() {
+    var boxes = listEl.querySelectorAll('input[type="checkbox"]:checked');
+    boxes.forEach(function(cb) { cb.checked = false; delete state[cb.dataset.tid]; });
+    saveState(state); updateAll();
+  });
+
+  // ── Export ──
+  document.getElementById('ck-export').addEventListener('click', function() {
+    var blob = new Blob([JSON.stringify(state, null, 2)], { type:'application/json' });
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'bharatnotes-upsc-checklist.json';
+    a.click(); URL.revokeObjectURL(a.href);
+  });
+
+  // ── Import ──
+  document.getElementById('ck-import-btn').addEventListener('click', function() {
+    document.getElementById('ck-import-file').click();
+  });
+  document.getElementById('ck-import-file').addEventListener('change', function(e) {
+    var file = e.target.files[0];
+    if (!file) return;
+    var reader = new FileReader();
+    reader.onload = function(ev) {
+      try {
+        var imported = JSON.parse(ev.target.result);
+        Object.keys(imported).forEach(function(k) { state[k] = imported[k]; });
+        saveState(state); updateAll();
+        alert('Progress imported successfully!');
+      } catch(err) { alert('Invalid file format.'); }
+    };
+    reader.readAsText(file);
+    e.target.value = '';
+  });
+
+  // ── Reset ──
   document.getElementById('ck-reset').addEventListener('click', function() {
     if (confirm('Reset ALL checklist progress? This cannot be undone.')) {
-      state = {};
-      saveState(state);
-      renderAll();
+      state = {}; saveState(state); updateAll();
     }
   });
 
   // ── Initial render ──
-  renderAll();
+  updateAll();
+  // Auto-expand first section of first visible paper
+  var firstBody = listEl.querySelector('.ck-section__body');
+  var firstArrow = listEl.querySelector('.ck-section__arrow');
+  if (firstBody) { firstBody.classList.add('open'); if (firstArrow) firstArrow.classList.add('open'); }
 })();
 </script>
