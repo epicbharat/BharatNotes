@@ -19,7 +19,7 @@ tags:
 
 ## Overview
 
-World War I (1914–1918) was the first truly global conflict — killing over 16 million people, destroying four empires (Ottoman, Austro-Hungarian, Russian, German), and redrawing the map of the world. The war directly caused the Russian Revolution (1917), which established the world's first communist state and shaped the ideological conflicts of the 20th century.
+World War I (1914–1918) was the first truly global conflict — over 16 million died (roughly 10 million military and 7 million civilian), more than 20 million were wounded, and four empires collapsed: the Ottoman, Austro-Hungarian, Russian, and German. The war directly caused the Russian Revolution (1917), which established the world's first communist state and shaped the ideological conflicts of the 20th century. Together, these events redrew the political map of Europe, the Middle East, and Asia.
 
 ---
 
@@ -53,7 +53,9 @@ World War I (1914–1918) was the first truly global conflict — killing over 1
 | **Battle of Verdun** | Feb–Dec 1916 | One of the longest and bloodiest battles; ~700,000 French and German casualties; "They shall not pass" (Pétain) |
 | **Battle of the Somme** | Jul–Nov 1916 | Over 1 million casualties; first use of tanks (by Britain) |
 | **Unrestricted submarine warfare** | 1917 | Germany's policy of sinking all ships in war zones (including neutral); helped bring the USA into the war |
-| **USA enters the war** | April 1917 | Turning point — fresh American troops and resources tipped the balance for the Allies |
+| **Sinking of Lusitania** | 7 May 1915 | British liner torpedoed by German U-boat U-20 off Ireland; 1,197 of 1,960 passengers killed (128 Americans); turned US public opinion against Germany |
+| **Zimmermann Telegram** | January 1917 | German Foreign Secretary Arthur Zimmermann proposed a military alliance with Mexico (offering Texas, New Mexico, Arizona); intercepted by British intelligence; published 1 March 1917 — outraged American public |
+| **USA enters the war** | 6 April 1917 | Turning point — fresh American troops (~2 million by 1918) and resources tipped the balance for the Allies |
 | **Russian Revolution** | 1917 | Russia withdrew from the war (Treaty of Brest-Litovsk, March 1918); freed German troops for the Western Front |
 | **Armistice** | **11 November 1918** | Germany signed the armistice at 11:00 AM ("the eleventh hour of the eleventh day of the eleventh month"); war ended |
 
@@ -77,9 +79,10 @@ World War I (1914–1918) was the first truly global conflict — killing over 1
 | **Military restrictions** | Army limited to 100,000; no air force; no tanks; demilitarisation of the Rhineland; navy severely restricted |
 | **League of Nations** | Established as an international body to maintain peace; USA did NOT join despite President **Wilson's** advocacy |
 | **"Big Four"** | **Woodrow Wilson** (USA), **David Lloyd George** (Britain), **Georges Clemenceau** (France), **Vittorio Orlando** (Italy) |
-| **Wilson's Fourteen Points** | Included open diplomacy, freedom of navigation, self-determination of peoples, and the League of Nations; largely diluted by French and British demands for punishment |
+| **Wilson's Fourteen Points** | Announced 8 January 1918; included open diplomacy, freedom of navigation, self-determination of peoples, free trade, and the League of Nations; largely diluted by French and British demands for punishment |
+| **Mandate System** | Former German and Ottoman territories distributed as League mandates — Class A (Middle East), Class B (Africa), Class C (Pacific islands); laid foundations for modern Middle Eastern borders |
 
-> **Key Mains Point:** "Did the Treaty of Versailles make WWII inevitable?" A balanced answer: Versailles created *necessary* conditions (resentment, economic ruin in Germany) but not *sufficient* ones — the Great Depression (1929), failure of the League of Nations, appeasement policy, and the specific rise of Hitler were equally critical. Avoid one-dimensional "Versailles caused WWII" arguments.
+**Key Mains Point:** "Did the Treaty of Versailles make WWII inevitable?" A balanced answer: Versailles created *necessary* conditions (resentment, economic ruin in Germany) but not *sufficient* ones — the Great Depression (1929), failure of the League of Nations, appeasement policy, and the specific rise of Hitler were equally critical. Avoid one-dimensional "Versailles caused WWII" arguments.
 
 ### Other Post-WWI Treaties
 
@@ -88,6 +91,18 @@ World War I (1914–1918) was the first truly global conflict — killing over 1
 | **Treaty of Saint-Germain** (1919) | Austria | Dissolved Austria-Hungary; Austria reduced to a small republic |
 | **Treaty of Sèvres** (1920) | Ottoman Empire | Dismembered the Ottoman Empire; sparked the Turkish War of Independence under **Mustafa Kemal Atatürk** |
 | **Treaty of Lausanne** (1923) | Turkey | Replaced Sèvres; recognised the Republic of Turkey; Atatürk abolished the Caliphate (1924) |
+
+---
+
+### Impact of WWI on India
+
+| Aspect | Details |
+|--------|---------|
+| **Indian soldiers in WWI** | Over 1.3 million Indian soldiers and labourers served; ~74,000 killed; fought in France, Mesopotamia, East Africa, Gallipoli |
+| **Economic impact** | War taxes, inflation, price rise; Indian revenues funded ~£146 million of war expenditure |
+| **Political impact** | Montagu Declaration (August 1917) — "progressive realisation of responsible government"; Montagu-Chelmsford Reforms (1919) — dyarchy introduced |
+| **Ghadar conspiracy** | Ghadar Party (founded 1913) attempted to use WWI to organise an armed revolt; foiled by British intelligence; trials under Defence of India Act |
+| **Bolshevik influence** | Russian Revolution inspired Indian radicals; M.N. Roy founded CPI at Tashkent (1920); attended 2nd Comintern Congress; submitted supplementary thesis on colonial question opposing Lenin's view |
 
 ---
 
@@ -119,10 +134,23 @@ World War I (1914–1918) was the first truly global conflict — killing over 1
 | **April Theses** (April 1917) | Lenin returned from exile (with German assistance — "sealed train"); called for "All Power to the Soviets"; end to the war; land to the peasants; nationalisation of banks |
 | **Slogan** | **"Peace, Bread, Land"** — appealed to war-weary soldiers, hungry workers, and land-hungry peasants |
 | **Treaty of Brest-Litovsk** (March 1918) | Withdrew Russia from WWI; ceded significant territory (Poland, Baltic states, Ukraine, Finland) to Germany; humiliating but necessary for Bolshevik survival |
-| **War Communism** (1918–1921) | State control of all industry; forced grain requisitioning from peasants; fought the **Russian Civil War (1918–1922)** against White forces (monarchists, democrats, foreign interventionists) |
-| **New Economic Policy (NEP)** (1921) | Partial return to capitalism — allowed small-scale private trade and peasant markets; stabilised the economy after the devastation of Civil War and famine |
+| **War Communism** (1918–1921) | State control of all industry; forced grain requisitioning from peasants; fought the **Russian Civil War (1918–1922)** — Red Army (Bolsheviks, organised by Trotsky) vs White Army (monarchists, liberals, foreign interventionists from 14 nations including Britain, France, USA, Japan) |
+| **Cheka** (December 1917) | Secret police under Felix Dzerzhinsky; Red Terror campaign against counter-revolutionaries; precursor to KGB |
+| **New Economic Policy (NEP)** (1921) | Partial return to capitalism — allowed small-scale private trade and peasant markets; "commanding heights" (banks, heavy industry, transport) remained state-owned; stabilised the economy after Civil War and the 1921 famine (~5 million deaths) |
 | **USSR formed** | **30 December 1922** — Union of Soviet Socialist Republics officially established |
 | **Lenin's death** | **21 January 1924**; power struggle between **Trotsky** (world revolution) and **Stalin** (socialism in one country); Stalin won |
+
+### February vs October Revolution — Comparison
+
+| Dimension | February Revolution | October Revolution |
+|-----------|--------------------|--------------------|
+| **Date** | 8 March 1917 (23 Feb, Julian) | 7 November 1917 (25 Oct, Julian) |
+| **Nature** | Spontaneous popular uprising | Planned Bolshevik seizure of power |
+| **Leadership** | No single party; workers, soldiers, liberals | Lenin, Trotsky, Bolshevik Party |
+| **Outcome** | Tsar abdicated; Provisional Government formed | Provisional Government overthrown; Soviet state established |
+| **Violence** | Moderate — troops mutinied, some clashes | Minimal in Petrograd; Civil War followed |
+| **Ideology** | Liberal democracy | Marxism-Leninism |
+| **Foreign policy** | Continued WWI | Withdrew from WWI (Brest-Litovsk) |
 
 ### Significance of the Russian Revolution
 
@@ -136,18 +164,45 @@ World War I (1914–1918) was the first truly global conflict — killing over 1
 
 ---
 
+### Timeline of Key Events
+
+| Year | Event |
+|------|-------|
+| 28 June 1914 | Assassination of Archduke Franz Ferdinand at Sarajevo |
+| August 1914 | Schlieffen Plan fails; trench warfare begins |
+| 7 May 1915 | Sinking of RMS Lusitania (1,197 dead) |
+| 1916 | Battles of Verdun and the Somme |
+| January 1917 | Zimmermann Telegram intercepted |
+| 8 March 1917 | February Revolution begins in Petrograd |
+| 3 April 1917 | Lenin arrives; issues April Theses |
+| 6 April 1917 | USA declares war on Germany |
+| 7 November 1917 | October Revolution — Bolsheviks seize power |
+| 3 March 1918 | Treaty of Brest-Litovsk — Russia exits WWI |
+| 11 November 1918 | Armistice — WWI ends |
+| 28 June 1919 | Treaty of Versailles signed |
+| 1918–1922 | Russian Civil War (Reds vs Whites) |
+| March 1921 | New Economic Policy (NEP) introduced |
+| 30 December 1922 | USSR officially formed |
+
+---
+
 ## UPSC Relevance
 
 ### Prelims Focus Areas
 - WWI: 1914–1918; MAIN causes; assassination of Franz Ferdinand (28 June 1914)
 - Triple Alliance vs Triple Entente
+- Lusitania sinking: 7 May 1915; Zimmermann Telegram: January 1917
 - Treaty of Versailles: 28 June 1919; Article 231 (War Guilt); 132 billion gold marks reparations
-- Big Four: Wilson, Lloyd George, Clemenceau, Orlando
-- League of Nations: USA did not join
+- Big Four: Wilson, Lloyd George, Clemenceau, Orlando; Wilson's 14 Points (8 Jan 1918)
+- League of Nations: USA did not join; Mandate System
+- Indian soldiers in WWI: 1.3 million served; ~74,000 killed
 - February Revolution: March 1917 (Gregorian); Tsar abdicated
 - October Revolution: November 1917 (Gregorian); Bolsheviks; Lenin
+- April Theses: "Peace, Bread, Land"; Cheka: December 1917
 - Treaty of Brest-Litovsk: March 1918; Russia left WWI
+- War Communism vs NEP; 1921 famine
 - USSR formed: 30 December 1922
+- M.N. Roy: CPI at Tashkent (1920); 2nd Comintern Congress
 - Armistice: 11 November 1918
 
 ### Mains Focus Areas
@@ -157,6 +212,8 @@ World War I (1914–1918) was the first truly global conflict — killing over 1
 - Assess the significance of the Russian Revolution for the 20th century
 - Impact of the Russian Revolution on the Indian freedom movement
 - Was the Bolshevik Revolution a genuine workers' revolution or a coup?
+- Compare War Communism and the New Economic Policy
+- How did Indian participation in WWI shape the demand for self-rule?
 
 ---
 

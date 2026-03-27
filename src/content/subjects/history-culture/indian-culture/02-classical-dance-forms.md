@@ -140,15 +140,18 @@ India recognizes **eight classical dance forms**, each rooted in the **Natyashas
 
 ---
 
-## The Natyashastra
+## Comparison of Eight Classical Dance Forms
 
-| Feature | Detail |
-|---------|--------|
-| **Author** | **Bharata Muni** |
-| **Period** | c. 2nd century BCE – 2nd century CE (dating debated) |
-| **Content** | 36 chapters covering drama, dance, music, poetics, stage design, makeup, and audience psychology |
-| **Key concepts** | **Rasa** (aesthetic emotion — 8 rasas, later 9 with Shanta Rasa); **Bhava** (emotional state); **Abhinaya** (expression — 4 types: Angika/body, Vachika/speech, Aharya/costume, Sattvika/psychological) |
-| **Nine Rasas (Navarasa)** | Shringara (love), Hasya (laughter), Karuna (sorrow), Raudra (anger), Veera (heroism), Bhayanaka (fear), Bibhatsa (disgust), Adbhuta (wonder), **Shanta** (peace — added later by Abhinavagupta) |
+| Dance Form | State | Posture | Music | Key Feature | Revival Figure |
+|-----------|-------|---------|-------|-------------|----------------|
+| **Bharatanatyam** | Tamil Nadu | Aramandi | Carnatic | Margam repertoire; Devadasi origin | Rukmini Devi Arundale |
+| **Kathak** | Uttar Pradesh | Upright | Hindustani | Chakkars (spins); tatkar (footwork) | Birju Maharaj |
+| **Kathakali** | Kerala | Wide stance | Sopana | Chutti makeup; all-male tradition | Vallathol Narayana Menon |
+| **Odissi** | Odisha | Tribhangi | Odissi | Sculptural quality; temple origin | Kelucharan Mohapatra |
+| **Manipuri** | Manipur | Gentle sway | Manipuri | No heavy footwork; Ras Lila | Guru Bipin Singh |
+| **Kuchipudi** | Andhra Pradesh | Dynamic | Carnatic | Tarangam (plate dance); dance-drama | V.L. Shastri |
+| **Sattriya** | Assam | Moderate | Borgeet | Performed in Sattras; most recent (2000) | Srimanta Sankaradeva |
+| **Mohiniyattam** | Kerala | Lasya | Sopana | Feminine grace; white-gold costume | K. Kalyanikutty Amma |
 
 ---
 

@@ -169,6 +169,20 @@ In Hindustani music, ragas are associated with specific times of the day. The 24
 
 ---
 
+## Folk Music Traditions
+
+| Tradition | Region | Key Features | UNESCO/Recognition |
+|-----------|--------|--------------|-------------------|
+| **Baul** | Bengal | Mystic folk songs; Lalon Fakir; wandering minstrels blending Sufi and Vaishnava traditions | UNESCO Intangible Heritage (2005) |
+| **Lavani** | Maharashtra | Energetic, rhythmic; dholki drum; themes of love, social commentary; performed with Tamasha |
+| **Pandavani** | Chhattisgarh | Narrative singing of Mahabharata; Teejan Bai (Padma Vibhushan); two styles — Kapalik and Vedamati |
+| **Maand** | Rajasthan | Semi-classical; performed in royal courts; romantic themes; Allah Jilai Bai |
+| **Rabindra Sangeet** | Bengal | Songs composed by Rabindranath Tagore; over 2,500 songs; national anthems of India and Bangladesh |
+| **Qawwali** | North India | Sufi devotional music; Amir Khusro (13th century); Nusrat Fateh Ali Khan popularised globally |
+| **Bhangra** | Punjab | Harvest celebration (Baisakhi); dhol drum; energetic group performance |
+
+---
+
 ## UPSC Relevance
 
 ### Prelims Focus Areas
@@ -180,6 +194,9 @@ In Hindustani music, ragas are associated with specific times of the day. The 24
 - 7 Swaras: Sa Re Ga Ma Pa Dha Ni; 22 Shrutis
 - Instruments with artistes: Shehnai–Bismillah Khan, Sitar–Ravi Shankar, Santoor–Shivkumar Sharma
 - Dhrupad: oldest Hindustani vocal form; Khayal: most popular today
+- Baul music: UNESCO Intangible Heritage (2005); Bengal
+- Samaveda: oldest musical text; Narada credited with codifying music
+- Brihaddeshi by Matanga: first text to define Raga
 
 ### Mains Focus Areas
 - Discuss the syncretic nature of Hindustani music — how did Hindu and Islamic traditions merge?

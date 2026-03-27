@@ -40,9 +40,24 @@ The 1991 economic reforms mark the most significant turning point in India's pos
 | Feature | Detail |
 |---------|--------|
 | **Foreign exchange reserves** | Dropped to approximately **$1.2 billion** by June 1991 — barely enough for **about 3 weeks of imports** (India normally needed $2.5–3 billion monthly for essential imports) |
-| **Gold pledge** | India pledged **46.91 tonnes of gold** to the Bank of England and the Union Bank of Switzerland to secure emergency loans — a moment of national humiliation |
-| **IMF bailout** | India approached the **International Monetary Fund (IMF)** for emergency lending; IMF conditionalities required structural economic reforms |
+| **Gold pledge (May–July 1991)** | RBI airlifted **46.91 tonnes of gold** to the Bank of England and Union Bank of Switzerland to raise ~$405 million — first airlift on 21 May 1991 under the Chandra Shekhar government; a second lot of ~47 tonnes in July under Rao government; redeemed by November 1991 |
+| **IMF bailout** | India approached the **International Monetary Fund (IMF)** for emergency lending (~$1.8 billion); IMF conditionalities required structural economic reforms |
 | **New government** | PM **P.V. Narasimha Rao** (took office 21 June 1991); Finance Minister **Dr. Manmohan Singh** (a Cambridge and Oxford-trained economist, former RBI Governor) |
+
+### Timeline of Key Reform Measures (1991–1995)
+
+| Date | Measure |
+|------|---------|
+| 21 May 1991 | First gold airlift to Bank of England (~20 tonnes) |
+| 21 June 1991 | P.V. Narasimha Rao sworn in as PM |
+| 1 & 3 July 1991 | Rupee devalued in two steps (~18–19% total) |
+| 24 July 1991 | New Industrial Policy + Union Budget presented |
+| November 1991 | Pledged gold redeemed (loan repaid) |
+| February 1992 | Partial convertibility of rupee on trade account (LERMS) |
+| April 1992 | SEBI given statutory powers |
+| August 1994 | Full current account convertibility (Rangarajan Committee) |
+| November 1994 | National Stock Exchange (NSE) begins trading |
+| 1 January 1995 | India becomes founding WTO member |
 
 ---
 
@@ -60,7 +75,7 @@ The 1991 economic reforms mark the most significant turning point in India's pos
 
 | Reform | Detail |
 |--------|--------|
-| **Industrial delicensing** | Industrial licensing abolished for all except **18 industries** (later reduced further); entrepreneurs no longer needed government permission to start most businesses |
+| **Industrial delicensing** | Industrial licensing abolished for all except **18 industries** (reduced to 6 by 1999, and further to 4 — alcohol, cigarettes, defence, hazardous chemicals); entrepreneurs no longer needed government permission to start most businesses |
 | **MRTP Act** | Restrictions under the **Monopolies and Restrictive Trade Practices Act** eased; threshold for "large" companies raised; later replaced by the **Competition Act, 2002** |
 | **Small-scale reservation** | Reservation of items exclusively for small-scale industry gradually reduced (from ~800 items to eventually near zero) |
 | **Financial sector** | Banking sector partially liberalised; new private banks licensed (ICICI Bank, HDFC Bank, Axis Bank — all established in the 1990s); capital markets reformed (SEBI strengthened in 1992) |
@@ -144,12 +159,26 @@ The 1991 economic reforms mark the most significant turning point in India's pos
 | **Uttarakhand** | 9 November 2000 | Uttar Pradesh | Hill region; demand for better governance of mountain areas |
 | **Telangana** | 2 June 2014 | Andhra Pradesh | India's **29th state**; decades-long demand based on perceived economic neglect of the Telangana region |
 
+### Pre-1991 vs Post-1991 Economy
+
+| Parameter | Pre-1991 | Post-1991 |
+|-----------|----------|-----------|
+| **Economic model** | Mixed economy, state-dominated; License Raj | Market-oriented; private sector-led |
+| **Industrial licensing** | Required for virtually all industries | Abolished except a handful |
+| **FDI** | Restricted; FERA cap of 40% | Liberalised; automatic route up to 100% in most sectors |
+| **Trade policy** | Import substitution; high tariffs (300%+) | Export promotion; tariffs reduced to ~10–15% |
+| **Public sector** | "Commanding heights"; PSUs in all sectors | Disinvestment; strategic sectors privatised |
+| **GDP growth** | ~3.5% ("Hindu rate of growth") | 6–7% average; peaked at 8–9% (2005–08) |
+| **Forex reserves** | ~$1.2 billion (1991) | $600+ billion (2024) |
+| **IT sector** | Negligible | $280+ billion industry; global services hub |
+| **Poverty** | ~45% (early 1990s) | Under 10% (2020s estimates) |
+
 ---
 
 ## UPSC Relevance
 
 ### Prelims Focus Areas
-- 1991 crisis: forex reserves ~$1.2 billion (~3 weeks of imports); gold pledged to Bank of England
+- 1991 crisis: forex reserves ~$1.2 billion (~3 weeks of imports); 46.91 tonnes gold pledged (redeemed by Nov 1991)
 - PM Narasimha Rao; FM Manmohan Singh
 - Rupee devaluation: ~18–19% (July 1991)
 - New Industrial Policy: 24 July 1991
