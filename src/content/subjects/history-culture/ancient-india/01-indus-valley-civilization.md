@@ -176,4 +176,37 @@ The IVC represents the **world's first known planned urban settlements**, with a
 
 ---
 
+## Vocabulary
+
+### Citadel
+- **Pronunciation:** /ˈsɪtədəl/
+- **Definition:** A fortified area situated on elevated ground within or near a city, serving as a last refuge in times of siege and often housing administrative or ceremonial structures.
+- **Origin:** From French *citadelle*, from Italian *cittadella*, diminutive of *citta* ("city"), from Latin *civitas* ("citizenship, community"); first recorded in English c. 1542.
+
+### Terracotta
+- **Pronunciation:** /ˌtɛrəˈkɒtə/
+- **Definition:** A hard, unglazed, brownish-red ceramic material made from fired clay, used for pottery, figurines, building bricks, and decorative objects.
+- **Origin:** From Italian *terra cotta*, literally "baked earth" — *terra* ("earth") + *cotta* ("cooked, baked"), from Latin *terra cocta*; first recorded in English c. 1722.
+
+### Steatite
+- **Pronunciation:** /ˈstiːətaɪt/
+- **Definition:** A soft, dense variety of the mineral talc with a greasy or soapy feel, widely used in antiquity for carving seals, beads, and ornamental objects; also known as soapstone.
+- **Origin:** From Latin *steatites*, from Greek *stear* (*steat-*), meaning "fat" or "tallow," combined with the mineralogical suffix *-ite* ("stone"); first recorded in English in the mid-18th century.
+
+---
+
+## Key Terms
+
+### Great Bath
+- **Pronunciation:** /ɡreɪt bɑːθ/
+- **Definition:** A large, watertight public tank (12 m x 7 m x 2.4 m deep) at Mohenjo-daro, sealed with bitumen and supplied by a well, believed to have been used for ritual purification — the earliest known public water tank of the ancient world.
+- **Origin:** Modern archaeological term coined during the 1920s excavations of Mohenjo-daro; *bath* from Old English *baeth* ("act of bathing, immersion in water").
+
+### Harappan Script
+- **Pronunciation:** /həˈræpən skrɪpt/
+- **Definition:** The undeciphered writing system of the Indus Valley Civilization, comprising approximately 400-450 distinct signs found mostly on steatite seals, generally read right to left, with inscriptions too short (averaging five signs) to permit reliable decipherment.
+- **Origin:** Named after *Harappa*, the first excavated IVC site in Punjab (modern Pakistan); *script* from Latin *scriptum* ("something written"), from *scribere* ("to write").
+
+---
+
 *Sources: Archaeological Survey of India (asi.nic.in), UNESCO World Heritage Centre, NCERT Ancient India (R.S. Sharma), Upinder Singh — A History of Ancient and Early Medieval India*

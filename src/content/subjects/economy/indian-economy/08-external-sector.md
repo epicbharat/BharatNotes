@@ -348,6 +348,37 @@ Launched to boost domestic manufacturing and reduce import dependence.
 
 ---
 
+## Vocabulary
+
+### Tariff
+- **Pronunciation:** /ˈtærɪf/
+- **Definition:** A duty imposed by a national government on imported (or, less commonly, exported) goods, designed to raise revenue or protect domestic industries from foreign competition.
+- **Origin:** From Italian *tariffa* (price list, assessment), via Medieval Latin *tarifa* (list of prices), ultimately from Arabic *taʿrīf* (تعريف, notification, making known), from the root *ʿ-r-f* (to know); entered English in the 1590s.
+
+### Dumping
+- **Pronunciation:** /ˈdʌmpɪŋ/
+- **Definition:** The practice of exporting a product at a price lower than its normal value in the domestic market or below its cost of production, which the WTO permits countries to counter through anti-dumping duties under GATT Article VI.
+- **Origin:** From the verb "dump," of Scandinavian origin (compare Norwegian *dumpa*, to fall suddenly); the trade-specific usage emerged in the late 19th century to describe the practice of offloading surplus goods in foreign markets at artificially low prices.
+
+### Forex Reserves
+- **Pronunciation:** /ˈfɒrɛks rɪˈzɜːvz/
+- **Definition:** Assets held by a central bank in foreign currencies, gold, SDRs, and the IMF reserve position, used to back the domestic currency, settle international payments, and intervene in exchange rate markets.
+- **Origin:** "Forex" is a portmanteau of "foreign exchange," from Latin *foranus* (outside) + Old French *eschange* (exchange); "reserves" from Latin *reservare* (to keep back); the concept of centralised foreign exchange reserves developed with the Bretton Woods system (1944).
+
+## Key Terms
+
+### Balance of Payments
+- **Pronunciation:** /ˈbæləns əv ˈpeɪmənts/
+- **Definition:** A systematic record of all economic transactions between the residents of a country and the rest of the world during a given period, compiled by the RBI following the IMF's BPM6 methodology, comprising the current account, capital account, and errors and omissions.
+- **Origin:** "Balance" from Old French *balance* (scales), from Latin *bilanx* (having two scale pans); "payment" from Old French *paiement*, from *paier* (to pay); the mercantilist tradition of tracking a nation's external accounts dates to the 16th century.
+
+### Current Account Deficit
+- **Pronunciation:** /ˈkʌrənt əˈkaʊnt ˈdɛfɪsɪt/
+- **Definition:** A situation where a country's total imports of goods, services, and transfers exceed its total exports, indicating that the nation is spending more abroad than it earns and must finance the gap through capital inflows or reserve drawdowns.
+- **Origin:** "Current" from Latin *currens* (running, present); "account" from Old French *acont* (a reckoning), from Latin *computare* (to calculate); "deficit" from Latin *deficit* (it is wanting); the concept gained prominence in BoP analysis following the Bretton Woods framework.
+
+---
+
 ## Current Affairs Connect
 
 Stay updated on the external sector through **Ujiyari.com**:

@@ -234,6 +234,39 @@ The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy was ap
 
 ---
 
+## Vocabulary
+
+### Genome
+- **Pronunciation:** /ˈdʒiː.nəʊm/
+- **Definition:** The complete set of genetic material (DNA or, in some viruses, RNA) present in a cell or organism, containing all the information needed for that organism's development and function.
+- **Origin:** Coined by German botanist Hans Winkler in 1920, as a blend of German *Gen* ("gene") and *Chromosom* ("chromosome").
+
+### CRISPR
+- **Pronunciation:** /ˈkrɪs.pər/
+- **Definition:** An acronym for Clustered Regularly Interspaced Short Palindromic Repeats, a gene-editing technology derived from a bacterial defence system that enables precise modification of DNA sequences in living organisms.
+- **Origin:** The acronym was proposed by Francisco Mojica and Ruud Jansen in 2001 to describe repetitive DNA sequences found in bacteria; the gene-editing application using CRISPR-Cas9 was developed by Jennifer Doudna and Emmanuelle Charpentier (Nobel Prize in Chemistry, 2020).
+
+### Transgenic
+- **Pronunciation:** /trænzˈdʒɛn.ɪk/
+- **Definition:** Describing an organism whose genome has been altered by the introduction of one or more genes from a different species using genetic engineering techniques.
+- **Origin:** From Latin *trans-* ("across") + Greek *genos* ("race, kind") + *-ic*; coined in the 1980s to describe organisms carrying foreign genetic material.
+
+---
+
+## Key Terms
+
+### Genetic Modification
+- **Pronunciation:** /dʒəˈnɛt.ɪk ˌmɒd.ɪ.fɪˈkeɪ.ʃən/
+- **Definition:** The deliberate alteration of an organism's DNA using laboratory-based techniques that do not occur naturally through mating or recombination, including the insertion, deletion, or modification of genes to produce desired traits.
+- **Origin:** From Latin *geneticus* (relating to origin) + Latin *modificātiō* ("a measuring, modification"); the practice dates to the 1970s when recombinant DNA technology was first developed.
+
+### Stem Cell Therapy
+- **Pronunciation:** /stɛm sɛl ˈθɛr.ə.pi/
+- **Definition:** A form of regenerative medicine that uses stem cells or their derivatives to repair, replace, or regenerate diseased, dysfunctional, or injured tissues in the body.
+- **Origin:** From Old English *stefn* ("trunk of a tree") for "stem" + Latin *cella* ("small room") for "cell" + Greek *therapeia* ("healing, service"); stem cells were first identified by Canadian scientists Ernest McCulloch and James Till in 1961.
+
+---
+
 ## Current Affairs Connect
 
 | Resource | Link |

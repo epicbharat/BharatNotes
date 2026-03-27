@@ -238,6 +238,37 @@ The **Constitution (129th Amendment) Bill, 2024** was introduced in Lok Sabha on
 
 ---
 
+## Vocabulary
+
+### Quorum
+- **Pronunciation:** /ˈkwɔː.rəm/
+- **Definition:** The minimum number of members who must be present in a House for business to be validly transacted; in both Lok Sabha and Rajya Sabha, it is one-tenth of the total membership of the House (Article 100).
+- **Origin:** From Latin *quōrum* ("of whom"), genitive plural of *quī* ("who"); originally from the Anglo-Latin wording of commissions issued to justices of the peace in medieval England, where certain named persons were essential for the court to sit.
+
+### Adjournment
+- **Pronunciation:** /əˈdʒɜːn.mənt/
+- **Definition:** A temporary suspension of the sitting of a House by the presiding officer, which may be for a specified time (hours, days, or weeks) and does not terminate the session or kill pending business.
+- **Origin:** From Middle English *ajournement*, via Old French *ajourner* ("to put off to another day"), from *à* ("to") + *jour* ("day"), ultimately from Latin *diurnum* ("daily").
+
+### Guillotine
+- **Pronunciation:** /ˈɡɪl.ə.tiːn/
+- **Definition:** A parliamentary procedure by which, at the expiry of the time allocated for discussing a group of clauses or demands for grants, all outstanding items are put to vote without further debate, effectively cutting short discussion.
+- **Origin:** Named after Joseph-Ignace Guillotin (1738--1814), a French physician who advocated a more humane method of execution; the parliamentary sense derives from the metaphor of abruptly "cutting off" debate, first used in the British House of Commons in the late 19th century.
+
+## Key Terms
+
+### Money Bill
+- **Pronunciation:** /ˈmʌn.i bɪl/
+- **Definition:** A Bill that deals exclusively with matters of taxation, government borrowing, or expenditure from the Consolidated Fund of India, as defined under Article 110; it can be introduced only in Lok Sabha, and Rajya Sabha may only suggest amendments within 14 days, which Lok Sabha may accept or reject.
+- **Origin:** The term combines Old English *mynet* (from Latin *monēta*, "mint, money") + Old English *bile* ("document"); the constitutional concept traces to the British Parliament's historic struggle for Commons supremacy over financial legislation.
+
+### No-Confidence Motion
+- **Pronunciation:** /nəʊ ˈkɒn.fɪ.dəns ˈməʊ.ʃən/
+- **Definition:** A parliamentary motion moved in the Lok Sabha (requiring the support of at least 50 members for admission) to test whether the Council of Ministers retains the confidence of the House; if passed by simple majority, the entire Council of Ministers must resign.
+- **Origin:** From the prefix *no* + Latin *cōnfīdentia* ("firm trust") + Latin *mōtiō* ("movement"); the device is rooted in the British parliamentary convention of ministerial accountability, constitutionally anchored in India through Article 75(3).
+
+---
+
 ## Current Affairs Connect
 
 Link these static concepts with live developments:

@@ -259,6 +259,37 @@ The President can grant:
 
 ---
 
+## Vocabulary
+
+### Ordinance
+- **Pronunciation:** /ˈɔːr.dɪ.nəns/
+- **Definition:** A temporary law promulgated by the executive head of state (the President under Article 123, or a Governor under Article 213) when the legislature is not in session, having the same force as an Act of Parliament but ceasing to operate six weeks after the legislature reassembles.
+- **Origin:** From Middle English *ordinaunce*, via Old French *ordenance* ("decree, command"), from Medieval Latin *ordinantia*, ultimately from Latin *ordināre* ("to put in order"), from *ordō* ("row, series, rank").
+
+### Prorogation
+- **Pronunciation:** /ˌprəʊ.rə.ˈɡeɪ.ʃən/
+- **Definition:** The act of ending a session of Parliament by an order of the President, which terminates all pending business (except Bills pending in Rajya Sabha) without dissolving the House.
+- **Origin:** From Late Middle English, via Latin *prōrogātiō*, from *prōrogāre* ("to prolong, defer"), a combination of *prō-* ("forward") + *rogāre* ("to ask, propose").
+
+### Dissolution
+- **Pronunciation:** /ˌdɪs.əˈluː.ʃən/
+- **Definition:** The formal termination of the Lok Sabha (or a State Legislative Assembly), ending the life of that House and requiring fresh general elections for its reconstitution.
+- **Origin:** From Middle English, partly borrowed from French *dissolution* and partly from Latin *dissolūtiōnem* (accusative of *dissolūtiō*), from *dissolvere* ("to loosen apart"); earliest parliamentary use attested from the mid-1500s.
+
+## Key Terms
+
+### Council of Ministers
+- **Pronunciation:** /ˈkaʊn.sɪl əv ˈmɪn.ɪ.stəz/
+- **Definition:** The body of ministers headed by the Prime Minister that aids and advises the President (Article 74) and exercises real executive power; it comprises Cabinet Ministers, Ministers of State, and Deputy Ministers, and is collectively responsible to the Lok Sabha under Article 75(3).
+- **Origin:** From Anglo-French *counseil* (Latin *concilium*, "assembly") + *ministre* (Latin *minister*, "servant, attendant"); the institution is modelled on the British Cabinet system adopted at independence.
+
+### Collective Responsibility
+- **Pronunciation:** /kəˈlɛk.tɪv rɪˌspɒn.sɪˈbɪl.ɪ.ti/
+- **Definition:** The constitutional convention under Article 75(3) whereby the entire Council of Ministers is jointly accountable to the Lok Sabha — all ministers must publicly support Cabinet decisions or resign, and a no-confidence motion against the government requires the resignation of the whole Council.
+- **Origin:** From Latin *collēctīvus* ("gathered together") + Late Latin *responsābilis* ("answerable"); the doctrine was inherited from the British parliamentary convention of Cabinet unanimity, formalised in the Indian Constitution at Article 75(3).
+
+---
+
 ## Current Affairs Connect
 
 - [Latest Polity updates on Ujiyari.com](https://ujiyari.com/subjects/polity/)

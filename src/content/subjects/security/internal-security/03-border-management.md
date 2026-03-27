@@ -250,6 +250,39 @@ India's 7,516 km coastline and ~1,382 islands require a separate security archit
 
 ---
 
+## Vocabulary
+
+### Infiltration
+- **Pronunciation:** /ˌɪn.fɪlˈtreɪ.ʃən/
+- **Definition:** The covert entry of persons or small groups across a border or into enemy territory, typically to conduct hostile activities such as terrorism, espionage, or smuggling.
+- **Origin:** From Medieval Latin *infiltrāre* ("to strain in"), from Latin *in-* ("into") + *filtrāre* ("to filter"); military usage emerged in the early 20th century.
+
+### Fencing
+- **Pronunciation:** /ˈfɛn.sɪŋ/
+- **Definition:** The construction of physical barriers such as wire, steel, or concrete structures along a national border to prevent unauthorised crossing, smuggling, and infiltration.
+- **Origin:** From Middle English *fens*, a shortening of *defens* ("defence"); border fencing as a security measure became widespread in the 20th century.
+
+### Surveillance
+- **Pronunciation:** /sɜːˈveɪ.ləns/
+- **Definition:** The systematic monitoring of persons, areas, or borders using visual, electronic, or technological means to detect and prevent security threats.
+- **Origin:** From French *surveillance* ("a watching over"), from *surveiller* ("to watch over"), from *sur-* ("over") + *veiller* ("to watch"), ultimately from Latin *vigilāre* ("to be watchful").
+
+---
+
+## Key Terms
+
+### Smart Border
+- **Pronunciation:** /smɑːt ˈbɔː.dər/
+- **Definition:** A technology-driven approach to border management that uses integrated systems such as sensors, radars, cameras, drones, and data analytics to monitor and secure borders, especially in terrain where physical fencing is not feasible.
+- **Origin:** The term gained currency in the early 2000s with the US-Canada Smart Border Declaration (2001); in India, the concept is implemented through CIBMS (Comprehensive Integrated Border Management System).
+
+### Line of Control
+- **Pronunciation:** /laɪn əv kənˈtrəʊl/
+- **Definition:** The military demarcation line between the Indian-administered and Pakistani-administered parts of the former princely state of Jammu and Kashmir, established under the Simla Agreement of 1972; it is not a legally recognised international boundary.
+- **Origin:** Originally drawn as the ceasefire line after the Indo-Pakistani War of 1947-48 under UN supervision; redesignated as the "Line of Control" by the Simla Agreement signed on 2 July 1972 following the 1971 war.
+
+---
+
 ## Current Affairs Connect
 
 | Development | Relevance | Link |

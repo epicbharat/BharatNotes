@@ -461,3 +461,36 @@ A **front** is the boundary zone between two contrasting air masses. Fronts are 
 - Western disturbances are temperate cyclones steered by the Subtropical Westerly Jet
 - Bay of Bengal cyclones and the post-monsoon season are recurring current affairs topics
 - Temperature inversion and pollution trapping connect to Environment paper (GS3)
+
+---
+
+## Vocabulary
+
+### Insolation
+- **Pronunciation:** /ˌɪnsəˈleɪʃən/
+- **Definition:** The amount of incoming solar radiation received per unit area at the Earth's surface or at the top of the atmosphere over a given period of time.
+- **Origin:** From Latin *insōlātiō*, from *insōlāre* ("to expose to the sun"), from *in-* ("in, upon") + *sōl* ("sun").
+
+### Albedo
+- **Pronunciation:** /ælˈbiːdoʊ/
+- **Definition:** The fraction of incoming solar radiation that is reflected by a surface, measured on a scale from 0 (total absorption) to 1 (total reflection), with Earth's average albedo being approximately 0.30.
+- **Origin:** From Latin *albēdō* ("whiteness"), from *albus* ("white") + *-ēdō* (abstract noun suffix); first used in English in an astronomical context in 1859.
+
+### Convection
+- **Pronunciation:** /kənˈvɛkʃən/
+- **Definition:** The transfer of heat through a fluid (liquid or gas) by the bulk movement of matter, in which warmer, less dense material rises and cooler, denser material sinks.
+- **Origin:** From Late Latin *convectiō* ("a carrying together"), from Latin *convehere* ("to carry together"), from *con-* ("together") + *vehere* ("to carry").
+
+---
+
+## Key Terms
+
+### Coriolis Effect
+- **Pronunciation:** /ˌkɒriˈoʊlɪs ɪˈfɛkt/
+- **Definition:** The apparent deflection of moving objects (including air and ocean currents) caused by Earth's rotation, deflecting them to the right in the Northern Hemisphere and to the left in the Southern Hemisphere, with zero effect at the equator and maximum at the poles.
+- **Origin:** Named after French mathematician and engineer Gaspard-Gustave de Coriolis (1792-1843), who described the effect mathematically in his 1835 paper *Sur les équations du mouvement relatif des systèmes de corps*.
+
+### Hadley Cell
+- **Pronunciation:** /ˈhædli sɛl/
+- **Definition:** A large-scale atmospheric circulation pattern in the tropics in which warm air rises near the equator, flows poleward at upper levels, cools and descends at approximately 30 degrees latitude, and returns equatorward along the surface as the trade winds.
+- **Origin:** Named after English lawyer and amateur meteorologist George Hadley (1685-1768), who proposed this model of tropical atmospheric circulation in 1735 to explain the trade winds.

@@ -224,6 +224,37 @@ The UCC is the most debated DPSP. Recent developments have made it a live exam t
 
 ---
 
+## Vocabulary
+
+### Welfare State
+- **Pronunciation:** /ˈwɛl.fɛər steɪt/
+- **Definition:** A system of government in which the state protects and promotes the economic and social well-being of its citizens through policies based on equal opportunity, equitable distribution of wealth, and public responsibility for those unable to provide for themselves.
+- **Origin:** From Middle English *wel fare* ("condition of doing well") + *state*; the compound was popularised during World War II by Anglican Archbishop William Temple (1942), contrasting Britain's goals with the Nazis' "warfare state."
+
+### Gandhian
+- **Pronunciation:** /ˈɡɑːn.di.ən/
+- **Definition:** Of or relating to the ideas and philosophy of Mahatma Gandhi, especially his principles of non-violence, village self-sufficiency, and decentralised governance.
+- **Origin:** From the proper name *Gandhi* + the suffix *-ian*; earliest recorded use in the 1920s (OED's first evidence from 1921, Daily Telegraph).
+
+### Socialistic
+- **Pronunciation:** /ˌsəʊ.ʃəˈlɪs.tɪk/
+- **Definition:** Having the characteristics of or tending towards socialism, particularly the advocacy of collective or state ownership and equitable distribution of resources.
+- **Origin:** From French *socialiste* (from Latin *sociālis*, "of companionship") + the suffix *-ic*; earliest known use in the 1840s (OED's first evidence from 1848, The Times, London).
+
+## Key Terms
+
+### Minerva Mills Case
+- **Pronunciation:** /mɪˈnɜːr.və mɪlz keɪs/
+- **Definition:** The landmark 1980 Supreme Court judgment (*Minerva Mills Ltd. v. Union of India*, AIR 1980 SC 1789) that struck down Section 4 of the 42nd Amendment, reaffirmed the Basic Structure doctrine, and held that harmony between Fundamental Rights and Directive Principles is itself part of the Basic Structure.
+- **Origin:** Named after Minerva Mills Ltd., a nationalised textile company in Karnataka whose challenge to the 42nd Amendment's expansion of Article 31C led to this constitutional ruling.
+
+### Non-Justiciable
+- **Pronunciation:** /ˌnɒn.dʒʌˈstɪʃ.ə.bəl/
+- **Definition:** Not capable of being adjudicated or enforced by a court of law; in the Indian Constitution, it describes Directive Principles (Article 37), which are fundamental in governance but cannot be the basis for legal proceedings.
+- **Origin:** From the prefix *non-* + *justiciable*, derived from Middle French *justiciable* (from *justice* + *-able*), ultimately from Latin *jūstitia* ("justice").
+
+---
+
 ## Current Affairs Connect
 
 Link these static concepts with live developments:

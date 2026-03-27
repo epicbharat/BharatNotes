@@ -246,4 +246,37 @@ The **Chola dynasty** (c. 850–1250 CE) produced the finest bronze sculptures i
 
 ---
 
+## Vocabulary
+
+### Fresco
+- **Pronunciation:** /ˈfrɛskəʊ/
+- **Definition:** A technique of mural painting in which pigments are applied to plaster — either wet (*buon fresco*) so that the colours bond chemically with the wall, or dry (*fresco secco*) on lime-washed plaster.
+- **Origin:** From Italian *fresco* ("fresh, cool"), from Vulgar Latin *friscum*, from Proto-Germanic *friskaz*; entered English in the 1590s in the phrase *in fresco* ("on fresh plaster"); first used as a standalone noun for a painting c. 1670.
+
+### Stupa
+- **Pronunciation:** /ˈstuːpə/
+- **Definition:** A hemispherical domed structure in Buddhist architecture, built to enshrine sacred relics of the Buddha or venerated monks, and serving as a focal point for circumambulation, pilgrimage, and meditation.
+- **Origin:** From Sanskrit *stupa* (स्तूप), literally meaning "heap" or "mound," from Proto-Indo-Iranian *stuHpas*; the architectural form evolved from simple burial mounds into elaborate monuments under Mauryan and later patronage.
+
+### Raga
+- **Pronunciation:** /ˈrɑːɡə/
+- **Definition:** A melodic framework in Indian classical music consisting of a specific set of notes, characteristic ascending and descending patterns, and prescribed ornamentation, designed to evoke a particular mood or emotional state (*rasa*).
+- **Origin:** From Sanskrit *raga* (राग), meaning "colour, dye, hue" and by extension "emotion, passion, delight," from the Indo-European root *reg-* ("to dye"); the term was first defined as a melodic concept in Matanga Muni's *Brihaddeshi* (c. 8th-9th century CE).
+
+---
+
+## Key Terms
+
+### Nagara Style
+- **Pronunciation:** /ˈnɑːɡərə staɪl/
+- **Definition:** The predominant Hindu temple architectural style of northern, central, and western India, characterised by a curvilinear tower (*shikhara*) over the sanctum (*garbhagriha*), crowned by a ribbed disc (*amalaka*) and finial (*kalasha*), built on a raised platform without enclosure walls — in contrast to the Dravidian style of the south.
+- **Origin:** From Sanskrit *nagara* (नगर), meaning "city" or "town," reflecting the style's association with urban temple-building traditions of northern India; the style emerged c. 5th century CE and reached its peak under the Chandela, Solanki, and Kalinga dynasties.
+
+### Bharatanatyam
+- **Pronunciation:** /ˌbʌrətəˈnɑːtjəm/
+- **Definition:** One of India's oldest classical dance forms, originating in Tamil Nadu's temple tradition, characterised by a fixed upper torso, bent-knee stance (*aramandi*), intricate footwork, and an expressive vocabulary of hand gestures (*mudras*) and facial expressions (*abhinaya*) used to depict religious narratives.
+- **Origin:** A compound of Sanskrit *bharata* — itself a mnemonic of *bha* (bhava, "emotion"), *ra* (raga, "melody"), and *ta* (tala, "rhythm") — and *natyam* ("dance"); the theoretical foundations appear in the *Natya Shastra* (c. 200 BCE-200 CE) attributed to sage Bharata Muni.
+
+---
+
 *Sources: Archaeological Survey of India (asi.nic.in), National Museum (New Delhi), Ministry of Culture (indiaculture.gov.in), UNESCO World Heritage Centre (whc.unesco.org), National Gallery of Modern Art (ngmaindia.gov.in), Tate Gallery, Metropolitan Museum of Art, Percy Brown — Indian Architecture, Vidya Dehejia — Indian Art*

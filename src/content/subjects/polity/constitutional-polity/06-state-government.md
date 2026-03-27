@@ -261,6 +261,37 @@ The Chief Minister must:
 
 ---
 
+## Vocabulary
+
+### Bicameral
+- **Pronunciation:** /baɪˈkæm.ər.əl/
+- **Definition:** Describing a legislature that consists of two separate chambers or houses; at the state level in India, a bicameral legislature comprises the Vidhan Sabha (Legislative Assembly) and the Vidhan Parishad (Legislative Council).
+- **Origin:** From Latin *bi-* ("two") + *camera* ("chamber, vaulted room") + the suffix *-al*; first recorded in English in the 1830s to describe two-chamber legislative bodies.
+
+### Discretionary
+- **Pronunciation:** /dɪˈskrɛʃ.ən.ər.i/
+- **Definition:** Relating to powers exercised on the basis of personal judgment rather than on binding ministerial advice; under Article 163(2), the Governor may act in his discretion in certain constitutionally specified situations.
+- **Origin:** From Latin *discrētiō* ("separation, discernment"), from the past participle of *discernere* ("to separate, distinguish"), from *dis-* ("apart") + *cernere* ("to sift"); entered English via Middle English *dyscrecyounne* in the 14th century.
+
+### Reservation
+- **Pronunciation:** /ˌrɛz.əˈveɪ.ʃən/
+- **Definition:** A system of affirmative action under the Indian Constitution that sets aside a specified proportion of seats in legislatures, public employment, and educational institutions for Scheduled Castes, Scheduled Tribes, and Other Backward Classes to ensure their adequate representation.
+- **Origin:** From Middle French *réservation*, from *réserver* ("to reserve"), ultimately from Latin *reservāre* ("to keep back, retain"), from *re-* ("back") + *servāre* ("to keep, guard").
+
+## Key Terms
+
+### Governor's Role
+- **Pronunciation:** /ˈɡʌv.ən.əz rəʊl/
+- **Definition:** The constitutional position established under Article 153 whereby the Governor serves as the appointed head of state for each State, exercising executive, legislative, and discretionary powers as the President's representative, while normally acting on the advice of the Chief Minister and Council of Ministers.
+- **Origin:** From Anglo-French *governour* (Latin *gubernātor*, "helmsman, director") + Old French *rolle* (Latin *rotula*, "little wheel, scroll"); the office was continued from the British colonial Governors and adapted to the republican framework at independence.
+
+### President's Rule
+- **Pronunciation:** /ˈprɛz.ɪ.dənts ruːl/
+- **Definition:** The imposition of direct Central Government rule in a state under Article 356 when the President, on the Governor's report or otherwise, is satisfied that the governance of the state cannot be carried on in accordance with the Constitution; state executive authority passes to the President (exercised through the Governor), and the state legislature may be suspended or dissolved.
+- **Origin:** The term combines *President* (from Latin *praesidēns*, "one who presides") + *rule* (from Old French *riule*, Latin *rēgula*, "straight stick, standard"); the provision was borrowed from Section 93 of the Government of India Act, 1935, and the S.R. Bommai case (1994) imposed judicial safeguards against its misuse.
+
+---
+
 ## Current Affairs Connect
 
 - [Latest Polity updates on Ujiyari.com](https://ujiyari.com/subjects/polity/)

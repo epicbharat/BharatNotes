@@ -270,6 +270,39 @@ The EIA Notification, 2006 (under EPA 1986) lays down the procedure for obtainin
 
 ---
 
+## Vocabulary
+
+### Mitigation
+- **Pronunciation:** /ˌmɪtɪˈɡeɪʃən/
+- **Definition:** In climate science, a human intervention to reduce the sources of greenhouse gas emissions or enhance the sinks that absorb them, thereby slowing the rate of climate change.
+- **Origin:** From Latin *mītigātiō* ("a soothing, assuaging"), from *mītigāre* ("to soften, make mild"), from *mītis* ("soft, mild") + *agere* ("to do, drive").
+
+### Adaptation
+- **Pronunciation:** /ˌædæpˈteɪʃən/
+- **Definition:** The process of adjustment to actual or expected climate change and its effects, in order to moderate harm or exploit beneficial opportunities.
+- **Origin:** From French *adaptation*, from Medieval Latin *adaptātiō*, from Latin *adaptāre* ("to fit, adjust"), from *ad-* ("to") + *aptāre* ("to fit"), from *aptus* ("fit, suitable").
+
+### Sequestration
+- **Pronunciation:** /ˌsiːkwɛˈstreɪʃən/
+- **Definition:** The process of capturing and storing atmospheric carbon dioxide, either through natural means such as forests and soils or through technological methods such as carbon capture and underground storage.
+- **Origin:** From Latin *sequestrātiō* ("a depositing"), from *sequestrāre* ("to commit for safekeeping"), from *sequester* ("trustee, mediator").
+
+---
+
+## Key Terms
+
+### Paris Agreement
+- **Pronunciation:** /ˈpærɪs əˈɡriːmənt/
+- **Definition:** A legally binding international treaty on climate change adopted by 196 parties at COP21 in Paris on 12 December 2015, aiming to limit global temperature rise to well below 2 degrees C above pre-industrial levels with efforts to limit it to 1.5 degrees C.
+- **Origin:** Named after Paris, France, where the 21st Conference of the Parties (COP21) to the UNFCCC was held; entered into force on 4 November 2016.
+
+### Nationally Determined Contributions
+- **Pronunciation:** /ˈnæʃənəli dɪˈtɜːrmɪnd ˌkɒntrɪˈbjuːʃənz/
+- **Definition:** National climate action plans submitted by each country under the Paris Agreement, outlining how it intends to reduce greenhouse gas emissions, adapt to climate impacts, and contribute to the global temperature goal, updated every five years with increasing ambition.
+- **Origin:** Introduced as a framework mechanism under Article 4 of the Paris Agreement (2015); evolved from the earlier concept of Intended Nationally Determined Contributions (INDCs) submitted before the Paris conference.
+
+---
+
 ## Current Affairs Connect
 
 | Resource | Link |

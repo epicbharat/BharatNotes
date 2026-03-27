@@ -251,6 +251,37 @@ The gap between A2+FL and C2 can be **30-50%**, meaning the Swaminathan formula 
 
 ---
 
+## Vocabulary
+
+### Kharif
+- **Pronunciation:** /kəˈriːf/
+- **Definition:** The monsoon cropping season in the Indian subcontinent, with sowing in June-July and harvesting in September-October, covering crops such as rice, maize, cotton, jute, and groundnut.
+- **Origin:** From Hindi/Urdu *kharīf*, borrowed from Arabic *kharīf* (خريف, autumn); entered Indian agricultural vocabulary with the ascent of the Mughal Empire.
+
+### Rabi
+- **Pronunciation:** /ˈrɑːbiː/
+- **Definition:** The winter cropping season in the Indian subcontinent, with sowing in October-November and harvesting in March-April, covering crops such as wheat, barley, gram, mustard, and peas.
+- **Origin:** From Hindi/Urdu *rabī*, borrowed from Arabic *rabīʿ* (ربيع, spring), referring to the spring harvest time; entered Indian usage through Persian during the Mughal period.
+
+### Procurement
+- **Pronunciation:** /prəˈkjʊəmənt/
+- **Definition:** The government's purchase of agricultural produce (primarily food grains) from farmers at the Minimum Support Price through agencies like the Food Corporation of India, to ensure price support and maintain buffer stocks.
+- **Origin:** From Late Latin *procurare* (to manage, take care of), from *pro-* (on behalf of) + *curare* (to take care); the modern sense of "obtaining goods" developed by the late 14th century; in Indian agriculture, government procurement has been a cornerstone of food security policy since the Green Revolution era.
+
+## Key Terms
+
+### Minimum Support Price
+- **Pronunciation:** /ˈmɪnɪməm səˈpɔːt praɪs/
+- **Definition:** The price at which the Indian government purchases select crops from farmers to ensure remunerative returns, announced before each sowing season on the recommendation of the Commission for Agricultural Costs and Prices (CACP) for 23 crops, currently set at a minimum of 1.5 times the A2+FL cost of production.
+- **Origin:** The MSP system was introduced in the mid-1960s alongside the Green Revolution to incentivise adoption of High Yielding Variety seeds; "minimum" from Latin *minimus* (smallest), "support" from Latin *supportare* (to carry), "price" from Old French *pris*, from Latin *pretium* (reward, value).
+
+### National Food Security Act
+- **Pronunciation:** /ˈnæʃənəl fuːd sɪˈkjʊərɪti ækt/
+- **Definition:** A landmark Act of Parliament (No. 20 of 2013) that legally entitles up to 75% of rural and 50% of urban households to subsidised food grains through the Public Distribution System, covering approximately 81.35 crore beneficiaries with 5 kg per person per month (currently provided free after PMGKAY was subsumed into NFSA from January 2024).
+- **Origin:** Enacted on 10 September 2013, building on the Right to Food movement and the Supreme Court's 2001 orders in PUCL v. Union of India; it converted the existing PDS entitlements into legally enforceable rights backed by grievance redressal mechanisms.
+
+---
+
 ## Current Affairs Connect
 
 Link these static concepts with live developments:

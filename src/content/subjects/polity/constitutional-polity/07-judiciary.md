@@ -232,6 +232,37 @@ Introduced in the late 1970s–early 1980s by **Justice P.N. Bhagwati** and **Ju
 
 ---
 
+## Vocabulary
+
+### Suo Motu
+- **Pronunciation:** /ˌsuː.əʊ ˈməʊ.tuː/
+- **Definition:** A Latin term meaning "on its own motion," used when a court takes cognizance of a matter and initiates proceedings independently, without a formal petition or complaint from any party.
+- **Origin:** From Latin *suō* ("of its own," ablative of *suus*) + *mōtū* ("by motion," ablative of *mōtus*, from *movēre*, "to move"); widely used in Indian and South Asian legal practice.
+
+### Contempt
+- **Pronunciation:** /kənˈtɛmpt/
+- **Definition:** The offence of being disobedient to or disrespectful towards a court of law; under Article 129, the Supreme Court (and under Article 215, every High Court) has the power to punish for contempt of itself, covering both civil contempt (wilful disobedience of a court order) and criminal contempt (acts that scandalise or lower the authority of the court).
+- **Origin:** From Late Middle English, via Latin *contemptus* ("scorn"), from *contemnere* ("to despise"), formed from *con-* (intensive prefix) + *temnere* ("to slight, despise").
+
+### Certiorari
+- **Pronunciation:** /ˌsɜːr.ʃi.əˈrɛər.aɪ/
+- **Definition:** A writ issued by a superior court to a lower court or tribunal directing it to transmit the record of a case for review, typically to quash an order passed without jurisdiction or in violation of natural justice principles.
+- **Origin:** From Law Latin *certiorārī* ("to be informed, to be made certain"), from *certiorāre* ("to certify, inform"), from *certus* ("certain, sure"); the full original phrase was *certiorārī volumus* ("we wish to be informed"), dating to 15th-century English common law.
+
+## Key Terms
+
+### Public Interest Litigation
+- **Pronunciation:** /ˈpʌb.lɪk ˈɪn.trɪst ˌlɪt.ɪˈɡeɪ.ʃən/
+- **Definition:** A judicial mechanism developed in India in the late 1970s by Justices P.N. Bhagwati and V.R. Krishna Iyer, whereby any public-spirited citizen can approach the Supreme Court (Article 32) or a High Court (Article 226) on behalf of disadvantaged persons whose fundamental rights are violated, relaxing the traditional requirement of locus standi.
+- **Origin:** The concept originated in the United States in the 1960s; in India, the first reported PIL was *Hussainara Khatoon v. State of Bihar* (1979), which addressed the plight of undertrial prisoners and led to the release of over 40,000 inmates.
+
+### Collegium System
+- **Pronunciation:** /kəˈliː.dʒi.əm ˈsɪs.təm/
+- **Definition:** The judicially evolved mechanism for appointing and transferring judges of the Supreme Court and High Courts, whereby a collegium headed by the Chief Justice of India and the four senior-most Supreme Court judges recommends appointments; the word "collegium" does not appear in the Constitution and was created through three Judges Cases (1981, 1993, 1998).
+- **Origin:** From Latin *collēgium* ("association, guild, body of colleagues"), from *collēga* ("one chosen alongside another"), from *com-* ("together") + *legere* ("to choose"); the system was judicially constructed when the Supreme Court reinterpreted "consultation" in Article 124 as "concurrence" in the Second Judges Case (1993).
+
+---
+
 ## Current Affairs Connect
 
 Link these static concepts with live developments:

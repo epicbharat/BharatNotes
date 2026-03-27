@@ -362,3 +362,36 @@ The **National Water Development Agency (NWDA)** has been entrusted with impleme
 - **GS3 Environment:** Dam-related issues — submergence, displacement, downstream ecology, sedimentation; Narmada Bachao Andolan as a case study of development vs environment debate
 - **GS3 Disaster Management:** Flood management in the Brahmaputra basin; Kosi floods; role of dams in flood control
 - **Essay:** "Water disputes — a challenge to cooperative federalism in India"
+
+---
+
+## Vocabulary
+
+### Tributary
+- **Pronunciation:** /ˈtrɪbjʊtəri/
+- **Definition:** A stream or river that flows into a larger river or lake, rather than directly into the sea.
+- **Origin:** From Latin *tribūtārius* ("paying tribute"), from *tribūtum* ("tribute"), from *tribuere* ("to assign, divide among tribes"), from *tribus* ("tribe").
+
+### Meander
+- **Pronunciation:** /miˈændər/
+- **Definition:** A sinuous curve or loop in a river's course, formed by lateral erosion and deposition as the river flows across a floodplain.
+- **Origin:** From Latin *Maeander*, from Greek *Maiandros*, the ancient name of the Menderes River in southwestern Turkey, renowned for its winding course.
+
+### Estuary
+- **Pronunciation:** /ˈɛstjʊəri/
+- **Definition:** A semi-enclosed coastal body of water with a free connection to the open sea, within which seawater is measurably diluted by freshwater from land drainage.
+- **Origin:** From Latin *aestuārium* ("tidal inlet of the sea"), from *aestus* ("tide, heat, surge").
+
+---
+
+## Key Terms
+
+### Indus Waters Treaty
+- **Pronunciation:** /ˈɪndəs ˈwɔːtərz ˈtriːti/
+- **Definition:** A water-sharing treaty signed on 19 September 1960 between India and Pakistan, brokered by the World Bank, allocating the three eastern rivers (Ravi, Beas, Sutlej) to India and the three western rivers (Indus, Jhelum, Chenab) to Pakistan.
+- **Origin:** Named after the Indus River; the treaty emerged from nine years of negotiations mediated by the World Bank to resolve post-Partition water disputes between India and Pakistan.
+
+### Drainage Pattern
+- **Pronunciation:** /ˈdreɪnɪdʒ ˈpætərn/
+- **Definition:** The spatial arrangement of a river and its tributaries as determined by the slope, underlying rock structure, and tectonic history of an area.
+- **Origin:** "Drainage" from Old French *drainer* ("to drain"), from Frankish *drahnjan*; "pattern" from Middle English *patron*, from Old French, meaning a model or template.

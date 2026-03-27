@@ -247,3 +247,36 @@ Nanotechnology deals with materials and devices at the **nanoscale** (1-100 nano
 - Ethical dimensions of nuclear technology
 - Fusion energy — ITER and long-term prospects
 - Nuclear safety and waste management
+
+---
+
+## Vocabulary
+
+### Fission
+- **Pronunciation:** /ˈfɪʃ.ən/
+- **Definition:** The splitting of a heavy atomic nucleus into two or more lighter nuclei, accompanied by the release of a large amount of energy.
+- **Origin:** From Latin *fissiō* ("a cleaving, splitting"), from *findere* ("to split").
+
+### Fusion
+- **Pronunciation:** /ˈfjuː.ʒən/
+- **Definition:** A nuclear reaction in which two or more light atomic nuclei combine to form a heavier nucleus, releasing energy in the process.
+- **Origin:** From Latin *fūsiō* ("a melting, pouring"), from *fundere* ("to pour, melt").
+
+### Isotope
+- **Pronunciation:** /ˈaɪ.sə.təʊp/
+- **Definition:** One of two or more forms of the same chemical element that have the same number of protons but differ in the number of neutrons in their nuclei.
+- **Origin:** From Greek *isos* ("equal") + *topos* ("place"), because isotopes of an element occupy the same place in the periodic table.
+
+---
+
+## Key Terms
+
+### Three-Stage Nuclear Programme
+- **Pronunciation:** /θriː steɪdʒ ˈnjuː.klɪ.ər ˈprəʊ.ɡræm/
+- **Definition:** India's long-term nuclear energy strategy conceived by Dr. Homi J. Bhabha in the 1950s, progressing from natural-uranium-fuelled pressurised heavy water reactors (Stage I) to plutonium-fuelled fast breeder reactors (Stage II) to thorium-fuelled advanced reactors (Stage III), designed to exploit India's vast thorium reserves.
+- **Origin:** Formulated by Dr. Homi J. Bhabha and formally adopted by the Indian government in 1958; rooted in India's resource reality of limited uranium but abundant thorium.
+
+### Thorium Cycle
+- **Pronunciation:** /ˈθɔː.ri.əm ˈsaɪ.kəl/
+- **Definition:** A nuclear fuel cycle in which fertile thorium-232 absorbs neutrons to transmute into fissile uranium-233, which can then sustain a fission chain reaction to generate energy.
+- **Origin:** Named after thorium (itself named after Thor, the Norse god of thunder, by Swedish chemist Jöns Jacob Berzelius in 1829); the fuel cycle concept was developed as an alternative to the uranium-plutonium cycle to utilise thorium-rich geological deposits.

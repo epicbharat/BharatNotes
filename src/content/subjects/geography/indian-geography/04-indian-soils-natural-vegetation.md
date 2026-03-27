@@ -399,3 +399,36 @@ India has **18 notified Biosphere Reserves**, of which **13 have been recognised
 - Black soil is self-ploughing (cracks in summer) — a frequently tested characteristic
 - Laterite soil hardens on exposure to air — the word comes from Latin *later* (brick)
 - Cold Desert BR (Himachal Pradesh) became the 13th UNESCO biosphere reserve from India in 2025
+
+---
+
+## Vocabulary
+
+### Laterite
+- **Pronunciation:** /ˈlætəraɪt/
+- **Definition:** A reddish, iron-rich soil formed in tropical and subtropical regions through intense leaching that removes silica and enriches the residual material with iron and aluminium oxides.
+- **Origin:** From Latin *later* ("brick") + *-ite* (mineral suffix), coined because the soil hardens like brick when exposed to air.
+
+### Humus
+- **Pronunciation:** /ˈhjuːməs/
+- **Definition:** The dark, organic component of soil formed by the decomposition of plant and animal matter by soil microorganisms, which improves soil fertility and water retention.
+- **Origin:** From Latin *humus* ("earth, soil"), from Proto-Indo-European *\*dʰǵʰom-* ("earth"), akin to Greek *chamai* ("on the ground") and Sanskrit *kṣam-* ("earth").
+
+### Leaching
+- **Pronunciation:** /ˈliːtʃɪŋ/
+- **Definition:** The process by which soluble minerals and nutrients are washed out of the upper soil layers by percolating rainwater, leaving behind insoluble residues.
+- **Origin:** From Middle English *leche* ("leachate, sluggish stream"), from Old English *\*lǣce* ("muddy stream"), from Proto-Germanic *\*lēkijō* ("a leak, drain, flow").
+
+---
+
+## Key Terms
+
+### Biosphere Reserve
+- **Pronunciation:** /ˈbaɪəsfɪər rɪˈzɜːrv/
+- **Definition:** An area designated under UNESCO's Man and the Biosphere (MAB) Programme that combines nature conservation with sustainable human development, structured into core, buffer, and transition zones.
+- **Origin:** "Biosphere" from German *Biosphäre*, coined by geologist Eduard Suess in 1875, from Greek *bios* ("life") + *sphaira* ("sphere"); "reserve" from Latin *reservāre* ("to keep back").
+
+### Champion and Seth Classification
+- **Pronunciation:** /ˈtʃæmpiən ənd sɛθ ˌklæsɪfɪˈkeɪʃən/
+- **Definition:** The standard classification of Indian forests published by H.G. Champion and S.K. Seth in 1968, dividing India's forests into 6 major groups, 16 type groups, and 221 sub-types based on climate, physiognomy, and species composition.
+- **Origin:** Named after the authors of *A Revised Survey of the Forest Types of India* (1968); the original classification was first prepared by H.G. Champion in 1936 and subsequently revised with S.K. Seth.

@@ -242,4 +242,37 @@ The transition from Moderates to Extremists was not a clean break — it was a g
 
 ---
 
+## Vocabulary
+
+### Nationalism
+- **Pronunciation:** /ˈnæʃənəlɪzəm/
+- **Definition:** An ideology that emphasises loyalty, devotion, and identification with a particular nation, asserting its right to political self-determination and sovereign statehood.
+- **Origin:** From French *nationalisme*, itself from *national* + *-isme*; first recorded in English c. 1798; the related word *nation* derives from Latin *natio* ("birth, people, tribe").
+
+### Sedition
+- **Pronunciation:** /sɪˈdɪʃən/
+- **Definition:** Organised incitement of rebellion or civil disorder against the authority of a state, typically through speech or writing, without amounting to open insurrection.
+- **Origin:** From Latin *seditio* ("discord, rebellion"), literally "a going apart" — *sed-* ("apart") + *itio* ("a going"), from *ire* ("to go"); entered English via Anglo-French *sediciun*, first recorded c. 1325-1375.
+
+### Boycott
+- **Pronunciation:** /ˈbɔɪkɒt/
+- **Definition:** A concerted refusal to buy, use, or deal with a person, organisation, or product as a form of protest, intended to inflict economic or social pressure.
+- **Origin:** Eponymously from Captain Charles C. Boycott (1832-1897), a land agent in County Mayo, Ireland, who was ostracised by the Irish Land League in 1880 when he refused to lower rents for tenant farmers; his name became a byword for the tactic within months.
+
+---
+
+## Key Terms
+
+### Indian National Congress
+- **Pronunciation:** /ˈɪndiən ˈnæʃənəl ˈkɒŋɡrɛs/
+- **Definition:** India's first pan-national political organisation, founded on 28 December 1885 at Bombay by Allan Octavian Hume with 72 delegates under president W.C. Bonnerjee, which evolved from an elite constitutionalist body into the principal vehicle of the Indian independence movement.
+- **Origin:** Originally planned as the "Indian National Union"; renamed before the first session, reportedly at the suggestion of Dadabhai Naoroji; *congress* from Latin *congressus* ("a meeting, encounter"), from *congredi* ("to come together").
+
+### Drain of Wealth Theory
+- **Pronunciation:** /dreɪn əv wɛlθ ˈθɪəri/
+- **Definition:** The economic thesis, propounded by Dadabhai Naoroji and elaborated by R.C. Dutt, that British colonial rule systematically transferred a portion of India's wealth and resources to Britain — through Home Charges, salaries, pensions, and trade imbalances — for which India received no material return, causing mass impoverishment.
+- **Origin:** First articulated by Dadabhai Naoroji in a paper before the East India Association in London (1867) and fully developed in his book *Poverty and Un-British Rule in India* (1901); *drain* from Old English *drehnian* ("to strain, draw off liquid").
+
+---
+
 *Sources: Bipan Chandra — History of Modern India, S.R. Mehrotra — The Emergence of the Indian National Congress, B.L. Grover & Alka Mehta — A New Look at Modern Indian History, NCERT — Themes in Indian History Part III, R.C. Dutt — Economic History of India*

@@ -278,6 +278,39 @@ The Bureau of Indian Standards (BIS) classifies India into **four seismic zones*
 
 ---
 
+## Vocabulary
+
+### Vulnerability
+- **Pronunciation:** /ˌvʌlnərəˈbɪləti/
+- **Definition:** The conditions determined by physical, social, economic, and environmental factors that increase the susceptibility of an individual, community, or system to the impacts of hazards.
+- **Origin:** From Late Latin *vulnerābilitās*, from *vulnerābilis* ("wounding, injurious"), from Latin *vulnerāre* ("to wound"), from *vulnus* ("wound").
+
+### Resilience
+- **Pronunciation:** /rɪˈzɪliəns/
+- **Definition:** The ability of a system, community, or society exposed to hazards to resist, absorb, adapt to, and recover from the effects of a disaster in a timely and efficient manner.
+- **Origin:** From Latin *resilīre* ("to spring back, recoil"), from *re-* ("back") + *salīre* ("to leap, jump"); first recorded in English in 1626 in the writing of Francis Bacon.
+
+### Hazard
+- **Pronunciation:** /ˈhæzərd/
+- **Definition:** A potentially damaging physical event, phenomenon, or human activity that may cause loss of life, injury, property damage, social and economic disruption, or environmental degradation.
+- **Origin:** From Old French *hasart* ("a game of dice"), from Arabic *az-zahr* ("the dice"), reflecting the element of chance and risk inherent in the concept.
+
+---
+
+## Key Terms
+
+### Sendai Framework
+- **Pronunciation:** /sɛnˈdaɪ ˈfreɪmwɜːrk/
+- **Definition:** The Sendai Framework for Disaster Risk Reduction 2015-2030 is a global agreement adopted on 18 March 2015 at the Third UN World Conference on DRR in Sendai, Japan, outlining four priorities and seven global targets for reducing disaster risk and losses.
+- **Origin:** Named after Sendai, the capital city of Miyagi Prefecture, Japan, where the conference was held; succeeded the Hyogo Framework for Action (2005-2015).
+
+### NDMA
+- **Pronunciation:** /ɛn diː ɛm eɪ/
+- **Definition:** The National Disaster Management Authority is India's apex body for disaster management, chaired by the Prime Minister, established under Section 3(1) of the Disaster Management Act, 2005, with the mandate to lay down policies, plans, and guidelines for disaster management.
+- **Origin:** Initially constituted on 30 May 2005 by executive order; formally established under the Disaster Management Act, 2005, and re-notified on 27 September 2006.
+
+---
+
 ## Current Affairs Connect
 
 | Resource | Link |

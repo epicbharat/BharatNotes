@@ -355,6 +355,39 @@ The five ECQs required for entry to the US Senior Executive Service (OPM):
 
 ---
 
+## Vocabulary
+
+### Aptitude
+- **Pronunciation:** /ˈæp.tɪ.tjuːd/
+- **Definition:** An innate or natural ability or talent that enables a person to learn or acquire a particular skill with relative ease.
+- **Origin:** From Late Latin *aptitūdō* ("fitness"), from Latin *aptus* ("fitted, suitable"), past participle of *apere* ("to fasten"); entered English via Old French in the late 15th century.
+
+### Compassion
+- **Pronunciation:** /kəmˈpæʃ.ən/
+- **Definition:** A deep awareness of and sympathy for the suffering of others, coupled with a desire to alleviate that suffering.
+- **Origin:** From Latin *compassiō* ("fellow feeling"), from *compatī* ("to suffer with"), from *com-* ("together") + *patī* ("to suffer"); entered English through Old French in the 14th century.
+
+### Impartiality
+- **Pronunciation:** /ˌɪm.pɑːʃ.iˈæl.ə.ti/
+- **Definition:** The quality of treating all persons and groups equally and without bias, favouritism, or prejudice in decision-making and action.
+- **Origin:** From Latin *im-* ("not") + *partiālis* ("partial, biased"), from *pars* ("part"); the noun form emerged in English in the 16th century to describe the quality of being unbiased.
+
+---
+
+## Key Terms
+
+### Civil Service Values
+- **Pronunciation:** /ˈsɪv.əl ˈsɜː.vɪs ˈvæl.juːz/
+- **Definition:** The foundational ethical principles -- including integrity, impartiality, non-partisanship, objectivity, dedication to public service, empathy, tolerance, and compassion towards weaker sections -- that guide the conduct of government officials in serving the public interest.
+- **Origin:** Rooted in constitutional provisions and administrative traditions; codified in India through instruments such as the Central Civil Services (Conduct) Rules and the 2nd ARC's 4th Report on "Ethics in Governance"; internationally framed by the UK's Nolan Principles (1995) and OECD Ethics Principles (1998).
+
+### Conflict of Interest
+- **Pronunciation:** /ˈkɒn.flɪkt əv ˈɪn.trəst/
+- **Definition:** A situation in which a public official's private or personal interests conflict with, or could reasonably be perceived to conflict with, their duty to act in the public interest, potentially compromising the objectivity and impartiality of their decisions.
+- **Origin:** From Latin *conflīctus* ("a striking together") + Old French *interesse* ("concern, importance"); the concept has been central to public ethics since antiquity but was formally codified in modern governance through instruments such as the OECD Guidelines for Managing Conflict of Interest (2003).
+
+---
+
 ## Current Affairs Connect
 
 | Resource | Link |

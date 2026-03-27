@@ -245,6 +245,37 @@ RBI
 
 ---
 
+## Vocabulary
+
+### Repo Rate
+- **Pronunciation:** /ˈriːpoʊ reɪt/
+- **Definition:** The interest rate at which a central bank lends short-term funds to commercial banks against government securities, with an agreement to repurchase them.
+- **Origin:** From "repurchase agreement" — "repo" is a contraction of "repurchase option" or "repurchase agreement," combined with "rate" from Latin *rata* (fixed amount).
+
+### Liquidity
+- **Pronunciation:** /lɪˈkwɪdɪti/
+- **Definition:** The ease with which an asset can be converted into cash without significantly affecting its market value, or the availability of liquid assets in a financial system.
+- **Origin:** From Late Latin *liquiditas*, from Latin *liquidus* (fluid, liquid), from *liquere* (to be fluid); the financial sense of "capable of being converted to cash" dates from 1818.
+
+### Quantitative Easing
+- **Pronunciation:** /ˌkwɒntɪtətɪv ˈiːzɪŋ/
+- **Definition:** An unconventional monetary policy in which a central bank purchases government bonds or other financial assets to inject money into the economy when conventional interest rate tools are exhausted.
+- **Origin:** Coined by economist Richard Werner in 1995; modelled on the Japanese term *ryōteki kanwa* (量的緩和, "quantitative easing"); "quantitative" from Latin *quantitas* (amount) and "easing" from Old French *aisier* (to put at ease).
+
+## Key Terms
+
+### Monetary Policy Committee
+- **Pronunciation:** /ˈmʌnɪtəri ˈpɒlɪsi kəˈmɪti/
+- **Definition:** A six-member statutory body constituted under Section 45ZB of the RBI Act, 1934, responsible for fixing India's benchmark policy rate (repo rate) to achieve the inflation target of 4% CPI within a +/- 2% tolerance band.
+- **Origin:** Constituted on 29 September 2016 following the 2016 amendment to the RBI Act; "monetary" from Latin *monetarius* (of a mint), "policy" from Greek *politeia* (citizenship, government), "committee" from Anglo-French *comité* (entrusted).
+
+### Non-Performing Asset
+- **Pronunciation:** /nɒn pəˈfɔːmɪŋ ˈæset/
+- **Definition:** A loan or advance where interest or principal payment remains overdue for more than 90 days, as classified by the Reserve Bank of India, indicating that the asset has ceased to generate income for the lender.
+- **Origin:** A banking regulation term standardised by the RBI adopting the 90-day norm in 2004 to align with global Basel standards; "non-performing" from Latin *non* (not) + Old French *parfournir* (to accomplish), "asset" from Anglo-French *asetz* (sufficient estate).
+
+---
+
 ## Current Affairs Connect
 
 Link these static concepts with live developments:

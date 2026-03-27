@@ -283,3 +283,34 @@ India's tax-to-GDP ratio is approximately **11.6%** (2025-26 BE) — significant
 - North-South devolution debate
 - FRBM reform and debt-to-GDP anchor
 - Off-budget borrowings and fiscal transparency
+
+---
+
+## Vocabulary
+
+### Appropriation
+- **Pronunciation:** /əˌproʊ.priˈeɪ.ʃən/
+- **Definition:** The formal legislative authorisation to withdraw money from the Consolidated Fund of India for specified purposes and amounts as approved by Parliament through an Appropriation Bill.
+- **Origin:** From Late Latin *appropriationem* (a making one's own), from *appropriare* — combining *ad-* (to) and *proprius* (one's own); the fiscal sense of "setting aside money for a specific purpose" is attested from 1727.
+
+### Consolidated Fund
+- **Pronunciation:** /kənˈsɒlɪdeɪtɪd fʌnd/
+- **Definition:** The principal government account established under Article 266 of the Indian Constitution into which all revenues received, loans raised, and loan repayments flow, and from which no money may be withdrawn except with Parliamentary authorisation.
+- **Origin:** "Consolidated" from Latin *consolidare* (to make solid, combine into one), from *con-* (together) + *solidare* (to make firm); "fund" from Latin *fundus* (bottom, foundation); the concept of a single consolidated account originated in British fiscal practice.
+
+### Cess
+- **Pronunciation:** /sɛs/
+- **Definition:** A tax levied over and above the base tax liability, earmarked for a specific purpose such as education or health, and not shared with state governments through the Finance Commission's devolution formula.
+- **Origin:** An altered spelling of "sess," a shortened form of "assess"; from Old French *assesser* (to fix a tax); the term was widely used in the British Raj with qualifying prefixes (e.g., irrigation-cess, education-cess) and continues in Indian fiscal vocabulary.
+
+## Key Terms
+
+### FRBM Act
+- **Pronunciation:** /ɛf ɑːr biː ɛm ækt/
+- **Definition:** The Fiscal Responsibility and Budget Management Act, 2003, enacted by the Indian Parliament to institutionalise fiscal discipline by targeting elimination of revenue deficit and reduction of fiscal deficit to 3% of GDP, with an escape clause (added in 2018) allowing 0.5% deviation in specified circumstances.
+- **Origin:** Introduced as a Bill by Finance Minister Yashwant Sinha in December 2000; enacted August 2003; effective 5 July 2004; the 2018 amendment incorporated recommendations of the N.K. Singh Committee (2017) including the debt-to-GDP anchor and escape clause.
+
+### Revenue Deficit
+- **Pronunciation:** /ˈrɛvənjuː ˈdɛfɪsɪt/
+- **Definition:** The shortfall when the government's revenue expenditure (salaries, interest payments, subsidies) exceeds its revenue receipts (tax and non-tax revenue), indicating that the government is borrowing to finance current consumption rather than asset creation.
+- **Origin:** "Revenue" from Anglo-French *revenue* (a return), from Old French *revenir* (to come back), from Latin *revenire*; "deficit" from Latin *deficit* (it is wanting), third person singular of *deficere* (to fail, be lacking); the concept became central to Indian fiscal discourse with the FRBM Act's target of eliminating revenue deficit.

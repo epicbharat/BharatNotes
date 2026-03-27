@@ -250,3 +250,36 @@ India **signed** the UN Convention on the Rights of Persons with Disabilities on
 | **LGBTQ+ + Constitution** | Fundamental rights (Articles 14, 15, 19, 21), constitutional morality vs. social morality |
 | **Disability + Development** | SDG 10 (Reduced Inequalities), Accessible India Campaign, universal design |
 | **Child Rights + Labour** | Child labour amendment 2016, RTE Act, juvenile justice, SDG 8 (Decent Work) |
+
+---
+
+## Vocabulary
+
+### Patriarchy
+- **Pronunciation:** /ˈpeɪ.tri.ɑː.ki/
+- **Definition:** A social system in which men hold primary authority and dominance in political leadership, moral authority, property ownership, and family roles, with power and privilege largely passed through the male line.
+- **Origin:** From Latin *patriarchia*, from Greek *patriarkhía*, from *patriárkhēs* ("patriarch"), combining *patria* ("lineage, clan") + *arkhē* ("rule, governance"); earliest English usage dates to the mid-16th century.
+
+### Feminism
+- **Pronunciation:** /ˈfɛm.ɪ.nɪ.zəm/
+- **Definition:** A social, political, and intellectual movement advocating for equal rights, opportunities, and treatment for women across all spheres of public and private life.
+- **Origin:** From French *féminisme* (coined c. 1837), from Latin *fēmina* ("woman") + *-isme*; entered English in the mid-19th century, initially meaning "the quality of being feminine" before acquiring its political sense by the 1890s.
+
+### Empowerment
+- **Pronunciation:** /ɪmˈpaʊ.ər.mənt/
+- **Definition:** The process of gaining or granting power, authority, and agency to individuals or groups -- particularly marginalised communities -- enabling them to take control of their own lives and participate fully in social, economic, and political decision-making.
+- **Origin:** From Old French *empouer* ("to give power to") + *-ment*; the modern socio-political usage gained prominence in development discourse in the 1980s and 1990s.
+
+---
+
+## Key Terms
+
+### Self-Help Groups
+- **Pronunciation:** /sɛlf hɛlp ɡruːps/
+- **Definition:** Informal voluntary associations of 12-25 persons (typically women) from similar socio-economic backgrounds who pool small regular savings, provide internal loans to members, and collectively access bank credit for livelihood activities and mutual support.
+- **Origin:** The concept was formalised in India when NABARD launched the SHG-Bank Linkage Programme in 1992 in collaboration with the Reserve Bank of India, building on earlier community-based microfinance models pioneered by organisations such as MYRADA and SEWA.
+
+### Women's Reservation Bill
+- **Pronunciation:** /ˈwɪm.ɪnz ˌrɛz.əˈveɪ.ʃən bɪl/
+- **Definition:** The Constitution (106th Amendment) Act, 2023 -- officially titled the Nari Shakti Vandan Adhiniyam -- which reserves 33% of seats in Lok Sabha, State Legislative Assemblies, and the Delhi Legislative Assembly for women, including seats reserved for SCs and STs, with implementation linked to a fresh Census and delimitation exercise.
+- **Origin:** First introduced as the 81st Amendment Bill in 1996 in the 11th Lok Sabha; reintroduced multiple times before finally being passed in September 2023 as the 128th Amendment Bill (becoming the 106th Amendment Act upon enactment).
