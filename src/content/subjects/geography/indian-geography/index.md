@@ -20,7 +20,7 @@ tags:
 
 Geography is one of the most scoring and wide-ranging subjects in the UPSC syllabus, spanning physical features, climate, resources, human settlements, and economic activities across India and the world. This topic covers the entire Geography syllabus for GS Paper 1 — from India's physiographic divisions and monsoon mechanism to world geomorphology, ocean currents, and agriculture & food security.
 
-This topic is divided into **7 detailed chapters** — each covering a major theme. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
+This topic is divided into **12 detailed chapters** — each covering a major theme. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
 
 ### What You'll Cover
 
@@ -33,6 +33,11 @@ This topic is divided into **7 detailed chapters** — each covering a major the
 | **Ch 05** | World Geography | Earth's interior, plate tectonics, ocean currents, Koppen classification, biomes, geomorphology |
 | **Ch 06** | Agriculture & Food Security | Major crops, Green Revolution, irrigation, MSP, NFSA, PDS, cropping patterns |
 | **Ch 07** | Oceanography & Marine Resources | Ocean currents, tides, coral reefs, mangroves, EEZ, blue economy, deep-sea mining, UNCLOS |
+| **Ch 08** | Indian Drainage System | Himalayan vs Peninsular rivers, Indus/Ganga/Brahmaputra systems, water disputes, interlinking, major dams |
+| **Ch 09** | Indian Soils & Natural Vegetation | ICAR soil types, degradation, Champion & Seth forest classification, biogeographic zones, biosphere reserves |
+| **Ch 10** | Climatology (Global) | Atmosphere structure, pressure belts, planetary winds, cyclones, jet streams, air masses & fronts |
+| **Ch 11** | Industries & Location Factors | Weber's theory, iron & steel, textiles, IT, industrial corridors, SEZs, Make in India |
+| **Ch 12** | World Resource Distribution & Geopolitics | Oil & gas, rare earths, critical minerals, strategic straits, canals, contested borders |
 
 > **Exam Strategy:** Geography questions in Prelims are highly factual — rivers and their tributaries, soil types, mineral-producing states, ocean currents, and climate phenomena (El Nino, IOD). For Mains, focus on analytical linkages: how physical geography shapes agriculture, how climate change affects monsoon and food security, and how resource distribution drives regional disparities. Use maps and diagrams liberally in Mains answers.
 
