@@ -59,6 +59,32 @@ Functional groups determine the chemical properties of organic compounds.
 | **Aldehyde** (–CHO) | –C(=O)H | Aldehydes | Formaldehyde (HCHO) — used in preservation, Bakelite production |
 | **Ketone** (>C=O) | C=O between two carbons | Ketones | Acetone (CH₃COCH₃) — common solvent, nail polish remover |
 | **Carboxyl** (–COOH) | –C(=O)OH | Carboxylic Acids | Acetic acid (CH₃COOH) — vinegar; Citric acid — in citrus fruits |
+| **Amine** (–NH₂) | –NH₂ attached to carbon | Amines | Methylamine (CH₃NH₂) — fishy odour; amino acids contain amine groups; amines are basic in nature |
+| **Ester** (–COO–) | –C(=O)O– linking two carbons | Esters | Ethyl acetate (CH₃COOC₂H₅) — fruity smell, used in perfumes and flavouring; formed by reaction of alcohol + carboxylic acid (esterification) |
+
+---
+
+## Biomolecules
+
+Biomolecules are organic molecules essential for life processes. The four major classes are:
+
+| Biomolecule | Building Blocks | Key Functions | Examples |
+|-------------|----------------|---------------|----------|
+| **Carbohydrates** | Monosaccharides (simple sugars) | Energy source, structural support | Glucose (C₆H₁₂O₆) — primary energy molecule; Sucrose — table sugar; Cellulose — plant cell walls; Starch and glycogen — energy storage |
+| **Proteins** | Amino acids (20 standard types) | Enzymes, structural support, transport, immunity, hormones | Haemoglobin (oxygen transport), Insulin (hormone), Keratin (hair, nails), Collagen (connective tissue) |
+| **Lipids** | Fatty acids + glycerol | Energy storage, cell membrane structure, insulation, hormone synthesis | Fats and oils (triglycerides), Phospholipids (cell membranes), Cholesterol, Waxes |
+| **Nucleic Acids** | Nucleotides (sugar + phosphate + nitrogenous base) | Storage and transmission of genetic information | DNA (deoxyribonucleic acid) — double helix, carries hereditary information; RNA (ribonucleic acid) — single-stranded, involved in protein synthesis |
+
+**Enzymes** are biological catalysts — proteins that speed up biochemical reactions without being consumed. Each enzyme is specific to a particular substrate (lock-and-key model). Example: amylase in saliva breaks down starch into maltose.
+
+### Vitamins — Classification
+
+| Type | Vitamins | Key Feature |
+|------|----------|-------------|
+| **Fat-soluble** | A, D, E, K | Dissolve in fat; stored in the liver and fatty tissues; do not need daily intake; excess can cause toxicity |
+| **Water-soluble** | B-complex (B₁, B₂, B₃, B₅, B₆, B₇, B₉, B₁₂) and C | Dissolve in water; **not stored** in the body; must be consumed daily; excess is excreted in urine; easily destroyed by cooking and food processing |
+
+**Deficiency diseases (frequently asked):** Vitamin A — night blindness; Vitamin B₁ (Thiamine) — beriberi; Vitamin B₃ (Niacin) — pellagra; Vitamin C — scurvy; Vitamin D — rickets (children), osteomalacia (adults); Vitamin K — impaired blood clotting.
 
 ---
 
@@ -114,7 +140,28 @@ Polymers are large molecules (macromolecules) made by linking many small repeati
 
 ### India's Single-Use Plastic Ban
 
-India banned the manufacture, import, sale, and use of identified single-use plastic items with effect from **1 July 2022**. Banned items include: plastic earbuds, balloon sticks, flags, candy sticks, ice-cream sticks, polystyrene (Thermocol) for decoration, plates, cups, glasses, cutlery (forks, spoons, knives), straws, trays, wrapping films around sweet boxes, invitation cards, cigarette packets, PVC banners less than 100 microns, and stirrers. Plastic carry bags must be at least **120 microns** thick (from 31 December 2022).
+India banned the manufacture, import, sale, and use of identified single-use plastic items with effect from **1 July 2022** under the Plastic Waste Management Amendment Rules, 2021 (notified 12 August 2021). Banned items include: plastic earbuds, balloon sticks, flags, candy sticks, ice-cream sticks, polystyrene (Thermocol) for decoration, plates, cups, glasses, cutlery (forks, spoons, knives), straws, trays, wrapping films around sweet boxes, invitation cards, cigarette packets, PVC banners less than 100 microns, and stirrers. Plastic carry bags must be at least **120 microns** thick (from 31 December 2022).
+
+**Extended Producer Responsibility (EPR):** The Plastic Waste Management Amendment Rules, 2022 (notified 16 February 2022) mandate EPR guidelines for plastic packaging — producers, importers, and brand owners (PIBOs) must establish systems for collection, recycling, and reuse of plastic packaging waste, with mandatory recycling targets phased in until FY 2027–28. The CPCB launched a centralised EPR portal for plastic packaging on 5 April 2022.
+
+### Microplastics — An Emerging Concern
+
+| Aspect | Detail |
+|--------|--------|
+| **Definition** | Tiny plastic fragments **less than 5 mm** in size; classified as large microplastics (5 mm–1 mm) and small microplastics (1 mm–1 μm) |
+| **Primary microplastics** | Intentionally manufactured at small size — microbeads in face washes, toothpastes, cosmetics; industrial abrasives |
+| **Secondary microplastics** | Result from fragmentation of larger plastic debris through UV radiation, weathering, and mechanical abrasion — e.g., from plastic bags, bottles, synthetic textiles, tyre wear |
+| **In human blood** | A 2022 Dutch study (Vrije Universiteit Amsterdam, published in *Environment International*) detected microplastics in human blood for the **first time** — found in **77%** of 22 healthy volunteers; PET (50%), polystyrene (36%), and polyethylene (23%) were the most common types |
+| **Environmental impact** | Enter food chains via water and soil; consumed by marine organisms → **bioaccumulation** and **biomagnification**; found in seafood, drinking water, table salt, and even the air |
+
+### Bioplastics and Biodegradable Alternatives
+
+| Type | Source | Key Properties |
+|------|--------|----------------|
+| **PLA (Polylactic Acid)** | Fermented plant starch (corn, sugarcane, sugar beet) | Biodegradable under **industrial composting** conditions (~58 °C); used in packaging, disposable tableware, 3D printing; degrades slowly in natural environments |
+| **PHA (Polyhydroxyalkanoates)** | Synthesised by bacteria as carbon/energy storage granules | Biodegradable in **soil, freshwater, and marine environments**; degrades faster than PLA under natural conditions; used in packaging, medical sutures |
+
+**Limitation:** Bioplastics currently account for a small fraction of global plastic production. Most require industrial composting facilities (not home composting) to degrade effectively, and they can contaminate conventional plastic recycling streams if mixed.
 
 ---
 
@@ -190,12 +237,12 @@ India banned the manufacture, import, sale, and use of identified single-use pla
 
 ## UPSC Relevance
 
-**Prelims focus areas:** Carbon's tetravalency and catenation, saturated vs unsaturated hydrocarbons, thermoplastics vs thermosetting plastics, recycling codes, Montreal Protocol vs Kigali Amendment, GWP of greenhouse gases, BOD vs COD, acid rain and marble cancer.
+**Prelims focus areas:** Carbon's tetravalency and catenation, saturated vs unsaturated hydrocarbons, functional groups (hydroxyl, carboxyl, amine, ester), thermoplastics vs thermosetting plastics, recycling codes, Montreal Protocol vs Kigali Amendment, GWP of greenhouse gases, BOD vs COD, acid rain and marble cancer, biomolecules (carbohydrates, proteins, lipids, nucleic acids), microplastics definition and sources.
 
-**Mains and essay links (GS-3):** Single-use plastic ban and waste management policy, ozone layer recovery as a multilateral success story, greenhouse gas emissions and India's climate commitments, eutrophication and river pollution (Namami Gange), critical minerals for clean energy transition.
+**Mains and essay links (GS-3):** Single-use plastic ban and EPR framework for waste management policy, microplastics as an emerging environmental and health concern, bioplastics (PLA, PHA) as sustainable alternatives, ozone layer recovery as a multilateral success story, greenhouse gas emissions and India's climate commitments, eutrophication and river pollution (Namami Gange).
 
-**Key terms to remember:** Catenation, tetravalency, monomer, polymer, thermoplastic, thermosetting, CFC, HFC, ODS, Dobson Unit, BOD, COD, eutrophication, biomagnification, marble cancer.
+**Key terms to remember:** Catenation, tetravalency, monomer, polymer, thermoplastic, thermosetting, CFC, HFC, ODS, Dobson Unit, BOD, COD, eutrophication, biomagnification, marble cancer, microplastics, nanoplastics, EPR (Extended Producer Responsibility), PLA, PHA, bioplastics, enzymes, amino acids, nucleotides.
 
 ---
 
-*Sources: NCERT Class 10 Science (Chapter 4 — Carbon and its Compounds), US EPA (Understanding Global Warming Potentials; Montreal Protocol), IPCC AR6 (GWP values, 2021), PIB (Single-use Plastic Ban, 1 July 2022), UNEP Ozone Secretariat (Montreal Protocol, Kigali Amendment), NOAA (Eutrophication definition), Wikipedia (Acid Rain, Ozone-oxygen cycle, Resin identification code).*
+*Sources: NCERT Class 10 Science (Chapter 4 — Carbon and its Compounds), NCERT Class 12 Chemistry (Chapter 13 — Amines), US EPA (Understanding Global Warming Potentials; Montreal Protocol; Microplastics Research), IPCC AR6 (GWP values, 2021), PIB (Single-use Plastic Ban, 1 July 2022; EPR Guidelines, 16 February 2022), UNEP Ozone Secretariat (Montreal Protocol, Kigali Amendment), UNEP (Microplastics), Leslie et al. (2022) — Environment International (Microplastics in human blood, VU Amsterdam), NOAA (Eutrophication definition; Microplastics), Britannica (Biomolecules), Wikipedia (Acid Rain, Ozone-oxygen cycle, Resin identification code, Bioplastics).*

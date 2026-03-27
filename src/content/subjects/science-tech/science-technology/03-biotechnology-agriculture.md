@@ -39,6 +39,13 @@ Biotechnology is the use of **living organisms, cells, or biological systems** t
 | **Registered biotech startups** | 11,855 (1,780 new in 2025) |
 | **Bio-incubators** | 95 BIRAC-supported centres |
 | **Key segments** | BioPharma ($64.5B), BioIndustrial ($90.2B), BioAgri, BioServices |
+| **BioE3 Policy** | Approved by Cabinet on August 24, 2024 |
+| **BioE3 full form** | Biotechnology for Economy, Environment and Employment |
+| **BioE3 goal** | $300 billion bioeconomy by 2030; high-performance biomanufacturing |
+| **BioE3 focus areas** | Bio-based chemicals; smart proteins; precision biotherapeutics; climate-resilient agriculture; carbon capture; marine & space research |
+| **BioE3 infrastructure** | Biomanufacturing & Bio-AI hubs, Biofoundries across India |
+
+**BioE3 significance:** The policy aligns with India's Net Zero and Lifestyle for Environment (LiFE) goals. It promotes circular bioeconomy and green growth, with emphasis on job creation in tier-II and tier-III cities through biomanufacturing hubs.
 
 ---
 
@@ -65,6 +72,18 @@ Biotechnology is the use of **living organisms, cells, or biological systems** t
 | **Advantages** | Precise, cheap, fast, versatile (works in plants, animals, humans) |
 | **Limitations** | Off-target effects, mosaicism, ethical concerns in human germline editing |
 
+### CRISPR Applications
+
+| Domain | Application | Example |
+|--------|-------------|---------|
+| **Medicine** | Gene therapy for genetic disorders | Sickle cell disease treatment (Casgevy — first CRISPR therapy approved by US FDA, 2023) |
+| **Agriculture** | Drought/salinity tolerance, disease resistance | IARI's Pusa Rice DST1 (drought-salinity tolerant, SDN-1 edit) |
+| **Diagnostics** | Rapid pathogen detection | FELUDA test (developed by IGIB, Delhi) — paper-based CRISPR COVID-19 test |
+| **Industrial** | Bio-based chemicals, biofuel feedstock | Engineering microbes for biofuel production |
+| **Conservation** | Gene drives to control invasive species | Experimental — raises ecological and ethical concerns |
+
+**India's stance on CRISPR:** India's 2022 genome editing guidelines exempt SDN-1 and SDN-2 category edits from the full GMO regulatory process, enabling faster development of genome-edited crops. However, human germline editing remains prohibited. India's research focus is primarily on agricultural applications through institutions like IARI, IIRR, and NABI.
+
 ---
 
 ## GM Crops in India
@@ -80,6 +99,19 @@ Biotechnology is the use of **living organisms, cells, or biological systems** t
 | **Controversy** | Pink bollworm resistance emerged; farmer suicides debate (correlation, not proven causation); seed monopoly concerns (Monsanto/Bayer) |
 
 > **For Mains:** The Bt cotton story is nuanced. It initially boosted yields and reduced pesticide use dramatically. But resistance development (pink bollworm) and dependence on expensive proprietary seeds created new vulnerabilities. Discuss as a case study in technology adoption — benefits are real but so are risks of monoculture and corporate dependency.
+
+### Bt Brinjal — Moratorium Since 2010
+
+| Feature | Detail |
+|---------|--------|
+| **Developed by** | Mahyco (Maharashtra Hybrid Seeds Company), Jalna |
+| **Technology** | Contains *cry1Ac* gene from *Bacillus thuringiensis* (same gene as Bt cotton) |
+| **GEAC approval** | October 14, 2009 — cleared for commercial cultivation |
+| **Moratorium** | February 9, 2010 — Environment Minister Jairam Ramesh imposed indefinite moratorium |
+| **Reason** | No overriding food security urgency; opposition from 9 state governments; public consultations in 7 cities showed widespread concern |
+| **Current status** | Moratorium continues; in 2020, GEAC allowed confined field trials of two indigenous Bt brinjal varieties in 8 states |
+
+**Key distinction from Bt cotton:** Brinjal is a food crop consumed directly by humans, unlike cotton (fibre crop). This raised the bar for safety testing and public acceptance. India is the centre of origin for brinjal with rich genetic diversity — gene flow to wild relatives was a major concern.
 
 ### GM Mustard (DMH-11) — The Ongoing Controversy
 
@@ -124,7 +156,7 @@ India approved its **first genome-edited rice varieties** in 2025:
 | Body | Level | Role |
 |------|-------|------|
 | **RCGM** (Review Committee on Genetic Manipulation) | DBT | Reviews research proposals involving GMOs |
-| **GEAC** (Genetic Engineering Appraisal Committee) | MoEFCC | Apex body — approves environmental release of GMOs |
+| **GEAC** (Genetic Engineering Appraisal Committee) | MoEFCC | Apex body — approves environmental release of GMOs. Renamed from "Approval" to "Appraisal" Committee in 2010 (Gazette Notification, July 22, 2010) to reflect broader evaluative role beyond mere approval |
 | **IBSC** (Institutional Biosafety Committee) | Institution-level | Monitors recombinant DNA research at each institution |
 | **SBCC** (State Biotechnology Coordination Committee) | State | Monitors GMO use at state level |
 | **DLC** (District Level Committee) | District | Monitors field trials at district level |
@@ -165,7 +197,23 @@ India approved its **first genome-edited rice varieties** in 2025:
 | **Biofertilisers** | Nitrogen-fixing bacteria (Rhizobium), phosphate solubilisers | Promoted under Soil Health Card scheme |
 | **Tissue culture** | Mass propagation of disease-free planting material | Used for banana, potato, sugarcane |
 | **Marker-assisted selection (MAS)** | Using DNA markers to select desirable traits without genetic modification | Used in rice (drought-tolerant varieties) |
-| **Biofortification** | Enhancing nutrient content through breeding | IARI varieties — iron-rich wheat, zinc-rich rice |
+| **Biofortification** | Enhancing nutrient content through breeding | See detailed table below |
+| **Precision agriculture** | GPS, IoT sensors, drones, AI for data-driven farming | Digital Agriculture Mission; Kisan Drone initiative |
+| **Vertical farming** | Indoor multi-layer crop production using hydroponics/aeroponics and LED lighting | Startups in Mumbai, Bangalore, Delhi NCR; suited for herbs, leafy vegetables |
+
+### Biofortification — Key Indian Varieties
+
+ICAR has released **71+ biofortified varieties** across multiple crops. Notable examples:
+
+| Crop | Variety | Nutrient Enriched |
+|------|---------|-------------------|
+| **Wheat** | Pusa Tejas (HI 8759) | High protein (12%), iron (42 ppm), zinc (43 ppm) |
+| **Rice** | CR Dhan 315 | High zinc |
+| **Maize** | Pusa Vivek QPM9 Improved | High provitamin-A, lysine, tryptophan (Quality Protein Maize) |
+| **Pearl millet** | Dhanashakti | High iron (70–75 mg/kg), zinc (35–40 mg/kg) |
+| **Sweet potato** | Bhu Sona | High beta-carotene (provitamin-A) |
+
+**Golden Rice** (engineered with beta-carotene genes) has received regulatory approval in Australia, New Zealand, and Canada but has NOT been approved for cultivation in India. It remains a subject of debate in the GM crops discussion.
 
 ---
 
@@ -190,17 +238,21 @@ India approved its **first genome-edited rice varieties** in 2025:
 ### Prelims Focus Areas
 - Difference between GMO and genome-edited organism
 - Bt cotton — when approved, what gene, what pest
+- Bt Brinjal — moratorium year (2010), who imposed it
 - GM Mustard DMH-11 — gene system, GEAC approval, SC status
-- CRISPR-Cas9 — how it works, Nobel Prize winners
-- GEAC vs RCGM — which body does what
+- CRISPR-Cas9 — how it works, Nobel Prize winners (Doudna & Charpentier, 2020)
+- GEAC vs RCGM — which body does what; GEAC rename from "Approval" to "Appraisal" (2010)
 - SDN-1, SDN-2, SDN-3 categories
 - Genome India Project basics
+- BioE3 Policy — full form, year of approval (2024), thematic areas
+- Biofortified crop varieties — Pusa Tejas, Dhanashakti, CR Dhan 315
 
 ### Mains Focus Areas
-- GM crops debate — science vs politics vs ethics
-- Regulatory framework for GMOs — is it adequate?
+- GM crops debate — science vs politics vs ethics (use Bt cotton, Bt Brinjal, GM Mustard as case studies)
+- Regulatory framework for GMOs — is it adequate? Centre-state tensions
 - CRISPR and gene editing — opportunities and ethical boundaries
-- Biotech in agriculture — can it solve food security?
+- Biotech in agriculture — can it solve food security? Role of biofortification
 - Biopiracy and traditional knowledge protection
-- India's bioeconomy growth and policy enablers
+- India's bioeconomy growth — BioE3 policy and circular bioeconomy
 - Genome India — precision medicine for diverse populations
+- Precision agriculture and vertical farming — technology-driven solutions for small landholdings

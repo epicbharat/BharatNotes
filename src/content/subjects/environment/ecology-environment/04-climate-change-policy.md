@@ -69,9 +69,27 @@ Climate change refers to long-term shifts in temperatures and weather patterns, 
 | **Temperature goal** | Limit warming to **well below 2°C**, pursue efforts for **1.5°C** above pre-industrial levels |
 | **NDCs** | Nationally Determined Contributions — each Party's climate action plan, updated every 5 years with increasing ambition (ratchet mechanism) |
 | **Global Stocktake** | Every 5 years, assess collective progress (first GST completed at COP28, 2023) |
-| **Article 6** | Market mechanisms — carbon trading between countries |
+| **Article 6** | Market mechanisms — carbon trading between countries (Article 6.2: bilateral ITMO trading; Article 6.4: UN-supervised crediting mechanism replacing CDM) |
 | **Loss and Damage** | Acknowledged but no liability framework (separate from adaptation) |
 | **Finance** | Developed countries to mobilise $100 billion/year (achieved in 2022, two years late) |
+
+### First Global Stocktake (COP28, 2023)
+
+The first GST found that while near-universal climate action has been achieved, the world is **not on track** to meet Paris goals. Key outcomes:
+
+- Projected warming reduced from 3.7-4.8°C (2010 estimates) to **2.4-2.6°C** under current policies — progress, but still far above 1.5°C
+- First-ever COP text calling for **"transitioning away from fossil fuels"** in energy systems — historic language after 30 years of negotiations
+- Called for **tripling renewable energy capacity** and **doubling energy efficiency** globally by 2030
+- Aligned climate action with the Kunming-Montreal Global Biodiversity Framework for the first time
+
+### Loss and Damage Fund
+
+| Milestone | Detail |
+|-----------|--------|
+| **COP27 (2022)** | Agreement to establish a Loss and Damage Fund; Transitional Committee set up to draft operational details |
+| **COP28 (2023)** | Fund **operationalised** on Day 1 of COP28; World Bank invited to host it as a Financial Intermediary Fund (FIF) for an interim 4-year period |
+| **Initial pledges** | ~$700 million pledged at COP28 by multiple countries — widely criticised as inadequate given estimated $400 billion/year in loss and damage costs |
+| **Governance** | 26-member Board with balanced developed/developing country representation; HQ in Philippines |
 
 > **Prelims Trap:** The Paris Agreement is NOT legally binding on emission targets — NDCs are voluntary and self-determined. What IS legally binding is the **process**: countries MUST submit NDCs, participate in Global Stocktake, and update their targets every 5 years. This "pledge and review" model is fundamentally different from Kyoto's top-down targets.
 
@@ -109,12 +127,25 @@ Climate change refers to long-term shifts in temperatures and weather patterns, 
 
 | Initiative | Detail |
 |-----------|--------|
-| **National Action Plan on Climate Change (NAPCC)** | 2008; 8 National Missions (Solar, Enhanced Energy Efficiency, Sustainable Habitat, Water, Sustaining the Himalayan Ecosystem, Green India, Sustainable Agriculture, Strategic Knowledge for Climate Change) |
+| **National Action Plan on Climate Change (NAPCC)** | 2008; 8 National Missions (see detailed table below) |
 | **International Solar Alliance (ISA)** | Co-founded by India and France (2015); HQ: Gurugram; 120+ member countries; promotes solar energy in tropical countries |
 | **Coalition for Disaster Resilient Infrastructure (CDRI)** | Launched by India at UNGA 2019; builds climate-resilient infrastructure |
 | **LiFE (Lifestyle for Environment)** | Launched at COP26; demand-side climate action through individual behaviour change |
 | **Green Credit Programme** | 2023; incentivises environmental actions by individuals, communities, private sector |
-| **Panchamrit** | PM Modi's 5 climate pledges at COP26: 500 GW non-fossil capacity by 2030; 50% RE share; 1 billion tonnes emission reduction by 2030; carbon intensity down 45%; net zero by 2070 |
+| **Panchamrit** | PM Modi's 5 climate pledges at COP26 (1 November 2021, Glasgow): 500 GW non-fossil capacity by 2030; 50% RE share; 1 billion tonnes emission reduction by 2030; carbon intensity down 45%; net zero by 2070 |
+
+### NAPCC — The 8 National Missions
+
+| Mission | Launched | Key Target / Focus |
+|---------|----------|--------------------|
+| **National Solar Mission** (Jawaharlal Nehru NSM) | 2010 | Original target: 20 GW by 2022; revised to 100 GW by PM Modi in 2015; target far exceeded |
+| **National Mission for Enhanced Energy Efficiency** | 2010 | PAT (Perform, Achieve, Trade) scheme for energy-intensive industries; market-based energy efficiency trading |
+| **National Mission on Sustainable Habitat** | 2010 | Energy efficiency in buildings, urban transport, solid waste management |
+| **National Water Mission** | 2011 | 20% improvement in water use efficiency; integrated water resource management |
+| **National Mission for Sustaining the Himalayan Ecosystem** | 2010 | Prevent glacial retreat; conserve Himalayan biodiversity; monitor glacial health |
+| **National Mission for a Green India** | 2014 | Afforestation of 10 million hectares including 6 million hectares of degraded forest land |
+| **National Mission for Sustainable Agriculture** | 2014 | Climate-resilient crops, weather insurance, dryland farming, soil health management |
+| **National Mission on Strategic Knowledge for Climate Change** | 2010 | Climate research, data sharing, capacity building, global collaboration |
 
 ---
 
@@ -149,7 +180,7 @@ Climate change refers to long-term shifts in temperatures and weather patterns, 
 | Mechanism | Detail |
 |-----------|--------|
 | **Article 6.2** | Bilateral carbon credit trading between countries (Internationally Transferred Mitigation Outcomes — ITMOs) |
-| **Article 6.4** | UN-supervised carbon crediting mechanism (replaces CDM) |
+| **Article 6.4** | UN-supervised carbon crediting mechanism (replaces CDM); rules finalised at COP29, Baku (2024) |
 | **India's Carbon Credit Trading Scheme (CCTS)** | Launched 2023; domestic carbon market; BEE (Bureau of Energy Efficiency) is the nodal agency; mandatory for designated energy-intensive industries |
 
 > **For Mains:** India's domestic carbon market (CCTS) coexists with international Article 6 mechanisms. The key policy question: should India sell carbon credits internationally (earning revenue) or retain them to meet its own NDC targets? Selling credits to developed countries could undermine India's own climate ambition.
@@ -185,6 +216,10 @@ Climate change refers to long-term shifts in temperatures and weather patterns, 
 | **Climate finance** | Money flowing from developed to developing countries for mitigation and adaptation |
 | **Adaptation** | Adjusting to climate impacts (flood defences, drought-resistant crops) |
 | **Mitigation** | Reducing GHG emissions (renewable energy, energy efficiency) |
+| **ITMOs** | Internationally Transferred Mitigation Outcomes — carbon credits traded between countries under Article 6.2 |
+| **Panchamrit** | PM Modi's 5 climate pledges at COP26, Glasgow (1 November 2021) — India's headline climate commitment |
+| **Green Climate Fund (GCF)** | Main UNFCCC financial mechanism for developing countries; GCF-2 replenishment raised ~$12.8 billion (2024-2027) |
+| **PAT Scheme** | Perform, Achieve and Trade — market-based energy efficiency mechanism under NAPCC's Enhanced Energy Efficiency Mission |
 
 ---
 
@@ -201,12 +236,13 @@ Climate change refers to long-term shifts in temperatures and weather patterns, 
 - Loss and Damage Fund — when agreed, first disbursement
 
 ### Mains Focus Areas
-- Climate justice and equity — India's per capita argument vs absolute emissions
-- Paris Agreement effectiveness — voluntary NDCs sufficient?
-- Climate finance gap — $300 billion vs $1.3 trillion debate
+- Climate justice and equity — India's per capita emissions (~2.0 tonnes) vs global average (~4.7 tonnes) and historical responsibility argument
+- Paris Agreement effectiveness — voluntary NDCs sufficient? Global Stocktake findings
+- Climate finance gap — $300 billion vs $1.3 trillion debate; Green Climate Fund (GCF-2 raised ~$12.8 billion from 31 countries, but US rescinded $3 billion pledge in 2025)
+- Loss and Damage Fund — operationalisation, adequacy of $700 million vs $400 billion estimated annual need
 - India's energy transition — balancing development with decarbonisation
-- Renewable energy targets — achievements and challenges (grid stability, land acquisition)
-- Carbon markets — domestic CCTS and Article 6 linkage
+- Renewable energy targets — achievements and challenges (grid stability, land acquisition, storage)
+- Carbon markets — domestic CCTS and Article 6 linkage; policy dilemma of selling vs retaining credits
 - Climate change impact on Indian agriculture and food security
 - Green hydrogen as industrial decarbonisation pathway
-- NAPCC and National Missions — implementation assessment
+- NAPCC and National Missions — implementation gaps after 18 years

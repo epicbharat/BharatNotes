@@ -91,6 +91,23 @@ Human Body Systems is a high-yield area for UPSC Prelims — questions on organ 
 | **Hypothalamus** | Regulates body temperature, hunger, thirst, sleep, and controls the pituitary gland |
 | **Spinal cord** | ~45 cm long; carries nerve signals between brain and body; controls reflex actions |
 
+### Neuron Structure
+
+| Component | Detail |
+|-----------|--------|
+| **Cell body (Soma)** | Contains the **nucleus** and cytoplasm; site of protein synthesis |
+| **Dendrites** | Short, branching extensions that **receive** signals from other neurons and transmit them towards the cell body |
+| **Axon** | Long, slender projection that carries electrical impulses (**action potentials**) away from the cell body to the axon terminal |
+| **Myelin sheath** | Insulating layer of fat and protein around the axon; produced by **Schwann cells** (PNS) and **oligodendrocytes** (CNS); enables **saltatory conduction** — impulses jump between **Nodes of Ranvier** |
+| **Synapse** | Junction between two neurons; signal transmitted via **neurotransmitters** (e.g., acetylcholine, dopamine, serotonin) across the **synaptic cleft** |
+| **Conduction speed** | Myelinated axons: up to **150 m/s**; unmyelinated axons: **0.5–10 m/s** — myelin increases speed by a factor of 10 or more |
+
+### Reflex Arc
+
+A **reflex arc** is the neural pathway that mediates a reflex action — an involuntary, rapid response to a stimulus (e.g., pulling hand away from a hot object). It bypasses the brain, with integration occurring in the **spinal cord**, enabling faster response.
+
+**Five components:** Receptor → Sensory (afferent) neuron → Interneuron (integration centre in spinal cord) → Motor (efferent) neuron → Effector (muscle/gland)
+
 ### Peripheral Nervous System (PNS)
 
 | Division | Detail |
@@ -178,6 +195,23 @@ Human Body Systems is a high-yield area for UPSC Prelims — questions on organ 
 
 ---
 
+## Vitamins and Deficiency Diseases
+
+| Vitamin | Chemical Name | Deficiency Disease | Key Sources |
+|---------|---------------|-------------------|-------------|
+| **A** | Retinol | **Night blindness**, xerophthalmia | Carrots, liver, dairy, fish oil |
+| **B₁** | Thiamine | **Beriberi** (nervous/cardiovascular) | Whole grains, legumes, pork |
+| **B₂** | Riboflavin | Cheilosis (cracked lips), glossitis | Milk, eggs, green vegetables |
+| **B₃** | Niacin | **Pellagra** (3 D's — diarrhoea, dermatitis, dementia) | Meat, fish, groundnuts |
+| **B₉** | Folic acid | Megaloblastic anaemia, neural tube defects in foetus | Leafy greens, pulses, liver |
+| **B₁₂** | Cobalamin | **Pernicious anaemia** (megaloblastic), neurological damage | Meat, fish, dairy (absent in plant foods) |
+| **C** | Ascorbic acid | **Scurvy** (bleeding gums, fatigue, poor wound healing) | Citrus fruits, amla, guava |
+| **D** | Calciferol | **Rickets** (children), osteomalacia (adults) | Sunlight, fish liver oil, fortified milk |
+| **E** | Tocopherol | Haemolytic anaemia (rare), neurological problems | Nuts, seeds, vegetable oils |
+| **K** | Phylloquinone | Impaired **blood clotting**, haemorrhage | Green leafy vegetables, soybean oil |
+
+---
+
 ## Reproductive System (Brief UPSC-Relevant Facts)
 
 | Feature | Detail |
@@ -186,6 +220,7 @@ Human Body Systems is a high-yield area for UPSC Prelims — questions on organ 
 | **Female** | Ovaries produce ova and **estrogen/progesterone**; one ovum released per ~28-day menstrual cycle; menopause typically between ages 45–55 |
 | **Fertilisation** | Occurs in the **fallopian tube** (oviduct); zygote implants in the uterus |
 | **IVF** | In Vitro Fertilisation — fertilisation outside the body; first IVF baby: **Louise Brown** (25 July 1978, UK); first Indian IVF baby: **Kanupriya Agarwal** (3 October 1978) |
+| **Surrogacy law** | **Surrogacy (Regulation) Act, 2021** — bans **commercial surrogacy**; allows only **altruistic surrogacy**; surrogate must be a close relative, married, aged 25–35, with at least one child; intended couple must be Indian, married for 5+ years, with no living biological/adopted child; penalty for violations: up to **10 years imprisonment** and fine up to **₹10 lakh** |
 
 ---
 
@@ -202,6 +237,10 @@ Human Body Systems is a high-yield area for UPSC Prelims — questions on organ 
 - Vaccine types: live attenuated, inactivated, mRNA, subunit, viral vector, toxoid
 - RBC lifespan: ~120 days; 5 types of WBC
 - SA node: natural pacemaker in right atrium
+- Vitamins: A → night blindness, B₁ → beriberi, B₃ → pellagra, C → scurvy, D → rickets
+- Neuron: dendrites receive, axon transmits; myelin sheath enables saltatory conduction (up to 150 m/s)
+- Reflex arc: 5 components — receptor, sensory neuron, interneuron, motor neuron, effector
+- Surrogacy (Regulation) Act 2021: commercial surrogacy banned; only altruistic surrogacy allowed
 
 ### Mains Focus Areas
 - How does the immune system distinguish between self and non-self? Relevance to autoimmune diseases

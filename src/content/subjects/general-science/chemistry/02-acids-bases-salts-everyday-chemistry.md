@@ -72,6 +72,16 @@ The pH scale measures how acidic or basic a solution is, ranging from 0 to 14. T
 
 **Exam tip:** Human blood is maintained at a narrow pH range of 7.35 to 7.45 through buffer systems. Even a small deviation can be life-threatening — this is why the body has multiple mechanisms (lungs, kidneys, blood buffers) to regulate pH.
 
+### pH in Real-World Applications
+
+- **Agriculture:** Most crops grow best in soil with a pH of 6.0 to 7.5. Below pH 5.5, essential nutrients become less available; farmers add lime (CaO or CaCO₃) to raise soil pH. Tea and blueberries prefer acidic soil (pH 4.5-5.5).
+- **Acid rain:** Normal rain is slightly acidic (pH ~5.6) because atmospheric CO₂ dissolves to form carbonic acid. Rain with pH below 5.6 is classified as acid rain, typically caused by SO₂ and NOₓ emissions. Acid rain in industrial areas often has a pH of 4.2 to 4.4.
+- **Swimming pools:** Pool water is maintained at pH 7.2 to 7.8 for safety and effective chlorine disinfection.
+
+### Buffer Solutions
+
+A buffer solution resists changes in pH when small amounts of acid or base are added. The most important biological buffer is the **bicarbonate buffer system** in blood: CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻. This system maintains blood pH at 7.35-7.45 by adjusting the ratio of bicarbonate (HCO₃⁻) to carbonic acid (H₂CO₃), which must be approximately 20:1 for normal pH. The lungs regulate CO₂ removal (seconds to minutes), while the kidneys adjust bicarbonate levels (hours to days).
+
 ---
 
 ## Indicators
@@ -135,6 +145,30 @@ When an acid reacts with a base, they neutralise each other to form a salt and w
 
 **How soap cleans (micelle formation):** Soap molecules have a hydrophilic (water-loving) head and a hydrophobic (water-repelling) tail. The hydrophobic tail attaches to grease/dirt, while the hydrophilic head stays in water. Many soap molecules surround a dirt particle, forming a spherical structure called a **micelle**, which gets washed away with water.
 
+### Hard Water
+
+Water containing dissolved calcium and magnesium salts is called hard water. It does not lather easily with soap.
+
+| Type | Caused By | Removal Method |
+|------|-----------|----------------|
+| **Temporary hardness** | Ca(HCO₃)₂ and Mg(HCO₃)₂ (bicarbonates) | Boiling (precipitates CaCO₃); adding slaked lime — Clark's method |
+| **Permanent hardness** | CaSO₄, MgSO₄, CaCl₂, MgCl₂ (sulphates and chlorides) | Adding washing soda (Na₂CO₃); ion-exchange resin method; reverse osmosis; distillation |
+
+**Exam tip:** Temporary hardness can be removed by boiling; permanent hardness cannot. Washing soda and ion-exchange methods work for both types.
+
+---
+
+## Water Purification
+
+| Method | Principle | What It Removes |
+|--------|-----------|-----------------|
+| **Chlorination** | Adding Cl₂ or NaOCl; chlorine kills pathogens by disrupting their cell processes | Bacteria, viruses; does not remove dissolved salts |
+| **UV treatment** | UV light at 253.7 nm wavelength damages microbial DNA, preventing reproduction | Bacteria, viruses; no chemical by-products; does not remove dissolved impurities |
+| **Reverse Osmosis (RO)** | Water forced through a semi-permeable membrane under pressure | Dissolved salts, heavy metals, bacteria, viruses — removes 90-99% of dissolved ions |
+| **Boiling** | Raising temperature to 100 °C kills most pathogens | Bacteria, protozoa; does not remove chemical contaminants |
+
+**Exam tip:** RO + UV combined systems are considered the most comprehensive for household water purification as they address both chemical and microbial contamination.
+
 ---
 
 ## Food Chemistry
@@ -158,7 +192,27 @@ When an acid reacts with a base, they neutralise each other to form a salt and w
 | **Aspartame** | ~200 times sweeter | Discovered in 1965; not heat-stable (cannot be used in baking); carries phenylalanine warning for people with phenylketonuria (PKU) |
 | **Sucralose** | ~600 times sweeter | Made from sugar; heat-stable; widely used in baked goods |
 
+### Food Preservation Techniques
+
+| Technique | How It Works |
+|-----------|-------------|
+| **Salting** | High salt concentration dehydrates microorganisms through osmosis, inhibiting their growth |
+| **Pickling** | Immersion in vinegar (acetic acid) creates a low-pH environment hostile to bacteria |
+| **Pasteurisation** | Heating milk to 72 °C for 15 seconds (HTST method) or 63 °C for 30 minutes kills harmful bacteria without significantly altering taste; named after Louis Pasteur (1860s) |
+| **Sugar preservation** | High sugar concentration in jams and jellies draws water out of microbial cells, preventing spoilage |
+| **Refrigeration** | Low temperature slows microbial metabolism and enzymatic reactions, delaying spoilage |
+
 **Food adulteration** — a frequent UPSC topic: common adulterants include metanil yellow in turmeric, chalk powder in flour, water in milk, and argemone oil in mustard oil. The **Food Safety and Standards Authority of India (FSSAI)** regulates food safety under the Food Safety and Standards Act, 2006.
+
+---
+
+## Important Chemical Reactions in Daily Life
+
+| Reaction | Chemical Process | Observation |
+|----------|-----------------|-------------|
+| **Rusting of iron** | 4Fe + 3O₂ + 6H₂O → 4Fe(OH)₃ → 2Fe₂O₃·xH₂O (hydrated iron oxide) | Requires both oxygen and moisture; accelerated by salt and acid rain; prevented by painting, galvanising (zinc coating), or oiling |
+| **Fermentation** | C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ (glucose → ethanol + carbon dioxide, catalysed by yeast enzymes) | Used in bread-making (CO₂ causes dough to rise) and alcohol production |
+| **Photosynthesis** | 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (in presence of sunlight and chlorophyll) | Plants convert light energy into chemical energy; produces the oxygen we breathe |
 
 ---
 
@@ -198,10 +252,15 @@ Fire extinguishers work by removing one or more elements of the "fire triangle" 
 
 **Frequently tested areas:**
 - pH values of common substances (especially blood, stomach acid, and lemon juice)
+- Acid rain causes, pH threshold, and environmental impact
+- Buffer solutions and blood pH regulation
 - Difference between soaps and detergents; why soap fails in hard water
+- Hard water — temporary vs permanent hardness and removal methods
 - Important salts — baking soda, washing soda, bleaching powder, plaster of Paris (formulas, preparation, and uses)
+- Water purification methods — chlorination, RO, UV treatment
 - Fire extinguisher types and which fire class each addresses
-- Food preservatives and adulteration; FSSAI role
+- Food preservation techniques (pasteurisation, salting, pickling) and adulteration; FSSAI role
+- Common chemical reactions — rusting, fermentation, photosynthesis
 - Difference between antiseptic and disinfectant
 
 **Cross-links:**

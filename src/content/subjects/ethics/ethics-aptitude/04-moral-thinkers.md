@@ -96,6 +96,24 @@ The UPSC GS4 syllabus explicitly includes **"contributions of moral thinkers and
 
 > **Use in answers:** "Rawls' veil of ignorance challenges us to design policies as if we might be the most vulnerable citizen — this is the ethical foundation of inclusive governance."
 
+### Karl Marx (1818-1883)
+
+| Feature | Detail |
+|---------|--------|
+| **Core idea** | **Critique of exploitation and alienation** — capitalism estranges workers from the products of their labour, from creative activity, from their own human nature, and from fellow human beings |
+| **Surplus value** | Workers produce more value than they receive in wages; the surplus is appropriated by the capitalist class |
+| **Ethical dimension** | Though Marx rejected abstract moralising, his critique is fundamentally ethical — capitalism impedes human flourishing by reducing persons to instruments of profit |
+| **For GS4** | Marx's alienation framework is relevant to questions on labour welfare, exploitation of informal workers, and the ethical limits of free-market policy. His emphasis on structural injustice complements Rawls' focus on institutional fairness. |
+
+### Confucius (551-479 BCE)
+
+| Feature | Detail |
+|---------|--------|
+| **Core idea** | **Ethical governance through virtuous relationships** — social harmony arises when individuals fulfil their roles with virtue |
+| **Five Virtues** | Ren (benevolence), Yi (righteousness), Li (propriety), Zhi (wisdom), Xin (trustworthiness) |
+| **Five Relationships** | Ruler-subject, father-son, husband-wife, elder brother-younger brother, friend-friend — each carries mutual ethical obligations |
+| **For GS4** | Confucius's insistence that rulers must first cultivate personal virtue before governing others parallels the GS4 emphasis on integrity and ethical leadership. His idea that trustworthiness (Xin) — coherence between speech and action — is essential for governance directly connects to probity in public life. |
+
 ---
 
 ## Indian Ethical Thinkers
@@ -108,6 +126,16 @@ The UPSC GS4 syllabus explicitly includes **"contributions of moral thinkers and
 | **Ethics** | Pragmatic realism — the king's dharma is the welfare of the people; the end (state stability) can justify strategic means |
 | **Key principles** | "In the happiness of the subjects lies the happiness of the king"; espionage and intelligence are legitimate tools of governance; meritocratic bureaucracy |
 | **For GS4** | Kautilya's governance ethics prioritise **institutional design** over individual virtue. He anticipated corruption and designed systemic checks — rotation of officials, secret inspections, severe penalties. His approach combines dharma (duty) with pragmatic governance. |
+
+### Gautama Buddha (~563-483 BCE)
+
+| Feature | Detail |
+|---------|--------|
+| **Core idea** | **The Middle Way** — avoid extremes of indulgence and asceticism; follow a balanced path to end suffering |
+| **Four Noble Truths** | (1) Suffering (dukkha) is inherent in life; (2) Desire and attachment cause suffering; (3) Suffering can be overcome (nirvana); (4) The Eightfold Path leads to liberation |
+| **Eightfold Path** | Right view, right thought, right speech, right action, right livelihood, right effort, right mindfulness, right concentration |
+| **Five Precepts (Panchasila)** | Abstain from killing, stealing, sexual misconduct, lying, and intoxication — voluntary ethical guidelines, not divine commandments |
+| **For GS4** | Buddha's emphasis on compassion (karuna) and non-violence (ahimsa) predates and deeply influenced Gandhi. The Middle Way is relevant to balanced policy-making — avoiding both extreme state control and unchecked liberalisation. The Eightfold Path's inclusion of "right livelihood" connects directly to ethical conduct in professional life. |
 
 ### Mahatma Gandhi (1869-1948)
 
@@ -170,6 +198,33 @@ The UPSC GS4 syllabus explicitly includes **"contributions of moral thinkers and
 
 ---
 
+## Western vs Indian Ethical Traditions — A Comparison
+
+| Dimension | Western Tradition | Indian Tradition |
+|-----------|------------------|-----------------|
+| **Starting point** | Individual rights and rational autonomy | Dharma (duty), cosmic order, and social harmony |
+| **Source of ethics** | Reason and logic (Kant, Rawls); empirical observation (Bentham, Mill) | Scriptural wisdom, spiritual experience, and lived practice (Gita, Buddha, Gandhi) |
+| **Goal of ethical life** | Justice, fairness, maximising welfare, or human dignity | Liberation (moksha/nirvana), self-realisation, and universal welfare (sarvodaya) |
+| **Means vs ends** | Often separates — utilitarianism focuses on outcomes, Kant on duty regardless of result | Inseparable — Gandhi insists ethical means are non-negotiable; Gita emphasises nishkama karma (desireless action) |
+| **Role of the state** | Social contract between individuals and government (Rawls, Locke) | King/ruler as servant of dharma; state exists to uphold cosmic and social order (Kautilya, Ashoka) |
+| **View of human nature** | Rational self-interest (Hobbes); capable of moral reasoning (Kant) | Capable of spiritual evolution; inherent divinity in all beings (Vivekananda, Vedanta) |
+
+For GS4, the strongest answers synthesise both traditions — use Western frameworks for analytical rigour and Indian thought for ethical depth and holistic perspective.
+
+---
+
+## Relevance of Thinkers to Modern Governance
+
+| Modern Governance Challenge | Thinker & Framework | Application |
+|----------------------------|--------------------|----|
+| **Data privacy vs surveillance** | Mill's harm principle; Kant's dignity | State surveillance is justified only to prevent concrete harm, not to control citizens |
+| **AI and automation displacing jobs** | Marx's alienation; Buddha's right livelihood | Policy must ensure technology serves human flourishing, not just profit maximisation |
+| **Climate change policy** | Gandhi's trusteeship; Rawls' veil of ignorance | Current generations are trustees of the planet for future generations; climate policy must protect the most vulnerable |
+| **Affirmative action debates** | Ambedkar's constitutional morality; Rawls' Difference Principle | Inequality is justified only if it benefits the least advantaged; structural discrimination requires structural remedy |
+| **Ethical AI governance** | Confucius' Xin (trustworthiness); Kant's categorical imperative | AI systems must be transparent (trustworthy) and must never treat humans merely as data points (means) |
+
+---
+
 ## How to Use Thinkers in GS4 Answers
 
 | Do | Don't |
@@ -199,5 +254,7 @@ The UPSC GS4 syllabus explicitly includes **"contributions of moral thinkers and
 | **Social justice** | Rawls (Difference Principle), Ambedkar (constitutional morality), Gandhi (Sarvodaya) |
 | **Individual rights** | Mill (harm principle), Kant (dignity), Ambedkar (liberty) |
 | **Policy-making** | Bentham/Mill (utilitarianism), Rawls (veil of ignorance) |
-| **Leadership** | Aristotle (virtue), Vivekananda (selfless service), Plato (philosopher-king) |
-| **Environmental ethics** | Gandhi (Seven Sins — Science without Humanity), Tagore (harmony with nature) |
+| **Leadership** | Aristotle (virtue), Vivekananda (selfless service), Plato (philosopher-king), Confucius (virtuous ruler) |
+| **Environmental ethics** | Gandhi (Seven Sins — Science without Humanity), Tagore (harmony with nature), Buddha (compassion for all beings) |
+| **Labour welfare** | Marx (alienation and exploitation), Gandhi (trusteeship), Buddha (right livelihood) |
+| **Ethical governance** | Confucius (five virtues), Kautilya (institutional design), Ambedkar (constitutional morality) |

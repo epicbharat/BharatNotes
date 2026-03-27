@@ -33,6 +33,15 @@ Mechanics is the most frequently tested physics topic in UPSC Prelims. Questions
 
 **Exam tip:** Newton's First Law is also called the Law of Inertia. Inertia depends solely on mass — a heavier object has greater inertia. The First Law is a special case of the Second Law (when F = 0, a = 0).
 
+### Real-World Applications of Newton's Laws
+
+| Application | Law at Work | Explanation |
+|-------------|-------------|-------------|
+| **Seatbelts in cars** | First Law (Inertia) | When a car stops suddenly, the passenger's body tends to continue moving forward due to inertia. The seatbelt provides the external force needed to decelerate the passenger along with the car, preventing injury |
+| **Rocket propulsion** | Third Law (Action–Reaction) | Hot exhaust gases are expelled backward at high speed (action). The rocket experiences an equal and opposite thrust forward (reaction). This works even in the vacuum of space — no air is needed to "push against" |
+| **Recoil of a gun** | Third Law | The bullet moves forward (action) while the gun pushes backward against the shooter's shoulder (reaction). The gun recoils less because it has greater mass (F = ma — same force, more mass, less acceleration) |
+| **Catching a cricket ball** | Second Law | A fielder pulls hands back while catching to increase the time over which momentum changes, thereby reducing the force on the hands (impulse = F x t = change in momentum) |
+
 ---
 
 ## Types of Motion
@@ -143,6 +152,17 @@ Johannes Kepler formulated these laws based on Tycho Brahe's astronomical observ
 | **Escape velocity (Earth)** | **11.2 km/s** (~40,320 km/h); velocity needed to escape Earth's gravitational pull entirely; formula: v_e = sqrt(2GM/R) = sqrt(2) x orbital velocity |
 | **Relationship** | Escape velocity = sqrt(2) x orbital velocity — a favourite UPSC fact |
 
+### Escape Velocity Across Celestial Bodies
+
+Escape velocity depends on the mass and radius of the body — larger, denser bodies have higher escape velocity. This determines which gases an atmosphere can retain.
+
+| Body | Escape Velocity | Significance |
+|------|----------------|--------------|
+| **Moon** | **2.4 km/s** | Too low to retain an atmosphere — gas molecules at lunar temperatures exceed this speed and escape into space |
+| **Mars** | **5.0 km/s** | Retains only a thin CO2 atmosphere; most lighter gases have escaped over billions of years |
+| **Earth** | **11.2 km/s** | Retains N2, O2, CO2 but not hydrogen or helium in significant amounts |
+| **Jupiter** | **59.6 km/s** | Retains even the lightest gases (hydrogen, helium) — hence it is a gas giant |
+
 | Orbit Type | Altitude | Period | Key Use |
 |------------|----------|--------|---------|
 | **Low Earth Orbit (LEO)** | 200–2,000 km | ~90–120 minutes | ISS (~408 km), Earth observation, remote sensing |
@@ -171,6 +191,25 @@ Johannes Kepler formulated these laws based on Tycho Brahe's astronomical observ
 
 ---
 
+## Bernoulli's Principle & Fluid Dynamics
+
+Bernoulli's principle states that in a steadily flowing fluid, an increase in velocity occurs simultaneously with a decrease in pressure. The equation (for incompressible, non-viscous flow along a streamline) is:
+
+**P + (1/2)ρv^2 + ρgh = constant**
+
+where P = pressure, ρ = fluid density, v = velocity, g = acceleration due to gravity, h = height.
+
+| Application | How Bernoulli's Principle Applies |
+|-------------|----------------------------------|
+| **Airplane lift** | The curved upper surface of a wing forces air to travel faster over the top than the bottom. Faster air means lower pressure above the wing and higher pressure below — the pressure difference creates an upward lift force |
+| **Swing bowling (cricket)** | The bowler keeps one side of the ball smooth and the other rough, with the seam angled at 15°–25°. Air flows smoothly over the smooth side but becomes turbulent past the rough/seam side. The difference in airflow speed creates a pressure imbalance, causing the ball to swing laterally |
+| **Venturi meter** | A constriction in a pipe increases fluid velocity and lowers pressure at the narrow section. Measuring the pressure difference allows calculation of flow rate |
+| **Atomiser / perfume sprayer** | Fast-moving air over the tube opening reduces pressure, drawing liquid up from the container and dispersing it as a fine spray |
+
+**Exam tip:** Bernoulli's principle applies only to ideal (non-viscous, incompressible) fluids in streamline (laminar) flow. It is essentially a statement of conservation of energy for flowing fluids.
+
+---
+
 ## Pressure & Buoyancy
 
 | Concept | Statement | Formula | Application |
@@ -194,7 +233,9 @@ Johannes Kepler formulated these laws based on Tycho Brahe's astronomical observ
 | **Friction** | Misconceptions — friction is independent of contact area; static friction is greater than kinetic; rolling friction is least |
 | **Gravitation** | g vs G comparison; variation of g with altitude/depth/latitude; weightlessness is free fall, not zero gravity |
 | **Satellites** | Geostationary altitude (35,786 km), escape velocity (11.2 km/s), orbital velocity relationship with escape velocity |
-| **Pressure** | Pascal's law applications (hydraulics), Archimedes' principle (flotation), atmospheric pressure and its effects at altitude |
+| **Pressure & fluids** | Pascal's law applications (hydraulics), Archimedes' principle (flotation), atmospheric pressure and its effects at altitude |
+| **Bernoulli's principle** | How airplane wings generate lift, why cricket balls swing, Venturi effect in fluid flow measurement |
+| **Escape velocity** | Comparison across celestial bodies; why Moon has no atmosphere; relationship with orbital velocity (v_e = sqrt(2) x v_orbital) |
 
 ### Mains / Essay Focus Areas
 
@@ -206,4 +247,4 @@ Johannes Kepler formulated these laws based on Tycho Brahe's astronomical observ
 
 ---
 
-*Sources: NCERT Physics (Class 11 and 12), NASA — Orbits and Kepler's Laws (science.nasa.gov), ESA — Types of Orbits (esa.int), Wikipedia — Gravitational Constant, Geostationary Orbit, Escape Velocity, Britannica — Pascal's Principle, Kepler's Laws of Planetary Motion.*
+*Sources: NCERT Physics (Class 11 and 12), NASA — Orbits and Kepler's Laws (science.nasa.gov), NASA — Bernoulli's Principle (nasa.gov), ESA — Types of Orbits (esa.int), NASA Planetary Fact Sheet (nssdc.gsfc.nasa.gov), Wikipedia — Gravitational Constant, Geostationary Orbit, Escape Velocity, Bernoulli's Principle, Britannica — Pascal's Principle, Kepler's Laws of Planetary Motion, Escape Velocity.*
