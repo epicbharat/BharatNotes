@@ -28,3 +28,5 @@ Biology is the **highest-yield** science subject in UPSC Prelims — questions o
 |---|---------|------------|
 | 1 | **Human Body Systems** | Circulatory, respiratory, digestive, nervous, endocrine, skeletal, immune, reproductive systems |
 | 2 | **Health, Nutrition & Disease** | Communicable/NCD diseases, malnutrition, government health schemes, epidemics, One Health |
+| 3 | **Genetics, Heredity & Evolution** | DNA, RNA, Mendel's laws, mutations, genetic disorders, chromosomal abnormalities, Darwin, natural selection, human evolution |
+| 4 | **Ecology & Environment Basics** | Ecosystems, food chains, ecological pyramids, biogeochemical cycles, biomes, biodiversity, conservation |

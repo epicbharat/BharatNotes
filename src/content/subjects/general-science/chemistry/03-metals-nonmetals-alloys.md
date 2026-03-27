@@ -47,7 +47,28 @@ Metals, non-metals, and alloys form a core area in UPSC General Science — ques
 | **Reaction with acids** | React with dilute acids to produce hydrogen gas (Zn + H₂SO₄ → ZnSO₄ + H₂) | Generally do not react with dilute acids |
 | **Reaction with water** | Reactive metals react vigorously (Na, K); less reactive ones react slowly or not at all | Generally do not react with water |
 
-**Metalloids** (semi-metals) — Boron, Silicon, Germanium, Arsenic, Antimony, Tellurium — show properties of both metals and non-metals. Silicon is widely used in semiconductors.
+### Metalloids (Semi-Metals)
+
+Metalloids occupy the diagonal border between metals and non-metals in the periodic table. The commonly recognised metalloids are **Boron (B), Silicon (Si), Germanium (Ge), Arsenic (As), Antimony (Sb), and Tellurium (Te)**.
+
+| Property | Behaviour |
+|----------|-----------|
+| **Appearance** | Metallic lustre, but brittle like non-metals |
+| **Conductivity** | Semiconductors — conduct electricity better than non-metals but worse than metals; conductivity increases with temperature |
+| **Crystal structure** | Silicon and germanium crystallise with a diamond-like tetrahedral structure; arsenic and antimony form puckered layers |
+| **Chemical behaviour** | Can form both acidic and basic oxides depending on conditions |
+| **Key applications** | Silicon and germanium — semiconductors (chips, solar cells); arsenic — alloys and pesticides; boron — borosilicate glass, neutron absorbers in nuclear reactors |
+
+### Comparison: Metals vs Non-Metals vs Metalloids
+
+| Feature | Metals | Non-Metals | Metalloids |
+|---------|--------|------------|------------|
+| **Electrical conductivity** | High (silver is the best) | Poor (exception: graphite) | Moderate (semiconductors) |
+| **Malleability/Ductility** | Malleable and ductile | Brittle | Brittle |
+| **Lustre** | Shiny metallic | Dull (exceptions: iodine, diamond) | Metallic lustre |
+| **Electron tendency** | Lose electrons (form cations) | Gain electrons (form anions) | Can lose or gain |
+| **Oxide nature** | Basic or amphoteric | Acidic or neutral | Amphoteric |
+| **Examples** | Fe, Cu, Au, Al | C, N, O, S, P | Si, Ge, As, B |
 
 ---
 
@@ -65,17 +86,35 @@ The reactivity series arranges metals in decreasing order of their tendency to l
 | Zinc | Zn | Moderate | Reduction with carbon |
 | Iron | Fe | Moderate | Reduction with carbon (blast furnace) |
 | Lead | Pb | Low-moderate | Reduction with carbon |
+| **Hydrogen** | **H** | **--- reference line ---** | — |
 | Copper | Cu | Low | Roasting/reduction |
-| Silver | Ag | Very low | Found free or by chemical reduction |
+| Mercury | Hg | Very low | Roasting (cinnabar ore) |
+| Silver | Ag | Very low | Chemical reduction or found free |
 | Gold | Au | Least reactive | Found free in nature |
+| Platinum | Pt | Least reactive | Found free in nature |
 
-**Key principle:** A more reactive metal can displace a less reactive metal from its salt solution (single displacement reaction). Metals above hydrogen in the series react with dilute acids to release H₂; those below hydrogen (Cu, Ag, Au) do not.
+**Key principles:**
+
+- A more reactive metal can **displace** a less reactive metal from its salt solution (single displacement reaction).
+- Metals **above hydrogen** in the series react with dilute acids to release H₂ gas; those **below hydrogen** (Cu, Hg, Ag, Au, Pt) do not.
+- The series also determines the **extraction method**: highly reactive metals (K to Al) require electrolysis; moderately reactive metals (Zn to Pb) are reduced with carbon/coke; low-reactivity metals (Cu, Hg) are obtained by roasting; and the least reactive (Ag, Au, Pt) occur free in nature.
+
+**Mnemonic for the reactivity series:** **K**ing **Na**than **Ca**me **M**ighty **Al**ong — **Z**ealous **Fe**llow **Pb**(Lead) **H**ad **Cu**ps of **Hg**(Mercury) with **Ag**(Silver) and **Au**(Gold) and **Pt**(Platinum).
 
 ---
 
 ## Metallurgy
 
 Metallurgy is the process of extracting metals from their ores and refining them for use.
+
+### Common Ore Types
+
+| Ore Type | Chemical Nature | Examples |
+|----------|----------------|----------|
+| **Oxide ores** | Metal oxides | Bauxite (Al₂O₃·2H₂O), haematite (Fe₂O₃), cuprite (Cu₂O) |
+| **Sulphide ores** | Metal sulphides | Galena (PbS), zinc blende (ZnS), copper pyrites (CuFeS₂), cinnabar (HgS) |
+| **Carbonate ores** | Metal carbonates | Limestone (CaCO₃), siderite (FeCO₃), calamine (ZnCO₃) |
+| **Halide ores** | Metal halides | Rock salt (NaCl), cryolite (Na₃AlF₆), fluorspar (CaF₂) |
 
 ### Steps in Metallurgy
 
@@ -89,11 +128,25 @@ Metallurgy is the process of extracting metals from their ores and refining them
 
 **Thermite reaction** — Fe₂O₃ + 2Al → 2Fe + Al₂O₃ — highly exothermic; used for welding railway tracks.
 
+**Electrolytic refining** — The impure metal is made the **anode**, a thin strip of pure metal is the **cathode**, and acidified salt solution of the metal acts as the **electrolyte**. On passing current, pure metal deposits on the cathode while impurities settle as **anode mud**. This method is used for refining copper, zinc, tin, nickel, silver, and gold.
+
 ---
 
 ## Corrosion and Its Prevention
 
 Corrosion is the gradual destruction of metals by chemical or electrochemical reaction with the environment.
+
+### Types of Corrosion
+
+| Type | Mechanism |
+|------|-----------|
+| **Uniform (general) corrosion** | Occurs evenly across the entire metal surface — the most common and predictable form |
+| **Galvanic corrosion** | Two dissimilar metals in electrical contact in the presence of an electrolyte — the more anodic (less noble) metal corrodes faster |
+| **Pitting corrosion** | Highly localised — produces small, deep pits; caused by breaks in the protective oxide film; dangerous because hard to detect |
+| **Crevice corrosion** | Occurs in confined spaces (under washers, bolts, gaskets) where stagnant solution becomes oxygen-depleted and acidic |
+| **Stress corrosion cracking** | Combined effect of tensile stress and a corrosive environment — leads to sudden brittle fracture without warning |
+
+### Prevention Methods
 
 | Concept | Detail |
 |---------|--------|
@@ -123,6 +176,18 @@ An alloy is a homogeneous mixture of a metal with one or more other metals or no
 | **German Silver** | Copper + Zinc + Nickel (no silver) | Utensils, decorative items, resistances |
 
 **Why alloys?** Pure metals are often too soft, too reactive, or lack desired properties. Alloying improves hardness, strength, corrosion resistance, or lowers melting point.
+
+---
+
+## India's Major Mineral Resources
+
+| Mineral | Top Producing States | Key Facts |
+|---------|---------------------|-----------|
+| **Iron ore** | Odisha (largest, ~56% share), Chhattisgarh, Karnataka, Jharkhand | India produced ~284 million tonnes in 2024; Odisha alone ~160 MT |
+| **Bauxite** (aluminium ore) | Odisha (~73% of production), Jharkhand, Gujarat, Maharashtra, Chhattisgarh | Total reserves ~830 million tonnes; Odisha holds ~39% of reserves |
+| **Copper** | Rajasthan (~50% of reserves), Madhya Pradesh (~24%), Jharkhand | Khetri-Singhana belt (Rajasthan) and Singhbhum (Jharkhand) are key areas |
+| **Coal** | Odisha, Jharkhand, Chhattisgarh, West Bengal, Madhya Pradesh | India crossed 1 billion tonnes of coal production in FY 2024-25 |
+| **Mica** | Andhra Pradesh (~41% of reserves), Rajasthan (~28%), Bihar, Jharkhand | Nellore (AP) produces the best quality mica; Koderma (Jharkhand) is a leading producer |
 
 ---
 
@@ -163,19 +228,30 @@ Noble metals are found in **free state** in nature because they do not react eas
 | **Why critical?** | Essential for clean energy transition (EV batteries, solar panels, wind turbines), defence, semiconductors, and telecommunications |
 | **KABIL** | **Khanij Bidesh India Ltd.** — a joint venture of NALCO, HCL, and MECL under the Ministry of Mines; mandated to acquire overseas critical mineral assets |
 | **India-Australia partnership** | MoU signed in **March 2022** between Australia's Critical Minerals Office and KABIL; identified lithium and cobalt projects in Australia for joint exploration |
-| **Other partnerships** | India has signed critical minerals agreements with Argentina, Chile, and the US to diversify supply chains away from China's dominance |
+| **KABIL in Argentina** | In January 2024, KABIL signed an agreement with the state-owned company of Catamarca Province (Argentina) for exploration of **5 brine-type lithium blocks** covering 15,703 hectares; field exploration began October 2024 |
+| **KABIL in Chile** | KABIL signed an NDA with Chile's state-owned ENAMI for exploration of brine-type lithium blocks |
+| **Other partnerships** | India has signed critical minerals agreements with Argentina, Chile, Australia, and the US to diversify supply chains away from China's dominance |
 | **Domestic exploration** | Lithium reserves discovered in **Jammu & Kashmir (Reasi district)** — estimated 5.9 million tonnes of inferred resources (announced February 2023 by GSI) |
+| **Critical Minerals Mission** | Approved by the Union Cabinet on 29 January 2025; total outlay of **Rs 34,300 crore** over seven years (2024-25 to 2030-31) — Rs 16,300 crore government expenditure plus Rs 18,000 crore PSU investment; covers exploration, mining, processing, and recycling |
 
 ---
 
 ## UPSC Relevance
 
-**Prelims focus areas:** Properties of metals vs non-metals, reactivity series order, alloy compositions (especially stainless steel, bronze, brass, duralumin), corrosion prevention methods, noble metals and aqua regia.
+**Prelims focus areas:** Properties of metals vs non-metals, reactivity series order, alloy compositions (especially stainless steel, bronze, brass, duralumin), types of corrosion (uniform, galvanic, pitting), corrosion prevention methods, noble metals and aqua regia.
 
-**Mains and essay links (GS-3):** Rare earth elements and India's strategic vulnerability, critical minerals for energy transition, China's dominance in REE supply chains, KABIL and overseas mineral diplomacy, thorium reserves and India's three-stage nuclear programme.
+**Mains and essay links (GS-3):** Rare earth elements and India's strategic vulnerability, critical minerals for energy transition, China's dominance in REE supply chains, KABIL and overseas mineral diplomacy, National Critical Minerals Mission (2025), thorium reserves and India's three-stage nuclear programme.
 
-**Key terms to remember:** Galvanisation, sacrificial anode, froth flotation, thermite reaction, Hall-Heroult process, aqua regia, monazite sands.
+**Key terms to remember:** Galvanisation, sacrificial anode, froth flotation, thermite reaction, Hall-Heroult process, aqua regia, monazite sands, anode mud, electrolytic refining, galvanic corrosion, pitting corrosion, stress corrosion cracking.
+
+**Common traps in Prelims:**
+
+- German silver contains **no silver** — it is Cu + Zn + Ni.
+- Mercury is the **only metal** that is liquid at room temperature; bromine is a liquid non-metal.
+- Graphite (a non-metal) **conducts electricity** — it is the key exception.
+- Diamond has the **highest hardness** (10 on Mohs scale) among natural substances but is a **poor conductor** of electricity.
+- Stainless steel contains chromium (minimum 10.5%), which forms a protective oxide layer — nickel is not always present in all grades.
 
 ---
 
-*Sources: NCERT Class 10 Science (Chapter 3 — Metals and Non-Metals), USGS Rare Earths Statistics, PIB press releases (Critical Minerals List, June 2023; KABIL), Mining Technology (China REE production data, 2025), Wikipedia (Reactivity Series, Duralumin, Rare-earth element).*
+*Sources: NCERT Class 10 Science (Chapter 3 — Metals and Non-Metals), USGS Rare Earths Statistics, PIB press releases (Critical Minerals List, June 2023; KABIL; National Critical Mineral Mission, January 2025), Mining Technology (China REE production data, 2025), Indian Bureau of Mines (Bauxite, Mica Yearbooks), US Naval Academy (Corrosion Types course notes), Wikipedia (Reactivity Series, Duralumin, Rare-earth element, Metalloid, Stainless Steel, Nickel Silver).*
