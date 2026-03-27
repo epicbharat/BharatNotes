@@ -60,6 +60,10 @@ India is one of the world's most **disaster-prone countries** due to its diverse
 
 > **Bihar's Kosi — "Sorrow of Bihar":** The Kosi river shifts course dramatically, flooding vast areas. In 2008, a breach in the Kosi embankment in Nepal displaced 3.3 million people in Bihar. The Kosi is a classic UPSC case study for river management, embankment debate, and transboundary water issues.
 
+### Rashtriya Barh Ayog (National Flood Commission)
+
+The **Rashtriya Barh Ayog** (National Flood Commission) was set up in **1976** by the Ministry of Agriculture and Irrigation. In **1980**, it submitted its report with **207 recommendations** and estimated India's total flood-prone area at **40 million hectares**. This figure was later revised upward to **49.815 million hectares** by the Working Group on Flood Management for the 12th Five-Year Plan, based on data from state governments. The Commission concluded that flood incidence had increased not due to higher rainfall, but due to **anthropogenic factors** — deforestation, drainage congestion, and poorly planned development.
+
 ### Flood Management Measures
 
 | Structural | Non-Structural |
@@ -129,6 +133,18 @@ India is one of the world's most **disaster-prone countries** due to its diverse
 | **Extremely Severe Cyclonic Storm** | 167-221 | Cyclone Fani (2019) |
 | **Super Cyclonic Storm** | 222+ | Cyclone Amphan (2020) |
 
+### Cyclone Naming — RSMC New Delhi
+
+IMD's **Regional Specialised Meteorological Centre (RSMC), New Delhi** is one of six RSMCs worldwide designated by WMO to issue tropical cyclone advisories. It covers the **North Indian Ocean** (Bay of Bengal and Arabian Sea, 45°E–100°E). Cyclone naming for this basin began in **September 2004**, following a decision by the **WMO/ESCAP Panel on Tropical Cyclones** at its 27th Session in Muscat (2000). Names are contributed by **13 member countries** — Bangladesh, India, Iran, Maldives, Myanmar, Oman, Pakistan, Qatar, Saudi Arabia, Sri Lanka, Thailand, UAE, and Yemen. The current list contains **169 names** (13 from each country), used sequentially.
+
+### Recent Major Cyclones
+
+| Cyclone | Year | Category | Landfall | Key Facts |
+|---------|------|----------|----------|-----------|
+| **Amphan** | May 2020 | Super Cyclonic Storm | West Bengal (near Bakkhali) | Strongest cyclone in Bay of Bengal since 1999; peak winds 240 km/h; $15 billion damage (costliest in North Indian Ocean); 128 deaths |
+| **Tauktae** | May 2021 | Very Severe Cyclonic Storm | Gujarat (Una, Diu coast) | Strongest cyclone to hit Gujarat in decades; peak winds 185 km/h; 174 deaths; $2.25 billion damage |
+| **Biparjoy** | June 2023 | Very Severe Cyclonic Storm | Gujarat (Jakhau, Kutch) | Arabian Sea cyclone; wind speeds 115-125 km/h at landfall; mass evacuation of 1.5 lakh people; minimal casualties |
+
 ### Cyclone Management — India's Success Story
 
 | Measure | Detail |
@@ -140,6 +156,24 @@ India is one of the world's most **disaster-prone countries** due to its diverse
 | **Coastal embankments** | Mangrove restoration (natural buffer — Sundarbans reduced Amphan's impact) |
 
 > **Odisha's transformation:** In the 1999 super cyclone, Odisha lost 10,000+ lives. In 2019 (Cyclone Fani, equally powerful), Odisha lost just 64 lives. This is arguably **India's greatest disaster management success story** — driven by early warning systems, mass evacuation, cyclone shelters, and institutional learning. For Mains, use this as a positive case study.
+
+---
+
+## Heat Waves
+
+Heat waves are an increasingly deadly natural hazard in India, occurring primarily from **March to June**.
+
+**IMD Heat Wave Declaration Criteria:**
+
+| Parameter | Heat Wave | Severe Heat Wave |
+|-----------|-----------|-----------------|
+| **Departure from normal** | 4.5°C to 6.4°C above normal | More than 6.4°C above normal |
+| **Absolute temperature** | Maximum ≥ 45°C | Maximum ≥ 47°C |
+| **Threshold (Plains)** | Station must reach at least 40°C | Station must reach at least 40°C |
+| **Threshold (Coast)** | Station must reach at least 37°C | Station must reach at least 37°C |
+| **Threshold (Hills)** | Station must reach at least 30°C | Station must reach at least 30°C |
+
+Heat wave conditions must be met at least at **2 stations** in a meteorological sub-division for **at least 2 consecutive days**, and are declared on the second day. With climate change, heat wave frequency and intensity are rising sharply — India recorded extreme heat events across large parts of the country in 2024 and 2025.
 
 ---
 
@@ -216,12 +250,15 @@ India is one of the world's most **disaster-prone countries** due to its diverse
 ### Prelims Focus Areas
 - Seismic zones (II-V) — which cities in which zone
 - IMD cyclone classification (wind speeds for each category)
+- Cyclone naming — RSMC New Delhi, 13 WMO/ESCAP member countries, naming since 2004
 - NDMA structure — who chairs, three-tier system
 - NDRF — number of battalions, parent forces
 - SDRF funding ratio (75:25, 90:10)
 - Disaster Management Act, 2005 — key provisions
 - Sendai Framework — priorities and targets
 - Drought classification (meteorological, hydrological, agricultural)
+- Heat wave criteria — IMD thresholds (40°C plains, 30°C hills, departure-based)
+- Rashtriya Barh Ayog (1976) — flood-prone area estimate (40 mha)
 
 ### Mains Focus Areas
 - Climate change and increasing disaster frequency

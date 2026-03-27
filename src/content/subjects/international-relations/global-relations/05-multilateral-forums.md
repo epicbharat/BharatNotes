@@ -60,9 +60,10 @@ India participates in **all major multilateral forums** while maintaining **stra
 | Feature | Detail |
 |---------|--------|
 | **Original** | Brazil, Russia, India, China, South Africa (2010 — SA joined; acronym changed from BRIC) |
-| **Expansion (2024)** | Egypt, Ethiopia, Iran, Saudi Arabia, UAE joined |
-| **Expansion (2025)** | Indonesia joined as full member; 10 partner countries added (Belarus, Bolivia, Cuba, Kazakhstan, Malaysia, Nigeria, Thailand, Uganda, Uzbekistan, Vietnam) |
-| **Current members** | **11 full members** |
+| **Expansion (2024)** | Egypt, Ethiopia, Iran, UAE formally joined (January 2024) |
+| **Saudi Arabia** | Invited in 2023 but has **not formally accepted** membership as of 2026; balancing BRICS engagement with US ties |
+| **Expansion (2025)** | Indonesia joined as full member (January 2025); 10 partner countries added (Belarus, Bolivia, Cuba, Kazakhstan, Malaysia, Nigeria, Thailand, Uganda, Uzbekistan, Vietnam) |
+| **Current full members** | **10** (original 5 + Egypt, Ethiopia, Iran, UAE, Indonesia) |
 | **Share of global GDP** | ~37% (PPP); ~30% (nominal) |
 | **Share of global population** | ~48% (~3.9 billion) |
 | **India's chairship** | **2026** — theme: "Building for Resilience, Innovation, Cooperation and Sustainability" |
@@ -98,6 +99,14 @@ India participates in **all major multilateral forums** while maintaining **stra
 | Afghanistan stability | Divergent approaches (India opposes Taliban recognition; China, Russia engage) |
 | Balancing China-Russia axis | SCO is increasingly China-dominated; India's voice is diluted |
 
+### SCO Structure
+
+| Category | Details |
+|----------|---------|
+| **Observer states** | Afghanistan, Mongolia |
+| **Dialogue partners (14)** | Azerbaijan, Armenia, Cambodia, Nepal, Turkey, Sri Lanka, UAE, Kuwait, Maldives, Bahrain, Myanmar, Egypt, Saudi Arabia, Qatar |
+| **Key institution** | RATS (Regional Anti-Terrorist Structure) — HQ: Tashkent |
+
 > India hosted the SCO summit in 2023 (virtual) and has used SCO platforms to push counter-terrorism norms and connectivity projects. However, India has refused to endorse China's Belt and Road Initiative (BRI) within SCO, as BRI's China-Pakistan Economic Corridor (CPEC) passes through Pakistan-occupied Kashmir.
 
 ---
@@ -122,6 +131,14 @@ India participates in **all major multilateral forums** while maintaining **stra
 | **Infrastructure** | Quad Infrastructure Fellowship; counter to BRI |
 | **Cybersecurity** | Quad Cybersecurity Partnership |
 
+### Quad Summits
+
+| Summit | Year | Key Outcome |
+|--------|------|-------------|
+| **1st Leaders' (virtual)** | March 2021 | Quad Vaccine Partnership launched |
+| **Wilmington (6th)** | September 2024 | Quad Cancer Moonshot; MAITRI (Maritime Initiative for Training in the Indo-Pacific); Semiconductor Supply Chains Contingency Network MoU |
+| **India (7th)** | 2025 (scheduled) | India to host next Quad Leaders' Summit |
+
 > **For Mains:** The Quad's strategic value for India is as a **China-balancing mechanism** without formal military commitment. India benefits from technology access, intelligence sharing, and diplomatic weight. The risk: being perceived as joining a US-led anti-China bloc could compromise India's strategic autonomy, complicate relations with Russia, and provoke Chinese hostility. The key is India's insistence that Quad is "for something (free Indo-Pacific), not against someone (China)."
 
 ---
@@ -145,6 +162,8 @@ India participates in **all major multilateral forums** while maintaining **stra
 | **Climate finance** | Commitment to tripling renewable energy globally by 2030 |
 | **Multilateral Development Bank reform** | Agreement to reform MDBs for climate and development finance |
 | **Global Biofuels Alliance** | Launched with India as co-lead |
+| **IMEC** | India-Middle East-Europe Economic Corridor — MoU signed by India, Saudi Arabia, UAE, EU, France, Germany, Italy, and USA |
+| **IMEC route** | Eastern corridor (India to Gulf) + Northern corridor (Gulf to Europe via Israel and Greece); rail, shipping, energy, and data cables; seen as counter to China's BRI |
 | **Theme** | "One Earth, One Family, One Future" (*Vasudhaiva Kutumbakam*) |
 
 > **For Mains:** India's G20 presidency is considered a significant diplomatic success — achieving consensus on a leaders' declaration (which many expected to fail due to Russia-Ukraine language disputes), elevating the AU, mainstreaming DPI, and projecting India as a bridge between Global North and South. For a critical perspective, note that climate finance commitments remained inadequate and no binding outcomes on trade or debt.
@@ -186,7 +205,19 @@ India participates in **all major multilateral forums** while maintaining **stra
 | **Members** | India, Israel, UAE, USA |
 | **Launched** | 2022 |
 | **Focus** | Food security, water, energy, health, space, technology |
+| **Key projects** | UAE to invest $2 billion in integrated food parks in India; hybrid renewable energy project in Gujarat (wind + solar + battery storage) |
 | **Significance** | West Asia mini-lateral linking strategic partners; India leverages Abraham Accords normalisation |
+
+### IPEF (Indo-Pacific Economic Framework for Prosperity)
+
+| Feature | Detail |
+|---------|--------|
+| **Launched** | May 2022 by the USA |
+| **Members** | 14 (USA, India, Japan, Australia, South Korea, Indonesia, Singapore, Thailand, Malaysia, Philippines, Vietnam, New Zealand, Fiji, Brunei) |
+| **Pillars** | (I) Trade — India opted out; (II) Supply chains — India signed (February 2024); (III) Clean economy; (IV) Fair economy |
+| **Significance** | US-led economic framework for Indo-Pacific; not a traditional FTA — focuses on standards, supply chain resilience, and decarbonisation |
+| **India's position** | Joined Pillars II, III, IV; stayed out of Pillar I (trade) to protect policy space on labour, environment, and digital data |
+| **Context** | India exited RCEP (2019) but joined IPEF selectively — reflects preference for plurilateral frameworks with flexibility over binding mega-FTAs |
 
 ---
 
@@ -207,20 +238,22 @@ India participates in **all major multilateral forums** while maintaining **stra
 ## UPSC Relevance
 
 ### Prelims Focus Areas
-- BRICS — current 11 members, partner countries, NDB, CRA
-- SCO — members, HQ, RATS, when India joined
-- Quad — members, working groups, NOT a military alliance
-- G20 — members (19 + EU + AU), India's presidency outcomes
+- BRICS — current 10 full members (Saudi Arabia has not formally joined), partner countries, NDB, CRA
+- SCO — 10 members, HQ (Beijing), RATS (Tashkent), India joined 2017, observer states
+- Quad — members, working groups, NOT a military alliance, Wilmington summit 2024
+- G20 — members (19 + EU + AU), India's presidency outcomes, IMEC corridor
 - UNSC — P5 members, India's claim, G4, Coffee Club
 - SAARC vs BIMSTEC — members, why SAARC is dormant
-- I2U2 — members and focus
+- I2U2 — members and focus areas
+- IPEF — 14 members, 4 pillars, India opted out of trade pillar
 
 ### Mains Focus Areas
 - India's multi-alignment strategy — benefits and risks
 - UNSC reform — India's case and obstacles
-- BRICS expansion — what it means for global governance
-- Quad and Indo-Pacific security architecture
-- India's G20 presidency — achievements and limitations
-- SCO — navigating China-Russia dominance
+- BRICS expansion — what it means for global governance; Saudi Arabia's hedging as a case study
+- Quad and Indo-Pacific security architecture; evolution from tsunami relief to strategic grouping
+- India's G20 presidency — achievements (AU inclusion, NDLD consensus, DPI, IMEC) and limitations
+- SCO — navigating China-Russia dominance while pursuing Central Asian connectivity
 - SAARC's decline and alternatives (BIMSTEC)
 - India as bridge between Global North and South
+- IPEF vs RCEP — India's trade framework choices in the Indo-Pacific

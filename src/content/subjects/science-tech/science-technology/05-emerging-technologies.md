@@ -32,12 +32,13 @@ tags:
 
 | Feature | Detail |
 |---------|--------|
-| **Launched** | 2024; under Ministry of Electronics and IT (MeitY) |
-| **Budget** | Rs 10,372 crore |
-| **Computing** | 38,000+ GPUs onboarded at subsidised rate (Rs 65/hour) for AI startups and researchers |
-| **AI applications** | 30+ India-specific applications approved (healthcare, agriculture, climate, governance) |
-| **Indigenous models** | Development of Indian Large Language Models using Indian languages and data |
-| **Talent** | 500 PhD fellows, 5,000 PG students, 8,000 UG students supported |
+| **Approved** | 7 March 2024 by Union Cabinet; under Ministry of Electronics and IT (MeitY) |
+| **Budget** | Rs 10,371.92 crore for 5 years |
+| **7 Pillars** | IndiaAI Compute Capacity, IndiaAI Innovation Centre, IndiaAI Datasets Platform, IndiaAI Application Development Initiative, IndiaAI FutureSkills, IndiaAI Startup Financing, Safe & Trusted AI |
+| **Computing** | 10,000+ GPUs through public-private partnership; subsidised access for startups and researchers |
+| **Innovation Centre** | Development of indigenous Large Multimodal Models (LMMs) and domain-specific foundational models |
+| **Datasets Platform** | One-stop access to quality non-personal datasets for AI startups and researchers |
+| **Talent** | AI courses expanded at UG, PG, and PhD levels; Data and AI Labs in Tier 2 and Tier 3 cities |
 | **Budget 2025** | Rs 2,000 crore allocated for AI development |
 
 ### AI Applications in Governance
@@ -62,7 +63,18 @@ tags:
 | **Accountability** | When an AI makes a wrong decision (deny loan, misdiagnose), who is responsible? |
 | **Digital colonialism** | AI models built by Western companies on Western data may not serve Indian needs |
 
-> **For Mains:** India's approach is "AI for All" — using AI for inclusive development while building sovereign capability (indigenous models in Indian languages). The key governance challenge is regulation without stifling innovation. India does not yet have a comprehensive AI regulation law — it relies on sectoral guidelines. Discuss whether India needs an AI Act (like the EU) or should continue with a light-touch approach.
+> **For Mains:** India's approach is "AI for All" — using AI for inclusive development while building sovereign capability (indigenous models in Indian languages). The key governance challenge is regulation without stifling innovation.
+
+### AI Governance in India
+
+| Feature | Detail |
+|---------|--------|
+| **India AI Governance Guidelines** | Released by MeitY on 5 November 2025 — non-binding, advisory framework |
+| **Approach** | "Lightweight" and adaptive — no separate comprehensive AI law; leverages existing laws (IT Act, DPDP Act, Consumer Protection Act) |
+| **7 Guiding Sutras** | Trust, People First, Innovation over Restraint, Fairness & Equity, Accountability, Understandable by Design, Safety-Resilience-Sustainability |
+| **Proposed institutions** | AI Governance Group (AIGG) for inter-ministry coordination; Technology & Policy Expert Committee (TPEC) for advisory; AI Safety Institute (AISI) for testing and standards |
+| **Comparison** | Less prescriptive than EU AI Act (risk-based, heavy penalties); closer to Japan/USA's light-touch, innovation-first approach |
+| **Key mechanism** | Techno-legal model — consent frameworks, content-authenticity infrastructure, AI incident databases, regulatory sandboxes |
 
 ---
 
@@ -83,10 +95,11 @@ tags:
 |---------|--------|
 | **Approved** | April 2023 |
 | **Budget** | Rs 6,003.65 crore (8 years: 2023-2031) |
-| **Targets** | Build 1,000-qubit quantum computers by 2031 |
+| **Targets** | Intermediate-scale quantum computers with 50-1000 physical qubits by 2031 (superconducting and photonic platforms) |
 | **Focus areas** | Quantum computing, quantum communication, quantum sensing, quantum materials |
+| **Communication targets** | Satellite-based Quantum Key Distribution (QKD) over 2000 km within India; inter-city QKD networks with quantum memories |
 | **Implementing bodies** | DST; research hubs at IISc, IITs, TIFR, RRI |
-| **Satellite QKD** | Quantum Key Distribution for secure communications |
+| **Global standing** | India is the 6th country with a dedicated quantum mission — after USA, Austria, Finland, France, and China |
 
 ### Applications
 
@@ -99,7 +112,7 @@ tags:
 | **Materials science** | Design new materials (superconductors, catalysts) from first principles |
 | **Defence** | Quantum sensing for submarine detection; quantum communication for unhackable military networks |
 
-> **Prelims Fact:** India joined the quantum race alongside USA, China, EU. China demonstrated quantum supremacy with Jiuzhang (2020) and has quantum communication satellite Micius. India's NQM aims to make India one of the top-6 quantum-capable nations.
+> **Prelims Fact:** China demonstrated quantum supremacy with Jiuzhang (2020) and has quantum communication satellite Micius (2016). India's NQM aims to make India one of the top-6 quantum-capable nations. A key strategic concern: quantum computers can break RSA encryption — India must develop quantum-resistant (post-quantum) cryptography before large-scale quantum machines become operational.
 
 ---
 
@@ -123,6 +136,7 @@ tags:
 | **Voting** | Tamper-resistant electronic voting (conceptual) |
 | **Banking** | Cross-border payments, trade finance (RBI exploring) |
 | **Government** | Certificate verification, subsidy distribution, procurement transparency |
+| **National platform** | blockchain.gov.in — NIC-led platform for government blockchain applications across states |
 
 ### Cryptocurrency and India
 
@@ -162,10 +176,22 @@ tags:
 |---------|-----|-----|
 | **Speed** | Up to 10 Gbps | Up to 1 Tbps (100x faster) |
 | **Latency** | 1 millisecond | <0.1 millisecond |
-| **India status** | Launched October 2022; coverage across all districts by 2025 | R&D stage; Bharat 6G Alliance formed |
+| **India status** | Launched October 2022; coverage across all districts by 2025 | R&D stage; deployment target by 2030 |
 | **Applications** | AR/VR, autonomous vehicles, remote surgery, IoT at scale | Holographic communication, digital twins, AI-native networks |
 
-> India's 5G rollout is the fastest in the world — reaching all 750+ districts within 2 years. The Bharat 6G Alliance (launched 2023) brings together industry, academia, and government to develop India's 6G standards and IP.
+### Bharat 6G Vision
+
+| Feature | Detail |
+|---------|--------|
+| **Bharat 6G Vision document** | Released by PM on 23 March 2023 — India's roadmap to be a frontline 6G contributor by 2030 |
+| **Bharat 6G Alliance (B6GA)** | Launched 3 July 2023 by Minister of Communications; alliance of industry, academia, research institutions, and standards bodies |
+| **Three pillars** | Ubiquitous coverage, affordability, sustainability |
+| **Phase 1 (2023-2025)** | Exploratory research, proof-of-concept testing, innovative pathways |
+| **Phase 2 (2025-2030)** | IP creation, testbed deployment; target 10% of global 6G patents |
+| **R&D progress** | 111 research proposals approved (AI-driven networks, terahertz communications, O-RAN Massive MIMO); 100 labs set up in academic institutions; 2 testbeds funded |
+| **Global collaborations** | MoUs with USA, South Korea, Japan, Germany, Finland, Brazil, UK |
+
+> India's 5G rollout is the fastest in the world — reaching all 750+ districts within 2 years. India's 6G roadmap envisions the telecom sector contributing nearly USD 1.2 trillion to GDP by 2035.
 
 ---
 
@@ -178,6 +204,7 @@ tags:
 | **Key projects** | Tata-PSMC fab in Gujarat (28nm, $11B); Micron ATMP in Gujarat ($2.75B); Tata OSAT in Assam |
 | **Design** | 20% of world's chip designers are Indian; 100+ semiconductor design centres in India |
 | **Challenge** | Fabrication requires extreme precision; India's first fab expected by 2026-2027 |
+| **Strategic importance** | Semiconductors are critical for defence, telecom, AI, EVs — supply chain disruptions (2020-2022 chip shortage) showed risks of import dependence |
 
 ---
 
@@ -190,27 +217,34 @@ tags:
 | **Blockchain** | Decentralisation challenges state authority — how should governments regulate without stifling innovation? |
 | **IoT** | Billions of connected devices create massive surveillance potential — where is the line between convenience and privacy? |
 | **5G/6G** | Vendor security (Huawei debate); electromagnetic radiation concerns; digital divide between connected and unconnected |
+| **Semiconductors** | Geopolitical weaponisation of chip supply chains (US-China tech war); environmental cost of fabrication (water, energy intensive) |
+| **Generative AI** | Copyright of AI-generated content; deepfake regulation; impact on creative industries and livelihoods |
 
 ---
 
 ## UPSC Relevance
 
 ### Prelims Focus Areas
-- AI — types (narrow, general, super), Machine Learning vs Deep Learning
-- IndiaAI Mission — budget, key components, GPU infrastructure
-- Quantum Computing — qubits, superposition, entanglement; NQM targets
+- AI — types (narrow, general, super), Machine Learning vs Deep Learning, Generative AI
+- IndiaAI Mission — approved March 2024, Rs 10,372 crore, 7 pillars
+- India AI Governance Guidelines 2025 — 7 sutras, no separate AI law
+- Quantum Computing — qubits, superposition, entanglement; NQM targets (50-1000 qubits by 2031)
 - Blockchain — properties (decentralised, immutable), types (public, private)
 - CBDC (e-Rupee) — launched when, how it differs from cryptocurrency
-- 5G — when launched in India, speeds, applications
+- 5G — launched October 2022 in India; 6G target by 2030
+- Bharat 6G Alliance — launched July 2023; Bharat 6G Vision document March 2023
 - India Semiconductor Mission — key projects (Tata-PSMC, Micron)
 - IoT — definition, smart meter programme
 
 ### Mains Focus Areas
-- AI and governance — opportunities, bias risks, regulatory approach
-- Quantum computing — strategic implications (cryptography, defence)
-- Blockchain for transparent governance (land records, supply chain)
-- Digital sovereignty — indigenous AI models vs dependence on Western tech
+- AI and governance — opportunities, bias risks, India's light-touch regulatory approach vs EU AI Act
+- India AI Governance Guidelines 2025 — techno-legal model, seven sutras, proposed institutions (AIGG, AISI)
+- Quantum computing — strategic implications (cryptography, defence), post-quantum cryptography urgency
+- Blockchain for transparent governance (land records, supply chain, blockchain.gov.in)
+- Digital sovereignty — indigenous AI models and LMMs vs dependence on Western tech giants
 - Technology and employment — automation, reskilling, labour market disruption
-- Ethical AI — accountability, transparency, fairness
+- Ethical AI — accountability, transparency, fairness, deepfakes, digital colonialism
 - Semiconductor self-reliance — strategic importance and challenges
-- 5G/6G and digital divide
+- 5G/6G and digital divide — Bharat 6G Vision, global collaborations, 10% patent target
+- Geopolitics of technology — semiconductor supply chains, US-China tech war, India's strategic positioning
+- Convergence of technologies — AI + IoT + 5G + blockchain creating new governance and security challenges

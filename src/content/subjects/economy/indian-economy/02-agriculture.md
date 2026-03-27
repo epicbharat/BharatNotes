@@ -21,13 +21,13 @@ tags:
 
 | Indicator | Data |
 |-----------|------|
-| **Share in GDP** | ~16% (FY 2025-26) — down from 43% in 1970 |
-| **Share in employment** | ~43.5% of total workforce |
+| **Share in GDP (GVA)** | ~18% (17.94% in FY 2024-25) — down from 43% in 1970 |
+| **Share in employment** | ~46% of total workforce (PLFS 2023-24: 46.1%) |
 | **Arable land** | ~156 million hectares (largest in world after USA) |
 | **Net irrigated area** | ~50% of net sown area |
 | **Top crops by production** | Rice, wheat, sugarcane, cotton, pulses, oilseeds |
 
-> The structural problem: agriculture employs 43% of people but produces only 16% of GDP — indicating **low labour productivity** compared to industry and services.
+> The structural problem: agriculture employs ~46% of people but produces only ~18% of GDP — indicating **low labour productivity** compared to industry and services. This GDP-employment mismatch is the single most cited statistic in UPSC agriculture questions.
 
 ---
 
@@ -108,7 +108,20 @@ tags:
 
 > Government policy (since 2018-19 budget): MSP set at **minimum 1.5 times A2+FL cost**. Farmers' groups demand MSP at 1.5 times C2 cost (which includes land rent).
 
-> **Key distinction:** The difference between A2+FL and C2 is NOT trivial — it can be 30-50% higher. For example, if A2+FL for wheat is Rs. 1,100/quintal, the MSP at 1.5x would be Rs. 1,650. But C2 might be Rs. 1,500/quintal, making 1.5x C2 = Rs. 2,250. The Swaminathan Commission (2006) recommended MSP at 1.5x C2, which the government has not accepted. This A2+FL vs C2 debate is the single most important MSP issue for Mains — know the numbers and the politics.
+### Swaminathan Commission (NCF) and the MSP Formula Debate
+
+The **National Commission on Farmers (NCF)**, chaired by Prof. **M.S. Swaminathan**, was constituted in 2004 and submitted **five reports** between December 2004 and October 2006 under the title *"Serving Farmers and Saving Farming."*
+
+The final report (4 October 2006) focused on causes of farmer distress and rising farmer suicides. Its most debated recommendation: **MSP should be at least C2 + 50%** — i.e., 50% above the comprehensive cost of production (C2).
+
+**The core dispute:**
+
+| Formula | Who supports it | What it means |
+|---------|----------------|---------------|
+| **A2+FL + 50%** | Government (since 2018-19 Budget) | 50% above paid-out costs + imputed family labour — excludes land rent and interest on owned capital |
+| **C2 + 50%** | Swaminathan Commission, farmer unions (SKM) | 50% above comprehensive cost including rental value of owned land and interest on owned capital |
+
+The gap between A2+FL and C2 can be **30-50%**, meaning the Swaminathan formula would result in significantly higher MSPs. For example, if A2+FL for wheat is Rs. 1,100/quintal, the MSP at 1.5x would be Rs. 1,650. But C2 might be Rs. 1,500/quintal, making 1.5x C2 = Rs. 2,250. The government maintains it has implemented "1.5 times cost" but uses the narrower A2+FL definition. This A2+FL vs C2 debate is the single most important MSP issue for Mains.
 
 ### MSP Procurement Issues
 - Only **6% of farmers** benefit from MSP procurement (primarily wheat and rice farmers in Punjab, Haryana, MP)
@@ -149,6 +162,32 @@ tags:
 
 ---
 
+## Key Agricultural Schemes
+
+### PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)
+
+| Feature | Detail |
+|---------|--------|
+| **Launched** | 24 February 2019 by PM Modi from Gorakhpur, UP |
+| **Benefit** | Rs. 6,000/year per farmer family in **3 equal installments** of Rs. 2,000 each via DBT |
+| **Eligibility** | All landholding farmer families (initially only SMFs with up to 2 hectares; extended to all farmers from 1 June 2019) |
+| **Beneficiaries** | ~9.3 crore farmer families (22nd installment, March 2026) |
+| **Total disbursed** | Over Rs. 4.09 lakh crore since inception (as of March 2026) |
+| **Exclusions** | Income tax payers, institutional landholders, constitutional post holders, serving/retired government employees drawing pension above Rs. 10,000/month |
+
+### Pradhan Mantri Fasal Bima Yojana (PMFBY)
+
+| Feature | Detail |
+|---------|--------|
+| **Launched** | 18 February 2016 (from Kharif 2016 season) |
+| **Replaced** | National Agricultural Insurance Scheme (NAIS) and Modified NAIS (MNAIS) |
+| **Farmer premium** | **2%** for Kharif crops, **1.5%** for Rabi crops, **5%** for annual commercial and horticultural crops |
+| **Balance premium** | Shared equally by Centre and State governments |
+| **Key feature** | No capping on government subsidy — farmer receives full sum insured |
+| **Made voluntary** | From Kharif 2020 for all farmers (earlier mandatory for loanee farmers) |
+
+---
+
 ## Land Reforms in India
 
 | Reform | Purpose | Status |
@@ -168,8 +207,10 @@ tags:
 - Criticism: cartel formation by middlemen, low prices for farmers, mandi tax burden
 
 ### e-NAM (Electronic National Agriculture Market)
-- Launched **2016** — online trading platform connecting APMCs across states
-- Over 1,000 mandis integrated
+- Launched **14 April 2016** — online trading platform connecting APMCs across states
+- **1,656 mandis** integrated across 23 States and 4 UTs (as of February 2026)
+- Over **1.80 crore farmers** and **2.72 lakh traders** registered on the platform
+- Total trade since inception: 13.22 crore MT worth Rs. 4.82 lakh crore (as of February 2026)
 - Enables transparent price discovery and reduces intermediary exploitation
 
 ### Farm Laws 2020 (Repealed 2021)
@@ -182,24 +223,29 @@ tags:
 ## Important for UPSC
 
 ### Prelims Focus
-- MSP fixed for 23 crops; recommended by CACP; 1.5x A2+FL formula
+- MSP fixed for 23 crops; recommended by CACP; government uses 1.5x A2+FL formula (not C2+50% as Swaminathan Commission recommended)
 - Green Revolution: M.S. Swaminathan; primarily wheat & rice; Punjab/Haryana
-- NFSA 2013: 5 kg/person/month; Rice Rs. 3, Wheat Rs. 2, Coarse grains Rs. 1
+- NFSA 2013: 5 kg/person/month; now free (not Rs. 3/2/1) after PMGKAY merged into NFSA from Jan 2024
+- PM-KISAN: Rs. 6,000/year in 3 installments; launched 24 Feb 2019; extended to all farmers from June 2019
+- PMFBY: 2% Kharif, 1.5% Rabi, 5% commercial/horticultural; replaced NAIS and MNAIS
+- e-NAM: launched 2016; 1,656 mandis integrated (as of Feb 2026)
 - Farm Laws: Passed 2020, Repealed November 2021
-- e-NAM launched 2016
-- PMGKAY: free grains during COVID; merged into NFSA from Jan 2024
+- Agriculture: ~18% of GDP but ~46% of employment — the productivity gap
 
 ### Mains GS-3 Dimensions
-- Should MSP be given legal backing? Economic implications
-- How to address the agrarian distress despite record food production?
+- Should MSP be given legal backing? Fiscal burden vs. farmer income security
+- The Swaminathan Commission's C2+50% vs government's A2+FL+50% — why the formula matters
+- How to address agrarian distress despite record food production?
 - Crop diversification vs. MSP incentive for wheat-rice monoculture
 - Impact of climate change on Indian agriculture — adaptation strategies
 - Technology in agriculture: precision farming, drone use, AI-based crop monitoring
+- Effectiveness of DBT schemes (PM-KISAN) vs. price support (MSP) as income transfer mechanisms
 
 ### Interview Angles
 - "Why do farmers in India remain poor despite rising food production?"
 - "How would you reform APMC mandis?"
 - "Is free food grain policy sustainable in the long run?"
+- "PM-KISAN gives Rs. 6,000/year — is this sufficient to address farm distress?"
 
 ---
 

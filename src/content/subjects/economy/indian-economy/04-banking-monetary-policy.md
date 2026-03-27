@@ -125,6 +125,17 @@ RBI
 └── Non-Banking Financial Companies (NBFCs)
 ```
 
+### Payment Banks vs Small Finance Banks
+
+| Feature | Payment Banks | Small Finance Banks |
+|---------|--------------|---------------------|
+| **Purpose** | Payments, remittances, small savings | Full banking for unserved/underserved sections |
+| **Lending** | Cannot lend or issue credit cards | Can lend — 75% of ANBC to priority sector |
+| **Deposit limit** | Max Rs. 2 lakh per customer | No upper limit on deposits |
+| **Investment** | Must invest 75% of demand deposits in government securities | Follow standard SLR/CRR norms |
+| **Examples** | Paytm, Airtel, India Post, Fino, Jio, NSDL | AU, Equitas, Ujjivan, Jana, ESAF |
+| **Min. capital** | Rs. 100 crore | Rs. 200 crore |
+
 ### Bank Nationalisation
 
 | Event | Year | Banks |
@@ -133,7 +144,7 @@ RBI
 | SBI subsidiaries | 1959 | 8 state-associated banks merged |
 | **1st Nationalisation** | **19 July 1969** | **14 banks** with deposits > Rs. 50 crore (PM: Indira Gandhi) |
 | **2nd Nationalisation** | **1980** | **6 banks** with deposits > Rs. 200 crore |
-| Bank mergers (2019-20) | 2020 | 10 PSBs merged into 4 → total PSBs reduced from 27 to **12** |
+| Bank mergers (2019-20) | 2020 | 10 PSBs merged into 4 → total PSBs reduced from 27 to **12** (OBC + UBI → PNB; Syndicate → Canara; Andhra + Corporation → Union; Allahabad → Indian) |
 
 ---
 
@@ -150,10 +161,18 @@ RBI
 > **Common Mistake:** Aspirants confuse NPA classification with wilful default. An NPA is simply a loan overdue for 90+ days — the borrower may be genuinely unable to pay. A **wilful defaulter** deliberately refuses to pay despite having capacity. Also remember: NPAs are further classified into Sub-standard (up to 12 months), Doubtful (12-36 months), and Loss assets (unrecoverable). SARFAESI Act applies only to NPAs above Rs. 1 lakh and secured loans — not unsecured loans.
 
 **Resolution Mechanisms:**
-- **IBC (Insolvency and Bankruptcy Code), 2016** — time-bound resolution (330 days); NCLT adjudicates
-- **SARFAESI Act, 2002** — banks can seize and sell assets of defaulters without court intervention
+- **IBC (Insolvency and Bankruptcy Code), 2016** — time-bound resolution (330 days including litigation); NCLT adjudicates. In practice, average resolution takes ~724 days. Supreme Court in *Essar Steel* (2019) held 330-day cap is directory, not mandatory
+- **SARFAESI Act, 2002** — banks can seize and sell assets of defaulters without court intervention (applies only to secured loans above Rs. 1 lakh)
 - **Asset Reconstruction Companies (ARCs)** — buy bad loans at a discount
-- **Bad Bank (NARCL)** — National Asset Reconstruction Company Ltd., set up in 2021 to buy stressed assets from banks
+- **Bad Bank (NARCL)** — National Asset Reconstruction Company Ltd., set up in 2021; pays 15% cash + 85% in government-guaranteed Security Receipts. Acquired 26 stressed accounts worth ~Rs. 1.56 lakh crore by FY25; recovery of Rs. 4,192 crore achieved in H1 FY26
+
+### Key Banking Committees
+
+| Committee | Year | Key Recommendation |
+|-----------|------|--------------------|
+| Narasimham Committee-I | 1991 | Deregulation of interest rates; reduction of CRR/SLR; prudential norms for NPAs |
+| Narasimham Committee-II | 1998 | Stronger capital adequacy (9% CAR); 3% net NPA target; merger of strong banks |
+| P.J. Nayak Committee | 2014 | Professionalise PSB boards; create Bank Investment Company (BIC) to hold govt stakes |
 
 ### Basel Norms (Capital Adequacy)
 
@@ -171,20 +190,22 @@ RBI
 
 | Scheme | Year | Feature |
 |--------|------|---------|
-| **Jan Dhan Yojana (PMJDY)** | 2014 | Zero-balance bank accounts; RuPay debit card; accident insurance Rs. 2 lakh; overdraft Rs. 10,000. Over **52 crore accounts** opened |
+| **Jan Dhan Yojana (PMJDY)** | 2014 | Zero-balance bank accounts; RuPay debit card; accident insurance Rs. 2 lakh; overdraft Rs. 10,000. Over **56 crore accounts** opened (Aug 2025); 55.7% women account holders; deposits exceed Rs. 2.67 lakh crore |
 | **Aadhaar-linked banking** | — | Direct Benefit Transfer (DBT) through Aadhaar-linked accounts |
-| **MUDRA (Micro Units Development and Refinance Agency)** | 2015 | Loans up to Rs. 10 lakh for micro enterprises — Shishu (up to Rs. 50K), Kishore (Rs. 50K–5L), Tarun (Rs. 5L–10L) |
+| **MUDRA (Micro Units Development and Refinance Agency)** | 2015 | Collateral-free loans up to Rs. 10 lakh for micro enterprises — Shishu (up to Rs. 50K), Kishore (Rs. 50K–5L), Tarun (Rs. 5L–10L). Over 52 crore loans sanctioned worth Rs. 32.6 lakh crore since inception; 68% women beneficiaries |
 | **Stand-Up India** | 2016 | Bank loans Rs. 10 lakh–1 crore for SC/ST/women entrepreneurs |
+
+> **JAM Trinity (Jan Dhan–Aadhaar–Mobile):** The convergence of PMJDY bank accounts, Aadhaar biometric identity, and mobile phones has enabled Direct Benefit Transfer (DBT), reducing leakages in government subsidies. The Economic Survey 2014-15 first articulated this framework. DBT has generated cumulative savings of Rs. 3.48 lakh crore (2009-2024) by plugging leakages. Beneficiary coverage surged 16-fold from 11 crore to 176 crore in the post-DBT era.
 
 ### Digital Payments
 
 | System | Feature |
 |--------|---------|
-| **UPI (Unified Payments Interface)** | Real-time inter-bank transfers via mobile; managed by NPCI; 16+ billion transactions/month (2025) |
+| **UPI (Unified Payments Interface)** | Real-time inter-bank transfers via mobile; managed by NPCI. 228 billion transactions worth Rs. 299.7 lakh crore in 2025 (29% YoY growth). Record 21.6 billion transactions in Dec 2025. Live internationally in 8+ countries including Singapore, UAE, France, Nepal, Bhutan, Sri Lanka |
 | **IMPS** | Immediate Payment Service — 24x7 inter-bank transfer |
 | **RTGS** | Real Time Gross Settlement — for large-value transfers (min Rs. 2 lakh); 24x7 since December 2020 |
 | **NEFT** | National Electronic Funds Transfer — batch processing; 24x7 since December 2019 |
-| **CBDC (e-Rupee)** | Digital currency pilot launched by RBI in 2022 (retail and wholesale) |
+| **CBDC (e-Rupee)** | RBI's Central Bank Digital Currency — wholesale pilot (e₹-W) launched 1 Nov 2022 for government securities settlement; retail pilot (e₹-R) launched 1 Dec 2022 across select cities. Token-based, issued as legal tender. Adoption remains limited — pilot phase continuing |
 
 ---
 
@@ -192,24 +213,33 @@ RBI
 
 ### Prelims Focus
 - RBI established 1935; nationalised 1949; HQ Mumbai
-- MPC: 6 members; Governor has casting vote; inflation target 4% (+/- 2%)
+- MPC: 6 members (3 RBI + 3 external); Governor has casting vote; inflation target 4% (+/- 2%)
 - Current rates: Repo 5.25%, CRR 3%, SLR 18% (verify latest before exam)
-- Bank nationalisation: 1969 (14 banks) and 1980 (6 banks); now 12 PSBs
-- NPA = overdue > 90 days; IBC 2016 — NCLT; 330 days
-- PMJDY: 52+ crore accounts; zero balance; RuPay card
+- LAF corridor: SDF (floor) < Repo < MSF = Bank Rate (ceiling)
+- Bank nationalisation: 1969 (14 banks) and 1980 (6 banks); now 12 PSBs after 2020 mergers
+- NPA = overdue > 90 days; IBC 2016 — NCLT; 330 days statutory limit
+- Payment banks: cannot lend, max deposit Rs. 2 lakh. Small Finance Banks: can lend, no deposit cap
+- PMJDY: 56+ crore accounts (Aug 2025); zero balance; RuPay card; 55.7% women holders
+- MUDRA: Shishu/Kishore/Tarun; 52+ crore loans sanctioned since 2015
 - Basel III: 11.5% CAR for Indian banks
+- CBDC: e₹-W (wholesale, Nov 2022) and e₹-R (retail, Dec 2022) — both in pilot
+- UPI: 228 billion transactions in 2025; live in 8+ countries internationally
 
 ### Mains GS-3 Dimensions
 - Is inflation targeting too narrow an objective for RBI in a developing economy?
-- NPA crisis: causes, RBI's role, and effectiveness of IBC
-- Digital payments revolution: opportunities and cybersecurity risks
+- NPA crisis: causes, RBI's role, and effectiveness of IBC (actual resolution averaging 724 days vs 330-day statutory limit)
+- Digital payments revolution: UPI's global expansion as a model for developing countries
 - Should RBI's autonomy be strengthened? (Tensions with government)
 - Financial inclusion vs. financial viability of banks
+- CBDC vs UPI: complementary or competing? Implications for monetary policy transmission
+- NARCL's 15% cash + 85% SR model — is it an effective bad bank design?
 
 ### Interview Angles
 - "How does RBI balance growth and inflation?"
 - "Is UPI India's greatest financial innovation?"
 - "Should cryptocurrency be regulated or banned in India?"
+- "What is the JAM Trinity (Jan Dhan–Aadhaar–Mobile) and how has it transformed governance?"
+- "Has the IBC delivered on its promise of time-bound resolution?"
 
 ---
 
@@ -229,4 +259,4 @@ Link these static concepts with live developments:
 
 ---
 
-*Sources: [RBI](https://rbi.org.in), [RBI Monetary Policy](https://rbi.org.in/Scripts/MonetaryPolicy.aspx), [PIB](https://pib.gov.in), [Economic Survey 2025-26](https://prsindia.org/policy/report-summaries/economic-survey-2025-26)*
+*Sources: [RBI](https://rbi.org.in), [RBI Monetary Policy](https://rbi.org.in/Scripts/MonetaryPolicy.aspx), [PIB](https://pib.gov.in), [NPCI UPI Statistics](https://www.npci.org.in/product/upi/product-statistics), [PMJDY](https://www.pmjdy.gov.in/), [IBBI](https://ibbi.gov.in/), [Economic Survey 2025-26](https://prsindia.org/policy/report-summaries/economic-survey-2025-26)*

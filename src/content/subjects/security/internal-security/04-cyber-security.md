@@ -37,13 +37,15 @@ A single successful cyber attack on any of these systems can disrupt governance,
 | Threat Type | Description | Real-World Example |
 |-------------|-------------|--------------------|
 | **Malware** | Malicious software (viruses, worms, trojans) designed to damage or gain unauthorised access | Stuxnet (2010) — targeted Iran's nuclear centrifuges |
-| **Ransomware** | Encrypts victim's data; demands ransom for decryption key | **WannaCry (2017)** — affected 40,000+ computers in India; Andhra Pradesh police, Gujarat SWAN, banking ATMs impacted. **AIIMS Delhi (Nov 2022)** — servers down for 6 days, ~40 million patient records compromised, Rs 200 crore ransom demanded in cryptocurrency |
+| **Ransomware** | Encrypts victim's data; demands ransom for decryption key | **WannaCry (2017)** — affected 40,000+ computers in India; Andhra Pradesh police, Gujarat SWAN, banking ATMs impacted. **AIIMS Delhi (23 Nov 2022)** — 5 of 100 physical servers breached, entire e-hospital system down for 6 days, operations shifted to manual mode, ~40 million patient records compromised, Rs 200 crore ransom demanded in cryptocurrency; investigators traced the attack to a server in China, NIA registered a case under Section 66F (cyber terrorism) |
 | **Phishing** | Fraudulent emails/messages to steal credentials or install malware | Targeted phishing against Indian defence personnel via fake government portals |
 | **DDoS (Distributed Denial of Service)** | Overwhelms servers with traffic to make services unavailable | Attacks on Indian government websites during geopolitical tensions |
 | **Advanced Persistent Threats (APTs)** | Long-term, targeted intrusions by sophisticated actors (often state-sponsored) | APT36 / Transparent Tribe (Pakistan-linked) targeting Indian defence and government entities |
 | **State-Sponsored Attacks** | Cyber operations backed by nation-states for espionage, sabotage, or disruption | China-linked groups targeting Indian power grid infrastructure (2020–2021) |
 | **Social Engineering** | Manipulating individuals into divulging confidential information | Honey-trapping of defence personnel via social media |
 | **Supply Chain Attacks** | Compromising software/hardware vendors to infiltrate target systems | SolarWinds attack (2020) — global impact including Indian entities |
+
+**Ransomware Trend:** Ransomware has emerged as the most disruptive cyber threat globally. India saw a **53% increase** in ransomware incidents in 2022 (CERT-In India Ransomware Report 2022). Most impacted sectors: IT/ITeS, finance, and manufacturing. Lockbit was the most commonly observed ransomware variant in India. The shift towards **Ransomware-as-a-Service (RaaS)** — where ransomware developers lease their tools to affiliates — has lowered the barrier for attackers significantly.
 
 > **Exam Tip:** For Mains, always classify cyber threats into **state-sponsored** (geopolitical motivation) and **non-state** (criminal/hacktivist motivation). This analytical framework strengthens your answer structure.
 
@@ -58,7 +60,7 @@ A single successful cyber attack on any of these systems can disrupt governance,
 | **National Cyber Security Coordinator (NCSC)** | National Security Council Secretariat (PMO) | 2014 | Coordinates among all cyber security agencies — CERT-In, NCIIPC, Defence, MHA, MEA; ensures policy coherence |
 | **Cyber and Information Security Division (CIS)** | Ministry of Home Affairs (MHA) | — | Handles cyber crime, cyber security policy from law enforcement perspective; coordinates with states |
 | **Defence Cyber Agency (DCyA)** | Integrated Defence Staff (reports to CDS) | Approved 2018; operational 2019 | Tri-service agency (~1,000 personnel) for military cyber operations — both defensive and offensive capabilities |
-| **Indian Cyber Crime Coordination Centre (I4C)** | MHA | 2020 | National-level coordination for cyber crime; operates National Cyber Crime Reporting Portal (cybercrime.gov.in) |
+| **Indian Cyber Crime Coordination Centre (I4C)** | MHA | Scheme approved Oct 2018; inaugurated **10 Jan 2020** | National-level coordination for cyber crime. Seven components including National Cyber Crime Reporting Portal (NCRP, launched Aug 2019 at cybercrime.gov.in), National Cyber Crime Threat Analytics Unit, Cyber Crime Forensic Laboratory Ecosystem, and Joint Cyber Crime Investigation Team platform. Toll-free helpline **1930** operates 24x7 for citizen assistance |
 
 > **Remember:** CERT-In (under **MeitY**) handles cyber **incidents** and response. NCIIPC (under **NTRO/PMO**) handles **critical infrastructure** protection. These are the two most frequently confused institutions in Prelims.
 
@@ -104,7 +106,7 @@ India's primary legislation governing cyber space. Key sections relevant for UPS
 
 ### B. Digital Personal Data Protection (DPDP) Act, 2023
 
-Passed by Parliament on **11 August 2023** — India's first comprehensive data protection law. DPDP Rules notified in 2025.
+Passed by Lok Sabha on **7 August 2023**, by Rajya Sabha on **9 August 2023**, and received Presidential assent on **11 August 2023** — India's first comprehensive data protection law. DPDP Rules notified in 2025. The Act replaced the earlier Section 43A of IT Act and the IT (Reasonable Security Practices) Rules, 2011 as the primary data protection framework.
 
 | Concept | Details |
 |---------|---------|
@@ -121,6 +123,8 @@ Passed by Parliament on **11 August 2023** — India's first comprehensive data 
 | **Exemptions** | State security, public order, research, legal proceedings; processing by the State for subsidies/benefits |
 
 > **Key distinction:** The DPDP Act 2023 follows a **blacklist model** for cross-border data transfer — personal data can flow everywhere EXCEPT to countries specifically restricted by the government. This contrasts with the EU's GDPR **whitelist model**, where data only flows to countries with "adequate" protection. As of early 2026, no restricted countries list has been notified, meaning transfers to all countries remain permissible. This is a fundamental conceptual difference tested in Mains.
+
+**Cyber Security Linkage:** The DPDP Act 2023 complements the IT Act's cyber security framework by imposing **mandatory breach notification** obligations on Data Fiduciaries to the Data Protection Board. Combined with CERT-In's 6-hour incident reporting mandate (2022 Directions), India now has a **dual reporting regime** — organisations must notify both CERT-In (within 6 hours for cyber incidents) and the Data Protection Board (for personal data breaches). This overlap creates compliance challenges but also ensures that no breach goes unreported.
 
 ### C. IT (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021
 
@@ -180,16 +184,26 @@ Cyber space is now recognised as the **fifth domain of warfare** (alongside land
 
 ### National Cyber Security Policy, 2013
 
-India's first dedicated cyber security policy — now largely outdated. Key features:
+India's first dedicated cyber security policy, released by MeitY (then DeitY) — now largely outdated but remains important for Prelims. Key objectives and features:
 
-- Create a workforce of 5 lakh cyber security professionals
-- Enable protection of information and build capabilities to prevent and respond to threats
+- **Vision:** To build a secure and resilient cyber space for citizens, businesses, and government
+- **Workforce target:** Create a workforce of **5 lakh cyber security professionals** through education, training, and skill development
+- **24x7 mechanism:** Envisioned a national and sectoral round-the-clock mechanism for cyber threat response through NCIIPC and CERT-In
+- **Sectoral CERTs:** Proposed creation of sector-specific CERTs under the umbrella coordination of CERT-In
+- **Indigenous solutions:** Promote R&D for development of indigenous cyber security technologies and solutions
+- **Public-Private Partnership:** Develop effective PPP models for cyber security capacity building
+- **Open standards:** Encourage use of open standards to facilitate interoperability and data exchange
+- **Testing and certification:** Create an assurance framework with designated agencies for testing and certification of IT products
 - Reduce national vulnerability to cyber attacks
 - Minimise the damage and recovery time from cyber incidents
+
+**Limitations:** The 2013 policy lacked enforcement mechanisms, had no binding obligations, did not address offensive cyber capabilities, and set no timelines for implementation. Most of the 14 objectives remained unmet, prompting calls for a replacement strategy.
 
 ### National Cyber Security Strategy (Awaited)
 
 A comprehensive National Cyber Security Strategy has been under preparation (Lt Gen Rajesh Pant, then National Cyber Security Coordinator, led the drafting). As of 2026, the strategy document has not been publicly released, though several components have been implemented through executive directions (such as CERT-In Directions 2022).
+
+**Key gap:** India currently operates without a single, consolidated, and publicly available national cyber security strategy. The 2013 policy is outdated; CERT-In Directions 2022, DPDP Act 2023, and various institutional mechanisms function as **piecemeal measures** rather than a unified strategic framework. This fragmentation remains a significant vulnerability — especially as India's digital attack surface expands rapidly with Digital India, UPI, and Aadhaar.
 
 ---
 
@@ -204,6 +218,8 @@ A comprehensive National Cyber Security Strategy has been under preparation (Lt 
 - **DPDP Act 2023:** Data Protection Board of India; penalties up to **Rs 250 crore**; blacklist model for cross-border transfer
 - **IT Rules 2021:** SSMI threshold — **50 lakh+ registered users**
 - **Defence Cyber Agency:** Tri-service, approved 2018, operational 2019, reports to CDS
+- **I4C:** Inaugurated 10 Jan 2020, under MHA; 7 components; toll-free helpline **1930**; National Cyber Crime Reporting Portal launched Aug 2019
+- **National Cyber Security Policy 2013:** India's first cyber security policy; target of 5 lakh professionals; now largely outdated
 
 ### Mains GS-3 Dimensions
 
@@ -212,7 +228,8 @@ A comprehensive National Cyber Security Strategy has been under preparation (Lt 
 3. **CERT-In 6-hour rule:** Impact on ease of doing business vs security imperatives — is 6 hours realistic for small enterprises?
 4. **Cyber warfare as fifth domain:** India's preparedness for state-sponsored cyber attacks; need for offensive capabilities and cyber deterrence doctrine
 5. **Data protection:** DPDP Act 2023 — strengths and weaknesses compared to GDPR; is the blacklist model adequate?
-6. **Critical infrastructure vulnerability:** Lessons from AIIMS attack (2022), power grid probing (2020–2021)
+6. **Critical infrastructure vulnerability:** Lessons from AIIMS attack (Nov 2022 — servers down for 6 days, operations shifted to manual, attack traced to servers in China), power grid probing (2020–2021)
+7. **Cyber crime coordination:** Role of I4C in bridging gaps between Centre and states; effectiveness of 1930 helpline and National Cyber Crime Reporting Portal in addressing citizen grievances
 
 ### Interview Angles
 
@@ -220,6 +237,9 @@ A comprehensive National Cyber Security Strategy has been under preparation (Lt 
 - How to protect Aadhaar and UPI infrastructure — single points of failure?
 - Can India balance Digital India expansion with cyber security readiness?
 - Is the DPDP Act 2023 strong enough to protect citizens' data from both private companies and the State?
+- The AIIMS ransomware attack (2022) exposed healthcare as critical infrastructure — should hospitals be formally designated as CII under Section 70?
+- Is the National Cyber Security Policy 2013 adequate, or does India urgently need the long-awaited National Cyber Security Strategy?
+- How effective is the I4C's 1930 helpline and cybercrime.gov.in portal in addressing cyber fraud at scale across states?
 
 ---
 

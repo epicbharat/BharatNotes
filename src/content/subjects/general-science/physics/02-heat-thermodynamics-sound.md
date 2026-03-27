@@ -102,6 +102,20 @@ Heat, thermodynamics, and sound are consistently tested areas in UPSC Prelims un
 
 **Entropy** is a measure of disorder or randomness in a system. Natural processes move towards greater entropy (greater disorder).
 
+### Heat Engines and the Carnot Cycle
+
+A heat engine converts thermal energy into mechanical work by operating between a hot reservoir (source) and a cold reservoir (sink). The **Carnot cycle** — consisting of two isothermal and two adiabatic processes — represents the theoretical maximum efficiency any heat engine can achieve between two given temperatures.
+
+**Carnot efficiency:** η = 1 − (T_cold / T_hot), where temperatures are in Kelvin. No real engine can exceed this limit.
+
+| Engine type | Thermodynamic cycle | Typical efficiency | Key feature |
+|-------------|--------------------|--------------------|-------------|
+| **Petrol engine** | Otto cycle (spark ignition) | 25–30% | Fuel-air mixture ignited by a spark plug |
+| **Diesel engine** | Diesel cycle (compression ignition) | 30–35% (up to ~52% in large marine diesels) | Air compressed to high temperature; fuel self-ignites on injection |
+| **Steam turbine** | Rankine cycle | Up to ~47% (modern reheat plants) | Water heated to steam; steam drives turbine blades — produces most of the world's electricity |
+
+**Exam fact:** Diesel engines are more efficient than petrol engines because they operate at higher compression ratios. The largest low-speed marine diesel engines have achieved thermal efficiencies exceeding 51%.
+
 ---
 
 ## Specific Heat Capacity
@@ -191,6 +205,8 @@ Heat, thermodynamics, and sound are consistently tested areas in UPSC Prelims un
 | **Weather radar** | Doppler radar detects motion of rain droplets to track storms and predict weather patterns |
 | **Astronomy (Redshift)** | Light from galaxies moving away from Earth is shifted to lower frequencies (red end of spectrum) — evidence for the expanding universe |
 
+In the late 1920s, Edwin Hubble observed that distant galaxies show a redshift proportional to their distance — the farther a galaxy, the faster it recedes. This relationship, known as **Hubble's Law**, provided the first observational evidence for the expansion of the universe and remains a key pillar of the Big Bang model. A blueshift (shift towards higher frequency) indicates an object is approaching — the Andromeda galaxy, for instance, is blueshifted.
+
 ---
 
 ## Ultrasound and Infrasound
@@ -219,6 +235,17 @@ Heat, thermodynamics, and sound are consistently tested areas in UPSC Prelims un
 | **Volcanic eruption monitoring** | Volcanoes produce infrasound before and during eruptions — helps in early warning |
 | **Animal communication** | Elephants communicate using infrasound (as low as 14 Hz) over distances of several kilometres; whales also use infrasound |
 
+### Noise Pollution — CPCB Standards
+
+The **Noise Pollution (Regulation and Control) Rules, 2000** notified by the Central Pollution Control Board (CPCB) prescribe ambient noise limits for different zones. A **Silence Zone** is defined as an area within 100 metres of hospitals, schools, colleges, and courts.
+
+| Zone | Day limit (6 AM – 10 PM) | Night limit (10 PM – 6 AM) |
+|------|--------------------------|----------------------------|
+| **Industrial** | 75 dB | 70 dB |
+| **Commercial** | 65 dB | 55 dB |
+| **Residential** | 55 dB | 45 dB |
+| **Silence Zone** | 50 dB | 40 dB |
+
 ---
 
 ## UPSC Relevance
@@ -229,8 +256,9 @@ Heat, thermodynamics, and sound are consistently tested areas in UPSC Prelims un
 | **Prelims — application-based** | Why coastal areas have moderate climate (specific heat of water); why railway tracks have gaps (thermal expansion); how SONAR works; anomalous expansion of water |
 | **Prelims — technology** | Doppler ultrasound in medicine; SONAR in defence; lithotripsy; thermostats using bimetallic strips |
 | **Mains GS3 — Science & Technology** | Ultrasound applications in healthcare; Doppler radar in weather forecasting; thermodynamic principles behind energy efficiency |
-| **Common traps** | Sound cannot travel through vacuum (frequently tested); heat and temperature are different quantities; steam burns are worse than boiling water burns due to latent heat |
+| **Prelims — environment overlap** | CPCB noise pollution standards (zone-wise dB limits); Noise Pollution Rules, 2000; Silence Zone definition (within 100 m of hospitals/schools/courts) |
+| **Common traps** | Sound cannot travel through vacuum (frequently tested); heat and temperature are different quantities; steam burns are worse than boiling water burns due to latent heat; Carnot efficiency depends on temperature ratio, not the working substance |
 
 ---
 
-*Sources: [Speed of Sound — Wikipedia](https://en.wikipedia.org/wiki/Speed_of_sound); [Absolute Zero — Britannica](https://www.britannica.com/science/absolute-zero); [Laws of Thermodynamics — Wikipedia](https://en.wikipedia.org/wiki/Laws_of_thermodynamics); [Specific Heat Capacity of Water — USGS](https://www.usgs.gov/special-topics/water-science-school/science/specific-heat-capacity-and-water); [Latent Heat — Wikipedia](https://en.wikipedia.org/wiki/Latent_heat); [Doppler Effect — Wikipedia](https://en.wikipedia.org/wiki/Doppler_effect); [Hearing Range — Wikipedia](https://en.wikipedia.org/wiki/Hearing_range); [Infrasound — Wikipedia](https://en.wikipedia.org/wiki/Infrasound)*
+*Sources: [Speed of Sound — Wikipedia](https://en.wikipedia.org/wiki/Speed_of_sound); [Absolute Zero — Britannica](https://www.britannica.com/science/absolute-zero); [Laws of Thermodynamics — Wikipedia](https://en.wikipedia.org/wiki/Laws_of_thermodynamics); [Specific Heat Capacity of Water — USGS](https://www.usgs.gov/special-topics/water-science-school/science/specific-heat-capacity-and-water); [Latent Heat — Wikipedia](https://en.wikipedia.org/wiki/Latent_heat); [Doppler Effect — Wikipedia](https://en.wikipedia.org/wiki/Doppler_effect); [Hearing Range — Wikipedia](https://en.wikipedia.org/wiki/Hearing_range); [Infrasound — Wikipedia](https://en.wikipedia.org/wiki/Infrasound); [Carnot Efficiency — Energy Education](https://energyeducation.ca/encyclopedia/Carnot_efficiency); [Engine Efficiency — Wikipedia](https://en.wikipedia.org/wiki/Engine_efficiency); [CPCB Noise Pollution Rules](https://cpcb.nic.in/noise-pollution-rules/); [Hubble's Law — Wikipedia](https://en.wikipedia.org/wiki/Hubble%27s_law); [SONAR — NOAA](https://oceanservice.noaa.gov/facts/sonar.html)*

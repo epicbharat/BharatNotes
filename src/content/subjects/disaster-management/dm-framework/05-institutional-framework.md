@@ -19,7 +19,7 @@ tags:
 
 ## Overview
 
-India's disaster management framework was transformed by the **Disaster Management Act, 2005** — which created a multi-tiered institutional structure from the national to the district level. Understanding NDMA, NDRF, SDMA, DDMA, and international frameworks like the Sendai Framework is essential for both Prelims and Mains (GS3).
+India's disaster management framework was transformed by the **Disaster Management Act, 2005** — which created a multi-tiered institutional structure from the national to the district level. The framework operates at three levels: **NDMA** (national), **SDMA** (state), and **DDMA** (district), supported by dedicated response and mitigation funding mechanisms. India also plays a leading role internationally through the **Sendai Framework** and the **CDRI** initiative. Understanding these institutions and frameworks is essential for both Prelims and Mains (GS3).
 
 ---
 
@@ -32,6 +32,8 @@ India's disaster management framework was transformed by the **Disaster Manageme
 | **Definition of "disaster"** (Section 2d) | A catastrophe, mishap, calamity or grave occurrence arising from natural or man-made causes, or by accident or negligence, which results in substantial loss of life, human suffering, damage to property, or environmental degradation — and is **beyond the coping capacity** of the affected community |
 | **Key institutions created** | NDMA, SDMA, DDMA, NDRF, NIDM, National Executive Committee (NEC) |
 | **Significance** | First comprehensive legislation on disaster management in India; shifted approach from **relief-centric to preparedness-centric** |
+| **Trigger** | The devastation of the **2004 Indian Ocean tsunami** and the **2001 Gujarat earthquake** underscored the need for a dedicated legal and institutional framework |
+| **Penalties** | Sections 51–58 provide for **punishment of offences** — obstruction, false claims, misappropriation of funds related to disaster management |
 
 ---
 
@@ -67,6 +69,7 @@ India's disaster management framework was transformed by the **Disaster Manageme
 | **Chairman** | **Union Home Secretary** |
 | **Members** | Secretaries of key ministries (Agriculture, Atomic Energy, Defence, Drinking Water, Environment, Finance, Health, Power, Rural Development, S&T, Telecom, Urban Development, Water Resources) and Chief of Integrated Defence Staff |
 | **Function** | Acts as the coordinating and monitoring body for disaster management; assists NDMA; prepares the National Plan |
+| **Additional powers** | Can direct any ministry or state government to take specific disaster management measures; coordinates response during a threatening disaster; monitors implementation of NDMA guidelines |
 
 ### NIDM — National Institute of Disaster Management
 
@@ -76,6 +79,7 @@ India's disaster management framework was transformed by the **Disaster Manageme
 | **Location** | **New Delhi** |
 | **Role** | Capacity building, training, research, documentation, and policy advocacy in disaster management; develops training modules for state and district officials |
 | **Governance** | Headed by a Director; functions under the Ministry of Home Affairs |
+| **Key programmes** | Conducts training through Incident Response System (IRS); runs disaster management courses for IAS/IPS officers; provides technical support to SDMAs and DDMAs |
 
 ---
 
@@ -89,6 +93,8 @@ India's disaster management framework was transformed by the **Disaster Manageme
 | **Members** | Up to **8 other members** appointed by the CM |
 | **Functions** | Lay down the state disaster management policy; approve the State Disaster Management Plan; coordinate with NDMA; review capacity building measures |
 | **State Executive Committee** | Chaired by the **Chief Secretary**; coordinates and monitors state-level implementation |
+| **State Plan** | SDMA approves the State Disaster Management Plan prepared by the State Executive Committee; the plan must conform to the guidelines of NDMA |
+| **Advisory role** | SDMA may recommend provision of funds for mitigation and preparedness measures; advises state government on all disaster-related matters |
 
 ### DDMA — District Disaster Management Authority
 
@@ -97,6 +103,8 @@ India's disaster management framework was transformed by the **Disaster Manageme
 | **Chairman** | **District Collector / District Magistrate / Deputy Commissioner** |
 | **Co-Chairman** | Elected representative of the local area (e.g., Chairperson of Zila Parishad) — **ex-officio Co-Chairman** |
 | **Functions** | Prepare and implement the District Disaster Management Plan; coordinate response at the district level; ensure compliance with NDMA/SDMA guidelines |
+| **Members** | Such number of members as prescribed by the state government, not exceeding **7** |
+| **Local Authority role** | Section 41 of the DM Act mandates every local authority (Panchayat/Municipality) to ensure capacity building, prepare DM plans, and carry out relief/reconstruction in coordination with DDMA |
 | **Significance** | The **most critical unit** — disasters are ultimately managed at the district level; the Collector is the key decision-maker on the ground |
 
 ---
@@ -110,6 +118,7 @@ India's disaster management framework was transformed by the **Disaster Manageme
 | **Purpose** | Immediate relief to disaster victims — not for long-term reconstruction |
 | **Funding ratio** | **General category states**: Centre **75%** : State **25%**; **Special category states** (NE states, Sikkim, Uttarakhand, Himachal Pradesh, J&K): Centre **90%** : State **10%** |
 | **Disbursement** | Central contribution released in **two equal instalments** annually based on Finance Commission recommendations |
+| **15th Finance Commission** | Allocated total corpus of **Rs 1,28,122.40 crore** to SDRF across all states for 2021–26, of which Central share is Rs 98,080.80 crore and State share is Rs 30,041.60 crore |
 | **Disasters covered** | Cyclone, drought, earthquake, fire, flood, tsunami, hailstorm, landslide, avalanche, cloudburst, pest attack, frost, cold waves |
 
 ### NDRF — National Disaster Response Fund
@@ -120,6 +129,19 @@ India's disaster management framework was transformed by the **Disaster Manageme
 | **Administered by** | Central Government on NDMA's recommendation |
 | **Triggered** | When a state's SDRF is inadequate; additional central assistance released after assessment |
 
+### NDMF & SDMF — Mitigation Funds
+
+| Feature | Detail |
+|---------|--------|
+| **Legal basis** | Sections 47 and 48 of the DM Act, 2005 provide for NDMF and SDMF respectively |
+| **NDMF constituted** | **5 February 2021** — constituted by the Central Government for projects exclusively for disaster mitigation |
+| **NDMF allocation** | 15th Finance Commission recommended **Rs 13,693 crore** for NDMF for 2021–26 |
+| **SDMF allocation** | **Rs 32,031 crore** for SDMF across all states for 2021–26 (20% of the total State Disaster Risk Management Fund of Rs 1,60,153 crore) |
+| **Funding ratio** | Same as SDRF — Centre **75%** : State **25%** (general); Centre **90%** : State **10%** (special category) |
+| **Key difference from SDRF/NDRF** | Mitigation funds are for **pre-disaster risk reduction** (seismic retrofitting, flood-proofing, cyclone shelters) — not post-disaster response |
+| **NDMF earmarked activities** | Catalytic assistance to 12 drought-prone states; seismic/landslide risk management in 10 hill states; urban flood risk reduction in 7 most populous cities; erosion prevention |
+| **Significance** | First-ever dedicated mitigation funding by Government of India — marks a shift from response to prevention |
+
 ---
 
 ## International Frameworks
@@ -129,8 +151,10 @@ India's disaster management framework was transformed by the **Disaster Manageme
 | Feature | Detail |
 |---------|--------|
 | **Adopted** | **18 March 2015** at the Third UN World Conference on DRR in **Sendai, Japan** |
-| **Preceded by** | **Hyogo Framework for Action (2005–2015)** |
+| **Preceded by** | **Hyogo Framework for Action (2005–2015)**; before Hyogo was the **Yokohama Strategy (1994)** |
 | **Duration** | 15 years (2015–2030) |
+| **Scope** | Applies to risk of **small-scale and large-scale, frequent and infrequent, sudden and slow-onset** disasters caused by natural or man-made hazards, as well as related environmental, technological, and biological hazards |
+| **Monitoring** | Progress tracked through the **Sendai Framework Monitor** — an online tool for national reporting against the 7 global targets |
 
 **4 Priority Areas:**
 
@@ -141,7 +165,7 @@ India's disaster management framework was transformed by the **Disaster Manageme
 | 3 | **Investing in disaster risk reduction** for resilience |
 | 4 | **Enhancing disaster preparedness** for effective response and "**Build Back Better**" in recovery |
 
-**7 Global Targets:**
+**7 Global Targets (to be achieved by 2030):**
 
 | # | Target |
 |---|--------|
@@ -167,7 +191,8 @@ India's disaster management framework was transformed by the **Disaster Manageme
 | **Launched** | By PM Modi at the **UN Climate Action Summit**, **New York**, **23 September 2019** |
 | **Headquarters/Secretariat** | **New Delhi** (granted International Organisation status; HQ Agreement signed 22 August 2022) |
 | **Purpose** | Multi-country partnership to promote resilience of new and existing infrastructure to climate and disaster risks |
-| **Members** | 40+ countries and international organisations |
+| **Members** | **53 member countries** and **12 partner organisations** (as of 2025); India is the **Permanent Co-chair** |
+| **Key programmes** | Infrastructure Resilience Accelerator Fund (IRAF); Urban Infrastructure Resilience Programme (UIRP); CDRI Fellowship Programme |
 | **Significance** | India-led global initiative; aligns with Sendai Framework and Paris Agreement; focuses on infrastructure — the backbone of economic development |
 
 ---
@@ -180,6 +205,8 @@ India's disaster management framework was transformed by the **Disaster Manageme
 | **Revised** | Updated version released in **2019** |
 | **Aligned with** | Sendai Framework 2015–2030, Sustainable Development Goals (SDGs), Paris Agreement on Climate Change, PM's 10-Point Agenda |
 | **Approach** | Covers prevention, mitigation, preparedness, response, recovery, and rehabilitation for all hazards |
+| **Hazards covered** | Categorises hazards into 5 major categories — geological, hydro-meteorological, biological, chemical-industrial-nuclear, and human-induced |
+| **Key feature** | First plan to align India's DM efforts simultaneously with the Sendai Framework, SDGs, and Paris Agreement |
 
 ---
 
@@ -190,9 +217,11 @@ India's disaster management framework was transformed by the **Disaster Manageme
 | **Focus** | Post-disaster relief and rehabilitation | Pre-disaster preparedness, mitigation, and risk reduction |
 | **Approach** | Reactive | Proactive |
 | **Institutional setup** | Ad-hoc relief committees | Permanent institutions (NDMA, SDMA, DDMA) at all levels |
-| **Funding** | Calamity Relief Fund (CRF) | SDRF + NDRF with defined Centre-State sharing |
+| **Funding** | Calamity Relief Fund (CRF) | SDRF + NDRF (response) and NDMF + SDMF (mitigation) with defined Centre-State sharing |
 | **International alignment** | Limited | Sendai Framework, CDRI, PM's 10-Point Agenda |
 | **Response force** | Military and paramilitary on ad-hoc basis | Dedicated **NDRF** with specialised CBRN training |
+| **Mitigation funding** | No dedicated mitigation fund | NDMF (Rs 13,693 crore) and SDMF (Rs 32,031 crore) for 2021–26 |
+| **Global integration** | No formal international framework linkage | Aligned with Sendai Framework, Paris Agreement, and SDGs |
 
 ---
 
@@ -205,10 +234,12 @@ India's disaster management framework was transformed by the **Disaster Manageme
 - SDMA: CM as Chair; DDMA: Collector as Chair (with elected Co-Chair)
 - Sendai Framework: 2015–2030; 4 priorities, 7 targets; succeeded Hyogo (2005–2015)
 - CDRI: launched September 2019 at UNGA (New York); HQ New Delhi
-- SDRF funding: 75:25 (general), 90:10 (special category)
+- SDRF funding: 75:25 (general), 90:10 (special category); 15th FC allocated Rs 1,28,122 crore to SDRF (2021–26)
+- NDMF constituted 5 February 2021; SDMF = 20% of SDRMF; mitigation funds distinct from response funds
 - NDMP: first released May 2016
 - PM's 10-Point Agenda: AMCDRR 2016, New Delhi
 - NIDM: originally NCDM (1995); New Delhi
+- Local authorities (Panchayats/Municipalities) have statutory DM responsibilities under Section 41
 
 ### Mains Focus Areas
 - Evaluate India's shift from relief-centric to preparedness-centric disaster management
@@ -218,7 +249,11 @@ India's disaster management framework was transformed by the **Disaster Manageme
 - CDRI as an India-led global initiative — significance for climate-resilient development
 - Community-based disaster management — is the institutional framework reaching the grassroots?
 - Disaster management and federalism — Centre-State coordination challenges
+- NDMF and SDMF — significance of dedicated mitigation funds in shifting from response to prevention
+- Role of Finance Commission in disaster management funding — evolution from CRF to SDRF/NDRF/SDMF/NDMF
+- DM Act 2005 penalties framework — how Sections 51–58 ensure accountability in disaster response
+- Yokohama (1994) to Hyogo (2005) to Sendai (2015) — evolution of international DRR frameworks and India's compliance
 
 ---
 
-*Sources: Disaster Management Act 2005 (India Code), NDMA (ndma.gov.in), NDRF (ndrf.gov.in), UNDRR — Sendai Framework, PIB Press Releases, Finance Commission Reports on SDRF/NDRF*
+*Sources: Disaster Management Act 2005 (India Code), NDMA (ndma.gov.in), NDRF (ndrf.gov.in), UNDRR — Sendai Framework, PIB Press Releases, 15th Finance Commission Report (2021–26), MHA — NDM India (ndmindia.mha.gov.in), CDRI (cdri.world)*

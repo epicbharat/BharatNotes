@@ -83,7 +83,35 @@ India is the world's **5th largest economy** and a significant player in global 
 | **Interim mechanism** | Multi-Party Interim Appeal Arbitration Arrangement (MPIA) — India has NOT joined |
 | **India's record** | Filed 24 complaints; respondent in 32 cases (as of 2025) |
 
-> **For Mains:** The WTO Appellate Body crisis is a structural threat to the rules-based trading order. Without a functioning appeals mechanism, panel rulings can be appealed "into the void" — rendering them unenforceable. India has not joined the MPIA, keeping its options open. Discuss whether this serves India's interests or weakens the multilateral system India claims to champion.
+### Appellate Body Crisis — Deep Dive
+
+The WTO's dispute settlement mechanism — once called the "jewel in the crown" of the organisation — has been paralysed since **December 2019** when the US blocked all new appointments to the seven-member Appellate Body. The term of the last sitting member expired on **30 November 2020**, leaving all seven seats vacant.
+
+| Aspect | Detail |
+|--------|--------|
+| **Root cause** | US objections to "judicial overreach" — Appellate Body allegedly exceeding its mandate by creating new obligations |
+| **Vacant since** | December 2019 (all 7 seats empty since November 2020) |
+| **"Appealed into the void"** | As of April 2025, **32 panel rulings** have been appealed to the non-functional Appellate Body — rendering them unenforceable |
+| **MPIA** | Multi-Party Interim Appeal Arbitration Arrangement — launched 2020; **54 WTO members** participate (including EU, China, Australia, UK); India has **NOT** joined |
+| **MPIA track record** | Only a handful of cases resolved in 4+ years; limited effectiveness |
+| **MC13 outcome** | Abu Dhabi 2024 failed to reach agreement on dispute settlement reform |
+
+> **For Mains:** The Appellate Body crisis is a structural threat to the rules-based trading order. Without a functioning appeals mechanism, panel rulings can be appealed "into the void" — rendering them unenforceable. Over 32 reports remain in limbo. India has not joined the MPIA, keeping its options open but also leaving itself without recourse if it loses a panel ruling. Discuss whether this serves India's interests or weakens the multilateral system India claims to champion.
+
+### WTO MC13 — Abu Dhabi (February 2024)
+
+The 13th Ministerial Conference was held from **26 February to 2 March 2024** in Abu Dhabi, UAE.
+
+| Outcome Area | Result |
+|-------------|--------|
+| **E-commerce moratorium** | Extended until MC14 or **31 March 2026** (whichever is earlier) — first time tied to a sunset clause |
+| **Agriculture (PSH)** | **No agreement** — divergences on public stockholding and export restrictions remained |
+| **Fisheries subsidies (Phase 2)** | **No agreement** — broader disciplines on harmful subsidies stalled |
+| **Dispute settlement reform** | **No agreement** — Appellate Body crisis unresolved |
+| **Investment Facilitation** | 123 members issued Joint Declaration finalising the Investment Facilitation for Development (IFD) Agreement |
+| **New accessions** | Comoros and Timor-Leste welcomed as members |
+
+> **Exam Tip:** MC13 is considered a "qualified success" at best. The e-commerce moratorium extension was the headline outcome, but the three most contentious issues — agriculture, fisheries, and dispute settlement — saw no progress. India successfully defended its position on public stockholding but failed to secure a permanent solution.
 
 ---
 
@@ -181,6 +209,21 @@ India **withdrew from RCEP** (Regional Comprehensive Economic Partnership) in No
 
 > **India and anti-dumping:** India has initiated more anti-dumping investigations than any other WTO member. Most are against China. This is a legitimate WTO instrument but critics argue India overuses it as disguised protectionism.
 
+### Production Linked Incentive (PLI) Schemes and Trade
+
+Launched in **2020**, PLI schemes across **14 sectors** aim to boost domestic manufacturing and reduce import dependence under the Atmanirbhar Bharat framework.
+
+| Metric | Data (as of December 2025) |
+|--------|---------------------------|
+| **Total investment attracted** | Over Rs 2.16 lakh crore |
+| **Incremental production/sales** | Over Rs 20.41 lakh crore |
+| **Total exports** | Over Rs 8.3 lakh crore |
+| **Jobs created** | Over 14.39 lakh (direct and indirect) |
+| **Key success: Mobile phones** | Exports rose **eight-fold** — from Rs 22,870 crore (FY 2020-21) to over Rs 2 lakh crore (FY 2024-25) |
+| **Key success: Pharma** | India shifted from net importer to net exporter of bulk drugs |
+
+> **For Mains:** PLI schemes represent India's shift from a defensive trade strategy (anti-dumping, RCEP exit) to an offensive one — building export competitiveness through incentivised manufacturing. Discuss how PLI intersects with WTO subsidy rules under the SCM Agreement. Are PLI incentives "actionable subsidies" under WTO norms?
+
 ---
 
 ## Key Concepts for Prelims
@@ -212,8 +255,11 @@ India **withdrew from RCEP** (Regional Comprehensive Economic Partnership) in No
 ### Mains Focus Areas
 - India's agricultural subsidies vs WTO obligations (PSH, MSP, Peace Clause)
 - RCEP exit — costs and benefits
-- FTA strategy — is India opening up or protecting?
-- WTO reform and Appellate Body crisis
+- FTA strategy — is India opening up or protecting? (link UAE CEPA, Australia ECTA, EFTA TEPA, UK CETA)
+- WTO reform and Appellate Body crisis — implications of 32+ panel reports "appealed into the void"
 - TRIPS flexibilities and India's pharma sector
 - Trade deficit with China — structural solutions
 - Services trade — Mode 4 negotiations and India's advantage
+- PLI schemes as industrial policy — WTO compatibility under SCM Agreement
+- MC13 outcomes and the future of the e-commerce moratorium
+- India's FTA pivot: from defensive (RCEP exit) to offensive (CEPA/ECTA blitz since 2022)

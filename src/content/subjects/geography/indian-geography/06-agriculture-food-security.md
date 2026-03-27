@@ -77,8 +77,10 @@ India is the world's **second-largest agricultural producer** and agriculture re
 | **Period** | Mid-1960s to 1970s |
 | **Architect** | M.S. Swaminathan (India); Norman Borlaug (globally — Nobel Peace Prize 1970) |
 | **Key elements** | High-Yielding Variety (HYV) seeds, chemical fertilisers, irrigation, pesticides, mechanisation |
-| **Initial crops** | Wheat (Punjab, Haryana) → later extended to rice |
-| **Impact** | India became self-sufficient in food grain production; wheat production tripled in a decade |
+| **Borlaug's contribution** | Developed semi-dwarf, high-yield, disease-resistant wheat varieties — shorter stems could bear heavier grain heads without lodging (breaking) |
+| **Swaminathan's role** | Adapted Borlaug's Mexican dwarf wheat varieties to Indian conditions; introduced HYV seeds through Indian Council of Agricultural Research (ICAR) |
+| **Initial crops** | Wheat (Punjab, Haryana, Western UP) → later extended to rice (especially in Punjab) |
+| **Impact** | India became self-sufficient in foodgrain production; ended dependence on US PL-480 food aid |
 
 ### Achievements
 
@@ -99,6 +101,37 @@ India is the world's **second-largest agricultural producer** and agriculture re
 | **Monoculture** | Rice-wheat cycle in Punjab depleted soil nutrients; reduced biodiversity |
 
 > **For Mains:** The Green Revolution solved India's immediate food crisis but created long-term problems — water scarcity, soil degradation, chemical dependence, and regional/crop imbalance. The challenge now is a **"Second Green Revolution"** or **Evergreen Revolution** (M.S. Swaminathan's term) — productivity without ecological degradation, covering eastern India, rain-fed areas, and neglected crops.
+
+---
+
+## White Revolution (Operation Flood)
+
+| Feature | Detail |
+|---------|--------|
+| **Period** | 1970–1996 (three phases) |
+| **Architect** | Dr Verghese Kurien — "Father of the White Revolution" / "Milkman of India" |
+| **Implementing body** | National Dairy Development Board (NDDB), set up by PM Lal Bahadur Shastri |
+| **Model** | "Anand Pattern" — farmer-owned dairy cooperatives (inspired by AMUL, Kaira district, Gujarat, founded 1946) |
+| **Phase I (1970–80)** | Linked 18 milksheds with 4 metro cities (Delhi, Mumbai, Kolkata, Chennai); financed by EEC-donated milk powder sales |
+| **Phase II (1981–85)** | Expanded milksheds from 18 to 136; 43,000 village cooperatives covering 4.25 million milk producers |
+| **Phase III (1985–96)** | Consolidated infrastructure; added 30,000 new cooperatives; strengthened procurement and marketing network |
+| **Outcome** | India became the world's **largest milk producer** (surpassed USA in 1998); produces ~239 million tonnes (2023-24), ~24% of global output |
+
+> **Prelims Fact:** Verghese Kurien received the World Food Prize in 1989 for his role in Operation Flood. India has maintained its position as the world's largest milk producer since 1998.
+
+---
+
+## Blue Revolution
+
+| Feature | Detail |
+|---------|--------|
+| **Focus** | Fisheries and aquaculture development |
+| **India's global rank** | 3rd largest fish producer; **2nd largest aquaculture producer** (after China) |
+| **Fish production** | ~197.75 lakh tonnes (2024-25) — doubled from 95.79 lakh tonnes in 2013-14 |
+| **Livelihoods** | ~3 crore fishers and fish farmers |
+| **Flagship scheme** | Pradhan Mantri Matsya Sampada Yojana (PMMSY) — launched September 2020; investment of Rs 20,050 crore (2020-25) |
+| **PMMSY objectives** | Modernise fisheries infrastructure, enhance production, increase fishermen's income, promote sustainable aquaculture |
+| **Global share** | India contributes ~8% of global fish production |
 
 ---
 
@@ -171,6 +204,7 @@ India is the world's **second-largest agricultural producer** and agriculture re
 | **Coverage** | ~5.4 lakh Fair Price Shops (ration shops) across India |
 | **TPDS** | Targeted PDS (since 1997) — separate entitlements for BPL and APL families |
 | **One Nation One Ration Card (ONORC)** | Launched 2019 — enables migrant workers to access ration from any FPS anywhere in India using Aadhaar-linked ration card |
+| **Ration card categories** | **AAY** (Antyodaya — poorest of poor), **PHH** (Priority Household — NFSA beneficiaries), **APL** (Above Poverty Line — limited/no subsidy) |
 | **Challenges** | Leakage (estimated 40-50% pre-reform); ghost beneficiaries; quality issues; spoilage in FCI godowns |
 | **Reforms** | Aadhaar-linked distribution, end-to-end computerisation, direct benefit transfer (DBT) of food subsidy (piloted) |
 
@@ -204,17 +238,21 @@ India is the world's **second-largest agricultural producer** and agriculture re
 ### Prelims Focus Areas
 - Major crops and their leading states
 - Kharif vs Rabi vs Zaid — definitions and examples
-- Green Revolution — architect, key elements, initial states
+- Green Revolution — Borlaug (Nobel Peace Prize 1970), Swaminathan, HYV seeds, initial states
+- White Revolution — Verghese Kurien, Operation Flood phases, AMUL/Anand Pattern
+- Blue Revolution — PMMSY, India's fish production rank
 - MSP — who sets it, how many crops, cost formulas (A2, A2+FL, C2)
-- NFSA — coverage, entitlements, prices
-- ONORC — what it enables
+- NFSA — coverage (75% rural, 50% urban), entitlements, prices
+- ONORC — what it enables for migrant workers
+- Ration card categories — AAY, PHH, APL
 - Irrigation sources and their share
 - India's global rank in production of key crops
 
 ### Mains Focus Areas
 - Food security vs food self-sufficiency — why both are needed
 - MSP legal guarantee debate — farm protests and policy implications
-- Green Revolution legacy — achievements and environmental costs
+- Green Revolution legacy — achievements and environmental costs; Evergreen Revolution concept
+- White Revolution as a cooperative success model — lessons for other sectors
 - Water crisis in agriculture — irrigation reform, micro-irrigation
 - Crop diversification — millets, oilseeds, horticulture
 - PDS reform — technology-driven solutions vs structural challenges

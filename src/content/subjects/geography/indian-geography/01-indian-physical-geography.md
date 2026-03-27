@@ -65,6 +65,17 @@ The Himalayas stretch in a west-east arc from the Indus to the Brahmaputra, span
 | Nepal Himalayas | Kali to Tista | Nepal (international) |
 | Assam Himalayas | Tista to Dihang | Sikkim, Arunachal Pradesh |
 
+### Key Himalayan Passes
+
+| Pass | Elevation (m) | State/UT | Connects / Significance |
+|------|---------------|----------|------------------------|
+| Karakoram Pass | 5,540 | Ladakh | Highest pass in the Karakoram Range; ancient route between Leh and Yarkand |
+| Zoji La | 3,528 | J&K–Ladakh | On Srinagar–Leh Highway; gateway to Ladakh |
+| Rohtang Pass | 3,978 | Himachal Pradesh | Links Kullu Valley with Lahaul-Spiti; open May–November |
+| Shipki La | 4,500 | Himachal Pradesh | India–Tibet trade route; one of three open trading border passes with China |
+| Nathu La | 4,310 | Sikkim | India–China trading pass; reopened for border trade in 2006 |
+| Bomdi La | 2,530 | Arunachal Pradesh | Strategic pass near China–Bhutan border; route to Tawang |
+
 ---
 
 ## The Northern Plains
@@ -82,11 +93,19 @@ The Indo-Gangetic plain is formed by the alluvial deposits of the Indus, Ganga, 
 
 > **Mnemonic:** Remember the Northern Plains zones from north to south as **"B-T-B-K"** (Bhabar, Terai, Bhangar, Khadar). Think: "**B**ig **T**igers **B**ring **K**haos." Also remember: Bhabar = streams disappear (porous pebbles), Terai = streams re-emerge (marshy), Bhangar = old alluvium with kankar, Khadar = new alluvium (fertile flood plains).
 
+The Northern Plains can be regionally divided into: the **Punjab Plains** (Indus tributaries), the **Ganga Plains** (extending from Haryana to West Bengal, the most extensive section), and the **Brahmaputra Plains** (Assam valley). The Ganga Plains are further subdivided into the Upper Ganga Plain (Uttarakhand-UP), Middle Ganga Plain (eastern UP-Bihar), and Lower Ganga Plain (West Bengal-Bangladesh).
+
+---
+
+## The Indian Desert (Thar)
+
+The Thar Desert covers approximately 2 lakh sq km in western Rajasthan and parts of Gujarat, extending into Pakistan. It is bounded by the Aravalli Range on the east and southeast. Key features include longitudinal sand dunes (barchans), seasonal salt lakes (such as Sambhar Lake — India's largest inland salt lake), and the Luni River, the only significant river in the region. The desert receives less than 25 cm of annual rainfall. The Indira Gandhi Canal (Rajasthan Canal), originating from the Harike Barrage on the Sutlej-Beas confluence, has transformed parts of the Thar into cultivable land.
+
 ---
 
 ## The Peninsular Plateau
 
-The Peninsular Plateau is India's oldest and most stable landmass, composed primarily of igneous and metamorphic rocks. It is bounded by the Aravalli Range in the northwest, the Vindhya and Satpura ranges in the north, and flanked by the Western and Eastern Ghats.
+The Peninsular Plateau is India's oldest and most stable landmass, composed primarily of igneous and metamorphic rocks. It is bounded by the Aravalli Range in the northwest, the Vindhya and Satpura ranges in the north, and flanked by the Western and Eastern Ghats. A significant geological feature is the **Deccan Traps** — layers of solidified flood basalt from massive volcanic eruptions approximately 66 million years ago (Cretaceous-Paleogene boundary). The Deccan Traps currently cover about 5 lakh sq km across west-central India and are responsible for the formation of the regur (black cotton) soil.
 
 ### Sub-divisions of the Peninsular Plateau
 
@@ -111,7 +130,7 @@ The Peninsular Plateau is India's oldest and most stable landmass, composed prim
 
 ## Major Rivers of India
 
-India's rivers are classified into two major groups based on their origin: **Himalayan rivers** (perennial, snow-fed) and **Peninsular rivers** (seasonal, rain-fed).
+India's rivers are classified into two major groups based on their origin: **Himalayan rivers** (perennial, snow-fed) and **Peninsular rivers** (seasonal, rain-fed). The three major Himalayan river systems — Indus, Ganga, and Brahmaputra — together drain about 60% of India's total geographical area. The **Indus system** (Indus + five tributaries: Jhelum, Chenab, Ravi, Beas, Sutlej) is governed by the **Indus Waters Treaty (1960)** between India and Pakistan, which allocates the three eastern rivers (Beas, Ravi, Sutlej) to India and the three western rivers (Indus, Jhelum, Chenab) to Pakistan. The **Ganga basin** is the largest river basin in India, while the **Godavari** is the longest peninsular river, often called the "Dakshin Ganga."
 
 ### Major Rivers: Origin, Length, and Tributaries
 
@@ -137,6 +156,10 @@ India's rivers are classified into two major groups based on their origin: **Him
 | Centripetal | Rivers converge into a depression | Loktak Lake drainage |
 
 > **Key distinction:** Narmada and Tapi are the only two major peninsular rivers that flow westward into the Arabian Sea. Both flow through rift valleys (linear, fault-formed troughs), NOT ordinary valleys. This is why they do NOT form deltas — they form estuaries instead. All other major peninsular rivers (Godavari, Krishna, Kaveri, Mahanadi) flow eastward and form deltas. UPSC has directly tested this in Prelims 2013.
+
+### Interlinking of Rivers (ILR) Programme
+
+The National Perspective Plan for interlinking of rivers envisages transferring water from surplus to deficit basins. The **Ken-Betwa Link Project (KBLP)** is the first project under this programme to receive government approval (December 2021) at an estimated cost of Rs 44,605 crore. The project involves transferring water from the Ken River to the Betwa River through the construction of the Daudhan Dam and a linking canal, benefiting parts of Madhya Pradesh and Uttar Pradesh. The project is planned for completion by March 2030 and is being implemented through a Special Purpose Vehicle — the Ken Betwa Link Project Authority (KBLPA).
 
 ### Himalayan vs. Peninsular Rivers
 
@@ -173,6 +196,8 @@ Indian soils are classified into several major types based on genesis, compositi
 
 ## Coastal Plains and Islands
 
+India's total coastline, traditionally measured at 7,516.6 km, was re-assessed to **11,098.81 km** by the National Hydrographic Office (NHO) in coordination with the Survey of India using modern GIS software and high-resolution High-Water Line data. The revised figure was officially promulgated by the Ministry of Ports, Shipping and Waterways in April 2025. The increase reflects better measurement technology, not a physical change in the landmass.
+
 ### Coastal Plains
 
 | Coast | Name | Length | Features |
@@ -184,8 +209,10 @@ Indian soils are classified into several major types based on genesis, compositi
 
 | Island Group | Location | Number | Origin | Key Features |
 |-------------|----------|--------|--------|-------------|
-| Andaman & Nicobar | Bay of Bengal | 572 | Tectonic (submerged mountain chain) | Barren Island (active volcano); dense forests; tribal populations |
-| Lakshadweep | Arabian Sea | 36 | Coral origin (atolls) | Small area (~32 sq km); Kavaratti is capital; lagoon-rich |
+| Andaman & Nicobar | Bay of Bengal | 572 | Tectonic (submerged mountain chain) | Barren Island — only active volcano in India (last erupted 2017); part of a submerged extension of the Arakan Yoma range; 31 islands inhabited; home to Particularly Vulnerable Tribal Groups (PVTGs) |
+| Lakshadweep | Arabian Sea | 36 | Coral origin (atolls) | 12 atolls, 3 reefs, 5 submerged banks; 10 islands inhabited; total area ~32 sq km; Kavaratti is capital; important for India's maritime security in the Arabian Sea |
+
+The Andaman & Nicobar Islands extend India's Exclusive Economic Zone (EEZ) significantly into the Bay of Bengal and are strategically located near the Strait of Malacca, one of the world's busiest shipping lanes. The Lakshadweep islands, being coral atolls, are highly vulnerable to sea-level rise and coral bleaching from climate change.
 
 ---
 
@@ -198,6 +225,8 @@ Indian soils are classified into several major types based on genesis, compositi
 - Physiographic divisions and their geological age
 - Drainage patterns and their characteristics
 - Island groups and their geological origin
+- Key mountain passes — location, connecting regions, and strategic significance
+- India's coastline length and the 2025 revision from 7,516.6 km to 11,098.81 km
 
 ### Mains Dimensions
 - Role of Himalayas in shaping India's climate, rivers, and biodiversity (GS1)
@@ -205,12 +234,15 @@ Indian soils are classified into several major types based on genesis, compositi
 - Soil degradation, conservation strategies, and their link to food security (GS3)
 - Peninsular Plateau's mineral wealth and its economic significance (GS1/GS3)
 - Coastal zone management and vulnerability to climate change (GS3)
+- Strategic significance of Himalayan passes for border security and trade connectivity (GS1/GS2)
+- Indus Waters Treaty — geopolitical dimensions and climate change impact on transboundary water sharing (GS2)
 
 ### Interview Angles
 - Why does India have such diverse physiography in a relatively compact area?
 - Should the Himalayas be treated as an ecological entity rather than a political boundary?
 - How does the geology of the Peninsular Plateau make it mineral-rich but water-scarce?
-- Discuss the strategic significance of the Andaman & Nicobar and Lakshadweep islands.
+- Discuss the strategic significance of the Andaman & Nicobar and Lakshadweep islands
+- Ken-Betwa interlinking — evaluate trade-offs between water security, submergence of Panna Tiger Reserve habitat, and displacement
 
 ---
 
