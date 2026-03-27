@@ -50,7 +50,7 @@ The 19th century saw an unprecedented wave of social and religious reform in Ind
 
 | Feature | Detail |
 |---------|--------|
-| **Founded** | **1 May 1897** by **Swami Vivekananda** at **Belur Math**, near Calcutta |
+| **Founded** | **1 May 1897** by **Swami Vivekananda** in Calcutta (at the house of Balaram Basu); **Belur Math** became the permanent headquarters from **1898** |
 | **Named after** | **Ramakrishna Paramahamsa** (1836–1886) — Vivekananda's guru; a mystic who taught that all religions lead to the same truth |
 | **Vivekananda's impact** | Represented Hinduism at the **Parliament of the World's Religions** in Chicago on **11 September 1893**; his address ("Sisters and Brothers of America") received a standing ovation; revived Hindu pride; advocated service to humanity as the highest form of worship |
 | **Key philosophy** | "Service to man is service to God" (**Shiva Jnane Jiva Seva**); emphasis on character-building, education, and humanitarian work |
@@ -82,7 +82,7 @@ The 19th century saw an unprecedented wave of social and religious reform in Ind
 | Feature | Detail |
 |---------|--------|
 | **Leader** | **Sir Syed Ahmed Khan** (1817–1898) |
-| **Key institution** | **Muhammadan Anglo-Oriental (MAO) College** — founded **1875** at Aligarh; became **Aligarh Muslim University** in **1920** |
+| **Key institution** | **Madrasatul Uloom** (school) founded **24 May 1875** at Aligarh; upgraded to **Muhammadan Anglo-Oriental (MAO) College** in **1877**; became **Aligarh Muslim University** in **1920** |
 | **Aim** | Modern Western education for Muslims while preserving Islamic values; reduce Muslim alienation from British rule after 1857 (Muslims had been disproportionately punished) |
 | **Key work** | *Asbab-e-Baghawat-e-Hind* (Causes of the Indian Revolt, 1858) — argued the revolt was caused by British insensitivity, not Muslim conspiracy |
 | **Political stance** | Initially promoted Hindu-Muslim unity; later advocated a separate political identity for Muslims; opposed the Indian National Congress (urged Muslims not to join) |
@@ -130,7 +130,7 @@ The 19th century saw an unprecedented wave of social and religious reform in Ind
 
 | Feature | Detail |
 |---------|--------|
-| **Founded** | **Self-Respect Movement** in **1925** in Tamil Nadu |
+| **Founded** | **Self-Respect Movement** in **1925** in Tamil Nadu (initially founded by **S. Ramanathan**, who invited Periyar to lead it) |
 | **Aim** | Eradication of Brahmin dominance and caste hierarchy; promotion of rationalism, atheism, and social equality |
 | **Methods** | Public burning of the Manusmriti; promotion of inter-caste and self-respect marriages (without Brahmin priests); challenged Hindi imposition |
 | **Political legacy** | Ideological foundation of the **Dravidian movement** — DMK and AIADMK trace their origins to Periyar's movement |
@@ -145,7 +145,7 @@ The 19th century saw an unprecedented wave of social and religious reform in Ind
 |--------|------|---------|
 | **Abolition of Sati** | **1829** | Bengal Sati Regulation XVII passed by Lord William Bentinck; Raja Ram Mohan Roy campaigned tirelessly for it |
 | **Hindu Widow Remarriage Act** | **1856** | Passed under Lord Canning; **Ishwar Chandra Vidyasagar** was the driving force — submitted petitions with thousands of signatures |
-| **Age of Consent Act** | **1891** | Raised the age of consent for girls from 10 to 12 years; triggered by the **Phulmoni Dasi case** (1890) — an 11-year-old girl died due to marital rape |
+| **Age of Consent Act** | **1891** | Raised the age of consent for girls from 10 to 12 years; triggered primarily by the **Phulmoni Dasi case (1889)** — a girl of about 10 died from injuries inflicted by her husband; the earlier **Rukhmabai case (1884–1888)** had also created public discourse on child marriage |
 | **Female Infanticide Prevention Act** | **1870** | Attempted to curb the practice, particularly prevalent among Rajputs |
 
 ### Key Women Reformers
@@ -177,8 +177,8 @@ The 19th century saw an unprecedented wave of social and religious reform in Ind
 ### Prelims Focus Areas
 - Brahmo Samaj: Raja Ram Mohan Roy, 1828; Debendranath Tagore, Keshub Chandra Sen
 - Arya Samaj: Dayananda Saraswati, 1875, Bombay; "Back to the Vedas"; DAV schools; Shuddhi
-- Ramakrishna Mission: Vivekananda, 1897, Belur Math; Chicago 1893
-- Aligarh: Sir Syed Ahmed Khan, MAO College 1875, AMU 1920
+- Ramakrishna Mission: Vivekananda, 1 May 1897, Calcutta; Belur Math HQ from 1898; Chicago 1893
+- Aligarh: Sir Syed Ahmed Khan, school 1875, MAO College 1877, AMU 1920
 - Deoband: 1866, anti-British, pro-Congress
 - Jyotirao Phule: Satyashodhak Samaj 1873, Gulamgiri; Savitribai — first girls' school 1848
 - Sati abolished: 1829, Bentinck, Regulation XVII; Widow Remarriage Act: 1856, Vidyasagar
