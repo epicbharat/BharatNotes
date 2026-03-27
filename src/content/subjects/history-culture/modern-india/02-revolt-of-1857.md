@@ -39,7 +39,7 @@ The Revolt of 1857 was the most significant armed challenge to British rule befo
 | Cause | Detail |
 |-------|--------|
 | **Greased cartridges** | The new **Enfield rifle** required biting off the cartridge tip before loading; rumoured to be greased with **cow and pig fat** — offensive to both Hindu and Muslim sepoys |
-| **General Service Enlistment Act (1856)** | Required sepoys to serve overseas (crossing the sea — *kala pani* — meant loss of caste for Hindu soldiers) |
+| **General Service Enlistment Act (1856)** | Required **new recruits** to accept overseas service if needed (crossing the sea — *kala pani* — meant loss of caste for Hindu soldiers); existing sepoys feared it would be extended to them |
 | **Racial discrimination** | Indian sepoys paid much less than British soldiers; barred from promotion beyond a certain rank; no Indian could command a European soldier |
 | **Proportion** | By 1857, there were only ~45,000 European troops vs ~230,000 Indian sepoys in the Bengal Army — the sepoys were numerically overwhelming |
 
@@ -79,7 +79,7 @@ The Revolt of 1857 was the most significant armed challenge to British rule befo
 | **Delhi** | **Bahadur Shah Zafar** (symbolic); actual military command by **General Bakht Khan** | Rebels held Delhi from May to September 1857; British recaptured Delhi in September 1857 under John Nicholson (who was killed in the assault) |
 | **Kanpur (Cawnpore)** | **Nana Sahib** (adopted son of Peshwa Bajirao II) and **Tantia Tope** (his military commander) | Revolt broke out 5 June 1857; British garrison surrendered; massacre at Sati Chaura Ghat; British recaptured Kanpur under Sir Colin Campbell |
 | **Lucknow** | **Begum Hazrat Mahal** (wife of deposed Nawab Wajid Ali Shah) | Prolonged siege of the British Residency; Begum proclaimed her son Birjis Qadr as Nawab; British retook Lucknow in March 1858 |
-| **Jhansi** | **Rani Lakshmibai** | Rose in revolt after British refused to recognise her adopted son; fought fiercely; captured Gwalior with Tantia Tope; **killed in battle on 17 June 1858** at Gwalior |
+| **Jhansi** | **Rani Lakshmibai** | Rose in revolt after British refused to recognise her adopted son; fought fiercely; captured Gwalior with Tantia Tope; **killed in battle on 18 June 1858** near Gwalior |
 | **Bihar (Jagdishpur)** | **Kunwar Singh** (zamindar, aged about 75–80) | Led revolt in Bihar despite his advanced age; fought multiple engagements; died of wounds on 26 April 1858 |
 | **Central India** | **Tantia Tope** | Continued guerrilla resistance after the fall of Kanpur; captured and **executed on 18 April 1859** after being betrayed by Man Singh |
 | **Bareilly** | **Khan Bahadur Khan** | Proclaimed himself Nawab; led revolt in Rohilkhand |
@@ -125,7 +125,7 @@ The British systematically recaptured rebel centres:
 | Interpretation | Proponent | Argument |
 |---------------|-----------|----------|
 | **"Sepoy Mutiny"** | British colonial historians (Kaye, Malleson) | A military mutiny limited to discontented sepoys; no national character |
-| **"First War of Independence"** | V.D. Savarkar (*The Indian War of Independence*, 1909) | A national uprising against foreign rule; involved multiple classes — sepoys, peasants, artisans, rulers |
+| **"War of Independence"** | V.D. Savarkar (*The Indian War of Independence*, 1909) | A national uprising against foreign rule; involved multiple classes — sepoys, peasants, artisans, rulers. The prefix "First" was added in a 1945 edition, not in Savarkar's original 1909 text |
 | **"Feudal reaction"** | Marxist historians (R.P. Dutt) | A backward-looking revolt by feudal elites trying to restore the old order |
 | **"Popular revolt with limitations"** | Modern historians (Bipan Chandra, S.B. Chaudhuri) | More than a mutiny but less than a national revolution; lacked pan-Indian character, modern leadership, and clear ideology |
 
@@ -139,7 +139,7 @@ The British systematically recaptured rebel centres:
 - Mangal Pandey: 29 March 1857, Barrackpore, hanged 8 April 1857
 - Meerut outbreak: 10 May 1857; sepoys marched to Delhi
 - Leaders and regions: Rani Lakshmibai (Jhansi), Nana Sahib (Kanpur), Begum Hazrat Mahal (Lucknow), Kunwar Singh (Bihar), Tantia Tope (Central India)
-- Rani Lakshmibai: died 17 June 1858 at Gwalior
+- Rani Lakshmibai: died 18 June 1858 near Gwalior
 - Tantia Tope: executed 18 April 1859
 - Government of India Act 1858: ended EIC; Crown rule began
 - Queen Victoria's Proclamation: 1 November 1858
