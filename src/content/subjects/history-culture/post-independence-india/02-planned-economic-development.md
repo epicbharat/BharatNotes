@@ -29,11 +29,14 @@ Independent India chose **centralised economic planning** as its development str
 |---------|--------|
 | **Established** | **15 March 1950** |
 | **How** | Via a **Cabinet Resolution** (not by Constitution or statute) |
-| **Chairman** | **Prime Minister** (ex-officio) — Nehru was the first Chairman |
+| **Chairman** | **Prime Minister** (ex-officio) — **Jawaharlal Nehru** was the first Chairman |
 | **Deputy Chairman** | Effectively the operational head — the first was **Gulzarilal Nanda** |
-| **Nature** | Extra-constitutional, non-statutory advisory body |
-| **Function** | Formulated Five-Year Plans; assessed resources; set priorities; allocated resources to states |
+| **Nature** | **Extra-constitutional, non-statutory** advisory body — not mentioned anywhere in the Constitution |
+| **Function** | Formulated Five-Year Plans; assessed resources; set priorities; allocated Plan funds to states |
+| **Dissolved** | Replaced by **NITI Aayog** on **1 January 2015** |
 | **Criticism** | Top-down approach; states had limited say; became a parallel power centre; "one-size-fits-all" approach ignored regional diversity |
+
+The Planning Commission reported directly to the Prime Minister and wielded enormous influence over resource allocation. States had to approach it for Plan fund approvals, which critics argued undermined federalism. Despite being an advisory body, it often functioned as a decision-making authority, effectively sidelining elected state governments in the planning process.
 
 ---
 
@@ -62,27 +65,80 @@ Independent India chose **centralised economic planning** as its development str
 | **Industrial Policy Resolution 1956** | Classified industries into three categories — Schedule A (state monopoly: arms, atomic energy, railways, etc.), Schedule B (state + private), Schedule C (private sector) |
 | **Impact** | Laid the foundation of India's industrial base; but created a "License Raj" with extensive government controls |
 
-### Third to Fifth Plans
+### Third Five-Year Plan (1961–1966)
 
-| Plan | Period | Focus | Key Events |
-|------|--------|-------|------------|
-| **Third** | 1961–66 | Self-sustained growth | Disrupted by Indo-China War (1962), Indo-Pak War (1965), severe droughts (1965–66); plan targets not met |
-| **Plan Holiday** | 1966–69 | Annual plans | Economic disruption; rupee devalued (1966); Green Revolution introduced |
-| **Fourth** | 1969–74 | Growth with stability; agriculture | Green Revolution impact; disrupted by 1971 war and 1973 oil crisis |
-| **Fifth** | 1974–79 | Poverty alleviation ("Garibi Hatao"); Minimum Needs Programme | Terminated one year early by the Janata Party government (1978) |
+| Feature | Detail |
+|---------|--------|
+| **Goal** | Self-sustained growth and self-reliance |
+| **Target growth** | 5.6% per annum |
+| **Achieved** | **2.4%** — a major shortfall |
+| **Disruptions** | **Sino-Indian War (1962)** forced diversion of resources to defence; **Indo-Pak War (1965)** caused further economic strain; **severe drought (1965–66)** devastated agriculture |
+| **Outcome** | The failure of the Third Plan led to the declaration of **Plan Holidays (1966–69)** — three consecutive annual plans instead of a regular Five-Year Plan |
+
+### Plan Holiday (1966–1969)
+
+| Feature | Detail |
+|---------|--------|
+| **Duration** | Three annual plans (1966–67, 1967–68, 1968–69) |
+| **Why** | Failure of the Third Plan; lack of resources; inflation; economic disruption from two wars |
+| **Rupee devaluation** | In **June 1966**, the Indian rupee was devalued by 36.5% (from Rs 4.76 to Rs 7.50 per US dollar) under pressure from the IMF and World Bank |
+| **Green Revolution begins** | High-Yielding Variety (HYV) seeds introduced in the **Rabi season of 1966–67**; India imported 18,000 tonnes of HYV wheat seeds — the largest seed import in the world at that time |
+| **Key figures** | **Norman Borlaug** (developed dwarf wheat varieties; Nobel Peace Prize, 1970) and **M.S. Swaminathan** (led the Indian programme; "Father of the Green Revolution in India") |
+
+### Fourth Five-Year Plan (1969–1974)
+
+| Feature | Detail |
+|---------|--------|
+| **Objective** | Growth with stability; self-reliance |
+| **Target growth** | 5.7% per annum |
+| **Achieved** | **3.3%** — fell short due to multiple crises |
+| **Bank nationalisation** | On **19 July 1969**, the government nationalised **14 major commercial banks** (each with deposits above Rs 50 crore) via the Banking Companies (Acquisition and Transfer of Undertakings) Ordinance, 1969 — aimed at expanding credit to rural areas and priority sectors |
+| **Green Revolution impact** | Wheat production surged; India moved toward food self-sufficiency |
+| **Disruptions** | **1971 Bangladesh War**; **1973 oil crisis** (OPEC quadrupled oil prices, causing severe inflation) |
+
+### Fifth Five-Year Plan (1974–1979)
+
+| Feature | Detail |
+|---------|--------|
+| **Focus** | **Poverty removal** ("Garibi Hatao") and self-reliance |
+| **Target growth** | 4.4% per annum |
+| **Achieved** | **4.8%** — exceeded the target |
+| **Key programmes** | **Minimum Needs Programme** (MNP) — introduced in the first year to provide basic amenities like drinking water, health, primary education, rural roads, and rural housing |
+| **Context** | Enacted during the Emergency period; Twenty Point Programme of 1975 |
+| **Terminated** | One year early by the **Janata Party government** (1978), which launched a rolling plan instead |
 
 ### Sixth to Twelfth Plans
 
-| Plan | Period | Key Focus |
-|------|--------|-----------|
-| **Sixth** | 1980–85 | Focus on poverty alleviation; technology upgradation |
-| **Seventh** | 1985–90 | Food, work, and productivity; emphasis on employment generation |
-| **Plan Holiday** | 1990–92 | Political instability; BOP crisis |
-| **Eighth** | 1992–97 | First plan after liberalisation; human resource development; target 5.6%, achieved ~6.8% |
-| **Ninth** | 1997–2002 | Growth with social justice and equity |
-| **Tenth** | 2002–07 | 8% GDP growth target; monitorable targets for poverty, education, health |
-| **Eleventh** | 2007–12 | "Faster and more inclusive growth"; 9% target, achieved ~8% |
-| **Twelfth** | 2012–17 | "Faster, sustainable, and more inclusive growth"; last Five-Year Plan |
+| Plan | Period | Key Focus | Target | Achieved |
+|------|--------|-----------|--------|----------|
+| **Sixth** | 1980–85 | Poverty alleviation; technology upgradation; IRDP launched | 5.2% | **5.4%** |
+| **Seventh** | 1985–90 | Food, work, and productivity; Rajiv Gandhi's emphasis on technology and telecommunications modernisation | 5.0% | **6.0%** |
+| **Plan Holiday** | 1990–92 | Political instability; 1991 Balance of Payments (BOP) crisis; LPG reforms initiated | — | — |
+| **Eighth** | 1992–97 | First plan after liberalisation; human resource development; managed transition to market economy | 5.6% | **6.8%** |
+| **Ninth** | 1997–2002 | Growth with social justice and equity; affected by Asian financial crisis and sanctions post-Pokhran II | 6.5% | **5.4%** |
+| **Tenth** | 2002–07 | 8% GDP growth target; first plan with monitorable targets for poverty, education, health, and gender | 8.1% | **7.7%** |
+| **Eleventh** | 2007–12 | "Faster and more inclusive growth"; highest growth achieved in any plan period | 9.0% | **8.0%** |
+| **Twelfth** | 2012–17 | "Faster, sustainable, and more inclusive growth"; the **last Five-Year Plan** — NITI Aayog replaced planning framework | 8.0% | **~6.8%** |
+
+### Summary Table: All Five-Year Plans at a Glance
+
+| Plan | Period | Model/Theme | Target | Achieved |
+|------|--------|-------------|--------|----------|
+| **First** | 1951–56 | Harrod-Domar; agriculture and irrigation | 2.1% | **3.6%** |
+| **Second** | 1956–61 | Mahalanobis; heavy industry | 4.5% | **4.27%** |
+| **Third** | 1961–66 | Self-reliant growth | 5.6% | **2.4%** |
+| Holiday | 1966–69 | Annual plans; Green Revolution begins | — | — |
+| **Fourth** | 1969–74 | Growth with stability | 5.7% | **3.3%** |
+| **Fifth** | 1974–79 | Poverty removal; MNP | 4.4% | **4.8%** |
+| Holiday | 1978–80 | Rolling plan (Janata Govt) | — | — |
+| **Sixth** | 1980–85 | Poverty alleviation; technology | 5.2% | **5.4%** |
+| **Seventh** | 1985–90 | Food, work, productivity | 5.0% | **6.0%** |
+| Holiday | 1990–92 | BOP crisis; LPG reforms | — | — |
+| **Eighth** | 1992–97 | Post-liberalisation; HRD | 5.6% | **6.8%** |
+| **Ninth** | 1997–2002 | Growth with social justice | 6.5% | **5.4%** |
+| **Tenth** | 2002–07 | Monitorable targets | 8.1% | **7.7%** |
+| **Eleventh** | 2007–12 | Inclusive growth | 9.0% | **8.0%** |
+| **Twelfth** | 2012–17 | Sustainable inclusive growth (last plan) | 8.0% | **~6.8%** |
 
 ---
 
@@ -137,38 +193,50 @@ Independent India chose **centralised economic planning** as its development str
 
 ## From Planning Commission to NITI Aayog
 
+### Why the Shift?
+
+The Planning Commission was criticised for its top-down, one-size-fits-all approach that treated India's diverse states uniformly. By the 2000s, there was growing consensus that centralised planning had outlived its usefulness in a liberalised economy. In 2014, PM Narendra Modi announced its replacement during his Independence Day speech, arguing for a shift to **cooperative and competitive federalism**.
+
+### Comparison: Planning Commission vs NITI Aayog
+
 | Feature | Planning Commission | NITI Aayog |
 |---------|-------------------|------------|
 | **Established** | 15 March 1950 | **1 January 2015** |
 | **How** | Cabinet Resolution | Cabinet Resolution |
+| **Full name** | — | National Institution for Transforming India |
 | **Approach** | **Top-down** planning | **Bottom-up** cooperative federalism |
 | **Chairman** | PM (ex-officio) | PM (ex-officio) |
-| **Key officers** | Deputy Chairman | **Vice-Chairperson** + CEO |
-| **Governing Council** | No state representation | **All Chief Ministers** and Lt. Governors of UTs |
-| **Funds allocation** | Allocated Plan funds to states | Does NOT allocate funds (Finance Commission does) |
-| **Plans** | Five-Year Plans | No Five-Year Plans; instead, 15-year Vision Document, 7-year Strategy, 3-year Action Agenda |
+| **Key officers** | Deputy Chairman | **Vice-Chairperson** + **CEO** (fixed-tenure appointment) |
+| **First Vice-Chairperson** | — | **Arvind Panagariya** (Jan 2015 – Aug 2017) |
+| **Governing Council** | No state representation | **All Chief Ministers** and Lt. Governors of UTs — ensures states have a voice in national policy |
+| **Funds allocation** | Allocated Plan funds to states | Does **NOT** allocate funds — fund allocation transferred to the **Finance Commission** and the Ministry of Finance |
+| **Plans** | Five-Year Plans | No Five-Year Plans; instead, **15-year Vision Document**, **7-year Strategy**, **3-year Action Agenda** |
+| **Role** | Directive and allocative | **Advisory and think-tank** — policy research, monitoring, evaluation |
 
 ---
 
 ## UPSC Relevance
 
 ### Prelims Focus Areas
-- Planning Commission: 15 March 1950; Cabinet Resolution; PM as Chairman
-- First Plan: Harrod-Domar; agriculture; 2.1% target, 3.6% achieved
-- Second Plan: Mahalanobis model; heavy industry; Bhilai, Rourkela, Durgapur
-- Plan Holidays: 1966–69, 1990–92
-- Green Revolution: M.S. Swaminathan; Norman Borlaug (Nobel 1970); wheat; Punjab/Haryana
+- Planning Commission: 15 March 1950; Cabinet Resolution; PM as Chairman; extra-constitutional body
+- First Plan: Harrod-Domar; agriculture; 2.1% target, 3.6% achieved; K.N. Raj
+- Second Plan: Mahalanobis model; heavy industry; Bhilai (Soviet), Rourkela (German), Durgapur (British)
+- Third Plan: target 5.6%, achieved 2.4%; disrupted by 1962 and 1965 wars
+- Plan Holidays: 1966–69 (war/drought), 1990–92 (BOP crisis)
+- Bank nationalisation: 19 July 1969; 14 banks; Banking Companies (Acquisition) Ordinance
+- Green Revolution: M.S. Swaminathan; Norman Borlaug (Nobel 1970); HYV wheat; Punjab/Haryana
 - White Revolution: Verghese Kurien; Operation Flood (1970); NDDB (1965); India surpassed USA in milk (1997)
-- NITI Aayog: 1 January 2015; replaced Planning Commission; cooperative federalism
-- Industrial Policy Resolution 1956: Schedule A, B, C
+- NITI Aayog: 1 January 2015; replaced Planning Commission; cooperative federalism; Governing Council includes all CMs
+- Industrial Policy Resolution 1956: Schedule A (state monopoly), B (state + private), C (private)
 
 ### Mains Focus Areas
 - Was India's choice of centralised planning justified? What were the alternatives?
 - Compare the Mahalanobis model with market-oriented approaches
 - Assess the Green Revolution — achievements vs social and environmental costs
 - Operation Flood as a model of cooperative development — lessons for other sectors
-- Is NITI Aayog a genuine improvement over the Planning Commission?
-- Why were Five-Year Plans abandoned? Is planning still relevant?
+- Is NITI Aayog a genuine improvement over the Planning Commission? Has cooperative federalism been realised?
+- Why were Five-Year Plans abandoned? Is planning still relevant in a liberalised economy?
+- Critically examine the role of bank nationalisation in India's economic development
 
 ---
 

@@ -23,6 +23,14 @@ Indian classical music is one of the world's oldest continuous musical tradition
 
 ---
 
+## Ancient Roots
+
+The origins of Indian classical music trace back to the **Samaveda**, the third of the four Vedas, whose name literally means "Veda of songs." The Samaveda contains notated melodies for chanting Rigvedic hymns — these are among the **oldest surviving musical notations in the world**. The sage **Narada** is traditionally credited as the first mortal to receive the art of music from the divine realm. The **Naradiya Shiksha**, a text attributed to Narada, connects the seven svaras of Sama gana with the seven notes of classical music and describes three gramas (Shadja, Madhyama, and Gandhara).
+
+**Bharata Muni's Natyashastra** (c. 2nd century BCE – 2nd century CE), a foundational treatise on the performing arts comprising 36 chapters, devotes **chapters 28 to 33 to music** — covering vocal and instrumental music (melodic and rhythmic) and their deployment in drama. The Natyashastra describes scales, melodic modes, and the relationship between music and rasa (aesthetic emotion).
+
+---
+
 ## Foundational Concepts
 
 | Concept | Detail |
@@ -73,24 +81,34 @@ Indian classical music is one of the world's oldest continuous musical tradition
 
 ### Gharanas of Hindustani Music
 
-| Gharana | Speciality |
-|---------|-----------|
-| **Gwalior** | Oldest khayal gharana; balanced, disciplined approach |
-| **Agra** | Dhrupad-influenced khayal; powerful voice |
-| **Jaipur-Atrauli** | Complex raga elaboration; emphasis on technical precision |
-| **Kirana** | Melodic beauty; slow, meditative approach; Begum Akhtar tradition |
-| **Patiala** | Fast taans (melodic runs); Thumri tradition |
-| **Mewati** | Bhakti (devotional) orientation |
+| Gharana | Founder(s) | Speciality | Key Exponents |
+|---------|-----------|-----------|---------------|
+| **Gwalior** | Haddu Khan, Hassu Khan, Natthu Khan (grandsons of Nathan Pir Bakhsh) | Oldest khayal gharana; balanced, disciplined approach | Vishnu Digambar Paluskar, Balkrishnabua Ichalkaranjikar |
+| **Agra** | Haji Sujan Khan; developed by Ghagge Khudabaksh | Dhrupad-influenced khayal; powerful voice | Ustad Faiyaz Khan ("Aftab-e-Mausiqi"), S.N. Ratanjankar |
+| **Jaipur-Atrauli** | Ustad Alladiya Khan (1855–1946) | Complex raga elaboration; emphasis on technical precision | Kesarbai Kerkar, Mogubai Kurdikar, Kishori Amonkar, Mallikarjun Mansur |
+| **Kirana** | Abdul Karim Khan, Abdul Wahid Khan | Melodic beauty; slow, meditative approach | Sawai Gandharva, Bhimsen Joshi (Bharat Ratna), Gangubai Hangal, Prabha Atre |
+| **Patiala** | Ali Baksh Khan, Fateh Ali Khan | Fast taans (melodic runs); thumri and tappe style of Punjab | Bade Ghulam Ali Khan, Ustad Amanat Ali Khan |
+| **Mewati** | Ghagge Nazir Khan, Wahid Khan (late 19th century, Holkar Court) | Bhakti (devotional) orientation | Pandit Jasraj |
 
-### Tansen (16th century)
+### Tansen (c. 1493–1589)
 
 | Feature | Detail |
 |---------|--------|
-| **Full name** | Miyan Tansen (born Ramtanu Pandey) |
-| **Patron** | One of the **Navratnas** (nine jewels) of **Emperor Akbar's court** |
+| **Full name** | Miyan Tansen (born Ramtanu Pandey into a Gaur Brahmin family of Gwalior) |
+| **Guru** | Trained under **Swami Haridas** of Vrindavan |
+| **Patron** | Joined **Emperor Akbar's court** in 1562; became one of the **Navratnas** (nine jewels); received the honorific title "Mian" |
 | **Significance** | Regarded as the **father of Hindustani classical music**; developed several ragas (including Miyan ki Todi, Miyan ki Malhar, Darbari Kanada) |
 | **Legend** | Said to have lit lamps by singing Raga Deepak and brought rain with Raga Megh Malhar |
-| **Tomb** | At **Gwalior** — the Tansen Music Festival is held annually there |
+| **Legacy** | His sons and daughter (Bilas Khan, Surat Sen, Sarat Sen, Tarang Khan, Saraswati) all became accomplished musicians; the **Tansen Samaroh** (music festival) is held annually at his tomb in **Gwalior** |
+
+### Raga-Time Theory (Prahar System)
+
+In Hindustani music, ragas are associated with specific times of the day. The 24-hour cycle is divided into **eight prahars** (watches) of three hours each — four for the day and four for the night. This system was systematised by **Pandit V.N. Bhatkhande** in the early 20th century.
+
+| Classification | Rule | Examples |
+|---------------|------|----------|
+| **Purvanga Vadi Ragas** | Dominant note (vadi) in the lower tetrachord; generally performed between **12 AM – 12 PM** | Raga Bhairav (sunrise), Raga Todi (late morning) |
+| **Uttaranga Vadi Ragas** | Dominant note (vadi) in the upper tetrachord; generally performed between **12 PM – 12 AM** | Raga Bhimpalasi (afternoon), Raga Yaman (early evening) |
 
 ---
 

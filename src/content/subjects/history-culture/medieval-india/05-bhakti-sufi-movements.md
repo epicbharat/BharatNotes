@@ -38,7 +38,7 @@ The Bhakti and Sufi movements were the two most transformative spiritual current
 
 | Philosopher | Dates | School | Key Teaching |
 |-------------|-------|--------|-------------|
-| **Shankaracharya** | c. 788–820 CE | **Advaita** (Non-dualism) | Brahman (the ultimate reality) is the only truth; the world is maya (illusion); individual soul and Brahman are one; primarily Jnana (knowledge) path |
+| **Shankaracharya** | c. 788–820 CE | **Advaita** (Non-dualism) | Brahman (the ultimate reality) is the only truth; the world is maya (illusion); individual soul and Brahman are one; primarily Jnana (knowledge) path; established **four mathas** — Sringeri (South, Yajur Veda), Dwarka (West, Sama Veda), Puri/Govardhan (East, Rig Veda), Jyotirmath/Joshimath (North, Atharva Veda) |
 | **Ramanuja** | c. 1017–1137 CE | **Vishishtadvaita** (Qualified Non-dualism) | God (Vishnu) is real, the world is real, individual souls are real — but all depend on God; **Bhakti** is the primary path to moksha; advocated devotion accessible to all, including lower castes |
 | **Madhvacharya** | c. 1238–1317 CE | **Dvaita** (Dualism) | God (Vishnu) and the individual soul are permanently distinct; bhakti and God's grace are essential for salvation |
 | **Nimbarka** | c. 12th century CE | **Dvaitadvaita** (Dual Non-dualism) | Devotion to Radha and Krishna; soul is both different from and identical to God |
@@ -55,9 +55,31 @@ The Bhakti and Sufi movements were the two most transformative spiritual current
 | **Nirguna Bhakti** | Devotion to a **formless, attributeless God** | Kabir, Guru Nanak, Ravidas, Dadu Dayal |
 | **Saguna Bhakti** | Devotion to a **personal God with form** (Vishnu/Rama/Krishna/Shiva) | Ramanuja, Tulsidas, Mirabai, Chaitanya, Surdas, Tukaram |
 
+### Nirguna vs Saguna Bhakti — Comparison
+
+| Feature | Nirguna Bhakti | Saguna Bhakti |
+|---------|---------------|---------------|
+| **Concept of God** | Formless, attributeless, beyond description | God with form, name, and attributes (Rama, Krishna, Shiva) |
+| **Idol worship** | Rejected | Accepted as a means of devotion |
+| **Scriptures** | Generally rejected established scriptures; composed own verses | Drew from Puranas, Ramayana, Bhagavata |
+| **Caste position** | Strongly rejected caste; many saints were from lower castes | Challenged caste but some saints operated within Brahmanical framework |
+| **Key saints** | Kabir, Guru Nanak, Ravidas, Dadu Dayal | Tulsidas, Mirabai, Surdas, Chaitanya, Tukaram |
+| **Language** | Sadhukkadi, Punjabi, Hindi | Awadhi, Braj Bhasha, Bengali, Marathi, Rajasthani |
+| **Social impact** | More radical social critique | Greater literary and devotional legacy |
+
 ---
 
 ## Key Bhakti Saints
+
+### Basaveshwara (1131–1167 CE)
+
+| Feature | Detail |
+|---------|--------|
+| **Location** | Basavakalyan, Karnataka; born in Basavana Bagewadi |
+| **Significance** | Founded the **Lingayat (Virashaiva) movement** — a radical Shaiva bhakti tradition that rejected caste hierarchy, Vedic authority, and ritualism |
+| **Key contribution** | Established the **Anubhava Mantapa** at Basavakalyan — a spiritual parliament where mystics, saints, and philosophers gathered for open discussion, often called the world's first religious parliament |
+| **Literary legacy** | Pioneer of **Vachana Sahitya** (prose-poetry in Kannada); composed in simple, direct Kannada rather than Sanskrit; other major Vachana poets include **Akka Mahadevi** and **Allama Prabhu** |
+| **Social reform** | Rejected the caste system, temple worship, and priestly intermediaries; advocated dignity of labour (Kayaka — work is worship) |
 
 ### Ramananda (c. 14th–15th century)
 
@@ -88,6 +110,8 @@ The Bhakti and Sufi movements were the two most transformative spiritual current
 | **Key concepts** | Three pillars: **Naam Japna** (meditation on God's name), **Kirat Karni** (honest earning/living), **Vand Chakko** (sharing with others); **Ik Onkar** (God is One) |
 | **Langar** | Established the **langar** tradition — free community kitchen open to all, regardless of caste or religion |
 | **Travels** | Undertook four great journeys (**Udasis**) — to Sri Lanka, Mecca, Baghdad, and across India |
+| **Kartarpur** | Around 1520s, settled in **Kartarpur** (now in Pakistan) — established a permanent commune where Sikh practices of communal worship and langar were formalised |
+| **Japji Sahib** | Composed the **Japji Sahib** — the foundational prayer of Sikhism, recited daily by Sikhs; it opens the Guru Granth Sahib |
 | **Successor** | Appointed **Guru Angad** (not his sons) as the second Guru — establishing the principle of spiritual merit over heredity |
 
 ### Chaitanya Mahaprabhu (1486–1534)
@@ -163,6 +187,17 @@ Sufism (**Tasawwuf**) is the **mystical dimension of Islam**, emphasising the in
 | **Nizamuddin Auliya** | Delhi | Most famous Chishti saint; **contemporary of seven Delhi Sultans** (Balban through Muhammad bin Tughlaq); stressed love for all humanity; his disciple **Amir Khusrau** was a pioneering poet who contributed to the development of Urdu, Hindi, and qawwali music |
 | **Salim Chishti** | Fatehpur Sikri | Akbar named his son **Salim** (later Emperor Jahangir) after this saint who predicted the birth; Akbar built Fatehpur Sikri in his honour; his tomb in white marble is a masterpiece |
 
+### Sufi Orders — Detailed Comparison
+
+| Feature | Chishti | Suhrawardi | Naqshbandi | Qadiri |
+|---------|---------|------------|------------|--------|
+| **Founder in India** | Muinuddin Chishti (Ajmer, c. 1192) | Bahauddin Zakariya (Multan, c. 1222) | Khwaja Baqi Billah (Delhi, late 16th c.) | Arrived 15th century via Perso-Arab lands |
+| **State patronage** | Rejected | Accepted | Varied — Sirhindi opposed Akbar's policies | Moderate |
+| **Attitude to Sharia** | Flexible; emphasised spirit over letter | Strict Sharia alongside mysticism | Strictly orthodox | Moderate and balanced |
+| **Music (Sama)** | Central — embraced qawwali | Generally avoided | Rejected | Permitted in some branches |
+| **Key regions** | Pan-India; strongest in Delhi, UP, Rajasthan | Punjab, Sindh, Multan | Delhi, UP, Punjab | Deccan, Punjab, Sindh |
+| **Theological position** | Wahdat-ul-Wujud (Unity of Being) | Orthodox Sunnism | Wahdat-ul-Shuhud (Unity of Appearance) | Balanced orthodoxy |
+
 ### Key Sufi Concepts
 
 | Concept | Meaning |
@@ -174,6 +209,8 @@ Sufism (**Tasawwuf**) is the **mystical dimension of Islam**, emphasising the in
 | **Murid** | Disciple/student |
 | **Wahdat-ul-Wujud** | "Unity of Being" — taught by **Ibn al-Arabi**; all existence is one with God; embraced by many Chishti Sufis |
 | **Wahdat-ul-Shuhud** | "Unity of Appearance" — advocated by **Ahmad Sirhindi** (Naqshbandi); God and creation appear united but are essentially distinct; considered more orthodox |
+| **Langar** | Free community kitchen at Sufi khanqahs, serving food to all visitors irrespective of religion or caste; later adopted and formalised by Guru Nanak in the Sikh tradition |
+| **Fana** | Annihilation of the self/ego in God — the ultimate goal of the Sufi spiritual path |
 
 ---
 
@@ -181,12 +218,28 @@ Sufism (**Tasawwuf**) is the **mystical dimension of Islam**, emphasising the in
 
 | Impact | Detail |
 |--------|--------|
-| **Caste challenge** | Both movements accepted followers from all social backgrounds; saints like Kabir, Ravidas, and Namdev came from "low" castes |
-| **Vernacular languages** | Promoted regional languages over Sanskrit/Persian/Arabic — Tamil, Hindi, Marathi, Bengali, Punjabi, Telugu |
-| **Syncretic culture** | Created a shared cultural space between Hindus and Muslims — Baba Farid's verses in the Guru Granth Sahib, Sufi dargahs visited by all communities |
+| **Caste challenge** | Both movements accepted followers from all social backgrounds; saints like Kabir, Ravidas, and Namdev came from "low" castes; Basaveshwara's Lingayat movement explicitly rejected the varna system |
+| **Vernacular languages** | Promoted regional languages over Sanskrit/Persian/Arabic — Tamil, Hindi, Marathi, Bengali, Punjabi, Telugu, Kannada |
+| **Syncretic culture** | Created a shared cultural space between Hindus and Muslims — Baba Farid's verses in the Guru Granth Sahib, Sufi dargahs visited by all communities, Kabir criticising rituals of both faiths |
 | **Women's participation** | Women saints like **Andal**, **Mirabai**, **Lal Ded** (Kashmir), and **Akka Mahadevi** (Karnataka) challenged patriarchal norms |
 | **Music and literature** | Enriched Indian music (qawwali, kirtan, bhajan) and produced masterpieces of devotional literature |
+| **Institutional legacy** | Sufi khanqahs and Sikh gurdwaras became centres of community service; the langar tradition embodied social equality in practice |
 | **Limits** | Neither movement fundamentally abolished caste or gender inequality — they challenged hierarchy spiritually but did not create lasting structural change |
+
+### Vernacular Literature — Key Works by Region
+
+| Region | Language | Saint/Poet | Major Work |
+|--------|----------|-----------|------------|
+| Tamil Nadu | Tamil | Alvars (12 saints) | Nalayira Divya Prabandham (4,000 verses); compiled by **Nathamuni** (9th–10th century) |
+| Tamil Nadu | Tamil | Nayanars (63 saints) | Tevaram, Tiruvachakam |
+| Karnataka | Kannada | Basaveshwara, Akka Mahadevi | Vachana Sahitya (prose-poetry) |
+| North India | Sadhukkadi/Hindi | Kabir | Bijak (dohas and padas) |
+| North India | Awadhi | Tulsidas | Ramcharitmanas, Hanuman Chalisa |
+| North India | Braj Bhasha | Surdas | Sur Sagar |
+| Rajasthan | Rajasthani/Hindi | Mirabai | Devotional bhajans |
+| Bengal | Bengali | Chaitanya's followers | Chaitanya Charitamrita (by Krishnadas Kaviraja) |
+| Maharashtra | Marathi | Tukaram, Namdev, Eknath | Abhangas (devotional verses) |
+| Punjab | Punjabi | Guru Nanak, Baba Farid | Hymns in the Guru Granth Sahib |
 
 ---
 
@@ -194,7 +247,8 @@ Sufism (**Tasawwuf**) is the **mystical dimension of Islam**, emphasising the in
 
 ### Prelims Focus Areas
 - Alvars (12, Vaishnava) and Nayanars (63, Shaiva) — originated in Tamil Nadu, 6th–9th century
-- Shankaracharya: Advaita; Ramanuja: Vishishtadvaita; Madhvacharya: Dvaita
+- Shankaracharya: Advaita, four mathas (Sringeri, Dwarka, Puri, Jyotirmath); Ramanuja: Vishishtadvaita; Madhvacharya: Dvaita
+- Basaveshwara: 12th century, Lingayat/Virashaiva movement, Vachana literature in Kannada, Anubhava Mantapa
 - Nirguna (Kabir, Guru Nanak) vs Saguna (Tulsidas, Mirabai, Chaitanya)
 - Kabir: Nirguna, dohas, Bijak; Guru Nanak: Ik Onkar, Langar, Udasis
 - Chaitanya: Gaudiya Vaishnavism, kirtan; Tulsidas: Ramcharitmanas in Awadhi
@@ -202,6 +256,9 @@ Sufism (**Tasawwuf**) is the **mystical dimension of Islam**, emphasising the in
 - Nizamuddin Auliya: contemporary of 7 Delhi Sultans; disciple Amir Khusrau
 - Ahmad Sirhindi: Mujaddid Alf-i-Thani, Wahdat-ul-Shuhud
 - Baba Farid's verses in Guru Granth Sahib
+- Guru Nanak: Kartarpur commune, Japji Sahib, four Udasis
+- Sufi concepts: Khanqah, Sama, Silsilah, Langar, Fana, Wahdat-ul-Wujud vs Wahdat-ul-Shuhud
+- Qadiri order: arrived 15th century; influence in Deccan and Punjab
 
 ### Mains Focus Areas
 - How did Bhakti and Sufi movements challenge established social hierarchies?
@@ -211,6 +268,8 @@ Sufism (**Tasawwuf**) is the **mystical dimension of Islam**, emphasising the in
 - Role of Sufism in the spread of Islam in India — peaceful vs political conversion
 - Bhakti-Sufi interface: shared values and mutual influence
 - Relevance of Bhakti-Sufi teachings to modern communal harmony
+- Basaveshwara's Lingayat movement as a case study of radical social reform within the Bhakti tradition
+- How did different Sufi orders (Chishti vs Suhrawardi vs Naqshbandi) differ in their approach to state power and orthodoxy?
 
 ---
 
