@@ -140,7 +140,7 @@ The period 1944–1947 witnessed the rapid unravelling of British rule in India.
 
 | Feature | Detail |
 |---------|--------|
-| **What** | PM Attlee announced in the House of Commons that Britain would **transfer power** to responsible Indian hands by a date **not later than June 1948** |
+| **What** | PM Attlee announced in the House of Commons that Britain would **transfer power** to responsible Indian hands by a date **not later than 30 June 1948** |
 | **If no agreement** | If Indian parties could not agree on a constitution, Britain would decide whom to hand over power to — whether to a central government or to provincial governments |
 | **New Viceroy** | **Lord Mountbatten** replaced Lord Wavell as Viceroy (arrived **22 March 1947**) — sent specifically to oversee the transfer of power |
 
@@ -186,7 +186,7 @@ The period 1944–1947 witnessed the rapid unravelling of British rule in India.
 
 | Aspect | Detail |
 |--------|--------|
-| **Migration** | Estimated **10–15 million people** crossed the new borders — one of the largest mass migrations in human history |
+| **Migration** | Estimated **12–15 million people** crossed the new borders — the largest mass migration in human history |
 | **Deaths** | Estimated **200,000 to 2 million killed** in communal violence (the exact number remains disputed); widespread massacres, rapes, abductions, and arson on both sides of the border |
 | **Refugees** | Millions of refugees poured into Delhi, Bombay, Calcutta, Lahore, and Karachi; many spent years in refugee camps |
 | **Women** | An estimated **75,000–100,000 women** were abducted on both sides; many were forced into marriages or sexual slavery |
@@ -230,7 +230,7 @@ The period 1944–1947 witnessed the rapid unravelling of British rule in India.
 - Direct Action Day: 16 August 1946; Great Calcutta Killings; 4,000–5,000 dead
 - Interim Government: 2 September 1946; Nehru as VP; League joined October 1946
 - Constituent Assembly: first met 9 December 1946; Rajendra Prasad president; League boycotted
-- Attlee's announcement: 20 February 1947; deadline June 1948
+- Attlee's announcement: 20 February 1947; deadline 30 June 1948
 - Mountbatten Plan: 3 June 1947; partition accepted; transfer date 15 August 1947
 - Indian Independence Act: Royal Assent 18 July 1947
 - Radcliffe Line: Sir Cyril Radcliffe; announced 17 August 1947 (after independence)
