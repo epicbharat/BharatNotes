@@ -27,18 +27,23 @@ While the mainstream Congress movement pursued constitutional and non-violent me
 
 | Organisation | Year | Founder/Key Figures | Base | Key Facts |
 |-------------|------|-------------------|------|-----------|
-| **Anushilan Samiti** | 1902 | Pramathanath Mitra, Barindra Kumar Ghosh | Calcutta, Bengal | Promoted physical culture and revolutionary activities; two wings — Dhaka and Calcutta |
-| **Abhinav Bharat Society** | 1904 | **V.D. Savarkar** | Maharashtra | Secret revolutionary society; members sent to London for arms training |
-| **India House** | 1905 | **Shyamji Krishna Varma** | London | Base for Indian revolutionaries in England; Savarkar later became its key figure |
+| **Anushilan Samiti** | 24 March 1902 | Pramathanath Mitra, Barindra Kumar Ghosh, Jatindranath Banerjee | Calcutta, Bengal | Promoted physical culture and revolutionary activities; two wings — Dhaka and Calcutta |
+| **Jugantar** | March 1906 | Barindra Kumar Ghosh, Bhupendranath Dutt, Abhinash Bhattacharya | Calcutta, Bengal | Offshoot of Anushilan Samiti; started as a Bengali weekly newspaper, then became a revolutionary group; Aurobindo Ghosh provided ideological guidance; Hemchandra Kanungo trained in explosives in Paris under Russian anarchists and set up a bomb factory at Maniktala |
+| **Abhinav Bharat Society** | 1904 | **V.D. Savarkar** and Ganesh Savarkar | Nasik, Maharashtra | Originally named "Mitra Mela"; secret revolutionary society with branches across India and in London; formally disbanded in 1952 |
+| **India House** | 1 July 1905 | **Shyamji Krishna Varma** | Highgate, London | Residence-cum-centre for Indian revolutionaries in England; inaugurated by Henry Hyndman in presence of Dadabhai Naoroji; Varma also founded the **Indian Home Rule Society** (18 February 1905) and the journal ***The Indian Sociologist*** (January 1905); Savarkar later became its key figure |
+
+### Madan Lal Dhingra and the London Assassination (1909)
+
+**Madan Lal Dhingra** (1883–1909), an engineering student at University College London and associate of India House, assassinated **Sir William Hutt Curzon Wyllie** (political aide-de-camp to the Secretary of State for India) on **1 July 1909** at the Imperial Institute in London. A Parsi doctor, **Cawas Lalcaca**, who tried to intervene, was also killed. Dhingra was tried at the Old Bailey, refused to recognise the court's legitimacy, and declared his act was motivated by patriotism. He was **hanged at Pentonville Prison on 17 August 1909**.
 
 ### Early Revolutionary Actions
 
 | Event | Year | Detail |
 |-------|------|--------|
 | **Muzaffarpur bombing** | 30 April 1908 | **Khudiram Bose** (age 18) and **Prafulla Chaki** attempted to assassinate Magistrate Kingsford (who had passed harsh sentences on nationalists); accidentally killed two British women (Mrs. and Miss Kennedy); Chaki committed suicide; **Khudiram was hanged on 11 August 1908** — one of the youngest martyrs |
-| **Alipore Bomb Case** | 1908–1909 | Conspiracy case against Anushilan Samiti members including **Aurobindo Ghosh** (acquitted); his brother Barindra Kumar Ghosh sentenced to death (commuted to life); lawyer **C.R. Das** defended Aurobindo |
-| **Nasik Conspiracy** | 1909 | **Anant Laxman Kanhere** assassinated Collector A.M.T. Jackson at Nasik; linked to Savarkar's Abhinav Bharat |
-| **Delhi-Lahore Conspiracy** | 1912 | Attempt to assassinate Viceroy Lord Hardinge with a bomb during his entry into Delhi (23 December 1912); Hardinge was injured; **Rash Behari Bose** was the chief conspirator |
+| **Alipore Bomb Case** | 1908–1909 | Conspiracy case against Anushilan Samiti members including **Aurobindo Ghosh** (acquitted); his brother Barindra Kumar Ghosh sentenced to death (commuted to life); lawyer **C.R. Das** defended Aurobindo; the case exposed the Maniktala bomb factory run by the Jugantar group |
+| **Nasik Conspiracy** | 21 December 1909 | **Anant Laxman Kanhere** (age 18), a member of Abhinav Bharat, assassinated District Collector **A.M.T. Jackson** at Nasik; Kanhere along with Krishnaji Karve and Vinayak Deshpande were **hanged on 19 April 1910** |
+| **Delhi-Lahore Conspiracy** | 23 December 1912 | **Basanta Kumar Biswas** threw a bomb at Viceroy **Lord Hardinge**'s howdah during the ceremonial procession through Chandni Chowk, Delhi (marking the transfer of capital from Calcutta to Delhi); Hardinge was injured; his attendant was killed; **Rash Behari Bose** was the chief conspirator and evaded capture for nearly three years before fleeing to Japan in 1915 |
 
 ---
 
@@ -46,13 +51,15 @@ While the mainstream Congress movement pursued constitutional and non-violent me
 
 | Feature | Detail |
 |---------|--------|
-| **Founded** | 1913 in **San Francisco, USA** |
-| **Key founders** | **Lala Har Dayal** (intellectual leader), **Sohan Singh Bhakna** (first president) |
+| **Founded** | First issue of *Ghadar* newspaper on **1 November 1913** in **San Francisco, USA**; organisational meeting held on 15 July 1913 in Astoria, Oregon |
+| **Key founders** | **Lala Har Dayal** (general secretary), **Sohan Singh Bhakna** (first president), **Pandit Kanshi Ram** (treasurer) |
 | **Members** | Primarily Punjabi Sikh and Hindu immigrants in North America — farmers, labourers, and students |
-| **Newspaper** | *Ghadar* (meaning "Revolt") — published in Urdu, Punjabi, Hindi, and other languages |
+| **Newspaper** | *Ghadar* (meaning "Revolt") — published in Urdu, Punjabi, Hindi, and other languages; served as the chief tool for disseminating nationalist ideas |
 | **Aim** | Armed revolution to overthrow British rule in India |
-| **Activities** | During World War I, Ghadarites returned to India to foment rebellion; planned uprisings in Punjab; the **Komagata Maru incident** (1914 — a ship carrying Indian immigrants denied entry to Canada) further radicalised the movement |
-| **Suppression** | British intelligence infiltrated the movement; **First Lahore Conspiracy Case (1915)** — 42 accused, 24 convicted; movement weakened but inspired later revolutionaries |
+| **Komagata Maru** | In May 1914, **Baba Gurdit Singh** chartered the Japanese steamship *Komagata Maru* carrying **376 passengers** (mostly Sikhs) from India to Vancouver, Canada, challenging exclusionary immigration laws; denied entry on 23 May 1914; forced to return on 23 July 1914; on reaching **Budge Budge** near Calcutta (29 September 1914), British troops fired on passengers, **killing 20**; the incident deeply radicalised the Ghadar movement |
+| **War-time activities** | During World War I, thousands of Ghadarites returned to India to foment rebellion; planned uprisings in Punjab were betrayed by British intelligence infiltration |
+| **Kartar Singh Sarabha** | Youngest hero of the Ghadar movement; joined at age 15; executed on **16 November 1915** at age 19 in Lahore; **Bhagat Singh carried his photograph** as inspiration |
+| **Suppression** | **First Lahore Conspiracy Case (1915)** — tried under the Defence of India Act; of 291 conspirators, **42 executed**, 114 sentenced to life, 93 received varying terms; movement weakened but its spirit inspired later revolutionaries |
 
 ---
 
@@ -71,7 +78,7 @@ While the mainstream Congress movement pursued constitutional and non-violent me
 |---------|--------|
 | **What** | HRA members looted a government railway treasury in a train at **Kakori**, near Lucknow |
 | **Key participants** | Ram Prasad Bismil, Ashfaqulla Khan, Chandrashekhar Azad, Rajendra Lahiri, Roshan Singh, and others |
-| **Outcome** | British launched a massive manhunt; **Kakori Conspiracy Case** — Ram Prasad Bismil, Ashfaqulla Khan, Roshan Singh, and Rajendra Lahiri were **hanged on 19 December 1927**; Chandrashekhar Azad escaped |
+| **Outcome** | British launched a massive manhunt; **Kakori Conspiracy Case** — **Rajendra Lahiri** hanged on **17 December 1927**; **Ram Prasad Bismil** (Gorakhpur Jail), **Ashfaqulla Khan** (Faizabad Jail), and **Roshan Singh** (Naini, Allahabad) hanged on **19 December 1927**; Chandrashekhar Azad escaped |
 | **Significance** | The Hindu-Muslim unity of Bismil and Ashfaqulla Khan (a Muslim who refused to be saved by communal appeals) became legendary; the executions generated massive public sympathy |
 
 ---
@@ -130,7 +137,8 @@ While the mainstream Congress movement pursued constitutional and non-violent me
 
 | Event | Date | Detail |
 |-------|------|--------|
-| **Chittagong Armoury Raid** | **18 April 1930** | **Surya Sen (Masterda)** led ~65 revolutionaries in a raid on the British armoury in Chittagong, Bengal; hoisted the national flag; established a brief provisional government; fought guerrilla resistance for 3 years; Surya Sen was captured (1933) and **hanged on 12 January 1934** |
+| **Chittagong Armoury Raid** | **18 April 1930** | **Surya Sen (Masterda)** led ~65 revolutionaries (styled as the **Indian Republican Army, Chittagong Branch**) in raids on police and auxiliary force armouries; hoisted the national flag and proclaimed a **Provisional Revolutionary Government**; failed to locate ammunition but cut telephone/telegraph lines and disrupted railways; fought guerrilla resistance for 3 years; Surya Sen was captured and **hanged on 12 January 1934** |
+| **Pahartali European Club Attack** | **24 September 1932** | **Pritilata Waddedar** (born 5 May 1911) led a group of revolutionaries in an armed attack on the Pahartali European Club (which had a sign: "Dogs and Indians not allowed"); one person killed and eleven injured; Pritilata, wounded by a bullet, **consumed potassium cyanide** to avoid capture — becoming **Bengal's first woman revolutionary martyr**; **Kalpana Dutta** (1913–1995), another key woman member of the Chittagong group, was arrested in May 1933, sentenced to transportation for life, and released in 1939 |
 | **Death of Chandrashekhar Azad** | **27 February 1931** | Died in an encounter with British police at **Alfred Park, Allahabad** (now Chandrashekhar Azad Park); shot himself with his last bullet rather than be captured alive — fulfilling his vow to never be taken alive (hence his name "Azad" — "Free") |
 | **Udham Singh** | **13 March 1940** | Shot and killed **Sir Michael O'Dwyer** (former Lieutenant Governor of Punjab who had endorsed the Jallianwala Bagh Massacre) at Caxton Hall, London; **hanged on 31 July 1940** |
 
@@ -146,18 +154,82 @@ While the mainstream Congress movement pursued constitutional and non-violent me
 
 ---
 
+## Chronological Table of Major Revolutionary Incidents
+
+| Date | Event | Key Figures |
+|------|-------|-------------|
+| 24 March 1902 | Anushilan Samiti founded | Pramathanath Mitra, Barindra Kumar Ghosh |
+| 1904 | Abhinav Bharat Society founded | V.D. Savarkar, Ganesh Savarkar |
+| 1 July 1905 | India House inaugurated in London | Shyamji Krishna Varma |
+| March 1906 | Jugantar group formed in Bengal | Barindra Kumar Ghosh, Aurobindo Ghosh |
+| 30 April 1908 | Muzaffarpur bombing | Khudiram Bose, Prafulla Chaki |
+| 1908–1909 | Alipore Bomb Case | Aurobindo Ghosh (acquitted), C.R. Das (defence lawyer) |
+| 1 July 1909 | Curzon Wyllie assassinated in London | Madan Lal Dhingra |
+| 21 December 1909 | Nasik Conspiracy — Collector Jackson killed | Anant Laxman Kanhere |
+| 23 December 1912 | Delhi-Lahore Conspiracy — bomb on Viceroy Hardinge | Rash Behari Bose, Basanta Kumar Biswas |
+| 1 November 1913 | Ghadar Party newspaper launched | Lala Har Dayal, Sohan Singh Bhakna |
+| 29 September 1914 | Komagata Maru — Budge Budge firing | Baba Gurdit Singh |
+| 16 November 1915 | Kartar Singh Sarabha hanged (age 19) | Ghadar Party |
+| October 1924 | HRA founded at Kanpur | Bismil, Sachindranath Sanyal, Jogesh Chandra Chatterjee |
+| 9 August 1925 | Kakori Train Action | Bismil, Ashfaqulla Khan, Chandrashekhar Azad |
+| 19 December 1927 | Kakori conspirators hanged | Bismil, Ashfaqulla Khan, Roshan Singh |
+| September 1928 | HSRA formed from HRA | Chandrashekhar Azad, Bhagat Singh |
+| 17 December 1928 | Saunders murder in Lahore | Bhagat Singh, Rajguru, Azad |
+| 8 April 1929 | Assembly bombing in Delhi | Bhagat Singh, Batukeshwar Dutt |
+| 18 April 1930 | Chittagong Armoury Raid | Surya Sen (Masterda) |
+| 27 February 1931 | Chandrashekhar Azad dies at Alfred Park | Chandrashekhar Azad |
+| 23 March 1931 | Bhagat Singh, Sukhdev, Rajguru hanged | HSRA |
+| 24 September 1932 | Pahartali European Club attack | Pritilata Waddedar |
+| 13 March 1940 | Michael O'Dwyer assassinated in London | Udham Singh |
+
+---
+
+## Key Revolutionaries — Organisations and Contributions
+
+| Revolutionary | Organisation | Key Contribution |
+|--------------|-------------|-----------------|
+| **Shyamji Krishna Varma** | India House, Indian Home Rule Society | Founded India House in London (1905); published *The Indian Sociologist*; created a base for revolutionaries abroad |
+| **V.D. Savarkar** | Abhinav Bharat, India House | Founded Abhinav Bharat (1904); key figure at India House; inspired Nasik Conspiracy |
+| **Khudiram Bose** | Jugantar / Anushilan Samiti | Muzaffarpur bombing (1908); one of the youngest martyrs — hanged at age 18 |
+| **Madan Lal Dhingra** | India House | Assassinated Curzon Wyllie in London (1909); hanged at Pentonville Prison |
+| **Rash Behari Bose** | Revolutionary underground | Chief conspirator of Delhi-Lahore Conspiracy (1912); later fled to Japan and helped establish the INA |
+| **Lala Har Dayal** | Ghadar Party | General secretary of the Ghadar Party; intellectual force behind the movement |
+| **Sohan Singh Bhakna** | Ghadar Party | First president of the Ghadar Party |
+| **Kartar Singh Sarabha** | Ghadar Party | Youngest Ghadar hero; executed at age 19 (1915); inspired Bhagat Singh |
+| **Ram Prasad Bismil** | HRA | Co-founded HRA; led the Kakori Train Action (1925); hanged 19 December 1927 |
+| **Ashfaqulla Khan** | HRA | Symbol of Hindu-Muslim revolutionary unity with Bismil; hanged 19 December 1927 |
+| **Chandrashekhar Azad** | HRA / HSRA | Reorganised HRA into HSRA; died fighting at Alfred Park (1931); vowed never to be captured alive |
+| **Bhagat Singh** | HSRA | Saunders murder, Assembly bombing; evolved from nationalism to Marxism; hanged 23 March 1931 |
+| **Sukhdev** | HSRA | Key organiser; hanged with Bhagat Singh on 23 March 1931 |
+| **Rajguru** | HSRA | Participated in Saunders murder; hanged with Bhagat Singh on 23 March 1931 |
+| **Surya Sen (Masterda)** | Indian Republican Army, Chittagong | Led the Chittagong Armoury Raid (1930); fought guerrilla war for 3 years; hanged 12 January 1934 |
+| **Pritilata Waddedar** | Chittagong revolutionary group | Led Pahartali Club attack (1932); consumed cyanide — Bengal's first woman revolutionary martyr |
+| **Kalpana Dutta** | Chittagong revolutionary group | Prepared explosives for the group; sentenced to life; released 1939; later joined CPI |
+| **Udham Singh** | Independent revolutionary | Avenged Jallianwala Bagh by killing Michael O'Dwyer in London (1940); hanged 31 July 1940 |
+
+---
+
 ## UPSC Relevance
 
 ### Prelims Focus Areas
-- Khudiram Bose: Muzaffarpur, 1908; hanged 11 August 1908
+- Anushilan Samiti: founded 24 March 1902; Jugantar offshoot formed March 1906
+- Abhinav Bharat: Savarkar, 1904; linked to Nasik Conspiracy
+- India House: Shyamji Krishna Varma, London, 1905; *The Indian Sociologist*
+- Madan Lal Dhingra: assassinated Curzon Wyllie, 1 July 1909, London
+- Khudiram Bose: Muzaffarpur, 30 April 1908; hanged 11 August 1908
 - Alipore Bomb Case: 1908; Aurobindo Ghosh acquitted; defended by C.R. Das
-- Ghadar Movement: 1913, San Francisco; Lala Har Dayal; Komagata Maru 1914
+- Nasik Conspiracy: Anant Kanhere killed Collector Jackson, 21 December 1909; hanged 19 April 1910
+- Delhi-Lahore Conspiracy: bomb on Viceroy Hardinge, 23 December 1912; Rash Behari Bose
+- Ghadar Movement: 1 November 1913, San Francisco; Lala Har Dayal; Sohan Singh Bhakna
+- Komagata Maru: 1914; Baba Gurdit Singh; 376 passengers; Budge Budge firing
+- Kartar Singh Sarabha: Ghadar hero; hanged 16 November 1915 at age 19
 - Kakori Conspiracy: 9 August 1925; Bismil, Ashfaqulla Khan hanged 19 December 1927
 - HSRA: 1928; Chandrashekhar Azad; added "Socialist" to the name
 - Saunders Murder: 17 December 1928; Bhagat Singh, Rajguru, Azad
 - Assembly Bombing: 8 April 1929; Bhagat Singh and Batukeshwar Dutt; "Inquilab Zindabad"
 - Bhagat Singh, Sukhdev, Rajguru: hanged 23 March 1931; Lahore Central Jail
-- Chittagong Armoury Raid: 18 April 1930; Surya Sen (Masterda)
+- Chittagong Armoury Raid: 18 April 1930; Surya Sen (Masterda); Indian Republican Army
+- Pritilata Waddedar: Pahartali Club attack, 24 September 1932; consumed cyanide
 - Azad died: 27 February 1931; Alfred Park, Allahabad
 - Udham Singh: killed Michael O'Dwyer, 13 March 1940, London
 

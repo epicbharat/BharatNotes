@@ -81,8 +81,8 @@ The term "Mamluk" means "owned" — these rulers were originally slave-soldiers 
 | Feature | Detail |
 |---------|--------|
 | **Purpose** | Maintain a large standing army at low cost after the 1303 Mongol invasion threat; pay soldiers only **234 tankas** for a cavalryman |
-| **Three markets** | (1) Mandi — central grain market; (2) Sera-i Adl — market for cloth, sugar, dried fruits, imported goods; (3) Horse and cattle market |
-| **Controllers** | **Malik Qabul** — controller of grain markets; **Diwan-i-Riyasat** — office overseeing cloth/imported goods market |
+| **Four markets** | (1) Grain market (Mandi); (2) Cloth, sugar, dried fruits, butter, oil market (Sera-i Adl); (3) Horse, slave and cattle market; (4) Miscellaneous commodities market |
+| **Controllers** | **Shahna-i-Mandi** — superintendent of the grain market (held by **Malik Qabul**); **Diwan-i-Riyasat** — office overseeing cloth/imported goods market (headed by **Yaqub Nazir**, also censor and superintendent of weights and measures) |
 | **Enforcement** | Strict surveillance by spies (**barids** and **munhis**); severe punishment for cheating (short-weighing, hoarding); prices remained stable during his reign |
 | **Legacy** | Reforms collapsed immediately after his death — his successor Qutb-ud-din Mubarak Shah revoked them |
 
@@ -120,7 +120,9 @@ The term "Mamluk" means "owned" — these rulers were originally slave-soldiers 
 | Achievement | Detail |
 |-------------|--------|
 | **Canals** | Built 5 major canals — the longest from the **Sutlej to Hansi** (~200 km); also built canals from the Yamuna to Hissar and Firozabad — the most extensive irrigation works of the medieval period |
-| **Public works** | Founded cities (Firozabad, Jaunpur, Hissar-Firoza); built hospitals (Dar-ul-Shafa), madrasas, bridges |
+| **Cities founded** | Founded at least **5 new cities** — Firozabad (near Delhi), Jaunpur (named after his cousin Jauna Khan/Muhammad bin Tughlaq), Hissar-Firoza, Fatehabad, and Firozpur |
+| **Public works** | Built hospitals (Dar-ul-Shafa), madrasas, bridges, over 300 villages; also built the Firoz Shah Palace Complex at Hissar (1354) |
+| **Autobiography** | Authored **Futuhat-i-Firoz Shahi** — a 32-page autobiography recording his administrative reforms, religious policies, and public works |
 | **Slavery** | Maintained approximately **180,000 slaves** — some employed in royal karkhanas (workshops) |
 | **Revenue reforms** | Abolished arbitrary cess; recognized only four taxes sanctioned by Sharia — Kharaj (land tax), Khams (1/5 of war booty), Jizya (on non-Muslims), Zakat (religious alms tax on Muslims) |
 | **Historical pillars** | Transported two **Ashokan pillars** from Topra and Meerut to Delhi — though he could not read the Brahmi script |
@@ -168,6 +170,68 @@ The term "Mamluk" means "owned" — these rulers were originally slave-soldiers 
 
 ---
 
+## Administration of the Delhi Sultanate
+
+### Central Administration
+
+| Office | Role |
+|--------|------|
+| **Sultan** | Supreme authority — head of state, military commander, and chief judge |
+| **Wazir** | Prime minister; head of the **Diwan-i-Wizarat** (revenue and finance department) |
+| **Ariz-i-Mamalik** | Head of the **Diwan-i-Arz** (military department); responsible for recruitment, pay, and equipment |
+| **Diwan-i-Insha** | Department of royal correspondence; headed by **Dabir-i-Khas** |
+| **Diwan-i-Risalat** | Department of religious affairs and appeals; headed by **Sadr-us Sudur** |
+
+### Provincial and Local Administration
+
+| Level | Official | Function |
+|-------|----------|----------|
+| **Province (Iqta)** | **Muqti/Wali** | Collected revenue, maintained law and order, raised troops for the Sultan |
+| **Shiq** | **Shiqdar** | Administered sub-divisions of the province |
+| **Pargana** | **Amil/Munsif** | Local revenue collection and minor judicial matters |
+| **Village** | **Muqaddam/Chaudhary** | Village headman; intermediary between villagers and the state |
+
+### Judicial System
+
+| Official | Role |
+|----------|------|
+| **Qazi-ul-Quzat** | Chief judge of the Sultanate; often held the office jointly with Sadr-us Sudur; headed the legal system and heard appeals |
+| **Qazi** | Islamic judge at the provincial and local level; administered justice according to **Sharia** (Islamic law) |
+| **Muhtasib** | Public censor; supervised public morality, market regulations, and ensured no public infringement of Islamic tenets |
+| **Mir-i-Adl** | Officer who assisted the Qazi in delivering judgements |
+
+---
+
+## Key Battles and Conquests of the Delhi Sultanate
+
+| Battle/Campaign | Year | Sultan/Commander | Opponent | Outcome |
+|-----------------|------|------------------|----------|---------|
+| First Battle of Tarain | 1191 | Muhammad of Ghor | Prithviraj Chauhan | Rajput victory |
+| Second Battle of Tarain | 1192 | Muhammad of Ghor | Prithviraj Chauhan | Ghurid victory — opened North India |
+| Battle of Chandwar | 1194 | Qutb-ud-din Aibak | Jayachandra (Gahadavala) | Ghurid victory — Kanauj captured |
+| Conquest of Chittor | 1303 | Alauddin Khalji | Ratan Singh (Guhila Rajput) | Khalji victory — fortress captured |
+| Mongol repelled at Delhi | 1303 | Alauddin Khalji | Targhi (Mongol) | Mongols repelled; Siri Fort built |
+| First Devagiri campaign | 1306–07 | Malik Kafur | Ramachandra (Yadava) | Yadava submission and tribute |
+| Warangal campaign | 1309–10 | Malik Kafur | Prataparudra (Kakatiya) | Kakatiya submission and tribute |
+| Hoysala and Pandya campaigns | 1311 | Malik Kafur | Ballala III (Hoysala) and Pandyas | Southern kingdoms plundered |
+| Timur's invasion of Delhi | 1398 | Timur (Tamerlane) | Nasir-ud-din Mahmud Tughlaq | Delhi devastated; Sultanate fractured |
+| First Battle of Panipat | 21 April 1526 | Babur | Ibrahim Lodi | Lodi killed; Mughal Empire founded |
+
+---
+
+## Comparison of Reforms Across Dynasties
+
+| Feature | Mamluk Dynasty | Khalji Dynasty | Tughlaq Dynasty |
+|---------|---------------|----------------|-----------------|
+| **Coinage** | Iltutmish — silver tanka and copper jital | Alauddin — standardised coinage; maintained low prices | Muhammad bin Tughlaq — token currency experiment (failed) |
+| **Land revenue** | Iqta system formalised by Iltutmish | Alauddin — state measured land (masahat); raised kharaj to 50% of produce | Firoz Shah — abolished arbitrary cess; recognised only 4 Sharia taxes |
+| **Market control** | Minimal | Alauddin — 4 regulated markets, Shahna-i-Mandi, Diwan-i-Riyasat | None; Firoz Shah relied on conciliation |
+| **Military reforms** | Standing army under Balban | Alauddin — dagh (branding) and chehra (descriptive roll); large standing army | Muhammad — 370,000-strong army for Khorasan (disbanded); Firoz let military decline |
+| **Public works** | Quwwat-ul-Islam Mosque, Qutub Minar | Siri Fort, Hauz Khas, Alai Darwaza | Tughlaqabad Fort, Firoz Shah's 5 canals, 5+ cities |
+| **Religion** | Iltutmish sought Caliph's legitimacy | Alauddin separated religion from politics | Firoz Shah — orthodox; reimposed Jizya strictly |
+
+---
+
 ## UPSC Relevance
 
 ### Prelims Focus Areas
@@ -176,9 +240,9 @@ The term "Mamluk" means "owned" — these rulers were originally slave-soldiers 
 - Qutub Minar: 1st storey by Aibak, storeys 2–4 by Iltutmish, 5th storey by Firoz Shah Tughlaq
 - Iltutmish: silver tanka and copper jital, Iqta system, Abbasid Caliph investiture
 - Razia Sultan: first female ruler of Delhi Sultanate (1236–1240); preferred title "Sultan" not "Sultana"
-- Alauddin Khalji: market reforms (military necessity), dagh-chehra system, Malik Kafur's Deccan campaigns
+- Alauddin Khalji: 4 regulated markets (Shahna-i-Mandi, Diwan-i-Riyasat), dagh-chehra system, Malik Kafur's Deccan campaigns (Devagiri 1306–07, Warangal 1309–10, Hoysala & Pandya 1311)
 - Muhammad bin Tughlaq: capital transfer to Daulatabad, token currency experiment
-- Firoz Shah Tughlaq: canals, 180,000 slaves, four Sharia taxes
+- Firoz Shah Tughlaq: 5 canals, 5+ cities founded, 180,000 slaves, four Sharia taxes, autobiography Futuhat-i-Firoz Shahi
 - Timur's invasion (1398): devastation of Delhi
 - Lodi dynasty: first Afghan dynasty; Sikandar Lodi founded Agra (1504)
 - Ibrahim Lodi: last Sultan, defeated at Panipat (1526)
@@ -189,6 +253,7 @@ The term "Mamluk" means "owned" — these rulers were originally slave-soldiers 
 - Muhammad bin Tughlaq: visionary or impractical? Token currency as precursor to paper money
 - Impact of the Delhi Sultanate on Indian culture, architecture, and society
 - Role of Sufism in integrating Turkish rulers with Indian society
+- Administrative system: Iqta, provincial governance (Muqti/Wali), judicial system (Qazi, Muhtasib) — compare with modern district administration
 - Why did the Delhi Sultanate decline? — structural vs leadership factors
 
 ---

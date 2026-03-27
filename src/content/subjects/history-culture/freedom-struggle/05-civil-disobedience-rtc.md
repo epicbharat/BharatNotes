@@ -29,11 +29,12 @@ The late 1920s and early 1930s saw the freedom struggle escalate dramatically �
 |--------|------|
 | **Appointed** | November 1927 (two years ahead of the scheduled 1929 review of the 1919 Act) |
 | **Chairman** | **Sir John Simon** |
-| **Composition** | 7 British parliamentarians — **no Indian members** |
+| **Composition** | 7 British parliamentarians — **no Indian members** (an all-white body); members included **Clement Attlee** (future PM), Viscount Burnham, Edward Cadogan, Vernon Hartshorn, George Lane-Fox, and Donald Howard |
 | **Purpose** | Review the working of the Government of India Act, 1919 |
 | **Why no Indians** | British argued Indians could not be impartial about their own constitution — deeply offensive to Indians |
 | **Indian reaction** | Massive protests with the slogan **"Simon Go Back"**; boycotted by Congress, Muslim League, Hindu Mahasabha, and most Indian parties |
-| **Lathi charge at Lahore** | Lala Lajpat Rai severely beaten in a lathi charge during anti-Simon protests (**30 October 1928**); died **17 November 1928** |
+| **Lathi charge at Lahore** | When the Commission visited Lahore on **30 October 1928**, **Lala Lajpat Rai** led a non-violent protest march. Police Superintendent **James A. Scott** ordered a brutal lathi charge and personally assaulted Rai. Despite severe injuries, Rai addressed the crowd at Mochi Gate the same evening, declaring: "The blows struck at me today will be the last nails in the coffin of British rule in India." He died **18 days later on 17 November 1928** |
+| **Aftermath** | Bhagat Singh and Rajguru shot British officer J.P. Saunders (mistaking him for Scott) on 17 December 1928 to avenge Lajpat Rai's death |
 
 ---
 
@@ -41,10 +42,11 @@ The late 1920s and early 1930s saw the freedom struggle escalate dramatically �
 
 | Detail | Fact |
 |--------|------|
-| **Context** | Lord Birkenhead (Secretary of State) challenged Indians to draft their own constitution |
-| **Committee** | All Parties Conference appointed a committee chaired by **Motilal Nehru**; **Jawaharlal Nehru** was Secretary |
-| **Submitted** | August 1928 |
-| **Key demands** | **Dominion Status** for India (not complete independence); joint electorates with reserved seats for minorities; fundamental rights; federal structure; responsible government at both Centre and provinces |
+| **Context** | Lord Birkenhead (Secretary of State) challenged Indians to draft their own constitution; the All Parties Conference took up the challenge |
+| **Committee** | All Parties Conference appointed a committee chaired by **Motilal Nehru**; **Jawaharlal Nehru** was Secretary; submitted at the **Lucknow session** on **28 August 1928** |
+| **Status demanded** | **Dominion Status** for India — same constitutional standing as Canada, Australia, New Zealand, South Africa, and the Irish Free State within the British Commonwealth |
+| **Key recommendations** | (1) **Joint electorates** with reserved seats for minorities; (2) **19 fundamental rights** including equal rights for men and women, right to form unions, freedom of conscience, free elementary education, and universal adult suffrage; (3) Federal structure with residuary powers at the Centre; (4) Responsible government at both Centre and provinces; (5) No state religion |
+| **Legacy of rights** | 10 of the 19 fundamental rights recommended re-appear materially unchanged in the Indian Constitution of 1950; 3 others were included in the Directive Principles |
 | **Jinnah's rejection** | Called it a "Hindu Document"; countered with his **Fourteen Points (March 1929)** — demanding separate electorates, one-third Muslim representation in central legislature, and other safeguards |
 | **Youth opposition** | **Jawaharlal Nehru** and **Subhas Chandra Bose** demanded **Purna Swaraj** instead of Dominion Status; disagreed with the older generation |
 
@@ -55,8 +57,9 @@ The late 1920s and early 1930s saw the freedom struggle escalate dramatically �
 | Feature | Detail |
 |---------|--------|
 | **President** | **Jawaharlal Nehru** (age 40 — reflecting the generational shift) |
-| **Resolution** | Congress adopted **Purna Swaraj (Complete Independence)** as its goal — rejecting Dominion Status |
-| **26 January 1930** | Celebrated as the first **Independence Day (Purna Swaraj Day)** — the date was later chosen as Republic Day |
+| **Resolution** | Congress adopted **Purna Swaraj (Complete Independence)** as its goal on **19 December 1929** — rejecting Dominion Status |
+| **Midnight flag hoisting** | On the midnight of **31 December 1929**, Jawaharlal Nehru hoisted the tricolour flag on the banks of the **River Ravi** in Lahore before a massive crowd |
+| **26 January 1930** | Celebrated as the first **Independence Day (Purna Swaraj Day)** — Congress volunteers and citizens across India hoisted the national flag; the date was later chosen as Republic Day |
 | **Authorisation** | Congress Working Committee authorised Gandhi to launch a civil disobedience campaign at a time and place of his choosing |
 
 ---
@@ -80,14 +83,23 @@ Before launching CDM, Gandhi sent his **Eleven Points** to Viceroy Lord Irwin (2
 | **Spread** | Salt Satyagraha spread across India — millions made or bought illegal salt; in Tamil Nadu, **C. Rajagopalachari** led a march to Vedaranyam; in Peshawar, **Khan Abdul Ghaffar Khan** (Frontier Gandhi) led the Khudai Khidmatgar (Red Shirts) |
 | **Government response** | Over **60,000 people arrested** by the end of 1930; Gandhi arrested **4 May 1930** |
 
+### Spread of Civil Disobedience
+
+The movement spread rapidly beyond the salt issue:
+
+- **Forest satyagraha** — tribal and peasant communities violated forest laws across Maharashtra, Karnataka, and the Central Provinces
+- **No-tax campaigns** — peasants in Gujarat (Bardoli, Kheda) and United Provinces refused to pay land revenue and chaukidari tax
+- **Women's participation** — **Kamaladevi Chattopadhyay**, **Sarojini Naidu**, **Hansa Mehta**, and **Amina Tyabji** led protests, picketed shops selling foreign cloth and liquor, made salt, and courted arrest in large numbers; women's mass entry into the national movement was a defining feature of the CDM
+- **Regional marches** — In Tamil Nadu, **C. Rajagopalachari** led a march to **Vedaranyam**; in the North-West Frontier, **Khan Abdul Ghaffar Khan** (Frontier Gandhi) led the **Khudai Khidmatgar (Red Shirts)**
+
 ### Dharasana Salt Works Raid (21 May 1930)
 
 | Feature | Detail |
 |---------|--------|
-| **Led by** | **Sarojini Naidu** and **Imam Saheb** (Gandhi was already in jail) |
-| **What happened** | ~2,500 non-violent protesters marched toward the Dharasana Salt Works; beaten with steel-tipped lathis by police; not a single protester raised an arm in defence |
-| **Witness** | American journalist **Webb Miller** (United Press) reported the event; his account was published worldwide: "Not one of the marchers even raised an arm to fend off the blows" |
-| **Impact** | Generated worldwide condemnation of British rule; demonstrated the moral power of non-violent resistance |
+| **Led by** | **Sarojini Naidu** and **Imam Saheb** (Gandhi was already in jail since 4 May 1930) |
+| **What happened** | ~2,500 non-violent protesters marched toward the Dharasana Salt Works (about 150 miles north of Bombay); beaten with steel-tipped lathis by police; not a single protester raised an arm in defence |
+| **Witness** | American journalist **Webb Miller** (United Press) reported the event; his eyewitness account was published in over 1,000 newspapers worldwide. He wrote: "In eighteen years of reporting in twenty-two countries... I have never witnessed such harrowing scenes as at Dharasana" |
+| **Impact** | Turned world opinion decisively against British colonial rule; demonstrated the moral power of non-violent resistance; discussed in the British Parliament |
 
 ---
 
@@ -98,28 +110,53 @@ Before launching CDM, Gandhi sent his **Eleven Points** to Viceroy Lord Irwin (2
 | **Congress agreed to** | (1) Suspend Civil Disobedience; (2) Participate in the Round Table Conference |
 | **Government agreed to** | (1) Release political prisoners (not those charged with violence); (2) Permit salt manufacture by coastal residents; (3) Restore confiscated properties; (4) Permit peaceful picketing |
 | **Significance** | The British negotiated with Gandhi **as an equal** — a major symbolic victory; but Viceroy refused to commute death sentences of Bhagat Singh, Sukhdev, and Rajguru (executed 23 March 1931) |
-| **Criticism** | The pact achieved very limited concrete gains; critics said Gandhi compromised too much; Jawaharlal Nehru and Subhas Bose were disappointed |
+| **Churchill's fury** | Winston Churchill denounced the Pact, calling it "the nauseating and humiliating spectacle of this one-time Inner Temple lawyer, now seditious fakir, striding half-naked up the steps of the Viceroy's palace, there to negotiate and parley on equal terms with the representative of the King Emperor" |
+| **Criticism** | The pact achieved very limited concrete gains; critics said Gandhi compromised too much; Jawaharlal Nehru and Subhas Bose were disappointed; revolutionaries were outraged that Gandhi did not press for commutation of Bhagat Singh's death sentence |
 
 ---
 
 ## Round Table Conferences (1930–1932)
 
-| Conference | Date | Key Points |
-|-----------|------|------------|
-| **First RTC** | Nov 1930 – Jan 1931 | 73 representatives; **Congress boycotted** (CDM was ongoing); B.R. Ambedkar represented Depressed Classes; no agreement reached |
-| **Second RTC** | Sep – Dec 1931 | Gandhi attended as **sole Congress representative** (after Gandhi-Irwin Pact); accompanied by Sarojini Naidu and Madan Mohan Malaviya; **no agreement** on communal representation; Gandhi claimed Congress alone represented political India — other groups disagreed |
-| **Third RTC** | Nov – Dec 1932 | Only 46 delegates; Congress did not attend; led to recommendations that shaped the Government of India Act, 1935 |
+### First RTC (November 1930 – January 1931)
+
+| Feature | Detail |
+|---------|--------|
+| **Venue** | Royal Institute of International Affairs, London |
+| **Delegates** | **89 participants** — 16 from British political parties, 58 from British India, and representatives from princely states |
+| **Congress** | **Boycotted** — the Civil Disobedience Movement was ongoing |
+| **Key participants** | B.R. Ambedkar (Depressed Classes), Tej Bahadur Sapru, M.A. Jinnah, Aga Khan III |
+| **Major outcome** | Princely states offered to join an **All-India Federation** — provided their internal sovereignty was guaranteed; this was a significant breakthrough |
+| **Limitation** | Without Congress — the largest political party — no constitutional agreement could be final |
+
+### Second RTC (September – December 1931)
+
+| Feature | Detail |
+|---------|--------|
+| **Congress representation** | Gandhi attended as the **sole Congress representative** (under the Gandhi-Irwin Pact); accompanied by Sarojini Naidu, Madan Mohan Malaviya, and G.D. Birla |
+| **Gandhi's claim** | Congress alone represented all of political India — minorities, princes, and other groups disagreed sharply |
+| **Communal deadlock** | No agreement on minority representation; Ambedkar demanded **separate electorates** for Depressed Classes; Muslims insisted on retaining separate electorates; Gandhi opposed both |
+| **Outcome** | Complete failure on the communal question; British PM Ramsay MacDonald announced he would impose his own solution — leading to the Communal Award |
+
+### Third RTC (17 November – 24 December 1932)
+
+| Feature | Detail |
+|---------|--------|
+| **Delegates** | Only **46 delegates** attended |
+| **Boycott** | Congress did not attend (leaders including Gandhi were in jail); the British Labour Party also boycotted |
+| **Outcome** | Recommendations published in a **White Paper (March 1933)**; debated in Parliament; eventually shaped the **Government of India Act, 1935** |
 
 ---
 
 ## Communal Award and Poona Pact (1932)
 
-### Communal Award (August 1932)
+### Communal Award (16 August 1932)
 
 | Feature | Detail |
 |---------|--------|
 | **Issued by** | British PM **Ramsay MacDonald** |
-| **Provision** | Granted **separate electorates** to Depressed Classes (Dalits) — in addition to Muslims, Sikhs, and others |
+| **Date** | **16 August 1932** |
+| **Provision** | Granted **separate electorates** to Depressed Classes (Dalits) — in addition to Muslims, Sikhs, Christians, Anglo-Indians, and Europeans |
+| **Seats for Depressed Classes** | **71 seats** reserved in provincial legislatures under the separate electorate system |
 | **Implication** | Dalits would vote only for Dalit candidates in reserved constituencies — creating a separate political identity distinct from the Hindu fold |
 
 ### Gandhi's Fast and the Poona Pact
@@ -129,10 +166,10 @@ Before launching CDM, Gandhi sent his **Eleven Points** to Viceroy Lord Irwin (2
 | **Gandhi's objection** | Separate electorates for Dalits would **permanently divide** Hindu society; he saw Dalits as integral to the Hindu fold |
 | **Fast unto death** | Gandhi began an **indefinite fast** in **Yeravada Jail** (Pune) on **20 September 1932** |
 | **Negotiations** | Intense negotiations between Gandhi and **B.R. Ambedkar** under enormous public pressure (Gandhi's life was at stake) |
-| **Poona Pact** | Signed **24 September 1932** — separate electorates replaced by **reserved seats within joint electorates** (all voters could vote, but seats were reserved for Depressed Classes); number of reserved seats **increased from 71 to 147** (a concession to Ambedkar) |
+| **Poona Pact** | Signed **24 September 1932** at 5 PM in Yeravada Central Jail — separate electorates replaced by **reserved seats within joint electorates** (all voters could vote, but seats were reserved for Depressed Classes); reserved seats in provincial legislatures **increased from 71 to 148**; **18% of seats** in the Central Legislature reserved for Depressed Classes |
 | **Ambedkar's view** | Ambedkar accepted the pact under duress — he believed separate electorates were necessary for genuine Dalit political power; later called the Poona Pact a forced agreement |
 
-> **Key Distinction for Prelims:** **Communal Award** = separate electorates (only Dalits vote for Dalit candidates). **Poona Pact** = reserved seats within joint electorates (all voters vote, but seats reserved for Dalits). This distinction between separate electorates and reserved seats is fundamental to understanding the Gandhi-Ambedkar debate.
+> **Key Distinction for Prelims:** **Communal Award** = separate electorates (only Dalits vote for Dalit candidates; 71 seats). **Poona Pact** = reserved seats within joint electorates (all voters vote, but seats reserved for Dalits; 148 seats). This distinction between separate electorates and reserved seats is fundamental to understanding the Gandhi-Ambedkar debate.
 
 ---
 
@@ -146,18 +183,60 @@ Before launching CDM, Gandhi sent his **Eleven Points** to Viceroy Lord Irwin (2
 
 ---
 
+## Timeline of Key Events (1927–1935)
+
+| Date | Event |
+|------|-------|
+| November 1927 | Simon Commission appointed — all-white, no Indian members |
+| 30 October 1928 | Lathi charge on Lala Lajpat Rai in Lahore during anti-Simon protests |
+| 17 November 1928 | Lala Lajpat Rai dies from injuries sustained in the lathi charge |
+| August 1928 | Nehru Report submitted — demands Dominion Status, joint electorates, 19 fundamental rights |
+| March 1929 | Jinnah's Fourteen Points — rejects the Nehru Report |
+| 19 December 1929 | Lahore Congress passes Purna Swaraj resolution |
+| 31 December 1929 | Nehru hoists the tricolour on the banks of River Ravi at midnight |
+| 26 January 1930 | First Independence Day (Purna Swaraj Day) observed across India |
+| 12 March 1930 | Dandi March begins — 78 volunteers leave Sabarmati Ashram |
+| 6 April 1930 | Gandhi breaks the salt law at Dandi |
+| 4 May 1930 | Gandhi arrested |
+| 21 May 1930 | Dharasana Salt Works raid — Webb Miller's report shocks the world |
+| Nov 1930 – Jan 1931 | First RTC — Congress boycotts; princely states offer to join federation |
+| 5 March 1931 | Gandhi-Irwin Pact signed — CDM suspended |
+| Sep – Dec 1931 | Second RTC — Gandhi as sole Congress representative; communal deadlock |
+| 16 August 1932 | Communal Award — separate electorates for Depressed Classes |
+| 20 September 1932 | Gandhi begins fast unto death in Yeravada Jail |
+| 24 September 1932 | Poona Pact signed — reserved seats replace separate electorates |
+| Nov – Dec 1932 | Third RTC — only 46 delegates; Congress absent |
+| March 1933 | White Paper based on RTC recommendations published |
+| May 1934 | CDM formally withdrawn |
+| August 1935 | Government of India Act, 1935 enacted |
+
+---
+
+## Comparison of the Three Round Table Conferences
+
+| Feature | First RTC (1930–31) | Second RTC (1931) | Third RTC (1932) |
+|---------|--------------------|--------------------|------------------|
+| **Delegates** | 89 | ~112 | 46 |
+| **Congress participation** | Boycotted (CDM ongoing) | Gandhi attended as sole representative | Absent (leaders in jail) |
+| **Key issue** | Federal structure for India | Communal representation | Finalising constitutional proposals |
+| **Princely states** | Offered to join federation | Continued support for federation | Discussions on federation continued |
+| **Outcome** | Federation concept accepted | Communal deadlock; no agreement | White Paper (1933) leading to Government of India Act, 1935 |
+| **British Labour Party** | Participated | Participated | Boycotted |
+
+---
+
 ## UPSC Relevance
 
 ### Prelims Focus Areas
-- Simon Commission: 1927, no Indian members, "Simon Go Back"; Lajpat Rai died 17 Nov 1928
-- Nehru Report: 1928, Motilal Nehru, Dominion Status; Jinnah's Fourteen Points 1929
-- Lahore Congress: December 1929, Jawaharlal Nehru president, Purna Swaraj; 26 January 1930
-- Dandi March: 12 March – 6 April 1930; 387 km; 78 volunteers; salt law broken
-- Dharasana: 21 May 1930; Sarojini Naidu; Webb Miller's account
-- Gandhi-Irwin Pact: 5 March 1931; CDM suspended; Congress attended 2nd RTC
-- RTCs: First (1930–31, Congress boycott), Second (1931, Gandhi sole Congress rep), Third (1932)
-- Communal Award: August 1932, Ramsay MacDonald, separate electorates for Dalits
-- Poona Pact: 24 September 1932; Gandhi-Ambedkar; reserved seats (not separate electorates); 71 → 147 seats
+- Simon Commission: 1927, 7 members, all-white (included Clement Attlee), "Simon Go Back"; Lajpat Rai died 17 Nov 1928
+- Nehru Report: 1928, Motilal Nehru, Dominion Status, 19 fundamental rights, joint electorates; Jinnah's Fourteen Points 1929
+- Lahore Congress: December 1929, Jawaharlal Nehru president, Purna Swaraj; midnight flag on River Ravi; 26 January 1930
+- Dandi March: 12 March – 6 April 1930; 387 km (240 miles); 78 volunteers; salt law broken
+- Dharasana: 21 May 1930; Sarojini Naidu; Webb Miller's United Press account
+- Gandhi-Irwin Pact: 5 March 1931; CDM suspended; Churchill's "seditious fakir" remark; Congress attended 2nd RTC
+- RTCs: First (1930–31, 89 delegates, Congress boycott), Second (1931, Gandhi sole Congress rep), Third (1932, 46 delegates)
+- Communal Award: 16 August 1932, Ramsay MacDonald, separate electorates for Dalits (71 seats)
+- Poona Pact: 24 September 1932; Gandhi-Ambedkar; reserved seats (not separate electorates); 71 to 148 seats; 18% in Central Legislature
 
 ### Mains Focus Areas
 - Compare NCM (1920) and CDM (1930) — evolution of strategy, scale, and impact
