@@ -200,6 +200,31 @@ description: "Interactive UPSC Civil Services checklist — exam pattern, marks 
     {# ── Checklist Container ── #}
     <div id="ck-list"></div>
 
+    {# ── Import Comparison Dialog ── #}
+    <dialog id="ck-import-dialog" style="max-width:520px;width:92%;border:none;border-radius:var(--radius-lg);padding:0;box-shadow:0 20px 60px rgba(0,0,0,0.3);background:var(--color-surface);">
+      <div style="padding:var(--space-5) var(--space-5) var(--space-3); border-bottom:1px solid var(--color-border);">
+        <div style="display:flex;align-items:center;justify-content:space-between;">
+          <h3 style="font-family:var(--font-heading);font-size:var(--text-lg);color:var(--color-brand);margin:0;">Import Comparison</h3>
+          <button id="ck-dialog-close" type="button" style="background:none;border:none;font-size:1.4rem;cursor:pointer;color:var(--color-text-muted);line-height:1;">&times;</button>
+        </div>
+        <p style="font-size:var(--text-xs);color:var(--color-text-muted);margin:var(--space-1) 0 0;">Review changes before applying</p>
+      </div>
+
+      <div style="padding:var(--space-4) var(--space-5);">
+        {# Summary stats #}
+        <div id="ck-diff-stats" style="display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-3);margin-bottom:var(--space-4);"></div>
+
+        {# Per-paper breakdown #}
+        <div id="ck-diff-papers" style="max-height:260px;overflow-y:auto;margin-bottom:var(--space-4);"></div>
+      </div>
+
+      <div style="padding:var(--space-3) var(--space-5) var(--space-5);display:flex;gap:var(--space-2);justify-content:flex-end;border-top:1px solid var(--color-border);">
+        <button id="ck-diff-cancel" class="ck-btn" type="button">Cancel</button>
+        <button id="ck-diff-replace" class="ck-btn ck-btn--accent" type="button">Replace All</button>
+        <button id="ck-diff-merge" class="ck-btn ck-btn--brand" type="button">Merge (Keep Both)</button>
+      </div>
+    </dialog>
+
   </div>
 </section>
 
@@ -1048,7 +1073,62 @@ description: "Interactive UPSC Civil Services checklist — exam pattern, marks 
     a.click(); URL.revokeObjectURL(a.href);
   });
 
-  // ── Import ──
+  // ── Import with Comparison ──
+  var pendingImport = null;
+  var dialog = document.getElementById('ck-import-dialog');
+
+  function computeDiff(imported) {
+    var currentKeys = new Set(Object.keys(state));
+    var importKeys = new Set(Object.keys(imported));
+    var newTopics = [], common = [], onlyCurrent = [];
+    importKeys.forEach(function(k) {
+      if (currentKeys.has(k)) common.push(k); else newTopics.push(k);
+    });
+    currentKeys.forEach(function(k) { if (!importKeys.has(k)) onlyCurrent.push(k); });
+    return { newTopics: newTopics, common: common, onlyCurrent: onlyCurrent, imported: imported };
+  }
+
+  function showDiffDialog(diff) {
+    var statsEl = document.getElementById('ck-diff-stats');
+    var papersEl = document.getElementById('ck-diff-papers');
+
+    // Summary
+    var total = diff.newTopics.length + diff.common.length + diff.onlyCurrent.length;
+    statsEl.innerHTML =
+      '<div class="ck-stat" style="padding:var(--space-3);"><span class="ck-stat__num" style="color:#047857;">+' + diff.newTopics.length + '</span><span class="ck-stat__label">New from file</span></div>' +
+      '<div class="ck-stat" style="padding:var(--space-3);"><span class="ck-stat__num" style="color:var(--color-brand);">' + diff.common.length + '</span><span class="ck-stat__label">Already done</span></div>' +
+      '<div class="ck-stat" style="padding:var(--space-3);"><span class="ck-stat__num" style="color:var(--color-accent-hover);">' + diff.onlyCurrent.length + '</span><span class="ck-stat__label">Only in current</span></div>';
+
+    // Per-paper breakdown
+    var paperMap = {};
+    SYLLABUS.forEach(function(p) { paperMap[p.id] = { title: p.short, color: p.color, added: 0, common: 0, lost: 0 }; });
+    function getPaper(key) { return key.split('/')[0]; }
+    diff.newTopics.forEach(function(k) { var p = getPaper(k); if (paperMap[p]) paperMap[p].added++; });
+    diff.common.forEach(function(k) { var p = getPaper(k); if (paperMap[p]) paperMap[p].common++; });
+    diff.onlyCurrent.forEach(function(k) { var p = getPaper(k); if (paperMap[p]) paperMap[p].lost++; });
+
+    var phtml = '<table style="width:100%;font-size:var(--text-xs);border-collapse:collapse;">';
+    phtml += '<tr style="border-bottom:2px solid var(--color-border);"><th style="text-align:left;padding:4px 8px;">Paper</th><th style="padding:4px;color:#047857;">+New</th><th style="padding:4px;color:var(--color-brand);">Same</th><th style="padding:4px;color:var(--color-accent-hover);">Only You</th></tr>';
+    SYLLABUS.forEach(function(p) {
+      var d = paperMap[p.id];
+      if (d.added + d.common + d.lost === 0) return;
+      phtml += '<tr style="border-bottom:1px solid var(--color-border-light, rgba(0,0,0,0.06));">';
+      phtml += '<td style="padding:5px 8px;font-weight:600;color:' + d.color + ';">' + d.title + '</td>';
+      phtml += '<td style="padding:5px;text-align:center;color:#047857;">' + (d.added || '-') + '</td>';
+      phtml += '<td style="padding:5px;text-align:center;">' + (d.common || '-') + '</td>';
+      phtml += '<td style="padding:5px;text-align:center;color:var(--color-accent-hover);">' + (d.lost || '-') + '</td>';
+      phtml += '</tr>';
+    });
+    phtml += '</table>';
+
+    if (diff.newTopics.length === 0 && diff.onlyCurrent.length === 0) {
+      phtml += '<p style="text-align:center;color:var(--color-text-muted);padding:var(--space-4);font-size:var(--text-sm);">Both files have identical progress.</p>';
+    }
+    papersEl.innerHTML = phtml;
+
+    if (typeof dialog.showModal === 'function') dialog.showModal();
+  }
+
   document.getElementById('ck-import-btn').addEventListener('click', function() {
     document.getElementById('ck-import-file').click();
   });
@@ -1059,13 +1139,34 @@ description: "Interactive UPSC Civil Services checklist — exam pattern, marks 
     reader.onload = function(ev) {
       try {
         var imported = JSON.parse(ev.target.result);
-        Object.keys(imported).forEach(function(k) { state[k] = imported[k]; });
-        saveState(state); updateAll();
-        alert('Progress imported successfully!');
+        pendingImport = computeDiff(imported);
+        showDiffDialog(pendingImport);
       } catch(err) { alert('Invalid file format.'); }
     };
     reader.readAsText(file);
     e.target.value = '';
+  });
+
+  // Dialog actions
+  document.getElementById('ck-dialog-close').addEventListener('click', function() { dialog.close(); pendingImport = null; });
+  document.getElementById('ck-diff-cancel').addEventListener('click', function() { dialog.close(); pendingImport = null; });
+  dialog.addEventListener('click', function(e) { if (e.target === dialog) { dialog.close(); pendingImport = null; } });
+
+  document.getElementById('ck-diff-merge').addEventListener('click', function() {
+    if (!pendingImport) return;
+    // Merge: keep current + add new from imported
+    pendingImport.newTopics.forEach(function(k) { state[k] = pendingImport.imported[k]; });
+    saveState(state); updateAll();
+    dialog.close(); pendingImport = null;
+  });
+
+  document.getElementById('ck-diff-replace').addEventListener('click', function() {
+    if (!pendingImport) return;
+    // Replace: discard current, use imported entirely
+    state = {};
+    Object.keys(pendingImport.imported).forEach(function(k) { state[k] = pendingImport.imported[k]; });
+    saveState(state); updateAll();
+    dialog.close(); pendingImport = null;
   });
 
   // ── Reset ──
