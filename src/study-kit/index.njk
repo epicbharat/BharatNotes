@@ -5,549 +5,561 @@ description: "BharatNotes Study Kit — structured UPSC preparation organized by
 ---
 
 <style>
-/* ── Study Kit Page ── */
-.sk-hero { background:linear-gradient(135deg, var(--color-brand-dark) 0%, #064e3b 50%, #0f4c3a 100%); padding:var(--space-10) 0; color:#fff; text-align:center; margin-top:calc(-1 * var(--space-6)); }
-.sk-hero h1 { font-family:var(--font-heading); font-size:clamp(1.5rem, 4vw, 2.2rem); margin:0 0 var(--space-2); letter-spacing:-0.02em; }
-.sk-hero p { font-size:var(--text-sm); opacity:0.8; max-width:600px; margin:0 auto var(--space-5); }
-.sk-hero-stats { display:flex; justify-content:center; gap:var(--space-6); flex-wrap:wrap; }
-.sk-hero-stat { text-align:center; }
-.sk-hero-stat__num { display:block; font-size:var(--text-2xl); font-weight:800; }
-.sk-hero-stat__label { display:block; font-size:var(--text-xs); opacity:0.7; }
-.sk-progress-bar { max-width:400px; margin:var(--space-5) auto 0; }
-.sk-progress-bar__track { background:rgba(255,255,255,0.15); border-radius:99px; height:8px; overflow:hidden; }
-.sk-progress-bar__fill { background:var(--color-accent); height:100%; border-radius:99px; transition:width 0.5s ease-out; }
-.sk-progress-bar__text { font-size:var(--text-xs); opacity:0.7; margin-top:var(--space-1); }
+.sk-hero{background:linear-gradient(135deg,var(--color-brand-dark) 0%,#064e3b 50%,#0f4c3a 100%);padding:var(--space-10) 0;color:#fff;text-align:center;margin-top:calc(-1 * var(--space-6))}
+.sk-hero h1{font-family:var(--font-heading);font-size:clamp(1.5rem,4vw,2.2rem);margin:0 0 var(--space-2);letter-spacing:-0.02em}
+.sk-hero p{font-size:var(--text-sm);opacity:0.8;max-width:600px;margin:0 auto var(--space-5)}
+.sk-hero-stats{display:flex;justify-content:center;gap:var(--space-6);flex-wrap:wrap}
+.sk-hero-stat{text-align:center}
+.sk-hero-stat__num{display:block;font-size:var(--text-2xl);font-weight:800}
+.sk-hero-stat__label{display:block;font-size:var(--text-xs);opacity:0.7}
+.sk-pbar{max-width:400px;margin:var(--space-5) auto 0}
+.sk-pbar__track{background:rgba(255,255,255,0.15);border-radius:99px;height:8px;overflow:hidden}
+.sk-pbar__fill{background:var(--color-accent);height:100%;border-radius:99px;transition:width 0.5s ease-out}
+.sk-pbar__text{font-size:var(--text-xs);opacity:0.7;margin-top:var(--space-1)}
 
-.sk-module { margin-bottom:var(--space-8); }
-.sk-module__header { display:flex; align-items:center; gap:var(--space-4); margin-bottom:var(--space-4); padding-bottom:var(--space-3); border-bottom:2px solid var(--sk-color, var(--color-border)); }
-.sk-module__icon { font-size:1.8rem; }
-.sk-module__info { flex:1; }
-.sk-module__title { font-family:var(--font-heading); font-size:var(--text-lg); color:var(--color-text); margin:0; }
-.sk-module__sub { font-size:var(--text-xs); color:var(--color-text-muted); margin:var(--space-1) 0 0; }
-.sk-module__badge { display:inline-block; padding:3px 10px; border-radius:var(--radius-full, 999px); font-size:0.6rem; font-weight:700; text-transform:uppercase; letter-spacing:0.05em; color:#fff; background:var(--sk-color); }
-.sk-module__progress { font-size:var(--text-xs); font-weight:700; color:var(--sk-color); }
+/* Module nav */
+.sk-nav{display:flex;gap:var(--space-2);justify-content:center;flex-wrap:wrap;padding:var(--space-4) 0;margin-bottom:var(--space-4);position:sticky;top:0;z-index:10;background:var(--color-bg);border-bottom:1px solid var(--color-border)}
+.sk-nav-btn{padding:7px 16px;border:1.5px solid var(--color-border);border-radius:var(--radius-full,999px);background:var(--color-surface);font-size:var(--text-xs);font-weight:600;color:var(--color-text);text-decoration:none;transition:all 0.15s;white-space:nowrap}
+.sk-nav-btn:hover{border-color:var(--color-brand);color:var(--color-brand);transform:translateY(-1px)}
+.sk-nav-btn--active{background:var(--color-brand);color:#fff;border-color:var(--color-brand)}
 
-.sk-books { display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); gap:var(--space-4); }
-.sk-book { background:var(--color-surface); border:1px solid var(--color-border); border-radius:var(--radius-lg); overflow:hidden; transition:all 0.2s; position:relative; }
-.sk-book:hover { box-shadow:var(--shadow-md); transform:translateY(-2px); }
-.sk-book__accent { height:3px; background:var(--sk-color); }
-.sk-book__body { padding:var(--space-4) var(--space-5); }
-.sk-book__num { font-size:0.6rem; font-weight:700; color:var(--sk-color); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:var(--space-1); }
-.sk-book__title { font-size:var(--text-base); font-weight:700; color:var(--color-text); margin:0 0 var(--space-2); line-height:1.3; }
-.sk-book__title a { color:inherit; text-decoration:none; }
-.sk-book__title a:hover { color:var(--sk-color); }
-.sk-book__meta { display:flex; gap:var(--space-3); font-size:var(--text-xs); color:var(--color-text-muted); margin-bottom:var(--space-3); }
-.sk-book__meta span { display:inline-flex; align-items:center; gap:3px; }
-.sk-book__chapters { list-style:none; margin:0; padding:0; }
-.sk-book__chapters li { padding:5px 0; border-bottom:1px solid var(--color-border-light, rgba(0,0,0,0.04)); font-size:var(--text-xs); }
-.sk-book__chapters li:last-child { border-bottom:none; }
-.sk-book__chapters a { color:var(--color-text-secondary); text-decoration:none; display:flex; align-items:baseline; gap:var(--space-2); }
-.sk-book__chapters a:hover { color:var(--sk-color); }
-.sk-book__ch-num { color:var(--sk-color); font-weight:700; min-width:1.5rem; }
-.sk-book__bar { margin-top:var(--space-3); padding-top:var(--space-3); border-top:1px solid var(--color-border); }
-.sk-book__bar-track { background:var(--color-border); border-radius:99px; height:4px; overflow:hidden; }
-.sk-book__bar-fill { height:100%; border-radius:99px; transition:width 0.3s; }
-.sk-book__bar-text { display:flex; justify-content:space-between; font-size:0.6rem; color:var(--color-text-muted); margin-top:3px; }
+/* Recommended order callout */
+.sk-order{display:flex;align-items:flex-start;gap:var(--space-3);padding:var(--space-4) var(--space-5);background:linear-gradient(135deg,rgba(212,160,23,0.06) 0%,rgba(15,76,58,0.04) 100%);border:1px solid var(--color-border);border-left:4px solid var(--color-accent);border-radius:var(--radius-md);margin-bottom:var(--space-6);font-size:var(--text-sm);line-height:1.6}
+.sk-order strong{color:var(--color-accent-hover)}
 
-.sk-book--locked { opacity:0.7; }
-.sk-book--locked .sk-book__body { filter:blur(0); }
-.sk-book__lock { position:absolute; top:var(--space-3); right:var(--space-3); width:28px; height:28px; border-radius:var(--radius-full, 999px); background:var(--color-text-muted); color:#fff; display:flex; align-items:center; justify-content:center; font-size:0.75rem; }
+/* Module */
+.sk-module{margin-bottom:var(--space-8);scroll-margin-top:60px}
+.sk-module__header{display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-4);padding:var(--space-4) var(--space-5);border-radius:var(--radius-md);color:#fff}
+.sk-module__icon{font-size:1.5rem}
+.sk-module__info{flex:1}
+.sk-module__title{font-family:var(--font-heading);font-size:var(--text-base);margin:0}
+.sk-module__sub{font-size:var(--text-xs);opacity:0.8;margin:2px 0 0}
+.sk-module__stats{display:flex;gap:var(--space-4);font-size:var(--text-xs);opacity:0.85;font-weight:600}
 
-.sk-supp { display:grid; grid-template-columns:repeat(auto-fill, minmax(180px, 1fr)); gap:var(--space-3); }
-.sk-supp-card { display:flex; align-items:center; gap:var(--space-3); padding:var(--space-3) var(--space-4); background:var(--color-surface); border:1px solid var(--color-border); border-radius:var(--radius-md); text-decoration:none; color:var(--color-text); transition:all 0.15s; }
-.sk-supp-card:hover { box-shadow:var(--shadow-sm); border-color:var(--color-brand); transform:translateY(-1px); }
-.sk-supp-card__icon { font-size:1.2rem; flex-shrink:0; }
-.sk-supp-card__text { font-size:var(--text-xs); font-weight:600; }
-.sk-supp-card__ext { font-size:0.55rem; color:var(--color-text-muted); }
+/* Book cards */
+.sk-books{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:var(--space-4)}
+.sk-book{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);overflow:hidden;transition:all 0.2s;position:relative;display:flex;flex-direction:column}
+.sk-book:hover{box-shadow:var(--shadow-md);transform:translateY(-2px)}
+.sk-book__accent{height:3px;background:var(--sk-color)}
+.sk-book__body{padding:var(--space-4) var(--space-4);flex:1;display:flex;flex-direction:column}
+.sk-book__top{display:flex;align-items:flex-start;justify-content:space-between;gap:var(--space-2);margin-bottom:var(--space-2)}
+.sk-book__num{font-size:0.55rem;font-weight:700;color:var(--sk-color);text-transform:uppercase;letter-spacing:0.06em}
+.sk-book__pct{display:inline-flex;align-items:center;justify-content:center;min-width:38px;padding:2px 8px;border-radius:var(--radius-full,999px);font-size:0.6rem;font-weight:700;background:color-mix(in srgb,var(--sk-color) 12%,transparent);color:var(--sk-color)}
+.sk-book__title{font-size:var(--text-sm);font-weight:700;color:var(--color-text);margin:0 0 var(--space-2);line-height:1.3}
+.sk-book__title a{color:inherit;text-decoration:none}
+.sk-book__title a:hover{color:var(--sk-color)}
+.sk-book__tags{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:var(--space-2)}
+.sk-book__tag{padding:1px 8px;border-radius:var(--radius-full,999px);font-size:0.55rem;font-weight:600;border:1px solid}
+.sk-book__tag--prelims{color:#b45309;border-color:#fde68a;background:#fffbeb}
+.sk-book__tag--gs1{color:#9f1239;border-color:#fecdd3;background:#fff1f2}
+.sk-book__tag--gs2{color:#7c3aed;border-color:#ddd6fe;background:#f5f3ff}
+.sk-book__tag--gs3{color:#0369a1;border-color:#bae6fd;background:#f0f9ff}
+.sk-book__tag--gs4{color:#854d0e;border-color:#fde68a;background:#fefce8}
+.sk-book__meta{font-size:var(--text-xs);color:var(--color-text-muted);margin-bottom:var(--space-2)}
+.sk-book__chapters{list-style:none;margin:0 0 var(--space-2);padding:0}
+.sk-book__chapters li{padding:4px 0;border-bottom:1px solid rgba(0,0,0,0.04);font-size:var(--text-xs)}
+.sk-book__chapters li:last-child{border-bottom:none}
+.sk-book__chapters a{color:var(--color-text-secondary);text-decoration:none;display:flex;align-items:baseline;gap:var(--space-2)}
+.sk-book__chapters a:hover{color:var(--sk-color)}
+.sk-book__ch-num{color:var(--sk-color);font-weight:700;min-width:1.2rem}
+.sk-book__more{font-size:0.6rem;color:var(--sk-color);font-weight:600;cursor:pointer;background:none;border:none;padding:2px 0}
+.sk-book__foot{margin-top:auto;padding-top:var(--space-2);border-top:1px solid var(--color-border);display:flex;align-items:center;justify-content:space-between}
+.sk-book__bar{flex:1;margin-right:var(--space-3)}
+.sk-book__bar-track{background:var(--color-border);border-radius:99px;height:4px;overflow:hidden}
+.sk-book__bar-fill{height:100%;border-radius:99px;transition:width 0.3s}
+.sk-book__bar-label{font-size:0.55rem;color:var(--color-text-muted);margin-top:2px}
+.sk-book__track-link{font-size:0.6rem;color:var(--sk-color);font-weight:600;text-decoration:none;white-space:nowrap;flex-shrink:0}
+.sk-book__track-link:hover{text-decoration:underline}
+.sk-book__time{font-size:0.55rem;color:var(--color-text-muted);display:flex;align-items:center;gap:3px}
 
-.sk-section-label { font-family:var(--font-heading); font-size:var(--text-xl); color:var(--color-text); margin:var(--space-10) 0 var(--space-5); padding-bottom:var(--space-3); border-bottom:2px solid var(--color-border); }
+/* Supplementary */
+.sk-supp{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:var(--space-3)}
+.sk-supp--priority{grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:var(--space-4);margin-bottom:var(--space-5)}
+.sk-supp-card{display:flex;align-items:center;gap:var(--space-3);padding:var(--space-3) var(--space-4);background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-md);text-decoration:none;color:var(--color-text);transition:all 0.15s}
+.sk-supp-card:hover{box-shadow:var(--shadow-sm);border-color:var(--color-brand);transform:translateY(-1px)}
+.sk-supp-card--featured{border-width:2px;border-color:var(--color-accent);background:linear-gradient(135deg,#fffbeb 0%,#fef3c7 100%)}
+.sk-supp-card--featured:hover{border-color:var(--color-accent-hover)}
+.sk-supp-card__icon{font-size:1.3rem;flex-shrink:0}
+.sk-supp-card__text{font-size:var(--text-xs);font-weight:600}
+.sk-supp-card__desc{font-size:0.55rem;color:var(--color-text-muted)}
 
-.sk-cta { background:linear-gradient(135deg, #1e3a5f 0%, #0f4c3a 100%); border-radius:var(--radius-lg); padding:var(--space-8); text-align:center; color:#fff; margin-top:var(--space-8); }
-.sk-cta h3 { font-family:var(--font-heading); font-size:var(--text-lg); margin:0 0 var(--space-2); }
-.sk-cta p { font-size:var(--text-sm); opacity:0.8; margin:0 0 var(--space-4); max-width:500px; margin-left:auto; margin-right:auto; }
-.sk-cta-btn { display:inline-block; padding:10px 28px; border-radius:var(--radius-md); font-size:var(--text-sm); font-weight:700; text-decoration:none; background:#fff; color:var(--color-brand); transition:all 0.15s; }
-.sk-cta-btn:hover { transform:translateY(-1px); box-shadow:0 4px 20px rgba(0,0,0,0.3); }
+.sk-section-label{font-family:var(--font-heading);font-size:var(--text-xl);color:var(--color-text);margin:var(--space-10) 0 var(--space-5);padding-bottom:var(--space-3);border-bottom:2px solid var(--color-border);scroll-margin-top:60px}
 
-@media (max-width:768px) {
-  .sk-books { grid-template-columns:1fr; }
-  .sk-hero-stats { gap:var(--space-4); }
-  .sk-supp { grid-template-columns:1fr 1fr; }
-}
-@media (max-width:480px) {
-  .sk-hero { padding:var(--space-8) 0; }
-  .sk-hero-stats { gap:var(--space-3); }
-  .sk-hero-stat__num { font-size:var(--text-xl); }
-  .sk-module__header { flex-wrap:wrap; }
-  .sk-supp { grid-template-columns:1fr; }
-}
+.sk-cta{background:linear-gradient(135deg,#1e3a5f 0%,#0f4c3a 100%);border-radius:var(--radius-lg);padding:var(--space-8);text-align:center;color:#fff;margin-top:var(--space-8)}
+.sk-cta h3{font-family:var(--font-heading);font-size:var(--text-lg);margin:0 0 var(--space-2)}
+.sk-cta p{font-size:var(--text-sm);opacity:0.8;margin:0 0 var(--space-4);max-width:500px;margin-left:auto;margin-right:auto}
+.sk-cta-btns{display:flex;flex-wrap:wrap;gap:var(--space-3);justify-content:center}
+.sk-cta-btn{display:inline-block;padding:10px 24px;border-radius:var(--radius-md);font-size:var(--text-sm);font-weight:700;text-decoration:none;transition:all 0.15s}
+.sk-cta-btn--white{background:#fff;color:var(--color-brand)}
+.sk-cta-btn--white:hover{transform:translateY(-1px);box-shadow:0 4px 20px rgba(0,0,0,0.3)}
+.sk-cta-btn--ghost{color:#fff;border:1.5px solid rgba(255,255,255,0.4)}
+.sk-cta-btn--ghost:hover{border-color:#fff;background:rgba(255,255,255,0.1);color:#fff}
+
+.sk-book--locked{opacity:0.6;pointer-events:none}
+.sk-book__lock{position:absolute;top:8px;right:8px;width:24px;height:24px;border-radius:50%;background:var(--color-text-muted);color:#fff;display:flex;align-items:center;justify-content:center;font-size:0.65rem}
+
+@media(max-width:768px){.sk-books{grid-template-columns:1fr}.sk-hero-stats{gap:var(--space-4)}.sk-supp,.sk-supp--priority{grid-template-columns:1fr 1fr}.sk-nav{gap:var(--space-1)}.sk-nav-btn{padding:5px 10px;font-size:0.6rem}}
+@media(max-width:480px){.sk-hero{padding:var(--space-8) 0}.sk-hero-stat__num{font-size:var(--text-xl)}.sk-module__header{flex-wrap:wrap;padding:var(--space-3) var(--space-4)}.sk-supp,.sk-supp--priority{grid-template-columns:1fr}.sk-nav{padding:var(--space-3) var(--space-2)}}
 </style>
 
-{# ── Hero Section ── #}
+{# ── Hero ── #}
 <div class="sk-hero">
   <div class="container">
-    <p style="font-size:var(--text-xs); text-transform:uppercase; letter-spacing:0.08em; opacity:0.6; margin-bottom:var(--space-3);">BharatNotes</p>
+    <p style="font-size:var(--text-xs);text-transform:uppercase;letter-spacing:0.08em;opacity:0.6;margin-bottom:var(--space-3)">BharatNotes</p>
     <h1>UPSC CSE Complete Study Kit</h1>
-    <p>145+ chapters organized into structured modules — Foundation, Mains GS1-4, Essay, and a supplementary pack. Study sequentially or jump to any module.</p>
+    <p>145+ chapters across 8 modules — structured like a coaching institute book set. Study sequentially or jump to any module.</p>
     <div class="sk-hero-stats">
-      <div class="sk-hero-stat"><span class="sk-hero-stat__num">7</span><span class="sk-hero-stat__label">Modules</span></div>
+      <div class="sk-hero-stat"><span class="sk-hero-stat__num">8</span><span class="sk-hero-stat__label">Modules</span></div>
       <div class="sk-hero-stat"><span class="sk-hero-stat__num">22</span><span class="sk-hero-stat__label">Books</span></div>
       <div class="sk-hero-stat"><span class="sk-hero-stat__num">145+</span><span class="sk-hero-stat__label">Chapters</span></div>
       <div class="sk-hero-stat"><span class="sk-hero-stat__num" id="sk-pct">0%</span><span class="sk-hero-stat__label">Completed</span></div>
     </div>
-    <div class="sk-progress-bar">
-      <div class="sk-progress-bar__track"><div class="sk-progress-bar__fill" id="sk-bar" style="width:0%;"></div></div>
-      <p class="sk-progress-bar__text" id="sk-bar-text">Start checking off topics in the syllabus checklist</p>
+    <div class="sk-pbar">
+      <div class="sk-pbar__track"><div class="sk-pbar__fill" id="sk-bar" style="width:0%"></div></div>
+      <p class="sk-pbar__text" id="sk-bar-text">Track progress via the Syllabus Checklist</p>
     </div>
   </div>
 </div>
 
-<section style="padding:var(--space-8) 0;">
+{# ── Sticky Module Nav ── #}
+<div class="sk-nav">
+  <a href="#prelims" class="sk-nav-btn">Prelims</a>
+  <a href="#foundation" class="sk-nav-btn">Foundation</a>
+  <a href="#gs1" class="sk-nav-btn">GS1</a>
+  <a href="#gs2" class="sk-nav-btn">GS2</a>
+  <a href="#gs3" class="sk-nav-btn">GS3</a>
+  <a href="#gs4" class="sk-nav-btn">GS4</a>
+  <a href="#essay" class="sk-nav-btn">Essay</a>
+  <a href="#supplementary" class="sk-nav-btn">Supp. Pack</a>
+</div>
+
+<section style="padding:var(--space-6) 0;">
   <div class="container">
 
-    {# ═══════════════════════════════════════
-       MODULE 1 — FOUNDATION
-       ═══════════════════════════════════════ #}
-    <div class="sk-module" style="--sk-color:#16a34a;">
-      <div class="sk-module__header">
+    {# ── Reading Order ── #}
+    <div class="sk-order">
+      <span style="font-size:1.2rem;flex-shrink:0">💡</span>
+      <div>
+        <strong>Recommended reading order:</strong> Start with <strong>Polity</strong> (most structured) → <strong>Economy</strong> → <strong>Geography</strong> → <strong>History</strong> → <strong>Environment</strong> → <strong>Science</strong>. Add <strong>Current Affairs daily</strong> from Day 1. Begin <strong>answer writing</strong> after completing 2-3 subjects.
+      </div>
+    </div>
+
+    {# ════════════════ PRELIMS MODULE ════════════════ #}
+    <div class="sk-module" id="prelims" style="--sk-color:#d4a017;">
+      <div class="sk-module__header" style="background:linear-gradient(135deg,#b45309 0%,#d4a017 100%)">
+        <span class="sk-module__icon">🎯</span>
+        <div class="sk-module__info">
+          <h2 class="sk-module__title">Prelims Module</h2>
+          <p class="sk-module__sub">Paper I (200 marks) + CSAT Paper II (200 marks, qualifying)</p>
+        </div>
+        <div class="sk-module__stats"><span>3 Books</span><span>~40 hrs</span></div>
+      </div>
+      <div class="sk-books">
+        <div class="sk-book" style="--sk-color:#d4a017;" data-ck="prelims-gs/">
+          <div class="sk-book__accent"></div>
+          <div class="sk-book__body">
+            <div class="sk-book__top"><span class="sk-book__num">Prelims Paper I</span><span class="sk-book__pct" id="pct-prelims-gs">0%</span></div>
+            <h3 class="sk-book__title"><a href="/prelims/">General Studies — Complete Prelims Syllabus</a></h3>
+            <div class="sk-book__tags">
+              <span class="sk-book__tag sk-book__tag--prelims">Prelims</span>
+            </div>
+            <p class="sk-book__meta">10 sections | 224 micro-topics across all subjects</p>
+            <div class="sk-book__foot">
+              <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div>
+              <a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="sk-book" style="--sk-color:#6366f1;" data-ck="prelims-csat/">
+          <div class="sk-book__accent"></div>
+          <div class="sk-book__body">
+            <div class="sk-book__top"><span class="sk-book__num">Prelims Paper II</span><span class="sk-book__pct" id="pct-prelims-csat">0%</span></div>
+            <h3 class="sk-book__title">CSAT — Aptitude & Reasoning (Qualifying)</h3>
+            <div class="sk-book__tags">
+              <span class="sk-book__tag sk-book__tag--prelims">CSAT</span>
+            </div>
+            <p class="sk-book__meta">Comprehension, logical reasoning, numeracy, data interpretation | 33% min</p>
+            <div class="sk-book__foot">
+              <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div>
+              <a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="sk-book" style="--sk-color:#ea580c;" data-ck="prelims-gs/Current Events">
+          <div class="sk-book__accent"></div>
+          <div class="sk-book__body">
+            <div class="sk-book__top"><span class="sk-book__num">Current Affairs</span><span class="sk-book__pct">Daily</span></div>
+            <h3 class="sk-book__title"><a href="https://ujiyari.com/daily/" target="_blank" rel="noopener">Daily Current Affairs — Ujiyari.com</a></h3>
+            <div class="sk-book__tags">
+              <span class="sk-book__tag sk-book__tag--prelims">Prelims 30-40%</span>
+              <span class="sk-book__tag sk-book__tag--gs1">All Mains</span>
+            </div>
+            <p class="sk-book__meta">30 min/day from Day 1 — covers schemes, judgments, summits, reports, awards</p>
+            <div class="sk-book__foot">
+              <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill" style="width:100%;background:#ea580c"></div></div></div>
+              <a href="https://ujiyari.com" target="_blank" rel="noopener" class="sk-book__track-link">Open Ujiyari &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {# ════════════════ FOUNDATION MODULE ════════════════ #}
+    <div class="sk-module" id="foundation" style="--sk-color:#16a34a;">
+      <div class="sk-module__header" style="background:linear-gradient(135deg,#15803d 0%,#16a34a 100%)">
         <span class="sk-module__icon">📗</span>
         <div class="sk-module__info">
-          <h2 class="sk-module__title">Foundation Module</h2>
-          <p class="sk-module__sub">Core subjects for Prelims GS + builds base for all Mains papers. Start here.</p>
+          <h2 class="sk-module__title">Foundation Module — Core Study Material</h2>
+          <p class="sk-module__sub">Builds base for both Prelims and Mains. 7 books covering all GS subjects.</p>
         </div>
-        <span class="sk-module__badge" style="background:#16a34a;">7 Books | 91 Chapters</span>
+        <div class="sk-module__stats"><span>7 Books</span><span>145 Ch</span><span>~120 hrs</span></div>
       </div>
       <div class="sk-books">
 
         <div class="sk-book" style="--sk-color:#9f1239;" data-ck="prelims-gs/History —|mains-gs1/Indian Heritage|mains-gs1/Modern Indian|mains-gs1/World History">
           <div class="sk-book__accent"></div>
           <div class="sk-book__body">
-            <p class="sk-book__num">Book 1</p>
+            <div class="sk-book__top"><span class="sk-book__num">Book 1</span><span class="sk-book__pct">0%</span></div>
             <h3 class="sk-book__title"><a href="/subjects/history-culture/">History & Culture</a></h3>
-            <div class="sk-book__meta"><span>7 units</span><span>47 chapters</span><span>GS1</span></div>
-            <ul class="sk-book__chapters">
+            <div class="sk-book__tags">
+              <span class="sk-book__tag sk-book__tag--prelims">Prelims</span>
+              <span class="sk-book__tag sk-book__tag--gs1">GS1</span>
+            </div>
+            <p class="sk-book__meta">7 units | 47 chapters <span class="sk-book__time">~25 hrs</span></p>
+            <ul class="sk-book__chapters" id="ch-history">
               <li><a href="/subjects/history-culture/ancient-india/"><span class="sk-book__ch-num">01</span> Ancient India (8 ch)</a></li>
               <li><a href="/subjects/history-culture/medieval-india/"><span class="sk-book__ch-num">02</span> Medieval India (8 ch)</a></li>
               <li><a href="/subjects/history-culture/modern-india/"><span class="sk-book__ch-num">03</span> Modern India (6 ch)</a></li>
+            </ul>
+            <button class="sk-book__more" onclick="var u=document.getElementById('ch-history-more');u.hidden=!u.hidden;this.textContent=u.hidden?'Show 4 more units...':'Show less'">Show 4 more units...</button>
+            <ul class="sk-book__chapters" id="ch-history-more" hidden>
               <li><a href="/subjects/history-culture/freedom-struggle/"><span class="sk-book__ch-num">04</span> Freedom Struggle (8 ch)</a></li>
-              <li><a href="/subjects/history-culture/post-independence-india/"><span class="sk-book__ch-num">05</span> Post-Independence India (6 ch)</a></li>
-              <li><a href="/subjects/history-culture/indian-culture/"><span class="sk-book__ch-num">06</span> Indian Culture & Heritage (5 ch)</a></li>
+              <li><a href="/subjects/history-culture/post-independence-india/"><span class="sk-book__ch-num">05</span> Post-Independence (6 ch)</a></li>
+              <li><a href="/subjects/history-culture/indian-culture/"><span class="sk-book__ch-num">06</span> Indian Culture (5 ch)</a></li>
               <li><a href="/subjects/history-culture/world-history/"><span class="sk-book__ch-num">07</span> World History (6 ch)</a></li>
             </ul>
-            <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div><div class="sk-book__bar-text"><span class="sk-book__bar-done"></span><a href="/upsc-checklist/" style="color:var(--sk-color);font-weight:600;text-decoration:none;">Track in Checklist &rarr;</a></div></div>
+            <div class="sk-book__foot">
+              <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div>
+              <a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a>
+            </div>
           </div>
         </div>
 
         <div class="sk-book" style="--sk-color:#b45309;" data-ck="prelims-gs/Geography —|mains-gs1/Geography">
           <div class="sk-book__accent"></div>
           <div class="sk-book__body">
-            <p class="sk-book__num">Book 2</p>
+            <div class="sk-book__top"><span class="sk-book__num">Book 2</span><span class="sk-book__pct">0%</span></div>
             <h3 class="sk-book__title"><a href="/subjects/geography/">Geography</a></h3>
-            <div class="sk-book__meta"><span>4 units</span><span>12 chapters</span><span>GS1</span></div>
+            <div class="sk-book__tags"><span class="sk-book__tag sk-book__tag--prelims">Prelims</span><span class="sk-book__tag sk-book__tag--gs1">GS1</span></div>
+            <p class="sk-book__meta">4 units | 12 chapters <span class="sk-book__time">~15 hrs</span></p>
             <ul class="sk-book__chapters">
               <li><a href="/subjects/geography/physical-geography/"><span class="sk-book__ch-num">01</span> Physical Geography (2 ch)</a></li>
               <li><a href="/subjects/geography/indian-geography/"><span class="sk-book__ch-num">02</span> Indian Geography (5 ch)</a></li>
-              <li><a href="/subjects/geography/human-economic-geography/"><span class="sk-book__ch-num">03</span> Human & Economic Geography (3 ch)</a></li>
+              <li><a href="/subjects/geography/human-economic-geography/"><span class="sk-book__ch-num">03</span> Human & Economic (3 ch)</a></li>
               <li><a href="/subjects/geography/world-geography/"><span class="sk-book__ch-num">04</span> World Geography (2 ch)</a></li>
             </ul>
-            <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div><div class="sk-book__bar-text"><span class="sk-book__bar-done"></span><a href="/upsc-checklist/" style="color:var(--sk-color);font-weight:600;text-decoration:none;">Track in Checklist &rarr;</a></div></div>
+            <div class="sk-book__foot"><div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div><a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a></div>
           </div>
         </div>
 
         <div class="sk-book" style="--sk-color:#7c3aed;" data-ck="prelims-gs/Indian Polity|mains-gs2/Constitution|mains-gs2/Constitutional">
           <div class="sk-book__accent"></div>
           <div class="sk-book__body">
-            <p class="sk-book__num">Book 3</p>
+            <div class="sk-book__top"><span class="sk-book__num">Book 3 — Start here</span><span class="sk-book__pct">0%</span></div>
             <h3 class="sk-book__title"><a href="/subjects/polity/">Polity & Constitution</a></h3>
-            <div class="sk-book__meta"><span>1 unit</span><span>14 chapters</span><span>GS2</span></div>
-            <ul class="sk-book__chapters">
-              <li><a href="/subjects/polity/constitutional-polity/"><span class="sk-book__ch-num">01</span> Constitutional Polity (14 ch)</a></li>
-            </ul>
-            <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div><div class="sk-book__bar-text"><span class="sk-book__bar-done"></span><a href="/upsc-checklist/" style="color:var(--sk-color);font-weight:600;text-decoration:none;">Track in Checklist &rarr;</a></div></div>
+            <div class="sk-book__tags"><span class="sk-book__tag sk-book__tag--prelims">Prelims</span><span class="sk-book__tag sk-book__tag--gs2">GS2</span></div>
+            <p class="sk-book__meta">1 unit | 14 chapters <span class="sk-book__time">~18 hrs</span></p>
+            <div class="sk-book__foot"><div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div><a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a></div>
           </div>
         </div>
 
         <div class="sk-book" style="--sk-color:#0369a1;" data-ck="prelims-gs/Economic|mains-gs3/Economy">
           <div class="sk-book__accent"></div>
           <div class="sk-book__body">
-            <p class="sk-book__num">Book 4</p>
+            <div class="sk-book__top"><span class="sk-book__num">Book 4</span><span class="sk-book__pct">0%</span></div>
             <h3 class="sk-book__title"><a href="/subjects/economy/">Indian Economy</a></h3>
-            <div class="sk-book__meta"><span>1 unit</span><span>10 chapters</span><span>GS3</span></div>
-            <ul class="sk-book__chapters">
-              <li><a href="/subjects/economy/indian-economy/"><span class="sk-book__ch-num">01</span> Indian Economy (10 ch)</a></li>
-            </ul>
-            <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div><div class="sk-book__bar-text"><span class="sk-book__bar-done"></span><a href="/upsc-checklist/" style="color:var(--sk-color);font-weight:600;text-decoration:none;">Track in Checklist &rarr;</a></div></div>
+            <div class="sk-book__tags"><span class="sk-book__tag sk-book__tag--prelims">Prelims</span><span class="sk-book__tag sk-book__tag--gs3">GS3</span></div>
+            <p class="sk-book__meta">1 unit | 10 chapters <span class="sk-book__time">~15 hrs</span></p>
+            <div class="sk-book__foot"><div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div><a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a></div>
           </div>
         </div>
 
         <div class="sk-book" style="--sk-color:#047857;" data-ck="prelims-gs/Environment|mains-gs3/Environment">
           <div class="sk-book__accent"></div>
           <div class="sk-book__body">
-            <p class="sk-book__num">Book 5</p>
+            <div class="sk-book__top"><span class="sk-book__num">Book 5</span><span class="sk-book__pct">0%</span></div>
             <h3 class="sk-book__title"><a href="/subjects/environment/">Environment & Ecology</a></h3>
-            <div class="sk-book__meta"><span>1 unit</span><span>6 chapters</span><span>GS3</span></div>
-            <ul class="sk-book__chapters">
-              <li><a href="/subjects/environment/ecology-environment/"><span class="sk-book__ch-num">01</span> Ecology, Environment & Biodiversity (6 ch)</a></li>
-            </ul>
-            <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div><div class="sk-book__bar-text"><span class="sk-book__bar-done"></span><a href="/upsc-checklist/" style="color:var(--sk-color);font-weight:600;text-decoration:none;">Track in Checklist &rarr;</a></div></div>
+            <div class="sk-book__tags"><span class="sk-book__tag sk-book__tag--prelims">Prelims</span><span class="sk-book__tag sk-book__tag--gs3">GS3</span></div>
+            <p class="sk-book__meta">1 unit | 6 chapters <span class="sk-book__time">~10 hrs</span></p>
+            <div class="sk-book__foot"><div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div><a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a></div>
           </div>
         </div>
 
         <div class="sk-book" style="--sk-color:#4338ca;" data-ck="prelims-gs/General Science — S&T|mains-gs3/Science">
           <div class="sk-book__accent"></div>
           <div class="sk-book__body">
-            <p class="sk-book__num">Book 6</p>
+            <div class="sk-book__top"><span class="sk-book__num">Book 6</span><span class="sk-book__pct">0%</span></div>
             <h3 class="sk-book__title"><a href="/subjects/science-tech/">Science & Technology</a></h3>
-            <div class="sk-book__meta"><span>1 unit</span><span>7 chapters</span><span>GS3</span></div>
-            <ul class="sk-book__chapters">
-              <li><a href="/subjects/science-tech/science-technology/"><span class="sk-book__ch-num">01</span> Science & Technology (7 ch)</a></li>
-            </ul>
-            <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div><div class="sk-book__bar-text"><span class="sk-book__bar-done"></span><a href="/upsc-checklist/" style="color:var(--sk-color);font-weight:600;text-decoration:none;">Track in Checklist &rarr;</a></div></div>
+            <div class="sk-book__tags"><span class="sk-book__tag sk-book__tag--prelims">Prelims</span><span class="sk-book__tag sk-book__tag--gs3">GS3</span></div>
+            <p class="sk-book__meta">1 unit | 7 chapters <span class="sk-book__time">~10 hrs</span></p>
+            <div class="sk-book__foot"><div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div><a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a></div>
           </div>
         </div>
 
         <div class="sk-book" style="--sk-color:#0d9488;" data-ck="prelims-gs/General Science — Physics|prelims-gs/General Science — Biology">
           <div class="sk-book__accent"></div>
           <div class="sk-book__body">
-            <p class="sk-book__num">Book 7</p>
+            <div class="sk-book__top"><span class="sk-book__num">Book 7</span><span class="sk-book__pct">0%</span></div>
             <h3 class="sk-book__title"><a href="/subjects/general-science/">General Science</a></h3>
-            <div class="sk-book__meta"><span>3 units</span><span>13 chapters</span><span>Prelims</span></div>
+            <div class="sk-book__tags"><span class="sk-book__tag sk-book__tag--prelims">Prelims</span></div>
+            <p class="sk-book__meta">3 units | 13 chapters <span class="sk-book__time">~12 hrs</span></p>
             <ul class="sk-book__chapters">
               <li><a href="/subjects/general-science/physics/"><span class="sk-book__ch-num">01</span> Physics (4 ch)</a></li>
               <li><a href="/subjects/general-science/chemistry/"><span class="sk-book__ch-num">02</span> Chemistry (4 ch)</a></li>
               <li><a href="/subjects/general-science/biology/"><span class="sk-book__ch-num">03</span> Biology (5 ch)</a></li>
             </ul>
-            <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div><div class="sk-book__bar-text"><span class="sk-book__bar-done"></span><a href="/upsc-checklist/" style="color:var(--sk-color);font-weight:600;text-decoration:none;">Track in Checklist &rarr;</a></div></div>
+            <div class="sk-book__foot"><div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div><a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a></div>
           </div>
         </div>
-
       </div>
     </div>
 
-    {# ═══════════════════════════════════════
-       MAINS MODULES
-       ═══════════════════════════════════════ #}
-    <h2 class="sk-section-label">Mains Modules</h2>
+    {# ════════════════ MAINS MODULES ════════════════ #}
+    <h2 class="sk-section-label" id="mains-label">Mains Modules</h2>
 
-    {# ── GS1 ── #}
-    <div class="sk-module" style="--sk-color:#9f1239;">
-      <div class="sk-module__header">
+    {# GS1 #}
+    <div class="sk-module" id="gs1" style="--sk-color:#9f1239;">
+      <div class="sk-module__header" style="background:linear-gradient(135deg,#881337 0%,#9f1239 100%)">
         <span class="sk-module__icon">📘</span>
-        <div class="sk-module__info">
-          <h2 class="sk-module__title">GS Paper 1 — History, Geography, Society</h2>
-          <p class="sk-module__sub">250 marks | Indian Heritage & Culture, Modern History, World History, Geography, Indian Society</p>
-        </div>
-        <span class="sk-module__badge">3 Books</span>
+        <div class="sk-module__info"><h2 class="sk-module__title">GS Paper 1 — History, Geography, Society</h2><p class="sk-module__sub">250 marks | 20 questions</p></div>
+        <div class="sk-module__stats"><span>3 Books</span><span>67 Ch</span></div>
       </div>
       <div class="sk-books">
         <div class="sk-book" style="--sk-color:#9f1239;" data-ck="mains-gs1/Indian Heritage|mains-gs1/Modern Indian|mains-gs1/World History">
-          <div class="sk-book__accent"></div>
-          <div class="sk-book__body">
-            <p class="sk-book__num">GS1 — History & Culture</p>
-            <h3 class="sk-book__title"><a href="/subjects/history-culture/">Indian Heritage, Modern History, World History</a></h3>
-            <div class="sk-book__meta"><span>7 units</span><span>47 chapters</span></div>
-            <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin:0;">Art forms, literature, architecture | Freedom struggle | Post-independence | World wars, cold war, decolonization</p>
-            <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div><div class="sk-book__bar-text"><span class="sk-book__bar-done"></span><a href="/upsc-checklist/" style="color:var(--sk-color);font-weight:600;text-decoration:none;">Track in Checklist &rarr;</a></div></div>
+          <div class="sk-book__accent"></div><div class="sk-book__body">
+            <div class="sk-book__top"><span class="sk-book__num">GS1 — History & Culture</span><span class="sk-book__pct">0%</span></div>
+            <h3 class="sk-book__title"><a href="/subjects/history-culture/">Heritage, Modern India, Freedom Struggle, World History</a></h3>
+            <div class="sk-book__tags"><span class="sk-book__tag sk-book__tag--gs1">GS1</span></div>
+            <p class="sk-book__meta">7 units | 47 chapters</p>
+            <div class="sk-book__foot"><div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div><a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a></div>
           </div>
         </div>
         <div class="sk-book" style="--sk-color:#b45309;" data-ck="mains-gs1/Geography">
-          <div class="sk-book__accent"></div>
-          <div class="sk-book__body">
-            <p class="sk-book__num">GS1 — Geography</p>
-            <h3 class="sk-book__title"><a href="/subjects/geography/">Physical, Indian, Human & World Geography</a></h3>
-            <div class="sk-book__meta"><span>4 units</span><span>12 chapters</span></div>
-            <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin:0;">Resource distribution | Location of industries | Geophysical phenomena | Urbanization, migration</p>
-            <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div><div class="sk-book__bar-text"><span class="sk-book__bar-done"></span><a href="/upsc-checklist/" style="color:var(--sk-color);font-weight:600;text-decoration:none;">Track in Checklist &rarr;</a></div></div>
+          <div class="sk-book__accent"></div><div class="sk-book__body">
+            <div class="sk-book__top"><span class="sk-book__num">GS1 — Geography</span><span class="sk-book__pct">0%</span></div>
+            <h3 class="sk-book__title"><a href="/subjects/geography/">Resources, Industries, Geophysical Phenomena</a></h3>
+            <div class="sk-book__tags"><span class="sk-book__tag sk-book__tag--gs1">GS1</span></div>
+            <p class="sk-book__meta">4 units | 12 chapters</p>
+            <div class="sk-book__foot"><div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div><a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a></div>
           </div>
         </div>
         <div class="sk-book" style="--sk-color:#be123c;" data-ck="mains-gs1/Indian Society">
-          <div class="sk-book__accent"></div>
-          <div class="sk-book__body">
-            <p class="sk-book__num">GS1 — Indian Society</p>
+          <div class="sk-book__accent"></div><div class="sk-book__body">
+            <div class="sk-book__top"><span class="sk-book__num">GS1 — Indian Society</span><span class="sk-book__pct">0%</span></div>
             <h3 class="sk-book__title"><a href="/subjects/society/">Diversity, Women, Urbanization, Communalism, Secularism</a></h3>
-            <div class="sk-book__meta"><span>1 unit</span><span>8 chapters</span></div>
-            <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin:0;">Salient features | Role of women | Population | Globalization effects | Social empowerment</p>
-            <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div><div class="sk-book__bar-text"><span class="sk-book__bar-done"></span><a href="/upsc-checklist/" style="color:var(--sk-color);font-weight:600;text-decoration:none;">Track in Checklist &rarr;</a></div></div>
+            <div class="sk-book__tags"><span class="sk-book__tag sk-book__tag--gs1">GS1</span></div>
+            <p class="sk-book__meta">1 unit | 8 chapters</p>
+            <div class="sk-book__foot"><div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div><a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a></div>
           </div>
         </div>
       </div>
     </div>
 
-    {# ── GS2 ── #}
-    <div class="sk-module" style="--sk-color:#7c3aed;">
-      <div class="sk-module__header">
+    {# GS2 #}
+    <div class="sk-module" id="gs2" style="--sk-color:#7c3aed;">
+      <div class="sk-module__header" style="background:linear-gradient(135deg,#5b21b6 0%,#7c3aed 100%)">
         <span class="sk-module__icon">📙</span>
-        <div class="sk-module__info">
-          <h2 class="sk-module__title">GS Paper 2 — Polity, Governance, IR</h2>
-          <p class="sk-module__sub">250 marks | Constitution, Governance, Social Justice, International Relations</p>
-        </div>
-        <span class="sk-module__badge">2 Books</span>
+        <div class="sk-module__info"><h2 class="sk-module__title">GS Paper 2 — Polity, Governance, IR</h2><p class="sk-module__sub">250 marks | 20 questions</p></div>
+        <div class="sk-module__stats"><span>2 Books</span><span>20 Ch</span></div>
       </div>
       <div class="sk-books">
         <div class="sk-book" style="--sk-color:#7c3aed;" data-ck="mains-gs2/Constitution|mains-gs2/Constitutional|mains-gs2/Governance|mains-gs2/Social Justice">
-          <div class="sk-book__accent"></div>
-          <div class="sk-book__body">
-            <p class="sk-book__num">GS2 — Polity & Governance</p>
-            <h3 class="sk-book__title"><a href="/subjects/polity/">Constitution, Parliament, Judiciary, Federalism, Local Govt</a></h3>
-            <div class="sk-book__meta"><span>1 unit</span><span>14 chapters</span></div>
-            <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin:0;">Constitutional bodies | Governance & transparency | e-governance | Social justice | Welfare schemes</p>
-            <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div><div class="sk-book__bar-text"><span class="sk-book__bar-done"></span><a href="/upsc-checklist/" style="color:var(--sk-color);font-weight:600;text-decoration:none;">Track in Checklist &rarr;</a></div></div>
+          <div class="sk-book__accent"></div><div class="sk-book__body">
+            <div class="sk-book__top"><span class="sk-book__num">GS2 — Polity, Governance, Social Justice</span><span class="sk-book__pct">0%</span></div>
+            <h3 class="sk-book__title"><a href="/subjects/polity/">Constitution, Parliament, Judiciary, Welfare Schemes</a></h3>
+            <div class="sk-book__tags"><span class="sk-book__tag sk-book__tag--gs2">GS2</span></div>
+            <p class="sk-book__meta">1 unit | 14 chapters</p>
+            <div class="sk-book__foot"><div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div><a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a></div>
           </div>
         </div>
         <div class="sk-book" style="--sk-color:#0e7490;" data-ck="mains-gs2/International">
-          <div class="sk-book__accent"></div>
-          <div class="sk-book__body">
-            <p class="sk-book__num">GS2 — International Relations</p>
-            <h3 class="sk-book__title"><a href="/subjects/international-relations/">Foreign Policy, Neighbours, Multilateral Forums, Trade</a></h3>
-            <div class="sk-book__meta"><span>1 unit</span><span>6 chapters</span></div>
-            <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin:0;">India-US, China, Russia | BRICS, G20, SCO | UN reform | Diaspora | Strategic partnerships</p>
-            <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div><div class="sk-book__bar-text"><span class="sk-book__bar-done"></span><a href="/upsc-checklist/" style="color:var(--sk-color);font-weight:600;text-decoration:none;">Track in Checklist &rarr;</a></div></div>
+          <div class="sk-book__accent"></div><div class="sk-book__body">
+            <div class="sk-book__top"><span class="sk-book__num">GS2 — International Relations</span><span class="sk-book__pct">0%</span></div>
+            <h3 class="sk-book__title"><a href="/subjects/international-relations/">Foreign Policy, Neighbours, UN, WTO, BRICS, Quad</a></h3>
+            <div class="sk-book__tags"><span class="sk-book__tag sk-book__tag--gs2">GS2</span></div>
+            <p class="sk-book__meta">1 unit | 6 chapters</p>
+            <div class="sk-book__foot"><div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div><a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a></div>
           </div>
         </div>
       </div>
     </div>
 
-    {# ── GS3 ── #}
-    <div class="sk-module" style="--sk-color:#0369a1;">
-      <div class="sk-module__header">
+    {# GS3 #}
+    <div class="sk-module" id="gs3" style="--sk-color:#0369a1;">
+      <div class="sk-module__header" style="background:linear-gradient(135deg,#075985 0%,#0369a1 100%)">
         <span class="sk-module__icon">📕</span>
-        <div class="sk-module__info">
-          <h2 class="sk-module__title">GS Paper 3 — Economy, S&T, Environment, Security</h2>
-          <p class="sk-module__sub">250 marks | Economic Development, Agriculture, Science & Tech, Environment, DM, Internal Security</p>
-        </div>
-        <span class="sk-module__badge">5 Books</span>
+        <div class="sk-module__info"><h2 class="sk-module__title">GS Paper 3 — Economy, S&T, Env, Security</h2><p class="sk-module__sub">250 marks | 20 questions</p></div>
+        <div class="sk-module__stats"><span>5 Books</span><span>35 Ch</span></div>
       </div>
       <div class="sk-books">
         <div class="sk-book" style="--sk-color:#0369a1;" data-ck="mains-gs3/Economy — Planning|mains-gs3/Economy — Agriculture">
-          <div class="sk-book__accent"></div>
-          <div class="sk-book__body">
-            <p class="sk-book__num">GS3 — Indian Economy</p>
-            <h3 class="sk-book__title"><a href="/subjects/economy/">Planning, Banking, Agriculture, Industry, Trade, Infrastructure</a></h3>
-            <div class="sk-book__meta"><span>1 unit</span><span>10 chapters</span></div>
-            <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div><div class="sk-book__bar-text"><span class="sk-book__bar-done"></span><a href="/upsc-checklist/" style="color:var(--sk-color);font-weight:600;text-decoration:none;">Track in Checklist &rarr;</a></div></div>
+          <div class="sk-book__accent"></div><div class="sk-book__body">
+            <div class="sk-book__top"><span class="sk-book__num">GS3 — Economy</span><span class="sk-book__pct">0%</span></div>
+            <h3 class="sk-book__title"><a href="/subjects/economy/">Planning, Agriculture, Industry, Infrastructure, Trade</a></h3>
+            <div class="sk-book__tags"><span class="sk-book__tag sk-book__tag--gs3">GS3</span></div>
+            <p class="sk-book__meta">10 chapters</p>
+            <div class="sk-book__foot"><div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div><a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a></div>
           </div>
         </div>
         <div class="sk-book" style="--sk-color:#4338ca;" data-ck="mains-gs3/Science">
-          <div class="sk-book__accent"></div>
-          <div class="sk-book__body">
-            <p class="sk-book__num">GS3 — Science & Technology</p>
+          <div class="sk-book__accent"></div><div class="sk-book__body">
+            <div class="sk-book__top"><span class="sk-book__num">GS3 — Science & Tech</span><span class="sk-book__pct">0%</span></div>
             <h3 class="sk-book__title"><a href="/subjects/science-tech/">Space, Nuclear, IT, Biotech, Defence, IPR</a></h3>
-            <div class="sk-book__meta"><span>1 unit</span><span>7 chapters</span></div>
-            <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div><div class="sk-book__bar-text"><span class="sk-book__bar-done"></span><a href="/upsc-checklist/" style="color:var(--sk-color);font-weight:600;text-decoration:none;">Track in Checklist &rarr;</a></div></div>
+            <div class="sk-book__tags"><span class="sk-book__tag sk-book__tag--gs3">GS3</span></div>
+            <p class="sk-book__meta">7 chapters</p>
+            <div class="sk-book__foot"><div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div><a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a></div>
           </div>
         </div>
         <div class="sk-book" style="--sk-color:#047857;" data-ck="mains-gs3/Environment">
-          <div class="sk-book__accent"></div>
-          <div class="sk-book__body">
-            <p class="sk-book__num">GS3 — Environment & Ecology</p>
-            <h3 class="sk-book__title"><a href="/subjects/environment/">Biodiversity, Pollution, Climate Change, Environmental Laws</a></h3>
-            <div class="sk-book__meta"><span>1 unit</span><span>6 chapters</span></div>
-            <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div><div class="sk-book__bar-text"><span class="sk-book__bar-done"></span><a href="/upsc-checklist/" style="color:var(--sk-color);font-weight:600;text-decoration:none;">Track in Checklist &rarr;</a></div></div>
+          <div class="sk-book__accent"></div><div class="sk-book__body">
+            <div class="sk-book__top"><span class="sk-book__num">GS3 — Environment</span><span class="sk-book__pct">0%</span></div>
+            <h3 class="sk-book__title"><a href="/subjects/environment/">Biodiversity, Pollution, Climate Change, Laws</a></h3>
+            <div class="sk-book__tags"><span class="sk-book__tag sk-book__tag--gs3">GS3</span></div>
+            <p class="sk-book__meta">6 chapters</p>
+            <div class="sk-book__foot"><div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div><a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a></div>
           </div>
         </div>
         <div class="sk-book" style="--sk-color:#dc2626;" data-ck="mains-gs3/Disaster">
-          <div class="sk-book__accent"></div>
-          <div class="sk-book__body">
-            <p class="sk-book__num">GS3 — Disaster Management</p>
-            <h3 class="sk-book__title"><a href="/subjects/disaster-management/">NDMA, NDRF, Sendai Framework, Floods, Earthquakes, Urban DM</a></h3>
-            <div class="sk-book__meta"><span>1 unit</span><span>6 chapters</span></div>
-            <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div><div class="sk-book__bar-text"><span class="sk-book__bar-done"></span><a href="/upsc-checklist/" style="color:var(--sk-color);font-weight:600;text-decoration:none;">Track in Checklist &rarr;</a></div></div>
+          <div class="sk-book__accent"></div><div class="sk-book__body">
+            <div class="sk-book__top"><span class="sk-book__num">GS3 — Disaster Mgmt</span><span class="sk-book__pct">0%</span></div>
+            <h3 class="sk-book__title"><a href="/subjects/disaster-management/">NDMA, Sendai, Floods, Earthquakes, Urban DM</a></h3>
+            <div class="sk-book__tags"><span class="sk-book__tag sk-book__tag--gs3">GS3</span></div>
+            <p class="sk-book__meta">6 chapters</p>
+            <div class="sk-book__foot"><div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div><a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a></div>
           </div>
         </div>
         <div class="sk-book" style="--sk-color:#1e3a5f;" data-ck="mains-gs3/Internal Security">
-          <div class="sk-book__accent"></div>
-          <div class="sk-book__body">
-            <p class="sk-book__num">GS3 — Internal Security</p>
-            <h3 class="sk-book__title"><a href="/subjects/security/">Terrorism, LWE, Border Mgmt, Cyber Security, Organised Crime</a></h3>
-            <div class="sk-book__meta"><span>1 unit</span><span>6 chapters</span></div>
-            <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div><div class="sk-book__bar-text"><span class="sk-book__bar-done"></span><a href="/upsc-checklist/" style="color:var(--sk-color);font-weight:600;text-decoration:none;">Track in Checklist &rarr;</a></div></div>
+          <div class="sk-book__accent"></div><div class="sk-book__body">
+            <div class="sk-book__top"><span class="sk-book__num">GS3 — Internal Security</span><span class="sk-book__pct">0%</span></div>
+            <h3 class="sk-book__title"><a href="/subjects/security/">Terrorism, LWE, Border, Cyber, Organised Crime</a></h3>
+            <div class="sk-book__tags"><span class="sk-book__tag sk-book__tag--gs3">GS3</span></div>
+            <p class="sk-book__meta">6 chapters</p>
+            <div class="sk-book__foot"><div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div><a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a></div>
           </div>
         </div>
       </div>
     </div>
 
-    {# ── GS4 ── #}
-    <div class="sk-module" style="--sk-color:#854d0e;">
-      <div class="sk-module__header">
+    {# GS4 #}
+    <div class="sk-module" id="gs4" style="--sk-color:#854d0e;">
+      <div class="sk-module__header" style="background:linear-gradient(135deg,#713f12 0%,#854d0e 100%)">
         <span class="sk-module__icon">📓</span>
-        <div class="sk-module__info">
-          <h2 class="sk-module__title">GS Paper 4 — Ethics, Integrity & Aptitude</h2>
-          <p class="sk-module__sub">250 marks | Ethics, Attitude, EI, Probity, Civil Service Values, Case Studies</p>
-        </div>
-        <span class="sk-module__badge">1 Book</span>
+        <div class="sk-module__info"><h2 class="sk-module__title">GS Paper 4 — Ethics, Integrity & Aptitude</h2><p class="sk-module__sub">250 marks | Theory (125) + Case Studies (125)</p></div>
+        <div class="sk-module__stats"><span>1 Book</span><span>8 Ch</span></div>
       </div>
       <div class="sk-books">
         <div class="sk-book" style="--sk-color:#854d0e;" data-ck="mains-gs4/">
-          <div class="sk-book__accent"></div>
-          <div class="sk-book__body">
-            <p class="sk-book__num">GS4 — Ethics</p>
-            <h3 class="sk-book__title"><a href="/subjects/ethics/">Ethics, Attitude, EI, Probity in Governance, Case Studies</a></h3>
-            <div class="sk-book__meta"><span>1 unit</span><span>8 chapters</span></div>
-            <ul class="sk-book__chapters">
-              <li><a href="/subjects/ethics/ethics-aptitude/"><span class="sk-book__ch-num">01</span> Ethics, Integrity & Aptitude (8 ch)</a></li>
-            </ul>
-            <div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div><div class="sk-book__bar-text"><span class="sk-book__bar-done"></span><a href="/upsc-checklist/" style="color:var(--sk-color);font-weight:600;text-decoration:none;">Track in Checklist &rarr;</a></div></div>
+          <div class="sk-book__accent"></div><div class="sk-book__body">
+            <div class="sk-book__top"><span class="sk-book__num">GS4 — Ethics</span><span class="sk-book__pct">0%</span></div>
+            <h3 class="sk-book__title"><a href="/subjects/ethics/">Ethics, Attitude, EI, Probity, Moral Thinkers, Case Studies</a></h3>
+            <div class="sk-book__tags"><span class="sk-book__tag sk-book__tag--gs4">GS4</span></div>
+            <p class="sk-book__meta">1 unit | 8 chapters <span class="sk-book__time">~12 hrs</span></p>
+            <div class="sk-book__foot"><div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div><a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a></div>
           </div>
         </div>
       </div>
     </div>
 
-    {# ── ESSAY ── #}
-    <div class="sk-module" style="--sk-color:#b45309;">
-      <div class="sk-module__header">
+    {# ════════════════ ESSAY ════════════════ #}
+    <div class="sk-module" id="essay" style="--sk-color:#b45309;">
+      <div class="sk-module__header" style="background:linear-gradient(135deg,#92400e 0%,#b45309 100%)">
         <span class="sk-module__icon">📝</span>
-        <div class="sk-module__info">
-          <h2 class="sk-module__title">Essay Module</h2>
-          <p class="sk-module__sub">250 marks | 2 essays from 2 sections | 1000-1200 words each</p>
-        </div>
-        <span class="sk-module__badge">Practice</span>
+        <div class="sk-module__info"><h2 class="sk-module__title">Essay Module</h2><p class="sk-module__sub">250 marks | 2 essays from 2 sections | ~1000 words each</p></div>
       </div>
       <div class="sk-books">
-        <div class="sk-book" style="--sk-color:#b45309;">
-          <div class="sk-book__accent"></div>
-          <div class="sk-book__body">
-            <p class="sk-book__num">Essay Preparation</p>
+        <div class="sk-book" style="--sk-color:#b45309;" data-ck="mains-essay/">
+          <div class="sk-book__accent"></div><div class="sk-book__body">
+            <div class="sk-book__top"><span class="sk-book__num">Essay Practice</span><span class="sk-book__pct">0%</span></div>
             <h3 class="sk-book__title"><a href="https://ujiyari.com/mains-guide/" target="_blank" rel="noopener">Answer Writing Guide — Ujiyari.com</a></h3>
-            <div class="sk-book__meta"><span>I-B-C Framework</span><span>Directive Decoder</span><span>Practice Lab</span></div>
-            <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin:0;">Essay categories: Philosophy, Society, Governance, Economy, Environment, S&T, International Affairs, Quotation-based</p>
+            <div class="sk-book__tags"><span class="sk-book__tag sk-book__tag--gs1">All Papers</span></div>
+            <p class="sk-book__meta">I-B-C framework | Directive decoder | Practice lab | Value bank</p>
+            <p style="font-size:var(--text-xs);color:var(--color-text-muted);margin:var(--space-2) 0 0;">Categories: Philosophy, Society, Governance, Economy, Environment, S&T, International, Quotation-based</p>
+            <div class="sk-book__foot"><div class="sk-book__bar"><div class="sk-book__bar-track"><div class="sk-book__bar-fill"></div></div></div><a href="/upsc-checklist/" class="sk-book__track-link">Checklist &rarr;</a></div>
           </div>
         </div>
       </div>
     </div>
 
-    {# ═══════════════════════════════════════
-       SUPPLEMENTARY PACK
-       ═══════════════════════════════════════ #}
-    <h2 class="sk-section-label">Supplementary Pack</h2>
-    <p style="font-size:var(--text-sm); color:var(--color-text-muted); margin-bottom:var(--space-5);">Tools, trackers, and current affairs resources to support your core study material.</p>
+    {# ════════════════ SUPPLEMENTARY PACK ════════════════ #}
+    <h2 class="sk-section-label" id="supplementary">Supplementary Pack</h2>
 
-    <div class="sk-supp">
-      <a href="https://ujiyari.com/daily/" target="_blank" rel="noopener" class="sk-supp-card">
+    <p style="font-size:var(--text-sm);color:var(--color-text-muted);margin-bottom:var(--space-3);">Essential tools — use alongside core study material.</p>
+    <div class="sk-supp sk-supp--priority">
+      <a href="https://ujiyari.com/daily/" target="_blank" rel="noopener" class="sk-supp-card sk-supp-card--featured">
         <span class="sk-supp-card__icon">📰</span>
-        <div><span class="sk-supp-card__text">Daily Current Affairs</span><br><span class="sk-supp-card__ext">Ujiyari.com</span></div>
+        <div><span class="sk-supp-card__text">Daily Current Affairs</span><br><span class="sk-supp-card__desc">Ujiyari.com — 30 min/day from Day 1</span></div>
       </a>
-      <a href="https://ujiyari.com/editorial/" target="_blank" rel="noopener" class="sk-supp-card">
-        <span class="sk-supp-card__icon">📝</span>
-        <div><span class="sk-supp-card__text">Editorial Analysis</span><br><span class="sk-supp-card__ext">Ujiyari.com</span></div>
-      </a>
-      <a href="https://ujiyari.com/monthly/" target="_blank" rel="noopener" class="sk-supp-card">
-        <span class="sk-supp-card__icon">📅</span>
-        <div><span class="sk-supp-card__text">Monthly Digest</span><br><span class="sk-supp-card__ext">Ujiyari.com</span></div>
-      </a>
-      <a href="/pyq/" class="sk-supp-card">
+      <a href="/pyq/" class="sk-supp-card sk-supp-card--featured">
         <span class="sk-supp-card__icon">📊</span>
-        <span class="sk-supp-card__text">PYQ Analysis</span>
+        <div><span class="sk-supp-card__text">PYQ Analysis & Trends</span><br><span class="sk-supp-card__desc">Topic-wise previous year questions</span></div>
       </a>
-      <a href="/upsc-checklist/" class="sk-supp-card">
+      <a href="/upsc-checklist/" class="sk-supp-card sk-supp-card--featured">
         <span class="sk-supp-card__icon">📋</span>
-        <span class="sk-supp-card__text">Syllabus Checklist</span>
-      </a>
-      <a href="/resources/vocab-builder/" class="sk-supp-card">
-        <span class="sk-supp-card__icon">📚</span>
-        <span class="sk-supp-card__text">Vocabulary Builder</span>
-      </a>
-      <a href="/resources/key-terms/" class="sk-supp-card">
-        <span class="sk-supp-card__icon">📖</span>
-        <span class="sk-supp-card__text">Key Terms & Concepts</span>
-      </a>
-      <a href="/tracker/" class="sk-supp-card">
-        <span class="sk-supp-card__icon">📈</span>
-        <span class="sk-supp-card__text">Progress Tracker</span>
-      </a>
-      <a href="/syllabus-tracker/" class="sk-supp-card">
-        <span class="sk-supp-card__icon">✅</span>
-        <span class="sk-supp-card__text">Syllabus Tracker</span>
-      </a>
-      <a href="/study-plan/" class="sk-supp-card">
-        <span class="sk-supp-card__icon">🗓️</span>
-        <span class="sk-supp-card__text">Study Plan</span>
-      </a>
-      <a href="/resources/" class="sk-supp-card">
-        <span class="sk-supp-card__icon">📕</span>
-        <span class="sk-supp-card__text">Books & Resources</span>
-      </a>
-      <a href="https://ujiyari.com/mains-guide/" target="_blank" rel="noopener" class="sk-supp-card">
-        <span class="sk-supp-card__icon">✍️</span>
-        <div><span class="sk-supp-card__text">Mains Writing Guide</span><br><span class="sk-supp-card__ext">Ujiyari.com</span></div>
+        <div><span class="sk-supp-card__text">Syllabus Checklist (559 topics)</span><br><span class="sk-supp-card__desc">Track micro-topic progress</span></div>
       </a>
     </div>
 
-    {# ── Bottom CTA ── #}
+    <div class="sk-supp">
+      <a href="https://ujiyari.com/editorial/" target="_blank" rel="noopener" class="sk-supp-card"><span class="sk-supp-card__icon">📝</span><div><span class="sk-supp-card__text">Editorial Analysis</span><br><span class="sk-supp-card__desc">Ujiyari.com</span></div></a>
+      <a href="https://ujiyari.com/monthly/" target="_blank" rel="noopener" class="sk-supp-card"><span class="sk-supp-card__icon">📅</span><div><span class="sk-supp-card__text">Monthly Digest</span><br><span class="sk-supp-card__desc">Ujiyari.com</span></div></a>
+      <a href="https://ujiyari.com/mains-guide/" target="_blank" rel="noopener" class="sk-supp-card"><span class="sk-supp-card__icon">✍️</span><div><span class="sk-supp-card__text">Mains Writing Guide</span><br><span class="sk-supp-card__desc">Ujiyari.com</span></div></a>
+      <a href="/resources/vocab-builder/" class="sk-supp-card"><span class="sk-supp-card__icon">📚</span><span class="sk-supp-card__text">Vocabulary Builder</span></a>
+      <a href="/resources/key-terms/" class="sk-supp-card"><span class="sk-supp-card__icon">📖</span><span class="sk-supp-card__text">Key Terms & Concepts</span></a>
+      <a href="/tracker/" class="sk-supp-card"><span class="sk-supp-card__icon">📈</span><span class="sk-supp-card__text">Progress Tracker</span></a>
+      <a href="/syllabus-tracker/" class="sk-supp-card"><span class="sk-supp-card__icon">✅</span><span class="sk-supp-card__text">Syllabus Tracker</span></a>
+      <a href="/study-plan/" class="sk-supp-card"><span class="sk-supp-card__icon">🗓️</span><span class="sk-supp-card__text">Study Plan</span></a>
+      <a href="/resources/" class="sk-supp-card"><span class="sk-supp-card__icon">📕</span><span class="sk-supp-card__text">Books & Resources</span></a>
+    </div>
+
+    {# ── CTA ── #}
     <div class="sk-cta">
       <h3>Your complete UPSC study material — structured, free, and always updated.</h3>
-      <p>New chapters and current affairs are added regularly. Bookmark this page and track your progress as you go.</p>
-      <a href="/start-here/" class="sk-cta-btn">Start Your Preparation</a>
+      <p>New chapters added regularly. Track progress with the Syllabus Checklist and come back to pick up where you left off.</p>
+      <div class="sk-cta-btns">
+        <a href="/start-here/" class="sk-cta-btn sk-cta-btn--white">Start Your Preparation</a>
+        <a href="/upsc-checklist/" class="sk-cta-btn sk-cta-btn--ghost">Open Syllabus Checklist</a>
+      </div>
     </div>
 
   </div>
 </section>
 
 <script>
-(function() {
-  try {
-    var state = JSON.parse(localStorage.getItem('bharatnotes_upsc_checklist') || '{}');
-    var keys = Object.keys(state);
-    var totalDone = keys.length;
-    var totalTopics = 559;
+(function(){
+  try{
+    var state=JSON.parse(localStorage.getItem('bharatnotes_upsc_checklist')||'{}');
+    var keys=Object.keys(state);
+    var totalDone=keys.length,totalTopics=559;
+    var pct=totalTopics?Math.round(totalDone/totalTopics*100):0;
+    document.getElementById('sk-pct').textContent=pct+'%';
+    document.getElementById('sk-bar').style.width=pct+'%';
+    if(totalDone>0)document.getElementById('sk-bar-text').textContent=totalDone+' of '+totalTopics+' syllabus topics covered';
 
-    // ── Overall hero progress ──
-    var pct = totalTopics ? Math.round(totalDone / totalTopics * 100) : 0;
-    document.getElementById('sk-pct').textContent = pct + '%';
-    document.getElementById('sk-bar').style.width = pct + '%';
-    if (totalDone > 0) {
-      document.getElementById('sk-bar-text').textContent = totalDone + ' of ' + totalTopics + ' syllabus topics covered';
-    }
+    var tc={'prelims-gs/':224,'prelims-csat/':19,'prelims-gs/Current Events':21,'prelims-gs/History —':59,'prelims-gs/Geography —':51,'prelims-gs/Indian Polity':28,'prelims-gs/Economic':23,'prelims-gs/Environment':24,'prelims-gs/General Science — S&T':10,'prelims-gs/General Science — Physics':14,'prelims-gs/General Science — Biology':11,'mains-essay/':13,'mains-gs1/Indian Heritage':14,'mains-gs1/Modern Indian':13,'mains-gs1/World History':14,'mains-gs1/Geography':13,'mains-gs1/Indian Society':14,'mains-gs2/Constitution':12,'mains-gs2/Constitutional':9,'mains-gs2/Governance':10,'mains-gs2/Social Justice':14,'mains-gs2/International':16,'mains-gs3/Economy — Planning':9,'mains-gs3/Economy — Agriculture':11,'mains-gs3/Science':11,'mains-gs3/Environment':11,'mains-gs3/Disaster':8,'mains-gs3/Internal Security':12,'mains-gs4/':48};
 
-    // ── Per-book progress from data-ck attributes ──
-    var books = document.querySelectorAll('.sk-book[data-ck]');
-    books.forEach(function(book) {
-      var prefixes = book.dataset.ck.split('|');
-      var matched = 0, total = 0;
-
-      // Count all checklist keys matching any prefix
-      keys.forEach(function(k) {
-        for (var i = 0; i < prefixes.length; i++) {
-          if (k.indexOf(prefixes[i]) === 0) { matched++; break; }
-        }
-      });
-
-      // Count total topics for these prefixes (scan all keys in checklist structure)
-      // We approximate by scanning a known topic count map
-      var topicCounts = {
-        'prelims-gs/History —': 59, 'prelims-gs/Geography —': 27, 'prelims-gs/Geography — Indian': 24,
-        'prelims-gs/Indian Polity': 28, 'prelims-gs/Economic': 23, 'prelims-gs/Environment': 24,
-        'prelims-gs/General Science — S&T': 10, 'prelims-gs/General Science — Physics': 14,
-        'prelims-gs/General Science — Biology': 11,
-        'mains-gs1/Indian Heritage': 14, 'mains-gs1/Modern Indian': 13, 'mains-gs1/World History': 14,
-        'mains-gs1/Geography': 13, 'mains-gs1/Indian Society': 14,
-        'mains-gs2/Constitution': 12, 'mains-gs2/Constitutional': 9, 'mains-gs2/Governance': 10,
-        'mains-gs2/Social Justice': 14, 'mains-gs2/International': 16,
-        'mains-gs3/Economy — Planning': 9, 'mains-gs3/Economy — Agriculture': 11,
-        'mains-gs3/Science': 11, 'mains-gs3/Environment': 11,
-        'mains-gs3/Disaster': 8, 'mains-gs3/Internal Security': 12,
-        'mains-gs4/': 48
-      };
-
-      prefixes.forEach(function(p) {
-        Object.keys(topicCounts).forEach(function(k) {
-          if (k.indexOf(p) === 0 || p.indexOf(k) === 0) total += topicCounts[k];
-        });
-      });
-
-      if (total === 0) total = 1; // prevent division by zero
-      var bookPct = Math.min(100, Math.round(matched / total * 100));
-
-      var fill = book.querySelector('.sk-book__bar-fill');
-      var doneEl = book.querySelector('.sk-book__bar-done');
-      var color = getComputedStyle(book).getPropertyValue('--sk-color').trim();
-
-      if (fill) {
-        fill.style.width = bookPct + '%';
-        fill.style.background = color || 'var(--color-brand)';
-      }
-      if (doneEl) {
-        doneEl.textContent = matched + ' / ' + total + ' topics (' + bookPct + '%)';
-      }
+    document.querySelectorAll('.sk-book[data-ck]').forEach(function(book){
+      var prefixes=book.dataset.ck.split('|');
+      var matched=0,total=0;
+      keys.forEach(function(k){for(var i=0;i<prefixes.length;i++){if(k.indexOf(prefixes[i])===0){matched++;break;}}});
+      prefixes.forEach(function(p){Object.keys(tc).forEach(function(k){if(k.indexOf(p)===0||p.indexOf(k)===0)total+=tc[k];});});
+      if(total===0)total=1;
+      var bp=Math.min(100,Math.round(matched/total*100));
+      var fill=book.querySelector('.sk-book__bar-fill');
+      var pctEl=book.querySelector('.sk-book__pct');
+      var color=getComputedStyle(book).getPropertyValue('--sk-color').trim();
+      if(fill){fill.style.width=bp+'%';fill.style.background=color||'var(--color-brand)';}
+      if(pctEl&&book.dataset.ck!=='prelims-gs/Current Events')pctEl.textContent=bp+'%';
     });
-  } catch(e) {}
+  }catch(e){}
 })();
 </script>
