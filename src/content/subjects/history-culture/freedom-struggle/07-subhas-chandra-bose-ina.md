@@ -98,7 +98,7 @@ Subhas Chandra Bose represents the most dramatic chapter of the freedom struggle
 | **Bose took command** | **4 July 1943** — arrived in Singapore; took over from **Rash Behari Bose** (who had been leading the Indian Independence League in East Asia) |
 | **Strength** | Reorganised and expanded the INA to approximately **40,000–50,000 soldiers** |
 | **Recruitment** | Indian POWs + civilian volunteers from the Indian diaspora in Malaya, Singapore, Burma, and Thailand |
-| **Slogans** | **"Delhi Chalo!"** (On to Delhi!), **"Jai Hind"** (Victory to India), **"Inquilab Zindabad"** |
+| **Slogans** | **"Delhi Chalo!"** (On to Delhi!), **"Jai Hind"** (Victory to India — originally coined by **Chempakaraman Pillai** and Bose's aide **Abid Hasan**; popularised by Bose as the INA's official greeting), **"Inquilab Zindabad"** |
 | **Famous speech** | **"Give me blood and I shall give you freedom"** — delivered at a rally in Burma |
 
 ### Rani of Jhansi Regiment
@@ -156,7 +156,7 @@ Subhas Chandra Bose represents the most dramatic chapter of the freedom struggle
 | Feature | Detail |
 |---------|--------|
 | **What** | The British put captured INA officers on trial for **"waging war against the King-Emperor"** at the **Red Fort, Delhi** |
-| **First trial** | **November–December 1945** — the most famous trial involved **Captain Shah Nawaz Khan**, **Captain Prem Kumar Sahgal**, and **Lieutenant Gurbaksh Singh Dhillon** — deliberately chosen as one Hindu, one Muslim, and one Sikh to prevent communal sympathy |
+| **First trial** | **November–December 1945** — the most famous trial involved **Major General Shah Nawaz Khan**, **Colonel Prem Kumar Sahgal**, and **Colonel Gurbaksh Singh Dhillon** — deliberately chosen as one Muslim, one Hindu, and one Sikh to prevent communal sympathy |
 | **Defence counsel** | **Bhulabhai Desai** (lead), assisted by **Jawaharlal Nehru**, **Tej Bahadur Sapru**, and **Kailash Nath Katju**; Nehru donned his barrister's robes after many years to defend the INA men |
 | **Verdict** | All three found **guilty** but sentences were **remitted** by the Commander-in-Chief **Claude Auchinleck** — due to massive public pressure |
 | **Public reaction** | Nationwide protests; the INA trial became the most powerful unifying issue across Hindu, Muslim, and Sikh communities; "Lal Qila Chalo" (On to the Red Fort) became a rallying cry |
@@ -192,7 +192,7 @@ Subhas Chandra Bose represents the most dramatic chapter of the freedom struggle
 - Imphal-Kohima: March–July 1944; Allied victory; "Stalingrad of the East"
 - INA flag hoisted at Moirang, Manipur (14 April 1944)
 - Bose died: 18 August 1945, Taihoku (Taipei), plane crash
-- INA Trials: Red Fort; Shah Nawaz Khan, Sahgal, Dhillon; Nehru defended them
+- INA Trials: Red Fort; Maj Gen Shah Nawaz Khan, Col Sahgal, Col Dhillon; Nehru defended them
 
 ### Mains Focus Areas
 - Assess Bose's contribution to India's independence — was the INA's military failure overshadowed by its political impact?
