@@ -279,4 +279,35 @@ Link these static concepts with live developments:
 
 ---
 
+## Vocabulary
+
+### Writ
+- **Pronunciation:** /rɪt/
+- **Definition:** A formal written order issued by a court of law directing a person or authority to do or refrain from doing a specified act.
+- **Origin:** From Old English *writ* and *ġewrit* ("writing"), derived from Proto-Germanic *writą* ("writing, fissure"), ultimately from the Proto-Indo-European root *wrey-* ("to scratch, carve"); in English common law, writs became the standard mechanism through which royal courts exercised jurisdiction.
+
+### Habeas Corpus
+- **Pronunciation:** /ˈheɪ.bi.əs ˈkɔː.pəs/
+- **Definition:** A judicial writ requiring that a detained person be brought before a court so that the legality of their detention can be examined.
+- **Origin:** From the Latin phrase *habeas corpus ad subjiciendum* ("you shall have the body to be subjected to examination"), combining *habeas* (second person singular subjunctive of *habēre*, "to have") and *corpus* ("body"); its earliest recorded use in English dates to 1465, and it became a cornerstone of individual liberty through the English Habeas Corpus Act of 1679.
+
+### Mandamus
+- **Pronunciation:** /mænˈdeɪ.məs/
+- **Definition:** A judicial writ issued by a superior court commanding a public authority, tribunal, or lower court to perform a mandatory or ministerial duty that it has failed or refused to perform.
+- **Origin:** From Latin *mandāmus* ("we command"), the first person plural present indicative of *mandāre* ("to order"), itself derived from *manus* ("hand") + *dare* ("to give"), literally meaning "to give into one's hand."
+
+## Key Terms
+
+### Right to Constitutional Remedies
+- **Pronunciation:** /raɪt tuː ˌkɒn.stɪˈtjuː.ʃən.əl ˈrem.ə.diz/
+- **Definition:** The fundamental right guaranteed under Article 32 of the Indian Constitution that empowers citizens to approach the Supreme Court directly for the enforcement of their Fundamental Rights through five types of writs.
+- **Origin:** Enshrined in Part III of the Constitution of India (1950); Dr. B.R. Ambedkar called Article 32 "the heart and soul of the Constitution," declaring it the most important article "without which this Constitution would be a nullity."
+
+### Reasonable Restrictions
+- **Pronunciation:** /ˈriː.zən.ə.bəl rɪˈstrɪk.ʃənz/
+- **Definition:** Constitutionally permitted limitations that the state may impose by law on the exercise of Fundamental Rights under Article 19, on specified grounds such as sovereignty, public order, decency, morality, and security of the state.
+- **Origin:** The phrase was incorporated into the Draft Constitution during Constituent Assembly debates to enable courts to review legislation and strike down arbitrary curbs on freedoms; the Supreme Court in *Maneka Gandhi v. Union of India* (1978) further held that such restrictions must satisfy the test of proportionality and be "just, fair, and reasonable."
+
+---
+
 *Sources: [Constitution of India](https://legislative.gov.in/constitution-of-india), [National Portal of India](https://knowindia.india.gov.in/profile/fundamental-rights.php), [PRS India](https://prsindia.org)*

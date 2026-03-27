@@ -244,6 +244,39 @@ Adopted at CBD COP-15, this landmark framework sets 4 goals and 23 targets for 2
 
 ---
 
+## Vocabulary
+
+### Biodiversity
+- **Pronunciation:** /ˌbaɪəʊdaɪˈvɜːsɪti/
+- **Definition:** The variety and variability of all forms of life — including genetic diversity within species, species diversity within ecosystems, and ecosystem diversity across landscapes — within a given region or across the entire planet.
+- **Origin:** A modern compound coined in 1985 in the United States, formed from Greek *bios* ("life") and Latin *diversitas* ("variety, difference"); the term was popularised by the 1986 National Forum on BioDiversity organised by E.O. Wilson.
+
+### Endemic
+- **Pronunciation:** /ɛnˈdɛmɪk/
+- **Definition:** A species that is native to and found exclusively within a particular, defined geographic area — such as an island, a mountain range, or a country — with no naturally occurring populations elsewhere in the world.
+- **Origin:** From Neo-Latin *endēmicus*, derived from Greek *endēmos* ("native"), combining *en* ("in") and *dēmos* ("the people"); originally a medical term for diseases constantly present in a locality, later adopted in ecology to describe geographically restricted species.
+
+### Keystone Species
+- **Pronunciation:** /ˈkiːstəʊn ˈspiːʃiːz/
+- **Definition:** A species that has a disproportionately large effect on its ecosystem relative to its abundance, such that its removal would cause significant structural change to the ecological community.
+- **Origin:** Coined by American zoologist Robert T. Paine in 1969 after his experiments on the starfish *Pisaster ochraceus* in Pacific Northwest tidal pools; the term draws an analogy with the architectural keystone — the central wedge-shaped stone at the top of an arch that holds the entire structure together.
+
+---
+
+## Key Terms
+
+### Biodiversity Hotspot
+- **Pronunciation:** /ˌbaɪəʊdaɪˈvɜːsɪti ˈhɒtspɒt/
+- **Definition:** A biogeographic region that simultaneously contains at least 1,500 endemic vascular plant species and has lost at least 70% of its primary native vegetation, qualifying it as both biologically rich and critically threatened.
+- **Origin:** The concept was first proposed by British ecologist Norman Myers in 1988 in *The Environmentalist*; the criteria were refined in a landmark 2000 paper by Myers and colleagues in *Nature*, leading to the current recognition of 36 global biodiversity hotspots by Conservation International.
+
+### IUCN Red List
+- **Pronunciation:** /ˌaɪjuːsiːˈɛn rɛd lɪst/
+- **Definition:** The world's most comprehensive inventory of the global conservation status of biological species, maintained by the International Union for Conservation of Nature, classifying species into categories from Least Concern to Extinct based on quantitative criteria assessing extinction risk.
+- **Origin:** Established in 1964 by the IUCN, with the first two Red List volumes published in 1966 by conservationist Noel Simon (covering mammals and birds); the word "red" was chosen because it universally signals danger — a convention rooted in earlier practices of using red ink to mark species at risk.
+
+---
+
 ---
 
 ## Current Affairs Connect

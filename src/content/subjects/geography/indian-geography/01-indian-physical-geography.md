@@ -246,6 +246,39 @@ The Andaman & Nicobar Islands extend India's Exclusive Economic Zone (EEZ) signi
 
 ---
 
+## Vocabulary
+
+### Physiography
+- **Pronunciation:** /ˌfɪziˈɒɡrəfi/
+- **Definition:** The branch of physical geography that studies the Earth's natural physical features, including landforms, climate, vegetation, and hydrology.
+- **Origin:** From French *physiographie*, combining Greek *phusis* ("nature") and *grapho* ("to write"); earliest recorded use in English dates to 1799 in Immanuel Kant's *Essays & Treatises*.
+
+### Alluvial
+- **Pronunciation:** /əˈluːviəl/
+- **Definition:** Relating to or composed of sediment (clay, silt, sand, gravel) deposited by flowing water, especially in river valleys and floodplains.
+- **Origin:** From Medieval Latin *alluvius* ("washed against"), derived from Latin *alluere* ("to wash against"), combining *ad* ("to, against") and *lavere* ("to wash"); first attested in English in 1771.
+
+### Peninsular
+- **Pronunciation:** /pəˈnɪnsjʊlə(r)/
+- **Definition:** Of or relating to a peninsula — a landmass almost entirely surrounded by water but connected to the mainland by a narrow strip of land.
+- **Origin:** A learned borrowing from Latin *paenīnsulāris*, derived from *paene* ("almost") and *insula* ("island"), literally meaning "almost an island."
+
+---
+
+## Key Terms
+
+### Deccan Plateau
+- **Pronunciation:** /ˈdɛkən pləˈtəʊ/
+- **Definition:** A large triangular plateau in southern India, covering approximately 422,000 sq km, bounded by the Western Ghats, Eastern Ghats, and the Vindhya-Satpura ranges, with an average elevation of about 600 metres.
+- **Origin:** The word "Deccan" is an anglicised form of the Prakrit word *dakkhaṇa*, derived from Sanskrit *dakṣiṇa* meaning "south," reflecting the plateau's location in the southern part of the Indian subcontinent.
+
+### Interlinking of Rivers
+- **Pronunciation:** /ˌɪntəˈlɪŋkɪŋ ɒv ˈrɪvəz/
+- **Definition:** A proposed large-scale Indian civil engineering programme that aims to transfer water from surplus river basins to deficit basins through a network of reservoirs and canals, comprising 30 links under the Himalayan and Peninsular components.
+- **Origin:** The concept traces back to 19th-century British engineer Arthur Cotton's proposals; it was formally revived by Dr K.L. Rao's "National Water Grid" idea in the 1970s, and the National Perspective Plan was published by the Ministry of Water Resources in 1980, with the National Water Development Agency (NWDA) established in 1982 to carry out feasibility studies.
+
+---
+
 ---
 
 ## Current Affairs Connect

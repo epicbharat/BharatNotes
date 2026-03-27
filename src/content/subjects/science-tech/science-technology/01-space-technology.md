@@ -225,6 +225,35 @@ The number of space start-ups in India has grown from just 1 in 2014 to over 266
 
 ---
 
+## Vocabulary
+
+### Cryogenic
+- **Pronunciation:** /ˌkraɪəˈdʒɛnɪk/
+- **Definition:** Relating to the production and use of extremely low temperatures, typically below -150 degrees Celsius (-238 degrees Fahrenheit), at which gases such as hydrogen and oxygen are liquefied for use as rocket propellants.
+- **Origin:** From Greek *kryos* (κρύος, "icy cold, frost") + *-genic* ("producing"); first used in English in the 1890s; in India's space programme, indigenous cryogenic engine technology was a major milestone — ISRO developed its own Cryogenic Upper Stage (CUS) after technology transfer was denied by Russia under US pressure in the 1990s.
+
+### Geostationary
+- **Pronunciation:** /ˌdʒiːoʊˈsteɪʃənɛri/
+- **Definition:** Describing a circular orbit approximately 35,786 km above the Earth's equator, where a satellite's orbital period matches the Earth's rotation, causing it to appear stationary relative to a fixed point on the ground.
+- **Origin:** From Greek *geo* (γῆ, "earth") + *stationary* (from Latin *stationarius*, "standing still"); the concept was popularised by science fiction writer Arthur C. Clarke in the 1940s; the first geostationary satellite was launched in 1963; India's GSAT and INSAT communication satellites operate in this orbit.
+
+### Payload
+- **Pronunciation:** /ˈpeɪloʊd/
+- **Definition:** The cargo carried by a launch vehicle into space, including satellites, scientific instruments, crew modules, or other equipment — distinct from the vehicle's own propulsion and structural systems.
+- **Origin:** A compound of *pay* + *load*, originally used in the early 20th century (first recorded 1914) in the trucking industry to describe revenue-generating cargo; adopted into aerospace terminology to denote the useful carrying capacity of a rocket — for example, PSLV-XL can carry approximately 1,750 kg to Sun-Synchronous Orbit.
+
+## Key Terms
+
+### PSLV
+- **Pronunciation:** /piː.ɛs.ɛl.viː/
+- **Definition:** The Polar Satellite Launch Vehicle, India's third-generation and most reliable expendable launch vehicle, capable of delivering approximately 1,750 kg to Sun-Synchronous Orbit and designed primarily for placing remote sensing satellites into polar orbits.
+- **Origin:** Developed by ISRO with its first launch on 20 September 1993 (unsuccessful) and first successful flight in October 1994; often called India's "workhorse" rocket, it has four variants (PSLV-G, PSLV-CA, PSLV-XL, PSLV-DL) and has launched landmark missions including Chandrayaan-1, Mangalyaan, and Aditya-L1.
+
+### Gaganyaan Mission
+- **Pronunciation:** /ˈɡɑːɡənˌjɑːn/
+- **Definition:** India's first crewed orbital spaceflight programme, designed to send a crew of two or three astronauts to low Earth orbit at approximately 400 km altitude for up to seven days, using the Human Rated LVM3 (HLVM3) launch vehicle.
+- **Origin:** From Sanskrit *gagana* (गगन, "sky, celestial") + *yana* (यान, "vehicle, craft"), meaning "sky vehicle"; announced by Prime Minister Narendra Modi on 15 August 2018; upon successful completion, India will become the fourth nation to conduct independent human spaceflight after Russia, the United States, and China.
+
 ---
 
 ## Current Affairs Connect

@@ -271,6 +271,39 @@ India spans multiple Koppen climate zones due to its varied topography and latit
 
 ---
 
+## Vocabulary
+
+### Monsoon
+- **Pronunciation:** /mɒnˈsuːn/
+- **Definition:** A seasonal reversal of wind direction associated with large-scale changes in atmospheric pressure, bringing prolonged wet and dry seasons to tropical and subtropical regions.
+- **Origin:** From Portuguese *monção* and Dutch *moesson*, derived from Arabic *mawsim* (موسم) meaning "season," ultimately from *wasama* ("to mark, to brand"); first recorded in English in 1584.
+
+### Cyclone
+- **Pronunciation:** /ˈsaɪkləʊn/
+- **Definition:** A large-scale atmospheric system of winds rotating around a centre of low pressure — anticlockwise in the Northern Hemisphere and clockwise in the Southern Hemisphere.
+- **Origin:** Coined by British meteorologist Henry Piddington in the 1840s, derived from Greek *kyklos* ("circle") or *kyklōma* ("wheel, coil of a snake"); first published use dates to 1848.
+
+### Isotherm
+- **Pronunciation:** /ˈaɪsəʊˌθɜːm/
+- **Definition:** A line drawn on a map or chart connecting points that have the same temperature at a given time or the same mean temperature over a given period.
+- **Origin:** From French *isotherme*, coined by Alexander von Humboldt in 1817, combining Greek *isos* ("equal") and *thermē* ("warmth, heat").
+
+---
+
+## Key Terms
+
+### ITCZ (Inter-Tropical Convergence Zone)
+- **Pronunciation:** /ˌɪntəˈtrɒpɪkəl kənˈvɜːdʒəns zəʊn/ (abbreviated colloquially as "the itch," /ɪtʃ/)
+- **Definition:** A low-pressure belt near the Equator where the northeast and southeast trade winds converge, producing rising air, heavy cloudiness, frequent thunderstorms, and intense rainfall; it migrates seasonally, shifting northward over the Indian subcontinent in summer to drive the southwest monsoon.
+- **Origin:** The concept emerged from early 20th-century tropical meteorology; the zone was historically known to sailors as the "doldrums" due to its calm, windless conditions, and was formally identified and named as the ITCZ as global atmospheric circulation patterns were mapped.
+
+### El Nino Southern Oscillation (ENSO)
+- **Pronunciation:** /ɛl ˈniːnjəʊ ˈsʌðən ˌɒsɪˈleɪʃən/
+- **Definition:** A coupled ocean-atmosphere climate phenomenon in the tropical Pacific Ocean that oscillates between three phases — El Nino (warming), La Nina (cooling), and Neutral — significantly influencing global weather patterns including the Indian monsoon.
+- **Origin:** Peruvian fishermen named the warm coastal current *El Nino de Navidad* ("The Christ Child") because it was most noticeable around Christmas; the earliest recorded use of "El Nino" in a climate context dates to 1892 (Captain Camilo Carrillo). Sir Gilbert Walker identified the "Southern Oscillation" in atmospheric pressure in the early 20th century, and Jacob Bjerknes linked the two phenomena in the late 1960s, giving rise to the combined term ENSO.
+
+---
+
 ## Current Affairs Connect
 
 | Topic Link | Relevance |

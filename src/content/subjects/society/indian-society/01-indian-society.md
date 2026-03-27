@@ -323,6 +323,35 @@ Key trends:
 
 ---
 
+## Vocabulary
+
+### Pluralism
+- **Pronunciation:** /ˈplʊərəlɪzəm/
+- **Definition:** A condition or system in which multiple distinct ethnic, religious, cultural, or political groups coexist within a society while maintaining their unique identities and participating equally in civic life.
+- **Origin:** From Latin *plures* ("several, many") + the suffix *-ism*; entered English via French *pluralisme* in the late 18th century; in Indian political discourse, it describes the constitutional vision of a society where diverse communities coexist with equal rights and freedoms.
+
+### Secularism
+- **Pronunciation:** /ˈsɛkjʊlərɪzəm/
+- **Definition:** The principle that the state maintains equidistance from all religions, neither promoting nor suppressing any faith, while retaining the right to intervene in religious practices to uphold fundamental rights and social reform.
+- **Origin:** From Late Latin *saecularis* ("worldly, pertaining to an age") + *-ism*; the modern concept was articulated by George Holyoake in 1851; Indian secularism, described as "principled distance" by political theorist Rajeev Bhargava, differs from Western strict separation of church and state.
+
+### Communalism
+- **Pronunciation:** /ˈkɒmjʊnəlɪzəm/
+- **Definition:** A political ideology that elevates religious community identity over national identity, often mobilising people along religious lines and leading to inter-community tensions or violence.
+- **Origin:** From Late Latin *communalis* ("of a community"), from *communis* ("common") + *-ism*; first used in 1871 in the context of the Paris Commune; in the Indian context, the term acquired its distinctive meaning during the colonial period, referring to the exploitation of religious identities for political ends, rooted in the British divide-and-rule policy.
+
+## Key Terms
+
+### Unity in Diversity
+- **Pronunciation:** /ˈjuːnɪti ɪn daɪˈvɜːrsɪti/
+- **Definition:** The foundational principle that India's strength lies in the coexistence of its many ethnic, linguistic, religious, and cultural communities under a shared constitutional framework of common citizenship and fundamental rights.
+- **Origin:** Popularised in the Indian context by Jawaharlal Nehru in his 1946 book *The Discovery of India*; the broader concept has ancient roots, including the Old Javanese phrase *Bhinneka Tunggal Ika* from the 14th-century poem *Kakawin Sutasoma* by Mpu Tantular.
+
+### Demographic Dividend
+- **Pronunciation:** /ˌdɛməˈɡræfɪk ˈdɪvɪdɛnd/
+- **Definition:** The potential boost to economic growth that arises when a country's working-age population (15-64 years) is significantly larger than the dependent population (children and elderly), provided this workforce is adequately skilled, healthy, and employed.
+- **Origin:** The term was coined by Harvard economists David Bloom and David Canning in the late 1990s, based on their analysis of East Asian economic growth between 1965 and 1990; India's demographic dividend window is estimated to last from approximately 2005-06 to 2055-56.
+
 ---
 
 ## Current Affairs Connect

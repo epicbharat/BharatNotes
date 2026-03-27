@@ -265,6 +265,35 @@ The PMLA was enacted in January 2003 and came into force on **1 July 2005**.
 
 ---
 
+## Vocabulary
+
+### Insurgency
+- **Pronunciation:** /ɪnˈsɜːrdʒənsi/
+- **Definition:** An organised armed revolt against an established government or authority, typically carried out by non-state actors who are not recognised as belligerents, falling short of a full-scale revolution.
+- **Origin:** From Latin *insurgere* ("to rise up against"), combining *in-* ("against") + *surgere* ("to rise"); the noun form entered English in 1798 from *insurgent* + *-cy*; in the Indian context, it is most commonly associated with separatist movements in North-East India.
+
+### Extremism
+- **Pronunciation:** /ɪkˈstriːmɪzəm/
+- **Definition:** The holding of radical political, religious, or ideological views that reject compromise and advocate for drastic, often violent, measures to achieve objectives.
+- **Origin:** From Latin *extremus* ("outermost, utmost") + *-ism*; first recorded in English in the 1840s; in Indian security discourse, it encompasses both Left Wing Extremism (Naxalism/Maoism) and right-wing or religiously motivated extremism.
+
+### Radicalization
+- **Pronunciation:** /ˌrædɪkəlaɪˈzeɪʃən/
+- **Definition:** The process by which an individual or group adopts increasingly extreme political, religious, or ideological positions, often to the point of justifying or engaging in violence.
+- **Origin:** From Latin *radicalis* ("of or having roots"), from *radix* ("root") + *-ization*; the root sense is "going to the fundamental cause" — hence "thoroughgoing, extreme"; in contemporary security studies, it refers particularly to online and offline processes that drive individuals toward terrorist ideologies.
+
+## Key Terms
+
+### Left Wing Extremism
+- **Pronunciation:** /lɛft wɪŋ ɪkˈstriːmɪzəm/
+- **Definition:** An armed insurgency rooted in Maoist ideology that seeks to overthrow the democratic Indian state through a "protracted people's war," exploiting socio-economic grievances of tribal and marginalised communities, primarily in the Red Corridor states.
+- **Origin:** The movement traces its origin to the 1967 peasant uprising in Naxalbari, West Bengal, led by Charu Majumdar and inspired by Maoist ideology; the term "Naxalism" derives from the village of Naxalbari; LWE-affected districts have declined from nearly 180 in the late 2000s to approximately 11 by 2025.
+
+### AFSPA
+- **Pronunciation:** /eɪ.ɛf.ɛs.piː.eɪ/
+- **Definition:** The Armed Forces (Special Powers) Act, 1958, is a parliamentary act that grants extraordinary powers to the Indian Armed Forces — including the authority to search, arrest without warrant, and use force — in areas officially declared as "disturbed" by the Central or State Government.
+- **Origin:** Modelled on the Armed Forces Special Powers Ordinance promulgated by the British colonial government on 15 August 1942 to suppress the Quit India movement; the post-independence Act was passed on 11 September 1958, initially to address insurgency in the North-Eastern states; it remains one of the most debated laws in India due to concerns over human rights and accountability.
+
 ---
 
 ## Current Affairs Connect

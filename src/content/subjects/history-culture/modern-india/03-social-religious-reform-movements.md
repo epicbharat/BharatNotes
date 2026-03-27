@@ -196,4 +196,35 @@ The 19th century saw an unprecedented wave of social and religious reform in Ind
 
 ---
 
+## Vocabulary
+
+### Renaissance
+- **Pronunciation:** /ˌrɛnəˈsɑːns/
+- **Definition:** A period of cultural and intellectual rebirth or revival, marked by renewed interest in art, literature, science, and learning.
+- **Origin:** From French *renaissance*, meaning "rebirth," derived from *re-* ("again") + *naissance* ("birth"), ultimately from Latin *nasci* ("to be born"); the term "Indian Renaissance" describes the 19th-century wave of social and intellectual reform in India.
+
+### Orthodoxy
+- **Pronunciation:** /ˈɔːrθədɒksi/
+- **Definition:** Strict adherence to established, traditional, and accepted beliefs or practices, especially in religion.
+- **Origin:** From Ancient Greek *orthodoxia* (ὀρθοδοξία), combining *orthos* (ὀρθός, "correct, right") + *doxa* (δόξα, "opinion, belief"); entered English in the 1620s via French *orthodoxie* and Late Latin *orthodoxia*.
+
+### Syncretism
+- **Pronunciation:** /ˈsɪŋkrətɪzəm/
+- **Definition:** The blending or reconciliation of different religious, cultural, or philosophical beliefs and practices into a unified system.
+- **Origin:** From Latin *syncretismus*, derived from Ancient Greek *synkretismos* (συγκρητισμός, "federation of Cretan cities"), from *syn* (σύν, "together") + *Kretes* (Κρῆτες, "Cretans"); adopted into English in the early 17th century to describe the union of different religious beliefs.
+
+## Key Terms
+
+### Brahmo Samaj
+- **Pronunciation:** /ˈbrɑːmoʊ səˈmɑːdʒ/
+- **Definition:** A monotheistic Hindu reform movement founded on 20 August 1828 in Calcutta by Raja Ram Mohan Roy, advocating the worship of one formless God while rejecting idol worship, caste rigidity, Sati, and superstition.
+- **Origin:** From Bengali *Brahmo Samaj* (ব্রহ্ম সমাজ), where *Brahmo* means "one who worships Brahman" (the Supreme Reality) and *Samaj* means "society" or "assembly"; emerged during the Bengal Renaissance as part of the broader Indian reform movement.
+
+### Arya Samaj
+- **Pronunciation:** /ˈɑːrjə səˈmɑːdʒ/
+- **Definition:** A Hindu reform movement founded on 10 April 1875 in Bombay by Swami Dayananda Saraswati, advocating a return to the Vedas as the sole scriptural authority while rejecting idol worship, caste by birth, and post-Vedic texts.
+- **Origin:** From Sanskrit *Arya Samaja* (आर्य समाज), where *arya* means "noble" or "virtuous" and *samaj* means "society" or "community"; the movement drew its intellectual foundation from Vedic texts and sought to purify Hinduism of what Dayananda considered later accretions.
+
+---
+
 *Sources: NCERT — Themes in Indian History Part III, Bipan Chandra — History of Modern India, Charles Heimsath — Indian Nationalism and Hindu Social Reform, Rosalind O'Hanlon — Caste, Conflict and Ideology (on Phule)*

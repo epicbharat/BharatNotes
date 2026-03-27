@@ -265,4 +265,35 @@ The expanded BRICS represents approximately half the world's population and 41% 
 
 ---
 
+## Vocabulary
+
+### Non-Alignment
+- **Pronunciation:** /nɒn.əˈlaɪn.mənt/
+- **Definition:** A foreign policy stance of not formally aligning with or against any major power bloc, maintaining strategic autonomy to engage independently with all nations based on national interest.
+- **Origin:** The term was first used in a diplomatic context by Indian diplomat V.K. Krishna Menon at the United Nations in 1953 during the Cold War; it was formalised as the Non-Aligned Movement (NAM) at the first summit in Belgrade, Yugoslavia, in 1961, co-founded by Nehru, Tito, Nasser, Nkrumah, and Sukarno.
+
+### Panchsheel
+- **Pronunciation:** /pʌntʃ.ʃiːl/
+- **Definition:** The Five Principles of Peaceful Coexistence — mutual respect for sovereignty, non-aggression, non-interference, equality, and peaceful coexistence — that guide interstate relations.
+- **Origin:** From Sanskrit *panch* (पञ्च, "five") + *sheel* (शील, "principle of moral conduct"); the term was adopted for the agreement signed between India and China on 29 April 1954, first appearing in the preamble to the Agreement on Trade and Intercourse between the Tibet Region of China and India.
+
+### Realpolitik
+- **Pronunciation:** /reɪˈɑːl.pɒl.ɪˌtiːk/
+- **Definition:** A system of politics or diplomacy based primarily on practical considerations of power and self-interest rather than on ideological, moral, or ethical principles.
+- **Origin:** A German compound from *real* (from Latin *realis*, "pertaining to concrete realities") + *Politik* (from Greek *politikos*, "relating to citizens"); coined by German writer August Ludwig von Rochau in his 1853 treatise *Grundsätze der Realpolitik* and later associated with Otto von Bismarck's statecraft in unifying Germany.
+
+## Key Terms
+
+### Act East Policy
+- **Pronunciation:** /ækt iːst ˈpɒl.ɪ.si/
+- **Definition:** India's strategic foreign policy doctrine that upgrades the earlier Look East Policy (1991) into an action-oriented, project-based engagement with Southeast Asia, East Asia, and the broader Indo-Pacific region, built on four pillars — Culture, Commerce, Connectivity, and Capacity Building.
+- **Origin:** Officially announced by Prime Minister Narendra Modi at the 12th ASEAN-India Summit in Nay Pyi Taw, Myanmar, in November 2014, replacing the Look East Policy launched by PM P.V. Narasimha Rao in 1991; the shift from "Look" to "Act" signalled a move from passive engagement to proactive, outcome-driven diplomacy.
+
+### Neighbourhood First
+- **Pronunciation:** /ˈneɪ.bə.hʊd fɜːst/
+- **Definition:** India's foreign policy doctrine prioritising enhanced diplomatic, economic, and security relations with its immediate South Asian neighbours through connectivity, development assistance, and institutional engagement.
+- **Origin:** The concept was first articulated in 2008 but gained formal recognition under PM Narendra Modi in 2014, signalled by his unprecedented invitation to all SAARC heads of state for his swearing-in ceremony on 26 May 2014, and his choice of Bhutan as his first overseas destination as Prime Minister.
+
+---
+
 *Sources: Ministry of External Affairs (mea.gov.in), Press Information Bureau (pib.gov.in), G20 India Presidency (g20.in), United Nations (un.org), ASEAN Secretariat (asean.org)*

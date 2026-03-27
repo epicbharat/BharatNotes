@@ -308,4 +308,35 @@ Link these static concepts with live developments:
 
 ---
 
+## Vocabulary
+
+### Fiscal Deficit
+- **Pronunciation:** /ˈfɪs.kəl ˈdef.ɪ.sɪt/
+- **Definition:** The difference between a government's total expenditure and its total receipts (excluding borrowings), indicating the extent to which the government must borrow to finance its spending.
+- **Origin:** "Fiscal" derives from Latin *fiscus* ("treasury, public purse") via Middle French *fiscal*; "deficit" comes from Latin *deficit* ("it is lacking"), from *deficere* ("to fail, desert"), combining *de-* ("away") + *facere* ("to do, make").
+
+### Inflation
+- **Pronunciation:** /ɪnˈfleɪ.ʃən/
+- **Definition:** A sustained increase in the general price level of goods and services in an economy over a period of time, resulting in a decline in the purchasing power of money.
+- **Origin:** From Latin *īnflātiō* ("expansion, blowing up"), derived from *īnflāre* ("to blow into"), combining *in-* ("into") + *flāre* ("to blow"); first used in an economic context in the mid-19th century to describe monetary expansion, and later applied to rising price levels.
+
+### Disinvestment
+- **Pronunciation:** /ˌdɪs.ɪnˈvest.mənt/
+- **Definition:** The action of a government selling or liquidating its equity stake in public sector undertakings, either partially (minority stake sale) or fully (strategic disinvestment), to raise revenue or improve efficiency.
+- **Origin:** Formed from the prefix *dis-* ("reversal") + *investment*; the earliest known use is from 1938 in the writing of John Maynard Keynes; in India, the term gained prominence after the 1991 economic reforms when the government began systematic sale of PSU shares.
+
+## Key Terms
+
+### Gross Domestic Product
+- **Pronunciation:** /ɡroʊs dəˈmes.tɪk ˈprɒd.ʌkt/
+- **Definition:** The total monetary value of all final goods and services produced within a country's borders during a specific period, used as the primary indicator of the size and health of an economy.
+- **Origin:** The concept was developed by economist Simon Kuznets for a 1934 report to the United States Congress; after the Bretton Woods Conference (1944), GDP became the standard international metric for measuring national economic output, though Kuznets himself warned that "the welfare of a nation can scarcely be inferred from a measure of national income."
+
+### Purchasing Power Parity
+- **Pronunciation:** /ˈpɜː.tʃə.sɪŋ ˈpaʊ.ə ˈpær.ɪ.ti/
+- **Definition:** An economic theory and measurement that compares the purchasing power of different countries' currencies by determining the amount of a standardised basket of goods each currency can buy, enabling cross-country comparisons of living standards and economic output.
+- **Origin:** Formalised by Swedish economist Gustav Cassel in 1918 in his paper "Abnormal Deviations in International Exchanges," when the gold standard broke down during World War I; Cassel proposed using relative inflation rates to determine equilibrium exchange rates between nations.
+
+---
+
 *Sources: [Economic Survey 2025-26 — PRS India](https://prsindia.org/policy/report-summaries/economic-survey-2025-26), [PIB](https://pib.gov.in), [RBI](https://rbi.org.in), [NITI Aayog](https://niti.gov.in)*

@@ -258,4 +258,35 @@ Link these static concepts with live developments:
 
 ---
 
+## Vocabulary
+
+### Sovereign
+- **Pronunciation:** /ˈsɒv.ɹɪn/ (British), /ˈsɑv.ɚn/ (American)
+- **Definition:** Possessing supreme and independent political authority, free from external control or interference.
+- **Origin:** From Old French *soverain*, derived from Vulgar Latin *superānus* (from Latin *super*, meaning "above"); the spelling was later influenced by folk-etymological association with "reign."
+
+### Secular
+- **Pronunciation:** /ˈsɛk.jʊ.lə/ (British), /ˈsɛk.jə.lɚ/ (American)
+- **Definition:** Not connected with or controlled by any religion; in the Indian constitutional context, it means the state treats all religions with equal respect and maintains neutrality.
+- **Origin:** From Latin *saeculāris* ("worldly, of an age"), derived from *saeculum* ("age, span of time, generation"); entered English via Old French *seculer* around the 13th century.
+
+### Republic
+- **Pronunciation:** /rɪˈpʌb.lɪk/
+- **Definition:** A form of government in which sovereignty rests with the people and their elected representatives, and the head of state is elected rather than hereditary.
+- **Origin:** From Latin *rēs pūblica* (literally "the public thing" or "public affair"), through Middle French *republique*; the Latin term was itself a translation of the Greek *politeia*, popularised by Cicero.
+
+## Key Terms
+
+### Basic Structure Doctrine
+- **Pronunciation:** /ˈbeɪ.sɪk ˈstrʌk.tʃə ˈdɒk.trɪn/
+- **Definition:** A judicial principle holding that certain fundamental features of the Indian Constitution — such as democracy, secularism, federalism, and the rule of law — cannot be destroyed or altered even by a constitutional amendment under Article 368.
+- **Origin:** Established by the Supreme Court of India in *Kesavananda Bharati v. State of Kerala* (1973), where a 13-judge bench ruled 7-6 that Parliament's amending power is subject to the limitation that it cannot abrogate the Constitution's basic structure; Justice H.R. Khanna's opinion was the decisive swing view.
+
+### Judicial Review
+- **Pronunciation:** /dʒuːˈdɪʃ.əl rɪˈvjuː/
+- **Definition:** The power of courts to examine legislative and executive actions and to invalidate those that are found to be inconsistent with or in violation of the Constitution.
+- **Origin:** The doctrine traces to the American case *Marbury v. Madison* (1803), in which Chief Justice John Marshall held that courts have the authority to strike down laws that violate the Constitution; in India, judicial review is embedded in Articles 13, 32, and 226 of the Constitution.
+
+---
+
 *Sources: [Constitution of India — legislative.gov.in](https://legislative.gov.in/constitution-of-india), [National Portal of India](https://india.gov.in/my-government/constitution-of-india), [Kesavananda Bharati judgment — SCI](https://www.sci.gov.in), [Constituent Assembly Debates — Rajya Sabha](https://sansad.in/rs/about/constituent-assembly), [Berubari Union case — Indian Kanoon](https://indiankanoon.org/doc/1120103/), [LIC v. CERC — Indian Kanoon](https://indiankanoon.org/doc/1513693/), [Australian Constitution Preamble — AustLII](https://classic.austlii.edu.au/au/legis/cth/consol_act/coaca430/preamble.html)*

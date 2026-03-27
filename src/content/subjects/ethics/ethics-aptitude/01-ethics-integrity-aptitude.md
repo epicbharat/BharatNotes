@@ -273,6 +273,39 @@ The **Right to Information Act, 2005** was passed by Parliament on 15 June 2005 
 
 ---
 
+## Vocabulary
+
+### Probity
+- **Pronunciation:** /ˈprəʊbɪti/
+- **Definition:** The quality of having proven integrity and strong moral principles, encompassing uprightness, honesty, and strict adherence to ethical standards in both personal and professional conduct.
+- **Origin:** From Middle French *probité*, derived from Latin *probitās* ("uprightness, honesty"), from *probus* ("good, excellent, honest"); ultimately from Indo-European root *per-* ("forward"); earliest documented English use dates to 1425.
+
+### Integrity
+- **Pronunciation:** /ɪnˈtɛɡrɪti/
+- **Definition:** The quality of being honest and having strong, consistent moral principles — a wholeness of character where one's values, words, and actions remain aligned even in the absence of external scrutiny.
+- **Origin:** From Old French *intégrité*, derived from Latin *integritātem* ("soundness, wholeness, completeness"), from *integer* ("whole, untouched"), combining *in-* ("not") and the root of *tangere* ("to touch") — literally meaning "untouched" or "undivided"; the moral sense emerged in English by the 1540s.
+
+### Empathy
+- **Pronunciation:** /ˈɛmpəθi/
+- **Definition:** The ability to understand and share the feelings, thoughts, and emotional states of another person, enabling one to perceive situations from their perspective.
+- **Origin:** Coined by American psychologist Edward Bradford Titchener in 1909 to translate the German *Einfühlung* ("feeling into"), which was itself coined by philosopher Rudolf Lotze in 1858; derived from Greek *empatheia* ("passion"), combining *en* ("in") and *pathos* ("feeling").
+
+---
+
+## Key Terms
+
+### Emotional Intelligence
+- **Pronunciation:** /ɪˈməʊʃənəl ɪnˈtɛlɪdʒəns/
+- **Definition:** The capacity to recognise, understand, manage, and effectively use one's own emotions while also perceiving and influencing the emotions of others — comprising self-awareness, self-regulation, motivation, empathy, and social skills in Daniel Goleman's five-component model.
+- **Origin:** First formally defined by psychologists Peter Salovey and John Mayer in their 1990 journal article; the concept was popularised globally by Daniel Goleman's 1995 bestseller *Emotional Intelligence: Why It Can Matter More Than IQ*, which argued that EQ is a learned capability — not an inborn trait — and is critical for effective leadership.
+
+### Foundational Values
+- **Pronunciation:** /faʊnˈdeɪʃənəl ˈvæljuːz/
+- **Definition:** The core ethical principles — including integrity, impartiality, objectivity, empathy, non-partisanship, dedication to public service, and compassion towards weaker sections — that guide civil servants in ethical decision-making and ensure fair, accountable, and service-oriented governance.
+- **Origin:** Rooted in the ethical traditions of Indian administrative thought and constitutional morality, these values are codified in instruments such as the All India Services (Conduct) Rules and the Central Civil Services (Conduct) Rules, 1964; the UPSC GS4 Ethics syllabus explicitly lists "aptitude and foundational values for Civil Service" as a core topic, reflecting the Second Administrative Reforms Commission's emphasis on an ethical framework for public administration.
+
+---
+
 ---
 
 ## Current Affairs Connect
