@@ -124,7 +124,7 @@ The constitutional evolution of India under British rule was a **gradual and gru
 | **Montagu Declaration (1917)** | Promised "increasing association of Indians in every branch of the administration and the gradual development of self-governing institutions" — the first British acknowledgment that self-governance was the goal |
 | **Dyarchy in provinces** | Provincial subjects divided into: **Reserved** (law and order, finance, land revenue — under Governor and British officials) and **Transferred** (education, health, local government — under Indian ministers responsible to the legislature) |
 | **Bicameral legislature at Centre** | **Legislative Assembly** (lower house, 145 members — 104 elected) and **Council of State** (upper house, 60 members — 34 elected) |
-| **Franchise** | Extended to ~5 million Indians (~3% of the adult population) — based on property, income, and tax qualifications |
+| **Franchise** | Extended to ~5.5 million Indians for provincial legislatures and ~1.5 million for the central legislature (~3% of the adult population of ~260 million) — based on property, income, and tax qualifications |
 | **Separate electorates** | Extended to **Sikhs, Indian Christians, Anglo-Indians, and Europeans** (in addition to Muslims) |
 | **Limitations** | Viceroy retained veto power and could pass laws without legislature's consent (certification); dyarchy was confusing and unworkable — Indian ministers had responsibility without power |
 
@@ -172,7 +172,7 @@ This is the **longest Act** ever passed by the British Parliament (321 sections,
 
 | Confusion Point | Correct Answer |
 |----------------|----------------|
-| First Governor-General of **Bengal** | Warren Hastings (1772, under Regulating Act 1773) |
+| First Governor-General of **Bengal** | Warren Hastings (Governor from 1772; Governor-General from 1774, under Regulating Act 1773) |
 | First Governor-General of **India** | Lord William Bentinck (1833, under Charter Act 1833) |
 | Last Governor-General of **Company rule** | Lord Canning |
 | First **Viceroy** | Lord Canning (same person, from 1858) |
