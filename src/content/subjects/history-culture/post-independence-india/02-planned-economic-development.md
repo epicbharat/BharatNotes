@@ -119,7 +119,7 @@ Independent India chose **centralised economic planning** as its development str
 | **Institution** | Chairman and founder of **Amul** (Anand Milk Union Limited); Chairman of **NDDB** (National Dairy Development Board, founded **1965** at Anand, Gujarat) |
 | **Three phases** | Phase I (1970–80): linked 18 milk sheds with 4 metro cities; Phase II (1981–85): expanded to 136 milk sheds; Phase III (1985–96): consolidated and expanded nationwide |
 | **Model** | **Anand Pattern** — village-level dairy cooperatives linked to district unions linked to state federations; farmers retained ownership; eliminated middlemen |
-| **Achievement** | Made India the **world's largest milk producer** — surpassed the USA in **1998**; India produced ~231 million tonnes of milk in 2023–24 |
+| **Achievement** | Made India the **world's largest milk producer** — surpassed the USA in **1997**; India produced ~231 million tonnes of milk in 2023–24 |
 
 ---
 
@@ -158,7 +158,7 @@ Independent India chose **centralised economic planning** as its development str
 - Second Plan: Mahalanobis model; heavy industry; Bhilai, Rourkela, Durgapur
 - Plan Holidays: 1966–69, 1990–92
 - Green Revolution: M.S. Swaminathan; Norman Borlaug (Nobel 1970); wheat; Punjab/Haryana
-- White Revolution: Verghese Kurien; Operation Flood (1970); NDDB (1965); India surpassed USA in milk (1998)
+- White Revolution: Verghese Kurien; Operation Flood (1970); NDDB (1965); India surpassed USA in milk (1997)
 - NITI Aayog: 1 January 2015; replaced Planning Commission; cooperative federalism
 - Industrial Policy Resolution 1956: Schedule A, B, C
 

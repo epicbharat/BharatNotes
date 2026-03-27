@@ -39,7 +39,7 @@ The 1991 economic reforms mark the most significant turning point in India's pos
 
 | Feature | Detail |
 |---------|--------|
-| **Foreign exchange reserves** | Dropped to approximately **$1.2 billion** by June 1991 — barely enough for **about 2 weeks of imports** (India normally needed $2.5–3 billion monthly for essential imports) |
+| **Foreign exchange reserves** | Dropped to approximately **$1.2 billion** by June 1991 — barely enough for **about 3 weeks of imports** (India normally needed $2.5–3 billion monthly for essential imports) |
 | **Gold pledge** | India pledged **46.91 tonnes of gold** to the Bank of England and the Union Bank of Switzerland to secure emergency loans — a moment of national humiliation |
 | **IMF bailout** | India approached the **International Monetary Fund (IMF)** for emergency lending; IMF conditionalities required structural economic reforms |
 | **New government** | PM **P.V. Narasimha Rao** (took office 21 June 1991); Finance Minister **Dr. Manmohan Singh** (a Cambridge and Oxford-trained economist, former RBI Governor) |
@@ -149,7 +149,7 @@ The 1991 economic reforms mark the most significant turning point in India's pos
 ## UPSC Relevance
 
 ### Prelims Focus Areas
-- 1991 crisis: forex reserves ~$1.2 billion (~2 weeks of imports); gold pledged to Bank of England
+- 1991 crisis: forex reserves ~$1.2 billion (~3 weeks of imports); gold pledged to Bank of England
 - PM Narasimha Rao; FM Manmohan Singh
 - Rupee devaluation: ~18–19% (July 1991)
 - New Industrial Policy: 24 July 1991
