@@ -116,7 +116,7 @@ At independence, India was not one country but a patchwork — **British India**
 | **Who** | **Potti Sreeramulu** — Gandhian activist from Madras Presidency |
 | **Demand** | Separate Telugu-majority state of **Andhra** (carved from Madras Presidency) |
 | **Fast** | Began a **fast unto death** on **19 October 1952** |
-| **Death** | Died on **16 December 1952** after 58 days of fasting |
+| **Death** | Died on **15 December 1952** (night of 15–16 December) after 58 days of fasting |
 | **Impact** | His death triggered massive violence across Telugu-speaking areas; Nehru conceded; **Andhra State** was created on **1 October 1953** — the first state formed on a linguistic basis |
 
 ### States Reorganisation Commission (SRC)
@@ -156,7 +156,7 @@ At independence, India was not one country but a patchwork — **British India**
 - Junagadh: plebiscite 20 February 1948; 99.95% for India
 - Hyderabad: Operation Polo, 13–17 September 1948; Major General J.N. Chaudhuri; Razakars
 - Privy purses abolished: 26th Amendment, 1971
-- Potti Sreeramulu: died 16 December 1952; Andhra created 1 October 1953
+- Potti Sreeramulu: died 15 December 1952; Andhra created 1 October 1953
 - SRC: Fazl Ali Commission, December 1953; report September 1955
 - States Reorganisation Act 1956: 14 states and 6 UTs
 - 7th Amendment 1956: reorganised states constitutionally
