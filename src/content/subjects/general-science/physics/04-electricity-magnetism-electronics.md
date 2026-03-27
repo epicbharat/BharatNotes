@@ -88,7 +88,19 @@ Electricity, magnetism, and electronics underpin modern civilisation — from ho
 | **Magnetic poles** | Earth behaves as a giant magnet; the geographic North Pole is near the **magnetic South Pole** and vice versa |
 | **Magnetic declination** | Angle between geographic north (true north) and magnetic north at a location; varies from place to place and over time |
 | **Magnetic inclination (dip)** | Angle that the Earth's magnetic field makes with the horizontal; **0 degrees at magnetic equator**, **90 degrees at magnetic poles** |
+| **Horizontal component** | The component of Earth's magnetic field parallel to the surface; strongest at the magnetic equator (where dip = 0°) and zero at the magnetic poles (where dip = 90°); compass needles respond only to this component |
 | **Compass** | A magnetised needle that aligns with the horizontal component of Earth's magnetic field; points to magnetic north, not true north |
+
+### Van Allen Radiation Belts
+
+Charged particles from the Sun (solar wind) are trapped by Earth's magnetic field, forming two doughnut-shaped zones called the **Van Allen radiation belts**, discovered by **James Van Allen** using data from the **Explorer 1** satellite in **1958**.
+
+| Belt | Altitude | Composition | Detail |
+|------|----------|-------------|--------|
+| **Inner belt** | ~1,000–12,000 km | Mainly high-energy **protons** (>100 MeV) | Protons produced from cosmic ray collisions with the upper atmosphere; relatively stable |
+| **Outer belt** | ~13,000–60,000 km | Mainly high-energy **electrons** (0.1–10 MeV) | Electrons injected from the geomagnetic tail during solar storms; more variable and dynamic |
+
+Particles spiral along magnetic field lines and bounce between the poles — as they approach a pole, the increasing field density reflects them back, trapping them in the belts. The Van Allen belts pose a radiation hazard to satellites and crewed spacecraft; missions beyond low Earth orbit (e.g., Apollo, Artemis) must minimise transit time through them.
 
 ---
 
@@ -136,6 +148,15 @@ Electricity, magnetism, and electronics underpin modern civilisation — from ho
 | **Relation** | V_s / V_p = N_s / N_p (voltage ratio equals turns ratio) |
 | **Key fact** | Power transmission at **high voltage and low current** reduces I²R losses in transmission lines |
 
+### Power Transmission in India
+
+| Feature | Detail |
+|---------|--------|
+| **Grid voltage levels** | India's national grid uses **220 kV, 400 kV, and 765 kV AC** for bulk power transfer, plus **±500 kV and ±800 kV HVDC** corridors for ultra-long-distance transmission |
+| **Why high voltage?** | Doubling the transmission voltage reduces current by half and I²R losses by 75% for the same power — this is why power leaves generating stations at 400–765 kV and is stepped down near consumers |
+| **AT&C losses** | Aggregate Technical & Commercial losses were **~16% in 2023–24** at the distribution level; these include technical line losses plus commercial losses (theft, billing inefficiency); government target is to bring AT&C losses below 12% |
+| **HVDC advantage** | High Voltage Direct Current is more efficient than AC for distances above ~600 km and for undersea cables — India uses ±800 kV HVDC corridors to move power from generation-rich states to demand centres |
+
 ---
 
 ## Semiconductors
@@ -151,10 +172,10 @@ Electricity, magnetism, and electronics underpin modern civilisation — from ho
 | Device | Detail |
 |--------|--------|
 | **p-n Junction Diode** | Allows current in one direction only (forward bias); used as a rectifier to convert AC to DC; silicon diode has a forward voltage drop of ~0.6–0.7 V |
-| **LED (Light Emitting Diode)** | Emits light when forward-biased; energy-efficient; colour depends on the semiconductor material and band gap |
+| **LED (Light Emitting Diode)** | Emits light when forward-biased; energy-efficient; colour depends on the semiconductor material and band gap. The **blue LED** — invented using gallium nitride (GaN) — was the key breakthrough; it enabled white LED lighting (blue LED + yellow phosphor). **Isamu Akasaki, Hiroshi Amano, and Shuji Nakamura** won the **Nobel Prize in Physics (2014)** for this invention |
 | **Transistor** | Has 3 layers (NPN or PNP) and 3 terminals (emitter, base, collector); used as an amplifier and a switch; foundation of all digital electronics |
 | **Integrated Circuit (IC)** | Thousands to billions of transistors on a single chip; invented by **Jack Kilby** (Texas Instruments, **1958**; Nobel Prize in Physics, **2000**) and **Robert Noyce** (Fairchild Semiconductor) independently |
-| **Solar cell** | p-n junction that converts sunlight directly into electricity (photovoltaic effect); silicon cells dominate ~95% of the market; theoretical max efficiency for single-junction silicon ~29% (Shockley-Queisser limit) |
+| **Solar cell** | p-n junction that converts sunlight directly into electricity (photovoltaic effect); silicon cells dominate ~95% of the market; theoretical max efficiency for single-junction silicon ~29% (Shockley-Queisser limit). India targets **500 GW of non-fossil-fuel electricity capacity by 2030** (COP26 pledge), with solar expected to account for ~300 GW; installed solar capacity crossed **129 GW by October 2025** |
 | **Microprocessor** | An IC that contains the entire CPU on a single chip; processes instructions in computers, phones, and embedded systems |
 
 ### Semiconductor Devices — Applications Table
@@ -167,6 +188,17 @@ Electricity, magnetism, and electronics underpin modern civilisation — from ho
 | **Solar cell** | Renewable electricity generation | Large-area p-n junction; photovoltaic effect converts sunlight to DC electricity |
 | **Transistor** | Amplifiers, digital switches, logic gates | Small base current controls large collector current; basis of all digital electronics |
 | **IC (Chip)** | Computers, smartphones, all digital devices | Billions of transistors on a single silicon chip; enables miniaturisation |
+
+### India Semiconductor Mission (ISM)
+
+| Feature | Detail |
+|---------|--------|
+| **Launched** | December 2021, under the Ministry of Electronics and Information Technology (MeitY) |
+| **Fiscal support** | Incentive framework of **Rs 76,000 crore**, offering up to 50% fiscal support for semiconductor fabs, compound semiconductor units, and ATMP (Assembly, Testing, Marking & Packaging) facilities |
+| **ISM 2.0** | Announced in **Union Budget 2026–27** — shifts focus from ecosystem creation to ecosystem consolidation; targets semiconductor equipment and materials manufacturing in India, and development of full-stack Indian semiconductor IP |
+| **Key project** | **Tata Electronics fab at Dholera, Gujarat** — India's first semiconductor fabrication plant; 300 mm wafer fab in partnership with PSMC (Taiwan); investment of ~Rs 91,000 crore; 28 nm to 110 nm process nodes; operations expected from 2026 |
+| **Projects approved** | As of December 2025, **10 projects** with total investment of **Rs 1.60 lakh crore** approved across 6 states — covering silicon fabs, compound semiconductor fabs, and advanced packaging facilities |
+| **Strategic goal** | India aims to design and manufacture chips for 70–75% of domestic applications by 2029 |
 
 ---
 
@@ -237,6 +269,10 @@ India's **Prototype Fast Breeder Reactor (PFBR)** at Kalpakkam, Tamil Nadu (500 
 - India's 3-stage nuclear programme: PHWR → Fast Breeder → Thorium breeder (Homi Bhabha)
 - PFBR at Kalpakkam (500 MW); Kudankulam is India's largest nuclear plant (VVER reactors)
 - Superconductor: zero resistance below Tc; Meissner effect (1933); first superconductor — mercury (Onnes, 1911)
+- Van Allen radiation belts: inner belt (protons, 1,000–12,000 km), outer belt (electrons, 13,000–60,000 km); discovered 1958 (Explorer 1)
+- Blue LED — gallium nitride; Nobel Prize 2014 (Akasaki, Amano, Nakamura); enabled white LED lighting
+- India's power grid uses 220 kV, 400 kV, 765 kV AC and ±800 kV HVDC for long-distance bulk transfer
+- AT&C losses ~16% (2023–24); include both technical losses and commercial losses (theft, billing gaps)
 
 ### Mains Focus Areas
 - Role of semiconductor industry in India's economic growth — India Semiconductor Mission
@@ -246,7 +282,10 @@ India's **Prototype Fast Breeder Reactor (PFBR)** at Kalpakkam, Tamil Nadu (500 
 - Smart grids, power transmission efficiency, and reducing AT&C losses
 - Electronics manufacturing and Atmanirbhar Bharat — semiconductor fabs in India
 - Nuclear safety and waste management challenges; civil nuclear agreements
+- India Semiconductor Mission: Rs 76,000 crore incentive; Tata fab at Dholera (Rs 91,000 crore); ISM 2.0 announced in Budget 2026–27
+- India's 500 GW non-fossil-fuel capacity target by 2030 — solar expected to contribute ~300 GW; crossed 129 GW by October 2025
+- Van Allen belts and space weather — implications for satellite communication, GPS accuracy, and space missions
 
 ---
 
-*Sources: NCERT Physics (Class 10 & 12), Britannica — Ohm's Law, Wikipedia — Faraday's Law of Induction, Wikipedia — Superconductivity & Meissner Effect, NobelPrize.org — Jack Kilby (2000), NCEI/NOAA — Earth's Magnetism, US DOE — Fission vs Fusion, Wikipedia — India's Three-Stage Nuclear Power Programme, World Nuclear Association — Nuclear Power in India, US DOE — War of Currents (AC vs DC), US DOE — Solar Photovoltaic Cell Basics*
+*Sources: NCERT Physics (Class 10 & 12), Britannica — Ohm's Law, Wikipedia — Faraday's Law of Induction, Wikipedia — Superconductivity & Meissner Effect, NobelPrize.org — Jack Kilby (2000) & Nobel Prize in Physics 2014, NCEI/NOAA — Earth's Magnetism, Wikipedia — Van Allen Radiation Belt, US DOE — Fission vs Fusion, Wikipedia — India's Three-Stage Nuclear Power Programme, World Nuclear Association — Nuclear Power in India, US DOE — War of Currents (AC vs DC), US DOE — Solar Photovoltaic Cell Basics, PIB — India Semiconductor Mission 2.0, PIB — India's Solar Capacity, Invest India — Semiconductor Opportunity*

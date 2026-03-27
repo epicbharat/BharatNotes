@@ -247,7 +247,11 @@ All EM waves travel at the speed of light in vacuum (~3 x 10⁸ m/s) and differ 
 - EM spectrum order: Radio → Microwave → IR → Visible → UV → X-ray → Gamma
 - Rayleigh scattering explains blue sky (1/λ⁴ dependence) and red sunset
 - Photoelectric effect — Einstein (1905); Nobel Prize 1921; E = hf; threshold frequency concept
-- C.V. Raman — Nobel Prize 1930 for Raman scattering
+- C.V. Raman — Nobel Prize 1930 for Raman scattering; discovery date 28 Feb 1928 → National Science Day
+- Newton's prism experiment (1666) — white light is a mixture of colours; prism separates, does not create them
+- Polarisation proves light is a transverse wave; crossed Polaroids block all light
+- Compound microscope: total magnification = objective x eyepiece magnification
+- Reflecting telescope (Newton, 1668) eliminates chromatic aberration; periscope uses TIR via 45-45-90 prisms
 - LASER: Light Amplification by Stimulated Emission of Radiation; first laser 1960 (Maiman)
 - Fibre optics works on Total Internal Reflection
 - VIBGYOR: Violet has shortest wavelength (~380 nm), Red has longest (~750 nm)
@@ -262,4 +266,4 @@ All EM waves travel at the speed of light in vacuum (~3 x 10⁸ m/s) and differ 
 
 ---
 
-*Sources: NCERT Physics (Class 10 & 12), NASA Electromagnetic Spectrum Overview, Britannica — Snell's Law, Wikipedia — Visible Spectrum & Electromagnetic Spectrum, NobelPrize.org — C.V. Raman (1930) & Einstein (1921), HyperPhysics — Rayleigh Scattering, American Academy of Ophthalmology — Eye Anatomy, Physics LibreTexts — Total Internal Reflection*
+*Sources: NCERT Physics (Class 10 & 12), NASA Electromagnetic Spectrum Overview, Britannica — Snell's Law & C.V. Raman, Wikipedia — Visible Spectrum, Electromagnetic Spectrum & Dispersive Prism, NobelPrize.org — C.V. Raman (1930) & Einstein (1921), HyperPhysics — Rayleigh Scattering, American Academy of Ophthalmology — Eye Anatomy, Physics LibreTexts — Total Internal Reflection & Polarisation, LiveScience — Newton's Prism Experiment*
