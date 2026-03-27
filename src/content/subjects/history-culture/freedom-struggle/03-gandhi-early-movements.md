@@ -19,22 +19,73 @@ tags:
 
 ## Overview
 
-Mahatma Gandhi's return to India in 1915 transformed the freedom struggle from an elite movement to a mass revolution. Through a series of escalating Satyagrahas — from local agrarian issues to nationwide non-cooperation — Gandhi pioneered a new method of resistance that combined non-violence, mass participation, and moral authority.
+Mahatma Gandhi's return to India in 1915 transformed the freedom struggle from an elite movement to a mass revolution. Through a series of escalating Satyagrahas — from local agrarian issues to nationwide non-cooperation — Gandhi pioneered a new method of resistance that combined non-violence, mass participation, and moral authority. His experiments in South Africa (1893--1915) laid the foundation for every technique he would later deploy in India.
 
 ---
 
-## Gandhi's Return and Early Satyagrahas
+## Gandhi in South Africa (1893--1915)
 
-### Timeline
+Gandhi arrived in South Africa in **1893**, aged 23, to work as a lawyer for an Indian merchant firm in Natal. His transformative experience came on **7 June 1893** at **Pietermaritzburg railway station**, where he was thrown off a first-class train compartment despite holding a valid ticket — simply because he was Indian. This incident became his moment of awakening against racial injustice.
 
-| Event | Date | Details |
-|-------|------|---------|
-| **Return from South Africa** | January 1915 | Gandhi returned to India after 21 years in South Africa where he had developed and practised **Satyagraha** (truth-force); settled at Sabarmati Ashram, Ahmedabad |
-| **Champaran Satyagraha** | April 1917 | **First Satyagraha in India**; fought against the exploitative **Tinkathia system** (forced indigo cultivation on 3/20th of landholding) in Champaran, Bihar; arrived at Motihari on 15 April 1917; joined by Rajendra Prasad, J.B. Kripalani, Mazhar ul-Haq; resulted in the **Champaran Agrarian Act (1918)** abolishing the Tinkathia system |
-| **Ahmedabad Mill Strike** | February 1918 | Mediated between mill workers and owners over a plague bonus dispute; first use of **hunger strike** as a weapon in India; workers secured a **35% wage increase** |
-| **Kheda Satyagraha** | March 1918 | Peasants of Kheda, Gujarat unable to pay revenue after crop failure; Gandhi led a **no-tax campaign**; government agreed to suspend revenue collection from those who could not pay; **Sardar Vallabhbhai Patel** emerged as a key leader here |
+### Key Institutions and Experiments
 
-> **Key Point:** These three early Satyagrahas established Gandhi's credentials. Champaran (agrarian issue in Bihar), Ahmedabad (industrial workers in Gujarat), and Kheda (peasant revenue issue in Gujarat) showed he could lead across different classes and regions.
+| Institution / Event | Year | Significance |
+|---------------------|------|--------------|
+| **Natal Indian Congress** | 1894 | First permanent political organisation for Indians in South Africa; unified a diverse community divided by language, religion, and caste into a single political force |
+| **Indian Opinion** (newspaper) | 1903 | Weekly newspaper to voice Indian grievances; became a tool for mobilising the community |
+| **Phoenix Settlement** | 1904 | Founded near Durban; a communal farm inspired by Ruskin's *Unto This Last*; practised simple living, manual labour, and self-sufficiency |
+| **Satyagraha coined** | 1906 | First used the term during the campaign against the Transvaal Asiatic Registration Act (Black Act); organised mass resistance through non-violent civil disobedience |
+| **Tolstoy Farm** | 1910 | Founded near Johannesburg on 1,100 acres of land donated by Herman Kallenbach; served as headquarters of the Satyagraha campaign in Transvaal; housed 85 residents |
+
+### Intellectual Influences
+
+Gandhi acknowledged three key modern influences that shaped his philosophy:
+
+- **Leo Tolstoy** — *The Kingdom of God Is Within You* (1894): Gandhi wrote that this book "overwhelmed" him and converted him from a "votary of violence" to a firm believer in non-violence. He corresponded directly with Tolstoy in 1909--1910, until Tolstoy's death.
+- **John Ruskin** — *Unto This Last* (1860): Gandhi was so moved by this work that he translated it into Gujarati as *Sarvodaya* ("welfare of all"). It inspired the Phoenix Settlement.
+- **Henry David Thoreau** — *Civil Disobedience* (1849): Reinforced Gandhi's commitment to non-violent resistance against unjust laws during his South Africa years.
+
+---
+
+## Return to India (1915) and Early Satyagrahas
+
+Gandhi returned to India in **January 1915** after 21 years in South Africa. His political mentor, **Gopal Krishna Gokhale**, advised him to spend his first year with "his ears open and his mouth shut" — to travel across India and understand its conditions before entering politics. Gokhale passed away on 19 February 1915, just days after their last meeting.
+
+Gandhi first established the **Satyagraha Ashram** at Kochrab, Ahmedabad on **25 May 1915**. In **June 1917**, the ashram was relocated to the banks of the **Sabarmati River** — thereafter known as the **Sabarmati Ashram** — which became his base for the next 13 years.
+
+### Champaran Satyagraha (1917)
+
+The **first Satyagraha in India**. A peasant named **Rajkumar Shukla** travelled to the 1916 Lucknow Congress session to persuade Gandhi to visit Champaran, Bihar. Shukla's persistence convinced Gandhi to investigate the plight of indigo farmers.
+
+| Feature | Detail |
+|---------|--------|
+| **Issue** | The exploitative **Tinkathia system** — European planters forced peasants to cultivate indigo on **3/20th** (three kathas per bigha) of their landholding, even after synthetic dyes made indigo unprofitable |
+| **Gandhi's arrival** | Reached Motihari on **15 April 1917**; was ordered to leave by the district magistrate but refused — his first act of civil disobedience in India |
+| **Key associates** | Rajendra Prasad, J.B. Kripalani, Mazhar ul-Haq, Mahadev Desai, Narhari Parikh |
+| **Government response** | Appointed an enquiry committee with Gandhi as a member |
+| **Outcome** | The **Champaran Agrarian Act (1918)** abolished the Tinkathia system and provided relief to farmers |
+
+### Ahmedabad Mill Strike (February--March 1918)
+
+| Feature | Detail |
+|---------|--------|
+| **Issue** | Textile mill owners in Ahmedabad withdrew **plague bonuses** after the epidemic subsided; workers demanded a **50% wage increase** to cope with wartime inflation |
+| **Gandhi's role** | Mediated between mill workers and mill owner **Ambalal Sarabhai**; organised workers and advised them to strike but remain non-violent |
+| **First hunger strike** | When workers' morale weakened, Gandhi undertook a **fast on 15 March 1918** — the first of his 17 fasts — to strengthen their resolve |
+| **Settlement** | On the third day of the fast, both sides agreed to refer the dispute to an arbitrator; workers were eventually granted a **35% wage increase** |
+| **Significance** | First use of the **hunger strike** as a political weapon in India |
+
+### Kheda Satyagraha (March 1918)
+
+| Feature | Detail |
+|---------|--------|
+| **Issue** | Severe drought and crop failure in Kheda district, Gujarat (1917--18); peasants could not pay land revenue; the British government refused to suspend revenue collection despite crops failing by more than 75% |
+| **The pledge** | At a meeting in **Nadiad on 22 March 1918**, Gandhi urged peasants to take a sacred pledge not to pay the assessment for the year |
+| **Key leader** | **Sardar Vallabhbhai Patel** emerged as a mass leader here — he travelled through villages, organised meetings, motivated farmers, and maintained discipline |
+| **Other associates** | Indulal Yagnik, Shankarlal Banker, Mahadev Desai, Narhari Parikh, Mohanlal Pandya |
+| **Outcome** | Government agreed to suspend revenue collection from those unable to pay and reduce the rate increase |
+
+**Key Point:** These three early Satyagrahas established Gandhi's credentials. Champaran (agrarian issue in Bihar), Ahmedabad (industrial workers in Gujarat), and Kheda (peasant revenue issue in Gujarat) demonstrated he could lead across different classes and regions.
 
 ---
 
@@ -42,11 +93,14 @@ Mahatma Gandhi's return to India in 1915 transformed the freedom struggle from a
 
 ### The Rowlatt Act (March 1919)
 
+The **Rowlatt Committee**, headed by Justice **Sidney Rowlatt**, was appointed in **December 1917** to examine revolutionary conspiracies in India and recommend legislation. Its report (April 1918) recommended sweeping emergency powers. On **18 March 1919**, the Imperial Legislative Council passed the bill into law despite unanimous opposition from all Indian members.
+
 | Feature | Detail |
 |---------|--------|
-| **Based on** | Recommendations of the **Rowlatt Committee** (headed by Justice Sidney Rowlatt) |
-| **Provisions** | Allowed detention of political prisoners **without trial** for up to two years; suppressed political activities and curtailed civil liberties |
-| **Indian reaction** | Gandhi called it a "**Black Act**" and launched a nationwide **Rowlatt Satyagraha** (6 April 1919 — observed as a hartal/shutdown) |
+| **Official name** | Anarchical and Revolutionary Crimes Act, 1919 |
+| **Key provisions** | Arrest, search, and detention **without warrant**; trial by special tribunals **without jury** and **without right to appeal**; no legal representation for the accused; suspension of habeas corpus; indefinite detention without trial |
+| **Press control** | Stricter censorship of the press; prohibition on political, educational, and religious activities for those convicted |
+| **Indian reaction** | Gandhi called it a "**Black Act**" and launched a nationwide **Rowlatt Satyagraha** (6 April 1919 — observed as a hartal/shutdown across India) |
 | **Council opposition** | All Indian members of the Imperial Legislative Council — including **Jinnah** — voted against it and resigned in protest |
 
 ### Jallianwala Bagh Massacre (13 April 1919)
@@ -133,26 +187,57 @@ Mahatma Gandhi's return to India in 1915 transformed the freedom struggle from a
 
 ---
 
+## Summary Tables
+
+### Timeline of Gandhi's Movements (1917--1922)
+
+| Year | Movement / Event | Location | Outcome |
+|------|-----------------|----------|---------|
+| 1917 | Champaran Satyagraha | Champaran, Bihar | Tinkathia system abolished via Champaran Agrarian Act (1918) |
+| 1918 (Feb--Mar) | Ahmedabad Mill Strike | Ahmedabad, Gujarat | 35% wage increase; first hunger strike in India |
+| 1918 (Mar) | Kheda Satyagraha | Kheda, Gujarat | Revenue collection suspended for those unable to pay |
+| 1919 (Apr 6) | Rowlatt Satyagraha | Nationwide | Mass hartal; marked Gandhi's first nationwide campaign |
+| 1919 (Apr 13) | Jallianwala Bagh Massacre | Amritsar, Punjab | 379 killed (official); Hunter Commission censured Dyer |
+| 1920--22 | Non-Cooperation Movement | Nationwide | Largest mass movement until then; withdrawn after Chauri Chaura |
+| 1919--24 | Khilafat Movement | Nationwide | Hindu-Muslim unity; collapsed after Caliphate abolished (1924) |
+
+### Key Satyagrahas at a Glance
+
+| Satyagraha | Date | Issue | Key Leader(s) beside Gandhi | Method | Result |
+|------------|------|-------|----------------------------|--------|--------|
+| **Champaran** | Apr 1917 | Tinkathia (forced indigo cultivation) | Rajendra Prasad, J.B. Kripalani | Investigation, civil disobedience | Champaran Agrarian Act (1918) |
+| **Ahmedabad Mill Strike** | Feb--Mar 1918 | Withdrawal of plague bonus; wartime inflation | Anasuya Sarabhai | Strike + hunger fast | 35% wage increase via arbitration |
+| **Kheda** | Mar 1918 | Crop failure; inability to pay revenue | Vallabhbhai Patel | No-tax pledge (Nadiad, 22 Mar 1918) | Revenue suspended for the poor |
+| **Rowlatt Satyagraha** | Apr 1919 | Rowlatt Act — detention without trial | Nationwide participation | Hartal on 6 April 1919 | Act not repealed but morally delegitimised |
+| **Non-Cooperation** | 1920--22 | Punjab wrongs, Khilafat, Swaraj | C.R. Das, Motilal Nehru, Ali Brothers | Boycott of institutions, Khadi, constructive programme | Withdrawn 12 Feb 1922 after Chauri Chaura |
+
+---
+
 ## UPSC Relevance
 
 ### Prelims Focus Areas
-- Champaran (1917): first Satyagraha in India; Tinkathia system; Bihar
-- Kheda (1918): no-tax campaign; Gujarat; Sardar Patel's emergence
-- Rowlatt Act: detention without trial; "Black Act"
-- Jallianwala Bagh: 13 April 1919; General Dyer; ~379 killed (official); Hunter Commission
+- Gandhi in South Africa: Natal Indian Congress (1894); Phoenix Settlement (1904); Tolstoy Farm (1910); Pietermaritzburg incident (1893)
+- Champaran (1917): first Satyagraha in India; Tinkathia system; Rajkumar Shukla; Bihar
+- Ahmedabad Mill Strike (1918): first hunger strike in India; plague bonus dispute; 35% wage increase
+- Kheda (1918): no-tax campaign; Gujarat; Sardar Patel's emergence; Nadiad pledge
+- Rowlatt Act (1919): Anarchical and Revolutionary Crimes Act; detention without trial; "Black Act"
+- Jallianwala Bagh: 13 April 1919; General Dyer; 1,650 rounds; ~379 killed (official); Hunter Commission
 - Tagore renounced knighthood; Gandhi returned Kaiser-i-Hind medal
 - NCM launched: 1 August 1920; ratified Nagpur December 1920
-- Chauri Chaura: 4 February 1922; 22 policemen killed; NCM withdrawn 12 February 1922
+- Chauri Chaura: 5 February 1922; 22 policemen killed; NCM withdrawn 12 February 1922
 - Swaraj Party: 1923; C.R. Das and Motilal Nehru; council entry
-- Khilafat: Ali Brothers; ended when Atatürk abolished Caliphate (1924)
+- Khilafat: Ali Brothers; ended when Ataturk abolished Caliphate (1924)
+- Sabarmati Ashram: Kochrab (1915) then moved to Sabarmati riverbank (1917)
 
 ### Mains Focus Areas
+- How did Gandhi's South Africa experience shape his political methods in India?
 - How did Gandhi transform the freedom movement from an elite to a mass movement?
 - Was NCM withdrawal after Chauri Chaura justified?
 - Evaluate the Congress-Khilafat alliance — genuine unity or tactical convenience?
 - Compare Gandhi's methods with Tilak's — evolution of nationalist strategy
 - Role of Jallianwala Bagh in radicalising Indian opinion
 - Why did the Khilafat Movement fail?
+- Assess the significance of Champaran as the "rehearsal" for the larger national movements
 
 ---
 
