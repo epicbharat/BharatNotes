@@ -221,11 +221,32 @@
   </div>
 </div>
 <script>
-// Cookie consent — loads AdSense only after acceptance, shows only once per device
+// Cookie consent — geo-aware: banner only for GDPR/LGPD regions (EU, UK, Brazil, etc.)
+// Indian users (~95% of traffic) get AdSense immediately with zero friction.
 (function(){
   var KEY = 'bharatnotes_cookie_consent';
   var banner = document.getElementById('cookie-banner');
   var consent = localStorage.getItem(KEY);
+
+  // GDPR/LGPD timezones — covers EU, UK, EEA, Switzerland, Brazil
+  var CONSENT_ZONES = [
+    'Europe/', 'Atlantic/Reykjavik', 'Atlantic/Canary', 'Atlantic/Madeira',
+    'Atlantic/Azores', 'Atlantic/Faroe', 'America/Sao_Paulo', 'America/Bahia',
+    'America/Fortaleza', 'America/Recife', 'America/Belem', 'America/Manaus',
+    'America/Cuiaba', 'America/Porto_Velho', 'America/Boa_Vista',
+    'America/Campo_Grande', 'America/Araguaina', 'America/Maceio',
+    'America/Noronha', 'America/Rio_Branco'
+  ];
+
+  function isConsentRegion() {
+    try {
+      var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+      for (var i = 0; i < CONSENT_ZONES.length; i++) {
+        if (tz.indexOf(CONSENT_ZONES[i]) === 0 || tz === CONSENT_ZONES[i]) return true;
+      }
+    } catch(e) {}
+    return false;
+  }
 
   function initAdUnits() {
     var ads = document.querySelectorAll('ins.adsbygoogle');
@@ -252,16 +273,27 @@
     setTimeout(function() { banner.hidden = true; }, 350);
   }
 
-  if (consent === 'accepted') {
-    loadAdSense();
-  } else if (consent !== 'rejected') {
+  function showBanner() {
     banner.hidden = false;
-    // Delay slide-up so the transition plays
     requestAnimationFrame(function() {
       requestAnimationFrame(function() {
         banner.classList.add('cookie-banner--visible');
       });
     });
+  }
+
+  var needsConsent = isConsentRegion();
+
+  if (!needsConsent) {
+    // India, US, and most of the world — load AdSense immediately, no banner
+    loadAdSense();
+  } else if (consent === 'accepted') {
+    loadAdSense();
+  } else if (consent === 'rejected') {
+    // GDPR user rejected — don't load ads, don't show banner again
+  } else {
+    // GDPR region, no prior choice — show banner, wait for consent
+    showBanner();
   }
 
   document.getElementById('cookie-accept').addEventListener('click', function() {
