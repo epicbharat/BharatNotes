@@ -136,10 +136,103 @@
           </div>
         </div>
         <a href="https://ujiyari.com" class="primary-nav__link" target="_blank" rel="noopener" style="color:var(--color-accent-light);">Ujiyari ↗</a>
+        <button id="search-open" type="button" class="primary-nav__link" style="background:none;border:none;cursor:pointer;color:inherit;font-size:inherit;padding:var(--space-2) var(--space-3);" aria-label="Search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
       </nav>
     </div>
   </div>
 </header>
+
+<!-- Search Modal -->
+<dialog id="search-dialog" style="max-width:640px;width:94%;border:none;border-radius:var(--radius-lg);padding:0;box-shadow:0 20px 60px rgba(0,0,0,0.3);background:var(--color-bg);max-height:80vh;overflow:hidden;">
+  <div style="padding:var(--space-4) var(--space-5);border-bottom:1px solid var(--color-border);display:flex;align-items:center;gap:var(--space-3);">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-text-muted)" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input id="search-input" type="search" placeholder="Search topics, chapters, concepts..." autocomplete="off" style="flex:1;border:none;outline:none;font-size:var(--text-base);background:transparent;color:var(--color-text);">
+    <button id="search-close" type="button" style="background:none;border:1px solid var(--color-border);border-radius:var(--radius-sm);padding:2px 8px;font-size:var(--text-xs);color:var(--color-text-muted);cursor:pointer;">ESC</button>
+  </div>
+  <div id="search-results" style="padding:var(--space-3) var(--space-5);overflow-y:auto;max-height:calc(80vh - 60px);"></div>
+</dialog>
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<style>
+/* Search result overrides */
+#search-results .pagefind-ui__result{padding:var(--space-3) 0;border-bottom:1px solid var(--color-border-light,rgba(0,0,0,0.06))}
+#search-results .pagefind-ui__result:last-child{border-bottom:none}
+#search-results .pagefind-ui__result-link{font-size:var(--text-sm);font-weight:600;color:var(--color-brand);text-decoration:none}
+#search-results .pagefind-ui__result-link:hover{text-decoration:underline}
+#search-results .pagefind-ui__result-excerpt{font-size:var(--text-xs);color:var(--color-text-secondary);line-height:1.6;margin-top:4px}
+#search-results mark{background:rgba(212,160,23,0.25);color:inherit;padding:1px 2px;border-radius:2px}
+#search-results .pagefind-ui__result-title{margin:0}
+#search-results .pagefind-ui__result-nested{margin-left:0;padding-left:var(--space-3);border-left:2px solid var(--color-border)}
+.search-empty{text-align:center;padding:var(--space-8);color:var(--color-text-muted);font-size:var(--text-sm)}
+.search-hint{text-align:center;padding:var(--space-6);color:var(--color-text-muted);font-size:var(--text-xs)}
+</style>
+<script>
+(function(){
+  var dialog = document.getElementById('search-dialog');
+  var input = document.getElementById('search-input');
+  var results = document.getElementById('search-results');
+  var pagefindLoaded = false;
+  var pagefind;
+
+  async function loadPagefind() {
+    if (pagefindLoaded) return;
+    try {
+      pagefind = await import('/pagefind/pagefind.js');
+      await pagefind.init();
+      pagefindLoaded = true;
+    } catch(e) {
+      results.innerHTML = '<p class="search-empty">Search index not available. Try after the site rebuilds.</p>';
+    }
+  }
+
+  function openSearch() {
+    if (typeof dialog.showModal === 'function') dialog.showModal();
+    input.focus();
+    loadPagefind();
+    results.innerHTML = '<p class="search-hint">Start typing to search across all topics and chapters</p>';
+  }
+
+  document.getElementById('search-open').addEventListener('click', openSearch);
+  document.getElementById('search-close').addEventListener('click', function() { dialog.close(); });
+  dialog.addEventListener('click', function(e) { if (e.target === dialog) dialog.close(); });
+
+  // Ctrl+K / Cmd+K shortcut
+  document.addEventListener('keydown', function(e) {
+    if ((e.ctrlKey || e.metaKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+    if (e.key === 'Escape' && dialog.open) dialog.close();
+  });
+
+  var searchTimer;
+  input.addEventListener('input', function() {
+    clearTimeout(searchTimer);
+    var q = input.value.trim();
+    if (!q) { results.innerHTML = '<p class="search-hint">Start typing to search across all topics and chapters</p>'; return; }
+    searchTimer = setTimeout(async function() {
+      if (!pagefindLoaded) await loadPagefind();
+      if (!pagefind) return;
+      var search = await pagefind.search(q);
+      if (search.results.length === 0) {
+        results.innerHTML = '<p class="search-empty">No results for "' + q.replace(/</g,'&lt;') + '"</p>';
+        return;
+      }
+      var html = '';
+      var shown = Math.min(search.results.length, 12);
+      for (var i = 0; i < shown; i++) {
+        var data = await search.results[i].data();
+        html += '<div style="padding:var(--space-3) 0;border-bottom:1px solid rgba(0,0,0,0.06);">';
+        html += '<a href="' + data.url + '" style="font-size:var(--text-sm);font-weight:600;color:var(--color-brand);text-decoration:none;display:block;margin-bottom:4px;">' + data.meta.title + '</a>';
+        if (data.excerpt) html += '<p style="font-size:var(--text-xs);color:var(--color-text-secondary);line-height:1.6;margin:0;">' + data.excerpt + '</p>';
+        html += '</div>';
+      }
+      if (search.results.length > 12) {
+        html += '<p style="text-align:center;padding:var(--space-3);font-size:var(--text-xs);color:var(--color-text-muted);">Showing 12 of ' + search.results.length + ' results</p>';
+      }
+      results.innerHTML = html;
+    }, 200);
+  });
+})();
+</script>
 
 <main id="main-content">
   {{ content | safe }}
