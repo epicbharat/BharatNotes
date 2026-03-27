@@ -220,7 +220,7 @@
   </div>
 </div>
 <script>
-// Cookie consent — loads AdSense only after acceptance
+// Cookie consent — loads AdSense only after acceptance, shows only once per device
 (function(){
   var KEY = 'bharatnotes_cookie_consent';
   var banner = document.getElementById('cookie-banner');
@@ -236,21 +236,32 @@
     document.head.appendChild(s);
   }
 
+  function hideBanner() {
+    banner.classList.remove('cookie-banner--visible');
+    setTimeout(function() { banner.hidden = true; }, 350);
+  }
+
   if (consent === 'accepted') {
     loadAdSense();
   } else if (consent !== 'rejected') {
     banner.hidden = false;
+    // Delay slide-up so the transition plays
+    requestAnimationFrame(function() {
+      requestAnimationFrame(function() {
+        banner.classList.add('cookie-banner--visible');
+      });
+    });
   }
 
   document.getElementById('cookie-accept').addEventListener('click', function() {
     localStorage.setItem(KEY, 'accepted');
-    banner.hidden = true;
+    hideBanner();
     loadAdSense();
   });
 
   document.getElementById('cookie-reject').addEventListener('click', function() {
     localStorage.setItem(KEY, 'rejected');
-    banner.hidden = true;
+    hideBanner();
   });
 })();
 </script>
