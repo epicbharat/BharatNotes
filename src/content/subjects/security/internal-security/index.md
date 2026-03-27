@@ -1,0 +1,39 @@
+---
+layout: topic-index.njk
+title: "Internal Security — Threats, Management & Cyber Defence"
+subject: security
+gs_papers:
+  - gs3
+syllabus_topic: "Internal Security"
+description: "Complete UPSC notes on Internal Security — security threats, left-wing extremism, border management, cyber security, and role of media & social networking."
+chapter: 1
+date: 2026-03-27
+foundation: true
+prelims: true
+mains: true
+tags:
+  - security
+  - topic
+---
+
+## Overview
+
+Internal security encompasses all threats to the territorial integrity, sovereignty, and public order of India that originate **within or across its borders** but are managed by internal security forces. India faces a complex internal security environment shaped by its geography, diversity, porous borders, and rapid digitalisation.
+
+This topic is divided into **5 detailed chapters** covering the full spectrum of GS3 Internal Security. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
+
+### What You'll Cover
+
+| Chapter | Theme | Key Highlights |
+|---------|-------|----------------|
+| **Ch 01** | Internal Security — Threats & Challenges | Terrorism, LWE overview, NE insurgency, money laundering, organised crime, security forces |
+| **Ch 02** | Left Wing Extremism & Insurgency | Naxalism origins, SAMADHAN doctrine, NE insurgent groups, AFSPA, peace accords |
+| **Ch 03** | Border Management | India's borders, guarding forces (BSF, ITBP, SSB, AR), smart fencing, coastal security |
+| **Ch 04** | Cyber Security | CERT-In, NCIIPC, IT Act 2000, DPDP Act 2023, cyber warfare, critical infrastructure |
+| **Ch 05** | Role of Media & Social Networking | Fake news, radicalisation, IT Rules 2021, internet shutdowns, deepfakes, regulation |
+
+> **Exam Strategy:** Internal Security is among the highest-scoring GS3 topics. Prelims tests institutional facts (CERT-In, FATF, BSF establishment year, IT Act sections). Mains demands analytical answers linking security with development (LWE), technology with rights (cyber security), and national security with free speech (media regulation). Always present both dimensions in your answers.
+
+---
+
+*Sources: Ministry of Home Affairs (mha.gov.in), PIB Press Releases, CERT-In (cert-in.org.in), FATF (fatf-gafi.org), IT Act 2000 (indiacode.nic.in), DPDP Act 2023 (meity.gov.in)*

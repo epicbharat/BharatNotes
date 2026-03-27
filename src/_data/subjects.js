@@ -82,7 +82,7 @@ module.exports = [
     color: "#be123c",
     description: "Indian society, diversity, women, urbanization, globalization, communalism, secularism",
     gs_papers: ["gs1", "gs2"],
-    syllabus_sections: ["Indian Society", "Social Justice", "Governance"]
+    syllabus_sections: ["Indian Society"]
   },
   {
     slug: "ethics",
