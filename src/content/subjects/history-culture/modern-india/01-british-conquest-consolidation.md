@@ -115,7 +115,7 @@ The British East India Company (EIC) transformed from a trading body into a terr
 
 | Feature | Detail |
 |---------|--------|
-| **Introduced by** | Governor-General **Lord Wellesley** (1798–1805) |
+| **Introduced by** | Governor-General **Lord Wellesley** (1798–1805) — formalised the system; the concept of subsidiary alliances originated with the French Governor **Dupleix** in the 1740s–50s |
 | **How it worked** | Indian rulers had to: (1) Accept a British Resident at their court; (2) Maintain British troops in their territory at their own expense; (3) Cede territory if unable to pay; (4) Surrender foreign policy to the British; (5) Dismiss European employees other than British |
 | **In return** | The EIC promised to protect the state from external threats and internal rebellion |
 | **States that signed** | Hyderabad (first, 1798), Mysore (1799), Tanjore (1799), Awadh (1801), Peshwa (1802 — Treaty of Bassein), Scindia, Bhonsle, and others |
@@ -138,7 +138,7 @@ The British East India Company (EIC) transformed from a trading body into a terr
 
 | Governor-General | Tenure | Key Policies / Events |
 |------------------|--------|----------------------|
-| **Warren Hastings** | 1772–1785 | First Governor-General of **Bengal** (under Regulating Act 1773); abolished Dual Government; Rohilla War; impeached by Edmund Burke in England (acquitted after 7-year trial) |
+| **Warren Hastings** | 1772–1785 | Governor of Bengal from 1772; first **Governor-General of Bengal** from 1774 (under Regulating Act 1773); abolished Dual Government; Rohilla War; impeached by Edmund Burke in England (acquitted after 7-year trial) |
 | **Lord Cornwallis** | 1786–1793 | **Permanent Settlement (1793)** — fixed land revenue with zamindars in Bengal; **Cornwallis Code** — separation of revenue and judicial administration; Europeanised civil services (barred Indians from high positions) |
 | **Lord Wellesley** | 1798–1805 | **Subsidiary Alliance System**; expanded EIC territory massively; founded Fort William College (1800) for training civil servants |
 | **Lord William Bentinck** | 1828–1835 | First Governor-General of **India** (under Charter Act 1833); **abolished Sati (1829)** — Bengal Sati Regulation XVII; English as medium of instruction (**Macaulay's Minute, 1835**); suppressed Thuggee |
