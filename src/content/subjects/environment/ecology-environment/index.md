@@ -31,3 +31,4 @@ Environment, Ecology and Biodiversity is a **high-scoring section** in both UPSC
 | 3 | **Climate Change and Pollution** | Greenhouse gases, IPCC reports, Paris Agreement, Panchamrit, NDCs, NAPCC 8 missions, AQI, NCAP, waste management rules, EIA, NGT |
 | 4 | **Climate Change Policy** | UNFCCC, Kyoto Protocol, Paris Agreement, COP outcomes, India's NDCs, Net Zero 2070, renewable energy, carbon markets, climate finance |
 | 5 | **Environmental Laws and Governance** | EPA 1986, Air Act, Water Act, Forest Conservation Act, Wildlife Protection Act, Biological Diversity Act, CRZ, EIA, NGT, CAMPA, international MEAs |
+| 6 | **Waste Management & Ecosystem Services** | Solid waste, plastic waste, e-waste, biomedical waste, hazardous waste rules, ecosystem services valuation, SBM |

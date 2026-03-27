@@ -31,3 +31,4 @@ International Relations is a **core GS2 section** in UPSC, covering India's fore
 | 3 | **International Organisations** | UN system (UNGA, UNSC, ICJ), WTO, IMF, World Bank, ASEAN, EU, AU, SAARC, BIMSTEC, AUKUS, I2U2 |
 | 4 | **International Trade & WTO** | India's trade profile, WTO structure & disputes, FTAs (UAE, Australia, EFTA, UK), RCEP, trade policy instruments |
 | 5 | **Multilateral Forums** | UN reform, BRICS expansion, SCO, Quad, G20 presidency, SAARC vs BIMSTEC, multi-alignment strategy |
+| 6 | **India's Strategic Partnerships** | India-USA, India-Russia, India-Japan, India-France, India-EU, nuclear diplomacy, Indo-Pacific strategy |

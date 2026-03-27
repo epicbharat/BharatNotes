@@ -20,7 +20,7 @@ tags:
 
 Geography is one of the most scoring and wide-ranging subjects in the UPSC syllabus, spanning physical features, climate, resources, human settlements, and economic activities across India and the world. This topic covers the entire Geography syllabus for GS Paper 1 — from India's physiographic divisions and monsoon mechanism to world geomorphology, ocean currents, and agriculture & food security.
 
-This topic is divided into **6 detailed chapters** — each covering a major theme. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
+This topic is divided into **7 detailed chapters** — each covering a major theme. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
 
 ### What You'll Cover
 
@@ -32,6 +32,7 @@ This topic is divided into **6 detailed chapters** — each covering a major the
 | **Ch 04** | Human Geography of India | Census 2011, demographic transition, urbanisation, migration, tribal areas, transport networks |
 | **Ch 05** | World Geography | Earth's interior, plate tectonics, ocean currents, Koppen classification, biomes, geomorphology |
 | **Ch 06** | Agriculture & Food Security | Major crops, Green Revolution, irrigation, MSP, NFSA, PDS, cropping patterns |
+| **Ch 07** | Oceanography & Marine Resources | Ocean currents, tides, coral reefs, mangroves, EEZ, blue economy, deep-sea mining, UNCLOS |
 
 > **Exam Strategy:** Geography questions in Prelims are highly factual — rivers and their tributaries, soil types, mineral-producing states, ocean currents, and climate phenomena (El Nino, IOD). For Mains, focus on analytical linkages: how physical geography shapes agriculture, how climate change affects monsoon and food security, and how resource distribution drives regional disparities. Use maps and diagrams liberally in Mains answers.
 
