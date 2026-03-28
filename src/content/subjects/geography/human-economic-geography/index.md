@@ -20,7 +20,7 @@ tags:
 
 Human and Economic Geography examines how humans interact with the geographic environment — where people live, how they move, what they produce, and why industries locate where they do. This section overlaps significantly with Economy (GS3) and Society (GS1), making it one of the most **cross-cutting and high-scoring areas** in UPSC.
 
-This section is divided into **3 detailed chapters** covering demographics, agriculture, and industrial geography.
+This section is divided into **4 detailed chapters** covering demographics, agriculture, industrial geography, and urbanisation.
 
 ### What You'll Cover
 
@@ -29,6 +29,7 @@ This section is divided into **3 detailed chapters** covering demographics, agri
 | **Ch 01** | Human Geography of India | Census 2011, demographic transition, urbanisation, migration, tribal areas, linguistic diversity, transport networks |
 | **Ch 02** | Agriculture & Food Security | Major crops, Green/White/Blue Revolutions, irrigation, MSP, NFSA, PDS, cropping patterns |
 | **Ch 03** | Industries & Location Factors | Weber's theory, iron & steel, textiles, IT, industrial corridors, SEZs, Make in India, global industrial regions |
+| **Ch 04** | Urbanisation & Smart Cities | Urbanisation trends, Census urban data, Smart Cities Mission, AMRUT, metro rail, urban governance, slums, urban heat islands |
 
 > **Exam Strategy:** Human Geography is where Prelims meets Mains most directly. Prelims tests Census data (sex ratio, literacy, density), crop-state associations, and industrial facts. Mains (GS1) asks about factors responsible for the location of primary, secondary, and tertiary sector industries, urbanisation challenges, and the effects of migration. Always link demographic data with development outcomes in your answers.
 

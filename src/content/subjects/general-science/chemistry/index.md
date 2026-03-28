@@ -30,3 +30,4 @@ Chemistry in UPSC focuses on **applied concepts** — properties of elements, ch
 | 2 | **Acids, Bases, Salts & Everyday Chemistry** | pH scale, indicators, common salts, soaps & detergents, food chemistry |
 | 3 | **Metals, Non-Metals & Alloys** | Metallurgy, corrosion, important alloys (steel, bronze, brass), rare earth elements |
 | 4 | **Organic Chemistry, Polymers & Environmental Chemistry** | Hydrocarbons, polymers (plastics, rubber), biodegradable materials, ozone, greenhouse gases |
+| 5 | **Environmental Chemistry & Fertilizers** | Chemical pollutants, pesticides, fertilizers (NPK), green chemistry, water treatment, soil chemistry |

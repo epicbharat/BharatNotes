@@ -30,3 +30,4 @@ Physics questions in UPSC Prelims test **conceptual understanding** of fundament
 | 2 | **Heat, Thermodynamics & Sound** | Laws of thermodynamics, heat transfer, thermal expansion, sound waves, Doppler effect |
 | 3 | **Light, Optics & Electromagnetic Waves** | Reflection, refraction, lenses, spectrum, electromagnetic spectrum, fibre optics, lasers |
 | 4 | **Electricity, Magnetism & Electronics** | Ohm's law, circuits, electromagnetic induction, semiconductors, superconductors |
+| 5 | **Modern Physics & Nuclear Science** | Radioactivity, nuclear fission & fusion, X-rays, photoelectric effect, relativity basics, particle physics, nuclear reactors |

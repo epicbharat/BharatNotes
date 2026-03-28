@@ -20,7 +20,7 @@ tags:
 
 Internal security encompasses all threats to the territorial integrity, sovereignty, and public order of India that originate **within or across its borders** but are managed by internal security forces. India faces a complex internal security environment shaped by its geography, diversity, porous borders, and rapid digitalisation.
 
-This topic is divided into **8 detailed chapters** covering the full spectrum of GS3 Internal Security. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
+This topic is divided into **9 detailed chapters** covering the full spectrum of GS3 Internal Security. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
 
 ### What You'll Cover
 
@@ -34,6 +34,7 @@ This topic is divided into **8 detailed chapters** covering the full spectrum of
 | **Ch 06** | Organised Crime & Terrorism Financing | Drug trafficking, human trafficking, PMLA, FATF, hawala, NIA, counterfeit currency |
 | **Ch 07** | Counterterrorism & Intelligence | NIA, NSA, RAW, IB, NATGRID, MAC, UAPA, counter-radicalisation, Pulwama response |
 | **Ch 08** | Drug Trafficking & Narcotics | NDPS Act 1985, NCB, golden crescent & golden triangle, darknet trafficking, de-addiction policy |
+| **Ch 09** | Maritime & Coastal Security | Coastal security scheme, Indian Navy & Coast Guard roles, island territories, maritime zones, blue economy threats, piracy, port security |
 
 > **Exam Strategy:** Internal Security is among the highest-scoring GS3 topics. Prelims tests institutional facts (CERT-In, FATF, BSF establishment year, IT Act sections). Mains demands analytical answers linking security with development (LWE), technology with rights (cyber security), and national security with free speech (media regulation). Always present both dimensions in your answers.
 
