@@ -682,37 +682,37 @@ a.card:hover { text-decoration: none; }
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
-  margin: var(--space-6) 0;
-  font-size: var(--text-base, 1rem);
+  margin: var(--space-5) 0;
+  font-size: var(--text-sm);
   border-radius: var(--radius-lg);
   overflow: hidden;
   border: 1px solid var(--color-border);
-  box-shadow: var(--shadow-sm, 0 1px 3px rgba(0,0,0,0.06));
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
 }
 .article-body th {
   background: var(--color-brand);
   color: var(--color-white);
-  padding: var(--space-4) var(--space-5);
+  padding: 10px var(--space-4);
   text-align: left;
-  font-weight: var(--font-bold);
+  font-weight: 600;
   font-size: var(--text-xs);
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 .article-body td {
-  padding: var(--space-4) var(--space-5);
+  padding: 10px var(--space-4);
   border-bottom: 1px solid var(--color-border-light);
   color: var(--color-text);
-  line-height: 1.65;
+  line-height: 1.6;
   vertical-align: top;
 }
 .article-body td:first-child {
-  font-weight: var(--font-semibold);
-  color: var(--color-brand);
-  white-space: nowrap;
+  font-weight: 600;
+  color: var(--color-text);
 }
 .article-body tr:last-child td { border-bottom: none; }
-.article-body tr:nth-child(even) td { background: rgba(224,90,51,0.02); }
+.article-body tr:nth-child(even) td { background: rgba(15,76,58,0.02); }
+.article-body tr:hover td { background: rgba(15,76,58,0.04); }
 .article-body tr:hover td { background: rgba(224,90,51,0.04); }
 .article-body a { font-weight: var(--font-medium); text-decoration: underline; text-decoration-color: var(--color-accent-light); text-underline-offset: 2px; }
 .article-body a:hover { text-decoration-color: var(--color-accent); }
@@ -973,9 +973,8 @@ a.card:hover { text-decoration: none; }
   .site-header { position: relative; }
   .card { padding: var(--space-4) var(--space-5); }
   .section-card { padding: var(--space-5); margin: var(--space-5) 0; }
-  .article-body table { font-size: var(--text-sm); }
-  .article-body th, .article-body td { padding: var(--space-3) var(--space-4); }
-  .article-body td:first-child { white-space: normal; }
+  .article-body table { font-size: var(--text-xs); }
+  .article-body th, .article-body td { padding: 8px var(--space-3); }
   .pyq-card { margin-bottom: var(--space-4); }
 }
 
