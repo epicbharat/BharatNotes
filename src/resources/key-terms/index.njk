@@ -26,40 +26,40 @@ description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with d
 .kt-search{flex:1;min-width:200px;padding:8px 14px;border:1px solid var(--color-border);border-radius:var(--radius-md);font-size:var(--text-sm);background:var(--color-surface)}
 .kt-search-count{font-size:var(--text-xs);color:var(--color-text-muted)}
 
-.kt-letter{font-family:var(--font-body);font-size:var(--text-lg);font-weight:800;color:var(--color-brand);margin:var(--space-6) 0 var(--space-3);padding-bottom:var(--space-2);border-bottom:2px solid var(--color-border)}
+.kt-letter{font-family:var(--font-body);font-size:var(--text-sm);font-weight:700;color:var(--color-brand);margin:var(--space-5) 0 var(--space-2);padding:var(--space-1) var(--space-3);background:rgba(15,76,58,0.05);border-radius:var(--radius-sm);display:inline-block}
 
-.kt-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);margin-bottom:var(--space-4);overflow:hidden;transition:box-shadow 0.15s}
-.kt-card:hover{box-shadow:var(--shadow-sm)}
-.kt-card__head{display:flex;align-items:flex-start;justify-content:space-between;padding:var(--space-4) var(--space-5) 0;gap:var(--space-3)}
-.kt-card__title-wrap{flex:1;min-width:0}
-.kt-card__title{font-family:var(--font-body);font-size:var(--text-base);font-weight:700;color:var(--color-text);margin:0 0 2px}
+.kt-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-md);margin-bottom:var(--space-2);overflow:hidden;transition:box-shadow 0.15s;border-left:3px solid transparent}
+.kt-card:hover{box-shadow:var(--shadow-sm);border-left-color:var(--color-brand)}
+.kt-card__head{display:flex;align-items:center;justify-content:space-between;padding:10px var(--space-4);gap:var(--space-3)}
+.kt-card__title-wrap{flex:1;min-width:0;display:flex;align-items:baseline;gap:var(--space-2)}
+.kt-card__title{font-family:var(--font-body);font-size:var(--text-sm);font-weight:600;color:var(--color-text);margin:0;white-space:nowrap}
 .kt-card__title a{color:inherit;text-decoration:none}
 .kt-card__title a:hover{color:var(--color-brand)}
-.kt-card__pron{font-family:monospace;font-size:var(--text-xs);color:var(--color-text-muted);background:rgba(0,0,0,0.04);padding:1px 6px;border-radius:var(--radius-sm);display:inline-block}
-.kt-card__badges{display:flex;gap:4px;flex-shrink:0;flex-wrap:wrap}
+.kt-card__pron{font-family:monospace;font-size:0.65rem;color:var(--color-text-muted);background:rgba(0,0,0,0.04);padding:1px 6px;border-radius:var(--radius-sm);display:inline-block;margin-top:var(--space-2)}
+.kt-card__badges{display:flex;gap:3px;flex-shrink:0}
 
-.kt-card__def{padding:var(--space-3) var(--space-5);font-size:var(--text-sm);line-height:1.7;color:var(--color-text);margin:0;border-left:3px solid var(--color-brand);margin-left:var(--space-5);padding-left:var(--space-3)}
+.kt-card__def{padding:var(--space-3) var(--space-4);font-size:var(--text-xs);line-height:1.9;color:var(--color-text);margin:0;border-left:3px solid var(--color-brand);margin-left:var(--space-4);padding-left:var(--space-3)}
 
-.kt-card__context{padding:var(--space-2) var(--space-5) var(--space-3);font-size:var(--text-xs);line-height:1.6;color:var(--color-text-secondary);margin:0}
+.kt-card__context{padding:var(--space-2) var(--space-4) var(--space-3);font-size:0.7rem;line-height:1.9;color:var(--color-text-secondary);margin:0}
 .kt-card__context strong{color:var(--color-text);font-weight:600}
 
-.kt-card__upsc{margin:0 var(--space-5) var(--space-3);padding:var(--space-3) var(--space-4);background:linear-gradient(135deg,rgba(212,160,23,0.06) 0%,rgba(15,76,58,0.04) 100%);border:1px solid rgba(212,160,23,0.2);border-radius:var(--radius-md);font-size:var(--text-xs);line-height:1.6;color:var(--color-text-secondary)}
-.kt-card__upsc-label{font-size:0.6rem;font-weight:700;color:var(--color-accent-hover);text-transform:uppercase;letter-spacing:0.04em;margin-bottom:2px;display:block}
+.kt-card__upsc{margin:0 var(--space-4) var(--space-3);padding:var(--space-3);background:rgba(212,160,23,0.04);border:1px solid rgba(212,160,23,0.12);border-radius:var(--radius-sm);font-size:0.7rem;line-height:1.9;color:var(--color-text-secondary)}
+.kt-card__upsc-label{font-size:0.55rem;font-weight:700;color:var(--color-accent-hover);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px;display:block}
 
 .kt-card--collapsed .kt-card__detail{display:none}
 .kt-card--collapsed .kt-card__head{cursor:pointer}
 .kt-card--collapsed .kt-card__brief{display:inline}
-.kt-card__brief{display:none;font-size:var(--text-xs);color:var(--color-text-muted);margin-left:var(--space-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:300px}
+.kt-card__brief{display:none;font-size:0.7rem;color:var(--color-text-muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:400px}
 .kt-card__chevron{color:var(--color-text-muted);transition:transform 0.2s;flex-shrink:0}
 .kt-card:not(.kt-card--collapsed) .kt-card__chevron{transform:rotate(180deg)}
 .kt-card:not(.kt-card--collapsed) .kt-card__brief{display:none}
-.kt-card__detail{padding:0}
-.kt-card__foot{display:flex;align-items:center;justify-content:space-between;padding:var(--space-3) var(--space-5);border-top:1px solid var(--color-border-light,rgba(0,0,0,0.06));gap:var(--space-3)}
+.kt-card__detail{padding:var(--space-2) 0 0}
+.kt-card__foot{display:flex;align-items:center;justify-content:space-between;padding:var(--space-2) var(--space-4);border-top:1px solid rgba(0,0,0,0.04);gap:var(--space-2)}
 .kt-card__subject{font-size:0.6rem;color:var(--color-text-muted)}
-.kt-card__actions{display:flex;align-items:center;gap:var(--space-3)}
-.kt-card__link{font-size:var(--text-xs);color:var(--color-brand);font-weight:600;text-decoration:none}
+.kt-card__actions{display:flex;align-items:center;gap:var(--space-2)}
+.kt-card__link{font-size:0.65rem;color:var(--color-brand);font-weight:600;text-decoration:none}
 .kt-card__link:hover{text-decoration:underline}
-.kt-card__btn{padding:4px 12px;border:1.5px solid var(--color-border);border-radius:var(--radius-full,999px);font-size:0.6rem;font-weight:600;background:none;color:var(--color-text-muted);cursor:pointer;transition:all 0.15s}
+.kt-card__btn{padding:3px 10px;border:1.5px solid var(--color-border);border-radius:var(--radius-full,999px);font-size:0.6rem;font-weight:600;background:none;color:var(--color-text-muted);cursor:pointer;transition:all 0.15s}
 .kt-card__btn:hover{border-color:var(--color-brand);color:var(--color-brand)}
 .kt-card__btn.learned{background:var(--color-brand);color:#fff;border-color:var(--color-brand)}
 
