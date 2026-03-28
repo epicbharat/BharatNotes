@@ -1,4 +1,11 @@
 module.exports = function (eleventyConfig) {
+  // ── Markdown inline filter (renders **bold**, *italic*, links) ──
+  const { marked } = require("marked");
+  eleventyConfig.addFilter("md", function(value) {
+    if (!value) return "";
+    return marked.parseInline(String(value));
+  });
+
   // Passthrough copies
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");
