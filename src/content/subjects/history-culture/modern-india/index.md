@@ -33,3 +33,4 @@ Modern Indian history (c. 1757–1947) covers the period of British colonial rul
 | 5 | **Constitutional Development (1773–1947)** | Regulating Act to Indian Independence Act — complete evolution |
 | 6 | **Education, Press & Intellectual Awakening** | Macaulay's Minute, Wood's Despatch, Indian press, Orientalist-Anglicist debate |
 | 7 | **Peasant, Tribal & Working Class Movements** | Indigo revolt, Deccan riots, Moplah rebellion, Santhal uprising, Birsa Munda, trade unions |
+| 8 | **Women's Emancipation & Dalit Movements** | Sati abolition, widow remarriage, women's education, Savitribai Phule, Ambedkar, Poona Pact, Periyar |

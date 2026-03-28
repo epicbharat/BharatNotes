@@ -32,3 +32,4 @@ Biology is the **highest-yield** science subject in UPSC Prelims — questions o
 | 4 | **Ecology & Environment Basics** | Ecosystems, food chains, ecological pyramids, biogeochemical cycles, biomes, biodiversity, conservation |
 | 5 | **Microorganisms, Immunology & Vaccines** | Bacteria, viruses, fungi, protozoa, immune system, antibodies, vaccines, AMR, India's immunisation programme |
 | 6 | **Plant Biology & Agriculture Science** | Plant physiology, photosynthesis, plant hormones, crop science, Green Revolution, GM crops, organic farming, soil health |
+| 7 | **Human Diseases & Epidemics** | Bacterial, viral, protozoan diseases, NCDs, vaccines, disease eradication, pandemics, India's public health response |

@@ -31,3 +31,4 @@ Physics questions in UPSC Prelims test **conceptual understanding** of fundament
 | 3 | **Light, Optics & Electromagnetic Waves** | Reflection, refraction, lenses, spectrum, electromagnetic spectrum, fibre optics, lasers |
 | 4 | **Electricity, Magnetism & Electronics** | Ohm's law, circuits, electromagnetic induction, semiconductors, superconductors |
 | 5 | **Modern Physics & Nuclear Science** | Radioactivity, nuclear fission & fusion, X-rays, photoelectric effect, relativity basics, particle physics, nuclear reactors |
+| 6 | **Scientific Instruments, Units & Inventions** | SI units, scientific instruments, major inventions, Indian scientists, Nobel Prize discoveries |
