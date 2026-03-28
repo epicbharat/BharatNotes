@@ -52,16 +52,16 @@
   --font-serif: var(--font-heading);
   --font-sans:  var(--font-body);
 
-  /* Type scale */
-  --text-xs:   0.75rem;
-  --text-sm:   0.8125rem;
-  --text-base: 0.9375rem;
-  --text-md:   1rem;
-  --text-lg:   1.125rem;
-  --text-xl:   1.3125rem;
-  --text-2xl:  1.625rem;
-  --text-3xl:  2.125rem;
-  --text-4xl:  2.75rem;
+  /* Type scale — 1.2 ratio (minor third) from 16px base */
+  --text-xs:   0.8rem;      /* 12.8px — meta, labels, captions */
+  --text-sm:   0.875rem;    /* 14px — secondary body, card text */
+  --text-base: 1rem;        /* 16px — primary body text */
+  --text-md:   1.1rem;      /* 17.6px — emphasis body */
+  --text-lg:   1.25rem;     /* 20px — section titles, card heads */
+  --text-xl:   1.5rem;      /* 24px — page subtitles */
+  --text-2xl:  1.875rem;    /* 30px — page titles */
+  --text-3xl:  2.25rem;     /* 36px — hero headings */
+  --text-4xl:  3rem;        /* 48px — display */
 
   /* Weights */
   --font-normal:    400;
