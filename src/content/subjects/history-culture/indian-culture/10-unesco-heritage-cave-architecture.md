@@ -94,7 +94,7 @@ For UPSC, UNESCO World Heritage Sites and cave architecture are tested frequentl
 |------|-------|------|
 | Khangchendzonga National Park | Sikkim | 2016 |
 
-> **For Prelims:** India has 44 UNESCO World Heritage Sites: 36 cultural + 7 natural + 1 mixed = 44 (sixth-most in the world). The most recent addition is the Maratha Military Landscapes of India (2025), comprising 12 historic forts (11 in Maharashtra, 1 in Tamil Nadu). Khangchendzonga is India's only mixed site. India has 70 sites on its tentative list.
+> **For Prelims:** India has 44 UNESCO World Heritage Sites: 36 cultural + 7 natural + 1 mixed = 44 (sixth-most in the world). The most recent addition is the Maratha Military Landscapes of India (2025), comprising 12 historic forts (11 in Maharashtra, 1 in Tamil Nadu). Khangchendzonga is India's only mixed site. India has 69 sites on its tentative list (49 cultural, 17 natural, 3 mixed — 7 new natural sites added in September 2025).
 
 ---
 
@@ -321,7 +321,7 @@ India has **16 elements** on UNESCO's Lists of Intangible Cultural Heritage:
 | **ASI** | Archaeological Survey of India; principal conservation agency |
 | **AMASR Act** | Ancient Monuments and Archaeological Sites and Remains Act (1958) |
 | **ICH** | Intangible Cultural Heritage (UNESCO); India has 16 entries |
-| **Tentative List** | India has 70 sites on its UNESCO tentative list |
+| **Tentative List** | India has 69 sites on its UNESCO tentative list (49 cultural, 17 natural, 3 mixed) |
 
 ---
 
