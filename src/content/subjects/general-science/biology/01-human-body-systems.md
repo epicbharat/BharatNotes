@@ -251,4 +251,37 @@ A **reflex arc** is the neural pathway that mediates a reflex action — an invo
 
 ---
 
+## Vocabulary
+
+### Haemoglobin
+- **Pronunciation:** /ˌhiːməˈɡloʊbɪn/
+- **Definition:** The iron-containing oxygen-transport protein in red blood cells that binds oxygen in the lungs and releases it to tissues throughout the body, giving blood its red colour.
+- **Origin:** From Greek *haima* ("blood") + Latin *globulus* ("little ball," referring to the globulin protein); coined as *hæmatoglobin* in 1845, shortened to *hæmoglobin* by 1862.
+
+### Synapse
+- **Pronunciation:** /ˈsɪnæps/
+- **Definition:** The junction between two nerve cells, consisting of a minute gap across which electrical impulses are transmitted by chemical neurotransmitters such as acetylcholine and dopamine.
+- **Origin:** From Greek *sunapsis* ("conjunction"), from *sun-* ("together") + *haptein* ("to clasp, fasten"); introduced into neuroscience by Charles Sherrington in 1897.
+
+### Peristalsis
+- **Pronunciation:** /ˌpɛrɪˈstælsɪs/
+- **Definition:** The involuntary wavelike contraction and relaxation of muscles in the walls of hollow organs such as the oesophagus and intestines, which propels food and other contents forward through the digestive tract.
+- **Origin:** From Greek *peristaltikos* ("contracting around"), from *peri-* ("around") + *stellein* ("to place, set in order"); first used in a medical context by the physician Galen in the 2nd century AD.
+
+---
+
+## Key Terms
+
+### Circulatory System
+- **Pronunciation:** /ˈsɜːkjʊlətəri ˈsɪstəm/
+- **Definition:** The organ system comprising the heart, blood vessels, and blood that transports oxygen, nutrients, hormones, and waste products throughout the body, maintaining homeostasis.
+- **Origin:** From Latin *circulāre* ("to form a circle") + *systēma* (from Greek *sustēma*, "organised whole"); William Harvey first described the complete circulation of blood in 1628.
+
+### Endocrine System
+- **Pronunciation:** /ˈɛndəkrɪn ˈsɪstəm/
+- **Definition:** The network of ductless glands that secrete hormones directly into the bloodstream to regulate metabolism, growth, reproduction, sleep, and other vital body functions.
+- **Origin:** From Greek *endon* ("within") + *krinein* ("to separate, secrete") + *systēma* ("organised whole"); the term *endocrine* was coined by British physiologist Edward Starling in the early 20th century.
+
+---
+
 *Sources: Guyton & Hall — Textbook of Medical Physiology, NCBI StatPearls, Cleveland Clinic Health Library, NobelPrize.org, WHO Immunization Guidelines*

@@ -272,6 +272,39 @@ Resource planning is essential for sustainable development. India follows a syst
 
 ---
 
+## Vocabulary
+
+### Bauxite
+- **Pronunciation:** /ˈbɔːksaɪt/
+- **Definition:** A reddish-brown to white clay-like sedimentary rock that is the principal ore of aluminium, consisting primarily of hydrated aluminium oxides and hydroxides with various impurities including iron, silica, and titania.
+- **Origin:** Named after Les Baux-de-Provence in southern France, where the mineral was first described by French geologist Pierre Berthier in 1821; from the Provencal place name *Li Baus* ("the precipices") + the mineral suffix *-ite*.
+
+### Lignite
+- **Pronunciation:** /ˈlɪɡnaɪt/
+- **Definition:** A soft, brownish-black, low-grade coal with a relatively high moisture content in which the texture of the original wood is often still visible, representing an intermediate stage between peat and bituminous coal in the process of coalification.
+- **Origin:** From French *lignite*, from Latin *lignum* ("firewood, wood") + the mineral suffix *-ite*; first recorded in English in 1808.
+
+### Thorium
+- **Pronunciation:** /ˈθɔːɹiəm/
+- **Definition:** A weakly radioactive, silvery-white metallic element (atomic number 90) found in monazite sands, which can be converted to fissile uranium-233 in a nuclear reactor and is the basis for Stage 3 of India's three-stage nuclear power programme.
+- **Origin:** Named in 1832 by Swedish chemist Jons Jakob Berzelius after Thor, the Norse god of thunder; the mineral *thorite* in which it was first identified was found in Brevig, Norway.
+
+---
+
+## Key Terms
+
+### National Mineral Policy
+- **Pronunciation:** /ˈnæʃənəl ˈmɪnəɹəl ˈpɒlɪsi/
+- **Definition:** The guiding policy framework for the exploration, extraction, and management of non-fuel and non-coal minerals in India, most recently revised in 2019, which emphasises transparency through auction-based allocation of mining leases, sustainable mining practices, private sector participation in exploration, and community development through the District Mineral Foundation.
+- **Origin:** India's first mineral policy was framed in 1993 under the Mines and Minerals (Development and Regulation) Act, 1957; it was revised in 2008 and again in 2019, with the latest version approved by the Union Cabinet on 28 February 2019.
+
+### Renewable Energy Target
+- **Pronunciation:** /ɹɪˈnjuːəbəl ˈɛnədʒi ˈtɑːɡɪt/
+- **Definition:** India's commitment to achieve 500 GW of installed non-fossil fuel electricity capacity by 2030 and to source 50% of its cumulative electric power from non-fossil fuel sources, as pledged in India's updated Nationally Determined Contribution (NDC) submitted to the UNFCCC in August 2022.
+- **Origin:** India's renewable energy targets evolved from the National Solar Mission (2010, targeting 100 GW solar) through successive expansions; the 500 GW target was announced by Prime Minister Narendra Modi at the COP26 climate summit in Glasgow in November 2021.
+
+---
+
 ## Current Affairs Connect
 
 | Topic Link | Relevance |

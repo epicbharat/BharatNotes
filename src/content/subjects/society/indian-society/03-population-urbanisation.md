@@ -247,3 +247,36 @@ India's demographic dividend window (2005-2055) is **time-bound**. The key risks
 - **Frame as opportunity vs challenge** — Most questions ask you to evaluate: Is demographic dividend an opportunity or a disaster? Is urbanisation a sign of progress or governance failure? Present both sides with evidence.
 - **Connect to governance** — Link population topics to constitutional provisions (Article 19, 74th Amendment), government schemes (Smart Cities, AMRUT, PMAY), and institutional mechanisms (Census, Finance Commission, NITI Aayog).
 - **Current affairs integration** — Census 2027 (caste enumeration, delimitation), Smart Cities Mission closure review, and AMRUT 2.0 progress are high-probability topics for 2026-27 exam cycle.
+
+---
+
+## Vocabulary
+
+### Conurbation
+- **Pronunciation:** /ˌkɒnɜːˈbeɪʃən/
+- **Definition:** An extensive, continuously built-up urban area formed by the expansion and merging of several neighbouring cities or towns that retain their separate identities.
+- **Origin:** Coined in 1915 by Scottish biologist and geographer Patrick Geddes, from Latin *con-* ("together") + *urbs* ("city") + the English suffix *-ation*.
+
+### Slum
+- **Pronunciation:** /slʌm/
+- **Definition:** A densely populated, deteriorated urban neighbourhood characterised by substandard housing, inadequate sanitation, and widespread poverty.
+- **Origin:** Originally 19th-century English slang meaning "room" or "back room" (first recorded c. 1812); evolved by 1845 to denote a "squalid district of a city"; ultimate origin uncertain, possibly related to *slumber*.
+
+### Gentrification
+- **Pronunciation:** /ˌdʒɛntrɪfɪˈkeɪʃən/
+- **Definition:** The process by which increased investment and influx of wealthier residents into a deteriorating urban neighbourhood drives up property values and rents, often displacing the original lower-income inhabitants.
+- **Origin:** Coined in 1964 by German-born British sociologist Ruth Glass; derived from *gentry* (Old French *genterise*, "of gentle birth") + the suffix *-fication*.
+
+---
+
+## Key Terms
+
+### Census Town
+- **Pronunciation:** /ˈsɛnsəs taʊn/
+- **Definition:** A settlement in India that meets all three urban criteria — minimum population of 5,000, at least 75% of male main workers in non-agricultural occupations, and population density of at least 400 persons per square kilometre — but is not statutorily notified as a town and continues to be governed by a rural panchayat.
+- **Origin:** A classification category used by the Office of the Registrar General and Census Commissioner of India during decennial censuses; the number of census towns rose from 1,362 in 2001 to 3,894 in 2011.
+
+### Rural-Urban Migration
+- **Pronunciation:** /ˈrʊərəl ˈɜːbən maɪˈɡreɪʃən/
+- **Definition:** The movement of people from rural areas to urban centres, driven by push factors (poverty, lack of employment, poor services) in villages and pull factors (better jobs, education, healthcare, higher living standards) in cities.
+- **Origin:** A compound term from demographic and geographic studies; *rural* derives from Latin *ruralis* ("of the countryside"), *urban* from Latin *urbanus* ("of the city"), and *migration* from Latin *migratio* ("a moving, departure").

@@ -256,4 +256,37 @@ India's disaster management framework was transformed by the **Disaster Manageme
 
 ---
 
+---
+
+## Vocabulary
+
+### Mitigation
+- **Pronunciation:** /ˌmɪt.ɪˈɡeɪ.ʃən/
+- **Definition:** The act of reducing the severity, seriousness, or impact of a disaster or hazard through pre-emptive measures such as risk assessment, structural reinforcement, early warning systems, and policy interventions.
+- **Origin:** From Latin *mitigatio*, from *mitigare* ("to make mild, soften, alleviate"), combining *mitis* ("gentle, soft") + *agere* ("to drive, do"); first recorded in English in the 14th century.
+
+### Evacuation
+- **Pronunciation:** /ɪˌvæk.juˈeɪ.ʃən/
+- **Definition:** The organised removal or withdrawal of people from a place of danger — such as a flood zone, earthquake-affected area, or conflict zone — to a safer location as a life-saving disaster response measure.
+- **Origin:** From Late Latin *evacuationem*, from *evacuare* ("to empty out"), combining *e-* ("out of") + *vacuus* ("empty, vacant"); the military sense dates to 1710, and the meaning "removal of civilians to safer ground" emerged in 1934.
+
+### Triage
+- **Pronunciation:** /triːˈɑːʒ/
+- **Definition:** The process of sorting and prioritising disaster victims or patients for treatment based on the urgency of their medical needs and the available resources, ensuring that those most likely to benefit receive care first.
+- **Origin:** From French *triage* ("action of sorting, sifting"), from Old French *trier* ("to sort, select"), from Late Latin *tritare* ("to grind"); the medical usage was pioneered by Baron Dominique-Jean Larrey, Surgeon-in-Chief to Napoleon's Imperial Guard, in the early 19th century.
+
+---
+
+## Key Terms
+
+### National Disaster Response Force
+- **Pronunciation:** /ˈnæʃ.ən.əl dɪˈzɑːs.tər rɪˈspɒns fɔːrs/
+- **Definition:** India's specialised disaster response force, raised on 19 January 2006 under the Disaster Management Act 2005, comprising 16 battalions drawn from central armed police forces (BSF, CRPF, CISF, ITBP, SSB, Assam Rifles) and trained in responding to natural and man-made disasters including chemical, biological, radiological, and nuclear (CBRN) emergencies.
+- **Origin:** Established by the National Disaster Management Authority under Section 44 of the Disaster Management Act, 2005, in response to catastrophic events including the 1999 Odisha Super Cyclone, 2001 Gujarat Earthquake, and 2004 Indian Ocean Tsunami that exposed the need for a dedicated professional rescue force; functions under the Ministry of Home Affairs.
+
+### State Disaster Management Authority
+- **Pronunciation:** /steɪt dɪˈzɑːs.tər ˈmæn.ɪdʒ.mənt ɔːˈθɒr.ɪ.ti/
+- **Definition:** A statutory body mandated under Section 14 of the Disaster Management Act, 2005, in every Indian state, chaired by the Chief Minister, responsible for laying down the state's disaster management policy, approving the State Disaster Management Plan, and coordinating disaster preparedness and response at the state level.
+- **Origin:** Created by the Disaster Management Act, 2005 (enacted 23 December 2005) as the state-level apex body in India's three-tier disaster management framework (NDMA at the national level, SDMA at the state level, DDMA at the district level), with up to eight additional members appointed by the Chief Minister.
+
 *Sources: Disaster Management Act 2005 (India Code), NDMA (ndma.gov.in), NDRF (ndrf.gov.in), UNDRR — Sendai Framework, PIB Press Releases, 15th Finance Commission Report (2021–26), MHA — NDM India (ndmindia.mha.gov.in), CDRI (cdri.world)*

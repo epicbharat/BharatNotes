@@ -363,6 +363,39 @@ Weathering is the in-situ breakdown of rocks without transportation.
 
 ---
 
+## Vocabulary
+
+### Lithosphere
+- **Pronunciation:** /ˈlɪθəsfɪə/
+- **Definition:** The rigid outermost shell of the Earth, comprising the crust and the uppermost part of the mantle, which is broken into tectonic plates that float on the semi-fluid asthenosphere below.
+- **Origin:** From Greek *lithos* ("stone") + *sphaira* ("sphere, globe"); coined in the 1880s, with the earliest recorded usage in 1887.
+
+### Asthenosphere
+- **Pronunciation:** /æsˈθɛnəsfɪə/
+- **Definition:** The mechanically weak, partially molten layer of the Earth's upper mantle lying beneath the lithosphere, extending from roughly 100 to 700 km depth, where convection currents drive the movement of tectonic plates.
+- **Origin:** From Greek *asthenes* ("weak, feeble") + *sphaira* ("sphere"); introduced by American geologist Joseph Barrell in 1914 to describe the "sphere of weakness" beneath the rigid lithosphere.
+
+### Mohorovicic
+- **Pronunciation:** /məʊhəˈɹɒvɪtʃɪtʃ/
+- **Definition:** The Mohorovicic discontinuity (commonly shortened to Moho) is the boundary between the Earth's crust and the mantle, occurring at an average depth of about 35 km beneath continents and about 10 km beneath the ocean floor, identified by an abrupt change in seismic wave velocities.
+- **Origin:** Named after Croatian seismologist Andrija Mohorovicic (1857-1936), who first identified this boundary in 1909 by studying seismic waves from a Zagreb earthquake; the term entered scientific literature in the 1930s.
+
+---
+
+## Key Terms
+
+### Plate Tectonics
+- **Pronunciation:** /pleɪt tɛkˈtɒnɪks/
+- **Definition:** The scientific theory that the Earth's lithosphere is divided into several large rigid plates that move, float, and interact on the semi-fluid asthenosphere, with their convergent, divergent, and transform boundaries explaining the distribution of earthquakes, volcanoes, mountain ranges, and ocean trenches.
+- **Origin:** From Greek *tekton* ("builder, carpenter"); the geological sense of "tectonics" dates to 1899, while the full term "plate tectonics" was coined in 1967, building on Alfred Wegener's continental drift hypothesis (1912) and the seafloor spreading discoveries of the 1960s.
+
+### Ring of Fire
+- **Pronunciation:** /ɹɪŋ əv ˈfaɪə/
+- **Definition:** A horseshoe-shaped belt of about 40,000 km encircling the Pacific Ocean, containing approximately 75% of the world's active and dormant volcanoes and generating about 90% of the world's earthquakes, formed primarily by convergent and transform plate boundaries around the Pacific Plate.
+- **Origin:** The association of Pacific-rim volcanoes with "fire" dates to antiquity; German geographer Carl Ritter first described the volcanic "Circle of Fire" around the Pacific in 1859, and the term "Ring of Fire" appeared in *Scientific American* in 1878.
+
+---
+
 ## Current Affairs Connect
 
 Stay updated with the latest developments in world geography and related topics:

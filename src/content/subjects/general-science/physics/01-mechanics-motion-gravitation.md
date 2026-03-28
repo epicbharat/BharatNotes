@@ -247,4 +247,37 @@ where P = pressure, ρ = fluid density, v = velocity, g = acceleration due to gr
 
 ---
 
+## Vocabulary
+
+### Momentum
+- **Pronunciation:** /moʊˈmɛntəm/
+- **Definition:** The product of a body's mass and velocity, representing the quantity of motion possessed by the moving body.
+- **Origin:** From Latin *momentum*, a contraction of *movimentum*, from *movēre* ("to move") + *-mentum* (noun-forming suffix).
+
+### Inertia
+- **Pronunciation:** /ɪnˈɜːʃə/
+- **Definition:** The property of matter by which a body remains at rest or continues in uniform motion in a straight line unless acted upon by an external force.
+- **Origin:** From Latin *inertia* ("lack of skill, inactivity"), from *iners* ("idle, sluggish"), from *in-* ("not") + *ars* ("skill, art").
+
+### Gravitation
+- **Pronunciation:** /ˌɡrævɪˈteɪʃən/
+- **Definition:** The fundamental force of mutual attraction between all bodies that have mass, proportional to the product of their masses and inversely proportional to the square of the distance between them.
+- **Origin:** From Latin *gravitātiōnem*, from *gravitās* ("weight, heaviness"), from *gravis* ("heavy").
+
+---
+
+## Key Terms
+
+### Newton's Laws
+- **Pronunciation:** /ˈnjuːtənz lɔːz/
+- **Definition:** Three fundamental laws of classical mechanics formulated by Isaac Newton in 1687, describing the relationship between the motion of a body and the forces acting on it: the law of inertia, the law of force and acceleration (F = ma), and the law of action and reaction.
+- **Origin:** Named after English physicist and mathematician Sir Isaac Newton (1643–1727), who published them in *Philosophiæ Naturalis Principia Mathematica*.
+
+### Escape Velocity
+- **Pronunciation:** /ɪˈskeɪp vəˈlɒsɪti/
+- **Definition:** The minimum speed an object must reach to break free from a celestial body's gravitational field without further propulsion, independent of the escaping object's own mass.
+- **Origin:** Compound of English *escape* (from Old French *eschaper*) + *velocity* (from Latin *vēlōcitās*, "swiftness"), coined in the context of 20th-century orbital mechanics.
+
+---
+
 *Sources: NCERT Physics (Class 11 and 12), NASA — Orbits and Kepler's Laws (science.nasa.gov), NASA — Bernoulli's Principle (nasa.gov), ESA — Types of Orbits (esa.int), NASA Planetary Fact Sheet (nssdc.gsfc.nasa.gov), Wikipedia — Gravitational Constant, Geostationary Orbit, Escape Velocity, Bernoulli's Principle, Britannica — Pascal's Principle, Kepler's Laws of Planetary Motion, Escape Velocity.*

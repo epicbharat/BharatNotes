@@ -241,4 +241,37 @@ The **Rowlatt Committee**, headed by Justice **Sidney Rowlatt**, was appointed i
 
 ---
 
+## Vocabulary
+
+### Satyagraha
+- **Pronunciation:** /ˌsʌt.jɑːˈɡrʌ.hə/
+- **Definition:** A philosophy and practice of non-violent civil resistance developed by Mahatma Gandhi, in which protesters actively but peacefully refuse to comply with unjust laws while accepting the legal consequences.
+- **Origin:** From Sanskrit, combining *satya* (सत्य, "truth," from the root *sat-*, "existing, true") and *āgraha* (आग्रह, "firm grasping, insistence," from *gṛh-*, "to seize"); coined by Gandhi in 1906 during his South Africa campaign.
+
+### Ahimsa
+- **Pronunciation:** /ʌˈhɪm.sɑː/
+- **Definition:** The ancient Indian ethical principle of non-violence and non-injury toward all living beings, central to Hinduism, Buddhism, and Jainism, and adopted by Gandhi as the moral foundation of the independence movement.
+- **Origin:** From Sanskrit *ahiṃsā* (अहिंसा), combining the privative prefix *a-* ("not, without") and *hiṃsā* ("injury, harm," from the root *hiṃs-*, "to strike"); literally "non-harming."
+
+### Swaraj
+- **Pronunciation:** /swəˈrɑːdʒ/
+- **Definition:** Self-rule or self-governance; in the Indian independence movement, it referred both to political independence from British colonial rule and to Gandhi's broader vision of community-based self-governance and individual self-discipline.
+- **Origin:** From Sanskrit *svarāj* (स्वराज्), combining *sva* ("own, self") and *rāj* ("rule, sovereignty"); entered English political usage around 1907–1908.
+
+---
+
+## Key Terms
+
+### Non-Cooperation Movement
+- **Pronunciation:** /nɒn kəʊˌɒp.əˈreɪ.ʃən ˈmuːv.mənt/
+- **Definition:** The first nationwide mass campaign (1920–1922) led by Gandhi under the Indian National Congress, in which Indians systematically withdrew cooperation from British institutions — boycotting courts, schools, legislatures, foreign goods, and titles — to make colonial rule unworkable; it was called off on 12 February 1922 after the Chauri Chaura violence.
+- **Origin:** *Non-* from Latin *nōn* ("not"); *Cooperation* from Late Latin *cooperātiō* ("working together"); *Movement* from Latin *movēre* ("to move").
+
+### Civil Disobedience Movement
+- **Pronunciation:** /ˌsɪv.əl ˌdɪs.əˈbiː.di.əns ˈmuːv.mənt/
+- **Definition:** The mass campaign launched by Gandhi on 12 March 1930 with the Salt March from Sabarmati Ashram to Dandi (387 km), in which Indians deliberately broke unjust British laws — beginning with the salt tax — through non-violent protest, resulting in approximately 60,000 arrests and drawing worldwide attention to the independence cause.
+- **Origin:** *Civil* from Latin *cīvīlis* ("of citizens"); *Disobedience* from Old French *desobedience*, from Latin *dis-* ("apart") and *oboedientia* ("obedience"); the phrase was popularised by Henry David Thoreau's 1849 essay of the same name, which influenced Gandhi.
+
+---
+
 *Sources: M.K. Gandhi — Autobiography (The Story of My Experiments with Truth), Bipan Chandra — India's Struggle for Independence, NCERT — Themes in Indian History Part III, Judith Brown — Gandhi's Rise to Power*

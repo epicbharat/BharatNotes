@@ -229,4 +229,37 @@ The Rigveda describes the Saraswati as a mighty, powerful river — "best of mot
 
 ---
 
+## Vocabulary
+
+### Vedic
+- **Pronunciation:** /ˈveɪ.dɪk/
+- **Definition:** Relating to the Vedas, the oldest body of religious literature in India, or to the historical period (c. 1500–600 BCE) in which they were composed.
+- **Origin:** From Sanskrit *veda* ("knowledge"), derived from the root *vid-* ("to know"), cognate with Latin *vidēre* ("to see") and English *wit*; the English suffix *-ic* was added in the 1840s.
+
+### Pastoral
+- **Pronunciation:** /ˈpæs.tər.əl/
+- **Definition:** Relating to the herding and rearing of livestock, especially cattle and sheep, as the primary economic activity of a society.
+- **Origin:** From Latin *pāstōrālis* ("of or pertaining to a shepherd"), from *pāstor* ("shepherd"), from the root *pāscere* ("to feed or graze"); entered English via Old French *pastoral*.
+
+### Oligarchy
+- **Pronunciation:** /ˈɒl.ɪ.ɡɑː.ki/
+- **Definition:** A form of government in which political power is concentrated in the hands of a small, privileged group rather than the wider population.
+- **Origin:** From Ancient Greek *oligarkhía* (ὀλιγαρχία), combining *olígos* (ὀλίγος, "few") and *arkhḗ* (ἀρχή, "rule, authority"); entered English via Latin and French in the 1570s.
+
+---
+
+## Key Terms
+
+### Rig Veda
+- **Pronunciation:** /rɪɡ ˈveɪ.də/
+- **Definition:** The oldest of the four Vedas, composed c. 1500–1200 BCE in Vedic Sanskrit, consisting of 1,028 hymns (*suktas*) arranged in ten books (*mandalas*) that praise the gods and preserve the earliest Indo-Aryan religious thought.
+- **Origin:** From Sanskrit *Ṛgveda* (ऋग्वेद), combining *ṛc* ("praise, verse") and *veda* ("knowledge"); literally "knowledge of the hymns."
+
+### Varna System
+- **Pronunciation:** /ˈvʌr.nə ˈsɪs.təm/
+- **Definition:** The ancient Indian fourfold social classification — Brahmins (priests), Kshatriyas (warriors), Vaishyas (commoners), and Shudras (servants) — described in Vedic texts, which originally denoted occupational divisions and later rigidified into hereditary social strata.
+- **Origin:** From Sanskrit *varṇa* (वर्ण), derived from the root *vṛ* ("to cover, classify"); the literal meaning is "colour" or "category," used metaphorically for social classification.
+
+---
+
 *Sources: Vedic Heritage Portal (vedicheritage.gov.in), NCERT Ancient India (R.S. Sharma), Upinder Singh — A History of Ancient and Early Medieval India, Rigveda — Jamison & Brereton translation*

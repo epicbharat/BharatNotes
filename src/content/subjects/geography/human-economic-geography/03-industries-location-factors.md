@@ -414,3 +414,36 @@ The 14 PLI sectors are: Mobile Phones & Electronic Components, Telecom & Network
 3. Criticisms — revenue foregone, land conflicts, IT-sector bias, enclave nature
 4. Compare with Chinese SEZs (Shenzhen's transformation vs India's mixed record)
 5. Suggest reforms — focus on manufacturing SEZs, stronger backward linkages, sunset clause for tax benefits
+
+---
+
+## Vocabulary
+
+### Agglomeration
+- **Pronunciation:** /əˌɡlɒməˈɹeɪʃən/
+- **Definition:** The clustering or concentration of industries and economic activities in a particular area, which reduces shared costs through common infrastructure, a pooled labour market, and proximity to ancillary services.
+- **Origin:** From Latin *agglomerare* ("to wind or add onto a ball"), from *ad* ("to") + *glomerare* ("to wind up in a ball"), from *glomus* ("ball of yarn"); first recorded in English in the 1660s.
+
+### Hinterland
+- **Pronunciation:** /ˈhɪntəlænd/
+- **Definition:** The region inland from a coast or port city that is economically tied to it, supplying raw materials and serving as a market for goods passing through the port.
+- **Origin:** Borrowed directly from German *Hinterland*, from *hinter* ("behind") + *Land* ("land"); first used in English in 1888 by geographer George Chisholm, originally in the context of European colonial claims over areas behind coastal ports.
+
+### SEZ
+- **Pronunciation:** /ˌɛs iː ˈzɛd/
+- **Definition:** A Special Economic Zone is a geographically delimited area within a country where business and trade laws differ from the rest of the nation, offering incentives such as tax holidays, duty-free imports, and simplified regulatory clearances to attract investment and promote exports.
+- **Origin:** The modern SEZ concept originated with the Shannon Free Zone established in Ireland in 1959; the term gained global prominence after China designated its first Special Economic Zones (notably Shenzhen) in 1980 under Deng Xiaoping's economic reforms. India's SEZ Act was passed in 2005.
+
+---
+
+## Key Terms
+
+### Weber's Theory
+- **Pronunciation:** /ˈveɪbəz ˈθɪəɹi/
+- **Definition:** The Least Cost Theory of industrial location proposed by German economist Alfred Weber in 1909, which holds that an industry will locate at the point where the combined costs of transport, labour, and agglomeration are minimised, using concepts such as the Material Index, locational triangle, and isodapane.
+- **Origin:** Published by Alfred Weber in 1909 as *Uber den Standort der Industrien* (translated into English in 1929 as *Theory of the Location of Industries*); it remains the foundational model in industrial location theory.
+
+### Industrial Corridor
+- **Pronunciation:** /ɪnˈdʌstɹiəl ˈkɒɹɪdɔː/
+- **Definition:** A linear geographical zone that links key economic hubs through integrated infrastructure including roads, railways, ports, and airports, designed to stimulate manufacturing, reduce logistics costs, and promote planned urbanisation along its route.
+- **Origin:** The concept evolved from post-World War II regional planning theory; in India, the National Industrial Corridor Development Programme (NICDP) was formalised with the Delhi-Mumbai Industrial Corridor (DMIC) announced in 2007 with Japanese collaboration.

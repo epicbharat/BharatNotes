@@ -246,4 +246,37 @@ India's territorial consolidation was not limited to princely states. Foreign co
 
 ---
 
+## Vocabulary
+
+### Accession
+- **Pronunciation:** /əkˈsɛʃ.ən/
+- **Definition:** The formal act by which a ruler or state agrees to join or come under the authority of another political entity, thereby ceding specified sovereign powers.
+- **Origin:** From Latin *accessiō* ("a coming to, an approach"), from the verb *accēdere* ("to approach, to agree"), combining *ad-* ("to") and *cēdere* ("to go, to yield"); first attested in English in the 1640s.
+
+### Plebiscite
+- **Pronunciation:** /ˈplɛb.ɪ.saɪt/
+- **Definition:** A direct vote by the entire electorate of a state or territory on a specific political question, such as a change of sovereignty or constitutional amendment.
+- **Origin:** From French *plébiscite*, from Latin *plēbiscītum*, combining *plēbs* ("the common people") and *scītum* ("decree," from *scīscere*, "to vote for"); first used in English in the mid-16th century referring to Roman law.
+
+### Integration
+- **Pronunciation:** /ˌɪn.tɪˈɡreɪ.ʃən/
+- **Definition:** The process of combining separate political units into a single unified whole, particularly the consolidation of princely states and provinces into the Indian Union after 1947.
+- **Origin:** From Latin *integrātiō* ("renewal, restoration"), from the verb *integrāre* ("to make whole"), from *integer* ("whole, untouched"), combining *in-* (negation) and the root of *tangere* ("to touch").
+
+---
+
+## Key Terms
+
+### Instrument of Accession
+- **Pronunciation:** /ˈɪn.strʊ.mənt əv əkˈsɛʃ.ən/
+- **Definition:** The legal document introduced under the Government of India Act 1935 and used in 1947 by which each princely state ruler formally ceded three subjects — defence, external affairs, and communications — to the Dominion of India (or Pakistan), while initially retaining internal autonomy.
+- **Origin:** *Instrument* from Latin *instrūmentum* ("tool, equipment"), from *instruere* ("to build, equip"); *Accession* from Latin *accessiō* ("a coming to").
+
+### Sardar Patel
+- **Pronunciation:** /sər.ˈdɑːr pəˈteɪl/
+- **Definition:** Sardar Vallabhbhai Patel (1875–1950), India's first Deputy Prime Minister and Home Minister, who as head of the States Department (est. 27 June 1947) masterminded the diplomatic and, when necessary, military integration of 562 princely states into the Indian Union, earning the title "Iron Man of India."
+- **Origin:** *Sardar* from Persian *sardār* ("chief, leader"), combining *sar* ("head") and *-dār* ("holder"); *Patel* from Gujarati *pāṭīdār/paṭel* ("village headman"), denoting a landholder or community leader.
+
+---
+
 *Sources: V.P. Menon — The Story of the Integration of the Indian States, Rajmohan Gandhi — Patel: A Life, NCERT — India After Independence, Report of the States Reorganisation Commission (1955), sardarpatel.nvli.in, legislative.gov.in*

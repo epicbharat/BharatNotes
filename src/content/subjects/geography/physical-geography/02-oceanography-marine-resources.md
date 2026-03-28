@@ -298,3 +298,36 @@ UNCLOS, adopted in **1982** and entering into force in **1994**, is the comprehe
 - **Blue economy and sustainable development** -- connect Deep Ocean Mission, Sagarmala, and fisheries modernisation to SDG 14 (Life Below Water)
 - **Maritime security** -- EEZ protection, freedom of navigation debates (South China Sea parallels), and India's Indo-Pacific strategy
 - **Disaster management** -- role of mangroves in cyclone and tsunami mitigation (link to GS-3 disaster management)
+
+---
+
+## Vocabulary
+
+### Salinity
+- **Pronunciation:** /səˈlɪnɪti/
+- **Definition:** The measure of the total concentration of dissolved salts in a body of water, typically expressed in parts per thousand (ppt), with the average ocean salinity being approximately 35 ppt.
+- **Origin:** From Latin *sal* ("salt") via *salinus* ("of or pertaining to salt") + the suffix *-ity* ("condition or quality of being"); earliest English usage recorded in the 1620s.
+
+### Upwelling
+- **Pronunciation:** /ʌpˈwɛlɪŋ/
+- **Definition:** An oceanographic phenomenon in which wind-driven currents displace warm surface water, causing cold, nutrient-rich water from the deep ocean to rise to the surface, supporting highly productive marine ecosystems and major fisheries.
+- **Origin:** From English *up* + *well* ("to issue forth, to rise"); the verb "upwell" is recorded from 1841, with the noun "upwelling" first appearing in the 1860s.
+
+### Tsunami
+- **Pronunciation:** /tsuːˈnɑːmi/
+- **Definition:** A series of ocean waves of extremely long wavelength caused by a large-scale, rapid displacement of water, typically triggered by submarine earthquakes, volcanic eruptions, or underwater landslides, capable of devastating coastal areas far from the point of origin.
+- **Origin:** Borrowed from Japanese *tsunami* (津波), from *tsu* (津, "harbour") + *nami* (波, "wave"), literally "harbour wave"; the term entered English in the 1890s, with the earliest recorded usage in 1896.
+
+---
+
+## Key Terms
+
+### Continental Shelf
+- **Pronunciation:** /ˌkɒntɪˈnɛntəl ʃɛlf/
+- **Definition:** The gently sloping, submerged extension of a continental landmass beneath the ocean, extending from the coastline to the shelf break at an average depth of about 60 metres and an average width of about 80 km, over which a coastal state exercises sovereign rights to seabed resources under UNCLOS.
+- **Origin:** The geological concept was recognised in the 19th century; the legal definition was formalised in the 1958 Geneva Convention on the Continental Shelf and subsequently codified in UNCLOS (1982), which allows claims up to 200 nautical miles and, with geological justification, up to 350 nautical miles.
+
+### Exclusive Economic Zone
+- **Pronunciation:** /ɪkˈskluːsɪv ˌiːkəˈnɒmɪk zəʊn/
+- **Definition:** A maritime zone extending up to 200 nautical miles from a coastal state's baseline, within which the state has sovereign rights over all natural resources (living and non-living) in the water column, seabed, and subsoil, as well as jurisdiction over marine research and environmental protection, as defined by UNCLOS.
+- **Origin:** The concept emerged from the Truman Proclamations of 1945 on the continental shelf and coastal fisheries; it was formally codified during the Third United Nations Conference on the Law of the Sea (1973-1982) and enshrined in Part V of UNCLOS, which entered into force in 1994.

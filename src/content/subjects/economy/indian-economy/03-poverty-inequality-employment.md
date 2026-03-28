@@ -385,6 +385,39 @@ The **Code on Social Security, 2020** (one of four labour codes passed by Parlia
 
 ---
 
+## Vocabulary
+
+### Subsistence
+- **Pronunciation:** /səbˈsɪstəns/
+- **Definition:** The condition of maintaining life at a minimum level, having just enough food, money, or resources to survive.
+- **Origin:** From Latin *subsistentia* ("substance, reality"), via French *subsistance*, from *sub-* ("under") + *sistere* ("to stand"); entered English in the early 15th century.
+
+### Gini Coefficient
+- **Pronunciation:** /ˈdʒiːni ˌkoʊɪˈfɪʃənt/
+- **Definition:** A statistical measure of income or wealth inequality within a population, expressed on a scale from 0 (perfect equality) to 1 (perfect inequality).
+- **Origin:** Named after Italian statistician Corrado Gini, who developed the measure; earliest known use dates to 1913 in the *American Economic Review*.
+
+### Disguised Unemployment
+- **Pronunciation:** /dɪsˈɡaɪzd ˌʌnɪmˈplɔɪmənt/
+- **Definition:** A situation in which more workers are employed in a sector than are actually needed, so that the marginal productivity of the surplus workers is effectively zero.
+- **Origin:** A compound of English *disguised* (from Old French *desguiser*, "to change appearance") and *unemployment*; the concept was formalised in development economics in the mid-20th century.
+
+---
+
+## Key Terms
+
+### Multidimensional Poverty Index (MPI)
+- **Pronunciation:** /ˌmʌltiˌdaɪˈmɛnʃənəl ˈpɒvərti ˈɪndɛks/
+- **Definition:** An international measure of acute poverty that captures simultaneous deprivations across three dimensions — health, education, and standard of living — using ten weighted indicators, identifying a person as MPI-poor if deprived in at least one-third of those indicators.
+- **Origin:** Developed in 2010 by Sabina Alkire and James Foster at the Oxford Poverty and Human Development Initiative (OPHI) in partnership with UNDP, using the Alkire-Foster methodology.
+
+### MGNREGA
+- **Pronunciation:** /ˌɛm dʒiː ɛn ɑːr iː dʒiː ˈeɪ/ (spoken as individual letters) or /mə.ɡəˈnreɪ.ɡə/ (spoken as a word)
+- **Definition:** The Mahatma Gandhi National Rural Employment Guarantee Act, 2005 — a rights-based Indian labour law that legally guarantees 100 days of unskilled wage employment per financial year to every rural household whose adult members demand it.
+- **Origin:** Enacted by the Indian Parliament on 23 August 2005; originally named NREGA, it was renamed MGNREGA on 2 October 2009 in honour of Mahatma Gandhi.
+
+---
+
 ## Current Affairs Connect
 
 Stay updated on poverty, inequality, and employment through **Ujiyari.com**:

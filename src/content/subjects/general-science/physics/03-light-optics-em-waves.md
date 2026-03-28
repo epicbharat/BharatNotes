@@ -266,4 +266,37 @@ All EM waves travel at the speed of light in vacuum (~3 x 10⁸ m/s) and differ 
 
 ---
 
+## Vocabulary
+
+### Refraction
+- **Pronunciation:** /rɪˈfrækʃən/
+- **Definition:** The bending of a wave, especially light, as it passes from one medium into another of different optical density, caused by a change in the wave's speed.
+- **Origin:** From Late Latin *refrāctiōnem*, from Latin *refringere* ("to break up"), from *re-* ("back") + *frangere* ("to break").
+
+### Diffraction
+- **Pronunciation:** /dɪˈfrækʃən/
+- **Definition:** The spreading and bending of waves as they pass through an aperture or around the edge of an obstacle, without any change in their energy.
+- **Origin:** From Latin *diffringere* ("to break into pieces"), from *dis-* ("apart") + *frangere* ("to break"); coined by Francesco Maria Grimaldi in the 17th century.
+
+### Spectrum
+- **Pronunciation:** /ˈspɛktrəm/
+- **Definition:** The band of colours produced when white light is dispersed by a prism or diffraction grating, arranged by wavelength from violet to red.
+- **Origin:** From Latin *spectrum* ("image, apparition"), from *specere* ("to look at"); first used in an optical sense by Isaac Newton in 1671.
+
+---
+
+## Key Terms
+
+### Total Internal Reflection
+- **Pronunciation:** /ˈtoʊtəl ɪnˈtɜːnəl rɪˈflɛkʃən/
+- **Definition:** The complete reflection of a light ray back into a denser medium when it strikes the boundary with a less dense medium at an angle of incidence greater than the critical angle.
+- **Origin:** Compound of English *total* (from Latin *tōtālis*, "entire") + *internal* (from Latin *internus*, "inward") + *reflection* (from Latin *reflexiōnem*, "a bending back").
+
+### Electromagnetic Spectrum
+- **Pronunciation:** /ɪˌlɛktroʊmæɡˈnɛtɪk ˈspɛktrəm/
+- **Definition:** The entire range of electromagnetic radiation, ordered by frequency or wavelength, extending from radio waves through microwaves, infrared, visible light, ultraviolet, X-rays, to gamma rays.
+- **Origin:** Compound of *electromagnetic* (coined in the 1820s from Greek *ēlektron*, "amber" + Greek *magnēs lithos*, "Magnesian stone") + *spectrum* (Latin, "image").
+
+---
+
 *Sources: NCERT Physics (Class 10 & 12), NASA Electromagnetic Spectrum Overview, Britannica — Snell's Law & C.V. Raman, Wikipedia — Visible Spectrum, Electromagnetic Spectrum & Dispersive Prism, NobelPrize.org — C.V. Raman (1930) & Einstein (1921), HyperPhysics — Rayleigh Scattering, American Academy of Ophthalmology — Eye Anatomy, Physics LibreTexts — Total Internal Reflection & Polarisation, LiveScience — Newton's Prism Experiment*

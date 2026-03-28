@@ -246,3 +246,36 @@ The first GST found that while near-universal climate action has been achieved, 
 - Climate change impact on Indian agriculture and food security
 - Green hydrogen as industrial decarbonisation pathway
 - NAPCC and National Missions — implementation gaps after 18 years
+
+---
+
+## Vocabulary
+
+### Decarbonisation
+- **Pronunciation:** /diːˌkɑːbənaɪˈzeɪʃən/
+- **Definition:** The process of reducing and ultimately eliminating carbon dioxide emissions from a country's economy, energy systems, and industrial processes to mitigate climate change.
+- **Origin:** From English *de-* ("removal") + *carbon* (from Latin *carbo*, "coal, charcoal") + *-isation* (suffix denoting a process); earliest known use in the 1830s, originally referring to removal of carbon from metals, with the climate-policy sense emerging in the late 20th century.
+
+### Carbon Credit
+- **Pronunciation:** /ˈkɑːr.bən ˈkred.ɪt/
+- **Definition:** A tradable permit or certificate representing the right to emit one metric tonne of carbon dioxide or its equivalent, used within market-based mechanisms to incentivise greenhouse gas emission reductions.
+- **Origin:** From Latin *carbo* ("coal") + Latin *creditum* ("a loan, thing entrusted"), from *credere* ("to believe, trust"); the term was first used in 1990 and gained wide currency after the Kyoto Protocol (1997) introduced market-based emission reduction mechanisms.
+
+### Greenhouse
+- **Pronunciation:** /ˈɡriːn.haʊs/
+- **Definition:** A structure with glass or translucent walls and roof used to cultivate plants under controlled conditions; in climate science, the term refers to the "greenhouse effect" whereby atmospheric gases trap heat radiated from the Earth's surface, warming the planet.
+- **Origin:** Compound of English *green* + *house*; first attested in 1664 in the writings of John Evelyn to describe a glass building for growing plants; the meteorological analogy "greenhouse effect" was coined in the 19th century to describe atmospheric heat-trapping.
+
+---
+
+## Key Terms
+
+### UNFCCC
+- **Pronunciation:** /juː.en.ef.siː.siː.siː/
+- **Definition:** The United Nations Framework Convention on Climate Change, an international treaty adopted on 9 May 1992 at the Rio Earth Summit, which established the foundational framework for global climate negotiations with the objective of stabilising greenhouse gas concentrations at a level that would prevent dangerous anthropogenic interference with the climate system.
+- **Origin:** Negotiated under United Nations auspices and opened for signature at the UN Conference on Environment and Development (UNCED) in Rio de Janeiro, 1992; entered into force on 21 March 1994; now has 198 Parties and serves as the parent treaty for the Kyoto Protocol (1997) and the Paris Agreement (2015).
+
+### Kyoto Protocol
+- **Pronunciation:** /kiˈoʊ.toʊ ˈproʊ.tə.kɒl/
+- **Definition:** An international treaty adopted on 11 December 1997 at COP3 in Kyoto, Japan, which extended the UNFCCC by setting legally binding greenhouse gas emission reduction targets for industrialised (Annex I) countries, averaging 5.2% below 1990 levels during the first commitment period (2008-2012).
+- **Origin:** Named after Kyoto, Japan, the city where it was adopted; entered into force on 16 February 2005 after ratification by 55 Parties covering at least 55% of Annex I emissions; introduced market mechanisms (Clean Development Mechanism, Joint Implementation, Emissions Trading) and was superseded by the Paris Agreement (2015).

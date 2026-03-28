@@ -417,6 +417,39 @@ The Eighth Schedule to the Constitution of India currently recognises **22 sched
 
 ---
 
+## Vocabulary
+
+### Urbanisation
+- **Pronunciation:** /ˌɜːbənaɪˈzeɪʃən/
+- **Definition:** The process by which an increasing proportion of a population moves from rural areas to cities and towns, accompanied by the physical growth of urban areas.
+- **Origin:** From Latin *urbanus* ("of or pertaining to a city"), from *urbs* ("city") + *-isation*; earliest English usage recorded in the 1880s.
+
+### Migration
+- **Pronunciation:** /maɪˈɡɹeɪʃən/
+- **Definition:** The movement of people from one place to another, especially a change of residence or habitat from one locality to another, either within a country or across international borders.
+- **Origin:** From Latin *migrationem* (nominative *migratio*, "a removal, change of abode"), from *migrare* ("to move from one place to another"), ultimately from PIE root *mei-* ("to change, go, move"); first recorded in English in the early 1500s.
+
+### Demography
+- **Pronunciation:** /dɪˈmɒɡɹəfi/
+- **Definition:** The statistical study of human populations, including their size, structure, distribution, and changes over time through births, deaths, and migration.
+- **Origin:** From Greek *demos* ("the people") + *-graphia* ("writing, description"), literally meaning "writing about the people"; earliest English usage dates to the 1830s.
+
+---
+
+## Key Terms
+
+### Census 2011
+- **Pronunciation:** /ˈsɛnsəs tuː ˈθaʊzənd ənd ɪˈlɛvən/
+- **Definition:** The 15th national census of India, conducted under the Census Act of 1948 in two phases (house listing from April 2010 and population enumeration from 9-28 February 2011), which recorded India's total population at 1,210,854,977 and remains the most recent completed decennial census.
+- **Origin:** The term "census" derives from Latin *censere* ("to assess, to rate"); the Indian census tradition began in 1872, with the first synchronous census in 1881.
+
+### Smart Cities Mission
+- **Pronunciation:** /smɑːt ˈsɪtiz ˈmɪʃən/
+- **Definition:** A Government of India urban renewal and retrofitting programme launched on 25 June 2015 to develop 100 selected cities by providing core infrastructure, a clean and sustainable environment, and smart technology solutions to improve citizens' quality of life.
+- **Origin:** Coined by the Government of India as a flagship urban development initiative in 2015; the broader concept of "smart cities" emerged in the early 2000s from the integration of information and communication technology into urban planning.
+
+---
+
 ## Current Affairs Connect
 
 Stay updated with the latest developments in India's human geography:

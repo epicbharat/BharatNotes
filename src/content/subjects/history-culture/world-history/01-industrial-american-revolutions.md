@@ -243,4 +243,37 @@ The Industrial Revolution gave European powers (especially Britain) the economic
 
 ---
 
+## Vocabulary
+
+### Industrialisation
+- **Pronunciation:** /ɪnˌdʌs.tri.ə.laɪˈzeɪ.ʃən/
+- **Definition:** The process of social and economic transformation whereby a society shifts from a predominantly agrarian, handicraft-based economy to one dominated by mechanised factory production.
+- **Origin:** From French *industrialisation*, equivalent to *industrial* (from Latin *industria*, "diligence, activity") plus the suffix *-isation*; first attested in English in the 1890s.
+
+### Bourgeoisie
+- **Pronunciation:** /ˌbʊəʒ.wɑːˈziː/
+- **Definition:** The social class that owns the means of production in a capitalist society; more broadly, the urban middle class of merchants, manufacturers, and professionals who rose to economic and political prominence during the Industrial Revolution.
+- **Origin:** From French *bourgeoisie*, from *bourgeois* ("townspeople"), derived from Old French *borgeis* ("town dweller"), from *bourg* ("market town"), ultimately from Old Frankish *burg* ("fortified town").
+
+### Laissez-faire
+- **Pronunciation:** /ˌlɛs.eɪ ˈfɛər/
+- **Definition:** An economic doctrine advocating minimal government intervention in commerce and industry, holding that markets function most efficiently when left to operate through free competition and the laws of supply and demand.
+- **Origin:** From French *laissez faire* ("let [them] do," literally "leave to do"), from *laisser* ("to let," from Latin *laxāre*, "to loosen") and *faire* ("to do," from Latin *facere*); associated with the 18th-century French Physiocrats.
+
+---
+
+## Key Terms
+
+### Industrial Revolution
+- **Pronunciation:** /ɪnˈdʌs.tri.əl ˌrɛv.əˈluː.ʃən/
+- **Definition:** The period of rapid technological, economic, and social transformation (c. 1760–1840) originating in Britain, during which hand-production methods gave way to machine manufacturing, steam power replaced water and muscle, and the modern factory system emerged.
+- **Origin:** *Industrial* from Latin *industria* ("diligence"); *Revolution* from Late Latin *revolūtiō* ("a turn around"); the compound phrase was popularised in the 1840s by French writers and later by Arnold Toynbee's lectures (1881).
+
+### American Revolution
+- **Pronunciation:** /əˈmɛr.ɪ.kən ˌrɛv.əˈluː.ʃən/
+- **Definition:** The political upheaval (1765–1783) in which thirteen British colonies in North America rejected imperial rule, declared independence on 4 July 1776, fought the Revolutionary War, and established the United States as a sovereign republic through the Treaty of Paris (1783).
+- **Origin:** *American* from the name of Italian explorer Amerigo Vespucci, Latinised as *Americus*; *Revolution* from Late Latin *revolūtiō* ("a turn around").
+
+---
+
 *Sources: Britannica Academic, Robert C. Allen — The British Industrial Revolution in Global Perspective, Gordon S. Wood — The American Revolution: A History, NCERT World History Textbooks, UK National Archives, UK Parliament Archives, Dadabhai Naoroji — Poverty and Un-British Rule in India (1901)*

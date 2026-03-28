@@ -322,3 +322,36 @@ The "creamy layer" concept, established in **Indra Sawhney (1992)**, excludes th
 | Communalism | Internal Security (GS3), Secularism & Fundamental Rights (GS2), Ethics of tolerance (GS4) |
 | Minority rights | Education policy (GS2), Federalism (GS2), Directive Principles (GS2) |
 | Caste dynamics | Urbanisation & social change (GS1), Globalisation & Indian society (GS1), Women & social reform (GS1) |
+
+---
+
+## Vocabulary
+
+### Endogamy
+- **Pronunciation:** /ɛnˈdɒɡəmi/
+- **Definition:** The custom or practice of marrying only within one's own social group, caste, clan, or tribe, as required by tradition or social norm.
+- **Origin:** From Greek *endon* ("within") + *gamos* ("marriage"); coined in 1865 by Scottish social anthropologist John Ferguson McLennan.
+
+### Tribe
+- **Pronunciation:** /traɪb/
+- **Definition:** A social group comprising families or communities linked by common ancestry, culture, language, and territory, typically pre-dating the formation of modern states and often governed by customary law and traditional leadership.
+- **Origin:** From Latin *tribus*, originally referring to the three founding divisions of the Roman people; entered English via Old French *tribu*; related to *tri-* ("three").
+
+### Assimilation
+- **Pronunciation:** /əˌsɪmɪˈleɪʃən/
+- **Definition:** In sociology, the process by which individuals or groups of differing cultural heritage adopt the habits, attitudes, and way of life of a dominant culture, gradually merging into it.
+- **Origin:** From Latin *assimilatio* (stem of *assimilare*, "to make similar"), via French *assimilation*; first recorded in English around 1595-1605.
+
+---
+
+## Key Terms
+
+### Scheduled Tribes
+- **Pronunciation:** /ˈʃɛdjuːld traɪbz/
+- **Definition:** Tribal communities officially recognised under Article 342 of the Indian Constitution, specified by Presidential notification for each state and union territory, making them eligible for constitutional safeguards including reservation in education, employment, and legislatures.
+- **Origin:** The designation originates from the Government of India Act, 1935, which first created a "schedule" (official list) of tribes entitled to special protections; carried forward into the Indian Constitution (1950) under Articles 342 and 366(25).
+
+### Fifth Schedule
+- **Pronunciation:** /fɪfθ ˈʃɛdjuːl/
+- **Definition:** A schedule under Article 244(1) of the Indian Constitution that provides a framework for the administration and governance of Scheduled Areas and Scheduled Tribes in ten states, empowering the Governor to regulate the application of central and state laws and mandating Tribes Advisory Councils.
+- **Origin:** Incorporated into the Indian Constitution at its adoption on 26 January 1950; draws on colonial-era provisions for "excluded" and "partially excluded" areas under the Government of India Act, 1935, adapted by the Constituent Assembly's Advisory Committee on Fundamental Rights and Minorities.

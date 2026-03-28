@@ -295,3 +295,36 @@ This is an increasingly important Mains topic as development encroaches on wildl
 - International conventions — India's commitments and compliance
 - Community-based conservation models
 - Climate change impact on wildlife and protected areas
+
+---
+
+## Vocabulary
+
+### Poaching
+- **Pronunciation:** /ˈpoʊ.tʃɪŋ/
+- **Definition:** The illegal hunting, capturing, or killing of wild animals in violation of local, national, or international wildlife conservation laws.
+- **Origin:** From Middle English *pocchen* ("to bag"), via Old French *pochier* ("to thrust into a bag"), from Middle French *poche* ("pocket, pouch") — illegal hunters would stuff stolen game into bags to conceal their catch.
+
+### Corridor
+- **Pronunciation:** /ˈkɔːr.ɪ.dɔːr/
+- **Definition:** A strip of habitat connecting two or more larger patches of habitat, enabling wildlife to move safely between them for migration, foraging, and genetic exchange.
+- **Origin:** From Italian *corridore* ("a runner, a long passage"), from *correre* ("to run"), ultimately from Latin *currere* ("to run") — originally denoting a covered passageway in a building, extended to ecology in the 20th century.
+
+### Sanctuary
+- **Pronunciation:** /ˈsæŋk.tʃu.er.i/
+- **Definition:** A designated protected area where wild animals, birds, and plants are shielded from hunting, poaching, and habitat destruction, with limited human activities permitted under regulation.
+- **Origin:** From Latin *sanctuarium* ("a sacred place, shrine"), from *sanctus* ("holy, sacred") — originally a place of religious refuge, the meaning expanded to include protected areas for wildlife from the 1930s onward.
+
+---
+
+## Key Terms
+
+### Project Tiger
+- **Pronunciation:** /ˈprɒdʒ.ekt ˈtaɪ.ɡər/
+- **Definition:** A wildlife conservation programme launched on 1 April 1973 by the Government of India under Prime Minister Indira Gandhi to protect the endangered Bengal tiger through the creation and management of dedicated tiger reserves across the country.
+- **Origin:** Named directly for its target species, the tiger (*Panthera tigris*); established in response to the alarming decline in India's tiger population revealed by a 1972 census, and administered since 2006 by the statutory National Tiger Conservation Authority (NTCA).
+
+### Wildlife Protection Act
+- **Pronunciation:** /ˈwaɪld.laɪf prəˈtek.ʃən ækt/
+- **Definition:** The primary legislation for wildlife conservation in India, enacted on 9 September 1972, which provides for the protection of wild animals, birds, and plants, the creation of protected areas (national parks, wildlife sanctuaries, conservation reserves, community reserves), and the regulation of trade in wildlife products.
+- **Origin:** Passed by the Parliament of India in 1972 as the Wild Life (Protection) Act (Act No. 53 of 1972), drawing constitutional authority from Entry 17A and 17B of the Concurrent List added by the 42nd Amendment (1976); significantly amended in 1991, 2002, 2006, and 2022.

@@ -247,3 +247,36 @@ For a typical GS4 question like *"What is emotional intelligence? Discuss its ro
 - Reference **real-world examples** — administrators who demonstrated high EQ (e.g., T.N. Seshan's election reforms, Kiran Bedi's prison reforms)
 - Balance **empathy with duty** — the examiner wants to see that you care but can also make tough decisions
 - Discuss **EQ as learnable** — show awareness that emotional skills can be developed through training, reflection, and practice
+
+---
+
+## Vocabulary
+
+### Cognition
+- **Pronunciation:** /kɒɡˈnɪʃ.ən/
+- **Definition:** The mental process of acquiring knowledge and understanding through thought, experience, and the senses, encompassing activities such as perception, reasoning, memory, and judgement.
+- **Origin:** From Latin *cognitio* ("knowledge, perception"), from *cognoscere* ("to learn, to know"), combining *co-* ("together") + *gnoscere* ("to know"), from the Proto-Indo-European root *gneh-* ("to know"); entered English via Middle English *cognicion* in the 15th century.
+
+### Altruism
+- **Pronunciation:** /ˈæl.tru.ɪ.zəm/
+- **Definition:** The selfless concern for and devotion to the welfare of others, involving actions that benefit another person at a potential cost to oneself, without expectation of personal gain.
+- **Origin:** Coined in 1830 by French philosopher Auguste Comte from French *autrui* ("of or to others"), from Old French, from Latin *alteri* (dative of *alter*, "other") + *-isme*; introduced into English in 1853 by George Henry Lewes in his translation of Comte's works.
+
+### Conscience
+- **Pronunciation:** /ˈkɒn.ʃəns/
+- **Definition:** The inner sense of moral awareness that guides a person's judgement of the rightness or wrongness of their own conduct, intentions, and character, accompanied by a feeling of obligation to act rightly.
+- **Origin:** From Latin *conscientia* ("knowledge within oneself, moral sense"), from *conscire* ("to know, to be conscious"), combining *com-* ("together") + *scire* ("to know"); probably a loan-translation of Greek *syneidesis* ("with-knowledge"); entered English via Old French *conscience* in the 13th century.
+
+---
+
+## Key Terms
+
+### Goleman's Model
+- **Pronunciation:** /ˈɡoʊl.mənz ˈmɒd.əl/
+- **Definition:** Daniel Goleman's framework of emotional intelligence, presented in his 1995 book *Emotional Intelligence: Why It Can Matter More Than IQ*, which identifies five learnable competencies — self-awareness, self-regulation, motivation, empathy, and social skills — grouped into personal competence and social competence domains.
+- **Origin:** Developed by American psychologist and science journalist Daniel Goleman (b. 1946), building on the foundational work of Peter Salovey and John Mayer who first defined emotional intelligence in 1990; Goleman refined the model into a four-domain framework in 2000, but the original five-component version remains the most widely cited in academic and UPSC contexts.
+
+### Self-Regulation
+- **Pronunciation:** /ˌself.reɡ.jʊˈleɪ.ʃən/
+- **Definition:** The ability to control or redirect one's disruptive impulses, emotions, and moods, and the capacity to suspend judgement and think before acting — a core component of emotional intelligence essential for maintaining composure, integrity, and ethical conduct under pressure.
+- **Origin:** Compound of *self* (Old English *self*, "one's own person") + *regulation* (from Late Latin *regulatio*, from *regulare*, "to control, direct," from *regula*, "rule"); in psychology, the concept was developed through self-regulation theory and incorporated into Goleman's emotional intelligence framework as one of the five foundational competencies.

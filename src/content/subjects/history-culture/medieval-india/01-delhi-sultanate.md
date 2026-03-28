@@ -258,4 +258,37 @@ The term "Mamluk" means "owned" — these rulers were originally slave-soldiers 
 
 ---
 
+## Vocabulary
+
+### Sultanate
+- **Pronunciation:** /ˈsʌl.tə.neɪt/
+- **Definition:** A sovereign state or territory governed by a sultan, or the office and authority of a sultan.
+- **Origin:** From Classical Persian *saltanat* (سَلْطَنَت); by surface analysis, English *sultan* (from Arabic *sulṭān*, "strength, authority, ruler") plus the suffix *-ate* denoting rank or office.
+
+### Iqta
+- **Pronunciation:** /ɪqˈtɑːʕ/
+- **Definition:** An administrative practice in Islamic states whereby the right to collect tax revenue from a designated territory was assigned to a military officer (*iqtadar*) in lieu of a cash salary.
+- **Origin:** From Arabic *iqṭāʿ* (إقطاع), derived from the root *qaṭaʿa* (ق-ط-ع), meaning "to cut off" or "to allot," signifying the assignment of a portion of revenue.
+
+### Ulema
+- **Pronunciation:** /ˌuː.ləˈmɑː/
+- **Definition:** The collective body of Muslim scholars and jurists who are recognised authorities on Islamic theology, sacred law (*Sharia*), and doctrine.
+- **Origin:** From Arabic *ʿulamāʾ* (عُلَمَاء), the plural of *ʿālim* (عَالِم, "scholar, learned person"), derived from the root *ʿilm* ("knowledge, learning").
+
+---
+
+## Key Terms
+
+### Delhi Sultanate
+- **Pronunciation:** /ˈdɛl.i ˈsʌl.tə.neɪt/
+- **Definition:** The series of five successive Muslim dynasties — Mamluk, Khalji, Tughlaq, Sayyid, and Lodi — that ruled large parts of the Indian subcontinent from Delhi between 1206 and 1526, ending when Babur defeated Ibrahim Lodi at the First Battle of Panipat.
+- **Origin:** *Delhi* from Hindi/Urdu *Dihlī* (of debated etymology); *Sultanate* from Arabic *sulṭān* ("authority") via Persian, with the English suffix *-ate*.
+
+### Alauddin's Market Reforms
+- **Pronunciation:** /ˌæl.ə.ʊdˈdiːnz ˈmɑː.kɪt rɪˈfɔːmz/
+- **Definition:** The comprehensive system of state-regulated price controls, anti-hoarding measures, and centralised market oversight instituted by Sultan Alauddin Khalji (r. 1296–1316) across four designated markets in Delhi, primarily to sustain a large standing army at low cost.
+- **Origin:** *Alauddin* from Arabic *ʿAlāʾ al-Dīn* ("nobility of the faith"); *market* from Latin *mercātus* ("trade"); *reforms* from Latin *reformāre* ("to form again").
+
+---
+
 *Sources: NCERT — Themes in Indian History Part II (Class XII), Satish Chandra — History of Medieval India, Ibn Battuta — Rihla, Ziauddin Barani — Tarikh-i-Firoz Shahi, ASI (asi.nic.in)*

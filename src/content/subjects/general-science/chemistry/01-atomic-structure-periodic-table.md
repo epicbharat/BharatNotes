@@ -270,4 +270,37 @@ Nuclear fusion is the combining of two light atomic nuclei to form a heavier nuc
 
 ---
 
+## Vocabulary
+
+### Isotope
+- **Pronunciation:** /ˈaɪ.sə.toʊp/
+- **Definition:** One of two or more forms of the same element whose atoms have the same number of protons but different numbers of neutrons, giving them the same atomic number but different mass numbers.
+- **Origin:** From Greek *isos* ("equal") + *topos* ("place"), meaning "the same place" on the periodic table; coined by Scottish physician Margaret Todd in 1913.
+
+### Valence
+- **Pronunciation:** /ˈvæləns/
+- **Definition:** The combining capacity of an atom, determined by the number of electrons it can lose, gain, or share when forming chemical bonds.
+- **Origin:** From Latin *valentia* ("strength, capacity"), from *valēre* ("to be strong"); adopted into chemistry in the mid-19th century.
+
+### Electronegativity
+- **Pronunciation:** /ɪˌlɛktroʊˌnɛɡəˈtɪvɪti/
+- **Definition:** A measure of the tendency of an atom to attract shared electrons towards itself when forming a chemical bond, with fluorine having the highest value on the Pauling scale.
+- **Origin:** From *electro-* (Greek *ēlektron*, "amber") + *negativity* (from Latin *negātīvus*, "denying"), formulated as a concept by Linus Pauling in 1932.
+
+---
+
+## Key Terms
+
+### Periodic Law
+- **Pronunciation:** /ˌpɪəriˈɒdɪk lɔː/
+- **Definition:** The principle that the physical and chemical properties of the elements recur in a systematic and predictable pattern when the elements are arranged in order of increasing atomic number.
+- **Origin:** Formulated independently by Dmitri Mendeleev and Lothar Meyer in 1869; *periodic* from Greek *periodikos* ("recurring at intervals") + *law* from Old English *lagu*.
+
+### Atomic Number
+- **Pronunciation:** /əˈtɒmɪk ˈnʌmbər/
+- **Definition:** The number of protons in the nucleus of an atom, which uniquely identifies a chemical element and determines its position in the periodic table.
+- **Origin:** Compound of *atomic* (from Greek *atomos*, "indivisible") + *number* (from Latin *numerus*); the concept was established by Henry Moseley in 1913 through X-ray spectroscopy experiments.
+
+---
+
 *Sources: Britannica, Khan Academy, Chemistry LibreTexts, American Physical Society, NIST, Wikipedia (cross-verified with multiple sources). All facts verified as of March 2026.*

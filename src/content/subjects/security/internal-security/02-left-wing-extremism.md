@@ -256,4 +256,37 @@ Northeast insurgency is **distinct from LWE** — it is **ethnic/identity-based*
 
 ---
 
+## Vocabulary
+
+### Naxalism
+- **Pronunciation:** /ˈnæksəlɪzəm/
+- **Definition:** A communist insurgent ideology in India, rooted in Maoist principles of armed peasant revolution against the state to overthrow existing socio-economic structures and establish a classless society.
+- **Origin:** Named after Naxalbari, a village in Darjeeling district, West Bengal, where a peasant uprising in 1967 led by Charu Majumdar and Kanu Sanyal gave birth to the movement; formed from the place name *Naxalbari* + the English suffix *-ism*.
+
+### Maoist
+- **Pronunciation:** /ˈmaʊɪst/
+- **Definition:** A follower of the political and military ideology of Mao Zedong, which advocates armed revolution led by the peasantry to overthrow capitalist and feudal systems through protracted guerrilla warfare.
+- **Origin:** From the proper name *Mao* (Mao Zedong, 1893-1976, Chinese communist leader) + the suffix *-ist*; earliest known English use dates to 1949.
+
+### Cadre
+- **Pronunciation:** /ˈkɑːdreɪ/ (US) or /ˈkɑːdə/ (UK)
+- **Definition:** A small, trained core group of personnel who form the nucleus of a larger organisation, particularly a political or military movement.
+- **Origin:** Borrowed from French *cadre* ("frame"), from Italian *quadro* ("framed painting, square"), from Latin *quadrum* ("a square"), ultimately from *quattuor* ("four"); entered English in the late 18th century.
+
+---
+
+## Key Terms
+
+### SAMADHAN Doctrine
+- **Pronunciation:** /səˈmɑːdʱɑːn ˈdɒktrɪn/
+- **Definition:** The Ministry of Home Affairs' comprehensive counter-Left Wing Extremism strategy announced in 2017, where each letter stands for a pillar — Smart Leadership, Aggressive Strategy, Motivation and Training, Actionable Intelligence, Dashboard-based KPIs, Harnessing Technology, Action Plan for Each Theatre, and No Access to Financing.
+- **Origin:** Announced by Union Home Minister Rajnath Singh on 8 May 2017; *samadhan* is a Hindi word (from Sanskrit *samaadhaanam*) meaning "solution" or "resolution."
+
+### Red Corridor
+- **Pronunciation:** /rɛd ˈkɒrɪdɔːr/
+- **Definition:** A contiguous belt of districts across eastern, central, and southern India — spanning states such as Chhattisgarh, Jharkhand, Odisha, and Maharashtra — that have experienced significant Naxalite-Maoist insurgent presence and activity.
+- **Origin:** The term emerged in Indian security discourse to describe the geographic spread of Left Wing Extremism; *red* refers to the communist colour symbolising revolution, and *corridor* denotes the elongated, belt-like shape of the affected region stretching from Nepal's border to southern India.
+
+---
+
 *Sources: [MHA — LWE Division](https://www.mha.gov.in/en/divisionofmha/left-wing-extremism-division), [PIB](https://pib.gov.in), [PRS India](https://prsindia.org), [NDMA](https://ndma.gov.in)*

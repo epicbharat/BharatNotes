@@ -291,3 +291,36 @@ A gene-editing technology that uses a guide RNA to locate a specific DNA sequenc
 | **Recessive** | Allele that expresses only in homozygous condition |
 | **Genome** | Complete set of genetic material of an organism |
 | **Gene pool** | Total genetic diversity in a population |
+
+---
+
+## Vocabulary
+
+### Allele
+- **Pronunciation:** /əˈliːl/
+- **Definition:** One of two or more alternative forms of a gene that occupy the same position (locus) on a chromosome and control the same trait.
+- **Origin:** From German *Allel*, abbreviation of *Allelomorph*, from Greek *allēl-* ("one another," from *allos*, "other") + *morphē* ("form"); first used publicly by Frederick Soddy in 1913.
+
+### Phenotype
+- **Pronunciation:** /ˈfiːnətaɪp/
+- **Definition:** The set of observable physical, biochemical, and behavioural characteristics of an organism, resulting from the interaction of its genotype with the environment.
+- **Origin:** From Greek *phainein* ("to show, appear") + *typos* ("mark, type"); coined by Danish botanist Wilhelm Johannsen in 1911.
+
+### Mutation
+- **Pronunciation:** /mjuːˈteɪʃən/
+- **Definition:** A permanent alteration in the nucleotide sequence of DNA that may arise spontaneously during replication or be induced by mutagens such as radiation or chemicals.
+- **Origin:** From Latin *mūtātiōnem* ("a changing"), from *mūtāre* ("to change"); first applied to genetics by Hugo de Vries in 1901.
+
+---
+
+## Key Terms
+
+### Mendel's Laws
+- **Pronunciation:** /ˈmɛndəlz lɔːz/
+- **Definition:** The three foundational principles of heredity — the law of dominance, the law of segregation, and the law of independent assortment — describing how traits are transmitted from parents to offspring through discrete units (genes).
+- **Origin:** Named after Gregor Johann Mendel (1822–1884), the Augustinian friar who derived these principles from pea plant breeding experiments conducted between 1856 and 1863, published in 1866.
+
+### Natural Selection
+- **Pronunciation:** /ˈnætʃərəl sɪˈlɛkʃən/
+- **Definition:** The process by which organisms with heritable traits better suited to their environment tend to survive and reproduce at higher rates, gradually changing the characteristics of a population over successive generations.
+- **Origin:** Coined by Charles Darwin in *On the Origin of Species* (1859), contrasting it with *artificial selection* practised by animal and plant breeders.

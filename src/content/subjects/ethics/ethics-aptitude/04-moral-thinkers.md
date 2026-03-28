@@ -258,3 +258,36 @@ For GS4, the strongest answers synthesise both traditions — use Western framew
 | **Environmental ethics** | Gandhi (Seven Sins — Science without Humanity), Tagore (harmony with nature), Buddha (compassion for all beings) |
 | **Labour welfare** | Marx (alienation and exploitation), Gandhi (trusteeship), Buddha (right livelihood) |
 | **Ethical governance** | Confucius (five virtues), Kautilya (institutional design), Ambedkar (constitutional morality) |
+
+---
+
+## Vocabulary
+
+### Deontology
+- **Pronunciation:** /ˌdiː.ɒnˈtɒl.ə.dʒi/
+- **Definition:** A normative ethical theory holding that the morality of an action is determined by whether it conforms to a set of rules or duties, rather than by the consequences of that action.
+- **Origin:** From Ancient Greek *deon* (genitive *deontos*, "that which is binding, duty, obligation") + *-logia* ("study of"); the ethical sense was coined by English philosopher Jeremy Bentham in 1826 as a synonym for ethics, and later refined by C.D. Broad in *Five Types of Ethical Theory* (1930) to denote duty-based moral philosophy.
+
+### Utilitarianism
+- **Pronunciation:** /juːˌtɪl.ɪˈteə.ri.ə.nɪ.zəm/
+- **Definition:** An ethical theory asserting that the morally right action is the one that produces the greatest good for the greatest number, evaluating conduct by its consequences in terms of overall happiness or welfare.
+- **Origin:** From Latin *utilitas* ("usefulness"), from *uti* ("to use") + *-arian* + *-ism*; the term "utilitarian" was coined by Jeremy Bentham in 1781 on the model of *unitarian*, with "utilitarianism" first appearing in 1827; the doctrine was further developed by John Stuart Mill in his 1863 work *Utilitarianism*.
+
+### Categorical Imperative
+- **Pronunciation:** /ˌkæt.ɪˈɡɒr.ɪ.kəl ɪmˈper.ə.tɪv/
+- **Definition:** The central principle of Immanuel Kant's deontological ethics, formulated as an unconditional moral command that requires one to act only according to maxims that could be willed as universal laws, and to treat humanity never merely as a means but always also as an end.
+- **Origin:** Introduced by Immanuel Kant in his 1785 work *Grundlegung zur Metaphysik der Sitten* (Groundwork of the Metaphysics of Morals); from Greek *kategorikos* ("unconditional, asserting absolutely") + Latin *imperativus* ("commanding"), from *imperare* ("to command"); "categorical" contrasts with "hypothetical" imperatives that depend on personal desires or goals.
+
+---
+
+## Key Terms
+
+### Kantian Ethics
+- **Pronunciation:** /ˈkæn.ti.ən ˈeθ.ɪks/
+- **Definition:** The deontological moral philosophy of Immanuel Kant (1724-1804), which holds that morality is grounded in duty and rational principles rather than consequences, centred on the categorical imperative — that one should act only according to universalisable maxims and must always treat persons as ends in themselves, never merely as means.
+- **Origin:** Named after German philosopher Immanuel Kant of Konigsberg, Prussia; developed primarily in three works: *Groundwork of the Metaphysics of Morals* (1785), *Critique of Practical Reason* (1788), and *The Metaphysics of Morals* (1797); Kantian ethics became the foundation of modern deontological theory and profoundly influenced the development of human rights philosophy.
+
+### Rawls Theory of Justice
+- **Pronunciation:** /rɔːlz ˈθɪə.ri əv ˈdʒʌs.tɪs/
+- **Definition:** The political and moral philosophy of John Rawls (1921-2002), presented in his 1971 work *A Theory of Justice*, which proposes that just principles of social organisation are those that free and rational persons would agree to from behind a "veil of ignorance" — not knowing their own position in society — yielding two principles: equal basic liberties for all, and that social and economic inequalities are permissible only if they benefit the least advantaged (the Difference Principle).
+- **Origin:** Developed by American philosopher John Rawls at Harvard University; published in 1971 as *A Theory of Justice* and revised in 1999; the "veil of ignorance" thought experiment draws on the social contract tradition of Locke, Rousseau, and Kant, and the Difference Principle has become a foundational justification for welfare policies and affirmative action in political philosophy.
