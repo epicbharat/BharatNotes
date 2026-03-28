@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - history-culture
+related_topics:
+  - title: "Indian Agriculture — Crops, MSP & Reforms"
+    url: "/subjects/economy/indian-economy/02-agriculture/"
+    subject: "Economy"
+  - title: "Indian Economy Overview"
+    url: "/subjects/economy/indian-economy/01-indian-economy-overview/"
+    subject: "Economy"
+  - title: "Peasant & Tribal Movements"
+    url: "/subjects/history-culture/modern-india/07-peasant-tribal-movements/"
+    subject: "Modern India"
 ---
 
 ## Overview

@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - economy
+related_topics:
+  - title: "1991 Economic Reforms"
+    url: "/subjects/history-culture/post-independence-india/06-1991-economic-reforms/"
+    subject: "History"
+  - title: "International Trade & WTO"
+    url: "/subjects/international-relations/global-relations/04-international-trade-wto/"
+    subject: "International Relations"
+  - title: "Capital Markets & Financial Inclusion"
+    url: "/subjects/economy/indian-economy/10-capital-markets-insurance/"
+    subject: "Economy"
 ---
 
 ## Balance of Payments (BoP) — Overview

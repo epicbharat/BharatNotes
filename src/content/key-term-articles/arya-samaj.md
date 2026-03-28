@@ -42,6 +42,8 @@ Arya Samaj rejected idol worship, caste discrimination, child marriage, untoucha
 - **1893** — Shuddhi (reconversion) movement intensified
 - **1902** — Split into DAV faction (Western education) and Gurukul faction (Vedic education, led by Swami Shraddhananda)
 - **Post-1900s** — Arya Samaj activists contributed to the Swadeshi movement and national education
+- **1920s** — Swami Shraddhananda assassinated (1926) — major Arya Samaj leader killed during communal tensions
+- **Legacy** — DAV institutions remain among India's largest educational networks; Arya Samaj influenced reformers like Lala Lajpat Rai and Bhagat Singh
 
 ---
 

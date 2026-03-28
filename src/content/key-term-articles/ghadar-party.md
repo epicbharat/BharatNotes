@@ -42,6 +42,8 @@ The party's intellectual leader and first General Secretary was **Lala Hardayal*
 - **1915** — Lahore Conspiracy Case — Kartar Singh Sarabha and others executed
 - **1917–1918** — Hindu-German Conspiracy Trial in San Francisco
 - **Post-1920s** — Many Ghadarites joined the communist movement or returned to India to join Congress
+- **1947** — Several surviving Ghadar veterans participated in the independence celebrations
+- **Legacy** — The Ghadar Memorial Hall in San Francisco preserves the party's revolutionary history
 
 ---
 

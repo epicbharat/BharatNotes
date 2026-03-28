@@ -15,6 +15,19 @@ prelims: true
 mains: true
 tags:
   - international-relations
+related_topics:
+  - title: "Nuclear Technology & Nanotechnology"
+    url: "/subjects/science-tech/science-technology/07-nuclear-nanotechnology/"
+    subject: "Science & Tech"
+  - title: "India's Nuclear & Space Programme"
+    url: "/subjects/history-culture/post-independence-india/08-india-nuclear-space-programme/"
+    subject: "History"
+  - title: "Defence Technology & DRDO"
+    url: "/subjects/science-tech/science-technology/06-defence-technology/"
+    subject: "Science & Tech"
+  - title: "Counterterrorism & Intelligence"
+    url: "/subjects/security/internal-security/07-counterterrorism-intelligence/"
+    subject: "Security"
 ---
 
 ## Why Global Security & Arms Control Matter

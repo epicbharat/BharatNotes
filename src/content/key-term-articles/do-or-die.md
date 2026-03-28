@@ -29,6 +29,24 @@ The slogan meant that Indians should **either free themselves from British rule 
 
 ---
 
+## Historical Background
+
+- **March 1942** — Cripps Mission failed — Congress saw no path to independence through negotiation
+- **April–July 1942** — Japanese forces advanced through Southeast Asia; threat of invasion of India
+- **14 July 1942** — Congress Working Committee met at Wardha; drafted the Quit India Resolution
+- **7 August 1942** — AICC session began at Gowalia Tank Maidan, Bombay
+- **8 August 1942** — Quit India Resolution passed; Gandhi delivered his "Do or Die" speech shortly before midnight
+- **"Quit India"** — Slogan coined by Yusuf Meherally; Gandhi approved it after rejecting "Get Out" and "Retreat"
+- **"Do or Die"** — Gandhi's personal mantra for the movement: "The mantra is 'Do or Die'. We shall either free India or die in the attempt."
+- **9 August 1942** — Gandhi, Nehru, Patel, Azad, and other leaders arrested in Operation Zero Hour
+- **Post-arrest** — Movement became leaderless and spontaneous; most intense anti-British agitation
+- **The phrase** — Became one of the most iconic rallying cries of the Indian freedom struggle, alongside "Swaraj is my birthright" (Tilak) and "Inquilab Zindabad" (Bhagat Singh)
+- **August Kranti Maidan** — Gowalia Tank Maidan renamed in honour of the August Revolution
+- **Legacy** — "Do or Die" encapsulates the final, decisive phase of the Indian freedom struggle; still commemorated every 8 August as Quit India Day
+- **Impact** — The slogan galvanised millions despite the immediate arrest of all Congress leaders
+
+---
+
 ## UPSC Exam Corner
 
 ### Prelims: Key Facts

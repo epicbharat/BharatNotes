@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - history-culture
+related_topics:
+  - title: "India's Foreign Policy"
+    url: "/subjects/international-relations/global-relations/01-india-foreign-policy/"
+    subject: "International Relations"
+  - title: "Arab Nationalism & African Liberation"
+    url: "/subjects/history-culture/world-history/08-arab-nationalism-african-liberation/"
+    subject: "World History"
+  - title: "Chinese Revolution & Communism"
+    url: "/subjects/history-culture/world-history/07-chinese-revolution-communism/"
+    subject: "World History"
 ---
 
 ## Overview

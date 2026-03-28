@@ -16,6 +16,16 @@ prelims: true
 mains: true
 tags:
   - geography
+related_topics:
+  - title: "Indian Agriculture — Crops, MSP & Reforms"
+    url: "/subjects/economy/indian-economy/02-agriculture/"
+    subject: "Economy"
+  - title: "Food & Nutrition Security"
+    url: "/subjects/society/indian-society/10-food-nutrition-security/"
+    subject: "Society"
+  - title: "Environmental Chemistry & Fertilizers"
+    url: "/subjects/general-science/chemistry/05-environmental-chemistry-fertilizers/"
+    subject: "General Science"
 ---
 
 ## India's Agricultural Profile

@@ -16,6 +16,19 @@ prelims: true
 mains: true
 tags:
   - society
+related_topics:
+  - title: "Fundamental Rights — Part III"
+    url: "/subjects/polity/constitutional-polity/02-fundamental-rights/"
+    subject: "Polity"
+  - title: "Social & Religious Reform Movements"
+    url: "/subjects/history-culture/modern-india/03-social-religious-reform-movements/"
+    subject: "Modern India"
+  - title: "Women & Dalit Movements in Colonial India"
+    url: "/subjects/history-culture/modern-india/08-women-dalit-movements-colonial/"
+    subject: "Modern India"
+  - title: "Amendments, Schedules & Special Provisions"
+    url: "/subjects/polity/constitutional-polity/14-amendment-schedules-special-provisions/"
+    subject: "Polity"
 ---
 
 ## Overview — Caste, Tribes & Minorities in the UPSC Syllabus

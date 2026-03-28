@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - polity
+related_topics:
+  - title: "Poverty, Inequality & Employment"
+    url: "/subjects/economy/indian-economy/03-poverty-inequality-employment/"
+    subject: "Economy"
+  - title: "Welfare Schemes & Social Justice"
+    url: "/subjects/society/indian-society/05-welfare-schemes/"
+    subject: "Society"
+  - title: "Fundamental Rights — Part III"
+    url: "/subjects/polity/constitutional-polity/02-fundamental-rights/"
+    subject: "Polity"
 ---
 
 ## Overview

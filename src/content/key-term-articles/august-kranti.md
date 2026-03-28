@@ -29,6 +29,23 @@ Mahatma Gandhi delivered his famous **"Do or Die"** speech, calling upon Indians
 
 ---
 
+## Historical Background
+
+- **September 1939** — WWII began; Viceroy Linlithgow declared India at war without consulting Indian leaders
+- **October 1939** — Congress ministries in 7 provinces resigned in protest
+- **March 1940** — Muslim League passed the Lahore Resolution demanding Pakistan
+- **August 1940** — "August Offer" by British — rejected by Congress
+- **March 1942** — Cripps Mission arrived — offered Dominion Status after the war; Congress rejected it
+- **July 1942** — Congress Working Committee at Wardha adopted resolution demanding British withdrawal
+- **8 August 1942** — AICC passed Quit India Resolution at Gowalia Tank Maidan, Bombay
+- **9 August 1942** — Operation Zero Hour — all Congress leaders arrested before sunrise
+- **August–September 1942** — Spontaneous uprisings; railway tracks uprooted; telegraph lines cut
+- **1942–1943** — Parallel governments in Satara, Ballia, Midnapore, Talcher
+- **1943–1944** — Movement gradually suppressed; leaders remained in jail
+- **June 1945** — Congress leaders released; Shimla Conference held
+
+---
+
 ## UPSC Exam Corner
 
 ### Prelims: Key Facts

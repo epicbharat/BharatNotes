@@ -43,6 +43,8 @@ While the British justified the partition on **administrative grounds** (the pro
 - **1908** — Khudiram Bose executed; Tilak imprisoned — revolutionary nationalism intensified
 - **12 December 1911** — King George V announced annulment of partition at Delhi Durbar; Bengal reunified
 - **1911** — Capital shifted from Calcutta to New Delhi
+- **Legacy** — The Swadeshi movement born from this partition became a template for later economic nationalism
+- **Communal impact** — The partition's communal politics influenced the trajectory of Hindu-Muslim relations for decades
 
 ---
 

@@ -15,6 +15,22 @@ prelims: true
 mains: true
 tags:
   - economy
+related_topics:
+  - title: "Agriculture Geography & Food Security"
+    url: "/subjects/geography/human-economic-geography/02-agriculture-food-security/"
+    subject: "Geography"
+  - title: "British Land Revenue Policies"
+    url: "/subjects/history-culture/modern-india/04-british-economic-policies/"
+    subject: "Modern India"
+  - title: "Cooperatives & Agricultural Credit"
+    url: "/subjects/economy/indian-economy/11-cooperatives-agricultural-credit/"
+    subject: "Economy"
+  - title: "Food & Nutrition Security"
+    url: "/subjects/society/indian-society/10-food-nutrition-security/"
+    subject: "Society"
+  - title: "Plant Biology & Agriculture Science"
+    url: "/subjects/general-science/biology/06-plant-biology-agriculture/"
+    subject: "General Science"
 ---
 
 ## Agriculture in the Indian Economy

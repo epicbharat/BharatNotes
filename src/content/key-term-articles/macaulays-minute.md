@@ -42,6 +42,8 @@ Macaulay dismissed the value of Sanskrit and Arabic literature, declaring that "
 - **1844** — Lord Hardinge's resolution gave preference to English-educated Indians in government employment
 - **1854** — Wood's Despatch (the "Magna Carta of English Education in India") — proposed a comprehensive education system from primary to university level
 - **1857** — Universities established at Calcutta, Bombay, and Madras on the model of the University of London
+- **Legacy** — English education created a Western-educated Indian middle class that later led the independence movement
+- **Debate** — Macaulay's Minute remains controversial — credited with modernising education but criticised for cultural imperialism
 
 ---
 

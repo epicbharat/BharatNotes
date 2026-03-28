@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - security
+related_topics:
+  - title: "IT, Cybersecurity & Defence Technology"
+    url: "/subjects/science-tech/science-technology/04-it-cyber-defence/"
+    subject: "Science & Tech"
+  - title: "Proxy War & Hybrid Threats"
+    url: "/subjects/security/internal-security/11-proxy-war-hybrid-threats/"
+    subject: "Security"
+  - title: "Organised Crime & Terrorism Financing"
+    url: "/subjects/security/internal-security/06-organised-crime-terrorism-financing/"
+    subject: "Security"
 ---
 
 ## Overview

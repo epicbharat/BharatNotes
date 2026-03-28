@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - science-tech
+related_topics:
+  - title: "Cyber Security Threats & Framework"
+    url: "/subjects/security/internal-security/04-cyber-security/"
+    subject: "Security"
+  - title: "Digital Economy & Fintech"
+    url: "/subjects/economy/indian-economy/13-digital-economy-fintech/"
+    subject: "Economy"
+  - title: "Media & Social Networking in Security"
+    url: "/subjects/security/internal-security/05-media-social-networking/"
+    subject: "Security"
 ---
 
 ## India's Information Technology Sector

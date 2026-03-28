@@ -13,6 +13,16 @@ foundation: true
 prelims: true
 mains: true
 tags: [security, sub-topic]
+related_topics:
+  - title: "India's Foreign Policy & SAGAR"
+    url: "/subjects/international-relations/global-relations/01-india-foreign-policy/"
+    subject: "International Relations"
+  - title: "Oceanography & Marine Resources"
+    url: "/subjects/geography/physical-geography/02-oceanography-marine-resources/"
+    subject: "Geography"
+  - title: "Indo-Pacific, QUAD & ASEAN"
+    url: "/subjects/international-relations/global-relations/11-indo-pacific-quad-asean/"
+    subject: "International Relations"
 ---
 
 ## Overview

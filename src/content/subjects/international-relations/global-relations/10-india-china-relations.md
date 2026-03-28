@@ -13,6 +13,19 @@ foundation: true
 prelims: true
 mains: true
 tags: [international-relations, sub-topic]
+related_topics:
+  - title: "Indo-Pacific, QUAD & ASEAN"
+    url: "/subjects/international-relations/global-relations/11-indo-pacific-quad-asean/"
+    subject: "International Relations"
+  - title: "Border Management"
+    url: "/subjects/security/internal-security/03-border-management/"
+    subject: "Security"
+  - title: "India & Its Neighbours"
+    url: "/subjects/international-relations/global-relations/02-india-and-neighbours/"
+    subject: "International Relations"
+  - title: "Wars & Foreign Policy"
+    url: "/subjects/history-culture/post-independence-india/03-wars-foreign-policy/"
+    subject: "History"
 ---
 
 ## Overview

@@ -15,6 +15,19 @@ prelims: true
 mains: true
 tags:
   - polity
+related_topics:
+  - title: "Directive Principles (DPSP)"
+    url: "/subjects/polity/constitutional-polity/03-directive-principles/"
+    subject: "Polity"
+  - title: "Gender Issues & Social Inclusion"
+    url: "/subjects/society/indian-society/08-gender-issues-inclusion/"
+    subject: "Society"
+  - title: "Caste, Tribal & Minority Dynamics"
+    url: "/subjects/society/indian-society/07-caste-tribe-minority-dynamics/"
+    subject: "Society"
+  - title: "Landmark Constitutional Judgments"
+    url: "/subjects/polity/constitutional-polity/16-landmark-judgments/"
+    subject: "Polity"
 ---
 
 ## Overview

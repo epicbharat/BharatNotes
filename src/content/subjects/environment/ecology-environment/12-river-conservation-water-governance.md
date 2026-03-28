@@ -17,6 +17,16 @@ mains: true
 tags:
   - environment
   - sub-topic
+related_topics:
+  - title: "Indian Drainage System"
+    url: "/subjects/geography/indian-geography/02-indian-drainage-system/"
+    subject: "Geography"
+  - title: "Floods, Droughts & Cyclones"
+    url: "/subjects/disaster-management/dm-framework/04-floods-droughts-cyclones/"
+    subject: "Disaster Management"
+  - title: "Air & Water Pollution"
+    url: "/subjects/environment/ecology-environment/11-air-water-pollution/"
+    subject: "Environment"
 ---
 
 ## Overview

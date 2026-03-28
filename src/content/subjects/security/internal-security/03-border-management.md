@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - security
+related_topics:
+  - title: "India & Its Neighbours"
+    url: "/subjects/international-relations/global-relations/02-india-and-neighbours/"
+    subject: "International Relations"
+  - title: "India–China Relations"
+    url: "/subjects/international-relations/global-relations/10-india-china-relations/"
+    subject: "International Relations"
+  - title: "Insurgency in Northeast India"
+    url: "/subjects/security/internal-security/10-insurgency-northeast/"
+    subject: "Security"
 ---
 
 ## Overview

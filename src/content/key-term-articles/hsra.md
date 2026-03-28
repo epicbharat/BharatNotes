@@ -42,6 +42,8 @@ The HSRA's leading members included **Chandrashekhar Azad** (commander-in-chief)
 - **1929–1930** — Lahore Conspiracy Case trial — Bhagat Singh, Sukhdev, Rajguru sentenced to death
 - **27 February 1931** — Chandrashekhar Azad died in a shootout at Alfred Park, Allahabad
 - **23 March 1931** — Bhagat Singh, Sukhdev, and Rajguru hanged in Lahore Central Jail (Shaheed Diwas)
+- **Legacy** — 23 March commemorated as Shaheed Diwas (Martyrs' Day); Bhagat Singh remains one of India's most revered freedom fighters
+- **Writings** — Bhagat Singh's "Why I Am an Atheist" (1930) and jail diary reveal a deep political thinker, not just a revolutionary
 
 ---
 

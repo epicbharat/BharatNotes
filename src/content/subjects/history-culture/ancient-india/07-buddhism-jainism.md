@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - history-culture
+related_topics:
+  - title: "Moral Thinkers & Philosophers"
+    url: "/subjects/ethics/ethics-aptitude/04-moral-thinkers/"
+    subject: "Ethics"
+  - title: "Bhakti & Sufi Movements"
+    url: "/subjects/history-culture/medieval-india/05-bhakti-sufi-movements/"
+    subject: "Medieval India"
+  - title: "Ancient Art, Architecture & Literature"
+    url: "/subjects/history-culture/ancient-india/08-ancient-art-architecture/"
+    subject: "Ancient India"
 ---
 
 ## Context — Why Buddhism & Jainism Arose

@@ -29,6 +29,23 @@ The intellectual origins trace back to **Sir Syed Ahmad Khan** in the late 19th 
 
 ---
 
+## Historical Background
+
+- **1870s–1880s** — Sir Syed Ahmad Khan argued Hindus and Muslims had distinct cultural identities; opposed Congress
+- **1905** — Partition of Bengal — sharpened communal divide; Muslims supported the partition
+- **1906** — All-India Muslim League founded in Dhaka (30 December 1906)
+- **1909** — Morley-Minto Reforms — introduced separate electorates for Muslims
+- **1916** — Lucknow Pact — brief Hindu-Muslim cooperation; Congress accepted separate electorates
+- **1928** — Nehru Report rejected separate electorates; Jinnah issued Fourteen Points (1929)
+- **1930** — Allama Iqbal's presidential address at Muslim League — envisioned a Muslim state in northwest India
+- **1937** — Provincial elections — Congress refused to share power with League in UP; deepened distrust
+- **22–24 March 1940** — Lahore Resolution adopted at Muslim League session at Minto Park, Lahore
+- **1940–1946** — Two-Nation Theory became the core demand of the Pakistan Movement
+- **1946** — Direct Action Day (16 August) — Calcutta riots — communal violence hardened positions
+- **1947** — Partition of India — creation of India and Pakistan on 14–15 August
+
+---
+
 ## UPSC Exam Corner
 
 ### Prelims: Key Facts

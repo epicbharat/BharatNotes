@@ -15,6 +15,16 @@ mains: true
 tags:
   - geography
   - sub-topic
+related_topics:
+  - title: "Earthquakes, Landslides & Urban Disasters"
+    url: "/subjects/disaster-management/dm-framework/06-earthquake-landslide-urban-disasters/"
+    subject: "Disaster Management"
+  - title: "Indian Physical Geography"
+    url: "/subjects/geography/indian-geography/01-indian-physical-geography/"
+    subject: "Geography"
+  - title: "Indian Soils & Natural Vegetation"
+    url: "/subjects/geography/indian-geography/04-indian-soils-natural-vegetation/"
+    subject: "Geography"
 ---
 
 ## Introduction

@@ -15,6 +15,19 @@ prelims: true
 mains: true
 tags:
   - environment
+related_topics:
+  - title: "Biogeography of India"
+    url: "/subjects/geography/indian-geography/06-biogeography-india/"
+    subject: "Geography"
+  - title: "Forest & Wetland Conservation"
+    url: "/subjects/environment/ecology-environment/08-forest-wetland-conservation/"
+    subject: "Environment"
+  - title: "Wildlife Conservation"
+    url: "/subjects/environment/ecology-environment/02-wildlife-conservation/"
+    subject: "Environment"
+  - title: "Environmental Laws & Governance"
+    url: "/subjects/environment/ecology-environment/05-environmental-laws-governance/"
+    subject: "Environment"
 ---
 
 ## Introduction

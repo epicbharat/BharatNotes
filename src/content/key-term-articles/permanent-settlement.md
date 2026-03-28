@@ -40,7 +40,10 @@ The system was inspired by the English landlord model: Cornwallis envisioned cre
 - **1799–1820s** — Ryotwari system introduced in Madras (Thomas Munro) and Bombay — direct settlement with peasants
 - **1822** — Mahalwari system introduced in North-Western Provinces (Holt Mackenzie)
 - **1859** — Bengal Rent Act — attempted to give some protection to tenants under the zamindari system
+- **1885** — Bengal Tenancy Act — further reform of tenant rights
 - **Post-1947** — Zamindari abolition laws passed by Indian states after independence
+- **Legacy** — Permanent Settlement created a landed aristocracy that persisted until zamindari abolition in the 1950s
+- **Constitutional link** — Zamindari abolition was among the first laws passed by independent India's Parliament; challenged in courts, leading to the First Amendment (1951)
 
 ---
 

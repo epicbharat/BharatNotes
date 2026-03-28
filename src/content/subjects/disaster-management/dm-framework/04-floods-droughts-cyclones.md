@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - disaster-management
+related_topics:
+  - title: "Climate & Monsoon of India"
+    url: "/subjects/geography/indian-geography/03-climate-and-monsoon/"
+    subject: "Geography"
+  - title: "Indian Drainage System"
+    url: "/subjects/geography/indian-geography/02-indian-drainage-system/"
+    subject: "Geography"
+  - title: "River Conservation & Water Governance"
+    url: "/subjects/environment/ecology-environment/12-river-conservation-water-governance/"
+    subject: "Environment"
 ---
 
 ## India's Disaster Profile

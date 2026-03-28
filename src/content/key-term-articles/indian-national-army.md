@@ -29,6 +29,24 @@ The INA was revived and reorganised in **July 1943** under the leadership of **S
 
 ---
 
+## Historical Background
+
+- **1941** — Subhas Chandra Bose escaped from house arrest in Calcutta; reached Germany via Kabul and Moscow
+- **15 February 1942** — Fall of Singapore — ~45,000 Indian POWs captured by Japan
+- **17 February 1942** — Indian POWs assembled at Farrer Park, Singapore; Captain Mohan Singh formed the first INA
+- **December 1942** — First INA disbanded after disagreements with Japanese High Command
+- **February 1943** — Bose left Germany for Japan via submarine (U-boat)
+- **2 July 1943** — Bose arrived in Singapore; Rash Behari Bose handed over control of the Indian Independence League
+- **July 1943** — Bose reorganised the INA; ~40,000–45,000 troops
+- **21 October 1943** — Provisional Government of Azad Hind declared in Singapore
+- **January–July 1944** — INA participated in the Imphal-Kohima campaigns; initial advances but ultimately defeated
+- **August 1945** — Japan surrendered; INA collapsed; Bose reportedly died in a plane crash (18 August 1945)
+- **November 1945** — INA Trials (Red Fort Trials) — triggered nationwide protests; RIN Mutiny (February 1946) followed
+- **1946** — INA officers acquitted after massive public pressure; demonstrated that British could no longer rely on Indian military loyalty
+- **Legacy** — INA Trials are considered a key factor in the British decision to quit India in 1947
+
+---
+
 ## UPSC Exam Corner
 
 ### Prelims: Key Facts

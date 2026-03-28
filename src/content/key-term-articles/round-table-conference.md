@@ -29,6 +29,23 @@ The **First RTC** (November 1930 – January 1931) was inaugurated by **King Geo
 
 ---
 
+## Historical Background
+
+- **1927** — Simon Commission appointed — boycotted by Indians
+- **1928** — Nehru Report submitted — demanded Dominion Status
+- **1929** — Jinnah's Fourteen Points rejected the Nehru Report
+- **1930** — Simon Commission Report published; recommended constitutional reforms
+- **12 November 1930** — First RTC inaugurated by King George V at the House of Lords; Congress boycotted
+- **January 1931** — First RTC ended without major outcome
+- **5 March 1931** — Gandhi-Irwin Pact signed — CDM suspended; Gandhi agreed to attend Second RTC
+- **7 September – 1 December 1931** — Second RTC; Gandhi sole Congress representative; deadlock on communal question
+- **August 1932** — Communal Award by Ramsay MacDonald — separate electorates for Depressed Classes
+- **24 September 1932** — Poona Pact — Gandhi and Ambedkar agreed: reserved seats instead of separate electorates
+- **17 November – 24 December 1932** — Third RTC; only 46 delegates; Congress and Labour boycotted
+- **1935** — Government of India Act enacted based on RTC deliberations
+
+---
+
 ## UPSC Exam Corner
 
 ### Prelims: Key Facts

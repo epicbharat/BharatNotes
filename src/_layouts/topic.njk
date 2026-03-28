@@ -70,6 +70,20 @@ layout: base.njk
                data-ad-slot="4545617453"></ins>
         </div>
 
+        {% if related_topics and related_topics.length %}
+        <div class="related-topics">
+          <h4 class="related-topics__heading">📌 Related Topics Across GS Papers</h4>
+          <div class="related-topics__grid">
+            {%- for rt in related_topics %}
+            <a href="{{ rt.url }}" class="related-topics__link">
+              <span class="related-topics__title">{{ rt.title }}</span>
+              {% if rt.subject %}<span class="related-topics__subject">{{ rt.subject }}</span>{% endif %}
+            </a>
+            {%- endfor %}
+          </div>
+        </div>
+        {% endif %}
+
         {% if parent_topic_url %}
         {# Prev / Next chapter navigation #}
         {%- set chapterSiblings = [] -%}

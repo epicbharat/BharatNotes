@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - science-tech
+related_topics:
+  - title: "India's Nuclear & Space Programme"
+    url: "/subjects/history-culture/post-independence-india/08-india-nuclear-space-programme/"
+    subject: "History"
+  - title: "Global Security & Arms Control"
+    url: "/subjects/international-relations/global-relations/07-global-security-arms-control/"
+    subject: "International Relations"
+  - title: "Modern Physics & Nuclear Science"
+    url: "/subjects/general-science/physics/05-modern-physics-nuclear/"
+    subject: "General Science"
 ---
 
 ## India's Nuclear Programme — Overview

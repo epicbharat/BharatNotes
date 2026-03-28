@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - geography
+related_topics:
+  - title: "Global Climatology"
+    url: "/subjects/geography/physical-geography/01-global-climatology/"
+    subject: "Geography"
+  - title: "Floods, Droughts & Cyclones"
+    url: "/subjects/disaster-management/dm-framework/04-floods-droughts-cyclones/"
+    subject: "Disaster Management"
+  - title: "Agriculture Geography & Food Security"
+    url: "/subjects/geography/human-economic-geography/02-agriculture-food-security/"
+    subject: "Geography"
 ---
 
 ## Factors Influencing India's Climate

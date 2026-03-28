@@ -29,6 +29,23 @@ Under the plan, the provincial legislative assemblies of **Punjab and Bengal** w
 
 ---
 
+## Historical Background
+
+- **March 1946** — Cabinet Mission arrived in India; proposed a united India with a three-tier structure
+- **August 1946** — Direct Action Day (16 August) — communal riots in Calcutta; thousands killed
+- **September 1946** — Interim Government formed under Nehru; Muslim League joined later
+- **February 1947** — Attlee announced British would leave India by June 1948
+- **March 1947** — Lord Mountbatten arrived as last Viceroy
+- **April–May 1947** — Mountbatten held extensive talks with Congress, Muslim League, and Sikh leaders
+- **3 June 1947** — Mountbatten Plan announced — partition of India into two dominions
+- **June–July 1947** — Referendums in NWFP (chose Pakistan) and Sylhet (chose Pakistan)
+- **18 July 1947** — Indian Independence Act passed by British Parliament
+- **August 1947** — Boundary Commission (Sir Cyril Radcliffe) drew the Radcliffe Line dividing Punjab and Bengal
+- **14 August 1947** — Pakistan became independent
+- **15 August 1947** — India became independent
+
+---
+
 ## UPSC Exam Corner
 
 ### Prelims: Key Facts

@@ -15,6 +15,19 @@ prelims: true
 mains: true
 tags:
   - economy
+related_topics:
+  - title: "Climate Change Policy & NDCs"
+    url: "/subjects/environment/ecology-environment/04-climate-change-policy/"
+    subject: "Environment"
+  - title: "Renewable Energy & Sustainable Development"
+    url: "/subjects/environment/ecology-environment/09-renewable-energy-sustainable-development/"
+    subject: "Environment"
+  - title: "Indian Minerals & Energy Resources"
+    url: "/subjects/geography/indian-geography/07-indian-minerals-energy/"
+    subject: "Geography"
+  - title: "Transport & Communication Networks"
+    url: "/subjects/geography/indian-geography/08-transport-communication/"
+    subject: "Geography"
 ---
 
 ## Infrastructure — Conceptual Framework

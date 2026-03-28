@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - science-tech
+related_topics:
+  - title: "India's Nuclear & Space Programme"
+    url: "/subjects/history-culture/post-independence-india/08-india-nuclear-space-programme/"
+    subject: "History"
+  - title: "Defence Technology & DRDO"
+    url: "/subjects/science-tech/science-technology/06-defence-technology/"
+    subject: "Science & Tech"
+  - title: "Scientific Instruments & Inventions"
+    url: "/subjects/general-science/physics/06-measurements-units-inventions/"
+    subject: "General Science"
 ---
 
 ## Indian Space Research Organisation (ISRO) — Overview

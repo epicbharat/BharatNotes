@@ -41,6 +41,9 @@ The **Moderates**, led by **Gopal Krishna Gokhale**, favoured gradual reforms th
 - **1908** — Moderates controlled Congress; Tilak arrested and sent to Mandalay jail (1908–1914)
 - **1914** — Tilak released; began Home Rule Movement
 - **1916** — Lucknow Congress Session — Moderates and Extremists reunited; Lucknow Pact signed with Muslim League
+- **1917** — Annie Besant became Congress president — reflecting the new unity
+- **1919** — Jallianwala Bagh Massacre and Rowlatt Act further unified nationalist opinion
+- **1920** — Gandhi took over Congress leadership; ushered in the era of mass movements
 
 ---
 

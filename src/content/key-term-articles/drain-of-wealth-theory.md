@@ -42,6 +42,8 @@ Naoroji identified several mechanisms of drain: **Home Charges** (administrative
 - **1901** — Published "Poverty and Un-British Rule in India" — the definitive statement of the Drain theory
 - **1906** — Naoroji presided over the INC Calcutta session; declared "Swaraj" as the Congress goal
 - **1917** — Dadabhai Naoroji died (30 June)
+- **Post-independence** — The Drain thesis influenced India's early economic planning and import substitution policies
+- **Modern scholarship** — Continues to be debated; Utsa Patnaik (2017) estimated the total colonial drain at $45 trillion
 
 ---
 

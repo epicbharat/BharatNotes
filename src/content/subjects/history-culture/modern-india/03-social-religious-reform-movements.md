@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - history-culture
+related_topics:
+  - title: "Caste, Tribal & Minority Dynamics"
+    url: "/subjects/society/indian-society/07-caste-tribe-minority-dynamics/"
+    subject: "Society"
+  - title: "Women & Dalit Movements in Colonial India"
+    url: "/subjects/history-culture/modern-india/08-women-dalit-movements-colonial/"
+    subject: "Modern India"
+  - title: "Indian Ethical Thinkers"
+    url: "/subjects/ethics/ethics-aptitude/10-indian-ethical-thinkers/"
+    subject: "Ethics"
 ---
 
 ## Overview

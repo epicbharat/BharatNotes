@@ -43,6 +43,8 @@ Through this doctrine, the Company annexed several major states and added approx
 - **1856** — Awadh annexed (on grounds of misgovernance, not strictly Doctrine of Lapse); Dalhousie left India
 - **1857** — Revolt of 1857 — dispossessed rulers rose in rebellion
 - **1858** — Doctrine effectively abandoned after the Crown took over; Queen Victoria's Proclamation promised to respect treaties with Indian princes
+- **Legacy** — The Doctrine of Lapse remains a textbook example of how the Company used legal pretexts for territorial expansion
+- **UPSC relevance** — Frequently asked in context of causes of the 1857 Revolt and British expansion policies
 
 ---
 

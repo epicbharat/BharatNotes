@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - history-culture
+related_topics:
+  - title: "External Sector — BoP, Trade & FDI"
+    url: "/subjects/economy/indian-economy/08-external-sector/"
+    subject: "Economy"
+  - title: "Indian Economy Overview"
+    url: "/subjects/economy/indian-economy/01-indian-economy-overview/"
+    subject: "Economy"
+  - title: "MSME & Industrial Policy"
+    url: "/subjects/economy/indian-economy/09-msme-industrial-policy/"
+    subject: "Economy"
 ---
 
 ## Overview

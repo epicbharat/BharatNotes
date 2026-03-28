@@ -43,6 +43,8 @@ The movement was launched after the British rejected the Congress's demand for *
 - **September–December 1931** — Second RTC in London — failed on communal question
 - **January 1932** — CDM resumed after Gandhi returned; mass arrests again
 - **1934** — CDM formally withdrawn by Congress
+- **Legacy** — CDM demonstrated that mass non-violent resistance could challenge an empire; influenced global civil rights movements
+- **Outcome** — Led to the Government of India Act, 1935; Congress won 7 of 11 provinces in 1937 elections
 
 ---
 

@@ -16,6 +16,16 @@ prelims: true
 mains: true
 tags:
   - geography
+related_topics:
+  - title: "Maritime & Coastal Security"
+    url: "/subjects/security/internal-security/09-maritime-coastal-security/"
+    subject: "Security"
+  - title: "Tsunamis & Coastal Disasters"
+    url: "/subjects/disaster-management/dm-framework/08-tsunami-coastal-disasters/"
+    subject: "Disaster Management"
+  - title: "Global Water Resources"
+    url: "/subjects/geography/world-geography/05-global-water-resources/"
+    subject: "Geography"
 ---
 
 ## Ocean Currents

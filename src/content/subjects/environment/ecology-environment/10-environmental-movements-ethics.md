@@ -17,6 +17,16 @@ mains: true
 tags:
   - environment
   - sub-topic
+related_topics:
+  - title: "Ethics of Technology & Environment"
+    url: "/subjects/ethics/ethics-aptitude/11-ethics-technology-environment/"
+    subject: "Ethics"
+  - title: "Social Movements & Activism"
+    url: "/subjects/society/indian-society/11-social-movements-activism/"
+    subject: "Society"
+  - title: "Environmental Laws & Governance"
+    url: "/subjects/environment/ecology-environment/05-environmental-laws-governance/"
+    subject: "Environment"
 ---
 
 ## 1. Bishnoi Movement (1730) — The First Environmental Sacrifice

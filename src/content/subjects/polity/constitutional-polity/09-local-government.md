@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - polity
+related_topics:
+  - title: "Constitutional Evolution & Landmark Cases"
+    url: "/subjects/history-culture/post-independence-india/05-constitutional-evolution-landmark-cases/"
+    subject: "History"
+  - title: "Governance, Transparency & Accountability"
+    url: "/subjects/society/indian-society/06-governance-transparency/"
+    subject: "Society"
+  - title: "Urbanisation & Smart Cities"
+    url: "/subjects/geography/human-economic-geography/04-urbanisation-smart-cities/"
+    subject: "Geography"
 ---
 
 ## Constitutional Framework

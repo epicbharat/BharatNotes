@@ -41,6 +41,8 @@ The Report recommended **Dominion Status** for India (not full independence), a 
 - **December 1929** — Lahore Congress — Congress adopted Purna Swaraj (complete independence) instead of Dominion Status
 - **26 January 1930** — First Independence Day celebrated across India
 - **1930** — Civil Disobedience Movement launched; Nehru Report superseded by the demand for full independence
+- **Legacy** — The Nehru Report's provisions on fundamental rights and federal structure influenced the eventual Indian Constitution
+- **Significance** — It was the first time Indians attempted a comprehensive constitutional blueprint on their own
 
 ---
 

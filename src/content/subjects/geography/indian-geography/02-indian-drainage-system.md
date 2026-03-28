@@ -16,6 +16,16 @@ mains: true
 tags:
   - geography
   - sub-topic
+related_topics:
+  - title: "River Conservation & Water Governance"
+    url: "/subjects/environment/ecology-environment/12-river-conservation-water-governance/"
+    subject: "Environment"
+  - title: "Floods, Droughts & Cyclones"
+    url: "/subjects/disaster-management/dm-framework/04-floods-droughts-cyclones/"
+    subject: "Disaster Management"
+  - title: "Global Water Resources"
+    url: "/subjects/geography/world-geography/05-global-water-resources/"
+    subject: "Geography"
 ---
 
 ## Classification of Indian Rivers

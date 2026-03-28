@@ -15,6 +15,19 @@ prelims: true
 mains: true
 tags:
   - environment
+related_topics:
+  - title: "Infrastructure & Energy"
+    url: "/subjects/economy/indian-economy/07-infrastructure-and-energy/"
+    subject: "Economy"
+  - title: "Renewable Energy & Sustainable Development"
+    url: "/subjects/environment/ecology-environment/09-renewable-energy-sustainable-development/"
+    subject: "Environment"
+  - title: "Climate-Disaster Nexus"
+    url: "/subjects/disaster-management/dm-framework/07-climate-disaster-nexus/"
+    subject: "Disaster Management"
+  - title: "World Resource Distribution & Geopolitics"
+    url: "/subjects/geography/world-geography/02-world-resource-distribution-geopolitical-locations/"
+    subject: "Geography"
 ---
 
 ## Climate Change — The Science

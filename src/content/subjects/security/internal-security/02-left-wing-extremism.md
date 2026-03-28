@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - security
+related_topics:
+  - title: "Regional Development & Aspirational Districts"
+    url: "/subjects/economy/indian-economy/12-regional-development-aspirational-districts/"
+    subject: "Economy"
+  - title: "Caste, Tribal & Minority Dynamics"
+    url: "/subjects/society/indian-society/07-caste-tribe-minority-dynamics/"
+    subject: "Society"
+  - title: "Counterterrorism & Intelligence"
+    url: "/subjects/security/internal-security/07-counterterrorism-intelligence/"
+    subject: "Security"
 ---
 
 ## Overview

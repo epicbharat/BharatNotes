@@ -40,7 +40,10 @@ Naoroji estimated that approximately **one-third to one-half of India's net reve
 - **1901** — Published "Poverty and Un-British Rule in India" — systematic statistical argument
 - **1905** — R.C. Dutt published his two-volume "Economic History of India" — expanded the Drain analysis
 - **Post-1905** — Drain theory became a foundational argument for Swadeshi and self-governance demands
+- **1906** — Naoroji presided over the Calcutta Congress; declared "Swaraj" as the Congress goal for the first time
+- **1917** — Dadabhai Naoroji died (30 June) — left behind a lasting intellectual legacy
 - **Modern debate** — Historians like Utsa Patnaik (2017) estimated Britain drained $45 trillion from India; others question the methodology
+- **Legacy** — The Drain theory remains central to the economic critique of colonialism in UPSC History syllabi
 
 ---
 

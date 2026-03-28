@@ -29,6 +29,24 @@ Bose assumed the roles of **Head of State, Prime Minister, and Minister of War a
 
 ---
 
+## Historical Background
+
+- **1938–1939** — Subhas Chandra Bose elected INC president twice; resigned after ideological clash with Gandhi
+- **1939** — Bose founded the Forward Bloc within the Congress
+- **January 1941** — Bose escaped from house arrest in Calcutta; reached Berlin via Kabul
+- **1941–1943** — Bose in Germany — set up Free India Centre; formed Indian Legion from Indian POWs in Europe
+- **February 1943** — Left Germany by submarine; transferred to a Japanese submarine in the Indian Ocean
+- **2 July 1943** — Arrived in Singapore; took charge of the Indian Independence League from Rash Behari Bose
+- **21 October 1943** — Proclaimed the Provisional Government of Free India (Azad Hind) at Cathay Cinema Hall, Singapore
+- **23 October 1943** — Declared war on Britain and the United States
+- **November 1943** — Japan transferred administration of Andaman and Nicobar Islands to Azad Hind
+- **January–July 1944** — INA fought at Imphal and Kohima under Azad Hind's authority; ultimately defeated
+- **August 1945** — Japan surrendered; Azad Hind government collapsed; Bose reportedly died 18 August 1945
+- **November 1945** — INA Trials at Red Fort galvanised Indian public opinion against British rule
+- **Legacy** — Azad Hind remains a powerful symbol of armed resistance for independence; Bose is honoured as "Netaji" across India
+
+---
+
 ## UPSC Exam Corner
 
 ### Prelims: Key Facts

@@ -42,6 +42,9 @@ When the Revolt of 1857 broke out, Lakshmibai assumed leadership and organised h
 - **April 1858** — Jhansi fell; Rani escaped with Damodar Rao to Kalpi, then joined Tantia Tope
 - **June 1858** — Captured Gwalior Fort with Tantia Tope's forces
 - **18 June 1858** — Killed in battle at Gwalior; buried by her own followers
+- **1857 poem** — Subhadra Kumari Chauhan's Hindi poem "Jhansi Ki Rani" immortalised her bravery in popular culture
+- **Legacy** — Rani Lakshmibai remains one of India's most celebrated national heroes; her birthday (19 November) is commemorated annually
+- **Modern recognition** — Indian Army named a regiment in her honour; multiple institutions and awards bear her name
 
 ---
 

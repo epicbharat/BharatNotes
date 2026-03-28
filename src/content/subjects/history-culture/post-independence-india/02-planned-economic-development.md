@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - history-culture
+related_topics:
+  - title: "Indian Economy Overview"
+    url: "/subjects/economy/indian-economy/01-indian-economy-overview/"
+    subject: "Economy"
+  - title: "Poverty, Inequality & Employment"
+    url: "/subjects/economy/indian-economy/03-poverty-inequality-employment/"
+    subject: "Economy"
+  - title: "1991 Economic Reforms"
+    url: "/subjects/history-culture/post-independence-india/06-1991-economic-reforms/"
+    subject: "History"
 ---
 
 ## Overview

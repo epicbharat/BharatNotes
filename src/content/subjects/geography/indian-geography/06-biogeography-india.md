@@ -13,6 +13,16 @@ foundation: true
 prelims: true
 mains: true
 tags: [geography, sub-topic]
+related_topics:
+  - title: "Biodiversity & Conservation"
+    url: "/subjects/environment/ecology-environment/01-biodiversity-and-conservation/"
+    subject: "Environment"
+  - title: "Soils & Biogeography (Global)"
+    url: "/subjects/geography/physical-geography/04-soils-biogeography/"
+    subject: "Geography"
+  - title: "Indian Soils & Natural Vegetation"
+    url: "/subjects/geography/indian-geography/04-indian-soils-natural-vegetation/"
+    subject: "Geography"
 ---
 
 ## Biogeographic Classification of India

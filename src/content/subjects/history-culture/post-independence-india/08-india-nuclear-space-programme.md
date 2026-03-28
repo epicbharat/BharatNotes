@@ -17,6 +17,16 @@ mains: true
 tags:
   - history-culture
   - topic
+related_topics:
+  - title: "Space Technology — ISRO & Satellites"
+    url: "/subjects/science-tech/science-technology/01-space-technology/"
+    subject: "Science & Tech"
+  - title: "Nuclear Technology & Nanotechnology"
+    url: "/subjects/science-tech/science-technology/07-nuclear-nanotechnology/"
+    subject: "Science & Tech"
+  - title: "Global Security & Arms Control"
+    url: "/subjects/international-relations/global-relations/07-global-security-arms-control/"
+    subject: "International Relations"
 ---
 
 ## Overview

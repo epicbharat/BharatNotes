@@ -15,6 +15,19 @@ prelims: true
 mains: true
 tags:
   - international-relations
+related_topics:
+  - title: "Border Management"
+    url: "/subjects/security/internal-security/03-border-management/"
+    subject: "Security"
+  - title: "India–China Relations"
+    url: "/subjects/international-relations/global-relations/10-india-china-relations/"
+    subject: "International Relations"
+  - title: "Drug Trafficking & Narcotics"
+    url: "/subjects/security/internal-security/08-drug-trafficking-narcotics/"
+    subject: "Security"
+  - title: "Wars & Foreign Policy (Post-Independence)"
+    url: "/subjects/history-culture/post-independence-india/03-wars-foreign-policy/"
+    subject: "History"
 ---
 
 ## Overview — India's Neighbourhood Policy

@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - economy
+related_topics:
+  - title: "Federalism & Constitution"
+    url: "/subjects/polity/constitutional-polity/08-federalism-and-constitution/"
+    subject: "Polity"
+  - title: "Constitutional Bodies (Finance Commission)"
+    url: "/subjects/polity/constitutional-polity/10-constitutional-bodies/"
+    subject: "Polity"
+  - title: "Regional Development & Aspirational Districts"
+    url: "/subjects/economy/indian-economy/12-regional-development-aspirational-districts/"
+    subject: "Economy"
 ---
 
 ## What Is Public Finance?

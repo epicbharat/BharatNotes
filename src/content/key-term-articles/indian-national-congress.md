@@ -42,6 +42,8 @@ The INC began as a moderate body using petitions and constitutional means to see
 - **1917** — Annie Besant became first woman president (Calcutta session)
 - **1920** — Gandhi took over Congress leadership; Non-Cooperation Movement launched
 - **1929** — Lahore Congress — Purna Swaraj declared; Jawaharlal Nehru presided
+- **1942** — Quit India Movement — Congress's final mass agitation before independence
+- **1947** — Congress formed the first government of independent India under Jawaharlal Nehru
 
 ---
 

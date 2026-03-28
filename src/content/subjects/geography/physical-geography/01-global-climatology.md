@@ -16,6 +16,16 @@ mains: true
 tags:
   - geography
   - sub-topic
+related_topics:
+  - title: "Climate & Monsoon of India"
+    url: "/subjects/geography/indian-geography/03-climate-and-monsoon/"
+    subject: "Geography"
+  - title: "World Climate & Biomes"
+    url: "/subjects/geography/world-geography/04-world-climate-biomes/"
+    subject: "Geography"
+  - title: "Climate-Disaster Nexus"
+    url: "/subjects/disaster-management/dm-framework/07-climate-disaster-nexus/"
+    subject: "Disaster Management"
 ---
 
 ## 1. Composition of the Atmosphere

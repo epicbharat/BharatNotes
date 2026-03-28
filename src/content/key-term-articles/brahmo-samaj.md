@@ -43,6 +43,8 @@ The movement sought to reform Hinduism by rejecting **polytheism, idol worship, 
 - **1866** — Split: Keshab Chandra Sen founded the Brahmo Samaj of India; Debendranath retained the Adi Brahmo Samaj
 - **1878** — Further split: Sadharan Brahmo Samaj formed after Keshab's controversial child marriage of his daughter
 - **Legacy** — Influenced the Indian Renaissance; inspired later reform movements like Prarthana Samaj (Bombay)
+- **Cultural impact** — Tagore family, deeply associated with Brahmo Samaj, became central to India's literary and intellectual life
+- **Modern presence** — Brahmo Samaj institutions continue to operate in Kolkata and other cities
 
 ---
 

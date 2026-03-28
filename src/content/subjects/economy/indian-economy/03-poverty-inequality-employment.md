@@ -15,6 +15,16 @@ prelims: true
 mains: true
 tags:
   - economy
+related_topics:
+  - title: "Directive Principles (DPSP)"
+    url: "/subjects/polity/constitutional-polity/03-directive-principles/"
+    subject: "Polity"
+  - title: "Welfare Schemes & Social Justice"
+    url: "/subjects/society/indian-society/05-welfare-schemes/"
+    subject: "Society"
+  - title: "Planned Economic Development"
+    url: "/subjects/history-culture/post-independence-india/02-planned-economic-development/"
+    subject: "History"
 ---
 
 ## Poverty Measurement in India

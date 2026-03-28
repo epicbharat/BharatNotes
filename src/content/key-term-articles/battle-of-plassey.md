@@ -41,6 +41,9 @@ The victory transformed the East India Company from a trading enterprise into a 
 - **1757–1764** — Mir Jafar and then Mir Qasim served as puppet Nawabs; Company's grip tightened
 - **1764** — Battle of Buxar — decisive military victory that cemented British control over Bengal, Bihar, and Odisha
 - **1765** — Treaty of Allahabad — Company obtained Diwani (revenue collection rights) of Bengal from Mughal Emperor Shah Alam II
+- **1770** — Bengal Famine — devastating consequence of Company's exploitative revenue extraction after Plassey
+- **1772** — Warren Hastings became first Governor-General; began formalising Company administration in Bengal
+- **Significance** — Plassey is widely considered the event that inaugurated nearly 200 years of British rule in India
 
 ---
 

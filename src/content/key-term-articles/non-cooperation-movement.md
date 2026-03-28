@@ -42,6 +42,8 @@ The movement was triggered by the **Rowlatt Act (1919)**, the **Jallianwala Bagh
 - **12 February 1922** — Gandhi withdrew the movement at the Bardoli session of the CWC
 - **March 1922** — Gandhi arrested; sentenced to 6 years (released 1924)
 - **Post-1922** — Congress split into Swarajists (C.R. Das, Motilal Nehru) and No-Changers
+- **1924** — Gandhi released from prison; focused on constructive programme (khadi, Hindu-Muslim unity, untouchability removal)
+- **Legacy** — Established the template for Gandhian mass movements; first time the masses (peasants, workers, students) participated in the national movement
 
 ---
 
