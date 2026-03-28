@@ -46,6 +46,14 @@ description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with d
 .kt-card__upsc{margin:0 var(--space-5) var(--space-3);padding:var(--space-3) var(--space-4);background:linear-gradient(135deg,rgba(212,160,23,0.06) 0%,rgba(15,76,58,0.04) 100%);border:1px solid rgba(212,160,23,0.2);border-radius:var(--radius-md);font-size:var(--text-xs);line-height:1.6;color:var(--color-text-secondary)}
 .kt-card__upsc-label{font-size:0.6rem;font-weight:700;color:var(--color-accent-hover);text-transform:uppercase;letter-spacing:0.04em;margin-bottom:2px;display:block}
 
+.kt-card--collapsed .kt-card__detail{display:none}
+.kt-card--collapsed .kt-card__head{cursor:pointer}
+.kt-card--collapsed .kt-card__brief{display:inline}
+.kt-card__brief{display:none;font-size:var(--text-xs);color:var(--color-text-muted);margin-left:var(--space-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:300px}
+.kt-card__chevron{color:var(--color-text-muted);transition:transform 0.2s;flex-shrink:0}
+.kt-card:not(.kt-card--collapsed) .kt-card__chevron{transform:rotate(180deg)}
+.kt-card:not(.kt-card--collapsed) .kt-card__brief{display:none}
+.kt-card__detail{padding:0}
 .kt-card__foot{display:flex;align-items:center;justify-content:space-between;padding:var(--space-3) var(--space-5);border-top:1px solid var(--color-border-light,rgba(0,0,0,0.06));gap:var(--space-3)}
 .kt-card__subject{font-size:0.6rem;color:var(--color-text-muted)}
 .kt-card__actions{display:flex;align-items:center;gap:var(--space-3)}
@@ -156,35 +164,42 @@ description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with d
       {%- set subjectIcon = "" -%}
       {%- for s in subjects -%}{%- if s.slug == t.subject -%}{%- set subjectName = s.name -%}{%- set subjectIcon = s.icon -%}{%- endif -%}{%- endfor -%}
 
-      <div class="kt-card" data-subject="{{ t.subject }}" data-gs="{{ t.gs_papers | join(',') }}" data-term="{{ t.term | lower }}" data-def="{{ t.definition | lower }}" data-ctx="{{ t.origin | lower }}">
-        <div class="kt-card__head">
+      <div class="kt-card kt-card--collapsed" data-subject="{{ t.subject }}" data-gs="{{ t.gs_papers | join(',') }}" data-term="{{ t.term | lower }}" data-def="{{ t.definition | lower }}" data-ctx="{{ t.origin | lower }}">
+        <div class="kt-card__head" data-toggle-card>
           <div class="kt-card__title-wrap">
-            <h3 class="kt-card__title"><a href="{{ t.topicUrl }}#term-{{ t.slug }}">{{ t.term }}</a></h3>
-            {% if t.pronunciation %}<span class="kt-card__pron">{{ t.pronunciation }}</span>{% endif %}
+            <h3 class="kt-card__title">{{ t.term }}</h3>
+            <span class="kt-card__brief">{{ t.definition | truncate(80, true) }}</span>
           </div>
-          <div class="kt-card__badges">
-            {%- for gp in t.gs_papers %}<span class="gs-badge gs-badge--{{ gp }}">{{ gp | upper }}</span>{% endfor %}
+          <div style="display:flex;align-items:center;gap:var(--space-2);">
+            <div class="kt-card__badges">
+              {%- for gp in t.gs_papers %}<span class="gs-badge gs-badge--{{ gp }}">{{ gp | upper }}</span>{% endfor %}
+            </div>
+            <span class="kt-card__chevron"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
           </div>
         </div>
 
-        <p class="kt-card__def">{{ t.definition }}</p>
+        <div class="kt-card__detail">
+          {% if t.pronunciation %}<span class="kt-card__pron">{{ t.pronunciation }}</span>{% endif %}
+          <p class="kt-card__def">{{ t.definition }}</p>
 
-        {% if t.origin %}
-        <p class="kt-card__context"><strong>Context:</strong> {{ t.origin }}</p>
-        {% endif %}
+          {% if t.origin %}
+          <p class="kt-card__context"><strong>Context:</strong> {{ t.origin }}</p>
+          {% endif %}
 
-        {% if t.upsc %}
-        <div class="kt-card__upsc">
-          <span class="kt-card__upsc-label">UPSC Relevance</span>
-          {{ t.upsc }}
-        </div>
-        {% endif %}
+          {% if t.upsc %}
+          <div class="kt-card__upsc">
+            <span class="kt-card__upsc-label">UPSC Relevance</span>
+            {{ t.upsc }}
+          </div>
+          {% endif %}
 
-        <div class="kt-card__foot">
-          <span class="kt-card__subject">{{ subjectIcon }} {{ subjectName }}</span>
-          <div class="kt-card__actions">
-            <a href="{{ t.topicUrl }}#term-{{ t.slug }}" class="kt-card__link">Read in chapter &rarr;</a>
-            <button class="kt-card__btn" data-tid="terms-{{ t.slug }}">Revise</button>
+          <div class="kt-card__foot">
+            <span class="kt-card__subject">{{ subjectIcon }} {{ subjectName }}</span>
+            <div class="kt-card__actions">
+              <a href="/resources/key-terms/{{ t.pageSlug }}/" class="kt-card__link">Full page &rarr;</a>
+              <a href="{{ t.topicUrl }}#term-{{ t.slug }}" class="kt-card__link">In chapter &rarr;</a>
+              <button class="kt-card__btn" data-tid="terms-{{ t.slug }}">Revise</button>
+            </div>
           </div>
         </div>
       </div>
@@ -197,6 +212,14 @@ description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with d
 
 <script>
 (function(){
+  // Card collapse/expand toggle
+  document.addEventListener('click', function(e){
+    var head = e.target.closest('[data-toggle-card]');
+    if(!head) return;
+    var card = head.closest('.kt-card');
+    if(card) card.classList.toggle('kt-card--collapsed');
+  });
+
   var search = document.getElementById('kt-search');
   var countEl = document.getElementById('kt-count');
   var noResults = document.getElementById('kt-no-results');

@@ -1,0 +1,75 @@
+---
+pagination:
+  data: vocabIndex.terms
+  size: 1
+  alias: term
+permalink: "/resources/key-terms/{{ term.pageSlug }}/"
+layout: base.njk
+eleventyComputed:
+  title: "{{ term.term }} — UPSC Key Term | BharatNotes"
+  description: "{{ term.definition | truncate(155, true) }}"
+---
+
+{%- set subjectName = term.subject -%}
+{%- set subjectIcon = "" -%}
+{%- set subjectColor = "#0f4c3a" -%}
+{%- for s in subjects -%}{%- if s.slug == term.subject -%}{%- set subjectName = s.name -%}{%- set subjectIcon = s.icon -%}{%- set subjectColor = s.color -%}{%- endif -%}{%- endfor -%}
+
+<section class="page-header">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Home</a><span class="breadcrumb__sep">/</span>
+      <a href="/resources/">Resources</a><span class="breadcrumb__sep">/</span>
+      <a href="/resources/key-terms/">Key Terms</a><span class="breadcrumb__sep">/</span>
+      {{ term.term }}
+    </nav>
+    <div style="display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-2);">
+      {%- for gp in term.gs_papers %}<span class="gs-badge gs-badge--{{ gp }}" style="font-size:0.65rem;">{{ gp | upper }}</span>{% endfor %}
+      <span style="font-size:var(--text-xs);color:rgba(255,255,255,0.6);">{{ subjectIcon }} {{ subjectName }}</span>
+    </div>
+    <h1 class="page-header__title">{{ term.term }}</h1>
+    {% if term.pronunciation %}<p style="font-family:monospace;font-size:var(--text-sm);color:rgba(255,255,255,0.7);margin-top:var(--space-1);">{{ term.pronunciation }}</p>{% endif %}
+  </div>
+</section>
+
+<section style="padding:var(--space-8) 0;">
+  <div class="container" style="max-width:780px;">
+
+    {# ── Definition ── #}
+    <div style="border-left:4px solid {{ subjectColor }};padding:var(--space-4) var(--space-5);background:var(--color-surface);border-radius:0 var(--radius-md) var(--radius-md) 0;margin-bottom:var(--space-6);">
+      <p style="font-size:var(--text-base);line-height:1.8;color:var(--color-text);margin:0;">{{ term.definition }}</p>
+    </div>
+
+    {# ── Context ── #}
+    {% if term.origin %}
+    <div style="margin-bottom:var(--space-6);">
+      <h2 style="font-family:var(--font-body);font-size:var(--text-sm);font-weight:700;color:var(--color-text);text-transform:uppercase;letter-spacing:0.04em;margin-bottom:var(--space-3);">Context & Background</h2>
+      <p style="font-size:var(--text-sm);line-height:1.8;color:var(--color-text-secondary);">{{ term.origin }}</p>
+    </div>
+    {% endif %}
+
+    {# ── UPSC Relevance ── #}
+    {% if term.upsc %}
+    <div style="padding:var(--space-5);background:linear-gradient(135deg,rgba(212,160,23,0.06) 0%,rgba(15,76,58,0.04) 100%);border:1px solid rgba(212,160,23,0.2);border-radius:var(--radius-lg);margin-bottom:var(--space-6);">
+      <h2 style="font-family:var(--font-body);font-size:0.7rem;font-weight:700;color:var(--color-accent-hover);text-transform:uppercase;letter-spacing:0.04em;margin-bottom:var(--space-2);">UPSC Relevance</h2>
+      <p style="font-size:var(--text-sm);line-height:1.8;color:var(--color-text-secondary);">{{ term.upsc }}</p>
+    </div>
+    {% endif %}
+
+    {# ── Source Chapter ── #}
+    <div style="padding:var(--space-4) var(--space-5);background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-md);margin-bottom:var(--space-6);display:flex;align-items:center;justify-content:space-between;">
+      <div>
+        <p style="font-size:var(--text-xs);color:var(--color-text-muted);margin:0 0 2px;">From chapter</p>
+        <p style="font-size:var(--text-sm);font-weight:600;color:var(--color-text);margin:0;">{{ term.topicTitle }}</p>
+      </div>
+      <a href="{{ term.topicUrl }}" style="font-size:var(--text-xs);font-weight:600;color:var(--color-brand);text-decoration:none;white-space:nowrap;">Read chapter &rarr;</a>
+    </div>
+
+    {# ── Navigation ── #}
+    <div style="display:flex;justify-content:space-between;padding-top:var(--space-5);border-top:1px solid var(--color-border);">
+      <a href="/resources/key-terms/" style="font-size:var(--text-sm);color:var(--color-brand);text-decoration:none;font-weight:600;">&larr; All Key Terms</a>
+      <a href="/subjects/{{ term.subject }}/" style="font-size:var(--text-sm);color:var(--color-brand);text-decoration:none;font-weight:600;">{{ subjectIcon }} {{ subjectName }} &rarr;</a>
+    </div>
+
+  </div>
+</section>

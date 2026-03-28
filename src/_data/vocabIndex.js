@@ -60,9 +60,12 @@ function parseFile(filePath) {
     // Detect H3 entries
     if (/^### /.test(line)) {
       pushEntry();
+      const termText = line.replace(/^### /, "").trim();
+      const fileSlug = path.basename(filePath, ".md");
       currentEntry = {
-        term: line.replace(/^### /, "").trim(),
-        slug: slugify(line.replace(/^### /, "").trim()),
+        term: termText,
+        slug: slugify(termText),
+        pageSlug: slugify(termText) + "--" + slugify(fileSlug),
         pronunciation: "",
         definition: "",
         origin: "",
