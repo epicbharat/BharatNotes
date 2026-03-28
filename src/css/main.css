@@ -692,17 +692,15 @@ a.card:hover { text-decoration: none; }
   font-size: var(--text-sm);
 }
 .article-body table {
-  width: 100%;
   border-collapse: separate;
   border-spacing: 0;
   margin: var(--space-5) 0;
   font-size: var(--text-base);
   border-radius: var(--radius-lg);
-  overflow-x: auto;
-  display: block;
   border: 1px solid var(--color-border);
   box-shadow: 0 1px 4px rgba(0,0,0,0.04);
-  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  max-width: 100%;
 }
 .article-body th {
   background: var(--color-brand);
@@ -713,6 +711,8 @@ a.card:hover { text-decoration: none; }
   font-size: var(--text-xs);
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 .article-body td {
   padding: 10px var(--space-4);
@@ -720,6 +720,8 @@ a.card:hover { text-decoration: none; }
   color: var(--color-text);
   line-height: 1.6;
   vertical-align: top;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 .article-body td:first-child {
   font-weight: 600;
@@ -1064,7 +1066,8 @@ a.card:hover { text-decoration: none; }
   .article-body h2 { font-size: var(--text-lg); margin: var(--space-5) 0 var(--space-2); word-break: break-word; }
   .article-body h3 { font-size: var(--text-base); margin: var(--space-4) 0 var(--space-2); word-break: break-word; }
   .article-body h4 { font-size: var(--text-sm); }
-  .article-body table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .article-body table { font-size: var(--text-xs); }
+  .article-body th, .article-body td { padding: 6px var(--space-2); }
   h1, h2, h3 { word-break: break-word; overflow-wrap: break-word; }
   .container { padding: 0 var(--space-3); }
   body { font-size: var(--text-sm); }
@@ -1100,12 +1103,6 @@ a.card:hover { text-decoration: none; }
   -webkit-overflow-scrolling: touch;
   margin: var(--space-5) 0;
   border-radius: var(--radius-lg);
-}
-@media (min-width: 769px) {
-  .article-body table { min-width: 480px; }
-}
-@media (max-width: 768px) {
-  .article-body table { min-width: 0; width: 100%; }
 }
 
 /* ── Accessibility ───────────────────────────────────────── */
