@@ -113,21 +113,32 @@ eleventyComputed:
         {# ── Main Article ── #}
         <div class="tp-article">
 
-          {% if term.origin %}
-          <div class="tp-article__section">
-            <h2 class="tp-article__heading">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-              Context & Background
-            </h2>
-            <div class="tp-article__body">{{ term.origin }}</div>
-          </div>
-          {% endif %}
+          {# Check if a dedicated article exists for this term #}
+          {%- set article = termArticles[term.slug] -%}
 
-          {% if term.upsc %}
-          <div class="tp-article__upsc">
-            <h2 class="tp-article__upsc-heading">UPSC Exam Relevance</h2>
-            <div class="tp-article__upsc-body">{{ term.upsc }}</div>
-          </div>
+          {% if article %}
+            {# Full article mode — render rich content #}
+            <div class="article-body">
+              {{ article.html | safe }}
+            </div>
+          {% else %}
+            {# Fallback — render the 3 fields #}
+            {% if term.origin %}
+            <div class="tp-article__section">
+              <h2 class="tp-article__heading">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                Context & Background
+              </h2>
+              <div class="tp-article__body">{{ term.origin }}</div>
+            </div>
+            {% endif %}
+
+            {% if term.upsc %}
+            <div class="tp-article__upsc">
+              <h2 class="tp-article__upsc-heading">UPSC Exam Relevance</h2>
+              <div class="tp-article__upsc-body">{{ term.upsc }}</div>
+            </div>
+            {% endif %}
           {% endif %}
 
         </div>
