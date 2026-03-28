@@ -37,3 +37,4 @@ Constitutional Polity covers the entire framework of Indian governance as envisa
 | 13 | [Statutory & Regulatory Bodies](/subjects/polity/constitutional-polity/13-statutory-regulatory-bodies/) | NHRC, NCW, NCSC, NCST, NCM, NCBC, CIC, NITI Aayog, NGT, tribunals |
 | 14 | [Amendments, Schedules & Special Provisions](/subjects/polity/constitutional-polity/14-amendment-schedules-special-provisions/) | Article 368, 12 Schedules, 5th & 6th Schedule, Article 371 series, Basic Structure doctrine |
 | 15 | Electoral Systems & Reforms | FPTP vs PR, ECI, EVM-VVPAT, Model Code, electoral bonds, One Nation One Election, anti-defection law |
+| 16 | Landmark Constitutional Judgments | Key Supreme Court rulings shaping constitutional interpretation — Basic Structure, right to privacy, EWS reservation, electoral bonds |

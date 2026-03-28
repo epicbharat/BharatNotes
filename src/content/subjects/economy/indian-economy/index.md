@@ -20,7 +20,7 @@ tags:
 
 The Indian Economy topic covers the entire GS3 economics syllabus — from macroeconomic fundamentals and planning history to sector-specific deep dives on agriculture, banking, trade, taxation, employment, and infrastructure. India is the **5th largest economy** by nominal GDP and **3rd by PPP**, yet ranks 134th on the Human Development Index — a paradox that defines every UPSC economics question.
 
-This topic is divided into **12 detailed chapters** — each covering a major area of the economy. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
+This topic is divided into **13 detailed chapters** — each covering a major area of the economy. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
 
 ### What You'll Cover
 
@@ -38,6 +38,7 @@ This topic is divided into **12 detailed chapters** — each covering a major ar
 | **Ch 10** | Capital Markets & Insurance | SEBI, stock exchanges, mutual funds, IRDAI, NPS, financial inclusion, IBC, GIFT City |
 | **Ch 11** | Cooperatives & Agricultural Credit | Cooperative structure, NABARD, PACS, cooperative banks, SHG-bank linkage, KCC, crop insurance |
 | **Ch 12** | Regional Development & Aspirational Districts | Aspirational Districts Programme, regional disparities, backward area development, NITI Aayog rankings |
+| **Ch 13** | Digital Economy & Fintech | UPI, digital payments, fintech regulation, CBDC (e₹), ONDC, Account Aggregators, digital lending, India Stack |
 
 > **Exam Strategy:** Economy is the heaviest GS3 subject — expect 4-6 Prelims questions and at least one dedicated Mains question every year. For Prelims, memorise current-year numbers (GDP growth, fiscal deficit, repo rate, GST collections). For Mains, build analytical frameworks connecting fiscal policy to growth, trade to manufacturing, and reform intent to ground-level outcomes.
 
