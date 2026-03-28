@@ -32,3 +32,6 @@ Physics questions in UPSC Prelims test **conceptual understanding** of fundament
 | 4 | **Electricity, Magnetism & Electronics** | Ohm's law, circuits, electromagnetic induction, semiconductors, superconductors |
 | 5 | **Modern Physics & Nuclear Science** | Radioactivity, nuclear fission & fusion, X-rays, photoelectric effect, relativity basics, particle physics, nuclear reactors |
 | 6 | **Scientific Instruments, Units & Inventions** | SI units, scientific instruments, major inventions, Indian scientists, Nobel Prize discoveries |
+| 7 | **Fluid Mechanics & Surface Tension** | Pressure, buoyancy, viscosity, Bernoulli's principle, surface tension, capillarity |
+| 8 | **Waves, Communication Technology & Fibre Optics** | Radio waves, satellite communication, radar, telecom physics, fibre optics, signal propagation |
+| 9 | **Energy Sources & Conversion** | Conventional, nuclear, solar, wind & hydrogen energy physics, energy conversion principles |

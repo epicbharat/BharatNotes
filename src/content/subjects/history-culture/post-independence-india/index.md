@@ -34,3 +34,5 @@ Post-Independence India (1947 onwards) encompasses the monumental task of nation
 | 6 | **1991 Economic Reforms & Liberalisation** | BOP crisis, LPG reforms, impact on growth, poverty, and global integration |
 | 7 | **Coalition Era & Political Evolution** | Multi-party democracy since 1989, coalition governments, regional parties, political realignment |
 | 8 | **India's Nuclear & Space Programme** | Nuclear tests (Pokhran I & II), ISRO milestones, Chandrayaan, Mangalyaan, strategic autonomy |
+| 9 | **Green Revolution & Agricultural Transformation** | Food self-sufficiency, M.S. Swaminathan, White Revolution, Operation Flood, rural change |
+| 10 | **Social Legislation & Reservation Policy** | Mandal Commission, OBC reservation, EWS quota, affirmative action, social legislation since 1947 |

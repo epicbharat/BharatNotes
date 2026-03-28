@@ -34,6 +34,8 @@ Medieval Indian history spans roughly from the 8th century to the 18th century C
 | 6 | **Maratha Empire (1674–1818)** | Shivaji, Ashtapradhan, Peshwa period, Third Battle of Panipat, Anglo-Maratha Wars |
 | 7 | **Chola Dynasty & South Indian Powers** | Rajaraja I, Rajendra I's naval expedition, Uttaramerur inscription, Pallava & Chalukya contributions |
 | 8 | **Medieval Society, Economy & Culture** | Indo-Islamic architecture, Urdu emergence, Indian Ocean trade, textile economy, social structure |
+| 9 | **Medieval Administration & Revenue Systems** | Sultanate & Mughal governance, Iqta, Mansabdari, revenue systems, provincial administration |
+| 10 | **Sikh Gurus, Rajput Kingdoms & Regional Powers** | Sikh Gurus, Khalsa, Rajput polity, Ahoms, Jats, regional kingdoms of medieval India |
 
 ---
 

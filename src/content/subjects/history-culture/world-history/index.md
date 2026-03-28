@@ -32,3 +32,7 @@ The UPSC GS Paper I syllabus covers events from the 18th century onwards that si
 | 4 | **World War I & Russian Revolution** | MAIN causes, Treaty of Versailles, February & October Revolutions, Lenin |
 | 5 | **Rise of Fascism/Nazism & World War II** | Mussolini, Hitler, Holocaust, key battles, atomic bombings |
 | 6 | **Cold War, Decolonisation & Globalisation** | NATO vs Warsaw, proxy wars, decolonisation of Africa/Asia, EU, globalisation |
+| 7 | **Chinese Revolution & Asian Communism** | Mao Zedong, Cultural Revolution, modern China, Korean War, Vietnamese struggle |
+| 8 | **Arab Nationalism, African Liberation & Latin American Revolutions** | Pan-Arabism, African independence movements, Apartheid, Latin American revolutions, Che Guevara |
+| 9 | **United Nations & Post-War World Order** | UN formation, Bretton Woods, NATO, Non-Alignment Movement, UDHR, global governance |
+| 10 | **Collapse of the USSR & New World Order** | Glasnost, Perestroika, fall of Berlin Wall, unipolar moment, globalisation, EU expansion |

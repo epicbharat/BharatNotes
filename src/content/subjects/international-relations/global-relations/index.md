@@ -18,7 +18,7 @@ tags:
 
 ## Overview
 
-International Relations is a **core GS2 section** in UPSC, covering India's foreign policy evolution, bilateral relationships with neighbours and major powers, the UN system and international organisations, global trade architecture, and multilateral forums. This section provides nine comprehensive chapters that combine factual depth for Prelims with analytical frameworks for Mains — from Panchsheel and NAM to the Quad, BRICS expansion, and India's WTO battles.
+International Relations is a **core GS2 section** in UPSC, covering India's foreign policy evolution, bilateral relationships with neighbours and major powers, the UN system and international organisations, global trade architecture, and multilateral forums. This section provides fifteen comprehensive chapters that combine factual depth for Prelims with analytical frameworks for Mains — from Panchsheel and NAM to the Quad, BRICS expansion, and India's WTO battles.
 
 ---
 
@@ -35,3 +35,9 @@ International Relations is a **core GS2 section** in UPSC, covering India's fore
 | 7 | **Global Security & Arms Control** | Nuclear non-proliferation (NPT, CTBT, NSG), arms control treaties, terrorism conventions, UNSC resolutions, India's stance |
 | 8 | **India's Development & Humanitarian Diplomacy** | ITEC, disaster relief abroad, vaccine diplomacy, Lines of Credit, South-South cooperation, diaspora engagement, soft power |
 | 9 | **International Law & Treaties** | Sources of international law, ICJ, ICC, UNCLOS, Geneva Conventions, treaties & conventions, India's treaty practice, extradition, refugees |
+| 10 | **India-China Relations** | LAC, Galwan, border disputes, trade imbalance, strategic competition, bilateral mechanisms |
+| 11 | **Indo-Pacific, QUAD & ASEAN** | Indo-Pacific strategy, QUAD, AUKUS, ASEAN centrality, maritime security, regional architecture |
+| 12 | **India & the Middle East, Africa & Central Asia** | Energy security, diaspora, defence cooperation, strategic outreach, development partnerships |
+| 13 | **India-USA Relations** | Defence cooperation, trade, technology transfer, diaspora, iCET, strategic convergence |
+| 14 | **India-Russia & India-Europe Relations** | Defence supplies, energy cooperation, trade diversification, strategic autonomy |
+| 15 | **Indian Diaspora, Soft Power & Cultural Diplomacy** | Pravasi Bharatiya, yoga diplomacy, Brand India, cultural outreach, diaspora engagement |

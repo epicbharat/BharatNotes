@@ -20,7 +20,7 @@ tags:
 
 World Geography covers the **physical structure of the Earth**, global landform processes, climate classification, biomes, and the geopolitical significance of resource distribution and strategic locations. UPSC Prelims frequently tests map-based questions on straits, canals, mountain ranges, and resource-producing regions. Mains demands understanding of how physical geography shapes global geopolitics — from oil chokepoints to rare earth supply chains.
 
-This section is divided into **5 detailed chapters** covering global physical processes, resource geopolitics, and world economic geography.
+This section is divided into **8 detailed chapters** covering global physical processes, resource geopolitics, and world economic geography.
 
 ### What You'll Cover
 
@@ -31,6 +31,9 @@ This section is divided into **5 detailed chapters** covering global physical pr
 | **Ch 03** | World Economic Geography | Global agriculture, industrial regions, trade routes, economic blocs, special economic zones, global supply chains, urbanisation patterns |
 | **Ch 04** | World Climate & Biomes | Koppen classification, atmospheric circulation, pressure belts, biome distribution, climate change impacts |
 | **Ch 05** | Global Water Resources | Oceans, major rivers & lakes, transboundary water disputes, water scarcity, desalination, global water governance |
+| **Ch 06** | World Mapping — Strategic Locations | Strategic straits, canals, mountain ranges, important places, geopolitically significant locations |
+| **Ch 07** | World Population & Urbanisation | Global demographic trends, megacities, urban challenges, population policies, migration |
+| **Ch 08** | Geopolitics of Arctic, Antarctic & Boundaries | Polar regions, Arctic Council, Antarctic Treaty, disputed territories, international boundaries |
 
 > **Exam Strategy:** World Geography in Prelims is heavily map-based — learn locations of straits (Hormuz, Malacca, Bab-el-Mandeb), canals (Suez, Panama), mountain ranges, rivers, and resource-rich regions. For Mains, focus on the *geopolitical implications* of resource distribution — why the South China Sea matters, how rare earth dominance shapes tech rivalry, and how climate change is opening Arctic shipping routes. Always connect physical geography to current geopolitical developments.
 

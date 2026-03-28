@@ -20,7 +20,7 @@ tags:
 
 Ancient Indian history spans from the earliest urban civilization in the Indus Valley (c. 2500 BCE) through the classical age of the Gupta Empire (c. 550 CE). This period saw the rise of major empires, the birth of world religions, revolutionary philosophical thought, and landmark achievements in science, art, and governance.
 
-This topic is divided into **8 detailed chapters** — each covering a major era or theme. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
+This topic is divided into **10 detailed chapters** — each covering a major era or theme. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
 
 ### What You'll Cover
 
@@ -34,6 +34,8 @@ This topic is divided into **8 detailed chapters** — each covering a major era
 | **Ch 06** | Gupta Empire — Golden Age | Samudragupta, Chandragupta II, Nalanda, science & literature |
 | **Ch 07** | Buddhism & Jainism | Buddha, Mahavira, councils, sects, spread across Asia |
 | **Ch 08** | Ancient Art, Architecture & Literature | Stupas, rock-cut caves, Gandhara-Mathura art, Sanskrit literature |
+| **Ch 09** | Ancient Indian Science & Contributions | Mathematics, astronomy, medicine, metallurgy, Aryabhata, Charaka, Sushruta |
+| **Ch 10** | Sangam Age & Early South India | Chera, Chola, Pandya kingdoms, Tamil literary tradition, Sangam literature, trade |
 
 > **Exam Strategy:** Ancient India is a high-yield area for both Prelims (factual recall — sites, rulers, dates) and Mains (analytical essays on Ashoka's Dhamma, Mauryan administration, trade routes). Focus on tables and mnemonics for Prelims; for Mains, practise writing balanced assessments of historical debates (Aryan migration, decline of IVC, "Golden Age" characterisation).
 

@@ -20,7 +20,7 @@ tags:
 
 The Indian Economy topic covers the entire GS3 economics syllabus — from macroeconomic fundamentals and planning history to sector-specific deep dives on agriculture, banking, trade, taxation, employment, and infrastructure. India is the **5th largest economy** by nominal GDP and **3rd by PPP**, yet ranks 134th on the Human Development Index — a paradox that defines every UPSC economics question.
 
-This topic is divided into **15 detailed chapters** — each covering a major area of the economy. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
+This topic is divided into **20 detailed chapters** — each covering a major area of the economy. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
 
 ### What You'll Cover
 
@@ -41,6 +41,11 @@ This topic is divided into **15 detailed chapters** — each covering a major ar
 | **Ch 13** | Digital Economy & Fintech | UPI, digital payments, fintech regulation, CBDC (e₹), ONDC, Account Aggregators, digital lending, India Stack |
 | **Ch 14** | Insurance, Pension & Social Security | IRDAI, PMJJBY, PMSBY, APY, NPS, ESIC, EPFO, crop insurance (PMFBY), health insurance, social security code |
 | **Ch 15** | Logistics & Transport Infrastructure | National Logistics Policy, PM Gati Shakti, Sagarmala, Bharatmala, DFC, inland waterways, multimodal logistics parks, logistics cost reduction |
+| **Ch 16** | Demographic Dividend & Human Capital | Skill India, labour reforms, productivity, demographic transition, employment trends, labour codes |
+| **Ch 17** | Sustainable Development & Green Economy | SDGs, ESG, carbon markets, circular economy, green finance, climate-resilient development |
+| **Ch 18** | National Income & Economic Indicators | GDP, GNP, NNP, index numbers, economic data sources, base year revisions |
+| **Ch 19** | Union Budget & Disinvestment | Budget process, revenue & capital accounts, fiscal policy instruments, privatisation policy |
+| **Ch 20** | Competition Policy & Consumer Protection | CCI, anti-trust regulation, Consumer Protection Act 2019, consumer rights |
 
 > **Exam Strategy:** Economy is the heaviest GS3 subject — expect 4-6 Prelims questions and at least one dedicated Mains question every year. For Prelims, memorise current-year numbers (GDP growth, fiscal deficit, repo rate, GST collections). For Mains, build analytical frameworks connecting fiscal policy to growth, trade to manufacturing, and reform intent to ground-level outcomes.
 

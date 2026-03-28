@@ -36,6 +36,8 @@ Constitutional Polity covers the entire framework of Indian governance as envisa
 | 12 | [Emergency Provisions](/subjects/polity/constitutional-polity/12-emergency-provisions/) | National Emergency (Art 352), President's Rule (Art 356), Financial Emergency (Art 360), 44th Amendment |
 | 13 | [Statutory & Regulatory Bodies](/subjects/polity/constitutional-polity/13-statutory-regulatory-bodies/) | NHRC, NCW, NCSC, NCST, NCM, NCBC, CIC, NITI Aayog, NGT, tribunals |
 | 14 | [Amendments, Schedules & Special Provisions](/subjects/polity/constitutional-polity/14-amendment-schedules-special-provisions/) | Article 368, 12 Schedules, 5th & 6th Schedule, Article 371 series, Basic Structure doctrine |
-| 15 | Electoral Systems & Reforms | FPTP vs PR, ECI, EVM-VVPAT, Model Code, electoral bonds, One Nation One Election, anti-defection law |
-| 16 | Landmark Constitutional Judgments | Key Supreme Court rulings shaping constitutional interpretation — Basic Structure, right to privacy, EWS reservation, electoral bonds |
-| 17 | Governance Reforms & Commissions | 2nd ARC recommendations, e-governance, mission mode projects, administrative reforms, civil service reforms, Sarkaria & Punchhi Commissions |
+| 15 | [Electoral Systems & Reforms](/subjects/polity/constitutional-polity/15-electoral-systems-reforms/) | FPTP vs PR, ECI, EVM-VVPAT, Model Code, electoral bonds, One Nation One Election, anti-defection law |
+| 16 | [Landmark Constitutional Judgments](/subjects/polity/constitutional-polity/16-landmark-judgments/) | Key Supreme Court rulings shaping constitutional interpretation — Basic Structure, right to privacy, EWS reservation, electoral bonds |
+| 17 | [Governance Reforms & Commissions](/subjects/polity/constitutional-polity/17-governance-reforms-commissions/) | 2nd ARC recommendations, e-governance, mission mode projects, administrative reforms, civil service reforms, Sarkaria & Punchhi Commissions |
+| 18 | [Fundamental Duties & Citizenship](/subjects/polity/constitutional-polity/18-fundamental-duties-citizenship/) | Article 51A, Fundamental Duties, citizenship acquisition & termination, CAA 2019, OCI & PIO |
+| 19 | [Anti-Defection Law, PIL & Tribunals](/subjects/polity/constitutional-polity/19-anti-defection-pil-tribunals/) | 10th Schedule, judicial activism, PIL evolution, Article 323A & 323B tribunals |

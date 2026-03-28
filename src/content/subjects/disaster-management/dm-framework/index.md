@@ -20,7 +20,7 @@ tags:
 
 Disaster Management encompasses the **prevention, mitigation, preparedness, response, relief, and rehabilitation** measures taken before, during, and after a disaster. India is among the most disaster-prone countries in the world, with nearly **58.6% of its landmass susceptible to earthquakes** and over 40 million hectares prone to floods.
 
-This topic is divided into **9 detailed chapters** covering the full spectrum of GS3 Disaster Management. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
+This topic is divided into **13 detailed chapters** covering the full spectrum of GS3 Disaster Management. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
 
 ### What You'll Cover
 
@@ -35,6 +35,10 @@ This topic is divided into **9 detailed chapters** covering the full spectrum of
 | **Ch 07** | Climate-Disaster Nexus | Climate change and disaster frequency, IPCC AR6, heat waves, glacial lake outbursts, compound events, adaptation strategies |
 | **Ch 08** | Tsunamis & Coastal Disasters | Tsunami generation & propagation, 2004 Indian Ocean tsunami, ITEWS, coastal erosion, storm surges, mangrove protection, CRZ norms |
 | **Ch 09** | Fire, Industrial & Nuclear Disasters | Fire safety norms, industrial disasters (Bhopal, Vizag), PNGRB, chemical hazards, nuclear accidents, AERB, off-site emergency plans |
+| **Ch 10** | Pandemic Preparedness & Biological Disasters | COVID-19 lessons, One Health approach, biosecurity, epidemic surveillance, biological hazards |
+| **Ch 11** | Disaster Financing, Insurance & Resilient Infrastructure | CDRI, NDRF/SDRF funding, risk transfer, disaster insurance, resilient infrastructure investment |
+| **Ch 12** | Community-Based DM & Early Warning Systems | CBDM, volunteer networks, technology in early warning, last-mile connectivity, local capacity building |
+| **Ch 13** | Heat Waves, Cold Waves & Weather Extremes | Heat action plans, cold wave preparedness, weather extreme impacts, adaptation strategies |
 
 > **Exam Strategy:** Disaster Management is a consistent GS3 Mains topic. Prelims tests institutional facts (NDMA chair, NDRF battalions, Sendai targets, SDRF ratios). Mains demands case-study-based answers — always cite the Odisha cyclone transformation (1999 vs 2019) and link disaster management with climate change. For every answer, present both institutional framework and community-level preparedness dimensions.
 

@@ -20,7 +20,7 @@ tags:
 
 Physical Geography forms the **conceptual foundation** of the entire Geography syllabus. It deals with how the Earth's atmosphere, oceans, and landforms function — knowledge that is essential for understanding Indian Geography, climate change, and disaster management. UPSC tests both factual concepts (atmospheric layers, pressure belts, ocean currents) and analytical linkages (how cyclones form, why monsoons fail, how plate tectonics shapes landforms).
 
-This section is divided into **5 detailed chapters** covering the core physical geography concepts tested in UPSC.
+This section is divided into **8 detailed chapters** covering the core physical geography concepts tested in UPSC.
 
 ### What You'll Cover
 
@@ -31,6 +31,9 @@ This section is divided into **5 detailed chapters** covering the core physical 
 | **Ch 03** | Geomorphology & Landforms | Plate tectonics, weathering, erosion, fluvial/glacial/aeolian/coastal landforms, soil formation, geomorphic agents |
 | **Ch 04** | Soils & Biogeography | Global soil types, soil formation, zonal/azonal soils, biomes, biodiversity patterns, biogeographical regions |
 | **Ch 05** | Astronomical Geography | Earth in space, latitude & longitude, time zones, eclipses, solstices, equinoxes, international date line |
+| **Ch 06** | Map Reading, Remote Sensing & GIS | Cartography, satellite imagery, GIS applications, spatial analysis, ISRO remote sensing |
+| **Ch 07** | Natural Hazards & Vulnerability Mapping | Seismic zones, flood maps, risk assessment, vulnerability indices, hazard zonation |
+| **Ch 08** | Plate Tectonics & Volcanism | Continental drift, sea-floor spreading, volcanic landforms, Ring of Fire, earthquake zones |
 
 > **Exam Strategy:** Physical Geography is highly conceptual — understand the *why* behind phenomena (why trade winds blow NE in Northern Hemisphere, why western coasts of continents have cold currents, why tropical cyclones don't form at the equator). For Prelims, focus on factual associations (layers, belts, current names). For Mains, link physical processes to real-world impacts — cyclone management, ocean resource exploitation, climate change.
 

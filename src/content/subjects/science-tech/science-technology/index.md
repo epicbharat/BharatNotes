@@ -18,7 +18,7 @@ tags:
 
 ## Overview
 
-Science & Technology is the **highest-weight GS3 section** in UPSC, covering everything from ISRO missions and missile systems to CRISPR gene editing and quantum computing. This section provides comprehensive, exam-ready notes across ten chapters — space technology, biotechnology (health and agriculture), IT & cybersecurity, emerging technologies, defence technology, and nuclear & nanotechnology. Each chapter combines factual depth for Prelims with analytical frameworks for Mains.
+Science & Technology is the **highest-weight GS3 section** in UPSC, covering everything from ISRO missions and missile systems to CRISPR gene editing and quantum computing. This section provides comprehensive, exam-ready notes across fourteen chapters — space technology, biotechnology (health and agriculture), IT & cybersecurity, emerging technologies, defence technology, and nuclear & nanotechnology. Each chapter combines factual depth for Prelims with analytical frameworks for Mains.
 
 ---
 
@@ -36,3 +36,7 @@ Science & Technology is the **highest-weight GS3 section** in UPSC, covering eve
 | 8 | **Quantum Computing & Telecommunications** | National Quantum Mission, qubits, quantum supremacy, 5G/6G rollout, BharatNet, semiconductor fabs, telecom reforms |
 | 9 | **Scientific Research Institutions & Governance** | CSIR, ICAR, ICMR, DST, DBT, SERB, science policy, R&D spending, brain drain, National Research Foundation |
 | 10 | **Intellectual Property Rights** | Patents, copyrights, trademarks, GI tags, TRIPS, WIPO, compulsory licensing, patent amendments, traditional knowledge, IPR policy 2016 |
+| 11 | **Robotics, Automation & Industry 4.0** | AI manufacturing, drones, smart factories, cobots, Industry 4.0 framework, India's automation policy |
+| 12 | **Health Technology & Medical Devices** | Telemedicine, mRNA vaccines, genomics, digital health, medical device regulation, Ayushman Bharat Digital |
+| 13 | **AI Governance, Ethics & Policy** | AI regulation, algorithmic bias, AI safety, IndiaAI Mission, global AI governance frameworks |
+| 14 | **EVs, Battery Technology & Semiconductors** | EV policy, FAME scheme, battery technology, semiconductor fabs, India Semiconductor Mission |

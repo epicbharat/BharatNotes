@@ -34,3 +34,5 @@ The Indian Freedom Struggle (1857–1947) encompasses the organised political, s
 | 6 | **Quit India & Final Phase (1939–1943)** | WWII, Cripps Mission, August Kranti, underground movement |
 | 7 | **Subhas Chandra Bose & INA** | Forward Bloc, escape to Germany/Japan, Azad Hind, Imphal-Kohima |
 | 8 | **Road to Independence & Partition (1944–1947)** | RIN Mutiny, Cabinet Mission, Direct Action Day, Mountbatten Plan, Radcliffe Line |
+| 9 | **Women in Freedom Movement, Role of Press & Princely States** | Women leaders, Indian press in freedom struggle, princely states' role, Rani Gaidinliu, Aruna Asaf Ali |
+| 10 | **Khilafat Movement, Home Rule & Constitutional Reforms (1916–1920)** | Khilafat-Non-Cooperation link, Home Rule League, Lucknow Pact, Montagu-Chelmsford reforms |

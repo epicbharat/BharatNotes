@@ -33,3 +33,7 @@ India's cultural heritage is among the richest and most diverse in the world, sh
 | 5 | **Languages, Literature & Festivals** | Eighth Schedule, Classical Languages, major festivals, folk traditions |
 | 6 | **Folk Arts, Theatre & Puppetry** | Folk dances, folk theatre (Nautanki, Yakshagana, Tamasha), puppetry traditions, GI-tagged crafts |
 | 7 | **Indian Cinema, Media & Broadcasting** | Indian film history, regional cinema, Doordarshan, All India Radio, media regulation, soft power |
+| 8 | **Indian Handicrafts, Textiles & GI-Tagged Products** | Traditional textiles, handloom, GI tags, craft traditions, Khadi, zari, block printing |
+| 9 | **Indian Philosophy & Knowledge Systems** | Six Darshanas, heterodox schools, Nyaya, Vaisheshika, Samkhya, Yoga, Vedanta, intellectual traditions |
+| 10 | **UNESCO Heritage Sites & Cave Architecture** | Ajanta, Ellora, Hampi, Khajuraho, cave temples, India's World Heritage Sites, conservation |
+| 11 | **Indian Martial Arts, Traditional Sports & Games** | Kalaripayattu, Mallakhamb, Chess, Kabaddi, indigenous games, GI-tagged sports heritage |

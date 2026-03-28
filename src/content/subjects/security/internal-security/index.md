@@ -20,7 +20,7 @@ tags:
 
 Internal security encompasses all threats to the territorial integrity, sovereignty, and public order of India that originate **within or across its borders** but are managed by internal security forces. India faces a complex internal security environment shaped by its geography, diversity, porous borders, and rapid digitalisation.
 
-This topic is divided into **9 detailed chapters** covering the full spectrum of GS3 Internal Security. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
+This topic is divided into **14 detailed chapters** covering the full spectrum of GS3 Internal Security. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
 
 ### What You'll Cover
 
@@ -35,6 +35,11 @@ This topic is divided into **9 detailed chapters** covering the full spectrum of
 | **Ch 07** | Counterterrorism & Intelligence | NIA, NSA, RAW, IB, NATGRID, MAC, UAPA, counter-radicalisation, Pulwama response |
 | **Ch 08** | Drug Trafficking & Narcotics | NDPS Act 1985, NCB, golden crescent & golden triangle, darknet trafficking, de-addiction policy |
 | **Ch 09** | Maritime & Coastal Security | Coastal security scheme, Indian Navy & Coast Guard roles, island territories, maritime zones, blue economy threats, piracy, port security |
+| **Ch 10** | Insurgency in Northeast India | AFSPA, peace accords, Naga issue, Manipur, Assam, development strategy, Act East connectivity |
+| **Ch 11** | Proxy War, Hybrid Threats & Radicalisation | Non-traditional security, cross-border terrorism, hybrid warfare, counter-radicalisation, de-radicalisation |
+| **Ch 12** | Police Reforms & Criminal Justice | Police modernisation, Prakash Singh judgment, new criminal laws (BNS/BNSS/BSA), accountability |
+| **Ch 13** | Human Trafficking & Modern Slavery | Legal framework, ITPA, Trafficking Bill, rescue & rehabilitation, forced labour, child trafficking |
+| **Ch 14** | Critical Infrastructure Protection & Space Security | NCIIPC, ASAT, space debris, satellite security, critical infrastructure threats, emerging tech risks |
 
 > **Exam Strategy:** Internal Security is among the highest-scoring GS3 topics. Prelims tests institutional facts (CERT-In, FATF, BSF establishment year, IT Act sections). Mains demands analytical answers linking security with development (LWE), technology with rights (cyber security), and national security with free speech (media regulation). Always present both dimensions in your answers.
 

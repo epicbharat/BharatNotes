@@ -21,7 +21,7 @@ tags:
 
 Indian Society is a core UPSC topic spanning GS Paper I (Indian Society) and GS Paper II (Social Justice, Governance). It covers India's social structure, diversity, demographic dynamics, urbanisation, the effects of globalisation, welfare mechanisms for vulnerable sections, and transparency in governance.
 
-This topic is divided into **12 detailed chapters** — covering the full breadth of the UPSC syllabus on society, social justice, and governance. Work through them sequentially for comprehensive coverage, or jump to any chapter for targeted revision.
+This topic is divided into **16 detailed chapters** — covering the full breadth of the UPSC syllabus on society, social justice, and governance. Work through them sequentially for comprehensive coverage, or jump to any chapter for targeted revision.
 
 ### What You'll Cover
 
@@ -39,6 +39,10 @@ This topic is divided into **12 detailed chapters** — covering the full breadt
 | **Ch 10** | Food & Nutrition Security | NFSA 2013, PDS, TPDS, PMGKAY, POSHAN Abhiyaan, mid-day meal, malnutrition, NFHS-5 data |
 | **Ch 11** | Social Movements & Activism | Farmers' movements, labour movements, Dalit movements, women's movements, environmental activism, RTI movement, civil society & NGOs |
 | **Ch 12** | Health & Public Health | National Health Policy, Ayushman Bharat, NHM, disease burden, mental health, One Health, health infrastructure, pandemic preparedness |
+| **Ch 13** | Communalism, Secularism & National Integration | Communal tensions, secular state framework, national integration challenges, social harmony |
+| **Ch 14** | Role of NGOs, Civil Society & SHGs | NGO governance, civil society role, SHG-bank linkage, grassroots democracy, social transformation |
+| **Ch 15** | Child Rights, Elderly Welfare & Disability Inclusion | POCSO Act, juvenile justice, senior citizen welfare, RPWD Act, inclusive policy |
+| **Ch 16** | Mental Health & Drug Abuse | NMHP, Mental Healthcare Act, substance abuse policy, stigma, de-addiction |
 
 > **Exam Strategy:** Indian Society questions appear in both Prelims (factual — Census data, scheme details, constitutional articles) and Mains (analytical essays on diversity, globalisation's impact, welfare effectiveness, governance reforms). For Prelims, focus on scheme-ministry mapping, key statistics, and constitutional provisions. For Mains, practise writing balanced, multi-dimensional answers connecting social issues with governance responses.
 

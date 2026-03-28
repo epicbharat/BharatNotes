@@ -18,7 +18,7 @@ tags:
 
 ## Overview
 
-Environment, Ecology and Biodiversity is a **high-scoring section** in both UPSC Prelims and GS3 Mains. This section covers the entire syllabus across **11 detailed chapters** — from ecology fundamentals and biodiversity to climate change, renewable energy, environmental laws, and environmental ethics. Every year, 8--12 Prelims questions and at least one Mains question are drawn from these topics.
+Environment, Ecology and Biodiversity is a **high-scoring section** in both UPSC Prelims and GS3 Mains. This section covers the entire syllabus across **15 detailed chapters** — from ecology fundamentals and biodiversity to climate change, renewable energy, environmental laws, and environmental ethics. Every year, 8--12 Prelims questions and at least one Mains question are drawn from these topics.
 
 ---
 
@@ -37,3 +37,7 @@ Environment, Ecology and Biodiversity is a **high-scoring section** in both UPSC
 | 9 | **Renewable Energy & Sustainable Development** | Solar (136 GW), wind (55 GW), hydrogen mission, EVs, nuclear, SDGs, circular economy, green finance, carbon markets |
 | 10 | **Environmental Movements & Ethics** | Chipko, Appiko, Silent Valley, Narmada Bachao, Bishnoi, deep ecology, environmental justice, intergenerational equity |
 | 11 | **Air & Water Pollution** | Air pollutants, AQI, NCAP, vehicular emissions, industrial pollution, water pollution sources, BOD/COD, effluent standards, river cleaning programmes |
+| 12 | **River Conservation & Water Governance** | Namami Gange, river interlinking, National Water Policy, water disputes, groundwater regulation |
+| 13 | **EIA & Coastal Regulation** | EIA process, CRZ norms, green clearances, EIA Notification 2006, coastal zone management |
+| 14 | **Marine Pollution, Ozone Depletion & Global Conventions** | Marine pollution sources, ozone layer, Montreal Protocol, MARPOL, global environmental MEAs |
+| 15 | **Soil Degradation & Desertification** | UNCCD, Land Degradation Neutrality, soil health, desertification mapping, soil conservation |

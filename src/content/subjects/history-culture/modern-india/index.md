@@ -34,3 +34,4 @@ Modern Indian history (c. 1757–1947) covers the period of British colonial rul
 | 6 | **Education, Press & Intellectual Awakening** | Macaulay's Minute, Wood's Despatch, Indian press, Orientalist-Anglicist debate |
 | 7 | **Peasant, Tribal & Working Class Movements** | Indigo revolt, Deccan riots, Moplah rebellion, Santhal uprising, Birsa Munda, trade unions |
 | 8 | **Women's Emancipation & Dalit Movements** | Sati abolition, widow remarriage, women's education, Savitribai Phule, Ambedkar, Poona Pact, Periyar |
+| 9 | **World Wars & Their Impact on India** | Economic, political & social consequences of WWI & WWII on India, war economy, Indian soldiers |
