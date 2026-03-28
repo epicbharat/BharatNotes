@@ -42,7 +42,7 @@ India is the **5th largest economy** in the world by nominal GDP (overtook the U
 | **Industry** | 27.13% |
 | **Agriculture & Allied** | 17.94% |
 
-> **Exam Tip:** India's GDP rank (5th) vs HDI rank (134th) is a classic UPSC question. The gap exists because GDP is an aggregate measure that doesn't capture per capita income ($2,730 vs $85,000+ for the US) or non-income dimensions (health, education). Always use both metrics in Mains answers to demonstrate analytical depth.
+> **Exam Tip:** India's GDP rank (5th) vs HDI rank (130th) is a classic UPSC question. The gap exists because GDP is an aggregate measure that doesn't capture per capita income ($2,730 vs $85,000+ for the US) or non-income dimensions (health, education). Always use both metrics in Mains answers to demonstrate analytical depth.
 
 ---
 
@@ -261,7 +261,7 @@ Tabled in Parliament on **31 January 2025**:
 
 | Indicator | India's Position |
 |-----------|-----------------|
-| **HDI (Human Development Index)** | Rank 134 out of 193 (UNDP HDR 2024) — Medium Human Development |
+| **HDI (Human Development Index)** | Rank 130 out of 193 (UNDP HDR 2025, data for 2023), HDI value 0.685 — Medium Human Development |
 | **Multidimensional Poverty Index** | 11.28% population MPI-poor (NITI Aayog 2023); 24.82 crore people escaped poverty between 2013-14 and 2022-23 |
 | **Gini Coefficient** | ~0.35 (moderate inequality) |
 | **Gender Inequality Index** | Rank 122 (UNDP 2024) |
@@ -331,7 +331,7 @@ Link these static concepts with live developments:
 - **Pronunciation:** /ɡroʊs dəˈmes.tɪk ˈprɒd.ʌkt/
 - **Definition:** The total monetary value of all final goods and services produced within a country's borders during a specific period, serving as the primary aggregate indicator of economic size and health. India's nominal GDP for FY 2025-26 is approximately Rs. 324 lakh crore (~USD 3.9 trillion), making it the 5th largest economy by nominal GDP and the 3rd largest by Purchasing Power Parity. Real GDP growth for FY 2025-26 is estimated at 7.6% (NSO), making India the fastest-growing major economy.
 - **Context:** Developed by economist Simon Kuznets for a 1934 US Congress report to the US Senate; became the standard international metric after the Bretton Woods Conference (1944). India uses GDP at market prices as the headline measure since January 2015 (shifted from GDP at factor cost). Base year: 2011-12 (current series by CSO/NSO). Formula: GDP at market prices = GDP at factor cost + Indirect taxes - Subsidies. GVA (Gross Value Added) at basic prices replaced GDP at factor cost for sectoral analysis. India overtook the UK as the 5th largest economy in Q1 2022 and is projected to become the 4th largest (overtaking Japan) by 2026-27 at current trajectories. Kuznets himself warned against equating GDP with welfare.
-- **UPSC Relevance:** GS3 Economy — Prelims: GDP vs GNP vs NNP formulas, base year (2011-12), GDP at market prices vs factor cost (shifted 2015), GVA methodology, India's GDP rank (5th nominal, 3rd PPP), current GDP growth rate (7.6% FY26), three methods of GDP calculation (production, income, expenditure); Mains: limitations of GDP as a welfare indicator (Kuznets' own warning — "the welfare of a nation can scarcely be inferred from GDP"), why India's HDI rank (134th) lags its GDP rank (5th), jobless growth debate, should India adopt alternative measures like GNH or MPI alongside GDP, GDP per capita ($2,730) vs developed nations as a measure of development.
+- **UPSC Relevance:** GS3 Economy — Prelims: GDP vs GNP vs NNP formulas, base year (2011-12), GDP at market prices vs factor cost (shifted 2015), GVA methodology, India's GDP rank (5th nominal, 3rd PPP), current GDP growth rate (7.6% FY26), three methods of GDP calculation (production, income, expenditure); Mains: limitations of GDP as a welfare indicator (Kuznets' own warning — "the welfare of a nation can scarcely be inferred from GDP"), why India's HDI rank (130th) lags its GDP rank (5th), jobless growth debate, should India adopt alternative measures like GNH or MPI alongside GDP, GDP per capita ($2,730) vs developed nations as a measure of development.
 
 ### Purchasing Power Parity
 - **Pronunciation:** /ˈpɜː.tʃə.sɪŋ ˈpaʊ.ə ˈpær.ɪ.ti/
