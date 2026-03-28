@@ -270,18 +270,64 @@
         <a href="/disclaimer/" class="footer-link">Disclaimer</a>
       </div>
     </div>
-    <div style="display:flex;align-items:center;gap:var(--space-4);padding:var(--space-5) 0;margin-top:var(--space-5);border-top:1px solid rgba(255,255,255,0.1);">
-      <img src="/img/bharat-choudhary.png" alt="Bharat Choudhary" style="width:48px;height:48px;border-radius:50%;border:2px solid rgba(255,255,255,0.2);flex-shrink:0;object-fit:cover;" loading="lazy">
-      <div style="flex:1;">
-        <p style="font-size:var(--text-sm);font-weight:600;color:#fff;margin:0;">Built by Bharat Choudhary</p>
-        <p style="font-size:var(--text-xs);color:rgba(255,255,255,0.5);margin:2px 0 0;">
-          <a href="https://www.linkedin.com/in/epicbharat/" target="_blank" rel="noopener" style="color:var(--color-accent-light);text-decoration:none;">LinkedIn &rarr;</a>
-        </p>
+    <div style="display:flex;align-items:center;gap:var(--space-5);padding:var(--space-5) 0;margin-top:var(--space-5);border-top:1px solid rgba(255,255,255,0.1);flex-wrap:wrap;">
+      <div style="display:flex;align-items:center;gap:var(--space-4);flex-shrink:0;">
+        <img src="/img/bharat-choudhary.png" alt="Bharat Choudhary" style="width:52px;height:52px;border-radius:50%;border:2px solid rgba(255,255,255,0.2);object-fit:cover;" loading="lazy">
+        <div>
+          <p style="font-size:var(--text-sm);font-weight:600;color:#fff;margin:0;">Built by Bharat Choudhary</p>
+          <a href="https://www.linkedin.com/in/epicbharat/" target="_blank" rel="noopener" style="font-size:var(--text-xs);color:var(--color-accent-light);text-decoration:none;display:inline-block;margin-top:2px;">Connect on LinkedIn &rarr;</a>
+        </div>
+      </div>
+      <div style="flex:1;min-width:200px;padding-left:var(--space-5);border-left:1px solid rgba(255,255,255,0.1);">
+        <p id="footer-quote" style="font-size:var(--text-sm);font-style:italic;color:rgba(255,255,255,0.7);line-height:1.6;margin:0;"></p>
+        <p id="footer-quote-author" style="font-size:var(--text-xs);color:rgba(255,255,255,0.4);margin:4px 0 0;"></p>
       </div>
     </div>
     <div class="footer-copy">
       <p>&copy; {{ site.year }} BharatNotes by Bharat Choudhary. All rights reserved.</p>
     </div>
+    <script>
+    (function(){
+      var quotes = [
+        {q:"The only way to do great work is to love what you do.", a:"Steve Jobs"},
+        {q:"An investment in knowledge pays the best interest.", a:"Benjamin Franklin"},
+        {q:"Education is the most powerful weapon which you can use to change the world.", a:"Nelson Mandela"},
+        {q:"The roots of education are bitter, but the fruit is sweet.", a:"Aristotle"},
+        {q:"A nation's culture resides in the hearts and in the soul of its people.", a:"Mahatma Gandhi"},
+        {q:"Be the change you wish to see in the world.", a:"Mahatma Gandhi"},
+        {q:"Where there is righteousness in the heart, there is beauty in the character.", a:"A.P.J. Abdul Kalam"},
+        {q:"Dream is not that which you see while sleeping; it is something that does not let you sleep.", a:"A.P.J. Abdul Kalam"},
+        {q:"You must be the change you wish to see in the world.", a:"Mahatma Gandhi"},
+        {q:"Strength does not come from physical capacity. It comes from an indomitable will.", a:"Mahatma Gandhi"},
+        {q:"Live as if you were to die tomorrow. Learn as if you were to live forever.", a:"Mahatma Gandhi"},
+        {q:"The best time to plant a tree was 20 years ago. The second best time is now.", a:"Chinese Proverb"},
+        {q:"In a gentle way, you can shake the world.", a:"Mahatma Gandhi"},
+        {q:"Discipline is the bridge between goals and accomplishment.", a:"Jim Rohn"},
+        {q:"The future belongs to those who believe in the beauty of their dreams.", a:"Eleanor Roosevelt"},
+        {q:"Success is not final, failure is not fatal: it is the courage to continue that counts.", a:"Winston Churchill"},
+        {q:"The only impossible journey is the one you never begin.", a:"Tony Robbins"},
+        {q:"Don't watch the clock; do what it does. Keep going.", a:"Sam Levenson"},
+        {q:"Knowledge is power. Information is liberating.", a:"Kofi Annan"},
+        {q:"The mind is everything. What you think you become.", a:"Buddha"},
+        {q:"Arise, awake, and stop not till the goal is reached.", a:"Swami Vivekananda"},
+        {q:"They alone live who live for others.", a:"Swami Vivekananda"},
+        {q:"Take risks in your life. If you win, you can lead; if you lose, you can guide.", a:"Swami Vivekananda"},
+        {q:"The power of the people is much stronger than the people in power.", a:"Wael Ghonim"},
+        {q:"We are what our thoughts have made us; so take care about what you think.", a:"Swami Vivekananda"},
+        {q:"Real education consists in drawing the best out of yourself.", a:"Mahatma Gandhi"},
+        {q:"Purity, patience and perseverance are the three essentials to success.", a:"Swami Vivekananda"},
+        {q:"The best way to find yourself is to lose yourself in the service of others.", a:"Mahatma Gandhi"},
+        {q:"You have to dream before your dreams can come true.", a:"A.P.J. Abdul Kalam"},
+        {q:"Great minds discuss ideas; average minds discuss events; small minds discuss people.", a:"Eleanor Roosevelt"},
+        {q:"Injustice anywhere is a threat to justice everywhere.", a:"Martin Luther King Jr."}
+      ];
+      var today = new Date();
+      var dayIndex = (today.getFullYear() * 366 + today.getMonth() * 31 + today.getDate()) % quotes.length;
+      var q = quotes[dayIndex];
+      document.getElementById('footer-quote').textContent = '"' + q.q + '"';
+      document.getElementById('footer-quote-author').textContent = '— ' + q.a;
+    })();
+    </script>
   </div>
 </footer>
 
