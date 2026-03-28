@@ -161,7 +161,7 @@ Escape velocity depends on the mass and radius of the body — larger, denser bo
 | **Moon** | **2.4 km/s** | Too low to retain an atmosphere — gas molecules at lunar temperatures exceed this speed and escape into space |
 | **Mars** | **5.0 km/s** | Retains only a thin CO2 atmosphere; most lighter gases have escaped over billions of years |
 | **Earth** | **11.2 km/s** | Retains N2, O2, CO2 but not hydrogen or helium in significant amounts |
-| **Jupiter** | **59.6 km/s** | Retains even the lightest gases (hydrogen, helium) — hence it is a gas giant |
+| **Jupiter** | **59.5 km/s** | Retains even the lightest gases (hydrogen, helium) — hence it is a gas giant |
 
 | Orbit Type | Altitude | Period | Key Use |
 |------------|----------|--------|---------|

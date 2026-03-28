@@ -164,7 +164,7 @@ Particles spiral along magnetic field lines and bounce between the poles — as 
 | Feature | Detail |
 |---------|--------|
 | **Definition** | Materials with conductivity between conductors and insulators; conductivity increases with temperature (opposite of metals) |
-| **Key materials** | **Silicon** (band gap 1.17 eV) and **Germanium** (band gap 0.74 eV); silicon dominates modern electronics |
+| **Key materials** | **Silicon** (band gap 1.12 eV) and **Germanium** (band gap 0.74 eV); silicon dominates modern electronics |
 | **Doping** | Adding impurities to change conductivity — **n-type** (extra electrons, e.g., phosphorus in silicon) and **p-type** (electron holes, e.g., boron in silicon) |
 
 ### Semiconductor Devices
@@ -263,7 +263,7 @@ India's **Prototype Fast Breeder Reactor (PFBR)** at Kalpakkam, Tamil Nadu (500 
 - Fleming's Left-Hand Rule for motors, Right-Hand Rule for generators
 - AC can be transformed (step-up/step-down); DC cannot be transformed using a simple transformer
 - Transformer works only with AC; step-up for transmission, step-down for distribution
-- Silicon band gap 1.17 eV; germanium 0.74 eV; diode forward voltage ~0.7 V
+- Silicon band gap 1.12 eV; germanium 0.74 eV; diode forward voltage ~0.7 V
 - IC invented by Jack Kilby (1958, Nobel 2000) and Robert Noyce
 - Nuclear fission = splitting heavy nucleus; fusion = combining light nuclei; Sun runs on fusion
 - India's 3-stage nuclear programme: PHWR → Fast Breeder → Thorium breeder (Homi Bhabha)

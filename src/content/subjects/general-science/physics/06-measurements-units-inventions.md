@@ -204,7 +204,7 @@ This is one of the most frequently tested areas in competitive exams. The follow
 | 1918 | Physics | Max Planck | Energy quanta |
 | 1921 | Physics | Albert Einstein | Photoelectric effect |
 | 1922 | Physics | Niels Bohr | Atomic structure |
-| 1928 | Medicine | Frederick Griffith | *Not a Nobel year for this — see below* |
+| 1928 | Medicine | Charles Nicolle | Typhus transmission research |
 | 1929 | Medicine | Christiaan Eijkman, Frederick Hopkins | Vitamins |
 | 1930 | Physics | C.V. Raman | Raman Effect |
 | 1932 | Physics | Werner Heisenberg | Quantum mechanics |

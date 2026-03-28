@@ -109,7 +109,7 @@ Polymers are large molecules (macromolecules) made by linking many small repeati
 |---------|---------|-----------------------|
 | **Polyethylene (PE)** | Ethylene (C₂H₄) | Most widely used plastic; carry bags, bottles, packaging |
 | **PVC (Polyvinyl Chloride)** | Vinyl chloride | Pipes, cable insulation, flooring; rigid or flexible |
-| **Nylon (Polyamide)** | Hexamethylenediamine + adipic acid | First fully synthetic fibre (1935); ropes, clothing, toothbrush bristles |
+| **Nylon (Polyamide)** | Hexamethylenediamine + adipic acid | First fully synthetic fibre (synthesised 1935; commercialised 1938); ropes, clothing, toothbrush bristles |
 | **Teflon (PTFE)** | Tetrafluoroethylene | Non-stick coating (cookware); chemically inert; heat-resistant |
 | **Bakelite** | Phenol + Formaldehyde | First synthetic plastic (1907); electrical switches, handles — thermosetting |
 | **Polystyrene (PS)** | Styrene | Packaging (Thermocol/Styrofoam); disposable cups |

@@ -147,7 +147,7 @@ Energy can neither be created nor destroyed — it can only be **converted** fro
 | **Betz Limit** | Theoretical maximum efficiency of a wind turbine = **59.3%** (16/27) — derived by German physicist Albert Betz in 1919; no turbine can extract more than 59.3% of the wind's kinetic energy |
 | **Practical efficiency** | Real turbines achieve ~35–45% overall efficiency (75–80% of the Betz limit at peak) |
 | **HAWT vs VAWT** | **Horizontal Axis Wind Turbine** (HAWT) — blades rotate around a horizontal axis; most common; higher efficiency. **Vertical Axis Wind Turbine** (VAWT) — blades rotate around a vertical axis; works in any wind direction; lower efficiency |
-| **India's wind capacity** | ~47 GW installed (2025); 4th largest globally; major states — Tamil Nadu, Gujarat, Rajasthan, Karnataka, Maharashtra |
+| **India's wind capacity** | ~54 GW installed (end 2025); 4th largest globally; major states — Tamil Nadu, Gujarat, Rajasthan, Karnataka, Maharashtra |
 | **Offshore wind** | India's target: 37 GW by 2030; first auction completed for Gujarat coast (2023) |
 
 > **For Prelims:** Betz Limit = 59.3% = maximum theoretical efficiency of a wind turbine. HAWT is most common. India = 4th largest wind energy producer globally.
@@ -212,8 +212,8 @@ Energy can neither be created nor destroyed — it can only be **converted** fro
 | Source | Installed Capacity | Share |
 |--------|-------------------|-------|
 | **Coal (Thermal)** | ~250 GW | ~49% |
-| **Solar** | ~123 GW | ~24% |
-| **Wind** | ~47 GW | ~9% |
+| **Solar** | ~133 GW | ~26% |
+| **Wind** | ~54 GW | ~10% |
 | **Large Hydro** | ~47 GW | ~9% |
 | **Nuclear** | ~8.8 GW | ~2% |
 | **Biomass + Small Hydro + Others** | ~30 GW | ~6% |

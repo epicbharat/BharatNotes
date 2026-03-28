@@ -308,7 +308,7 @@ A transistor consists of three semiconductor layers (either npn or pnp):
 - Photons striking the junction create electron-hole pairs, generating current
 - Material: Silicon (monocrystalline, polycrystalline), thin-film (CdTe, CIGS), and emerging perovskite cells
 - Efficiency: Monocrystalline silicon ~20--25%; perovskite cells in research phase ~25--33%
-- India's solar capacity: Over 90 GW installed (as of 2025); target of 280 GW by 2030 under National Solar Mission
+- India's solar capacity: Over 130 GW installed (as of late 2025); target of 280 GW by 2030 under National Solar Mission
 
 ---
 

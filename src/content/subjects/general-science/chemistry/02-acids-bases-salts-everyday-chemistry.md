@@ -188,7 +188,7 @@ Water containing dissolved calcium and magnesium salts is called hard water. It 
 
 | Sweetener | Sweetness (vs sugar) | Key Fact |
 |-----------|---------------------|----------|
-| **Saccharin** | ~300 times sweeter | Oldest artificial sweetener; discovered accidentally in 1878 at Johns Hopkins University; heat-stable |
+| **Saccharin** | ~300 times sweeter | Oldest artificial sweetener; discovered accidentally in 1879 at Johns Hopkins University; heat-stable |
 | **Aspartame** | ~200 times sweeter | Discovered in 1965; not heat-stable (cannot be used in baking); carries phenylalanine warning for people with phenylketonuria (PKU) |
 | **Sucralose** | ~600 times sweeter | Made from sugar; heat-stable; widely used in baked goods |
 
