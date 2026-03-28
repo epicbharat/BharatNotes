@@ -199,6 +199,31 @@ Independent India's greatest domestic challenge in the 1950s and 1960s was feedi
 
 ---
 
+## Farmer Distress and Contemporary Challenges
+
+### The Agrarian Crisis
+
+| Issue | Detail |
+|-------|--------|
+| **Farmer suicides** | India has witnessed a persistent crisis of farmer suicides — over 300,000 farmers died by suicide between 1995 and 2018 (NCRB data); Maharashtra, Karnataka, Andhra Pradesh, and Madhya Pradesh are the worst-affected states |
+| **Causes of distress** | Rising input costs (seeds, fertilisers, pesticides, fuel); stagnant or volatile crop prices; indebtedness to moneylenders and microfinance institutions; crop failure due to drought, floods, or pest attacks; lack of crop insurance coverage; fragmented landholdings |
+| **PMFBY** | **Pradhan Mantri Fasal Bima Yojana** (2016) — a crop insurance scheme with low premium rates (2% for kharif, 1.5% for rabi); aims to provide financial support to farmers suffering crop loss; implementation challenges include delays in claim settlement and low awareness |
+| **Farmer protests (2020–21)** | Massive protests by farmers from Punjab, Haryana, and western UP against three farm laws (2020); farmers camped at Delhi borders for over a year; the laws were repealed in November 2021; the MSP guarantee (based on Swaminathan Commission's C2+50%) remained a key unresolved demand |
+| **Marketing reforms** | Attempts to reform APMC-dominated agricultural marketing — e-NAM (electronic National Agriculture Market, 2016), Model APMC Act (2003/2017); the repealed farm laws had attempted to create a parallel market structure outside APMCs |
+
+### Agricultural Contribution to GDP
+
+| Period | Share of Agriculture in GDP |
+|--------|-----------------------------|
+| **1950–51** | Approximately 53% |
+| **1990–91** | Approximately 30% |
+| **2024–25** | Approximately 17–18% |
+| **Employment** | Agriculture still employs approximately 42–43% of the workforce — the mismatch between GDP share (declining) and employment share (slowly declining) is the core structural problem of Indian agriculture |
+
+> **For Mains:** The paradox of Indian agriculture: its share of GDP has fallen from 53% to under 18%, but it still employs over 40% of the workforce. This means agricultural incomes are growing much slower than non-agricultural incomes, creating a widening rural-urban gap. This structural imbalance is the root cause of farmer distress and is essential context for any GS3 agriculture answer.
+
+---
+
 ## Prelims Quick Revision
 
 - PL-480: US food aid programme; India was a major recipient in the 1950s–60s; "ship-to-mouth" dependence
@@ -223,6 +248,22 @@ Independent India's greatest domestic challenge in the 1950s and 1960s was feedi
 - Analyse the Swaminathan Commission's recommendations — are they feasible and desirable?
 - What should the "second Green Revolution" look like? Discuss with reference to eastern India and sustainability
 - The political economy of food — from PL-480 dependence to food self-sufficiency to MSP debates
+
+---
+
+## Comparison of Agricultural Revolutions in India
+
+| Revolution | Colour | Sector | Period | Key Architect | Impact |
+|-----------|--------|--------|--------|---------------|--------|
+| **Green Revolution** | Green | Food grains (wheat, rice) | 1966–70s | M.S. Swaminathan, C. Subramaniam | Food self-sufficiency; India became a food-surplus nation |
+| **White Revolution** | White | Dairy/Milk | 1970–1996 | Dr. Verghese Kurien | India became the world's largest milk producer (1998) |
+| **Blue Revolution** | Blue | Fisheries | 1985 onwards | Government initiative | India is the 3rd largest fish producer globally |
+| **Yellow Revolution** | Yellow | Oilseeds | 1986 onwards | Sam Pitroda (TMO) | Reduced edible oil imports in the 1990s |
+| **Pink Revolution** | Pink | Meat/Poultry (specifically onion/prawn in some usages) | 2000s onwards | Various | India became the world's largest buffalo meat exporter |
+| **Silver Revolution** | Silver | Eggs/Poultry | 1970s onwards | Indira Gandhi era | India became the 3rd largest egg producer |
+| **Golden Revolution** | Golden | Horticulture (fruits, vegetables, honey) | 1991 onwards | Various | India became the 2nd largest producer of fruits and vegetables |
+
+> **Exam Tip:** The colour revolutions table is a Prelims favourite. Remember the key associations: Green = food grains (Swaminathan), White = dairy (Kurien), Blue = fisheries, Yellow = oilseeds (TMO 1986). The less common ones (Pink, Silver, Golden) appear occasionally. Focus on the architects and approximate time periods.
 
 ---
 

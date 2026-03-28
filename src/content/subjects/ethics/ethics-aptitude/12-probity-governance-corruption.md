@@ -176,6 +176,31 @@ Probity in governance is a foundational concept in the GS-IV Ethics paper — it
 
 ---
 
+## International Anti-Corruption Frameworks
+
+| Framework | Detail |
+|-----------|--------|
+| **United Nations Convention Against Corruption (UNCAC)** | Adopted in 2003; the only legally binding universal anti-corruption instrument; India ratified UNCAC in **May 2011**; covers prevention, criminalisation, international cooperation, and asset recovery |
+| **Transparency International — Corruption Perceptions Index (CPI)** | Annual index ranking countries by perceived levels of public sector corruption; India's CPI score has fluctuated between 38–41 (out of 100) in recent years; a score below 50 indicates significant corruption concerns |
+| **OECD Anti-Bribery Convention** | Targets the supply side of bribery — criminalises bribery of foreign public officials in international business transactions; India is not a signatory but has domestic anti-bribery provisions |
+| **Financial Action Task Force (FATF)** | Sets international standards for combating money laundering and terrorist financing; India is a member; compliance with FATF recommendations strengthens anti-corruption enforcement (particularly through PMLA) |
+
+### Causes and Types of Corruption
+
+| Cause/Type | Description |
+|-----------|-------------|
+| **Monopoly of power** | When a single official or office has monopoly over a service (e.g., land registration, environmental clearance), it creates rent-seeking opportunities |
+| **Discretion without accountability** | Wide discretionary powers without transparent criteria or oversight lead to favouritism and bribery |
+| **Weak institutional checks** | Ineffective audit, inadequate vigilance, and non-functional grievance redressal mechanisms allow corruption to flourish |
+| **Political corruption** | Corruption in elections (vote-buying, illegal funding), legislative corruption (paid questions, cross-voting), and executive corruption (policy capture by vested interests) |
+| **Systemic corruption** | When corruption becomes embedded in institutional processes — not just individual deviance but a way of doing business (e.g., "speed money" for routine approvals) |
+| **Grand corruption** | Large-scale corruption involving senior officials and large sums — procurement fraud, policy distortion, regulatory capture |
+| **Petty corruption** | Small bribes demanded by lower-level officials for routine services — affects ordinary citizens disproportionately |
+
+> **For Mains:** Robert Klitgaard's corruption formula is a useful analytical tool: **C = M + D - A** (Corruption = Monopoly + Discretion - Accountability). This suggests that corruption can be reduced by breaking monopolies (competition), reducing discretion (clear rules and technology), and increasing accountability (transparency, audit, citizen empowerment). This framework is excellent for GS-IV answers on anti-corruption strategy.
+
+---
+
 ## Asset Declaration and Conduct Rules
 
 | Instrument | Detail |
@@ -196,8 +221,25 @@ Probity in governance is a foundational concept in the GS-IV Ethics paper — it
 | **Distinction** | A Code of Ethics says *"act with integrity"*; a Code of Conduct says *"you shall not accept gifts exceeding Rs 5,000 without prior permission"* — both are necessary; ethics without rules is vague, rules without ethics is mechanical |
 | **Ethical leadership** | The most effective anti-corruption mechanism is ethical leadership — when senior officials demonstrate integrity, it cascades through the organisation; conversely, corruption at the top creates a culture of permissiveness |
 | **Organisational culture** | Probity is sustained not by laws alone but by an organisational culture that values honesty, punishes misconduct, protects whistleblowers, and rewards ethical behaviour |
+| **Tone at the top** | The ethical behaviour of senior leaders is the single most important determinant of organisational integrity — when leaders cut corners, subordinates follow; when leaders demonstrate probity, it becomes the norm |
+| **Zero-tolerance policy** | A credible zero-tolerance policy against corruption — where every instance of misconduct is investigated and punished regardless of the offender's rank — builds institutional integrity more effectively than any number of codes or charters |
 
 > **For Mains:** GS-IV often asks candidates to distinguish between a Code of Ethics and a Code of Conduct. The key distinction: Code of Ethics is value-based and aspirational (principles); Code of Conduct is rule-based and prescriptive (specific dos and don'ts). A robust integrity framework needs both — ethics provides the moral compass, conduct rules provide the enforceable standards.
+
+---
+
+## E-Governance and Technology as Anti-Corruption Tools
+
+| Tool/Initiative | How It Promotes Probity |
+|----------------|------------------------|
+| **Direct Benefit Transfer (DBT)** | Transfers subsidies directly to beneficiaries' bank accounts via Aadhaar, eliminating intermediaries who siphon funds — over Rs 36 lakh crore transferred via DBT since inception; estimated savings of Rs 3.48 lakh crore by eliminating ghost beneficiaries and middlemen |
+| **Government e-Marketplace (GeM)** | Online procurement platform for government purchases; promotes transparency, competition, and reduces discretion in public procurement |
+| **e-Office** | Digital file management system for government offices; creates audit trails, reduces file manipulation, and speeds up decision-making |
+| **RTI Act, 2005** | While not e-governance per se, the RTI Act is the most powerful transparency tool available to citizens; over 6 million RTI applications filed annually; has exposed corruption in land deals, PDS distribution, infrastructure projects |
+| **Aadhaar-based authentication** | Biometric verification for government services eliminates fake identities and duplicate claims |
+| **Blockchain and AI** | Emerging technologies for tamper-proof record-keeping (land records, contracts), automated fraud detection, and predictive analytics for vigilance |
+
+> **For Mains:** Technology is a powerful enabler of probity, but it is not a substitute for ethical culture. DBT has demonstrably reduced leakage, but it also raises concerns about digital exclusion (those without Aadhaar, bank accounts, or internet access). The ethical question is: how do we harness technology for transparency without creating new forms of exclusion? This is a nuanced point for GS-IV answers.
 
 ---
 

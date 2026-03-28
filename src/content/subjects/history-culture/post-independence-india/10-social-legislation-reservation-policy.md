@@ -228,6 +228,32 @@ Post-independence India embarked on an ambitious programme of social legislation
 
 ---
 
+## Reservation — The Broader Debate
+
+### Arguments For Reservation
+
+| Argument | Explanation |
+|----------|-------------|
+| **Historical injustice** | Caste-based discrimination persisted for millennia; reservation is compensatory justice — correcting a historical wrong by creating opportunities for those systematically denied them |
+| **Representation** | Without reservation, the upper castes (who have accumulated social, educational, and economic capital over centuries) would continue to dominate government services, education, and political institutions |
+| **Substantive equality** | Formal equality (treating everyone the same) ignores structural inequalities; reservation is a tool of substantive equality — ensuring equal outcomes, not just equal treatment |
+| **Social integration** | When members of marginalised communities occupy positions of authority, it challenges social hierarchies and promotes dignity and self-respect |
+| **Constitutional mandate** | Articles 15(4), 16(4), and 46 explicitly envision affirmative action as a tool for social justice — reservation is not a departure from equality but an instrument of it |
+
+### Arguments Against Reservation
+
+| Argument | Explanation |
+|----------|-------------|
+| **Merit and efficiency** | Critics argue that reservation lowers the quality of public services and education by selecting candidates who may not meet the general merit threshold |
+| **Caste entrenchment** | Rather than eliminating caste consciousness, reservation may reinforce it — people are incentivised to identify with their caste for accessing benefits |
+| **Creamy layer problem** | Within reserved categories, the better-off sections capture a disproportionate share of benefits — the genuinely disadvantaged remain excluded |
+| **Indefinite extension** | Reservation was originally intended for 10 years (SCs/STs in legislatures); it has been extended repeatedly with no sunset clause — critics argue it has become a permanent entitlement |
+| **Economic criterion** | Some argue that economic status, not caste, should determine who receives affirmative action — the 103rd Amendment reflects this view |
+
+> **For Mains:** Reservation is among the most debated topics in UPSC. The strong answer avoids taking an absolutist position. Instead, acknowledge that reservation is a constitutionally mandated tool of social justice that has achieved significant results (increased representation of SCs/STs/OBCs in government services and education), while also noting legitimate concerns (creamy layer capture, caste entrenchment, efficiency questions). Propose reforms (better targeting, sub-categorisation, time-bound review) rather than abolition.
+
+---
+
 ## Prelims Quick Revision
 
 - Hindu Code Bills: split into 4 acts by Nehru after Ambedkar's resignation (1951); passed 1955–56

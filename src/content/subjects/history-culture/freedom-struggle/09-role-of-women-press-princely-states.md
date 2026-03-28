@@ -58,10 +58,17 @@ India's freedom struggle was shaped not only by towering male leaders but equall
 | **Matangini Hazra** (1870–1942) | Shot dead by British police while leading a procession during the Quit India Movement in Tamluk, Bengal, on 29 September 1942, holding the Indian flag |
 | **Kanaklata Barua** (1924–1942) | Killed at age 17 by British police while leading a procession to hoist the Indian flag at a police station in Gohpur, Assam, during the Quit India Movement |
 | **Durgabai Deshmukh** (1909–1981) | Active in the Salt Satyagraha; later became a member of the Constituent Assembly and the Planning Commission |
+| **Sucheta Kripalani** (1908–1974) | Active in the Quit India Movement; member of the Constituent Assembly; sang "Vande Mataram" at the midnight session on 14–15 August 1947; became India's **first woman Chief Minister** (Uttar Pradesh, 1963–67) |
+| **Vijaya Lakshmi Pandit** (1900–1990) | Nehru's sister; active in the freedom movement; arrested three times by the British; became the **first woman President of the UN General Assembly** (1953) |
+| **Amrit Kaur** (1889–1964) | Secretary to Mahatma Gandhi for 16 years; member of the Constituent Assembly; India's first woman Cabinet Minister (Health Minister, 1947–57); established AIIMS |
 
 ---
 
 ## Role of the Press in the Freedom Movement
+
+### Why the Press Mattered
+
+The press was arguably the single most important institution in creating a national consciousness among Indians. Before the press, political awareness was limited to small elite circles. Newspapers — especially vernacular newspapers reaching audiences in Hindi, Bengali, Marathi, Tamil, Urdu, and other languages — created a shared public sphere where Indians across regions could discuss common grievances, articulate nationalist demands, and develop a sense of collective identity. The British understood this power, which is why they enacted a series of increasingly harsh press laws. But suppression only created martyrs and strengthened the nationalist resolve.
 
 ### Early Indian Press
 
@@ -71,6 +78,10 @@ India's freedom struggle was shaped not only by towering male leaders but equall
 | **Sambad Kaumudi (1821)** | Bengali newspaper founded by **Raja Ram Mohan Roy**; advocated social reform and freedom of the press |
 | **Mirat-ul-Akhbar (1822)** | Persian-language newspaper by **Raja Ram Mohan Roy**; ceased publication in 1823 in protest against press regulations |
 | **Bombay Samachar (1822)** | A Gujarati-language newspaper; one of the oldest surviving newspapers in Asia |
+| **Darpan (Bombay Courier, 1832)** | Bal Shastri Jambhekar started one of the earliest Marathi newspapers, which combined journalism with social reform |
+| **Rast Goftar (1851)** | Dadabhai Naoroji started this Gujarati newspaper to spread awareness about social and economic issues |
+| **Hindu Patriot (1853)** | Edited by Harish Chandra Mukherjee; championed the cause of indigo planters and exposed colonial exploitation |
+| **Som Prakash (1858)** | Founded by Ishwar Chandra Vidyasagar; a Bengali weekly that advocated women's education, widow remarriage, and social reform |
 
 ### Press Regulation by the British
 
@@ -192,6 +203,29 @@ India's freedom struggle was shaped not only by towering male leaders but equall
 
 ---
 
+## The Press and Social Reform Movements
+
+### Press as a Tool Beyond Politics
+
+| Dimension | Examples |
+|-----------|---------|
+| **Social reform** | Raja Ram Mohan Roy's Sambad Kaumudi (1821) campaigned against Sati and child marriage; Amrita Bazar Patrika exposed the condition of indigo farmers (indigo revolt, 1859–60) |
+| **Caste reform** | Jyotirao Phule's Gulamgiri (1873, a book) and Babasaheb Ambedkar's Mooknayak (1920) and Bahishkrit Bharat (1927) used the press to challenge caste oppression |
+| **Vernacular press and mass mobilisation** | The vernacular press — in Hindi, Bengali, Marathi, Tamil, Urdu, Gujarati — reached audiences that English newspapers could not; this was critical for transforming the freedom movement from an elite affair into a mass movement |
+| **Press and the Congress** | Many newspapers were closely associated with the Congress — the press was not just a passive reporter of events but an active participant in shaping nationalist discourse and mobilising public opinion |
+| **Underground press during Quit India** | When legal channels were shut down by the government (press censorship during WWII and Quit India), underground publications and the Secret Congress Radio maintained the flow of information and kept the resistance alive |
+
+### Sedition Trials of Editors — Key Cases
+
+| Editor | Newspaper | Trial/Year | Significance |
+|--------|-----------|-----------|-------------|
+| **Bal Gangadhar Tilak** | Kesari | **1897** (first trial); **1908** (second trial — 6 years' imprisonment in Mandalay) | The 1908 trial made Tilak a national hero; the charge was "exciting disaffection against the government"; his imprisonment became a rallying point |
+| **Aurobindo Ghosh** | Bande Mataram | **1907** (Bande Mataram sedition case) | Acquitted due to lack of evidence linking him directly to the articles; the case brought him national prominence |
+| **Annie Besant** | New India, Commonweal | **1917** (interned under the Defence of India Act) | Her internment generated a massive wave of public sympathy and strengthened the Home Rule movement |
+| **Mahatma Gandhi** | Young India | **1922** (Great Trial) | Charged with sedition for three articles in Young India; Gandhi pleaded guilty and made a famous statement — "I hold it to be a virtue to be disaffected towards a government which in its totality has done more harm to India than any previous system"; sentenced to 6 years (released in 1924 due to health) |
+
+---
+
 ## Prelims Quick Revision
 
 - Bhikaji Cama: Stuttgart, Germany, 22 August 1907, International Socialist Congress — first Indian flag on foreign soil
@@ -221,6 +255,10 @@ India's freedom struggle was shaped not only by towering male leaders but equall
 - Was the integration of princely states a democratic achievement or an act of coercion?
 - Critically assess the Patel-Menon strategy for integrating princely states
 - Compare the handling of Hyderabad, Junagadh, and Kashmir — was there a consistent principle?
+- Trace the role of the press in each phase of the freedom movement — reformist, militant, and Gandhian
+- How did the Praja Mandal movements ensure that the freedom struggle extended beyond British India into princely states?
+- Assess the role of women's organisations (WIA, AIWC) in institutionalising women's participation in the freedom struggle
+- "The Vernacular Press Act 1878 was the best advertisement for Indian nationalism" — discuss
 
 ---
 
