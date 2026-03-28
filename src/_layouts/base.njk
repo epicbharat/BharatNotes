@@ -7,7 +7,7 @@
   <meta name="author" content="Bharat Choudhary">
   <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
-  {%- set pageTitle %}{% if title %}{{ title }} — UPSC Notes | BharatNotes{% else %}BharatNotes — Free UPSC & IAS Notes | Prelims to Interview{% endif %}{% endset -%}
+  {%- set pageTitle %}{% if title %}{{ title | safe }} — UPSC Notes | BharatNotes{% else %}BharatNotes — Free UPSC &amp; IAS Notes | Prelims to Interview{% endif %}{% endset -%}
   {%- set pageDesc -%}
     {%- if description -%}{{ description }}
     {%- elif syllabus_topic -%}{{ title }} — Free UPSC {{ syllabus_topic }} notes with PYQs, key concepts & exam strategy for IAS Prelims and Mains.
@@ -16,7 +16,7 @@
   {%- endset -%}
   {%- set pageUrl = site.url + (page.url or '/') -%}
 
-  <title>{{ pageTitle | safe }}</title>
+  <title>{{ pageTitle | unescape | safe }}</title>
   <meta name="description" content="{{ pageDesc | safe }}">
   <link rel="canonical" href="{{ pageUrl }}">
   {% if robotsMeta %}<meta name="robots" content="{{ robotsMeta }}">{% endif %}

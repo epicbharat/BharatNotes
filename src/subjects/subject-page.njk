@@ -35,13 +35,6 @@ eleventyComputed:
 <section style="padding:var(--space-8) 0;">
   <div class="container">
 
-    <!-- Quick actions -->
-    <div style="display:flex; gap:var(--space-3); margin-bottom:var(--space-8); flex-wrap:wrap;">
-      <a href="/prelims/?subject={{ subj.slug }}" class="btn btn--accent btn--sm">🎯 Practice MCQs</a>
-      <a href="/mains/?subject={{ subj.slug }}" class="btn btn--ghost btn--sm">✍️ Mains Notes</a>
-      <a href="/pyq/?subject={{ subj.slug }}" class="btn btn--ghost btn--sm">📝 View PYQs</a>
-    </div>
-
     <!-- Syllabus sections -->
     {% for sectionName in subj.syllabus_sections %}
     <div class="subject-section">

@@ -6,6 +6,12 @@ module.exports = function (eleventyConfig) {
     return marked.parseInline(String(value));
   });
 
+  // ── Unescape HTML entities for titles ──
+  eleventyConfig.addFilter("unescape", function(value) {
+    if (!value) return "";
+    return String(value).replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&#39;/g, "'").replace(/&quot;/g, '"');
+  });
+
   // Passthrough copies
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");
