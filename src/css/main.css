@@ -60,7 +60,7 @@ p { line-height: var(--leading-relaxed); }
   font-size: var(--text-xl);
   letter-spacing: var(--tracking-tight);
 }
-.site-logo__img { height: 24px; width: auto; flex-shrink: 0; }
+.site-logo__img { height: 32px; width: 32px; flex-shrink: 0; border-radius: var(--radius-sm); }
 .site-logo:hover { color: var(--color-white); }
 .nav-toggle {
   display: none;
