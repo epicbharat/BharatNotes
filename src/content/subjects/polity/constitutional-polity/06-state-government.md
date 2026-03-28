@@ -283,12 +283,14 @@ The Chief Minister must:
 ### Governor's Role
 - **Pronunciation:** /ˈɡʌv.ən.əz rəʊl/
 - **Definition:** The constitutional position established under Article 153 whereby the Governor serves as the appointed head of state for each State, exercising executive, legislative, and discretionary powers as the President's representative, while normally acting on the advice of the Chief Minister and Council of Ministers.
-- **Origin:** From Anglo-French *governour* (Latin *gubernātor*, "helmsman, director") + Old French *rolle* (Latin *rotula*, "little wheel, scroll"); the office was continued from the British colonial Governors and adapted to the republican framework at independence.
+- **Context:** The office was continued from the British colonial Governors and adapted to the republican framework at independence. The Governor's discretionary powers include reserving Bills for President's consideration, recommending President's Rule, and appointing CM in hung assemblies. The Sarkaria Commission (1983) and Punchhi Commission (2007) recommended reforms to reduce politicisation of the office.
+- **UPSC Relevance:** GS2 Polity — Prelims: Articles 153-162, appointment by President (not elected), discretionary powers, pardoning power (Article 161 — no court martial, no death sentence), difference from President's pardoning power; Mains: is the Governor a Centre's agent or a federal check, Bills pending with Governor (no time limit — 2025 SC controversy), Sarkaria vs Punchhi recommendations on Governor's office.
 
 ### President's Rule
 - **Pronunciation:** /ˈprɛz.ɪ.dənts ruːl/
 - **Definition:** The imposition of direct Central Government rule in a state under Article 356 when the President, on the Governor's report or otherwise, is satisfied that the governance of the state cannot be carried on in accordance with the Constitution; state executive authority passes to the President (exercised through the Governor), and the state legislature may be suspended or dissolved.
-- **Origin:** The term combines *President* (from Latin *praesidēns*, "one who presides") + *rule* (from Old French *riule*, Latin *rēgula*, "straight stick, standard"); the provision was borrowed from Section 93 of the Government of India Act, 1935, and the S.R. Bommai case (1994) imposed judicial safeguards against its misuse.
+- **Context:** Borrowed from Section 93 of the Government of India Act, 1935. The S.R. Bommai case (1994) imposed judicial safeguards against its misuse — floor test is the only valid test of majority, assembly should not be dissolved before parliamentary approval. Imposed over 125 times since 1950, most controversially in the 1970s-80s. Maximum duration is 3 years (with conditions requiring Election Commission certification and parliamentary approval every 6 months after the first year).
+- **UPSC Relevance:** GS2 Polity — Prelims: Article 356, parliamentary approval within 2 months, simple majority, max 3 years, over 125 times imposed, never for Financial Emergency (Article 360); Mains: S.R. Bommai judgment and its impact on federalism, misuse of Article 356 as a tool for political interference, should Article 356 be repealed or reformed, Sarkaria Commission's "use sparingly" recommendation.
 
 ---
 

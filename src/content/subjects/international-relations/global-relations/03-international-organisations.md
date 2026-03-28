@@ -288,12 +288,14 @@ The United Nations was founded on **24 October 1945** (UN Day) with 51 original 
 ### United Nations Security Council
 - **Pronunciation:** /juːˌnaɪ.tɪd ˈneɪ.ʃənz sɪˈkjʊə.rɪ.ti ˈkaʊn.sɪl/
 - **Definition:** One of the six principal organs of the United Nations, consisting of five permanent members (China, France, Russia, the United Kingdom, and the United States) with veto power and ten non-permanent members, bearing primary responsibility for the maintenance of international peace and security.
-- **Origin:** Established by the UN Charter signed on 26 June 1945 in San Francisco and effective from 24 October 1945, succeeding the League of Nations Council.
+- **Context:** Established by the UN Charter signed on 26 June 1945 in San Francisco and effective from 24 October 1945, succeeding the League of Nations Council.
+- **UPSC Relevance:** GS2 International Relations — Prelims tests P5 members, veto power, G4 vs Coffee Club distinction. Mains frequently asks "Discuss India's case for a permanent UNSC seat" and "Is the UNSC still fit for purpose?" India's UNSC reform bid is a perennial topic linking to multilateral diplomacy.
 
 ### World Trade Organisation
 - **Pronunciation:** /wɜːld treɪd ˌɔː.ɡən.aɪˈzeɪ.ʃən/
 - **Definition:** An intergovernmental organisation headquartered in Geneva that regulates and facilitates international trade by providing a framework for negotiating trade agreements, settling disputes, and ensuring trade flows smoothly and predictably among its 166 member states.
-- **Origin:** Established on 1 January 1995 under the Marrakesh Agreement signed on 15 April 1994 by 123 nations, succeeding the General Agreement on Tariffs and Trade (GATT, 1947).
+- **Context:** Established on 1 January 1995 under the Marrakesh Agreement signed on 15 April 1994 by 123 nations, succeeding the General Agreement on Tariffs and Trade (GATT, 1947).
+- **UPSC Relevance:** GS2 (International Relations) and GS3 (Economy) — Prelims tests founding year, members, key agreements (GATT, GATS, TRIPS, AoA), and dispute settlement. Mains asks about WTO reform, Appellate Body crisis, India's stance on public stockholding, and the Doha Round. A cross-cutting topic linking trade policy with food security.
 
 ---
 

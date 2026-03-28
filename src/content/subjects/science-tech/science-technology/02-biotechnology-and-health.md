@@ -258,12 +258,14 @@ The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy was ap
 ### Genetic Modification
 - **Pronunciation:** /dʒəˈnɛt.ɪk ˌmɒd.ɪ.fɪˈkeɪ.ʃən/
 - **Definition:** The deliberate alteration of an organism's DNA using laboratory-based techniques that do not occur naturally through mating or recombination, including the insertion, deletion, or modification of genes to produce desired traits.
-- **Origin:** From Latin *geneticus* (relating to origin) + Latin *modificātiō* ("a measuring, modification"); the practice dates to the 1970s when recombinant DNA technology was first developed.
+- **Context:** From Latin *geneticus* (relating to origin) + Latin *modificātiō* ("a measuring, modification"); the practice dates to the 1970s when recombinant DNA technology was first developed.
+- **UPSC Relevance:** GS3 (Science & Technology / Biotechnology). Prelims tests CRISPR-Cas9 (Nobel Prize 2020, Doudna & Charpentier), recombinant DNA technology, and GM crops in India (Bt cotton is the only approved GM crop). Mains frequently asks about the GM crops debate — science vs regulation, GEAC's role, Bt Brinjal moratorium (2010), GM Mustard (DMH-11), and ethical boundaries of gene editing (designer babies). Know the SDN-1/SDN-2/SDN-3 classification of genome editing.
 
 ### Stem Cell Therapy
 - **Pronunciation:** /stɛm sɛl ˈθɛr.ə.pi/
 - **Definition:** A form of regenerative medicine that uses stem cells or their derivatives to repair, replace, or regenerate diseased, dysfunctional, or injured tissues in the body.
-- **Origin:** From Old English *stefn* ("trunk of a tree") for "stem" + Latin *cella* ("small room") for "cell" + Greek *therapeia* ("healing, service"); stem cells were first identified by Canadian scientists Ernest McCulloch and James Till in 1961.
+- **Context:** From Old English *stefn* ("trunk of a tree") for "stem" + Latin *cella* ("small room") for "cell" + Greek *therapeia* ("healing, service"); stem cells were first identified by Canadian scientists Ernest McCulloch and James Till in 1961.
+- **UPSC Relevance:** GS3 (Science & Technology). Prelims tests types of stem cells — embryonic (pluripotent), adult (multipotent), and induced pluripotent stem cells (iPSCs). A 2020 UPSC Prelims question asked about injecting human iPSCs into animal embryos. Mains asks about ethical concerns (embryonic stem cell controversy), therapeutic applications (regenerative medicine), and India's regulatory framework for stem cell research.
 
 ---
 

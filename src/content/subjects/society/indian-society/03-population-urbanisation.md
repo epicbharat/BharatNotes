@@ -274,9 +274,11 @@ India's demographic dividend window (2005-2055) is **time-bound**. The key risks
 ### Census Town
 - **Pronunciation:** /ˈsɛnsəs taʊn/
 - **Definition:** A settlement in India that meets all three urban criteria — minimum population of 5,000, at least 75% of male main workers in non-agricultural occupations, and population density of at least 400 persons per square kilometre — but is not statutorily notified as a town and continues to be governed by a rural panchayat.
-- **Origin:** A classification category used by the Office of the Registrar General and Census Commissioner of India during decennial censuses; the number of census towns rose from 1,362 in 2001 to 3,894 in 2011.
+- **Context:** A classification category used by the Office of the Registrar General and Census Commissioner of India during decennial censuses; the number of census towns rose from 1,362 in 2001 to 3,894 in 2011.
+- **UPSC Relevance:** GS1 Indian Society (urbanisation) — Prelims tests the three criteria and the census town vs statutory town distinction. Mains asks about "hidden urbanisation" where census towns lack municipal infrastructure despite urban characteristics. Links to urban governance gaps, the 74th Amendment, and smart city planning. The sharp rise from 1,362 to 3,894 census towns (2001-2011) is a frequently cited data point.
 
 ### Rural-Urban Migration
 - **Pronunciation:** /ˈrʊərəl ˈɜːbən maɪˈɡreɪʃən/
 - **Definition:** The movement of people from rural areas to urban centres, driven by push factors (poverty, lack of employment, poor services) in villages and pull factors (better jobs, education, healthcare, higher living standards) in cities.
 - **Origin:** A compound term from demographic and geographic studies; *rural* derives from Latin *ruralis* ("of the countryside"), *urban* from Latin *urbanus* ("of the city"), and *migration* from Latin *migratio* ("a moving, departure").
+- **UPSC Relevance:** GS1 Indian Society — Mains asks about the causes, consequences, and policy responses to rural-urban migration. Links to urbanisation challenges (slums, infrastructure strain), north-south demographic asymmetry, the COVID-19 reverse migration crisis, and MGNREGA as a rural retention strategy. Also relevant for GS3 (economy, employment) and Essay paper on development themes.

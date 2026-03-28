@@ -351,9 +351,11 @@ The **One Health approach** recognises the interconnection between the health of
 ### Antimicrobial Resistance
 - **Pronunciation:** /ˌæntɪmaɪˈkrəʊbiəl rɪˈzɪstəns/
 - **Definition:** The ability of microorganisms — bacteria, viruses, fungi, and parasites — to survive and multiply despite exposure to antimicrobial drugs that were previously effective against them, making infections harder to treat.
-- **Origin:** The concept emerged with Alexander Fleming's 1945 Nobel lecture warning about bacterial resistance to penicillin; the term gained widespread use from the 1990s as multi-drug-resistant pathogens became a global health crisis.
+- **Context:** The concept emerged with Alexander Fleming's 1945 Nobel lecture warning about bacterial resistance to penicillin; the term gained widespread use from the 1990s as multi-drug-resistant pathogens became a global health crisis.
+- **UPSC Relevance:** GS3 (Science & Technology) and GS2 (Health). Prelims tests AMR definition, superbugs (MRSA, NDM-1), and the distinction between antibiotics (bacteria) and antivirals (viruses). Mains frequently asks about AMR as a public health crisis — causes (overuse, self-medication, agricultural use), India's NAP-AMR (2017), ICMR AMR Surveillance Network, Red Line Campaign, and Schedule H1 restrictions. WHO classifies AMR as a top-10 global public health threat.
 
 ### Herd Immunity
 - **Pronunciation:** /hɜːd ɪˈmjuːnɪti/
 - **Definition:** A form of indirect protection from an infectious disease that occurs when a sufficiently large proportion of a population is immune — through vaccination or prior infection — thereby reducing the likelihood of transmission to susceptible individuals.
-- **Origin:** First used in 1894 by American veterinary scientist Daniel Elmer Salmon in the context of disease resistance in livestock; applied to human epidemiology from the 1920s and formalised with the herd immunity threshold theorem in the 1970s.
+- **Context:** First used in 1894 by American veterinary scientist Daniel Elmer Salmon in the context of disease resistance in livestock; applied to human epidemiology from the 1920s and formalised with the herd immunity threshold theorem in the 1970s.
+- **UPSC Relevance:** GS3 (Science & Technology) and GS2 (Health). Prelims may test the concept and its reliance on vaccination coverage thresholds. Mains asks about herd immunity in the context of pandemic preparedness (COVID-19 experience), India's Universal Immunisation Programme, and Mission Indradhanush. The concept gained widespread public attention during the COVID-19 pandemic — know that herd immunity thresholds vary by disease (measles ~95%, polio ~80-85%).

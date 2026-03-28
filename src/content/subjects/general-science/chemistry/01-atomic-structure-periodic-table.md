@@ -294,12 +294,14 @@ Nuclear fusion is the combining of two light atomic nuclei to form a heavier nuc
 ### Periodic Law
 - **Pronunciation:** /ˌpɪəriˈɒdɪk lɔː/
 - **Definition:** The principle that the physical and chemical properties of the elements recur in a systematic and predictable pattern when the elements are arranged in order of increasing atomic number.
-- **Origin:** Formulated independently by Dmitri Mendeleev and Lothar Meyer in 1869; *periodic* from Greek *periodikos* ("recurring at intervals") + *law* from Old English *lagu*.
+- **Context:** Formulated independently by Dmitri Mendeleev and Lothar Meyer in 1869; *periodic* from Greek *periodikos* ("recurring at intervals") + *law* from Old English *lagu*.
+- **UPSC Relevance:** GS3 (General Science). Prelims tests the difference between Mendeleev's (atomic mass) and modern (atomic number by Moseley, 1913) periodic tables, periodic trends (ionisation energy, electronegativity, atomic radius), and why fluorine has lower electron affinity than chlorine despite higher electronegativity. Know the s/p/d/f block classification and properties of key groups (alkali metals, halogens, noble gases).
 
 ### Atomic Number
 - **Pronunciation:** /əˈtɒmɪk ˈnʌmbər/
 - **Definition:** The number of protons in the nucleus of an atom, which uniquely identifies a chemical element and determines its position in the periodic table.
-- **Origin:** Compound of *atomic* (from Greek *atomos*, "indivisible") + *number* (from Latin *numerus*); the concept was established by Henry Moseley in 1913 through X-ray spectroscopy experiments.
+- **Context:** Compound of *atomic* (from Greek *atomos*, "indivisible") + *number* (from Latin *numerus*); the concept was established by Henry Moseley in 1913 through X-ray spectroscopy experiments.
+- **UPSC Relevance:** GS3 (General Science). Prelims tests the distinction between atomic number (Z) and mass number (A), the difference between isotopes (same Z, different A) and isobars (same A, different Z), and applications of isotopes — Carbon-14 dating, Cobalt-60 in cancer therapy, Iodine-131 in thyroid treatment, heavy water (D₂O) in nuclear reactors.
 
 ---
 

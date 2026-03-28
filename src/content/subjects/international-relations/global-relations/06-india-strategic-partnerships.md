@@ -269,9 +269,11 @@ India's Indo-Pacific approach emphasises **inclusivity, rules-based order, and m
 ### Quad
 - **Pronunciation:** /kwɒd/
 - **Definition:** The Quadrilateral Security Dialogue — an informal strategic grouping of India, the United States, Japan, and Australia focused on maintaining a free and open Indo-Pacific through cooperation on maritime security, critical technologies, health, climate, and infrastructure.
-- **Origin:** Traces its origins to the 2004 Indian Ocean tsunami relief coordination among the four nations; formalised as a diplomatic grouping in 2007 at the initiative of Japanese Prime Minister Shinzo Abe; revived in 2017 and elevated to leaders-level summits in 2021.
+- **Context:** Traces its origins to the 2004 Indian Ocean tsunami relief coordination among the four nations; formalised as a diplomatic grouping in 2007 at the initiative of Japanese Prime Minister Shinzo Abe; revived in 2017 and elevated to leaders-level summits in 2021.
+- **UPSC Relevance:** GS2 International Relations — Prelims tests members, summit outcomes, and working groups. Mains asks "Is the Quad an Asian NATO?" and "How does India balance Quad membership with BRICS and SCO?" Frequently linked to Indo-Pacific strategy, China containment debate, and India's strategic autonomy. One of the most tested multilateral topics in recent years.
 
 ### Indo-Pacific Strategy
 - **Pronunciation:** /ˌɪndoʊ pəˈsɪfɪk ˈstrætədʒi/
 - **Definition:** A geostrategic framework that treats the Indian Ocean and the Pacific Ocean as a single interconnected strategic space, emphasising a rules-based order, freedom of navigation, and inclusive economic cooperation across the region.
-- **Origin:** The term "Indo-Pacific" in its modern geopolitical sense was first used by Indian Navy Captain Gurpreet S. Khurana in a 2007 paper; it was subsequently adopted by Japan (Free and Open Indo-Pacific, 2016), the United States, Australia, and India as the basis for their regional strategies.
+- **Context:** The term "Indo-Pacific" in its modern geopolitical sense was first used by Indian Navy Captain Gurpreet S. Khurana in a 2007 paper; it was subsequently adopted by Japan (Free and Open Indo-Pacific, 2016), the United States, Australia, and India as the basis for their regional strategies.
+- **UPSC Relevance:** GS2 International Relations — Mains asks "Compare India's and the US's visions of the Indo-Pacific" and "How does India's inclusive Indo-Pacific approach differ from AUKUS?" Prelims tests SAGAR (2015), IPOI (2019), IPMDA, and Quad's Indo-Pacific focus. A framework question linking Quad, AUKUS, ASEAN centrality, and China's maritime assertiveness.

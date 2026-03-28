@@ -266,12 +266,14 @@ The transition from Moderates to Extremists was not a clean break — it was a g
 ### Indian National Congress
 - **Pronunciation:** /ˈɪndiən ˈnæʃənəl ˈkɒŋɡrɛs/
 - **Definition:** India's first pan-national political organisation, founded on 28 December 1885 at Bombay by Allan Octavian Hume with 72 delegates under president W.C. Bonnerjee, which evolved from an elite constitutionalist body into the principal vehicle of the Indian independence movement.
-- **Origin:** Originally planned as the "Indian National Union"; renamed before the first session, reportedly at the suggestion of Dadabhai Naoroji; *congress* from Latin *congressus* ("a meeting, encounter"), from *congredi* ("to come together").
+- **Context:** Originally planned as the "Indian National Union"; the early Congress was dominated by Moderates (Naoroji, Gokhale, Mehta) who used constitutional methods like petitions and resolutions; the Extremist faction (Tilak, Lajpat Rai, Bipin Chandra Pal) pushed for more assertive methods from 1905 onwards.
+- **UPSC Relevance:** GS1 (Modern India). Prelims: tested on founding year (1885), founder (A.O. Hume), first president (W.C. Bonnerjee), first session venue (Bombay), and the Moderate–Extremist–Gandhian phases. Mains: a foundational topic — asked to analyse the safety valve theory, the evolution from constitutional agitation to mass movements, and the role of economic nationalism (Drain theory) in building the national movement. Focus on the three phases: Moderate (1885–1905), Extremist (1905–1920), and Gandhian (1920–1947).
 
 ### Drain of Wealth Theory
 - **Pronunciation:** /dreɪn əv wɛlθ ˈθɪəri/
 - **Definition:** The economic thesis, propounded by Dadabhai Naoroji and elaborated by R.C. Dutt, that British colonial rule systematically transferred a portion of India's wealth and resources to Britain — through Home Charges, salaries, pensions, and trade imbalances — for which India received no material return, causing mass impoverishment.
-- **Origin:** First articulated by Dadabhai Naoroji in a paper before the East India Association in London (1867) and fully developed in his book *Poverty and Un-British Rule in India* (1901); *drain* from Old English *drehnian* ("to strain, draw off liquid").
+- **Context:** First articulated by Naoroji in 1867 before the East India Association; fully developed in his 1901 book *Poverty and Un-British Rule in India*; the Drain theory became the Moderates' most powerful intellectual weapon and helped build economic nationalism.
+- **UPSC Relevance:** GS1 (Modern India) & GS3 (Economy). Prelims: tested on proponents (Naoroji, R.C. Dutt), mechanisms of drain (Home Charges, salaries, pensions, trade surplus), and Naoroji's book title. Mains: asked to critically assess the Drain theory's economic arguments and its role in building Indian nationalism; UPSC 2014 directly asked about motivations behind India's anti-colonial struggle. Focus on the theory as a bridge between economic critique and political nationalism.
 
 ---
 

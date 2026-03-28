@@ -278,12 +278,14 @@ The **French East India Company (Compagnie des Indes orientales)** was founded i
 ### East India Company
 - **Pronunciation:** /iːst ˈɪndiə ˈkʌmpəni/
 - **Definition:** A joint-stock company chartered on 31 December 1600 by Queen Elizabeth I, originally formed for trade with the East Indies, which gradually transformed into a territorial power governing large parts of India until the Crown assumed direct control after 1858.
-- **Origin:** Named for its intended sphere of trade in the "East Indies" (the Indian subcontinent and Southeast Asia); formally titled "Governor and Company of Merchants of London Trading into the East Indies."
+- **Context:** Formally titled "Governor and Company of Merchants of London Trading into the East Indies"; transformed from a trading entity to a political power through battles at Plassey (1757) and Buxar (1764), and was dissolved after the Government of India Act 1858 transferred its functions to the Crown.
+- **UPSC Relevance:** GS1 (Modern India). Prelims: tested on charter dates, key battles (Plassey 1757, Buxar 1764), Governor-Generals (Clive, Hastings, Cornwallis, Wellesley, Dalhousie), and Regulating/Charter Acts. Mains: asked to trace the Company's transformation from trade to territorial power, and to assess British colonial policies. A foundational topic that connects to virtually every other Modern India chapter.
 
 ### Battle of Plassey
 - **Pronunciation:** /ˈbætəl əv ˈplæsi/
 - **Definition:** The decisive engagement on 23 June 1757 at Palashi (Bengal), where Robert Clive's East India Company forces defeated Nawab Siraj ud-Daulah — largely through the betrayal of his commander Mir Jafar — establishing British political dominance over Bengal and marking the effective beginning of colonial rule in India.
-- **Origin:** "Plassey" is the anglicised form of Palashi, a village in Bengal named after the palash tree (Butea monosperma) that grew abundantly in the area.
+- **Context:** "Plassey" is the anglicised form of Palashi, a village in Bengal named after the palash tree (Butea monosperma); Clive's force of ~3,000 defeated Siraj's army of ~50,000 largely through Mir Jafar's conspiracy.
+- **UPSC Relevance:** GS1 (Modern India). Prelims: tested on date (23 June 1757), participants, role of Mir Jafar's betrayal, and significance as the beginning of British political power in India. Mains: asked to assess whether Plassey was a battle or a transaction (referring to Mir Jafar's conspiracy), and its consequences for Bengal's economy. Focus on linking Plassey to the subsequent Battle of Buxar (1764) which gave the British the Diwani of Bengal.
 
 ---
 

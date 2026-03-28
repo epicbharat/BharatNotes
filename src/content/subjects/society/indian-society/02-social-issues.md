@@ -276,12 +276,14 @@ tags:
 ### Social Exclusion
 - **Pronunciation:** /ˈsoʊʃəl ɪkˈskluːʒən/
 - **Definition:** A process by which individuals or groups are systematically denied full participation in the economic, social, political, and cultural life of a society, often on the basis of caste, gender, disability, ethnicity, or economic status.
-- **Origin:** The concept was developed in French social policy discourse in the 1970s by René Lenoir, then Secretary of State for Social Action in France, in his 1974 work *Les Exclus*; it was subsequently adopted by the European Union and international development agencies as a framework for understanding multidimensional deprivation.
+- **Context:** The concept was developed in French social policy discourse in the 1970s by René Lenoir, then Secretary of State for Social Action in France, in his 1974 work *Les Exclus*; it was subsequently adopted by the European Union and international development agencies as a framework for understanding multidimensional deprivation.
+- **UPSC Relevance:** GS1 Indian Society and GS2 Social Justice — Mains asks about the dimensions of social exclusion (caste, gender, disability, tribal) and policy measures to address it. Links to reservation policy, welfare schemes, Forest Rights Act, and RPwD Act 2016. Use the concept to frame answers on inequality, marginalisation, and inclusive development. Also relevant for GS4 (empathy, compassion towards weaker sections).
 
 ### Affirmative Action
 - **Pronunciation:** /əˈfɜːrmətɪv ˈækʃən/
 - **Definition:** Policies and measures — including reservations in education, employment, and political representation — designed to promote the advancement of historically disadvantaged groups and to correct the effects of past discrimination.
-- **Origin:** The term was first used in its modern policy sense by US President John F. Kennedy in Executive Order 10925, signed on 6 March 1961, which required federal contractors to take "affirmative action" to ensure non-discrimination; in India, the constitutional basis for affirmative action lies in Articles 15(4), 16(4), and related provisions enabling reservations for SCs, STs, OBCs, and EWS.
+- **Context:** The term was first used in its modern policy sense by US President John F. Kennedy in Executive Order 10925, signed on 6 March 1961, which required federal contractors to take "affirmative action" to ensure non-discrimination; in India, the constitutional basis for affirmative action lies in Articles 15(4), 16(4), and related provisions enabling reservations for SCs, STs, OBCs, and EWS.
+- **UPSC Relevance:** GS1 Indian Society, GS2 Social Justice, and GS4 Ethics — one of the most tested concepts across papers. Prelims tests constitutional articles (15(4), 16(4)), landmark cases (Indra Sawhney 1992, Janhit Abhiyan 2022), and 103rd Amendment (EWS). Mains asks about merit vs social justice, creamy layer, sub-categorisation, and whether reservation has achieved its objectives. Rawls' Difference Principle and Ambedkar's constitutional morality are standard theoretical anchors.
 
 ---
 

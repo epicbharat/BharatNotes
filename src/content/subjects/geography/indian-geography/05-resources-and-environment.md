@@ -296,12 +296,14 @@ Resource planning is essential for sustainable development. India follows a syst
 ### National Mineral Policy
 - **Pronunciation:** /ˈnæʃənəl ˈmɪnəɹəl ˈpɒlɪsi/
 - **Definition:** The guiding policy framework for the exploration, extraction, and management of non-fuel and non-coal minerals in India, most recently revised in 2019, which emphasises transparency through auction-based allocation of mining leases, sustainable mining practices, private sector participation in exploration, and community development through the District Mineral Foundation.
-- **Origin:** India's first mineral policy was framed in 1993 under the Mines and Minerals (Development and Regulation) Act, 1957; it was revised in 2008 and again in 2019, with the latest version approved by the Union Cabinet on 28 February 2019.
+- **Context:** India's first mineral policy was framed in 1993 under the Mines and Minerals (Development and Regulation) Act, 1957; it was revised in 2008 and again in 2019, with the latest version approved by the Union Cabinet on 28 February 2019.
+- **UPSC Relevance:** GS1 Geography and GS3 Economy/Environment. Prelims tests matching minerals with leading states (iron ore — Odisha, bauxite — Odisha, coal — Jharkhand) and major mineral belts. Mains 2025 asked why mining is an environmental hazard and what remedial measures are required. Focus on the tension between mineral extraction for industrial growth, tribal rights (Fifth Schedule areas), and forest conservation (Forest Conservation Act).
 
 ### Renewable Energy Target
 - **Pronunciation:** /ɹɪˈnjuːəbəl ˈɛnədʒi ˈtɑːɡɪt/
 - **Definition:** India's commitment to achieve 500 GW of installed non-fossil fuel electricity capacity by 2030 and to source 50% of its cumulative electric power from non-fossil fuel sources, as pledged in India's updated Nationally Determined Contribution (NDC) submitted to the UNFCCC in August 2022.
-- **Origin:** India's renewable energy targets evolved from the National Solar Mission (2010, targeting 100 GW solar) through successive expansions; the 500 GW target was announced by Prime Minister Narendra Modi at the COP26 climate summit in Glasgow in November 2021.
+- **Context:** India's renewable energy targets evolved from the National Solar Mission (2010, targeting 100 GW solar) through successive expansions; the 500 GW target was announced by Prime Minister Narendra Modi at the COP26 climate summit in Glasgow in November 2021.
+- **UPSC Relevance:** GS3 Economy, Environment, and Energy Security. Mains 2022 asked whether India will meet 50% energy needs from renewables by 2030 and how shifting subsidies from fossil fuels helps. Prelims tests installed capacity figures, global rankings (solar 3rd, wind 4th), and the Three-Stage Nuclear Programme. Connect to Paris Agreement commitments, Panchamrit pledges at COP26, and India achieving 50% non-fossil capacity in June 2025.
 
 ---
 

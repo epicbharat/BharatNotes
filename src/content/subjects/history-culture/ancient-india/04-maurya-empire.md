@@ -240,11 +240,13 @@ Ashoka's Dhamma was **not Buddhism itself** but a **moral code** drawing from Bu
 - **Pronunciation:** /ˌɑːrtəˈʃɑːstrə/
 - **Definition:** An ancient Sanskrit treatise on statecraft, economics, military strategy, and law, attributed to Kautilya (Chanakya), serving as the foundational manual for Mauryan governance.
 - **Origin:** From Sanskrit artha ("wealth, purpose, material prosperity") + shastra ("treatise, instruction, systematic discipline").
+- **UPSC Relevance:** GS1 (Ancient India) & GS2 (Governance). Prelims: frequently asked — "Kautilya's Arthashastra deals with which aspects?" (statecraft, economics, espionage, not just military). Mains: compare Mauryan and Mughal administration using Arthashastra as a source; also relevant for essays on ancient Indian political thought, welfare state concepts, and governance philosophy. High-value for History Optional.
 
 ### Ashoka's Edicts
 - **Pronunciation:** /əˈʃoʊkəz ˈiːdɪkts/
 - **Definition:** A collection of 33 inscriptions carved on rocks, pillars, and cave walls across the Mauryan Empire by Emperor Ashoka (r. c. 268–232 BCE), proclaiming his policy of Dhamma, administrative orders, and remorse for the Kalinga War.
-- **Origin:** Named after Emperor Ashoka; "edict" from Latin edictum ("proclamation"); inscribed in Prakrit (Brahmi and Kharoshthi scripts) and in Greek and Aramaic at Kandahar.
+- **Context:** Named after Emperor Ashoka; inscribed in Prakrit (Brahmi and Kharoshthi scripts) and in Greek and Aramaic at Kandahar; they are the earliest datable written records in Indian history.
+- **UPSC Relevance:** GS1 (Ancient India). Prelims: tested on specific edicts — which edict mentions Kalinga War (Rock Edict XIII), which mentions South Indian kingdoms, scripts used (Brahmi, Kharoshthi, Greek, Aramaic), and locations. Mains: asked to discuss Ashoka's Dhamma policy, its secular vs Buddhist nature, and administrative reforms. A perennial topic for both Prelims MCQs and Mains answer writing.
 
 ---
 

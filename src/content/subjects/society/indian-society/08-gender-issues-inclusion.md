@@ -277,9 +277,11 @@ India **signed** the UN Convention on the Rights of Persons with Disabilities on
 ### Self-Help Groups
 - **Pronunciation:** /sɛlf hɛlp ɡruːps/
 - **Definition:** Informal voluntary associations of 12-25 persons (typically women) from similar socio-economic backgrounds who pool small regular savings, provide internal loans to members, and collectively access bank credit for livelihood activities and mutual support.
-- **Origin:** The concept was formalised in India when NABARD launched the SHG-Bank Linkage Programme in 1992 in collaboration with the Reserve Bank of India, building on earlier community-based microfinance models pioneered by organisations such as MYRADA and SEWA.
+- **Context:** The concept was formalised in India when NABARD launched the SHG-Bank Linkage Programme in 1992 in collaboration with the Reserve Bank of India, building on earlier community-based microfinance models pioneered by organisations such as MYRADA and SEWA.
+- **UPSC Relevance:** GS1 Indian Society (women's empowerment), GS2 Social Justice, and GS3 Economy — Prelims tests NABARD's SHG-Bank Linkage Programme (1992) and DAY-NRLM's SHG promotion. Mains asks about SHGs as tools for women's economic empowerment, financial inclusion, and grassroots entrepreneurship. Links to microfinance, Lakhpati Didi initiative, and the broader women's empowerment agenda.
 
 ### Women's Reservation Bill
 - **Pronunciation:** /ˈwɪm.ɪnz ˌrɛz.əˈveɪ.ʃən bɪl/
 - **Definition:** The Constitution (106th Amendment) Act, 2023 -- officially titled the Nari Shakti Vandan Adhiniyam -- which reserves 33% of seats in Lok Sabha, State Legislative Assemblies, and the Delhi Legislative Assembly for women, including seats reserved for SCs and STs, with implementation linked to a fresh Census and delimitation exercise.
-- **Origin:** First introduced as the 81st Amendment Bill in 1996 in the 11th Lok Sabha; reintroduced multiple times before finally being passed in September 2023 as the 128th Amendment Bill (becoming the 106th Amendment Act upon enactment).
+- **Context:** First introduced as the 81st Amendment Bill in 1996 in the 11th Lok Sabha; reintroduced multiple times before finally being passed in September 2023 as the 128th Amendment Bill (becoming the 106th Amendment Act upon enactment).
+- **UPSC Relevance:** GS1 Indian Society (gender issues) and GS2 Polity — Prelims tests the 106th Amendment, 33% reservation, and the Census-delimitation precondition. Mains asks "Evaluate the impact of the Nari Shakti Vandan Adhiniyam on women's political participation" and "Has the 73rd/74th Amendment experience of women in local bodies been successful?" A high-priority current affairs topic linking gender equity, democratic representation, and constitutional amendments.

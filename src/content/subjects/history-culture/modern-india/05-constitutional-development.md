@@ -235,11 +235,13 @@ This is the **longest Act** ever passed by the British Parliament (321 sections,
 ### Government of India Act 1935
 - **Pronunciation:** /ˈɡʌvənmənt əv ˈɪndiə ækt/
 - **Definition:** The longest Act passed by the British Parliament (321 sections, 10 schedules), which abolished dyarchy in the provinces, introduced provincial autonomy, established three legislative lists (Federal, Provincial, and Concurrent), created a Federal Court, and proposed an All-India Federation that was never implemented.
-- **Origin:** Named after the territory it governed; enacted by the British Parliament on 2 August 1935; it drew on the recommendations of the Simon Commission and the Round Table Conferences (1930-1932).
+- **Context:** Drew on the Simon Commission and Round Table Conferences (1930–1932); Nehru called it "a machine with strong brakes but no engine" and later a "Charter of Slavery"; the Indian Constitution borrowed extensively from this Act — federal structure, three legislative lists, emergency provisions, and the office of Governor.
+- **UPSC Relevance:** GS1 (Modern India) & GS2 (Polity). Prelims: tested on key provisions (provincial autonomy, three lists, Federal Court, All-India Federation), comparison with 1919 Act, and features borrowed by the Indian Constitution. Mains: a cross-paper topic — asked in GS1 (constitutional development) and GS2 (sources of the Constitution). Focus on why the Federation was never implemented and which features the Indian Constitution adopted from this Act.
 
 ### Nehru Report
 - **Pronunciation:** /ˈneɪruː rɪˈpɔːt/
 - **Definition:** A constitutional proposal drafted in 1928 by a committee chaired by Motilal Nehru, demanding Dominion Status for India, joint electorates with reserved seats for minorities, 19 fundamental rights, and a federal structure — the first Indian-authored blueprint for a future Indian constitution.
-- **Origin:** Named after its chairman Motilal Nehru; submitted to the All Parties Conference at Lucknow on 28 August 1928 in response to Lord Birkenhead's challenge for Indians to draft their own constitution.
+- **Context:** Drafted in response to Lord Birkenhead's challenge for Indians to draft their own constitution; submitted on 28 August 1928; led to the Jinnah–Nehru divide when Jinnah's 14 points rejected joint electorates, and pushed Jawaharlal Nehru and Subhas Bose to demand Purna Swaraj instead of Dominion Status.
+- **UPSC Relevance:** GS1 (Modern India) & GS2 (Polity). Prelims: tested on chairman (Motilal Nehru, not Jawaharlal), year (1928), key demands (Dominion Status, 19 fundamental rights), and distinction from Jinnah's 14 points. Mains: relevant for discussing the evolution of constitutional demands from self-rule to Purna Swaraj, the Hindu-Muslim political divide, and the genesis of India's fundamental rights framework. Focus on how the Nehru Report's rejection by the Muslim League deepened communal politics.
 
 *Sources: M.P. Jain — Indian Constitutional Law, D.D. Basu — Introduction to the Constitution of India, Granville Austin — The Indian Constitution: Cornerstone of a Nation, NCERT — Themes in Indian History Part III, legislative.gov.in*

@@ -404,12 +404,14 @@ Conceived by **Dr. Homi Bhabha** in the 1950s to leverage India's limited uraniu
 ### National Infrastructure Pipeline (NIP)
 - **Pronunciation:** /ˈnæʃənəl ˈɪnfrəstrʌktʃər ˈpaɪplaɪn/
 - **Definition:** A Government of India initiative launched in December 2019 that identifies and aggregates social and economic infrastructure projects worth Rs 111 lakh crore (later revised to Rs 160 lakh crore) for implementation between FY 2020 and FY 2025, with financing split between the Centre (39%), states (40%), and the private sector (21%).
-- **Origin:** Announced by PM Narendra Modi during his 2019 Independence Day speech; the detailed project list was prepared by a Task Force chaired by Economic Affairs Secretary Atanu Chakraborty.
+- **Context:** Announced by PM Modi during his 2019 Independence Day speech; detailed project list prepared by a Task Force chaired by Economic Affairs Secretary Atanu Chakraborty. Key sectors: energy (24%), roads (18%), urban infrastructure (17%), railways (12%). Financing challenges remain — NaBFID (National Bank for Financing Infrastructure and Development, 2021) was set up as a DFI to address the infrastructure financing gap. InvITs and municipal bonds are other emerging financing instruments.
+- **UPSC Relevance:** GS3 Economy — Prelims: Rs 111 lakh crore outlay (revised to Rs 160 lakh crore), period FY2020-25, financing split (Centre 39%, States 40%, Private 21%), key sectors; Mains: infrastructure financing gap — role of DFIs (NaBFID), InvITs, municipal bonds, PPP models; infrastructure as a driver of economic growth and employment; logistics cost reduction from 13-14% to 8% of GDP target.
 
 ### PM Gati Shakti
 - **Pronunciation:** /piː ɛm ˈɡʌti ˈʃʌkti/
 - **Definition:** The National Master Plan for Multi-modal Connectivity, a GIS-based digital platform integrating 16 central ministries to enable coordinated infrastructure planning, reduce logistics costs, and eliminate inter-ministerial coordination failures.
-- **Origin:** Launched on 13 October 2021 by PM Narendra Modi; *gati* (Hindi: speed) and *shakti* (Hindi: power/strength) together mean "speed and strength"; the platform was developed by BISAG-N and hosted on the Government of India cloud (MeghRaj).
+- **Context:** Launched on 13 October 2021 by PM Modi; *gati* (Hindi: speed) and *shakti* (Hindi: power/strength). Developed by BISAG-N and hosted on the Government of India cloud (MeghRaj). The platform uses 200+ data layers to visualise existing and planned infrastructure across highways, railways, waterways, ports, and airports. The National Logistics Policy (2022) complements PM Gati Shakti by targeting logistics cost reduction.
+- **UPSC Relevance:** GS3 Economy — Prelims: launched October 2021, 16 ministries integrated, GIS-based platform, 200+ data layers, developed by BISAG-N; Mains: how PM Gati Shakti addresses coordination failures in infrastructure planning (previously each ministry planned in silos), role in reducing logistics costs from 13-14% to 8% of GDP, integration of National Logistics Policy with PM Gati Shakti, comparison with infrastructure planning approaches in other developing countries.
 
 ---
 

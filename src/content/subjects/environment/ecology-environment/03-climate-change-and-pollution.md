@@ -294,12 +294,14 @@ The EIA Notification, 2006 (under EPA 1986) lays down the procedure for obtainin
 ### Paris Agreement
 - **Pronunciation:** /ˈpærɪs əˈɡriːmənt/
 - **Definition:** A legally binding international treaty on climate change adopted by 196 parties at COP21 in Paris on 12 December 2015, aiming to limit global temperature rise to well below 2 degrees C above pre-industrial levels with efforts to limit it to 1.5 degrees C.
-- **Origin:** Named after Paris, France, where the 21st Conference of the Parties (COP21) to the UNFCCC was held; entered into force on 4 November 2016.
+- **Context:** Named after Paris, France, where the 21st Conference of the Parties (COP21) to the UNFCCC was held; entered into force on 4 November 2016.
+- **UPSC Relevance:** GS3 Environment and Climate Change. Prelims tests the 1.5/2 degrees C targets, adoption year (2015), entry into force (2016), and India's ratification. Mains 2025 asked to review India's climate commitments under the Paris Agreement and how they were strengthened at COP26. Focus on how Paris differs from Kyoto (voluntary vs binding targets, universal vs Annex I only) and India's position on CBDR (Common But Differentiated Responsibilities) and climate finance.
 
 ### Nationally Determined Contributions
 - **Pronunciation:** /ˈnæʃənəli dɪˈtɜːrmɪnd ˌkɒntrɪˈbjuːʃənz/
 - **Definition:** National climate action plans submitted by each country under the Paris Agreement, outlining how it intends to reduce greenhouse gas emissions, adapt to climate impacts, and contribute to the global temperature goal, updated every five years with increasing ambition.
-- **Origin:** Introduced as a framework mechanism under Article 4 of the Paris Agreement (2015); evolved from the earlier concept of Intended Nationally Determined Contributions (INDCs) submitted before the Paris conference.
+- **Context:** Introduced as a framework mechanism under Article 4 of the Paris Agreement (2015); evolved from the earlier concept of Intended Nationally Determined Contributions (INDCs) submitted before the Paris conference.
+- **UPSC Relevance:** GS3 Environment. Prelims tests India's updated NDC (August 2022) — 500 GW non-fossil capacity by 2030, 50% cumulative power from non-fossil sources, and 45% reduction in emissions intensity of GDP by 2030. Mains expects critical analysis of whether India's NDCs are ambitious enough, how Panchamrit pledges at COP26 were formalised into the updated NDC, and India's net-zero 2070 target. NDCs are the operational backbone of the Paris Agreement architecture.
 
 ---
 

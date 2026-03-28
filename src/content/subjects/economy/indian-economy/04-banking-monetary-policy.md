@@ -267,12 +267,14 @@ RBI
 ### Monetary Policy Committee
 - **Pronunciation:** /ˈmʌnɪtəri ˈpɒlɪsi kəˈmɪti/
 - **Definition:** A six-member statutory body constituted under Section 45ZB of the RBI Act, 1934, responsible for fixing India's benchmark policy rate (repo rate) to achieve the inflation target of 4% CPI within a +/- 2% tolerance band.
-- **Origin:** Constituted on 29 September 2016 following the 2016 amendment to the RBI Act; "monetary" from Latin *monetarius* (of a mint), "policy" from Greek *politeia* (citizenship, government), "committee" from Anglo-French *comité* (entrusted).
+- **Context:** Constituted on 29 September 2016 following the 2016 amendment to the RBI Act. Composition: 3 RBI members (Governor as chairperson, Deputy Governor, one RBI official) + 3 external members appointed by the Government. Decisions by majority vote; Governor has casting vote. Meets at least 4 times a year (bi-monthly). Flexible Inflation Targeting (FIT) framework: 4% CPI target with +/- 2% band. Failure clause: if inflation exceeds 6% or falls below 2% for 3 consecutive quarters, MPC must explain to the Government.
+- **UPSC Relevance:** GS3 Economy — Prelims: 6 members (3 RBI + 3 external), Section 45ZB of RBI Act, inflation target (4% CPI, +/- 2%), Governor has casting vote, constituted 2016, meets bi-monthly; Mains: has the MPC framework improved monetary policy transparency and credibility, tension between growth and inflation targeting, should MPC consider growth alongside inflation (dual mandate debate), RBI's independence in the MPC framework vs government influence through external members.
 
 ### Non-Performing Asset
 - **Pronunciation:** /nɒn pəˈfɔːmɪŋ ˈæset/
 - **Definition:** A loan or advance where interest or principal payment remains overdue for more than 90 days, as classified by the Reserve Bank of India, indicating that the asset has ceased to generate income for the lender.
-- **Origin:** A banking regulation term standardised by the RBI adopting the 90-day norm in 2004 to align with global Basel standards; "non-performing" from Latin *non* (not) + Old French *parfournir* (to accomplish), "asset" from Anglo-French *asetz* (sufficient estate).
+- **Context:** RBI adopted the 90-day norm in 2004 to align with global Basel standards. NPAs are classified as sub-standard (overdue 12 months), doubtful (12+ months), and loss assets (identified by bank/RBI as uncollectible). Gross NPAs peaked at 11.2% (FY18) and declined to 2.8% (FY24), aided by the IBC, NARCL (bad bank), and write-offs. The twin balance sheet problem (stressed banks + leveraged corporates) was a key challenge in 2015-18.
+- **UPSC Relevance:** GS3 Economy — Prelims: 90-day overdue norm, classification (sub-standard, doubtful, loss), current Gross NPA ratio, IBC as resolution mechanism, NARCL (National Asset Reconstruction Company Ltd — "bad bank"); Mains: twin balance sheet problem and its resolution, evaluate IBC's effectiveness in NPA resolution (recovery rates, timeline adherence), 4Rs strategy (Recognition, Resolution, Recapitalisation, Reforms), should public sector banks be privatised to reduce NPA cycles.
 
 ---
 

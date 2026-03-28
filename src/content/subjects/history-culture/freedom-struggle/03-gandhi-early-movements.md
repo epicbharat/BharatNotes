@@ -265,12 +265,14 @@ The **Rowlatt Committee**, headed by Justice **Sidney Rowlatt**, was appointed i
 ### Non-Cooperation Movement
 - **Pronunciation:** /nɒn kəʊˌɒp.əˈreɪ.ʃən ˈmuːv.mənt/
 - **Definition:** The first nationwide mass campaign (1920–1922) led by Gandhi under the Indian National Congress, in which Indians systematically withdrew cooperation from British institutions — boycotting courts, schools, legislatures, foreign goods, and titles — to make colonial rule unworkable; it was called off on 12 February 1922 after the Chauri Chaura violence.
-- **Origin:** *Non-* from Latin *nōn* ("not"); *Cooperation* from Late Latin *cooperātiō* ("working together"); *Movement* from Latin *movēre* ("to move").
+- **Context:** Merged the Khilafat issue (Muslim grievance over the dismemberment of the Ottoman Caliphate) with the national movement; marked Gandhi's transformation of the Congress from an elite body into a mass organisation; withdrawal after Chauri Chaura (5 February 1922) remains debated.
+- **UPSC Relevance:** GS1 (Modern India). Prelims: tested on dates (1920–1922), the Khilafat connection, Chauri Chaura incident (5 February 1922), and forms of boycott (courts, schools, titles, foreign goods). Mains: a perennial topic — asked to assess the significance of the NCM in transforming the Congress into a mass movement, evaluate Gandhi's decision to withdraw after Chauri Chaura, and compare with the Civil Disobedience Movement. Focus on the Hindu-Muslim unity achieved and why it broke down afterward.
 
 ### Civil Disobedience Movement
 - **Pronunciation:** /ˌsɪv.əl ˌdɪs.əˈbiː.di.əns ˈmuːv.mənt/
 - **Definition:** The mass campaign launched by Gandhi on 12 March 1930 with the Salt March from Sabarmati Ashram to Dandi (387 km), in which Indians deliberately broke unjust British laws — beginning with the salt tax — through non-violent protest, resulting in approximately 60,000 arrests and drawing worldwide attention to the independence cause.
-- **Origin:** *Civil* from Latin *cīvīlis* ("of citizens"); *Disobedience* from Old French *desobedience*, from Latin *dis-* ("apart") and *oboedientia* ("obedience"); the phrase was popularised by Henry David Thoreau's 1849 essay of the same name, which influenced Gandhi.
+- **Context:** Inspired by Henry David Thoreau's 1849 essay; the movement went through two phases — Phase I (1930–31, ending with Gandhi-Irwin Pact) and Phase II (1932–34, after the failure of the Second Round Table Conference); women's participation was significantly greater than in the NCM.
+- **UPSC Relevance:** GS1 (Modern India). Prelims: tested on the Salt March (dates, distance, participants), Gandhi-Irwin Pact (5 March 1931), and the Communal Award/Poona Pact (1932). Mains: frequently asked — compare NCM and CDM in terms of methods, social base, and outcomes; assess women's role in the CDM. Focus on how the movement internationalised India's freedom struggle and the strategic genius of choosing salt as the symbol of resistance.
 
 ---
 

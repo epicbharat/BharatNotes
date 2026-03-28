@@ -265,11 +265,13 @@ The Quit India Movement did not occur in a vacuum — it was shaped by the globa
 ### August Kranti
 - **Pronunciation:** /ˈɔːɡəst ˈkrɑːnti/
 - **Definition:** Literally "August Revolution," the popular name for the Quit India Movement launched on 8 August 1942, when the All India Congress Committee at Gowalia Tank Maidan in Bombay ratified the resolution demanding immediate British withdrawal from India; the site was renamed August Kranti Maidan in commemoration.
-- **Origin:** From English "August" (the month) + Hindi krānti ("revolution," from Sanskrit krānti, "going, progress"); the term reflects the revolutionary character of the movement, which was the most radical mass upheaval of the Indian freedom struggle.
+- **Context:** The slogan "Quit India" was coined by Yusuf Meherally (Mayor of Bombay); all Congress leaders were arrested within hours of the resolution, and the movement continued as a leaderless mass uprising; the "August Kranti Maidan" in Mumbai commemorates the site.
+- **UPSC Relevance:** GS1 (Modern India). Prelims: tested on date (8 August 1942), venue (Gowalia Tank Maidan, Bombay), slogan coiner (Yusuf Meherally, not Gandhi), and the leaderless nature of the movement after mass arrests. Mains: UPSC 2024 GS-I directly asked about events leading to the Quit India Movement and its results. Focus on why this was the most radical of all Congress-led movements and how it demonstrated that British control was unsustainable without Indian cooperation.
 
 ### Do or Die
 - **Pronunciation:** /duː ɔːr daɪ/
 - **Definition:** The rallying call given by Mahatma Gandhi on 8 August 1942 at the launch of the Quit India Movement — "Here is a mantra, a short one, that I give you... The mantra is 'Do or Die'. We shall either free India or die in the attempt" — which encapsulated the movement's demand for total commitment to independence.
-- **Origin:** English phrase; Hindi equivalent is "Karo ya Maro"; Gandhi coined it as a succinct expression of the uncompromising resolve required for the final phase of the freedom struggle.
+- **Context:** Hindi equivalent is "Karo ya Maro"; Gandhi gave this call despite knowing the British would arrest all Congress leaders; the slogan marked a departure from Gandhi's earlier emphasis on disciplined non-violence toward a more confrontational stance.
+- **UPSC Relevance:** GS1 (Modern India) & GS4 (Ethics). Prelims: tested as a factual association — "Do or Die" = Quit India Movement (1942), distinguishing from "Swaraj is my birthright" (Tilak) and other slogans. Mains: relevant for discussing Gandhian philosophy's evolution from constructive programme to confrontation, and for GS4 ethics questions on moral courage and civil resistance. Focus on how this slogan represented the culmination of 22 years of Gandhian mass movements.
 
 *Sources: Bipan Chandra — India's Struggle for Independence, NCERT — Themes in Indian History Part III, Sumit Sarkar — Modern India, Francis Hutchins — India's Revolution, R.C. Majumdar — History of the Freedom Movement in India*

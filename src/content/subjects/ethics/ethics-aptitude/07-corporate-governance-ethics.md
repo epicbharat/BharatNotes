@@ -319,9 +319,11 @@ The Responsibility to Protect doctrine, endorsed at the 2005 UN World Summit, ho
 ### Corporate Social Responsibility
 - **Pronunciation:** /ˈkɔːrpərət ˈsoʊʃəl rɪˌspɒnsəˈbɪləti/
 - **Definition:** The obligation of companies to integrate social, environmental, and ethical concerns into their business operations and stakeholder interactions, going beyond mere profit maximisation; in India, mandated under Section 135 of the Companies Act, 2013, which requires qualifying companies to spend at least 2% of average net profits on CSR activities.
-- **Origin:** The concept was formulated by American economist Howard Bowen in his 1953 book *Social Responsibilities of the Businessman*, earning him the title "father of CSR"; India became the first country to legislate mandatory CSR spending in 2013.
+- **Context:** The concept was formulated by American economist Howard Bowen in his 1953 book *Social Responsibilities of the Businessman*, earning him the title "father of CSR"; India became the first country to legislate mandatory CSR spending in 2013.
+- **UPSC Relevance:** GS4 Ethics — tested as "Is CSR a moral duty or a legal obligation?" and in case studies involving corporate accountability. Prelims tests Section 135 thresholds (net worth Rs 500 crore, turnover Rs 1,000 crore, profit Rs 5 crore) and the 2% spending mandate. Links to Gandhian trusteeship, stakeholder theory, and environmental ethics. Also relevant for GS3 (economy).
 
 ### Whistleblower Protection
 - **Pronunciation:** /ˈwɪsəlˌbloʊər prəˈtɛkʃən/
 - **Definition:** Legal safeguards that shield individuals who disclose information about corruption, fraud, or wrongdoing within an organisation from retaliation, victimisation, or adverse employment action; in India, governed by the Whistle Blowers Protection Act, 2014.
 - **Origin:** The metaphor of "blowing the whistle" draws from 19th-century British police officers using whistles to alert the public to crimes; the modern sense of reporting institutional wrongdoing gained currency in the 1970s through activist Ralph Nader's advocacy.
+- **UPSC Relevance:** GS4 Ethics — tested in case studies involving whistleblowing dilemmas (reporting a corrupt superior, protecting identity). The Satyendra Dubey case (2003) is a standard reference. Prelims tests the Whistle Blowers Protection Act, 2014 provisions. Mains asks about the effectiveness of whistleblower mechanisms and the tension between loyalty and integrity.

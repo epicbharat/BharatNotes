@@ -275,12 +275,14 @@ A **reflex arc** is the neural pathway that mediates a reflex action — an invo
 ### Circulatory System
 - **Pronunciation:** /ˈsɜːkjʊlətəri ˈsɪstəm/
 - **Definition:** The organ system comprising the heart, blood vessels, and blood that transports oxygen, nutrients, hormones, and waste products throughout the body, maintaining homeostasis.
-- **Origin:** From Latin *circulāre* ("to form a circle") + *systēma* (from Greek *sustēma*, "organised whole"); William Harvey first described the complete circulation of blood in 1628.
+- **Context:** From Latin *circulāre* ("to form a circle") + *systēma* (from Greek *sustēma*, "organised whole"); William Harvey first described the complete circulation of blood in 1628.
+- **UPSC Relevance:** GS3 (General Science). Prelims tests blood groups (ABO and Rh system), haemoglobin function, the difference between arteries and veins, and double circulation in humans. Know blood pH (7.35-7.45), why Rh incompatibility matters in pregnancy, and the role of platelets in clotting. Mains connects to lifestyle diseases (cardiovascular disease), organ donation policy, and public health.
 
 ### Endocrine System
 - **Pronunciation:** /ˈɛndəkrɪn ˈsɪstəm/
 - **Definition:** The network of ductless glands that secrete hormones directly into the bloodstream to regulate metabolism, growth, reproduction, sleep, and other vital body functions.
-- **Origin:** From Greek *endon* ("within") + *krinein* ("to separate, secrete") + *systēma* ("organised whole"); the term *endocrine* was coined by British physiologist Edward Starling in the early 20th century.
+- **Context:** From Greek *endon* ("within") + *krinein* ("to separate, secrete") + *systēma* ("organised whole"); the term *endocrine* was coined by British physiologist Edward Starling in the early 20th century.
+- **UPSC Relevance:** GS3 (General Science). Prelims tests glands and their hormones — pituitary (master gland), thyroid (thyroxine, iodine deficiency causes goitre), pancreas (insulin, diabetes), adrenal (adrenaline, fight-or-flight). Know vitamin deficiency diseases (A-night blindness, B₁-beriberi, C-scurvy, D-rickets). Mains connects to endocrine disruptors in the environment and their public health impact.
 
 ---
 

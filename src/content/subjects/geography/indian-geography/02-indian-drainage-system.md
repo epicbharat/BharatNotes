@@ -389,9 +389,11 @@ The **National Water Development Agency (NWDA)** has been entrusted with impleme
 ### Indus Waters Treaty
 - **Pronunciation:** /ˈɪndəs ˈwɔːtərz ˈtriːti/
 - **Definition:** A water-sharing treaty signed on 19 September 1960 between India and Pakistan, brokered by the World Bank, allocating the three eastern rivers (Ravi, Beas, Sutlej) to India and the three western rivers (Indus, Jhelum, Chenab) to Pakistan.
-- **Origin:** Named after the Indus River; the treaty emerged from nine years of negotiations mediated by the World Bank to resolve post-Partition water disputes between India and Pakistan.
+- **Context:** Named after the Indus River; the treaty emerged from nine years of negotiations mediated by the World Bank to resolve post-Partition water disputes between India and Pakistan.
+- **UPSC Relevance:** GS1 Geography and GS2 International Relations. Prelims frequently tests which rivers are allocated to India vs Pakistan and the treaty's mediation role of the World Bank. Mains 2012 asked to evaluate whether a review of the treaty is in India's best interests. The 2025 suspension post-Pahalgam attack makes it a live current affairs topic connecting geography, diplomacy, and security.
 
 ### Drainage Pattern
 - **Pronunciation:** /ˈdreɪnɪdʒ ˈpætərn/
 - **Definition:** The spatial arrangement of a river and its tributaries as determined by the slope, underlying rock structure, and tectonic history of an area.
 - **Origin:** "Drainage" from Old French *drainer* ("to drain"), from Frankish *drahnjan*; "pattern" from Middle English *patron*, from Old French, meaning a model or template.
+- **UPSC Relevance:** GS1 Geography. Prelims tests matching drainage patterns (dendritic, trellis, radial, centripetal) with their definitions and Indian examples. Mains expects explanation of how underlying geology determines drainage patterns, with specific examples — e.g., radial pattern from Amarkantak, centripetal into Loktak Lake. Focus on connecting pattern type to rock structure and tectonic history.

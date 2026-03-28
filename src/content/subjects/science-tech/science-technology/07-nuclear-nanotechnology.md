@@ -274,9 +274,11 @@ Nanotechnology deals with materials and devices at the **nanoscale** (1-100 nano
 ### Three-Stage Nuclear Programme
 - **Pronunciation:** /θriː steɪdʒ ˈnjuː.klɪ.ər ˈprəʊ.ɡræm/
 - **Definition:** India's long-term nuclear energy strategy conceived by Dr. Homi J. Bhabha in the 1950s, progressing from natural-uranium-fuelled pressurised heavy water reactors (Stage I) to plutonium-fuelled fast breeder reactors (Stage II) to thorium-fuelled advanced reactors (Stage III), designed to exploit India's vast thorium reserves.
-- **Origin:** Formulated by Dr. Homi J. Bhabha and formally adopted by the Indian government in 1958; rooted in India's resource reality of limited uranium but abundant thorium.
+- **Context:** Formulated by Dr. Homi J. Bhabha and formally adopted by the Indian government in 1958; rooted in India's resource reality of limited uranium but abundant thorium.
+- **UPSC Relevance:** GS3 (Science & Technology / Energy Security). High-priority topic for both Prelims and Mains. Prelims tests the three stages (PHWR, FBR, Thorium), Homi Bhabha as architect, PFBR at Kalpakkam (500 MW), and India's thorium reserves (~25% of global). Mains frequently asks about nuclear energy vs renewable energy, thorium utilisation timeline, CLND Act and foreign investment, and India's 100 GWe nuclear power vision by 2047. Know Pokhran-I (1974) and Pokhran-II (1998) for nuclear doctrine context.
 
 ### Thorium Cycle
 - **Pronunciation:** /ˈθɔː.ri.əm ˈsaɪ.kəl/
 - **Definition:** A nuclear fuel cycle in which fertile thorium-232 absorbs neutrons to transmute into fissile uranium-233, which can then sustain a fission chain reaction to generate energy.
-- **Origin:** Named after thorium (itself named after Thor, the Norse god of thunder, by Swedish chemist Jöns Jacob Berzelius in 1829); the fuel cycle concept was developed as an alternative to the uranium-plutonium cycle to utilise thorium-rich geological deposits.
+- **Context:** Named after thorium (itself named after Thor, the Norse god of thunder, by Swedish chemist Jöns Jacob Berzelius in 1829); the fuel cycle concept was developed as an alternative to the uranium-plutonium cycle to utilise thorium-rich geological deposits.
+- **UPSC Relevance:** GS3 (Science & Technology / Energy Security). Prelims tests the thorium-232 to uranium-233 conversion process, India's thorium reserves in monazite sands (Kerala, Tamil Nadu, Odisha, Andhra Pradesh), and why Stage III is India's long-term nuclear goal. Mains asks about the strategic significance of thorium for energy independence, delays in the three-stage programme, AHWR (Advanced Heavy Water Reactor) as the bridge to Stage III, and comparison of nuclear vs renewable energy pathways.

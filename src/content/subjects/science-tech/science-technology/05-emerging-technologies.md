@@ -275,9 +275,11 @@ tags:
 ### Internet of Things
 - **Pronunciation:** /ˈɪntərˌnɛt əv θɪŋz/
 - **Definition:** A network of physical devices — vehicles, appliances, sensors, and infrastructure — embedded with software, sensors, and connectivity that enables them to collect, exchange, and act on data over the internet without requiring direct human intervention.
-- **Origin:** The term was coined in 1999 by Kevin Ashton, a technologist at Procter & Gamble (later at MIT's Auto-ID Center), during a presentation on using RFID technology to optimise supply chains.
+- **Context:** The term was coined in 1999 by Kevin Ashton, a technologist at Procter & Gamble (later at MIT's Auto-ID Center), during a presentation on using RFID technology to optimise supply chains.
+- **UPSC Relevance:** GS3 (Science & Technology). Prelims may test the basic concept and applications — smart cities, precision agriculture, healthcare monitoring, and industrial automation. Mains asks about IoT's role in governance (smart governance, e-governance), convergence with AI and 5G, security concerns (device vulnerability, data privacy), and applications in India's Smart Cities Mission and Digital India programme.
 
 ### 5G Technology
 - **Pronunciation:** /ˌfaɪv ˈdʒiː tɛkˈnɒlədʒi/
 - **Definition:** The fifth generation of mobile telecommunications standards, offering peak speeds up to 20 Gbps, latency as low as 1 millisecond, and the capacity to connect millions of devices per square kilometre, enabling applications such as autonomous vehicles, remote surgery, and massive IoT deployments.
-- **Origin:** Developed by the 3rd Generation Partnership Project (3GPP) under the ITU's IMT-2020 programme; first commercially deployed in South Korea on 3 April 2019; launched in India on 1 October 2022.
+- **Context:** Developed by the 3rd Generation Partnership Project (3GPP) under the ITU's IMT-2020 programme; first commercially deployed in South Korea on 3 April 2019; launched in India on 1 October 2022.
+- **UPSC Relevance:** GS3 (Science & Technology / Infrastructure). Prelims tests 5G launch date in India (1 October 2022), key features (speed, latency, device density), and distinction from 4G. Mains asks about 5G's role in bridging the digital divide, enabling telemedicine and remote education, spectrum allocation policy, and Bharat 6G Vision. Know the convergence of 5G + AI + IoT and its implications for smart governance, healthcare, and manufacturing.

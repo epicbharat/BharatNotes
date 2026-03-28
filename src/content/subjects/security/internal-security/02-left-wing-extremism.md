@@ -280,12 +280,14 @@ Northeast insurgency is **distinct from LWE** — it is **ethnic/identity-based*
 ### SAMADHAN Doctrine
 - **Pronunciation:** /səˈmɑːdʱɑːn ˈdɒktrɪn/
 - **Definition:** The Ministry of Home Affairs' comprehensive counter-Left Wing Extremism strategy announced in 2017, where each letter stands for a pillar — Smart Leadership, Aggressive Strategy, Motivation and Training, Actionable Intelligence, Dashboard-based KPIs, Harnessing Technology, Action Plan for Each Theatre, and No Access to Financing.
-- **Origin:** Announced by Union Home Minister Rajnath Singh on 8 May 2017; *samadhan* is a Hindi word (from Sanskrit *samaadhaanam*) meaning "solution" or "resolution."
+- **Context:** Announced by Union Home Minister Rajnath Singh on 8 May 2017; *samadhan* is a Hindi word (from Sanskrit *samaadhaanam*) meaning "solution" or "resolution."
+- **UPSC Relevance:** GS3 Internal Security — Prelims tests the acronym expansion and year (2017). Mains asks candidates to evaluate the government's counter-LWE strategy, where SAMADHAN provides a ready-made eight-pillar framework for structured answers. Always pair SAMADHAN (security) with Aspirational Districts Programme (development) to demonstrate the two-pronged approach.
 
 ### Red Corridor
 - **Pronunciation:** /rɛd ˈkɒrɪdɔːr/
 - **Definition:** A contiguous belt of districts across eastern, central, and southern India — spanning states such as Chhattisgarh, Jharkhand, Odisha, and Maharashtra — that have experienced significant Naxalite-Maoist insurgent presence and activity.
-- **Origin:** The term emerged in Indian security discourse to describe the geographic spread of Left Wing Extremism; *red* refers to the communist colour symbolising revolution, and *corridor* denotes the elongated, belt-like shape of the affected region stretching from Nepal's border to southern India.
+- **Context:** The term emerged in Indian security discourse to describe the geographic spread of Left Wing Extremism; *red* refers to the communist colour symbolising revolution, and *corridor* denotes the elongated, belt-like shape of the affected region stretching from Nepal's border to southern India.
+- **UPSC Relevance:** GS3 Internal Security — Prelims tests the states covered by the Red Corridor and the declining district count (from 126 in 2010 to 11 in 2025). Mains uses the Red Corridor concept to frame the geographic and socio-economic dimensions of LWE. Understanding the shrinking Red Corridor demonstrates awareness of government strategy effectiveness.
 
 ---
 

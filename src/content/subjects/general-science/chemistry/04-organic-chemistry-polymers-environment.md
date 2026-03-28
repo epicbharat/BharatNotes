@@ -269,12 +269,14 @@ India banned the manufacture, import, sale, and use of identified single-use pla
 ### Polymerisation
 - **Pronunciation:** /pəˌlɪməraɪˈzeɪʃən/
 - **Definition:** A chemical process in which monomer molecules react together to form long polymer chains or three-dimensional networks, occurring either by addition (chain-growth) or condensation (step-growth) mechanisms.
-- **Origin:** From *polymer* + *-isation*; the term was first recorded in the 1870s; the modern understanding of polymer science was advanced by Hermann Staudinger in the 1920s.
+- **Context:** From *polymer* + *-isation*; the term was first recorded in the 1870s; the modern understanding of polymer science was advanced by Hermann Staudinger in the 1920s.
+- **UPSC Relevance:** GS3 (General Science / Environment). Prelims tests thermoplastics vs thermosetting plastics, recycling codes (PET=1, HDPE=2, PVC=3), and biodegradable vs non-biodegradable materials. Mains frequently asks about India's single-use plastic ban (1 July 2022), Extended Producer Responsibility (EPR), microplastics as an emerging environmental concern, and bioplastics (PLA, PHA) as sustainable alternatives.
 
 ### Green Chemistry
 - **Pronunciation:** /ɡriːn ˈkɛmɪstri/
 - **Definition:** The design of chemical products and processes that reduce or eliminate the use and generation of hazardous substances across the entire lifecycle of a product, guided by twelve core principles.
-- **Origin:** The term was coined in 1991 by Paul Anastas while working at the U.S. Environmental Protection Agency; Anastas and John Warner later formalised the twelve principles in their 1998 book *Green Chemistry: Theory and Practice*.
+- **Context:** The term was coined in 1991 by Paul Anastas while working at the U.S. Environmental Protection Agency; Anastas and John Warner later formalised the twelve principles in their 1998 book *Green Chemistry: Theory and Practice*.
+- **UPSC Relevance:** GS3 (Science & Technology / Environment). Prelims may test the concept definition and its twelve principles. Mains connects green chemistry to sustainable development, circular economy, pollution prevention, and India's climate commitments. Links to ozone layer protection (Montreal Protocol, Kigali Amendment for HFC phase-down) and greenhouse gas mitigation strategies.
 
 ---
 

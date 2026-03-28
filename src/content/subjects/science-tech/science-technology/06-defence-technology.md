@@ -271,12 +271,14 @@ Stay updated with the latest defence developments on **[Ujiyari.com](https://uji
 ### BrahMos Missile
 - **Pronunciation:** /ˈbrɑː.moːs ˈmɪs.aɪl/
 - **Definition:** A supersonic cruise missile developed as a joint venture between India's DRDO and Russia's NPO Mashinostroyeniya, capable of being launched from land, sea, air, and submarine platforms at speeds of Mach 2.8 to 3.5, with a range of up to 650 km.
-- **Origin:** Named as a portmanteau of the Brahmaputra River (India) and the Moskva River (Russia), symbolising the bilateral partnership; BrahMos Aerospace was established in 1998, with the missile first flight-tested in 2001.
+- **Context:** Named as a portmanteau of the Brahmaputra River (India) and the Moskva River (Russia), symbolising the bilateral partnership; BrahMos Aerospace was established in 1998, with the missile first flight-tested in 2001.
+- **UPSC Relevance:** GS3 (Science & Technology / Defence). Prelims tests BrahMos specifications — supersonic speed (Mach 2.8-3.5), range (up to 650 km), multi-platform capability (land, sea, air, submarine), and India-Russia joint venture. Know the difference between cruise (sustained propulsion) and ballistic (unpowered arc) missiles. Mains asks about defence indigenisation, BrahMos export to the Philippines ($375 million), and India's missile technology capabilities (Agni, Prithvi, NAG series).
 
 ### DRDO
 - **Pronunciation:** /diː.ɑːr.diː.əʊ/
 - **Definition:** The Defence Research and Development Organisation, India's premier military research agency under the Ministry of Defence, responsible for designing and developing defence systems and technologies for the Indian Armed Forces through a network of over 50 laboratories.
-- **Origin:** Formed in 1958 by amalgamating the Technical Development Establishments of the Indian Army and the Directorate of Technical Development and Production with the Defence Science Organisation, under the administration of Prime Minister Jawaharlal Nehru.
+- **Context:** Formed in 1958 by amalgamating the Technical Development Establishments of the Indian Army and the Directorate of Technical Development and Production with the Defence Science Organisation, under the administration of Prime Minister Jawaharlal Nehru.
+- **UPSC Relevance:** GS3 (Science & Technology / Defence). Prelims tests DRDO's founding year (1958), key products (Agni missiles, Tejas LCA, Arjun MBT, Kaveri engine, anti-satellite missile Mission Shakti), and its position under the Ministry of Defence. Mains asks about defence indigenisation under Atmanirbhar Bharat, DRDO's role in self-reliance, defence export growth, and the balance between indigenous R&D and technology imports.
 
 ---
 

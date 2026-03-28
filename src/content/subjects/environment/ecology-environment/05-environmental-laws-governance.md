@@ -250,12 +250,14 @@ tags:
 ### National Green Tribunal
 - **Pronunciation:** /ˈnæʃ.ən.əl ɡɹiːn tɹaɪˈbjuː.nəl/
 - **Definition:** A statutory judicial body established on 18 October 2010 under the National Green Tribunal Act, 2010, for the effective and expeditious disposal of cases relating to environmental protection, conservation of forests, and enforcement of environmental legal rights in India — the first dedicated environmental court in a developing country.
-- **Origin:** Established by an Act of the Indian Parliament; "tribunal" from Latin *tribūnal* ("raised platform for magistrates"), from *tribūnus* ("tribune").
+- **Context:** Established by an Act of the Indian Parliament; "tribunal" from Latin *tribūnal* ("raised platform for magistrates"), from *tribūnus* ("tribune").
+- **UPSC Relevance:** GS3 Environment and GS2 Governance. Prelims tests establishment year (2010), the 7 environmental Acts under its jurisdiction (Water Act 1974, Air Act 1981, EPA 1986, etc.), and that it follows principles of natural justice. Mains asks about the effectiveness of NGT in environmental governance, its relationship with the Supreme Court, and whether its orders are adequately enforced. Important landmark NGT orders on Ganga pollution, Delhi air quality, and mining bans are current affairs staples.
 
 ### Environmental Impact Assessment
 - **Pronunciation:** /ɪnˌvaɪ.ɹənˈmɛn.təl ˈɪm.pækt əˈsɛs.mənt/
 - **Definition:** A systematic process of evaluating the likely environmental consequences of a proposed project or development before a decision is made to proceed, ensuring that environmental concerns are integrated into planning and decision-making through stages of screening, scoping, public consultation, and appraisal.
-- **Origin:** The concept originated in the United States under the National Environmental Policy Act (NEPA), 1969; India adopted the EIA framework through notifications under the Environment (Protection) Act, 1986, with the current regime governed by the EIA Notification, 2006.
+- **Context:** The concept originated in the United States under the National Environmental Policy Act (NEPA), 1969; India adopted the EIA framework through notifications under the Environment (Protection) Act, 1986, with the current regime governed by the EIA Notification, 2006.
+- **UPSC Relevance:** GS3 Environment. Prelims tests the four stages (screening, scoping, public consultation, appraisal), the governing notification (EIA 2006 under EPA 1986), and the distinction between Category A (central clearance) and Category B projects (state clearance). Mains frequently asks about EIA dilution concerns, post-facto clearance controversies, and whether public consultation is genuinely effective. The draft EIA Notification 2020 and its criticisms are a recurring current affairs topic.
 
 ---
 

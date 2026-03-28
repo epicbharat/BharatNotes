@@ -285,12 +285,14 @@ The **Noise Pollution (Regulation and Control) Rules, 2000** notified by the Cen
 ### Laws of Thermodynamics
 - **Pronunciation:** /lɔːz əv ˌθɜːməʊdaɪˈnæmɪks/
 - **Definition:** A set of four fundamental physical laws (zeroth through third) governing heat, energy, and entropy in thermodynamic systems, developed during the 19th and early 20th centuries.
-- **Origin:** The term *thermodynamics* derives from Greek *thermē* (heat) + *dynamis* (power); the laws were formulated by Sadi Carnot (1824), Rudolf Clausius, William Thomson (c. 1860), and Walther Nernst (1906-1912).
+- **Context:** The term *thermodynamics* derives from Greek *thermē* (heat) + *dynamis* (power); the laws were formulated by Sadi Carnot (1824), Rudolf Clausius, William Thomson (c. 1860), and Walther Nernst (1906-1912).
+- **UPSC Relevance:** GS3 (General Science). Prelims tests conceptual understanding — heat flows from hot to cold (Second Law), energy conservation (First Law), and Carnot efficiency. Mains links to energy efficiency in power plants and thermodynamic principles behind engines. Focus on everyday examples rather than mathematical derivations.
 
 ### Doppler Effect
 - **Pronunciation:** /ˈdɒplər ɪˌfɛkt/
 - **Definition:** The apparent change in the frequency of a wave — sound, light, or electromagnetic — perceived by an observer when there is relative motion between the source and the observer.
-- **Origin:** Named after Austrian physicist Christian Doppler, who first described the phenomenon in 1842 in his treatise on the coloured light of binary stars; experimentally confirmed for sound by Buys Ballot in 1845.
+- **Context:** Named after Austrian physicist Christian Doppler, who first described the phenomenon in 1842 in his treatise on the coloured light of binary stars; experimentally confirmed for sound by Buys Ballot in 1845.
+- **UPSC Relevance:** GS3 (General Science / Science & Technology). Prelims may test applications — speed radars, Doppler ultrasound in medicine, weather radar, and astronomical redshift (Hubble's Law). Mains connects to Doppler radar for weather forecasting and disaster management. Know the difference between redshift (receding) and blueshift (approaching).
 
 ---
 

@@ -280,12 +280,14 @@ A comprehensive National Cyber Security Strategy has been under preparation (Lt 
 ### CERT-In
 - **Pronunciation:** /sɜːt ɪn/
 - **Definition:** The Indian Computer Emergency Response Team, established on 19 January 2004 under Section 70B of the Information Technology Act, 2000, serving as the national nodal agency under the Ministry of Electronics and Information Technology (MeitY) for responding to computer security incidents, issuing threat advisories, and coordinating cybersecurity incident management across India.
-- **Origin:** Established by the Government of India in 2004 under the IT Act, 2000, modelled after the original CERT Coordination Center founded at Carnegie Mellon University (USA) in 1988 following the Morris worm incident.
+- **Context:** Established by the Government of India in 2004 under the IT Act, 2000, modelled after the original CERT Coordination Center founded at Carnegie Mellon University (USA) in 1988 following the Morris worm incident.
+- **UPSC Relevance:** GS3 Internal Security — Prelims tests establishment year (2004), parent ministry (MeitY), legal basis (Section 70B), and the 6-hour mandatory incident reporting rule (2022 Directions). Mains asks about India's cyber security architecture, the CERT-In vs NCIIPC distinction, and the adequacy of India's institutional framework against state-sponsored cyber threats.
 
 ### IT Act 2000
 - **Pronunciation:** /aɪ.tiː ækt tuː ˈθaʊ.zənd/
 - **Definition:** The Information Technology Act, 2000 (Act No. 21 of 2000), India's primary legislation governing electronic commerce, digital signatures, cybercrime, and data protection, providing legal recognition for electronic transactions and establishing offences and penalties for cyber crimes.
-- **Origin:** Enacted by the Parliament of India and notified on 17 October 2000, based on the UNCITRAL Model Law on Electronic Commerce (1996); significantly amended in 2008 to address emerging cyber threats, intermediary liability, and data protection.
+- **Context:** Enacted by the Parliament of India and notified on 17 October 2000, based on the UNCITRAL Model Law on Electronic Commerce (1996); significantly amended in 2008 to address emerging cyber threats, intermediary liability, and data protection.
+- **UPSC Relevance:** GS3 Internal Security — Prelims tests key sections (66A struck down in Shreya Singhal 2015, 66F cyber terrorism, 69A website blocking upheld, 79 safe harbour). Mains asks about balancing security with free speech (Section 69 interception vs Puttaswamy privacy right) and the adequacy of the IT Act in addressing modern cyber threats. A foundational law that connects to DPDP Act 2023 and IT Rules 2021.
 
 ---
 

@@ -295,12 +295,14 @@ Sufism (**Tasawwuf**) is the **mystical dimension of Islam**, emphasising the in
 ### Bhakti Movement
 - **Pronunciation:** /ˈbʌkti ˈmuːvmənt/
 - **Definition:** A devotional reform movement originating among the Alvars and Nayanars of Tamil Nadu (c. 6th–9th century CE) and spreading across India by the 15th–17th century, which emphasised personal love for God (either formless *nirguna* or with form *saguna*), challenged caste hierarchy and priestly monopoly, and enriched regional vernacular literatures.
-- **Origin:** *Bhakti* comes from Sanskrit root *bhaj* (भज्, "to divide, share, partake, belong to"), acquiring the meaning of "devotion, attachment, worship"; *movement* from Latin *movēre* ("to move").
+- **Context:** Originated in South India with the Alvars (Vaishnavite) and Nayanars (Shaivite) of Tamil Nadu; spread northward through figures like Ramanuja, Kabir, Guru Nanak, Mirabai, Tulsidas, and Chaitanya; the Nirguna–Saguna distinction is a key analytical framework for UPSC.
+- **UPSC Relevance:** GS1 (Medieval India & Culture). Prelims: tested on key saints (Kabir, Ramananda, Mirabai, Chaitanya), Nirguna vs Saguna distinction, Alvars/Nayanars, and literary contributions. Mains: a perennial topic — asked to discuss socio-religious impact, challenge to caste orthodoxy, and contribution to vernacular literature. Focus on the movement's role in cultural integration and its limitations in actually reforming caste structures.
 
 ### Chishti Order
 - **Pronunciation:** /ˈtʃɪʃti ˈɔːrdər/
 - **Definition:** The most popular and influential Sufi order (*silsilah*) in the Indian subcontinent, founded by Abu Ishaq Shami in Chisht, Afghanistan (c. 930 CE) and brought to India by Khwaja Muinuddin Chishti (Ajmer, c. 1192), characterised by emphasis on divine love, rejection of state patronage, service to the poor, and the use of devotional music (*sama*/qawwali) as a path to spiritual ecstasy.
-- **Origin:** Named after the town of *Chisht* (also spelled Chesht) near Herat in present-day Afghanistan, where the order's foundational practices were established; the Persian form is *Chishtiyya* (چشتیه).
+- **Context:** Named after the town of Chisht near Herat in Afghanistan; the major Chishti saints in India include Muinuddin Chishti (Ajmer), Qutbuddin Bakhtiar Kaki (Delhi), Fariduddin Ganjshakar (Pakpattan), and Nizamuddin Auliya (Delhi).
+- **UPSC Relevance:** GS1 (Medieval India & Culture). Prelims: tested on distinguishing Chishti from Suhrawardi order (Chishtis rejected state patronage; Suhrawardis accepted it), key saints and their locations, and the role of *sama* (devotional music). Mains: asked to compare Chishti and Suhrawardi attitudes toward the state, discuss Sufi contribution to Indian composite culture, and assess Sufi literature as a historical source. Focus on inter-faith dialogue and cultural synthesis.
 
 ---
 

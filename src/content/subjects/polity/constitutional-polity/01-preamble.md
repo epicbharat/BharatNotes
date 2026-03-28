@@ -280,12 +280,14 @@ Link these static concepts with live developments:
 ### Basic Structure Doctrine
 - **Pronunciation:** /ˈbeɪ.sɪk ˈstrʌk.tʃə ˈdɒk.trɪn/
 - **Definition:** A judicial principle holding that certain fundamental features of the Indian Constitution — such as democracy, secularism, federalism, and the rule of law — cannot be destroyed or altered even by a constitutional amendment under Article 368.
-- **Origin:** Established by the Supreme Court of India in *Kesavananda Bharati v. State of Kerala* (1973), where a 13-judge bench ruled 7-6 that Parliament's amending power is subject to the limitation that it cannot abrogate the Constitution's basic structure; Justice H.R. Khanna's opinion was the decisive swing view.
+- **Context:** Established by the Supreme Court of India in *Kesavananda Bharati v. State of Kerala* (1973), where a 13-judge bench ruled 7-6 that Parliament's amending power is subject to the limitation that it cannot abrogate the Constitution's basic structure; Justice H.R. Khanna's opinion was the decisive swing view. Built upon the Golaknath case (1967). Key elements include supremacy of the Constitution, republican form, secularism, separation of powers, federalism, and judicial review.
+- **UPSC Relevance:** GS2 Polity — Prelims: which case established it, year, bench size (13 judges), 7-6 verdict, key elements of basic structure (frequently asked as match-the-following); Mains: critically examine the doctrine's role in protecting constitutional values vs limiting parliamentary sovereignty, trace evolution from Shankari Prasad (1951) to Kesavananda (1973) to Minerva Mills (1980).
 
 ### Judicial Review
 - **Pronunciation:** /dʒuːˈdɪʃ.əl rɪˈvjuː/
 - **Definition:** The power of courts to examine legislative and executive actions and to invalidate those that are found to be inconsistent with or in violation of the Constitution.
-- **Origin:** The doctrine traces to the American case *Marbury v. Madison* (1803), in which Chief Justice John Marshall held that courts have the authority to strike down laws that violate the Constitution; in India, judicial review is embedded in Articles 13, 32, and 226 of the Constitution.
+- **Context:** The doctrine traces to the American case *Marbury v. Madison* (1803), in which Chief Justice John Marshall held that courts have the authority to strike down laws that violate the Constitution; in India, judicial review is embedded in Articles 13, 32, and 226 of the Constitution. The Supreme Court in L. Chandra Kumar v. UOI (1997) held judicial review under Articles 226 and 32 is part of the basic structure.
+- **UPSC Relevance:** GS2 Polity — Prelims: Articles enabling judicial review (13, 32, 226), difference from US model, Marbury v. Madison reference, L. Chandra Kumar case (1997); Mains: is judicial review a basic structure element, tension between judicial activism and parliamentary sovereignty, judicial overreach vs executive vacuum.
 
 ---
 

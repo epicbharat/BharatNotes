@@ -203,11 +203,13 @@ The economic transformation of India under British rule was characterised by the
 ### Drain of Wealth
 - **Pronunciation:** /dreɪn əv wɛlθ/
 - **Definition:** An economic theory, articulated by Dadabhai Naoroji in 1867 and elaborated in his 1901 book *Poverty and Un-British Rule in India*, arguing that Britain systematically transferred India's wealth and resources to itself with no equivalent economic return.
-- **Origin:** English compound; "drain" from Old English drēahnian ("to strain, filter") and "wealth" from Middle English welthe ("well-being, prosperity"); the specific economic usage was coined by Indian nationalist economists in the 19th century.
+- **Context:** First articulated by Dadabhai Naoroji in a paper before the East India Association (1867) and elaborated by R.C. Dutt; the "drain" included Home Charges, salaries of British officials, pensions, dividends, and war costs — estimated at one-third to one-half of India's total revenue.
+- **UPSC Relevance:** GS1 (Modern India) & GS3 (Economy). Prelims: tested on proponents (Dadabhai Naoroji, R.C. Dutt), mechanisms of drain (Home Charges, salaries, trade surplus), and Naoroji's book title. Mains: a core topic — asked to critically examine British economic policies and their impact on India; UPSC 2014 GS-I specifically asked about British economic exploitation. Focus on linking the Drain theory to the rise of Indian nationalism and economic nationalism of the Moderates.
 
 ### Permanent Settlement
 - **Pronunciation:** /ˈpɜːmənənt ˈsɛtlmənt/
 - **Definition:** An agreement concluded in 1793 by Lord Cornwallis that fixed the land revenue demand permanently with zamindars in Bengal, Bihar, and Orissa, making them proprietors of the land in exchange for a fixed annual payment to the colonial government.
-- **Origin:** English compound; "permanent" from Latin permanēns ("remaining to the end") and "settlement" from Middle English, referring to the act of settling or fixing terms; the specific term refers to the 1793 Bengal regulation.
+- **Context:** Introduced by Lord Cornwallis in 1793; created a landlord class loyal to the British while impoverishing the actual cultivators; contrasted with Ryotwari (Madras, Bombay) and Mahalwari (NW Provinces) systems introduced later.
+- **UPSC Relevance:** GS1 (Modern India) & GS3 (Land Reforms). Prelims: tested on year (1793), Governor-General (Cornwallis), regions applied (Bengal, Bihar, Orissa), and comparison with Ryotwari and Mahalwari systems. Mains: asked to compare the three land revenue systems and assess their impact on Indian peasantry. Focus on how the Permanent Settlement created absentee landlordism, led to peasant exploitation, and shaped post-independence land reform debates.
 
 *Sources: Dadabhai Naoroji — Poverty and Un-British Rule in India, R.C. Dutt — Economic History of India, Bipan Chandra — History of Modern India, Irfan Habib — Indian Economy 1858-1914, NCERT — Themes in Indian History Part III*

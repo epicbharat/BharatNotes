@@ -283,12 +283,14 @@ tags:
 ### Artificial Intelligence
 - **Pronunciation:** /ˌɑː.tɪˈfɪʃ.əl ɪnˈtel.ɪ.dʒəns/
 - **Definition:** The science and engineering of creating machines and software systems capable of performing tasks that typically require human intelligence, including learning, reasoning, problem-solving, perception, and natural language understanding.
-- **Origin:** The term was coined by American computer scientist John McCarthy in 1955 in a proposal for the Dartmouth Summer Research Project, co-authored with Marvin Minsky, Nathaniel Rochester, and Claude Shannon; the 1956 Dartmouth workshop is considered the birth of AI as an academic discipline.
+- **Context:** The term was coined by American computer scientist John McCarthy in 1955 in a proposal for the Dartmouth Summer Research Project, co-authored with Marvin Minsky, Nathaniel Rochester, and Claude Shannon; the 1956 Dartmouth workshop is considered the birth of AI as an academic discipline.
+- **UPSC Relevance:** GS3 (Science & Technology). High-priority current affairs topic. Prelims 2025 included an AI-related question (AI Action Summit in Paris, February 2025). Mains asks about AI in governance, ethical concerns (bias, accountability, deepfakes), India AI Governance Guidelines 2025, GPAI founding membership, and India's light-touch regulation vs EU AI Act. Know India's National AI Strategy and IndiaAI Mission.
 
 ### Cybersecurity Framework
 - **Pronunciation:** /ˈsaɪ.bə.sɪˌkjʊə.rɪ.ti ˈfreɪm.wɜːk/
 - **Definition:** A structured set of guidelines, standards, and best practices designed to help organisations assess, manage, and reduce cybersecurity risks to their information systems and critical infrastructure.
-- **Origin:** The concept was formalised in 2014 when the U.S. National Institute of Standards and Technology (NIST) published the first Cybersecurity Framework (CSF) in response to Executive Order 13636 issued by President Obama in February 2013; the current version (CSF 2.0) was released in 2024.
+- **Context:** The concept was formalised in 2014 when the U.S. National Institute of Standards and Technology (NIST) published the first Cybersecurity Framework (CSF) in response to Executive Order 13636 issued by President Obama in February 2013; the current version (CSF 2.0) was released in 2024.
+- **UPSC Relevance:** GS3 (Internal Security / Science & Technology). Prelims tests India's cyber institutions — CERT-In (nodal agency for cyber incidents), NCIIPC (critical infrastructure protection), and the DPDP Act 2023 (Data Fiduciary, Data Principal, Data Protection Board). Mains asks about cybersecurity challenges, India's institutional response, critical infrastructure vulnerabilities, and the balance between data protection and national security.
 
 ---
 

@@ -370,12 +370,14 @@ Launched to boost domestic manufacturing and reduce import dependence.
 ### Balance of Payments
 - **Pronunciation:** /ˈbæləns əv ˈpeɪmənts/
 - **Definition:** A systematic record of all economic transactions between the residents of a country and the rest of the world during a given period, compiled by the RBI following the IMF's BPM6 methodology, comprising the current account, capital account, and errors and omissions.
-- **Origin:** "Balance" from Old French *balance* (scales), from Latin *bilanx* (having two scale pans); "payment" from Old French *paiement*, from *paier* (to pay); the mercantilist tradition of tracking a nation's external accounts dates to the 16th century.
+- **Context:** Compiled by the RBI following the IMF's BPM6 methodology. The BoP always balances in accounting terms (current account deficit is financed by capital account surplus or reserve drawdown). India's 1991 BoP crisis (forex reserves covered only 2 weeks of imports) triggered the LPG reforms. Current account components: trade in goods, services, primary income (investment returns), secondary income (remittances). Capital account: FDI, FPI, ECBs, NRI deposits. India is the world's largest recipient of remittances (~USD 125 billion, 2024).
+- **UPSC Relevance:** GS3 Economy — Prelims: current account vs capital account components, 10% equity threshold distinguishes FDI from FPI, BoP compiled by RBI, 1991 crisis as trigger for reforms; Mains: CAD management strategies (structural export improvement vs capital inflows), India's trade deficit with China (structural causes and remedies), impact of remittances on India's BoP, managed float exchange rate regime and the impossible trinity.
 
 ### Current Account Deficit
 - **Pronunciation:** /ˈkʌrənt əˈkaʊnt ˈdɛfɪsɪt/
 - **Definition:** A situation where a country's total imports of goods, services, and transfers exceed its total exports, indicating that the nation is spending more abroad than it earns and must finance the gap through capital inflows or reserve drawdowns.
-- **Origin:** "Current" from Latin *currens* (running, present); "account" from Old French *acont* (a reckoning), from Latin *computare* (to calculate); "deficit" from Latin *deficit* (it is wanting); the concept gained prominence in BoP analysis following the Bretton Woods framework.
+- **Context:** India has been a current account deficit country for most of its post-independence history, primarily due to large merchandise trade deficits (especially petroleum and gold imports). India's services surplus (IT, business services) partially offsets the goods deficit. CAD as % of GDP: ~1.1% in FY25. A CAD of 2-2.5% of GDP is generally considered sustainable for India. The 2012-13 crisis (CAD at 4.8% of GDP) showed the risks of excessive deficit.
+- **UPSC Relevance:** GS3 Economy — Prelims: CAD = total imports > total exports on current account, components (trade in goods/services, primary/secondary income), sustainable CAD range for India (~2-2.5% of GDP), financed by capital inflows; Mains: structural causes of India's trade deficit (petroleum dependence, electronics imports), India's services surplus as a strategic strength, how to reduce CAD through export diversification and import substitution (PLI schemes), impact of global crude oil prices on India's CAD.
 
 ---
 

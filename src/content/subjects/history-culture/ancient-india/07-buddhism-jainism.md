@@ -272,12 +272,14 @@ The 6th century BCE saw the rise of **heterodox movements** that challenged Brah
 ### Four Noble Truths
 - **Pronunciation:** /fɔːr ˈnoʊbəl truːθs/
 - **Definition:** The foundational teaching of Buddhism set forth by the Buddha in his first sermon at Sarnath, comprising: (1) Dukkha — life involves suffering; (2) Samudaya — suffering arises from craving and attachment; (3) Nirodha — suffering can be ceased; and (4) Magga — the Eightfold Path is the way to end suffering.
-- **Origin:** From Pali Chattari Ariya Saccani ("Four Truths of the Noble Ones"); "noble" translates ariya, which refers not to the truths themselves but to those who comprehend them.
+- **Context:** From Pali Chattari Ariya Saccani ("Four Truths of the Noble Ones"); first expounded in the Dhammacakkappavattana Sutta at the Deer Park in Sarnath, marking the beginning of the Buddha's teaching ministry.
+- **UPSC Relevance:** GS1 (Ancient India & Philosophy). Prelims: tested on correct identification of each truth, distinction from Eightfold Path, and association with the First Sermon at Sarnath. Mains: asked to compare Buddhist and Jain teachings, discuss heterodox movements' challenge to Brahmanical orthodoxy, and their lasting influence on Indian society. Focus on philosophical content rather than just dates.
 
 ### Jain Anekantavada
 - **Pronunciation:** /dʒaɪn ʌneɪˈkɑːntəvɑːdə/
 - **Definition:** A fundamental Jain philosophical doctrine of "non-absolutism" or "many-sidedness," holding that truth and reality are complex and can be perceived from multiple valid perspectives, with no single viewpoint representing the complete truth.
 - **Origin:** From Sanskrit anekantavada, composed of an- ("not") + eka ("one") + anta ("end, side") + vada ("doctrine, thesis"); the term was coined by Acharya Siddhasen Divakar to denote Mahavira's teaching on the multiplicity of truth.
+- **UPSC Relevance:** GS1 (Ancient India) & GS4 (Ethics). Prelims: directly asked in UPSC 2009 — "Anekantavada is a core theory and philosophy of which religion?" (Answer: Jainism). Mains: relevant for discussing Indian philosophical traditions, tolerance and pluralism in Indian thought, and GS4 ethics questions on multiple perspectives. Focus on distinguishing Anekantavada from Syadvada (conditional predication) and Nayavada (partial viewpoints).
 
 ---
 

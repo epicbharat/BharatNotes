@@ -290,9 +290,11 @@ Launched in **2020**, PLI schemes across **14 sectors** aim to boost domestic ma
 ### Most Favoured Nation
 - **Pronunciation:** /moʊst ˈfeɪvərd ˈneɪʃən/
 - **Definition:** A WTO principle enshrined in Article I of GATT requiring that any trade advantage, favour, or privilege granted by one member to any product of another member must be extended unconditionally to the like products of all other WTO members.
-- **Origin:** The concept dates to 11th-century trade treaties; it was codified as a cornerstone of the multilateral trading system through GATT in 1947 and inherited by the WTO in 1995.
+- **Context:** The concept dates to 11th-century trade treaties; it was codified as a cornerstone of the multilateral trading system through GATT in 1947 and inherited by the WTO in 1995.
+- **UPSC Relevance:** GS2 (International Relations) and GS3 (Economy) — Prelims tests the MFN definition, its Article I basis, and exceptions (FTAs, GSP). Mains 2025 asked candidates to distinguish MFN from National Treatment. India's withdrawal of MFN status from Pakistan (2019) is a frequently tested current affairs application.
 
 ### Doha Round
 - **Pronunciation:** /ˈdoʊhɑː raʊnd/
 - **Definition:** The ninth and latest round of multilateral trade negotiations under the WTO, launched at the Fourth Ministerial Conference in Doha, Qatar, in November 2001, with the stated objective of lowering trade barriers and reforming trade rules to benefit developing countries.
-- **Origin:** Named after Doha, the capital of Qatar, where the ministerial conference that launched the negotiations took place; also called the Doha Development Agenda.
+- **Context:** Named after Doha, the capital of Qatar, where the ministerial conference that launched the negotiations took place; also called the Doha Development Agenda.
+- **UPSC Relevance:** GS2/GS3 — Prelims tests launch year (2001), key sticking points (agriculture, NAMA), and current status (effectively stalled since 2008). Mains asks "Why has the Doha Round failed?" and links to India's public stockholding demand, Peace Clause, and broader WTO reform. A common framework for discussing developed vs developing country trade tensions.

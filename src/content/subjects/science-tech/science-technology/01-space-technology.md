@@ -247,12 +247,14 @@ The number of space start-ups in India has grown from just 1 in 2014 to over 266
 ### PSLV
 - **Pronunciation:** /piː.ɛs.ɛl.viː/
 - **Definition:** The Polar Satellite Launch Vehicle, India's third-generation and most reliable expendable launch vehicle, capable of delivering approximately 1,750 kg to Sun-Synchronous Orbit and designed primarily for placing remote sensing satellites into polar orbits.
-- **Origin:** Developed by ISRO with its first launch on 20 September 1993 (unsuccessful) and first successful flight in October 1994; often called India's "workhorse" rocket, it has four variants (PSLV-G, PSLV-CA, PSLV-XL, PSLV-DL) and has launched landmark missions including Chandrayaan-1, Mangalyaan, and Aditya-L1.
+- **Context:** Developed by ISRO with its first launch on 20 September 1993 (unsuccessful) and first successful flight in October 1994; often called India's "workhorse" rocket, it has four variants (PSLV-G, PSLV-CA, PSLV-XL, PSLV-DL) and has launched landmark missions including Chandrayaan-1, Mangalyaan, and Aditya-L1.
+- **UPSC Relevance:** GS3 (Science & Technology). Prelims frequently tests PSLV payload capacity, orbit type (polar/sun-synchronous), landmark missions it has launched, and distinction from GSLV (geostationary orbit). Know the four stages (alternating solid and liquid propulsion). Mains connects to India's space commercialisation through NSIL, small satellite launch market, and ISRO's role in remote sensing for agriculture, disaster management, and urban planning.
 
 ### Gaganyaan Mission
 - **Pronunciation:** /ˈɡɑːɡənˌjɑːn/
 - **Definition:** India's first crewed orbital spaceflight programme, designed to send a crew of two or three astronauts to low Earth orbit at approximately 400 km altitude for up to seven days, using the Human Rated LVM3 (HLVM3) launch vehicle.
-- **Origin:** From Sanskrit *gagana* (गगन, "sky, celestial") + *yana* (यान, "vehicle, craft"), meaning "sky vehicle"; announced by Prime Minister Narendra Modi on 15 August 2018; upon successful completion, India will become the fourth nation to conduct independent human spaceflight after Russia, the United States, and China.
+- **Context:** From Sanskrit *gagana* (गगन, "sky, celestial") + *yana* (यान, "vehicle, craft"), meaning "sky vehicle"; announced by Prime Minister Narendra Modi on 15 August 2018; upon successful completion, India will become the fourth nation to conduct independent human spaceflight after Russia, the United States, and China.
+- **UPSC Relevance:** GS3 (Science & Technology). High-priority topic for both Prelims and Mains. Prelims tests mission details — launch vehicle (HLVM3), orbit altitude (~400 km), crew size, and precursor missions (uncrewed test flights, abort tests). UPSC Prelims 2025 included a question linking Gaganyaan to microgravity research. Mains asks about India's human spaceflight capability, spin-off technologies, and whether space missions are justified for a developing country.
 
 ---
 

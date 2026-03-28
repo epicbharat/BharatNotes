@@ -265,12 +265,14 @@ Their dominance illustrated how completely real power had shifted from the thron
 ### Nadir Shah's Invasion
 - **Pronunciation:** /ˈnɑːdɪr ʃɑː/
 - **Definition:** The devastating invasion of Mughal India in 1738–1739 by Nadir Shah, the Afsharid ruler of Persia, culminating in his victory at the Battle of Karnal (24 February 1739), the sack and massacre at Delhi (22 March 1739), and the plunder of the Peacock Throne, Koh-i-Noor diamond, and an estimated 700 million rupees — effectively ending Mughal financial and military power.
-- **Origin:** *Nadir* (نادر) is a Persian name meaning "rare, precious"; *Shah* (شاه) is the Persian title for king; the invasion gave rise to the Hindustani word *nadirshahi*, meaning a catastrophic plunder or holocaust.
+- **Context:** The invasion exposed the complete military collapse of the Mughal Empire; the Hindustani word *nadirshahi* (meaning catastrophic plunder) entered the language from this event; the loss of the Peacock Throne and Koh-i-Noor diamond symbolised the end of Mughal grandeur.
+- **UPSC Relevance:** GS1 (Medieval/Modern India). Prelims: tested on date (1739), Battle of Karnal, items plundered (Peacock Throne, Koh-i-Noor), and its role in accelerating Mughal decline. Mains: relevant for analysing causes of Mughal decline — the Jagirdari crisis, weak successors, and foreign invasions. Focus on how this invasion created a power vacuum that regional powers and eventually the British exploited.
 
 ### Battle of Panipat 1761
 - **Pronunciation:** /ˈpɑːnɪpæt/
 - **Definition:** The Third Battle of Panipat (14 January 1761), fought between the Maratha Confederacy under Sadashivrao Bhau and Ahmad Shah Durrani (Abdali) of Afghanistan with Rohilla and Awadh allies, resulting in a devastating Maratha defeat with an estimated 60,000–70,000 killed, which ended Maratha aspirations for pan-Indian dominance though the empire itself survived until 1818.
-- **Origin:** Named after Panipat, an ancient city in present-day Haryana, approximately 97 km north of Delhi, which was the site of three historically decisive battles (1526, 1556, and 1761); the name *Panipat* is traditionally derived from *Panduprastha* ("city of the Pandavas").
+- **Context:** Named after Panipat in present-day Haryana, site of three historically decisive battles (1526, 1556, 1761); UPSC 2010 Prelims asked: "What was the immediate reason for Ahmad Shah Abdali to invade India and fight the Third Battle of Panipat?"
+- **UPSC Relevance:** GS1 (Medieval India). Prelims: tested on participants, date (14 January 1761), immediate cause (Maratha expulsion of Abdali's viceroy Timur Shah from Lahore), and consequences for Maratha power. Mains: asked to assess why the Marathas failed to establish pan-Indian dominance despite military successes. Focus on comparing all three Battles of Panipat and the power vacuum created by this battle.
 
 ---
 

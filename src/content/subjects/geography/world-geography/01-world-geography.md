@@ -387,12 +387,14 @@ Weathering is the in-situ breakdown of rocks without transportation.
 ### Plate Tectonics
 - **Pronunciation:** /pleɪt tɛkˈtɒnɪks/
 - **Definition:** The scientific theory that the Earth's lithosphere is divided into several large rigid plates that move, float, and interact on the semi-fluid asthenosphere, with their convergent, divergent, and transform boundaries explaining the distribution of earthquakes, volcanoes, mountain ranges, and ocean trenches.
-- **Origin:** From Greek *tekton* ("builder, carpenter"); the geological sense of "tectonics" dates to 1899, while the full term "plate tectonics" was coined in 1967, building on Alfred Wegener's continental drift hypothesis (1912) and the seafloor spreading discoveries of the 1960s.
+- **Context:** From Greek *tekton* ("builder, carpenter"); the geological sense of "tectonics" dates to 1899, while the full term "plate tectonics" was coined in 1967, building on Alfred Wegener's continental drift hypothesis (1912) and the seafloor spreading discoveries of the 1960s.
+- **UPSC Relevance:** GS1 Physical Geography. Prelims tests the three types of plate boundaries (convergent, divergent, transform), their associated landforms, and major plates. Mains expects detailed explanation of how plate tectonics shapes the Himalayas (Indian-Eurasian convergence), earthquake zones, volcanic activity, and ocean floor features. Connect to seismic zones of India, tsunami risk, and the Himalayan orogeny for integrated answers.
 
 ### Ring of Fire
 - **Pronunciation:** /ɹɪŋ əv ˈfaɪə/
 - **Definition:** A horseshoe-shaped belt of about 40,000 km encircling the Pacific Ocean, containing approximately 75% of the world's active and dormant volcanoes and generating about 90% of the world's earthquakes, formed primarily by convergent and transform plate boundaries around the Pacific Plate.
 - **Origin:** The association of Pacific-rim volcanoes with "fire" dates to antiquity; German geographer Carl Ritter first described the volcanic "Circle of Fire" around the Pacific in 1859, and the term "Ring of Fire" appeared in *Scientific American* in 1878.
+- **UPSC Relevance:** GS1 Physical Geography and GS3 Disaster Management. Prelims tests the 75% volcanoes and 90% earthquakes statistics, its horseshoe shape around the Pacific, and major countries along it. Mains connects the Ring of Fire to disaster management — tsunami risk (2004 Indian Ocean), earthquake preparedness, and volcanic hazards. Note that India's Barren Island (Andaman) lies along a related subduction zone, though not part of the Pacific Ring of Fire itself.
 
 ---
 

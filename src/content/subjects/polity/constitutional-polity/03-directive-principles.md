@@ -246,12 +246,14 @@ The UCC is the most debated DPSP. Recent developments have made it a live exam t
 ### Minerva Mills Case
 - **Pronunciation:** /mɪˈnɜːr.və mɪlz keɪs/
 - **Definition:** The landmark 1980 Supreme Court judgment (*Minerva Mills Ltd. v. Union of India*, AIR 1980 SC 1789) that struck down Section 4 of the 42nd Amendment, reaffirmed the Basic Structure doctrine, and held that harmony between Fundamental Rights and Directive Principles is itself part of the Basic Structure.
-- **Origin:** Named after Minerva Mills Ltd., a nationalised textile company in Karnataka whose challenge to the 42nd Amendment's expansion of Article 31C led to this constitutional ruling.
+- **Context:** Named after Minerva Mills Ltd., a nationalised textile company in Karnataka whose challenge to the 42nd Amendment's expansion of Article 31C led to this constitutional ruling. The 5-judge bench (4:1, Justice Bhagwati dissenting) also struck down Section 55 which gave Parliament unlimited amending power. The case is the third pillar in the FR-DPSP conflict trilogy after Champakam Dorairajan (1951) and Kesavananda Bharati (1973).
+- **UPSC Relevance:** GS2 Polity — Prelims: year (1980), what was struck down (Sections 4 and 55 of 42nd Amendment), bench size, Granville Austin's "two wheels of a chariot" metaphor; Mains: trace the FR vs DPSP conflict from Champakam to Minerva Mills, analyse whether the balance has been maintained, Article 31C's current status after Property Owners Assn (2024).
 
 ### Non-Justiciable
 - **Pronunciation:** /ˌnɒn.dʒʌˈstɪʃ.ə.bəl/
 - **Definition:** Not capable of being adjudicated or enforced by a court of law; in the Indian Constitution, it describes Directive Principles (Article 37), which are fundamental in governance but cannot be the basis for legal proceedings.
 - **Origin:** From the prefix *non-* + *justiciable*, derived from Middle French *justiciable* (from *justice* + *-able*), ultimately from Latin *jūstitia* ("justice").
+- **UPSC Relevance:** GS2 Polity — Prelims: Article 37 (non-justiciable but fundamental in governance), which DPSPs have been converted into justiciable rights (Art. 21A — education); Mains: should DPSPs be made justiciable, how courts have indirectly enforced DPSPs through Article 21 interpretation (right to livelihood, health, clean environment).
 
 ---
 

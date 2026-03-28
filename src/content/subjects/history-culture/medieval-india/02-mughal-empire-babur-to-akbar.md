@@ -278,12 +278,14 @@ Though he ruled for only **five years**, Sher Shah Suri's administrative reforms
 ### Mughal Administration
 - **Pronunciation:** /ˈmuːɡəl ədˌmɪnɪˈstreɪʃən/
 - **Definition:** The centralised imperial governance system developed under Akbar, structured into provinces (Subahs) under Subedars, districts (Sarkars) under Faujdars, and sub-districts (Parganas), unified through the Mansabdari ranking system and the Dahsala revenue framework.
-- **Origin:** "Mughal" from Persian Mughul, a corruption of "Mongol," reflecting the dynasty's Central Asian Timurid-Mongol ancestry; administrative terms from Persian and Arabic.
+- **Context:** The Mansabdari system was a unique grading system combining civil and military ranks (*zat* and *sawar*), while the Dahsala (Ain-i-Dahsala) revenue system calculated revenue based on the average of ten years' crop yields; both were formalised by Akbar's revenue minister Todar Mal.
+- **UPSC Relevance:** GS1 (Medieval India). Prelims: high-frequency topic — tested on Mansabdari system (zat/sawar ranks), Jagirdari vs Zamindari distinction, and Ain-i-Dahsala revenue system. Mains: asked to compare Mughal administration with Mauryan and British systems; evaluate whether Akbar's reforms represented true centralisation. Focus on how the Mansabdari system worked, its strengths, and eventual breakdown.
 
 ### Din-i-Ilahi
 - **Pronunciation:** /diːn ɪ ɪˈlɑːhi/
 - **Definition:** A short-lived syncretic spiritual order promulgated by Emperor Akbar in 1582, drawing elements from Islam, Hinduism, Jainism, Zoroastrianism, and Christianity, with no scriptures, priesthood, or places of worship, and attracting only about 18 followers.
-- **Origin:** From Persian Din-i-Ilahi, literally "Religion of God" or "Divine Faith"; contemporarily called Tawhid-i-Ilahi ("Oneness of the Divine") in Abul Fazl's writings.
+- **Context:** Also called Tawhid-i-Ilahi ("Oneness of the Divine") in Abul Fazl's writings; emerged from Akbar's Ibadat Khana (House of Worship) discussions at Fatehpur Sikri and his broader policy of Sulh-i-Kul (universal peace).
+- **UPSC Relevance:** GS1 (Medieval India & Culture). Prelims: tested on its nature (not a full religion but a spiritual order), year of founding (1582), limited following (~18 members), and the sole Hindu follower (Birbal). Mains: relevant for discussing Akbar's religious policy, Sulh-i-Kul, secularism in medieval India, and comparison with Ashoka's Dhamma. Focus on why it failed and its significance for inter-faith dialogue.
 
 ---
 

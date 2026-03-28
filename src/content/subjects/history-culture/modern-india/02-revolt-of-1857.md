@@ -264,12 +264,14 @@ This is one of the most frequently asked questions in UPSC Mains. The table belo
 ### Doctrine of Lapse
 - **Pronunciation:** /ˈdɒktrɪn əv læps/
 - **Definition:** A policy of territorial annexation applied by the British East India Company (most aggressively under Governor-General Lord Dalhousie, 1848–1856) whereby any princely state under Company suzerainty would be annexed if the ruler died without a natural male heir, denying the traditional Hindu right of adoption — leading to the annexation of Satara (1848), Jhansi (1853), Nagpur (1854), and other states, and generating widespread resentment that fuelled the Revolt of 1857.
-- **Origin:** *Doctrine* from Latin *doctrina* ("teaching"); *lapse* from Latin *lapsus* ("a falling, slip"), from *labi* ("to fall, slip"); the policy was articulated by the Company's Court of Directors as early as 1834 and abandoned after the 1857 revolt.
+- **Context:** Articulated by the Company's Court of Directors as early as 1834 and applied most aggressively by Lord Dalhousie; major states annexed include Satara (1848), Sambalpur (1849), Jaitpur (1849), Udaipur (1852), Jhansi (1853), and Nagpur (1854); abandoned after the 1857 revolt.
+- **UPSC Relevance:** GS1 (Modern India). Prelims: tested on states annexed under the Doctrine (Satara, Jhansi, Nagpur), the Governor-General who applied it most aggressively (Dalhousie), and its abandonment after 1857. Mains: a high-frequency topic — asked to analyse annexation policies as political causes of the 1857 Revolt, and to compare with other British policies (Subsidiary Alliance, misrule annexation of Awadh). Focus on how the Doctrine denied indigenous succession customs and generated princely resentment.
 
 ### Rani of Jhansi
 - **Pronunciation:** /ˈrɑːni əv ˈdʒɑːnsi/
 - **Definition:** Rani Lakshmibai (born Manikarnika Tambe, c. 1828–1858), queen of the princely state of Jhansi, who became one of the foremost leaders of the Revolt of 1857 after the British refused to recognise her adopted son under the Doctrine of Lapse, fighting fiercely at Jhansi and Gwalior before being killed in battle on 18 June 1858 — revered as a symbol of resistance and courage in India's freedom struggle.
-- **Origin:** *Rani* (रानी) is a Sanskrit-derived word meaning "queen"; *Jhansi* (झाँसी) is a city in present-day Uttar Pradesh, and *Lakshmibai* (लक्ष्मीबाई) is derived from *Lakshmi* (the Hindu goddess of fortune) and the Marathi honorific suffix *-bai*.
+- **Context:** Her famous declaration "Main apni Jhansi nahin doongi" ("I shall not give away my Jhansi") symbolises the spirit of resistance; she joined forces with Tantia Tope, captured Gwalior, and died fighting on 18 June 1858.
+- **UPSC Relevance:** GS1 (Modern India). Prelims: tested on her role in the 1857 Revolt, connection to the Doctrine of Lapse, and key battles (Jhansi, Gwalior). Mains: relevant for essays on women's role in India's freedom struggle, the nature and character of the 1857 Revolt, and regional leadership during the rebellion. Focus on the debate over whether 1857 was a "mutiny" or a "first war of independence" — Rani Lakshmibai's participation supports the nationalist interpretation.
 
 ---
 

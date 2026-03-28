@@ -360,12 +360,14 @@ The recommendations of the Finance Commission are **advisory** — the governmen
 ### Election Commission
 - **Pronunciation:** /ɪˈlɛkʃən kəˈmɪʃən/
 - **Definition:** A permanent and autonomous constitutional body established under Article 324, consisting of the Chief Election Commissioner and two Election Commissioners, vested with the superintendence, direction, and control of all elections to Parliament, State Legislatures, and the offices of President and Vice-President.
-- **Origin:** Established on 25 January 1950 under the constitutional mandate of Article 324; the multi-member composition (CEC + 2 ECs) has been in place since 1993.
+- **Context:** Established on 25 January 1950 under the constitutional mandate of Article 324; the multi-member composition (CEC + 2 ECs) has been in place since 1993. CEC can only be removed like a SC Judge (impeachment). ECs can be removed on CEC's recommendation. The CEC and Other Election Commissioners (Appointment, Conditions of Service and Term of Office) Act, 2023 replaced the earlier 1991 Act, creating a Selection Committee of PM + LoP + Cabinet Minister nominated by PM.
+- **UPSC Relevance:** GS2 Polity — Prelims: Article 324, CEC removal (like SC Judge), term (6 years or 65 years), 2023 Act selection process (PM + LoP + Cabinet Minister), ECI does not conduct local body elections (SEC does); Mains: is ECI's independence threatened by the 2023 appointment Act, should MCC be given statutory backing, ECI's role in free and fair elections, comparison of election commissions globally.
 
 ### Comptroller and Auditor General
 - **Pronunciation:** /kənˈtrəʊlər ənd ˈɔːdɪtər ˈdʒɛnərəl/
 - **Definition:** The supreme audit authority of India, established under Article 148, appointed by the President, who audits all receipts and expenditure of the Union and State governments and submits reports to be laid before Parliament — described by Dr. B.R. Ambedkar as the most important officer in the Constitution.
-- **Origin:** The office derives from the British model of the Comptroller and Auditor General; "comptroller" from Anglo-French *contrerolleur* ("one who checks accounts") and "auditor" from Latin *audītor* ("a hearer, listener"), reflecting the dual role of financial control and audit.
+- **Context:** Derives from the British model. Appointed by the President by warrant; removal like a SC Judge. Term: 6 years or 65 years, whichever is earlier. Not eligible for further government office after retirement. CAG reports are examined by the Public Accounts Committee (PAC) of Parliament. Audits accounts of the Union, States, and bodies receiving substantial government funding. Ambedkar called the CAG "the most important officer in the Constitution of India."
+- **UPSC Relevance:** GS2 Polity — Prelims: Articles 148-151, appointed by President, removal like SC Judge, term (6 years or 65 years), reports examined by PAC, not eligible for further government office; Mains: relevance of CAG audit in the digital age, performance audit vs compliance audit, CAG's role in ensuring financial accountability, should CAG reports be binding rather than advisory.
 
 ---
 

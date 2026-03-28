@@ -303,12 +303,14 @@ tags:
 ### Ethical Governance
 - **Pronunciation:** /ˈeθ.ɪ.kəl ˈɡʌv.ən.əns/
 - **Definition:** A system of rules, practices, and processes by which organisations and governments conduct themselves in a manner guided by moral principles — including transparency, accountability, integrity, and fairness — going beyond mere legal compliance to uphold public trust.
-- **Origin:** The concept evolved from classical political philosophy (Aristotle, Kautilya) and was formalised in modern public administration through frameworks such as the Nolan Committee's Seven Principles of Public Life (UK, 1995) and the Second Administrative Reforms Commission's Fourth Report on Ethics in Governance (India).
+- **Context:** The concept evolved from classical political philosophy (Aristotle, Kautilya) and was formalised in modern public administration through frameworks such as the Nolan Committee's Seven Principles of Public Life (UK, 1995) and the Second Administrative Reforms Commission's Fourth Report on Ethics in Governance (India).
+- **UPSC Relevance:** GS4 Ethics — a cross-cutting theme tested in theory questions ("What do you understand by ethical governance?") and case studies involving institutional integrity. Links to probity in governance, RTI, social audit, and Citizen's Charters. Use the Nolan Principles as a ready-made evaluation framework in answers.
 
 ### Code of Conduct
 - **Pronunciation:** /kəʊd əv ˈkɒn.dʌkt/
 - **Definition:** A formal document setting out specific rules, standards, and expectations that prescribe acceptable and prohibited behaviour for members of an organisation or profession, with violations attracting disciplinary action.
-- **Origin:** Codes of conduct in public service trace to early civil service reforms; in India, the All India Services (Conduct) Rules were first notified in 1954 and revised in 1968, drawing from British colonial civil service traditions and the broader concept of public service ethics.
+- **Context:** Codes of conduct in public service trace to early civil service reforms; in India, the All India Services (Conduct) Rules were first notified in 1954 and revised in 1968, drawing from British colonial civil service traditions and the broader concept of public service ethics.
+- **UPSC Relevance:** GS4 Ethics — the Code of Conduct vs Code of Ethics distinction is a frequently tested theoretical question. In case studies, cite specific CCS (Conduct) Rules provisions to demonstrate applied knowledge. The 2nd ARC's three-tier framework (Values, Code of Ethics, Code of Conduct) is a standard reference for structured answers.
 
 ---
 

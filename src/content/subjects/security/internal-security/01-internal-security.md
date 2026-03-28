@@ -287,12 +287,14 @@ The PMLA was enacted in January 2003 and came into force on **1 July 2005**.
 ### Left Wing Extremism
 - **Pronunciation:** /lɛft wɪŋ ɪkˈstriːmɪzəm/
 - **Definition:** An armed insurgency rooted in Maoist ideology that seeks to overthrow the democratic Indian state through a "protracted people's war," exploiting socio-economic grievances of tribal and marginalised communities, primarily in the Red Corridor states.
-- **Origin:** The movement traces its origin to the 1967 peasant uprising in Naxalbari, West Bengal, led by Charu Majumdar and inspired by Maoist ideology; the term "Naxalism" derives from the village of Naxalbari; LWE-affected districts have declined from nearly 180 in the late 2000s to approximately 11 by 2025.
+- **Context:** The movement traces its origin to the 1967 peasant uprising in Naxalbari, West Bengal, led by Charu Majumdar and inspired by Maoist ideology; the term "Naxalism" derives from the village of Naxalbari; LWE-affected districts have declined from nearly 180 in the late 2000s to approximately 11 by 2025.
+- **UPSC Relevance:** GS3 Internal Security — one of the most frequently tested topics. Prelims tests Naxalbari (1967), CPI(Maoist) formation (2004), SAMADHAN doctrine (2017), and affected districts data. Mains asks "Is LWE a law-and-order problem or a socio-economic one?" and "Evaluate the government's two-pronged strategy." Always present both security and development dimensions for a balanced answer.
 
 ### AFSPA
 - **Pronunciation:** /eɪ.ɛf.ɛs.piː.eɪ/
 - **Definition:** The Armed Forces (Special Powers) Act, 1958, is a parliamentary act that grants extraordinary powers to the Indian Armed Forces — including the authority to search, arrest without warrant, and use force — in areas officially declared as "disturbed" by the Central or State Government.
-- **Origin:** Modelled on the Armed Forces Special Powers Ordinance promulgated by the British colonial government on 15 August 1942 to suppress the Quit India movement; the post-independence Act was passed on 11 September 1958, initially to address insurgency in the North-Eastern states; it remains one of the most debated laws in India due to concerns over human rights and accountability.
+- **Context:** Modelled on the Armed Forces Special Powers Ordinance promulgated by the British colonial government on 15 August 1942 to suppress the Quit India movement; the post-independence Act was passed on 11 September 1958, initially to address insurgency in the North-Eastern states; it remains one of the most debated laws in India due to concerns over human rights and accountability.
+- **UPSC Relevance:** GS3 Internal Security — Mains frequently asks "Is AFSPA a necessary evil or a human rights violation?" Prelims tests the year (1958), "disturbed area" declaration mechanism, and Jeevan Reddy Committee (2005) recommendation for repeal. The EEVFAM Supreme Court ruling and Irom Sharmila's protest are standard case references. Phased AFSPA withdrawal from NE states is a current affairs dimension.
 
 ---
 

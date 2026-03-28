@@ -328,12 +328,14 @@ Environmental pollution is the contamination of the physical and biological comp
 ### Ecological Pyramid
 - **Pronunciation:** /ˌiːkəˈlɒdʒɪkəl ˈpɪrəmɪd/
 - **Definition:** A graphical representation of the trophic structure of an ecosystem showing the relative amounts of organisms, biomass, or energy at each successive trophic level, with producers at the base and top consumers at the apex.
-- **Origin:** The concept was first described by British ecologist Charles Elton in his 1927 book *Animal Ecology*; also known as an Eltonian pyramid in his honour.
+- **Context:** The concept was first described by British ecologist Charles Elton in his 1927 book *Animal Ecology*; also known as an Eltonian pyramid in his honour.
+- **UPSC Relevance:** GS3 (Environment & Ecology). Prelims frequently tests which pyramid is always upright (energy), which can be inverted (biomass — e.g., in aquatic ecosystems), and Lindeman's 10% rule of energy transfer. Know the difference between food chain and food web, trophic levels (producers, primary consumers, secondary consumers, tertiary consumers), and that detritus food chains start with dead organic matter, not producers.
 
 ### Biogeochemical Cycle
 - **Pronunciation:** /ˌbaɪəʊˌdʒiːəʊˈkɛmɪkəl ˈsaɪkəl/
 - **Definition:** The natural pathway by which essential chemical elements (such as carbon, nitrogen, phosphorus, and water) circulate between living organisms, the atmosphere, the hydrosphere, and the lithosphere.
-- **Origin:** A compound of *bio-* (life) + *geo-* (earth) + *chemical*; the field of biogeochemistry was founded by Vladimir Vernadsky, whose 1926 book *The Biosphere* described Earth as a living whole.
+- **Context:** A compound of *bio-* (life) + *geo-* (earth) + *chemical*; the field of biogeochemistry was founded by Vladimir Vernadsky, whose 1926 book *The Biosphere* described Earth as a living whole.
+- **UPSC Relevance:** GS3 (Environment & Ecology). Prelims frequently tests the nitrogen cycle organisms — Nitrosomonas (ammonia to nitrite), Nitrobacter (nitrite to nitrate), Rhizobium (nitrogen fixation in legumes). Know that the phosphorus cycle has no gaseous phase (a common Prelims trap). Mains connects to human-induced disruptions — nitrogen loading from fertilisers causing eutrophication, carbon cycle disruption and climate change, and water cycle changes due to deforestation.
 
 ---
 

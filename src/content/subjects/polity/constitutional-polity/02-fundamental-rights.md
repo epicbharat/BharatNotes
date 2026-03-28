@@ -301,12 +301,14 @@ Link these static concepts with live developments:
 ### Right to Constitutional Remedies
 - **Pronunciation:** /raɪt tuː ˌkɒn.stɪˈtjuː.ʃən.əl ˈrem.ə.diz/
 - **Definition:** The fundamental right guaranteed under Article 32 of the Indian Constitution that empowers citizens to approach the Supreme Court directly for the enforcement of their Fundamental Rights through five types of writs.
-- **Origin:** Enshrined in Part III of the Constitution of India (1950); Dr. B.R. Ambedkar called Article 32 "the heart and soul of the Constitution," declaring it the most important article "without which this Constitution would be a nullity."
+- **Context:** Enshrined in Part III of the Constitution of India (1950); Dr. B.R. Ambedkar called Article 32 "the heart and soul of the Constitution," declaring it the most important article "without which this Constitution would be a nullity." Article 32 is itself part of the basic structure and cannot be abrogated even by constitutional amendment.
+- **UPSC Relevance:** GS2 Polity — Prelims: five writs and their meanings, Article 32 vs Article 226 differences (scope, discretion, suspension during Emergency), who can issue which writ; Mains: role of Article 32 in protecting fundamental rights, whether the right to move the SC should be available for non-FR matters, evolution of PIL through Article 32.
 
 ### Reasonable Restrictions
 - **Pronunciation:** /ˈriː.zən.ə.bəl rɪˈstrɪk.ʃənz/
 - **Definition:** Constitutionally permitted limitations that the state may impose by law on the exercise of Fundamental Rights under Article 19, on specified grounds such as sovereignty, public order, decency, morality, and security of the state.
-- **Origin:** The phrase was incorporated into the Draft Constitution during Constituent Assembly debates to enable courts to review legislation and strike down arbitrary curbs on freedoms; the Supreme Court in *Maneka Gandhi v. Union of India* (1978) further held that such restrictions must satisfy the test of proportionality and be "just, fair, and reasonable."
+- **Context:** The phrase was incorporated into the Draft Constitution during Constituent Assembly debates to enable courts to review legislation and strike down arbitrary curbs on freedoms; the Supreme Court in *Maneka Gandhi v. Union of India* (1978) further held that such restrictions must satisfy the test of proportionality and be "just, fair, and reasonable." The Shreya Singhal case (2015) struck down Section 66A IT Act for being unreasonable.
+- **UPSC Relevance:** GS2 Polity — Prelims: grounds for restriction under each clause of Article 19(2)-(6), which freedoms can be restricted on which grounds (frequently asked as match-the-following); Mains: balancing free speech with national security in the digital age, Shreya Singhal judgment and Section 66A, proportionality test in restricting fundamental freedoms.
 
 ---
 

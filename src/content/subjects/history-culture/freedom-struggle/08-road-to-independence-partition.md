@@ -271,12 +271,14 @@ The period 1944–1947 witnessed the rapid unravelling of British rule in India.
 ### Mountbatten Plan
 - **Pronunciation:** /ˈmaʊntˌbætən plæn/
 - **Definition:** The plan announced on 3 June 1947 by Viceroy Lord Mountbatten, providing for the partition of British India into two independent dominions (India and Pakistan), the division of Punjab and Bengal, referendums in the NWFP and Sylhet, and the transfer of power on 15 August 1947.
-- **Origin:** Named after Lord Louis Mountbatten (1900–1979), the last Viceroy of India, who was sent by PM Clement Attlee specifically to oversee the transfer of power; also called the "June Third Plan."
+- **Context:** Also called the "June Third Plan"; Mountbatten initially proposed the "Balkan Plan" (transferring power to individual provinces) but abandoned it after Nehru's objections; the Radcliffe Line divided Punjab and Bengal; the rushed timeline (10 weeks) contributed to the partition's catastrophic violence.
+- **UPSC Relevance:** GS1 (Modern India). Prelims: tested on date (3 June 1947), key provisions (partition, referendums in NWFP/Sylhet, Punjab/Bengal division), and the Indian Independence Act 1947 that gave it legal effect. Mains: asked to critically assess the Mountbatten Plan, analyse why partition became inevitable, and evaluate whether the British hastened the process irresponsibly. Focus on the Balkan Plan rejection, the Radcliffe Line controversy, and the human cost of partition.
 
 ### Two-Nation Theory
 - **Pronunciation:** /tuː ˈneɪʃən ˈθɪəri/
 - **Definition:** The political ideology asserting that Hindus and Muslims of the Indian subcontinent constitute two distinct nations with irreconcilable differences in religion, culture, and social life, which served as the ideological foundation for the demand for Pakistan.
-- **Origin:** The concept evolved from the writings of Sir Syed Ahmed Khan and the Aligarh Movement in the late 19th century; formally articulated by Muhammad Ali Jinnah and the All India Muslim League, particularly from the Lahore Resolution of 23 March 1940 onwards.
+- **Context:** Evolved from Sir Syed Ahmed Khan's Aligarh Movement; formally articulated in the Lahore Resolution (23 March 1940); opposed by leaders like Maulana Azad, Khan Abdul Ghaffar Khan, and many Muslim intellectuals who rejected the idea that religion alone could define nationhood.
+- **UPSC Relevance:** GS1 (Modern India). Prelims: tested on its proponents (Sir Syed Ahmed Khan, Jinnah), the Lahore Resolution (1940), and opponents (Maulana Azad, Khan Abdul Ghaffar Khan). Mains: a sensitive but important topic — asked to trace the evolution of communal politics from the Morley-Minto reforms (1909) through separate electorates to the demand for Pakistan. Focus on whether the Two-Nation Theory was an inevitable outcome of communal politics or a product of specific political failures (failure of Cabinet Mission Plan, Direct Action Day 1946).
 
 ---
 

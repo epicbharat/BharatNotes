@@ -254,12 +254,14 @@ Introduced in the late 1970s–early 1980s by **Justice P.N. Bhagwati** and **Ju
 ### Public Interest Litigation
 - **Pronunciation:** /ˈpʌb.lɪk ˈɪn.trɪst ˌlɪt.ɪˈɡeɪ.ʃən/
 - **Definition:** A judicial mechanism developed in India in the late 1970s by Justices P.N. Bhagwati and V.R. Krishna Iyer, whereby any public-spirited citizen can approach the Supreme Court (Article 32) or a High Court (Article 226) on behalf of disadvantaged persons whose fundamental rights are violated, relaxing the traditional requirement of locus standi.
-- **Origin:** The concept originated in the United States in the 1960s; in India, the first reported PIL was *Hussainara Khatoon v. State of Bihar* (1979), which addressed the plight of undertrial prisoners and led to the release of over 40,000 inmates.
+- **Context:** The concept originated in the United States in the 1960s; in India, the first reported PIL was *Hussainara Khatoon v. State of Bihar* (1979), which addressed the plight of undertrial prisoners and led to the release of over 40,000 inmates. Mumbai Kamgar Sabha v. Abdul Thai (1976) planted the seeds. The SC has issued guidelines limiting PIL to 10 categories to prevent misuse as "publicity interest litigation."
+- **UPSC Relevance:** GS2 Polity — Prelims: pioneers (Bhagwati, Krishna Iyer), first PIL (Hussainara Khatoon, 1979), relaxation of locus standi, Articles 32 and 226; Mains: PIL as a tool for social justice vs judicial overreach, misuse of PIL (frivolous petitions, private interests), should PIL be codified with a statutory framework, evaluate PIL's role in environmental protection and prisoners' rights.
 
 ### Collegium System
 - **Pronunciation:** /kəˈliː.dʒi.əm ˈsɪs.təm/
 - **Definition:** The judicially evolved mechanism for appointing and transferring judges of the Supreme Court and High Courts, whereby a collegium headed by the Chief Justice of India and the four senior-most Supreme Court judges recommends appointments; the word "collegium" does not appear in the Constitution and was created through three Judges Cases (1981, 1993, 1998).
-- **Origin:** From Latin *collēgium* ("association, guild, body of colleagues"), from *collēga* ("one chosen alongside another"), from *com-* ("together") + *legere* ("to choose"); the system was judicially constructed when the Supreme Court reinterpreted "consultation" in Article 124 as "concurrence" in the Second Judges Case (1993).
+- **Context:** Judicially constructed when the Supreme Court reinterpreted "consultation" in Article 124 as "concurrence" in the Second Judges Case (1993). The First Judges Case (1981) gave primacy to the executive; the Second (1993) shifted primacy to the CJI; the Third (1998) expanded the collegium to CJI + 4 senior judges. NJAC (99th Amendment, 2015) attempted to replace it but was struck down 4:1 by the SC.
+- **UPSC Relevance:** GS2 Polity — Prelims: three Judges Cases (1981, 1993, 1998), composition of collegium (CJI + 4), NJAC struck down (2015), "consultation" vs "concurrence" distinction; Mains: Collegium vs NJAC — transparency, accountability, judicial independence, government's reiteration power, should there be a reformed NJAC with judicial majority, comparison with judicial appointment systems in USA and UK.
 
 ---
 

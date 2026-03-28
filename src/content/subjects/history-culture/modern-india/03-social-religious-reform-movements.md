@@ -218,12 +218,14 @@ The 19th century saw an unprecedented wave of social and religious reform in Ind
 ### Brahmo Samaj
 - **Pronunciation:** /ˈbrɑːmoʊ səˈmɑːdʒ/
 - **Definition:** A monotheistic Hindu reform movement founded on 20 August 1828 in Calcutta by Raja Ram Mohan Roy, advocating the worship of one formless God while rejecting idol worship, caste rigidity, Sati, and superstition.
-- **Origin:** From Bengali *Brahmo Samaj* (ব্রহ্ম সমাজ), where *Brahmo* means "one who worships Brahman" (the Supreme Reality) and *Samaj* means "society" or "assembly"; emerged during the Bengal Renaissance as part of the broader Indian reform movement.
+- **Context:** Founded during the Bengal Renaissance; underwent three splits — the original Brahmo Samaj, the Brahmo Samaj of India (Keshub Chandra Sen, 1866), and the Sadharan Brahmo Samaj (1878); its influence extended far beyond religion into education, women's rights, and social reform.
+- **UPSC Relevance:** GS1 (Modern India & Society). Prelims: tested on founder (Ram Mohan Roy), year (1828), key successors (Debendranath Tagore, Keshub Chandra Sen), and social reforms (abolition of Sati, widow remarriage). Mains: a perennial topic — UPSC 2019 GS-I asked about the "nature and character of 19th-century socio-religious reform movements." Focus on comparing Brahmo Samaj (syncretic, Western-influenced) with Arya Samaj (revivalist, Vedic) — a classic UPSC comparison.
 
 ### Arya Samaj
 - **Pronunciation:** /ˈɑːrjə səˈmɑːdʒ/
 - **Definition:** A Hindu reform movement founded on 10 April 1875 in Bombay by Swami Dayananda Saraswati, advocating a return to the Vedas as the sole scriptural authority while rejecting idol worship, caste by birth, and post-Vedic texts.
-- **Origin:** From Sanskrit *Arya Samaja* (आर्य समाज), where *arya* means "noble" or "virtuous" and *samaj* means "society" or "community"; the movement drew its intellectual foundation from Vedic texts and sought to purify Hinduism of what Dayananda considered later accretions.
+- **Context:** Battle cry was "Back to the Vedas"; introduced Shuddhi (reconversion) and Sangathan (Hindu consolidation) movements; founded Dayanand Anglo-Vedic (DAV) schools and Gurukul Kangri; had a significant influence on the freedom struggle through its nationalist orientation.
+- **UPSC Relevance:** GS1 (Modern India & Society). Prelims: tested on founder (Dayananda Saraswati), year (1875), key texts (Satyarth Prakash), and movements (Shuddhi, Sangathan). Mains: asked to compare reform vs revival movements, assess whether Arya Samaj was progressive or regressive, and its contribution to Indian nationalism. Focus on the key distinction: Brahmo Samaj was forward-looking and syncretic while Arya Samaj was backward-looking but equally reformist within the Hindu framework.
 
 ---
 

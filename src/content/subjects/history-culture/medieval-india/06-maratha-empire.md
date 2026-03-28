@@ -265,12 +265,14 @@ Despite being the dominant Indian power in the 18th century, the Maratha Empire 
 ### Shivaji's Administration
 - **Pronunciation:** /ʃɪˈvɑːdʒiː/
 - **Definition:** The governance system established by Chhatrapati Shivaji Bhonsale (1630–1680), centred on the Ashtapradhan (Council of Eight Ministers) with specialised portfolios, direct land revenue collection without intermediaries, payment of soldiers in cash rather than through land grants, a formidable navy, and a network of over 300 forts — representing one of the most sophisticated indigenous state-building efforts in medieval India.
-- **Origin:** *Shivaji* (शिवाजी) is a Marathi name meaning "of Lord Shiva"; the Ashtapradhan system drew from both Deccan administrative tradition and innovations designed to prevent feudal fragmentation.
+- **Context:** The Ashtapradhan comprised eight ministers — Peshwa (PM), Amatya (Finance), Shurunavis (Secretary), Mantri (Interior), Senapati (Commander), Sumant (Foreign Affairs), Nyayadhish (Justice), and Panditrao (Religious Affairs) — drawing from Deccan administrative traditions with innovations to prevent feudal fragmentation.
+- **UPSC Relevance:** GS1 (Medieval India). Prelims: tested on the Ashtapradhan and its members' roles, revenue system (Chauth and Sardeshmukhi), fort-based defence strategy, and Maratha navy. Mains: asked to evaluate Shivaji's state-building as an indigenous alternative to Mughal governance; compare with other medieval administrative systems. Focus on how cash-based soldier payment prevented feudalism, and the significance of the Maratha navy for Indian maritime history.
 
 ### Peshwa
 - **Pronunciation:** /ˈpeɪʃwɑː/
 - **Definition:** The prime minister of the Maratha Empire, a position that became hereditary under the Bhat family from 1713 onwards, with the Peshwa eventually becoming the de facto head of the Maratha state while the Chhatrapati at Satara was reduced to a figurehead.
 - **Origin:** From Persian *pēshwā* (پيشوا, "leader, guide"), combining *pēsh* ("before, in front") and the agentive suffix *-wā*; though of Persian origin, the term became fully integrated into Marathi political vocabulary.
+- **UPSC Relevance:** GS1 (Medieval India). Prelims: tested on key Peshwas — Balaji Vishwanath (first hereditary Peshwa), Baji Rao I (greatest military commander), Balaji Baji Rao (Third Battle of Panipat), and Baji Rao II (last Peshwa, defeated by British in 1818). Mains: relevant for analysing the shift from Chhatrapati to Peshwa dominance, Maratha Confederacy's structural weaknesses, and the Anglo-Maratha Wars. Focus on how hereditary Peshwa rule led to internal rivalries that the British exploited.
 
 ---
 

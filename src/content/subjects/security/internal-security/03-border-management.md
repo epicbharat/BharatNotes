@@ -274,12 +274,14 @@ India's 7,516 km coastline and ~1,382 islands require a separate security archit
 ### Smart Border
 - **Pronunciation:** /smɑːt ˈbɔː.dər/
 - **Definition:** A technology-driven approach to border management that uses integrated systems such as sensors, radars, cameras, drones, and data analytics to monitor and secure borders, especially in terrain where physical fencing is not feasible.
-- **Origin:** The term gained currency in the early 2000s with the US-Canada Smart Border Declaration (2001); in India, the concept is implemented through CIBMS (Comprehensive Integrated Border Management System).
+- **Context:** The term gained currency in the early 2000s with the US-Canada Smart Border Declaration (2001); in India, the concept is implemented through CIBMS (Comprehensive Integrated Border Management System).
+- **UPSC Relevance:** GS3 Internal Security — Mains asks "Can technology substitute physical fencing?" and "Evaluate CIBMS effectiveness on India-Pakistan and India-Bangladesh borders." Prelims tests CIBMS and BOLD-QIT by name, purpose, and location. Smart border technology is a current affairs dimension linked to drone-based smuggling and the India-Myanmar fencing decision.
 
 ### Line of Control
 - **Pronunciation:** /laɪn əv kənˈtrəʊl/
 - **Definition:** The military demarcation line between the Indian-administered and Pakistani-administered parts of the former princely state of Jammu and Kashmir, established under the Simla Agreement of 1972; it is not a legally recognised international boundary.
-- **Origin:** Originally drawn as the ceasefire line after the Indo-Pakistani War of 1947-48 under UN supervision; redesignated as the "Line of Control" by the Simla Agreement signed on 2 July 1972 following the 1971 war.
+- **Context:** Originally drawn as the ceasefire line after the Indo-Pakistani War of 1947-48 under UN supervision; redesignated as the "Line of Control" by the Simla Agreement signed on 2 July 1972 following the 1971 war.
+- **UPSC Relevance:** GS3 Internal Security and GS2 International Relations — Prelims tests the distinction between LoC, LAC, and International Border. Mains links the LoC to cross-border terrorism, ceasefire agreements (February 2021), and the Shimla Agreement's bilateralism principle. The LoC is central to any India-Pakistan border management or Kashmir question.
 
 ---
 

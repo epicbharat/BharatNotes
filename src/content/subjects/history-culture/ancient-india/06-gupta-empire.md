@@ -223,12 +223,14 @@ The Gupta period produced some of the **most important scientific contributions*
 ### Gupta Administration
 - **Pronunciation:** /ˈɡʊptə ədˌmɪnɪˈstreɪʃən/
 - **Definition:** The decentralised governance system of the Gupta Empire, organised into provinces (Bhuktis) under Uparikas, districts (Vishayas) under Vishayapatis, and villages under headmen and councils, with increasing feudal land grants reducing central control compared to the Mauryan model.
-- **Origin:** "Gupta" from the dynasty's Sanskrit family name; administrative terms Bhukti and Vishaya are Sanskrit designations for territorial divisions used in Gupta-era inscriptions.
+- **Context:** Administrative terms Bhukti and Vishaya are Sanskrit designations for territorial divisions used in Gupta-era inscriptions; the system marked a shift toward decentralisation and feudalism compared to the highly centralised Mauryan model.
+- **UPSC Relevance:** GS1 (Ancient India). Prelims: tested on administrative divisions (Bhukti, Vishaya, Vithi), forced labour (*Vishti* — asked in UPSC 2019), and comparison with Mauryan centralisation. Mains: key for essays on "Golden Age" claims, feudal land grants (*agrahara*, *brahmadeya*), and decline of centralised authority. Focus on contrasting Gupta decentralisation with Mauryan bureaucracy.
 
 ### Nalanda University
 - **Pronunciation:** /nəˈlɑːndə juːnɪˈvɜːrsɪti/
 - **Definition:** An ancient centre of Buddhist learning in Bihar, founded during the Gupta period (5th century CE), which attracted scholars from across Asia and functioned as a residential university with a vast library until its destruction by Bakhtiyar Khilji in 1193 CE.
-- **Origin:** From Sanskrit; the name Nalanda is traditionally interpreted as "giver of lotus-stalks" (na-alam-da), though the Chinese pilgrim Xuanzang attributed it to a naga (serpent deity) named Nalanda.
+- **Context:** Founded by Kumaragupta I; the name is traditionally interpreted as "giver of lotus-stalks" (na-alam-da); it is a UNESCO World Heritage Site (2016) and one of the earliest residential universities in recorded history.
+- **UPSC Relevance:** GS1 (Ancient India & Culture). Prelims: tested on founder (Kumaragupta I), Chinese travellers' accounts (Xuanzang, I-Tsing), subjects taught, and its UNESCO status (2016). Mains: relevant for essays on ancient Indian education, India's soft power and cultural diplomacy, and the New Nalanda University initiative. A favourite topic linking ancient heritage with contemporary relevance.
 
 ---
 

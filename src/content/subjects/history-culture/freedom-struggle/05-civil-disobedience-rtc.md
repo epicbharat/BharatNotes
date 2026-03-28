@@ -269,11 +269,13 @@ The movement spread rapidly beyond the salt issue:
 ### Dandi March
 - **Pronunciation:** /ˈdɑːndi mɑːtʃ/
 - **Definition:** The 24-day, 387-kilometre march led by Gandhi with 78 volunteers from Sabarmati Ashram to Dandi on the Gujarat coast (12 March - 6 April 1930), where he broke the British salt monopoly by picking up natural salt, sparking the nationwide Civil Disobedience Movement that resulted in over 60,000 arrests.
-- **Origin:** Named after Dandi, a coastal village in Gujarat's Navsari district where Gandhi symbolically broke the salt law on 6 April 1930; also called the Salt March or Salt Satyagraha.
+- **Context:** Gandhi chose salt because the salt tax affected every Indian regardless of caste, class, or religion, making it the perfect unifying symbol; the march received worldwide media coverage and inspired similar civil disobedience across India.
+- **UPSC Relevance:** GS1 (Modern India). Prelims: tested on dates (12 March – 6 April 1930), distance (387 km), number of volunteers (78), starting point (Sabarmati Ashram), and endpoint (Dandi, Navsari). Mains: asked to assess the strategic significance of choosing salt as a symbol, the march's role in internationalising the Indian freedom struggle, and comparison with other Gandhian movements. Focus on how Gandhi's genius lay in transforming an economic grievance into a moral confrontation that the British could not easily suppress.
 
 ### Round Table Conference
 - **Pronunciation:** /raʊnd ˈteɪbəl ˈkɒnfərəns/
 - **Definition:** A series of three conferences (1930-1932) held in London between British officials and Indian political representatives to discuss constitutional reforms for India, which ultimately led to the Government of India Act, 1935; notable for the communal deadlock at the Second RTC and the absence of Congress at the First and Third.
-- **Origin:** English compound; the "round table" format symbolised equality among participants; the conferences were convened by the British government following the Simon Commission's report and held at the Royal Institute of International Affairs, London.
+- **Context:** First RTC (1930–31): Congress absent; Second RTC (1931): Gandhi attended as sole Congress representative, communal deadlock led to the Communal Award; Third RTC (1932): boycotted by Congress and most Indian parties; the conferences' failure led directly to the Government of India Act, 1935.
+- **UPSC Relevance:** GS1 (Modern India) & GS2 (Polity). Prelims: tested on the three RTCs — years, Congress participation, key outcomes (Communal Award, Poona Pact), and the Gandhi-Irwin Pact that preceded Gandhi's participation in the Second RTC. Mains: asked to assess the RTCs' failure in resolving the communal question and their contribution to the Government of India Act 1935. Focus on the Poona Pact (1932) between Gandhi and Ambedkar as a critical turning point in the debate over minority representation.
 
 *Sources: Bipan Chandra — India's Struggle for Independence, NCERT — Themes in Indian History Part III, Judith Brown — Gandhi: Prisoner of Hope, B.R. Ambedkar — Annihilation of Caste*

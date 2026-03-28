@@ -280,12 +280,14 @@ Effective DRR depends on **knowing where the risks are** before disasters strike
 ### Hyogo Framework
 - **Pronunciation:** /hjˈoʊ.ɡoʊ ˈfɹeɪm.wɜːk/
 - **Definition:** The Hyogo Framework for Action (HFA) 2005-2015 was the first global blueprint for disaster risk reduction, adopted at the 2nd World Conference on Disaster Reduction in Kobe, Hyogo, Japan (January 2005), establishing five priorities for action to build the resilience of nations and communities to disasters — succeeded by the Sendai Framework (2015-2030).
-- **Origin:** Named after Hyogo Prefecture in Japan, where the conference was held; "Hyogo" from Japanese meaning "soldiers' storehouse."
+- **Context:** Named after Hyogo Prefecture in Japan, where the conference was held; "Hyogo" from Japanese meaning "soldiers' storehouse."
+- **UPSC Relevance:** GS3 Disaster Management. Prelims tests the five priority areas and the distinction from Sendai (Hyogo was the first global DRR blueprint, 2005-2015; Sendai succeeded it, 2015-2030). Mains expects comparison between Hyogo and Sendai — Hyogo focused on building national resilience, while Sendai expanded scope to include the private sector, communities, and risk creation prevention. Understanding this evolution is essential for any DRR governance answer.
 
 ### Disaster Risk Reduction
 - **Pronunciation:** /dɪˈzɑːs.tər ɹɪsk ɹɪˈdʌk.ʃən/
 - **Definition:** The systematic approach to identifying, assessing, and reducing the risks of disaster through prevention, mitigation, and preparedness measures, aimed at minimising vulnerabilities and preventing the creation of new risks rather than merely responding after disasters strike.
-- **Origin:** The concept evolved through successive UN frameworks — Yokohama Strategy (1994), Hyogo Framework (2005), and Sendai Framework (2015); the UNDRR definition was formally adopted in the 2009 UNISDR Terminology on Disaster Risk Reduction.
+- **Context:** The concept evolved through successive UN frameworks — Yokohama Strategy (1994), Hyogo Framework (2005), and Sendai Framework (2015); the UNDRR definition was formally adopted in the 2009 UNISDR Terminology on Disaster Risk Reduction.
+- **UPSC Relevance:** GS3 Disaster Management. This is the foundational concept for the entire DM section in GS3. Mains asks about the shift from reactive response to proactive risk reduction in India's disaster management approach. Prelims tests the DRR terminology (hazard, vulnerability, capacity, resilience). India's role through CDRI (Coalition for Disaster Resilient Infrastructure, launched 2019) and its global DRR leadership position are important current affairs angles.
 
 ---
 

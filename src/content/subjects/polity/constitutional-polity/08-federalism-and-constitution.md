@@ -334,12 +334,14 @@ NITI Aayog promotes healthy competition among states through transparent indices
 ### Cabinet Mission Plan
 - **Pronunciation:** /ˈkæbɪnɪt ˈmɪʃən plæn/
 - **Definition:** A 1946 British proposal by three Cabinet ministers — Lord Pethick-Lawrence, Sir Stafford Cripps, and A.V. Alexander — that recommended a three-tier federal structure for India and led to the formation of the Constituent Assembly.
-- **Origin:** Named after the British Cabinet-level delegation ("mission") sent to India in March 1946 to negotiate the transfer of power.
+- **Context:** The three-member delegation arrived in India on 24 March 1946 to negotiate the transfer of power. It rejected the demand for a separate Pakistan but proposed a loose three-tier federation (Union, Groups of Provinces, Provinces). The plan was accepted by both Congress and Muslim League initially, but disagreements over grouping led to its collapse and ultimately to Partition. The Constituent Assembly was formed under this plan's framework.
+- **UPSC Relevance:** GS2 Polity — Prelims: three members of the mission, year (1946), three-tier structure proposed, rejected separate Pakistan demand, led to formation of Constituent Assembly; Mains: role of the Cabinet Mission in shaping India's federal structure, why the plan failed (grouping controversy), its legacy in the Constitution's federal design.
 
 ### Objectives Resolution
 - **Pronunciation:** /əbˈdʒɛktɪvz ˌrɛzəˈluːʃən/
 - **Definition:** A resolution moved by Jawaharlal Nehru on 13 December 1946 and adopted by the Constituent Assembly on 22 January 1947, laying down the guiding principles and aspirations — including sovereignty, justice, liberty, and equality — that formed the philosophical foundation of the Indian Constitution's Preamble.
-- **Origin:** From Latin *objectivum* ("something thrown before the mind") + *resolutio* ("a loosening, solving"), reflecting its purpose as a formal statement of constitutional aims.
+- **Context:** Debated over several days (16-19 December 1946, resumed 21 January 1947) and adopted unanimously with all members standing. Declared India's resolve to be a "Sovereign Independent Republic" — "Independent" was later dropped from the Preamble as redundant. The Resolution explicitly mentioned safeguards for minorities and backward classes, which found expression in Fundamental Rights and DPSPs rather than the Preamble text.
+- **UPSC Relevance:** GS2 Polity — Prelims: who moved it (Nehru), dates (moved 13 Dec 1946, adopted 22 Jan 1947), relationship to the Preamble, difference between Resolution text and final Preamble; Mains: how the Objectives Resolution shaped the Constitution's philosophical framework, the transition from Resolution to Preamble — what was retained, modified, or dropped and why.
 
 ---
 

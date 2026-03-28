@@ -245,12 +245,14 @@ India is known as the **"pharmacy of the world"**, accounting for approximately 
 ### One Health Approach
 - **Pronunciation:** /wʌn hɛlθ əˈprəʊtʃ/
 - **Definition:** A collaborative, multisectoral, and transdisciplinary framework that recognises the interconnection between human health, animal health, and the environment to achieve optimal health outcomes for all three domains.
-- **Origin:** The concept builds on 19th-century ideas of Rudolf Virchow and William Osler linking human and animal health; the modern term emerged in 2003-2004 during the SARS outbreak, and was formalised through the 2004 Manhattan Principles by the Wildlife Conservation Society.
+- **Context:** The concept builds on 19th-century ideas of Rudolf Virchow and William Osler linking human and animal health; the modern term emerged in 2003-2004 during the SARS outbreak, and was formalised through the 2004 Manhattan Principles by the Wildlife Conservation Society.
+- **UPSC Relevance:** GS3 (Science & Technology) and GS2 (Health). Prelims may test the definition and which agencies promote it (WHO, FAO, OIE/WOAH). Mains frequently asks about zoonotic diseases (Nipah, avian flu, COVID-19), antimicrobial resistance (AMR), and pandemic preparedness — all of which require the One Health framework. India's NAP-AMR (2017) explicitly adopts the One Health approach.
 
 ### Universal Immunisation Programme
 - **Pronunciation:** /ˌjuːnɪˈvɜːsəl ˌɪmjuːnaɪˈzeɪʃən ˈprəʊɡræm/
 - **Definition:** India's nationwide vaccination programme, launched in 1985, that provides free immunisation against 12 vaccine-preventable diseases to all children and pregnant women through a network of public health facilities.
-- **Origin:** Evolved from the Expanded Programme on Immunization (EPI) launched in India in 1978; universalised in 1985 to extend coverage beyond urban areas to the entire country.
+- **Context:** Evolved from the Expanded Programme on Immunization (EPI) launched in India in 1978; universalised in 1985 to extend coverage beyond urban areas to the entire country.
+- **UPSC Relevance:** GS2 (Health / Governance) and GS3 (Science & Technology). Prelims tests UIP launch year (1985), number of diseases covered (12), Mission Indradhanush (December 2014) and its phases (IMI 1.0 through 5.0), and vaccine types (live attenuated vs inactivated vs mRNA). Mains asks about India's immunisation coverage gaps, full immunisation targets, and the role of Ayushman Bharat in strengthening public health infrastructure.
 
 ---
 

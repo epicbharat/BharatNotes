@@ -200,12 +200,14 @@ The IVC represents the **world's first known planned urban settlements**, with a
 ### Great Bath
 - **Pronunciation:** /ɡreɪt bɑːθ/
 - **Definition:** A large, watertight public tank (12 m x 7 m x 2.4 m deep) at Mohenjo-daro, sealed with bitumen and supplied by a well, believed to have been used for ritual purification — the earliest known public water tank of the ancient world.
-- **Origin:** Modern archaeological term coined during the 1920s excavations of Mohenjo-daro; *bath* from Old English *baeth* ("act of bathing, immersion in water").
+- **Context:** Modern archaeological term coined during the 1920s excavations of Mohenjo-daro; the structure demonstrates advanced Harappan engineering and waterproofing technology.
+- **UPSC Relevance:** GS1 (Ancient India). Prelims: frequently tested as a factual MCQ — site association (Mohenjo-daro), construction material (bitumen), and purpose (ritual bathing). Mains: cite when discussing IVC urban planning, religious practices, or engineering achievements. Focus on comparing IVC sanitation with contemporary Mesopotamian/Egyptian civilisations.
 
 ### Harappan Script
 - **Pronunciation:** /həˈræpən skrɪpt/
 - **Definition:** The undeciphered writing system of the Indus Valley Civilization, comprising approximately 400-450 distinct signs found mostly on steatite seals, generally read right to left, with inscriptions too short (averaging five signs) to permit reliable decipherment.
 - **Origin:** Named after *Harappa*, the first excavated IVC site in Punjab (modern Pakistan); *script* from Latin *scriptum* ("something written"), from *scribere* ("to write").
+- **UPSC Relevance:** GS1 (Ancient India). Prelims: tested on script characteristics — direction (right to left), number of signs (~400–450), undeciphered status, and medium (steatite seals). Mains: relevant for essays on IVC mysteries, limitations of archaeological evidence, and why decipherment has failed. A perennial UPSC favourite for statement-based questions.
 
 ---
 

@@ -379,12 +379,14 @@ The five ECQs required for entry to the US Senior Executive Service (OPM):
 ### Civil Service Values
 - **Pronunciation:** /ˈsɪv.əl ˈsɜː.vɪs ˈvæl.juːz/
 - **Definition:** The foundational ethical principles -- including integrity, impartiality, non-partisanship, objectivity, dedication to public service, empathy, tolerance, and compassion towards weaker sections -- that guide the conduct of government officials in serving the public interest.
-- **Origin:** Rooted in constitutional provisions and administrative traditions; codified in India through instruments such as the Central Civil Services (Conduct) Rules and the 2nd ARC's 4th Report on "Ethics in Governance"; internationally framed by the UK's Nolan Principles (1995) and OECD Ethics Principles (1998).
+- **Context:** Rooted in constitutional provisions and administrative traditions; codified in India through instruments such as the Central Civil Services (Conduct) Rules and the 2nd ARC's 4th Report on "Ethics in Governance"; internationally framed by the UK's Nolan Principles (1995) and OECD Ethics Principles (1998).
+- **UPSC Relevance:** GS4 Ethics — directly from the syllabus ("aptitude and foundational values for Civil Service"). Tested through theory questions on individual values (integrity, impartiality) and case studies where candidates must demonstrate how these values guide decision-making under pressure. Sardar Patel's "Steel Frame" speech and Nolan Principles are standard answer-writing anchors.
 
 ### Conflict of Interest
 - **Pronunciation:** /ˈkɒn.flɪkt əv ˈɪn.trəst/
 - **Definition:** A situation in which a public official's private or personal interests conflict with, or could reasonably be perceived to conflict with, their duty to act in the public interest, potentially compromising the objectivity and impartiality of their decisions.
 - **Origin:** From Latin *conflīctus* ("a striking together") + Old French *interesse* ("concern, importance"); the concept has been central to public ethics since antiquity but was formally codified in modern governance through instruments such as the OECD Guidelines for Managing Conflict of Interest (2003).
+- **UPSC Relevance:** GS4 Ethics — a recurring theme in Section B case studies where candidates must identify, disclose, and manage conflicts (e.g., a DM whose relative works for a company seeking contracts). Also tested in theory as "Discuss the types of conflict of interest and how a civil servant should handle them." Linked to Nolan Principles (Integrity, Objectivity) and AIS Conduct Rules.
 
 ---
 

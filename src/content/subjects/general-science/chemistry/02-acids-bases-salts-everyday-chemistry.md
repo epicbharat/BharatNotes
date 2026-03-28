@@ -294,12 +294,14 @@ Fire extinguishers work by removing one or more elements of the "fire triangle" 
 ### pH Scale
 - **Pronunciation:** /piː eɪtʃ skeɪl/
 - **Definition:** A logarithmic scale ranging from 0 to 14 that measures the hydrogen ion activity of an aqueous solution, indicating its acidity (below 7), neutrality (7), or alkalinity (above 7).
-- **Origin:** Introduced in 1909 by Danish biochemist S.P.L. Sorensen at the Carlsberg Laboratory; *p* likely stands for the German/Danish *Potenz* (power) and *H* for hydrogen.
+- **Context:** Introduced in 1909 by Danish biochemist S.P.L. Sorensen at the Carlsberg Laboratory; *p* likely stands for the German/Danish *Potenz* (power) and *H* for hydrogen.
+- **UPSC Relevance:** GS3 (General Science / Environment). Prelims frequently tests pH values of common substances — blood (7.35-7.45), stomach acid (~1-2), lemon juice (~2), pure water (7). Know the acid rain threshold (pH below 5.6), soil pH for agriculture, and buffer systems. Mains connects pH to water quality, acid rain impact on Taj Mahal (marble cancer), and environmental pollution.
 
 ### Neutralisation Reaction
 - **Pronunciation:** /ˌnjuːtrəlaɪˈzeɪʃən riˈækʃən/
 - **Definition:** A chemical reaction in which an acid and a base combine in equivalent quantities to produce a salt and water, with the resulting solution's pH depending on the strengths of the reactants.
-- **Origin:** From Latin *neutrālis* (of neither gender, neuter) + the suffix *-isation*; the concept formalised with the development of Arrhenius acid-base theory in 1884.
+- **Context:** From Latin *neutrālis* (of neither gender, neuter) + the suffix *-isation*; the concept formalised with the development of Arrhenius acid-base theory in 1884.
+- **UPSC Relevance:** GS3 (General Science). Prelims tests everyday applications — antacids neutralising stomach acid, lime added to acidic soil, bee sting (acidic, treated with base) vs wasp sting (alkaline, treated with acid). Know important salts produced by neutralisation: baking soda (NaHCO₃), washing soda, bleaching powder, plaster of Paris — their formulas, preparation, and uses.
 
 ---
 

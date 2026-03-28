@@ -278,12 +278,14 @@ Noble metals are found in **free state** in nature because they do not react eas
 ### Reactivity Series
 - **Pronunciation:** /riːˌæktɪˈvɪti ˈsɪəriːz/
 - **Definition:** An empirical ranking of metals in descending order of their tendency to lose electrons and react with other substances such as water, acids, and metal salt solutions — used to predict displacement reactions and determine extraction methods.
-- **Origin:** Developed from 19th-century electrochemistry experiments; built upon the electrochemical series established by scientists including Humphry Davy and Michael Faraday.
+- **Context:** Developed from 19th-century electrochemistry experiments; built upon the electrochemical series established by scientists including Humphry Davy and Michael Faraday.
+- **UPSC Relevance:** GS3 (General Science). Prelims tests the order of reactivity (K, Na, Ca, Mg, Al, Zn, Fe... to Au, Pt), which metals react with dilute acids (above hydrogen), extraction methods linked to reactivity (electrolysis for highly reactive, carbon reduction for moderate, found free for least reactive), and displacement reactions. Know that German silver contains no silver (Cu + Zn + Ni) — a common Prelims trap.
 
 ### Corrosion
 - **Pronunciation:** /kəˈrəʊʒən/
 - **Definition:** The gradual destruction of a metal or alloy by chemical or electrochemical reaction with its environment, most commonly involving oxidation in the presence of moisture and oxygen.
 - **Origin:** From Late Latin *corrōsiōnem* (a gnawing away), from Latin *corrōdere* (to gnaw to pieces), from *cor-* (intensive prefix) + *rōdere* (to gnaw); first recorded in English around 1400.
+- **UPSC Relevance:** GS3 (General Science / Economy). Prelims tests conditions for rusting (oxygen + water), prevention methods (galvanisation, painting, alloying, sacrificial anode), and alloy compositions — stainless steel (Fe + Cr + Ni), bronze (Cu + Sn), brass (Cu + Zn), duralumin (Al + Cu). Mains connects to critical minerals policy, rare earth elements, and India's mineral resource management.
 
 ---
 

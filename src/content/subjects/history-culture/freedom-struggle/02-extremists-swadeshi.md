@@ -281,11 +281,13 @@ The Swadeshi period also saw the rise of revolutionary organisations that believ
 ### Partition of Bengal
 - **Pronunciation:** /pɑːˈtɪʃən əv bɛnˈɡɔːl/
 - **Definition:** The division of the Bengal Presidency on 16 October 1905 by Viceroy Lord Curzon into Eastern Bengal and Assam (Muslim-majority) and West Bengal (Hindu-majority), ostensibly for administrative efficiency but widely perceived as a "divide and rule" strategy to weaken Bengali nationalism; annulled in December 1911.
-- **Origin:** English compound referring to the administrative reorganisation of the Bengal Presidency; the decision was formally announced on 19 July 1905 and took effect on 16 October 1905.
+- **Context:** Announced 19 July 1905, effective 16 October 1905 (observed as a day of mourning); sparked the Swadeshi and Boycott movements; led to the formation of the Muslim League (1906, Dhaka) and the Surat Split (1907); annulled by King George V in December 1911.
+- **UPSC Relevance:** GS1 (Modern India). Prelims: tested on Viceroy (Lord Curzon), date (16 October 1905), annulment year (1911), and its consequences (Swadeshi movement, Muslim League formation, Surat Split). Mains: a central topic — asked to assess the Partition as a catalyst for mass nationalism, the Swadeshi movement's economic and political dimensions, and the emergence of the Moderate–Extremist divide. Focus on how an administrative decision became a defining political event.
 
 ### Surat Split
 - **Pronunciation:** /ˈsʊərət splɪt/
 - **Definition:** The division of the Indian National Congress at its 1907 session in Surat into two factions — the Moderates (led by Gokhale and Pherozeshah Mehta) and the Extremists (led by Tilak and Lajpat Rai) — over fundamental disagreements on political methods and goals, which weakened the Congress for nearly a decade until reunification at the Lucknow Session of 1916.
-- **Origin:** Named after the city of Surat in Gujarat where the 1907 Congress session was held; the session descended into chaos when Moderates and Extremists clashed over the presidential election and key resolutions.
+- **Context:** The immediate trigger was the dispute over the presidential candidate for the 1907 session; the Moderates wanted Rash Behari Ghose while the Extremists supported Lajpat Rai; the split weakened the Congress until the Lucknow Pact (1916) reunited the factions.
+- **UPSC Relevance:** GS1 (Modern India). Prelims: tested on year (1907), city (Surat), the Moderate and Extremist leaders, and the Lucknow Pact reunification (1916). Mains: asked to compare the methods and goals of Moderates vs Extremists, and assess the Swadeshi movement's legacy. Focus on the ideological differences — Moderates (constitutional methods, faith in British justice) vs Extremists (mass mobilisation, Swaraj, boycott) — and how the split paradoxically strengthened the movement by broadening its social base.
 
 *Sources: Bipan Chandra — History of Modern India, Sumit Sarkar — The Swadeshi Movement in Bengal, NCERT — Themes in Indian History Part III, S.R. Mehrotra — A History of the Indian National Congress*

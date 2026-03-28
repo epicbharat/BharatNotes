@@ -298,11 +298,13 @@ The **Right to Information Act, 2005** was passed by Parliament on 15 June 2005 
 - **Pronunciation:** /ɪˈməʊʃənəl ɪnˈtɛlɪdʒəns/
 - **Definition:** The capacity to recognise, understand, manage, and effectively use one's own emotions while also perceiving and influencing the emotions of others — comprising self-awareness, self-regulation, motivation, empathy, and social skills in Daniel Goleman's five-component model.
 - **Origin:** First formally defined by psychologists Peter Salovey and John Mayer in their 1990 journal article; the concept was popularised globally by Daniel Goleman's 1995 bestseller *Emotional Intelligence: Why It Can Matter More Than IQ*, which argued that EQ is a learned capability — not an inborn trait — and is critical for effective leadership.
+- **UPSC Relevance:** GS4 Ethics — explicitly listed in the syllabus as "Emotional intelligence — concepts and their utilities and application in administration and governance." Tested in both Section A (theory questions on Goleman's five components, EQ vs IQ) and Section B (case studies requiring EI application in disaster management, grievance redressal, and team leadership). One of the most frequently examined GS4 concepts.
 
 ### Foundational Values
 - **Pronunciation:** /faʊnˈdeɪʃənəl ˈvæljuːz/
 - **Definition:** The core ethical principles — including integrity, impartiality, objectivity, empathy, non-partisanship, dedication to public service, and compassion towards weaker sections — that guide civil servants in ethical decision-making and ensure fair, accountable, and service-oriented governance.
 - **Origin:** Rooted in the ethical traditions of Indian administrative thought and constitutional morality, these values are codified in instruments such as the All India Services (Conduct) Rules and the Central Civil Services (Conduct) Rules, 1964; the UPSC GS4 Ethics syllabus explicitly lists "aptitude and foundational values for Civil Service" as a core topic, reflecting the Second Administrative Reforms Commission's emphasis on an ethical framework for public administration.
+- **UPSC Relevance:** GS4 Ethics — directly from the syllabus ("aptitude and foundational values for Civil Service"). Tested both as standalone theory questions ("Which foundational value is most important for a civil servant?") and embedded in Section B case studies where candidates must identify which values are at stake. The Nolan Principles and 2nd ARC framework are standard reference points for answers.
 
 ---
 

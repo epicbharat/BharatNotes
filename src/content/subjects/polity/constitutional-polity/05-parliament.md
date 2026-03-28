@@ -260,12 +260,14 @@ The **Constitution (129th Amendment) Bill, 2024** was introduced in Lok Sabha on
 ### Money Bill
 - **Pronunciation:** /ˈmʌn.i bɪl/
 - **Definition:** A Bill that deals exclusively with matters of taxation, government borrowing, or expenditure from the Consolidated Fund of India, as defined under Article 110; it can be introduced only in Lok Sabha, and Rajya Sabha may only suggest amendments within 14 days, which Lok Sabha may accept or reject.
-- **Origin:** The term combines Old English *mynet* (from Latin *monēta*, "mint, money") + Old English *bile* ("document"); the constitutional concept traces to the British Parliament's historic struggle for Commons supremacy over financial legislation.
+- **Context:** The constitutional concept traces to the British Parliament's historic struggle for Commons supremacy over financial legislation. The Speaker's certification of a Money Bill is final (Article 110(3)) and not subject to judicial review. The Aadhaar Act (2016) was controversially passed as a Money Bill — upheld 4:1 by the SC, with Justice Chandrachud's strong dissent calling it a "fraud on the Constitution."
+- **UPSC Relevance:** GS2 Polity — Prelims: Article 110, who certifies (Speaker — final), Rajya Sabha's 14-day window, cannot be introduced in Rajya Sabha, President cannot return a Money Bill; Mains: Aadhaar as Money Bill controversy, erosion of Rajya Sabha's role through Money Bill route, should Speaker's certification be subject to judicial review.
 
 ### No-Confidence Motion
 - **Pronunciation:** /nəʊ ˈkɒn.fɪ.dəns ˈməʊ.ʃən/
 - **Definition:** A parliamentary motion moved in the Lok Sabha (requiring the support of at least 50 members for admission) to test whether the Council of Ministers retains the confidence of the House; if passed by simple majority, the entire Council of Ministers must resign.
-- **Origin:** From the prefix *no* + Latin *cōnfīdentia* ("firm trust") + Latin *mōtiō* ("movement"); the device is rooted in the British parliamentary convention of ministerial accountability, constitutionally anchored in India through Article 75(3).
+- **Context:** Governed by Rule 198 of the Rules of Procedure of Lok Sabha (not mentioned in the Constitution itself). The first no-confidence motion was moved by Acharya J.B. Kripalani against Nehru's government in August 1963. Cannot be moved in Rajya Sabha. The vote must take place within 10 days of admission. Based on the principle of collective responsibility under Article 75(3).
+- **UPSC Relevance:** GS2 Polity — Prelims: only in Lok Sabha, 50 members needed, Rule 198 (not a constitutional provision), difference from censure motion (censure needs specific reasons, can be against an individual minister); Mains: effectiveness of the no-confidence mechanism in coalition era, comparison with vote of confidence, role of floor tests in hung assemblies.
 
 ---
 

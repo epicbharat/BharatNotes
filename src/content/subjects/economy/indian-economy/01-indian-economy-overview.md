@@ -330,12 +330,14 @@ Link these static concepts with live developments:
 ### Gross Domestic Product
 - **Pronunciation:** /ɡroʊs dəˈmes.tɪk ˈprɒd.ʌkt/
 - **Definition:** The total monetary value of all final goods and services produced within a country's borders during a specific period, used as the primary indicator of the size and health of an economy.
-- **Origin:** The concept was developed by economist Simon Kuznets for a 1934 report to the United States Congress; after the Bretton Woods Conference (1944), GDP became the standard international metric for measuring national economic output, though Kuznets himself warned that "the welfare of a nation can scarcely be inferred from a measure of national income."
+- **Context:** Developed by economist Simon Kuznets for a 1934 US Congress report; became the standard international metric after the Bretton Woods Conference (1944). India uses GDP at market prices as the headline measure (shifted from GDP at factor cost in 2015). Base year: 2011-12. GDP at market prices = GDP at factor cost + Indirect taxes - Subsidies. GVA at basic prices replaced GDP at factor cost for sectoral analysis. India is the 5th largest economy by nominal GDP and 3rd largest by PPP.
+- **UPSC Relevance:** GS3 Economy — Prelims: GDP vs GNP vs NNP formulas, base year (2011-12), GDP at market prices vs factor cost, GVA methodology, India's GDP rank (5th nominal, 3rd PPP), current GDP growth rate; Mains: limitations of GDP as a welfare indicator (Kuznets' own warning), why India's HDI rank lags its GDP rank, jobless growth debate, should India adopt alternative measures like GNH or MPI alongside GDP.
 
 ### Purchasing Power Parity
 - **Pronunciation:** /ˈpɜː.tʃə.sɪŋ ˈpaʊ.ə ˈpær.ɪ.ti/
 - **Definition:** An economic theory and measurement that compares the purchasing power of different countries' currencies by determining the amount of a standardised basket of goods each currency can buy, enabling cross-country comparisons of living standards and economic output.
-- **Origin:** Formalised by Swedish economist Gustav Cassel in 1918 in his paper "Abnormal Deviations in International Exchanges," when the gold standard broke down during World War I; Cassel proposed using relative inflation rates to determine equilibrium exchange rates between nations.
+- **Context:** Formalised by Swedish economist Gustav Cassel in 1918. India's GDP at PPP (~USD 14.6 trillion, 2024 estimate) is significantly higher than its nominal GDP (~USD 3.9 trillion), reflecting lower price levels in India. On a PPP basis, India is the 3rd largest economy after China and the USA. The International Comparison Program (ICP) conducted by the World Bank provides PPP data; the latest round (2021) showed India's PPP conversion factor is approximately 22 rupees per international dollar.
+- **UPSC Relevance:** GS3 Economy — Prelims: PPP vs nominal GDP (India is 5th nominal but 3rd by PPP), who publishes PPP data (World Bank ICP), Gustav Cassel (1918); Mains: why PPP is a better measure of living standards than nominal GDP, limitations of PPP (non-tradable goods, quality differences), India's economic significance when measured by PPP vs nominal terms.
 
 ---
 

@@ -285,9 +285,11 @@ India is the world's **second-largest agricultural producer** and agriculture re
 ### Green Revolution
 - **Pronunciation:** /ɡriːn ˌrɛvəˈluːʃən/
 - **Definition:** The dramatic increase in food grain production — particularly wheat and rice — achieved in developing countries from the mid-1960s through the adoption of high-yielding variety (HYV) seeds, chemical fertilisers, irrigation, and mechanisation.
-- **Origin:** The term was coined by William S. Gaud, administrator of USAID, in a speech on 8 March 1968; the agricultural research underlying it was pioneered by Norman Borlaug in Mexico from the 1940s and adapted for India by M.S. Swaminathan in the 1960s.
+- **Context:** The term was coined by William S. Gaud, administrator of USAID, in a speech on 8 March 1968; the agricultural research underlying it was pioneered by Norman Borlaug in Mexico from the 1940s and adapted for India by M.S. Swaminathan in the 1960s.
+- **UPSC Relevance:** GS1 Geography and GS3 Agriculture. Prelims tests Borlaug (Nobel Peace Prize 1970), Swaminathan, HYV seeds, and the initial states (Punjab, Haryana, Western UP). Mains frequently asks to critically evaluate the Green Revolution's legacy — achievements (food self-sufficiency) vs long-term costs (groundwater depletion, soil degradation, regional and crop inequality). The "Evergreen Revolution" concept (Swaminathan) — productivity without ecological harm — is a key Mains conclusion point.
 
 ### Public Distribution System
 - **Pronunciation:** /ˈpʌblɪk ˌdɪstrɪˈbjuːʃən ˈsɪstəm/
 - **Definition:** A government-managed food security network that distributes subsidised food grains and essential commodities to economically vulnerable households through a nationwide chain of Fair Price Shops (ration shops).
-- **Origin:** Originated as a wartime food rationing system introduced by the British in India in 1939 in Bombay; institutionalised after independence with the creation of the Food Corporation of India in 1965 and restructured as the Targeted PDS in 1997.
+- **Context:** Originated as a wartime food rationing system introduced by the British in India in 1939 in Bombay; institutionalised after independence with the creation of the Food Corporation of India in 1965 and restructured as the Targeted PDS in 1997.
+- **UPSC Relevance:** GS3 Food Security and GS2 Governance. Prelims tests NFSA coverage (75% rural, 50% urban), entitlements (5 kg/person/month), prices (rice Rs 3, wheat Rs 2), ration card categories (AAY, PHH, APL), and ONORC for migrants. Mains asks about PDS reforms — Aadhaar-linked distribution, DBT of food subsidy, and the paradox of India having massive food stocks yet high malnutrition. The merger of PMGKAY into NFSA (January 2024, making grain free) is a key current affairs point.

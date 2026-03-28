@@ -287,12 +287,14 @@ The expanded BRICS represents approximately half the world's population and 41% 
 ### Act East Policy
 - **Pronunciation:** /ækt iːst ˈpɒl.ɪ.si/
 - **Definition:** India's strategic foreign policy doctrine that upgrades the earlier Look East Policy (1991) into an action-oriented, project-based engagement with Southeast Asia, East Asia, and the broader Indo-Pacific region, built on four pillars — Culture, Commerce, Connectivity, and Capacity Building.
-- **Origin:** Officially announced by Prime Minister Narendra Modi at the 12th ASEAN-India Summit in Nay Pyi Taw, Myanmar, in November 2014, replacing the Look East Policy launched by PM P.V. Narasimha Rao in 1991; the shift from "Look" to "Act" signalled a move from passive engagement to proactive, outcome-driven diplomacy.
+- **Context:** Officially announced by Prime Minister Narendra Modi at the 12th ASEAN-India Summit in Nay Pyi Taw, Myanmar, in November 2014, replacing the Look East Policy launched by PM P.V. Narasimha Rao in 1991; the shift from "Look" to "Act" signalled a move from passive engagement to proactive, outcome-driven diplomacy.
+- **UPSC Relevance:** GS2 International Relations — a high-frequency topic in both Prelims (launch year, scope, ASEAN connection) and Mains (evaluate the shift from Look East to Act East; compare with Neighbourhood First). Mains questions often ask candidates to assess outcomes of Act East in connectivity, trade, and Indo-Pacific strategy.
 
 ### Neighbourhood First
 - **Pronunciation:** /ˈneɪ.bə.hʊd fɜːst/
 - **Definition:** India's foreign policy doctrine prioritising enhanced diplomatic, economic, and security relations with its immediate South Asian neighbours through connectivity, development assistance, and institutional engagement.
-- **Origin:** The concept was first articulated in 2008 but gained formal recognition under PM Narendra Modi in 2014, signalled by his unprecedented invitation to all SAARC heads of state for his swearing-in ceremony on 26 May 2014, and his choice of Bhutan as his first overseas destination as Prime Minister.
+- **Context:** The concept was first articulated in 2008 but gained formal recognition under PM Narendra Modi in 2014, signalled by his unprecedented invitation to all SAARC heads of state for his swearing-in ceremony on 26 May 2014, and his choice of Bhutan as his first overseas destination as Prime Minister.
+- **UPSC Relevance:** GS2 International Relations — tested in Mains as "Evaluate the effectiveness of India's Neighbourhood First Policy" and in Prelims for factual details (launch year, key initiatives). Often linked to questions on SAARC vs BIMSTEC, India-China competition in South Asia, and connectivity projects.
 
 ---
 

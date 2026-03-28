@@ -426,9 +426,11 @@ India has **18 notified Biosphere Reserves**, of which **13 have been recognised
 ### Biosphere Reserve
 - **Pronunciation:** /ˈbaɪəsfɪər rɪˈzɜːrv/
 - **Definition:** An area designated under UNESCO's Man and the Biosphere (MAB) Programme that combines nature conservation with sustainable human development, structured into core, buffer, and transition zones.
-- **Origin:** "Biosphere" from German *Biosphäre*, coined by geologist Eduard Suess in 1875, from Greek *bios* ("life") + *sphaira* ("sphere"); "reserve" from Latin *reservāre* ("to keep back").
+- **Context:** "Biosphere" from German *Biosphäre*, coined by geologist Eduard Suess in 1875, from Greek *bios* ("life") + *sphaira* ("sphere"); "reserve" from Latin *reservāre* ("to keep back").
+- **UPSC Relevance:** GS1 Geography and GS3 Environment. Prelims regularly tests all 18 biosphere reserves — states, year of notification, and UNESCO recognition status. Key facts: Nilgiri was first (1986), Kachchh is largest, Dibru-Saikhowa is smallest, Cold Desert became 13th UNESCO BR in 2025. Mains asks about biosphere reserves as a model for balancing conservation with livelihoods, and the three-zone structure (core, buffer, transition).
 
 ### Champion and Seth Classification
 - **Pronunciation:** /ˈtʃæmpiən ənd sɛθ ˌklæsɪfɪˈkeɪʃən/
 - **Definition:** The standard classification of Indian forests published by H.G. Champion and S.K. Seth in 1968, dividing India's forests into 6 major groups, 16 type groups, and 221 sub-types based on climate, physiognomy, and species composition.
-- **Origin:** Named after the authors of *A Revised Survey of the Forest Types of India* (1968); the original classification was first prepared by H.G. Champion in 1936 and subsequently revised with S.K. Seth.
+- **Context:** Named after the authors of *A Revised Survey of the Forest Types of India* (1968); the original classification was first prepared by H.G. Champion in 1936 and subsequently revised with S.K. Seth.
+- **UPSC Relevance:** GS1 Geography and GS3 Environment. Prelims tests the 6 major groups and 16 type groups, and which is the largest forest type (tropical dry deciduous, not moist deciduous — a classic trap). Mains expects correlation between rainfall zones and forest types, and the linkage between forest classification and ISFR data. Remember that this classification remains the standard reference for Indian forestry and is used by the Forest Survey of India.

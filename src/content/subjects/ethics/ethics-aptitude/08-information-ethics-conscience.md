@@ -371,9 +371,11 @@ Ethical leadership in governance requires:
 ### Data Privacy
 - **Pronunciation:** /ˈdeɪtə ˈprɪvəsi/
 - **Definition:** The right of individuals to control how their personal information is collected, stored, processed, and shared, and the corresponding legal and ethical frameworks that protect this right; in India, governed by the Digital Personal Data Protection Act, 2023.
-- **Origin:** The concept evolved from mid-20th-century concerns about computerised record-keeping; foundational principles were codified in the Fair Information Practice Principles (FIPPs) of the 1970s and have since been enshrined in laws such as the EU's GDPR (2018) and India's DPDP Act (2023).
+- **Context:** The concept evolved from mid-20th-century concerns about computerised record-keeping; foundational principles were codified in the Fair Information Practice Principles (FIPPs) of the 1970s and have since been enshrined in laws such as the EU's GDPR (2018) and India's DPDP Act (2023).
+- **UPSC Relevance:** GS4 Ethics (information ethics, RTI vs privacy tension) and GS3 (cyber security, DPDP Act 2023). Mains asks about balancing transparency with privacy, the Puttaswamy judgment (2017), and the DPDP Act's consent framework. Prelims tests DPDP Act provisions (penalties up to Rs 250 crore, Data Protection Board). A cross-cutting topic linking governance, technology, and fundamental rights.
 
 ### Digital Ethics
 - **Pronunciation:** /ˈdɪdʒɪtəl ˈɛθɪks/
 - **Definition:** The branch of applied ethics that examines moral principles and standards governing responsible behaviour by individuals, organisations, and governments in the creation, use, and regulation of digital technologies, data, and online platforms.
-- **Origin:** Emerged as a distinct field in the late 20th century alongside the rise of the internet and digital computing; draws on classical ethical traditions (consequentialism, deontology, virtue ethics) applied to novel challenges such as algorithmic bias, surveillance, data ownership, and AI governance.
+- **Context:** Emerged as a distinct field in the late 20th century alongside the rise of the internet and digital computing; draws on classical ethical traditions (consequentialism, deontology, virtue ethics) applied to novel challenges such as algorithmic bias, surveillance, data ownership, and AI governance.
+- **UPSC Relevance:** GS4 Ethics — an emerging topic for Mains essays and theory questions on AI governance, algorithmic bias, deepfakes, and surveillance ethics. Also relevant for GS3 (cyber security, social media regulation). Apply frameworks of transparency, accountability, fairness, and human oversight. The Puttaswamy judgment and DPDP Act provide the constitutional and legal anchors.

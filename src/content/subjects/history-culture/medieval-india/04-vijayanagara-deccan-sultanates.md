@@ -266,12 +266,14 @@ Mahmud Gawan, himself an Afaqi, attempted to balance these factions through admi
 ### Krishna Deva Raya
 - **Pronunciation:** /ˈkrɪʃnə ˈdeɪvə ˈrɑːjə/
 - **Definition:** The greatest ruler of the Vijayanagara Empire (r. 1509–1529) of the Tuluva dynasty, who defeated the Bijapur Sultanate at the Battle of Raichur (1520), conquered the Gajapati kingdom of Odisha, patronised Telugu literature through his court of Ashtadiggajas (Eight Great Poets), and authored the Telugu epic *Amuktamalyada*.
-- **Origin:** A Sanskrit compound name: *Krishna* (कृष्ण, "dark, black," a name of the deity Vishnu), *Deva* (देव, "god, divine"), and *Raya* (a Dravidianised form of Sanskrit *rāja*, "king"); thus "King Krishna Deva."
+- **Context:** His reign (1509–1529) is considered the zenith of the Vijayanagara Empire; Portuguese traveller Domingo Paes described him as "the most feared and perfect king" and his capital Hampi as larger than Rome.
+- **UPSC Relevance:** GS1 (Medieval India & Culture). Prelims: tested on dynasty (Tuluva), literary patronage (Ashtadiggajas, Amuktamalyada), foreign travellers' accounts (Domingo Paes, Fernao Nuniz), and military achievements (Battle of Raichur 1520). Mains: relevant for essays on South Indian polity, Vijayanagara art and architecture (Hampi — UNESCO World Heritage Site), and Hindu state-building in medieval India. Focus on administration, cultural achievements, and foreign accounts.
 
 ### Battle of Talikota
 - **Pronunciation:** /ˈtɑːlɪkoʊtə/
 - **Definition:** The decisive battle fought on 23 January 1565 (also called the Battle of Rakkasa-Tangadi) in which a combined alliance of four Deccan Sultanates — Ahmadnagar, Bijapur, Bidar, and Golconda — defeated the Vijayanagara Empire, resulting in the death of regent Aliya Rama Raya and the destruction of Hampi, though the empire continued under the Aravidu dynasty until 1646.
-- **Origin:** Named after the town of Talikota in present-day Bijapur district, Karnataka, near which the battle was fought; *Rakkasa-Tangadi*, the alternative name, refers to the actual villages where the fighting took place.
+- **Context:** Named after the town of Talikota in present-day Bijapur district, Karnataka; also called the Battle of Rakkasa-Tangadi; marked the effective end of Vijayanagara as a major power, though the Aravidu dynasty continued until 1646.
+- **UPSC Relevance:** GS1 (Medieval India). Prelims: tested on date (1565), participating sultanates (Ahmadnagar, Bijapur, Bidar, Golconda), and consequences (destruction of Hampi, not immediate end of empire). Mains: asked to analyse causes — Rama Raya's manipulative diplomacy united the sultanates against Vijayanagara. Focus on inter-state relations in medieval Deccan and the cultural devastation of Hampi.
 
 ---
 

@@ -345,12 +345,14 @@ Key trends:
 ### Unity in Diversity
 - **Pronunciation:** /ˈjuːnɪti ɪn daɪˈvɜːrsɪti/
 - **Definition:** The foundational principle that India's strength lies in the coexistence of its many ethnic, linguistic, religious, and cultural communities under a shared constitutional framework of common citizenship and fundamental rights.
-- **Origin:** Popularised in the Indian context by Jawaharlal Nehru in his 1946 book *The Discovery of India*; the broader concept has ancient roots, including the Old Javanese phrase *Bhinneka Tunggal Ika* from the 14th-century poem *Kakawin Sutasoma* by Mpu Tantular.
+- **Context:** Popularised in the Indian context by Jawaharlal Nehru in his 1946 book *The Discovery of India*; the broader concept has ancient roots, including the Old Javanese phrase *Bhinneka Tunggal Ika* from the 14th-century poem *Kakawin Sutasoma* by Mpu Tantular.
+- **UPSC Relevance:** GS1 Indian Society — a foundational concept that frames almost all society questions. Mains asks "How does India's diversity pose both opportunities and challenges for national integration?" Useful as an opening framework for essays on secularism, communalism, regionalism, and linguistic diversity. Also relevant for GS4 (tolerance, compassion) and Essay paper.
 
 ### Demographic Dividend
 - **Pronunciation:** /ˌdɛməˈɡræfɪk ˈdɪvɪdɛnd/
 - **Definition:** The potential boost to economic growth that arises when a country's working-age population (15-64 years) is significantly larger than the dependent population (children and elderly), provided this workforce is adequately skilled, healthy, and employed.
-- **Origin:** The term was coined by Harvard economists David Bloom and David Canning in the late 1990s, based on their analysis of East Asian economic growth between 1965 and 1990; India's demographic dividend window is estimated to last from approximately 2005-06 to 2055-56.
+- **Context:** The term was coined by Harvard economists David Bloom and David Canning in the late 1990s, based on their analysis of East Asian economic growth between 1965 and 1990; India's demographic dividend window is estimated to last from approximately 2005-06 to 2055-56.
+- **UPSC Relevance:** GS1 Indian Society and GS3 Economy — Mains asks "Can India harness its demographic dividend, or will it age before getting rich?" Prelims tests the definition, window period, and TFR data. Links to education, skill development, female LFPR, health outcomes, and north-south demographic asymmetry. A versatile concept for Essay paper and Interview.
 
 ---
 

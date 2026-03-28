@@ -326,12 +326,14 @@ The central question UPSC asks is: **Does globalisation homogenise or strengthen
 ### Cultural Imperialism
 - **Pronunciation:** /ˈkʌl.tʃər.əl ɪmˈpɪə.ri.ə.lɪ.zəm/
 - **Definition:** The imposition or dominance of one culture's values, beliefs, practices, and media products over another, typically by a politically or economically powerful society, leading to the erosion or displacement of indigenous cultural identities.
-- **Origin:** The term emerged in scholarly discourse in the 1960s and was formalised by American media critic Herbert I. Schiller in his work *Communication and Cultural Domination* (1976), though the practice of cultural domination has historical roots in colonialism and imperialism.
+- **Context:** The term emerged in scholarly discourse in the 1960s and was formalised by American media critic Herbert I. Schiller in his work *Communication and Cultural Domination* (1976), though the practice of cultural domination has historical roots in colonialism and imperialism.
+- **UPSC Relevance:** GS1 Indian Society (globalisation and Indian society) — Mains asks "Does globalisation lead to cultural homogenisation or cultural imperialism?" Use the concept to discuss the tension between global cultural flows and local identity preservation. Contrast with "glocalisation" for a balanced answer. Links to media influence, Westernisation vs Sanskritisation, and India's soft power.
 
 ### Digital Divide
 - **Pronunciation:** /ˈdɪdʒ.ɪ.təl dɪˈvaɪd/
 - **Definition:** The gap between individuals, households, communities, or nations that have access to modern information and communication technologies (especially the internet) and those that do not, leading to disparities in economic opportunity, education, and social participation.
-- **Origin:** The term was first used by Los Angeles Times journalists Webber and Harmon in July 1995 and was popularised by the U.S. National Telecommunications and Information Administration (NTIA) through its 1995 report *Falling Through the Net: A Survey of the "Have Nots" in Rural and Urban America*.
+- **Context:** The term was first used by Los Angeles Times journalists Webber and Harmon in July 1995 and was popularised by the U.S. National Telecommunications and Information Administration (NTIA) through its 1995 report *Falling Through the Net: A Survey of the "Have Nots" in Rural and Urban America*.
+- **UPSC Relevance:** GS1 Indian Society (globalisation), GS2 Governance (e-governance), and GS3 Economy — Mains asks "Is e-governance deepening the urban-rural divide?" and "How can Digital India bridge the digital divide?" Links to BharatNet, gender gap in internet access, and the COVID-19 online education divide. A multi-dimensional concept connecting technology, inclusion, and social justice.
 
 ---
 

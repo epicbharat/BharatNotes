@@ -318,9 +318,11 @@ A gene-editing technology that uses a guide RNA to locate a specific DNA sequenc
 ### Mendel's Laws
 - **Pronunciation:** /ˈmɛndəlz lɔːz/
 - **Definition:** The three foundational principles of heredity — the law of dominance, the law of segregation, and the law of independent assortment — describing how traits are transmitted from parents to offspring through discrete units (genes).
-- **Origin:** Named after Gregor Johann Mendel (1822–1884), the Augustinian friar who derived these principles from pea plant breeding experiments conducted between 1856 and 1863, published in 1866.
+- **Context:** Named after Gregor Johann Mendel (1822–1884), the Augustinian friar who derived these principles from pea plant breeding experiments conducted between 1856 and 1863, published in 1866.
+- **UPSC Relevance:** GS3 (General Science). Prelims tests the three laws, dominant vs recessive traits, monohybrid ratio (3:1), and X-linked inheritance (why haemophilia and colour blindness are more common in males). Know the difference between genotype and phenotype, homozygous vs heterozygous. Mains connects to genetic disorders, sickle cell anaemia (National Sickle Cell Anaemia Elimination Mission, 2023), and ethical dimensions of genetic testing.
 
 ### Natural Selection
 - **Pronunciation:** /ˈnætʃərəl sɪˈlɛkʃən/
 - **Definition:** The process by which organisms with heritable traits better suited to their environment tend to survive and reproduce at higher rates, gradually changing the characteristics of a population over successive generations.
-- **Origin:** Coined by Charles Darwin in *On the Origin of Species* (1859), contrasting it with *artificial selection* practised by animal and plant breeders.
+- **Context:** Coined by Charles Darwin in *On the Origin of Species* (1859), contrasting it with *artificial selection* practised by animal and plant breeders.
+- **UPSC Relevance:** GS3 (General Science). Prelims tests the difference between homologous organs (common ancestry, different function) and analogous organs (different origin, similar function), vestigial organs, and the human evolution sequence (Australopithecus to Homo sapiens). Know evidence for evolution — fossil record, embryological evidence, molecular (DNA) evidence. Mains connects to biodiversity conservation and the ethical debate around genetic engineering and designer organisms.

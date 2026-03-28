@@ -281,12 +281,14 @@ The President can grant:
 ### Council of Ministers
 - **Pronunciation:** /ˈkaʊn.sɪl əv ˈmɪn.ɪ.stəz/
 - **Definition:** The body of ministers headed by the Prime Minister that aids and advises the President (Article 74) and exercises real executive power; it comprises Cabinet Ministers, Ministers of State, and Deputy Ministers, and is collectively responsible to the Lok Sabha under Article 75(3).
-- **Origin:** From Anglo-French *counseil* (Latin *concilium*, "assembly") + *ministre* (Latin *minister*, "servant, attendant"); the institution is modelled on the British Cabinet system adopted at independence.
+- **Context:** Modelled on the British Cabinet system adopted at independence. The 91st Amendment (2003) capped the CoM at 15% of Lok Sabha strength (minimum 12) and barred defectors from becoming ministers. The 42nd Amendment (1976) made the President's obligation to act on CoM advice explicit; the 44th Amendment (1978) allowed the President to ask for reconsideration once.
+- **UPSC Relevance:** GS2 Polity — Prelims: Articles 74-75, 15% cap (91st Amendment), three categories of ministers, who appoints ministers (President on PM's advice), 6-month rule for non-member ministers; Mains: erosion of collective responsibility in coalition governments, nature of PM's power vis-a-vis Cabinet, comparison of Indian and British cabinet systems.
 
 ### Collective Responsibility
 - **Pronunciation:** /kəˈlɛk.tɪv rɪˌspɒn.sɪˈbɪl.ɪ.ti/
 - **Definition:** The constitutional convention under Article 75(3) whereby the entire Council of Ministers is jointly accountable to the Lok Sabha — all ministers must publicly support Cabinet decisions or resign, and a no-confidence motion against the government requires the resignation of the whole Council.
-- **Origin:** From Latin *collēctīvus* ("gathered together") + Late Latin *responsābilis* ("answerable"); the doctrine was inherited from the British parliamentary convention of Cabinet unanimity, formalised in the Indian Constitution at Article 75(3).
+- **Context:** Inherited from the British parliamentary convention of Cabinet unanimity, formalised in the Indian Constitution at Article 75(3). Enforced through the principle of Cabinet secrecy (Article 74(2)). The convention is complemented by individual responsibility — each minister holds office during the President's pleasure (effectively the PM's advice).
+- **UPSC Relevance:** GS2 Polity — Prelims: Article 75(3), difference between collective and individual responsibility, no-confidence motion (Rule 198, need 50 members, only in Lok Sabha); Mains: has coalition politics weakened collective responsibility, comparison with UK conventions, accountability gaps when allies publicly dissent from government policy.
 
 ---
 

@@ -409,12 +409,14 @@ The **Code on Social Security, 2020** (one of four labour codes passed by Parlia
 ### Multidimensional Poverty Index (MPI)
 - **Pronunciation:** /ˌmʌltiˌdaɪˈmɛnʃənəl ˈpɒvərti ˈɪndɛks/
 - **Definition:** An international measure of acute poverty that captures simultaneous deprivations across three dimensions — health, education, and standard of living — using ten weighted indicators, identifying a person as MPI-poor if deprived in at least one-third of those indicators.
-- **Origin:** Developed in 2010 by Sabina Alkire and James Foster at the Oxford Poverty and Human Development Initiative (OPHI) in partnership with UNDP, using the Alkire-Foster methodology.
+- **Context:** Developed in 2010 by Sabina Alkire and James Foster at OPHI in partnership with UNDP, using the Alkire-Foster methodology. India's national MPI (published by NITI Aayog) uses 12 indicators across the same 3 dimensions with a 33.33% deprivation threshold. India's MPI-poor population declined from 29.17% (2013-14) to 11.28% (2022-23), with 24.82 crore people escaping multidimensional poverty. The global MPI is published annually by UNDP and OPHI.
+- **UPSC Relevance:** GS3 Economy — Prelims: 3 dimensions (health, education, standard of living), 10 indicators (global) / 12 indicators (India MPI), 33.33% threshold, developed by Alkire-Foster (2010), NITI Aayog publishes India MPI; Mains: is MPI a better measure of poverty than income-based poverty lines (Tendulkar/Rangarajan), India's progress in reducing multidimensional poverty, what explains the regional variation in MPI (Bihar, Jharkhand worst; Kerala, Goa best).
 
 ### MGNREGA
 - **Pronunciation:** /ˌɛm dʒiː ɛn ɑːr iː dʒiː ˈeɪ/ (spoken as individual letters) or /mə.ɡəˈnreɪ.ɡə/ (spoken as a word)
 - **Definition:** The Mahatma Gandhi National Rural Employment Guarantee Act, 2005 — a rights-based Indian labour law that legally guarantees 100 days of unskilled wage employment per financial year to every rural household whose adult members demand it.
-- **Origin:** Enacted by the Indian Parliament on 23 August 2005; originally named NREGA, it was renamed MGNREGA on 2 October 2009 in honour of Mahatma Gandhi.
+- **Context:** Enacted on 23 August 2005; originally named NREGA, renamed MGNREGA on 2 October 2009. It is demand-driven: work must be provided within 15 days of demand, else unemployment allowance from state funds. Wages are linked to CPI-AL. Key works include water conservation, drought proofing, land development, and rural connectivity. Average actual employment is only ~19 days/worker (far below the 100-day guarantee). Budget has stagnated around Rs. 86,000 crore despite inflation.
+- **UPSC Relevance:** GS3 Economy — Prelims: enacted 2005, 100 days guarantee, demand-driven, unemployment allowance (from state funds if work not provided within 15 days), originally NREGA (renamed 2009), wages linked to CPI-AL; Mains: evaluate MGNREGA as a rural safety net vs a productive employment programme, actual performance (19 days vs 100-day guarantee), should guaranteed days be increased to 150, asset creation quality under MGNREGA, convergence with other rural development schemes.
 
 ---
 

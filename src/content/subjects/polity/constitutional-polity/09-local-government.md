@@ -360,12 +360,14 @@ Article 243I (Panchayats) and Article 243Y (Municipalities) mandate the State Go
 ### 73rd Amendment
 - **Pronunciation:** /ˈsɛvənti θɜːd əˈmɛndmənt/
 - **Definition:** The Constitution (Seventy-third Amendment) Act, 1992, which added Part IX and the Eleventh Schedule to the Constitution, granting constitutional status to Panchayati Raj institutions with provisions for a three-tier system, direct elections, reservations for SC/ST/women, five-year terms, and State Election and Finance Commissions.
-- **Origin:** Passed by Parliament in 1992; received Presidential assent on 20 April 1993 and came into force on 24 April 1993.
+- **Context:** Passed by Parliament in 1992; received Presidential assent on 20 April 1993 and came into force on 24 April 1993. Implemented the Gandhian DPSP vision of village self-governance (Article 40). The 11th Schedule lists 29 subjects. PESA Act (1996) extends Panchayati Raj to Fifth Schedule tribal areas with modifications. States with population below 20 lakh may skip the intermediate tier.
+- **UPSC Relevance:** GS2 Polity — Prelims: Part IX, Articles 243-243O, 11th Schedule (29 subjects), three-tier structure, 1/3rd women reservation, State Election Commission (Article 243K), State Finance Commission (Article 243I), came into force 24 April 1993; Mains: 3Fs problem (Funds, Functions, Functionaries), effectiveness of decentralisation, Gram Sabha as direct democracy, women's political empowerment through reservation, PESA and tribal autonomy.
 
 ### 74th Amendment
 - **Pronunciation:** /ˈsɛvənti fɔːθ əˈmɛndmənt/
 - **Definition:** The Constitution (Seventy-fourth Amendment) Act, 1992, which added Part IX-A and the Twelfth Schedule to the Constitution, granting constitutional status to Municipalities — Nagar Panchayats, Municipal Councils, and Municipal Corporations — with provisions for elected Wards Committees, reservations, and District and Metropolitan Planning Committees.
-- **Origin:** Passed by Parliament in 1992; received Presidential assent on 20 April 1993 and came into force on 1 June 1993.
+- **Context:** Passed by Parliament in 1992; received Presidential assent on 20 April 1993 and came into force on 1 June 1993. The 12th Schedule lists 18 functions for urban local bodies. Three types of municipalities: Nagar Panchayat (transitional area), Municipal Council (smaller urban area), Municipal Corporation (larger urban area). Wards Committees mandatory for municipalities with 3 lakh+ population. DPC (Article 243ZD) and MPC (Article 243ZE for 10 lakh+ metro areas) are planning bodies created by this amendment.
+- **UPSC Relevance:** GS2 Polity — Prelims: Part IX-A, Articles 243P-243ZG, 12th Schedule (18 functions), three types of municipalities, Wards Committee (3 lakh+ population), DPC (4/5th elected) vs MPC (2/3rd elected, 10 lakh+ metro), came into force 1 June 1993; Mains: urban governance challenges, implementation gap of 74th Amendment, Smart Cities and municipal reforms, fiscal autonomy of urban local bodies, comparison with 73rd Amendment.
 
 ---
 

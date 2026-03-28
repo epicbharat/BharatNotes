@@ -271,12 +271,14 @@ where P = pressure, ρ = fluid density, v = velocity, g = acceleration due to gr
 ### Newton's Laws
 - **Pronunciation:** /ˈnjuːtənz lɔːz/
 - **Definition:** Three fundamental laws of classical mechanics formulated by Isaac Newton in 1687, describing the relationship between the motion of a body and the forces acting on it: the law of inertia, the law of force and acceleration (F = ma), and the law of action and reaction.
-- **Origin:** Named after English physicist and mathematician Sir Isaac Newton (1643–1727), who published them in *Philosophiæ Naturalis Principia Mathematica*.
+- **Context:** Named after English physicist and mathematician Sir Isaac Newton (1643–1727), who published them in *Philosophiæ Naturalis Principia Mathematica*.
+- **UPSC Relevance:** GS3 (General Science). Prelims tests conceptual understanding — why seatbelts work (inertia), how rockets propel (action-reaction), why heavier objects need more force. Focus on real-world applications rather than formulas. Mains may link Newton's laws to space technology and satellite propulsion.
 
 ### Escape Velocity
 - **Pronunciation:** /ɪˈskeɪp vəˈlɒsɪti/
 - **Definition:** The minimum speed an object must reach to break free from a celestial body's gravitational field without further propulsion, independent of the escaping object's own mass.
-- **Origin:** Compound of English *escape* (from Old French *eschaper*) + *velocity* (from Latin *vēlōcitās*, "swiftness"), coined in the context of 20th-century orbital mechanics.
+- **Context:** Compound of English *escape* (from Old French *eschaper*) + *velocity* (from Latin *vēlōcitās*, "swiftness"), coined in the context of 20th-century orbital mechanics.
+- **UPSC Relevance:** GS3 (General Science). Prelims frequently tests the value for Earth (11.2 km/s), comparison across celestial bodies, why the Moon has no atmosphere, and the relationship with orbital velocity (v_e = sqrt(2) x v_orbital). Remember: escape velocity does not depend on the mass of the escaping object.
 
 ---
 

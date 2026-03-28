@@ -275,12 +275,14 @@ The RPwD Act, 2016 replaced the Persons with Disabilities Act, 1995 and expanded
 ### Direct Benefit Transfer
 - **Pronunciation:** /dəˈrɛkt ˈbɛnɪfɪt ˈtrænsfɜːr/
 - **Definition:** A government reform initiative launched on 1 January 2013 that transfers subsidies, scholarships, pensions, and other welfare payments directly into beneficiaries' Aadhaar-linked bank accounts, eliminating intermediaries and reducing leakage, duplication, and delay.
-- **Origin:** Conceived as part of India's JAM (Jan Dhan-Aadhaar-Mobile) trinity for financial inclusion; piloted in 43 districts in January 2013 and expanded nationwide by December 2014.
+- **Context:** Conceived as part of India's JAM (Jan Dhan-Aadhaar-Mobile) trinity for financial inclusion; piloted in 43 districts in January 2013 and expanded nationwide by December 2014.
+- **UPSC Relevance:** GS2 Governance and GS3 Economy — Prelims tests launch year (2013) and the JAM trinity concept. Mains asks about DBT's effectiveness in reducing leakage, its impact on welfare delivery, and challenges (Aadhaar-exclusion, digital literacy, last-mile connectivity). India's G20 presidency endorsed DPI (Digital Public Infrastructure) globally using India's DBT model as a template.
 
 ### Ayushman Bharat
 - **Pronunciation:** /ˈɑːjuʃmɑːn ˈbʰɑːrət/
 - **Definition:** India's flagship universal health protection scheme, launched on 23 September 2018, comprising two pillars — Health and Wellness Centres for comprehensive primary care, and Pradhan Mantri Jan Arogya Yojana (PM-JAY) providing cashless hospitalisation cover of Rs 5 lakh per family per year for secondary and tertiary care to the bottom 40% of the population.
-- **Origin:** *Ayushman* is from Sanskrit *āyuṣmān* ("blessed with long life"), from *āyus* ("life, longevity"); *Bharat* is the constitutional name of India, from the legendary emperor Bharata.
+- **Context:** *Ayushman* is from Sanskrit *āyuṣmān* ("blessed with long life"), from *āyus* ("life, longevity"); *Bharat* is the constitutional name of India, from the legendary emperor Bharata.
+- **UPSC Relevance:** GS2 Social Justice (health) and GS1 Indian Society — Prelims tests launch year (2018), coverage (Rs 5 lakh per family), two pillars, and Ayushman Vay Vandana (70+ extension). Mains asks about India's progress toward Universal Health Coverage, out-of-pocket expenditure reduction, and public vs private healthcare infrastructure. Links to SDG 3 (Good Health) and the right to health debate.
 
 ---
 

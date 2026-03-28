@@ -282,12 +282,14 @@ The term "Mamluk" means "owned" — these rulers were originally slave-soldiers 
 ### Delhi Sultanate
 - **Pronunciation:** /ˈdɛl.i ˈsʌl.tə.neɪt/
 - **Definition:** The series of five successive Muslim dynasties — Mamluk, Khalji, Tughlaq, Sayyid, and Lodi — that ruled large parts of the Indian subcontinent from Delhi between 1206 and 1526, ending when Babur defeated Ibrahim Lodi at the First Battle of Panipat.
-- **Origin:** *Delhi* from Hindi/Urdu *Dihlī* (of debated etymology); *Sultanate* from Arabic *sulṭān* ("authority") via Persian, with the English suffix *-ate*.
+- **Context:** Five dynasties ruled in succession: Mamluk (1206–1290), Khalji (1290–1320), Tughlaq (1320–1414), Sayyid (1414–1451), and Lodi (1451–1526); the period introduced Indo-Islamic architecture, Persian administrative vocabulary, and new revenue systems to India.
+- **UPSC Relevance:** GS1 (Medieval India). Prelims: tested on dynasty sequence, key rulers (Iltutmish, Balban, Alauddin Khalji, Muhammad bin Tughlaq), and administrative innovations (Iqta system, token currency). Mains: frequently asked to assess administrative reforms, cultural synthesis, and the Sultanate's role in shaping medieval Indian polity. A foundational topic for both GS and History Optional.
 
 ### Alauddin's Market Reforms
 - **Pronunciation:** /ˌæl.ə.ʊdˈdiːnz ˈmɑː.kɪt rɪˈfɔːmz/
 - **Definition:** The comprehensive system of state-regulated price controls, anti-hoarding measures, and centralised market oversight instituted by Sultan Alauddin Khalji (r. 1296–1316) across four designated markets in Delhi, primarily to sustain a large standing army at low cost.
-- **Origin:** *Alauddin* from Arabic *ʿAlāʾ al-Dīn* ("nobility of the faith"); *market* from Latin *mercātus* ("trade"); *reforms* from Latin *reformāre* ("to form again").
+- **Context:** Alauddin established four separate markets in Delhi — for grain, cloth/sugar/dry fruits, horses/slaves/cattle, and miscellaneous goods — each under a controller (*Shahna-i-Mandi*) with an intelligence network to prevent hoarding and price manipulation.
+- **UPSC Relevance:** GS1 (Medieval India). Prelims: tested on the four markets, the role of Shahna-i-Mandi, Barid (intelligence agents), and Munhiyan (secret agents). Mains: a perennial topic — asked to critically examine the aims (maintaining a large army at low cost) and effectiveness of the reforms. Focus on whether reforms were motivated by welfare or military needs, and comparison with modern price controls.
 
 ---
 

@@ -441,12 +441,14 @@ The Eighth Schedule to the Constitution of India currently recognises **22 sched
 ### Census 2011
 - **Pronunciation:** /ˈsɛnsəs tuː ˈθaʊzənd ənd ɪˈlɛvən/
 - **Definition:** The 15th national census of India, conducted under the Census Act of 1948 in two phases (house listing from April 2010 and population enumeration from 9-28 February 2011), which recorded India's total population at 1,210,854,977 and remains the most recent completed decennial census.
-- **Origin:** The term "census" derives from Latin *censere* ("to assess, to rate"); the Indian census tradition began in 1872, with the first synchronous census in 1881.
+- **Context:** The term "census" derives from Latin *censere* ("to assess, to rate"); the Indian census tradition began in 1872, with the first synchronous census in 1881.
+- **UPSC Relevance:** GS1 Geography and Society. Prelims heavily tests Census 2011 data — total population, sex ratio (943), child sex ratio (914), literacy (74.04%), decadal growth (17.7%), density (382/sq km), and state-level extremes (highest density: Bihar, highest literacy: Kerala, highest sex ratio: Kerala). Mains asks about implications of India not conducting a census since 2011, demographic dividend, and the north-south demographic divide in TFR.
 
 ### Smart Cities Mission
 - **Pronunciation:** /smɑːt ˈsɪtiz ˈmɪʃən/
 - **Definition:** A Government of India urban renewal and retrofitting programme launched on 25 June 2015 to develop 100 selected cities by providing core infrastructure, a clean and sustainable environment, and smart technology solutions to improve citizens' quality of life.
-- **Origin:** Coined by the Government of India as a flagship urban development initiative in 2015; the broader concept of "smart cities" emerged in the early 2000s from the integration of information and communication technology into urban planning.
+- **Context:** Coined by the Government of India as a flagship urban development initiative in 2015; the broader concept of "smart cities" emerged in the early 2000s from the integration of information and communication technology into urban planning.
+- **UPSC Relevance:** GS1 Urbanisation and GS2 Governance. Mains 2025 directly asked "How does a smart city in India address the issues of urban poverty and distributive justice?" Prelims tests number of cities (100), launch year (2015), and mission conclusion (March 2025). Mains expects critical evaluation — 94% projects completed but only 18 cities fully finished, questions about inclusiveness, and whether smart cities increase rural-urban divide.
 
 ---
 

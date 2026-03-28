@@ -441,9 +441,11 @@ The 14 PLI sectors are: Mobile Phones & Electronic Components, Telecom & Network
 ### Weber's Theory
 - **Pronunciation:** /ˈveɪbəz ˈθɪəɹi/
 - **Definition:** The Least Cost Theory of industrial location proposed by German economist Alfred Weber in 1909, which holds that an industry will locate at the point where the combined costs of transport, labour, and agglomeration are minimised, using concepts such as the Material Index, locational triangle, and isodapane.
-- **Origin:** Published by Alfred Weber in 1909 as *Uber den Standort der Industrien* (translated into English in 1929 as *Theory of the Location of Industries*); it remains the foundational model in industrial location theory.
+- **Context:** Published by Alfred Weber in 1909 as *Uber den Standort der Industrien* (translated into English in 1929 as *Theory of the Location of Industries*); it remains the foundational model in industrial location theory.
+- **UPSC Relevance:** GS1 Geography (most important industrial location theory for UPSC). Asked in Geography Optional Mains 1997, 2011, and 2021 ("Present a critical account of Alfred Weber's Theory"). For GS Mains, be able to explain Material Index (MI > 1 = raw-material-oriented, MI < 1 = market-oriented), locational triangle, and isodapane with Indian examples (Jamshedpur for raw materials, Bengaluru for skilled labour). Mention Losch as a critique of Weber's cost-only focus.
 
 ### Industrial Corridor
 - **Pronunciation:** /ɪnˈdʌstɹiəl ˈkɒɹɪdɔː/
 - **Definition:** A linear geographical zone that links key economic hubs through integrated infrastructure including roads, railways, ports, and airports, designed to stimulate manufacturing, reduce logistics costs, and promote planned urbanisation along its route.
-- **Origin:** The concept evolved from post-World War II regional planning theory; in India, the National Industrial Corridor Development Programme (NICDP) was formalised with the Delhi-Mumbai Industrial Corridor (DMIC) announced in 2007 with Japanese collaboration.
+- **Context:** The concept evolved from post-World War II regional planning theory; in India, the National Industrial Corridor Development Programme (NICDP) was formalised with the Delhi-Mumbai Industrial Corridor (DMIC) announced in 2007 with Japanese collaboration.
+- **UPSC Relevance:** GS1 Geography and GS3 Economy. Mains asks to "evaluate the role of industrial corridors in India's economic transformation." Prelims tests DMIC (Western DFC, 1,504 km, 6 states, Japanese JICA collaboration), CBIC (Chennai-Bengaluru), and AKIC (Amritsar-Kolkata along Eastern DFC). Key Mains points: link to Make in India, PLI schemes, and how corridors shift industrial geography from the traditional Chhota Nagpur belt to new manufacturing hubs.

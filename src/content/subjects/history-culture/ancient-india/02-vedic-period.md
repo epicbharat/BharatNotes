@@ -254,11 +254,13 @@ The Rigveda describes the Saraswati as a mighty, powerful river — "best of mot
 - **Pronunciation:** /rɪɡ ˈveɪ.də/
 - **Definition:** The oldest of the four Vedas, composed c. 1500–1200 BCE in Vedic Sanskrit, consisting of 1,028 hymns (*suktas*) arranged in ten books (*mandalas*) that praise the gods and preserve the earliest Indo-Aryan religious thought.
 - **Origin:** From Sanskrit *Ṛgveda* (ऋग्वेद), combining *ṛc* ("praise, verse") and *veda* ("knowledge"); literally "knowledge of the hymns."
+- **UPSC Relevance:** GS1 (Ancient India & Culture). Prelims: tested on structure (10 mandalas, 1,028 hymns), key hymns (Purusha Sukta, Gayatri Mantra), rivers mentioned, and gods (Indra, Agni, Varuna). Mains: central to questions on Early Vedic society, women's status, political institutions (Sabha, Samiti), and the Aryan debate. UPSC 2024 Mains directly asked about changes from Rig Vedic to Later Vedic society.
 
 ### Varna System
 - **Pronunciation:** /ˈvʌr.nə ˈsɪs.təm/
 - **Definition:** The ancient Indian fourfold social classification — Brahmins (priests), Kshatriyas (warriors), Vaishyas (commoners), and Shudras (servants) — described in Vedic texts, which originally denoted occupational divisions and later rigidified into hereditary social strata.
 - **Origin:** From Sanskrit *varṇa* (वर्ण), derived from the root *vṛ* ("to cover, classify"); the literal meaning is "colour" or "category," used metaphorically for social classification.
+- **UPSC Relevance:** GS1 (Ancient India & Society). Prelims: tested on origin (Purusha Sukta of Rig Veda), distinction between Varna and Jati, and evolution from flexible to rigid hierarchy. Mains: a high-value topic for questions on social stratification, caste system evolution, reform movements (Bhakti, Buddhism, Jainism), and contemporary social justice debates. Focus on how the system changed between Early and Later Vedic periods.
 
 ---
 

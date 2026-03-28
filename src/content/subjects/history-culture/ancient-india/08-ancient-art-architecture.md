@@ -244,12 +244,14 @@ The Gupta period saw the **emergence of the structural Hindu temple** — the tr
 ### Ajanta Caves
 - **Pronunciation:** /əˈdʒʌntə keɪvz/
 - **Definition:** A complex of 30 rock-cut Buddhist caves in Aurangabad district, Maharashtra (UNESCO World Heritage Site, 1983), renowned for their exquisite fresco secco paintings — including the celebrated Padmapani and Vajrapani in Cave 1 — and sculpture spanning two phases from the 2nd century BCE (Satavahana) to the 5th–6th century CE (Vakataka).
-- **Origin:** Named after the nearby village of Ajanta (also spelled Ajintha); the caves were rediscovered in 1819 by a British officer, John Smith, during a tiger hunt; the name may derive from the local Marathi place-name tradition.
+- **Context:** Located in the gorge of the Waghora River; rediscovered in 1819 by British officer John Smith during a tiger hunt; the caves represent two phases of patronage — Satavahana (Hinayana, 2nd century BCE) and Vakataka (Mahayana, 5th–6th century CE).
+- **UPSC Relevance:** GS1 (Art & Culture). Prelims: high-frequency — tested on location (Waghora gorge, asked in UPSC 2021), famous paintings (Padmapani in Cave 1, asked in 2017), mural paintings distinction from Sanchi (asked in 2013), and Gupta-period cave painting comparison with Bagh Caves (asked in 2010). Mains: asked to discuss evolution of Buddhist art and architecture. A top-priority Art & Culture topic.
 
 ### Sanchi Stupa
 - **Pronunciation:** /ˈsɑːntʃiː ˈstuːpə/
 - **Definition:** The Great Stupa at Sanchi in Madhya Pradesh, originally commissioned by Emperor Ashoka in the 3rd century BCE and later enlarged with elaborately carved gateways (toranas) under the Satavahanas, notable for representing the Buddha through symbols rather than human form (UNESCO World Heritage Site, 1989).
-- **Origin:** *Sanchi* is the name of the hill and village in Raisen district, Madhya Pradesh; *stupa* comes from Sanskrit *stūpa* (स्तूप, "heap, mound"), referring to the hemispherical structure built over sacred Buddhist relics.
+- **Context:** Located in Raisen district, Madhya Pradesh; *stupa* comes from Sanskrit *stūpa* (स्तूप, "heap, mound"); the toranas (gateways) depict Jataka tales and use aniconic representation of the Buddha.
+- **UPSC Relevance:** GS1 (Art & Culture). Prelims: tested on commissioned ruler (Ashoka), enlargement dynasty (Satavahanas), aniconic representation (no human-form Buddha), and distinction from Ajanta (Sanchi has sculptures but no mural paintings — asked in UPSC 2013). Mains: relevant for discussing early Buddhist art, symbolism in ancient Indian art, and UNESCO heritage conservation. Focus on torana iconography and aniconic vs iconic Buddhist art phases.
 
 ---
 

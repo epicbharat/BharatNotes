@@ -317,12 +317,14 @@ Instituted to recognise outstanding work by districts and organisations in imple
 ### Lokpal and Lokayuktas
 - **Pronunciation:** /ˈloʊkpɑːl/ and /ˌloʊkɑːˈjʊktɑː/
 - **Definition:** Statutory anti-corruption ombudsman institutions in India — the Lokpal at the central level and Lokayuktas at the state level — empowered to inquire into allegations of corruption against public servants, including the Prime Minister (with safeguards), Union Ministers, MPs, and government officials, established under the Lokpal and Lokayuktas Act, 2013.
-- **Origin:** *Lokpal* is from Sanskrit *lokapāla* ("protector of the people"), from *loka* ("people") + *pāla* ("caretaker"); the term was coined by Dr. L.M. Singhvi in 1963; *Lokayukta* is from Sanskrit *loka* ("people") + *āyukta* ("appointed one"); Maharashtra established India's first Lokayukta in 1971.
+- **Context:** *Lokpal* is from Sanskrit *lokapāla* ("protector of the people"), from *loka* ("people") + *pāla* ("caretaker"); the term was coined by Dr. L.M. Singhvi in 1963; *Lokayukta* is from Sanskrit *loka* ("people") + *āyukta* ("appointed one"); Maharashtra established India's first Lokayukta in 1971.
+- **UPSC Relevance:** GS2 Governance and GS4 Ethics — Prelims tests the Act year (2013), composition (Chairperson + 8 members), first Lokpal (Justice Pinaki Chandra Ghose, 2019), and selection committee. Mains asks "Has the Lokpal been effective in combating corruption?" and "Compare Lokpal with ombudsman institutions in other countries." A key accountability institution linked to probity in governance, 2nd ARC recommendations, and anti-corruption law.
 
 ### Social Audit
 - **Pronunciation:** /ˈsoʊʃəl ˈɔːdɪt/
 - **Definition:** A participatory accountability process in which beneficiaries and community members examine official records, verify physical works, and assess whether government expenditure matches actual implementation on the ground — mandated under MGNREGA for the Gram Sabha to conduct at least once every six months.
-- **Origin:** The concept of social audit was first articulated in the 1950s; Charles Medawar pioneered its application in 1972; in India, the Mazdoor Kisan Shakti Sangathan (MKSS) in Rajasthan championed grassroots social audits in the mid-1990s, and MGNREGA (2005) became the first Indian law to mandate social audits by the Gram Sabha.
+- **Context:** The concept of social audit was first articulated in the 1950s; Charles Medawar pioneered its application in 1972; in India, the Mazdoor Kisan Shakti Sangathan (MKSS) in Rajasthan championed grassroots social audits in the mid-1990s, and MGNREGA (2005) became the first Indian law to mandate social audits by the Gram Sabha.
+- **UPSC Relevance:** GS2 Governance and GS4 Ethics — Mains asks about social audit as a tool for grassroots accountability and citizen participation. Prelims tests the MGNREGA mandate (Section 17), Gram Sabha role, and the Meghalaya Social Audit Act (2017, first of its kind). Links to transparency, CAG audits, and the broader accountability ecosystem. A strong example for GS4 answers on participatory democracy and probity.
 
 ---
 

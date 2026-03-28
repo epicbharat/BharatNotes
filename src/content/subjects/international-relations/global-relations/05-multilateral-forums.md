@@ -284,9 +284,11 @@ India participates in **all major multilateral forums** while maintaining **stra
 ### BRICS
 - **Pronunciation:** /brɪks/
 - **Definition:** An intergovernmental grouping of major emerging economies — originally Brazil, Russia, India, China, and South Africa — now expanded to ten full members, which coordinates on economic cooperation, development finance, and reform of global governance institutions.
-- **Origin:** The acronym BRIC was coined by British economist Jim O'Neill of Goldman Sachs in his 2001 paper *Building Better Global Economic BRICs*; South Africa joined in 2010, adding the "S."
+- **Context:** The acronym BRIC was coined by British economist Jim O'Neill of Goldman Sachs in his 2001 paper *Building Better Global Economic BRICs*; South Africa joined in 2010, adding the "S."
+- **UPSC Relevance:** GS2 International Relations — Prelims tests members (including 2024-25 expansion), NDB, CRA, and India's chairship (2026). Mains asks "Is BRICS a credible alternative to the G7-led order?" and "How does India navigate BRICS while deepening Quad ties?" A key topic for multi-alignment strategy questions.
 
 ### G20
 - **Pronunciation:** /ˌdʒiː ˈtwɛnti/
 - **Definition:** An international forum of 19 countries, the European Union, and the African Union, representing approximately 85% of global GDP, which coordinates macroeconomic policy, financial regulation, and sustainable development.
-- **Origin:** Formally established at the G7 Finance Ministers' meeting on 26 September 1999 in response to the late-1990s financial crises in Asia, Russia, and Latin America; elevated to a leaders-level summit in 2008 during the global financial crisis.
+- **Context:** Formally established at the G7 Finance Ministers' meeting on 26 September 1999 in response to the late-1990s financial crises in Asia, Russia, and Latin America; elevated to a leaders-level summit in 2008 during the global financial crisis.
+- **UPSC Relevance:** GS2 International Relations — Prelims tests members (19+EU+AU), India's presidency outcomes (2023), and key initiatives (IMEC, DPI, AU membership). Mains asks about India's G20 presidency achievements, the Global South bridge role, and G20 vs G7 in global governance. India's 2023 presidency was a high-frequency 2024-25 question topic.

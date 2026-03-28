@@ -279,9 +279,11 @@ India leads the world in internet shutdowns.
 ### Fake News
 - **Pronunciation:** /feɪk njuːz/
 - **Definition:** Fabricated content deliberately presented as legitimate journalism in order to mislead readers, manipulate public opinion, generate advertising revenue, or advance political agendas, often amplified through social media platforms.
-- **Origin:** The term gained global prominence during and after the 2016 US presidential election; Collins Dictionary named it Word of the Year in 2017; the British government has criticised it as a "poorly defined" term that conflates genuine error with deliberate fabrication.
+- **Context:** The term gained global prominence during and after the 2016 US presidential election; Collins Dictionary named it Word of the Year in 2017; the British government has criticised it as a "poorly defined" term that conflates genuine error with deliberate fabrication.
+- **UPSC Relevance:** GS3 Internal Security — Mains asks about the role of social media in spreading fake news, its impact on communal harmony (WhatsApp lynchings 2018), and government measures (IT Rules 2021, Section 69A). Also tested as a hybrid warfare dimension (hostile state actors weaponising misinformation). Links to GS2 (free speech vs regulation) and GS4 (media ethics).
 
 ### Social Media Regulation
 - **Pronunciation:** /ˈsoʊʃəl ˈmiːdiə ˌrɛɡjuˈleɪʃən/
 - **Definition:** The body of laws, rules, and institutional mechanisms that govern the conduct of social media platforms and their users, addressing content moderation, data privacy, platform accountability, and the balance between free expression and public safety; in India, primarily governed by the IT Act, 2000, and the IT (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021.
-- **Origin:** Emerged as a distinct policy domain in the 2010s as the scale of social media platforms grew; between 2011 and 2022, 78 countries enacted laws targeting the spread of false or harmful content on social media.
+- **Context:** Emerged as a distinct policy domain in the 2010s as the scale of social media platforms grew; between 2011 and 2022, 78 countries enacted laws targeting the spread of false or harmful content on social media.
+- **UPSC Relevance:** GS3 Internal Security — Mains asks "How should India balance free speech with social media regulation?" and tests knowledge of IT Rules 2021 (SSMI obligations, first originator tracing), Section 79 safe harbour, and the Shreya Singhal and Anuradha Bhasin judgments. Prelims tests SSMI threshold (5 million users) and content takedown timelines. A cross-cutting topic spanning security, governance, and fundamental rights.

@@ -489,8 +489,10 @@ A **front** is the boundary zone between two contrasting air masses. Fronts are 
 - **Pronunciation:** /ˌkɒriˈoʊlɪs ɪˈfɛkt/
 - **Definition:** The apparent deflection of moving objects (including air and ocean currents) caused by Earth's rotation, deflecting them to the right in the Northern Hemisphere and to the left in the Southern Hemisphere, with zero effect at the equator and maximum at the poles.
 - **Origin:** Named after French mathematician and engineer Gaspard-Gustave de Coriolis (1792-1843), who described the effect mathematically in his 1835 paper *Sur les équations du mouvement relatif des systèmes de corps*.
+- **UPSC Relevance:** GS1 Physical Geography. Prelims tests the direction of deflection (right in NH, left in SH, zero at equator) and its role in wind patterns and ocean currents. Mains expects explanation of how the Coriolis effect shapes trade winds, westerlies, and cyclone rotation (anticlockwise in NH, clockwise in SH). Essential for understanding why cyclones cannot form within 5 degrees of the equator and why SE trade winds become SW monsoon after crossing the equator.
 
 ### Hadley Cell
 - **Pronunciation:** /ˈhædli sɛl/
 - **Definition:** A large-scale atmospheric circulation pattern in the tropics in which warm air rises near the equator, flows poleward at upper levels, cools and descends at approximately 30 degrees latitude, and returns equatorward along the surface as the trade winds.
-- **Origin:** Named after English lawyer and amateur meteorologist George Hadley (1685-1768), who proposed this model of tropical atmospheric circulation in 1735 to explain the trade winds.
+- **Context:** Named after English lawyer and amateur meteorologist George Hadley (1685-1768), who proposed this model of tropical atmospheric circulation in 1735 to explain the trade winds.
+- **UPSC Relevance:** GS1 Physical Geography. Prelims tests the three-cell model (Hadley, Ferrel, Polar), the latitude ranges of each cell, and the associated surface winds. Mains expects explanation of how the descending limb of the Hadley cell at 30 degrees creates subtropical high-pressure belts and explains the location of major world deserts (Sahara, Arabian, Kalahari, Atacama). Connect to ITCZ, trade winds, and the Indian monsoon mechanism.

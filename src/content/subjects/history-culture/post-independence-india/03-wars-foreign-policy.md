@@ -256,4 +256,33 @@ Key phases of India's foreign policy:
 
 ---
 
+## Vocabulary
+
+### Ceasefire
+- **Pronunciation:** /ˈsiːsfaɪə/
+- **Definition:** A temporary or permanent cessation of fighting agreed upon by opposing forces, often as a precursor to formal peace negotiations; China declared a unilateral ceasefire on 19 November 1962 during the Sino-Indian War, and UN-mandated ceasefires ended the 1965 Indo-Pak War.
+- **Origin:** English compound from cease (from Old French cesser, from Latin cessāre, "to stop") + fire (from Old English fȳr); first attested c. 1844; the compound reflects the military command "cease fire" used to halt shooting.
+
+### Detente
+- **Pronunciation:** /deɪˈtɑːnt/
+- **Definition:** The relaxation of strained relations between nations, especially through diplomatic negotiations, treaties, and trade agreements; India practised a form of detente with both Cold War blocs through its non-alignment policy while engaging with the USSR and the USA based on its own interests.
+- **Origin:** From French detente ("loosening, relaxation"), from Old French destendre ("to relax"), from Vulgar Latin detendere, from de- ("from, away") + tendere ("to stretch"); the diplomatic usage dates from c. 1912.
+
+### Non-Alignment
+- **Pronunciation:** /nɒn əˈlaɪnmənt/
+- **Definition:** A foreign policy stance of not formally aligning with or against any major power bloc, while independently evaluating each international issue on its merits; championed by Jawaharlal Nehru, it was India's foundational foreign policy doctrine during the Cold War and led to the Non-Aligned Movement (founded 1961, Belgrade).
+- **Origin:** English compound from non- (Latin, "not") + alignment (from French alignement, "arrangement in a line"); Nehru specifically rejected the characterisation of non-alignment as neutrality, insisting it meant independent judgement rather than sitting on the fence.
+
+## Key Terms
+
+### Indo-China War 1962
+- **Pronunciation:** /ˈɪndoʊ ˈtʃaɪnə wɔː/
+- **Definition:** The armed conflict between India and China fought from 20 October to 21 November 1962 over disputed border areas in Aksai Chin (western sector) and NEFA (eastern sector, now Arunachal Pradesh), resulting in a decisive Indian defeat, a unilateral Chinese ceasefire, and a fundamental reorientation of India's defence and foreign policy away from Nehruvian idealism.
+- **Origin:** Also called the Sino-Indian War; "Sino" from Late Latin Sinae ("the Chinese"), from Arabic Sīn, from Chinese Qín (the Qin dynasty); the war was triggered by the unresolved McMahon Line boundary dispute and India's Forward Policy.
+
+### Shimla Agreement
+- **Pronunciation:** /ˈʃɪmlə əˈɡriːmənt/
+- **Definition:** A bilateral peace treaty signed on 2 July 1972 between Indian PM Indira Gandhi and Pakistani President Zulfikar Ali Bhutto following the 1971 Indo-Pak War, which formalised the ceasefire line in Kashmir as the Line of Control (LoC), committed both nations to resolve disputes bilaterally without third-party mediation, and stipulated that neither side would unilaterally alter the LoC.
+- **Origin:** Named after Shimla (also spelled Simla), the capital of Himachal Pradesh where the agreement was signed; India returned the 93,000 Pakistani POWs under the subsequent Delhi Agreement of August 1973.
+
 *Sources: Ministry of External Affairs (mea.gov.in), Press Information Bureau (pib.gov.in), Srinath Raghavan — War and Peace in Modern India, Bipan Chandra — India Since Independence, NCERT — India After Independence, Neville Maxwell — India's China War, Arms Control Association (armscontrol.org)*

@@ -290,12 +290,14 @@ All EM waves travel at the speed of light in vacuum (~3 x 10⁸ m/s) and differ 
 ### Total Internal Reflection
 - **Pronunciation:** /ˈtoʊtəl ɪnˈtɜːnəl rɪˈflɛkʃən/
 - **Definition:** The complete reflection of a light ray back into a denser medium when it strikes the boundary with a less dense medium at an angle of incidence greater than the critical angle.
-- **Origin:** Compound of English *total* (from Latin *tōtālis*, "entire") + *internal* (from Latin *internus*, "inward") + *reflection* (from Latin *reflexiōnem*, "a bending back").
+- **Context:** Compound of English *total* (from Latin *tōtālis*, "entire") + *internal* (from Latin *internus*, "inward") + *reflection* (from Latin *reflexiōnem*, "a bending back").
+- **UPSC Relevance:** GS3 (General Science / Science & Technology). Prelims tests the principle behind optical fibres (used in Digital India broadband connectivity), diamond sparkle, mirages, and periscopes. Know critical angles for water (~48.6 degrees), glass (~41.8 degrees), and diamond (~24.4 degrees). Mains connects TIR to fibre-optic communication infrastructure and medical endoscopy.
 
 ### Electromagnetic Spectrum
 - **Pronunciation:** /ɪˌlɛktroʊmæɡˈnɛtɪk ˈspɛktrəm/
 - **Definition:** The entire range of electromagnetic radiation, ordered by frequency or wavelength, extending from radio waves through microwaves, infrared, visible light, ultraviolet, X-rays, to gamma rays.
-- **Origin:** Compound of *electromagnetic* (coined in the 1820s from Greek *ēlektron*, "amber" + Greek *magnēs lithos*, "Magnesian stone") + *spectrum* (Latin, "image").
+- **Context:** Compound of *electromagnetic* (coined in the 1820s from Greek *ēlektron*, "amber" + Greek *magnēs lithos*, "Magnesian stone") + *spectrum* (Latin, "image").
+- **UPSC Relevance:** GS3 (General Science / Science & Technology). Prelims frequently tests the order (Radio to Gamma), which type has longest/shortest wavelength, and applications — IR for thermal imaging, UV for sterilisation, X-rays for medical imaging, microwaves for radar and communication. Mains connects to remote sensing (IR, UV, microwave), 5G/satellite communication, and health concerns of EM radiation.
 
 ---
 

@@ -267,12 +267,14 @@ While the mainstream Congress movement pursued constitutional and non-violent me
 ### Hindustan Socialist Republican Association
 - **Pronunciation:** /ˌhɪndʊˈstɑːn ˈsoʊʃəlɪst rɪˈpʌblɪkən əˌsoʊsiˈeɪʃən/
 - **Definition:** A revolutionary organisation formed in September 1928 by reorganising the Hindustan Republican Association (HRA) under Chandrashekhar Azad, with Bhagat Singh as a key ideologue, distinguished by its shift from purely nationalist aims to Marxist-socialist revolution against both British imperialism and capitalist exploitation.
-- **Origin:** The word "Socialist" was added to the original HRA name at the Feroz Shah Kotla meeting (Delhi, 8–9 September 1928), reflecting the ideological influence of the Russian Revolution and Marxism on leaders like Bhagat Singh.
+- **Context:** The word "Socialist" was added at the Feroz Shah Kotla meeting (Delhi, 8–9 September 1928), reflecting the Russian Revolution's influence; key actions include the Assembly bombing (8 April 1929) and the Lahore Conspiracy Case; Bhagat Singh, Rajguru, and Sukhdev were executed on 23 March 1931.
+- **UPSC Relevance:** GS1 (Modern India). Prelims: tested on formation (1928), key leaders (Chandrashekhar Azad, Bhagat Singh, Rajguru, Sukhdev), the Assembly bombing (1929), and ideological distinction from earlier revolutionaries (socialist orientation). Mains: asked to assess the role of revolutionary movements alongside the Gandhian mainstream, and whether they were complementary or competing forces. Focus on the ideological evolution from nationalist terrorism to socialist revolution — Bhagat Singh's "Why I Am an Atheist" and his vision of a classless society.
 
 ### Ghadar Party
 - **Pronunciation:** /ˈɡədər ˈpɑːrti/
 - **Definition:** An international revolutionary organisation founded on 15 July 1913 in the United States, primarily by Punjabi Sikh and Hindu immigrants, which aimed to overthrow British rule in India through armed revolt and published a multilingual newspaper to spread nationalist ideas.
-- **Origin:** From Urdu/Punjabi ghadar, derived from Arabic, meaning "revolt" or "rebellion"; the party took its name from its newspaper Ghadar, first published on 1 November 1913 in San Francisco.
+- **Context:** Founded by Lala Hardayal and Sohan Singh Bhakna in San Francisco; attempted to infiltrate India with arms during WWI (the "Ghadar Conspiracy" of 1915) but was largely foiled by British intelligence; members later influenced the communist and revolutionary movements in India.
+- **UPSC Relevance:** GS1 (Modern India). Prelims: tested on founding year (1913), location (San Francisco/USA), founder (Lala Hardayal), and the newspaper's name (Ghadar). Mains: relevant for essays on the Indian diaspora's role in the freedom struggle, revolutionary movements outside India, and the impact of WWI on Indian nationalism. Focus on how the Ghadar movement represented a transnational dimension of Indian nationalism and linked anti-colonial struggle with global revolutionary movements.
 
 ---
 

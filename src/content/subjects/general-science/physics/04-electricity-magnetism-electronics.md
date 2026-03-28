@@ -312,12 +312,14 @@ India's **Prototype Fast Breeder Reactor (PFBR)** at Kalpakkam, Tamil Nadu (500 
 ### Ohm's Law
 - **Pronunciation:** /oʊmz lɔː/
 - **Definition:** A fundamental law of electrical circuits stating that the current through a conductor is directly proportional to the voltage across it and inversely proportional to its resistance, expressed as V = IR.
-- **Origin:** Named after German physicist Georg Simon Ohm, who published the relationship in his 1827 treatise *Die galvanische Kette, mathematisch bearbeitet* (The Galvanic Circuit Investigated Mathematically).
+- **Context:** Named after German physicist Georg Simon Ohm, who published the relationship in his 1827 treatise *Die galvanische Kette, mathematisch bearbeitet* (The Galvanic Circuit Investigated Mathematically).
+- **UPSC Relevance:** GS3 (General Science). Prelims tests V = IR and related concepts — series vs parallel circuits, why household appliances use parallel wiring, and the unit of resistance (Ohm). Focus on conceptual understanding and everyday applications rather than numerical calculations.
 
 ### Electromagnetic Induction
 - **Pronunciation:** /ɪˌlɛktrəʊmæɡˈnɛtɪk ɪnˈdʌkʃən/
 - **Definition:** The production of an electromotive force (EMF) across an electrical conductor caused by a changing magnetic flux, forming the basis of generators, transformers, and induction cooktops.
-- **Origin:** Discovered independently by Michael Faraday in 1831 and Joseph Henry in 1832; later formalised mathematically by James Clerk Maxwell as Faraday's law of induction.
+- **Context:** Discovered independently by Michael Faraday in 1831 and Joseph Henry in 1832; later formalised mathematically by James Clerk Maxwell as Faraday's law of induction.
+- **UPSC Relevance:** GS3 (General Science / Science & Technology). Prelims tests Faraday's law (1831), Lenz's law, Fleming's Left-Hand and Right-Hand Rules, and why transformers work only with AC. Mains connects to power transmission efficiency, smart grids, wireless charging technology, and India's electricity infrastructure (step-up/step-down transformers in the national grid).
 
 ---
 

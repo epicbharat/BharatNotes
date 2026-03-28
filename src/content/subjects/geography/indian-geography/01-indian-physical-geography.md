@@ -271,11 +271,13 @@ The Andaman & Nicobar Islands extend India's Exclusive Economic Zone (EEZ) signi
 - **Pronunciation:** /ˈdɛkən pləˈtəʊ/
 - **Definition:** A large triangular plateau in southern India, covering approximately 422,000 sq km, bounded by the Western Ghats, Eastern Ghats, and the Vindhya-Satpura ranges, with an average elevation of about 600 metres.
 - **Origin:** The word "Deccan" is an anglicised form of the Prakrit word *dakkhaṇa*, derived from Sanskrit *dakṣiṇa* meaning "south," reflecting the plateau's location in the southern part of the Indian subcontinent.
+- **UPSC Relevance:** GS1 Geography. Prelims tests physiographic divisions, geological age (Precambrian), and distinction between Western Ghats (faulted escarpment) and Himalayas (fold mountains). Mains asks about the Deccan Trap's natural resource potential (asked 2022), mineral wealth, and the plateau's role in shaping India's drainage and soil patterns. Focus on the relationship between basaltic lava flows and regur (black cotton) soil formation.
 
 ### Interlinking of Rivers
 - **Pronunciation:** /ˌɪntəˈlɪŋkɪŋ ɒv ˈrɪvəz/
 - **Definition:** A proposed large-scale Indian civil engineering programme that aims to transfer water from surplus river basins to deficit basins through a network of reservoirs and canals, comprising 30 links under the Himalayan and Peninsular components.
-- **Origin:** The concept traces back to 19th-century British engineer Arthur Cotton's proposals; it was formally revived by Dr K.L. Rao's "National Water Grid" idea in the 1970s, and the National Perspective Plan was published by the Ministry of Water Resources in 1980, with the National Water Development Agency (NWDA) established in 1982 to carry out feasibility studies.
+- **Context:** The concept traces back to 19th-century British engineer Arthur Cotton's proposals; it was formally revived by Dr K.L. Rao's "National Water Grid" idea in the 1970s, and the National Perspective Plan was published by the Ministry of Water Resources in 1980, with the National Water Development Agency (NWDA) established in 1982 to carry out feasibility studies.
+- **UPSC Relevance:** GS1 Geography and GS3 Environment. Directly asked in Mains 2020: "Critically examine interlinking of rivers as solution to droughts, floods, and interrupted navigation." Prelims tests Ken-Betwa Link Project details (first project under NPP, Panna Tiger Reserve concern). Mains expects a balanced analysis of water security benefits vs environmental costs (submergence, displacement, ecological impact).
 
 ---
 

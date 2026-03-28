@@ -246,12 +246,14 @@ Medieval India (c. 8th–18th century) was a period of remarkable cultural synth
 ### Indo-Islamic Architecture
 - **Pronunciation:** /ˌɪndoʊ ɪzˈlæmɪk ˈɑːrkɪtɛktʃər/
 - **Definition:** The distinctive architectural style that emerged in the Indian subcontinent from the 12th century onwards through the synthesis of Islamic building techniques — true arches, domes, minarets, and calligraphic decoration — with indigenous Indian elements such as corbelling, lotus motifs, and elaborate stone carving, producing monuments ranging from the Qutub Minar to the Taj Mahal.
-- **Origin:** A modern art-historical term combining *Indo-* (from Greek *Indos*, "India") and *Islamic* (from Arabic *Islām*, "submission to God"); the style evolved as Muslim rulers employed local Hindu and Jain craftsmen (*silpis*) who applied Indian techniques to Islamic architectural plans.
+- **Context:** Evolved through the employment of local Hindu and Jain craftsmen (*silpis*) who applied Indian techniques to Islamic architectural plans; went through distinct phases — Imperial (Delhi Sultanate), Provincial, and Mughal styles.
+- **UPSC Relevance:** GS1 (Art & Culture). Prelims: tested on key monuments and their builders (Qutub Minar, Alai Darwaza, Taj Mahal), distinguishing features (true arch vs corbelled arch, pietra dura, jaali work), and stylistic evolution across Sultanate and Mughal periods. Mains: asked to trace the "technological and stylistic development in Sultanate architecture" and discuss the emergence of Indo-Persian culture. Focus on the synthesis of Hindu and Islamic elements rather than treating them as separate traditions.
 
 ### Sufi Literature
 - **Pronunciation:** /ˈsuːfi ˈlɪtərətʃər/
 - **Definition:** A body of literary works in Persian, Arabic, Urdu, Punjabi, Sindhi, and other languages that express and propagate Sufi mystical thought, including *malfuzat* (recorded sayings of saints), *maktubat* (letters of spiritual guidance), *tazkiras* (hagiographical biographies), and devotional poetry — which enriched Indian vernacular literatures and promoted inter-communal understanding.
-- **Origin:** *Sufi* derives from Arabic *ṣūfī* (صوفي), most likely from *ṣūf* (صوف, "wool"), referring to the coarse woollen garments worn by early Muslim ascetics; *literature* from Latin *litteratura* ("writing, learning").
+- **Context:** Key genres include *malfuzat* (e.g., Fawaid-ul-Fuad of Nizamuddin Auliya), *maktubat* (letters), and *tazkiras* (biographical dictionaries); Sufi poetry by Amir Khusrau, Baba Farid, and Bulleh Shah bridged linguistic and communal boundaries.
+- **UPSC Relevance:** GS1 (Medieval India & Culture). Prelims: tested on literary genres (*malfuzat*, *maktubat*, *tazkiras*), key Sufi poets (Amir Khusrau, Baba Farid), and their regional-language contributions. Mains: asked to assess Sufi literature as an important historical source and discuss its role in enriching vernacular literatures. Focus on the composite culture theme — how Sufi literature bridged Hindu-Muslim cultural traditions and influenced regional literary traditions like Punjabi, Sindhi, and Kashmiri poetry.
 
 ---
 

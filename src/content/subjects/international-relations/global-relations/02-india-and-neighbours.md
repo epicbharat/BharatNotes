@@ -302,12 +302,14 @@ After the Taliban takeover in **August 2021**, India adopted a "people-first dip
 ### Look East Policy
 - **Pronunciation:** /lʊk iːst ˈpɒl.ɪ.si/
 - **Definition:** India's foreign policy initiative launched in 1991 under Prime Minister P.V. Narasimha Rao to cultivate extensive economic and strategic relations with Southeast Asian nations, later upgraded to the Act East Policy in 2014 under Prime Minister Narendra Modi.
-- **Origin:** Coined by Indian policymakers in 1991 as a strategic response to the post-Cold War economic landscape and the collapse of the Soviet Union, India's traditional partner.
+- **Context:** Coined by Indian policymakers in 1991 as a strategic response to the post-Cold War economic landscape and the collapse of the Soviet Union, India's traditional partner.
+- **UPSC Relevance:** GS2 International Relations — Prelims tests the launch year (1991), upgrade to Act East (2014), and ASEAN milestones. Mains 2016 asked candidates to "evaluate the economic and strategic dimensions of India's Look East Policy." The Look East to Act East evolution is a standard framework for IR answer writing.
 
 ### SAARC
 - **Pronunciation:** /sɑːrk/
 - **Definition:** The South Asian Association for Regional Cooperation, an intergovernmental organisation of eight South Asian nations founded to promote socio-economic development, stability, and collective self-reliance in the region.
-- **Origin:** Established on 8 December 1985 in Dhaka, Bangladesh, through the Dhaka Charter; the initiative was first proposed by Bangladesh's President Ziaur Rahman in 1980.
+- **Context:** Established on 8 December 1985 in Dhaka, Bangladesh, through the Dhaka Charter; the initiative was first proposed by Bangladesh's President Ziaur Rahman in 1980.
+- **UPSC Relevance:** GS2 International Relations — Prelims tests founding year, members, HQ (Kathmandu). Mains frequently asks "Compare SAARC and BIMSTEC as regional cooperation platforms" and "Why has SAARC become dormant?" The SAARC-BIMSTEC contrast and India-Pakistan tensions as a factor are standard Mains themes.
 
 ---
 

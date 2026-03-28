@@ -238,12 +238,14 @@ Medieval South India was shaped by a succession of powerful dynasties — **Pall
 ### Chola Navy
 - **Pronunciation:** /ˈtʃoʊlə ˈneɪvi/
 - **Definition:** The maritime military force of the Chola dynasty, most notably under Rajendra Chola I, who in 1025 CE launched an unprecedented naval expedition against the Srivijaya Empire in Southeast Asia — the first recorded overseas military campaign by an Indian ruler — to secure Indian Ocean trade routes and break Srivijayan control over the Strait of Malacca.
-- **Origin:** *Chola* (சோழர்) is a Tamil dynastic name of uncertain etymology, possibly meaning "newly grown" or derived from the name of the region in the Kaveri delta; the dynasty revived under Vijayalaya Chola (c. 848 CE) and became a major naval power by the 11th century.
+- **Context:** The Chola navy was the first Indian military force to project power overseas; Rajendra I's 1025 CE campaign against Srivijaya demonstrated India's ancient maritime capabilities and control over Indian Ocean trade routes.
+- **UPSC Relevance:** GS1 (Medieval India & Indian Heritage). Prelims: tested on Rajendra Chola I's naval expedition (1025 CE), target (Srivijaya Empire), and purpose (securing Strait of Malacca trade). Mains: relevant for essays on India's maritime history, Indian Ocean trade networks, and India's cultural influence in Southeast Asia (Indianisation). Focus on linking Chola naval power to India's current "Act East" and Indo-Pacific strategies for contemporary relevance.
 
 ### Uttaramerur Inscription
 - **Pronunciation:** /ˌʊtərɑːˈmeɪruːr/
 - **Definition:** A series of stone inscriptions at Uttaramerur village in Kanchipuram district, Tamil Nadu, dating from the reign of Parantaka Chola I (c. 10th century CE), which describe in remarkable detail the electoral process for village committees (*variyam*) — including qualifications for candidates, selection by lot using palm-leaf ballots drawn by a child, and the functions of specialised committees for irrigation, gardens, and auditing — representing one of the earliest documented systems of local democratic self-governance in the world.
-- **Origin:** The village name *Uttaramerur* (also *Uthiramerur*) comes from Sanskrit/Tamil, with the 10th-century inscription calling it "Uttaramerur Chaturvedi Mangalam," indicating a *brahmadeya* (Brahmin-granted) village where the *sabha* (assembly) governed local affairs.
+- **Context:** The inscriptions describe a *brahmadeya* (Brahmin-granted) village where the *sabha* (assembly) governed local affairs through specialised committees elected by a lottery system — a process remarkably similar to modern democratic principles.
+- **UPSC Relevance:** GS1 (Medieval India) & GS2 (Local Self-Government). Prelims: tested on Chola local administration — Sabha, Ur, Nagaram assemblies, and the Uttaramerur election process. Mains: a high-value cross-paper topic — asked to discuss Chola village self-governance (GS1) and link to Panchayati Raj and decentralisation (GS2). PM Modi cited Uttaramerur inscriptions as evidence of India's ancient democratic traditions. Focus on qualifications for candidates, lottery-based selection, and recall mechanisms.
 
 ---
 

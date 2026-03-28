@@ -295,12 +295,14 @@ India spans multiple Koppen climate zones due to its varied topography and latit
 ### ITCZ (Inter-Tropical Convergence Zone)
 - **Pronunciation:** /ˌɪntəˈtrɒpɪkəl kənˈvɜːdʒəns zəʊn/ (abbreviated colloquially as "the itch," /ɪtʃ/)
 - **Definition:** A low-pressure belt near the Equator where the northeast and southeast trade winds converge, producing rising air, heavy cloudiness, frequent thunderstorms, and intense rainfall; it migrates seasonally, shifting northward over the Indian subcontinent in summer to drive the southwest monsoon.
-- **Origin:** The concept emerged from early 20th-century tropical meteorology; the zone was historically known to sailors as the "doldrums" due to its calm, windless conditions, and was formally identified and named as the ITCZ as global atmospheric circulation patterns were mapped.
+- **Context:** The concept emerged from early 20th-century tropical meteorology; the zone was historically known to sailors as the "doldrums" due to its calm, windless conditions, and was formally identified and named as the ITCZ as global atmospheric circulation patterns were mapped.
+- **UPSC Relevance:** GS1 Geography. Prelims tests the ITCZ's role in monsoon onset, its seasonal migration to 20-25 degrees N over the Ganga Plain, and its alternate name "monsoon trough." Mains expects detailed explanation of how ITCZ shift drives the southwest monsoon mechanism, going beyond the classical thermal theory to include jet stream dynamics, Somali Jet, and Tibetan Plateau heating. A foundational concept for any monsoon-related answer.
 
 ### El Nino Southern Oscillation (ENSO)
 - **Pronunciation:** /ɛl ˈniːnjəʊ ˈsʌðən ˌɒsɪˈleɪʃən/
 - **Definition:** A coupled ocean-atmosphere climate phenomenon in the tropical Pacific Ocean that oscillates between three phases — El Nino (warming), La Nina (cooling), and Neutral — significantly influencing global weather patterns including the Indian monsoon.
 - **Origin:** Peruvian fishermen named the warm coastal current *El Nino de Navidad* ("The Christ Child") because it was most noticeable around Christmas; the earliest recorded use of "El Nino" in a climate context dates to 1892 (Captain Camilo Carrillo). Sir Gilbert Walker identified the "Southern Oscillation" in atmospheric pressure in the early 20th century, and Jacob Bjerknes linked the two phenomena in the late 1960s, giving rise to the combined term ENSO.
+- **UPSC Relevance:** GS1 Geography and GS3 Agriculture. Prelims 2017 tested the distinction between ENSO (Pacific Ocean) and IOD (Indian Ocean) — a common trap. Mains regularly asks to "critically examine the role of ENSO and IOD in monsoon variability." Focus on El Nino causing deficit rainfall (~60% of El Nino years), La Nina enhancing rainfall, and how positive IOD can offset El Nino's negative impact (2019 example).
 
 ---
 

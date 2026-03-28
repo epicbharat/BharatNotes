@@ -221,12 +221,14 @@ This period saw massive **maritime and overland trade** between India and the Ro
 ### Gandhara Art
 - **Pronunciation:** /ɡʌnˈdɑːrə ɑːrt/
 - **Definition:** A school of Buddhist sculpture that flourished in the northwestern Indian subcontinent (modern Pakistan and eastern Afghanistan) from the 1st to the 5th century CE, characterised by Greco-Roman artistic influences such as realistic musculature, wavy hair, and toga-like drapery applied to Buddhist subjects in grey schist stone.
-- **Origin:** Named after the ancient region of *Gandhāra*, possibly from Sanskrit *gandha* (गन्ध, "fragrance"), referring to the aromatic herbs traded by the region's inhabitants; the art style developed under Kushan patronage at the crossroads of the Silk Road.
+- **Context:** Developed under Kushan patronage at the crossroads of the Silk Road; named after the ancient region of *Gandhāra* in the northwestern subcontinent.
+- **UPSC Relevance:** GS1 (Art & Culture). Prelims: high-frequency topic — tested on distinguishing features (grey schist, Greco-Roman influence, realistic Buddha images), comparison with Mathura (red sandstone, indigenous style) and Amaravati (white marble, narrative panels) schools. Mains: asked to discuss cultural synthesis in post-Mauryan art; compare the three schools in tabular form. Focus on Kushan patronage and Silk Road cultural exchange.
 
 ### Kushan Empire
 - **Pronunciation:** /ˈkuːʃən ˈɛmpaɪər/
 - **Definition:** A syncretic empire (c. 1st–3rd century CE) founded by the Yuezhi nomads from Central Asia, which at its peak under Kanishka I controlled territories from Central Asia to the Gangetic plain, patronised Gandhara art and Mahayana Buddhism, and facilitated Silk Road trade between Rome, China, and India.
-- **Origin:** From Bactrian *ΚΟϷΑΝ* (košan), related to Chinese *Guìshuāng* (貴霜), the name of one of the five Yuezhi tribal confederacy divisions; the etymology was first proposed by Alexander Cunningham in 1899.
+- **Context:** From Bactrian *ΚΟϷΑΝ* (košan), related to Chinese *Guìshuāng* (貴霜); one of the five Yuezhi tribal confederacy divisions that established dominion over the Indian subcontinent's northwest.
+- **UPSC Relevance:** GS1 (Ancient India). Prelims: tested on Kanishka I — his Fourth Buddhist Council (Kashmir), gold coinage, patronage of Gandhara art, and role in spreading Mahayana Buddhism to Central/East Asia. Mains: relevant for questions on Silk Road trade, Indo-Central Asian cultural exchange, and the role of foreign dynasties in Indian history. Focus on Kushan contribution to art, religion, and trade connectivity.
 
 ---
 

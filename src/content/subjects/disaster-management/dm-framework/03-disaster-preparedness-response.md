@@ -255,12 +255,14 @@ India's disaster financing framework involves dedicated funds at the national an
 ### Incident Command System
 - **Pronunciation:** /ˈɪn.sɪ.dənt kəˈmɑːnd ˈsɪs.təm/
 - **Definition:** A standardised, scalable management framework for the command, control, and coordination of emergency response operations, providing a common organisational structure, terminology, and procedures that enable personnel from multiple agencies to work together effectively during incidents of any size or complexity.
-- **Origin:** Developed in the 1970s in the United States following catastrophic wildfires in Southern California; initially designed by the FIRESCOPE programme to address inter-agency coordination failures; now adopted globally as a core component of incident management.
+- **Context:** Developed in the 1970s in the United States following catastrophic wildfires in Southern California; initially designed by the FIRESCOPE programme to address inter-agency coordination failures; now adopted globally as a core component of incident management.
+- **UPSC Relevance:** GS3 Disaster Management. Mains asks about multi-agency coordination during disasters and the need for standardised command structures. ICS is the model that NDMA recommends for disaster response in India. Focus on how ICS enables scalability (works for small incidents to national disasters), unified command across agencies, and how India's NDRF operations follow ICS principles. Relevant for answers on improving disaster response efficiency.
 
 ### Early Warning System
 - **Pronunciation:** /ˈɜːl.i ˈwɔːn.ɪŋ ˈsɪs.təm/
 - **Definition:** An integrated system of hazard monitoring, forecasting, risk assessment, and communication that enables individuals, communities, and governments to take timely action to reduce disaster risks before hazardous events occur — encompassing agencies such as IMD (cyclones), INCOIS (tsunamis), and CWC (floods) in India.
-- **Origin:** The concept formalised in international disaster management practice through the Yokohama Strategy (1994) and subsequent UN frameworks; the UNDRR definition was adopted in the 2009 UNISDR Terminology.
+- **Context:** The concept formalised in international disaster management practice through the Yokohama Strategy (1994) and subsequent UN frameworks; the UNDRR definition was adopted in the 2009 UNISDR Terminology.
+- **UPSC Relevance:** GS3 Disaster Management. Prelims tests which agency handles which warning — IMD for cyclones, INCOIS for tsunamis, CWC for floods, GSI for landslides. Mains asks about the effectiveness of India's early warning systems, the improvement in cyclone warning (near-zero deaths from Cyclone Phailin 2013 onward due to better EWS), and India providing tsunami warnings to 25 Indian Ocean countries. Connect to Sendai Framework Priority 4 (enhancing preparedness for effective response).
 
 ---
 
