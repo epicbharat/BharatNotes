@@ -1,68 +1,129 @@
 ---
 layout: base.njk
-title: "Key Terms & Concepts"
-description: "Comprehensive glossary of UPSC key terms and concepts — definitions, explanations, etymology, and exam relevance for all GS papers."
+title: "Key Terms & Concepts — UPSC GS Encyclopedia"
+description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with definitions, context, exam relevance, and chapter links across all GS papers."
 ---
+
+<style>
+.kt-hero{display:flex;align-items:center;gap:var(--space-5);padding:var(--space-5);background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);margin-bottom:var(--space-6)}
+.kt-hero-ring{flex-shrink:0}
+.kt-ring-bg{fill:none;stroke:var(--color-border);stroke-width:6}
+.kt-ring-fill{fill:none;stroke:var(--color-brand);stroke-width:6;stroke-linecap:round;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset 0.6s ease-out}
+.kt-ring-pct{fill:var(--color-text);font-size:18px;font-weight:800}
+.kt-ring-sub{fill:var(--color-text-muted);font-size:9px}
+.kt-hero-info{flex:1}
+.kt-hero-label{font-size:var(--text-base);font-weight:700;color:var(--color-text);margin:0 0 2px}
+.kt-hero-sub{font-size:var(--text-xs);color:var(--color-text-muted);margin:0}
+
+.kt-filters{display:flex;flex-wrap:wrap;gap:var(--space-2);margin-bottom:var(--space-4)}
+.kt-filter{padding:5px 12px;border:1.5px solid var(--color-border);border-radius:var(--radius-full,999px);font-size:0.65rem;font-weight:600;background:var(--color-surface);color:var(--color-text);cursor:pointer;transition:all 0.15s}
+.kt-filter:hover{border-color:var(--color-brand);color:var(--color-brand)}
+.kt-filter.active{background:var(--color-brand);color:#fff;border-color:var(--color-brand)}
+.kt-filter--gs{border-color:var(--gs-color,var(--color-border))}
+.kt-filter--gs.active{background:var(--gs-color);border-color:var(--gs-color)}
+
+.kt-controls{display:flex;flex-wrap:wrap;gap:var(--space-3);align-items:center;margin-bottom:var(--space-5);position:sticky;top:0;z-index:10;background:var(--color-bg);padding:var(--space-3) 0;border-bottom:1px solid var(--color-border)}
+.kt-search{flex:1;min-width:200px;padding:8px 14px;border:1px solid var(--color-border);border-radius:var(--radius-md);font-size:var(--text-sm);background:var(--color-surface)}
+.kt-search-count{font-size:var(--text-xs);color:var(--color-text-muted)}
+
+.kt-letter{font-family:var(--font-body);font-size:var(--text-lg);font-weight:800;color:var(--color-brand);margin:var(--space-6) 0 var(--space-3);padding-bottom:var(--space-2);border-bottom:2px solid var(--color-border)}
+
+.kt-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);margin-bottom:var(--space-4);overflow:hidden;transition:box-shadow 0.15s}
+.kt-card:hover{box-shadow:var(--shadow-sm)}
+.kt-card__head{display:flex;align-items:flex-start;justify-content:space-between;padding:var(--space-4) var(--space-5) 0;gap:var(--space-3)}
+.kt-card__title-wrap{flex:1;min-width:0}
+.kt-card__title{font-family:var(--font-body);font-size:var(--text-base);font-weight:700;color:var(--color-text);margin:0 0 2px}
+.kt-card__title a{color:inherit;text-decoration:none}
+.kt-card__title a:hover{color:var(--color-brand)}
+.kt-card__pron{font-family:monospace;font-size:var(--text-xs);color:var(--color-text-muted);background:rgba(0,0,0,0.04);padding:1px 6px;border-radius:var(--radius-sm);display:inline-block}
+.kt-card__badges{display:flex;gap:4px;flex-shrink:0;flex-wrap:wrap}
+
+.kt-card__def{padding:var(--space-3) var(--space-5);font-size:var(--text-sm);line-height:1.7;color:var(--color-text);margin:0;border-left:3px solid var(--color-brand);margin-left:var(--space-5);padding-left:var(--space-3)}
+
+.kt-card__context{padding:var(--space-2) var(--space-5) var(--space-3);font-size:var(--text-xs);line-height:1.6;color:var(--color-text-secondary);margin:0}
+.kt-card__context strong{color:var(--color-text);font-weight:600}
+
+.kt-card__upsc{margin:0 var(--space-5) var(--space-3);padding:var(--space-3) var(--space-4);background:linear-gradient(135deg,rgba(212,160,23,0.06) 0%,rgba(15,76,58,0.04) 100%);border:1px solid rgba(212,160,23,0.2);border-radius:var(--radius-md);font-size:var(--text-xs);line-height:1.6;color:var(--color-text-secondary)}
+.kt-card__upsc-label{font-size:0.6rem;font-weight:700;color:var(--color-accent-hover);text-transform:uppercase;letter-spacing:0.04em;margin-bottom:2px;display:block}
+
+.kt-card__foot{display:flex;align-items:center;justify-content:space-between;padding:var(--space-3) var(--space-5);border-top:1px solid var(--color-border-light,rgba(0,0,0,0.06));gap:var(--space-3)}
+.kt-card__subject{font-size:0.6rem;color:var(--color-text-muted)}
+.kt-card__actions{display:flex;align-items:center;gap:var(--space-3)}
+.kt-card__link{font-size:var(--text-xs);color:var(--color-brand);font-weight:600;text-decoration:none}
+.kt-card__link:hover{text-decoration:underline}
+.kt-card__btn{padding:4px 12px;border:1.5px solid var(--color-border);border-radius:var(--radius-full,999px);font-size:0.6rem;font-weight:600;background:none;color:var(--color-text-muted);cursor:pointer;transition:all 0.15s}
+.kt-card__btn:hover{border-color:var(--color-brand);color:var(--color-brand)}
+.kt-card__btn.learned{background:var(--color-brand);color:#fff;border-color:var(--color-brand)}
+
+.kt-alpha{display:flex;flex-wrap:wrap;gap:3px;margin-bottom:var(--space-4)}
+.kt-alpha-btn{width:26px;height:26px;display:flex;align-items:center;justify-content:center;border-radius:var(--radius-sm);font-size:0.6rem;font-weight:700;text-decoration:none;border:1px solid var(--color-border);color:var(--color-text);transition:all 0.1s}
+.kt-alpha-btn:hover{border-color:var(--color-brand);color:var(--color-brand)}
+.kt-alpha-btn.active-letter{background:var(--color-brand);color:#fff;border-color:var(--color-brand)}
+.kt-alpha-btn.disabled{opacity:0.3;pointer-events:none}
+
+.kt-no-results{text-align:center;padding:var(--space-8);color:var(--color-text-muted);font-size:var(--text-sm)}
+
+@media(max-width:768px){.kt-hero{flex-direction:column;text-align:center}.kt-controls{flex-direction:column;align-items:stretch}}
+@media(max-width:480px){.kt-card__head{flex-direction:column}.kt-card__def{margin-left:var(--space-3)}}
+</style>
 
 <section class="page-header">
   <div class="container">
-    <nav class="breadcrumb">
-      <a href="/">Home</a><span class="breadcrumb__sep">/</span>
-      <a href="/resources/">Resources</a><span class="breadcrumb__sep">/</span>
-      Key Terms &amp; Concepts
-    </nav>
-    <p class="page-header__eyebrow">Resources</p>
-    <h1 class="page-header__title">Key Terms &amp; Concepts</h1>
-    <p class="page-header__subtitle">Essential UPSC concepts explained in depth — definitions, origins, and exam strategy for every GS paper.</p>
+    <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb__sep">/</span><a href="/resources/">Resources</a><span class="breadcrumb__sep">/</span>Key Terms</nav>
+    <p class="page-header__eyebrow">Concept Encyclopedia</p>
+    <h1 class="page-header__title">Key Terms & Concepts</h1>
+    <p class="page-header__subtitle">{{ vocabIndex.terms | length }}+ UPSC concepts — definitions, context, and exam relevance for every GS paper.</p>
   </div>
 </section>
 
-<section class="vocab-hub vocab-hub--terms" style="padding:var(--space-8) 0;">
+<section style="padding:var(--space-8) 0;">
   <div class="container">
 
-    {# ── Stats bar ── #}
-    <div class="vocab-hub__stats">
-      <div class="vocab-hub__stat">
-        <span class="vocab-hub__stat-num">{{ vocabIndex.terms | length }}</span>
-        <span class="vocab-hub__stat-label">Total Terms</span>
+    {# ── Progress Ring ── #}
+    <div class="kt-hero">
+      <div class="kt-hero-ring">
+        <svg viewBox="0 0 90 90" width="90" height="90">
+          <circle class="kt-ring-bg" cx="45" cy="45" r="38"/>
+          <circle class="kt-ring-fill" id="kt-ring" cx="45" cy="45" r="38" stroke-dasharray="238.76" stroke-dashoffset="238.76"/>
+          <text class="kt-ring-pct" id="kt-ring-pct" x="45" y="42" dominant-baseline="central" text-anchor="middle">0%</text>
+          <text class="kt-ring-sub" id="kt-ring-sub" x="45" y="55" dominant-baseline="central" text-anchor="middle">0 / {{ vocabIndex.terms | length }}</text>
+        </svg>
       </div>
-      <div class="vocab-hub__stat-divider"></div>
-      <div class="vocab-hub__stat">
-        <span class="vocab-hub__stat-num" id="vh-learned-num">0</span>
-        <span class="vocab-hub__stat-label" id="vh-learned">Revised</span>
-      </div>
-      <div class="vocab-hub__stat-divider"></div>
-      <div class="vocab-hub__stat">
-        <span class="vocab-hub__stat-num" id="vh-remaining-num">{{ vocabIndex.terms | length }}</span>
-        <span class="vocab-hub__stat-label" id="vh-remaining">Remaining</span>
-      </div>
-      <div class="vocab-hub__progress-bar">
-        <div class="vocab-hub__progress-fill" id="vh-progress" style="width:0%"></div>
+      <div class="kt-hero-info">
+        <p class="kt-hero-label" id="kt-label">{{ vocabIndex.terms | length }} concepts to master</p>
+        <p class="kt-hero-sub">Mark terms as "Understood" as you study. Progress saved in your browser.</p>
       </div>
     </div>
 
-    {# ── Search ── #}
-    <div class="vocab-hub__search-wrap">
-      <svg class="vocab-hub__search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      <input type="text" id="vh-search" class="vocab-hub__search" placeholder="Search key terms..." autocomplete="off">
-      <span class="vocab-hub__search-count" id="vh-search-count"></span>
+    {# ── GS Paper Filters ── #}
+    <div class="kt-filters">
+      <button class="kt-filter active" data-gs="all">All Papers</button>
+      <button class="kt-filter kt-filter--gs active" data-gs="gs1" style="--gs-color:#9f1239;">GS1</button>
+      <button class="kt-filter kt-filter--gs active" data-gs="gs2" style="--gs-color:#7c3aed;">GS2</button>
+      <button class="kt-filter kt-filter--gs active" data-gs="gs3" style="--gs-color:#0369a1;">GS3</button>
+      <button class="kt-filter kt-filter--gs active" data-gs="gs4" style="--gs-color:#854d0e;">GS4</button>
     </div>
 
-    {# ── Subject filters ── #}
-    <div class="vocab-hub__filters">
-      <button class="vocab-hub__filter active" data-subject="all">All Subjects</button>
+    {# ── Subject Filters ── #}
+    <div class="kt-filters" id="kt-subj-filters">
+      <button class="kt-filter active" data-subject="all">All Subjects</button>
       {% for s in subjects %}
       {%- set hasEntries = false -%}
       {%- for t in vocabIndex.terms -%}{%- if t.subject == s.slug -%}{%- set hasEntries = true -%}{%- endif -%}{%- endfor -%}
       {%- if hasEntries %}
-      <button class="vocab-hub__filter" data-subject="{{ s.slug }}">{{ s.icon }} {{ s.name }}</button>
+      <button class="kt-filter" data-subject="{{ s.slug }}">{{ s.icon }} {{ s.name }}</button>
       {%- endif -%}
       {% endfor %}
     </div>
 
-    {# ── Alphabet nav ── #}
-    <nav class="vocab-hub__alpha" id="vh-alpha" aria-label="Jump to letter">
-      <span class="vocab-hub__alpha-label">Jump to:</span>
+    {# ── Search + Count ── #}
+    <div class="kt-controls">
+      <input type="search" id="kt-search" class="kt-search" placeholder="Search terms, definitions, concepts..." autocomplete="off">
+      <span class="kt-search-count" id="kt-count"></span>
+    </div>
+
+    {# ── Alphabet Nav ── #}
+    <nav class="kt-alpha" id="kt-alpha">
       {%- set letters = [] -%}
       {%- for t in vocabIndex.terms -%}
         {%- set letter = (t.term | upper)[0] -%}
@@ -70,54 +131,60 @@ description: "Comprehensive glossary of UPSC key terms and concepts — definiti
       {%- endfor -%}
       {%- for ch in "ABCDEFGHIJKLMNOPQRSTUVWXYZ" -%}
         {%- if ch in letters -%}
-        <a href="#terms-letter-{{ ch }}" class="vocab-hub__alpha-btn active-letter">{{ ch }}</a>
+        <a href="#kt-{{ ch }}" class="kt-alpha-btn active-letter">{{ ch }}</a>
         {%- else -%}
-        <span class="vocab-hub__alpha-btn disabled">{{ ch }}</span>
+        <span class="kt-alpha-btn disabled">{{ ch }}</span>
         {%- endif -%}
       {%- endfor -%}
     </nav>
 
-    {# ── No results message ── #}
-    <div class="vocab-hub__no-results" id="vh-no-results" hidden>
-      <p>No matching terms found. Try a different search or filter.</p>
-    </div>
+    {# ── No results ── #}
+    <div class="kt-no-results" id="kt-no-results" hidden>No matching terms found.</div>
 
-    {# ── Cards grouped by letter ── #}
+    {# ── Cards ── #}
     {%- set currentLetter = "" -%}
     {%- for t in vocabIndex.terms -%}
       {%- set letter = (t.term | upper)[0] -%}
       {%- if letter != currentLetter -%}
         {%- if currentLetter != "" %}</div>{%- endif -%}
         {%- set currentLetter = letter -%}
-    <div class="vocab-hub__letter-group" id="terms-letter-{{ letter }}" data-letter="{{ letter }}">
-      <h2 class="vocab-hub__letter-heading">{{ letter }}</h2>
+    <div class="kt-letter-group" id="kt-{{ letter }}" data-letter="{{ letter }}">
+      <h2 class="kt-letter">{{ letter }}</h2>
       {%- endif %}
 
       {%- set subjectName = t.subject -%}
       {%- set subjectIcon = "" -%}
       {%- for s in subjects -%}{%- if s.slug == t.subject -%}{%- set subjectName = s.name -%}{%- set subjectIcon = s.icon -%}{%- endif -%}{%- endfor -%}
 
-      <div class="vocab-hub__card" data-subject="{{ t.subject }}" data-term="{{ t.term | lower }}" data-def="{{ t.definition | lower }}">
-        <div class="vocab-hub__card-top">
-          <div class="vocab-hub__card-header">
-            <a href="{{ t.topicUrl }}#term-{{ t.slug }}" class="vocab-hub__term-link">
-              <h3 class="vocab-hub__term">{{ t.term }}</h3>
-            </a>
-            {% if t.pronunciation %}<span class="vocab-hub__pron">{{ t.pronunciation }}</span>{% endif %}
+      <div class="kt-card" data-subject="{{ t.subject }}" data-gs="{{ t.gs_papers | join(',') }}" data-term="{{ t.term | lower }}" data-def="{{ t.definition | lower }}" data-ctx="{{ t.origin | lower }}">
+        <div class="kt-card__head">
+          <div class="kt-card__title-wrap">
+            <h3 class="kt-card__title"><a href="{{ t.topicUrl }}#term-{{ t.slug }}">{{ t.term }}</a></h3>
+            {% if t.pronunciation %}<span class="kt-card__pron">{{ t.pronunciation }}</span>{% endif %}
           </div>
-          <div class="vocab-hub__gs-tags">
+          <div class="kt-card__badges">
             {%- for gp in t.gs_papers %}<span class="gs-badge gs-badge--{{ gp }}">{{ gp | upper }}</span>{% endfor %}
           </div>
         </div>
-        <p class="vocab-hub__def">{{ t.definition }}</p>
-        {% if t.upsc %}<p class="vocab-hub__meta"><strong>UPSC:</strong> {{ t.upsc | truncate(150, true) }}</p>{% endif %}
-        <div class="vocab-hub__card-footer">
-          <div class="vocab-hub__subject-tags">
-            <a href="/subjects/{{ t.subject }}/" class="vocab-hub__subject-tag">{{ subjectIcon }} {{ subjectName }}</a>
-          </div>
-          <div class="vocab-hub__actions">
-            <a href="{{ t.topicUrl }}#term-{{ t.slug }}" class="vocab-hub__detail-link">Definition &rarr;</a>
-            <button class="vocab-hub__learn-btn" data-term-id="terms-{{ t.slug }}" aria-label="Mark as revised">Revise</button>
+
+        <p class="kt-card__def">{{ t.definition }}</p>
+
+        {% if t.origin %}
+        <p class="kt-card__context"><strong>Context:</strong> {{ t.origin }}</p>
+        {% endif %}
+
+        {% if t.upsc %}
+        <div class="kt-card__upsc">
+          <span class="kt-card__upsc-label">UPSC Relevance</span>
+          {{ t.upsc }}
+        </div>
+        {% endif %}
+
+        <div class="kt-card__foot">
+          <span class="kt-card__subject">{{ subjectIcon }} {{ subjectName }}</span>
+          <div class="kt-card__actions">
+            <a href="{{ t.topicUrl }}#term-{{ t.slug }}" class="kt-card__link">Read in chapter &rarr;</a>
+            <button class="kt-card__btn" data-tid="terms-{{ t.slug }}">Revise</button>
           </div>
         </div>
       </div>
@@ -129,75 +196,88 @@ description: "Comprehensive glossary of UPSC key terms and concepts — definiti
 </section>
 
 <script>
-(function() {
-  var search = document.getElementById("vh-search");
-  var countEl = document.getElementById("vh-search-count");
-  var noResults = document.getElementById("vh-no-results");
-  var cards = document.querySelectorAll(".vocab-hub__card");
-  var groups = document.querySelectorAll(".vocab-hub__letter-group");
-  var filters = document.querySelectorAll(".vocab-hub__filter");
-  var activeSubject = "all";
+(function(){
+  var search = document.getElementById('kt-search');
+  var countEl = document.getElementById('kt-count');
+  var noResults = document.getElementById('kt-no-results');
+  var cards = document.querySelectorAll('.kt-card');
+  var groups = document.querySelectorAll('.kt-letter-group');
+  var activeSubject = 'all';
+  var activeGS = 'all';
+  var total = cards.length;
+  var CIRC = 2 * Math.PI * 38;
 
-  function applyFilters() {
-    var q = search.value.toLowerCase().trim();
-    var shown = 0;
-    cards.forEach(function(c) {
-      var matchSubject = activeSubject === "all" || c.dataset.subject === activeSubject;
-      var matchSearch = !q || c.dataset.term.indexOf(q) !== -1 || c.dataset.def.indexOf(q) !== -1;
-      var visible = matchSubject && matchSearch;
-      c.style.display = visible ? "" : "none";
-      if (visible) shown++;
-    });
-    groups.forEach(function(g) {
-      var hasVisible = g.querySelector('.vocab-hub__card:not([style*="display: none"])');
-      g.style.display = hasVisible ? "" : "none";
-    });
-    countEl.textContent = q ? shown + " found" : "";
-    noResults.hidden = shown > 0;
-  }
+  // Subject filters
+  document.getElementById('kt-subj-filters').addEventListener('click', function(e){
+    var btn = e.target.closest('.kt-filter');
+    if(!btn || !btn.dataset.subject) return;
+    document.querySelectorAll('#kt-subj-filters .kt-filter').forEach(function(b){b.classList.remove('active');});
+    btn.classList.add('active');
+    activeSubject = btn.dataset.subject;
+    applyFilters();
+  });
 
-  search.addEventListener("input", applyFilters);
-
-  filters.forEach(function(btn) {
-    btn.addEventListener("click", function() {
-      filters.forEach(function(b) { b.classList.remove("active"); });
-      btn.classList.add("active");
-      activeSubject = btn.dataset.subject;
+  // GS Paper filters
+  document.querySelectorAll('.kt-filter[data-gs]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.gs === 'all'){
+        activeGS = 'all';
+        document.querySelectorAll('.kt-filter[data-gs]').forEach(function(b){b.classList.remove('active');});
+        btn.classList.add('active');
+      } else {
+        document.querySelector('.kt-filter[data-gs="all"]').classList.remove('active');
+        btn.classList.toggle('active');
+        var activeBtns = document.querySelectorAll('.kt-filter[data-gs].active:not([data-gs="all"])');
+        if(activeBtns.length === 0){
+          activeGS = 'all';
+          document.querySelector('.kt-filter[data-gs="all"]').classList.add('active');
+        } else {
+          activeGS = Array.from(activeBtns).map(function(b){return b.dataset.gs;});
+        }
+      }
       applyFilters();
     });
   });
 
-  // Learn/Revise toggle with progress bar
-  var learnedSet = JSON.parse(localStorage.getItem("bn_terms_learned") || "[]");
-  var learnedNum = document.getElementById("vh-learned-num");
-  var remainNum = document.getElementById("vh-remaining-num");
-  var progressBar = document.getElementById("vh-progress");
-  var total = cards.length;
-
-  function updateProgress() {
-    learnedNum.textContent = learnedSet.length;
-    remainNum.textContent = total - learnedSet.length;
-    progressBar.style.width = total ? Math.round((learnedSet.length / total) * 100) + "%" : "0%";
-    localStorage.setItem("bn_terms_learned", JSON.stringify(learnedSet));
+  function applyFilters(){
+    var q = (search.value||'').toLowerCase().trim();
+    var shown = 0;
+    cards.forEach(function(c){
+      var matchSubj = activeSubject === 'all' || c.dataset.subject === activeSubject;
+      var matchGS = activeGS === 'all' || (Array.isArray(activeGS) ? activeGS.some(function(g){return c.dataset.gs.indexOf(g)!==-1;}) : c.dataset.gs.indexOf(activeGS)!==-1);
+      var matchSearch = !q || c.dataset.term.indexOf(q)!==-1 || c.dataset.def.indexOf(q)!==-1 || c.dataset.ctx.indexOf(q)!==-1;
+      var vis = matchSubj && matchGS && matchSearch;
+      c.style.display = vis ? '' : 'none';
+      if(vis) shown++;
+    });
+    groups.forEach(function(g){
+      g.style.display = g.querySelector('.kt-card:not([style*="display: none"])') ? '' : 'none';
+    });
+    countEl.textContent = q ? shown + ' found' : '';
+    noResults.hidden = shown > 0;
   }
 
-  document.querySelectorAll(".vocab-hub__learn-btn").forEach(function(btn) {
-    var id = btn.dataset.termId;
-    if (learnedSet.indexOf(id) !== -1) {
-      btn.classList.add("learned");
-      btn.textContent = "Learned \u2713";
-    }
-    btn.addEventListener("click", function() {
-      var idx = learnedSet.indexOf(id);
-      if (idx === -1) {
-        learnedSet.push(id);
-        btn.classList.add("learned");
-        btn.textContent = "Learned \u2713";
-      } else {
-        learnedSet.splice(idx, 1);
-        btn.classList.remove("learned");
-        btn.textContent = "Revise";
-      }
+  search.addEventListener('input', applyFilters);
+
+  // Learn/Revise toggle
+  var learned = JSON.parse(localStorage.getItem('bn_terms_learned')||'[]');
+
+  function updateProgress(){
+    var pct = total ? Math.round(learned.length/total*100) : 0;
+    document.getElementById('kt-ring').setAttribute('stroke-dashoffset', CIRC-(pct/100)*CIRC);
+    document.getElementById('kt-ring-pct').textContent = pct+'%';
+    document.getElementById('kt-ring-sub').textContent = learned.length+' / '+total;
+    document.getElementById('kt-label').textContent = learned.length > 0 ? learned.length+' of '+total+' terms understood' : total+' concepts to master';
+    localStorage.setItem('bn_terms_learned', JSON.stringify(learned));
+  }
+
+  document.querySelectorAll('.kt-card__btn').forEach(function(btn){
+    var id = btn.dataset.tid;
+    if(learned.indexOf(id)!==-1){btn.classList.add('learned');btn.textContent='Understood \u2713';}
+    btn.addEventListener('click',function(){
+      var idx = learned.indexOf(id);
+      if(idx===-1){learned.push(id);btn.classList.add('learned');btn.textContent='Understood \u2713';}
+      else{learned.splice(idx,1);btn.classList.remove('learned');btn.textContent='Revise';}
       updateProgress();
     });
   });

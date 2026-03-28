@@ -84,8 +84,8 @@ function parseFile(filePath) {
       const val = fieldMatch[2].trim();
       if (key === "pronunciation") currentEntry.pronunciation = val;
       else if (key === "definition") currentEntry.definition = val;
-      else if (key === "origin") currentEntry.origin = val;
-      else if (key === "upsc" || key === "upsc context") currentEntry.upsc = val;
+      else if (key === "origin" || key === "context") currentEntry.origin = val;
+      else if (key === "upsc" || key === "upsc context" || key === "upsc relevance") currentEntry.upsc = val;
     }
   }
   pushEntry();
