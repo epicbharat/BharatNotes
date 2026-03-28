@@ -1004,6 +1004,17 @@ layout: base.njk
             }
           }
 
+          // Link to individual term page
+          var pathParts = window.location.pathname.replace(/^\/|\/$/g, '').split('/');
+          var fileSlug = pathParts[pathParts.length - 1] || '';
+          var termPageSlug = entry.slug + '--' + fileSlug;
+          var termPageUrl = '/resources/key-terms/' + termPageSlug + '/';
+          if (variant === 'terms') {
+            bodyHtml += '<div style="padding:var(--space-3) 0 0;border-top:1px solid rgba(0,0,0,0.05);margin-top:var(--space-3);">';
+            bodyHtml += '<a href="' + termPageUrl + '" style="font-size:var(--text-xs);color:var(--color-brand);font-weight:600;text-decoration:none;">View full page &rarr;</a>';
+            bodyHtml += '</div>';
+          }
+
           body.innerHTML = bodyHtml;
           card.appendChild(header);
           card.appendChild(body);
