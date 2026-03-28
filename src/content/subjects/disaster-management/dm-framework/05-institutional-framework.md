@@ -90,7 +90,7 @@ India's disaster management framework was transformed by the **Disaster Manageme
 | Feature | Detail |
 |---------|--------|
 | **Chairman** | **Chief Minister** of the state (ex-officio) |
-| **Members** | Up to **8 other members** appointed by the CM |
+| **Members** | Up to **9 other members** appointed by the CM |
 | **Functions** | Lay down the state disaster management policy; approve the State Disaster Management Plan; coordinate with NDMA; review capacity building measures |
 | **State Executive Committee** | Chaired by the **Chief Secretary**; coordinates and monitors state-level implementation |
 | **State Plan** | SDMA approves the State Disaster Management Plan prepared by the State Executive Committee; the plan must conform to the guidelines of NDMA |

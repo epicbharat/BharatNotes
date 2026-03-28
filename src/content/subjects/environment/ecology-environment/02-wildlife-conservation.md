@@ -157,7 +157,7 @@ The 2022 Amendment rationalised the earlier six-schedule system:
 
 ## Biosphere Reserves
 
-India has **18 Biosphere Reserves**, of which **12 are part of UNESCO's World Network of Biosphere Reserves**.
+India has **18 Biosphere Reserves**, of which **13 are part of UNESCO's World Network of Biosphere Reserves** (Cold Desert added September 2025).
 
 | Feature | Detail |
 |---------|--------|
@@ -185,11 +185,11 @@ India has **18 Biosphere Reserves**, of which **12 are part of UNESCO's World Ne
 | Manas | Assam | No |
 | Dibru-Saikhowa | Assam | No |
 | Dihang-Dibang | Arunachal Pradesh | No |
-| Cold Desert | Himachal Pradesh | No |
+| Cold Desert | Himachal Pradesh | Yes (2025) |
 | Seshachalam | Andhra Pradesh | No |
 | Kutch | Gujarat | No |
 
-> **Prelims Fact:** 12 of 18 are in the UNESCO World Network. The latest addition is **Panna** (2020). Madhya Pradesh has the most biosphere reserves (3 — Pachmarhi, Amarkantak, Panna).
+> **Prelims Fact:** 13 of 18 are in the UNESCO World Network. The latest addition is **Cold Desert** (2025). Madhya Pradesh has the most biosphere reserves (3 — Pachmarhi, Amarkantak, Panna).
 
 ---
 
@@ -203,7 +203,7 @@ India is a signatory to the **Ramsar Convention on Wetlands** (1971, Iran).
 | **Total area** | ~13.6 lakh hectares |
 | **First sites (1981)** | Chilika Lake (Odisha) & Keoladeo Ghana (Rajasthan) |
 | **India's rank** | Highest in Asia; third globally (after UK and Mexico) |
-| **State with most sites** | Tamil Nadu (16), followed by UP (10) |
+| **State with most sites** | Tamil Nadu (20), followed by UP (11) |
 
 > **Why Ramsar matters for Prelims:** UPSC regularly asks about specific Ramsar sites. Key additions in 2024-25 include several in Tamil Nadu and UP. The Ramsar Convention does NOT provide legal protection — it is a designation of international importance. Legal protection comes from national laws (Wildlife Protection Act, Environment Protection Act).
 
@@ -214,7 +214,7 @@ India is a signatory to the **Ramsar Convention on Wetlands** (1971, Iran).
 | Chilika Lake | Odisha | Largest brackish water lagoon in Asia; migratory birds |
 | Keoladeo Ghana | Rajasthan | UNESCO World Heritage; migratory bird paradise |
 | Loktak Lake | Manipur | Only floating national park (Keibul Lamjao) |
-| Vembanad-Kol | Kerala | Largest Ramsar site in India by area |
+| Vembanad-Kol | Kerala | Longest lake in India; important for Kerala Backwaters |
 | Sundarbans | West Bengal | Largest mangrove forest; Royal Bengal Tiger habitat |
 | Sambhar Lake | Rajasthan | Largest inland salt lake in India |
 | Wular Lake | J&K | Largest freshwater lake in India |
@@ -251,12 +251,12 @@ India is a signatory to the **Ramsar Convention on Wetlands** (1971, Iran).
 | **Extinct** | EX | Pink-headed Duck |
 | **Extinct in the Wild** | EW | — |
 | **Critically Endangered** | CR | Great Indian Bustard, Gharial, Pygmy Hog |
-| **Endangered** | EN | Asiatic Lion, Bengal Tiger, Snow Leopard, Indian Elephant |
-| **Vulnerable** | VU | Gangetic Dolphin, Indian Rhinoceros, Lion-tailed Macaque |
+| **Endangered** | EN | Asiatic Lion, Bengal Tiger, Gangetic Dolphin, Indian Elephant |
+| **Vulnerable** | VU | Snow Leopard, Indian Rhinoceros, Lion-tailed Macaque |
 | **Near Threatened** | NT | Nilgiri Tahr |
 | **Least Concern** | LC | Rhesus Macaque, Indian Peafowl |
 
-> **Exam Tip:** The Tiger was reclassified from CR to EN in 2023 based on population recovery. The Great Indian Bustard is CR with fewer than 150 individuals. UPSC loves asking about specific species and their IUCN status — memorise at least the top 10 CR and EN species of India.
+> **Exam Tip:** The Bengal Tiger is classified as Endangered (EN) globally. Snow Leopard was downlisted from EN to Vulnerable (VU) in 2017. The Great Indian Bustard is CR with fewer than 150 individuals. UPSC loves asking about specific species and their IUCN status — memorise at least the top 10 CR and EN species of India.
 
 ---
 
