@@ -20,7 +20,7 @@ tags:
 
 Indian Geography is the **highest-weightage section** within Geography for UPSC — both Prelims and Mains draw heavily from India's physical setting, rivers, climate, soils, and resources. This section requires both conceptual clarity (monsoon mechanism, drainage patterns) and factual precision (river tributaries, soil types, mineral-producing states, dam locations).
 
-This section is divided into **5 detailed chapters** covering India's physical landscape, drainage, climate, vegetation, and resources.
+This section is divided into **6 detailed chapters** covering India's physical landscape, drainage, climate, vegetation, and resources.
 
 ### What You'll Cover
 
@@ -31,6 +31,7 @@ This section is divided into **5 detailed chapters** covering India's physical l
 | **Ch 03** | Climate & Monsoon | Climate factors, monsoon mechanism, ITCZ, ENSO, IOD, seasons, rainfall distribution, Koppen |
 | **Ch 04** | Indian Soils & Natural Vegetation | ICAR soil types, degradation, Champion & Seth forest classification, biogeographic zones, biosphere reserves |
 | **Ch 05** | Resources & Environment | Mineral resources, coal, petroleum, renewable energy, water resources, conservation |
+| **Ch 06** | Biogeography of India | Biogeographic zones, endemic species, biodiversity hotspots, wildlife corridors, island biogeography |
 
 > **Exam Strategy:** Indian Geography dominates Prelims with 8-12 questions per year. Focus on river-tributary associations, soil-crop-state linkages, mineral-producing states, and dam-river pairs. For Mains, connect physical geography with development — how drainage shapes agriculture, how soil degradation affects food security, how resource distribution drives regional disparities. Map practice is essential.
 

@@ -20,7 +20,7 @@ tags:
 
 GS Paper IV -- Ethics, Integrity and Aptitude -- tests a candidate's attitude, integrity, and ethical reasoning in public life. It carries 250 marks and is unique among UPSC papers because it evaluates not just knowledge, but the candidate's value system and decision-making framework.
 
-This topic is divided into **8 detailed chapters** -- covering ethical foundations, attitude and aptitude theory, emotional intelligence, contributions of moral thinkers, and a structured approach to case studies. Work through them sequentially for a complete GS4 preparation, or jump to any chapter for targeted revision.
+This topic is divided into **9 detailed chapters** -- covering ethical foundations, attitude and aptitude theory, emotional intelligence, contributions of moral thinkers, and a structured approach to case studies. Work through them sequentially for a complete GS4 preparation, or jump to any chapter for targeted revision.
 
 ### What You'll Cover
 
@@ -34,6 +34,7 @@ This topic is divided into **8 detailed chapters** -- covering ethical foundatio
 | **Ch 06** | Ethics in Public Administration | Probity, corruption, conflict of interest, whistleblower protection, code of conduct, accountability, 2nd ARC 4th Report |
 | **Ch 07** | Corporate Governance & Technology Ethics | Corporate governance, CSR (Section 135), environmental ethics, bioethics, AI/privacy ethics, media ethics |
 | **Ch 08** | Information Ethics & Conscience | Role of conscience, information ethics, Citizen's Charter, Sevottam, work culture, ethical governance models |
+| **Ch 09** | Professional Ethics & Decision Making | Ethical dilemmas in administration, decision-making models, accountability vs efficiency, conflict of interest, whistleblowing |
 
 > **Exam Strategy:** GS4 is divided into Section A (theory, ~125 marks) and Section B (case studies, ~125 marks). For Section A, master the key thinkers, EQ concepts, and foundational values -- always apply concepts to governance scenarios, never just define them. For Section B, use the stakeholder-values-options-action framework consistently, cite 2-3 thinkers per answer, and provide a concrete action plan. This paper rewards depth of ethical reasoning, not mere knowledge.
 

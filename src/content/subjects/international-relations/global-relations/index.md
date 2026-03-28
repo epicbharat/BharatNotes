@@ -18,7 +18,7 @@ tags:
 
 ## Overview
 
-International Relations is a **core GS2 section** in UPSC, covering India's foreign policy evolution, bilateral relationships with neighbours and major powers, the UN system and international organisations, global trade architecture, and multilateral forums. This section provides five comprehensive chapters that combine factual depth for Prelims with analytical frameworks for Mains — from Panchsheel and NAM to the Quad, BRICS expansion, and India's WTO battles.
+International Relations is a **core GS2 section** in UPSC, covering India's foreign policy evolution, bilateral relationships with neighbours and major powers, the UN system and international organisations, global trade architecture, and multilateral forums. This section provides seven comprehensive chapters that combine factual depth for Prelims with analytical frameworks for Mains — from Panchsheel and NAM to the Quad, BRICS expansion, and India's WTO battles.
 
 ---
 
@@ -32,3 +32,4 @@ International Relations is a **core GS2 section** in UPSC, covering India's fore
 | 4 | **International Trade & WTO** | India's trade profile, WTO structure & disputes, FTAs (UAE, Australia, EFTA, UK), RCEP, trade policy instruments |
 | 5 | **Multilateral Forums** | UN reform, BRICS expansion, SCO, Quad, G20 presidency, SAARC vs BIMSTEC, multi-alignment strategy |
 | 6 | **India's Strategic Partnerships** | India-USA, India-Russia, India-Japan, India-France, India-EU, nuclear diplomacy, Indo-Pacific strategy |
+| 7 | **Global Security & Arms Control** | Nuclear non-proliferation (NPT, CTBT, NSG), arms control treaties, terrorism conventions, UNSC resolutions, India's stance |

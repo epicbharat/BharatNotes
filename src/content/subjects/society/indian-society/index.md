@@ -21,7 +21,7 @@ tags:
 
 Indian Society is a core UPSC topic spanning GS Paper I (Indian Society) and GS Paper II (Social Justice, Governance). It covers India's social structure, diversity, demographic dynamics, urbanisation, the effects of globalisation, welfare mechanisms for vulnerable sections, and transparency in governance.
 
-This topic is divided into **8 detailed chapters** — covering the full breadth of the UPSC syllabus on society, social justice, and governance. Work through them sequentially for comprehensive coverage, or jump to any chapter for targeted revision.
+This topic is divided into **10 detailed chapters** — covering the full breadth of the UPSC syllabus on society, social justice, and governance. Work through them sequentially for comprehensive coverage, or jump to any chapter for targeted revision.
 
 ### What You'll Cover
 
@@ -35,6 +35,8 @@ This topic is divided into **8 detailed chapters** — covering the full breadth
 | **Ch 06** | Governance, Transparency & Accountability | RTI Act, e-governance, Digital India, Citizen's Charter, social audit, Lokpal, whistleblower protection |
 | **Ch 07** | Caste, Tribal & Minority Dynamics | Caste system, reservation policy, Mandal Commission, Scheduled Tribes, FRA 2006, minority rights, communalism |
 | **Ch 08** | Gender Issues & Social Inclusion | Gender inequality, women empowerment schemes, LGBTQ+ rights, disability inclusion, child rights |
+| **Ch 09** | Education System & NEP 2020 | NEP 2020, school & higher education reforms, UGC, AICTE, National Research Foundation, skill development |
+| **Ch 10** | Food & Nutrition Security | NFSA 2013, PDS, TPDS, PMGKAY, POSHAN Abhiyaan, mid-day meal, malnutrition, NFHS-5 data |
 
 > **Exam Strategy:** Indian Society questions appear in both Prelims (factual — Census data, scheme details, constitutional articles) and Mains (analytical essays on diversity, globalisation's impact, welfare effectiveness, governance reforms). For Prelims, focus on scheme-ministry mapping, key statistics, and constitutional provisions. For Mains, practise writing balanced, multi-dimensional answers connecting social issues with governance responses.
 

@@ -18,7 +18,7 @@ tags:
 
 ## Overview
 
-Science & Technology is the **highest-weight GS3 section** in UPSC, covering everything from ISRO missions and missile systems to CRISPR gene editing and quantum computing. This section provides comprehensive, exam-ready notes across seven chapters — space technology, biotechnology (health and agriculture), IT & cybersecurity, emerging technologies, defence technology, and nuclear & nanotechnology. Each chapter combines factual depth for Prelims with analytical frameworks for Mains.
+Science & Technology is the **highest-weight GS3 section** in UPSC, covering everything from ISRO missions and missile systems to CRISPR gene editing and quantum computing. This section provides comprehensive, exam-ready notes across eight chapters — space technology, biotechnology (health and agriculture), IT & cybersecurity, emerging technologies, defence technology, and nuclear & nanotechnology. Each chapter combines factual depth for Prelims with analytical frameworks for Mains.
 
 ---
 
@@ -33,3 +33,4 @@ Science & Technology is the **highest-weight GS3 section** in UPSC, covering eve
 | 5 | **Emerging Technologies** | AI, Quantum Computing, Blockchain, IoT, 5G/6G, IndiaAI Mission, National Quantum Mission |
 | 6 | **Defence Technology** | DRDO, missile programme (Agni, BrahMos), nuclear doctrine, ASAT, defence indigenisation |
 | 7 | **Nuclear Technology & Nanotechnology** | Three-stage nuclear programme, PFBR, thorium, Nano Mission, new materials, SHANTI Bill |
+| 8 | **Quantum Computing & Telecommunications** | National Quantum Mission, qubits, quantum supremacy, 5G/6G rollout, BharatNet, semiconductor fabs, telecom reforms |
