@@ -33,7 +33,7 @@ eleventyComputed:
 /* ── Article Layout ── */
 .tp-layout{display:grid;grid-template-columns:1fr 320px;gap:var(--space-8);align-items:start;max-width:1100px}
 
-.tp-article{}
+.tp-article{background:#fff;border:1.5px solid var(--color-border);border-radius:var(--radius-xl,16px);padding:var(--space-6);box-shadow:0 2px 8px rgba(0,0,0,0.04);margin-bottom:var(--space-6)}
 .tp-article__section{margin-bottom:var(--space-6)}
 .tp-article__heading{font-family:var(--font-body);font-size:var(--text-sm);font-weight:700;color:var(--color-text);margin:0 0 var(--space-4);padding-bottom:var(--space-2);border-bottom:2px solid var(--color-border);display:flex;align-items:center;gap:var(--space-2)}
 .tp-article__heading svg{flex-shrink:0}
@@ -130,11 +130,6 @@ eleventyComputed:
           </div>
           {% endif %}
 
-          <div class="tp-footer">
-            <a href="/resources/key-terms/">&larr; All Key Terms</a>
-            <a href="/upsc-checklist/">Syllabus Checklist &rarr;</a>
-          </div>
-
         </div>
 
         {# ── Sidebar ── #}
@@ -189,6 +184,12 @@ eleventyComputed:
           </div>
 
         </aside>
+      </div>
+
+      {# ── Footer Nav ── #}
+      <div class="tp-footer">
+        <a href="/resources/key-terms/">&larr; All Key Terms</a>
+        <a href="/upsc-checklist/">Syllabus Checklist &rarr;</a>
       </div>
 
     </div>
