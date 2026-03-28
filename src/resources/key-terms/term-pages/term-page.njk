@@ -28,21 +28,21 @@ eleventyComputed:
 .tp-gist__tag{padding:4px 14px;border-radius:var(--radius-full,999px);font-size:var(--text-xs);font-weight:600}
 .tp-gist__title{font-family:var(--font-heading);font-size:clamp(1.5rem,4vw,2rem);font-weight:800;color:var(--color-text);margin:0 0 var(--space-2);line-height:1.25;letter-spacing:-0.02em}
 .tp-gist__pron{font-family:monospace;font-size:var(--text-xs);color:var(--color-text-muted);background:rgba(0,0,0,0.04);padding:3px 12px;border-radius:var(--radius-full,999px);display:inline-block;margin-bottom:var(--space-4)}
-.tp-gist__def{font-size:var(--text-base);line-height:1.8;color:var(--color-text);margin:0;padding-top:var(--space-3);border-top:1px solid var(--color-border)}
+.tp-gist__def{font-size:var(--text-base);line-height:1.85;color:var(--color-text);margin:0;padding-top:var(--space-4);border-top:1px solid var(--color-border);text-align:justify;hyphens:auto}
 
 /* ── Article Layout ── */
-.tp-layout{display:grid;grid-template-columns:1fr 300px;gap:var(--space-8);align-items:start}
+.tp-layout{display:grid;grid-template-columns:1fr 320px;gap:var(--space-8);align-items:start;max-width:1100px}
 
 .tp-article{}
 .tp-article__section{margin-bottom:var(--space-6)}
 .tp-article__heading{font-family:var(--font-body);font-size:var(--text-sm);font-weight:700;color:var(--color-text);margin:0 0 var(--space-4);padding-bottom:var(--space-2);border-bottom:2px solid var(--color-border);display:flex;align-items:center;gap:var(--space-2)}
 .tp-article__heading svg{flex-shrink:0}
-.tp-article__body{font-size:var(--text-sm);line-height:1.9;color:var(--color-text-secondary)}
+.tp-article__body{font-size:var(--text-sm);line-height:1.9;color:var(--color-text-secondary);text-align:justify;hyphens:auto}
 
-.tp-article__upsc{padding:var(--space-5);background:linear-gradient(135deg,rgba(212,160,23,0.05) 0%,rgba(15,76,58,0.02) 100%);border:1px solid rgba(212,160,23,0.12);border-radius:var(--radius-lg);margin-bottom:var(--space-6)}
-.tp-article__upsc-heading{font-size:var(--text-sm);font-weight:700;color:var(--color-accent-hover);margin:0 0 var(--space-3);display:flex;align-items:center;gap:var(--space-2)}
+.tp-article__upsc{padding:var(--space-5) var(--space-6);background:linear-gradient(135deg,rgba(212,160,23,0.05) 0%,rgba(15,76,58,0.02) 100%);border:1px solid rgba(212,160,23,0.12);border-radius:var(--radius-lg);margin-bottom:var(--space-6)}
+.tp-article__upsc-heading{font-size:var(--text-sm);font-weight:700;color:var(--color-accent-hover);margin:0 0 var(--space-4);padding-bottom:var(--space-2);border-bottom:1px solid rgba(212,160,23,0.15);display:flex;align-items:center;gap:var(--space-2)}
 .tp-article__upsc-heading::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--color-accent);flex-shrink:0}
-.tp-article__upsc-body{font-size:var(--text-sm);line-height:1.9;color:var(--color-text-secondary)}
+.tp-article__upsc-body{font-size:var(--text-sm);line-height:1.9;color:var(--color-text-secondary);text-align:justify;hyphens:auto}
 
 /* ── Sidebar ── */
 .tp-sidebar{position:sticky;top:var(--space-6)}
@@ -162,15 +162,29 @@ eleventyComputed:
             <a href="/resources/key-terms/" class="tp-act">📋 Browse All Terms</a>
           </div>
 
+          {# Current Affairs #}
+          <div class="tp-sb">
+            <h3 class="tp-sb__title">Current Affairs</h3>
+            <div class="tp-sb__row">
+              <a href="https://ujiyari.com/subjects/{{ term.subject }}/" target="_blank" rel="noopener" style="color:var(--color-brand);text-decoration:none;font-weight:600;font-size:var(--text-xs);">Latest {{ subjectName }} news &rarr;</a>
+            </div>
+            <div class="tp-sb__row">
+              <a href="https://ujiyari.com/editorial/" target="_blank" rel="noopener" style="color:var(--color-brand);text-decoration:none;font-weight:600;font-size:var(--text-xs);">Related editorials &rarr;</a>
+            </div>
+          </div>
+
+          {# Study Tools #}
           <div class="tp-tools">
-            <h3 class="tp-tools__title">Study Tools</h3>
+            <h3 class="tp-tools__title">Prepare</h3>
             <div class="tp-tools__grid">
               <a href="/upsc-checklist/" class="tp-tools__item">📋 Checklist</a>
               <a href="/study-kit/" class="tp-tools__item">📦 Study Kit</a>
               <a href="/pyq/" class="tp-tools__item">📊 PYQ Analysis</a>
               <a href="/resources/vocab-builder/" class="tp-tools__item">📚 Vocab</a>
-              <a href="/prelims/" class="tp-tools__item">📝 Prelims</a>
-              <a href="/mains/" class="tp-tools__item">✍️ Mains</a>
+              <a href="/prelims/" class="tp-tools__item">📝 Prelims Hub</a>
+              <a href="/mains/" class="tp-tools__item">✍️ Mains Hub</a>
+              <a href="/tracker/" class="tp-tools__item">📈 Tracker</a>
+              <a href="/start-here/" class="tp-tools__item">🚀 Start Here</a>
             </div>
           </div>
 
