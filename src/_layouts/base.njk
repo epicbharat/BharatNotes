@@ -105,6 +105,7 @@
   <link rel="stylesheet" href="/css/main.css?v={{ site.buildTime }}">
 </head>
 <body>
+<div class="page-wrapper">
 
 <!-- Skip to main content (accessibility) -->
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -472,5 +473,26 @@ document.addEventListener('copy', function(e) {
   }
 });
 </script>
+<script>
+/* DEBUG: find overflow elements — remove after fixing */
+(function(){
+  var docWidth = document.documentElement.offsetWidth;
+  var all = document.querySelectorAll('*');
+  var offenders = [];
+  for (var i = 0; i < all.length; i++) {
+    var el = all[i];
+    if (el.offsetWidth > docWidth) {
+      offenders.push(el.tagName + (el.className ? '.' + el.className.split(' ')[0] : '') + ' => ' + el.offsetWidth + 'px (doc: ' + docWidth + 'px)');
+    }
+  }
+  if (offenders.length) {
+    var d = document.createElement('div');
+    d.style.cssText = 'position:fixed;bottom:0;left:0;right:0;background:red;color:white;font-size:11px;padding:8px;z-index:99999;max-height:40vh;overflow:auto;';
+    d.innerHTML = '<b>OVERFLOW (' + offenders.length + '):</b><br>' + offenders.join('<br>');
+    document.body.appendChild(d);
+  }
+})();
+</script>
+</div><!-- /.page-wrapper -->
 </body>
 </html>

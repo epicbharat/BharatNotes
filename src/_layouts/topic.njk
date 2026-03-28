@@ -32,15 +32,15 @@ layout: base.njk
   <div class="container">
 
     <!-- Jump-to Navigation -->
-    <nav class="topic-tabs" style="display:flex; gap:var(--space-1); margin-bottom:var(--space-6); border-bottom:2px solid var(--color-border); overflow-x:auto; position:sticky; top:0; z-index:10; background:var(--color-bg); padding-top:var(--space-2);" aria-label="Jump to section">
+    <nav class="topic-tabs" aria-label="Jump to section">
       {% if foundation %}
-      <button class="topic-tab active" data-tab="foundation" style="padding:var(--space-2) var(--space-4); font-size:var(--text-sm); font-weight:var(--font-semibold); border:none; background:none; cursor:pointer; border-bottom:3px solid var(--color-brand); color:var(--color-brand);">🌱 Foundation</button>
+      <button class="topic-tab active" data-tab="foundation">🌱 Foundation</button>
       {% endif %}
       {% if prelims %}
-      <button class="topic-tab" data-tab="prelims" style="padding:var(--space-2) var(--space-4); font-size:var(--text-sm); font-weight:var(--font-semibold); border:none; background:none; cursor:pointer; border-bottom:3px solid transparent; color:var(--color-text-muted);">🎯 Prelims</button>
+      <button class="topic-tab" data-tab="prelims">🎯 Prelims</button>
       {% endif %}
       {% if mains %}
-      <button class="topic-tab" data-tab="mains" style="padding:var(--space-2) var(--space-4); font-size:var(--text-sm); font-weight:var(--font-semibold); border:none; background:none; cursor:pointer; border-bottom:3px solid transparent; color:var(--color-text-muted);">✍️ Mains</button>
+      <button class="topic-tab" data-tab="mains">✍️ Mains</button>
       {% endif %}
 
     </nav>
@@ -87,39 +87,39 @@ layout: base.njk
           {%- endif -%}
         {%- endfor -%}
 
-        <nav style="display:grid; grid-template-columns:1fr 1fr; gap:var(--space-4); margin-top:var(--space-8); padding-top:var(--space-6); border-top:2px solid var(--color-border);">
+        <nav class="chapter-nav">
           {% if prevCh %}
-          <a href="{{ prevCh.url }}" style="text-decoration:none; padding:var(--space-4) var(--space-5); border-radius:var(--radius-lg); background:var(--color-surface); border:1.5px solid var(--color-border); transition:all 0.2s; display:flex; align-items:center; gap:var(--space-3);" onmouseover="this.style.borderColor='var(--color-brand)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.06)';this.style.transform='translateY(-1px)'" onmouseout="this.style.borderColor='';this.style.boxShadow='';this.style.transform=''">
-            <span style="font-size:var(--text-lg);color:var(--color-text-muted);">←</span>
+          <a href="{{ prevCh.url }}" class="chapter-nav__link">
+            <span class="chapter-nav__arrow">←</span>
             <div>
-              <span style="font-size:var(--text-xs); color:var(--color-text-muted); display:block; margin-bottom:2px;">Previous Chapter</span>
-              <span style="font-size:var(--text-sm); font-weight:600; color:var(--color-text); line-height:1.3; display:block;">{{ prevCh.data.title | truncate(60, true) }}</span>
+              <span class="chapter-nav__label">Previous Chapter</span>
+              <span class="chapter-nav__title">{{ prevCh.data.title | truncate(60, true) }}</span>
             </div>
           </a>
           {% else %}
-          <a href="{{ parent_topic_url }}" style="text-decoration:none; padding:var(--space-4) var(--space-5); border-radius:var(--radius-lg); background:var(--color-surface); border:1.5px solid var(--color-border); transition:all 0.2s; display:flex; align-items:center; gap:var(--space-3);" onmouseover="this.style.borderColor='var(--color-brand)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.06)'" onmouseout="this.style.borderColor='';this.style.boxShadow=''">
-            <span style="font-size:var(--text-lg);color:var(--color-text-muted);">←</span>
+          <a href="{{ parent_topic_url }}" class="chapter-nav__link">
+            <span class="chapter-nav__arrow">←</span>
             <div>
-              <span style="font-size:var(--text-xs); color:var(--color-text-muted); display:block; margin-bottom:2px;">Back to</span>
-              <span style="font-size:var(--text-sm); font-weight:600; color:var(--color-text);">{{ parent_topic }}</span>
+              <span class="chapter-nav__label">Back to</span>
+              <span class="chapter-nav__title">{{ parent_topic }}</span>
             </div>
           </a>
           {% endif %}
           {% if nextCh %}
-          <a href="{{ nextCh.url }}" style="text-decoration:none; padding:var(--space-4) var(--space-5); border-radius:var(--radius-lg); background:var(--color-surface); border:1.5px solid var(--color-border); transition:all 0.2s; display:flex; align-items:center; justify-content:flex-end; gap:var(--space-3); text-align:right;" onmouseover="this.style.borderColor='var(--color-brand)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.06)';this.style.transform='translateY(-1px)'" onmouseout="this.style.borderColor='';this.style.boxShadow='';this.style.transform=''">
+          <a href="{{ nextCh.url }}" class="chapter-nav__link chapter-nav__link--next">
             <div>
-              <span style="font-size:var(--text-xs); color:var(--color-text-muted); display:block; margin-bottom:2px;">Next Chapter</span>
-              <span style="font-size:var(--text-sm); font-weight:600; color:var(--color-text); line-height:1.3; display:block;">{{ nextCh.data.title | truncate(60, true) }}</span>
+              <span class="chapter-nav__label">Next Chapter</span>
+              <span class="chapter-nav__title">{{ nextCh.data.title | truncate(60, true) }}</span>
             </div>
-            <span style="font-size:var(--text-lg);color:var(--color-text-muted);">→</span>
+            <span class="chapter-nav__arrow">→</span>
           </a>
           {% else %}
-          <a href="{{ parent_topic_url }}" style="text-decoration:none; padding:var(--space-4) var(--space-5); border-radius:var(--radius-lg); background:var(--color-surface); border:1.5px solid var(--color-border); transition:all 0.2s; display:flex; align-items:center; justify-content:flex-end; gap:var(--space-3); text-align:right;" onmouseover="this.style.borderColor='var(--color-brand)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.06)'" onmouseout="this.style.borderColor='';this.style.boxShadow=''">
+          <a href="{{ parent_topic_url }}" class="chapter-nav__link chapter-nav__link--next">
             <div>
-              <span style="font-size:var(--text-xs); color:var(--color-text-muted); display:block; margin-bottom:2px;">Back to</span>
-              <span style="font-size:var(--text-sm); font-weight:600; color:var(--color-text);">{{ parent_topic }}</span>
+              <span class="chapter-nav__label">Back to</span>
+              <span class="chapter-nav__title">{{ parent_topic }}</span>
             </div>
-            <span style="font-size:var(--text-lg);color:var(--color-text-muted);">→</span>
+            <span class="chapter-nav__arrow">→</span>
           </a>
           {% endif %}
         </nav>
