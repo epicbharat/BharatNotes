@@ -193,6 +193,57 @@ Vidyasagar's campaign for widow remarriage was a landmark in women's emancipatio
 
 ---
 
+## Timeline — Women's and Dalit Movements
+
+| Year | Event |
+|------|-------|
+| 1817 | Raja Ram Mohan Roy begins campaign against sati |
+| 1828 | Brahmo Samaj founded |
+| **1829** | **Bengal Sati Regulation (Regulation XVII)** — sati banned |
+| 1848 | Savitribai & Jyotiba Phule open first girls' school, Bhide Wada, Pune |
+| 1852 | Phule opens school for Dalits (Mahars and Mangs) |
+| **1856** | **Hindu Widows' Remarriage Act** — widow remarriage legalised |
+| 1873 | Jyotiba Phule founds Satyashodhak Samaj |
+| 1888 | Narayana Guru consecrates Shiva temple at Aruvippuram |
+| 1889 | Pandita Ramabai founds Sharada Sadan, Pune |
+| **1891** | **Age of Consent Act** — age raised from 10 to 12 |
+| 1903 | SNDP Yogam registered in Kerala |
+| 1911 | Begum Rokeya opens Sakhawat Memorial Girls' School, Calcutta |
+| 1917 | Women's Indian Association founded (Sarojini Naidu, Muthulakshmi Reddy) |
+| 1924-25 | Periyar leads Vaikom Satyagraha for temple road access |
+| 1925 | Self-Respect Movement founded; Sarojini Naidu becomes INC president |
+| **1927** | **Mahad Satyagraha** — Ambedkar leads 2,500 Dalits to Chavdar Tank; Manusmriti burnt |
+| 1929 | Sarda Act (Child Marriage Restraint Act) passed |
+| 1930 | Kalaram Temple Satyagraha, Nasik (Ambedkar) |
+| **1932** | **Poona Pact** — separate electorates replaced by reserved seats |
+| 1936 | Temple Entry Proclamation in Travancore |
+| 1937 | Bombay High Court rules Chavdar Tank accessible to all |
+| 1942 | Aruna Asaf Ali hoists flag at Gowalia Tank, Bombay |
+| 1944 | Kasturba Gandhi dies in detention at Aga Khan Palace |
+| 1947 | Sarojini Naidu becomes Governor of United Provinces |
+| 1947-49 | Ambedkar chairs the Drafting Committee of the Constituent Assembly |
+| **1950** | Constitution of India abolishes untouchability (Article 17) |
+| **1956** | Ambedkar converts to Buddhism at Deekshabhoomi, Nagpur (14 October) |
+
+---
+
+## Frequently Asked Prelims Questions — Pattern
+
+| Question Pattern | Likely Answer |
+|-----------------|---------------|
+| Who abolished sati? | Lord William Bentinck (1829), campaigned by Raja Ram Mohan Roy |
+| Who championed widow remarriage? | Ishwar Chandra Vidyasagar; Act passed in 1856 |
+| First girls' school in India? | Bhide Wada, Pune (1848) — Savitribai and Jyotiba Phule |
+| First woman INC president? | Sarojini Naidu (1925) |
+| Who hoisted flag during Quit India? | Aruna Asaf Ali at Gowalia Tank (9 August 1942) |
+| Mahad Satyagraha leader? | B.R. Ambedkar (20 March 1927) |
+| Poona Pact — what was replaced? | Separate electorates replaced by reserved seats in joint electorates |
+| Satya Shodhak Samaj founder? | Jyotiba Phule (24 September 1873) |
+| SNDP Yogam — who and when? | Registered 15 May 1903; Narayana Guru as chairman |
+| Self-Respect Movement — who and where? | Periyar (E.V. Ramasamy), Tamil Nadu, 1925 |
+
+---
+
 ## Key Terms for Quick Revision
 
 | Term | Meaning |
@@ -203,10 +254,12 @@ Vidyasagar's campaign for widow remarriage was a landmark in women's emancipatio
 | **Poona Pact** | 1932 agreement between Ambedkar and Gandhi replacing separate electorates with reserved seats |
 | **Mahad Satyagraha** | 1927 struggle for Dalits' right to use public water at Chavdar Tank, Mahad |
 | **Navayana** | Neo-Buddhism — Ambedkar's reinterpretation of Buddhism for social liberation |
-| **Podu** | Shifting cultivation practised by tribal communities |
-| **Birsait** | Faith created by Birsa Munda among the Mundas |
+| **Dharma Sabha** | Conservative Hindu organisation led by Radhakanta Deb that opposed social reform legislation |
 | **Self-Respect Marriage** | Marriages conducted without Brahmin priests, promoted by Periyar |
 | **Deekshabhoomi** | Site in Nagpur where Ambedkar converted to Buddhism (14 October 1956) |
+| **Vaikom Satyagraha** | 1924-25 struggle for lower-caste access to temple roads in Kerala |
+| **Communal Award** | British PM MacDonald's 1932 decision granting separate electorates to Depressed Classes |
+| **Parashara Smriti** | Hindu scripture cited by Vidyasagar to support widow remarriage |
 
 ---
 

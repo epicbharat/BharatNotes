@@ -286,4 +286,24 @@ The **All India Trade Union Congress (AITUC)** was founded on **31 October 1920*
 
 ---
 
+## Frequently Asked Prelims Questions — Pattern
+
+| Question Pattern | Answer |
+|-----------------|--------|
+| Leader of Santhal Rebellion? | Sidhu and Kanhu Murmu (1855-56) |
+| Birsa Munda belonged to which tribe? | Munda tribe, Chotanagpur |
+| What was the Ulgulan? | Birsa Munda's rebellion (1899-1900) — "Great Tumult" |
+| Who led the Rampa Rebellion? | Alluri Sitarama Raju (1922-24) |
+| AITUC first president? | Lala Lajpat Rai (founded 31 October 1920) |
+| Tebhaga demand was for? | Reducing landlord share to 1/3 of harvest |
+| Deccan Riots targeted whom? | Moneylenders (sahukars) — not the British directly |
+| Champaran — which crop? | Indigo — tinkathia system (3/20th of land) |
+| What was the Meerut Conspiracy Case? | Trial of 33 labour leaders (1929) after Bombay textile strike |
+| Which act resulted from the Deccan Riots? | Deccan Agriculturists' Relief Act, 1879 |
+| Chotanagpur Tenancy Act year? | 1908 — result of Munda Ulgulan |
+| Moplah Rebellion location? | Eranad and Valluvanad taluks, Malabar (Kerala) |
+| Telangana struggle — how many villages? | Nearly 4,000 villages established gram rajyams |
+
+---
+
 *Sources: Bipin Chandra, India's Struggle for Independence; Sumit Sarkar, Modern India 1885–1947; Britannica; Wikipedia; Government of India archival sources.*

@@ -216,6 +216,52 @@ This is one of the most frequently tested areas in competitive exams. The follow
 
 ---
 
+## Important Physical Constants
+
+| Constant | Symbol | Value | Significance |
+|----------|--------|-------|-------------|
+| Speed of light in vacuum | *c* | 299,792,458 m/s (exact) | Defines the metre; nothing can travel faster |
+| Planck constant | *h* | 6.626 x 10⁻³⁴ J·s | Defines the kilogram (since 2019); fundamental to quantum mechanics |
+| Gravitational constant | *G* | 6.674 x 10⁻¹¹ N·m²/kg² | Used in Newton's law of gravitation |
+| Boltzmann constant | *k*_B | 1.381 x 10⁻²³ J/K | Defines the kelvin (since 2019); relates temperature to energy |
+| Avogadro constant | *N*_A | 6.022 x 10²³ mol⁻¹ | Defines the mole (since 2019); number of particles in a mole |
+| Elementary charge | *e* | 1.602 x 10⁻¹⁹ C | Defines the ampere (since 2019); charge of a proton |
+| Electron mass | *m*_e | 9.109 x 10⁻³¹ kg | Mass of an electron; used in atomic calculations |
+
+---
+
+## Commonly Confused Instruments — Exam Traps
+
+| Often Confused | Instrument A | Instrument B |
+|---------------|-------------|-------------|
+| **Hydrometer vs Hygrometer** | Hydrometer: measures density of liquids | Hygrometer: measures atmospheric humidity |
+| **Barometer vs Manometer** | Barometer: measures atmospheric pressure | Manometer: measures gas pressure in closed systems |
+| **Pyrometer vs Thermometer** | Pyrometer: very high temperatures (furnaces, molten metals) — non-contact | Thermometer: moderate temperatures — contact-based |
+| **Ammeter vs Voltmeter** | Ammeter: measures current (connected in series) | Voltmeter: measures voltage (connected in parallel) |
+| **Seismograph vs Richter Scale** | Seismograph: instrument that records earthquake waves | Richter Scale: logarithmic scale measuring earthquake magnitude |
+| **Radar vs Sonar** | Radar: uses radio waves (air/space detection) | Sonar: uses sound waves (underwater detection) |
+| **Galvanometer vs Ammeter** | Galvanometer: detects small currents and their direction | Ammeter: measures magnitude of larger currents |
+
+---
+
+## Frequently Asked Prelims Questions — Pattern
+
+| Question Pattern | Answer |
+|-----------------|--------|
+| How many SI base units? | 7 |
+| What is the SI unit of luminous intensity? | Candela (cd) |
+| Which instrument measures blood pressure? | Sphygmomanometer |
+| Which instrument measures earthquake intensity? | Seismograph |
+| Who discovered the Raman Effect? | C.V. Raman (1928); Nobel Prize 1930 |
+| National Science Day is celebrated on? | 28 February (discovery of Raman Effect) |
+| First Indian Nobel laureate in Physics? | C.V. Raman (1930) |
+| Bosons are named after? | Satyendra Nath Bose |
+| Who invented the telephone? | Alexander Graham Bell (1876) |
+| Who discovered penicillin? | Alexander Fleming (1928) |
+| What did the 2019 SI redefinition change? | Kilogram, ampere, kelvin, and mole — now defined by fundamental constants |
+
+---
+
 ## Key Terms for Quick Revision
 
 | Term | Meaning |
@@ -229,6 +275,8 @@ This is one of the most frequently tested areas in competitive exams. The follow
 | **Boson** | Class of particles obeying Bose-Einstein statistics (e.g., photon, Higgs boson) — named after S.N. Bose |
 | **Planck Constant** | Fundamental constant relating photon energy to frequency; used to define the kilogram since 2019 |
 | **Avogadro Constant** | Number of particles in one mole (6.022 x 10²³); used to define the mole since 2019 |
+| **Derived Unit** | SI unit formed by combining base units (e.g., Newton = kg·m/s²) |
+| **CGS System** | Centimetre-Gram-Second system — older measurement system, predecessor to SI |
 
 ---
 
