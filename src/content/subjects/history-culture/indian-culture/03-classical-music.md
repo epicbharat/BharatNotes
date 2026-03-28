@@ -229,11 +229,13 @@ In Hindustani music, ragas are associated with specific times of the day. The 24
 ### Hindustani Music
 - **Pronunciation:** /ˌhɪndʊˈstɑːni ˈmjuːzɪk/
 - **Definition:** The classical music tradition of northern, central, and western India that diverged from the southern Carnatic tradition around the 13th century CE, characterised by extensive improvisation, the gharana system, and the absorption of Persian and Arabic musical elements through Sufi and Mughal court influences.
-- **Origin:** From Persian Hindustān ("land of the Hindus/Indus") + -ī (adjective suffix); also called Shastriya Sangeet ("classical music") or North Indian classical music.
+- **Context:** Key gharanas include Gwalior, Agra, Jaipur-Atrauli, Kirana, Patiala, and Rampur-Sahaswan; major forms include Dhrupad (oldest), Khayal (most popular), Thumri, and Tappa; Tansen (Akbar's court) is considered the father of Hindustani music.
+- **UPSC Relevance:** GS1 (Art & Culture). Prelims: tested on the Hindustani-Carnatic divergence (c. 13th century), key gharanas, major forms (Dhrupad, Khayal), and prominent musicians (Tansen, Amir Khusrau). Mains: relevant for discussing cultural synthesis during the medieval period, the gharana system as a knowledge transmission method, and India's intangible cultural heritage. Focus on comparing Hindustani (improvisation-based, gharana system, Persian influence) with Carnatic (composition-based, guru-shishya, Sanskrit basis) music.
 
 ### Carnatic Music
 - **Pronunciation:** /kɑːˈnɑːtɪk ˈmjuːzɪk/
 - **Definition:** The classical music tradition of South India (Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, and Telangana), characterised by a predominantly vocal orientation, structured composition-based performance, and relative preservation of ancient Sanskrit musical principles with minimal Islamic influence.
-- **Origin:** From Sanskrit Karnātaka Sangītam, meaning "traditional" or "codified" music; the term is associated with the Karnataka (Vijayanagara) Empire and the music's codification by Purandara Dasa (1484-1564), the "Father of Carnatic Music."
+- **Context:** Codified by Purandara Dasa (1484–1564), the "Father of Carnatic Music"; the Trinity of Carnatic Music — Tyagaraja, Muthuswami Dikshitar, and Syama Sastri — composed its core repertoire; instruments include veena, mridangam, and violin.
+- **UPSC Relevance:** GS1 (Art & Culture). Prelims: tested on the Carnatic Trinity (Tyagaraja, Dikshitar, Syama Sastri), the "Father" (Purandara Dasa), key instruments (veena, mridangam), and the composition-based performance structure. Mains: relevant for discussing South Indian cultural traditions, the preservation of ancient musical systems, and the December music season in Chennai as a living cultural institution. Focus on knowing the key differences from Hindustani music and the major composers and their contributions.
 
 *Sources: Sangeet Natak Akademi (sangeetnatak.gov.in), ITC Sangeet Research Academy, NCERT — An Introduction to Indian Art, Raghava Menon — The Penguin Dictionary of Indian Classical Music*

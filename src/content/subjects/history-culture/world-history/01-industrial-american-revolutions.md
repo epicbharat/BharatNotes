@@ -267,12 +267,14 @@ The Industrial Revolution gave European powers (especially Britain) the economic
 ### Industrial Revolution
 - **Pronunciation:** /ɪnˈdʌs.tri.əl ˌrɛv.əˈluː.ʃən/
 - **Definition:** The period of rapid technological, economic, and social transformation (c. 1760–1840) originating in Britain, during which hand-production methods gave way to machine manufacturing, steam power replaced water and muscle, and the modern factory system emerged.
-- **Origin:** *Industrial* from Latin *industria* ("diligence"); *Revolution* from Late Latin *revolūtiō* ("a turn around"); the compound phrase was popularised in the 1840s by French writers and later by Arnold Toynbee's lectures (1881).
+- **Context:** Began in Britain due to its unique combination of coal deposits, colonial markets, patent laws, and agricultural revolution; spread to Europe, USA, and eventually to Japan (Meiji era); its impact on India was devastating — destruction of Indian handicrafts and deindustrialisation.
+- **UPSC Relevance:** GS1 (World History). Prelims: tested on origins (Britain, c. 1760), key inventions (spinning jenny, steam engine, power loom), and social consequences (urbanisation, labour movements). Mains: a core topic — UPSC has asked "Why did the Industrial Revolution first occur in England?" and about its comparison with India's contemporary industrialisation. Focus on linking the Industrial Revolution to colonialism (raw materials from colonies, markets in India) and the Drain of Wealth from India.
 
 ### American Revolution
 - **Pronunciation:** /əˈmɛr.ɪ.kən ˌrɛv.əˈluː.ʃən/
 - **Definition:** The political upheaval (1765–1783) in which thirteen British colonies in North America rejected imperial rule, declared independence on 4 July 1776, fought the Revolutionary War, and established the United States as a sovereign republic through the Treaty of Paris (1783).
-- **Origin:** *American* from the name of Italian explorer Amerigo Vespucci, Latinised as *Americus*; *Revolution* from Late Latin *revolūtiō* ("a turn around").
+- **Context:** Key principles — "no taxation without representation," natural rights, social contract theory; the Declaration of Independence (1776) influenced later revolutions (French, Latin American) and India's own constitutional values of liberty and equality.
+- **UPSC Relevance:** GS1 (World History). Prelims: tested on dates (1776 Declaration, 1783 Treaty of Paris), key figures (Washington, Jefferson), and Enlightenment influences (Locke, Montesquieu). Mains: UPSC has asked to explain how the American and French Revolutions laid the foundations of the modern world, and asked if the American Revolution was "an economic revolt against mercantilism." Focus on linking the revolution's principles to the Indian Constitution's Preamble and Fundamental Rights.
 
 ---
 

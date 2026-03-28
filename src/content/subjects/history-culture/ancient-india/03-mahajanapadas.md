@@ -206,11 +206,13 @@ The Mahajanapada period marks India's **second urbanization** (the first being t
 - **Pronunciation:** /ˈmʌɡədʰɑː/
 - **Definition:** An ancient kingdom in the eastern Gangetic plain (modern south Bihar) that rose to dominance among the sixteen Mahajanapadas due to its fertile land, iron ore deposits, strategic location, and able rulers, eventually forming the core of the Maurya Empire.
 - **Origin:** From Sanskrit *Magadha* (मगध), the name of the region and its inhabitants; the etymology is uncertain but may relate to the ancient tribe that settled the area south of Patna.
+- **UPSC Relevance:** GS1 (Ancient India). Prelims: tested on reasons for Magadha's rise (fertile soil, iron ore, strategic location on Ganga, elephant forces), its capitals (Rajagriha, Pataliputra), and dynasty sequence (Haryanka → Shishunaga → Nanda → Maurya). Mains: asked to analyse geographic and economic factors behind Magadha's supremacy among the sixteen Mahajanapadas. A staple topic in both GS and History Optional.
 
 ### Second Urbanisation
 - **Pronunciation:** /ˈsɛkənd ˌɜːbənaɪˈzeɪʃən/
 - **Definition:** The resurgence of urban centres in the Gangetic plain from c. 600 BCE onwards — after the decline of the Indus Valley Civilisation — characterised by the growth of cities like Pataliputra and Varanasi, the introduction of coinage, iron technology, trade guilds, and the emergence of Buddhism and Jainism.
-- **Origin:** A modern historiographical term coined by archaeologists and historians to distinguish this phase of city growth in the Ganges valley from the earlier "first urbanisation" of the Indus Valley Civilisation (c. 2600–1900 BCE).
+- **Context:** A modern historiographical term coined by archaeologists and historians to distinguish this phase of city growth in the Ganges valley from the earlier "first urbanisation" of the Indus Valley Civilisation (c. 2600–1900 BCE).
+- **UPSC Relevance:** GS1 (Ancient India). Prelims: tested on enabling factors — iron technology (NBPW culture), coinage (punch-marked coins), and trade guilds. Mains: directly asked to discuss factors behind the Second Urbanisation during the Mahajanapada period. Focus on contrasting it with IVC urbanism and linking it to the rise of heterodox religions (Buddhism, Jainism).
 
 ---
 

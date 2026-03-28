@@ -272,12 +272,14 @@ The Emergency (25 June 1975 – 21 March 1977) was the most severe test of India
 ### Emergency (1975)
 - **Pronunciation:** /ɪˈmɜːdʒənsi/
 - **Definition:** The 21-month period (25 June 1975 to 21 March 1977) during which President Fakhruddin Ali Ahmed, on PM Indira Gandhi's advice, proclaimed a state of Emergency under Article 352 on the ground of "internal disturbance," suspending fundamental rights, censoring the press, and jailing opposition leaders.
-- **Origin:** From Latin *emergere* ("to rise out, come forth"); the constitutional provision derives from Article 352 of the Indian Constitution, modelled on similar emergency powers in the Weimar Constitution and the Government of India Act, 1935.
+- **Context:** Triggered by the Allahabad High Court's verdict invalidating Indira Gandhi's 1971 election; the 42nd Amendment (1976) during the Emergency expanded Parliament's power and reduced judicial review; the Shah Commission (1978) investigated Emergency excesses.
+- **UPSC Relevance:** GS1 (Post-Independence India) & GS2 (Polity). Prelims: tested on Article 352, dates (25 June 1975 – 21 March 1977), ground ("internal disturbance"), the 42nd and 44th Amendments, and the Shah Commission. Mains: a perennial topic — asked to assess the Emergency's impact on Indian democracy, the balance between executive power and individual rights, and the lessons for democratic governance. Focus on how the Emergency proved the resilience of Indian democracy — the 1977 elections peacefully removed the government that declared it.
 
 ### 44th Amendment
 - **Pronunciation:** /ˌfɔːtiˈfɔːθ əˈmɛndmənt/
 - **Definition:** The Constitution (Forty-fourth Amendment) Act, 1978, enacted by the Janata Party government to undo Emergency-era distortions — it replaced "internal disturbance" with "armed rebellion" as a ground for Emergency, made Articles 20 and 21 non-suspendable, required the Cabinet's written recommendation for Emergency proclamation, and removed the Right to Property from Fundamental Rights.
-- **Origin:** "Amendment" from Latin *emendare* ("to correct, free from fault"), via Old French *amender*; the 44th Amendment was passed by Parliament and received Presidential assent on 30 April 1979.
+- **Context:** Passed by Parliament and received Presidential assent on 30 April 1979; specifically designed as a corrective to the 42nd Amendment (1976) which had expanded executive power during the Emergency; it restored the balance between Parliament, Executive, and Judiciary.
+- **UPSC Relevance:** GS2 (Polity — Amendments & Emergency). Prelims: tested on key changes — "internal disturbance" replaced by "armed rebellion," Articles 20/21 made non-suspendable, Cabinet's written advice required, Right to Property removed from Part III. Mains: asked to compare the 42nd and 44th Amendments as representing authoritarian expansion and democratic correction respectively. Focus on how the 44th Amendment strengthened constitutional safeguards against future misuse of Emergency powers — a model answer topic for questions on democratic resilience.
 
 ---
 

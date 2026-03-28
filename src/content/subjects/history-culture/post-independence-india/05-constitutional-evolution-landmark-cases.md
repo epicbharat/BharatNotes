@@ -266,12 +266,14 @@ Established in **Kesavananda Bharati v. State of Kerala (1973)**, the Basic Stru
 ### Golaknath Case
 - **Pronunciation:** /ˈɡoʊlɑːknɑːθ keɪs/
 - **Definition:** The 1967 Supreme Court case (*I.C. Golaknath v. State of Punjab*) in which an 11-judge bench ruled 6:5 that Parliament cannot amend Fundamental Rights, treating them as "transcendental" — it overruled *Shankari Prasad* (1951) by applying the doctrine of prospective overruling, and was itself superseded by the 24th Amendment (1971) and the *Kesavananda Bharati* ruling (1973).
-- **Origin:** Named after the petitioner Henry Golaknath, whose family challenged Punjab's land ceiling legislation under Articles 14, 19(1)(f), and 19(1)(g) of the Constitution.
+- **Context:** Named after petitioner Henry Golaknath who challenged Punjab's land ceiling legislation; the ruling created a constitutional crisis by blocking Parliament from amending Part III, directly leading to the 24th Amendment (1971) and eventually the Kesavananda Bharati case (1973).
+- **UPSC Relevance:** GS2 (Polity — Fundamental Rights & Amendments). Prelims: tested on year (1967), bench strength (11 judges), ruling (Parliament cannot amend Fundamental Rights), and the doctrine of prospective overruling. Mains: essential for discussing the evolution of the amending power debate — the chain from Shankari Prasad (1951) → Sajjan Singh (1965) → Golaknath (1967) → 24th Amendment (1971) → Kesavananda Bharati (1973). Focus on how this case set the stage for the Basic Structure Doctrine.
 
 ### Kesavananda Bharati
 - **Pronunciation:** /ˌkeɪʃəvɑːˈnʌndə ˈbɑːrəti/
 - **Definition:** The landmark 1973 Supreme Court case (*Kesavananda Bharati v. State of Kerala*), decided on 24 April 1973 by a 13-judge bench with a 7:6 majority, which established the Basic Structure Doctrine — holding that Parliament can amend any part of the Constitution, including Fundamental Rights, but cannot alter or destroy its basic structure.
-- **Origin:** Named after the petitioner Swami Kesavananda Bharati, head of the Edneer Matha monastery in Kasaragod, Kerala, who challenged state land reform acts that restricted the management of his monastery's property.
+- **Context:** Decided on 24 April 1973 by the largest-ever bench (13 judges); elements of basic structure include supremacy of the Constitution, republican and democratic form of government, secular character, separation of powers, and judicial review; the doctrine has never been overturned.
+- **UPSC Relevance:** GS2 (Polity — most important case). Prelims: tested on year (1973), bench strength (13 judges), majority (7:6), and elements of basic structure. Mains: the single most important constitutional case — asked in virtually every Polity question on the amending power, judicial review, and Parliament's supremacy. Focus on the Basic Structure Doctrine's elements, its application in subsequent cases (Minerva Mills 1980, SR Bommai 1994), and why it is considered the "lodestar of Indian constitutional law."
 
 ---
 

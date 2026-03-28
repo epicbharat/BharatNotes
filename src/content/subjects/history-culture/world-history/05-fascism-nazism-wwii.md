@@ -268,12 +268,14 @@ The interwar period (1919–1939) saw the rise of totalitarian ideologies — Fa
 ### Nuremberg Trials
 - **Pronunciation:** /ˈnjʊərəmbɜːɡ ˈtraɪəlz/
 - **Definition:** The series of military tribunals held from 20 November 1945 to 1 October 1946 at Nuremberg, Germany, in which the International Military Tribunal tried 22 major Nazi leaders for crimes against peace, war crimes, and crimes against humanity — 12 were sentenced to death, and the trials established the principle that individuals bear responsibility for war crimes regardless of superior orders.
-- **Origin:** Named after Nuremberg (German: *Nurnberg*), the Bavarian city chosen as the trial venue because its Palace of Justice was largely undamaged and had a large prison attached; the city also carried symbolic weight as the former site of major Nazi Party rallies.
+- **Context:** Nuremberg was chosen for its symbolic weight (former site of Nazi Party rallies) and its intact Palace of Justice; the trials established the precedent that "following orders" is not a defence for war crimes, laying the foundation for the International Criminal Court (ICC).
+- **UPSC Relevance:** GS1 (World History) & GS2 (International Law). Prelims: tested on dates (1945–46), charges (crimes against peace, war crimes, crimes against humanity), and outcomes (12 death sentences). Mains: relevant for discussing the evolution of international criminal law, the concept of "crimes against humanity," and the establishment of the ICC (2002). Focus on how the Nuremberg principles shaped the post-WWII international order and continue to influence humanitarian law.
 
 ### Axis Powers
 - **Pronunciation:** /ˈæksɪs ˈpaʊəz/
 - **Definition:** The military alliance of Germany, Italy, and Japan — formalised by the Tripartite Pact of September 1940 — that opposed the Allied Powers in World War II; later joined by Hungary, Romania, Bulgaria, and others.
-- **Origin:** From the Rome-Berlin Axis, a term coined by Mussolini on 1 November 1936 when he declared that the line between Rome and Berlin was "an axis around which all European states animated by the will to collaboration and peace can revolve."
+- **Context:** The term "Rome-Berlin Axis" was coined by Mussolini on 1 November 1936; the Tripartite Pact (September 1940) formalised the alliance; relevant to India because Subhas Chandra Bose sought Axis support for the INA and Azad Hind Government.
+- **UPSC Relevance:** GS1 (World History). Prelims: tested on the three main Axis powers, the Tripartite Pact (1940), and the India connection (Bose's alliance with Japan). Mains: relevant for discussing WWII's global impact, the rise of totalitarianism, and the Indian freedom struggle's international dimension (Bose and the Axis). Focus on how WWII weakened European colonial powers and accelerated decolonisation, directly contributing to Indian independence in 1947.
 
 ---
 

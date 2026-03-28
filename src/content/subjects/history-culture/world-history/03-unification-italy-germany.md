@@ -275,12 +275,14 @@ The 19th century was the age of nationalism in Europe. The ideals of the French 
 ### Bismarck's Blood and Iron
 - **Pronunciation:** /ˈbɪzmɑːks blʌd ənd ˈaɪən/
 - **Definition:** The doctrine, derived from Otto von Bismarck's speech of 30 September 1862 to the Prussian Budget Committee, that the great questions of the day would be decided not by speeches and majority votes but by "iron and blood" — meaning military force and industrial power — which guided his strategy of unifying Germany through three calculated wars (1864, 1866, 1870--1871).
-- **Origin:** German *Eisen und Blut* ("iron and blood"), popularly inverted to *Blut und Eisen* ("blood and iron"); the phrase became synonymous with Bismarckian *Machtpolitik* (power politics).
+- **Context:** German *Eisen und Blut* ("iron and blood"), popularly inverted to *Blut und Eisen*; Bismarck orchestrated three wars — against Denmark (1864), Austria (1866), and France (1870–71) — to unify Germany under Prussian leadership, culminating in the German Empire's proclamation at Versailles (1871).
+- **UPSC Relevance:** GS1 (World History). Prelims: tested on the three wars, the 1862 speech, and the distinction between Bismarck's approach (realpolitik, top-down) and Garibaldi's (popular revolt, bottom-up). Mains: asked to compare the unification processes of Germany and Italy, and to assess how 19th-century nationalism reshaped the European state system. Focus on the Bismarck–Cavour comparison: both used foreign alliances and wars to achieve unification, but through different social bases (Prussian military vs Italian popular nationalism).
 
 ### Garibaldi
 - **Pronunciation:** /ˌɡærɪˈbɔːldi/
 - **Definition:** Giuseppe Garibaldi (1807--1882), the Italian general and nationalist hero who led the Expedition of the Thousand (1,089 Redshirt volunteers) in 1860, conquering the Kingdom of the Two Sicilies and handing the territories to King Victor Emmanuel II — earning the epithet "Sword" of Italian unification.
-- **Origin:** Born Giuseppe Maria Garibaldi in Nice (then part of the Kingdom of Sardinia); the surname is of Italian origin, likely derived from a Germanic personal name (*Garibald*, from *gairu*, "spear" + *bald*, "bold").
+- **Context:** Called the "Sword" of Italian unification alongside Mazzini (the "Soul") and Cavour (the "Brain"); his Expedition of the Thousand in 1860 conquered Sicily and Naples, which he then handed to Victor Emmanuel II, completing Italian unification (except Rome and Venetia).
+- **UPSC Relevance:** GS1 (World History). Prelims: tested on the Expedition of the Thousand (1860), the "Sword/Soul/Brain" designations (Garibaldi/Mazzini/Cavour), and key events of Italian unification. Mains: asked to compare the roles of Mazzini (ideological), Cavour (diplomatic), and Garibaldi (military) in Italian unification, and to draw parallels with Indian nationalism's similar division of labour. Focus on how 19th-century European nationalism influenced Indian nationalist thought — Mazzini's "Young Italy" directly inspired Indian revolutionaries.
 
 ---
 

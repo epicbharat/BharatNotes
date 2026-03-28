@@ -241,12 +241,14 @@ World War I (1914–1918) was the first truly global conflict — over 16 millio
 ### Treaty of Versailles
 - **Pronunciation:** /ˈtriːti əv vɛəˈsaɪ/
 - **Definition:** The peace treaty signed on 28 June 1919 at the Palace of Versailles that formally ended World War I — it imposed the War Guilt Clause (Article 231), 132 billion gold marks in reparations, severe territorial losses (including Alsace-Lorraine), and military restrictions on Germany, while establishing the League of Nations.
-- **Origin:** Named after the Palace of Versailles, France, where the treaty was negotiated and signed by the Allied Powers and Germany; the same Hall of Mirrors where the German Empire had been proclaimed in 1871.
+- **Context:** Signed in the Hall of Mirrors at Versailles — the same room where the German Empire was proclaimed in 1871; the treaty's harsh terms generated deep German resentment that Hitler exploited to rise to power, making Versailles a direct cause of World War II.
+- **UPSC Relevance:** GS1 (World History). Prelims: tested on date (28 June 1919), key clauses (War Guilt/Article 231, reparations, territorial losses, military restrictions), and the League of Nations establishment. Mains: asked to assess how the Treaty of Versailles sowed the seeds of WWII, and whether it was "a peace built on quicksand." Focus on the causal chain: Versailles → German humiliation → rise of Hitler → WWII; also relevant for questions on international organisations (League of Nations vs UN).
 
 ### October Revolution
 - **Pronunciation:** /ɒkˈtoʊbə ˌrɛvəˈluːʃən/
 - **Definition:** The Bolshevik seizure of power on 7 November 1917 (25 October in the Julian Calendar), when Lenin's forces, organised by Trotsky through the Military Revolutionary Committee, captured the Winter Palace in Petrograd and overthrew the Provisional Government, establishing Soviet rule.
-- **Origin:** Named "October Revolution" after its date in the Julian Calendar (which Russia used until February 1918); also called the Bolshevik Revolution or the Great October Socialist Revolution.
+- **Context:** Named "October Revolution" after its date in the Julian Calendar (Russia switched to the Gregorian calendar in February 1918); the revolution established the world's first communist state, profoundly influencing Indian revolutionary movements (HSRA, CPI) and global anti-colonial struggles.
+- **UPSC Relevance:** GS1 (World History). Prelims: tested on date (7 November 1917), key figures (Lenin, Trotsky), and distinction from the February Revolution (1917). Mains: asked to assess the Russian Revolution's global impact — on colonialism, workers' movements, and political ideologies. Focus on the revolution's influence on Indian nationalism — it inspired Bhagat Singh, M.N. Roy, and the communist movement in India, and shaped Nehru's socialist thinking and India's Five Year Plans.
 
 ---
 

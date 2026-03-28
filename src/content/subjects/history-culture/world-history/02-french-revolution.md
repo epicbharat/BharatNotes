@@ -266,12 +266,14 @@ The success of the **American Revolution** (1776) demonstrated that Enlightenmen
 ### Declaration of the Rights of Man and of the Citizen
 - **Pronunciation:** /ˌdɛkləˈreɪʃən əv ðə raɪts əv mæn/
 - **Definition:** A foundational document of the French Revolution, adopted by the National Constituent Assembly on 26 August 1789, comprising a preamble and 17 articles that proclaimed the natural and inalienable rights of liberty, property, security, and resistance to oppression, along with equality before the law and popular sovereignty.
-- **Origin:** Drafted by the Marquis de Lafayette with advice from Thomas Jefferson; inspired by Enlightenment philosophy (Rousseau's social contract, Montesquieu's separation of powers) and the American Declaration of Independence (1776).
+- **Context:** Drafted by the Marquis de Lafayette with advice from Thomas Jefferson; inspired by Enlightenment philosophy (Rousseau's social contract, Montesquieu's separation of powers) and the American Declaration of Independence (1776); it influenced subsequent rights documents including the UDHR (1948).
+- **UPSC Relevance:** GS1 (World History) & GS2 (Rights). Prelims: tested on year (1789), key rights proclaimed (liberty, property, security, resistance to oppression), and Enlightenment influences. Mains: asked to discuss the French Revolution's influence on modern democratic values and how it "laid the foundations of the modern world." Focus on linking the Declaration to India's Fundamental Rights framework and the UDHR — a cross-paper theme connecting World History with Indian Polity.
 
 ### Reign of Terror
 - **Pronunciation:** /reɪn əv ˈtɛrə/
 - **Definition:** The period of extreme political repression during the French Revolution (September 1793 to July 1794), in which the Committee of Public Safety under Maximilien Robespierre exercised near-dictatorial power, executing an estimated 16,000--40,000 people by guillotine as suspected counter-revolutionaries.
-- **Origin:** From French *la Terreur* ("the Terror"); the Convention formally decreed on 5 September 1793 that "terror is the order of the day"; ended with the Thermidorian Reaction on 27--28 July 1794 (9 Thermidor, Year II).
+- **Context:** Ended with the Thermidorian Reaction on 27–28 July 1794 (9 Thermidor, Year II) when Robespierre himself was executed; the period demonstrates the paradox of how revolutions for liberty can devolve into authoritarianism.
+- **UPSC Relevance:** GS1 (World History). Prelims: tested on dates (September 1793 – July 1794), the Committee of Public Safety, Robespierre, and the Thermidorian Reaction. Mains: relevant for essays on how revolutions can devour their own children, the tension between revolutionary idealism and political violence, and comparisons with other revolutionary excesses (Russian Revolution, China's Cultural Revolution). Focus on the paradox: a revolution for liberty producing a reign of terror — a theme UPSC uses for analytical Mains questions.
 
 ---
 

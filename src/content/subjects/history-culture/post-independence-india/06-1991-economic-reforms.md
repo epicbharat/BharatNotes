@@ -225,12 +225,14 @@ The 1991 economic reforms mark the most significant turning point in India's pos
 ### LPG Reforms
 - **Pronunciation:** /ɛl piː dʒiː rɪˈfɔːrmz/
 - **Definition:** The collective term for the three pillars of India's 1991 New Economic Policy — Liberalisation, Privatisation, and Globalisation — which dismantled the License Raj, opened the economy to foreign investment, and integrated India into the global market.
-- **Origin:** An acronym formed from the initial letters of Liberalisation, Privatisation, and Globalisation; coined in Indian economic and policy discourse following the reforms announced by Finance Minister Dr. Manmohan Singh on 24 July 1991.
+- **Context:** Triggered by the 1991 Balance of Payments crisis when India's forex reserves fell to just two weeks of imports; India pledged 67 tonnes of gold to the Bank of England and IMF as collateral; the reforms were announced by FM Dr. Manmohan Singh on 24 July 1991.
+- **UPSC Relevance:** GS1 (Post-Independence India) & GS3 (Economy). Prelims: tested on the three components (Liberalisation, Privatisation, Globalisation), the 1991 BOP crisis trigger, key architects (PM Rao, FM Manmohan Singh), and specific reforms (abolition of industrial licensing, SEBI establishment). Mains: a core GS3 topic — asked to assess the impact of LPG reforms on India's growth, inequality, and global integration. Focus on the before-after contrast: License Raj vs liberalised economy, and the reforms' outcomes over 30+ years.
 
 ### New Economic Policy
 - **Pronunciation:** /njuː ˌiːkəˈnɒmɪk ˈpɒlɪsi/
 - **Definition:** The comprehensive set of economic reforms introduced by the Indian government on 24 July 1991 under PM P.V. Narasimha Rao and FM Dr. Manmohan Singh, which transitioned India from a closed, state-dominated economy to a market-oriented one through industrial delicensing, trade liberalisation, FDI opening, and disinvestment of public sector enterprises.
-- **Origin:** The term "New Economic Policy" distinguished the 1991 reform framework from the earlier Nehruvian mixed-economy model and the License Raj that had governed Indian economic policy since independence.
+- **Context:** Distinguished the 1991 reform framework from the earlier Nehruvian model; key measures included abolition of industrial licensing (except for 6 industries), reduction of import tariffs, devaluation of the rupee, 51% FDI in high-priority industries, and establishment of SEBI for capital market regulation.
+- **UPSC Relevance:** GS1 (Post-Independence India) & GS3 (Economy). Prelims: tested on specific reform measures (delicensing, FDI limits, disinvestment targets) and their immediate economic impact. Mains: asked to evaluate the NEP's successes (GDP growth, poverty reduction, global integration) and failures (rising inequality, jobless growth, agricultural neglect). Focus on the continuing relevance of the 1991 reforms and how subsequent governments built on or modified the original framework.
 
 ---
 

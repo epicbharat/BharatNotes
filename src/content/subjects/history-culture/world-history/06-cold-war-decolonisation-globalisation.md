@@ -322,12 +322,14 @@ The **General Agreement on Tariffs and Trade (GATT)** was established in 1948 as
 ### Berlin Wall
 - **Pronunciation:** /bɜːˈlɪn wɔːl/
 - **Definition:** The fortified concrete barrier erected by East Germany on 13 August 1961 to encircle West Berlin and prevent emigration to the West — it stood for 28 years as the foremost physical symbol of the Cold War's Iron Curtain, until it was breached on 9 November 1989, triggering the collapse of communist regimes across Eastern Europe.
-- **Origin:** Named after Berlin, the divided city at the heart of Cold War tensions; the German Democratic Republic officially called it the *Antifaschistischer Schutzwall* ("Anti-Fascist Protection Rampart"), though it was built to prevent East Germans from fleeing westward.
+- **Context:** Its fall on 9 November 1989 symbolised the end of the Cold War; German reunification followed on 3 October 1990; the event accelerated the dissolution of the Soviet Union (December 1991) and reshaped the global order from bipolarity to US unipolarity.
+- **UPSC Relevance:** GS1 (World History) & GS2 (International Relations). Prelims: tested on dates (built 1961, fell 1989), and its symbolic significance as the Cold War's physical manifestation. Mains: asked to discuss the Cold War's end and its impact on the global order, including the emergence of US unipolarity, the rise of globalisation, and implications for India's foreign policy (shift from NAM-centric to multi-alignment). Focus on the chain: Berlin Wall fall → German reunification → Soviet dissolution → new world order — and its impact on India's 1991 economic reforms.
 
 ### Non-Aligned Movement
 - **Pronunciation:** /nɒn əˈlaɪnd ˈmuːvmənt/
 - **Definition:** A forum of states that refused to formally align with either the Western (US-led) or Eastern (Soviet-led) bloc during the Cold War — founded at the First Summit in Belgrade (1--6 September 1961) by Nehru, Tito, Nasser, Nkrumah, and Sukarno, with 25 member nations; today it has 120 members, the largest grouping of states outside the United Nations.
-- **Origin:** The concept of "non-alignment" evolved from India's foreign policy under Nehru, the Panchsheel Agreement (1954), and the Bandung Conference (1955); the term was formalised at the Belgrade Summit in 1961.
+- **Context:** Evolved from the Panchsheel Agreement (1954) and Bandung Conference (1955); India under Nehru was its chief architect; NAM's relevance was questioned after the Cold War ended but it continues as a platform for developing nations.
+- **UPSC Relevance:** GS1 (World History & Post-Independence India) & GS2 (International Relations). Prelims: tested on founding year (1961), Belgrade Summit, founding leaders (Nehru, Tito, Nasser, Nkrumah, Sukarno), current membership (120 nations), and predecessor events (Panchsheel, Bandung). Mains: a perennial topic — asked to assess NAM's relevance in the post-Cold War world and whether India should continue with non-alignment or adopt multi-alignment. Focus on the evolution from Nehruvian non-alignment to India's current "strategic autonomy" and "multi-alignment" approach.
 
 ---
 

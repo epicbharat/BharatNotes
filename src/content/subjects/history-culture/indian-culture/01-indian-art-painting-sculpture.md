@@ -270,12 +270,14 @@ The **Chola dynasty** (c. 850–1250 CE) produced the finest bronze sculptures i
 ### Nagara Style
 - **Pronunciation:** /ˈnɑːɡərə staɪl/
 - **Definition:** The predominant Hindu temple architectural style of northern, central, and western India, characterised by a curvilinear tower (*shikhara*) over the sanctum (*garbhagriha*), crowned by a ribbed disc (*amalaka*) and finial (*kalasha*), built on a raised platform without enclosure walls — in contrast to the Dravidian style of the south.
-- **Origin:** From Sanskrit *nagara* (नगर), meaning "city" or "town," reflecting the style's association with urban temple-building traditions of northern India; the style emerged c. 5th century CE and reached its peak under the Chandela, Solanki, and Kalinga dynasties.
+- **Context:** Emerged c. 5th century CE; reached its peak under the Chandela (Khajuraho), Solanki (Modhera), and Kalinga (Konark, Lingaraja) dynasties; three sub-styles are Latina (single curvilinear tower), Phamsana (multiple shorter towers), and Valabhi (rectangular roof).
+- **UPSC Relevance:** GS1 (Art & Culture). Prelims: high-frequency — tested on distinguishing Nagara (curvilinear shikhara, no enclosure wall, raised platform) from Dravidian (pyramidal vimana, gopurams, prakaras) and Vesara (hybrid) styles. Mains: asked to compare the three temple architecture styles, and discuss specific examples (Khajuraho, Konark, Lingaraja). Focus on the structural components — shikhara, garbhagriha, mandapa, amalaka, kalasha — and how to identify each style in photographs or descriptions.
 
 ### Bharatanatyam
 - **Pronunciation:** /ˌbʌrətəˈnɑːtjəm/
 - **Definition:** One of India's oldest classical dance forms, originating in Tamil Nadu's temple tradition, characterised by a fixed upper torso, bent-knee stance (*aramandi*), intricate footwork, and an expressive vocabulary of hand gestures (*mudras*) and facial expressions (*abhinaya*) used to depict religious narratives.
-- **Origin:** A compound of Sanskrit *bharata* — itself a mnemonic of *bha* (bhava, "emotion"), *ra* (raga, "melody"), and *ta* (tala, "rhythm") — and *natyam* ("dance"); the theoretical foundations appear in the *Natya Shastra* (c. 200 BCE-200 CE) attributed to sage Bharata Muni.
+- **Context:** Rooted in the Natya Shastra of Bharata Muni; revived in the 20th century by Rukmini Devi Arundale (who separated it from the Devadasi tradition) and E. Krishna Iyer; recognised by the Sangeet Natak Akademi as one of India's eight classical dance forms.
+- **UPSC Relevance:** GS1 (Art & Culture). Prelims: tested on state of origin (Tamil Nadu), key features (aramandi stance, mudras, abhinaya), and the revival movement (Rukmini Devi Arundale). Mains: relevant for discussing intangible cultural heritage, the Devadasi tradition debate, and Indian soft power through performing arts. Focus on distinguishing all eight classical dance forms — their states of origin, key features, and major exponents — a staple Art & Culture topic in Prelims.
 
 ---
 
