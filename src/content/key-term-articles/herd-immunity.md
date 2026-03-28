@@ -58,6 +58,13 @@ India's **Universal Immunisation Programme (UIP)**, one of the largest in the wo
 4. How did the COVID-19 pandemic reshape our understanding of herd immunity?
 5. Evaluate the ethical dimensions of pursuing herd immunity through natural infection vs. vaccination
 
+### Important Connections
+- **Public Health Policy**: India's UIP and Mission Indradhanush aim to achieve herd immunity for preventable diseases
+- **Ethics**: Debate over natural infection vs. vaccination for herd immunity — WHO firmly supports vaccination route
+- **Global Health Security**: COVID-19 demonstrated how variants and waning immunity challenge herd immunity assumptions
+- **International Cooperation**: COVAX facility aimed to ensure equitable global vaccine distribution for achieving population immunity
+- **Vaccine Diplomacy**: India's "Vaccine Maitri" initiative supplied COVID-19 vaccines to countries worldwide, supporting global herd immunity efforts
+
 ---
 
 *Sources: [WHO — Herd Immunity and COVID-19](https://www.who.int/news-room/questions-and-answers/item/herd-immunity-lockdowns-and-covid-19), [Mayo Clinic — Herd Immunity](https://www.mayoclinic.org/diseases-conditions/coronavirus/in-depth/herd-immunity-and-coronavirus/art-20486808), [History of Vaccines — Herd Immunity](https://historyofvaccines.org/vaccines-101/what-do-vaccines-do/how-herd-immunity-works/)*

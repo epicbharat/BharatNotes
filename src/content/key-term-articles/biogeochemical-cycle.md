@@ -63,6 +63,7 @@ Each cycle has distinct **reservoirs** (pools where elements are stored — ocea
 - **Agriculture**: Nitrogen and phosphorus cycles directly affect soil fertility and crop productivity
 - **Water Pollution**: Excess nutrients from fertilisers cause eutrophication and aquatic dead zones
 - **International Agreements**: Paris Agreement and UNFCCC address carbon cycle disruption; Montreal Protocol addresses ozone cycle
+- **Soil Health**: The phosphorus and nitrogen cycles directly impact soil fertility and India's food security
 
 ---
 

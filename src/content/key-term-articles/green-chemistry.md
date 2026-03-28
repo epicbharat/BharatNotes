@@ -58,6 +58,13 @@ Two key metrics are used to evaluate the "greenness" of a chemical process. **At
 4. Analyse the role of green chemistry in developing alternatives to persistent organic pollutants
 5. Green chemistry is not just an environmental strategy but also an economic opportunity. Discuss.
 
+### Important Connections
+- **Environment**: Green chemistry directly supports pollution prevention and reducing hazardous waste
+- **Sustainable Development**: Aligns with UN SDGs 3 (Health), 6 (Clean Water), 9 (Industry), and 12 (Responsible Consumption)
+- **Industry**: Pharmaceutical, agrochemical, and polymer industries benefit economically from greener processes
+- **Policy**: India's National Chemical Policy and Pollution Control Board regulations increasingly align with green chemistry principles
+- **Circular Economy**: Green chemistry supports the shift from linear (take-make-dispose) to circular economic models
+
 ---
 
 *Sources: [ACS — 12 Principles of Green Chemistry](https://www.acs.org/green-chemistry-sustainability/principles/12-principles-of-green-chemistry.html), [Yale — Principles of Green Chemistry](https://greenchemistry.yale.edu/about/principles-green-chemistry), [PMC — Evolution of Green Chemistry](https://pmc.ncbi.nlm.nih.gov/articles/PMC6323129/)*

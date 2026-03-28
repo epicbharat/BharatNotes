@@ -63,6 +63,7 @@ Corrosion is not limited to iron. **Copper** develops a green patina of **copper
 - **Defence**: Naval ships and submarines require extensive anti-corrosion measures in saltwater environments
 - **Heritage Conservation**: Corrosion threatens historical metal artefacts; preservation uses specialised coatings
 - **Electrochemistry**: Understanding corrosion requires knowledge of electrode potentials and electrochemical cells
+- **Environment**: Acid rain (from SO2/NOx) accelerates corrosion of monuments and historical structures
 
 ---
 

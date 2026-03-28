@@ -58,6 +58,13 @@ The endocrine system works in close coordination with the **nervous system** to 
 4. Compare the nervous system and endocrine system in terms of speed, duration, and mode of signalling
 5. Analyse the clinical significance of hormonal imbalances — diabetes, thyroid disorders, and adrenal dysfunction
 
+### Important Connections
+- **Public Health**: Diabetes mellitus affects over 100 million Indians; India is often called the "diabetes capital of the world"
+- **Environment**: Endocrine-disrupting chemicals (BPA, phthalates) in plastics are an emerging environmental threat
+- **Nutrition**: Iodine deficiency causes goitre; iodised salt programmes have significantly reduced prevalence in India
+- **Biotechnology**: Synthetic insulin (produced via recombinant DNA technology) revolutionised diabetes treatment
+- **Sports**: Hormone doping (EPO, testosterone, HGH) is banned by WADA; endocrine knowledge aids anti-doping efforts
+
 ---
 
 *Sources: [Cleveland Clinic — Endocrine System](https://my.clevelandclinic.org/health/body/21201-endocrine-system), [Johns Hopkins — Endocrine Anatomy](https://www.hopkinsmedicine.org/health/wellness-and-prevention/anatomy-of-the-endocrine-system), [US EPA — Endocrine System Overview](https://www.epa.gov/endocrine-disruption/overview-endocrine-system)*

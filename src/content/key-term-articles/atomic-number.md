@@ -63,6 +63,7 @@ The concept of atomic number is central to understanding **chemical bonding, rea
 - **Spectroscopy**: Atomic number determines X-ray emission spectra (Moseley's Law)
 - **Nuclear fission**: Uranium (Z = 92) and Plutonium (Z = 94) are used in nuclear reactors and weapons
 - **Carbon dating**: Carbon-14 (Z = 6, A = 14) isotope used to date archaeological artefacts
+- **Periodic trends**: Electronegativity, ionisation energy, and atomic radius vary systematically with Z
 
 ---
 

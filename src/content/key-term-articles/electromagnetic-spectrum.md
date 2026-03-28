@@ -58,6 +58,13 @@ Different parts of the spectrum interact differently with matter. **Radio waves*
 4. Explain the relationship between frequency, wavelength, and energy in EM radiation
 5. Analyse the environmental and health implications of different parts of the EM spectrum
 
+### Important Connections
+- **Communication**: Radio waves and microwaves form the backbone of telecommunications, 4G/5G, and satellite systems
+- **Space Technology**: ISRO's remote sensing satellites use IR and microwave bands; telescopes observe across the full spectrum
+- **Health**: UV exposure linked to skin cancer; X-ray overexposure causes radiation sickness; gamma rays used in cancer therapy
+- **Environment**: The ozone layer's absorption of UV-B/UV-C is critical; ozone depletion increases UV radiation at surface
+- **Astronomy**: Different parts of the spectrum reveal different cosmic phenomena — radio telescopes, IR telescopes, X-ray observatories
+
 ---
 
 *Sources: [NASA — EM Spectrum](https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum1.html), [Britannica — Electromagnetic Spectrum](https://www.britannica.com/science/electromagnetic-spectrum), [Wikipedia — Electromagnetic Spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum)*

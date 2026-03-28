@@ -58,6 +58,13 @@ The practical importance of electromagnetic induction cannot be overstated — v
 4. Analyse the practical applications of eddy currents in technology and industry
 5. Electromagnetic induction is the backbone of modern electrical civilisation. Discuss with examples.
 
+### Important Connections
+- **Energy Sector**: All thermal, hydro, nuclear, and wind power plants use generators based on Faraday's principle
+- **Power Grid**: Step-up and step-down transformers enable efficient long-distance electricity transmission
+- **Modern Technology**: Induction cooktops, wireless charging (Qi), and contactless payments all use EM induction
+- **Physics Fundamentals**: Links to Maxwell's equations, conservation of energy, and the unification of electricity and magnetism
+- **Renewable Energy**: Wind turbines and hydroelectric generators convert kinetic energy to electricity via induction
+
 ---
 
 *Sources: [Wikipedia — Electromagnetic Induction](https://en.wikipedia.org/wiki/Electromagnetic_induction), [Wikipedia — Faraday's Law](https://en.wikipedia.org/wiki/Faraday's_law_of_induction), [Wikipedia — Lenz's Law](https://en.wikipedia.org/wiki/Lenz's_law)*

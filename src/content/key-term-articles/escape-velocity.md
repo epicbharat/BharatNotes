@@ -58,6 +58,13 @@ There is an important relationship between escape velocity and **orbital velocit
 4. Discuss the significance of escape velocity in understanding black holes and gravitational phenomena
 5. Compare escape velocities of different celestial bodies and explain what determines these values
 
+### Important Connections
+- **Space Programme**: ISRO's PSLV and GSLV rockets must achieve sufficient velocity for satellite deployment and interplanetary missions
+- **Astrophysics**: Black holes (escape velocity > c) and neutron stars represent extreme gravitational environments
+- **Planetary Science**: Escape velocity determines whether a planet can retain its atmosphere (Earth retains N2/O2; Moon cannot)
+- **Gravitation**: Links to Newton's Law of Gravitation, Kepler's Laws, and Einstein's General Relativity
+- **Satellite Technology**: Understanding orbital and escape velocities is essential for satellite deployment and space debris management
+
 ---
 
 *Sources: [Britannica — Escape Velocity](https://www.britannica.com/science/escape-velocity), [Wikipedia — Escape Velocity](https://en.wikipedia.org/wiki/Escape_velocity), [Omnicalculator — Escape Velocity](https://www.omnicalculator.com/physics/escape-velocity)*

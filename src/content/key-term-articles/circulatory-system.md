@@ -63,6 +63,7 @@ Common circulatory disorders include **atherosclerosis** (plaque buildup in arte
 - **Blood Donation**: India needs ~12 million units of blood annually; voluntary blood donation is promoted on June 14 (World Blood Donor Day)
 - **Forensic Science**: Blood group analysis (ABO, Rh) is used in paternity testing and crime investigation
 - **Biotechnology**: Artificial hearts, stents, and bypass surgery represent medical advances in treating circulatory disorders
+- **Exercise Physiology**: Regular exercise strengthens the heart, lowers resting heart rate, and improves cardiovascular health
 
 ---
 

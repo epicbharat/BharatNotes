@@ -58,6 +58,13 @@ When a source moves **faster than the wave speed**, a **shock wave** (sonic boom
 4. Differentiate between the Doppler Effect for sound and light waves
 5. Analyse the significance of the Doppler effect in modern technology — from medical diagnostics to space exploration
 
+### Important Connections
+- **Disaster Management**: Doppler radar is critical for cyclone early warning systems in India (IMD network)
+- **Space Technology**: ISRO and NASA use Doppler tracking to monitor spacecraft velocity and trajectory
+- **Medical Science**: Doppler echocardiography detects heart valve abnormalities and blood flow disorders
+- **Cosmology**: Cosmic redshift provides evidence for the Big Bang theory and accelerating universe expansion
+- **Traffic Management**: Doppler-based speed cameras and radar guns are used for traffic law enforcement
+
 ---
 
 *Sources: [Wikipedia — Doppler Effect](https://en.wikipedia.org/wiki/Doppler_effect), [NASA — Doppler Effect](https://www.grc.nasa.gov/www/k-12/airplane/doppler.html), [Physics LibreTexts — Doppler Effect](https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book:_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/17:_Sound/17.08:_The_Doppler_Effect)*

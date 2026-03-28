@@ -58,6 +58,13 @@ Ecological pyramids also help ecologists assess **ecosystem health**, predict th
 4. How do inverted pyramids challenge our understanding of ecosystem productivity?
 5. Analyse the concept of biomagnification with reference to ecological pyramids and its implications for human health
 
+### Important Connections
+- **Environment & Biodiversity**: Ecological pyramids explain why apex predators (tigers, eagles) are rare and vulnerable
+- **Pollution**: Biomagnification of pesticides and heavy metals through trophic levels threatens wildlife and human health
+- **Food Security**: Understanding energy transfer efficiency helps optimise agricultural and aquaculture productivity
+- **Conservation**: The 10% law explains why protecting primary producers (forests, phytoplankton) is essential
+- **Vegetarian Diet Argument**: Eating lower on the food chain (plants) is more energy-efficient than meat-based diets
+
 ---
 
 *Sources: [Wikipedia — Ecological Pyramid](https://en.wikipedia.org/wiki/Ecological_pyramid), [Britannica — Trophic Pyramid](https://www.britannica.com/science/trophic-pyramid), [PMF IAS — Ecological Pyramids](https://www.pmfias.com/ecological-pyramids-pyramid-numbers-biomass-energy/)*
