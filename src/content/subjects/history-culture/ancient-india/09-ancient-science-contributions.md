@@ -241,13 +241,13 @@ While Aryabhata did not propose a fully heliocentric model, his system contained
 |---------|--------|
 | **Author** | **Panini** (c. 4th century BCE, from Shalatula in Gandhara, modern-day Pakistan) |
 | **Work** | **Ashtadhyayi** ("Eight Chapters") |
-| **Structure** | 3,959 rules (sutras) organised into 8 chapters |
+| **Structure** | ~3,996 rules (sutras) organised into 8 chapters |
 | **Content** | A complete, self-contained, rule-based grammar of Sanskrit that can generate every valid Sanskrit word and sentence through logical operations |
 | **Computational features** | If-then rules (conditional logic), recursion (compound words apply recursively -- output becomes new input), meta-rules (rules that call other rules), conflict-resolution (when two rules can apply, meta-rules determine which takes precedence) |
 | **Modern relevance** | Recognised as a precursor to modern computational linguistics, formal language theory, and programming languages; directly relevant to Natural Language Processing (NLP) |
 | **Significance** | Called "the first descriptive linguist" by modern scholars; the Ashtadhyayi is considered one of the greatest intellectual achievements of the ancient world |
 
-> **Exam Tip:** Panini's Ashtadhyayi contains 3,959 rules for Sanskrit grammar. Its rule-based, recursive structure makes it a precursor to computational linguistics and computer programming. UPSC has asked about Panini in both Prelims (factual) and Mains (significance of ancient Indian knowledge systems).
+> **Exam Tip:** Panini's Ashtadhyayi contains ~3,996 rules for Sanskrit grammar. Its rule-based, recursive structure makes it a precursor to computational linguistics and computer programming. UPSC has asked about Panini in both Prelims (factual) and Mains (significance of ancient Indian knowledge systems).
 
 ---
 
@@ -256,7 +256,7 @@ While Aryabhata did not propose a fully heliocentric model, his system contained
 | Scholar | Period | Field | Major Work | Key Contribution |
 |---------|--------|-------|-----------|-----------------|
 | **Baudhayana** | ~800--500 BCE | Mathematics | Baudhayana Sulbasutra | Pythagorean theorem (earliest known statement); sqrt(2) approximation |
-| **Panini** | ~4th century BCE | Linguistics | Ashtadhyayi | Formal grammar of Sanskrit; 3,959 rules; precursor to computational linguistics |
+| **Panini** | ~4th century BCE | Linguistics | Ashtadhyayi | Formal grammar of Sanskrit; ~3,996 rules; precursor to computational linguistics |
 | **Sushruta** | ~6th century BCE (text revised later) | Surgery | Sushruta Samhita | 300 surgical procedures; rhinoplasty; 121 instruments; "Father of Surgery" |
 | **Charaka** | ~2nd century CE | Medicine | Charaka Samhita | Foundational text of Ayurvedic internal medicine; tridosha theory |
 | **Aryabhata** | 476--550 CE | Mathematics, Astronomy | Aryabhatiya | Zero concept (placeholder); pi = 3.1416; Earth's rotation; sine tables |
@@ -268,7 +268,7 @@ While Aryabhata did not propose a fully heliocentric model, his system contained
 
 ## Exam Strategy
 
-> **For Prelims:** Matching scholars with their works and contributions is the most common question type. Memorise: Aryabhata = Aryabhatiya, pi, zero placeholder, Earth's rotation; Brahmagupta = Brahmasphutasiddhanta, zero as a number, negative numbers; Bhaskara II = Siddhanta Shiromani (Lilavati), calculus concepts; Sushruta = rhinoplasty, 121 instruments; Charaka = internal medicine, tridosha; Panini = Ashtadhyayi, 3,959 rules; Iron Pillar = Chandragupta II, high phosphorus, Mehrauli.
+> **For Prelims:** Matching scholars with their works and contributions is the most common question type. Memorise: Aryabhata = Aryabhatiya, pi, zero placeholder, Earth's rotation; Brahmagupta = Brahmasphutasiddhanta, zero as a number, negative numbers; Bhaskara II = Siddhanta Shiromani (Lilavati), calculus concepts; Sushruta = rhinoplasty, 121 instruments; Charaka = internal medicine, tridosha; Panini = Ashtadhyayi, ~3,996 rules; Iron Pillar = Chandragupta II, high phosphorus, Mehrauli.
 
 > **For Mains GS-I:** Be prepared to discuss the significance of ancient Indian scientific contributions in a global context. Questions may ask: "Discuss the contributions of ancient Indian mathematicians to the development of modern mathematics" or "Evaluate India's metallurgical achievements in ancient times." Link these contributions to broader themes of knowledge transfer (Indian mathematics to the Arab world to Europe) and the importance of preserving India's scientific heritage.
 

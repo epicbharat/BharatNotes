@@ -185,7 +185,7 @@ The Gupta period saw the **emergence of the structural Hindu temple** — the tr
 
 | Work | Author | Period | Significance |
 |------|--------|--------|--------------|
-| **Ashtadhyayi** | Panini | c. 4th century BCE | Definitive Sanskrit grammar — **3,996 sutras (rules)** codifying the language; still the basis of Sanskrit grammar |
+| **Ashtadhyayi** | Panini | c. 4th century BCE | Definitive Sanskrit grammar — **~3,996 sutras (rules)** codifying the language; still the basis of Sanskrit grammar |
 | **Mahabhashya** | Patanjali | c. 2nd century BCE (Sunga period) | Commentary on Panini; important historical source |
 | **Arthashastra** | Kautilya | c. 4th century BCE | Statecraft and political economy |
 | **Buddhacharita** | Ashvaghosha | c. 1st–2nd century CE (Kushan) | First Sanskrit kavya (poem); biography of the Buddha |
@@ -208,7 +208,7 @@ The Gupta period saw the **emergence of the structural Hindu temple** — the tr
 - Ajanta: 30 caves, Buddhist only, paintings (Padmapani/Vajrapani in Cave 1), UNESCO WHS 1983
 - Ellora: 34 caves (Buddhist + Hindu + Jain), Kailasa Temple (Cave 16, Rashtrakuta Krishna I), UNESCO WHS 1983
 - Iron Pillar: Mehrauli, "Chandra" inscription, rust-resistant, ~7.21m
-- Panini's Ashtadhyayi: 3,996 sutras (rules) of Sanskrit grammar
+- Panini's Ashtadhyayi: ~3,996 sutras (rules) of Sanskrit grammar
 - Dashavatara Temple, Deogarh: earliest stone structural temple
 
 ### Mains Focus Areas

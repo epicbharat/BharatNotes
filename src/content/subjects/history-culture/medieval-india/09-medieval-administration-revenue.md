@@ -87,7 +87,7 @@ The Iqta system was an administrative arrangement in which the Sultan assigned t
 
 Alauddin Khalji (r. 1296–1316) implemented one of the most ambitious price control experiments in medieval world history, primarily to maintain a large standing army at low cost.
 
-### Three Regulated Markets
+### Four Regulated Markets
 
 | Market | Goods Controlled | Enforcement Officer |
 |--------|-----------------|-------------------|

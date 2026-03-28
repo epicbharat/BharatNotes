@@ -198,7 +198,7 @@ Though he ruled for only **five years**, Sher Shah Suri's administrative reforms
 | **Built** | 1571–1585 by Akbar |
 | **Location** | Near Agra, Uttar Pradesh |
 | **Reason** | Akbar built it in honour of Sufi saint **Salim Chishti**, who predicted the birth of Akbar's son (later Emperor Jahangir) |
-| **Key structures** | Buland Darwaza (Gate of Magnificence — built 1601 to commemorate Gujarat victory), Panch Mahal, Diwan-i-Khas, Ibadat Khana, Tomb of Salim Chishti |
+| **Key structures** | Buland Darwaza (Gate of Magnificence — built c. 1575 to commemorate the Gujarat victory of 1573), Panch Mahal, Diwan-i-Khas, Ibadat Khana, Tomb of Salim Chishti |
 | **Architectural style** | Fusion of Persian, Indian, and Central Asian elements — red sandstone with marble inlay; considered a masterpiece of Indo-Islamic architecture |
 | **Abandonment** | Abandoned c. 1585 — traditionally attributed to **water scarcity**, though strategic reasons (shift to Lahore to manage the northwestern frontier) may also have contributed |
 | **UNESCO WHS** | **1986** |

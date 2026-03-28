@@ -57,7 +57,7 @@ Medieval India (c. 8th–18th century) was a period of remarkable cultural synth
 | **Humayun's Tomb** (Delhi) | Haji Begum (1572) | **First Mughal garden tomb**; architect Mirak Mirza Ghiyas; introduced charbagh layout; UNESCO WHS (1993) |
 | **Fatehpur Sikri** | Akbar (1571–85) | Synthesis of Hindu and Islamic elements — Panch Mahal (Buddhist vihara-like), Buland Darwaza (54 metres, largest gateway in the world at the time); UNESCO WHS (1986) |
 | **Taj Mahal** | Shah Jahan (1632–53, mausoleum 1648) | Pinnacle of Mughal architecture; perfect symmetry, pietra dura, white Makrana marble; UNESCO WHS (1983) |
-| **Red Fort** | Shah Jahan (1639–48) | Palace-fortress of Shahjahanabad; Diwan-i-Khas, Diwan-i-Am; UNESCO WHS (2007) |
+| **Red Fort** | Shah Jahan (1638–48) | Palace-fortress of Shahjahanabad; Diwan-i-Khas, Diwan-i-Am; UNESCO WHS (2007) |
 | **Badshahi Mosque** | Aurangzeb (1671–73) | Lahore; one of the largest mosques in the world; red sandstone with marble domes |
 
 > **For Mains:** Indo-Islamic architecture is NOT simply "Muslim architecture on Indian soil" — it is a genuine **synthesis**. Hindu craftsmen (silpis) applied Indian techniques (trabeate construction, decorative motifs) to Islamic plans (mosques, tombs). Over time, the styles fused — the Taj Mahal's dome is Persian, its minarets are Islamic, but its inlay work, lotus finials, and craftsmanship are distinctly Indian.
