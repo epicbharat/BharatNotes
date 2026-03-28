@@ -230,6 +230,15 @@ For UPSC, tourism geography connects to GS-1 (cultural landscapes, heritage), GS
 | **Outcomes** | Enhanced local employment, preservation of traditional arts and cuisine, reduced environmental impact |
 | **Recognition** | Won UNWTO Ulysses Award; Kerala RT Mission became a model for other states |
 
+### Tourism and Employment
+
+| Feature | Detail |
+|---------|--------|
+| **Direct employment** | Tourism directly employs approximately 5.8% of India's total workforce |
+| **Indirect employment** | Including multiplier effects (hotels, transport, handicrafts, food services), tourism supports approximately 13% of total employment |
+| **Gender significance** | Tourism provides significant employment opportunities for women — hospitality, handicrafts, homestays |
+| **Rural tourism potential** | Rural and farm-stay tourism can diversify income sources for farming communities and reduce seasonal migration |
+
 ---
 
 ## Key Comparisons for UPSC
@@ -276,6 +285,22 @@ For UPSC, tourism geography connects to GS-1 (cultural landscapes, heritage), GS
 - **Pronunciation:** /ˈkærɪɪŋ kəˈpæsɪti/
 - **Definition:** The maximum number of tourists or visitors that a destination can sustainably accommodate without causing unacceptable deterioration of the physical environment, the visitor experience, or the socio-cultural fabric of the host community.
 - **Origin:** Originally an ecological concept (maximum population an environment can sustain), adapted to tourism studies in the 1960s-70s.
+
+---
+
+## Key Terms
+
+### World Heritage Site
+- **Pronunciation:** /wɜːld ˈhɛrɪtɪdʒ saɪt/
+- **Definition:** A landmark or area selected by the United Nations Educational, Scientific and Cultural Organization (UNESCO) as having outstanding universal value — cultural, natural, or mixed — and inscribed on the World Heritage List under the 1972 Convention Concerning the Protection of the World Cultural and Natural Heritage; as of 2025, there are over 1,200 sites across 168 countries, with India holding 44 sites (6th globally).
+- **Context:** A site must meet at least one of ten selection criteria (six cultural, four natural) to be inscribed; each country nominates sites from its Tentative List; the World Heritage Committee (21 member states) makes inscription decisions at its annual session.
+- **UPSC Relevance:** GS1 (Cultural Heritage) & GS3 (Environment, Biodiversity). Prelims: frequently tests the latest inscribed site, total count, and distinction between cultural/natural/mixed sites. Mains: asked to discuss the significance of World Heritage status for conservation, tourism, and national identity; challenges of balancing preservation with development at heritage sites.
+
+### Sustainable Tourism
+- **Pronunciation:** /səˈsteɪnəbəl ˈtʊərɪzəm/
+- **Definition:** Tourism that takes full account of its current and future economic, social, and environmental impacts, addressing the needs of visitors, the industry, the environment, and host communities — it seeks to achieve a balance between economic growth, environmental conservation, and socio-cultural integrity, ensuring that tourism benefits are equitably distributed and natural and cultural resources are preserved for future generations.
+- **Context:** The UNWTO emphasises three pillars: economic viability, social equity, and environmental sustainability; related concepts include ecotourism (nature-focused), responsible tourism (community-focused), and carrying capacity (the limit beyond which tourism degrades a destination).
+- **UPSC Relevance:** GS1 (Geography, Cultural Heritage) & GS3 (Environment). Tested in the context of overtourism at Indian destinations (Shimla, Goa, Ladakh), government schemes (Swadesh Darshan 2.0), and the Kerala Responsible Tourism model.
 
 ---
 

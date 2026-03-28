@@ -292,4 +292,20 @@ The **One Health** approach recognises that the health of humans, animals, and e
 
 ---
 
+---
+
+## Vocabulary
+
+### Zoonosis
+- **Pronunciation:** /zuːˈɒnəsɪs/ (plural: zoonoses)
+- **Definition:** An infectious disease that has jumped from a non-human animal to humans — approximately 75% of emerging infectious diseases are zoonotic, including COVID-19, Ebola, Nipah, rabies, and avian influenza; the increasing frequency of zoonotic spillovers is driven by deforestation, wildlife trade, intensive animal agriculture, and climate change.
+- **Origin:** From Greek *zōon* ("animal") + *nosos* ("disease"); coined by Rudolf Virchow in the 19th century.
+
+### Infodemic
+- **Pronunciation:** /ˌɪnfəʊˈdɛmɪk/
+- **Definition:** An overabundance of information — including misinformation and disinformation — during a disease outbreak that makes it difficult for people to find trustworthy sources and reliable guidance; the WHO identified the "infodemic" as a major challenge during COVID-19, as false claims about treatments, vaccines, and the virus's origins spread rapidly through social media.
+- **Origin:** Portmanteau of "information" + "epidemic"; coined by David Rothkopf in a 2003 Washington Post column during the SARS outbreak; adopted by the WHO during the COVID-19 pandemic.
+
+---
+
 *Sources: WHO (who.int), PIB (pib.gov.in), ICMR (icmr.gov.in), PRS Legislative Research (prsindia.org), NDMA (ndma.gov.in), CoWIN Dashboard (dashboard.cowin.gov.in), UNDP India, Ministry of External Affairs (mea.gov.in)*

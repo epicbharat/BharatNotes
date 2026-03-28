@@ -295,4 +295,18 @@ The **Sendai Framework for Disaster Risk Reduction (2015-2030)** explicitly call
 
 ---
 
+## Vocabulary
+
+### Moral Hazard
+- **Pronunciation:** /ˈmɒrəl ˈhæzəd/
+- **Definition:** The risk that a party insulated from risk (by insurance or government bailout) behaves differently than it would if fully exposed to the risk — in disaster financing, moral hazard arises when governments or individuals take fewer precautions because they expect to be compensated after a disaster.
+- **Origin:** Originally used in insurance terminology in the 17th century; from English *moral* ("relating to principles of right conduct") + *hazard* ("risk, danger"); became a central concept in economics through the work of Kenneth Arrow (1963).
+
+### Resilience
+- **Pronunciation:** /rɪˈzɪliəns/
+- **Definition:** The ability of a system, community, or society exposed to hazards to resist, absorb, accommodate, adapt to, transform, and recover from the effects of a hazard in a timely and efficient manner — including through the preservation and restoration of essential basic structures and functions through risk management.
+- **Origin:** From Latin *resilire* ("to spring back, rebound"), from *re-* ("back") + *salire* ("to jump, leap"); first used in the physical sciences (elasticity of materials); adapted to disaster management and ecology in the 1970s-80s.
+
+---
+
 *Sources: NDMA (ndma.gov.in), PIB (pib.gov.in), 15th Finance Commission Report, CDRI (cdri.world), UNDRR — Sendai Framework (undrr.org), World Bank — Disaster Risk Financing (worldbank.org), PMFBY (pmfby.gov.in), Ministry of Agriculture*

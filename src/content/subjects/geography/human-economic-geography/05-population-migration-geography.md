@@ -274,4 +274,28 @@ The Demographic Transition Model, developed by American demographer **Warren Tho
 
 ---
 
+## Vocabulary
+
+### Demographic Transition
+- **Pronunciation:** /ˌdɛməˈɡræfɪk trænˈzɪʃən/
+- **Definition:** The shift in population dynamics from a pre-industrial regime of high birth rates and high death rates to a post-industrial regime of low birth rates and low death rates, typically passing through an intermediate phase of rapid population growth when death rates fall before birth rates — first described by Warren Thompson in 1929 and later refined by Frank Notestein in 1945.
+- **Origin:** From Greek *demos* ("people") + *graphein* ("to write") + Latin *transitio* ("a going across"); the model was developed from empirical observation of European population history during and after industrialisation.
+
+### Diaspora
+- **Pronunciation:** /daɪˈæspərə/
+- **Definition:** A scattered population whose origin lies in a separate geographic locale — specifically, people who have migrated from their ancestral homeland and maintain cultural, religious, or national identity in their country of residence; India has one of the world's largest diasporas, with approximately 32 million people of Indian origin living abroad.
+- **Origin:** From Greek *diaspora* ("scattering, dispersion"), from *diaspeirein* ("to scatter"), from *dia-* ("across") + *speirein* ("to sow, scatter"); originally used for the dispersion of Jews from Israel; now used broadly for any migrant community maintaining homeland connections.
+
+---
+
+## Key Terms
+
+### Demographic Dividend
+- **Pronunciation:** /ˌdɛməˈɡræfɪk ˈdɪvɪdɛnd/
+- **Definition:** The accelerated economic growth potential that can result from a decline in a country's birth and death rates and the subsequent change in the age structure of the population — specifically when the proportion of working-age individuals (15-64) substantially exceeds the dependent population (children and elderly), creating a window of opportunity for rapid economic development if complemented by investment in education, health, and employment.
+- **Context:** India's demographic dividend window is estimated to remain open until approximately 2035-2040; the working-age population share will peak at ~68.9% by 2030; the country needs to add ~7.85 million jobs per year to capture this dividend.
+- **UPSC Relevance:** GS1 (Population Geography), GS2 (Education, Health), GS3 (Economic Development, Employment). Prelims: tested on definitions, India's median age (~28), working-age peak (~2030). Mains: asked to assess whether India is on track to capture its demographic dividend or heading towards a demographic disaster; compare with East Asian tigers; discuss regional disparities (southern states ageing vs northern states young).
+
+---
+
 *Sources: Census of India 2011 (censusindia.gov.in), NFHS-5 (rchiips.org), UN Population Division (population.un.org), UNHCR (unhcr.org), Ministry of Labour — e-Shram, EY India — Demographic Dividend Report, UNFPA India*
