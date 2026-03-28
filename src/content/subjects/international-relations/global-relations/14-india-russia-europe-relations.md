@@ -1,0 +1,317 @@
+---
+layout: topic.njk
+title: "India–Russia & India–Europe Relations — Defence, Energy, Trade & Strategic Autonomy"
+subject: international-relations
+parent_topic: "Global Relations"
+parent_topic_url: /subjects/international-relations/global-relations/
+sub_chapter: 14
+gs_papers: [gs2]
+syllabus_topic: "International Relations"
+description: "UPSC notes on India-Russia relations (defence, S-400, energy, INSTC) and India-EU/Europe relations (trade, FTA negotiations, green partnership, technology)."
+date: 2026-03-28
+foundation: true
+prelims: true
+mains: true
+tags: [international-relations, sub-topic]
+related_topics:
+  - title: "India's Strategic Partnerships"
+    url: "/subjects/international-relations/global-relations/06-india-strategic-partnerships/"
+    subject: "International Relations"
+  - title: "India-USA Relations"
+    url: "/subjects/international-relations/global-relations/13-india-usa-relations/"
+    subject: "International Relations"
+  - title: "Global Security & Arms Control"
+    url: "/subjects/international-relations/global-relations/07-global-security-arms-control/"
+    subject: "International Relations"
+  - title: "International Trade & WTO"
+    url: "/subjects/international-relations/global-relations/04-international-trade-wto/"
+    subject: "International Relations"
+---
+
+## Overview
+
+India's relations with Russia and Europe represent two distinct but interlinked pillars of its foreign policy. India-Russia ties rest on a **Special and Privileged Strategic Partnership** built over seven decades of defence, nuclear, and energy cooperation. India-Europe relations, meanwhile, have gained new momentum through trade agreements, technology councils, and green partnerships. Balancing these relationships while maintaining strategic autonomy --- especially amid the Ukraine conflict --- is a central challenge for Indian diplomacy.
+
+For UPSC, these relationships are tested in GS-II through questions on defence dependency, energy security, trade diversification, and India's multi-alignment strategy.
+
+---
+
+## Part I: India-Russia Relations
+
+### Historical Foundation
+
+| Milestone | Year | Significance |
+|-----------|------|-------------|
+| **Diplomatic relations** | 1947 | Soviet Union was among the first countries to recognise independent India |
+| **Indo-Soviet Treaty of Peace, Friendship and Cooperation** | 9 August 1971 | 20-year treaty providing for mutual consultations in case of attack; crucial during the 1971 Bangladesh Liberation War when the USSR vetoed anti-India resolutions at the UNSC |
+| **Treaty renewed** | 8 August 1991 | Extended for another 20 years |
+| **Declaration on Strategic Partnership** | 2000 | Signed during President Putin's first India visit |
+| **Special and Privileged Strategic Partnership** | 2010 | Elevated during PM Manmohan Singh's visit to Moscow; highest-level partnership designation India accords any country |
+
+> **For Mains:** The 1971 Indo-Soviet Treaty was a turning point in India's non-alignment policy. It was prompted by the US-China-Pakistan nexus (Nixon's opening to China, US arms supplies to Pakistan) and provided a security guarantee that proved vital during the Bangladesh Liberation War. The treaty's Article IX provided for mutual consultations in case of military threat.
+
+---
+
+### Defence Cooperation
+
+India-Russia defence ties represent the most extensive military-technical partnership between any two countries outside formal alliances.
+
+#### Major Defence Platforms
+
+| Platform / System | Detail |
+|-------------------|--------|
+| **S-400 Triumf** | Five regiments contracted (2018) for ~USD 5.4 billion; all five delivered by 2024; India preparing additional USD 1.2 billion deal for missile replenishment (2025); system performed during Operation Sindoor |
+| **BrahMos** | Indo-Russian joint venture (BrahMos Aerospace); supersonic cruise missile with 290+ km range; deployed across Army, Navy, and Air Force; export to Philippines completed; BrahMos-NG (lighter, 400+ km range) under development |
+| **BrahMos-II** | Hypersonic missile (up to Mach 7, ~1,500 km range); project approval expected by end of 2025; flight testing projected 2027--28; full induction by ~2031 |
+| **Sukhoi Su-30MKI** | 272 aircraft inducted; license-produced by HAL in Nashik; backbone of Indian Air Force |
+| **INS Vikramaditya** | Aircraft carrier (modified Kiev-class); inducted 2013 |
+| **Kudankulam Nuclear Power Plant** | Russian-built VVER-1000 reactors in Tamil Nadu; Units 1 and 2 operational (2013, 2016); Unit 3 in pre-commissioning (expected 2026); Units 4, 5, 6 under construction; total 6,000 MW capacity when complete |
+| **T-90 Bhishma tanks** | Over 1,000 tanks in service; licensed production at HVF Avadi, Chennai |
+| **AK-203 rifles** | 6.71 lakh rifles to be manufactured at Indo-Russian Rifles Private Ltd. in Amethi, Uttar Pradesh |
+| **RELOS Agreement** | Reciprocal Exchange of Logistics Support; signed 2025; allows access to each other's military facilities for refuelling, repairs, supplies, and maintenance |
+
+#### Defence Dependency Concerns
+
+| Issue | Detail |
+|-------|--------|
+| **Historical dependency** | At its peak, 60--70% of Indian military equipment was of Soviet/Russian origin |
+| **Diversification** | India has consciously diversified --- US, France, and Israel now account for growing shares of defence imports |
+| **Spare parts challenge** | Russian equipment requires Russian spare parts; supply chain disruptions during the Ukraine conflict have been a concern |
+| **CAATSA risk** | India's S-400 purchase technically triggers US sanctions under CAATSA; US has not imposed sanctions on India but the risk remains |
+
+---
+
+### Energy Cooperation
+
+| Sector | Detail |
+|--------|--------|
+| **Crude oil** | Russia became India's largest oil supplier post-Ukraine conflict; accounted for ~36% of India's crude imports in FY 2024--25 (up from less than 1% pre-2022); declined below 25% by early 2026 under Western sanctions pressure |
+| **Nuclear energy** | Kudankulam plant (6 VVER-1000 units); discussions on new plants at potential sites |
+| **LNG** | Long-term LNG supply agreements; Sakhalin-1 project (ONGC Videsh has 20% stake) |
+| **Rouble-Rupee trade** | India and Russia explored bilateral currency settlement to bypass US dollar sanctions; limited success due to Rupee non-convertibility and trade imbalance |
+
+---
+
+### Connectivity --- INSTC
+
+| Feature | Detail |
+|---------|--------|
+| **Full name** | International North-South Transport Corridor |
+| **Length** | ~7,200 km multi-modal network (ship, rail, road) |
+| **Route** | Mumbai (Jawaharlal Nehru Port) to Bandar Abbas (Iran) by sea; then via Iran to Caspian Sea ports (Bandar-e-Anzali); then to Astrakhan (Russia) and onward to Moscow and Northern Europe |
+| **Members** | India, Iran, Russia, Azerbaijan, Kazakhstan, Armenia, Belarus; Bulgaria (observer) |
+| **Advantage** | 30% cheaper and 40% shorter than the Suez Canal route (25--30 days vs. 45--60 days) |
+| **Status** | First consignment from Russia to India via INSTC completed in 2022; operationalisation ongoing |
+
+---
+
+### Space and Science Cooperation
+
+| Area | Detail |
+|------|--------|
+| **Gaganyaan** | Russia provided crew training at the Gagarin Cosmonaut Training Centre for Indian astronauts selected for India's human spaceflight programme |
+| **GLONASS** | Cooperation on satellite navigation; India uses both GPS (US) and GLONASS (Russia) for dual-frequency positioning |
+| **Joint research** | India-Russia Science and Technology Cooperation agreement; collaboration on polar research, seismology, and pharmaceuticals |
+
+### India-Russia Annual Summit
+
+| Feature | Detail |
+|---------|--------|
+| **Format** | Annual summit between PM and President; institutionalised since 2000 |
+| **Significance** | India holds annual summits with only a few countries (Russia, Japan); reflects the depth of the relationship |
+| **Recent** | 22nd Annual Summit held during PM Modi's visit to Moscow (July 2024); first bilateral visit since the Ukraine conflict began |
+
+### Multilateral Convergence
+
+| Forum | India-Russia Dynamic |
+|-------|---------------------|
+| **BRICS** | Both are founding members (original BRIC coined 2001; first summit 2009); cooperation on New Development Bank (NDB); both supported BRICS expansion to include Egypt, Ethiopia, Iran, UAE, Saudi Arabia, Indonesia (2024--2025) |
+| **SCO** | India joined SCO in 2017; Russia was a founding member (2001); cooperation on counter-terrorism and Central Asian connectivity |
+| **G20** | Both members; coordinated on issues like food security, energy transition; Russia attended India's G20 presidency (2023) via Foreign Minister |
+
+---
+
+### Challenges in India-Russia Relations
+
+| Challenge | Detail |
+|-----------|--------|
+| **Russia-China proximity** | Russia's growing strategic alignment with China (post-Ukraine) complicates India's equation; Russia-China-Pakistan triangle is a concern |
+| **Ukraine conflict** | India has abstained on UN votes condemning Russia; faces Western pressure to distance from Moscow; balances between maintaining ties and not alienating the West |
+| **Defence diversification** | India is reducing Russian defence dependency; new acquisitions increasingly from US, France, and Israel |
+| **Trade imbalance** | India-Russia bilateral trade is heavily skewed towards energy (oil); Russia's share of India's defence imports declining |
+| **CAATSA sanctions threat** | US has waived sanctions on India's S-400 purchase so far, but the legal risk persists |
+| **Rouble-Rupee challenges** | India's trade deficit with Russia means Russia accumulates large Rupee balances it cannot easily use; limited Rupee convertibility is a structural problem |
+
+> **For Mains:** India's balancing act between Russia and the West is a core expression of "multi-alignment" (as opposed to non-alignment). India benefits from cheap Russian oil and tested defence platforms, while simultaneously deepening ties with the US, France, and the EU. The key analytical framework is strategic autonomy --- India seeks to preserve decision-making independence without being locked into any bloc.
+
+---
+
+## Part II: India-EU and India-Europe Relations
+
+### India-EU Relations
+
+| Milestone | Year | Significance |
+|-----------|------|-------------|
+| **EU-India Cooperation Agreement** | 1994 | First formal framework for bilateral cooperation |
+| **Strategic Partnership** | 2004 | India-EU Strategic Partnership launched at the 5th India-EU Summit |
+| **India-EU FTA negotiations** | 2007--2013 | Negotiations launched in 2007; suspended in 2013 over disagreements on tariffs, services, and data protection |
+| **Negotiations relaunched** | 2022 | FTA talks restarted along with negotiations on an Investment Protection Agreement and Geographical Indications Agreement |
+| **India-EU Trade and Technology Council (TTC)** | 2023 | Ministerial-level framework covering digital rules, secure connectivity, critical and emerging technologies, and resilient supply chains |
+| **India-EU FTA concluded** | 27 January 2026 | Called the "mother of all trade deals" by both sides; eliminates or reduces tariffs on 90%+ of traded goods; described as the EU's most significant trade agreement since its formation |
+
+> **For Prelims:** The India-EU FTA was concluded on 27 January 2026 after negotiations spanning nearly two decades (first launched 2007, suspended 2013, relaunched 2022). It covers tariff reduction on over 90% of goods traded between the two.
+
+### India-EU Trade Data
+
+| Parameter | Detail |
+|-----------|--------|
+| **EU's ranking** | India's second-largest trading partner (after the US) |
+| **Trade in goods** | ~EUR 120 billion (2024) |
+| **EU investment in India** | EU is among the largest foreign investors in India |
+| **Key sectors** | Engineering goods, chemicals, pharmaceuticals, textiles, gems and jewellery, IT services |
+
+---
+
+### India-France Relations
+
+France is India's closest strategic partner in Europe, with cooperation spanning defence, nuclear energy, space, and maritime security.
+
+| Area | Detail |
+|------|--------|
+| **Strategic Partnership** | Established 1998; elevated to **Special Global Strategic Partnership** during President Macron's visit, 17--19 February 2026 |
+| **Defence --- Rafale** | 36 Rafale jets delivered to IAF (contract signed 2016); 26 Rafale-Marine fighters contracted for INS Vikrant |
+| **Defence --- Submarines** | Scorpene-class submarines (Project 75) built at Mazagon Dock with French DCNS (now Naval Group) collaboration; 6 submarines delivered |
+| **Nuclear --- Jaitapur** | 6 EPR (European Pressurized Reactor) units planned in Maharashtra with EDF/Framatome; total capacity 9.6 GWe; would be world's most powerful nuclear facility; Industrial Way Forward Agreement signed 2018; joint development of low/medium-power modular reactors agreed February 2025 |
+| **Space** | Joint satellite missions; ISRO-CNES collaboration on climate observation; Gaganyaan life support systems cooperation |
+| **Indo-Pacific** | France (with territories in the Indian and Pacific Oceans) is a natural Indo-Pacific partner; joint naval exercises (Varuna); India-France-Australia trilateral |
+| **Counter-terrorism** | Close cooperation post-26/11 Mumbai attacks; joint exercises |
+
+> **For Mains:** India-France relations are arguably India's most diversified European partnership. Unlike other Western partners, France supported India's nuclear programme (Jaitapur), did not impose sanctions after Pokhran-II, and has consistently backed India's UNSC permanent seat bid with veto power. The "Special Global Strategic Partnership" (2026) makes France India's highest-designated European partner.
+
+---
+
+### India-UK Relations
+
+| Area | Detail |
+|------|--------|
+| **FTA** | Negotiations relaunched January 2025; agreement in principle reached 6 May 2025; signed 24 July 2025; expected to come into force first half of 2026 |
+| **FTA significance** | UK's most economically significant bilateral FTA since Brexit; reduces tariffs on UK exports to India by up to GBP 400 million/year, potentially GBP 900 million after 10 years |
+| **Defence** | Carrier Strike Group cooperation; joint exercises (Ajeya Warrior, Konkan); Type 26/31 frigate discussions |
+| **Living Bridge** | ~1.9 million Indian-origin people in the UK; 2nd largest source of foreign students in UK universities |
+| **Technology** | Joint working groups on AI, cyber, fintech; India-UK Tech Partnership |
+| **Outstanding issues** | Kohinoor diamond; historical colonial reparations debate; extradition cases |
+
+---
+
+### India-Germany Relations
+
+| Area | Detail |
+|------|--------|
+| **Strategic Partnership** | Established 2001; Inter-Governmental Consultations (IGC) mechanism --- Chancellor-level meetings |
+| **Green and Sustainable Development Partnership (GSDP)** | Launched 2022; Germany committed EUR 1.3 billion in concessional loans for climate, energy, sustainable urban development, and green mobility |
+| **Green Urban Mobility Partnership (GUMP)** | Joint Declaration of Intent signed November 2019 between India's MoHUA and Germany's BMZ; flagship projects include Bangalore Yellow Line Metro (EUR 340 million KfW loan) |
+| **Trade** | Germany is India's largest trade partner within the EU; ~1,800 German companies in India |
+| **UNSC bid** | Germany and India are fellow G4 members, supporting each other's UNSC permanent seat bids |
+| **Skill development** | Indo-German vocational training programme; cooperation on skill certification |
+
+---
+
+### India-Italy Relations
+
+| Area | Detail |
+|------|--------|
+| **Strategic Partnership** | Established 2023 during PM Meloni's visit; upgraded with Joint Strategic Action Plan |
+| **Trade** | Italy is India's 5th-largest trading partner in the EU |
+| **Defence** | Leonardo helicopters (AW-101 controversy); naval cooperation discussions |
+| **Culture** | Deep historical ties; Italy-India bilateral Cultural Exchange Programme |
+| **G4 competitor** | Italy leads the "Uniting for Consensus" group opposing expansion of permanent UNSC seats (competing with G4 bid of India, Germany, Japan, Brazil) |
+
+---
+
+### India-Nordic Relations
+
+| Country | Key Areas |
+|---------|-----------|
+| **Denmark** | Green Strategic Partnership (2020); offshore wind energy; shipping; water management |
+| **Sweden** | Innovation partnership; defence (Carl-Gustaf rifles for Indian Army); smart cities |
+| **Finland** | Education, technology, 5G/6G research; Make in India partnership |
+| **Norway** | Blue economy; maritime cooperation; sovereign wealth fund investment in India |
+| **Iceland** Geothermal energy cooperation; Arctic Council cooperation |
+
+---
+
+## Comparative Overview: India's Key European Partners
+
+| Parameter | France | UK | Germany | EU (as bloc) |
+|-----------|--------|-----|---------|--------------|
+| **Partnership level** | Special Global Strategic Partnership (2026) | Comprehensive Strategic Partnership | Strategic Partnership (IGC mechanism) | Strategic Partnership (2004) |
+| **Defence** | Rafale, Scorpene submarines, Jaitapur nuclear | Carrier cooperation, joint exercises | Limited defence trade | EU-India security dialogue |
+| **Trade agreement** | Covered under India-EU FTA | India-UK FTA (signed July 2025) | Covered under India-EU FTA | India-EU FTA (concluded January 2026) |
+| **UNSC bid support** | Supports with veto power | Supports India's bid | G4 partner (mutual support) | No common EU position |
+| **Distinctive feature** | Nuclear and Indo-Pacific partner | Living Bridge / diaspora | Green partnership / industry | Trade bloc / TTC |
+
+---
+
+## Strategic Significance for India
+
+### Why Russia Matters
+
+| Factor | Detail |
+|--------|--------|
+| **Defence backbone** | 60--70% of India's military inventory is of Russian origin; cannot be replaced overnight |
+| **UN veto shield** | Russia has historically used its UNSC veto to support India (1971 Bangladesh War; Kashmir resolutions) |
+| **Energy security** | Affordable Russian crude oil is critical for India's import bill |
+| **Counter-balance** | Russia serves as a counter-balance to China in India's strategic calculus |
+| **Space and nuclear** | Decades of cooperation in human spaceflight training and nuclear power |
+
+### Why Europe Matters
+
+| Factor | Detail |
+|--------|--------|
+| **Trade** | EU is India's second-largest trading partner; FTA (2026) will dramatically expand economic ties |
+| **Technology** | European technology in green energy, mobility, pharmaceuticals, and advanced manufacturing |
+| **Values alignment** | Shared commitment to democracy, rule of law, multilateralism |
+| **Defence diversification** | France (Rafale, Scorpene), Sweden (Carl-Gustaf), and other European suppliers help India reduce Russian dependency |
+| **Climate partnership** | EU Green Deal and India's climate targets create natural synergies |
+
+---
+
+## Recent Developments (2024--2026)
+
+| Date | Development |
+|------|-------------|
+| **2024** | India-Russia: Additional S-400 missile stocks deal (USD 1.2 billion); RELOS logistics pact discussions |
+| **February 2025** | India-France: Agreement on joint development of modern nuclear reactors including low/medium-power modular reactors |
+| **May 2025** | India-UK: Agreement in principle reached on Comprehensive Economic and Trade Agreement (FTA) |
+| **July 2025** | India-UK: FTA signed |
+| **December 2025** | India-Germany: 7th IGC; Germany commits EUR 1.3 billion under GSDP |
+| **January 2026** | India-EU: FTA concluded after nearly two decades of negotiations; tariffs reduced on 90%+ of goods |
+| **February 2026** | India-France: Relationship elevated to "Special Global Strategic Partnership" during President Macron's visit as Republic Day guest |
+
+---
+
+## Key Terms for Quick Revision
+
+| Term | Meaning |
+|------|---------|
+| **Special & Privileged Strategic Partnership** | Highest-level partnership India accords to Russia (since 2010) |
+| **INSTC** | International North-South Transport Corridor; 7,200 km multi-modal route connecting India to Russia via Iran; 30% cheaper, 40% shorter than Suez route |
+| **BrahMos** | Indo-Russian supersonic cruise missile (Mach 2.8); joint venture of DRDO and NPO Mashinostroyeniya |
+| **Kudankulam** | Russian-built nuclear power plant in Tamil Nadu; 6 VVER-1000 units; Units 1-2 operational |
+| **India-EU TTC** | Trade and Technology Council (2023); ministerial-level forum for digital rules, tech, and supply chains |
+| **GSDP** | Green and Sustainable Development Partnership (India-Germany, 2022) |
+| **Jaitapur** | Planned 9.6 GWe nuclear plant in Maharashtra with French EPR technology |
+| **RELOS** | Reciprocal Exchange of Logistics Support (India-Russia, 2025); similar to LEMOA with the US |
+| **CAATSA** | US law threatening sanctions on purchasers of Russian defence equipment; India's S-400 deal is the test case |
+
+---
+
+## Exam Strategy
+
+> **For Mains Answer Writing:** Questions on India-Russia or India-Europe relations often test the theme of strategic autonomy vs. alignment. Structure answers around: (1) historical depth of the partnership, (2) contemporary cooperation areas, (3) challenges and irritants, (4) India's balancing act. For India-Russia, always discuss the Ukraine conflict's impact and defence diversification. For India-EU, focus on the 2026 FTA as a game-changer and the TTC for technology.
+
+> **For Prelims:** Key facts to remember --- 1971 Treaty date (9 August), Special and Privileged Strategic Partnership (2010), INSTC length (7,200 km), INSTC advantage (30% cheaper, 40% shorter), S-400 contract (2018), India-EU FTA conclusion (January 2026), India-UK FTA (signed July 2025), Jaitapur capacity (9.6 GWe), India-France "Special Global Strategic Partnership" (February 2026).
+
+---
+
+*For current affairs on India-Russia, India-EU, and European partnership developments, visit [Ujiyari.com](https://ujiyari.com).*
