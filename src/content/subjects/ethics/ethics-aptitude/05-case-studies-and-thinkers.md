@@ -279,6 +279,39 @@ tags:
 
 ---
 
+## Vocabulary
+
+### Dilemma
+- **Pronunciation:** /dɪˈlem.ə/
+- **Definition:** A situation requiring a choice between two or more alternatives that appear equally undesirable or mutually exclusive, often involving a conflict between competing ethical values.
+- **Origin:** From Late Latin *dilemma*, from Ancient Greek *δίλημμα* (*dilēmma*, "ambiguous proposition"), from *δι-* (*di-*, "having two of") + *λῆμμα* (*lēmma*, "premise, proposition"); first attested in English in 1523.
+
+### Stakeholder
+- **Pronunciation:** /ˈsteɪkˌhəʊl.dər/
+- **Definition:** A person, group, or organisation with a legitimate interest in or who is affected by the decisions, actions, or outcomes of a particular activity, project, or policy.
+- **Origin:** From *stake* + *holder*; first recorded in 1708 meaning "one with whom bets are deposited," the modern sense of "one who has an interest in something" emerged by 1965.
+
+### Whistleblower
+- **Pronunciation:** /ˈwɪs.əlˌbləʊ.ər/
+- **Definition:** A person who exposes information about wrongdoing, corruption, fraud, or illegal activity within an organisation to authorities or the public, often at personal risk.
+- **Origin:** From *whistle* + *blower*, derived from the practice of police officers blowing whistles to alert the public or fellow officers to a violation of the law; the term emerged in the 1960s and was popularised in a positive light by American consumer advocate Ralph Nader.
+
+---
+
+## Key Terms
+
+### Ethical Governance
+- **Pronunciation:** /ˈeθ.ɪ.kəl ˈɡʌv.ən.əns/
+- **Definition:** A system of rules, practices, and processes by which organisations and governments conduct themselves in a manner guided by moral principles — including transparency, accountability, integrity, and fairness — going beyond mere legal compliance to uphold public trust.
+- **Origin:** The concept evolved from classical political philosophy (Aristotle, Kautilya) and was formalised in modern public administration through frameworks such as the Nolan Committee's Seven Principles of Public Life (UK, 1995) and the Second Administrative Reforms Commission's Fourth Report on Ethics in Governance (India).
+
+### Code of Conduct
+- **Pronunciation:** /kəʊd əv ˈkɒn.dʌkt/
+- **Definition:** A formal document setting out specific rules, standards, and expectations that prescribe acceptable and prohibited behaviour for members of an organisation or profession, with violations attracting disciplinary action.
+- **Origin:** Codes of conduct in public service trace to early civil service reforms; in India, the All India Services (Conduct) Rules were first notified in 1954 and revised in 1968, drawing from British colonial civil service traditions and the broader concept of public service ethics.
+
+---
+
 ## Current Affairs Connect
 
 | Resource | Link |

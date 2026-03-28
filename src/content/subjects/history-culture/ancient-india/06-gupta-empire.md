@@ -199,4 +199,37 @@ The Gupta period produced some of the **most important scientific contributions*
 
 ---
 
+## Vocabulary
+
+### Patronage
+- **Pronunciation:** /ˈpætrənɪdʒ/
+- **Definition:** The support, encouragement, or financial aid that a powerful person such as a king or noble bestows upon artists, scholars, or religious institutions.
+- **Origin:** From Middle English patronage, via Old French, from Latin patronus ("protector of clients, defender"), from pater ("father").
+
+### Numismatics
+- **Pronunciation:** /ˌnjuːmɪzˈmætɪks/
+- **Definition:** The systematic study and collection of coins, tokens, medals, and paper currency as historical and archaeological evidence.
+- **Origin:** From French numismatique, from Late Latin numisma ("coin"), from Ancient Greek nomisma ("current coin"), from nomizein ("to use customarily"), from nomos ("custom, law").
+
+### Epigraphy
+- **Pronunciation:** /ɪˈpɪɡrəfi/
+- **Definition:** The study of ancient inscriptions carved or engraved on durable materials such as stone, metal, or clay, used to reconstruct historical events and administrative systems.
+- **Origin:** From Ancient Greek epigraphe ("inscription"), from epigraphein ("to write upon"), from epi- ("upon") + graphein ("to write").
+
+---
+
+## Key Terms
+
+### Gupta Administration
+- **Pronunciation:** /ˈɡʊptə ədˌmɪnɪˈstreɪʃən/
+- **Definition:** The decentralised governance system of the Gupta Empire, organised into provinces (Bhuktis) under Uparikas, districts (Vishayas) under Vishayapatis, and villages under headmen and councils, with increasing feudal land grants reducing central control compared to the Mauryan model.
+- **Origin:** "Gupta" from the dynasty's Sanskrit family name; administrative terms Bhukti and Vishaya are Sanskrit designations for territorial divisions used in Gupta-era inscriptions.
+
+### Nalanda University
+- **Pronunciation:** /nəˈlɑːndə juːnɪˈvɜːrsɪti/
+- **Definition:** An ancient centre of Buddhist learning in Bihar, founded during the Gupta period (5th century CE), which attracted scholars from across Asia and functioned as a residential university with a vast library until its destruction by Bakhtiyar Khilji in 1193 CE.
+- **Origin:** From Sanskrit; the name Nalanda is traditionally interpreted as "giver of lotus-stalks" (na-alam-da), though the Chinese pilgrim Xuanzang attributed it to a naga (serpent deity) named Nalanda.
+
+---
+
 *Sources: Allahabad Pillar Inscription, Fa-Hien's Record of Buddhist Kingdoms, NCERT Ancient India (R.S. Sharma), Upinder Singh — A History of Ancient and Early Medieval India, UNESCO World Heritage Centre*

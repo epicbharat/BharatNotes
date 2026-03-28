@@ -259,6 +259,39 @@ tags:
 
 ---
 
+## Vocabulary
+
+### Algorithm
+- **Pronunciation:** /ˈæl.ɡə.rɪð.əm/
+- **Definition:** A finite, well-defined sequence of computational steps or instructions designed to solve a specific problem or perform a calculation.
+- **Origin:** From Medieval Latin *algorismus*, from Arabic *al-Khwārizmī*, the name of the 9th-century Persian mathematician Muhammad ibn Musa al-Khwarizmi; the spelling shift from *-ism* to *-ithm* was influenced by Greek *arithmos* ("number").
+
+### Encryption
+- **Pronunciation:** /ɪnˈkrɪp.ʃən/
+- **Definition:** The process of converting readable data (plaintext) into an unreadable format (ciphertext) using a key or algorithm, so that only authorised parties with the correct decryption key can access the original information.
+- **Origin:** From the verb *encrypt*, coined in the 1950s in the United States from *en-* ("in") + Greek *kruptos* ("hidden"); the noun form *encryption* first appeared in the 1960s.
+
+### Firewall
+- **Pronunciation:** /ˈfaɪ.ər.wɔːl/
+- **Definition:** A network security system that monitors and controls incoming and outgoing network traffic based on configurable security rules, acting as a barrier between a trusted internal network and untrusted external networks.
+- **Origin:** Compound of English *fire* + *wall*, originally referring to a fireproof barrier used to prevent the spread of fire in buildings (earliest use in the late 16th century); the computing sense emerged around 1990 as a metaphor for network security.
+
+---
+
+## Key Terms
+
+### Artificial Intelligence
+- **Pronunciation:** /ˌɑː.tɪˈfɪʃ.əl ɪnˈtel.ɪ.dʒəns/
+- **Definition:** The science and engineering of creating machines and software systems capable of performing tasks that typically require human intelligence, including learning, reasoning, problem-solving, perception, and natural language understanding.
+- **Origin:** The term was coined by American computer scientist John McCarthy in 1955 in a proposal for the Dartmouth Summer Research Project, co-authored with Marvin Minsky, Nathaniel Rochester, and Claude Shannon; the 1956 Dartmouth workshop is considered the birth of AI as an academic discipline.
+
+### Cybersecurity Framework
+- **Pronunciation:** /ˈsaɪ.bə.sɪˌkjʊə.rɪ.ti ˈfreɪm.wɜːk/
+- **Definition:** A structured set of guidelines, standards, and best practices designed to help organisations assess, manage, and reduce cybersecurity risks to their information systems and critical infrastructure.
+- **Origin:** The concept was formalised in 2014 when the U.S. National Institute of Standards and Technology (NIST) published the first Cybersecurity Framework (CSF) in response to Executive Order 13636 issued by President Obama in February 2013; the current version (CSF 2.0) was released in 2024.
+
+---
+
 ## Current Affairs Connect
 
 | Resource | Link |

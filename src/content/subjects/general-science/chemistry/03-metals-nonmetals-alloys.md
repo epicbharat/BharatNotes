@@ -254,4 +254,37 @@ Noble metals are found in **free state** in nature because they do not react eas
 
 ---
 
+## Vocabulary
+
+### Malleable
+- **Pronunciation:** /ˈmælɪəbəl/
+- **Definition:** Capable of being hammered, pressed, or rolled into thin sheets without breaking — a characteristic physical property of most metals, with gold being the most malleable.
+- **Origin:** From Middle French *malléable*, from Late Latin *malleābilis*, from Latin *malleāre* (to hammer), from *malleus* (hammer); related to English *mallet* and *maul*.
+
+### Ductile
+- **Pronunciation:** /ˈdʌktaɪl/
+- **Definition:** Capable of being drawn out into thin wire by mechanical force without breaking — a property exhibited by metals such as gold, silver, and copper.
+- **Origin:** From Latin *ductilis* (that may be led or drawn), from *ductus*, past participle of *dūcere* (to lead or draw); first recorded in English in the 14th century.
+
+### Alloy
+- **Pronunciation:** /ˈælɔɪ/
+- **Definition:** A homogeneous metallic substance composed of two or more elements, at least one of which is a metal, combined to achieve improved properties such as hardness, strength, or corrosion resistance.
+- **Origin:** From Old French *aloi*, from *aloier* (to combine), from Latin *alligāre* (to bind together); the sense of "mixture of metals" arose in the mid-17th century.
+
+---
+
+## Key Terms
+
+### Reactivity Series
+- **Pronunciation:** /riːˌæktɪˈvɪti ˈsɪəriːz/
+- **Definition:** An empirical ranking of metals in descending order of their tendency to lose electrons and react with other substances such as water, acids, and metal salt solutions — used to predict displacement reactions and determine extraction methods.
+- **Origin:** Developed from 19th-century electrochemistry experiments; built upon the electrochemical series established by scientists including Humphry Davy and Michael Faraday.
+
+### Corrosion
+- **Pronunciation:** /kəˈrəʊʒən/
+- **Definition:** The gradual destruction of a metal or alloy by chemical or electrochemical reaction with its environment, most commonly involving oxidation in the presence of moisture and oxygen.
+- **Origin:** From Late Latin *corrōsiōnem* (a gnawing away), from Latin *corrōdere* (to gnaw to pieces), from *cor-* (intensive prefix) + *rōdere* (to gnaw); first recorded in English around 1400.
+
+---
+
 *Sources: NCERT Class 10 Science (Chapter 3 — Metals and Non-Metals), USGS Rare Earths Statistics, PIB press releases (Critical Minerals List, June 2023; KABIL; National Critical Mineral Mission, January 2025), Mining Technology (China REE production data, 2025), Indian Bureau of Mines (Bauxite, Mica Yearbooks), US Naval Academy (Corrosion Types course notes), Wikipedia (Reactivity Series, Duralumin, Rare-earth element, Metalloid, Stainless Steel, Nickel Silver).*

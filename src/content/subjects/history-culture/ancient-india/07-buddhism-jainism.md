@@ -248,4 +248,37 @@ The 6th century BCE saw the rise of **heterodox movements** that challenged Brah
 
 ---
 
+## Vocabulary
+
+### Heterodox
+- **Pronunciation:** /ˈhɛtərədɒks/
+- **Definition:** Holding beliefs or opinions that differ from established or orthodox doctrine, especially in religion; in Indian philosophy, referring to schools (such as Buddhism and Jainism) that rejected the authority of the Vedas.
+- **Origin:** From Ancient Greek heterodoxos, from heteros ("other, different") + doxa ("opinion, belief"); first used in English in the early 1600s.
+
+### Asceticism
+- **Pronunciation:** /əˈsɛtɪsɪzəm/
+- **Definition:** The practice of severe self-discipline and abstention from all forms of physical pleasure or indulgence, undertaken as a spiritual discipline to achieve liberation or higher consciousness.
+- **Origin:** From Medieval Latin asceticus, from Ancient Greek asketikos ("rigorously practising"), from asketes ("monk, hermit"), from askein ("to exercise, to train").
+
+### Monasticism
+- **Pronunciation:** /məˈnæstɪsɪzəm/
+- **Definition:** A religious way of life in which individuals renounce worldly pursuits and live in a community under a common rule, observing celibacy, poverty, and discipline, as practised in Buddhist sanghas and Jain monastic orders.
+- **Origin:** From Late Latin monasticus, from Greek monastikos ("solitary"), from monazein ("to live alone"), from monos ("alone, single").
+
+---
+
+## Key Terms
+
+### Four Noble Truths
+- **Pronunciation:** /fɔːr ˈnoʊbəl truːθs/
+- **Definition:** The foundational teaching of Buddhism set forth by the Buddha in his first sermon at Sarnath, comprising: (1) Dukkha — life involves suffering; (2) Samudaya — suffering arises from craving and attachment; (3) Nirodha — suffering can be ceased; and (4) Magga — the Eightfold Path is the way to end suffering.
+- **Origin:** From Pali Chattari Ariya Saccani ("Four Truths of the Noble Ones"); "noble" translates ariya, which refers not to the truths themselves but to those who comprehend them.
+
+### Jain Anekantavada
+- **Pronunciation:** /dʒaɪn ʌneɪˈkɑːntəvɑːdə/
+- **Definition:** A fundamental Jain philosophical doctrine of "non-absolutism" or "many-sidedness," holding that truth and reality are complex and can be perceived from multiple valid perspectives, with no single viewpoint representing the complete truth.
+- **Origin:** From Sanskrit anekantavada, composed of an- ("not") + eka ("one") + anta ("end, side") + vada ("doctrine, thesis"); the term was coined by Acharya Siddhasen Divakar to denote Mahavira's teaching on the multiplicity of truth.
+
+---
+
 *Sources: Tripitaka (Pali Canon), Jain Agamas, NCERT Ancient India (R.S. Sharma), Romila Thapar — Early India, A.L. Basham — The Wonder That Was India*

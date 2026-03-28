@@ -270,4 +270,37 @@ Fire extinguishers work by removing one or more elements of the "fire triangle" 
 
 ---
 
+## Vocabulary
+
+### Titration
+- **Pronunciation:** /taɪˈtreɪʃən/
+- **Definition:** An analytical technique in which a solution of known concentration (titrant) is gradually added to a solution of unknown concentration until the reaction reaches completion, typically indicated by a colour change.
+- **Origin:** From French *titrer* (to determine the standard strength), from *titre* (standard, fineness of alloyed gold); the noun *titration* first appeared in the 1860s.
+
+### Indicator
+- **Pronunciation:** /ˈɪndɪkeɪtər/
+- **Definition:** A substance — such as litmus, phenolphthalein, or methyl orange — that changes colour at a specific pH range to signal the endpoint of a chemical reaction or the acidity of a solution.
+- **Origin:** From Late Latin *indicātor* (one who points out), from Latin *indicāre* (to make known, point out), from *in-* (towards) + *dicāre* (to proclaim); first recorded in English in the 1660s.
+
+### Saponification
+- **Pronunciation:** /səˌpɒnɪfɪˈkeɪʃən/
+- **Definition:** The hydrolysis of a fat or oil with a metallic alkali (such as NaOH or KOH) to produce glycerol and the salt of a fatty acid (soap).
+- **Origin:** From French *saponification*, from Modern Latin *saponificāre*, combining *sapon* (soap) + *-ficāre* (to make, from Latin *facere*); first recorded in English in 1801.
+
+---
+
+## Key Terms
+
+### pH Scale
+- **Pronunciation:** /piː eɪtʃ skeɪl/
+- **Definition:** A logarithmic scale ranging from 0 to 14 that measures the hydrogen ion activity of an aqueous solution, indicating its acidity (below 7), neutrality (7), or alkalinity (above 7).
+- **Origin:** Introduced in 1909 by Danish biochemist S.P.L. Sorensen at the Carlsberg Laboratory; *p* likely stands for the German/Danish *Potenz* (power) and *H* for hydrogen.
+
+### Neutralisation Reaction
+- **Pronunciation:** /ˌnjuːtrəlaɪˈzeɪʃən riˈækʃən/
+- **Definition:** A chemical reaction in which an acid and a base combine in equivalent quantities to produce a salt and water, with the resulting solution's pH depending on the strengths of the reactants.
+- **Origin:** From Latin *neutrālis* (of neither gender, neuter) + the suffix *-isation*; the concept formalised with the development of Arrhenius acid-base theory in 1884.
+
+---
+
 *Sources: US EPA, Chemistry LibreTexts, Biology LibreTexts, FDA, Science History Institute, Britannica, IFSEC, Wikipedia (cross-verified with multiple sources). All facts verified as of March 2026.*

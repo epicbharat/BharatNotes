@@ -270,3 +270,36 @@ Heat wave conditions must be met at least at **2 stations** in a meteorological 
 - Transboundary disasters (Kosi, Brahmaputra) and riparian cooperation
 - Landslide vulnerability in Himalayas — development vs safety
 - Early warning systems and technology in disaster management
+
+---
+
+## Vocabulary
+
+### Inundation
+- **Pronunciation:** /ɪˌnʌn.ˈdeɪ.ʃən/
+- **Definition:** The overflow of water onto land that is normally dry, caused by the rising and spreading of a river, sea, or other water body during a flood event.
+- **Origin:** From Old French *inundacion* ("flood"), from Latin *inundātiō* ("a flood"), from *inundāre* ("to overflow"), from *in-* ("into, upon") + *undāre* ("to flow"), from *unda* ("a wave"); attested in English from the 15th century.
+
+### Siltation
+- **Pronunciation:** /sɪlˈteɪ.ʃən/
+- **Definition:** The process by which fine sediment (silt) is deposited and accumulates in water bodies such as rivers, reservoirs, and dams, reducing their water-carrying or storage capacity and increasing flood risk.
+- **Origin:** From English *silt* (Middle English *cylte*, "gravel," possibly from a Scandinavian source related to salt deposits) + *-ation* (Latin suffix denoting action or process); first attested in the 1930s.
+
+### Desertification
+- **Pronunciation:** /dɪˌzɜː.tɪ.fɪˈkeɪ.ʃən/
+- **Definition:** The process by which fertile or semi-arid land becomes increasingly arid and unproductive, typically as a result of drought, deforestation, overgrazing, or inappropriate agricultural practices, leading to the loss of topsoil and vegetation cover.
+- **Origin:** From English *desert* (from Latin *dēsertum*, "an uninhabited place") + *-ification* (from Latin *-ficātiōnem*, "a making"); the term was coined in the 1970s in the context of the Sahel drought.
+
+---
+
+## Key Terms
+
+### Flood Zoning
+- **Pronunciation:** /flʌd ˈzəʊ.nɪŋ/
+- **Definition:** The demarcation of areas along rivers and water bodies into zones based on their susceptibility to flooding of varying magnitudes and frequencies, with regulations governing the type of permissible land use and development in each zone to minimise flood damage — India's Model Bill for Flood Plain Zoning was circulated by the Government in 1975.
+- **Origin:** The concept of flood plain zoning was recommended by the Rashtriya Barh Ayog (National Flood Commission, 1976); "zoning" from English *zone*, from Latin *zōna*, from Greek *zōnē* ("belt, girdle").
+
+### Drought Declaration
+- **Pronunciation:** /dɹaʊt ˌdɛk.ləˈɹeɪ.ʃən/
+- **Definition:** An official determination by a state government that drought conditions exist in a specified area, based on a composite assessment of rainfall deficiency (25% or more below the long-period average as per IMD criteria), soil moisture, crop health, and hydrological indicators, triggering the release of relief measures and disaster response funds.
+- **Origin:** The framework for drought declaration in India is guided by the Manual for Drought Management (2016) issued by the Ministry of Agriculture; "drought" from Old English *drūgaþ* ("dryness") and "declaration" from Latin *dēclārātiō* ("a making clear").

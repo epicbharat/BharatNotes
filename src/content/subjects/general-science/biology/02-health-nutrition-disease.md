@@ -221,6 +221,39 @@ India is known as the **"pharmacy of the world"**, accounting for approximately 
 
 ---
 
+## Vocabulary
+
+### Pathogen
+- **Pronunciation:** /ˈpæθədʒən/
+- **Definition:** Any microorganism — such as a bacterium, virus, fungus, or parasite — capable of causing disease in a host organism.
+- **Origin:** From Greek *pathos* (suffering, disease) + *-genēs* (born of, producing); first used in English in the 1880s.
+
+### Pandemic
+- **Pronunciation:** /pænˈdɛmɪk/
+- **Definition:** An outbreak of an infectious disease that spreads across a wide geographical area — typically multiple countries or continents — and affects a significant proportion of the population.
+- **Origin:** From Greek *pandēmos* (of all the people), from *pan-* (all) + *dēmos* (the people); first recorded in English in the 1660s.
+
+### Malnutrition
+- **Pronunciation:** /ˌmælnjuːˈtrɪʃən/
+- **Definition:** A condition resulting from an unbalanced or insufficient diet, encompassing both undernutrition (stunting, wasting, micronutrient deficiencies) and overnutrition (overweight, obesity).
+- **Origin:** From *mal-* (bad, from Latin *malus*) + *nutrition* (from Latin *nūtrītiōnem*, a nourishing); first recorded in English in the 1850s.
+
+---
+
+## Key Terms
+
+### One Health Approach
+- **Pronunciation:** /wʌn hɛlθ əˈprəʊtʃ/
+- **Definition:** A collaborative, multisectoral, and transdisciplinary framework that recognises the interconnection between human health, animal health, and the environment to achieve optimal health outcomes for all three domains.
+- **Origin:** The concept builds on 19th-century ideas of Rudolf Virchow and William Osler linking human and animal health; the modern term emerged in 2003-2004 during the SARS outbreak, and was formalised through the 2004 Manhattan Principles by the Wildlife Conservation Society.
+
+### Universal Immunisation Programme
+- **Pronunciation:** /ˌjuːnɪˈvɜːsəl ˌɪmjuːnaɪˈzeɪʃən ˈprəʊɡræm/
+- **Definition:** India's nationwide vaccination programme, launched in 1985, that provides free immunisation against 12 vaccine-preventable diseases to all children and pregnant women through a network of public health facilities.
+- **Origin:** Evolved from the Expanded Programme on Immunization (EPI) launched in India in 1978; universalised in 1985 to extend coverage beyond urban areas to the entire country.
+
+---
+
 ## Current Affairs Connect
 
 For the latest developments on health schemes, disease outbreaks, WHO updates, and Union Budget health allocations, visit [Ujiyari.com](https://ujiyari.com) — our companion current affairs portal.

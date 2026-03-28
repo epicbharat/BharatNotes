@@ -336,6 +336,39 @@ Article 243I (Panchayats) and Article 243Y (Municipalities) mandate the State Go
 
 ---
 
+## Vocabulary
+
+### Panchayat
+- **Pronunciation:** /pʌnˈtʃɑːjət/
+- **Definition:** An elected council of local self-government in rural India, operating at the village, block, or district level under the constitutional framework of Part IX.
+- **Origin:** From Hindi *pañcāyat*, derived from Sanskrit *pañca* ("five") + *āyatana* ("seat, abode"), originally referring to a council of five elders.
+
+### Municipality
+- **Pronunciation:** /mjuːˌnɪsɪˈpælɪti/
+- **Definition:** An urban local body — such as a Nagar Panchayat, Municipal Council, or Municipal Corporation — constitutionally mandated under Part IX-A to govern a city, town, or transitional area.
+- **Origin:** From French *municipalité*, from Latin *municipalis*, from *municipium* ("free city, township"), from *mūnus* ("duty, service") + *-ceps* ("taker").
+
+### Devolution
+- **Pronunciation:** /ˌdiːvəˈluːʃən/
+- **Definition:** The transfer of powers, functions, and resources from a central or state government to locally elected bodies such as Panchayats and Municipalities.
+- **Origin:** From Medieval Latin *dēvolūtiō* ("a rolling down"), from Latin *dēvolvere* ("to roll down"), from *dē-* ("down") + *volvere* ("to roll").
+
+---
+
+## Key Terms
+
+### 73rd Amendment
+- **Pronunciation:** /ˈsɛvənti θɜːd əˈmɛndmənt/
+- **Definition:** The Constitution (Seventy-third Amendment) Act, 1992, which added Part IX and the Eleventh Schedule to the Constitution, granting constitutional status to Panchayati Raj institutions with provisions for a three-tier system, direct elections, reservations for SC/ST/women, five-year terms, and State Election and Finance Commissions.
+- **Origin:** Passed by Parliament in 1992; received Presidential assent on 20 April 1993 and came into force on 24 April 1993.
+
+### 74th Amendment
+- **Pronunciation:** /ˈsɛvənti fɔːθ əˈmɛndmənt/
+- **Definition:** The Constitution (Seventy-fourth Amendment) Act, 1992, which added Part IX-A and the Twelfth Schedule to the Constitution, granting constitutional status to Municipalities — Nagar Panchayats, Municipal Councils, and Municipal Corporations — with provisions for elected Wards Committees, reservations, and District and Metropolitan Planning Committees.
+- **Origin:** Passed by Parliament in 1992; received Presidential assent on 20 April 1993 and came into force on 1 June 1993.
+
+---
+
 ## Current Affairs Connect
 
 - [Latest Polity updates on Ujiyari.com](https://ujiyari.com/subjects/polity/)

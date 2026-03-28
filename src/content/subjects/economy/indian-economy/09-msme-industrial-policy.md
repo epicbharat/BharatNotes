@@ -318,3 +318,36 @@ India improved by **79 ranks** over five years (142nd to 63rd) in the World Bank
 - **PLI + Trade Policy** — Import substitution vs export competitiveness; WTO compliance of production subsidies
 - **Startup India + Innovation** — National Innovation Foundation, Atal Innovation Mission, patent ecosystem
 - **MSME + Environment** — ZED (Zero Defect Zero Effect) certification, green manufacturing compliance
+
+---
+
+## Vocabulary
+
+### MSME
+- **Pronunciation:** /ˌɛm.ɛs.ɛm.ˈiː/
+- **Definition:** An abbreviation for Micro, Small and Medium Enterprises — a classification of business establishments based on investment in plant and machinery and annual turnover, as defined under the MSMED Act, 2006.
+- **Origin:** English acronym from the initial letters of Micro, Small and Medium Enterprises; formalised in Indian law through the MSMED Act, 2006.
+
+### Entrepreneur
+- **Pronunciation:** /ˌɒn.tɹə.pɹəˈnɜː/ (BrE) · /ˌɑːn.tɹə.pɹəˈnɝː/ (AmE)
+- **Definition:** A person who sets up and manages a business venture, assuming its financial risks in pursuit of profit.
+- **Origin:** French *entrepreneur* ("one who undertakes"), from *entreprendre* ("to undertake"), ultimately from Latin *prehendere* ("to seize, to take").
+
+### Incubator
+- **Pronunciation:** /ˈɪŋ.kjʊ.beɪ.tər/
+- **Definition:** An organisation or facility that supports early-stage startups and enterprises by providing mentorship, workspace, funding access, and business development services.
+- **Origin:** From Latin *incubāre* ("to lie upon, to hatch"), from *in-* ("in, upon") + *cubāre* ("to lie down"); first used in English in the 1850s for hatching apparatus, later extended to business support institutions.
+
+---
+
+## Key Terms
+
+### Make in India
+- **Pronunciation:** /meɪk ɪn ˈɪn.di.ə/
+- **Definition:** A flagship Government of India initiative launched on 25 September 2014 to transform India into a global manufacturing hub by encouraging domestic and foreign companies to manufacture products in India, with the goal of raising manufacturing's share of GDP to 25%.
+- **Origin:** Coined as a policy slogan by the Government of India in 2014; the phrase combines the English verb "make" with the preposition "in" and the country name "India."
+
+### PLI Scheme
+- **Pronunciation:** /ˌpiː.ɛl.ˈaɪ skiːm/
+- **Definition:** The Production-Linked Incentive Scheme is a Government of India policy that provides financial incentives to manufacturers based on incremental sales of domestically produced goods, aimed at boosting domestic manufacturing capacity and export competitiveness across 14 key sectors.
+- **Origin:** English acronym from Production-Linked Incentive; introduced by the Government of India in 2020-21 with an outlay of Rs 1.97 lakh crore.

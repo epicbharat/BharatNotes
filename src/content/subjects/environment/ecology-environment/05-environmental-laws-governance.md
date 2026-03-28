@@ -226,6 +226,39 @@ tags:
 
 ---
 
+## Vocabulary
+
+### Compliance
+- **Pronunciation:** /kəmˈplaɪ.əns/
+- **Definition:** The act of conforming to a rule, standard, regulation, or law, particularly in the context of industries and organisations adhering to environmental or legal requirements.
+- **Origin:** From Italian *complire*, from Latin *complēre* ("to fill up, fulfil"), from *com-* (intensive prefix) + *plēre* ("to fill"); the English noun emerged in the 17th century.
+
+### Effluent
+- **Pronunciation:** /ˈɛf.lu.ənt/
+- **Definition:** Liquid waste or sewage discharged from a factory, industrial plant, or sewage treatment facility into a water body or the environment.
+- **Origin:** From Latin *effluēns*, present participle of *effluere* ("to flow out"), from *ex-* ("out") + *fluere* ("to flow"); first used in English in the 1720s.
+
+### Abatement
+- **Pronunciation:** /əˈbeɪt.mənt/
+- **Definition:** The act of reducing the intensity, amount, or degree of something, particularly the reduction or elimination of pollution, nuisance, or environmental degradation.
+- **Origin:** From Middle English *abatement*, from Anglo-Norman *abatre* ("to beat down"), from Old French *abatre*, ultimately from Vulgar Latin *abbatere*, from Latin *ad* ("to") + *battuere* ("to beat"); attested from the 14th century.
+
+---
+
+## Key Terms
+
+### National Green Tribunal
+- **Pronunciation:** /ˈnæʃ.ən.əl ɡɹiːn tɹaɪˈbjuː.nəl/
+- **Definition:** A statutory judicial body established on 18 October 2010 under the National Green Tribunal Act, 2010, for the effective and expeditious disposal of cases relating to environmental protection, conservation of forests, and enforcement of environmental legal rights in India — the first dedicated environmental court in a developing country.
+- **Origin:** Established by an Act of the Indian Parliament; "tribunal" from Latin *tribūnal* ("raised platform for magistrates"), from *tribūnus* ("tribune").
+
+### Environmental Impact Assessment
+- **Pronunciation:** /ɪnˌvaɪ.ɹənˈmɛn.təl ˈɪm.pækt əˈsɛs.mənt/
+- **Definition:** A systematic process of evaluating the likely environmental consequences of a proposed project or development before a decision is made to proceed, ensuring that environmental concerns are integrated into planning and decision-making through stages of screening, scoping, public consultation, and appraisal.
+- **Origin:** The concept originated in the United States under the National Environmental Policy Act (NEPA), 1969; India adopted the EIA framework through notifications under the Environment (Protection) Act, 1986, with the current regime governed by the EIA Notification, 2006.
+
+---
+
 ## Current Affairs Connect
 
 | Resource | Link |

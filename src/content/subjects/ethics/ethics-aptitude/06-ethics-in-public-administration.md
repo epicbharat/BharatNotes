@@ -318,3 +318,36 @@ The Second Administrative Reforms Commission, chaired by Veerappa Moily, submitt
 5. **Include the 2nd ARC recommendations** — shows depth of reading
 6. **Balance idealism with realism** — acknowledge challenges (weak enforcement, political interference) while suggesting practical solutions
 7. **Conclude with a forward-looking statement** — link to good governance, citizen trust, and democratic values
+
+---
+
+## Vocabulary
+
+### Bureaucracy
+- **Pronunciation:** /bjʊəˈrɒk.rə.si/
+- **Definition:** A system of administration characterised by hierarchical authority, division of labour, formal rules and procedures, and salaried officials, designed to manage large-scale organisational tasks in a routine and predictable manner.
+- **Origin:** From French *bureaucratie*, from *bureau* ("desk, office"), originally "baize" (the cloth covering writing desks), from Old French *burel* ("dark brown cloth") + Greek *-kratia* ("rule, power"); first used in English in the 1810s.
+
+### Nepotism
+- **Pronunciation:** /ˈnep.ə.tɪ.zəm/
+- **Definition:** The practice of favouring relatives or close associates for positions of power, employment, or other advantages, regardless of their merit or qualifications.
+- **Origin:** From French *népotisme*, from Italian *nepotismo*, from Latin *nepōs* ("nephew"); originally referred to the practice of Renaissance-era popes appointing their nephews as cardinals; first recorded in English in 1669 in a diary entry by Samuel Pepys.
+
+### Cronyism
+- **Pronunciation:** /ˈkrəʊ.ni.ɪ.zəm/
+- **Definition:** The practice of appointing or favouring close friends and associates to positions of authority or advantage without regard for their qualifications, especially in politics and governance.
+- **Origin:** From *crony* ("close friend") + *-ism*; the word *crony* originally meant "friend" or "pal," and *cronyism* initially meant "friendship" in the 19th century before acquiring its negative political connotation in 20th-century American English.
+
+---
+
+## Key Terms
+
+### Second ARC
+- **Pronunciation:** /ˈsek.ənd eɪ.ɑːr.ˈsiː/
+- **Definition:** The Second Administrative Reforms Commission, a Commission of Inquiry constituted on 31 August 2005 under the chairmanship of Veerappa Moily, tasked with preparing a blueprint for revamping India's public administrative system; it submitted 15 reports between 2006 and 2009 with nearly 1,500 recommendations covering governance, ethics, e-governance, crisis management, and local governance.
+- **Origin:** Constituted by the Government of India in 2005 as a successor to the First Administrative Reforms Commission (1966, chaired by Morarji Desai), responding to the need for comprehensive administrative reform in the context of liberalisation and globalisation.
+
+### Citizen's Charter
+- **Pronunciation:** /ˈsɪt.ɪ.zənz ˈtʃɑː.tər/
+- **Definition:** A public document issued by a government agency or service provider that specifies the standards of service delivery, timelines, grievance redressal mechanisms, and accountability commitments that citizens can expect.
+- **Origin:** First articulated and implemented as a national programme in the United Kingdom on 22 July 1991 by Prime Minister John Major; adopted in India in 1997 on the recommendation of the Conference of Chief Ministers, with the Department of Administrative Reforms and Public Grievances as the nodal agency.

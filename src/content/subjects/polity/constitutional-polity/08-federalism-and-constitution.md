@@ -310,6 +310,39 @@ NITI Aayog promotes healthy competition among states through transparent indices
 
 ---
 
+## Vocabulary
+
+### Constituent Assembly
+- **Pronunciation:** /kənˌstɪtʃuənt əˈsɛmbli/
+- **Definition:** A body of elected representatives empowered to draft or adopt a constitution for a country.
+- **Origin:** From Latin *constituere* ("to set up, establish") + Old French *assemblee* ("a gathering"), from *assembler* ("to bring together").
+
+### Dominion
+- **Pronunciation:** /dəˈmɪnjən/
+- **Definition:** A self-governing territory within the British Empire that acknowledged the Crown as head of state while exercising internal sovereignty.
+- **Origin:** From Middle English *dominion*, via Old French from Latin *dominium* ("lordship, right of ownership"), from *dominus* ("lord"), from *domus* ("house").
+
+### Sovereignty
+- **Pronunciation:** /ˈsɒvrənti/
+- **Definition:** The supreme and independent authority of a state to govern itself without external interference.
+- **Origin:** From late Middle English, via Old French *sovereinete*, from *soverain*, based on Latin *super* ("above").
+
+---
+
+## Key Terms
+
+### Cabinet Mission Plan
+- **Pronunciation:** /ˈkæbɪnɪt ˈmɪʃən plæn/
+- **Definition:** A 1946 British proposal by three Cabinet ministers — Lord Pethick-Lawrence, Sir Stafford Cripps, and A.V. Alexander — that recommended a three-tier federal structure for India and led to the formation of the Constituent Assembly.
+- **Origin:** Named after the British Cabinet-level delegation ("mission") sent to India in March 1946 to negotiate the transfer of power.
+
+### Objectives Resolution
+- **Pronunciation:** /əbˈdʒɛktɪvz ˌrɛzəˈluːʃən/
+- **Definition:** A resolution moved by Jawaharlal Nehru on 13 December 1946 and adopted by the Constituent Assembly on 22 January 1947, laying down the guiding principles and aspirations — including sovereignty, justice, liberty, and equality — that formed the philosophical foundation of the Indian Constitution's Preamble.
+- **Origin:** From Latin *objectivum* ("something thrown before the mind") + *resolutio* ("a loosening, solving"), reflecting its purpose as a formal statement of constitutional aims.
+
+---
+
 ## Current Affairs Connect
 
 | Topic | Where to Follow | Why It Matters |

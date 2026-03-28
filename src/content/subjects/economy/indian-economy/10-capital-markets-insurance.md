@@ -329,3 +329,36 @@ The AA framework is a critical layer in India's digital public infrastructure st
 - IBC's effectiveness: recovery rates, timeline challenges, and impact on credit culture
 - Digital public infrastructure (Aadhaar-UPI-AA stack) as a model for developing countries
 - Pension reforms and the challenge of old-age social security for the unorganised sector
+
+---
+
+## Vocabulary
+
+### Equity
+- **Pronunciation:** /ˈɛk.wɪ.ti/
+- **Definition:** The ownership interest in a company represented by shares of stock, or more broadly, the residual value of an asset after deducting all liabilities associated with it.
+- **Origin:** From Middle English *equitee*, from Old French *equité*, from Latin *aequitās* ("fairness, equality"), from *aequus* ("even, fair"); entered English around 1315.
+
+### Debenture
+- **Pronunciation:** /dɪˈbɛn.tʃər/
+- **Definition:** A long-term debt instrument issued by a company or government, bearing a fixed rate of interest and usually unsecured, that acknowledges a debt owed to the holder.
+- **Origin:** From Latin *dēbentur* ("there are owing"), the third-person plural passive of *dēbēre* ("to owe"); used in English since the mid-15th century, originally as the opening word of such debt certificates.
+
+### Underwriting
+- **Pronunciation:** /ˈʌn.dəˌɹaɪ.tɪŋ/
+- **Definition:** The process by which a financial institution (bank, insurer, or investment house) assesses and assumes the risk of guaranteeing the sale of a securities issue or the coverage of an insurance policy, in exchange for a fee or premium.
+- **Origin:** From Old English *underwrītan* ("to write under, subscribe"), a loan-translation of Latin *subscribere*; the insurance sense (1620s) derives from the practice of signing one's name under risk details on a Lloyd's of London slip.
+
+---
+
+## Key Terms
+
+### SEBI
+- **Pronunciation:** /ˈseɪ.biː/
+- **Definition:** The Securities and Exchange Board of India is the statutory regulatory body established on 12 April 1988 (given statutory status on 30 January 1992 under the SEBI Act, 1992) to protect investor interests, regulate securities markets, and promote the development of the capital market in India.
+- **Origin:** English acronym from Securities and Exchange Board of India; established by the Government of India, headquartered in Mumbai.
+
+### Insolvency and Bankruptcy Code
+- **Pronunciation:** /ɪnˈsɒl.vən.si ænd ˈbæŋk.rʌpt.si kəʊd/
+- **Definition:** The Insolvency and Bankruptcy Code, 2016 (IBC) is an Indian law that provides a consolidated, time-bound framework for resolving insolvency of companies, partnership firms, and individuals, replacing multiple overlapping statutes and strengthening creditor rights through a structured Corporate Insolvency Resolution Process (CIRP).
+- **Origin:** Enacted by the Parliament of India on 28 May 2016; "insolvency" from Latin *insolvēns* ("unable to pay") and "bankruptcy" from Italian *banca rotta* ("broken bench").

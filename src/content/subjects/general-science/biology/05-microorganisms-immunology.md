@@ -324,3 +324,36 @@ The **One Health approach** recognises the interconnection between the health of
 - Rhizobium fixes nitrogen in legume root nodules (symbiotic); Azotobacter is free-living.
 - SARS-CoV-2 is an RNA virus; Hepatitis B is a DNA virus.
 - UIP launched in 1985; now covers 12 diseases; Mission Indradhanush launched in December 2014.
+
+---
+
+## Vocabulary
+
+### Antibiotic
+- **Pronunciation:** /ˌæntɪbaɪˈɒtɪk/
+- **Definition:** A substance, originally produced by microorganisms such as fungi or bacteria, that can destroy or inhibit the growth of bacteria — ineffective against viruses.
+- **Origin:** From French *antibiotique*, from *anti-* (against) + Greek *biōtikos* (fit for life, from *bios*, life); first used in English in the 1850s, with modern medical usage from the 1940s following the development of penicillin.
+
+### Antigen
+- **Pronunciation:** /ˈæntɪdʒən/
+- **Definition:** Any substance — typically a protein on the surface of a pathogen — that is recognised as foreign by the immune system and triggers the production of antibodies.
+- **Origin:** From French *antigène*, from *anti-* (short for antibody) + *-gène* (producer, from Greek *-genēs*, born of); first recorded in 1905 in the Journal of the American Medical Association.
+
+### Probiotic
+- **Pronunciation:** /ˌprəʊbaɪˈɒtɪk/
+- **Definition:** A live microorganism — typically a bacterium such as *Lactobacillus* or *Bifidobacterium* — that, when consumed in adequate amounts, confers a health benefit on the host by supporting gut flora.
+- **Origin:** From *pro-* (for, in favour of, from Latin) + *biotic* (from Greek *biōtikos*, pertaining to life); first used in the 1950s as the conceptual opposite of *antibiotic*.
+
+---
+
+## Key Terms
+
+### Antimicrobial Resistance
+- **Pronunciation:** /ˌæntɪmaɪˈkrəʊbiəl rɪˈzɪstəns/
+- **Definition:** The ability of microorganisms — bacteria, viruses, fungi, and parasites — to survive and multiply despite exposure to antimicrobial drugs that were previously effective against them, making infections harder to treat.
+- **Origin:** The concept emerged with Alexander Fleming's 1945 Nobel lecture warning about bacterial resistance to penicillin; the term gained widespread use from the 1990s as multi-drug-resistant pathogens became a global health crisis.
+
+### Herd Immunity
+- **Pronunciation:** /hɜːd ɪˈmjuːnɪti/
+- **Definition:** A form of indirect protection from an infectious disease that occurs when a sufficiently large proportion of a population is immune — through vaccination or prior infection — thereby reducing the likelihood of transmission to susceptible individuals.
+- **Origin:** First used in 1894 by American veterinary scientist Daniel Elmer Salmon in the context of disease resistance in livestock; applied to human epidemiology from the 1920s and formalised with the herd immunity threshold theorem in the 1970s.

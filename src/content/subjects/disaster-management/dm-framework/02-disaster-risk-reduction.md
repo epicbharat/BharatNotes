@@ -256,6 +256,39 @@ Effective DRR depends on **knowing where the risks are** before disasters strike
 
 ---
 
+## Vocabulary
+
+### Preparedness
+- **Pronunciation:** /pɹɪˈpɛəd.nəs/ (BrE) · /pɹɪˈpɛɹd.nəs/ (AmE)
+- **Definition:** The state of readiness to respond effectively to a disaster or emergency, achieved through advance planning, training, resource stockpiling, early warning systems, and regular drills.
+- **Origin:** From English *prepared* + *-ness*; *prepared* from Latin *praeparāre* ("to make ready beforehand"), from *prae-* ("before") + *parāre* ("to make ready"); the noun first attested in English in the 1590s.
+
+### Contingency
+- **Pronunciation:** /kənˈtɪn.dʒən.si/
+- **Definition:** A future event or circumstance that is possible but cannot be predicted with certainty, or a provision made in advance for such an event, especially in disaster planning where contingency plans outline actions to be taken if specific emergency scenarios arise.
+- **Origin:** From late Latin *contingentia* ("a happening, circumstance"), from *contingere* ("to befall, to touch"), from *con-* ("together") + *tangere* ("to touch"); entered English in the 16th century.
+
+### Retrofitting
+- **Pronunciation:** /ˈɹɛt.ɹəʊˌfɪt.ɪŋ/ (BrE) · /ˈɹɛt.ɹoʊˌfɪt.ɪŋ/ (AmE)
+- **Definition:** The process of adding new components, reinforcements, or safety features to existing structures or systems that were not present in the original design, particularly strengthening older buildings to withstand earthquakes or other natural hazards.
+- **Origin:** A blend of *retroactive* and *refit*, coined in the 1950s; from Latin *retrō* ("backward") + English *fit*; first attested in 1951 in the *Los Angeles Times*.
+
+---
+
+## Key Terms
+
+### Hyogo Framework
+- **Pronunciation:** /hjˈoʊ.ɡoʊ ˈfɹeɪm.wɜːk/
+- **Definition:** The Hyogo Framework for Action (HFA) 2005-2015 was the first global blueprint for disaster risk reduction, adopted at the 2nd World Conference on Disaster Reduction in Kobe, Hyogo, Japan (January 2005), establishing five priorities for action to build the resilience of nations and communities to disasters — succeeded by the Sendai Framework (2015-2030).
+- **Origin:** Named after Hyogo Prefecture in Japan, where the conference was held; "Hyogo" from Japanese meaning "soldiers' storehouse."
+
+### Disaster Risk Reduction
+- **Pronunciation:** /dɪˈzɑːs.tər ɹɪsk ɹɪˈdʌk.ʃən/
+- **Definition:** The systematic approach to identifying, assessing, and reducing the risks of disaster through prevention, mitigation, and preparedness measures, aimed at minimising vulnerabilities and preventing the creation of new risks rather than merely responding after disasters strike.
+- **Origin:** The concept evolved through successive UN frameworks — Yokohama Strategy (1994), Hyogo Framework (2005), and Sendai Framework (2015); the UNDRR definition was formally adopted in the 2009 UNISDR Terminology on Disaster Risk Reduction.
+
+---
+
 ## Current Affairs Connect
 
 | Current Development | Relevance | Read More |

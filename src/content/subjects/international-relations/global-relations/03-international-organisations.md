@@ -264,6 +264,39 @@ The United Nations was founded on **24 October 1945** (UN Day) with 51 original 
 
 ---
 
+## Vocabulary
+
+### Multilateral
+- **Pronunciation:** /ˌmʌl.tɪˈlæt.ər.əl/
+- **Definition:** Involving three or more parties, especially nations, in negotiations, agreements, or cooperative arrangements.
+- **Origin:** From Latin *multi-* ("many") + *lateralis* ("of or belonging to the side"), from *latus* ("side"); first used in English in the early 17th century (earliest evidence from 1606).
+
+### Veto
+- **Pronunciation:** /ˈviː.təʊ/
+- **Definition:** A constitutional right held by an authority to unilaterally reject or block a decision, law, or resolution, thereby preventing its enactment.
+- **Origin:** From Latin *vetō* ("I forbid"), the first person singular present indicative of *vetāre* ("to forbid"); originally used by Roman tribunes of the people to oppose measures of the Senate; entered English in the early 17th century (earliest evidence from 1629).
+
+### Mandate
+- **Pronunciation:** /ˈmæn.deɪt/
+- **Definition:** An official or authoritative command, order, or commission granted to a person, body, or state to act on behalf of another, or the authority to carry out a policy regarded as given by an electorate.
+- **Origin:** From Latin *mandātum* ("a charge, order, command"), from *mandāre* ("to commit to one's charge"), literally "to put into one's hands," from *manus* ("hand") + *-dere* ("to put"); first attested in English in 1521.
+
+---
+
+## Key Terms
+
+### United Nations Security Council
+- **Pronunciation:** /juːˌnaɪ.tɪd ˈneɪ.ʃənz sɪˈkjʊə.rɪ.ti ˈkaʊn.sɪl/
+- **Definition:** One of the six principal organs of the United Nations, consisting of five permanent members (China, France, Russia, the United Kingdom, and the United States) with veto power and ten non-permanent members, bearing primary responsibility for the maintenance of international peace and security.
+- **Origin:** Established by the UN Charter signed on 26 June 1945 in San Francisco and effective from 24 October 1945, succeeding the League of Nations Council.
+
+### World Trade Organisation
+- **Pronunciation:** /wɜːld treɪd ˌɔː.ɡən.aɪˈzeɪ.ʃən/
+- **Definition:** An intergovernmental organisation headquartered in Geneva that regulates and facilitates international trade by providing a framework for negotiating trade agreements, settling disputes, and ensuring trade flows smoothly and predictably among its 166 member states.
+- **Origin:** Established on 1 January 1995 under the Marrakesh Agreement signed on 15 April 1994 by 123 nations, succeeding the General Agreement on Tariffs and Trade (GATT, 1947).
+
+---
+
 ## Current Affairs Connect
 
 | Resource | Link |

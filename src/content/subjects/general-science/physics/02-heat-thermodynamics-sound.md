@@ -261,4 +261,37 @@ The **Noise Pollution (Regulation and Control) Rules, 2000** notified by the Cen
 
 ---
 
+## Vocabulary
+
+### Entropy
+- **Pronunciation:** /ˈɛntrəpi/
+- **Definition:** A measure of the amount of disorder or randomness in a thermodynamic system, indicating how much energy is unavailable to do useful work.
+- **Origin:** From German *Entropie*, coined in 1865 by Rudolf Clausius from Ancient Greek *tropē* (transformation), modelled on *Energie* (energy).
+
+### Conduction
+- **Pronunciation:** /kənˈdʌkʃən/
+- **Definition:** The transfer of heat or electricity through a substance by direct molecular contact, without bulk movement of the material itself.
+- **Origin:** From Latin *conductiōnem*, from *condūcere* (to lead together), from *con-* (together) + *dūcere* (to lead).
+
+### Resonance
+- **Pronunciation:** /ˈrɛzənəns/
+- **Definition:** The phenomenon in which a system vibrates with abnormally large amplitude when subjected to an external force at or near its natural frequency.
+- **Origin:** From Latin *resonantia* (echo), from *resonāre* (to resound), from *re-* (again) + *sonāre* (to sound).
+
+---
+
+## Key Terms
+
+### Laws of Thermodynamics
+- **Pronunciation:** /lɔːz əv ˌθɜːməʊdaɪˈnæmɪks/
+- **Definition:** A set of four fundamental physical laws (zeroth through third) governing heat, energy, and entropy in thermodynamic systems, developed during the 19th and early 20th centuries.
+- **Origin:** The term *thermodynamics* derives from Greek *thermē* (heat) + *dynamis* (power); the laws were formulated by Sadi Carnot (1824), Rudolf Clausius, William Thomson (c. 1860), and Walther Nernst (1906-1912).
+
+### Doppler Effect
+- **Pronunciation:** /ˈdɒplər ɪˌfɛkt/
+- **Definition:** The apparent change in the frequency of a wave — sound, light, or electromagnetic — perceived by an observer when there is relative motion between the source and the observer.
+- **Origin:** Named after Austrian physicist Christian Doppler, who first described the phenomenon in 1842 in his treatise on the coloured light of binary stars; experimentally confirmed for sound by Buys Ballot in 1845.
+
+---
+
 *Sources: [Speed of Sound — Wikipedia](https://en.wikipedia.org/wiki/Speed_of_sound); [Absolute Zero — Britannica](https://www.britannica.com/science/absolute-zero); [Laws of Thermodynamics — Wikipedia](https://en.wikipedia.org/wiki/Laws_of_thermodynamics); [Specific Heat Capacity of Water — USGS](https://www.usgs.gov/special-topics/water-science-school/science/specific-heat-capacity-and-water); [Latent Heat — Wikipedia](https://en.wikipedia.org/wiki/Latent_heat); [Doppler Effect — Wikipedia](https://en.wikipedia.org/wiki/Doppler_effect); [Hearing Range — Wikipedia](https://en.wikipedia.org/wiki/Hearing_range); [Infrasound — Wikipedia](https://en.wikipedia.org/wiki/Infrasound); [Carnot Efficiency — Energy Education](https://energyeducation.ca/encyclopedia/Carnot_efficiency); [Engine Efficiency — Wikipedia](https://en.wikipedia.org/wiki/Engine_efficiency); [CPCB Noise Pollution Rules](https://cpcb.nic.in/noise-pollution-rules/); [Hubble's Law — Wikipedia](https://en.wikipedia.org/wiki/Hubble%27s_law); [SONAR — NOAA](https://oceanservice.noaa.gov/facts/sonar.html)*

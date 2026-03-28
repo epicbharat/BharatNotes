@@ -266,3 +266,36 @@ The 44th Amendment, passed by the Janata Party government after the 1975 Emergen
 - Link to **basic structure doctrine** — Bommai held that secularism and federalism are part of basic structure; emergency powers cannot destroy them
 - Link to **accountability and transparency** — the 44th Amendment strengthened parliamentary oversight as a democratic safeguard
 - Link to **judicial review** — the evolution from non-justiciability (pre-Bommai) to full judicial review of emergency proclamations
+
+---
+
+## Vocabulary
+
+### Proclamation
+- **Pronunciation:** /ˌprɒkləˈmeɪʃən/
+- **Definition:** A formal public announcement or official declaration issued by the President under constitutional authority, such as the proclamation of a National Emergency under Article 352 or President's Rule under Article 356.
+- **Origin:** From late Middle English, via Old French from Latin *prōclāmātiō*, from *prōclāmāre* ("to shout forth"), from *prō-* ("forth") + *clāmāre* ("to cry out").
+
+### Martial Law
+- **Pronunciation:** /ˈmɑːʃəl lɔː/
+- **Definition:** The imposition of direct military control over normal civil functions of government, typically in response to war or civil disorder — distinct from a constitutional emergency, and not explicitly defined in the Indian Constitution though mentioned in Article 34.
+- **Origin:** From Middle English *martial*, from Latin *mārtiālis* ("of or pertaining to Mars, the Roman god of war") + Middle English *lawe*, from Old Norse *lagu* ("law").
+
+### Curfew
+- **Pronunciation:** /ˈkɜːfjuː/
+- **Definition:** A governmental order restricting the movement of persons in public places during specified hours, typically imposed during emergencies or periods of civil unrest to maintain public order.
+- **Origin:** From Middle English *curfu*, from Old French *cuevre-fu* (modern French *couvre-feu*), literally "cover fire" — from *covrir* ("to cover") + *fu* ("fire") — originally a medieval regulation requiring fires to be extinguished at a signal bell.
+
+---
+
+## Key Terms
+
+### National Emergency
+- **Pronunciation:** /ˈnæʃənəl ɪˈmɜːdʒənsi/
+- **Definition:** An extraordinary constitutional measure under Article 352 whereby the President, on the written advice of the Union Cabinet, proclaims that the security of India or any part thereof is threatened by war, external aggression, or armed rebellion — requiring parliamentary approval within one month by special majority and renewable every six months.
+- **Origin:** Derived from the Government of India Act, 1935 (Sections 102–104) which provided similar emergency powers to the Governor-General; adapted into the Indian Constitution under Part XVIII.
+
+### President's Rule
+- **Pronunciation:** /ˈprɛzɪdənts ruːl/
+- **Definition:** The imposition of direct Union government control over a state under Article 356 when the President, on the basis of the Governor's report or otherwise, is satisfied that the governance of the state cannot be carried on in accordance with the provisions of the Constitution — requiring parliamentary approval within two months and subject to judicial review since the *S.R. Bommai* judgment (1994).
+- **Origin:** A constitutional mechanism inherited from Section 93 of the Government of India Act, 1935, which empowered the Governor-General to assume state functions during a breakdown of governance.

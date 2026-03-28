@@ -264,3 +264,36 @@ The Supreme Court has not provided an exhaustive list but has identified the fol
 - Impact of the 73rd and 74th Amendments on grassroots democracy
 
 **Exam tip:** The amendment procedure, 12 Schedules and basic structure doctrine are perennial favourites in both Prelims and Mains. For Prelims, memorise the Schedule-subject-Article mapping and key amendment numbers. For Mains, focus on the evolving relationship between Parliament's constituent power and judicial review — this is a recurring theme across GS-2 questions on the Constitution.
+
+---
+
+## Vocabulary
+
+### Amendment
+- **Pronunciation:** /əˈmɛndmənt/
+- **Definition:** A formal alteration or addition to the Constitution of India, effected through the procedure laid down in Article 368, which may require a simple majority, special majority, or special majority with ratification by half the state legislatures depending on the provision being changed.
+- **Origin:** From Old French *amendement*, from Late Latin *ēmendāmentum*, from *ēmendāre* ("to free from faults"), from *ex-* ("out of") + *mendum* ("fault, error").
+
+### Ratification
+- **Pronunciation:** /ˌrætɪfɪˈkeɪʃən/
+- **Definition:** The formal approval of a constitutional amendment by the legislatures of not less than half of the states, required under Article 368 for amendments affecting federal provisions such as the distribution of legislative powers, the Supreme Court, and the election of the President.
+- **Origin:** From Middle French *ratification*, from Medieval Latin *ratificātiō*, from Latin *ratus* ("fixed, established") + *facere* ("to make"), literally "to make firm or valid."
+
+### Schedule
+- **Pronunciation:** /ˈʃɛdjuːl/ (British) or /ˈskɛdʒuːl/ (American)
+- **Definition:** An appendix to the Constitution of India containing detailed provisions on specific subjects — such as allocation of Rajya Sabha seats, division of legislative powers, or anti-defection rules — that supplement the main Articles; the Constitution currently has 12 Schedules.
+- **Origin:** From late Middle English *cedule*, via Old French from Late Latin *schedula* ("papyrus strip"), diminutive of Latin *scheda*, from Greek *skhédē* ("papyrus leaf").
+
+---
+
+## Key Terms
+
+### 42nd Amendment
+- **Pronunciation:** /ˈfɔːti ˈsɛkənd əˈmɛndmənt/
+- **Definition:** The Constitution (Forty-second Amendment) Act, 1976 — the most sweeping amendment in Indian constitutional history, enacted during the Emergency — which added "Socialist," "Secular," and "Integrity" to the Preamble, introduced Fundamental Duties, curtailed judicial review, transferred five subjects from the State List to the Concurrent List, and expanded the power of Parliament and the Centre, earning it the label "Mini-Constitution."
+- **Origin:** Passed during the Internal Emergency (1975-77) under Prime Minister Indira Gandhi; many of its provisions were subsequently reversed or modified by the 43rd and 44th Amendments.
+
+### 44th Amendment
+- **Pronunciation:** /ˈfɔːti fɔːθ əˈmɛndmənt/
+- **Definition:** The Constitution (Forty-fourth Amendment) Act, 1978, enacted by the Janata Party government to reverse the excesses of the 42nd Amendment — it replaced "internal disturbance" with "armed rebellion" as a ground for National Emergency, required written Cabinet advice for proclamation, made Articles 20 and 21 non-suspendable, removed the right to property from Fundamental Rights, and strengthened parliamentary oversight of emergency powers.
+- **Origin:** Enacted in 1978 as a direct response to the misuse of emergency provisions during 1975-77; often called the "Anti-Emergency Amendment."

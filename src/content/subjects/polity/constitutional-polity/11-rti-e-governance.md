@@ -241,3 +241,36 @@ The **42nd Constitutional Amendment (1976)** added **Part XIV-A** (Articles 323A
 - Citizen's Charter — why legally non-binding charters have limited impact
 - Privacy vs surveillance in digital governance (Aadhaar, DPDP Act)
 - DBT and governance reform — leakage reduction case study
+
+---
+
+## Vocabulary
+
+### Transparency
+- **Pronunciation:** /trænsˈpærənsi/
+- **Definition:** The principle of openness in governance whereby information about government decisions, processes, and expenditure is freely accessible to public scrutiny.
+- **Origin:** From Medieval Latin *trānspārentia*, from Latin *transparēre* ("to show through"), from *trans-* ("through") + *parēre* ("to appear").
+
+### Accountability
+- **Pronunciation:** /əˌkaʊntəˈbɪlɪti/
+- **Definition:** The obligation of public officials and institutions to answer for their actions, accept responsibility for outcomes, and submit to external oversight.
+- **Origin:** From *accountable* + *-ity*; ultimately from Latin *accomptāre*, a combination of *ad* ("to") + *computāre* ("to count, calculate").
+
+### Digitisation
+- **Pronunciation:** /ˌdɪdʒɪtaɪˈzeɪʃən/
+- **Definition:** The process of converting information, services, or records into a digital format that can be stored, processed, and transmitted electronically.
+- **Origin:** From Latin *digitus* ("finger, toe") — referring to counting on fingers — via *digital* + the suffix *-isation* (British English form).
+
+---
+
+## Key Terms
+
+### Right to Information Act
+- **Pronunciation:** /raɪt tuː ˌɪnfəˈmeɪʃən ækt/
+- **Definition:** A landmark Indian statute enacted on 15 June 2005 (effective 12 October 2005) that empowers any citizen to request information from public authorities, which must respond within 30 days, with a two-tier appeal mechanism and penalties for non-compliance — giving statutory force to the right implicit in Article 19(1)(a).
+- **Origin:** Replaced the never-operationalised Freedom of Information Act, 2002; rooted in the Supreme Court's recognition in *State of UP v. Raj Narain* (1975) that the right to information is implicit in the right to freedom of speech and expression.
+
+### Digital India
+- **Pronunciation:** /ˈdɪdʒɪtəl ˈɪndiə/
+- **Definition:** A flagship programme of the Government of India launched on 1 July 2015 with nine pillars — including broadband highways, e-governance, and e-Kranti — aimed at transforming India into a digitally empowered society and knowledge economy through universal digital infrastructure, on-demand governance services, and citizen empowerment.
+- **Origin:** Announced by Prime Minister Narendra Modi; builds on earlier National e-Governance Plan (NeGP) initiatives and encompasses India Stack, UPI, DigiLocker, and other digital public infrastructure platforms.

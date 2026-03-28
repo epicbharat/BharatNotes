@@ -322,3 +322,36 @@ The **world's worst industrial disaster** — a benchmark case for industrial sa
 - Sendai Framework alignment — how India is implementing DRR commitments
 - NDRF capacity and reach — is 16 battalions enough for a country of India's size?
 - Climate change amplifying disaster frequency and intensity — adaptation strategies
+
+---
+
+## Vocabulary
+
+### Seismic
+- **Pronunciation:** /ˈsaɪz.mɪk/
+- **Definition:** Relating to or caused by earthquakes or other vibrations of the Earth's crust, or more broadly, having a significant or far-reaching effect.
+- **Origin:** From Ancient Greek *seismós* (σεισμός, "shaking, earthquake"), from *seíein* ("to shake") + the suffix *-ic*; first used in English in the 1850s.
+
+### Liquefaction
+- **Pronunciation:** /ˌlɪk.wɪˈfæk.ʃən/
+- **Definition:** A phenomenon in which saturated, loosely packed soil or sediment loses its strength and stiffness during earthquake shaking, behaving temporarily as a liquid rather than a solid, causing buildings to sink and infrastructure to collapse.
+- **Origin:** From French *liquéfaction*, from Late Latin *liquefactiōnem*, from Latin *liquefacere* ("to make liquid"), from *liquēre* ("to be fluid") + *facere* ("to make"); used in English from the 17th century, with the geological sense developing in the 20th century.
+
+### Epicentre
+- **Pronunciation:** /ˈɛp.ɪˌsɛn.tər/
+- **Definition:** The point on the Earth's surface directly above the focus (hypocentre) of an earthquake, where seismic shaking is usually most intense and damage most severe.
+- **Origin:** From Modern Latin *epicentrum* (1879), from Greek *epí* (ἐπί, "upon, over") + *kéntron* (κέντρον, "centre"); first used in seismology in 1885.
+
+---
+
+## Key Terms
+
+### Richter Scale
+- **Pronunciation:** /ˈɹɪx.tər skeɪl/
+- **Definition:** A logarithmic scale devised in 1935 by American seismologists Charles F. Richter and Beno Gutenberg to measure earthquake magnitude based on the amplitude of seismic waves recorded by a seismograph, where each whole-number increase represents a tenfold increase in wave amplitude and approximately 31.6 times more energy released — now largely superseded by the Moment Magnitude Scale (Mw) for scientific use.
+- **Origin:** Named after Charles Francis Richter (1900-1985), American seismologist at the California Institute of Technology, who developed the scale with Beno Gutenberg; first presented in Richter's 1935 paper.
+
+### Seismic Zones of India
+- **Pronunciation:** /ˈsaɪz.mɪk zəʊnz əv ˈɪn.di.ə/
+- **Definition:** The classification of India's landmass into earthquake risk zones by the Bureau of Indian Standards (BIS) under IS 1893, originally comprising four zones (II to V) based on seismic intensity and historical earthquake data, with Zone V representing the highest risk — updated in 2025 (IS 1893:2025) to include a new Zone VI (Super-Critical Zone) covering the entire Himalayan belt, making five zones in total.
+- **Origin:** The BIS seismic zonation framework was first established in the 1962 edition of IS 1893; the four-zone system (merging Zone I into Zone II) was adopted in the 2002 revision; the five-zone system was introduced in the 2025 revision based on probabilistic seismic hazard assessment.

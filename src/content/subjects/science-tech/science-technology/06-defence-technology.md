@@ -247,6 +247,39 @@ Stay updated with the latest defence developments on **[Ujiyari.com](https://uji
 
 ---
 
+## Vocabulary
+
+### Ballistic
+- **Pronunciation:** /bəˈlɪs.tɪk/
+- **Definition:** Relating to projectiles that move under their own momentum, gravity, and aerodynamic drag after an initial powered phase, following a curved trajectory without sustained propulsion.
+- **Origin:** From Latin *ballista* ("a military siege engine for throwing stones") + *-ic*, ultimately from Greek *ballein* ("to throw"); first used in English in the mid-18th century, with the missile-related sense emerging in 1949.
+
+### Supersonic
+- **Pronunciation:** /ˌsuː.pəˈsɒn.ɪk/
+- **Definition:** Travelling at a speed greater than the speed of sound in the same medium (approximately 343 metres per second or Mach 1 in air at sea level).
+- **Origin:** From Latin *super-* ("above") + *sonus* ("sound") + *-ic*; first recorded in 1919, originally meaning "relating to sound waves beyond human hearing," but by 1934 it described speeds exceeding the speed of sound, with *ultrasonic* taking the earlier meaning.
+
+### Stealth
+- **Pronunciation:** /stɛlθ/
+- **Definition:** In military technology, the design philosophy and suite of techniques used to make aircraft, missiles, ships, or vehicles less detectable by radar, infrared sensors, and other surveillance systems.
+- **Origin:** From Middle English *stelthe* ("theft, secret action"), from Old English *stǣlþ*, related to *stelan* ("to steal"); the military-technology sense emerged in the 1980s as radar-evading aircraft design advanced.
+
+---
+
+## Key Terms
+
+### BrahMos Missile
+- **Pronunciation:** /ˈbrɑː.moːs ˈmɪs.aɪl/
+- **Definition:** A supersonic cruise missile developed as a joint venture between India's DRDO and Russia's NPO Mashinostroyeniya, capable of being launched from land, sea, air, and submarine platforms at speeds of Mach 2.8 to 3.5, with a range of up to 650 km.
+- **Origin:** Named as a portmanteau of the Brahmaputra River (India) and the Moskva River (Russia), symbolising the bilateral partnership; BrahMos Aerospace was established in 1998, with the missile first flight-tested in 2001.
+
+### DRDO
+- **Pronunciation:** /diː.ɑːr.diː.əʊ/
+- **Definition:** The Defence Research and Development Organisation, India's premier military research agency under the Ministry of Defence, responsible for designing and developing defence systems and technologies for the Indian Armed Forces through a network of over 50 laboratories.
+- **Origin:** Formed in 1958 by amalgamating the Technical Development Establishments of the Indian Army and the Directorate of Technical Development and Production with the Defence Science Organisation, under the administration of Prime Minister Jawaharlal Nehru.
+
+---
+
 ## Sources
 
 - [DRDO Official Website](https://www.drdo.gov.in)

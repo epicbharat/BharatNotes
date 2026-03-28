@@ -288,3 +288,36 @@ SBM-Urban 2.0 was launched on 1 October 2021 with a mission period of 2021-22 to
 - **GS3 (Environment):** Ecosystem services valuation; biodiversity conservation through PES; pollution control
 - **GS3 (Economy):** Circular economy; waste-to-wealth; green jobs in waste management sector
 - **GS4 (Ethics):** Environmental justice; intergenerational equity; ethical obligations of producers under EPR
+
+---
+
+## Vocabulary
+
+### Biodegradable
+- **Pronunciation:** /ˌbaɪ.əʊ.dɪˈɡɹeɪ.də.bəl/
+- **Definition:** Capable of being decomposed by the action of living organisms, especially bacteria and fungi, into natural substances such as water, carbon dioxide, and organic matter.
+- **Origin:** Formed within English by compounding *bio-* (from Greek *bios*, "life") + *degradable* (from Latin *dēgradāre*, "to reduce in rank"); first attested in the late 1950s.
+
+### Leachate
+- **Pronunciation:** /ˈliː.tʃeɪt/
+- **Definition:** Liquid that has percolated through solid waste or soil, dissolving and carrying contaminants such as heavy metals, organic pollutants, and pathogens, particularly the contaminated water that drains from landfill sites.
+- **Origin:** From English *leach* (Middle English *lechen*, "to wet, to drain") + the noun-forming suffix *-ate*; first recorded in the 1950s.
+
+### Composting
+- **Pronunciation:** /ˈkɒm.pɒs.tɪŋ/ (BrE) · /ˈkɑːm.poʊs.tɪŋ/ (AmE)
+- **Definition:** The controlled biological process of decomposing organic matter — such as food scraps, yard waste, and agricultural residues — by microorganisms under aerobic conditions to produce nutrient-rich humus used as a soil amendment.
+- **Origin:** From Middle English *compost*, from Old Northern French *compost* ("mixture for fertilising land"), from Latin *compositus* ("put together"), from *componere* ("to put together"); the practice dates to antiquity, with the English term attested from the 15th century.
+
+---
+
+## Key Terms
+
+### Extended Producer Responsibility
+- **Pronunciation:** /ɪkˈstɛn.dɪd pɹəˈdjuː.sər ɹɪˌspɒn.sɪˈbɪl.ɪ.ti/
+- **Definition:** A policy approach under which producers, importers, and brand owners are made financially and operationally responsible for the collection, recycling, and environmentally sound disposal of their products and packaging at the post-consumer stage, thereby shifting the waste management burden from municipalities to the entities that introduce products into the market.
+- **Origin:** The concept was first formally articulated by Swedish academic Thomas Lindhqvist in a 1990 report to the Swedish Ministry of the Environment; adopted in Indian waste management rules from 2016 onward.
+
+### Ecosystem Services
+- **Pronunciation:** /ˈiː.kəʊˌsɪs.təm ˈsɜː.vɪ.sɪz/
+- **Definition:** The direct and indirect benefits that humans derive from functioning ecosystems, classified by the Millennium Ecosystem Assessment (2005) into four categories — provisioning services (food, water), regulating services (climate regulation, flood control), cultural services (recreation, spiritual value), and supporting services (nutrient cycling, soil formation).
+- **Origin:** The term gained prominence through the work of ecologist Robert Costanza and colleagues in the 1990s; the Millennium Ecosystem Assessment (2005) established the standard four-category framework now widely used in policy and academia.

@@ -304,4 +304,37 @@ Environmental pollution is the contamination of the physical and biological comp
 
 ---
 
+## Vocabulary
+
+### Ecosystem
+- **Pronunciation:** /ˈiːkəʊˌsɪstəm/
+- **Definition:** A functional unit of nature in which living organisms (biotic community) interact with one another and with their physical environment (abiotic factors) through energy flow and nutrient cycling.
+- **Origin:** Coined in 1935 by British plant ecologist A.G. Tansley, from *eco-* (from Greek *oikos*, house or habitat) + *system* (from Greek *systēma*, organised whole).
+
+### Biomass
+- **Pronunciation:** /ˈbaɪəʊˌmæs/
+- **Definition:** The total dry weight of all living organisms, or of a specified group of organisms, present in a given area or at a particular trophic level at a specific point in time.
+- **Origin:** From *bio-* (from Greek *bios*, life) + *mass* (from Latin *massa*, lump or quantity); first recorded in the 1930s.
+
+### Decomposer
+- **Pronunciation:** /ˌdiːkəmˈpəʊzər/
+- **Definition:** An organism — typically a bacterium or fungus — that breaks down dead organic matter into simpler inorganic substances, recycling nutrients back into the ecosystem.
+- **Origin:** From *decompose* (from French *décomposer*, from *dé-* meaning opposite of + *composer*, to put together) + *-er*; first used as "a decomposing agent" in 1821.
+
+---
+
+## Key Terms
+
+### Ecological Pyramid
+- **Pronunciation:** /ˌiːkəˈlɒdʒɪkəl ˈpɪrəmɪd/
+- **Definition:** A graphical representation of the trophic structure of an ecosystem showing the relative amounts of organisms, biomass, or energy at each successive trophic level, with producers at the base and top consumers at the apex.
+- **Origin:** The concept was first described by British ecologist Charles Elton in his 1927 book *Animal Ecology*; also known as an Eltonian pyramid in his honour.
+
+### Biogeochemical Cycle
+- **Pronunciation:** /ˌbaɪəʊˌdʒiːəʊˈkɛmɪkəl ˈsaɪkəl/
+- **Definition:** The natural pathway by which essential chemical elements (such as carbon, nitrogen, phosphorus, and water) circulate between living organisms, the atmosphere, the hydrosphere, and the lithosphere.
+- **Origin:** A compound of *bio-* (life) + *geo-* (earth) + *chemical*; the field of biogeochemistry was founded by Vladimir Vernadsky, whose 1926 book *The Biosphere* described Earth as a living whole.
+
+---
+
 *Sources: A.G. Tansley (1935), Ecology; R. Lindeman (1942), Ecology; C. Elton (1927); R.H. Whittaker (1960, 1972); IUCN Red List (iucnredlist.org); CEPF Biodiversity Hotspots (cepf.net); Wikipedia — Taiga, Phosphorus Cycle, Ecological Pyramid; National Geographic; UNECE Boreal Forests.*

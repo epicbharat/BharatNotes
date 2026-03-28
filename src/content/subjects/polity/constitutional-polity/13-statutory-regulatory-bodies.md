@@ -277,3 +277,36 @@ The apex body of NITI Aayog, comprising the PM, Chief Ministers of all States an
 **Prelims:** Constitutional articles (338, 338A, 338B, 323A, 323B), amendment numbers (65th, 89th, 102nd), enabling Acts and years, composition details post-amendment (NHRC 2019, RTI 2019), NITI Aayog vs Planning Commission.
 
 **Mains:** Effectiveness and limitations of statutory bodies (NHRC's recommendatory nature), constitutional vs statutory status and its implications for autonomy, role of tribunals in reducing judicial burden, NITI Aayog and cooperative federalism, whether RTI Amendment 2019 dilutes independence of information commissions, tension between executive control and institutional autonomy.
+
+---
+
+## Vocabulary
+
+### Statutory
+- **Pronunciation:** /ˈstætʃʊtəri/
+- **Definition:** Established, required, or governed by an Act of Parliament or state legislature, as distinct from bodies created by the Constitution or by executive order.
+- **Origin:** From Latin *statūtōrius*, from *statūtum* ("something set up, a decree"), past participle of *statuere* ("to set up, establish").
+
+### Tribunal
+- **Pronunciation:** /traɪˈbjuːnəl/
+- **Definition:** A specialised judicial or quasi-judicial body established by statute to adjudicate disputes in specific areas such as administrative service matters, taxation, or environmental protection, supplementing but not substituting the jurisdiction of High Courts.
+- **Origin:** From Old French *tribunal*, from Latin *tribūnal* ("raised platform for magistrates"), from *tribūnus* ("head of a tribe"), from *tribus* ("tribe").
+
+### Regulatory
+- **Pronunciation:** /ˈrɛɡjʊlətəri/
+- **Definition:** Pertaining to the making, monitoring, and enforcement of rules and standards by an authority established to oversee a specific sector — such as TRAI for telecommunications or SEBI for securities markets.
+- **Origin:** From Latin *rēgula* ("a rule, straight piece of wood") + the suffix *-atory*, from *rēgulāre* ("to control, direct").
+
+---
+
+## Key Terms
+
+### National Human Rights Commission
+- **Pronunciation:** /ˈnæʃənəl ˈhjuːmən raɪts kəˈmɪʃən/
+- **Definition:** A statutory body established on 12 October 1993 under the Protection of Human Rights Act, 1993, mandated to investigate complaints of human rights violations, visit custodial institutions, review safeguards, and recommend remedial measures — though limited by its recommendatory nature, inability to investigate armed forces, and one-year complaint limitation.
+- **Origin:** Established in conformity with the Paris Principles adopted at the first international workshop on National Human Rights Institutions (Paris, October 1991) and endorsed by UN General Assembly Resolution 48/134 of December 1993.
+
+### Lokpal
+- **Pronunciation:** /ˈloːkpaːl/
+- **Definition:** India's national anti-corruption ombudsman established under the Lokpal and Lokayuktas Act, 2013, with jurisdiction over the Prime Minister, Union Ministers, Members of Parliament, and Group A through D officials — empowered to direct investigation, prosecution, and attachment of assets of public servants accused of corruption.
+- **Origin:** From Sanskrit *lokapāla* — *loka* ("people, world") + *pāla* ("protector, guardian") — literally meaning "protector of the people."

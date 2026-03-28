@@ -201,4 +201,37 @@ The 1991 economic reforms mark the most significant turning point in India's pos
 
 ---
 
+## Vocabulary
+
+### Liberalisation
+- **Pronunciation:** /ˌlɪbərəlaɪˈzeɪʃən/
+- **Definition:** The relaxation or removal of government regulations, restrictions, and controls on economic activity to encourage private enterprise, market competition, and efficiency.
+- **Origin:** From the verb liberalize + -ation suffix; liberalize from liberal, from Latin liberalis ("of or pertaining to freedom"), from liber ("free").
+
+### Privatisation
+- **Pronunciation:** /ˌpraɪvətaɪˈzeɪʃən/
+- **Definition:** The transfer of ownership, management, or control of a business, enterprise, or public service from the government (public sector) to private individuals or corporations.
+- **Origin:** A calque of German Privatisierung, from Latin privatus ("apart from the state, private") + -isation; the term entered English in the 1940s and was popularised in the context of post-war economic policy.
+
+### Globalisation
+- **Pronunciation:** /ˌɡləʊbəlaɪˈzeɪʃən/
+- **Definition:** The process by which businesses, economies, and cultures become increasingly interconnected and interdependent on an international scale through trade, investment, technology, and the movement of people.
+- **Origin:** From global (from Latin globus, "sphere") + -isation; modelled on French globalisation (1904); popularised as an economic term in the 1980s.
+
+---
+
+## Key Terms
+
+### LPG Reforms
+- **Pronunciation:** /ɛl piː dʒiː rɪˈfɔːrmz/
+- **Definition:** The collective term for the three pillars of India's 1991 New Economic Policy — Liberalisation, Privatisation, and Globalisation — which dismantled the License Raj, opened the economy to foreign investment, and integrated India into the global market.
+- **Origin:** An acronym formed from the initial letters of Liberalisation, Privatisation, and Globalisation; coined in Indian economic and policy discourse following the reforms announced by Finance Minister Dr. Manmohan Singh on 24 July 1991.
+
+### New Economic Policy
+- **Pronunciation:** /njuː ˌiːkəˈnɒmɪk ˈpɒlɪsi/
+- **Definition:** The comprehensive set of economic reforms introduced by the Indian government on 24 July 1991 under PM P.V. Narasimha Rao and FM Dr. Manmohan Singh, which transitioned India from a closed, state-dominated economy to a market-oriented one through industrial delicensing, trade liberalisation, FDI opening, and disinvestment of public sector enterprises.
+- **Origin:** The term "New Economic Policy" distinguished the 1991 reform framework from the earlier Nehruvian mixed-economy model and the License Raj that had governed Indian economic policy since independence.
+
+---
+
 *Sources: RBI Annual Reports, Economic Survey (Ministry of Finance), MOSPI, PIB (pib.gov.in), Montek Singh Ahluwalia — Backstage: The Story Behind India's High Growth Years, Arvind Panagariya — India: The Emerging Giant*

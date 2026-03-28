@@ -256,4 +256,37 @@ A comprehensive National Cyber Security Strategy has been under preparation (Lt 
 
 ---
 
+## Vocabulary
+
+### Phishing
+- **Pronunciation:** /ˈfɪʃ.ɪŋ/
+- **Definition:** A form of cyber attack in which a malicious actor sends fraudulent emails, messages, or creates fake websites that impersonate trusted entities in order to trick victims into revealing sensitive information such as usernames, passwords, and credit card details.
+- **Origin:** A respelling of *fishing* ("trying to find or catch"), with the *ph-* influenced by *phreaking* (fraudulent manipulation of telephone systems); the term emerged in hacker communities in the 1990s, with the earliest documented use in 1996 on the Usenet newsgroup alt.2600.
+
+### Malware
+- **Pronunciation:** /ˈmæl.weər/
+- **Definition:** Software intentionally designed to damage, disrupt, or gain unauthorised access to computer systems, encompassing viruses, worms, trojans, ransomware, spyware, and other malicious programmes.
+- **Origin:** A portmanteau of *malicious* + *software*; the term was first recorded in 1990 and gained widespread use during the 1990s as internet-connected computer threats proliferated.
+
+### Troll
+- **Pronunciation:** /trəʊl/
+- **Definition:** In internet usage, a person who deliberately posts inflammatory, provocative, or off-topic messages in online forums, social media, or comment sections to disrupt discussions, provoke emotional responses, or manipulate public discourse.
+- **Origin:** The internet sense derives from the fishing term *trolling* (dragging a baited line through water to lure fish), metaphorically describing the act of luring people into emotional reactions; first attested in online communities in the early 1990s, with the earliest Oxford English Dictionary citation from 1992.
+
+---
+
+## Key Terms
+
+### CERT-In
+- **Pronunciation:** /sɜːt ɪn/
+- **Definition:** The Indian Computer Emergency Response Team, established on 19 January 2004 under Section 70B of the Information Technology Act, 2000, serving as the national nodal agency under the Ministry of Electronics and Information Technology (MeitY) for responding to computer security incidents, issuing threat advisories, and coordinating cybersecurity incident management across India.
+- **Origin:** Established by the Government of India in 2004 under the IT Act, 2000, modelled after the original CERT Coordination Center founded at Carnegie Mellon University (USA) in 1988 following the Morris worm incident.
+
+### IT Act 2000
+- **Pronunciation:** /aɪ.tiː ækt tuː ˈθaʊ.zənd/
+- **Definition:** The Information Technology Act, 2000 (Act No. 21 of 2000), India's primary legislation governing electronic commerce, digital signatures, cybercrime, and data protection, providing legal recognition for electronic transactions and establishing offences and penalties for cyber crimes.
+- **Origin:** Enacted by the Parliament of India and notified on 17 October 2000, based on the UNCITRAL Model Law on Electronic Commerce (1996); significantly amended in 2008 to address emerging cyber threats, intermediary liability, and data protection.
+
+---
+
 *Sources: [CERT-In](https://www.cert-in.org.in), [MeitY](https://www.meity.gov.in), [DPDP Act 2023 — MeitY](https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf), [PRS India](https://prsindia.org)*

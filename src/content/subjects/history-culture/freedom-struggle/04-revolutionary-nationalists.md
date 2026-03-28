@@ -243,4 +243,37 @@ While the mainstream Congress movement pursued constitutional and non-violent me
 
 ---
 
+## Vocabulary
+
+### Revolutionary
+- **Pronunciation:** /ˌrɛvəˈluːʃənəri/
+- **Definition:** A person who advocates or engages in the forcible overthrow of an established government or social order in favour of a new system.
+- **Origin:** From Latin revolutio ("a turning around"), via French revolution; the adjective revolutionary formed from revolution + -ary suffix; first used in English in the late 1600s.
+
+### Martyr
+- **Pronunciation:** /ˈmɑːrtər/
+- **Definition:** A person who suffers death or great sacrifice for a cause, belief, or principle, especially one who is killed for refusing to renounce a political or religious conviction.
+- **Origin:** From Old English martyr, borrowed from Ecclesiastical Latin martyr, from Ancient Greek martys (genitive martyros), meaning "witness."
+
+### Clandestine
+- **Pronunciation:** /klænˈdɛstɪn/
+- **Definition:** Kept secret or done in concealment, especially for purposes of subversion or evasion of authority.
+- **Origin:** From Latin clandestinus ("secret, hidden"), formed from the adverb clam ("secretly"), via Middle French clandestin.
+
+---
+
+## Key Terms
+
+### Hindustan Socialist Republican Association
+- **Pronunciation:** /ˌhɪndʊˈstɑːn ˈsoʊʃəlɪst rɪˈpʌblɪkən əˌsoʊsiˈeɪʃən/
+- **Definition:** A revolutionary organisation formed in September 1928 by reorganising the Hindustan Republican Association (HRA) under Chandrashekhar Azad, with Bhagat Singh as a key ideologue, distinguished by its shift from purely nationalist aims to Marxist-socialist revolution against both British imperialism and capitalist exploitation.
+- **Origin:** The word "Socialist" was added to the original HRA name at the Feroz Shah Kotla meeting (Delhi, 8–9 September 1928), reflecting the ideological influence of the Russian Revolution and Marxism on leaders like Bhagat Singh.
+
+### Ghadar Party
+- **Pronunciation:** /ˈɡədər ˈpɑːrti/
+- **Definition:** An international revolutionary organisation founded on 15 July 1913 in the United States, primarily by Punjabi Sikh and Hindu immigrants, which aimed to overthrow British rule in India through armed revolt and published a multilingual newspaper to spread nationalist ideas.
+- **Origin:** From Urdu/Punjabi ghadar, derived from Arabic, meaning "revolt" or "rebellion"; the party took its name from its newspaper Ghadar, first published on 1 November 1913 in San Francisco.
+
+---
+
 *Sources: Bipan Chandra — India's Struggle for Independence, K.K. Khullar — Shaheed Bhagat Singh, Manmathnath Gupta — History of the Indian Revolutionary Movement, NCERT — Themes in Indian History Part III*

@@ -302,4 +302,37 @@ The central question UPSC asks is: **Does globalisation homogenise or strengthen
 
 ---
 
+## Vocabulary
+
+### Globalisation
+- **Pronunciation:** /ˌɡləʊ.bəl.aɪˈzeɪ.ʃən/
+- **Definition:** The process of increasing interconnectedness and interdependence among the world's economies, societies, and cultures through the accelerated flow of goods, services, capital, technology, information, and people across national borders.
+- **Origin:** From *global* + *-isation*; first recorded in the 1930s, the term was popularised in the 1980s by German-American economist Theodore Levitt of Harvard Business School; in the Indian context, globalisation is most closely associated with the LPG reforms of 1991.
+
+### Homogenisation
+- **Pronunciation:** /həˌmɒdʒ.ɪ.naɪˈzeɪ.ʃən/
+- **Definition:** The process by which diverse elements become increasingly uniform or similar, especially the tendency for distinct local cultures, practices, and identities to converge towards a single dominant pattern under the influence of globalisation.
+- **Origin:** From *homogenise* + *-ation*, ultimately from Greek *homogenēs* ("of the same kind"), from *homos* ("same") + *genos* ("kind, race"); first recorded in English in 1908.
+
+### Westernisation
+- **Pronunciation:** /ˌwes.tən.aɪˈzeɪ.ʃən/
+- **Definition:** The process by which non-Western societies adopt or are influenced by Western cultural norms, values, institutions, technology, and lifestyles, often as a consequence of colonialism, globalisation, or modernisation.
+- **Origin:** From *westernize* + *-ation*; first recorded in English in 1873, originally in reference to Japan's adoption of Western institutions during the Meiji era; in Indian sociology, the concept was analysed extensively by M.N. Srinivas, who distinguished it from *Sanskritisation*.
+
+---
+
+## Key Terms
+
+### Cultural Imperialism
+- **Pronunciation:** /ˈkʌl.tʃər.əl ɪmˈpɪə.ri.ə.lɪ.zəm/
+- **Definition:** The imposition or dominance of one culture's values, beliefs, practices, and media products over another, typically by a politically or economically powerful society, leading to the erosion or displacement of indigenous cultural identities.
+- **Origin:** The term emerged in scholarly discourse in the 1960s and was formalised by American media critic Herbert I. Schiller in his work *Communication and Cultural Domination* (1976), though the practice of cultural domination has historical roots in colonialism and imperialism.
+
+### Digital Divide
+- **Pronunciation:** /ˈdɪdʒ.ɪ.təl dɪˈvaɪd/
+- **Definition:** The gap between individuals, households, communities, or nations that have access to modern information and communication technologies (especially the internet) and those that do not, leading to disparities in economic opportunity, education, and social participation.
+- **Origin:** The term was first used by Los Angeles Times journalists Webber and Harmon in July 1995 and was popularised by the U.S. National Telecommunications and Information Administration (NTIA) through its 1995 report *Falling Through the Net: A Survey of the "Have Nots" in Rural and Urban America*.
+
+---
+
 *Sources: PIB (pib.gov.in), DPIIT FDI Statistics, NASSCOM Technology Sector Review 2025, UNCTAD World Investment Report 2025, World Bank Remittance Data, MEA Diaspora Statistics, NFHS-5 (rchiips.org), PLFS Annual Reports, DataReportal Digital India 2025, WTO Dispute Settlement Gateway (wto.org), UN International Day of Yoga (un.org)*

@@ -254,4 +254,37 @@ Though he ruled for only **five years**, Sher Shah Suri's administrative reforms
 
 ---
 
+## Vocabulary
+
+### Mansabdari
+- **Pronunciation:** /ˌmænsəbˈdɑːri/
+- **Definition:** The hierarchical ranking and salary system introduced by Akbar in the Mughal Empire, whereby every civil and military official was assigned a mansab (rank) determining their status, pay, and military obligations.
+- **Origin:** From Arabic mansab ("rank, position, office") combined with Persian -dar ("holder, keeper") and the system suffix -i; thus "the system of rank-holders."
+
+### Jagirdari
+- **Pronunciation:** /ˌdʒɑːɡɪrˈdɑːri/
+- **Definition:** The Mughal system of land revenue assignment whereby officials (jagirdars) were granted the right to collect agricultural revenue from specified territories (jagirs) in lieu of cash salaries.
+- **Origin:** From Persian jagir ("holding land"), itself from jah ("place") + gir ("seizing, holding"), combined with -dar ("holder") and -i (system suffix).
+
+### Farman
+- **Pronunciation:** /fərˈmɑːn/
+- **Definition:** An irrevocable royal decree or mandate issued by a Mughal emperor, carrying the force of law and used for administrative orders, grants, and diplomatic communications.
+- **Origin:** From Persian farman ("decree, order"), from Middle Persian framan, from Old Persian framana ("command, order"), from fra- ("fore, forward").
+
+---
+
+## Key Terms
+
+### Mughal Administration
+- **Pronunciation:** /ˈmuːɡəl ədˌmɪnɪˈstreɪʃən/
+- **Definition:** The centralised imperial governance system developed under Akbar, structured into provinces (Subahs) under Subedars, districts (Sarkars) under Faujdars, and sub-districts (Parganas), unified through the Mansabdari ranking system and the Dahsala revenue framework.
+- **Origin:** "Mughal" from Persian Mughul, a corruption of "Mongol," reflecting the dynasty's Central Asian Timurid-Mongol ancestry; administrative terms from Persian and Arabic.
+
+### Din-i-Ilahi
+- **Pronunciation:** /diːn ɪ ɪˈlɑːhi/
+- **Definition:** A short-lived syncretic spiritual order promulgated by Emperor Akbar in 1582, drawing elements from Islam, Hinduism, Jainism, Zoroastrianism, and Christianity, with no scriptures, priesthood, or places of worship, and attracting only about 18 followers.
+- **Origin:** From Persian Din-i-Ilahi, literally "Religion of God" or "Divine Faith"; contemporarily called Tawhid-i-Ilahi ("Oneness of the Divine") in Abul Fazl's writings.
+
+---
+
 *Sources: Baburnama (Chagatai text, Beveridge translation), Abul Fazl — Akbarnama and Ain-i-Akbari, NCERT — Themes in Indian History Part II, Satish Chandra — History of Medieval India, R.P. Tripathi — Rise and Fall of the Mughal Empire*

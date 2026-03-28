@@ -215,4 +215,37 @@ Ashoka's Dhamma was **not Buddhism itself** but a **moral code** drawing from Bu
 
 ---
 
+## Vocabulary
+
+### Dynasty
+- **Pronunciation:** /ˈdɪnəsti/
+- **Definition:** A succession of rulers from the same family who maintain power across generations.
+- **Origin:** From Greek dynasteia ("power, dominion"), via Late Latin dynastia and Middle French dynastie; ultimately from Greek dynasthai ("to have power").
+
+### Edict
+- **Pronunciation:** /ˈiːdɪkt/
+- **Definition:** An official order or proclamation issued by a person in authority, especially a sovereign ruler.
+- **Origin:** From Latin edictum ("something proclaimed"), the neuter past participle of edicere ("to proclaim"), from e- ("out") + dicere ("to say").
+
+### Dhamma
+- **Pronunciation:** /ˈdɑːmə/
+- **Definition:** The Pali form of the Sanskrit word dharma, referring in Ashoka's context to a moral code of righteous conduct, tolerance, non-violence, and respect for all living beings.
+- **Origin:** From Pali dhamma, inherited from Sanskrit dharma ("law, duty, righteousness"), from Proto-Indo-Iranian *dharmas, from Proto-Indo-European *dhermos ("holding, supporting").
+
+---
+
+## Key Terms
+
+### Arthashastra
+- **Pronunciation:** /ˌɑːrtəˈʃɑːstrə/
+- **Definition:** An ancient Sanskrit treatise on statecraft, economics, military strategy, and law, attributed to Kautilya (Chanakya), serving as the foundational manual for Mauryan governance.
+- **Origin:** From Sanskrit artha ("wealth, purpose, material prosperity") + shastra ("treatise, instruction, systematic discipline").
+
+### Ashoka's Edicts
+- **Pronunciation:** /əˈʃoʊkəz ˈiːdɪkts/
+- **Definition:** A collection of 33 inscriptions carved on rocks, pillars, and cave walls across the Mauryan Empire by Emperor Ashoka (r. c. 268–232 BCE), proclaiming his policy of Dhamma, administrative orders, and remorse for the Kalinga War.
+- **Origin:** Named after Emperor Ashoka; "edict" from Latin edictum ("proclamation"); inscribed in Prakrit (Brahmi and Kharoshthi scripts) and in Greek and Aramaic at Kandahar.
+
+---
+
 *Sources: Ashoka's Edicts (original inscriptions), Kautilya's Arthashastra (R. Shamasastry translation), Megasthenes' Indica (fragments), NCERT Ancient India (R.S. Sharma), Romila Thapar — Ashoka and the Decline of the Mauryas*

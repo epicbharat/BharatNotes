@@ -245,4 +245,37 @@ India banned the manufacture, import, sale, and use of identified single-use pla
 
 ---
 
+## Vocabulary
+
+### Polymer
+- **Pronunciation:** /ˈpɒlɪmər/
+- **Definition:** A large molecule (macromolecule) composed of many repeating structural units called monomers, bonded together by covalent chemical bonds.
+- **Origin:** From Greek *polus* (many) + *meros* (part); the term was coined by Swedish chemist Jons Jacob Berzelius in 1833.
+
+### Monomer
+- **Pronunciation:** /ˈmɒnəmər/
+- **Definition:** A relatively small molecule that can bond chemically with other identical or similar molecules to form a polymer chain.
+- **Origin:** From Greek *monos* (single) + *meros* (part); first recorded in English in the 1910s.
+
+### Hydrocarbon
+- **Pronunciation:** /ˌhaɪdrəˈkɑːrbən/
+- **Definition:** An organic compound consisting entirely of hydrogen and carbon atoms, occurring naturally in petroleum, natural gas, and coal.
+- **Origin:** A compound of *hydrogen* (from Greek *hydro-*, water + *-gen*, producing) + *carbon* (from Latin *carbō*, charcoal); the term dates from 1800.
+
+---
+
+## Key Terms
+
+### Polymerisation
+- **Pronunciation:** /pəˌlɪməraɪˈzeɪʃən/
+- **Definition:** A chemical process in which monomer molecules react together to form long polymer chains or three-dimensional networks, occurring either by addition (chain-growth) or condensation (step-growth) mechanisms.
+- **Origin:** From *polymer* + *-isation*; the term was first recorded in the 1870s; the modern understanding of polymer science was advanced by Hermann Staudinger in the 1920s.
+
+### Green Chemistry
+- **Pronunciation:** /ɡriːn ˈkɛmɪstri/
+- **Definition:** The design of chemical products and processes that reduce or eliminate the use and generation of hazardous substances across the entire lifecycle of a product, guided by twelve core principles.
+- **Origin:** The term was coined in 1991 by Paul Anastas while working at the U.S. Environmental Protection Agency; Anastas and John Warner later formalised the twelve principles in their 1998 book *Green Chemistry: Theory and Practice*.
+
+---
+
 *Sources: NCERT Class 10 Science (Chapter 4 — Carbon and its Compounds), NCERT Class 12 Chemistry (Chapter 13 — Amines), US EPA (Understanding Global Warming Potentials; Montreal Protocol; Microplastics Research), IPCC AR6 (GWP values, 2021), PIB (Single-use Plastic Ban, 1 July 2022; EPR Guidelines, 16 February 2022), UNEP Ozone Secretariat (Montreal Protocol, Kigali Amendment), UNEP (Microplastics), Leslie et al. (2022) — Environment International (Microplastics in human blood, VU Amsterdam), NOAA (Eutrophication definition; Microplastics), Britannica (Biomolecules), Wikipedia (Acid Rain, Ozone-oxygen cycle, Resin identification code, Bioplastics).*

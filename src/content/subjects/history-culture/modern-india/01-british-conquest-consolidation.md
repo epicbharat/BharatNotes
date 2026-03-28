@@ -254,4 +254,37 @@ The **French East India Company (Compagnie des Indes orientales)** was founded i
 
 ---
 
+## Vocabulary
+
+### Mercantilism
+- **Pronunciation:** /ˈmɜːrkəntɪlɪzəm/
+- **Definition:** An economic theory and policy dominant in Europe from the 16th to 18th centuries, holding that a nation's wealth depends on accumulating gold and silver through a favourable balance of trade, with exports exceeding imports.
+- **Origin:** From French mercantilisme, from the adjective mercantile, from Latin mercans ("buyer, trader"), from merx ("merchandise, goods").
+
+### Factory
+- **Pronunciation:** /ˈfæktəri/
+- **Definition:** In colonial trade history, a fortified trading post or warehouse established by a European company in a foreign land, managed by a factor (commercial agent) who conducted business on behalf of the company.
+- **Origin:** From Latin factorium ("place of doers, makers"), via Portuguese feitoria; the term referred to establishments managed by a "factor" (agent), not to manufacturing plants.
+
+### Charter
+- **Pronunciation:** /ˈtʃɑːrtər/
+- **Definition:** A formal document issued by a sovereign authority granting specific rights, privileges, or powers to an individual, corporation, or colony, such as the Royal Charter of 1600 that created the East India Company.
+- **Origin:** From Middle English chartre, from Old French chartre, from Latin chartula (diminutive of charta), ultimately from Greek khartes ("papyrus leaf").
+
+---
+
+## Key Terms
+
+### East India Company
+- **Pronunciation:** /iːst ˈɪndiə ˈkʌmpəni/
+- **Definition:** A joint-stock company chartered on 31 December 1600 by Queen Elizabeth I, originally formed for trade with the East Indies, which gradually transformed into a territorial power governing large parts of India until the Crown assumed direct control after 1858.
+- **Origin:** Named for its intended sphere of trade in the "East Indies" (the Indian subcontinent and Southeast Asia); formally titled "Governor and Company of Merchants of London Trading into the East Indies."
+
+### Battle of Plassey
+- **Pronunciation:** /ˈbætəl əv ˈplæsi/
+- **Definition:** The decisive engagement on 23 June 1757 at Palashi (Bengal), where Robert Clive's East India Company forces defeated Nawab Siraj ud-Daulah — largely through the betrayal of his commander Mir Jafar — establishing British political dominance over Bengal and marking the effective beginning of colonial rule in India.
+- **Origin:** "Plassey" is the anglicised form of Palashi, a village in Bengal named after the palash tree (Butea monosperma) that grew abundantly in the area.
+
+---
+
 *Sources: NCERT — Themes in Indian History Part III, Bipan Chandra — History of Modern India, Sumit Sarkar — Modern India, National Archives of India*

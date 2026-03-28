@@ -288,4 +288,37 @@ India's **Prototype Fast Breeder Reactor (PFBR)** at Kalpakkam, Tamil Nadu (500 
 
 ---
 
+## Vocabulary
+
+### Semiconductor
+- **Pronunciation:** /ˌsɛmikənˈdʌktər/
+- **Definition:** A material whose electrical conductivity lies between that of a conductor and an insulator, and which increases with temperature and the addition of impurities (doping).
+- **Origin:** From *semi-* (half, from Latin *sēmi-*) + *conductor* (from Latin *condūcere*, to lead together); earliest known use in the 1830s.
+
+### Diode
+- **Pronunciation:** /ˈdaɪ.oʊd/
+- **Definition:** A two-terminal electronic component that allows electric current to flow in one direction only, used chiefly as a rectifier to convert alternating current to direct current.
+- **Origin:** Coined in 1919 by William Henry Eccles from Greek *di-* (two) + *hodos* (way, passage).
+
+### Capacitor
+- **Pronunciation:** /kəˈpæsɪtər/
+- **Definition:** A passive electronic component that stores electrical energy in an electric field between two conductive plates separated by a dielectric material.
+- **Origin:** From *capacity* + *-or*; the term replaced the older word *condenser* (coined by Alessandro Volta in 1782) following a recommendation in the 1926 British Standard Glossary of Terms in Electrical Engineering.
+
+---
+
+## Key Terms
+
+### Ohm's Law
+- **Pronunciation:** /oʊmz lɔː/
+- **Definition:** A fundamental law of electrical circuits stating that the current through a conductor is directly proportional to the voltage across it and inversely proportional to its resistance, expressed as V = IR.
+- **Origin:** Named after German physicist Georg Simon Ohm, who published the relationship in his 1827 treatise *Die galvanische Kette, mathematisch bearbeitet* (The Galvanic Circuit Investigated Mathematically).
+
+### Electromagnetic Induction
+- **Pronunciation:** /ɪˌlɛktrəʊmæɡˈnɛtɪk ɪnˈdʌkʃən/
+- **Definition:** The production of an electromotive force (EMF) across an electrical conductor caused by a changing magnetic flux, forming the basis of generators, transformers, and induction cooktops.
+- **Origin:** Discovered independently by Michael Faraday in 1831 and Joseph Henry in 1832; later formalised mathematically by James Clerk Maxwell as Faraday's law of induction.
+
+---
+
 *Sources: NCERT Physics (Class 10 & 12), Britannica — Ohm's Law, Wikipedia — Faraday's Law of Induction, Wikipedia — Superconductivity & Meissner Effect, NobelPrize.org — Jack Kilby (2000) & Nobel Prize in Physics 2014, NCEI/NOAA — Earth's Magnetism, Wikipedia — Van Allen Radiation Belt, US DOE — Fission vs Fusion, Wikipedia — India's Three-Stage Nuclear Power Programme, World Nuclear Association — Nuclear Power in India, US DOE — War of Currents (AC vs DC), US DOE — Solar Photovoltaic Cell Basics, PIB — India Semiconductor Mission 2.0, PIB — India's Solar Capacity, Invest India — Semiconductor Opportunity*

@@ -336,6 +336,39 @@ The recommendations of the Finance Commission are **advisory** — the governmen
 
 ---
 
+## Vocabulary
+
+### Autonomous
+- **Pronunciation:** /ɔːˈtɒnəməs/
+- **Definition:** Having the power or right of self-governance, free from external control — used to describe constitutional bodies that function independently of the executive.
+- **Origin:** From Greek *autonomos*, from *autos* ("self") + *nomos* ("law"), literally meaning "self-legislating."
+
+### Quasi-Judicial
+- **Pronunciation:** /ˌkweɪzaɪ dʒuːˈdɪʃəl/
+- **Definition:** Possessing some but not all characteristics of a court, including the authority to hold hearings, examine evidence, and make binding decisions — as exercised by bodies like the Election Commission and National Commissions.
+- **Origin:** From Latin *quasi* ("as if, resembling") + *jūdicialis* ("of or pertaining to courts of law"), from *jūdex* ("judge").
+
+### Ombudsman
+- **Pronunciation:** /ˈɒmbʊdzmən/
+- **Definition:** An independent official appointed to investigate citizens' complaints against government authorities or public institutions and recommend corrective action.
+- **Origin:** From Swedish *ombudsman*, from Old Norse *umboðsmaðr* ("representative, commissioner"), from *umboð* ("commission, proxy") + *maðr* ("man").
+
+---
+
+## Key Terms
+
+### Election Commission
+- **Pronunciation:** /ɪˈlɛkʃən kəˈmɪʃən/
+- **Definition:** A permanent and autonomous constitutional body established under Article 324, consisting of the Chief Election Commissioner and two Election Commissioners, vested with the superintendence, direction, and control of all elections to Parliament, State Legislatures, and the offices of President and Vice-President.
+- **Origin:** Established on 25 January 1950 under the constitutional mandate of Article 324; the multi-member composition (CEC + 2 ECs) has been in place since 1993.
+
+### Comptroller and Auditor General
+- **Pronunciation:** /kənˈtrəʊlər ənd ˈɔːdɪtər ˈdʒɛnərəl/
+- **Definition:** The supreme audit authority of India, established under Article 148, appointed by the President, who audits all receipts and expenditure of the Union and State governments and submits reports to be laid before Parliament — described by Dr. B.R. Ambedkar as the most important officer in the Constitution.
+- **Origin:** The office derives from the British model of the Comptroller and Auditor General; "comptroller" from Anglo-French *contrerolleur* ("one who checks accounts") and "auditor" from Latin *audītor* ("a hearer, listener"), reflecting the dual role of financial control and audit.
+
+---
+
 ## Current Affairs Connect
 
 - [Latest Polity updates on Ujiyari.com](https://ujiyari.com/subjects/polity/)

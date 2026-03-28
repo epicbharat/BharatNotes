@@ -247,4 +247,37 @@ The period 1944–1947 witnessed the rapid unravelling of British rule in India.
 
 ---
 
+## Vocabulary
+
+### Partition
+- **Pronunciation:** /pɑːrˈtɪʃən/
+- **Definition:** The division of a political territory into two or more separate, independent entities, especially the 1947 division of British India into the sovereign dominions of India and Pakistan.
+- **Origin:** From Middle English particioun, via Old French particion, from Latin partitio ("division, apportioning"), from partire ("to divide, to share").
+
+### Communal
+- **Pronunciation:** /ˈkɒmjʊnəl/
+- **Definition:** In the Indian political context, relating to or based on religious community identity, particularly the antagonism between Hindu and Muslim communities that shaped the politics of the independence movement and Partition.
+- **Origin:** From French communal, from Late Latin communalis, from Latin communis ("common, shared"); in Indian usage, the term acquired its distinctive religious-identity connotation during the colonial period.
+
+### Referendum
+- **Pronunciation:** /ˌrɛfəˈrɛndəm/
+- **Definition:** A direct vote by the entire electorate of a territory on a specific political question, such as the 1947 referendums in the NWFP and Sylhet to decide which dominion to join.
+- **Origin:** From Latin referendum ("that which ought to be referred"), the gerundive of referre ("to carry back, to refer"), from re- ("back") + ferre ("to bring, to carry").
+
+---
+
+## Key Terms
+
+### Mountbatten Plan
+- **Pronunciation:** /ˈmaʊntˌbætən plæn/
+- **Definition:** The plan announced on 3 June 1947 by Viceroy Lord Mountbatten, providing for the partition of British India into two independent dominions (India and Pakistan), the division of Punjab and Bengal, referendums in the NWFP and Sylhet, and the transfer of power on 15 August 1947.
+- **Origin:** Named after Lord Louis Mountbatten (1900–1979), the last Viceroy of India, who was sent by PM Clement Attlee specifically to oversee the transfer of power; also called the "June Third Plan."
+
+### Two-Nation Theory
+- **Pronunciation:** /tuː ˈneɪʃən ˈθɪəri/
+- **Definition:** The political ideology asserting that Hindus and Muslims of the Indian subcontinent constitute two distinct nations with irreconcilable differences in religion, culture, and social life, which served as the ideological foundation for the demand for Pakistan.
+- **Origin:** The concept evolved from the writings of Sir Syed Ahmed Khan and the Aligarh Movement in the late 19th century; formally articulated by Muhammad Ali Jinnah and the All India Muslim League, particularly from the Lahore Resolution of 23 March 1940 onwards.
+
+---
+
 *Sources: Bipan Chandra — India's Struggle for Independence, NCERT — Themes in Indian History Part III, Larry Collins & Dominique Lapierre — Freedom at Midnight, Urvashi Butalia — The Other Side of Silence, Yasmin Khan — The Great Partition*

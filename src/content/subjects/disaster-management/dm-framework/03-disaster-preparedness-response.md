@@ -231,6 +231,39 @@ India's disaster financing framework involves dedicated funds at the national an
 - **Urban disasters**: Flooding, building collapses, fire — need for UDMAs, urban-specific planning
 - **Financial resilience**: Disaster insurance, crop insurance (PMFBY), micro-insurance for vulnerable communities
 
+## Vocabulary
+
+### Logistics
+- **Pronunciation:** /ləˈdʒɪs.tɪks/
+- **Definition:** The detailed planning, organisation, and implementation of the movement, supply, and maintenance of personnel, equipment, and materials, particularly during disaster response and relief operations.
+- **Origin:** From French *logistique* ("art of calculating"), from Ancient Greek *logistikós* ("skilled in calculating"), from *lógos* ("reason, computation"); the military supply sense was popularised by Antoine-Henri Jomini in 1830, from French *logis* ("lodging").
+
+### Rehabilitation
+- **Pronunciation:** /ˌɹiː.əˌbɪl.ɪˈteɪ.ʃən/
+- **Definition:** The process of restoring disaster-affected communities, infrastructure, and livelihoods to normal functioning, encompassing reconstruction of damaged structures, restoration of essential services, and psychosocial support to affected populations.
+- **Origin:** From French *réhabilitation*, from Medieval Latin *rehabilitātiōnem*, from *re-* ("again") + *habilitāre* ("to make fit"), from *habilis* ("able, fit"); entered English in the 16th century.
+
+### Mobilisation
+- **Pronunciation:** /ˌməʊ.bɪ.laɪˈzeɪ.ʃən/ (BrE) · /ˌmoʊ.bɪ.ləˈzeɪ.ʃən/ (AmE)
+- **Definition:** The act of organising, assembling, and deploying resources — including personnel, equipment, and supplies — for active service or emergency response, particularly the rapid activation of disaster response forces before or during a crisis.
+- **Origin:** From French *mobilisation*, from *mobiliser*, from *mobile*, from Latin *mobilis* ("movable"), from *movēre* ("to move"); first attested in English in 1799.
+
+---
+
+## Key Terms
+
+### Incident Command System
+- **Pronunciation:** /ˈɪn.sɪ.dənt kəˈmɑːnd ˈsɪs.təm/
+- **Definition:** A standardised, scalable management framework for the command, control, and coordination of emergency response operations, providing a common organisational structure, terminology, and procedures that enable personnel from multiple agencies to work together effectively during incidents of any size or complexity.
+- **Origin:** Developed in the 1970s in the United States following catastrophic wildfires in Southern California; initially designed by the FIRESCOPE programme to address inter-agency coordination failures; now adopted globally as a core component of incident management.
+
+### Early Warning System
+- **Pronunciation:** /ˈɜːl.i ˈwɔːn.ɪŋ ˈsɪs.təm/
+- **Definition:** An integrated system of hazard monitoring, forecasting, risk assessment, and communication that enables individuals, communities, and governments to take timely action to reduce disaster risks before hazardous events occur — encompassing agencies such as IMD (cyclones), INCOIS (tsunamis), and CWC (floods) in India.
+- **Origin:** The concept formalised in international disaster management practice through the Yokohama Strategy (1994) and subsequent UN frameworks; the UNDRR definition was adopted in the 2009 UNISDR Terminology.
+
+---
+
 ## Current Affairs Connect
 
 | Development | UPSC Relevance | Read More |

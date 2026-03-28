@@ -328,4 +328,37 @@ NIA investigations have confirmed Pakistan's involvement in FICN production:
 
 ---
 
+## Vocabulary
+
+### Hawala
+- **Pronunciation:** /həˈwɑː.lə/
+- **Definition:** An informal value transfer system operating outside regulated banking channels, in which a money broker (*hawaladar*) in one location instructs a counterpart in another location to release funds to a recipient, with settlement between brokers occurring later on a trust basis without a formal paper trail.
+- **Origin:** From Arabic *ḥawāla* ("transfer"), derived from the root *ḥ-w-l* meaning "to change" or "to transfer"; also known as *hundi* in India; the system has been used for centuries across South Asia, the Middle East, and East Africa as a means of transferring money.
+
+### Benami
+- **Pronunciation:** /beˈnɑː.mi/
+- **Definition:** A transaction in which property is held or transferred in the name of one person (the *benamidar*) while the consideration is paid by another person (the beneficial owner), typically to conceal the true ownership of assets or evade taxation.
+- **Origin:** From Hindi *benāmī*, combining the Persian prefix *be-/binā-* ("without") + *nām* ("name"), literally meaning "without a name" or "nameless"; the term has been used in Indian law since at least the 19th century and was first legislated through the Benami Transactions (Prohibition) Act, 1988.
+
+### Counterfeit
+- **Pronunciation:** /ˈkaʊn.tə.fɪt/
+- **Definition:** Made in exact imitation of something genuine with the intent to deceive or defraud, especially referring to currency, goods, or documents produced illegally to pass as authentic.
+- **Origin:** From Middle English *counterfeit*, from Anglo-Norman *countrefait*, from Old French *contrefait* ("imitated"), from Latin *contra-* ("against") + *facere* ("to make"); first recorded in English in the mid-13th century.
+
+---
+
+## Key Terms
+
+### PMLA
+- **Pronunciation:** /piː.em.el.eɪ/
+- **Definition:** The Prevention of Money Laundering Act, 2002 (Act 15 of 2003), India's principal legislation for combating money laundering, which criminalises the process of concealing, possessing, acquiring, or projecting the proceeds of crime as untainted property, and provides for confiscation of such property, with the Enforcement Directorate as the primary enforcement agency.
+- **Origin:** Enacted by the Parliament of India in January 2003 and brought into force on 1 July 2005, in compliance with India's obligations under the Vienna Convention (1988), the Political Declaration adopted by the UN General Assembly Special Session on drugs (1998), and FATF recommendations.
+
+### Financial Action Task Force
+- **Pronunciation:** /faɪˈnæn.ʃəl ˈæk.ʃən tɑːsk fɔːs/
+- **Definition:** An inter-governmental body established to set global standards and promote effective implementation of legal, regulatory, and operational measures for combating money laundering, terrorist financing, and proliferation financing; it maintains grey and black lists of jurisdictions with strategic deficiencies.
+- **Origin:** Established at the G-7 Summit in Paris in 1989 to combat the growing problem of money laundering; its mandate was expanded in 2001 to include terrorist financing after the September 11 attacks; India became a full member in 2010.
+
+---
+
 *Sources: [NCB](https://narcoticsindia.nic.in), [NIA](https://www.nia.gov.in), [ED](https://enforcementdirectorate.gov.in), [FATF](https://www.fatf-gafi.org), [PIB](https://www.pib.gov.in), [PRS India](https://prsindia.org), [UNODC](https://www.unodc.org), [India Code](https://www.indiacode.nic.in)*
