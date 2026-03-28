@@ -5,74 +5,79 @@ description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with d
 ---
 
 <style>
+/* ── Key Terms Page — 4-size type scale ──
+   Title:  --text-sm (13px)  — card titles, headings
+   Body:   --text-xs (12px)  — definition, context, UPSC, brief, filters, links
+   Meta:   0.7rem   (11.2px) — subject tags, pronunciation
+   Micro:  0.65rem  (10.4px) — UPSC label, alpha nav
+*/
 .kt-hero{display:flex;align-items:center;gap:var(--space-5);padding:var(--space-5);background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);margin-bottom:var(--space-6)}
 .kt-hero-ring{flex-shrink:0}
 .kt-ring-bg{fill:none;stroke:var(--color-border);stroke-width:6}
 .kt-ring-fill{fill:none;stroke:var(--color-brand);stroke-width:6;stroke-linecap:round;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset 0.6s ease-out}
-.kt-ring-pct{fill:var(--color-text);font-size:18px;font-weight:800}
-.kt-ring-sub{fill:var(--color-text-muted);font-size:9px}
+.kt-ring-pct{fill:var(--color-text);font-size:1.125rem;font-weight:800}
+.kt-ring-sub{fill:var(--color-text-muted);font-size:0.5625rem}
 .kt-hero-info{flex:1}
-.kt-hero-label{font-size:var(--text-base);font-weight:700;color:var(--color-text);margin:0 0 2px}
+.kt-hero-label{font-size:var(--text-sm);font-weight:700;color:var(--color-text);margin:0 0 2px}
 .kt-hero-sub{font-size:var(--text-xs);color:var(--color-text-muted);margin:0}
 
-.kt-filters{display:flex;flex-wrap:wrap;gap:var(--space-2);margin-bottom:var(--space-4)}
-.kt-filter{padding:5px 12px;border:1.5px solid var(--color-border);border-radius:var(--radius-full,999px);font-size:0.65rem;font-weight:600;background:var(--color-surface);color:var(--color-text);cursor:pointer;transition:all 0.15s}
+.kt-filters{display:flex;flex-wrap:wrap;gap:var(--space-2);margin-bottom:var(--space-3)}
+.kt-filter{padding:5px 12px;border:1.5px solid var(--color-border);border-radius:var(--radius-full,999px);font-size:var(--text-xs);font-weight:600;background:var(--color-surface);color:var(--color-text);cursor:pointer;transition:all 0.15s}
 .kt-filter:hover{border-color:var(--color-brand);color:var(--color-brand)}
 .kt-filter.active{background:var(--color-brand);color:#fff;border-color:var(--color-brand)}
 .kt-filter--gs{border-color:var(--gs-color,var(--color-border))}
 .kt-filter--gs.active{background:var(--gs-color);border-color:var(--gs-color)}
 
-.kt-controls{display:flex;flex-wrap:wrap;gap:var(--space-3);align-items:center;margin-bottom:var(--space-5);position:sticky;top:0;z-index:10;background:var(--color-bg);padding:var(--space-3) 0;border-bottom:1px solid var(--color-border)}
-.kt-search{flex:1;min-width:200px;padding:8px 14px;border:1px solid var(--color-border);border-radius:var(--radius-md);font-size:var(--text-sm);background:var(--color-surface)}
+.kt-controls{display:flex;flex-wrap:wrap;gap:var(--space-3);align-items:center;margin-bottom:var(--space-4);position:sticky;top:0;z-index:10;background:var(--color-bg);padding:var(--space-3) 0;border-bottom:1px solid var(--color-border)}
+.kt-search{flex:1;min-width:180px;padding:8px 14px;border:1px solid var(--color-border);border-radius:var(--radius-md);font-size:var(--text-xs);background:var(--color-surface)}
 .kt-search-count{font-size:var(--text-xs);color:var(--color-text-muted)}
+.kt-bulk-btn{padding:5px 12px;border:1.5px solid var(--color-border);border-radius:var(--radius-full,999px);font-size:var(--text-xs);font-weight:600;background:none;color:var(--color-text-muted);cursor:pointer;transition:all 0.15s}
+.kt-bulk-btn:hover{border-color:var(--color-brand);color:var(--color-brand)}
 
-.kt-letter{font-family:var(--font-body);font-size:var(--text-sm);font-weight:700;color:var(--color-brand);margin:var(--space-5) 0 var(--space-2);padding:var(--space-1) var(--space-3);background:rgba(15,76,58,0.05);border-radius:var(--radius-sm);display:inline-block}
+.kt-letter{font-family:var(--font-body);font-size:var(--text-sm);font-weight:700;color:var(--color-brand);margin:var(--space-5) 0 var(--space-2);padding:var(--space-1) var(--space-3);background:rgba(15,76,58,0.06);border-radius:var(--radius-sm);display:inline-block}
+.kt-letter--num{background:rgba(212,160,23,0.08);color:var(--color-accent-hover)}
 
-.kt-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-md);margin-bottom:var(--space-2);overflow:hidden;transition:box-shadow 0.15s;border-left:3px solid transparent}
+.kt-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-md);margin-bottom:var(--space-2);overflow:hidden;transition:all 0.15s;border-left:3px solid transparent}
 .kt-card:hover{box-shadow:var(--shadow-sm);border-left-color:var(--color-brand)}
-.kt-card__head{display:flex;align-items:center;justify-content:space-between;padding:10px var(--space-4);gap:var(--space-3)}
-.kt-card__title-wrap{flex:1;min-width:0;display:flex;align-items:baseline;gap:var(--space-2)}
-.kt-card__title{font-family:var(--font-body);font-size:var(--text-sm);font-weight:600;color:var(--color-text);margin:0;white-space:nowrap}
-.kt-card__title a{color:inherit;text-decoration:none}
-.kt-card__title a:hover{color:var(--color-brand)}
-.kt-card__pron{font-family:monospace;font-size:0.65rem;color:var(--color-text-muted);background:rgba(0,0,0,0.04);padding:1px 6px;border-radius:var(--radius-sm);display:inline-block;margin-top:var(--space-2)}
-.kt-card__badges{display:flex;gap:3px;flex-shrink:0}
-
-.kt-card__def{padding:var(--space-3) var(--space-4);font-size:var(--text-xs);line-height:1.9;color:var(--color-text);margin:0;border-left:3px solid var(--color-brand);margin-left:var(--space-4);padding-left:var(--space-3)}
-
-.kt-card__context{padding:var(--space-2) var(--space-4) var(--space-3);font-size:0.7rem;line-height:1.9;color:var(--color-text-secondary);margin:0}
-.kt-card__context strong{color:var(--color-text);font-weight:600}
-
-.kt-card__upsc{margin:0 var(--space-4) var(--space-3);padding:var(--space-3);background:rgba(212,160,23,0.04);border:1px solid rgba(212,160,23,0.12);border-radius:var(--radius-sm);font-size:0.7rem;line-height:1.9;color:var(--color-text-secondary)}
-.kt-card__upsc-label{font-size:0.55rem;font-weight:700;color:var(--color-accent-hover);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px;display:block}
+.kt-card__head{display:flex;align-items:center;justify-content:space-between;padding:var(--space-3) var(--space-4);gap:var(--space-3);cursor:pointer;user-select:none}
+.kt-card__title-wrap{flex:1;min-width:0}
+.kt-card__title-row{display:flex;align-items:baseline;gap:var(--space-2);flex-wrap:wrap}
+.kt-card__title{font-family:var(--font-body);font-size:var(--text-sm);font-weight:600;color:var(--color-text);margin:0}
+.kt-card__brief{font-size:var(--text-xs);color:var(--color-text-muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:350px}
+.kt-card__right{display:flex;align-items:center;gap:6px;flex-shrink:0}
+.kt-card__badges{display:flex;gap:3px}
+.kt-card__chevron{color:var(--color-text-muted);transition:transform 0.2s}
 
 .kt-card--collapsed .kt-card__detail{display:none}
-.kt-card--collapsed .kt-card__head{cursor:pointer}
-.kt-card--collapsed .kt-card__brief{display:inline}
-.kt-card__brief{display:none;font-size:0.7rem;color:var(--color-text-muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:400px}
-.kt-card__chevron{color:var(--color-text-muted);transition:transform 0.2s;flex-shrink:0}
 .kt-card:not(.kt-card--collapsed) .kt-card__chevron{transform:rotate(180deg)}
 .kt-card:not(.kt-card--collapsed) .kt-card__brief{display:none}
-.kt-card__detail{padding:var(--space-2) 0 0}
-.kt-card__foot{display:flex;align-items:center;justify-content:space-between;padding:var(--space-2) var(--space-4);border-top:1px solid rgba(0,0,0,0.04);gap:var(--space-2)}
-.kt-card__subject{font-size:0.6rem;color:var(--color-text-muted)}
-.kt-card__actions{display:flex;align-items:center;gap:var(--space-2)}
-.kt-card__link{font-size:0.65rem;color:var(--color-brand);font-weight:600;text-decoration:none}
+.kt-card__detail{border-top:1px solid rgba(0,0,0,0.05);padding:var(--space-3) 0 0}
+
+.kt-card__pron{font-family:monospace;font-size:0.7rem;color:var(--color-text-muted);background:rgba(0,0,0,0.04);padding:2px 8px;border-radius:var(--radius-sm);display:inline-block;margin:0 var(--space-4) var(--space-2)}
+.kt-card__def{padding:var(--space-2) var(--space-4) var(--space-3);font-size:var(--text-xs);line-height:1.9;color:var(--color-text);margin:0;border-left:3px solid var(--color-brand);margin-left:var(--space-4);padding-left:var(--space-3)}
+.kt-card__context{padding:var(--space-2) var(--space-4) var(--space-3);font-size:var(--text-xs);line-height:1.9;color:var(--color-text-secondary);margin:0}
+.kt-card__context strong{color:var(--color-text);font-weight:600}
+.kt-card__upsc{margin:var(--space-2) var(--space-4) var(--space-3);padding:var(--space-3);background:rgba(212,160,23,0.04);border:1px solid rgba(212,160,23,0.12);border-radius:var(--radius-sm);font-size:var(--text-xs);line-height:1.9;color:var(--color-text-secondary)}
+.kt-card__upsc-label{font-size:0.65rem;font-weight:700;color:var(--color-accent-hover);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px;display:block}
+.kt-card__foot{display:flex;align-items:center;justify-content:space-between;padding:var(--space-2) var(--space-4);border-top:1px solid rgba(0,0,0,0.04)}
+.kt-card__subject{font-size:0.7rem;color:var(--color-text-muted)}
+.kt-card__actions{display:flex;align-items:center;gap:var(--space-3)}
+.kt-card__link{font-size:var(--text-xs);color:var(--color-brand);font-weight:600;text-decoration:none}
 .kt-card__link:hover{text-decoration:underline}
-.kt-card__btn{padding:3px 10px;border:1.5px solid var(--color-border);border-radius:var(--radius-full,999px);font-size:0.6rem;font-weight:600;background:none;color:var(--color-text-muted);cursor:pointer;transition:all 0.15s}
+.kt-card__btn{padding:4px 12px;border:1.5px solid var(--color-border);border-radius:var(--radius-full,999px);font-size:var(--text-xs);font-weight:600;background:none;color:var(--color-text-muted);cursor:pointer;transition:all 0.15s}
 .kt-card__btn:hover{border-color:var(--color-brand);color:var(--color-brand)}
 .kt-card__btn.learned{background:var(--color-brand);color:#fff;border-color:var(--color-brand)}
 
 .kt-alpha{display:flex;flex-wrap:wrap;gap:3px;margin-bottom:var(--space-4)}
-.kt-alpha-btn{width:26px;height:26px;display:flex;align-items:center;justify-content:center;border-radius:var(--radius-sm);font-size:0.6rem;font-weight:700;text-decoration:none;border:1px solid var(--color-border);color:var(--color-text);transition:all 0.1s}
+.kt-alpha-btn{width:28px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:var(--radius-sm);font-size:0.65rem;font-weight:700;text-decoration:none;border:1px solid var(--color-border);color:var(--color-text);transition:all 0.1s}
 .kt-alpha-btn:hover{border-color:var(--color-brand);color:var(--color-brand)}
 .kt-alpha-btn.active-letter{background:var(--color-brand);color:#fff;border-color:var(--color-brand)}
 .kt-alpha-btn.disabled{opacity:0.3;pointer-events:none}
 
-.kt-no-results{text-align:center;padding:var(--space-8);color:var(--color-text-muted);font-size:var(--text-sm)}
+.kt-no-results{text-align:center;padding:var(--space-8);color:var(--color-text-muted);font-size:var(--text-xs)}
 
 @media(max-width:768px){.kt-hero{flex-direction:column;text-align:center}.kt-controls{flex-direction:column;align-items:stretch}}
-@media(max-width:480px){.kt-card__head{flex-direction:column}.kt-card__def{margin-left:var(--space-3)}}
+@media(max-width:480px){.kt-card__title-row{flex-direction:column;gap:2px}.kt-card__brief{max-width:100%;white-space:normal;-webkit-line-clamp:2;display:-webkit-box;-webkit-box-orient:vertical}.kt-card__def{margin-left:var(--space-2)}}
 </style>
 
 <section class="page-header">
@@ -80,7 +85,7 @@ description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with d
     <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb__sep">/</span><a href="/resources/">Resources</a><span class="breadcrumb__sep">/</span>Key Terms</nav>
     <p class="page-header__eyebrow">Concept Encyclopedia</p>
     <h1 class="page-header__title">Key Terms & Concepts</h1>
-    <p class="page-header__subtitle">{{ vocabIndex.terms | length }}+ UPSC concepts — definitions, context, and exam relevance for every GS paper.</p>
+    <p class="page-header__subtitle">{{ vocabIndex.terms | length }}+ UPSC concepts — definitions, context, and exam relevance.</p>
   </div>
 </section>
 
@@ -90,7 +95,7 @@ description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with d
     {# ── Progress Ring ── #}
     <div class="kt-hero">
       <div class="kt-hero-ring">
-        <svg viewBox="0 0 90 90" width="90" height="90">
+        <svg viewBox="0 0 90 90" width="80" height="80">
           <circle class="kt-ring-bg" cx="45" cy="45" r="38"/>
           <circle class="kt-ring-fill" id="kt-ring" cx="45" cy="45" r="38" stroke-dasharray="238.76" stroke-dashoffset="238.76"/>
           <text class="kt-ring-pct" id="kt-ring-pct" x="45" y="42" dominant-baseline="central" text-anchor="middle">0%</text>
@@ -99,17 +104,17 @@ description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with d
       </div>
       <div class="kt-hero-info">
         <p class="kt-hero-label" id="kt-label">{{ vocabIndex.terms | length }} concepts to master</p>
-        <p class="kt-hero-sub">Mark terms as "Understood" as you study. Progress saved in your browser.</p>
+        <p class="kt-hero-sub">Mark terms as understood. Progress saved in your browser.</p>
       </div>
     </div>
 
     {# ── GS Paper Filters ── #}
-    <div class="kt-filters">
+    <div class="kt-filters" id="kt-gs-filters">
       <button class="kt-filter active" data-gs="all">All Papers</button>
-      <button class="kt-filter kt-filter--gs active" data-gs="gs1" style="--gs-color:#9f1239;">GS1</button>
-      <button class="kt-filter kt-filter--gs active" data-gs="gs2" style="--gs-color:#7c3aed;">GS2</button>
-      <button class="kt-filter kt-filter--gs active" data-gs="gs3" style="--gs-color:#0369a1;">GS3</button>
-      <button class="kt-filter kt-filter--gs active" data-gs="gs4" style="--gs-color:#854d0e;">GS4</button>
+      <button class="kt-filter kt-filter--gs" data-gs="gs1" style="--gs-color:#9f1239;">GS1</button>
+      <button class="kt-filter kt-filter--gs" data-gs="gs2" style="--gs-color:#7c3aed;">GS2</button>
+      <button class="kt-filter kt-filter--gs" data-gs="gs3" style="--gs-color:#0369a1;">GS3</button>
+      <button class="kt-filter kt-filter--gs" data-gs="gs4" style="--gs-color:#854d0e;">GS4</button>
     </div>
 
     {# ── Subject Filters ── #}
@@ -124,19 +129,24 @@ description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with d
       {% endfor %}
     </div>
 
-    {# ── Search + Count ── #}
+    {# ── Search + Bulk Actions ── #}
     <div class="kt-controls">
       <input type="search" id="kt-search" class="kt-search" placeholder="Search terms, definitions, concepts..." autocomplete="off">
       <span class="kt-search-count" id="kt-count"></span>
+      <button class="kt-bulk-btn" id="kt-expand-all" type="button">Expand All</button>
+      <button class="kt-bulk-btn" id="kt-collapse-all" type="button">Collapse All</button>
     </div>
 
-    {# ── Alphabet Nav ── #}
+    {# ── Alphabet Nav with # for numbers ── #}
     <nav class="kt-alpha" id="kt-alpha">
       {%- set letters = [] -%}
+      {%- set hasNumbers = false -%}
       {%- for t in vocabIndex.terms -%}
-        {%- set letter = (t.term | upper)[0] -%}
-        {%- if letter not in letters -%}{%- set letters = (letters.push(letter), letters) -%}{%- endif -%}
+        {%- set first = (t.term | upper)[0] -%}
+        {%- if "0123456789" in first -%}{%- set hasNumbers = true -%}
+        {%- elif first not in letters -%}{%- set letters = (letters.push(first), letters) -%}{%- endif -%}
       {%- endfor -%}
+      {%- if hasNumbers -%}<a href="#kt-NUM" class="kt-alpha-btn active-letter">#</a>{%- endif -%}
       {%- for ch in "ABCDEFGHIJKLMNOPQRSTUVWXYZ" -%}
         {%- if ch in letters -%}
         <a href="#kt-{{ ch }}" class="kt-alpha-btn active-letter">{{ ch }}</a>
@@ -149,15 +159,18 @@ description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with d
     {# ── No results ── #}
     <div class="kt-no-results" id="kt-no-results" hidden>No matching terms found.</div>
 
-    {# ── Cards ── #}
+    {# ── Cards grouped by letter ── #}
     {%- set currentLetter = "" -%}
     {%- for t in vocabIndex.terms -%}
-      {%- set letter = (t.term | upper)[0] -%}
+      {%- set first = (t.term | upper)[0] -%}
+      {%- if "0123456789" in first -%}{%- set letter = "NUM" -%}
+      {%- else -%}{%- set letter = first -%}{%- endif -%}
+
       {%- if letter != currentLetter -%}
         {%- if currentLetter != "" %}</div>{%- endif -%}
         {%- set currentLetter = letter -%}
     <div class="kt-letter-group" id="kt-{{ letter }}" data-letter="{{ letter }}">
-      <h2 class="kt-letter">{{ letter }}</h2>
+      <h2 class="kt-letter{% if letter == 'NUM' %} kt-letter--num{% endif %}">{% if letter == "NUM" %}#{% else %}{{ letter }}{% endif %}</h2>
       {%- endif %}
 
       {%- set subjectName = t.subject -%}
@@ -167,10 +180,12 @@ description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with d
       <div class="kt-card kt-card--collapsed" data-subject="{{ t.subject }}" data-gs="{{ t.gs_papers | join(',') }}" data-term="{{ t.term | lower }}" data-def="{{ t.definition | lower }}" data-ctx="{{ t.origin | lower }}">
         <div class="kt-card__head" data-toggle-card>
           <div class="kt-card__title-wrap">
-            <h3 class="kt-card__title">{{ t.term }}</h3>
-            <span class="kt-card__brief">{{ t.definition | truncate(80, true) }}</span>
+            <div class="kt-card__title-row">
+              <h3 class="kt-card__title">{{ t.term }}</h3>
+              <span class="kt-card__brief">{{ t.definition | truncate(120, true) }}</span>
+            </div>
           </div>
-          <div style="display:flex;align-items:center;gap:var(--space-2);">
+          <div class="kt-card__right">
             <div class="kt-card__badges">
               {%- for gp in t.gs_papers %}<span class="gs-badge gs-badge--{{ gp }}">{{ gp | upper }}</span>{% endfor %}
             </div>
@@ -181,24 +196,18 @@ description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with d
         <div class="kt-card__detail">
           {% if t.pronunciation %}<span class="kt-card__pron">{{ t.pronunciation }}</span>{% endif %}
           <p class="kt-card__def">{{ t.definition }}</p>
-
-          {% if t.origin %}
-          <p class="kt-card__context"><strong>Context:</strong> {{ t.origin }}</p>
-          {% endif %}
-
+          {% if t.origin %}<p class="kt-card__context"><strong>Context:</strong> {{ t.origin }}</p>{% endif %}
           {% if t.upsc %}
           <div class="kt-card__upsc">
             <span class="kt-card__upsc-label">UPSC Relevance</span>
             {{ t.upsc }}
           </div>
           {% endif %}
-
           <div class="kt-card__foot">
-            <span class="kt-card__subject">{{ subjectIcon }} {{ subjectName }}</span>
+            <span class="kt-card__subject">{{ subjectIcon }} {{ subjectName }} · <a href="{{ t.topicUrl }}" style="color:inherit;text-decoration:none;">{{ t.topicTitle | truncate(40, true) }}</a></span>
             <div class="kt-card__actions">
               <a href="/resources/key-terms/{{ t.pageSlug }}/" class="kt-card__link">Full page &rarr;</a>
-              <a href="{{ t.topicUrl }}#term-{{ t.slug }}" class="kt-card__link">In chapter &rarr;</a>
-              <button class="kt-card__btn" data-tid="terms-{{ t.slug }}">Revise</button>
+              <button class="kt-card__btn" data-tid="terms-{{ t.slug }}">Mark understood</button>
             </div>
           </div>
         </div>
@@ -212,12 +221,19 @@ description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with d
 
 <script>
 (function(){
-  // Card collapse/expand toggle
+  // ── Card toggle ──
   document.addEventListener('click', function(e){
     var head = e.target.closest('[data-toggle-card]');
     if(!head) return;
-    var card = head.closest('.kt-card');
-    if(card) card.classList.toggle('kt-card--collapsed');
+    head.closest('.kt-card').classList.toggle('kt-card--collapsed');
+  });
+
+  // ── Expand/Collapse All ──
+  document.getElementById('kt-expand-all').addEventListener('click', function(){
+    document.querySelectorAll('.kt-card').forEach(function(c){c.classList.remove('kt-card--collapsed');});
+  });
+  document.getElementById('kt-collapse-all').addEventListener('click', function(){
+    document.querySelectorAll('.kt-card').forEach(function(c){c.classList.add('kt-card--collapsed');});
   });
 
   var search = document.getElementById('kt-search');
@@ -230,7 +246,17 @@ description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with d
   var total = cards.length;
   var CIRC = 2 * Math.PI * 38;
 
-  // Subject filters
+  // ── GS Paper filters (radio-style: one active at a time) ──
+  document.getElementById('kt-gs-filters').addEventListener('click', function(e){
+    var btn = e.target.closest('.kt-filter');
+    if(!btn || !btn.dataset.gs) return;
+    document.querySelectorAll('#kt-gs-filters .kt-filter').forEach(function(b){b.classList.remove('active');});
+    btn.classList.add('active');
+    activeGS = btn.dataset.gs;
+    applyFilters();
+  });
+
+  // ── Subject filters ──
   document.getElementById('kt-subj-filters').addEventListener('click', function(e){
     var btn = e.target.closest('.kt-filter');
     if(!btn || !btn.dataset.subject) return;
@@ -240,35 +266,13 @@ description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with d
     applyFilters();
   });
 
-  // GS Paper filters
-  document.querySelectorAll('.kt-filter[data-gs]').forEach(function(btn){
-    btn.addEventListener('click', function(){
-      if(btn.dataset.gs === 'all'){
-        activeGS = 'all';
-        document.querySelectorAll('.kt-filter[data-gs]').forEach(function(b){b.classList.remove('active');});
-        btn.classList.add('active');
-      } else {
-        document.querySelector('.kt-filter[data-gs="all"]').classList.remove('active');
-        btn.classList.toggle('active');
-        var activeBtns = document.querySelectorAll('.kt-filter[data-gs].active:not([data-gs="all"])');
-        if(activeBtns.length === 0){
-          activeGS = 'all';
-          document.querySelector('.kt-filter[data-gs="all"]').classList.add('active');
-        } else {
-          activeGS = Array.from(activeBtns).map(function(b){return b.dataset.gs;});
-        }
-      }
-      applyFilters();
-    });
-  });
-
   function applyFilters(){
     var q = (search.value||'').toLowerCase().trim();
     var shown = 0;
     cards.forEach(function(c){
       var matchSubj = activeSubject === 'all' || c.dataset.subject === activeSubject;
-      var matchGS = activeGS === 'all' || (Array.isArray(activeGS) ? activeGS.some(function(g){return c.dataset.gs.indexOf(g)!==-1;}) : c.dataset.gs.indexOf(activeGS)!==-1);
-      var matchSearch = !q || c.dataset.term.indexOf(q)!==-1 || c.dataset.def.indexOf(q)!==-1 || c.dataset.ctx.indexOf(q)!==-1;
+      var matchGS = activeGS === 'all' || c.dataset.gs.indexOf(activeGS) !== -1;
+      var matchSearch = !q || c.dataset.term.indexOf(q) !== -1 || c.dataset.def.indexOf(q) !== -1 || c.dataset.ctx.indexOf(q) !== -1;
       var vis = matchSubj && matchGS && matchSearch;
       c.style.display = vis ? '' : 'none';
       if(vis) shown++;
@@ -276,13 +280,13 @@ description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with d
     groups.forEach(function(g){
       g.style.display = g.querySelector('.kt-card:not([style*="display: none"])') ? '' : 'none';
     });
-    countEl.textContent = q ? shown + ' found' : '';
+    countEl.textContent = q ? shown + ' found' : shown < total ? shown + ' shown' : '';
     noResults.hidden = shown > 0;
   }
 
   search.addEventListener('input', applyFilters);
 
-  // Learn/Revise toggle
+  // ── Learn toggle ──
   var learned = JSON.parse(localStorage.getItem('bn_terms_learned')||'[]');
 
   function updateProgress(){
@@ -290,7 +294,7 @@ description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with d
     document.getElementById('kt-ring').setAttribute('stroke-dashoffset', CIRC-(pct/100)*CIRC);
     document.getElementById('kt-ring-pct').textContent = pct+'%';
     document.getElementById('kt-ring-sub').textContent = learned.length+' / '+total;
-    document.getElementById('kt-label').textContent = learned.length > 0 ? learned.length+' of '+total+' terms understood' : total+' concepts to master';
+    document.getElementById('kt-label').textContent = learned.length > 0 ? learned.length+' of '+total+' understood' : total+' concepts to master';
     localStorage.setItem('bn_terms_learned', JSON.stringify(learned));
   }
 
@@ -300,7 +304,7 @@ description: "Comprehensive UPSC key terms encyclopedia — 280+ concepts with d
     btn.addEventListener('click',function(){
       var idx = learned.indexOf(id);
       if(idx===-1){learned.push(id);btn.classList.add('learned');btn.textContent='Understood \u2713';}
-      else{learned.splice(idx,1);btn.classList.remove('learned');btn.textContent='Revise';}
+      else{learned.splice(idx,1);btn.classList.remove('learned');btn.textContent='Mark understood';}
       updateProgress();
     });
   });
