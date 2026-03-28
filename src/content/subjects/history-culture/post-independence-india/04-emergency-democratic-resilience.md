@@ -275,12 +275,6 @@ The Emergency (25 June 1975 – 21 March 1977) was the most severe test of India
 - **Context:** Triggered by the Allahabad High Court's verdict invalidating Indira Gandhi's 1971 election; the 42nd Amendment (1976) during the Emergency expanded Parliament's power and reduced judicial review; the Shah Commission (1978) investigated Emergency excesses.
 - **UPSC Relevance:** GS1 (Post-Independence India) & GS2 (Polity). Prelims: tested on Article 352, dates (25 June 1975 – 21 March 1977), ground ("internal disturbance"), the 42nd and 44th Amendments, and the Shah Commission. Mains: a perennial topic — asked to assess the Emergency's impact on Indian democracy, the balance between executive power and individual rights, and the lessons for democratic governance. Focus on how the Emergency proved the resilience of Indian democracy — the 1977 elections peacefully removed the government that declared it.
 
-### 44th Amendment
-- **Pronunciation:** /ˌfɔːtiˈfɔːθ əˈmɛndmənt/
-- **Definition:** The Constitution (Forty-fourth Amendment) Act, 1978, enacted by the Janata Party government to undo Emergency-era distortions — it replaced "internal disturbance" with "armed rebellion" as a ground for Emergency, made Articles 20 and 21 non-suspendable, required the Cabinet's written recommendation for Emergency proclamation, and removed the Right to Property from Fundamental Rights.
-- **Context:** Passed by Parliament and received Presidential assent on 30 April 1979; specifically designed as a corrective to the 42nd Amendment (1976) which had expanded executive power during the Emergency; it restored the balance between Parliament, Executive, and Judiciary.
-- **UPSC Relevance:** GS2 (Polity — Amendments & Emergency). Prelims: tested on key changes — "internal disturbance" replaced by "armed rebellion," Articles 20/21 made non-suspendable, Cabinet's written advice required, Right to Property removed from Part III. Mains: asked to compare the 42nd and 44th Amendments as representing authoritarian expansion and democratic correction respectively. Focus on how the 44th Amendment strengthened constitutional safeguards against future misuse of Emergency powers — a model answer topic for questions on democratic resilience.
-
 ---
 
 *Sources: Bipan Chandra — India Since Independence, Granville Austin — Working a Democratic Constitution, NCERT — India After Independence, Shah Commission Reports (1978), Christophe Jaffrelot — India's Silent Revolution*
