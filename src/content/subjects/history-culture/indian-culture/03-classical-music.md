@@ -207,4 +207,33 @@ In Hindustani music, ragas are associated with specific times of the day. The 24
 
 ---
 
+## Vocabulary
+
+### Raga
+- **Pronunciation:** /ˈrɑːɡə/
+- **Definition:** A melodic framework for improvisation and composition in Indian classical music, defined by specific ascending and descending note patterns, associated moods, and often a prescribed time of day for performance; each raga has the ability to "colour the mind" and evoke a particular aesthetic emotion.
+- **Origin:** From Sanskrit rāga ("colour, dye, hue; passion, feeling"), from the root raj/rañj ("to colour, to be dyed"); the term in its modern musical sense was first defined in Matanga's Brihaddeshi (c. 8th century CE).
+
+### Tala
+- **Pronunciation:** /ˈtɑːlə/
+- **Definition:** A rhythmic cycle with a specific number of beats (ranging from 3 to 128) that recurs in the same pattern throughout a musical performance, providing the temporal framework within which melody and improvisation unfold in Indian classical music.
+- **Origin:** From Sanskrit tāla ("palm of the hand, clap; rhythm"), related to the practice of keeping time by hand-clapping; codified in Sharangadeva's Sangita Ratnakara (13th century).
+
+### Gharana
+- **Pronunciation:** /ɡəˈrɑːnɑː/
+- **Definition:** A lineage-based school or tradition in Hindustani classical music and dance, defined by a distinct style of performance, specific techniques, and a repertoire passed down through generations of a family or master-disciple chain (guru-shishya parampara).
+- **Origin:** From Hindi gharānā, from ghar ("house, home"), from Sanskrit gṛha ("house"); the system emerged in the 18th-19th centuries as musical families developed and transmitted distinctive performance styles.
+
+## Key Terms
+
+### Hindustani Music
+- **Pronunciation:** /ˌhɪndʊˈstɑːni ˈmjuːzɪk/
+- **Definition:** The classical music tradition of northern, central, and western India that diverged from the southern Carnatic tradition around the 13th century CE, characterised by extensive improvisation, the gharana system, and the absorption of Persian and Arabic musical elements through Sufi and Mughal court influences.
+- **Origin:** From Persian Hindustān ("land of the Hindus/Indus") + -ī (adjective suffix); also called Shastriya Sangeet ("classical music") or North Indian classical music.
+
+### Carnatic Music
+- **Pronunciation:** /kɑːˈnɑːtɪk ˈmjuːzɪk/
+- **Definition:** The classical music tradition of South India (Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, and Telangana), characterised by a predominantly vocal orientation, structured composition-based performance, and relative preservation of ancient Sanskrit musical principles with minimal Islamic influence.
+- **Origin:** From Sanskrit Karnātaka Sangītam, meaning "traditional" or "codified" music; the term is associated with the Karnataka (Vijayanagara) Empire and the music's codification by Purandara Dasa (1484-1564), the "Father of Carnatic Music."
+
 *Sources: Sangeet Natak Akademi (sangeetnatak.gov.in), ITC Sangeet Research Academy, NCERT — An Introduction to Indian Art, Raghava Menon — The Penguin Dictionary of Indian Classical Music*

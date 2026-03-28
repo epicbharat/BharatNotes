@@ -251,4 +251,37 @@ The 19th century was the age of nationalism in Europe. The ideals of the French 
 
 ---
 
+## Vocabulary
+
+### Unification
+- **Pronunciation:** /ˌjuːnɪfɪˈkeɪʃən/
+- **Definition:** The process of being united or made into a single political entity, especially the merging of previously separate states or territories into one nation-state.
+- **Origin:** From Late Latin *ūnificāre* ("to make one") — Latin *ūni-* ("one") + *facere* ("to make") — with the suffix "-ation"; entered English in the 1840s, with wide use during the Italian and German unification movements.
+
+### Realpolitik
+- **Pronunciation:** /reɪˈɑːlpɒlɪˌtiːk/
+- **Definition:** A system of politics based on practical considerations and national interest rather than on ideological, moral, or ethical principles — associated especially with Bismarck's statecraft and Cavour's diplomacy.
+- **Origin:** German, literally "real politics" or "practical politics"; a compound of *real* ("actual") + *Politik* ("politics"); coined by the German writer Ludwig von Rochau in his 1853 book *Grundsatze der Realpolitik*; entered English in the 1870s.
+
+### Risorgimento
+- **Pronunciation:** /rɪˌzɔːdʒɪˈmɛntoʊ/
+- **Definition:** The 19th-century political and social movement for the unification of Italy into a single nation-state, spanning from the Congress of Vienna (1815) to the capture of Rome (1870).
+- **Origin:** Italian, literally "rising again" or "resurgence"; from *risorgere* ("to rise again"), from Latin *resurgere* ("to rise up"); the term became widely used from the 1850s to describe the Italian nationalist movement.
+
+---
+
+## Key Terms
+
+### Bismarck's Blood and Iron
+- **Pronunciation:** /ˈbɪzmɑːks blʌd ənd ˈaɪən/
+- **Definition:** The doctrine, derived from Otto von Bismarck's speech of 30 September 1862 to the Prussian Budget Committee, that the great questions of the day would be decided not by speeches and majority votes but by "iron and blood" — meaning military force and industrial power — which guided his strategy of unifying Germany through three calculated wars (1864, 1866, 1870--1871).
+- **Origin:** German *Eisen und Blut* ("iron and blood"), popularly inverted to *Blut und Eisen* ("blood and iron"); the phrase became synonymous with Bismarckian *Machtpolitik* (power politics).
+
+### Garibaldi
+- **Pronunciation:** /ˌɡærɪˈbɔːldi/
+- **Definition:** Giuseppe Garibaldi (1807--1882), the Italian general and nationalist hero who led the Expedition of the Thousand (1,089 Redshirt volunteers) in 1860, conquering the Kingdom of the Two Sicilies and handing the territories to King Victor Emmanuel II — earning the epithet "Sword" of Italian unification.
+- **Origin:** Born Giuseppe Maria Garibaldi in Nice (then part of the Kingdom of Sardinia); the surname is of Italian origin, likely derived from a Germanic personal name (*Garibald*, from *gairu*, "spear" + *bald*, "bold").
+
+---
+
 *Sources: Denis Mack Smith — The Making of Italy 1796–1870, A.J.P. Taylor — Bismarck: The Man and the Statesman, Eric Hobsbawm — The Age of Capital, NCERT World History Textbooks, Britannica, German History in Documents and Images (germanhistorydocs.org)*

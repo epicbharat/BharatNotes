@@ -222,4 +222,35 @@ The Gupta period saw the **emergence of the structural Hindu temple** — the tr
 
 ---
 
+## Vocabulary
+
+### Bas-relief
+- **Pronunciation:** /ˌbɑːrɪˈliːf/
+- **Definition:** A type of sculpture in which figures project only slightly from the surrounding flat surface, remaining largely attached to the background wall or panel.
+- **Origin:** From French *bas-relief*, borrowed from Italian *bassorilievo*, a compound of *basso* ("low") and *rilievo* ("relief"), ultimately from Latin *relevare* ("to raise up"); adopted into English in the mid-17th century.
+
+### Chaitya
+- **Pronunciation:** /ˈtʃaɪtjə/
+- **Definition:** A Buddhist prayer hall or shrine, typically rock-cut, with a vaulted roof, a stupa at the apsidal end, and a long nave flanked by pillars for congregational worship.
+- **Origin:** From Sanskrit *chaitya* (चैत्य), derived from *chita* ("funeral pyre, heap"), originally referring to the mound of ashes formed after cremation; over time it came to denote the sacred mound or shrine built over relics of a revered person.
+
+### Vihara
+- **Pronunciation:** /vɪˈhɑːrə/
+- **Definition:** A Buddhist monastery consisting of a walled quadrangular courtyard flanked by small residential cells for monks, often with a central hall for communal activities.
+- **Origin:** From Sanskrit *vihāra* (विहार, "place of recreation"), from *viharati* ("he walks about for pleasure"), combining *vi-* ("apart") and *harati* ("he carries, takes"); originally meant a secluded walking place, later a dwelling used by monks during the rainy season; the Indian state of Bihar derives its name from this word.
+
+## Key Terms
+
+### Ajanta Caves
+- **Pronunciation:** /əˈdʒʌntə keɪvz/
+- **Definition:** A complex of 30 rock-cut Buddhist caves in Aurangabad district, Maharashtra (UNESCO World Heritage Site, 1983), renowned for their exquisite fresco secco paintings — including the celebrated Padmapani and Vajrapani in Cave 1 — and sculpture spanning two phases from the 2nd century BCE (Satavahana) to the 5th–6th century CE (Vakataka).
+- **Origin:** Named after the nearby village of Ajanta (also spelled Ajintha); the caves were rediscovered in 1819 by a British officer, John Smith, during a tiger hunt; the name may derive from the local Marathi place-name tradition.
+
+### Sanchi Stupa
+- **Pronunciation:** /ˈsɑːntʃiː ˈstuːpə/
+- **Definition:** The Great Stupa at Sanchi in Madhya Pradesh, originally commissioned by Emperor Ashoka in the 3rd century BCE and later enlarged with elaborately carved gateways (toranas) under the Satavahanas, notable for representing the Buddha through symbols rather than human form (UNESCO World Heritage Site, 1989).
+- **Origin:** *Sanchi* is the name of the hill and village in Raisen district, Madhya Pradesh; *stupa* comes from Sanskrit *stūpa* (स्तूप, "heap, mound"), referring to the hemispherical structure built over sacred Buddhist relics.
+
+---
+
 *Sources: Archaeological Survey of India (asi.nic.in), UNESCO World Heritage Centre, NCERT Fine Arts textbook, A.L. Basham — The Wonder That Was India, Percy Brown — Indian Architecture*

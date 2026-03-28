@@ -209,4 +209,33 @@ The Government of India grants **Classical Language** status to languages that m
 
 ---
 
+## Vocabulary
+
+### Dialect
+- **Pronunciation:** /ˈdaɪəlɛkt/
+- **Definition:** A regional or social variety of a language distinguished by pronunciation, grammar, and vocabulary from other varieties of the same language; India's 2011 Census recorded 19,500 mother tongues, many of which are dialects of the 22 Scheduled Languages.
+- **Origin:** From Middle French dialecte, from Latin dialectos, from Ancient Greek diálektos ("conversation, the language of a country or place"), from diá ("through") + légō ("to speak"); first attested in English in the 16th century.
+
+### Script
+- **Pronunciation:** /skrɪpt/
+- **Definition:** A system of written characters or symbols used to represent a language visually; India uses numerous scripts including Devanagari, Tamil, Bengali, Gurmukhi, Odia, Kannada, Telugu, Malayalam, and others, each associated with specific languages and regions.
+- **Origin:** From Middle English scrit, from Old French escrit, from Latin scrīptum ("something written"), from scrībere ("to write"); first attested in English in the 14th century.
+
+### Vernacular
+- **Pronunciation:** /vəˈnækjʊlə/
+- **Definition:** The native language or dialect of a specific country or region, as distinct from a literary, classical, or official language; in the Indian context, vernacular languages refer to the regional languages spoken by ordinary people as opposed to Sanskrit, Persian, or English.
+- **Origin:** From Latin vernāculus ("domestic, native"), from verna ("home-born slave") + -ar (adjective suffix); first attested in English c. 1601.
+
+## Key Terms
+
+### Eighth Schedule
+- **Pronunciation:** /eɪtθ ˈʃɛdjuːl/
+- **Definition:** A schedule of the Indian Constitution (referenced in Articles 344(1) and 351) that lists the officially recognised languages of India; it originally contained 14 languages in 1950 and has been expanded through constitutional amendments to the current 22 languages (Sindhi added in 1967, Konkani/Manipuri/Nepali in 1992, Bodo/Dogri/Maithili/Santali in 2003).
+- **Origin:** English constitutional term; "schedule" from Late Latin schedula ("strip of paper"), from Latin scheda ("sheet of papyrus"); the Eighth Schedule was included in the original Constitution adopted on 26 November 1949.
+
+### Classical Language Status
+- **Pronunciation:** /ˈklæsɪkəl ˈlæŋɡwɪdʒ ˈsteɪtəs/
+- **Definition:** A designation granted by the Government of India (since 2004) to languages that meet criteria of high antiquity (recorded history of 1,500-2,000 years), a body of ancient literature considered a heritage, and an original literary tradition distinct from borrowed influences; as of October 2024, 11 languages hold this status: Tamil, Sanskrit, Telugu, Kannada, Malayalam, Odia, Marathi, Pali, Prakrit, Assamese, and Bengali.
+- **Origin:** The category was created in 2004 when Tamil became the first language to receive the designation; "classical" from Latin classicus ("of the highest class"); the criteria were established by the Linguistic Experts Committee of the Ministry of Culture.
+
 *Sources: Census of India 2011, Ministry of Culture (indiaculture.gov.in), Sahitya Akademi, DPIIT (GI Registry), National Portal of India (india.gov.in)*

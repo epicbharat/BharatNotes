@@ -257,3 +257,36 @@ India participates in **all major multilateral forums** while maintaining **stra
 - SAARC's decline and alternatives (BIMSTEC)
 - India as bridge between Global North and South
 - IPEF vs RCEP — India's trade framework choices in the Indo-Pacific
+
+---
+
+## Vocabulary
+
+### Bloc
+- **Pronunciation:** /blɒk/ (RP), /blɑːk/ (GA)
+- **Definition:** A group of countries or political parties that have formed an alliance to act together in pursuit of shared strategic, economic, or ideological interests.
+- **Origin:** Borrowed from French *bloc* ("group, block"), of Old Dutch origin via Frankish; first used in English in 1903 in the context of Continental European political alliances.
+
+### Summit
+- **Pronunciation:** /ˈsʌmɪt/
+- **Definition:** A high-level meeting of heads of state or government convened to discuss and negotiate issues of international significance.
+- **Origin:** From Old French *somete* ("top"), diminutive of *som* ("highest part"), from Latin *summum* ("the highest"); its diplomatic sense of a leaders-level conference emerged in the mid-20th century.
+
+### Communiqué
+- **Pronunciation:** /kəˈmjuːnɪˌkeɪ/
+- **Definition:** An official statement or press release issued after a diplomatic meeting, conference, or summit, summarising the agreed positions and decisions of the participants.
+- **Origin:** Borrowed from French *communiqué* ("something communicated"), past participle of *communiquer* ("to communicate"); first used in English in the 1850s.
+
+---
+
+## Key Terms
+
+### BRICS
+- **Pronunciation:** /brɪks/
+- **Definition:** An intergovernmental grouping of major emerging economies — originally Brazil, Russia, India, China, and South Africa — now expanded to ten full members, which coordinates on economic cooperation, development finance, and reform of global governance institutions.
+- **Origin:** The acronym BRIC was coined by British economist Jim O'Neill of Goldman Sachs in his 2001 paper *Building Better Global Economic BRICs*; South Africa joined in 2010, adding the "S."
+
+### G20
+- **Pronunciation:** /ˌdʒiː ˈtwɛnti/
+- **Definition:** An international forum of 19 countries, the European Union, and the African Union, representing approximately 85% of global GDP, which coordinates macroeconomic policy, financial regulation, and sustainable development.
+- **Origin:** Formally established at the G7 Finance Ministers' meeting on 26 September 1999 in response to the late-1990s financial crises in Asia, Russia, and Latin America; elevated to a leaders-level summit in 2008 during the global financial crisis.

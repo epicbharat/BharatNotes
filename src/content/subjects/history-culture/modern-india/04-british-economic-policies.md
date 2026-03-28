@@ -181,4 +181,33 @@ The economic transformation of India under British rule was characterised by the
 
 ---
 
+## Vocabulary
+
+### Deindustrialisation
+- **Pronunciation:** /diːˌɪndʌstriəlaɪˈzeɪʃən/
+- **Definition:** The decline or destruction of a nation's industrial capacity, particularly the collapse of indigenous manufacturing under the pressure of foreign competition or colonial economic policies.
+- **Origin:** English, from de- (reversal prefix, Latin) + industrialisation (from Latin industria, "diligence, activity").
+
+### Zamindari
+- **Pronunciation:** /zəˈmiːndɑːri/
+- **Definition:** A system of landholding and revenue collection in which zamindars (landlords) held proprietary rights over land and were responsible for paying a fixed revenue to the colonial government.
+- **Origin:** Hindi and Urdu zamīndārī, from Persian zamīn ("land") + dār ("holder") + -ī (noun suffix); first recorded use in English c. 1757.
+
+### Ryotwari
+- **Pronunciation:** /ˈraɪətˌwɑːri/
+- **Definition:** A system of land revenue collection in British India in which the government assessed and collected taxes directly from individual cultivators (ryots) without any intermediary landlord.
+- **Origin:** Urdu and Persian raʿīyatwārī, from raʿīyat ("peasant, cultivator," from Arabic raʿīyah, "subjects") + wārī ("relating to a system"); first recorded use in English c. 1807.
+
+## Key Terms
+
+### Drain of Wealth
+- **Pronunciation:** /dreɪn əv wɛlθ/
+- **Definition:** An economic theory, articulated by Dadabhai Naoroji in 1867 and elaborated in his 1901 book *Poverty and Un-British Rule in India*, arguing that Britain systematically transferred India's wealth and resources to itself with no equivalent economic return.
+- **Origin:** English compound; "drain" from Old English drēahnian ("to strain, filter") and "wealth" from Middle English welthe ("well-being, prosperity"); the specific economic usage was coined by Indian nationalist economists in the 19th century.
+
+### Permanent Settlement
+- **Pronunciation:** /ˈpɜːmənənt ˈsɛtlmənt/
+- **Definition:** An agreement concluded in 1793 by Lord Cornwallis that fixed the land revenue demand permanently with zamindars in Bengal, Bihar, and Orissa, making them proprietors of the land in exchange for a fixed annual payment to the colonial government.
+- **Origin:** English compound; "permanent" from Latin permanēns ("remaining to the end") and "settlement" from Middle English, referring to the act of settling or fixing terms; the specific term refers to the 1793 Bengal regulation.
+
 *Sources: Dadabhai Naoroji — Poverty and Un-British Rule in India, R.C. Dutt — Economic History of India, Bipan Chandra — History of Modern India, Irfan Habib — Indian Economy 1858-1914, NCERT — Themes in Indian History Part III*

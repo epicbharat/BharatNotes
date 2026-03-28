@@ -195,4 +195,33 @@ As of 2025, India has **44 UNESCO World Heritage Sites** — **36 Cultural, 7 Na
 
 ---
 
+## Vocabulary
+
+### Sanctum
+- **Pronunciation:** /ˈsæŋktəm/
+- **Definition:** The innermost and holiest chamber of a Hindu temple (garbhagriha, literally "womb-house"), where the principal deity is enshrined; access is typically restricted to priests, and the entire temple structure is oriented around this sacred space.
+- **Origin:** From Latin sānctum ("a holy place"), neuter of sānctus ("holy"), from sancīre ("to consecrate"); the term "sanctum sanctorum" (holy of holies) is attested in English from c. 1400.
+
+### Gopuram
+- **Pronunciation:** /ˈɡoʊpʊrəm/
+- **Definition:** A monumental, ornately decorated gateway tower at the entrance of a Hindu temple in the Dravidian architectural tradition of South India, typically tapering upward in multiple storeys and crowned with a barrel-vaulted roof; in later Nayaka-period temples, gopurams became taller than the main shrine tower (vimana).
+- **Origin:** From Tamil kōpuram, from Sanskrit gō-pura ("gate of a city"), from go ("cow, earth") + pura ("city, enclosure"); the architectural form was developed by the Pallavas and perfected under the Chola and Nayaka dynasties.
+
+### Shikhara
+- **Pronunciation:** /ʃɪˈkɑːrə/
+- **Definition:** The curvilinear or tapering tower that rises above the sanctum (garbhagriha) in North Indian (Nagara) temple architecture, serving as the most dominant and characteristic vertical element of the temple; sub-types include latina (curvilinear), phamsana (stepped pyramidal), and valabhi (wagon-vault).
+- **Origin:** From Sanskrit śikhara ("mountain peak, summit"), related to śikhā ("topknot, point"); the form symbolises Mount Meru, the cosmic mountain at the centre of the universe in Hindu cosmology.
+
+## Key Terms
+
+### Dravidian Style
+- **Pronunciation:** /drəˈvɪdiən staɪl/
+- **Definition:** The temple architectural tradition of South India (south of the Krishna River), characterised by a pyramidal stepped tower (vimana) over the sanctum, elaborate gateway towers (gopurams), concentric enclosure walls (prakaras), and integrated temple tanks; pioneered by the Pallavas, perfected by the Cholas, and expanded to monumental scale by the Nayaka dynasty.
+- **Origin:** Named after the Dravidian language family and cultural region of South India; the architectural style is also called Dravida, from Sanskrit Drāviḍa, referring to the peoples and cultures of South India.
+
+### UNESCO World Heritage
+- **Pronunciation:** /juːˈnɛskoʊ wɜːld ˈhɛrɪtɪdʒ/
+- **Definition:** A designation by the United Nations Educational, Scientific and Cultural Organisation for places of outstanding universal value to humanity — cultural, natural, or mixed — that are inscribed on the World Heritage List for protection and preservation; India has 44 World Heritage Sites (36 Cultural, 7 Natural, 1 Mixed) as of 2025, the 6th highest count in the world.
+- **Origin:** UNESCO is an acronym for the United Nations Educational, Scientific and Cultural Organisation, established in 1945; "heritage" from Old French eritage ("inheritance"), from Latin hērēditās ("inheritance"), from hērēs ("heir"); the World Heritage Convention was adopted in 1972.
+
 *Sources: Archaeological Survey of India (asi.nic.in), UNESCO World Heritage Centre (whc.unesco.org), Percy Brown — Indian Architecture, NCERT — An Introduction to Indian Art, Adam Hardy — Indian Temple Architecture*

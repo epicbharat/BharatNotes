@@ -242,4 +242,37 @@ Established in **Kesavananda Bharati v. State of Kerala (1973)**, the Basic Stru
 
 ---
 
+## Vocabulary
+
+### Precedent
+- **Pronunciation:** /ˈprɛsɪdənt/
+- **Definition:** A decided case that serves as an authoritative example or rule for identical or similar cases arising subsequently in law.
+- **Origin:** From Middle English, via Old French from Latin *praecēdēns* (present participle of *praecēdere*, "to go before"); first recorded in the 14th century.
+
+### Jurisprudence
+- **Pronunciation:** /ˌdʒʊərɪsˈpruːdəns/
+- **Definition:** The theory, philosophy, and science of law, encompassing the principles on which legal rules are based and the methods by which courts interpret and apply them.
+- **Origin:** From Latin *iūris prūdentia* — *iūris* (genitive of *iūs*, "law, right") + *prūdentia* ("knowledge, foresight"); entered English in the 1620s via French *jurisprudence*.
+
+### Ultra Vires
+- **Pronunciation:** /ˌʌltrə ˈvaɪəriːz/
+- **Definition:** Beyond the legal power or authority of a person, body, or institution — an act performed without lawful authority is deemed void.
+- **Origin:** From Latin *ultrā* ("beyond") + *vīrēs* (accusative plural of *vīs*, "strength, power"); literally "beyond the powers."
+
+---
+
+## Key Terms
+
+### Golaknath Case
+- **Pronunciation:** /ˈɡoʊlɑːknɑːθ keɪs/
+- **Definition:** The 1967 Supreme Court case (*I.C. Golaknath v. State of Punjab*) in which an 11-judge bench ruled 6:5 that Parliament cannot amend Fundamental Rights, treating them as "transcendental" — it overruled *Shankari Prasad* (1951) by applying the doctrine of prospective overruling, and was itself superseded by the 24th Amendment (1971) and the *Kesavananda Bharati* ruling (1973).
+- **Origin:** Named after the petitioner Henry Golaknath, whose family challenged Punjab's land ceiling legislation under Articles 14, 19(1)(f), and 19(1)(g) of the Constitution.
+
+### Kesavananda Bharati
+- **Pronunciation:** /ˌkeɪʃəvɑːˈnʌndə ˈbɑːrəti/
+- **Definition:** The landmark 1973 Supreme Court case (*Kesavananda Bharati v. State of Kerala*), decided on 24 April 1973 by a 13-judge bench with a 7:6 majority, which established the Basic Structure Doctrine — holding that Parliament can amend any part of the Constitution, including Fundamental Rights, but cannot alter or destroy its basic structure.
+- **Origin:** Named after the petitioner Swami Kesavananda Bharati, head of the Edneer Matha monastery in Kasaragod, Kerala, who challenged state land reform acts that restricted the management of his monastery's property.
+
+---
+
 *Sources: Supreme Court of India judgments (sci.gov.in, indiankanoon.org), M.P. Jain — Indian Constitutional Law, D.D. Basu — Introduction to the Constitution of India, Granville Austin — Working a Democratic Constitution*

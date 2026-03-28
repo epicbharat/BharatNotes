@@ -243,4 +243,35 @@ Their dominance illustrated how completely real power had shifted from the thron
 
 ---
 
+## Vocabulary
+
+### Decadence
+- **Pronunciation:** /ˈdɛkədəns/
+- **Definition:** A process or period of moral, cultural, or institutional decline and deterioration, often marked by excessive luxury and self-indulgence among the ruling class.
+- **Origin:** From French *décadence* (early 15th century), from Medieval Latin *decadentia* ("a falling away, decay"), from *decadens*, present participle of *decadere* ("to decay"), combining Latin *de-* ("down, apart") and *cadere* ("to fall").
+
+### Succession
+- **Pronunciation:** /səkˈsɛʃən/
+- **Definition:** The process or right by which one person follows another into an office, title, or position of power, especially a throne.
+- **Origin:** From Old French *succession*, from Latin *successio* ("a following after, a coming into another's place"), from *succedere* ("to come close after"), combining *sub-* ("close to") and *cedere* ("to go"); first attested in English c. 1275–1325.
+
+### Fragmentation
+- **Pronunciation:** /ˌfræɡmənˈteɪʃən/
+- **Definition:** The process by which a unified political entity breaks apart into smaller, often competing, independent units or regions.
+- **Origin:** From *fragment* (from Latin *fragmentum*, from *frangere*, "to break") plus the suffix *-ation* (indicating a process); the noun form entered English in 1842.
+
+## Key Terms
+
+### Nadir Shah's Invasion
+- **Pronunciation:** /ˈnɑːdɪr ʃɑː/
+- **Definition:** The devastating invasion of Mughal India in 1738–1739 by Nadir Shah, the Afsharid ruler of Persia, culminating in his victory at the Battle of Karnal (24 February 1739), the sack and massacre at Delhi (22 March 1739), and the plunder of the Peacock Throne, Koh-i-Noor diamond, and an estimated 700 million rupees — effectively ending Mughal financial and military power.
+- **Origin:** *Nadir* (نادر) is a Persian name meaning "rare, precious"; *Shah* (شاه) is the Persian title for king; the invasion gave rise to the Hindustani word *nadirshahi*, meaning a catastrophic plunder or holocaust.
+
+### Battle of Panipat 1761
+- **Pronunciation:** /ˈpɑːnɪpæt/
+- **Definition:** The Third Battle of Panipat (14 January 1761), fought between the Maratha Confederacy under Sadashivrao Bhau and Ahmad Shah Durrani (Abdali) of Afghanistan with Rohilla and Awadh allies, resulting in a devastating Maratha defeat with an estimated 60,000–70,000 killed, which ended Maratha aspirations for pan-Indian dominance though the empire itself survived until 1818.
+- **Origin:** Named after Panipat, an ancient city in present-day Haryana, approximately 97 km north of Delhi, which was the site of three historically decisive battles (1526, 1556, and 1761); the name *Panipat* is traditionally derived from *Panduprastha* ("city of the Pandavas").
+
+---
+
 *Sources: Tuzuk-i-Jahangiri (Jahangir's autobiography), Khafi Khan — Muntakhab-ul-Lubab, NCERT — Themes in Indian History Part II, Satish Chandra — History of Medieval India (Orient BlackSwan), Jadunath Sarkar — Fall of the Mughal Empire, Richard Eaton — Temple Desecration and Muslim States in Medieval India, Audrey Truschke — Aurangzeb: The Life and Legacy of India's Most Controversial King, Dr. Beni Prasad — History of Jahangir*

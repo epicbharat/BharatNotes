@@ -248,4 +248,37 @@ The Emergency (25 June 1975 – 21 March 1977) was the most severe test of India
 
 ---
 
+## Vocabulary
+
+### Authoritarian
+- **Pronunciation:** /ɔːˌθɒrɪˈtɛəriən/
+- **Definition:** Favouring or enforcing strict obedience to authority at the expense of personal freedom and democratic participation.
+- **Origin:** From English "authority" (via Old French from Latin *auctoritas*, "influence, command") + suffix "-arian"; first attested in the 1850s.
+
+### Censorship
+- **Pronunciation:** /ˈsɛnsəʃɪp/
+- **Definition:** The suppression or prohibition of speech, public communication, or other information by a governing authority on the grounds that such material is objectionable or dangerous.
+- **Origin:** From Latin *censor* ("Roman magistrate who assessed citizens and supervised public morals") + English suffix "-ship"; earliest use in the mid-1500s.
+
+### Habeas Corpus
+- **Pronunciation:** /ˈheɪbiəs ˈkɔːpəs/
+- **Definition:** A legal writ requiring that a detained person be brought before a court to determine whether their imprisonment is lawful.
+- **Origin:** From Medieval Latin *habeas corpus ad subjiciendum*, meaning "you shall have the body to be subjected to examination"; *habeas* from Latin *habēre* ("to have") and *corpus* ("body").
+
+---
+
+## Key Terms
+
+### Emergency (1975)
+- **Pronunciation:** /ɪˈmɜːdʒənsi/
+- **Definition:** The 21-month period (25 June 1975 to 21 March 1977) during which President Fakhruddin Ali Ahmed, on PM Indira Gandhi's advice, proclaimed a state of Emergency under Article 352 on the ground of "internal disturbance," suspending fundamental rights, censoring the press, and jailing opposition leaders.
+- **Origin:** From Latin *emergere* ("to rise out, come forth"); the constitutional provision derives from Article 352 of the Indian Constitution, modelled on similar emergency powers in the Weimar Constitution and the Government of India Act, 1935.
+
+### 44th Amendment
+- **Pronunciation:** /ˌfɔːtiˈfɔːθ əˈmɛndmənt/
+- **Definition:** The Constitution (Forty-fourth Amendment) Act, 1978, enacted by the Janata Party government to undo Emergency-era distortions — it replaced "internal disturbance" with "armed rebellion" as a ground for Emergency, made Articles 20 and 21 non-suspendable, required the Cabinet's written recommendation for Emergency proclamation, and removed the Right to Property from Fundamental Rights.
+- **Origin:** "Amendment" from Latin *emendare* ("to correct, free from fault"), via Old French *amender*; the 44th Amendment was passed by Parliament and received Presidential assent on 30 April 1979.
+
+---
+
 *Sources: Bipan Chandra — India Since Independence, Granville Austin — Working a Democratic Constitution, NCERT — India After Independence, Shah Commission Reports (1978), Christophe Jaffrelot — India's Silent Revolution*

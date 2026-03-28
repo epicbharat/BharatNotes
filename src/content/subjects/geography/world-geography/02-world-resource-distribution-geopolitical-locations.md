@@ -421,3 +421,36 @@ The US-China technology rivalry has intensified resource competition:
 - Lithium Triangle in South America
 - Cobalt belt in the DRC
 - Arctic shipping routes (Northern Sea Route vs Suez Canal route)
+
+---
+
+## Vocabulary
+
+### Strait
+- **Pronunciation:** /streɪt/
+- **Definition:** A narrow natural waterway connecting two larger bodies of water, often of major strategic and commercial importance for maritime navigation.
+- **Origin:** From Middle English, shortening of Old French *estreit* ("tight, narrow"), from Latin *strictus* ("drawn tight"), past participle of *stringere* ("to tighten, draw tight").
+
+### Chokepoint
+- **Pronunciation:** /ˈtʃoʊkˌpɔɪnt/
+- **Definition:** A narrow strategic passage — such as a strait, canal, or defile — through which maritime or land traffic must pass and which can be easily blocked or controlled to gain a tactical advantage.
+- **Origin:** A compound of English *choke* ("to constrict, obstruct") + *point* ("a specific location"); the term gained wide currency in military and geopolitical discourse during the 20th century.
+
+### Hinterland
+- **Pronunciation:** /ˈhɪntərˌlænd/
+- **Definition:** The inland area lying behind a coast or a port city, serving as the economic catchment zone from which goods are drawn for export and to which imports are distributed.
+- **Origin:** Borrowed from German *Hinterland*, from *hinter* ("behind") + *Land* ("land"); first used in English in 1888 by geographer George Chisholm.
+
+---
+
+## Key Terms
+
+### Strait of Hormuz
+- **Pronunciation:** /streɪt əv hɔːrˈmuːz/
+- **Definition:** A narrow waterway between Iran and Oman connecting the Persian Gulf to the Gulf of Oman, through which approximately 20-25% of the world's seaborne oil transits, making it the most critical energy chokepoint on the planet.
+- **Origin:** Named after the island and historic port of Hormuz (Hormoz); the name derives from *Hormoz*, the Middle Persian rendering of *Ahura Mazda*, the Zoroastrian deity of wisdom and light.
+
+### Lithium Triangle
+- **Pronunciation:** /ˈlɪθiəm ˈtraɪˌæŋɡəl/
+- **Definition:** A region in the Andes spanning Chile, Argentina, and Bolivia that contains over 50% of the world's known lithium reserves, concentrated in high-altitude salt flats (salars), and is therefore central to the global supply chain for electric vehicle batteries and energy storage.
+- **Origin:** A contemporary geopolitical and resource-economy term coined in the 2010s to describe the geographic concentration of lithium brine deposits across the Salar de Atacama (Chile), Salar del Hombre Muerto (Argentina), and Salar de Uyuni (Bolivia).

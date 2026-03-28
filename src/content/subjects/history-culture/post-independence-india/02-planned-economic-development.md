@@ -240,4 +240,33 @@ The Planning Commission was criticised for its top-down, one-size-fits-all appro
 
 ---
 
+## Vocabulary
+
+### Planning
+- **Pronunciation:** /ˈplænɪŋ/
+- **Definition:** The process of formulating a coordinated scheme of economic and social objectives with specific targets and resource allocations over a defined period; in post-independence India, centralised economic planning through Five-Year Plans was the primary development strategy from 1951 to 2017.
+- **Origin:** From "plan," from French plan ("ground plan, map"), from Latin plānum ("flat surface, level ground"); the economic planning sense developed in the 20th century, influenced by Soviet and Keynesian models.
+
+### Dirigisme
+- **Pronunciation:** /ˌdɪrɪˈʒiːzəm/
+- **Definition:** An economic policy in which the state takes a strong, directive role in guiding and shaping the economy through regulation, public sector enterprises, and centralised planning, rather than relying solely on market forces; India's economic model from 1947 to 1991 is often characterised as dirigiste.
+- **Origin:** From French dirigisme, from diriger ("to direct, to run"), from Latin dīrigere ("to direct, to steer"), from dis- ("apart") + regere ("to rule, to straighten"); first attested in English c. 1951.
+
+### Autarky
+- **Pronunciation:** /ˈɔːtɑːki/
+- **Definition:** A policy of national economic self-sufficiency aimed at reducing or eliminating dependence on foreign imports; India pursued a degree of autarky through import substitution industrialisation and restrictive trade policies from the 1950s until the 1991 liberalisation reforms.
+- **Origin:** From Ancient Greek autárkeia ("self-sufficiency, independence"), from autárkēs ("self-sufficient"), from auto- ("self") + arkéō ("to be sufficient, to suffice"); first attested in English c. 1610s.
+
+## Key Terms
+
+### Five Year Plans
+- **Pronunciation:** /faɪv jɪə plænz/
+- **Definition:** A series of centralised national socio-economic programmes formulated by the Planning Commission (1950-2014), setting specific growth targets, development priorities, and resource allocations over five-year periods; India implemented twelve Five-Year Plans from 1951 to 2017, beginning with the agriculture-focused First Plan (Harrod-Domar model) and the industry-focused Second Plan (Mahalanobis model).
+- **Origin:** The concept was adopted from the Soviet Union's system of economic planning initiated in 1928 under Joseph Stalin; India's first plan was launched on 15 March 1950 under PM Jawaharlal Nehru and drafted with significant input from economist K.N. Raj.
+
+### Mixed Economy
+- **Pronunciation:** /mɪkst ɪˈkɒnəmi/
+- **Definition:** An economic system that combines elements of both capitalism (private enterprise and market mechanisms) and socialism (state ownership and planning), with the public and private sectors coexisting; India adopted this model after independence, with the Industrial Policy Resolution of 1956 classifying industries into state monopoly (Schedule A), state-and-private (Schedule B), and private sector (Schedule C) categories.
+- **Origin:** The term arose in British political debate in the post-World War II period; first attested in 1936 in the American Political Science Review; India's mixed economy was championed by Nehru as a "middle path" between Soviet command economics and Western laissez-faire capitalism.
+
 *Sources: NITI Aayog (niti.gov.in), Planning Commission Archives, NCERT — India After Independence, Bipan Chandra — India Since Independence, M.S. Swaminathan — From Green to Evergreen Revolution*

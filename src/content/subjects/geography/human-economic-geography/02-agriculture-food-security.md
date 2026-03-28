@@ -258,3 +258,36 @@ India is the world's **second-largest agricultural producer** and agriculture re
 - PDS reform — technology-driven solutions vs structural challenges
 - Small farmer crisis — 86% are small/marginal; how to make farming viable
 - Climate change impact on agriculture — shifting patterns, new vulnerabilities
+
+---
+
+## Vocabulary
+
+### Fallow
+- **Pronunciation:** /ˈfæloʊ/
+- **Definition:** Arable land that is ploughed and left unseeded for one or more growing seasons to allow the soil to recover fertility, retain moisture, and break pest and disease cycles.
+- **Origin:** From Old English *fealh*, *fealg* ("fallow land"), from Proto-West Germanic *falgu*, from Proto-Indo-European *polḱéh₂* ("arable land").
+
+### Irrigation
+- **Pronunciation:** /ˌɪrɪˈɡeɪʃən/
+- **Definition:** The artificial application of water to land or soil to assist in the cultivation of crops, supplementing or replacing natural rainfall.
+- **Origin:** From Latin *irrigātiōnem*, from *irrigāre* ("to water, to wet"), from *in-* ("into") + *rigāre* ("to water, moisten").
+
+### Subsistence
+- **Pronunciation:** /səbˈsɪstəns/
+- **Definition:** A mode of farming in which crops are grown and livestock are raised primarily to feed the farmer's own household rather than for sale or trade in the market.
+- **Origin:** From Late Latin *subsistentia* ("substance, means of support"), from Latin *subsistere* ("to stand still, remain"), from *sub-* ("under") + *sistere* ("to stand").
+
+---
+
+## Key Terms
+
+### Green Revolution
+- **Pronunciation:** /ɡriːn ˌrɛvəˈluːʃən/
+- **Definition:** The dramatic increase in food grain production — particularly wheat and rice — achieved in developing countries from the mid-1960s through the adoption of high-yielding variety (HYV) seeds, chemical fertilisers, irrigation, and mechanisation.
+- **Origin:** The term was coined by William S. Gaud, administrator of USAID, in a speech on 8 March 1968; the agricultural research underlying it was pioneered by Norman Borlaug in Mexico from the 1940s and adapted for India by M.S. Swaminathan in the 1960s.
+
+### Public Distribution System
+- **Pronunciation:** /ˈpʌblɪk ˌdɪstrɪˈbjuːʃən ˈsɪstəm/
+- **Definition:** A government-managed food security network that distributes subsidised food grains and essential commodities to economically vulnerable households through a nationwide chain of Fair Price Shops (ration shops).
+- **Origin:** Originated as a wartime food rationing system introduced by the British in India in 1939 in Bombay; institutionalised after independence with the creation of the Food Corporation of India in 1965 and restructured as the Targeted PDS in 1997.

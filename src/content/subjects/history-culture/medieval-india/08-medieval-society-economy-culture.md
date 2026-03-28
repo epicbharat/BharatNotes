@@ -224,4 +224,35 @@ Medieval India (c. 8th–18th century) was a period of remarkable cultural synth
 
 ---
 
+## Vocabulary
+
+### Miniature
+- **Pronunciation:** /ˈmɪnɪtʃər/
+- **Definition:** A small, highly detailed painting, especially the style of illustration that flourished in Mughal, Rajasthani, and Pahari courts, depicting court scenes, portraits, nature, and mythological narratives on paper or manuscript pages.
+- **Origin:** From Italian *miniatura* ("manuscript illumination"), from *miniare* ("to illuminate, colour red"), from Latin *minium* ("red lead pigment"); the association with smallness developed because manuscript illustrations were small, reinforced by Latin words like *minor* and *minutus*.
+
+### Calligraphy
+- **Pronunciation:** /kəˈlɪɡrəfi/
+- **Definition:** The art of beautiful, decorative handwriting, practised extensively in Indo-Islamic culture for Quranic inscriptions, royal decrees, and architectural ornamentation on monuments such as the Taj Mahal.
+- **Origin:** From French *calligraphie*, from Ancient Greek *kalligraphia* (καλλιγραφία, "beautiful writing"), combining *kallos* (κάλλος, "beauty") and *graphein* (γράφειν, "to write"); first recorded in English c. 1610.
+
+### Karkhana
+- **Pronunciation:** /kɑːrˈkɑːnə/
+- **Definition:** A state-run royal workshop during the Sultanate and Mughal periods that produced luxury goods — including fine textiles, weapons, jewellery, miniature paintings, and perfumes — for the imperial court and military.
+- **Origin:** From Persian *kār-khāna* (کارخانه), combining *kār* ("work") and *khāna* ("house"); as per the *Ain-i-Akbari*, there were 36 classified *karkhanas* under Akbar's administration.
+
+## Key Terms
+
+### Indo-Islamic Architecture
+- **Pronunciation:** /ˌɪndoʊ ɪzˈlæmɪk ˈɑːrkɪtɛktʃər/
+- **Definition:** The distinctive architectural style that emerged in the Indian subcontinent from the 12th century onwards through the synthesis of Islamic building techniques — true arches, domes, minarets, and calligraphic decoration — with indigenous Indian elements such as corbelling, lotus motifs, and elaborate stone carving, producing monuments ranging from the Qutub Minar to the Taj Mahal.
+- **Origin:** A modern art-historical term combining *Indo-* (from Greek *Indos*, "India") and *Islamic* (from Arabic *Islām*, "submission to God"); the style evolved as Muslim rulers employed local Hindu and Jain craftsmen (*silpis*) who applied Indian techniques to Islamic architectural plans.
+
+### Sufi Literature
+- **Pronunciation:** /ˈsuːfi ˈlɪtərətʃər/
+- **Definition:** A body of literary works in Persian, Arabic, Urdu, Punjabi, Sindhi, and other languages that express and propagate Sufi mystical thought, including *malfuzat* (recorded sayings of saints), *maktubat* (letters of spiritual guidance), *tazkiras* (hagiographical biographies), and devotional poetry — which enriched Indian vernacular literatures and promoted inter-communal understanding.
+- **Origin:** *Sufi* derives from Arabic *ṣūfī* (صوفي), most likely from *ṣūf* (صوف, "wool"), referring to the coarse woollen garments worn by early Muslim ascetics; *literature* from Latin *litteratura* ("writing, learning").
+
+---
+
 *Sources: ASI (asi.nic.in), Ain-i-Akbari (Abul Fazl), NCERT — Themes in Indian History Part II, Satish Chandra — History of Medieval India, Irfan Habib — Cambridge Economic History of India, UNESCO World Heritage Centre*

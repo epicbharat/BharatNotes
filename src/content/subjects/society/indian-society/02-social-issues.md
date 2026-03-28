@@ -252,6 +252,39 @@ tags:
 
 ---
 
+## Vocabulary
+
+### Inequality
+- **Pronunciation:** /ˌɪnɪˈkwɒləti/
+- **Definition:** The uneven distribution of resources, opportunities, income, or social status among individuals or groups within a society, resulting in disparities in living standards and life outcomes.
+- **Origin:** From Middle English, from Old French *inequalite*, from Latin *inaequālitās*, from *in-* ("not") + *aequālitās* ("equality"), from *aequālis* ("equal").
+
+### Marginalised
+- **Pronunciation:** /ˈmɑːrdʒɪnəˌlaɪzd/
+- **Definition:** Pushed to the edges of society and denied full access to rights, resources, opportunities, and social participation — typically on the basis of caste, class, gender, ethnicity, disability, or religion.
+- **Origin:** From *margin* (Latin *margō*, "edge, border") + *-alize* + *-ed*; the verb *marginalize* entered English usage in the early 20th century, with the OED's earliest evidence from the social sciences.
+
+### Stigma
+- **Pronunciation:** /ˈstɪɡmə/
+- **Definition:** A mark of social disgrace or disapproval attached to a person or group on account of a particular characteristic — such as caste, poverty, disability, or illness — leading to discrimination, exclusion, and diminished self-worth.
+- **Origin:** From Latin *stigma* ("mark, brand"), from Greek *stizein* ("to tattoo"); originally referred to a physical mark branded or cut into the skin of slaves or criminals in ancient Greece and Rome.
+
+---
+
+## Key Terms
+
+### Social Exclusion
+- **Pronunciation:** /ˈsoʊʃəl ɪkˈskluːʒən/
+- **Definition:** A process by which individuals or groups are systematically denied full participation in the economic, social, political, and cultural life of a society, often on the basis of caste, gender, disability, ethnicity, or economic status.
+- **Origin:** The concept was developed in French social policy discourse in the 1970s by René Lenoir, then Secretary of State for Social Action in France, in his 1974 work *Les Exclus*; it was subsequently adopted by the European Union and international development agencies as a framework for understanding multidimensional deprivation.
+
+### Affirmative Action
+- **Pronunciation:** /əˈfɜːrmətɪv ˈækʃən/
+- **Definition:** Policies and measures — including reservations in education, employment, and political representation — designed to promote the advancement of historically disadvantaged groups and to correct the effects of past discrimination.
+- **Origin:** The term was first used in its modern policy sense by US President John F. Kennedy in Executive Order 10925, signed on 6 March 1961, which required federal contractors to take "affirmative action" to ensure non-discrimination; in India, the constitutional basis for affirmative action lies in Articles 15(4), 16(4), and related provisions enabling reservations for SCs, STs, OBCs, and EWS.
+
+---
+
 ## Current Affairs Connect
 
 | Resource | Link |

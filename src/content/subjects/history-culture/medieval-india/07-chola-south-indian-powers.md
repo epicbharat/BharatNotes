@@ -216,4 +216,35 @@ Medieval South India was shaped by a succession of powerful dynasties — **Pall
 
 ---
 
+## Vocabulary
+
+### Maritime
+- **Pronunciation:** /ˈmærɪtaɪm/
+- **Definition:** Relating to the sea, navigation, or seafaring activities, especially overseas trade and naval expeditions.
+- **Origin:** From Latin *maritimus* ("of the sea, near the sea"), from *mare* (genitive *maris*, "sea"), from Proto-Indo-European *mori-* ("body of water"), plus the suffix *-timus* denoting close association; entered English via French in the mid-16th century.
+
+### Irrigation
+- **Pronunciation:** /ˌɪrɪˈɡeɪʃən/
+- **Definition:** The artificial supply of water to agricultural land through channels, canals, tanks, or other systems to support crop cultivation, a practice at which the Cholas excelled through constructions such as the Kallanai (Grand Anicut) on the Kaveri river.
+- **Origin:** From Latin *irrigatio* ("a watering"), from *irrigare* ("to lead water to, flood"), combining *in-* ("into") and *rigare* ("to wet, moisten"); borrowed into English via Middle French in the early 17th century.
+
+### Inscription
+- **Pronunciation:** /ɪnˈskrɪpʃən/
+- **Definition:** Text carved or engraved on a durable surface such as stone, metal, or temple walls, serving as an official record of royal edicts, land grants, administrative procedures, or religious dedications.
+- **Origin:** From Latin *inscriptio* ("a writing upon"), from *inscribere* ("to write upon"), combining *in-* ("into, onto") and *scribere* ("to write"); entered English in the late Middle English period.
+
+## Key Terms
+
+### Chola Navy
+- **Pronunciation:** /ˈtʃoʊlə ˈneɪvi/
+- **Definition:** The maritime military force of the Chola dynasty, most notably under Rajendra Chola I, who in 1025 CE launched an unprecedented naval expedition against the Srivijaya Empire in Southeast Asia — the first recorded overseas military campaign by an Indian ruler — to secure Indian Ocean trade routes and break Srivijayan control over the Strait of Malacca.
+- **Origin:** *Chola* (சோழர்) is a Tamil dynastic name of uncertain etymology, possibly meaning "newly grown" or derived from the name of the region in the Kaveri delta; the dynasty revived under Vijayalaya Chola (c. 848 CE) and became a major naval power by the 11th century.
+
+### Uttaramerur Inscription
+- **Pronunciation:** /ˌʊtərɑːˈmeɪruːr/
+- **Definition:** A series of stone inscriptions at Uttaramerur village in Kanchipuram district, Tamil Nadu, dating from the reign of Parantaka Chola I (c. 10th century CE), which describe in remarkable detail the electoral process for village committees (*variyam*) — including qualifications for candidates, selection by lot using palm-leaf ballots drawn by a child, and the functions of specialised committees for irrigation, gardens, and auditing — representing one of the earliest documented systems of local democratic self-governance in the world.
+- **Origin:** The village name *Uttaramerur* (also *Uthiramerur*) comes from Sanskrit/Tamil, with the 10th-century inscription calling it "Uttaramerur Chaturvedi Mangalam," indicating a *brahmadeya* (Brahmin-granted) village where the *sabha* (assembly) governed local affairs.
+
+---
+
 *Sources: Uttaramerur Inscriptions, Aihole Inscription, ASI (asi.nic.in), NCERT — Themes in Indian History Part I, Burton Stein — A History of India, UNESCO World Heritage Centre, K.A. Nilakanta Sastri — The Cholas*

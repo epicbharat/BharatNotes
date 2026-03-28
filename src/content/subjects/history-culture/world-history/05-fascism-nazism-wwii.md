@@ -244,4 +244,37 @@ The interwar period (1919–1939) saw the rise of totalitarian ideologies — Fa
 
 ---
 
+## Vocabulary
+
+### Fascism
+- **Pronunciation:** /ˈfæʃɪzəm/
+- **Definition:** A far-right, authoritarian, ultranationalist political ideology characterised by dictatorial power, forcible suppression of opposition, and strong regimentation of society and the economy — first embodied by Mussolini's regime in Italy (1922--1943).
+- **Origin:** From Italian *fascismo*, from *fascio* ("bundle, group") + *-ismo* ("-ism"); derived from Latin *fascēs*, the bundle of rods and an axe carried by Roman magistrates as a symbol of authority; Mussolini adopted the term for his *Fasci di Combattimento* ("fighting bands") in 1919.
+
+### Totalitarian
+- **Pronunciation:** /ˌtoʊtælɪˈtɛəriən/
+- **Definition:** Relating to a system of government in which the state holds absolute control over all aspects of public and private life, permitting no rival loyalties or independent institutions.
+- **Origin:** From Italian *totalitario* ("total, absolute") + English suffix "-an"; coined in the 1920s, initially used by opponents of Mussolini's regime; later adopted by Mussolini himself as a term of praise for his state.
+
+### Holocaust
+- **Pronunciation:** /ˈhɒləkɔːst/
+- **Definition:** The systematic, state-sponsored genocide perpetrated by Nazi Germany and its collaborators during World War II, resulting in the murder of approximately six million Jews — along with millions of Roma, disabled persons, political opponents, and others.
+- **Origin:** From Middle English, via Late Latin *holocaustum*, from Ancient Greek *holokauston* (ὁλόκαυστον) — *holos* ("whole") + *kaustos* ("burnt"); originally a religious term for a burnt offering; applied to the Nazi genocide from the 1950s, with the Hebrew term *Shoah* ("catastrophe") used in parallel.
+
+---
+
+## Key Terms
+
+### Nuremberg Trials
+- **Pronunciation:** /ˈnjʊərəmbɜːɡ ˈtraɪəlz/
+- **Definition:** The series of military tribunals held from 20 November 1945 to 1 October 1946 at Nuremberg, Germany, in which the International Military Tribunal tried 22 major Nazi leaders for crimes against peace, war crimes, and crimes against humanity — 12 were sentenced to death, and the trials established the principle that individuals bear responsibility for war crimes regardless of superior orders.
+- **Origin:** Named after Nuremberg (German: *Nurnberg*), the Bavarian city chosen as the trial venue because its Palace of Justice was largely undamaged and had a large prison attached; the city also carried symbolic weight as the former site of major Nazi Party rallies.
+
+### Axis Powers
+- **Pronunciation:** /ˈæksɪs ˈpaʊəz/
+- **Definition:** The military alliance of Germany, Italy, and Japan — formalised by the Tripartite Pact of September 1940 — that opposed the Allied Powers in World War II; later joined by Hungary, Romania, Bulgaria, and others.
+- **Origin:** From the Rome-Berlin Axis, a term coined by Mussolini on 1 November 1936 when he declared that the line between Rome and Berlin was "an axis around which all European states animated by the will to collaboration and peace can revolve."
+
+---
+
 *Sources: Ian Kershaw — Hitler: A Biography, Richard J. Evans — The Third Reich Trilogy, Antony Beevor — The Second World War, NCERT World History Textbooks, United States Holocaust Memorial Museum (ushmm.org)*

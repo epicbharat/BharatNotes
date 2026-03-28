@@ -183,4 +183,35 @@ The Mahajanapada period marks India's **second urbanization** (the first being t
 
 ---
 
+## Vocabulary
+
+### Republic
+- **Pronunciation:** /rɪˈpʌblɪk/
+- **Definition:** A form of government in which power is held by the people or their elected representatives rather than by a monarch or emperor.
+- **Origin:** From Latin *res publica* ("public affair"), combining *res* ("thing, matter") and *publica* ("of the people"); entered English via French *republique* in the early 17th century.
+
+### Coinage
+- **Pronunciation:** /ˈkɔɪnɪdʒ/
+- **Definition:** The system or process of minting metal money, or the coins collectively produced and circulated within an economy.
+- **Origin:** From Old French *coignage*, derived from *coignier* ("to coin"), ultimately from Latin *cuneus* ("wedge"), referring to the die used to stamp metal into coins; first attested in English c. 1380.
+
+### Guild
+- **Pronunciation:** /ɡɪld/
+- **Definition:** An organised association of artisans or merchants who regulate the practice of their craft or trade in a particular area.
+- **Origin:** From Old English *gegield* ("brotherhood, guild") and *gield* ("payment, tribute"), from Proto-Germanic *geldja-* ("payment, contribution"), reflecting the dues paid by members to join a protective society.
+
+## Key Terms
+
+### Magadha
+- **Pronunciation:** /ˈmʌɡədʰɑː/
+- **Definition:** An ancient kingdom in the eastern Gangetic plain (modern south Bihar) that rose to dominance among the sixteen Mahajanapadas due to its fertile land, iron ore deposits, strategic location, and able rulers, eventually forming the core of the Maurya Empire.
+- **Origin:** From Sanskrit *Magadha* (मगध), the name of the region and its inhabitants; the etymology is uncertain but may relate to the ancient tribe that settled the area south of Patna.
+
+### Second Urbanisation
+- **Pronunciation:** /ˈsɛkənd ˌɜːbənaɪˈzeɪʃən/
+- **Definition:** The resurgence of urban centres in the Gangetic plain from c. 600 BCE onwards — after the decline of the Indus Valley Civilisation — characterised by the growth of cities like Pataliputra and Varanasi, the introduction of coinage, iron technology, trade guilds, and the emergence of Buddhism and Jainism.
+- **Origin:** A modern historiographical term coined by archaeologists and historians to distinguish this phase of city growth in the Ganges valley from the earlier "first urbanisation" of the Indus Valley Civilisation (c. 2600–1900 BCE).
+
+---
+
 *Sources: Anguttara Nikaya, NCERT Ancient India (R.S. Sharma), Romila Thapar — Early India, Upinder Singh — A History of Ancient and Early Medieval India*

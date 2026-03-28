@@ -273,4 +273,35 @@ Sufism (**Tasawwuf**) is the **mystical dimension of Islam**, emphasising the in
 
 ---
 
+## Vocabulary
+
+### Devotion
+- **Pronunciation:** /dɪˈvəʊʃən/
+- **Definition:** Profound love, loyalty, and dedication to a deity or spiritual practice, especially the intensely personal and emotional attachment between a devotee and God that forms the core of the Bhakti tradition.
+- **Origin:** From Old French *devocion*, from Latin *dēvōtiō* ("act of consecrating by a vow"), from *dēvovēre* ("to vow, dedicate"), combining *dē-* ("down, completely") and *vovēre* ("to vow"); in Church Latin it acquired the sense of "piety, devotion to God."
+
+### Mysticism
+- **Pronunciation:** /ˈmɪstɪˌsɪzəm/
+- **Definition:** The belief in and pursuit of direct, personal experience of the divine through spiritual practices such as meditation, prayer, and asceticism, rather than through scripture or ritual alone.
+- **Origin:** From *mystic* + *-ism*, from Old French *mistique*, from Latin *mysticus* ("of secret rites"), from Ancient Greek *mystikos* (μυστικός, "secret"), from *mystēs* (μύστης, "one who has been initiated"), from *myō* (μύω, "to close one's lips or eyes"); first attested in English c. 1722.
+
+### Khanqah
+- **Pronunciation:** /ˈkɑːnəɡɑː/
+- **Definition:** A Sufi hospice or residential centre for spiritual practice, communal worship, and charitable activities, where a shaikh and his disciples live, meditate, and serve the poor.
+- **Origin:** From the Arabised form of Persian *khānagāh*, a compound of *khāna* ("house") and *gāh* ("place"); the institution appeared in Khurasan and Transoxiana from the 10th century CE as centres of Sufi teaching and prayer.
+
+## Key Terms
+
+### Bhakti Movement
+- **Pronunciation:** /ˈbʌkti ˈmuːvmənt/
+- **Definition:** A devotional reform movement originating among the Alvars and Nayanars of Tamil Nadu (c. 6th–9th century CE) and spreading across India by the 15th–17th century, which emphasised personal love for God (either formless *nirguna* or with form *saguna*), challenged caste hierarchy and priestly monopoly, and enriched regional vernacular literatures.
+- **Origin:** *Bhakti* comes from Sanskrit root *bhaj* (भज्, "to divide, share, partake, belong to"), acquiring the meaning of "devotion, attachment, worship"; *movement* from Latin *movēre* ("to move").
+
+### Chishti Order
+- **Pronunciation:** /ˈtʃɪʃti ˈɔːrdər/
+- **Definition:** The most popular and influential Sufi order (*silsilah*) in the Indian subcontinent, founded by Abu Ishaq Shami in Chisht, Afghanistan (c. 930 CE) and brought to India by Khwaja Muinuddin Chishti (Ajmer, c. 1192), characterised by emphasis on divine love, rejection of state patronage, service to the poor, and the use of devotional music (*sama*/qawwali) as a path to spiritual ecstasy.
+- **Origin:** Named after the town of *Chisht* (also spelled Chesht) near Herat in present-day Afghanistan, where the order's foundational practices were established; the Persian form is *Chishtiyya* (چشتیه).
+
+---
+
 *Sources: Nalayira Divya Prabandham, Guru Granth Sahib, Kabir — Bijak, NCERT — Themes in Indian History Part II, Satish Chandra — History of Medieval India, Irfan Habib — Cambridge Economic History of India*

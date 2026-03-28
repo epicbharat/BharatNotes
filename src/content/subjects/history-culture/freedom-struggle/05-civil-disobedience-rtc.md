@@ -247,4 +247,33 @@ The movement spread rapidly beyond the salt issue:
 
 ---
 
+## Vocabulary
+
+### Civil Disobedience
+- **Pronunciation:** /ˈsɪvəl ˌdɪsəˈbiːdiəns/
+- **Definition:** The deliberate, non-violent refusal to obey unjust laws or governmental demands as a collective means of forcing political concessions, most notably employed by Gandhi to challenge British colonial authority in India.
+- **Origin:** Coined by Henry David Thoreau as the title of his 1866 essay (originally published in 1849 as "Resistance to Civil Government"); from Latin cīvīlis ("relating to a citizen") + Old French desobedience ("refusal to obey").
+
+### Salt March
+- **Pronunciation:** /sɒlt mɑːtʃ/
+- **Definition:** A 387-kilometre march led by Mahatma Gandhi from Sabarmati Ashram to the coastal village of Dandi (12 March to 6 April 1930), during which Gandhi and his followers broke the British salt law by making salt from seawater, launching the mass Civil Disobedience Movement.
+- **Origin:** English compound; also known as the Dandi March, Dandi Satyagraha, or Salt Satyagraha; named after the commodity (salt) whose taxation symbolised British oppression of the poorest Indians.
+
+### Purna Swaraj
+- **Pronunciation:** /ˈpʊərnɑː swəˈrɑːdʒ/
+- **Definition:** The declaration of complete independence from British rule, adopted as the goal of the Indian National Congress at its Lahore session on 19 December 1929, replacing the earlier demand for Dominion Status.
+- **Origin:** From Sanskrit pūrṇa ("complete, full") + svarāja ("self-rule, sovereignty," from sva, "one's own" + rāja, "rule"); 26 January 1930 was celebrated as the first Purna Swaraj Day, and the date was later chosen for Republic Day.
+
+## Key Terms
+
+### Dandi March
+- **Pronunciation:** /ˈdɑːndi mɑːtʃ/
+- **Definition:** The 24-day, 387-kilometre march led by Gandhi with 78 volunteers from Sabarmati Ashram to Dandi on the Gujarat coast (12 March - 6 April 1930), where he broke the British salt monopoly by picking up natural salt, sparking the nationwide Civil Disobedience Movement that resulted in over 60,000 arrests.
+- **Origin:** Named after Dandi, a coastal village in Gujarat's Navsari district where Gandhi symbolically broke the salt law on 6 April 1930; also called the Salt March or Salt Satyagraha.
+
+### Round Table Conference
+- **Pronunciation:** /raʊnd ˈteɪbəl ˈkɒnfərəns/
+- **Definition:** A series of three conferences (1930-1932) held in London between British officials and Indian political representatives to discuss constitutional reforms for India, which ultimately led to the Government of India Act, 1935; notable for the communal deadlock at the Second RTC and the absence of Congress at the First and Third.
+- **Origin:** English compound; the "round table" format symbolised equality among participants; the conferences were convened by the British government following the Simon Commission's report and held at the Royal Institute of International Affairs, London.
+
 *Sources: Bipan Chandra — India's Struggle for Independence, NCERT — Themes in Indian History Part III, Judith Brown — Gandhi: Prisoner of Hope, B.R. Ambedkar — Annihilation of Caste*

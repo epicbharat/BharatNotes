@@ -344,3 +344,36 @@ Ethical leadership in governance requires:
 6. **Provide a balanced conclusion** -- acknowledge tensions (e.g., transparency vs privacy) and suggest a principled resolution
 
 > **Key Insight:** GS4 marks heavily depend on demonstrating that you have internalised ethical values, not merely memorised definitions. Use personal conviction in your writing -- phrases like "I believe," "in my considered view," and "as a public servant, I would" signal moral ownership rather than textbook recitation.
+
+---
+
+## Vocabulary
+
+### Propaganda
+- **Pronunciation:** /ˌprɒpəˈɡændə/
+- **Definition:** The systematic dissemination of information — often biased, selective, or misleading — by a state, organisation, or movement to promote a particular political cause, ideology, or point of view.
+- **Origin:** From New Latin *prōpāganda*, short for *Congregātiō dē Prōpāgandā Fidē* ("Congregation for Propagating the Faith"), a committee of cardinals established by Pope Gregory XV in 1622 to supervise foreign missions; the political sense developed in the early 20th century.
+
+### Misinformation
+- **Pronunciation:** /ˌmɪsɪnfərˈmeɪʃən/
+- **Definition:** False or inaccurate information that is spread regardless of intent to deceive, distinguishing it from disinformation, which involves deliberate deception.
+- **Origin:** Formed from the prefix *mis-* ("wrongly, badly") + *information*; attested in English from the late 16th century.
+
+### Anonymity
+- **Pronunciation:** /ˌænəˈnɪmɪti/
+- **Definition:** The state of being unidentified or unrecognisable, particularly in the context of communications where the identity of the author or source is concealed from the audience and from authorities.
+- **Origin:** From Latin *anonymus*, from Ancient Greek *anṓnymos* ("nameless"), from *an-* ("without") + *ónyma* ("name") + the suffix *-ity*.
+
+---
+
+## Key Terms
+
+### Data Privacy
+- **Pronunciation:** /ˈdeɪtə ˈprɪvəsi/
+- **Definition:** The right of individuals to control how their personal information is collected, stored, processed, and shared, and the corresponding legal and ethical frameworks that protect this right; in India, governed by the Digital Personal Data Protection Act, 2023.
+- **Origin:** The concept evolved from mid-20th-century concerns about computerised record-keeping; foundational principles were codified in the Fair Information Practice Principles (FIPPs) of the 1970s and have since been enshrined in laws such as the EU's GDPR (2018) and India's DPDP Act (2023).
+
+### Digital Ethics
+- **Pronunciation:** /ˈdɪdʒɪtəl ˈɛθɪks/
+- **Definition:** The branch of applied ethics that examines moral principles and standards governing responsible behaviour by individuals, organisations, and governments in the creation, use, and regulation of digital technologies, data, and online platforms.
+- **Origin:** Emerged as a distinct field in the late 20th century alongside the rise of the internet and digital computing; draws on classical ethical traditions (consequentialism, deontology, virtue ethics) applied to novel challenges such as algorithmic bias, surveillance, data ownership, and AI governance.

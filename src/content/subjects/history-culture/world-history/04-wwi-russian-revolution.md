@@ -217,4 +217,37 @@ World War I (1914–1918) was the first truly global conflict — over 16 millio
 
 ---
 
+## Vocabulary
+
+### Trench
+- **Pronunciation:** /trɛntʃ/
+- **Definition:** A long, narrow excavation dug in the ground by troops as a defensive position from which to fire upon the enemy — trench warfare became the defining feature of the Western Front in World War I.
+- **Origin:** From Old French *trenche* ("a cut, a slash"), from *trenchier* ("to cut"), from Latin *truncāre* ("to cut off, maim"); the term "trench warfare" first appeared in the 1880s and became widely used from 1914.
+
+### Armistice
+- **Pronunciation:** /ˈɑːmɪstɪs/
+- **Definition:** A formal agreement between warring parties to cease hostilities, often as a prelude to peace negotiations — the Armistice of 11 November 1918 ended fighting on the Western Front of World War I.
+- **Origin:** From Late Latin *armistitium*, combining Latin *arma* ("arms, weapons") + *sistere* ("to cause to stand, to stop"); entered English in the late 1600s.
+
+### Bolshevik
+- **Pronunciation:** /ˈbɒlʃəvɪk/
+- **Definition:** A member of the radical wing of the Russian Social Democratic Labour Party, led by Vladimir Lenin, which seized power in the October Revolution of 1917 and established the world's first communist state.
+- **Origin:** From Russian *bol'shevik* (большевик), derived from *bol'she* ("greater, larger"), because the faction won a majority on key votes at the party's Second Congress in 1903; contrasted with *Menshevik* ("minority").
+
+---
+
+## Key Terms
+
+### Treaty of Versailles
+- **Pronunciation:** /ˈtriːti əv vɛəˈsaɪ/
+- **Definition:** The peace treaty signed on 28 June 1919 at the Palace of Versailles that formally ended World War I — it imposed the War Guilt Clause (Article 231), 132 billion gold marks in reparations, severe territorial losses (including Alsace-Lorraine), and military restrictions on Germany, while establishing the League of Nations.
+- **Origin:** Named after the Palace of Versailles, France, where the treaty was negotiated and signed by the Allied Powers and Germany; the same Hall of Mirrors where the German Empire had been proclaimed in 1871.
+
+### October Revolution
+- **Pronunciation:** /ɒkˈtoʊbə ˌrɛvəˈluːʃən/
+- **Definition:** The Bolshevik seizure of power on 7 November 1917 (25 October in the Julian Calendar), when Lenin's forces, organised by Trotsky through the Military Revolutionary Committee, captured the Winter Palace in Petrograd and overthrew the Provisional Government, establishing Soviet rule.
+- **Origin:** Named "October Revolution" after its date in the Julian Calendar (which Russia used until February 1918); also called the Bolshevik Revolution or the Great October Socialist Revolution.
+
+---
+
 *Sources: John Keegan — The First World War, Orlando Figes — A People's Tragedy: The Russian Revolution, Britannica Academic, NCERT World History Textbooks*

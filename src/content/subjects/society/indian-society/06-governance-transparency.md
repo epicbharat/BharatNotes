@@ -293,6 +293,39 @@ Instituted to recognise outstanding work by districts and organisations in imple
 
 ---
 
+## Vocabulary
+
+### Grievance
+- **Pronunciation:** /ˈɡriːvəns/
+- **Definition:** A formal complaint by a citizen or stakeholder regarding inadequate, delayed, or unjust delivery of a public service, or any action by a public authority that causes harm or dissatisfaction.
+- **Origin:** From Middle English *grevaunce*, from Old French *grevance* ("hardship, harm"), from *grever* ("to burden, oppress"), from Latin *gravāre* ("to weigh down"), from *gravis* ("heavy").
+
+### Redressal
+- **Pronunciation:** /rɪˈdrɛsəl/
+- **Definition:** The process of receiving, investigating, and resolving complaints or grievances through an institutional mechanism, providing a remedy or corrective action to the affected person.
+- **Origin:** From *redress* (Middle English, from Old French *redrecier*, "to set right again", from *re-* + *drecier*, "to arrange, direct") + *-al*; *redress* ultimately derives from Latin *re-* ("back") + *directiāre* ("to straighten").
+
+### Whistleblower
+- **Pronunciation:** /ˈwɪsəlˌbloʊər/
+- **Definition:** A person — often an employee or insider — who reports corruption, fraud, misuse of power, or other wrongdoing within a public or private organisation to the competent authority or to the public, at potential personal risk.
+- **Origin:** From *whistle* (Old English *hwistlian*, "to make a shrill sound") + *blower* (Old English *blāwere*, "one who blows"); the metaphorical sense of exposing wrongdoing emerged in the 1930s and was popularised in the 1970s by consumer-rights activist Ralph Nader.
+
+---
+
+## Key Terms
+
+### Lokpal and Lokayuktas
+- **Pronunciation:** /ˈloʊkpɑːl/ and /ˌloʊkɑːˈjʊktɑː/
+- **Definition:** Statutory anti-corruption ombudsman institutions in India — the Lokpal at the central level and Lokayuktas at the state level — empowered to inquire into allegations of corruption against public servants, including the Prime Minister (with safeguards), Union Ministers, MPs, and government officials, established under the Lokpal and Lokayuktas Act, 2013.
+- **Origin:** *Lokpal* is from Sanskrit *lokapāla* ("protector of the people"), from *loka* ("people") + *pāla* ("caretaker"); the term was coined by Dr. L.M. Singhvi in 1963; *Lokayukta* is from Sanskrit *loka* ("people") + *āyukta* ("appointed one"); Maharashtra established India's first Lokayukta in 1971.
+
+### Social Audit
+- **Pronunciation:** /ˈsoʊʃəl ˈɔːdɪt/
+- **Definition:** A participatory accountability process in which beneficiaries and community members examine official records, verify physical works, and assess whether government expenditure matches actual implementation on the ground — mandated under MGNREGA for the Gram Sabha to conduct at least once every six months.
+- **Origin:** The concept of social audit was first articulated in the 1950s; Charles Medawar pioneered its application in 1972; in India, the Mazdoor Kisan Shakti Sangathan (MKSS) in Rajasthan championed grassroots social audits in the mid-1990s, and MGNREGA (2005) became the first Indian law to mandate social audits by the Gram Sabha.
+
+---
+
 ## Current Affairs Connect
 
 Stay updated on governance-related current affairs for UPSC preparation:

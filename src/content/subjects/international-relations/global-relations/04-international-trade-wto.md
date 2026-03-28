@@ -263,3 +263,36 @@ Launched in **2020**, PLI schemes across **14 sectors** aim to boost domestic ma
 - PLI schemes as industrial policy — WTO compatibility under SCM Agreement
 - MC13 outcomes and the future of the e-commerce moratorium
 - India's FTA pivot: from defensive (RCEP exit) to offensive (CEPA/ECTA blitz since 2022)
+
+---
+
+## Vocabulary
+
+### Protectionism
+- **Pronunciation:** /prəˈtɛkʃənɪzəm/
+- **Definition:** A government policy of shielding domestic industries from foreign competition through tariffs, quotas, and other trade barriers.
+- **Origin:** From French *protectionnisme* (protection + -ism); first attested in English in the 1840s.
+
+### Subsidy
+- **Pronunciation:** /ˈsʌbsɪdi/
+- **Definition:** A direct financial contribution or tax benefit granted by a government to a domestic producer or exporter to support an economic or policy objective.
+- **Origin:** From Middle English *subsidie*, via Anglo-French from Latin *subsidium* ("auxiliary force, reserve, help"), from *sub-* ("under") + *sedēre* ("to sit").
+
+### Quota
+- **Pronunciation:** /ˈkwoʊtə/
+- **Definition:** A government-imposed numerical limit on the quantity of a specific good that may be imported or exported during a defined period.
+- **Origin:** From Medieval Latin *quota* (short for *quota pars*, "how great a part"), feminine of *quotus* ("how many"); first used in English around 1618.
+
+---
+
+## Key Terms
+
+### Most Favoured Nation
+- **Pronunciation:** /moʊst ˈfeɪvərd ˈneɪʃən/
+- **Definition:** A WTO principle enshrined in Article I of GATT requiring that any trade advantage, favour, or privilege granted by one member to any product of another member must be extended unconditionally to the like products of all other WTO members.
+- **Origin:** The concept dates to 11th-century trade treaties; it was codified as a cornerstone of the multilateral trading system through GATT in 1947 and inherited by the WTO in 1995.
+
+### Doha Round
+- **Pronunciation:** /ˈdoʊhɑː raʊnd/
+- **Definition:** The ninth and latest round of multilateral trade negotiations under the WTO, launched at the Fourth Ministerial Conference in Doha, Qatar, in November 2001, with the stated objective of lowering trade barriers and reforming trade rules to benefit developing countries.
+- **Origin:** Named after Doha, the capital of Qatar, where the ministerial conference that launched the negotiations took place; also called the Doha Development Agenda.

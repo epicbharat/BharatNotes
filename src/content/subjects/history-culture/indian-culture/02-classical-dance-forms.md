@@ -194,4 +194,33 @@ India recognizes **eight classical dance forms**, each rooted in the **Natyashas
 
 ---
 
+## Vocabulary
+
+### Mudra
+- **Pronunciation:** /muˈdrɑː/
+- **Definition:** A symbolic or ritual hand gesture used in Indian classical dance, yoga, Hindu and Buddhist iconography to convey specific meanings, emotions, or spiritual concepts; the Natyashastra describes 24 basic mudras and the Abhinaya Darpana lists 28.
+- **Origin:** From Sanskrit mudrā ("seal, stamp, mark"), related to the concept of imprinting meaning through gesture; the term was later adopted in yoga and meditation traditions.
+
+### Abhinaya
+- **Pronunciation:** /əˈbhɪnəjə/
+- **Definition:** The art of expression in Indian performing arts — the technique of "leading an audience towards" the experience of an aesthetic emotion (rasa) through four means: body movements (angika), speech (vachika), costume and makeup (aharya), and emotional states (sattvika).
+- **Origin:** From Sanskrit abhi- ("towards") + nī ("to lead, to guide"), literally meaning "carrying towards" the audience; codified in Bharata Muni's Natyashastra as a fundamental element of dance and drama.
+
+### Nritta
+- **Pronunciation:** /ˈnrɪtə/
+- **Definition:** Pure rhythmic dance in the Indian classical tradition — abstract, non-narrative movement that showcases rhythm, speed, and technical skill through footwork and body patterns, without conveying any specific story or emotion.
+- **Origin:** From Sanskrit nṛtta, derived from the root nṛt ("bodily movement, dance"); distinguished in the Natyashastra from nritya (expressive dance) and natya (dramatic dance).
+
+## Key Terms
+
+### Natya Shastra
+- **Pronunciation:** /ˈnɑːtjə ˈʃɑːstrə/
+- **Definition:** The foundational Sanskrit treatise on the performing arts attributed to Bharata Muni (c. 200 BCE - 200 CE), comprising 36 chapters and approximately 6,000 verses covering dance, drama, music, poetics, stage design, costume, and the theory of rasa (aesthetic emotion) that forms the basis of all Indian classical dance forms.
+- **Origin:** From Sanskrit nāṭya ("drama, dance") + śāstra ("treatise, instruction, science"), literally "the science of dramatic arts"; the text is considered the fifth Veda (Panchama Veda) of the performing arts.
+
+### Devadasi Tradition
+- **Pronunciation:** /ˈdeɪvəˌdɑːsi trəˈdɪʃən/
+- **Definition:** The historical practice of dedicating women to the service of a temple deity, where they performed ritual dance and music as part of daily worship; the Devadasi system preserved classical dance forms like Bharatanatyam and Odissi for centuries before 20th-century revival movements separated the art forms from the temple institution.
+- **Origin:** From Sanskrit deva ("god, deity") + dāsī ("female servant"), literally "servant of god"; the tradition developed from approximately the 3rd century CE and was legally abolished in various Indian states during the 20th century.
+
 *Sources: Sangeet Natak Akademi (sangeetnatak.gov.in), Centre for Cultural Resources and Training (ccrtindia.gov.in), Kapila Vatsyayan — Classical Indian Dance in Literature and the Arts, Natyashastra of Bharata Muni*

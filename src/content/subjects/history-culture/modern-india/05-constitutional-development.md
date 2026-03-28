@@ -213,4 +213,33 @@ This is the **longest Act** ever passed by the British Parliament (321 sections,
 
 ---
 
+## Vocabulary
+
+### Diarchy
+- **Pronunciation:** /ˈdaɪɑːki/
+- **Definition:** A form of government in which power is shared between two authorities; in British India, the system introduced by the Government of India Act 1919 that divided provincial subjects into "reserved" (under the Governor) and "transferred" (under elected Indian ministers).
+- **Origin:** From Greek di- ("two, double") + -arkhia ("rule, government"); first attested in English in the 1830s.
+
+### Dyarchy
+- **Pronunciation:** /ˈdaɪɑːki/
+- **Definition:** A variant spelling of diarchy, commonly used in the context of the Montagu-Chelmsford Reforms of 1919, referring to the dual system of governance in British Indian provinces where certain subjects were administered by elected Indian ministers and others by the British-appointed Governor.
+- **Origin:** From Greek dy- (variant of di-, "two") + -arkhia ("rule"); the spelling "dyarchy" became standard in British Indian constitutional usage from 1919.
+
+### Communal Award
+- **Pronunciation:** /kəˈmjuːnəl əˈwɔːd/
+- **Definition:** A decision announced on 16 August 1932 by British Prime Minister Ramsay MacDonald that extended separate electorates to the Depressed Classes (Dalits) and other minorities for representation in provincial legislatures, triggering Gandhi's fast unto death and the subsequent Poona Pact.
+- **Origin:** English compound; "communal" from Late Latin communālis ("of or belonging to a community") and "award" from Anglo-Norman French awarder ("to judge, decide"); the specific term refers to MacDonald's 1932 constitutional decision.
+
+## Key Terms
+
+### Government of India Act 1935
+- **Pronunciation:** /ˈɡʌvənmənt əv ˈɪndiə ækt/
+- **Definition:** The longest Act passed by the British Parliament (321 sections, 10 schedules), which abolished dyarchy in the provinces, introduced provincial autonomy, established three legislative lists (Federal, Provincial, and Concurrent), created a Federal Court, and proposed an All-India Federation that was never implemented.
+- **Origin:** Named after the territory it governed; enacted by the British Parliament on 2 August 1935; it drew on the recommendations of the Simon Commission and the Round Table Conferences (1930-1932).
+
+### Nehru Report
+- **Pronunciation:** /ˈneɪruː rɪˈpɔːt/
+- **Definition:** A constitutional proposal drafted in 1928 by a committee chaired by Motilal Nehru, demanding Dominion Status for India, joint electorates with reserved seats for minorities, 19 fundamental rights, and a federal structure — the first Indian-authored blueprint for a future Indian constitution.
+- **Origin:** Named after its chairman Motilal Nehru; submitted to the All Parties Conference at Lucknow on 28 August 1928 in response to Lord Birkenhead's challenge for Indians to draft their own constitution.
+
 *Sources: M.P. Jain — Indian Constitutional Law, D.D. Basu — Introduction to the Constitution of India, Granville Austin — The Indian Constitution: Cornerstone of a Nation, NCERT — Themes in Indian History Part III, legislative.gov.in*

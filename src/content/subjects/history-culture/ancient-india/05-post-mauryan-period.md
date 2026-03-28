@@ -199,4 +199,35 @@ This period saw massive **maritime and overland trade** between India and the Ro
 
 ---
 
+## Vocabulary
+
+### Satrap
+- **Pronunciation:** /ˈsætrəp/
+- **Definition:** A provincial governor in the ancient Achaemenid (Persian) Empire, and by extension in successor Hellenistic and Indo-Scythian kingdoms that adopted the system.
+- **Origin:** From Latin *satrapes*, from Greek *satrapēs* (σατράπης), borrowed from Old Persian *xšaçapāvan* ("protector of the province"), combining *xšaça* ("realm") and *pāvan* ("protector").
+
+### Hellenistic
+- **Pronunciation:** /ˌhɛləˈnɪstɪk/
+- **Definition:** Relating to the period of Greek culture, history, and artistic influence that spread across the eastern Mediterranean and western Asia following the death of Alexander the Great in 323 BCE until the rise of Rome.
+- **Origin:** From German *hellenistisch*, from Ancient Greek *Hellēnistēs* (Ἑλληνιστής, "one who uses the Greek language"), ultimately from *Hellas* (Ἑλλάς, "Greece"); entered English in the early 18th century.
+
+### Milinda
+- **Pronunciation:** /mɪˈlɪndə/
+- **Definition:** The Pali name for the Indo-Greek king Menander I (c. 165/155–130 BCE), who ruled from Sagala (Sialkot) and is celebrated in the Buddhist text *Milindapanho* for his philosophical dialogue with the monk Nagasena.
+- **Origin:** A Pali adaptation of the Greek name *Menandros* (Μένανδρος), itself from *menos* ("strength") and *anēr* ("man"); the Indianised form reflects the linguistic assimilation of Greek names into Prakrit and Pali traditions.
+
+## Key Terms
+
+### Gandhara Art
+- **Pronunciation:** /ɡʌnˈdɑːrə ɑːrt/
+- **Definition:** A school of Buddhist sculpture that flourished in the northwestern Indian subcontinent (modern Pakistan and eastern Afghanistan) from the 1st to the 5th century CE, characterised by Greco-Roman artistic influences such as realistic musculature, wavy hair, and toga-like drapery applied to Buddhist subjects in grey schist stone.
+- **Origin:** Named after the ancient region of *Gandhāra*, possibly from Sanskrit *gandha* (गन्ध, "fragrance"), referring to the aromatic herbs traded by the region's inhabitants; the art style developed under Kushan patronage at the crossroads of the Silk Road.
+
+### Kushan Empire
+- **Pronunciation:** /ˈkuːʃən ˈɛmpaɪər/
+- **Definition:** A syncretic empire (c. 1st–3rd century CE) founded by the Yuezhi nomads from Central Asia, which at its peak under Kanishka I controlled territories from Central Asia to the Gangetic plain, patronised Gandhara art and Mahayana Buddhism, and facilitated Silk Road trade between Rome, China, and India.
+- **Origin:** From Bactrian *ΚΟϷΑΝ* (košan), related to Chinese *Guìshuāng* (貴霜), the name of one of the five Yuezhi tribal confederacy divisions; the etymology was first proposed by Alexander Cunningham in 1899.
+
+---
+
 *Sources: Periplus of the Erythraean Sea, Sangam Literature, NCERT Ancient India (R.S. Sharma), Romila Thapar — Early India, Upinder Singh — A History of Ancient and Early Medieval India*

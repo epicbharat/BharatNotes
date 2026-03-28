@@ -243,4 +243,35 @@ Despite being the dominant Indian power in the 18th century, the Maratha Empire 
 
 ---
 
+## Vocabulary
+
+### Guerrilla
+- **Pronunciation:** /ɡəˈrɪlə/
+- **Definition:** A form of irregular warfare in which small, mobile groups of fighters use hit-and-run tactics — ambushes, raids, and rapid retreats — against a larger conventional army, as perfected by Shivaji in the Western Ghats.
+- **Origin:** From Spanish *guerrilla*, a diminutive of *guerra* ("war"), itself from Germanic *werra* ("strife"); the term entered English in the early 19th century during the Peninsular War against Napoleon.
+
+### Chauth
+- **Pronunciation:** /tʃaʊθ/
+- **Definition:** An annual levy of one-fourth (25%) of the revenue of neighbouring territories claimed by the Maratha Empire as protection money in exchange for not raiding those lands.
+- **Origin:** From Sanskrit *chaturtha* (चतुर्थ, "one-fourth"), reflecting the exact proportion of revenue demanded; the tax became a major source of Maratha income from the early 18th century and was formalised through a Mughal *farman* in 1719.
+
+### Sardeshmukhi
+- **Pronunciation:** /sɑːrˈdeɪʃmuːkiː/
+- **Definition:** An additional levy of one-tenth (10%) of the revenue claimed by Shivaji and his successors over and above *chauth*, asserted on the basis of the Maratha ruler's position as *Sardeshmukh* (hereditary overlord) of Maharashtra.
+- **Origin:** From Marathi *sardeshmukh*, combining *sar* ("head, chief") and *deshmukh* ("district chief"), a hereditary revenue title in the Deccan; Shivaji claimed this title as the supreme *deshmukh* of the Maratha homeland.
+
+## Key Terms
+
+### Shivaji's Administration
+- **Pronunciation:** /ʃɪˈvɑːdʒiː/
+- **Definition:** The governance system established by Chhatrapati Shivaji Bhonsale (1630–1680), centred on the Ashtapradhan (Council of Eight Ministers) with specialised portfolios, direct land revenue collection without intermediaries, payment of soldiers in cash rather than through land grants, a formidable navy, and a network of over 300 forts — representing one of the most sophisticated indigenous state-building efforts in medieval India.
+- **Origin:** *Shivaji* (शिवाजी) is a Marathi name meaning "of Lord Shiva"; the Ashtapradhan system drew from both Deccan administrative tradition and innovations designed to prevent feudal fragmentation.
+
+### Peshwa
+- **Pronunciation:** /ˈpeɪʃwɑː/
+- **Definition:** The prime minister of the Maratha Empire, a position that became hereditary under the Bhat family from 1713 onwards, with the Peshwa eventually becoming the de facto head of the Maratha state while the Chhatrapati at Satara was reduced to a figurehead.
+- **Origin:** From Persian *pēshwā* (پيشوا, "leader, guide"), combining *pēsh* ("before, in front") and the agentive suffix *-wā*; though of Persian origin, the term became fully integrated into Marathi political vocabulary.
+
+---
+
 *Sources: Sabhasad Bakhar, Grant Duff — History of the Mahrattas, Jadunath Sarkar — Shivaji and His Times, NCERT — Themes in Indian History Part II, Satish Chandra — History of Medieval India*

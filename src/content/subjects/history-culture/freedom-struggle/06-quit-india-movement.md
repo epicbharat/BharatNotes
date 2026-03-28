@@ -243,4 +243,33 @@ The Quit India Movement did not occur in a vacuum — it was shaped by the globa
 
 ---
 
+## Vocabulary
+
+### Underground
+- **Pronunciation:** /ˌʌndəˈɡraʊnd/
+- **Definition:** Operating in secret, outside the established political or legal system; in the context of the Quit India Movement, refers to the clandestine network of leaders (such as Jayaprakash Narayan, Ram Manohar Lohia, and Aruna Asaf Ali) who evaded arrest and coordinated resistance after the British imprisoned the entire Congress leadership.
+- **Origin:** From Old English under ("beneath") + grund ("ground, foundation"); the political sense of "secret, clandestine organisation" dates from the early 19th century, popularised by European resistance movements.
+
+### Parallel Government
+- **Pronunciation:** /ˈpærəlɛl ˈɡʌvənmənt/
+- **Definition:** An alternative administrative structure established by a resistance movement to replace or displace the authority of the ruling power in a given territory; during the Quit India Movement, parallel governments were set up in Ballia, Tamluk (Tamralipta Jatiya Sarkar), and Satara (Prati Sarkar) to administer justice, collect revenue, and provide public services.
+- **Origin:** From Greek parallēlos ("beside one another") + Old French governement ("act of governing"); the concept was identified by Gene Sharp as the ultimate tactic of nonviolent revolution in his catalogue of 198 methods.
+
+### Repression
+- **Pronunciation:** /rɪˈprɛʃən/
+- **Definition:** The use of force or authority by a government to suppress political dissent, restrict civil liberties, and crush opposition movements; during the Quit India Movement, British repression included mass arrests of over 100,000 people, machine-gun fire on crowds, aerial strafing, press censorship, and collective fines on villages.
+- **Origin:** From Latin repressiōnem ("a pressing back, restraint"), from reprimere ("to press back"), from re- ("back") + premere ("to press"); first attested in English in the late 14th century.
+
+## Key Terms
+
+### August Kranti
+- **Pronunciation:** /ˈɔːɡəst ˈkrɑːnti/
+- **Definition:** Literally "August Revolution," the popular name for the Quit India Movement launched on 8 August 1942, when the All India Congress Committee at Gowalia Tank Maidan in Bombay ratified the resolution demanding immediate British withdrawal from India; the site was renamed August Kranti Maidan in commemoration.
+- **Origin:** From English "August" (the month) + Hindi krānti ("revolution," from Sanskrit krānti, "going, progress"); the term reflects the revolutionary character of the movement, which was the most radical mass upheaval of the Indian freedom struggle.
+
+### Do or Die
+- **Pronunciation:** /duː ɔːr daɪ/
+- **Definition:** The rallying call given by Mahatma Gandhi on 8 August 1942 at the launch of the Quit India Movement — "Here is a mantra, a short one, that I give you... The mantra is 'Do or Die'. We shall either free India or die in the attempt" — which encapsulated the movement's demand for total commitment to independence.
+- **Origin:** English phrase; Hindi equivalent is "Karo ya Maro"; Gandhi coined it as a succinct expression of the uncompromising resolve required for the final phase of the freedom struggle.
+
 *Sources: Bipan Chandra — India's Struggle for Independence, NCERT — Themes in Indian History Part III, Sumit Sarkar — Modern India, Francis Hutchins — India's Revolution, R.C. Majumdar — History of the Freedom Movement in India*

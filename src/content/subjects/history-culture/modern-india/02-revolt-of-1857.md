@@ -242,4 +242,35 @@ This is one of the most frequently asked questions in UPSC Mains. The table belo
 
 ---
 
+## Vocabulary
+
+### Mutiny
+- **Pronunciation:** /ˈmjuːtɪni/
+- **Definition:** An organised, forcible rebellion by soldiers or sailors against the authority of their commanding officers or the government they serve.
+- **Origin:** From obsolete French *mutiner* ("to revolt"), from *meutin* ("rebellious"), from *meute* ("a revolt, movement"), from Vulgar Latin *movita* ("a military uprising"), ultimately from Latin *movēre* ("to move"); entered English in the 1560s.
+
+### Sepoy
+- **Pronunciation:** /ˈsiːpɔɪ/
+- **Definition:** A native Indian soldier serving in the army of a European colonial power, particularly the British East India Company and later the British Indian Army.
+- **Origin:** From Portuguese *sipae*, from Urdu/Hindi *sipāhī* (सिपाही / سپاہی, "soldier"), from Classical Persian *sipāhī* (سپاهی, "horseman, soldier"), from *sipāh* (سپاه, "army"); the term was widely used from the 18th century in British India.
+
+### Annexation
+- **Pronunciation:** /ˌænɛkˈseɪʃən/
+- **Definition:** The forcible incorporation of a territory or state into the domain of another political entity, as practised by the British East India Company through policies like the Doctrine of Lapse.
+- **Origin:** From Medieval Latin *annexiationem*, from *annexare* ("to bind to"), combining Latin *ad-* ("to") and *nectere* ("to tie, bind"); entered English in the 1630s with the meaning of adding a smaller territory to a greater one.
+
+## Key Terms
+
+### Doctrine of Lapse
+- **Pronunciation:** /ˈdɒktrɪn əv læps/
+- **Definition:** A policy of territorial annexation applied by the British East India Company (most aggressively under Governor-General Lord Dalhousie, 1848–1856) whereby any princely state under Company suzerainty would be annexed if the ruler died without a natural male heir, denying the traditional Hindu right of adoption — leading to the annexation of Satara (1848), Jhansi (1853), Nagpur (1854), and other states, and generating widespread resentment that fuelled the Revolt of 1857.
+- **Origin:** *Doctrine* from Latin *doctrina* ("teaching"); *lapse* from Latin *lapsus* ("a falling, slip"), from *labi* ("to fall, slip"); the policy was articulated by the Company's Court of Directors as early as 1834 and abandoned after the 1857 revolt.
+
+### Rani of Jhansi
+- **Pronunciation:** /ˈrɑːni əv ˈdʒɑːnsi/
+- **Definition:** Rani Lakshmibai (born Manikarnika Tambe, c. 1828–1858), queen of the princely state of Jhansi, who became one of the foremost leaders of the Revolt of 1857 after the British refused to recognise her adopted son under the Doctrine of Lapse, fighting fiercely at Jhansi and Gwalior before being killed in battle on 18 June 1858 — revered as a symbol of resistance and courage in India's freedom struggle.
+- **Origin:** *Rani* (रानी) is a Sanskrit-derived word meaning "queen"; *Jhansi* (झाँसी) is a city in present-day Uttar Pradesh, and *Lakshmibai* (लक्ष्मीबाई) is derived from *Lakshmi* (the Hindu goddess of fortune) and the Marathi honorific suffix *-bai*.
+
+---
+
 *Sources: V.D. Savarkar — The Indian War of Independence (1909), R.C. Majumdar — The Sepoy Mutiny and the Revolt of 1857 (1957), S.N. Sen — Eighteen Fifty-Seven (1957), S.B. Chaudhuri — Civil Rebellion in the Indian Mutinies, Bipan Chandra — History of Modern India, NCERT — Themes in Indian History Part III, National Archives of India*

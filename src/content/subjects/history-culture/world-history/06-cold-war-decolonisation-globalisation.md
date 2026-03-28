@@ -298,4 +298,37 @@ The **General Agreement on Tariffs and Trade (GATT)** was established in 1948 as
 
 ---
 
+## Vocabulary
+
+### Proxy War
+- **Pronunciation:** /ˈprɒksi wɔː/
+- **Definition:** An armed conflict in which major powers support and direct opposing sides without engaging each other in direct combat — a defining feature of the Cold War, as the USA and USSR fought indirectly through client states in Korea, Vietnam, Afghanistan, and elsewhere.
+- **Origin:** "Proxy" from Middle English *procacy*, contraction of Anglo-Norman *procuracie* ("authority to act for another"), from Medieval Latin *procuratia*; "proxy war" first appeared in print in 1907 (Chicago Tribune) and became a standard term of Cold War analysis.
+
+### Perestroika
+- **Pronunciation:** /ˌpɛrəˈstrɔɪkə/
+- **Definition:** The programme of economic and political restructuring initiated by Soviet leader Mikhail Gorbachev from 1985, aimed at modernising the Soviet system by introducing limited market mechanisms and decentralising economic decision-making — it ultimately contributed to the dissolution of the USSR in 1991.
+- **Origin:** From Russian *перестройка* (perestroĭka), literally "restructuring" or "rebuilding"; from *pere-* ("re-") + *stroĭka* ("building, construction"); entered English in the mid-1980s.
+
+### Glasnost
+- **Pronunciation:** /ˈɡlæznɒst/
+- **Definition:** The policy of openness and transparency in government institutions and public discourse, introduced by Mikhail Gorbachev alongside perestroika in the mid-1980s, which permitted open debate, relaxed censorship, and allowed criticism of the Soviet system for the first time.
+- **Origin:** From Russian *гласность* (glasnostʹ), meaning "openness, publicity"; derived from *glasnyĭ* ("public, open"), from Old Church Slavonic *glasu* ("voice"); the term had been used in Russian since the 18th century but was popularised globally by Gorbachev from 1986.
+
+---
+
+## Key Terms
+
+### Berlin Wall
+- **Pronunciation:** /bɜːˈlɪn wɔːl/
+- **Definition:** The fortified concrete barrier erected by East Germany on 13 August 1961 to encircle West Berlin and prevent emigration to the West — it stood for 28 years as the foremost physical symbol of the Cold War's Iron Curtain, until it was breached on 9 November 1989, triggering the collapse of communist regimes across Eastern Europe.
+- **Origin:** Named after Berlin, the divided city at the heart of Cold War tensions; the German Democratic Republic officially called it the *Antifaschistischer Schutzwall* ("Anti-Fascist Protection Rampart"), though it was built to prevent East Germans from fleeing westward.
+
+### Non-Aligned Movement
+- **Pronunciation:** /nɒn əˈlaɪnd ˈmuːvmənt/
+- **Definition:** A forum of states that refused to formally align with either the Western (US-led) or Eastern (Soviet-led) bloc during the Cold War — founded at the First Summit in Belgrade (1--6 September 1961) by Nehru, Tito, Nasser, Nkrumah, and Sukarno, with 25 member nations; today it has 120 members, the largest grouping of states outside the United Nations.
+- **Origin:** The concept of "non-alignment" evolved from India's foreign policy under Nehru, the Panchsheel Agreement (1954), and the Bandung Conference (1955); the term was formalised at the Belgrade Summit in 1961.
+
+---
+
 *Sources: John Lewis Gaddis — The Cold War: A New History, Odd Arne Westad — The Cold War: A World History, Britannica Academic, NCERT World History Textbooks, United Nations (un.org)*

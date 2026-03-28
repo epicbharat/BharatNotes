@@ -259,4 +259,33 @@ The Swadeshi period also saw the rise of revolutionary organisations that believ
 
 ---
 
+## Vocabulary
+
+### Extremist
+- **Pronunciation:** /ɪkˈstriːmɪst/
+- **Definition:** In the context of the Indian national movement, a member of the assertive nationalist faction within the Indian National Congress (c. 1905-1919) who rejected moderate constitutional methods and advocated Swadeshi, Boycott, national education, and passive resistance to achieve Swaraj.
+- **Origin:** From Latin extrēmus ("outermost, utmost") + -ist (suffix denoting a person who holds a belief); first attested in English c. 1806.
+
+### Swadeshi
+- **Pronunciation:** /swəˈdeɪʃi/
+- **Definition:** A policy of nationalist self-sufficiency in India, involving the promotion of indigenous production and the boycott of foreign (especially British) goods as a means of economic resistance against colonial rule.
+- **Origin:** From Hindi svadeśī, from Sanskrit sva ("one's own") + deśa ("country") + -ī (adjective suffix), literally meaning "of one's own country."
+
+### Boycott
+- **Pronunciation:** /ˈbɔɪkɒt/
+- **Definition:** The concerted refusal to buy, use, or deal with a person, organisation, or country's products as a form of protest or coercion; in the Indian freedom struggle, the organised rejection of British-manufactured goods to weaken colonial economic control.
+- **Origin:** Named after Captain Charles C. Boycott (1832-1897), an English land agent in Ireland who was ostracised by the community in 1880 during the Irish Land League agitation; the term entered English usage the same year.
+
+## Key Terms
+
+### Partition of Bengal
+- **Pronunciation:** /pɑːˈtɪʃən əv bɛnˈɡɔːl/
+- **Definition:** The division of the Bengal Presidency on 16 October 1905 by Viceroy Lord Curzon into Eastern Bengal and Assam (Muslim-majority) and West Bengal (Hindu-majority), ostensibly for administrative efficiency but widely perceived as a "divide and rule" strategy to weaken Bengali nationalism; annulled in December 1911.
+- **Origin:** English compound referring to the administrative reorganisation of the Bengal Presidency; the decision was formally announced on 19 July 1905 and took effect on 16 October 1905.
+
+### Surat Split
+- **Pronunciation:** /ˈsʊərət splɪt/
+- **Definition:** The division of the Indian National Congress at its 1907 session in Surat into two factions — the Moderates (led by Gokhale and Pherozeshah Mehta) and the Extremists (led by Tilak and Lajpat Rai) — over fundamental disagreements on political methods and goals, which weakened the Congress for nearly a decade until reunification at the Lucknow Session of 1916.
+- **Origin:** Named after the city of Surat in Gujarat where the 1907 Congress session was held; the session descended into chaos when Moderates and Extremists clashed over the presidential election and key resolutions.
+
 *Sources: Bipan Chandra — History of Modern India, Sumit Sarkar — The Swadeshi Movement in Bengal, NCERT — Themes in Indian History Part III, S.R. Mehrotra — A History of the Indian National Congress*

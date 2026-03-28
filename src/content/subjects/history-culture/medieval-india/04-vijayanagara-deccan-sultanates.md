@@ -244,4 +244,35 @@ Mahmud Gawan, himself an Afaqi, attempted to balance these factions through admi
 
 ---
 
+## Vocabulary
+
+### Nayankara
+- **Pronunciation:** /ˈnɑːjənkɑːrə/
+- **Definition:** A system of military land tenure in the Vijayanagara Empire under which commanders (Nayakas) were assigned territories in exchange for maintaining a stipulated number of troops, collecting revenue, and remitting a share to the imperial treasury.
+- **Origin:** From Sanskrit *nāyaka* ("leader, military chief") combined with the suffix *-kara* ("office, holding"); the system evolved as the Vijayanagara Empire's method of governing distant provinces through loyal military governors.
+
+### Ayagar
+- **Pronunciation:** /ˈɑːjəɡɑːr/
+- **Definition:** A system of village administration in the Vijayanagara Empire comprising twelve hereditary functionaries — including the headman, accountant, watchman, and various artisans — who collectively managed local governance in exchange for tax-free land grants.
+- **Origin:** From a Kannada-Telugu compound meaning "village servant" or "holder of an office"; the functionaries held hereditary rights over their positions, which could even be sold or mortgaged, reflecting the deeply rooted local self-governance tradition in South India.
+
+### Amara-Nayaka
+- **Pronunciation:** /əˈmɑːrə ˈnɑːjəkə/
+- **Definition:** A military commander in the Vijayanagara Empire who held a territorial assignment called an *amaram*, with obligations to maintain troops for the king, pay revenue to the imperial treasury, and administer the assigned region.
+- **Origin:** From Sanskrit *amara* ("immortal, battle") combined with *nāyaka* ("leader, chief"); the system was influenced by the Delhi Sultanate's *iqta* model but was more decentralised, with Amara-Nayakas functioning as semi-autonomous provincial military governors.
+
+## Key Terms
+
+### Krishna Deva Raya
+- **Pronunciation:** /ˈkrɪʃnə ˈdeɪvə ˈrɑːjə/
+- **Definition:** The greatest ruler of the Vijayanagara Empire (r. 1509–1529) of the Tuluva dynasty, who defeated the Bijapur Sultanate at the Battle of Raichur (1520), conquered the Gajapati kingdom of Odisha, patronised Telugu literature through his court of Ashtadiggajas (Eight Great Poets), and authored the Telugu epic *Amuktamalyada*.
+- **Origin:** A Sanskrit compound name: *Krishna* (कृष्ण, "dark, black," a name of the deity Vishnu), *Deva* (देव, "god, divine"), and *Raya* (a Dravidianised form of Sanskrit *rāja*, "king"); thus "King Krishna Deva."
+
+### Battle of Talikota
+- **Pronunciation:** /ˈtɑːlɪkoʊtə/
+- **Definition:** The decisive battle fought on 23 January 1565 (also called the Battle of Rakkasa-Tangadi) in which a combined alliance of four Deccan Sultanates — Ahmadnagar, Bijapur, Bidar, and Golconda — defeated the Vijayanagara Empire, resulting in the death of regent Aliya Rama Raya and the destruction of Hampi, though the empire continued under the Aravidu dynasty until 1646.
+- **Origin:** Named after the town of Talikota in present-day Bijapur district, Karnataka, near which the battle was fought; *Rakkasa-Tangadi*, the alternative name, refers to the actual villages where the fighting took place.
+
+---
+
 *Sources: Inscriptions at Hampi, Domingo Paes and Fernao Nuniz chronicles, Abdur Razzaq — Matla-us-Sadain wa Majma-ul-Bahrain, NCERT — Themes in Indian History Part II, Burton Stein — Vijayanagara, ASI (asi.nic.in), UNESCO World Heritage Centre, Britannica, Wikipedia*

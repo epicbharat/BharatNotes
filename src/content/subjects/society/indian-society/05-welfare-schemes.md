@@ -251,6 +251,39 @@ The RPwD Act, 2016 replaced the Persons with Disabilities Act, 1995 and expanded
 
 ---
 
+## Vocabulary
+
+### Subsidy
+- **Pronunciation:** /ˈsʌbsɪdi/
+- **Definition:** A direct financial payment, tax concession, or in-kind benefit provided by the government to individuals, households, or producers to make essential goods or services affordable, promote specific economic activities, or achieve social welfare objectives.
+- **Origin:** From Middle English *subsidie*, via Anglo-French from Latin *subsidium* ("auxiliary force, reserve, help"), from *sub-* ("under") + *sedēre* ("to sit").
+
+### Beneficiary
+- **Pronunciation:** /ˌbɛnɪˈfɪʃiˌɛri/
+- **Definition:** A person or household that directly receives the benefits — financial transfers, goods, or services — of a government welfare scheme or social programme.
+- **Origin:** From Latin *beneficiārius* ("one who receives a benefit"), from *beneficium* ("favour, support"), from *bene* ("well") + *facere* ("to do"); first used in English in the early 1600s.
+
+### Targeting
+- **Pronunciation:** /ˈtɑːrɡɪtɪŋ/
+- **Definition:** The process of identifying and selecting specific individuals, households, or groups as intended recipients of a welfare scheme, using criteria such as income, occupation, geographic location, or social category to ensure benefits reach those most in need.
+- **Origin:** From *target* (originally a small round shield, from Old French *targette*, diminutive of *targe*) + *-ing*; the policy sense of directing resources at defined populations developed in welfare economics during the 20th century.
+
+---
+
+## Key Terms
+
+### Direct Benefit Transfer
+- **Pronunciation:** /dəˈrɛkt ˈbɛnɪfɪt ˈtrænsfɜːr/
+- **Definition:** A government reform initiative launched on 1 January 2013 that transfers subsidies, scholarships, pensions, and other welfare payments directly into beneficiaries' Aadhaar-linked bank accounts, eliminating intermediaries and reducing leakage, duplication, and delay.
+- **Origin:** Conceived as part of India's JAM (Jan Dhan-Aadhaar-Mobile) trinity for financial inclusion; piloted in 43 districts in January 2013 and expanded nationwide by December 2014.
+
+### Ayushman Bharat
+- **Pronunciation:** /ˈɑːjuʃmɑːn ˈbʰɑːrət/
+- **Definition:** India's flagship universal health protection scheme, launched on 23 September 2018, comprising two pillars — Health and Wellness Centres for comprehensive primary care, and Pradhan Mantri Jan Arogya Yojana (PM-JAY) providing cashless hospitalisation cover of Rs 5 lakh per family per year for secondary and tertiary care to the bottom 40% of the population.
+- **Origin:** *Ayushman* is from Sanskrit *āyuṣmān* ("blessed with long life"), from *āyus* ("life, longevity"); *Bharat* is the constitutional name of India, from the legendary emperor Bharata.
+
+---
+
 ## 11. Current Affairs Connect
 
 Stay updated on welfare scheme developments through current affairs analysis:

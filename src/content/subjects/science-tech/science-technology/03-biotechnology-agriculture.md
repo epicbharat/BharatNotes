@@ -256,3 +256,36 @@ ICAR has released **71+ biofortified varieties** across multiple crops. Notable 
 - India's bioeconomy growth — BioE3 policy and circular bioeconomy
 - Genome India — precision medicine for diverse populations
 - Precision agriculture and vertical farming — technology-driven solutions for small landholdings
+
+---
+
+## Vocabulary
+
+### Biopesticide
+- **Pronunciation:** /ˌbaɪoʊˈpɛstɪˌsaɪd/
+- **Definition:** A pest-control agent derived from natural biological sources — such as bacteria, fungi, viruses, or plant extracts — used as an environmentally safer alternative to synthetic chemical pesticides.
+- **Origin:** A compound of Greek *bios* ("life") + Latin *pestis* ("plague, pest") + *-cide* (from Latin *caedere*, "to kill"); the term became current in agricultural science from the mid-20th century.
+
+### Biofertiliser
+- **Pronunciation:** /ˌbaɪoʊˈfɜːrtɪˌlaɪzər/
+- **Definition:** A substance containing living micro-organisms — such as nitrogen-fixing bacteria (*Rhizobium*) or phosphate-solubilising fungi — that, when applied to seeds, plant surfaces, or soil, enhances nutrient availability and promotes plant growth.
+- **Origin:** Contraction of *biological fertiliser*; *bio-* from Greek *bios* ("life") + *fertiliser* from Latin *fertilis* ("fruitful"), from *ferre* ("to bear").
+
+### Tissue Culture
+- **Pronunciation:** /ˈtɪʃuː ˈkʌltʃər/
+- **Definition:** A laboratory technique in which small pieces of plant tissue (explants) are grown on a sterile nutrient medium under controlled conditions to produce large numbers of genetically identical, disease-free plantlets.
+- **Origin:** *Tissue* from Old French *tissu* ("woven"), past participle of *tistre* ("to weave"), from Latin *texere*; *culture* from Latin *cultūra* ("cultivation"); the plant tissue culture technique was pioneered by German botanist Gottlieb Haberlandt in 1902.
+
+---
+
+## Key Terms
+
+### Bt Cotton
+- **Pronunciation:** /ˌbiː ˈtiː ˈkɒtən/
+- **Definition:** A genetically modified cotton variety that contains the *cry1Ac* gene from the soil bacterium *Bacillus thuringiensis* (Bt), enabling the plant to produce an insecticidal protein toxic to bollworm larvae, thereby reducing the need for chemical pesticide sprays.
+- **Origin:** Named after *Bacillus thuringiensis*, a bacterium discovered in 1901 by Japanese biologist Shigetane Ishiwatari; Bt cotton was approved for commercial cultivation in India in 2002 and remains the country's only authorised GM crop.
+
+### GM Crops Regulation
+- **Pronunciation:** /ˌdʒiː ˈɛm krɒps ˌrɛɡjuˈleɪʃən/
+- **Definition:** The legal and institutional framework governing the research, field trials, environmental release, and commercial cultivation of genetically modified organisms in India, primarily administered through the Genetic Engineering Appraisal Committee (GEAC) under the Environment Protection Act, 1986.
+- **Origin:** India's GM regulatory structure was established through the Rules for Manufacture, Use, Import, Export and Storage of Hazardous Microorganisms/GMOs, 1989, enacted under the Environment Protection Act, 1986; GEAC was renamed from "Approval" to "Appraisal" Committee in 2010 to reflect its broader evaluative role.

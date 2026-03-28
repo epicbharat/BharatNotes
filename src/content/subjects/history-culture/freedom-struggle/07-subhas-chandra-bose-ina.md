@@ -204,4 +204,33 @@ Subhas Chandra Bose represents the most dramatic chapter of the freedom struggle
 
 ---
 
+## Vocabulary
+
+### Exile
+- **Pronunciation:** /ˈɛɡzaɪl/
+- **Definition:** The state of being forced to live away from one's own country, typically for political reasons; Subhas Chandra Bose spent years in exile from 1941 to 1945, operating from Germany and then Japanese-controlled Southeast Asia to organise the armed liberation of India.
+- **Origin:** From Middle English exil, from Old French essil, from Latin exsilium ("state of banishment"), from exsul ("banished person"); first attested in English c. 1330.
+
+### Legion
+- **Pronunciation:** /ˈliːdʒən/
+- **Definition:** A large military unit, originally a division of the ancient Roman army numbering 3,000-6,000 soldiers; in the context of Bose's activities, the Indian Legion (Indische Legion or Legion Freies Indien) was a force of approximately 3,000-4,500 Indian POWs raised in Germany to fight for Indian independence.
+- **Origin:** From Middle English legioun, from Old French legion, from Latin legiō ("a body of soldiers"), from legere ("to choose, to collect, to levy"); first attested in English c. 1200.
+
+### Provisional
+- **Pronunciation:** /prəˈvɪʒənəl/
+- **Definition:** Arranged or existing for the present time only, intended to be temporary until replaced by something permanent; Bose proclaimed the Provisional Government of Free India (Azad Hind) on 21 October 1943 in Singapore as a transitional authority pending the liberation of Indian territory.
+- **Origin:** From Middle French provisionnal, from Latin prōvīsiō ("foresight, preparation"), from prōvidēre ("to foresee, to provide for"); the political usage refers to a government formed as an interim authority.
+
+## Key Terms
+
+### Indian National Army
+- **Pronunciation:** /ˈɪndiən ˈnæʃənəl ˈɑːmi/
+- **Definition:** Also known as Azad Hind Fauj ("Free India Army"), a military force formed in Southeast Asia during World War II from Indian POWs and civilian volunteers, first organised by Captain Mohan Singh in 1942 and later reorganised and led by Subhas Chandra Bose from July 1943, which fought alongside Japanese forces in the Imphal-Kohima campaign of 1944.
+- **Origin:** The name combines "Indian National" (reflecting the army's nationalist purpose) with "Army"; the Hindi name Azad Hind Fauj combines Azad ("free," from Persian) + Hind ("India," from Persian) + Fauj ("army," from Arabic).
+
+### Azad Hind Government
+- **Pronunciation:** /ɑːˈzɑːd hɪnd ˈɡʌvənmənt/
+- **Definition:** The Provisional Government of Free India, proclaimed by Subhas Chandra Bose on 21 October 1943 in Singapore, which was recognised by nine Axis-aligned nations, issued its own currency and stamps, and exercised nominal authority over the Andaman and Nicobar Islands (renamed Shaheed and Swaraj Islands).
+- **Origin:** From Persian āzād ("free, liberated") + Hind ("India," from Persian, ultimately from Sanskrit Sindhu); formally known as Arzi Hukumat-e-Azad Hind ("Provisional Government of Free India").
+
 *Sources: Bipan Chandra — India's Struggle for Independence, Sugata Bose — His Majesty's Opponent: Subhas Chandra Bose and India's Struggle Against Empire, Leonard Gordon — Brothers Against the Raj, NCERT — Themes in Indian History Part III, Peter Ward Fay — The Forgotten Army*

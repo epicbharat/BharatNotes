@@ -245,4 +245,33 @@ The intellectual awakening of the 18th and 19th centuries involved the systemati
 
 ---
 
+## Vocabulary
+
+### Vernacular
+- **Pronunciation:** /vəˈnækjʊlə/
+- **Definition:** The ordinary spoken language or dialect of a particular country or region, as distinct from a literary, classical, or foreign language; in colonial India, the term referred to Indian-language publications and education as opposed to English.
+- **Origin:** From Latin vernāculus ("domestic, native"), from verna ("home-born slave") + -ar (adjective suffix); first attested in English c. 1601.
+
+### Gazette
+- **Pronunciation:** /ɡəˈzɛt/
+- **Definition:** An official journal or newspaper, especially one published by a government containing legal notices, appointments, and public announcements; in colonial India, the earliest newspapers were often styled as gazettes.
+- **Origin:** From French gazette, from Italian gazzetta, from Venetian gazeta ("a small coin"), named for the price of the newspaper in 16th-century Venice; first attested in English c. 1607.
+
+### Orientalism
+- **Pronunciation:** /ˌɔːriˈɛntəlɪzəm/
+- **Definition:** The scholarly study, depiction, or imitation of Eastern cultures by Western observers; in the context of British India, it refers to the school of thought that advocated promoting traditional Indian learning (Sanskrit, Persian, Arabic) as the basis for education policy.
+- **Origin:** From "oriental" (Latin orientālis, "eastern," from oriens, "rising sun") + -ism; first used in the sense of Eastern cultural style in 1769; later critiqued as a system of Western dominance by Edward Said in his 1978 book *Orientalism*.
+
+## Key Terms
+
+### Macaulay's Minute
+- **Pronunciation:** /məˈkɔːliz ˈmɪnɪt/
+- **Definition:** A policy document presented on 2 February 1835 by Thomas Babington Macaulay, Law Member of the Governor-General's Council, which decisively argued for English as the medium of instruction in Indian education, aiming to create "a class of persons, Indian in blood and colour, but English in taste, in opinions, in morals, and in intellect."
+- **Origin:** Named after Lord Macaulay (1800-1859); "minute" from Latin minūta ("note, memorandum"), referring to the official record of a policy recommendation submitted to the Governor-General's Council.
+
+### Vernacular Press Act
+- **Pronunciation:** /vəˈnækjʊlə prɛs ækt/
+- **Definition:** A law enacted on 14 March 1878 under Viceroy Lord Lytton that imposed censorship specifically on Indian-language newspapers (while exempting the English-language press), empowering magistrates to confiscate printing presses and demand security deposits from publishers deemed seditious; repealed by Lord Ripon in 1882.
+- **Origin:** Named for its targeting of vernacular (Indian-language) publications; modelled on the Irish Coercion Acts used to suppress press criticism of British rule in Ireland.
+
 *Sources: Syed Nurullah & J.P. Naik — A Students' History of Education in India; NCERT — Themes in Indian History Part III; Bipan Chandra — History of Modern India; J. Natarajan — History of Indian Journalism; B.N. Luniya — Life and Culture in Medieval India; M. Laxmikanth — Indian Polity (for constitutional and administrative context)*

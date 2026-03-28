@@ -248,3 +248,36 @@ tags:
 - 5G/6G and digital divide — Bharat 6G Vision, global collaborations, 10% patent target
 - Geopolitics of technology — semiconductor supply chains, US-China tech war, India's strategic positioning
 - Convergence of technologies — AI + IoT + 5G + blockchain creating new governance and security challenges
+
+---
+
+## Vocabulary
+
+### Blockchain
+- **Pronunciation:** /ˈblɒkˌtʃeɪn/
+- **Definition:** A decentralised, distributed digital ledger that records transactions across multiple computers in a tamper-proof and transparent manner, secured through cryptographic hashing.
+- **Origin:** Coined from *block* + *chain*; Satoshi Nakamoto used the terms separately in the 2008 Bitcoin whitepaper, and the compound "blockchain" became standard by 2015 as the technology gained mainstream adoption.
+
+### Quantum
+- **Pronunciation:** /ˈkwɒntəm/
+- **Definition:** In computing, relating to a fundamentally new paradigm that exploits quantum-mechanical phenomena — superposition, entanglement, and interference — to process information using qubits rather than classical binary bits, enabling exponentially faster solutions for certain categories of problems.
+- **Origin:** From Latin *quantum* ("how much"), neuter of *quantus* ("how great"); first used in physics by Max Planck in 1900 to describe discrete energy packets; applied to computing from the 1980s following Richard Feynman's proposals.
+
+### Metaverse
+- **Pronunciation:** /ˈmɛtəˌvɜːrs/
+- **Definition:** A persistent, immersive, interconnected virtual environment — experienced through virtual reality, augmented reality, or digital interfaces — in which users interact with each other and digital objects in real time.
+- **Origin:** Coined by American novelist Neal Stephenson in his 1992 science fiction novel *Snow Crash*, as a portmanteau of *meta-* (Greek, "beyond") + *universe*.
+
+---
+
+## Key Terms
+
+### Internet of Things
+- **Pronunciation:** /ˈɪntərˌnɛt əv θɪŋz/
+- **Definition:** A network of physical devices — vehicles, appliances, sensors, and infrastructure — embedded with software, sensors, and connectivity that enables them to collect, exchange, and act on data over the internet without requiring direct human intervention.
+- **Origin:** The term was coined in 1999 by Kevin Ashton, a technologist at Procter & Gamble (later at MIT's Auto-ID Center), during a presentation on using RFID technology to optimise supply chains.
+
+### 5G Technology
+- **Pronunciation:** /ˌfaɪv ˈdʒiː tɛkˈnɒlədʒi/
+- **Definition:** The fifth generation of mobile telecommunications standards, offering peak speeds up to 20 Gbps, latency as low as 1 millisecond, and the capacity to connect millions of devices per square kilometre, enabling applications such as autonomous vehicles, remote surgery, and massive IoT deployments.
+- **Origin:** Developed by the 3rd Generation Partnership Project (3GPP) under the ITU's IMT-2020 programme; first commercially deployed in South Korea on 3 April 2019; launched in India on 1 October 2022.

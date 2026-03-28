@@ -242,4 +242,37 @@ The success of the **American Revolution** (1776) demonstrated that Enlightenmen
 
 ---
 
+## Vocabulary
+
+### Guillotine
+- **Pronunciation:** /ˈɡɪlətiːn/
+- **Definition:** A machine for carrying out executions by decapitation, consisting of a tall upright frame from which a heavy angled blade is dropped onto the neck of the condemned person.
+- **Origin:** Named after French physician Joseph-Ignace Guillotin (1738--1814), who proposed its adoption in 1789 as a more humane method of execution; borrowed into English from French *guillotine* in the 1790s.
+
+### Jacobin
+- **Pronunciation:** /ˈdʒækəbɪn/
+- **Definition:** A member of the radical Jacobin Club during the French Revolution, which under Robespierre's leadership dominated the Committee of Public Safety and drove the Reign of Terror (1793--1794).
+- **Origin:** From French *Jacobin*, from Medieval Latin *Jacobīnus* (a Dominican friar), because the Club met in the former Dominican convent on the Rue Saint-Honore in Paris; the Dominican order was named after the Church of Saint-Jacques (St. James) in Paris.
+
+### Ancien Regime
+- **Pronunciation:** /ɑ̃.sjɛ̃ ʁeˈʒiːm/
+- **Definition:** The political and social system of France before the Revolution of 1789, characterised by absolute monarchy, feudal privileges, and a rigidly stratified society of three estates.
+- **Origin:** French, literally "old regime" or "former order"; *ancien* from Latin *ante* ("before") via Old French, and *regime* from Latin *regimen* ("rule, government"); first used in English print in 1794.
+
+---
+
+## Key Terms
+
+### Declaration of the Rights of Man and of the Citizen
+- **Pronunciation:** /ˌdɛkləˈreɪʃən əv ðə raɪts əv mæn/
+- **Definition:** A foundational document of the French Revolution, adopted by the National Constituent Assembly on 26 August 1789, comprising a preamble and 17 articles that proclaimed the natural and inalienable rights of liberty, property, security, and resistance to oppression, along with equality before the law and popular sovereignty.
+- **Origin:** Drafted by the Marquis de Lafayette with advice from Thomas Jefferson; inspired by Enlightenment philosophy (Rousseau's social contract, Montesquieu's separation of powers) and the American Declaration of Independence (1776).
+
+### Reign of Terror
+- **Pronunciation:** /reɪn əv ˈtɛrə/
+- **Definition:** The period of extreme political repression during the French Revolution (September 1793 to July 1794), in which the Committee of Public Safety under Maximilien Robespierre exercised near-dictatorial power, executing an estimated 16,000--40,000 people by guillotine as suspected counter-revolutionaries.
+- **Origin:** From French *la Terreur* ("the Terror"); the Convention formally decreed on 5 September 1793 that "terror is the order of the day"; ended with the Thermidorian Reaction on 27--28 July 1794 (9 Thermidor, Year II).
+
+---
+
 *Sources: Simon Schama — Citizens: A Chronicle of the French Revolution, Eric Hobsbawm — The Age of Revolution, NCERT World History Textbooks, Britannica Academic*

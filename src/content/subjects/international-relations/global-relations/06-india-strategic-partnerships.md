@@ -242,3 +242,36 @@ India's Indo-Pacific approach emphasises **inclusivity, rules-based order, and m
 | **AUKUS** | September 2021 — Australia, UK, US |
 | **India-EU FTA** | Concluded 27 January 2026 |
 | **Quad Wilmington Summit** | September 2024 — Cancer Moonshot, MAITRI |
+
+---
+
+## Vocabulary
+
+### Alliance
+- **Pronunciation:** /əˈlaɪəns/
+- **Definition:** A formal agreement or union between two or more states for mutual support, coordinated action, or collective defence in pursuit of shared strategic objectives.
+- **Origin:** From Middle English, via Old French *aliance* from *alier* ("to ally"), from Latin *alligare* ("to bind together"), from *ad-* ("to") + *ligare* ("to bind"); first attested in English around 1325.
+
+### Deterrence
+- **Pronunciation:** /dɪˈtɛrəns/
+- **Definition:** The strategy of discouraging an adversary from taking hostile action by maintaining credible military capability and the demonstrated willingness to use it, thereby raising the cost of aggression beyond any potential gain.
+- **Origin:** From the stem of Latin *deterrēre* ("to frighten away"), from *de-* ("away from") + *terrēre* ("to frighten"), with the suffix *-ence*; first used in English in the 1860s.
+
+### Quadrilateral
+- **Pronunciation:** /ˌkwɒdrɪˈlætərəl/
+- **Definition:** Having four sides; in geopolitics, describing a strategic arrangement or dialogue involving four parties, as in the Quadrilateral Security Dialogue (Quad).
+- **Origin:** From Late Latin *quadrilaterus*, from Latin *quadri-* ("four") + *latus*, *later-* ("side") + *-al*; first used in English in the early 1600s.
+
+---
+
+## Key Terms
+
+### Quad
+- **Pronunciation:** /kwɒd/
+- **Definition:** The Quadrilateral Security Dialogue — an informal strategic grouping of India, the United States, Japan, and Australia focused on maintaining a free and open Indo-Pacific through cooperation on maritime security, critical technologies, health, climate, and infrastructure.
+- **Origin:** Traces its origins to the 2004 Indian Ocean tsunami relief coordination among the four nations; formalised as a diplomatic grouping in 2007 at the initiative of Japanese Prime Minister Shinzo Abe; revived in 2017 and elevated to leaders-level summits in 2021.
+
+### Indo-Pacific Strategy
+- **Pronunciation:** /ˌɪndoʊ pəˈsɪfɪk ˈstrætədʒi/
+- **Definition:** A geostrategic framework that treats the Indian Ocean and the Pacific Ocean as a single interconnected strategic space, emphasising a rules-based order, freedom of navigation, and inclusive economic cooperation across the region.
+- **Origin:** The term "Indo-Pacific" in its modern geopolitical sense was first used by Indian Navy Captain Gurpreet S. Khurana in a 2007 paper; it was subsequently adopted by Japan (Free and Open Indo-Pacific, 2016), the United States, Australia, and India as the basis for their regional strategies.

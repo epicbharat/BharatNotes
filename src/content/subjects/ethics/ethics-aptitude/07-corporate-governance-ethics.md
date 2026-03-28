@@ -292,3 +292,36 @@ The Responsibility to Protect doctrine, endorsed at the 2005 UN World Summit, ho
 | **John Rawls** | Veil of ignorance — fair decision-making when we do not know our own position; applicable to intergenerational equity and technology access |
 | **Amartya Sen** | Capability approach — development must expand human capabilities, not just GDP; relevant to digital divide and inclusive governance |
 | **Hans Jonas** | "Imperative of responsibility" — technology demands new ethics because of its unprecedented power to affect future generations |
+
+---
+
+## Vocabulary
+
+### Fiduciary
+- **Pronunciation:** /fɪˈdjuːʃiˌɛri/ (RP), /fəˈduːʃiˌɛri/ (GA)
+- **Definition:** Relating to a relationship of trust in which one party (the fiduciary) is legally and ethically obligated to act in the best interest of another, such as a trustee for a beneficiary or a public servant for citizens.
+- **Origin:** From Latin *fīdūciārius* ("held in trust"), from *fīdūcia* ("trust"), from *fīdere* ("to trust"); first used in English in the late 1500s.
+
+### Disclosure
+- **Pronunciation:** /dɪsˈkloʊʒər/
+- **Definition:** The act of making previously confidential or private information available to the public or to relevant stakeholders, particularly financial, operational, or governance-related information by corporations or public authorities.
+- **Origin:** Formed in English from *disclose* (from Old French *desclore*, from Latin *dis-* + *claudere*, "to close") + *-ure*, by analogy with *closure*.
+
+### Governance
+- **Pronunciation:** /ˈɡʌvərnəns/
+- **Definition:** The system of rules, practices, processes, and institutions through which an organisation or state is directed, controlled, and held accountable to its stakeholders.
+- **Origin:** From Middle English *governaunce*, from Old French *gouvernance*, from *governer* ("to govern"), ultimately from Latin *gubernāre* ("to steer, rule"), from Greek *kubernan* ("to steer"); first attested in English around 1384.
+
+---
+
+## Key Terms
+
+### Corporate Social Responsibility
+- **Pronunciation:** /ˈkɔːrpərət ˈsoʊʃəl rɪˌspɒnsəˈbɪləti/
+- **Definition:** The obligation of companies to integrate social, environmental, and ethical concerns into their business operations and stakeholder interactions, going beyond mere profit maximisation; in India, mandated under Section 135 of the Companies Act, 2013, which requires qualifying companies to spend at least 2% of average net profits on CSR activities.
+- **Origin:** The concept was formulated by American economist Howard Bowen in his 1953 book *Social Responsibilities of the Businessman*, earning him the title "father of CSR"; India became the first country to legislate mandatory CSR spending in 2013.
+
+### Whistleblower Protection
+- **Pronunciation:** /ˈwɪsəlˌbloʊər prəˈtɛkʃən/
+- **Definition:** Legal safeguards that shield individuals who disclose information about corruption, fraud, or wrongdoing within an organisation from retaliation, victimisation, or adverse employment action; in India, governed by the Whistle Blowers Protection Act, 2014.
+- **Origin:** The metaphor of "blowing the whistle" draws from 19th-century British police officers using whistles to alert the public to crimes; the modern sense of reporting institutional wrongdoing gained currency in the 1970s through activist Ralph Nader's advocacy.

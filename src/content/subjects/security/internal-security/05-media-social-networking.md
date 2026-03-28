@@ -252,3 +252,36 @@ India leads the world in internet shutdowns.
 - Positive use of media in disaster management and community policing
 - Cambridge Analytica and data sovereignty concerns
 - Traditional media vs social media regulation — gaps and challenges
+
+---
+
+## Vocabulary
+
+### Deepfake
+- **Pronunciation:** /ˈdiːpˌfeɪk/
+- **Definition:** A convincingly realistic but fabricated image, video, or audio recording created using artificial intelligence — particularly deep learning techniques — that superimposes one person's likeness onto another or generates entirely synthetic media.
+- **Origin:** A blend of *deep learning* + *fake*; coined in 2017 by a Reddit user who demonstrated face-swapping technology using deep neural networks.
+
+### Disinformation
+- **Pronunciation:** /dɪsˌɪnfərˈmeɪʃən/
+- **Definition:** False or misleading information that is deliberately created and disseminated with the intent to deceive, manipulate public opinion, or cause harm — distinct from misinformation, which is spread without deliberate intent.
+- **Origin:** From *dis-* ("negation, reversal") + *information*; attested in English from 1939, modelled on Russian *dezinformatsiya*, a term used by Soviet intelligence for coordinated propaganda campaigns.
+
+### Censorship
+- **Pronunciation:** /ˈsɛnsərʃɪp/
+- **Definition:** The suppression or restriction of speech, publication, or other forms of expression by a government, regulatory body, or institution, typically on grounds of national security, public order, morality, or political control.
+- **Origin:** From *censor* (Latin *censor*, a Roman magistrate responsible for public morals and the census) + *-ship*; the Roman censorship dates to 443 BCE.
+
+---
+
+## Key Terms
+
+### Fake News
+- **Pronunciation:** /feɪk njuːz/
+- **Definition:** Fabricated content deliberately presented as legitimate journalism in order to mislead readers, manipulate public opinion, generate advertising revenue, or advance political agendas, often amplified through social media platforms.
+- **Origin:** The term gained global prominence during and after the 2016 US presidential election; Collins Dictionary named it Word of the Year in 2017; the British government has criticised it as a "poorly defined" term that conflates genuine error with deliberate fabrication.
+
+### Social Media Regulation
+- **Pronunciation:** /ˈsoʊʃəl ˈmiːdiə ˌrɛɡjuˈleɪʃən/
+- **Definition:** The body of laws, rules, and institutional mechanisms that govern the conduct of social media platforms and their users, addressing content moderation, data privacy, platform accountability, and the balance between free expression and public safety; in India, primarily governed by the IT Act, 2000, and the IT (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021.
+- **Origin:** Emerged as a distinct policy domain in the 2010s as the scale of social media platforms grew; between 2011 and 2022, 78 countries enacted laws targeting the spread of false or harmful content on social media.
