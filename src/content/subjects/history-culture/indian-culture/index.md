@@ -31,3 +31,5 @@ India's cultural heritage is among the richest and most diverse in the world, sh
 | 3 | **Classical Music** | Hindustani vs Carnatic, ragas, talas, instruments, Trinity |
 | 4 | **Temple Architecture & Heritage Sites** | Nagara, Dravida, Vesara, rock-cut, Indo-Islamic, UNESCO World Heritage |
 | 5 | **Languages, Literature & Festivals** | Eighth Schedule, Classical Languages, major festivals, folk traditions |
+| 6 | **Folk Arts, Theatre & Puppetry** | Folk dances, folk theatre (Nautanki, Yakshagana, Tamasha), puppetry traditions, GI-tagged crafts |
+| 7 | **Indian Cinema, Media & Broadcasting** | Indian film history, regional cinema, Doordarshan, All India Radio, media regulation, soft power |

@@ -32,3 +32,5 @@ Post-Independence India (1947 onwards) encompasses the monumental task of nation
 | 4 | **The Emergency & Democratic Resilience (1975–1977)** | JP movement, Emergency, 42nd & 44th Amendments, Shah Commission |
 | 5 | **Constitutional Evolution & Landmark Cases** | Key amendments, Basic Structure Doctrine, Maneka Gandhi, Minerva Mills |
 | 6 | **1991 Economic Reforms & Liberalisation** | BOP crisis, LPG reforms, impact on growth, poverty, and global integration |
+| 7 | **Coalition Era & Political Evolution** | Multi-party democracy since 1989, coalition governments, regional parties, political realignment |
+| 8 | **India's Nuclear & Space Programme** | Nuclear tests (Pokhran I & II), ISRO milestones, Chandrayaan, Mangalyaan, strategic autonomy |
