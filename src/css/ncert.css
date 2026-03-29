@@ -427,7 +427,7 @@
 }
 
 .ncert-author-card__header {
-  background: linear-gradient(135deg, #0f4c3a 0%, #1a6b52 100%);
+  background: linear-gradient(135deg, #78350f 0%, #c2701a 100%);
   padding: var(--space-4) var(--space-5);
   display: flex;
   align-items: center;
@@ -435,11 +435,11 @@
 }
 
 .ncert-author-card__photo {
-  width: 44px;
-  height: 44px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid rgba(255,255,255,0.4);
+  border: 2.5px solid rgba(255,255,255,0.45);
   flex-shrink: 0;
 }
 
