@@ -431,3 +431,144 @@ A country can only choose **two** sides of the triangle. India chose: Free (part
 **Q1.** "India's external sector has undergone a structural transformation since 1991, but new vulnerabilities have emerged." Analyse India's current account dynamics, the quality of capital account financing, and the risks to external sector stability. *(GS3 type — 250 words)*
 
 **Q2.** What is Purchasing Power Parity (PPP)? How does PPP-adjusted GDP measurement change India's position in the global economy, and what are the limitations of the PPP approach? *(GS3 type — 150 words)*
+
+---
+
+## PART 4 — Deeper Dives
+
+### The Foreign Exchange Market
+
+The **foreign exchange (forex) market** is the global, decentralised market where national currencies are traded. It is the largest financial market in the world, with daily trading volumes exceeding **$7.5 trillion** (BIS Triennial Survey, 2022).
+
+**Key participants:**
+- **Commercial banks:** The largest players; serve corporate clients and trade for their own accounts.
+- **Central banks:** Intervene to manage exchange rate volatility (RBI for India).
+- **Corporates:** Hedge foreign currency exposure from imports/exports.
+- **Institutional investors:** Invest across borders; create demand/supply for currencies.
+- **Retail traders/speculators:** Smaller but significant in aggregate.
+
+**Exchange rate quotations:**
+
+- **Direct quote:** Domestic currency per unit of foreign currency. Example: ₹84/USD — one USD costs ₹84.
+- **Indirect quote:** Foreign currency per unit of domestic currency. Example: 0.012 USD/₹.
+
+India uses **direct quotes** as the convention. When the rupee depreciates, the direct quote number rises (more rupees needed per dollar).
+
+**Spot vs Forward market:**
+- **Spot rate:** Exchange rate for immediate delivery (settlement within 2 business days).
+- **Forward rate:** Agreed exchange rate for future delivery (1 month, 3 months, 1 year). Used for hedging — locking in today's rate for a future transaction.
+
+**Forward premium/discount:** If the forward rate > spot rate, the domestic currency is at a **discount** (expected to depreciate). If forward rate < spot rate, domestic currency is at a **premium** (expected to appreciate).
+
+---
+
+### Theories of Exchange Rate Determination
+
+**1. Purchasing Power Parity (PPP) Theory:**
+
+In the long run, exchange rates adjust to equalise purchasing power across countries. If a basket of goods costs ₹8,000 in India and $100 in the USA, the PPP exchange rate should be ₹80/USD.
+
+**Absolute PPP:** Exchange rate = Ratio of domestic to foreign price levels.
+
+**Relative PPP:** % change in exchange rate = Inflation differential.
+If India's inflation is 5% and USA's is 2%, the rupee should depreciate by ~3% per year.
+
+**Limitations of PPP:**
+- Non-tradeable goods (haircuts, real estate) are not arbitrage-able.
+- Trade barriers, transport costs, quality differences.
+- Works better in the long run; poor short-run predictor.
+
+**2. Interest Rate Parity:**
+
+Uncovered Interest Parity (UIP): If Indian interest rates are higher than US rates, investors are attracted to India — but the expected rupee depreciation must offset the interest advantage.
+
+Expected ₹ depreciation ≈ (India interest rate − US interest rate)
+
+**3. Balance of Payments Approach:**
+
+Exchange rate determined by the demand and supply of foreign exchange. Current account flows (exports/imports) and capital flows (FDI, FPI) together determine the exchange rate.
+
+---
+
+### Special Drawing Rights (SDRs) and IMF
+
+**Special Drawing Rights (SDRs)** are international reserve assets created by the IMF. They are not currency — they are claims on IMF members' freely usable currencies.
+
+**SDR basket (since 2022):** US Dollar (43.4%), Euro (29.3%), Chinese Renminbi (12.3%), Japanese Yen (7.5%), British Pound Sterling (7.5%).
+
+**How SDRs work:**
+- IMF allocates SDRs to member countries in proportion to their IMF quotas.
+- Countries can exchange SDRs for freely usable currencies with other IMF members.
+- SDR interest rate is based on a weighted average of short-term money market rates.
+
+**IMF SDR allocation (2021):** The largest-ever SDR allocation of **SDR 456.5 billion (~$650 billion)** was made in August 2021 to boost global liquidity during the COVID-19 recovery. India received approximately **SDR 12.6 billion (~$18 billion)**.
+
+India's total SDR holdings form part of its official forex reserves.
+
+---
+
+### India's Evolving Trade Policy
+
+India's trade policy has evolved from **inward-looking protection** (pre-1991) to a more open but **strategically calibrated** trade regime.
+
+**Pre-1991:** High import tariffs (average effective tariff rate: >100%), quantitative restrictions (import licenses), foreign exchange rationing. India was largely insulated from global trade.
+
+**Post-1991 liberalisation:** Tariffs progressively reduced; quantitative restrictions eliminated (by WTO obligations, 2001); FDI opened up.
+
+**Current trade policy approach (2020s):**
+
+India maintains a **dual approach**:
+1. **Export promotion:** PLI schemes to make Indian manufacturing globally competitive; PM Gati Shakti for logistics; trade facilitation (single window SWIFT for customs).
+2. **Import substitution in strategic sectors:** Higher tariffs on some electronics, solar cells, toys to promote domestic manufacturing under Atmanirbhar Bharat.
+
+**Free Trade Agreements (FTAs):**
+India has signed FTAs with ASEAN (2010), Japan, South Korea, UAE (2022, CEPA), Australia (2022, interim ECTA), and is negotiating with EU, UK, Canada.
+
+India declined to join the **RCEP (Regional Comprehensive Economic Partnership)** in 2019, citing concerns about:
+- Potential flood of Chinese goods via ASEAN backdoor.
+- Vulnerability of Indian dairy and agriculture sectors.
+- Trade deficit widening risk with China.
+
+> 🎯 **UPSC Connect:** India's trade deficit with **China** (~$85 billion in FY2024-25) is one of the largest bilateral trade imbalances in the world. India imports electronic components, solar panels, active pharmaceutical ingredients (APIs), and machinery from China. Reducing this dependency (Atmanirbhar Bharat) while maintaining competitiveness is a central trade policy challenge.
+
+---
+
+### Mundell-Fleming Model: Open Economy Macroeconomics Extension
+
+The **Mundell-Fleming model** extends the IS-LM framework to open economies with free capital mobility.
+
+**Key result (fixed exchange rate + free capital mobility):**
+- Fiscal policy is **effective** — increases output.
+- Monetary policy is **ineffective** — capital flows offset the domestic effect.
+
+**Key result (flexible exchange rate + free capital mobility):**
+- Fiscal policy is **ineffective** — exchange rate appreciation crowds out net exports.
+- Monetary policy is **effective** — increases output through exchange rate channel (depreciation boosts exports).
+
+**For India (managed float + partial capital controls):**
+India's partial capital controls give it some room to use both fiscal and monetary policy — partially insulating it from the full Mundell-Fleming constraints. This is the practical benefit of not having full capital account convertibility.
+
+---
+
+### India's Exchange Rate: Rupee Story
+
+The Indian rupee has undergone a long-term depreciation trend against the US dollar — reflecting the inflation differential between India and the USA.
+
+| Period | Approximate Exchange Rate |
+|--------|--------------------------|
+| 1970 | ₹7.5/USD |
+| 1985 | ₹12/USD |
+| 1991 | ₹25.8/USD (post-devaluation) |
+| 2000 | ₹46/USD |
+| 2013 (Taper Tantrum) | ₹68/USD |
+| 2022 (Fed rate hike cycle) | ₹83/USD |
+| 2025-26 | ₹84–87/USD (managed range) |
+
+This long-term depreciation is broadly consistent with **Relative PPP** — India's inflation has historically been higher than the USA's, requiring the rupee to depreciate to maintain competitiveness.
+
+**RBI's approach to exchange rate management:**
+- Does not target a specific exchange rate.
+- Intervenes to reduce excess volatility (two-sided — buys dollars when rupee appreciates too fast; sells dollars when rupee depreciates too fast).
+- Builds reserves when capital flows are strong (buying dollars) to use as a buffer during outflow episodes.
+
+> 📌 **Key Fact:** The rupee depreciated by approximately **₹10–12** against the dollar during the 2022 US Federal Reserve rate hike cycle, as capital flew back to US dollar assets. India's large forex reserves (~$700 bn) provided the buffer — the RBI sold dollars to smoothen the depreciation, preventing the sharp disorderly moves seen in 1997 (Asian crisis) or 2013 (Taper Tantrum) when reserves were thinner.

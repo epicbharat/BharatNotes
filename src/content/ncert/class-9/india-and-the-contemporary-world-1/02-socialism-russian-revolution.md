@@ -368,3 +368,86 @@ The USSR lasted 74 years (1917–1991). Its collapse under Mikhail Gorbachev cam
 **1.** "The Russian Revolution of 1917 was the most significant political event of the 20th century." Do you agree? Discuss the causes of the Revolution and evaluate its global impact, with particular reference to its influence on India. *(GS1, 250 words)*
 
 **2.** Compare and contrast Marx's vision of socialism with the actual practice of socialism in Soviet Russia under Stalin. Where did theory diverge from practice, and with what consequences? *(GS1, 150 words)*
+
+---
+
+## Supplementary Notes: Key Concepts and Context
+
+### The International Socialist Movement
+
+After Marx and Engels published the Communist Manifesto (1848), socialist and workers' movements organised internationally:
+
+**First International (1864–1876):**
+The International Workingmen's Association — founded in London with Marx as a leading figure. United socialist, anarchist, and trade union movements. Collapsed due to disputes between Marx and anarchist Mikhail Bakunin over the role of the state.
+
+**Paris Commune (1871):**
+After France's defeat in the Franco-Prussian War, Parisian workers established the Paris Commune — a short-lived (March–May 1871) revolutionary city government. It prefigured Soviet-style workers' councils: elected by universal suffrage, representatives subject to recall, officials paid workers' wages, church and state separated. The French army suppressed it in "Bloody Week" (May 21–28, 1871) — killing 10,000–30,000 communards. Marx analysed the Commune in "The Civil War in France" as the world's first "dictatorship of the proletariat."
+
+**Second International (1889–1916):**
+Founded in Paris on the centenary of the French Revolution. United socialist parties of Europe. Collapsed when most European socialist parties supported their own governments' war efforts in 1914 — splitting between those who supported the war ("social patriots") and those who opposed it (Lenin's Bolsheviks, Rosa Luxemburg's Spartacists).
+
+**The Comintern (Third International, 1919–1943):**
+Founded by Lenin after the Russian Revolution to coordinate communist parties worldwide. Required member parties to follow Moscow's directives — a source of tension and eventually subordination of national communist movements to Soviet foreign policy interests. Dissolved by Stalin in 1943 (as a concession to the Western allies in World War II).
+
+### 🔗 Beyond the Book: Rosa Luxemburg and Democratic Socialism
+
+Rosa Luxemburg (1871–1919) — Polish-German socialist leader — represents a significant alternative to both reformist Social Democracy and Leninist vanguardism. She agreed with Lenin that capitalism must be overthrown by revolution, but opposed his concept of a tightly disciplined party imposing its will on workers. For Luxemburg, authentic socialism required spontaneous mass action and genuine proletarian democracy — not a party dictatorship. She criticised the Bolshevik suppression of other socialist parties after October 1917, warning: "Freedom is always the freedom of the one who thinks differently." Luxemburg was murdered by right-wing paramilitaries in Berlin in January 1919, during the failed German Revolution. Her democratic socialist vision has influenced the European social democratic left ever since.
+
+---
+
+### The Russian Revolutions in Detail
+
+**February Revolution (March 1917) — The Sequence:**
+
+February 23 (March 8, International Women's Day): Women textile workers in Petrograd strike over bread shortages; quickly joined by other workers.
+
+February 24–25 (March 9–10): Strike spreads; 200,000 workers on the streets. Police cannot control the crowds.
+
+February 26 (March 11): Tsar orders troops to fire; some regiments obey, killing dozens. But other regiments mutiny and join the workers.
+
+February 27 (March 12): Soldiers joining workers is decisive. The Duma forms a Provisional Committee (later Provisional Government). Simultaneously, the Petrograd Soviet reconstitutes itself — now with soldiers' delegates alongside workers.
+
+March 2/15: Tsar Nicholas II abdicates. His brother Grand Duke Michael refuses the throne. 300 years of Romanov rule ended.
+
+**The Dual Power — Why It Was Unstable:**
+
+The Provisional Government (bourgeois liberals and moderate socialists) controlled the formal state machinery. The Petrograd Soviet (workers and soldiers) had the loyalty of the masses — especially the army. Neither had full power.
+
+Crucially, the Soviet issued **Order No. 1**: All military units to form soldiers' committees; the Provisional Government's military orders only to be followed if not contradicted by the Soviet. This gave the Soviet effective veto over the army — the ultimate source of power.
+
+The Provisional Government's decision to continue the war destroyed its legitimacy. It tried to launch a military offensive in June 1917 (the "Kerensky Offensive") — it failed disastrously, leading to mass desertions and radicalisation.
+
+**The Kornilov Affair (August 1917):**
+General Lavr Kornilov, the army commander-in-chief, moved troops toward Petrograd apparently to suppress the Soviet and establish a military dictatorship. Kerensky, who had encouraged Kornilov, panicked and called on the Soviet for help — arming the Bolsheviks (Red Guards) to defend Petrograd. Kornilov's troops were turned back by railway workers and soldiers refusing to fight. The episode fatally weakened both Kerensky (seen as incompetent) and the military officer class (seen as counter-revolutionary), while dramatically strengthening the Bolsheviks.
+
+---
+
+### Key People in the Russian Revolution
+
+| Person | Role | Fate |
+|--------|------|------|
+| **Nicholas II** | Tsar of Russia (1894–1917) | Abdicated March 1917; executed with family July 1918 |
+| **Alexander Kerensky** | Leader of Provisional Government | Fled Russia after October Revolution; died in New York 1970 |
+| **Vladimir Lenin** | Bolshevik leader | Led October Revolution; died January 1924 |
+| **Leon Trotsky** | Organised Red Army; Commissar for War | Expelled by Stalin; assassinated in Mexico 1940 |
+| **Joseph Stalin** | Party Secretary; eventual Soviet leader | Ruled USSR until death in 1953; created totalitarian state |
+| **Nikolai Bukharin** | Bolshevik theorist; "Right Opposition" | Executed in Stalin's purges 1938 |
+| **M.N. Roy** | Indian revolutionary at Comintern | Communist International; later broke with communism |
+
+### Glossary of Key Terms
+
+| Term | Definition |
+|------|-----------|
+| **Autocracy** | System of government with no limits on the ruler's power |
+| **Soviet** | Council of workers' and soldiers' elected delegates; could recall representatives |
+| **Bolshevik** | "Majority" (from the 1903 split vote); Lenin's disciplined revolutionary party |
+| **Menshevik** | "Minority"; preferred gradual, broad-based party and democratic socialism |
+| **Proletariat** | Industrial working class — wage labourers who own no means of production |
+| **Bourgeoisie** | Class that owns capital (factories, businesses); employer class |
+| **Surplus value** | Marxist concept: difference between value workers create and wages paid — source of capitalist profit |
+| **Vanguard party** | Lenin's concept: small party of professional revolutionaries leading the working class |
+| **Dictatorship of the proletariat** | Marx's concept: transitional state after revolution; workers rule before classless society |
+| **Collectivisation** | Forced merging of individual peasant farms into collective (state-run) farms |
+| **Gulag** | Soviet system of forced labour camps; peak under Stalin 1930s–50s |
+| **Kulak** | Wealthier peasant; targeted as class enemy under collectivisation |
+| **NEP** | New Economic Policy (1921); partial return to market economy under Lenin |

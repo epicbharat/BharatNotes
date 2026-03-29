@@ -363,3 +363,146 @@ Ask: Was the producer a **national** (GNP) or within **domestic borders** (GDP)?
 **Q1.** "India's high GDP growth rate coexists with low rankings on social development indicators." Critically examine whether GDP is an adequate measure of development. Suggest alternative measures that better capture human well-being. *(GS3 type — 250 words)*
 
 **Q2.** Explain the three methods of measuring national income. Why do all three methods yield the same result? Illustrate with examples from the Indian economy. *(GS3 type — 150 words)*
+
+---
+
+## PART 4 — Deeper Dives
+
+### India's GDP: Sector-Wise Analysis
+
+Understanding India's GDP structure is essential for UPSC since sector performance connects to policy, employment, and social outcomes.
+
+**Primary Sector (Agriculture and Allied Activities)**
+
+Agriculture, forestry, fishing, mining, and quarrying. Agriculture alone contributes approximately **15–17% of GVA** but employs approximately **45–50% of the workforce** — reflecting very low agricultural productivity per worker.
+
+Key characteristics:
+- Highly dependent on monsoon — a good monsoon year can add 0.3–0.5% to GDP growth.
+- Labour productivity in agriculture ≈ one-third of economy average.
+- Growth rates are volatile: ranged from −2% (drought years) to +6% (good monsoon years).
+- Government support: Minimum Support Price (MSP), PM-KISAN (₹6,000/year direct transfer to farmers), crop insurance (PM Fasal Bima Yojana).
+
+**Secondary Sector (Industry)**
+
+Manufacturing, construction, electricity, gas, and water supply. Contributes approximately **28–30% of GVA**.
+
+India's manufacturing has historically underperformed relative to China and other Asian economies. The **Make in India** initiative (2014) and **Production Linked Incentive (PLI) Schemes** (2020–present, ₹1.97 lakh crore across 14 sectors) aim to raise manufacturing's GDP share to 25% by 2025 (a goal partially achieved but not fully).
+
+Construction is the second-largest employer after agriculture, using unskilled labour extensively.
+
+**Tertiary Sector (Services)**
+
+The dominant sector: **~55% of GVA** and growing. Services include:
+- **Financial services** (banking, insurance, capital markets).
+- **IT/ITeS** — India's largest foreign exchange earner (~$200+ billion in exports).
+- **Trade, transport, logistics** — connected to overall economic activity.
+- **Government services** — defence, administration, education, health.
+- **Real estate, professional services**.
+
+India is unique among large economies in having **skipped** the manufacturing-led development model (the typical path: agriculture → manufacturing → services). India moved from a largely agricultural economy to a services-led economy without a large industrial intermediate phase. This has been debated — some economists argue this structural anomaly explains India's persistent unemployment challenges.
+
+> 💡 **Explainer: India's Services-Led Growth Paradox**
+>
+> Services in India employ less than 30% of the workforce but generate 55% of output. Manufacturing, which historically absorbed rural workers into formal employment in China, Korea, and Taiwan, never scaled comparably in India. This mismatch — a booming services sector requiring educated, skilled labour, while hundreds of millions of less-educated rural workers remain in low-productivity agriculture — is central to India's inequality and employment challenge.
+
+---
+
+### National Income and Poverty Measurement
+
+National income data and poverty measurement are closely related. India uses multiple approaches:
+
+**Poverty Line:**
+
+The Tendulkar Committee (2009) defined poverty lines based on per capita monthly expenditure:
+- Rural: ₹816/month
+- Urban: ₹1,000/month (2011-12 prices)
+
+The **Rangarajan Committee (2014)** recommended higher poverty lines (₹972 rural, ₹1,407 urban at 2011-12 prices).
+
+India's official poverty headcount ratio using the Tendulkar line: **21.9%** (2011-12 NSSO data — the last official national estimate before the new NSSO surveys). More recent estimates using PLFS and HCE surveys suggest significant poverty reduction.
+
+**Multidimensional Poverty Index (MPI):**
+
+The UNDP/OPHI Multidimensional Poverty Index captures deprivations across three dimensions:
+- Health (nutrition, child mortality)
+- Education (years of schooling, school attendance)
+- Living standards (cooking fuel, sanitation, drinking water, electricity, housing, assets)
+
+India's MPI headcount ratio has fallen substantially: from ~55% (2005-06) to **~16.4%** (NFHS-5, 2019-21 based estimate, UNDP Global MPI 2024). This represents the largest absolute reduction in poverty in the world over the past two decades.
+
+> 🎯 **UPSC Connect:** The difference between income poverty (money metric) and multidimensional poverty (capability metric — Amartya Sen's framework) is a key conceptual distinction. UPSC tests whether candidates understand that high GDP growth can reduce income poverty without proportionally reducing capability deprivations (if health and education spending is inadequate).
+
+---
+
+### National Income and Inequality
+
+India's Gini coefficient — a measure of income inequality where 0 = perfect equality and 1 = perfect inequality — has been estimated at approximately **0.35–0.37** for consumption expenditure. Wealth inequality is higher: estimates suggest the top 1% of Indians hold more than 40% of national wealth (World Inequality Report).
+
+The **Kuznets curve** hypothesis predicts that inequality first rises then falls as countries develop. India is at a stage where growth may be exacerbating inequality — rising stock markets, property prices, and IT salaries benefiting the top quintile disproportionately.
+
+**Inter-state inequality in India:**
+
+GDP per capita varies enormously across Indian states:
+- **High income states:** Goa, Sikkim, Telangana, Karnataka, Haryana (₹3–5 lakh per capita).
+- **Low income states:** Bihar, UP, MP, Jharkhand, Odisha (₹50,000–70,000 per capita).
+
+The ratio between the richest and poorest states is approximately **5–7x** — one of the largest regional disparities among major democracies.
+
+Finance Commission transfers, MGNREGA, centrally sponsored schemes, and aspirational districts programme attempt to reduce this regional inequality.
+
+---
+
+### National Accounts and the UN System of National Accounts (SNA)
+
+India's national accounts follow the **United Nations System of National Accounts (SNA 2008)** — the international standard for national income measurement, updated from SNA 1993. The SNA provides common definitions, concepts, and classifications used by all countries, enabling international comparisons.
+
+Key SNA 2008 changes adopted by India (in the 2011-12 base year revision):
+- GVA at **basic prices** (replacing factor cost).
+- GDP = GVA at basic prices + Product taxes − Product subsidies.
+- Improved coverage of financial services (Financial Intermediation Services Indirectly Measured — FISIM).
+- Government expenditure includes defence capital expenditure as investment.
+
+The new **2022-23 base year series** (February 2026) further adopted:
+- **Double deflation** for manufacturing and agricultural sectors — separating output price and input price deflation for more accurate volume measurement.
+- **Supply-Use Tables** for improved consistency between production and expenditure approaches.
+- Granular sector-level deflators from more representative price surveys.
+
+---
+
+### Depreciation and Capital Consumption Allowance
+
+**Depreciation** (formally: Capital Consumption Allowance, CCA) represents the reduction in the value of capital stock due to wear and tear, obsolescence, and accidental damage during the production process.
+
+GDP is **gross** — it does not subtract depreciation. NDP is **net** — it does.
+
+In practice, measuring depreciation is methodologically complex:
+- **Straight-line depreciation:** Equal annual deduction.
+- **Declining balance:** Higher deductions in early years.
+- **Economic depreciation:** Market value reduction — varies with asset.
+
+For UPSC: The key conceptual point is that **net measures (NDP, NNP, NI) better represent sustainable income** than gross measures — they account for the capital replacement needed to maintain the current production level. A country cannot sustainably consume its entire GDP if a portion must be reinvested to replace worn-out capital.
+
+> 📌 **Key Fact:** India's **gross fixed capital formation (GFCF)** was approximately **30–32% of GDP** in FY2025-26. The gap between gross and net investment (depreciation) is significant — estimates suggest depreciation absorbs roughly 10–12% of GDP, meaning **net investment** is substantially lower than the gross figure. This matters for long-term growth sustainability: only net investment adds to productive capacity.
+
+---
+
+### International Comparisons: India in the World
+
+Using **nominal GDP at market exchange rates** (IMF estimates, FY2025-26):
+
+| Rank | Country | Nominal GDP |
+|------|---------|------------|
+| 1 | USA | ~$29 trillion |
+| 2 | China | ~$19 trillion |
+| 3 | Germany | ~$4.6 trillion |
+| 4 | Japan | ~$4.1 trillion |
+| 5 | **India** | **~$3.9 trillion** |
+| 6 | UK | ~$3.5 trillion |
+
+India became the world's **5th largest economy** (surpassing UK) around 2022. India is projected to become the **3rd largest economy by 2027–2030** (surpassing Germany and Japan), according to IMF projections.
+
+Using **PPP-adjusted GDP** (2024 IMF):
+
+1. China (~$36 trillion PPP), 2. USA (~$29 trillion), **3. India (~$15 trillion PPP).**
+
+India is already the **3rd largest economy by PPP** — and has been since approximately 2011 (depending on the PPP vintage used).
