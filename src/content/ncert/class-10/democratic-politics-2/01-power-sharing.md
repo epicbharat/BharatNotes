@@ -337,6 +337,30 @@ Strongest argument: combine both. Belgium adopted power sharing for prudential r
 
 ---
 
+## Power Sharing and Gender: An Underappreciated Dimension
+
+### Women's Political Representation as Power Sharing
+
+One dimension of power sharing that is often underappreciated is **gender**. In most democracies — including India — women make up approximately 50% of the population but are significantly underrepresented in elected bodies, government services, and leadership positions.
+
+India has addressed this through specific power-sharing mechanisms:
+- **Reservation of seats in Panchayati Raj Institutions:** The 73rd Constitutional Amendment (1992) mandated that at least **one-third of all seats** in panchayats (including the position of chairperson) be reserved for women. Many states have gone further — Rajasthan, Bihar, and others have 50% reservation for women in panchayats.
+- **Women's Reservation Bill (Nari Shakti Vandan Adhiniyam, 2023):** Passed as the 106th Constitutional Amendment in September 2023, this reserves **one-third of all seats** in the Lok Sabha and all state legislative assemblies for women. The reservation will be effective after the delimitation exercise following the next census.
+
+### Why Gender Power Sharing Matters
+
+Women's political representation matters for power sharing for both prudential and moral reasons:
+
+**Prudential:** Research consistently shows that when women hold political positions, they are more likely to champion policies related to healthcare, education, nutrition, and child welfare — areas that directly affect family well-being and human development. Gram panchayats with women sarpanches have, in documented studies, shown better provision of drinking water, rural roads, and schools.
+
+**Moral:** A democracy that excludes 50% of its adult citizens from meaningful political representation is not living up to its foundational commitment to equal citizenship.
+
+### 💡 Explainer: Panchayati Raj and Women
+
+The 73rd Amendment's mandatory reservation of one-third seats for women in panchayats is one of India's most significant power-sharing innovations. In practical terms, it has placed millions of women in positions of formal political authority who would otherwise have been excluded. Studies show mixed results: some women sarpanches operate with real autonomy; others are controlled by their husbands ("sarpanch pati" phenomenon). But the long-term trend is towards greater women's political voice as female education and social confidence grow.
+
+---
+
 ## Previous Year Questions (PYQs)
 
 ### Prelims
