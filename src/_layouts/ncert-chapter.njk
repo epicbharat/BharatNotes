@@ -260,7 +260,7 @@ layout: base.njk
 
     var titleDiv = document.createElement('div');
     titleDiv.className = 'ncert-box__title';
-    var cleanTitle = text.replace(/^[💡🔗🎯📌]\s*/, '').replace(/^(Explainer|Beyond the Book|Bridging Gap|UPSC Connect|Key Fact)\s*:\s*/i, '');
+    var cleanTitle = text.replace(/^(💡|🔗|🎯|📌)\s*/u, '').replace(/^(Explainer|Beyond the Book|Bridging Gap|UPSC Connect|Key Fact)\s*:\s*/iu, '');
     titleDiv.textContent = cleanTitle || text;
 
     var bodyDiv = document.createElement('div');

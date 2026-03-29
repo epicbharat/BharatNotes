@@ -251,6 +251,7 @@
 .ncert-box--explainer .ncert-box__title::before {
   content: "💡";
   font-style: normal;
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
 }
 
 /* Bridging Gap box — amber, fills content gaps */
@@ -277,6 +278,7 @@
 .ncert-box--bridge .ncert-box__title::before {
   content: "🔗";
   font-style: normal;
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
 }
 
 /* UPSC Connect box — green, exam relevance */
@@ -304,6 +306,7 @@
 .ncert-box--upsc .ncert-box__title::before {
   content: "🎯";
   font-style: normal;
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
 }
 
 /* Key Fact box — yellow, mnemonics/numbers */
@@ -330,6 +333,7 @@
 .ncert-box--fact .ncert-box__title::before {
   content: "📌";
   font-style: normal;
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
 }
 
 .ncert-box__body {
