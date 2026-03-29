@@ -237,7 +237,7 @@ Over **90%** of FDI inflows come through the **automatic route**.
 | **India-South Korea CEPA** | South Korea | 2010 | Similar to Japan CEPA; review ongoing |
 | **SAFTA** | SAARC members | 2006 | South Asian Free Trade Area |
 | **India-EU FTA** | EU | Under negotiation | Stalled since 2013; revived in 2022; key issues — automobiles, dairy, data protection |
-| **India-UK FTA** | UK | Under negotiation | 14 rounds completed by 2025; contentious issues — tariffs, migration, IP |
+| **India-UK FTA** | UK | **Concluded** — signed 24 July 2025; pending parliamentary ratification | Negotiations concluded in principle 6 May 2025; signed July 2025; laid before UK Parliament January 2026; implementation anticipated H1 2026 |
 
 ### India's Exit from RCEP (2019)
 

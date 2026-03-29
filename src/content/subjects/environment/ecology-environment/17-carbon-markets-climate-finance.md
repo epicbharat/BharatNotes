@@ -78,7 +78,7 @@ After years of stalled negotiations, **COP29 in Baku (November 2024)** delivered
 - Standards on **methodologies** for Article 6.4 projects
 - Standards on **emission removals** (carbon removal credits)
 
-A grievance mechanism and liability provisions were also established. The first issuance of **Article 6.4 units** is expected by **mid-2025**. This unlocks an estimated **$250 billion in savings** for meeting global climate targets.
+A grievance mechanism and liability provisions were also established. The first issuance of **Article 6.4 units** (originally expected by mid-2025) was delayed; the UNFCCC Supervisory Body approved the first-ever credits on **26 February 2026** — a clean-cookstove project in Myanmar (60,000 credits). This unlocks an estimated **$250 billion in savings** for meeting global climate targets.
 
 ## REDD+: Forests as Carbon Sinks
 
