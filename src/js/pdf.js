@@ -319,8 +319,13 @@
       "details[open] { background:#f9f9f5; }",
       "summary { font-family:'Inter',sans-serif; font-size:10pt; font-weight:600; color:#333; cursor:default; }",
 
-      /* Per-page running footer — position:fixed renders on every printed page */
-      ".rf { position:fixed; bottom:0; left:0; right:0; display:flex; justify-content:space-between; align-items:center; font-family:'Inter',sans-serif; font-size:7pt; color:#bbb; padding:5px 20mm; border-top:0.5px solid #e8e8e8; background:#fff; letter-spacing:0.03em; }",
+      /* Mid-content brand card — injected before every 3rd H2 */
+      ".mid-brand { display:flex; align-items:center; gap:10px; padding:7px 12px; margin:20px 0 4px; background:#f8fafc; border:0.5px solid #e2e8f0; border-radius:5px; page-break-inside:avoid; }",
+      ".mid-brand__photo { width:34px; height:34px; border-radius:50%; object-fit:cover; flex-shrink:0; }",
+      ".mid-brand__info { flex:1; }",
+      ".mid-brand__name { font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:700; color:#1a1a1a; display:block; line-height:1.4; }",
+      ".mid-brand__role { font-family:'Inter',sans-serif; font-size:6.5pt; color:#888; display:block; line-height:1.4; }",
+      ".mid-brand__link { font-family:'Inter',sans-serif; font-size:7pt; font-weight:600; color:#0f4c3a; text-decoration:none; letter-spacing:0.02em; flex-shrink:0; white-space:nowrap; }",
 
       /* End-of-content footer */
       ".ft { margin-top:36px; padding-top:12px; border-top:0.5px solid #ccc; display:flex; justify-content:space-between; font-family:'Inter',sans-serif; font-size:7.5pt; color:#999; letter-spacing:0.04em; }",
@@ -368,6 +373,26 @@
        HTML Assembly
        ────────────── */
     var photoSrc = authorPhotoB64 || "https://bharatnotes.com/img/bharat-choudhary.png";
+
+    /* Inject mid-content brand cards before every 3rd H2 in the clone */
+    (function() {
+      var h2s = clone.querySelectorAll("h2");
+      h2s.forEach(function(h2, i) {
+        if (i > 0 && i % 3 === 0) {
+          var card = document.createElement("div");
+          card.className = "mid-brand";
+          card.innerHTML =
+            '<img class="mid-brand__photo" src="' + photoSrc + '" alt="" onerror="this.style.display=\'none\'">' +
+            '<div class="mid-brand__info">' +
+              '<span class="mid-brand__name">Bharat Choudhary</span>' +
+              '<span class="mid-brand__role">Founder, BharatNotes &amp; Ujiyari</span>' +
+            '</div>' +
+            '<a href="https://bharatnotes.com" class="mid-brand__link">bharatnotes.com &rarr;</a>';
+          h2.parentNode.insertBefore(card, h2);
+        }
+      });
+    })();
+
     var descEl = isNcert
       ? document.querySelector(".ncert-header__subtitle")
       : document.querySelector(".page-header__subtitle");
@@ -473,12 +498,6 @@
           '<p class="bp-disc">All content sourced from official government publications &amp; standard UPSC references. Free for personal use.</p>' +
           '<div class="bp-copy">&copy; ' + new Date().getFullYear() + ' BharatNotes.com &middot; 100% Free &middot; No Login Required</div>' +
         '</div>' +
-      '</div>' +
-
-      /* ═══ RUNNING FOOTER (every page) ═══ */
-      '<div class="rf">' +
-        '<span>bharatnotes.com</span>' +
-        '<span>Bharat Choudhary  &middot;  BharatNotes</span>' +
       '</div>' +
 
       '</body></html>';
