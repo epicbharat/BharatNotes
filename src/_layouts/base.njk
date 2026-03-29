@@ -103,6 +103,9 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="/css/main.css?v={{ site.buildTime }}">
+  {% if layout == 'ncert-chapter.njk' or layout == 'ncert-index.njk' %}
+  <link rel="stylesheet" href="/css/ncert.css?v={{ site.buildTime }}">
+  {% endif %}
 </head>
 <body>
 <div class="page-wrapper">

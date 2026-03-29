@@ -121,17 +121,108 @@
 .ncert-article h3 {
   font-size: var(--text-lg);
   font-weight: var(--font-semibold);
-  color: var(--color-brand);
+  color: var(--ncert-blue-dark);
   margin-top: var(--space-6);
   margin-bottom: var(--space-3);
 }
 
 .ncert-article h4 {
-  font-size: var(--text-base);
+  font-size: var(--text-sm);
+  font-weight: var(--font-semibold);
+  color: var(--ncert-blue-mid);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-top: var(--space-4);
+  margin-bottom: var(--space-1);
+}
+
+/* ── NCERT Article Tables ────────────────────────────────────── */
+
+/* Scroll wrapper: owns the border, radius, shadow */
+.ncert-article .table-scroll {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--ncert-blue-border);
+  box-shadow: 0 2px 8px rgba(29, 78, 216, 0.07);
+  margin: var(--space-5) 0;
+}
+
+/* Table itself strips its own chrome — wrapper handles it */
+.ncert-article table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  min-width: 360px;
+  font-size: var(--text-sm);
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  margin: 0;
+  background: #fff;
+}
+
+.ncert-article th {
+  background: var(--ncert-blue-dark);
+  color: #fff;
+  padding: 11px var(--space-4);
+  text-align: left;
+  font-weight: var(--font-semibold);
+  font-size: var(--text-xs);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border: none;
+}
+
+.ncert-article td {
+  padding: 11px var(--space-4);
+  border-bottom: 1px solid var(--ncert-blue-border);
+  color: var(--color-text);
+  line-height: 1.65;
+  vertical-align: top;
+  font-size: var(--text-sm);
+  background: #fff;
+}
+
+.ncert-article td:first-child {
   font-weight: var(--font-semibold);
   color: var(--color-text);
-  margin-top: var(--space-5);
-  margin-bottom: var(--space-2);
+  background: var(--ncert-blue-pale);
+  border-right: 1px solid var(--ncert-blue-border);
+}
+
+.ncert-article tr:last-child td {
+  border-bottom: none;
+}
+
+.ncert-article tr:hover td {
+  background: rgba(29, 78, 216, 0.04);
+}
+
+.ncert-article tr:hover td:first-child {
+  background: rgba(29, 78, 216, 0.08);
+}
+
+/* Tables inside special boxes — match box accent color */
+.ncert-box__body .table-scroll {
+  border-color: rgba(0, 0, 0, 0.12);
+  box-shadow: none;
+  margin-top: var(--space-4);
+}
+
+.ncert-box--explainer .ncert-box__body th { background: var(--ncert-explainer-text); }
+.ncert-box--bridge   .ncert-box__body th { background: var(--ncert-bridge-text); }
+.ncert-box--upsc     .ncert-box__body th { background: var(--ncert-upsc-text); }
+.ncert-box--fact     .ncert-box__body th { background: var(--ncert-fact-text); }
+
+.ncert-box--explainer .ncert-box__body td:first-child { background: rgba(239,246,255,0.6); border-right-color: rgba(59,130,246,0.2); }
+.ncert-box--bridge   .ncert-box__body td:first-child { background: rgba(255,251,235,0.8); border-right-color: rgba(245,158,11,0.2); }
+.ncert-box--upsc     .ncert-box__body td:first-child { background: rgba(240,253,244,0.8); border-right-color: rgba(34,197,94,0.2); }
+.ncert-box--fact     .ncert-box__body td:first-child { background: rgba(254,252,232,0.8); border-right-color: rgba(234,179,8,0.2); }
+
+@media (max-width: 768px) {
+  .ncert-article td,
+  .ncert-article th { padding: 9px var(--space-3); }
 }
 
 /* ── Special NCERT Boxes ─────────────────────────────────────── */
@@ -472,6 +563,45 @@
 
 .ncert-toc .toc-list li a:hover {
   color: var(--ncert-blue);
+}
+
+.ncert-toc .toc-list li a.toc-active {
+  color: var(--ncert-blue) !important;
+  font-weight: var(--font-semibold);
+}
+
+/* ── PART Section Dividers ───────────────────────────────────── */
+.ncert-article h2.ncert-part-divider {
+  background: var(--ncert-blue-pale);
+  border: 1px solid var(--ncert-blue-border);
+  border-left: 4px solid var(--ncert-blue);
+  border-bottom: 1px solid var(--ncert-blue-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-5);
+  margin-top: var(--space-12);
+  font-size: var(--text-lg);
+  letter-spacing: 0.01em;
+}
+
+/* ── Table Scroll Affordance ─────────────────────────────────── */
+.ncert-article .table-scroll {
+  position: relative;
+}
+
+.ncert-article .table-scroll::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 48px;
+  height: 100%;
+  background: linear-gradient(to right, transparent, rgba(255,255,255,0.95));
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+.ncert-article .table-scroll.ncert-table-scrolled::after {
+  opacity: 0;
 }
 
 /* ── Responsive ──────────────────────────────────────────────── */

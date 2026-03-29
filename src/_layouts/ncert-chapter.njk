@@ -25,9 +25,6 @@ layout: base.njk
 {# Build book index URL #}
 {%- set bookIndexUrl = "/ncert/class-" + ncert_class + "/" + book_slug + "/" -%}
 
-<!-- NCERT chapter-specific CSS -->
-<link rel="stylesheet" href="/css/ncert.css?v={{ site.buildTime }}">
-
 <!-- Page Header -->
 <header class="ncert-header">
   <div class="container">
@@ -113,7 +110,17 @@ layout: base.njk
 
       <!-- Sidebar -->
       <aside class="topic-sidebar">
-        <!-- Book Info -->
+
+        <!-- Save as PDF -->
+        <div class="card" style="margin-bottom:var(--space-5);">
+          <button id="btn-download-pdf" class="btn btn--primary" style="width:100%;justify-content:center;gap:8px;min-height:48px;font-size:var(--text-sm);border-radius:10px;touch-action:manipulation;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="flex-shrink:0;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Save as PDF
+          </button>
+          <p style="font-size:var(--text-xs);color:var(--color-text-muted);margin-top:var(--space-2);text-align:center;">Clean PDF for offline study</p>
+        </div>
+
+        <!-- Chapter Info -->
         <div class="ncert-book-info-card">
           <div class="ncert-book-info-card__label">📚 Chapter Info</div>
           <div class="ncert-book-info-card__item">
@@ -130,7 +137,7 @@ layout: base.njk
           </div>
           {% if gs_papers %}
           <div class="ncert-book-info-card__item">
-            <strong>GS</strong>
+            <strong>GS Paper</strong>
             {% for paper in gs_papers %}{{ paper | upper }}{% if not loop.last %}, {% endif %}{% endfor %}
           </div>
           {% endif %}
@@ -141,6 +148,17 @@ layout: base.njk
           <h4 style="color:var(--ncert-blue);font-size:var(--text-xs);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:var(--space-3);">In This Chapter</h4>
           <ol class="toc-list" id="toc-list"></ol>
         </nav>
+
+        <!-- Study Tools -->
+        <div class="card" style="margin-bottom:var(--space-5);">
+          <h4 style="color:var(--ncert-blue);font-size:var(--text-xs);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:var(--space-3);">Practice & Prepare</h4>
+          {% if gs_subject_url %}
+          <a href="{{ gs_subject_url }}" class="btn btn--accent btn--sm" style="width:100%;justify-content:center;margin-bottom:var(--space-2);">🎯 GS Notes on This Topic</a>
+          {% endif %}
+          <a href="/prelims/" class="btn btn--ghost btn--sm" style="width:100%;justify-content:center;margin-bottom:var(--space-2);">📋 Prelims Practice</a>
+          <a href="/mains/" class="btn btn--ghost btn--sm" style="width:100%;justify-content:center;margin-bottom:var(--space-2);">✍️ Mains Practice</a>
+          <a href="/pyq/" class="btn btn--ghost btn--sm" style="width:100%;justify-content:center;">📝 PYQ Analysis</a>
+        </div>
 
         <!-- Chapters in this Book -->
         {% if bookChapters.length > 1 %}
@@ -153,26 +171,21 @@ layout: base.njk
           <a href="{{ ch.url }}" style="display:block;font-size:var(--text-xs);padding:var(--space-1) 0;color:var(--color-text-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">Ch {{ ch.data.chapter | string | padStart(2,"0") }}. {{ ch.data.title | truncate(45, true) }}</a>
           {% endif %}
           {% endfor %}
-          <a href="{{ bookIndexUrl }}" style="display:block;font-size:var(--text-xs);padding:var(--space-2) 0;color:var(--ncert-blue);font-weight:var(--font-semibold);">← Back to book →</a>
-        </div>
-        {% endif %}
-
-        <!-- GS Subject Link -->
-        {% if gs_subject_url %}
-        <div class="card" style="margin-bottom:var(--space-5);">
-          <h4 style="color:var(--color-brand);font-size:var(--text-xs);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:var(--space-3);">GS Notes on This Topic</h4>
-          <a href="{{ gs_subject_url }}" class="btn btn--accent btn--sm" style="width:100%;justify-content:center;">
-            🎯 Read GS Notes →
-          </a>
+          <a href="{{ bookIndexUrl }}" style="display:block;font-size:var(--text-xs);padding:var(--space-2) 0;color:var(--ncert-blue);font-weight:var(--font-semibold);">← Back to book index</a>
         </div>
         {% endif %}
 
         <!-- Current Affairs -->
         <div class="card">
-          <h4 style="color:var(--color-brand);font-size:var(--text-xs);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:var(--space-3);">📰 Current Affairs</h4>
-          <p style="font-size:var(--text-xs);color:var(--color-text-muted);margin-bottom:var(--space-3);">Connect this chapter to live news</p>
-          <a href="https://ujiyari.com" class="btn btn--ghost btn--sm" target="_blank" rel="noopener" style="width:100%;justify-content:center;">Ujiyari.com ↗</a>
+          <h4 style="color:var(--ncert-blue);font-size:var(--text-xs);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:var(--space-3);">📰 Current Affairs</h4>
+          <p style="font-size:var(--text-xs);color:var(--color-text-muted);margin-bottom:var(--space-3);">Link this chapter to live news</p>
+          {% if subject_area %}
+          <a href="https://ujiyari.com/search/?q={{ subject_area | urlencode }}" class="btn btn--accent btn--sm" target="_blank" rel="noopener" style="width:100%;justify-content:center;margin-bottom:var(--space-2);">{{ subject_area }} News →</a>
+          {% endif %}
+          <a href="https://ujiyari.com/editorials/" class="btn btn--ghost btn--sm" target="_blank" rel="noopener" style="width:100%;justify-content:center;margin-bottom:var(--space-2);">Editorial Analysis →</a>
+          <a href="https://ujiyari.com/daily/" class="btn btn--ghost btn--sm" target="_blank" rel="noopener" style="width:100%;justify-content:center;">Daily Updates →</a>
         </div>
+
       </aside>
     </div>
   </div>
@@ -183,7 +196,7 @@ layout: base.njk
   var article = document.querySelector('.ncert-article');
   if (!article) return;
 
-  /* Wrap tables */
+  /* ── Wrap tables ── */
   var tables = article.querySelectorAll('table');
   for (var t = 0; t < tables.length; t++) {
     var wrap = document.createElement('div');
@@ -191,6 +204,22 @@ layout: base.njk
     tables[t].parentNode.insertBefore(wrap, tables[t]);
     wrap.appendChild(tables[t]);
   }
+
+  /* ── Table Scroll Indicators ── */
+  article.querySelectorAll('.table-scroll').forEach(function(tw) {
+    function checkScroll() {
+      tw.classList.toggle('ncert-table-scrolled', tw.scrollLeft + tw.clientWidth >= tw.scrollWidth - 4);
+    }
+    checkScroll();
+    tw.addEventListener('scroll', checkScroll, { passive: true });
+  });
+
+  /* ── PART Dividers ── */
+  article.querySelectorAll('h2').forEach(function(h2) {
+    if (/^PART\s+\d/i.test(h2.textContent.trim())) {
+      h2.classList.add('ncert-part-divider');
+    }
+  });
 
   /* ── Special Box Post-processor ──
      Detects h3 headings with box prefixes and wraps
@@ -231,7 +260,6 @@ layout: base.njk
 
     var titleDiv = document.createElement('div');
     titleDiv.className = 'ncert-box__title';
-    /* Strip the emoji prefix from the heading text for the title label */
     var cleanTitle = text.replace(/^[💡🔗🎯📌]\s*/, '').replace(/^(Explainer|Beyond the Book|Bridging Gap|UPSC Connect|Key Fact)\s*:\s*/i, '');
     titleDiv.textContent = cleanTitle || text;
 
@@ -261,12 +289,14 @@ layout: base.njk
     return;
   }
 
+  function truncToc(t) { return t.length > 72 ? t.slice(0, 70).replace(/\s+\S*$/, '') + '\u2026' : t; }
+
   var tocHtml = '';
   headings.forEach(function(h, idx) {
     var id = h.id || ('ncert-h-' + idx);
     h.id = id;
     var isH3 = h.tagName === 'H3';
-    tocHtml += '<li' + (isH3 ? ' style="padding-left:var(--space-4)"' : '') + '><a href="#' + id + '" style="font-size:var(--text-xs);color:var(--color-text-secondary);text-decoration:none;display:block;padding:2px 0;line-height:1.4;">' + h.textContent.trim().slice(0, 60) + '</a></li>';
+    tocHtml += '<li' + (isH3 ? ' style="padding-left:var(--space-4)"' : '') + '><a href="#' + id + '" style="font-size:var(--text-xs);color:var(--color-text-secondary);text-decoration:none;display:block;padding:2px 0;line-height:1.4;">' + truncToc(h.textContent.trim()) + '</a></li>';
   });
   tocList.innerHTML = tocHtml;
   if (tocMobileList) tocMobileList.innerHTML = tocHtml;
@@ -278,6 +308,24 @@ layout: base.njk
       tocMobileToggle.setAttribute('aria-expanded', String(!expanded));
       tocMobileList.hidden = expanded;
     });
+  }
+
+  /* ── TOC Scroll Spy ── */
+  if ('IntersectionObserver' in window) {
+    var activeTocLink = null;
+    var spy = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          var link = tocList.querySelector('a[href="#' + entry.target.id + '"]');
+          if (link && link !== activeTocLink) {
+            if (activeTocLink) activeTocLink.classList.remove('toc-active');
+            link.classList.add('toc-active');
+            activeTocLink = link;
+          }
+        }
+      });
+    }, { rootMargin: '-10% 0px -80% 0px', threshold: 0 });
+    article.querySelectorAll('h2[id], h3[id]').forEach(function(h) { spy.observe(h); });
   }
 })();
 </script>

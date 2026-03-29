@@ -177,7 +177,7 @@
       "@page backpage { margin:0; }",
 
       /* Base typography — Crimson Pro body, EB Garamond display */
-      "body { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:11.5pt; line-height:1.75; color:#1a1a1a; background:#fff; }",
+      "body { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:13pt; line-height:1.72; color:#1a1a1a; background:#fff; }",
 
       /* ─── TITLE PAGE ─── */
       ".tp { width:210mm; height:297mm; display:flex; flex-direction:column; padding:0; page-break-after:always; position:relative; overflow:hidden; }",
@@ -211,7 +211,7 @@
       ".ct-sub { font-family:'Inter',sans-serif; font-size:8.5pt; color:#888; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:20px; padding-bottom:16px; border-bottom:1px solid #1a1a1a; }",
 
       /* Headings */
-      ".ct h2 { font-family:'EB Garamond','Georgia',serif; font-size:17pt; font-weight:400; color:#1a1a1a; margin:32px 0 10px; padding-bottom:6px; border-bottom:0.5px solid #ccc; }",
+      ".ct h2 { font-family:'EB Garamond','Georgia',serif; font-size:18pt; font-weight:400; color:#1a1a1a; margin:32px 0 10px; padding-bottom:6px; border-bottom:0.5px solid #ccc; }",
       ".ct h2:first-child { margin-top:0; }",
       ".ct h2[data-pdf-type='upsc'] { color:#1a1a1a; border-bottom:1.5px solid #1a1a1a; }",
       ".ct h2[data-pdf-type='upsc']::before { content:'\\25B6  '; font-size:9pt; }",
@@ -222,8 +222,8 @@
       ".ct h2[data-pdf-type='vocab']::before { content:'\\25A0  '; font-size:9pt; }",
       ".ct h2[data-pdf-type='terms'] { color:#1a1a1a; border-bottom:1.5px solid #1a1a1a; }",
       ".ct h2[data-pdf-type='terms']::before { content:'\\25A1  '; font-size:9pt; }",
-      ".ct h3 { font-family:'EB Garamond','Georgia',serif; font-size:13.5pt; font-weight:400; font-style:italic; color:#333; margin:24px 0 8px; }",
-      ".ct h4 { font-family:'Inter','Helvetica Neue',sans-serif; font-size:9pt; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#555; margin:20px 0 8px; }",
+      ".ct h3 { font-family:'EB Garamond','Georgia',serif; font-size:14.5pt; font-weight:400; font-style:italic; color:#333; margin:24px 0 8px; }",
+      ".ct h4 { font-family:'Inter','Helvetica Neue',sans-serif; font-size:10.5pt; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:#444; margin:20px 0 8px; }",
 
       /* Body text */
       ".ct p { margin-bottom:10px; text-align:justify; hyphens:auto; }",
@@ -233,15 +233,15 @@
       ".ct li strong { color:#1a1a1a; }",
 
       /* Blockquotes — scholarly indent */
-      ".ct blockquote { margin:14px 0 14px 24px; padding:10px 16px; border-left:2px solid #999; font-style:italic; color:#444; font-size:11pt; line-height:1.65; background:none; }",
+      ".ct blockquote { margin:14px 0 14px 24px; padding:10px 16px; border-left:2px solid #999; font-style:italic; color:#444; font-size:12pt; line-height:1.65; background:none; }",
       ".ct blockquote strong { font-style:normal; color:#1a1a1a; }",
 
       /* Tables — Oxford booktabs style */
-      ".ct table { width:100%; border-collapse:collapse; margin:16px 0; font-size:10.5pt; line-height:1.5; page-break-inside:auto; }",
+      ".ct table { width:100%; border-collapse:collapse; margin:16px 0; font-size:11.5pt; line-height:1.5; page-break-inside:auto; }",
       ".ct tr { page-break-inside:avoid; }",
       ".ct thead { border-top:2px solid #1a1a1a; border-bottom:1px solid #1a1a1a; }",
-      ".ct th { padding:8px 10px; text-align:left; font-family:'Inter',sans-serif; font-size:8.5pt; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:#333; background:none; }",
-      ".ct td { padding:7px 10px; border-bottom:none; color:#333; vertical-align:top; }",
+      ".ct th { padding:8px 10px; text-align:left; font-family:'Inter',sans-serif; font-size:9.5pt; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:#333; background:none; }",
+      ".ct td { padding:8px 10px; border-bottom:none; color:#333; vertical-align:top; }",
       ".ct tbody tr:last-child td { border-bottom:2px solid #1a1a1a; }",
       ".ct tbody tr:nth-child(even) td { background:rgba(0,0,0,0.015); }",
 
@@ -261,21 +261,21 @@
       ".pyq-meta { display:flex; align-items:center; gap:10px; padding:8px 14px; border-bottom:0.5px solid #ccc; background:#fafafa; }",
       ".pyq-q-number { display:inline-flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:50%; border:1.5px solid #1a1a1a; font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:700; color:#1a1a1a; background:none; }",
       ".pyq-year-badge { font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:600; color:#666; letter-spacing:0.06em; text-transform:uppercase; }",
-      ".pyq-question-text { padding:12px 14px; font-size:11pt; line-height:1.65; }",
+      ".pyq-question-text { padding:12px 14px; font-size:12pt; line-height:1.65; }",
       ".pyq-question-text strong { color:#1a1a1a; }",
       ".pyq-card ol, .pyq-card ul { padding:0 14px; margin:0 0 10px 10px; }",
-      ".pyq-card li { padding:2px 0; font-size:10.5pt; line-height:1.55; margin-bottom:2px; }",
-      ".pyq-answer { padding:10px 14px; background:#f9f9f5; border-top:0.5px solid #ccc; font-size:10.5pt; line-height:1.6; }",
+      ".pyq-card li { padding:2px 0; font-size:11.5pt; line-height:1.55; margin-bottom:2px; }",
+      ".pyq-answer { padding:10px 14px; background:#f9f9f5; border-top:0.5px solid #ccc; font-size:11.5pt; line-height:1.6; }",
       ".pyq-answer strong { font-weight:700; }",
       ".pyq-card--mains { border-color:#aaa; }",
       ".pyq-card--mains .pyq-meta { background:#f7f7f2; }",
       ".pyq-section-heading { font-family:'EB Garamond','Georgia',serif; font-size:13pt; font-style:italic; color:#333; margin:20px 0 10px; }",
 
       /* Callout boxes — scholarly notes */
-      ".callout { margin:14px 0; padding:12px 16px; border:0.5px solid #ccc; border-left:3px solid #555; background:#fafafa; font-size:10.5pt; }",
-      ".callout-title { font-family:'Inter',sans-serif; font-size:8pt; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#555; margin-bottom:6px; }",
-      ".callout p { margin-bottom:4px; font-size:10.5pt; } .callout p:last-child { margin-bottom:0; }",
-      ".callout ul, .callout ol { margin:4px 0 4px 18px; font-size:10.5pt; }",
+      ".callout { margin:14px 0; padding:12px 16px; border:0.5px solid #ccc; border-left:3px solid #555; background:#fafafa; font-size:11.5pt; }",
+      ".callout-title { font-family:'Inter',sans-serif; font-size:9pt; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#555; margin-bottom:6px; }",
+      ".callout p { margin-bottom:4px; font-size:11.5pt; } .callout p:last-child { margin-bottom:0; }",
+      ".callout ul, .callout ol { margin:4px 0 4px 18px; font-size:11.5pt; }",
       ".callout--info { border-left-color:#4a7ab5; }",
       ".callout--info .callout-title { color:#4a7ab5; }",
       ".callout--tip { border-left-color:#3a7a4a; }",
@@ -289,7 +289,7 @@
       /* Details/summary */
       "details { margin:10px 0; padding:8px 14px; border:0.5px solid #ccc; background:#fafafa; }",
       "details[open] { background:#f9f9f5; }",
-      "summary { font-family:'Inter',sans-serif; font-size:9pt; font-weight:600; color:#333; cursor:default; }",
+      "summary { font-family:'Inter',sans-serif; font-size:10pt; font-weight:600; color:#333; cursor:default; }",
 
       /* Running footer */
       ".ft { margin-top:36px; padding-top:12px; border-top:0.5px solid #ccc; display:flex; justify-content:space-between; font-family:'Inter',sans-serif; font-size:7.5pt; color:#999; letter-spacing:0.04em; }",
