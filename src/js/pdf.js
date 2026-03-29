@@ -6,7 +6,7 @@
 
   const PDF_API_URL = "https://rbse-pdf.vercel.app/api/generate";
 
-  // Convert author photo to base64 at load time — resized to 90px JPEG to keep payload small
+  // Author photo — resized to 90px JPEG at load time
   var authorPhotoB64 = "";
   (function preloadPhoto() {
     var img = new Image();
@@ -15,13 +15,40 @@
       try {
         var size = 90;
         var c = document.createElement("canvas");
-        c.width = size;
-        c.height = size;
+        c.width = size; c.height = size;
         c.getContext("2d").drawImage(img, 0, 0, size, size);
         authorPhotoB64 = c.toDataURL("image/jpeg", 0.7);
-      } catch (e) { /* cross-origin or tainted canvas — skip */ }
+      } catch (e) {}
     };
     img.src = "/img/bharat-choudhary.png";
+  })();
+
+  // Crimson Pro fonts — fetched lazily, converted to base64 for self-contained PDF HTML
+  var crimsonFontsCSS = "";
+  (function preloadFonts() {
+    var fonts = [
+      { url: "/fonts/crimsonpro-regular.ttf",  style: "normal",  weight: "400" },
+      { url: "/fonts/crimsonpro-italic.ttf",   style: "italic",  weight: "400" },
+      { url: "/fonts/crimsonpro-semibold.ttf", style: "normal",  weight: "600" }
+    ];
+    var loaded = 0;
+    var parts = ["", "", ""];
+    fonts.forEach(function(f, i) {
+      fetch(f.url)
+        .then(function(r) { return r.arrayBuffer(); })
+        .then(function(buf) {
+          var bytes = new Uint8Array(buf);
+          var binary = "";
+          for (var b = 0; b < bytes.byteLength; b++) binary += String.fromCharCode(bytes[b]);
+          var b64 = btoa(binary);
+          parts[i] = "@font-face{font-family:'Crimson Pro';font-style:" + f.style +
+            ";font-weight:" + f.weight + ";src:url(data:font/truetype;base64," + b64 +
+            ") format('truetype');}";
+          loaded++;
+          if (loaded === fonts.length) crimsonFontsCSS = parts.join("");
+        })
+        .catch(function() {});
+    });
   })();
 
   /* ══════════════════════════════════════════════════════════
@@ -404,10 +431,7 @@
 
     var html =
       '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>' + titleText + '</title>' +
-      '<link rel="preconnect" href="https://fonts.googleapis.com">' +
-      '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' +
-      '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap">' +
-      '<style>' + css + '</style></head><body>' +
+      '<style>' + crimsonFontsCSS + css + '</style></head><body>' +
 
       /* ═══ TITLE PAGE ═══ */
       '<div class="tp">' +
