@@ -390,3 +390,114 @@ Which of the above statements is/are correct?
 **Q1.** "Non-Alignment was not merely a Cold War strategy for India but a foundational principle of its foreign policy that remains relevant in the multipolar world." Critically examine. **(CSE Mains 2019, GS Paper 2, 15 marks)**
 
 **Q2.** The Cuban Missile Crisis of 1962 demonstrated both the dangers of nuclear brinkmanship and the importance of diplomatic back-channels in conflict resolution. What lessons does the crisis offer for contemporary nuclear risk reduction? **(CSE Mains 2022, GS Paper 2, 15 marks)**
+
+---
+
+## Supplementary Deep Dives
+
+### The Space Race: Cold War Competition Beyond Earth
+
+The Cold War extended into outer space — a domain of enormous symbolic and strategic significance. Key milestones:
+
+| Year | Event | Nation |
+|------|-------|--------|
+| 1957 | Sputnik 1 — first artificial satellite | USSR |
+| 1957 | Sputnik 2 — first living creature in orbit (Laika the dog) | USSR |
+| 1961 | Yuri Gagarin — first human in space (12 April) | USSR |
+| 1962 | John Glenn — first American to orbit Earth | USA |
+| 1969 | Apollo 11 — first humans on the Moon (Neil Armstrong, 20 July) | USA |
+| 1975 | Apollo-Soyuz — first US-Soviet joint space mission; symbolic détente | USA-USSR |
+
+The space race had both military significance (satellites for reconnaissance and missile guidance) and enormous propaganda value — demonstrating whose system was technologically superior. The USSR's early dominance (Sputnik, first human in space) shocked the US into massive investment in science education (the National Defense Education Act, 1958) and NASA. The US ultimately "won" the space race by landing on the Moon in 1969.
+
+For India's space programme context: ISRO was established in 1969 — partly inspired by the demonstration that space technology was strategically indispensable.
+
+---
+
+### The Iron Curtain and Division of Europe
+
+Winston Churchill's famous speech at Fulton, Missouri on **5 March 1946** — in which he described an "iron curtain" descending across Europe — crystallised the emerging division of the continent:
+
+**Western Europe (US sphere):**
+- Democratic political systems
+- Market economies
+- Marshall Plan reconstruction
+- NATO military alliance
+- Eventual European integration (EEC → EU)
+
+**Eastern Europe (Soviet sphere):**
+- One-party communist governments (often installed by Soviet forces)
+- Centrally planned economies
+- Council for Mutual Economic Assistance (COMECON, 1949) — Soviet alternative to Marshall Plan
+- Warsaw Pact military alliance
+- Limited political and cultural freedom
+
+Key satellite states included: Poland, Czechoslovakia, Hungary, Romania, Bulgaria, East Germany, Albania (left Warsaw Pact in 1968). Yugoslavia under Tito maintained communism but broke with Stalin in 1948 and remained genuinely non-aligned.
+
+### 🎯 UPSC Connect: Berlin as Cold War Flashpoint
+
+Berlin, deep inside East Germany, was a microcosm of the Cold War:
+- **Berlin Blockade (1948–49):** USSR blockaded road and rail access to West Berlin; US and UK mounted a massive airlift (over 200,000 flights over 11 months) to supply the city. The blockade failed; USSR lifted it in May 1949.
+- **Berlin Wall (1961–1989):** Built on 13 August 1961 to stop the flood of East Germans fleeing to the West (over 3.5 million had fled since 1949). Became the most powerful symbol of Cold War division.
+- **Kennedy's "Ich bin ein Berliner" (1963):** US President Kennedy's famous declaration of solidarity with West Berlin — a powerful Cold War moment.
+- **Fall of the Wall (9 November 1989):** The Wall's opening became the moment that symbolised the Cold War's end.
+
+---
+
+### NAM Summits: A Brief History
+
+| Summit | Year | Host Country | Key Issues |
+|--------|------|-------------|-----------|
+| 1st Summit | 1961 | Belgrade, Yugoslavia | Cold War, colonialism, Suez, Congo |
+| 2nd Summit | 1964 | Cairo, Egypt | Colonialism, US involvement in Vietnam |
+| 3rd Summit | 1970 | Lusaka, Zambia | Apartheid, decolonisation |
+| 4th Summit | 1973 | Algiers, Algeria | New International Economic Order (NIEO) |
+| 5th Summit | 1976 | Colombo, Sri Lanka | Disarmament, economic justice |
+| 7th Summit | 1983 | New Delhi, India | Nehru's India hosts; peace and disarmament |
+| 12th Summit | 1998 | Durban, South Africa | Post-Cold War NAM relevance |
+| 17th Summit | 2016 | Margarita Island, Venezuela | Development, anti-imperialism |
+| 18th Summit | 2019 | Baku, Azerbaijan | Sustainable development, terrorism |
+
+India has been a consistent and prominent NAM participant. PM Nehru's hosting of the 7th NAM Summit in New Delhi in 1983 was a landmark in India's diplomatic leadership.
+
+---
+
+### The Panchsheel Agreement (1954)
+
+The **Panchsheel Agreement** (Agreement on Trade and Intercourse between Tibet Region of China and India) was signed on **29 April 1954** between India and China. It articulated **Five Principles of Peaceful Coexistence (Panch Sheel)**:
+
+1. Mutual respect for each other's territorial integrity and sovereignty
+2. Mutual non-aggression
+3. Mutual non-interference in each other's internal affairs
+4. Equality and mutual benefit
+5. Peaceful coexistence
+
+Panchsheel became the foundational statement of India's approach to international relations during the Cold War and was widely adopted in NAM principles. The 1962 India-China war severely tested these principles — China's border aggression was seen as a betrayal of Panchsheel — but the principles themselves remained influential in India's diplomatic vocabulary.
+
+### 📌 Key Fact: Panchsheel vs UN Charter Principles
+
+Panchsheel principles overlap significantly with the UN Charter's principles (sovereign equality, non-interference, peaceful settlement of disputes) but were articulated specifically in the Afro-Asian context and carried the moral weight of Nehru's vision for a just post-colonial international order.
+
+---
+
+### Arms Control: The Full Picture
+
+The Cold War produced an extensive body of arms control agreements. UPSC aspirants should know the key ones:
+
+| Treaty | Year | Parties | Key Provision | Status |
+|--------|------|---------|--------------|--------|
+| Antarctic Treaty | 1959 | Multiple | Demilitarise Antarctica | In force |
+| PTBT (Partial Test Ban Treaty) | 1963 | US, USSR, UK | Ban nuclear tests above ground | In force |
+| Outer Space Treaty | 1967 | Multiple | No nuclear weapons in space | In force |
+| NPT (Non-Proliferation Treaty) | 1968/1970 | 191 states | Non-proliferation + disarmament commitment | In force; India, Pakistan, Israel not signatories |
+| SALT I + ABM Treaty | 1972 | US, USSR | Freeze ICBMs/SLBMs; limit missile defences | ABM Treaty withdrawn by US in 2002 |
+| Biological Weapons Convention | 1972 | Multiple | Ban biological weapons | In force |
+| SALT II | 1979 | US, USSR | Ceilings on strategic weapons | Signed but never ratified by US |
+| INF Treaty | 1987 | US, USSR | Eliminate intermediate-range missiles | US withdrew in 2019 |
+| START I | 1991 | US, USSR/Russia | Reduce strategic warheads | Expired 2009; replaced by New START |
+| Chemical Weapons Convention | 1993 | Multiple | Ban chemical weapons | In force |
+| New START | 2010 | US, Russia | Limit deployed strategic warheads to 1,550 | Russia suspended participation in 2023 |
+
+### 🎯 UPSC Connect: India and Arms Control
+
+India's position on the NPT — refusing to sign as a non-nuclear state while maintaining nuclear weapons — has been a consistent foreign policy stance. India argues the NPT is discriminatory (creating two classes of states: nuclear "haves" and "have-nots") and that universal disarmament is the only legitimate solution. The India-US nuclear deal created a special exception for India within the NPT framework. UPSC regularly asks about India's nuclear doctrine (No First Use, credible minimum deterrence) and its position on arms control treaties.

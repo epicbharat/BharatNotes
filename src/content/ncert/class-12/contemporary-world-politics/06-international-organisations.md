@@ -1,7 +1,7 @@
 ---
 layout: ncert-chapter.njk
 title: "International Organisations"
-description: "UPSC notes on international organisations — UN system, Security Council reform, India's UNSC bid, IMF, World Bank, WTO, and post-Cold War relevance of multilateralism."
+description: "UPSC notes on international organisations — UN system, Security Council reform, India's UNSC bid, IMF, World Bank, WTO, and relevance of multilateralism."
 ncert_class: 12
 book: "Contemporary World Politics"
 book_slug: contemporary-world-politics
@@ -21,468 +21,342 @@ tags:
   - multilateralism
 ---
 
-**Why this chapter matters for UPSC:** Chapter 6 of *Contemporary World Politics* is fundamental to UPSC GS Paper 2's international relations section. Questions on the UN system, UNSC reform, India's UNSC bid, IMF/World Bank, and WTO appear almost every year in Prelims. Mains GS Paper 2 frequently asks about the relevance of multilateralism, UNSC reform, India's role in UN peacekeeping, and whether the UN system is adequate for 21st-century challenges.
-
-**Contemporary hook (for Mains introductions):** The United Nations was built in 1945 to prevent another World War. Eighty years later, the Security Council — dominated by five powers that won World War II — is paralysed by great-power vetoes as wars rage in Ukraine, Gaza, Sudan, and beyond. The call for UNSC reform — to include emerging powers like India, Brazil, Germany, and Japan — has never been louder. India, as the world's most populous nation, the largest democracy, and one of the largest troop contributors to UN peacekeeping, makes perhaps the strongest case for permanent membership. The question is no longer *if* but *when* and *how*.
-
----
-
 ## PART 1 — Quick Reference Tables
 
-### 📌 Key Fact: UN Essential Numbers
-
-| Fact | Detail |
-|------|--------|
-| UN founding conference | San Francisco, **25 April – 26 June 1945** |
-| UN Charter adopted | **26 June 1945** (signed); entered into force **24 October 1945** (UN Day) |
-| Original members | **51 founding states** (those that had declared war on Axis by March 1, 1945) |
-| Current members | **193 member states** (as of 2024; South Sudan, joined 2011, is the newest) |
-| Non-member observers | Holy See (Vatican) and Palestine (have observer status, not full membership) |
-| UN principal organs | 6: General Assembly (GA), Security Council (SC), Secretariat, International Court of Justice (ICJ), Economic and Social Council (ECOSOC), Trusteeship Council (TC — inactive since 1994) |
-| UN Headquarters | New York, USA |
-| Official languages | 6: Arabic, Chinese, English, French, Russian, Spanish |
-| UN Secretary-General | António Guterres (Portugal) — 9th SG; took office 1 January 2017; re-appointed for 2nd term from 2022 |
-| UN budget | Regular budget ~$3.2 billion (2024-25 biennium); peacekeeping budget ~$2.5 billion annually |
-
----
-
-### UN Security Council: Structure and Voting
+### Table 1: The United Nations — Essential Facts
 
 | Feature | Detail |
-|---------|--------|
-| Total members | **15** (5 permanent + 10 non-permanent) |
-| Permanent members (P5) | **USA, Russia (replaced USSR 1991), China (PRC replaced ROC/Taiwan 1971), France, UK** |
-| Non-permanent members | 10 members elected by UNGA for **2-year terms**; not immediately re-eligible; regional rotation |
-| Vote required for decisions | 9 of 15 votes (procedural matters: any 9; substantive matters: 9 including all P5) |
-| Veto | Each P5 member can block any substantive UNSC resolution; **used 300+ times since 1945** |
-| P5 veto use (historical) | Russia/USSR: most used (~150+); US: second most; China: increasingly using since 2000s |
-| UNSC sessions | Meets continuously; any member can call emergency session |
-| UNSC role | Primary responsibility for international peace and security; authorises enforcement actions |
-| Binding resolutions | Chapter VII resolutions are binding on all UN members; Chapter VI resolutions are recommendations |
+|---|---|
+| Founding conference | San Francisco, 25 April – 26 June 1945 |
+| Charter signed | 26 June 1945 |
+| Charter entered into force | 24 October 1945 (UN Day) |
+| Original founding members | 51 (50 nations at San Francisco; Poland signed later and is counted as a founder) |
+| Current membership | 193 member states |
+| Headquarters | New York, USA |
+| Official languages | 6 — Arabic, Chinese, English, French, Russian, Spanish |
+| Secretary-General (current) | António Guterres (Portugal), in office since 1 January 2017 |
+| Non-member observers | Holy See (Vatican) and Palestine |
 
----
+### Table 2: Six Principal Organs of the United Nations
 
-### UN Principal Organs: Functions
+| Organ | Composition | Key Function |
+|---|---|---|
+| General Assembly (GA) | All 193 member states; one state, one vote | Main deliberative body; debates all global issues; passes resolutions |
+| Security Council (SC) | 5 permanent + 10 elected; 15 total | Primary responsibility for international peace and security |
+| Secretariat | International civil service; headed by Secretary-General | Carries out day-to-day work; implements GA and SC decisions |
+| International Court of Justice (ICJ) | 15 judges, 9-year terms | Principal judicial organ; settles inter-state disputes; seat at The Hague |
+| ECOSOC | 54 members elected for 3-year terms | Coordinates economic, social, environmental work; oversees specialised agencies |
+| Trusteeship Council | Composed of P5 states | Supervised non-self-governing territories; operations suspended 1994 |
 
-| Organ | Members | Key Functions |
-|-------|---------|---------------|
-| **General Assembly (GA)** | All 193 member states; 1 state 1 vote | Deliberative organ; debates global issues; non-binding resolutions (except budget); elects non-permanent SC members; admits new members (with SC recommendation) |
-| **Security Council (SC)** | 15 (5 permanent + 10 elected) | Primary responsibility for peace and security; authorises peacekeeping; enforces sanctions; refers cases to ICC; Chapter VII (enforcement) actions |
-| **Secretariat** | International civil service; head is Secretary-General | Administrative arm; implements GA and SC decisions; good offices for mediation; SG as global spokesperson |
-| **International Court of Justice (ICJ)** | 15 judges elected for 9-year terms | Principal judicial organ; settles disputes between states; gives advisory opinions; seat: The Hague, Netherlands |
-| **ECOSOC** | 54 members elected by UNGA | Coordinates economic, social, and environmental work of UN; oversees specialised agencies |
-| **Trusteeship Council** | P5 states | Oversaw non-self-governing territories; suspended 1994 after Palau (last trust territory) gained independence |
+### Table 3: UN Security Council — P5 and Veto Power
 
----
+| Feature | Detail |
+|---|---|
+| Permanent members (P5) | USA, Russia, China, France, United Kingdom |
+| Non-permanent members | 10, elected by GA for 2-year terms; regional distribution |
+| Vote needed for decisions | 9 affirmative votes including all P5 (for substantive matters) |
+| Veto | Each P5 member can block any non-procedural resolution by voting "No" |
+| P5 abstention | Not a veto; resolution can still pass |
+| Chapter VI | Recommends peaceful settlement; non-binding |
+| Chapter VII | Authorises binding enforcement — sanctions, military force; binding on all UN members |
 
-### UN Specialised Agencies
+### Table 4: Key UN Specialised Agencies
 
-| Agency | Full name | Headquarters | Key function |
-|--------|-----------|-------------|--------------|
-| WHO | World Health Organisation | Geneva, Switzerland | Global health; disease control; sets health standards |
-| UNICEF | UN Children's Fund | New York, USA | Child welfare, nutrition, education in developing countries |
-| UNESCO | UN Educational, Scientific and Cultural Organisation | Paris, France | Education, culture, science cooperation; World Heritage Sites |
-| ILO | International Labour Organisation | Geneva, Switzerland | Labour standards; workers' rights; employment policy |
-| FAO | Food and Agriculture Organisation | Rome, Italy | Food security; agricultural development; food standards (Codex Alimentarius) |
-| UNDP | UN Development Programme | New York, USA | Human development; Human Development Index (HDI) |
-| UNHCR | UN High Commissioner for Refugees | Geneva, Switzerland | Protection of refugees; issues Non-Refoulement principle |
-| WFP | World Food Programme | Rome, Italy | Largest humanitarian food assistance agency; Nobel Peace Prize 2020 |
-| IMF | International Monetary Fund | Washington DC, USA | Balance-of-payments stability; lender of last resort (Bretton Woods) |
-| World Bank Group | International Bank for Reconstruction and Development (IBRD) + others | Washington DC, USA | Development finance; poverty reduction (Bretton Woods) |
-| WTO | World Trade Organization | Geneva, Switzerland | Rules-based international trade; dispute settlement (not a UN specialised agency but closely related) |
+| Agency | Full Name | HQ | Key Focus |
+|---|---|---|---|
+| WHO | World Health Organisation | Geneva | Global health, disease control |
+| UNICEF | UN Children's Fund | New York | Child welfare, nutrition, education |
+| UNESCO | UN Educational, Scientific & Cultural Org. | Paris | Education, culture, World Heritage Sites |
+| ILO | International Labour Organisation | Geneva | Labour standards, workers' rights |
+| FAO | Food & Agriculture Organisation | Rome | Food security, agricultural development |
+| IAEA | International Atomic Energy Agency | Vienna | Nuclear safety, non-proliferation safeguards |
+| UNDP | UN Development Programme | New York | Human development, HDI publisher |
+| UNHCR | UN High Commissioner for Refugees | Geneva | Refugee protection, non-refoulement |
+| WFP | World Food Programme | Rome | Humanitarian food assistance (Nobel Peace Prize 2020) |
+
+### Table 5: Bretton Woods Institutions and WTO
+
+| Institution | Conference / Founded | HQ | Core Purpose |
+|---|---|---|---|
+| IMF | Bretton Woods conference July 1944; formally 27 December 1945 | Washington D.C. | Monetary stability, balance-of-payments support |
+| World Bank (IBRD) | Bretton Woods conference July 1944; formally 27 December 1945 | Washington D.C. | Long-term development and reconstruction finance |
+| WTO | 1 January 1995 (replaced GATT 1947) | Geneva | Rules-based international trade; dispute settlement |
+| WTO current members | 166 (as of February 2024, after MC13 in Abu Dhabi) | — | Comoros and Timor-Leste are the 165th and 166th members |
 
 ---
 
 ## PART 2 — Chapter Narrative
 
-## The United Nations: Origins and Purpose
+## Why International Organisations Exist
 
-### From League of Nations to United Nations
+The world witnessed two world wars in the span of thirty years. The League of Nations, created after World War I under the Treaty of Versailles (1919), was the first major attempt at collective security. It failed — partly because the United States Senate refused to ratify American membership, and partly because it lacked enforcement mechanisms. When Japan invaded Manchuria in 1931, Italy invaded Ethiopia in 1935, and Germany rearmed in violation of Versailles, the League could do nothing. World War II resulted — with over 70 million dead.
 
-The United Nations was not the first attempt at a universal international organisation. The **League of Nations**, established after World War I under the **Treaty of Versailles (1919)**, was the first major experiment in collective security. The League had significant successes in the 1920s but failed catastrophically when it could not prevent Japanese aggression in Manchuria (1931), Italian aggression in Ethiopia (1935), or German rearmament. Crucially, the **United States never joined** the League despite President Woodrow Wilson's role in proposing it — the US Senate rejected membership. The League's failure to prevent World War II discredited it.
+The lesson drawn was clear: the world needed a stronger, more inclusive, and more effective international organisation. Problems like war, disease, poverty, environmental degradation, and terrorism are transnational — they cross borders and cannot be solved by any single country acting alone. States, even the most powerful, recognise this and have voluntarily created international organisations to manage collective action problems.
 
-World War II demonstrated that a stronger, more inclusive, and more effective international organisation was needed. The term "United Nations" was coined by US President **Franklin D. Roosevelt** and first used in the **Declaration by United Nations on 1 January 1942** — a pledge by 26 nations to continue fighting the Axis powers.
+### 💡 Explainer: Sovereignty and International Organisations
 
-### San Francisco Conference and the UN Charter (1945)
+States are sovereign — they claim supreme authority within their borders. Yet they voluntarily join organisations that constrain their behaviour (WTO dispute rulings, IMF conditionality, UNSC resolutions). Why? Because the gains from cooperation outweigh the loss of autonomy. A state that accepts WTO rules gains access to 166 export markets. A state that accepts UNSC authority gains the protection of collective security. International organisations are rational bargains among sovereign states, not challenges to sovereignty.
 
-The **United Nations Conference on International Organization** opened in **San Francisco on 25 April 1945** — just 16 days before Germany's surrender. **50 nations** attended (Poland, the 51st founding member, signed later). The Charter was unanimously adopted on **25 June 1945** and signed on **26 June 1945**.
+## The United Nations: Founding
 
-The UN came into existence on **24 October 1945** — now celebrated as **UN Day** — when the Charter was ratified by the five permanent members and a majority of other signatories.
+The term "United Nations" was coined by US President Franklin D. Roosevelt and first appeared in the Declaration by United Nations of 1 January 1942, when 26 Allied nations pledged to continue fighting the Axis powers.
 
-The Charter's Preamble opens with the famous words: *"We the Peoples of the United Nations, determined to save succeeding generations from the scourge of war, which twice in our lifetime has brought untold sorrow to mankind..."* — reflecting the trauma of two world wars.
+The formal founding conference — the United Nations Conference on International Organization — was held in **San Francisco from 25 April to 26 June 1945**. Representatives of **50 nations** attended. Poland, not represented at the conference due to a dispute over its government, signed later and is counted as the **51st founding member**. The Charter was signed on **26 June 1945** and entered into force on **24 October 1945** — now celebrated as UN Day.
 
-### Core Principles of the UN Charter
+The UN's membership has grown from 51 in 1945 to **193 member states** today, largely through decolonisation in the 1960s–70s and the break-up of the Soviet Union and Yugoslavia in the 1990s.
 
-**Article 2** of the Charter contains the foundational principles:
-1. Sovereign equality of all members
-2. Settlement of disputes by peaceful means
-3. Refraining from threat or use of force against territorial integrity of any state
-4. Non-interference in domestic affairs
-5. Cooperation with the UN
-6. Non-member states must also act according to these principles for UN purposes
+### Core Purposes of the UN Charter
 
-**Article 51:** Nothing in the Charter impairs the inherent right of individual or collective **self-defence** if an armed attack occurs.
+Article 1 of the Charter identifies four core purposes:
+1. Maintain international peace and security.
+2. Develop friendly relations among nations based on equal rights and self-determination.
+3. Achieve international cooperation in solving economic, social, cultural, and humanitarian problems.
+4. Be a centre for harmonising the actions of nations.
 
-### 💡 Explainer: Sovereignty vs Humanitarian Intervention
+Article 2 lays down the principles: sovereign equality of all members; peaceful settlement of disputes; refraining from the threat or use of force; non-interference in domestic affairs.
 
-The UN Charter is built on state sovereignty (Art. 2.7 — non-interference in domestic affairs). But what happens when a state commits atrocities against its own people? This tension came to a head in the 1990s — the UN failed to prevent the **Rwandan genocide (1994, 800,000 killed in 100 days)** and the **Srebrenica massacre (1995, 8,000 Bosniaks killed)**. In response, the international community developed the **Responsibility to Protect (R2P)** doctrine, adopted at the 2005 World Summit: states have the primary responsibility to protect their populations; if they fail to do so, the international community has the responsibility to intervene. R2P was invoked for Libya (2011, UNSC Resolution 1973 authorised intervention). However, Russia and China have since resisted R2P's application, arguing it is a pretext for regime change.
+### Article 51 and Self-Defence
 
----
+Nothing in the Charter "shall impair the inherent right of individual or collective self-defence" if an armed attack occurs (Article 51). This provision has been invoked for NATO's response to 9/11 and is central to debates about pre-emptive and preventive military action.
 
-## The General Assembly: The World's Parliament
+## The General Assembly
 
-The **General Assembly** is the most representative UN body — all 193 member states participate on the principle of **sovereign equality: one state, one vote**. This makes the GA very different from the Security Council, where power is concentrated among the P5.
+The General Assembly is the most representative UN body. All 193 member states participate on the principle of **sovereign equality: one state, one vote**. This includes tiny states like Tuvalu (population ~11,000) alongside India and China.
 
-**Key GA functions:**
-- Debates global issues; passes resolutions (though these are generally non-binding in international law, they carry moral and political weight)
-- Determines the UN budget (by a two-thirds majority for major programmes)
-- Elects the 10 non-permanent UNSC members, the 54 ECOSOC members, and (jointly with UNSC) the ICJ judges
-- Admits new UN members (on recommendation of UNSC)
-- Adopts major international treaties and conventions (which are then opened for signature)
-- **Uniting for Peace Resolution (1950):** If the UNSC is deadlocked by veto, the GA can hold an Emergency Special Session to consider threats to peace (used in Korea 1950, Suez 1956, and more recently on Ukraine 2022)
+Key functions of the GA:
+- Debates and passes resolutions on all international issues (generally non-binding, but carry significant moral and political weight).
+- Determines the UN budget (two-thirds majority required for major items).
+- Elects 10 non-permanent UNSC members, ECOSOC members, and ICJ judges (jointly with UNSC).
+- Recommends admission of new UN members (on UNSC recommendation).
+- Adopts major international treaties opened for signature.
 
-**GA sessions:**
-- Regular session begins in September each year; the high-level General Debate is held in late September (when world leaders address the UN)
-- Special and Emergency Special Sessions can be called
+### 📌 Key Fact: Uniting for Peace Resolution (1950)
 
-**Limitations:** GA resolutions are not legally binding on member states (unlike Chapter VII UNSC resolutions). The GA cannot enforce its decisions. The one-state-one-vote principle means that Nauru (population ~10,000) has the same vote as China (1.4 billion) or India (1.4 billion) — which critics argue distorts representation.
+General Assembly Resolution 377 (1950) provides that if the Security Council fails to maintain peace because of a veto, the GA can hold an Emergency Special Session within 24 hours to consider the matter and make recommendations to member states, including authorising collective measures. This was invoked during the Korean War and most recently regarding Russia's invasion of Ukraine (2022), where the GA passed a resolution demanding Russia withdraw — demonstrating that the GA can act even when the UNSC is paralysed.
 
----
+## The Security Council and the Veto
 
-## The Security Council: Power, Veto, and Paralysis
+The Security Council bears the primary responsibility for international peace and security under the UN Charter. Only the Security Council can authorise binding enforcement actions — sanctions, arms embargoes, and the use of military force — under Chapter VII. All 193 member states are legally obligated to comply.
 
-### The Logic of the P5 Veto
+The Council has **15 members**: 5 permanent (P5) and 10 non-permanent. The P5 are: **USA, Russia, China, France, and the United Kingdom** — the major Allied powers at the end of World War II.
 
-The five permanent members — US, Russia, China, France, UK — were the victorious major powers of World War II. The veto was a deliberate design choice: the founders calculated that a universal organisation could only function if the great powers participated, and they would only participate if their vital interests were protected. As one US adviser at San Francisco said: *"It was either the Charter with the veto or no Charter at all."*
+The most significant and most debated feature is the **veto power**. Each P5 member can block any substantive resolution by voting "No." Even if 14 of 15 members vote in favour, a single P5 "No" is a veto. An abstention, however, is not a veto — a resolution can pass even if a P5 member abstains (as happened with UNSC Resolution 1973 on Libya in 2011, when Russia and China abstained rather than vetoed).
 
-**How the veto works:** Any P5 member can block any substantive UNSC resolution by voting against it. Even abstention does not block a resolution (by P5 convention). The veto applies to: enforcement actions, admission of new members, appointment of the Secretary-General, amendments to the Charter, and referrals to the ICJ. It does not apply to procedural matters.
+### 💡 Explainer: Why the Veto Was Created
 
-**Veto use since 1945:**
-- The veto has been used over **300 times** since 1945
-- USSR/Russia used it most (approximately 150+ times); US second (100+ times); UK and France have used it less frequently since the 1960s
-- China rarely used it until the 2000s; now uses it more, often alongside Russia
-- The veto has prevented UNSC action on: the Rwandan genocide (1994 — US threatened veto of strong language), Syria civil war (Russia+China vetoes blocked humanitarian access resolutions), Ukraine (Russia vetoed accountability resolutions), Gaza (US vetoed ceasefire resolutions)
+The veto was a deliberate design choice. The founders of the UN calculated that a universal organisation for peace could only function if the great powers participated — and they would only participate if they could not be outvoted on issues vital to their security. The United States insisted on the veto; without it, the US Senate might have refused to ratify the Charter (as it had refused to ratify the League Covenant). The price of great-power participation was the veto. Critics argue this price has proved too high — the veto has been exercised over 300 times since 1945, blocking action in many crises where P5 interests were at stake.
 
-### Chapter VI vs Chapter VII
+### UNSC Reform: The G4 Proposal
 
-A crucial distinction:
+The Security Council reflects the power structure of 1945. Africa — 54 countries, 1.4 billion people, the continent most affected by conflict — has no permanent member. Latin America and South Asia have no permanent members. Germany and Japan, two of the world's largest economies and major UN budget contributors, are not permanent members.
 
-**Chapter VI (Pacific Settlement of Disputes):** The UNSC *recommends* mediation, arbitration, or other peaceful means. These recommendations are not binding.
+The **G4 nations — India, Brazil, Germany, and Japan** — are four countries that support each other's bids for permanent UNSC membership. Their model (outlined in a joint submission to the UN General Assembly in December 2023) proposes expanding the Council from 15 to 25–26 seats by adding:
+- **6 new permanent seats**: 2 for Africa, 2 for Asia-Pacific, 1 for Latin America and the Caribbean, 1 for Western Europe and other states.
+- **4–5 new non-permanent seats** for better regional balance.
 
-**Chapter VII (Action with Respect to Threats to the Peace):** The UNSC *authorises* binding enforcement measures — economic sanctions, arms embargoes, and military force. All member states are legally obligated to comply with Chapter VII resolutions. **These are the most powerful tools in the UN's arsenal.**
+The G4 has also strongly endorsed the **Ezulwini Consensus** — the African Union's common position on UNSC reform.
 
-Examples of Chapter VII actions:
-- UNSC Resolution 678 (1990): Authorised the US-led coalition to use "all necessary means" to expel Iraq from Kuwait — basis for Gulf War 1991
-- UNSC Resolution 827 (1993): Established the International Criminal Tribunal for the former Yugoslavia (ICTY)
-- UNSC Resolution 1970 (2011): Imposed sanctions on Libya; referred situation to ICC
+### 📌 Key Fact: The Ezulwini Consensus
 
----
+The Ezulwini Consensus was adopted by the African Union at a summit in Ezulwini, Eswatini (formerly Swaziland) on **7–8 February 2005**, and reaffirmed by the Sirte Declaration (July 2005). It is the Common African Position (CAP) on UNSC reform, calling for:
+- **2 new permanent seats for Africa** with full veto powers (or if the veto is abolished, Africa accepts permanent seats without veto).
+- **5 new non-permanent seats** for Africa.
 
-## UN Peacekeeping: India's Crucial Role
+Africa's argument is that it is the most under-represented region in the UNSC despite being the continent with the most items on the UNSC's agenda — most peacekeeping operations are deployed in Africa.
 
-### The Evolution of Peacekeeping
+### Obstacles to UNSC Reform
 
-UN peacekeeping was not explicitly provided for in the Charter — it evolved as a practical tool. The first UN peacekeeping force was deployed in 1956 during the Suez Crisis — **UNEF I** — an innovation credited to Canadian Foreign Minister Lester Pearson (who won the Nobel Peace Prize for it).
+UNSC reform faces a fundamental structural obstacle: amending the UN Charter requires a two-thirds vote of the General Assembly **and** ratification by all five permanent members. This means any P5 member can veto the reform itself.
 
-**Three generations of peacekeeping:**
-1. **Traditional peacekeeping (1st generation, 1948–1990s):** Monitor ceasefires; observe borders; with consent of parties; lightly armed; no offensive mandate. Examples: UNMOGIP (India-Pakistan, 1949 — still operating), UNTSO (Middle East, 1948 — world's oldest UN mission)
-2. **Multidimensional peacekeeping (2nd generation, 1990s–):** Go beyond monitoring — include civilian protection, disarmament, election monitoring, rule of law, human rights. Examples: UNMIL (Liberia), MONUSCO (DRC)
-3. **Peace enforcement (robust mandate):** Chapter VII authority; use force not just in self-defence. Example: INTERFET (East Timor 1999)
+Specific obstacles:
+- China has historically blocked Japan's candidacy.
+- Pakistan, backed by China, has opposed India's permanent membership.
+- The **Uniting for Consensus group** (including Italy, South Korea, Argentina, Pakistan, Spain) opposes creating new permanent seats; it prefers expanding only elected seats.
+- P5 members generally do not want to dilute their own power.
 
-### India's Contribution to UN Peacekeeping
+## India's Case for a UNSC Permanent Seat
 
-India is one of the largest contributors of uniformed personnel to UN peacekeeping — a point of immense national pride and diplomatic significance.
+India's case rests on multiple pillars:
 
-**Key statistics:**
-- Over **2,90,000 Indian military and police personnel** have served in more than **50 UN missions** since India's first deployment in Korea (1950)
-- As of 2024-25, India has approximately **6,000+ personnel** deployed in active missions across 9 UN missions
-- India contributes more peacekeepers to UN missions than all P5 members combined — a striking contrast given India is not a permanent member
+**Population and democracy:** India is the world's most populous country (1.4 billion people) — more than all five P5 members combined — and the world's largest democracy.
 
-**Historical highlights:**
-- **Korea (1950-54):** India contributed the 60th Field Ambulance Unit — the first Indian UN mission
-- **Congo (ONUC, 1960):** India sent a full brigade; significant military contribution
-- **Gaza (UNEF, 1956-67):** India as part of UNEF I after Suez Crisis
-- **Somalia, Angola, Cambodia, Mozambique, East Timor:** India contributed to major 1990s missions
-- Current active missions include UNMISS (South Sudan), UNDOF (Golan Heights/Syria), UNIFIL (Lebanon), MONUSCO (DRC), MINUSMA (Mali — now ended)
+**Peacekeeping contributions:** India has historically been one of the largest contributors of uniformed personnel to UN peacekeeping. As of December 2023, India deployed **5,901 military personnel** — ranking first among troop-contributing countries. India has contributed nearly **195,000 troops cumulatively** across more than 49 missions since 1950 — the largest cumulative total of any country. Over **168 Indian peacekeepers** have made the supreme sacrifice.
 
-**India's fallen:** Over **170 Indian peacekeepers** have made the supreme sacrifice in the service of UN peace — the highest number of fatalities of any country.
+**Economic weight:** India is among the world's largest economies (5th largest by nominal GDP; 3rd largest by PPP as of 2024) and the fastest-growing major economy.
 
-### 📌 Key Fact: India as a "Net Security Provider"
+**Founding member:** India was one of the 51 founding members of the United Nations in 1945.
 
-India's preferred self-description in international forums is as a "net security provider" — not just a beneficiary of the global security system but an active contributor. India's peacekeeping record makes this a credible claim. India's Foreign Minister has argued that India's record as one of the largest peacekeeping contributors strengthens its case for a permanent UNSC seat — it has demonstrated commitment to global peace even without the power of permanent membership.
+**Regional influence:** India is the pre-eminent power in South Asia and a leading voice of the Global South.
 
----
+**P5 support:** As of 2025–26, four of the five P5 members — France, Russia, UK, and USA — have expressed explicit support for India's permanent UNSC membership. China remains the key holdout.
 
-## The UNSC Reform Debate
+### 🎯 UPSC Connect: India's Peacekeeping Record
 
-### Why Reform Is Needed
+In 2007, India deployed the **first-ever all-female Formed Police Unit (FPU)** to a UN peacekeeping mission — to Liberia — a landmark that empowered local women and set a precedent for other nations. India's peacekeeping record is not just a matter of national pride; it is a central diplomatic argument: India has contributed more to UN peacekeeping than the entire P5 combined, yet remains outside the Council's permanent membership. India's Foreign Policy describes this as an "anomaly" that reform must correct.
 
-The Security Council reflects the power structure of 1945 — it is fundamentally unrepresentative of the contemporary world:
+## UN Specialised Agencies
 
-- **Underrepresentation of the Global South:** Africa (54 countries, 1.4 billion people) has no permanent member. Asia (60% of world population) has only one permanent member (China). Latin America has no permanent member.
-- **Overrepresentation of Europe:** UK and France are P5 members; plus 3 more elected European seats typically — Europe is disproportionately represented.
-- **Post-colonial legitimacy gap:** The P5 includes the major colonial powers (UK, France) but not major postcolonial states like India, Brazil, or Nigeria.
-- **Paralysis by veto:** Russia's vetoes have blocked all UNSC action on Ukraine; US vetoes have blocked accountability on Gaza; China and Russia together have blocked action on Syria for years.
-- **Economic weight mismatch:** Germany and Japan are among the world's largest economies and UN budget contributors (Japan is the 3rd largest UN budget contributor) but have no permanent membership.
+The UN system extends far beyond the six principal organs. A network of specialised agencies, programmes, and funds — each legally separate but coordinated through ECOSOC — deals with specific global issues.
 
-### The G4 Initiative
+**WHO** leads global health governance — from eradicating smallpox (1980) to coordinating pandemic responses. India's pharmaceutical industry and public health policy intersect extensively with WHO standards.
 
-The **G4 nations** — **India, Brazil, Germany, and Japan** — have formed a coalition to push for UNSC reform. Each supports the others' bids for permanent UNSC membership. The G4 held a meeting on the sidelines of the **Munich Security Conference 2026**, reaffirming their call for comprehensive UNSC reform.
+**IAEA** promotes peaceful uses of nuclear energy while preventing proliferation through safeguards. The **India-US Civil Nuclear Deal (2008)** required India to place its civilian nuclear facilities under IAEA safeguards — a landmark diplomatic achievement that brought India into the mainstream of global nuclear commerce despite not being a signatory to the NPT.
 
-G4's proposal:
-- Expand UNSC from 15 to ~26 members
-- Add **6 new permanent seats** (without veto, or with veto phased in after review) — G4 + 2 African states
-- Add **4 more non-permanent seats** (elected for longer terms)
+**ILO** is the oldest specialised agency, pre-dating the UN (founded 1919). It sets international labour standards. India has ratified several ILO core conventions on child labour, forced labour, and discrimination.
 
-**Challenges to G4 proposal:**
-- **Uniting for Consensus (UFC) group** (led by Italy, South Korea, Argentina, Pakistan, Spain) opposes new permanent seats — they prefer more non-permanent seats to avoid "freezing" the hierarchy.
-- China objects to Japan's permanent membership; China's position on India is complicated.
-- Pakistan opposes India's membership.
-- The US has expressed support for India's membership but without veto power.
-- Any Charter amendment requires approval by two-thirds of all UN members AND ratification by all P5 — giving each P5 veto over the reform.
+**UNESCO's World Heritage Sites** list — which includes Indian sites like the Taj Mahal, Ajanta Caves, Konark Sun Temple, and many others — is among the most visible aspects of international cultural diplomacy.
 
-### India's Case for Permanent UNSC Membership
+**WFP** received the Nobel Peace Prize in 2020 for its role in fighting hunger and its work in conflict zones. India has contributed to WFP while also being a recipient of its programmes historically.
 
-India's argument rests on multiple pillars:
+## The Bretton Woods Institutions
 
-1. **Demographic:** India is the world's most populous country (1.4 billion people) — more than the combined population of the current P5
-2. **Democratic:** India is the world's largest democracy — an essential legitimacy claim in a rules-based order
-3. **Economic:** India is the world's 5th largest nominal GDP economy and 3rd largest PPP economy; fastest-growing major economy
-4. **Peacekeeping:** India is among the largest contributors of uniformed personnel to UN missions — more than all P5 combined
-5. **Nuclear:** India is a de facto nuclear weapon state (though not recognised under NPT)
-6. **Regional:** India is the pre-eminent power in South Asia and a leading voice of the Global South
-7. **Historical:** India was a founding member of the United Nations in 1945
+### Origin at Bretton Woods (1944)
 
-**Support for India's UNSC bid:** As of 2026, four of the five P5 members — France, Russia, UK, and USA — have expressed support for India's permanent membership. China remains the key holdout — though China's position is nuanced (it supports India's "aspirations" without explicitly endorsing permanent membership).
+In **July 1944**, delegates from 44 nations met at the **Mount Washington Hotel, Bretton Woods, New Hampshire, USA** for the United Nations Monetary and Financial Conference. The conference aimed to design a stable post-war international economic order that would prevent the competitive devaluations, trade protectionism, and financial instability of the 1930s — which had deepened the Great Depression and contributed indirectly to World War II.
 
-### 🎯 UPSC Connect: UNSC Reform for Mains
+The principal architects were **John Maynard Keynes** (UK) and **Harry Dexter White** (USA). The conference created two "Bretton Woods twins":
 
-The UNSC reform debate is a perennial Mains topic. Key analytical angles:
-1. **Is reform possible?** — The Charter amendment process requires P5 ratification; any P5 member can veto even the reform resolution.
-2. **Veto reform** — Should new permanent members get the veto? The G4 initially proposed accepting seats without veto; positions have evolved.
-3. **Africa's case** — The Ezulwini Consensus (African Union position) demands two permanent African seats with veto — a maximalist position.
-4. **Uniting for Peace as alternative** — Can the GA be empowered through greater use of the Uniting for Peace Resolution to work around UNSC vetoes?
+### International Monetary Fund (IMF)
 
----
+Formally constituted on **27 December 1945**, the IMF was designed to maintain international monetary stability. Its core functions:
+- **Surveillance:** Monitors members' economic policies; flags risks to global financial stability.
+- **Lending:** Provides short-to-medium-term loans to countries facing balance-of-payments crises, with economic policy conditions attached ("IMF conditionality").
+- **Technical assistance:** Helps countries build economic management capacity.
 
-## Bretton Woods: IMF and World Bank
+The IMF has **190 member states** (2024). Voting power is weighted by quota (reflecting economic size) — not one-country-one-vote. The US holds the largest quota and can veto major decisions (major decisions require 85% of votes; the US holds ~17%).
 
-### Origins at Bretton Woods (1944)
+**India and the IMF:** India was a founding member. India most significantly accessed IMF support during the **1991 balance-of-payments crisis** — which catalysed India's landmark economic liberalisation under Prime Minister Narasimha Rao and Finance Minister Manmohan Singh.
 
-The post-WWII international economic order was designed at the **United Nations Monetary and Financial Conference** held in **Bretton Woods, New Hampshire, USA, in July 1944** — before the war had even ended. The two institutions created were:
+India has consistently advocated for quota reform to give emerging economies — including India, China, and Brazil — a vote share commensurate with their economic weight.
 
-1. **International Monetary Fund (IMF)**
-2. **International Bank for Reconstruction and Development (IBRD)** — later expanded into the World Bank Group
+### World Bank Group
 
-The Bretton Woods architects (particularly John Maynard Keynes of the UK and Harry Dexter White of the US) sought to prevent the economic nationalism, competitive devaluations, and financial instability of the 1930s that had contributed to the Great Depression and thus indirectly to World War II.
+Also formally constituted on **27 December 1945**, the World Bank (officially the International Bank for Reconstruction and Development, IBRD) was initially tasked with financing the reconstruction of war-ravaged Europe. Its mandate evolved to long-term development lending to developing countries.
 
-### The IMF
+The **World Bank Group** now comprises five institutions:
+1. **IBRD** — loans to middle-income and creditworthy lower-income countries.
+2. **IDA** — concessional loans and grants to the world's poorest countries.
+3. **IFC** — private sector investment in developing countries.
+4. **MIGA** — investment guarantees to encourage foreign investment in developing countries.
+5. **ICSID** — international arbitration of investor-state disputes.
 
-**Full name:** International Monetary Fund
-**Headquarters:** Washington DC, USA
-**Members:** 190 member countries (2024)
-**Managing Director:** Kristalina Georgieva (since 2019; currently serving second term)
+**World Bank President:** **Ajay Banga** (Indian-American) took office in June 2023 — a significant appointment reflecting India's growing global weight.
 
-**Core functions:**
-1. **Surveillance:** Monitor members' economies; flag risks to global stability
-2. **Financial assistance:** Lend to countries facing balance-of-payments difficulties — conditional on economic policy reforms ("conditionality")
-3. **Technical assistance and training:** Help countries build economic management capacity
+India is one of the World Bank's largest borrowers and has received funding for major infrastructure, education, health, and environmental programmes.
 
-**Key instruments:** Stand-By Arrangements (SBA), Extended Fund Facility (EFF), Flexible Credit Line (FCL), Rapid Financing Instrument (RFI)
+### 🔗 Beyond the Book: BRICS Alternatives to Bretton Woods
 
-**Governance:** Voting is weighted by quota (roughly reflecting economic size) — not one-country-one-vote. The US has the largest quota and is the only member with effective veto power (major decisions require 85% majority; US has ~17% of votes).
+Dissatisfaction among emerging economies with the slow pace of governance reform in Bretton Woods institutions led to two major alternatives:
+- **New Development Bank (NDB):** Established by BRICS nations in 2015, headquartered in Shanghai. India is a founding member. The NDB finances infrastructure and sustainable development in member countries.
+- **Asian Infrastructure Investment Bank (AIIB):** Proposed by China and launched in January 2016. India is the second-largest shareholder. The AIIB funds infrastructure in Asia.
 
-**IMF and India:** India was an IMF founding member. India accessed IMF loans during BOP crises — notably the **1991 crisis**, which was the catalyst for India's economic liberalisation under PM Narasimha Rao and Finance Minister Manmohan Singh.
+These institutions represent a significant shift in the global development finance landscape — they provide alternatives to IMF-World Bank conditionality and reflect the rising ambitions of the Global South.
 
-### The World Bank Group
-
-**Headquarters:** Washington DC, USA
-**Composition:** 5 institutions:
-1. **IBRD** (International Bank for Reconstruction and Development) — loans to middle-income and creditworthy low-income countries
-2. **IDA** (International Development Association) — concessional loans/grants to poorest countries
-3. **IFC** (International Finance Corporation) — private sector investment in developing countries
-4. **MIGA** (Multilateral Investment Guarantee Agency) — investment guarantees
-5. **ICSID** (International Centre for Settlement of Investment Disputes) — investor-state arbitration
-
-**President:** Ajay Banga (Indian-American; took office June 2023) — a significant appointment reflecting India's growing global weight
-
-**Focus:** Poverty reduction; sustainable development; climate finance; health; education
-
-**World Bank and India:** India is one of the World Bank's largest borrowers. India has received World Bank funding for major projects including infrastructure, education, and health programmes.
-
-### 💡 Explainer: Governance Deficit in Bretton Woods Institutions
-
-Both the IMF and World Bank are criticised for governance structures that reflect 1944 power realities rather than contemporary economic weight:
-- By convention, the IMF Managing Director is always a European; the World Bank President is always an American — though this tradition has recently been challenged.
-- Quota reform has been slow — China's and India's quotas do not fully reflect their economic size.
-- "Washington Consensus" conditionality (requiring fiscal austerity, liberalisation, privatisation) has been criticised for imposing ideological prescriptions that harm developing countries.
-- The **New Development Bank (NDB)** established by BRICS in 2015 and the **Asian Infrastructure Investment Bank (AIIB)** established by China in 2016 are partly responses to the governance deficit in Bretton Woods institutions. India is a founding member of both NDB and AIIB.
-
----
-
-## The WTO and India's Trade Interests
+## The World Trade Organisation
 
 ### From GATT to WTO
 
-The **General Agreement on Tariffs and Trade (GATT)** was signed in **1947** as a provisional international trade regime pending the creation of the International Trade Organisation (ITO) — which the US Congress refused to ratify. GATT functioned from 1947 to 1994 through a series of negotiating "rounds" that progressively reduced tariffs.
+The **General Agreement on Tariffs and Trade (GATT)**, signed in 1947, governed international trade for nearly 50 years through a series of negotiating rounds. The eighth and final round — the **Uruguay Round (1986–1994)** — created the **World Trade Organization (WTO)**, which replaced GATT on **1 January 1995**.
 
-The **World Trade Organization (WTO)** was established on **1 January 1995** as a result of the **Uruguay Round (1986-1994)** of trade negotiations. Unlike GATT, the WTO:
-- Is a permanent institution with a formal legal status
-- Covers trade in services (GATS), intellectual property (TRIPS), investment measures (TRIMS), and agriculture — not just goods
-- Has a **Dispute Settlement Body (DSB)** with a two-tier appellate process — binding on all members
-- Operates on "most-favoured-nation" (MFN) and "national treatment" principles
-- Currently has **166 member states** (as of 2024)
+Unlike GATT, which was a provisional arrangement, the WTO is a permanent institution with a legal personality. It covers not just goods (as GATT did) but also:
+- **GATS** — General Agreement on Trade in Services
+- **TRIPS** — Trade-Related Aspects of Intellectual Property Rights
+- **TRIMS** — Trade-Related Investment Measures
+- **Agreement on Agriculture**
 
-### India's Positions in WTO
+Its most important feature is the **Dispute Settlement Body (DSB)** — a binding, two-tier (panel + Appellate Body) mechanism. WTO members are legally obligated to comply with DSB rulings. This makes the WTO far more legally robust than GATT.
 
-India's WTO positions consistently reflect the interests of developing countries — often putting India at odds with developed countries:
+As of **February 2024**, the WTO has **166 members** — with Comoros and Timor-Leste joining as the 165th and 166th members at the 13th Ministerial Conference (MC13) in Abu Dhabi.
 
-**Agricultural subsidies:** India defends the right of developing countries to maintain food security stocks and provide agricultural subsidies — the cornerstone of its public stockholding programme (National Food Security Act). The debate over agriculture and food security was a key issue at the **Bali Ministerial Conference (2013)** and subsequent WTO negotiations. India secured a "peace clause" protecting its food security programme from WTO legal challenge.
+### India's Positions in the WTO
 
-**TRIPS and access to medicines:** India successfully argued (particularly during the HIV/AIDS crisis in the 1990s-2000s) for the right to manufacture generic versions of patented medicines under TRIPS flexibilities — the **Doha Declaration on TRIPS and Public Health (2001)** endorsed this position. India's pharmaceutical industry supplies low-cost generics to the world.
+**Agriculture and food security:** India defends the right of developing countries to maintain food security stockholding programmes. The **National Food Security Act (2013)** requires India to procure and distribute food grains at subsidised prices — India argues this is a food security measure, not a trade-distorting subsidy. India secured a "peace clause" at Bali (2013) protecting its programme from WTO legal challenge while negotiations for a permanent solution continue.
 
-**Industrial policy space:** India opposes provisions that would restrict developing countries' ability to use industrial policy tools (subsidies, localisation requirements) that developed countries used during their own industrialisation.
+**TRIPS and generic medicines:** India's pharmaceutical industry is the world's largest supplier of generic medicines. India successfully argued for TRIPS flexibilities allowing generic production of patented medicines — the **Doha Declaration on TRIPS and Public Health (2001)** endorsed this position, which has saved millions of lives in developing countries.
 
-**E-commerce moratorium:** India has opposed extending the moratorium on customs duties on electronic transmissions — arguing it deprives developing countries of customs revenue.
+**Services:** India has a strong interest in the liberalisation of Mode 4 (movement of natural persons under GATS) — which would facilitate the movement of Indian IT professionals and other service providers abroad.
 
-**Dispute settlement crisis:** The WTO's Appellate Body has been paralysed since 2019 because the US blocked appointment of new judges — India has advocated for restoring the dispute settlement mechanism.
+**Dispute settlement crisis:** Since 2019, the WTO's Appellate Body has been paralysed because the United States blocked the appointment of new judges (arguing the Appellate Body overstepped its mandate). India has advocated for restoring the dispute settlement mechanism as a priority.
 
-### 🔗 Beyond the Book: WTO and Geopolitics in 2025-26
+### 🎯 UPSC Connect: India's Multilateral Trade Strategy
 
-The WTO faces unprecedented challenges. US trade policy under the Trump administration (2025–) has involved large-scale tariff increases that arguably violate WTO commitments. India has had to navigate between maintaining WTO commitments and protecting its domestic industries. India's participation in plurilateral agreements (like the Indo-Pacific Economic Framework, or IPEF, though India stepped back from the trade pillar) and bilateral trade agreements with major partners (India-UAE CEPA signed 2022; India-UK FTA negotiations; India-EU FTA ongoing) reflects the reality that the multilateral WTO system alone cannot serve all of India's trade interests.
+India's trade policy navigates between the multilateral WTO framework and a growing network of bilateral and regional Free Trade Agreements (FTAs). Key developments: India signed the India-UAE Comprehensive Economic Partnership Agreement (CEPA) in 2022; India-UK FTA negotiations are ongoing; India-EU FTA negotiations resumed. India stepped back from the Indo-Pacific Economic Framework (IPEF) trade pillar. India has not joined the Regional Comprehensive Economic Partnership (RCEP), citing concerns about Chinese goods flooding the Indian market. This reflects India's strategy of selectively engaging in trade liberalisation based on sectoral interests.
 
----
+## Challenges to Multilateralism
 
-## The UN in the Post-Cold War Era: Relevance and Challenges
+The post-Cold War multilateral order faces unprecedented pressures:
 
-### Renewed Activism (1990s)
+**US unilateralism:** The United States, the primary architect of the post-1945 multilateral system, has at various times acted outside it — most significantly in the 2003 invasion of Iraq without UNSC authorisation; withdrawal from the Paris Agreement on climate change (Trump administration); blocking WTO Appellate Body appointments.
 
-The end of the Cold War initially appeared to unlock the UN's potential. During the Cold War, the US-Soviet rivalry had paralysed the UNSC through mutual vetoes. With the Cold War over:
-- The UNSC authorised the Gulf War (1991) — first major Chapter VII enforcement action since Korea
-- Peacekeeping missions multiplied dramatically — from 5 missions in 1988 to 17 by 1994
-- Major international conferences (Rio on environment 1992; Vienna on human rights 1993; Beijing on women 1995) produced landmark global agreements
-- International Criminal Tribunals for Yugoslavia (1993) and Rwanda (1994) were established
+**Rise of minilaterals:** Small, issue-specific groupings of like-minded states have proliferated, sometimes operating outside or alongside the UN system:
+- **Quad (Quadrilateral Security Dialogue):** India, USA, Japan, Australia — focuses on maritime security in the Indo-Pacific; represents a response to China's rise.
+- **AUKUS:** Australia, UK, USA — a defence technology partnership involving nuclear-powered submarines.
+- **G20:** The premier forum for international economic coordination, which India chaired in 2023 — now operates alongside rather than through the UN system.
+- **G7:** Grouping of major Western economies; sets the agenda on many global issues.
 
-### Failures of the 1990s
+**UNSC paralysis:** Russia's veto has blocked all UNSC action on Ukraine since the 2022 invasion. The US has vetoed multiple ceasefire resolutions on Gaza. China and Russia together have blocked humanitarian access resolutions on Syria for over a decade.
 
-But the optimism was short-lived. Three major failures:
-1. **Somalia (1993):** US and UN forces humiliated ("Black Hawk Down" incident); forces withdrew; the UN's ability to conduct peace enforcement questioned
-2. **Rwanda genocide (1994):** Despite a UN mission (UNAMIR) being present, the UNSC refused to authorise intervention; 800,000 people killed in 100 days. The SRSG Romeo Dallaire's cables warning of the genocide were ignored.
-3. **Bosnia/Srebrenica (1995):** UN "safe areas" were not safe; Srebrenica massacre occurred under Dutch UNPROFOR watch; 8,000 Bosniak men and boys killed
+**Climate and pandemic:** These are quintessentially multilateral challenges that require collective action but are governed by weak mechanisms — the Paris Agreement has no enforcement mechanism; the WHO's authority was questioned during COVID-19.
 
-These failures prompted soul-searching about the UN's capacity and willingness to act.
+### 🔗 Beyond the Book: India's Stance on Multilateralism (2025–26)
 
-### Post-9/11 and the Iraq War Crisis (2003)
-
-The **September 11, 2001 attacks** triggered UNSC Resolution 1368, which recognised the right of self-defence and condemned the attacks — a moment of apparent unity. NATO invoked Article 5 for the first time.
-
-But the **2003 Iraq War** revealed the UN's limits. The US and UK invaded Iraq without UNSC authorisation (France and Russia threatened vetoes; the US claimed Iraq was in "material breach" of earlier UNSC resolutions). The invasion without UN mandate was widely seen as a violation of international law and dealt a serious blow to the UN's authority as the sole legitimate authoriser of the use of force.
-
-### 21st-Century Challenges to Multilateralism
-
-The UN faces multiple contemporary stresses:
-
-**Great-power rivalry revival:** Russia-US tensions over Ukraine (Russia's 2022 full-scale invasion; Russia vetoed UNSC accountability resolutions); US-China competition in the Indo-Pacific; UNSC paralysis on multiple crises.
-
-**Terrorism:** UN responses to terrorism through sanctions committees (ISIL/Daesh Committee, Al-Qaida Sanctions Committee) have been useful but China-Pakistan axis has blocked designation of certain Pakistan-based terrorists — directly affecting India's counter-terrorism interests.
-
-**Climate change:** The UNSC's mandate does not clearly cover climate change despite it being the defining global security challenge of the 21st century. The Paris Agreement (2015) operates through the UNFCCC, not through the UNSC.
-
-**Pandemics:** COVID-19 exposed the WHO's dependence on voluntary funding and its susceptibility to political pressure (initial response criticism). The pandemic highlighted the need for reformed global health governance.
-
-**AI and cyber:** No binding UN framework for state behaviour in cyberspace or AI governance — areas of growing importance.
-
-### 🎯 UPSC Connect: Is the UN Still Relevant?
-
-This is a high-frequency Mains question. A balanced answer:
-
-**For relevance:**
-- The UN remains the only universal international forum where all states have a seat
-- 193 member states demonstrates legitimacy no other institution can match
-- UN specialised agencies (WHO, UNICEF, WFP, UNHCR) do irreplaceable humanitarian work
-- UN peacekeeping, despite limitations, has contributed to peace in many post-conflict societies
-- International law — the Law of the Sea (UNCLOS), the NPT, Geneva Conventions — operates within the UN framework
-- The UN's norm-setting role (R2P, Sustainable Development Goals, Paris Agreement on climate) shapes global behaviour even without enforcement
-
-**Against relevance:**
-- UNSC paralysis means the UN cannot act when P5 are involved or divided
-- Vetoes have prevented accountability for major atrocities (Syria, Gaza, Ukraine)
-- The UN's Charter-based sovereignty norm can shield authoritarian states from accountability
-- UN reform has been blocked for decades — the organisation reflects 1945 power structures
-- Regional organisations, coalitions of the willing, and bilateral action increasingly substitute for UN authorisation
-
-**India's nuanced position:** India strongly supports the UN and multilateralism — but also calls for UNSC reform so that the multilateral system better reflects contemporary realities. India rejects both the "might is right" unilateralism of the 2003 Iraq invasion AND the ineffectual multilateralism of UNSC paralysis on Myanmar or Gaza.
+India's "Voice of the Global South" leadership — exemplified by the two Voice of Global South Summits hosted by India in 2023 — reflects its strategic positioning as a bridge between the developed world and developing countries. India's G20 presidency in 2023 achieved the **New Delhi Declaration** which, for the first time, included the African Union as a permanent G20 member — a major diplomatic achievement. India simultaneously advocates for multilateralism while participating in minilateral forums like the Quad. India's position is that minilaterals and multilateralism are complementary, not contradictory.
 
 ---
 
-## PART 3 — Frameworks & Mnemonics
+## PART 3 — Frameworks and Mnemonics
 
-### Mnemonic: UN Principal Organs — "GAS-SIT"
+### Mnemonic: Six Principal Organs — "GSSIET"
 
 **G** = General Assembly
-**A** = Advisory opinions from ICJ
-**S** = Secretariat
 **S** = Security Council
-**I** = International Court of Justice (ICJ)
-**T** = Trusteeship Council + ECOSOC
+**S** = Secretariat
+**I** = International Court of Justice
+**E** = ECOSOC
+**T** = Trusteeship Council
 
-Or more simply: **"GSSIET"** — GA, SC, Secretariat, ICJ, ECOSOC, TC
+### Mnemonic: P5 Members — "FRUCA" (or "Uncle Sam's Famous Chinese Restaurant")
 
----
+**F** = France | **R** = Russia | **U** = United Kingdom | **C** = China | **A** = America (USA)
 
-### Mnemonic: P5 Permanent Members — "USA-FCR"
+### Mnemonic: G4 Nations — "BIGJ" (or "JIGB")
 
-**USA** = United States, **F** = France, **C** = China, **R** = Russia, **UK** = United Kingdom
+**J** = Japan | **I** = India | **G** = Germany | **B** = Brazil
 
-Or: **"Uncle Sam's Famous Chinese Restaurant"** = US, France, China, Russia, UK
+### Framework: India's Case for UNSC Permanent Seat — "DEEP"
 
----
+**D**emographic — World's most populous country; largest democracy
+**E**conomic — One of world's largest and fastest-growing economies
+**E**ngagement — Largest cumulative peacekeeping contributor; responsible stakeholder
+**P**olitical — Founding UN member; four of five P5 endorse India's bid
 
-### Framework: Why the UNSC Needs Reform — The "4R" Argument
+### Framework: Why UNSC Reform Is Blocked — "3V"
 
-**R**epresentation deficit — Africa, Latin America under-represented
-**R**esponsibility mismatch — India contributes more to peacekeeping than P5; no seat
-**R**eality gap — 1945 P5 = victors of WWII; 2025 reality = very different power distribution
-**R**eform blocked — Charter amendment requires P5 ratification; structural deadlock
+**V**ested interests — P5 members benefit from current structure; no incentive to dilute their veto
+**V**eto on reform itself — Charter amendment requires P5 ratification; any P5 member can block reform
+**V**aried proposals — G4, Ezulwini Consensus, and Uniting for Consensus group have incompatible demands
 
----
+### Framework: IMF vs World Bank vs WTO
 
-### Framework: IMF vs World Bank — Key Distinctions
-
-| Feature | IMF | World Bank |
-|---------|-----|-----------|
-| Primary focus | Monetary and financial stability; BOP support | Development finance; poverty reduction |
-| Clients | Members in BOP crisis | Developing countries |
-| Lending type | Short-to-medium-term emergency loans | Long-term development finance |
-| Conditionality | Strict macroeconomic conditions | Policy reform conditions tied to projects |
-| Voting | Quota-based (economic weight) | Quota-based (shares held) |
-| HQ | Washington DC | Washington DC |
-| Head | Managing Director (European by convention) | President (American by convention; Ajay Banga since 2023) |
-
----
-
-### Framework: UN's Three Pillars (as per Secretary-General's reform agenda)
-
-1. **Peace and Security:** Peacekeeping; Peacebuilding Commission; conflict prevention
-2. **Development:** SDGs (Sustainable Development Goals, 2015–2030); UNDP; specialised agencies
-3. **Human Rights:** Human Rights Council; ICC; UNHCHR; Treaty Bodies
-
-India contributes to all three: peacekeeping (security), development partner, and democracy/human rights advocate.
+| Feature | IMF | World Bank | WTO |
+|---|---|---|---|
+| Focus | Monetary stability, BOP | Long-term development | Trade rules |
+| Lending? | Yes (short-term, conditional) | Yes (long-term, concessional to poor) | No |
+| HQ | Washington D.C. | Washington D.C. | Geneva |
+| Founded | 1944/1945 (Bretton Woods) | 1944/1945 (Bretton Woods) | 1995 (replaced GATT 1947) |
+| Head | Managing Director (European by convention) | President (American by convention) | Director-General |
+| India's concern | Quota reform, governance | Climate finance, development | Food subsidies, services, DSB crisis |
 
 ---
 
 ## Exam Strategy
 
-**For Prelims:** Master the following: UN founding date (24 October 1945); original members (51); current members (193); six principal organs (GA, SC, Secretariat, ICJ, ECOSOC, TC); P5 members (US, Russia, China, France, UK); UNSC composition (15 = 5+10); the distinction between Chapter VI (recommendations) and Chapter VII (binding enforcement); IMF vs World Bank roles; WTO founding (1995, replacing GATT 1947); Bretton Woods (1944). Know India's peacekeeping record (one of largest contributors; 290,000+ personnel; 170+ martyrs). Know G4 members (India, Brazil, Germany, Japan).
+**Prelims:** Master the quick reference tables — UN founding (26 June 1945 signed; 24 October 1945 in force; 51 founders; 193 current members); six principal organs; P5 members; UNSC composition (15 = 5 + 10); Chapter VI (non-binding) vs Chapter VII (binding enforcement); IMF/World Bank both founded at Bretton Woods, New Hampshire, July 1944, formally 1945; WTO founded 1 January 1995, 166 members; India's peacekeeping record (195,000 troops cumulative; first among troop contributors as of December 2023); G4 members (India, Brazil, Germany, Japan); Ezulwini Consensus (African Union's 2005 position calling for 2 permanent African seats with veto).
 
-**For Mains:** Five high-value angles:
-1. **UNSC reform** — Why is it needed? What are the obstacles? What is India's case? (Use the 4R framework)
-2. **UN's post-Cold War relevance** — Balanced assessment; cite failures (Somalia, Rwanda, Iraq 2003) and successes (Gulf War 1991, East Timor, Liberia); conclude that reform is needed but not abandonment
-3. **India and multilateralism** — India as a "responsible stakeholder"; peacekeeping record; UNSC bid; roles in IMF, World Bank, WTO, BRICS NDB, AIIB
-4. **Sovereignty vs. intervention** — R2P doctrine; tension between Charter Art. 2.7 and human rights obligations
-5. **Bretton Woods governance reform** — Quota reform at IMF; World Bank reform; BRICS NDB and AIIB as alternatives
-
-**Answer-writing tip:** UNSC reform questions reward answers that go beyond listing problems — examiners want you to engage with the specific reform proposals (G4 vs UFC vs African position), the amendment procedure challenge, and India's strategic interest. Always conclude with India's specific position and the outlook for reform.
+**Mains approach:**
+- For UNSC reform questions: Present the case for reform (demographic, democratic, developmental arguments); explain the G4 proposal and Ezulwini Consensus; identify obstacles (P5 self-interest, Charter amendment process, Uniting for Consensus opposition, China's opposition to Japan and India); conclude with India's specific case and realistic prospects.
+- For UN relevance questions: Use a balanced structure — what has worked (peacekeeping, humanitarian agencies, norm-setting, SDGs) and what has failed (Rwanda, Iraq 2003, UNSC paralysis on Ukraine/Gaza) — conclude that reform is needed, not abandonment.
+- For Bretton Woods and trade questions: Connect to India's current diplomacy — WTO agriculture negotiations, TRIPS, quota reform at IMF, World Bank's Ajay Banga, NDB, AIIB.
 
 ---
 
@@ -490,43 +364,41 @@ India contributes to all three: peacekeeping (security), development partner, an
 
 ### Prelims
 
-**Q1.** The United Nations Charter was signed in San Francisco in 1945. How many countries signed the Charter as founding members?
-(A) 45
-(B) 51
-(C) 57
-(D) 63
+**Q1.** The United Nations Charter was signed in San Francisco in 1945. What was the number of founding member states?
+- (a) 45
+- (b) 50
+- (c) 51
+- (d) 57
 
-**Answer: B** — 50 nations signed on 26 June 1945; Poland signed later as the 51st founding member.
+**Answer: (c)** — 51 founding members. 50 nations signed on 26 June 1945; Poland signed later and is counted as the 51st founding member.
 
 **Q2.** Consider the following statements about the UN Security Council:
-1. It has 5 permanent and 10 non-permanent members.
-2. Non-permanent members are elected for 3-year terms.
-3. Any permanent member can veto substantive resolutions.
+1. Non-permanent members serve two-year terms.
+2. An abstention by a permanent member constitutes a veto.
+3. Chapter VII resolutions are binding on all UN member states.
 
 Which of the above is/are correct?
-(A) 1 and 3 only
-(B) 2 and 3 only
-(C) 1 only
-(D) 1, 2, and 3
+- (a) 1 and 3 only
+- (b) 2 and 3 only
+- (c) 1 only
+- (d) 1, 2, and 3
 
-**Answer: A** — Statement 2 is incorrect; non-permanent members serve 2-year terms, not 3-year terms.
+**Answer: (a)** — Statement 2 is incorrect: a P5 abstention is NOT a veto; only an explicit "No" vote is a veto. Statements 1 and 3 are correct.
 
-**Q3.** India's case for permanent membership in the UN Security Council is supported by which of the following grounds?
-1. India is the world's most populous country.
-2. India is among the largest contributors of uniformed personnel to UN peacekeeping.
-3. India is already a nuclear weapon state recognised under the NPT.
-4. Four of the five P5 members have expressed support for India's candidacy.
+**Q3.** The Ezulwini Consensus refers to:
+- (a) The BRICS nations' proposal for a New Development Bank
+- (b) The African Union's common position calling for permanent African representation on the UNSC
+- (c) The G4 nations' joint submission to the UN General Assembly on UNSC expansion
+- (d) The WTO's declaration on food security and agricultural subsidies
 
-Select the correct answer:
-(A) 1, 2, and 4 only
-(B) 1, 2, 3, and 4
-(C) 2 and 4 only
-(D) 1 and 2 only
-
-**Answer: A** — Statement 3 is incorrect; India is a nuclear weapon state *de facto* but is NOT recognised under the NPT (which recognises only those who tested before 1 January 1967 as nuclear weapon states). Statements 1, 2, and 4 are correct.
+**Answer: (b)** — The Ezulwini Consensus (2005) is the African Union's Common African Position on UNSC reform, calling for two permanent African seats with full veto powers.
 
 ### Mains
 
-**Q1.** "The United Nations Security Council's veto system, designed in 1945 to ensure great-power cooperation, has become the biggest obstacle to effective multilateralism in the 21st century." Critically examine and discuss the prospects for reform. **(CSE Mains 2023, GS Paper 2, 15 marks)**
+**Q1.** "India's record as one of the largest troop contributors to UN peacekeeping operations over eight decades is the strongest argument for its permanent UNSC membership." Critically examine this claim and identify the key obstacles India must overcome. *(250 words)*
 
-**Q2.** "India's record as one of the largest troop contributors to UN peacekeeping over eight decades makes its claim for permanent UNSC membership among the most legitimate of all aspirants." Substantiate this claim and identify the key obstacles India must overcome. **(CSE Mains 2021, GS Paper 2, 15 marks)**
+*Approach:* Establish India's peacekeeping record with data (195,000 cumulative troops; first among contributors as of 2023; first all-female FPU to Liberia 2007; 168 martyrs). Argue why this matters — it demonstrates commitment to multilateral peace, willingness to bear costs without formal power, and legitimacy as a "responsible stakeholder." Then critically examine: peacekeeping record alone is insufficient — P5 interests, geopolitics (China's opposition), and the Charter amendment process are the real obstacles. Conclude with India's multi-pronged strategy (G4 coalition, African support via Ezulwini endorsement, P5 diplomatic lobbying) and realistic assessment.
+
+**Q2.** Examine the challenges facing the World Trade Organisation in the contemporary era. How does India navigate between multilateral trade commitments and its domestic development priorities? *(250 words)*
+
+*Approach:* Outline WTO challenges — Appellate Body paralysis since 2019 (US blocking appointments), stalled Doha Development Round, agriculture deadlock, e-commerce moratorium dispute, minilateral FTAs fragmenting multilateral rules. Then discuss India's navigation: defending food security subsidies (peace clause at Bali 2013, Nairobi 2015); TRIPS flexibilities for generic medicines; bilateral FTAs (UAE CEPA 2022, UK FTA in progress, EU FTA ongoing); opting out of RCEP; selectively engaging in IPEF. Conclude that India's approach reflects pragmatic multilateralism — defending global rules when advantageous and using bilateral routes when multilateral progress stalls.
