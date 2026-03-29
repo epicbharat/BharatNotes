@@ -129,38 +129,65 @@
     var article = document.querySelector(".article-body");
     if (!article) return null;
 
-    var titleEl = document.querySelector(".page-header__title");
-    var badges = document.querySelectorAll(".gs-badge");
-    var breadcrumb = document.querySelector(".breadcrumb");
-
-    var titleText = titleEl ? titleEl.textContent.trim() : "BharatNotes";
+    var isNcert = !!document.querySelector(".ncert-article");
+    var titleText, paperText, subjectText, ncertChapterLine;
     var dateStr = new Date().toLocaleDateString("en-IN", {
-      day: "numeric",
-      month: "long",
-      year: "numeric",
+      day: "numeric", month: "long", year: "numeric"
     });
 
-    // Paper labels
-    var paperLabels = [];
-    badges.forEach(function (b) {
-      var key = b.textContent.trim().toLowerCase();
-      var labels = {
-        gs1: "General Studies I",
-        gs2: "General Studies II",
-        gs3: "General Studies III",
-        gs4: "General Studies IV",
-        essay: "Essay Paper"
-      };
-      paperLabels.push(labels[key] || b.textContent.trim());
-    });
-    var paperText = paperLabels.join(" · ");
+    if (isNcert) {
+      /* ── NCERT chapter page ── */
+      var ncertH1 = document.querySelector(".ncert-header h1");
+      titleText = ncertH1 ? ncertH1.textContent.trim()
+        : document.title.split("\u2014")[0].trim().replace(/\s*\u2014.*$/, "");
 
-    // Subject from breadcrumb
-    var subjectText = "";
-    if (breadcrumb) {
-      var links = breadcrumb.querySelectorAll("a");
-      if (links.length >= 3) subjectText = links[2].textContent.trim();
-      else if (links.length >= 2) subjectText = links[1].textContent.trim();
+      // "Chapter 04 — Themes in Indian History — Part I"
+      var chNumEl = document.querySelector(".ncert-chapter-number");
+      ncertChapterLine = chNumEl ? chNumEl.textContent.trim() : "";
+
+      // Class + subject badge e.g. "Class 12 · History"
+      var classBadgeEl = document.querySelector(".ncert-class-badge");
+      subjectText = classBadgeEl
+        ? classBadgeEl.textContent.replace(/📚/g, "").trim()
+        : "";
+
+      // GS papers from sidebar info card
+      var gsText = "";
+      document.querySelectorAll(".ncert-book-info-card__item").forEach(function(el) {
+        var lbl = el.querySelector("strong");
+        if (lbl && lbl.textContent.trim() === "GS Paper") {
+          gsText = el.textContent.replace("GS Paper", "").trim();
+        }
+      });
+      paperText = "NCERT Notes" + (gsText ? "  \u00b7  " + gsText : "");
+
+    } else {
+      /* ── GS topic page ── */
+      var titleEl = document.querySelector(".page-header__title");
+      var badges = document.querySelectorAll(".gs-badge");
+      var breadcrumb = document.querySelector(".breadcrumb");
+
+      titleText = titleEl ? titleEl.textContent.trim() : "BharatNotes";
+      ncertChapterLine = "";
+
+      var paperLabels = [];
+      badges.forEach(function(b) {
+        var key = b.textContent.trim().toLowerCase();
+        var labels = {
+          gs1: "General Studies I", gs2: "General Studies II",
+          gs3: "General Studies III", gs4: "General Studies IV",
+          essay: "Essay Paper"
+        };
+        paperLabels.push(labels[key] || b.textContent.trim());
+      });
+      paperText = paperLabels.join(" · ");
+
+      subjectText = "";
+      if (breadcrumb) {
+        var links = breadcrumb.querySelectorAll("a");
+        if (links.length >= 3) subjectText = links[2].textContent.trim();
+        else if (links.length >= 2) subjectText = links[1].textContent.trim();
+      }
     }
 
     // Clean the clone
@@ -186,6 +213,7 @@
       ".tp-logo { font-family:'EB Garamond','Georgia',serif; font-size:14pt; color:#1a1a1a; letter-spacing:-0.01em; }",
       ".tp-logo span { color:#b8860b; }",
       ".tp-paper { font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:600; letter-spacing:0.18em; text-transform:uppercase; color:#888; }",
+      ".tp-chapter-line { font-family:'Inter',sans-serif; font-size:8.5pt; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:#999; margin-bottom:10px; }",
       ".tp-title { font-family:'EB Garamond','Georgia',serif; font-size:38pt; font-weight:400; line-height:1.12; color:#1a1a1a; margin-bottom:16px; letter-spacing:-0.02em; }",
       ".tp-desc { font-size:11pt; color:#555; line-height:1.6; max-width:140mm; }",
       ".tp-bottom { flex:1; display:flex; flex-direction:column; justify-content:flex-end; padding:24mm 28mm 28mm; }",
@@ -291,7 +319,10 @@
       "details[open] { background:#f9f9f5; }",
       "summary { font-family:'Inter',sans-serif; font-size:10pt; font-weight:600; color:#333; cursor:default; }",
 
-      /* Running footer */
+      /* Per-page running footer — position:fixed renders on every printed page */
+      ".rf { position:fixed; bottom:0; left:0; right:0; display:flex; justify-content:space-between; align-items:center; font-family:'Inter',sans-serif; font-size:7pt; color:#bbb; padding:5px 20mm; border-top:0.5px solid #e8e8e8; background:#fff; letter-spacing:0.03em; }",
+
+      /* End-of-content footer */
       ".ft { margin-top:36px; padding-top:12px; border-top:0.5px solid #ccc; display:flex; justify-content:space-between; font-family:'Inter',sans-serif; font-size:7.5pt; color:#999; letter-spacing:0.04em; }",
 
       /* ─── BACK PAGE ─── */
@@ -337,8 +368,10 @@
        HTML Assembly
        ────────────── */
     var photoSrc = authorPhotoB64 || "https://bharatnotes.com/img/bharat-choudhary.png";
-    var desc = document.querySelector(".page-header__subtitle");
-    var descText = desc ? desc.textContent.trim() : "";
+    var descEl = isNcert
+      ? document.querySelector(".ncert-header__subtitle")
+      : document.querySelector(".page-header__subtitle");
+    var descText = descEl ? descEl.textContent.trim() : "";
 
     var html =
       '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>' + titleText + '</title>' +
@@ -354,6 +387,7 @@
             '<div class="tp-logo">Bharat<span>Notes</span></div>' +
             '<div class="tp-paper">' + paperText + '</div>' +
           '</div>' +
+          (ncertChapterLine ? '<div class="tp-chapter-line">' + ncertChapterLine + '</div>' : '') +
           '<h1 class="tp-title">' + titleText + '</h1>' +
           (descText ? '<p class="tp-desc">' + descText + '</p>' : '') +
         '</div>' +
@@ -439,6 +473,12 @@
           '<p class="bp-disc">All content sourced from official government publications &amp; standard UPSC references. Free for personal use.</p>' +
           '<div class="bp-copy">&copy; ' + new Date().getFullYear() + ' BharatNotes.com &middot; 100% Free &middot; No Login Required</div>' +
         '</div>' +
+      '</div>' +
+
+      /* ═══ RUNNING FOOTER (every page) ═══ */
+      '<div class="rf">' +
+        '<span>bharatnotes.com</span>' +
+        '<span>Bharat Choudhary  &middot;  BharatNotes</span>' +
       '</div>' +
 
       '</body></html>';

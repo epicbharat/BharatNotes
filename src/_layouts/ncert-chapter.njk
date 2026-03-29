@@ -62,7 +62,7 @@ layout: base.njk
             <span>In This Chapter</span>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
-          <ol class="toc-list toc-mobile__list" id="toc-mobile-list" hidden></ol>
+          <ul class="toc-list toc-mobile__list" id="toc-mobile-list" hidden></ul>
         </div>
 
         <article class="article-body ncert-article" data-pagefind-body>
@@ -146,7 +146,7 @@ layout: base.njk
         <!-- TOC Sidebar -->
         <nav class="toc-card card ncert-toc" id="toc-sidebar" aria-label="Table of contents" style="margin-bottom:var(--space-5);">
           <h4 style="color:var(--ncert-blue);font-size:var(--text-xs);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:var(--space-3);">In This Chapter</h4>
-          <ol class="toc-list" id="toc-list"></ol>
+          <ul class="toc-list" id="toc-list"></ul>
         </nav>
 
         <!-- Study Tools -->
@@ -289,14 +289,41 @@ layout: base.njk
     return;
   }
 
-  function truncToc(t) { return t.length > 72 ? t.slice(0, 70).replace(/\s+\S*$/, '') + '\u2026' : t; }
+  function truncToc(t, max) {
+    max = max || 52;
+    return t.length > max ? t.slice(0, max - 1).replace(/\s+\S*$/, '') + '\u2026' : t;
+  }
+  function toTitleCase(s) {
+    return s.toLowerCase().replace(/\b\w/g, function(c) { return c.toUpperCase(); });
+  }
 
   var tocHtml = '';
   headings.forEach(function(h, idx) {
     var id = h.id || ('ncert-h-' + idx);
     h.id = id;
     var isH3 = h.tagName === 'H3';
-    tocHtml += '<li' + (isH3 ? ' style="padding-left:var(--space-4)"' : '') + '><a href="#' + id + '" style="font-size:var(--text-xs);color:var(--color-text-secondary);text-decoration:none;display:block;padding:2px 0;line-height:1.4;">' + truncToc(h.textContent.trim()) + '</a></li>';
+    var text = h.textContent.trim();
+    var isPart = /^PART\s+\d/i.test(text);
+
+    var liClass, aClass, displayText;
+    if (isPart) {
+      liClass = 'toc-item toc-item--part';
+      aClass = 'toc-link toc-link--part';
+      var m = text.match(/^PART\s+(\d+)[:\s\u2014\-]+(.+)/i);
+      displayText = m
+        ? 'Part ' + m[1] + '\u2002\u00b7\u2002' + truncToc(toTitleCase(m[2].trim()), 24)
+        : truncToc(text, 28);
+    } else if (!isH3) {
+      liClass = 'toc-item toc-item--h2';
+      aClass = 'toc-link';
+      displayText = truncToc(text, 52);
+    } else {
+      liClass = 'toc-item toc-item--h3';
+      aClass = 'toc-link';
+      displayText = truncToc(text, 48);
+    }
+
+    tocHtml += '<li class="' + liClass + '"><a href="#' + id + '" class="' + aClass + '">' + displayText + '</a></li>';
   });
   tocList.innerHTML = tocHtml;
   if (tocMobileList) tocMobileList.innerHTML = tocHtml;
