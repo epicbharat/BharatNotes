@@ -565,9 +565,13 @@
       '</div>';
 
     try {
+      var controller = new AbortController();
+      var timeoutId = setTimeout(function() { controller.abort(); }, 15000);
+
       var res = await fetch(PDF_API_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        signal: controller.signal,
         body: JSON.stringify({
           html: html,
           filename: filename,
@@ -576,11 +580,10 @@
           footerTemplate: footerTemplate
         }),
       });
+      clearTimeout(timeoutId);
 
       if (!res.ok) {
-        var err = await res.json().catch(function () {
-          return {};
-        });
+        var err = await res.json().catch(function () { return {}; });
         throw new Error(err.error || "Server error (" + res.status + ")");
       }
 
@@ -589,26 +592,20 @@
       var a = document.createElement("a");
       a.href = url;
       a.download = filename + ".pdf";
+      document.body.appendChild(a);
       a.click();
+      document.body.removeChild(a);
       URL.revokeObjectURL(url);
       showPDFToast("PDF downloaded!", "success");
     } catch (err) {
       console.error("PDF API error:", err);
-      showPDFToast("PDF API unavailable — opening print dialog", "error");
-      // Fallback: print
-      var w = window.open("", "_blank");
-      if (w) {
-        w.document.write(html);
-        w.document.close();
-        w.onload = function () {
-          w.print();
-        };
-        setTimeout(function () {
-          try {
-            w.print();
-          } catch (e) {}
-        }, 1500);
-      }
+      var isTimeout = err.name === "AbortError";
+      showPDFToast(
+        isTimeout
+          ? "PDF generation timed out. Try again or use Ctrl+P → Save as PDF."
+          : "PDF service unavailable. Use Ctrl+P → Save as PDF as a workaround.",
+        "error"
+      );
     } finally {
       btn.disabled = false;
       btn.innerHTML = origHTML;
