@@ -58,6 +58,7 @@
       ".toc-mobile",
       "select",
       "button",
+      ".btn",
       ".pyq-empty",
       "svg",
       ".adsbygoogle"
@@ -205,7 +206,7 @@
       "@page backpage { margin:0; }",
 
       /* Base typography — system serif (no external font request) */
-      "body { font-family:'Georgia','Times New Roman',serif; font-size:13pt; line-height:1.72; color:#1a1a1a; background:#fff; }",
+      "body { font-family:'Georgia','Times New Roman',serif; font-size:11pt; line-height:1.72; color:#1a1a1a; background:#fff; }",
 
       /* ─── TITLE PAGE ─── */
       ".tp { width:210mm; height:297mm; display:flex; flex-direction:column; padding:0; page-break-after:always; position:relative; overflow:hidden; }",
@@ -274,9 +275,9 @@
       ".ct tbody tr:last-child td { border-bottom:2px solid #1a1a1a; }",
       ".ct tbody tr:nth-child(even) td { background:rgba(0,0,0,0.015); }",
 
-      /* Links — suppress PDF viewer annotation boxes */
-      "a { outline:none; box-shadow:none; -webkit-tap-highlight-color:transparent; }",
-      ".ct a { color:#1a1a1a; text-decoration:underline; text-decoration-color:#aaa; text-underline-offset:2px; }",
+      /* Links — clearly underlined, clickable in PDF viewers */
+      "a { outline:none; box-shadow:none; }",
+      ".ct a { color:#1a4a8a; text-decoration:underline; text-underline-offset:2px; }",
 
       /* Code */
       ".ct pre, .ct code { font-family:'JetBrains Mono','Fira Code','Courier New',monospace; font-size:9.5pt; }",
@@ -428,13 +429,13 @@
             '<span><strong>License</strong> Free for personal use</span>' +
           '</div>' +
           '<div style="display:flex; gap:10px; margin-top:16px;">' +
-            '<span class="tp-btn">BharatNotes.com &rarr;</span>' +
-            '<span class="tp-btn tp-btn--accent">Ujiyari.com &rarr;</span>' +
+            '<a href="https://bharatnotes.com" class="tp-btn">BharatNotes.com &rarr;</a>' +
+            '<a href="https://ujiyari.com" class="tp-btn tp-btn--accent">Ujiyari.com &rarr;</a>' +
           '</div>' +
           '<div class="tp-ujiyari">' +
             '<div class="tp-ujiyari-icon">📰</div>' +
             '<div class="tp-ujiyari-text"><strong>Ujiyari.com</strong> &mdash; Daily current affairs, editorial analysis, monthly compilations &amp; Mains answer writing practice. Pair these static notes with live news coverage.</div>' +
-            '<span class="tp-ujiyari-btn">Visit &rarr;</span>' +
+            '<a href="https://ujiyari.com" class="tp-ujiyari-btn">Visit &rarr;</a>' +
           '</div>' +
         '</div>' +
       '</div>' +
