@@ -375,11 +375,11 @@
        ────────────── */
     var photoSrc = authorPhotoB64 || "https://bharatnotes.com/img/bharat-choudhary.png";
 
-    /* Inject mid-content brand cards before every 3rd H2 in the clone */
+    /* Inject mid-content brand cards after every 3rd H2 (indexes 2,5,8…) */
     (function() {
-      var h2s = clone.querySelectorAll("h2");
+      var h2s = Array.prototype.slice.call(clone.querySelectorAll("h2"));
       h2s.forEach(function(h2, i) {
-        if (i > 0 && i % 3 === 0) {
+        if ((i + 1) % 3 === 0) {
           var card = document.createElement("div");
           card.className = "mid-brand";
           card.innerHTML =
@@ -389,7 +389,8 @@
               '<span class="mid-brand__role">Founder, BharatNotes &amp; Ujiyari</span>' +
             '</div>' +
             '<span class="mid-brand__link">bharatnotes.com &rarr;</span>';
-          h2.parentNode.insertBefore(card, h2);
+          /* insert after the H2, before its next sibling */
+          h2.parentNode.insertBefore(card, h2.nextSibling);
         }
       });
     })();
