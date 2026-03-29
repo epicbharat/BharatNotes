@@ -118,7 +118,14 @@
       card.remove();
     });
 
-    // 5. Unwrap pyq-panel-inner (just a wrapper)
+    // 5. Mark PART dividers (## PART 1 —) for page-break-before in PDF
+    clone.querySelectorAll("h2").forEach(function(h2) {
+      if (/^PART\s+\d/i.test(h2.textContent.trim())) {
+        h2.setAttribute("data-pdf-part", "true");
+      }
+    });
+
+    // 6. Unwrap pyq-panel-inner (just a wrapper)
     clone.querySelectorAll(".pyq-panel-inner").forEach(function (el) {
       while (el.firstChild) {
         el.parentNode.insertBefore(el.firstChild, el);
@@ -267,9 +274,10 @@
       ".ct h1 { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:24.5pt; font-weight:600; color:#1a1a1a; margin-bottom:6px; line-height:1.2; letter-spacing:-0.01em; }",
       ".ct-sub { font-family:'Inter',sans-serif; font-size:9pt; color:#888; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:20px; padding-bottom:16px; border-bottom:1px solid #1a1a1a; }",
 
-      /* Headings */
-      ".ct h2 { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:18.5pt; font-weight:600; color:#1a1a1a; margin:32px 0 10px; padding-bottom:6px; border-bottom:0.5px solid #ccc; }",
+      /* Headings — never orphan at page bottom; always stay with next paragraph */
+      ".ct h2 { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:18.5pt; font-weight:600; color:#1a1a1a; margin:36px 0 10px; padding-bottom:6px; border-bottom:0.5px solid #ccc; page-break-after:avoid; break-after:avoid; }",
       ".ct h2:first-child { margin-top:0; }",
+      ".ct h2[data-pdf-part] { page-break-before:always; break-before:page; margin-top:0; }",
       ".ct h2[data-pdf-type='upsc'] { color:#1a1a1a; border-bottom:1.5px solid #1a1a1a; }",
       ".ct h2[data-pdf-type='upsc']::before { content:'\\25B6  '; font-size:9.5pt; }",
       ".ct h2[data-pdf-type='pyq'] { color:#1a1a1a; border-bottom:1.5px solid #1a1a1a; }",
@@ -279,23 +287,24 @@
       ".ct h2[data-pdf-type='vocab']::before { content:'\\25A0  '; font-size:9.5pt; }",
       ".ct h2[data-pdf-type='terms'] { color:#1a1a1a; border-bottom:1.5px solid #1a1a1a; }",
       ".ct h2[data-pdf-type='terms']::before { content:'\\25A1  '; font-size:9.5pt; }",
-      ".ct h3 { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:15pt; font-weight:400; font-style:italic; color:#333; margin:24px 0 8px; }",
-      ".ct h4 { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:11pt; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:#444; margin:20px 0 8px; }",
+      ".ct h3 { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:15pt; font-weight:400; font-style:italic; color:#333; margin:26px 0 8px; page-break-after:avoid; break-after:avoid; }",
+      ".ct h4 { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:11pt; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:#444; margin:22px 0 6px; page-break-after:avoid; break-after:avoid; }",
 
-      /* Body text */
-      ".ct p { margin-bottom:10px; text-align:justify; hyphens:auto; }",
-      ".ct ul, .ct ol { margin:0 0 12px 20px; }",
+      /* Body text — widows/orphans control */
+      ".ct p { margin-bottom:10px; text-align:justify; hyphens:auto; widows:2; orphans:2; }",
+      ".ct h2 + p, .ct h3 + p, .ct h4 + p { page-break-before:avoid; break-before:avoid; }",
+      ".ct ul, .ct ol { margin:0 0 12px 20px; page-break-inside:avoid; break-inside:avoid; }",
       ".ct li { margin-bottom:4px; }",
       ".ct li::marker { color:#555; }",
       ".ct li strong { color:#1a1a1a; }",
 
       /* Blockquotes — scholarly indent */
-      ".ct blockquote { margin:14px 0 14px 24px; padding:10px 16px; border-left:2px solid #999; font-style:italic; color:#444; font-size:12.5pt; line-height:1.65; background:none; }",
+      ".ct blockquote { margin:14px 0 14px 24px; padding:10px 16px; border-left:2px solid #999; font-style:italic; color:#444; font-size:12.5pt; line-height:1.65; background:none; page-break-inside:avoid; break-inside:avoid; }",
       ".ct blockquote strong { font-style:normal; color:#1a1a1a; }",
 
-      /* Tables — Oxford booktabs style */
-      ".ct table { width:100%; border-collapse:collapse; margin:16px 0; font-size:12pt; line-height:1.5; page-break-inside:auto; }",
-      ".ct tr { page-break-inside:avoid; }",
+      /* Tables — Oxford booktabs style; avoid breaking short tables */
+      ".ct table { width:100%; border-collapse:collapse; margin:16px 0; font-size:12pt; line-height:1.5; page-break-inside:avoid; break-inside:avoid; }",
+      ".ct tr { page-break-inside:avoid; break-inside:avoid; }",
       ".ct thead { border-top:2px solid #1a1a1a; border-bottom:1px solid #1a1a1a; }",
       ".ct th { padding:8px 10px; text-align:left; font-family:'Crimson Pro','Georgia',serif; font-size:10pt; font-weight:700; letter-spacing:0.04em; text-transform:uppercase; color:#333; background:none; }",
       ".ct td { padding:8px 10px; border-bottom:none; color:#333; vertical-align:top; }",
@@ -330,7 +339,7 @@
       ".pyq-section-heading { font-family:'Crimson Pro','Georgia',serif; font-size:13.5pt; font-style:italic; color:#333; margin:20px 0 10px; }",
 
       /* Callout boxes — scholarly notes */
-      ".callout { margin:14px 0; padding:12px 16px; border:0.5px solid #ccc; border-left:3px solid #555; background:#fafafa; font-size:11.5pt; }",
+      ".callout { margin:14px 0; padding:12px 16px; border:0.5px solid #ccc; border-left:3px solid #555; background:#fafafa; font-size:11.5pt; page-break-inside:avoid; break-inside:avoid; }",
       ".callout-title { font-family:'Inter',sans-serif; font-size:9pt; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#555; margin-bottom:6px; }",
       ".callout p { margin-bottom:4px; font-size:11.5pt; } .callout p:last-child { margin-bottom:0; }",
       ".callout ul, .callout ol { margin:4px 0 4px 18px; font-size:11.5pt; }",
