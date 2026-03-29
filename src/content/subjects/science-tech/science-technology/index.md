@@ -27,8 +27,7 @@ Science & Technology is the **highest-weight GS3 section** in UPSC, covering eve
 | # | Chapter | Key Topics |
 |---|---------|------------|
 | 1 | **Space Technology** | ISRO, Chandrayaan, Mangalyaan, Gaganyaan, Aditya-L1, satellite systems, launch vehicles, space sector reforms |
-| 2 | **Biotechnology & Health** | Biotech applications, GM crops, CRISPR, vaccines, Ayushman Bharat, NHM, One Health, AMR |
-| 3 | **Biotechnology & Genetic Engineering** | GMOs, CRISPR-Cas9, gene editing, regulatory framework, Genome India, bioeconomy |
+| 2 | **Biotechnology — GM Crops, CRISPR & Bioeconomy** | Colour classification, BioE3 Policy ($195.3B bioeconomy), CRISPR-Cas9 (Nobel 2020, FELUDA, BIRSA 101), GM crops (Bt cotton, Bt Brinjal moratorium, GM Mustard DMH-11 SC case, genome-edited crops 2025), 6-tier GMO regulatory framework (SDN-1/2/3), Indian vaccines (Covaxin, CERVAVAC), GenomeIndia (10,074 genomes), biofortification (71+ varieties), One Health, AMR (ESKAPE, NAP-AMR 2024), biopiracy (TKDL) |
 | 4 | **IT, Cybersecurity & Defence Technology** | IT sector, AI mission, CERT-In, DPDP Act, 5G, semiconductors, DRDO missiles, nuclear programme |
 | 5 | **Emerging Technologies** | AI, Quantum Computing, Blockchain, IoT, 5G/6G, IndiaAI Mission, National Quantum Mission |
 | 6 | **Defence Technology** | DRDO, missile programme (Agni, BrahMos), nuclear doctrine, ASAT, defence indigenisation |

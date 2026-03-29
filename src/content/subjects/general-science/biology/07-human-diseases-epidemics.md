@@ -92,7 +92,7 @@ Human diseases and epidemics represent a high-yield topic across both UPSC Preli
 | Disease | Causative Organism | Transmission | Key Symptoms |
 |---------|--------------------|-------------|--------------|
 | **Malaria** | *Plasmodium* species (see table below) | Vector-borne — female *Anopheles* mosquito | Cyclical fever with chills, anaemia, enlarged spleen; cerebral malaria (P. falciparum) can be fatal |
-| **Kala-azar (Visceral Leishmaniasis)** | *Leishmania donovani* | Vector-borne — sandfly (*Phlebotomus*) | Prolonged fever, weight loss, enlarged spleen and liver, anaemia, darkening of skin |
+| **Kala-azar (Visceral Leishmaniasis)** | *Leishmania donovani* | Vector-borne — sandfly (*Phlebotomus argentipes*) | Prolonged fever, weight loss, enlarged spleen and liver, anaemia, darkening of skin; endemic in Bihar, Jharkhand, UP, West Bengal; elimination target: <1 case/10,000 at sub-district level |
 | **Sleeping Sickness (African Trypanosomiasis)** | *Trypanosoma brucei* | Vector-borne — tsetse fly (*Glossina*) | Fever, headache, joint pain; later stage: confusion, sleep disturbance, coma |
 | **Amoebic Dysentery** | *Entamoeba histolytica* | Faecal-oral (contaminated water/food) | Bloody diarrhoea, abdominal cramps, liver abscess |
 | **Giardiasis** | *Giardia lamblia* | Faecal-oral (contaminated water) | Diarrhoea, bloating, nausea, malabsorption |
@@ -229,7 +229,7 @@ India's UIP, launched in **1985**, is one of the largest immunisation programmes
 | Disease | Causative Organism | Transmission | Symptoms |
 |---------|--------------------|-------------|----------|
 | **Ascariasis** | *Ascaris lumbricoides* (roundworm) | Faecal-oral (contaminated soil/food) | Abdominal pain, malnutrition, intestinal obstruction |
-| **Filariasis (Elephantiasis)** | *Wuchereria bancrofti* | Vector-borne — *Culex* mosquito | Swelling of limbs, lymphatic damage |
+| **Filariasis (Elephantiasis)** | *Wuchereria bancrofti* | Vector-borne — *Culex* mosquito | Swelling of limbs (lymphedema), lymphatic damage; India runs **National Programme for Elimination of Lymphatic Filariasis (NPELF)** with annual mass drug administration (albendazole + DEC) in endemic districts |
 | **Tapeworm Infection** | *Taenia solium* (pork), *T. saginata* (beef) | Undercooked contaminated meat | Abdominal discomfort; cysticercosis if larvae invade tissues |
 | **Hookworm Disease** | *Ancylostoma duodenale* | Larvae penetrate bare feet from contaminated soil | Iron-deficiency anaemia, fatigue |
 

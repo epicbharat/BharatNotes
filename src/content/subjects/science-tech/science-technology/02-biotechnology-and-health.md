@@ -1,15 +1,15 @@
 ---
 layout: topic.njk
-title: "Biotechnology & Health: Applications, Policies & India's Health Sector"
+title: "Biotechnology — GM Crops, CRISPR, Regulatory Framework, Bioeconomy & India's Biotech Sector"
 subject: science-tech
 parent_topic: "Science & Technology"
 parent_topic_url: "/subjects/science-tech/science-technology/"
 gs_papers:
   - gs3
 syllabus_topic: "Science & Technology"
-description: "UPSC comprehensive guide on biotechnology applications, GM crops, CRISPR, India's biotech sector, Ayushman Bharat, NHM, PMJAY, COVID-19 response, One Health, and antimicrobial resistance."
+description: "Complete UPSC notes on biotechnology — GM crops (Bt cotton, GM Mustard), CRISPR-Cas9, genome editing, GMO regulatory framework, India's bioeconomy (BioE3 Policy), medical biotech (vaccines, gene therapy), biofortification, One Health, and AMR."
 sub_chapter: 2
-date: 2026-03-26
+date: 2026-03-29
 foundation: true
 prelims: true
 mains: true
@@ -17,16 +17,16 @@ tags:
   - science-tech
 ---
 
-## Biotechnology — Overview and Applications
+## Biotechnology — Overview
 
-Biotechnology is the use of biological systems, living organisms, or their derivatives to develop products and processes for specific use. It spans agriculture, medicine, industry, and environment.
+Biotechnology is the use of **living organisms, cells, or biological systems** to develop products and technologies for human benefit. It spans agriculture, health, industry, and environment.
 
 ### Colour Classification of Biotechnology
 
 | Colour | Domain | Examples |
 |--------|--------|----------|
-| **Red** | Medical / Pharmaceutical | Gene therapy, vaccines, diagnostics, biopharmaceuticals |
-| **Green** | Agricultural | GM crops, biopesticides, biofertilisers, molecular breeding |
+| **Red** | Medical / Pharmaceutical | Gene therapy, vaccines, diagnostics, biopharmaceuticals, stem cells |
+| **Green** | Agricultural | GM crops, biopesticides, biofertilisers, molecular breeding, biofortification |
 | **White** | Industrial | Biofuels, enzymes, bioplastics, fermentation technology |
 | **Blue** | Marine / Aquatic | Marine-derived pharmaceuticals, aquaculture biotechnology |
 | **Yellow** | Food / Nutrition | Food processing, nutraceuticals, biofortification |
@@ -34,139 +34,284 @@ Biotechnology is the use of biological systems, living organisms, or their deriv
 
 ---
 
-## Agricultural Biotechnology
+## India's Bioeconomy & BioE3 Policy
 
-### 2.1 GM Crops in India
+### India's Bioeconomy Growth
 
-| Aspect | Detail |
-|--------|--------|
-| **Only approved GM crop** | Bt Cotton — approved in 2002 by GEAC (Genetic Engineering Appraisal Committee) under MoEFCC |
-| **Bt Cotton coverage** | Over 96% of India's cotton cultivation area is under Bt Cotton |
-| **Bt Gene** | Cry1Ac and Cry2Ab genes from *Bacillus thuringiensis*; produces insecticidal protein toxic to bollworm |
-| **GM Mustard (DMH-11)** | Developed by Delhi University; GEAC recommended; pending commercial release; environmental bio-safety data being generated |
-| **Bt Brinjal** | GEAC approved in 2009; moratorium imposed in 2010 by then Environment Minister; Supreme Court Technical Expert Committee recommended 10-year moratorium |
+| Indicator | Value |
+|-----------|-------|
+| **Bioeconomy size (2025)** | **$195.3 billion** (~5% of GDP) |
+| **Growth trajectory** | $10B (2014) → $80B (2020) → $165.7B (2024) → $195.3B (2025) |
+| **Growth rate (2025)** | 18% YoY |
+| **Growth trajectory** | $10B (2014) → $70B (2020) → $130B (2023) → $165.75B (2024) → $195.3B (2025) |
+| **Registered biotech startups** | 11,855 (1,780 new in 2025); India 3rd largest biotech hub in Asia-Pacific, 12th globally |
+| **Bio-incubators** | 95 BIRAC-supported centres |
+| **Key segments** | BioPharma ($64.5B), BioIndustrial ($90.2B), BioAgri, BioServices |
+| **Vision 2047** | **$1 trillion** bioeconomy goal (Amrit Kaal) |
 
-> **Common Mistake:** Bt Cotton is the ONLY commercially approved GM crop in India (since 2002). Bt Brinjal was approved by GEAC but placed under an indefinite moratorium in 2010. GM Mustard (DMH-11) was recommended by GEAC but is still pending. UPSC Prelims has repeatedly tested which GM crops are actually approved for cultivation -- the answer is only Bt Cotton. Do not confuse GEAC recommendation with final commercial approval.
+### BioE3 Policy (2024)
 
-### 2.2 Regulatory Framework for GM Crops
+| Feature | Detail |
+|---------|--------|
+| **Approved** | Cabinet approval on **24 August 2024** |
+| **Full form** | Biotechnology for **E**conomy, **E**nvironment and **E**mployment |
+| **Goal** | $300 billion bioeconomy by 2030; high-performance biomanufacturing |
+| **Focus areas** | Bio-based chemicals; smart proteins; precision biotherapeutics; climate-resilient agriculture; carbon capture; marine and space research |
+| **Infrastructure** | Biomanufacturing & Bio-AI hubs; Biofoundries across India |
 
-| Body | Role |
-|------|------|
-| **GEAC** (Genetic Engineering Appraisal Committee) | Apex body for approval of GM organisms; under MoEFCC |
-| **RCGM** (Review Committee on Genetic Manipulation) | Reviews and monitors ongoing research; under DBT |
-| **IBSC** (Institutional Biosafety Committee) | Institutional-level oversight of research involving GMOs |
-| **SBCC** (State Biotechnology Coordination Committee) | State-level monitoring of biosafety |
-| **DLC** (District Level Committee) | District-level monitoring of field trials |
+**BioE3 significance:** Aligns with India's Net Zero and LiFE goals. Promotes circular bioeconomy and green growth, with job creation in tier-II/III cities through biomanufacturing hubs.
 
-### 2.3 Genome-Edited Plants — SOPs (2022)
+---
 
-In October 2022, DBT notified Standard Operating Procedures (SOPs) for regulatory review of Genome Edited Plants under **SDN-1 and SDN-2** categories, distinguishing them from traditional GM crops and providing a simplified regulatory pathway.
+## Genetic Engineering — Key Concepts
+
+| Term | Meaning |
+|------|---------|
+| **GMO** | Genetically Modified Organism — has DNA altered using genetic engineering (transgenic: gene from different species) |
+| **Genome editing** | Precise modification of an organism's **own DNA** without introducing foreign genes (e.g., CRISPR) |
+| **Transgenic** | Contains gene(s) from another species (e.g., Bt cotton has gene from *Bacillus thuringiensis*) |
+| **Cisgenic** | Contains gene from a sexually compatible species — no foreign species involved |
+| **Gene silencing (RNAi)** | Switching off a specific gene without removing it |
+| **CRISPR-Cas9** | Molecular "scissors" that cut DNA at precise locations; enables cheap, fast, accurate gene editing |
+
+> **Prelims Trap:** GMOs and genome-edited organisms are NOT the same. GMOs contain **foreign DNA** (transgenic). Genome-edited organisms have **their own DNA modified** — no foreign genetic material is introduced. India's 2022 guidelines treat genome-edited plants (SDN-1 and SDN-2 categories) differently from GMOs, with a lighter regulatory pathway.
+
+---
+
+## CRISPR-Cas9
+
+### How It Works
+
+| Feature | Detail |
+|---------|--------|
+| **Full form** | Clustered Regularly Interspaced Short Palindromic Repeats |
+| **Discovered by** | Jennifer Doudna & Emmanuelle Charpentier — **Nobel Prize in Chemistry, 2020** |
+| **Mechanism** | Guide RNA directs Cas9 enzyme to target DNA → Cas9 cuts the DNA → cell's repair mechanism edits it |
+| **Advantages** | Precise, cheap, fast, versatile (works in plants, animals, humans) |
+| **Limitations** | Off-target effects, mosaicism, ethical concerns in human germline editing |
+
+### CRISPR Applications
+
+| Domain | Application | Example |
+|--------|-------------|---------|
+| **Medicine** | Gene therapy for genetic disorders | Casgevy — first CRISPR therapy, US FDA approved 2023 (sickle cell disease) |
+| **India (Medicine)** | Indigenous CRISPR gene therapy | BIRSA 101 — CRISPR therapy for Sickle Cell Disease by CSIR-IGIB (with Serum Institute) |
+| **Agriculture** | Drought/salinity tolerance | IARI's Pusa Rice DST1 (drought-salinity tolerant, SDN-1 edit, approved 2025) |
+| **Diagnostics** | Rapid pathogen detection | **FELUDA test** (IGIB Delhi) — paper-based CRISPR COVID-19 test; 96% sensitivity, 98% specificity |
+| **Industrial** | Bio-based chemicals, biofuel feedstock | Engineering microbes for biofuel production |
+
+**India's CRISPR institutions:** National Centre for Genome Editing & Training (NGETC) at Mohali; regulatory framework under National Guidelines for Gene Therapy (2019), CDSCO, NDCT Rules 2019.
+
+---
+
+## GM Crops in India
+
+### Bt Cotton — India's Only Approved GM Crop
+
+| Feature | Detail |
+|---------|--------|
+| **Approved** | **2002** (Bollgard I); Bollgard II (two Bt genes: *cry1Ac + cry2Ab*) approved 2006 |
+| **Technology** | Contains *cry1Ac* gene (and later *cry2Ab*) from *Bacillus thuringiensis* → produces Bt toxin → kills bollworm larvae |
+| **Adoption** | ~**95%** of India's cotton area is now Bt cotton |
+| **Impact** | Cotton production **tripled** (13.6 million bales in 2002 → 35.4 million bales by 2014); India became world's largest cotton producer |
+| **Controversy** | Pink bollworm **resistance** emerged (Gujarat, Maharashtra); seed monopoly concerns (Monsanto/Bayer); farmer suicide debate (correlation, not proven causation) |
+
+> **For Mains:** The Bt cotton story is nuanced. Initial benefits were real — tripled yields, ~70% reduction in pesticide use against bollworm. But pink bollworm resistance development and dependence on proprietary seeds created new vulnerabilities. Use as a case study of technology adoption — benefits vs risks of monoculture and corporate dependency.
+
+### Bt Brinjal — Moratorium Since 2010
+
+| Feature | Detail |
+|---------|--------|
+| **Developed by** | Mahyco (Maharashtra Hybrid Seeds Company), Jalna |
+| **GEAC approval** | October 14, 2009 — cleared for commercial cultivation |
+| **Moratorium** | **February 9, 2010** — Environment Minister **Jairam Ramesh** imposed indefinite moratorium |
+| **Reason** | No overriding food security urgency; opposition from 9 state governments; widespread public concern; brinjal is India's centre of origin (gene flow to wild relatives risk) |
+| **Current status** | Moratorium continues in India; however, **Bangladesh** has successfully cultivated Bt Brinjal commercially since 2014; 2020 — GEAC allowed confined field trials of indigenous Bt Brinjal varieties in 8 states |
+
+### GM Mustard (DMH-11) — Ongoing Controversy
+
+| Feature | Detail |
+|---------|--------|
+| **Developed by** | Delhi University (Prof. Deepak Pental's team) |
+| **Technology** | Hybrid mustard using *barnase-barstar* gene system from *Bacillus amyloliquefaciens* |
+| **Yield advantage** | ~28% higher than national check variety |
+| **GEAC approval** | October 2022 — approved for environmental release |
+| **Supreme Court** | Split verdict (2024) — Justice Nagarathna invalidated; Justice Karol upheld. Referred to **larger bench** |
+| **Context** | India imports 55–60% of edible oil; DMH-11 could boost domestic production |
+
+> **Why it matters:** DMH-11 could be India's second GM crop after 22 years. The debate combines science (safety), politics (anti-GM activism), economics (edible oil import burden), and federalism (states like Rajasthan oppose). A classic multi-dimensional Mains question.
+
+### Genome-Edited Crops — India's New Pathway (2025)
+
+India approved its **first genome-edited crop varieties** in 2025 — NOT GMOs (no foreign DNA; SDN-1 category edit):
+
+| Variety | Developed by | Feature |
+|---------|-------------|---------|
+| **Pusa Rice DST1** | IARI, New Delhi | Drought and salinity tolerance |
+| **DRR Dhan 100** | IIRR, Hyderabad | Improved grain quality and yield |
+
+> India's 2022 genome editing guidelines exempt SDN-1 and SDN-2 edits from the full GMO regulatory process — creating a faster innovation pathway for crops that only modify the plant's own DNA.
+
+> **Common Prelims Mistake:** Bt Cotton is the ONLY commercially approved GM crop in India (since 2002). Bt Brinjal was approved but placed under moratorium (2010). GM Mustard got GEAC approval (2022) but is in legal limbo (SC 2024). Genome-edited crops (Pusa Rice DST1, DRR Dhan 100) are NOT GMOs — different regulatory category.
+
+---
+
+## Regulatory Framework for GMOs in India
+
+### Key Laws
+
+| Legislation | Role |
+|------------|------|
+| **Environment Protection Act, 1986** | Umbrella law for GMO regulation |
+| **Rules for Manufacture, Use, Import, Export and Storage of Hazardous Microorganisms/GMOs, 1989** | Primary biosafety regulatory framework; notified under EPA 1986 |
+| **Food Safety and Standards Act, 2006** | Regulates GM food imports and labelling |
+| **Biological Diversity Act, 2002** | Governs access to genetic resources |
+
+### International: Cartagena Protocol on Biosafety
+
+| Feature | Detail |
+|---------|--------|
+| **Nature** | Supplementary agreement to the CBD — focused on safe transfer/handling/use of **Living Modified Organisms (LMOs)** |
+| **Adopted** | January 29, 2000 (Montreal); **In force:** September 11, 2003 |
+| **India** | India is a Party |
+| **Key principle** | **Advance Informed Agreement (AIA):** Exporting country must notify importing country and get consent before first transboundary movement of an LMO for release into the environment |
+| **Precautionary principle** | Uncertainty about risks does not preclude taking preventive measures |
+| **Biosafety Clearing House (BCH)** | Online platform for exchanging biosafety information globally |
+
+India's **Rules 1989** under EPA 1986 are broadly aligned with the Cartagena Protocol's requirements for risk assessment and information exchange.
+
+### Key Biosafety Risks
+
+| Risk | Explanation |
+|------|------------|
+| **Horizontal gene transfer** | Transgenes may transfer to soil bacteria or wild plant relatives, creating ecological changes |
+| **Biodiversity impact** | Herbicide-tolerant GM crops may lead to monocultures, reducing agro-biodiversity |
+| **Allergenicity** | Foreign proteins in GM food could trigger allergic reactions |
+| **Resistance development** | Insects/weeds can develop resistance to Bt toxin or herbicide → "super-pests" and "super-weeds" |
+| **Cross-pollination** | GM pollen can contaminate non-GM and organic crops in neighbouring fields |
+
+### Six-Tier Regulatory Structure
+
+| Body | Level | Role |
+|------|-------|------|
+| **RCGM** (Review Committee on Genetic Manipulation) | DBT | Reviews research proposals involving GMOs |
+| **GEAC** (Genetic Engineering **Appraisal** Committee) | **MoEFCC** | **Apex body** — approves environmental release of GMOs; renamed from "Approval" to "Appraisal" in 2010 |
+| **IBSC** (Institutional Biosafety Committee) | Institution | Monitors recombinant DNA research at each institution |
+| **SBCC** (State Biotechnology Coordination Committee) | State | Monitors GMO use at state level |
+| **DLC** (District Level Committee) | District | Monitors field trials at district level |
+| **RDAC** (Recombinant DNA Advisory Committee) | DBT | Advises on recombinant DNA research policy |
+
+> **Prelims Fact:** GEAC (under **MoEFCC**) is the apex approval body. RCGM (under **DBT**) handles research-stage approvals. Don't confuse the two. Agriculture is a State subject, but GM crop regulation is under EPA 1986 (Union law) — creating Centre-state tension.
+
+### Genome Editing Guidelines — SDN Categories (2022)
+
+| Category | Description | Regulatory Pathway |
+|----------|-------------|-------------------|
+| **SDN-1** | Small deletions/insertions; **no foreign DNA** | Exempt from GMO regulations — treated like conventional breeding |
+| **SDN-2** | Small changes using a DNA template from same/related species | Lighter regulation than GMOs |
+| **SDN-3** | Insertion of **foreign DNA** using CRISPR | Regulated as full GMO (GEAC process required) |
 
 ---
 
 ## Medical Biotechnology
 
-### 3.1 Gene Therapy and CRISPR
+### Gene Therapy
 
 | Aspect | Detail |
 |--------|--------|
-| **CRISPR-Cas9** | Revolutionary gene-editing tool; allows precise modification of DNA sequences |
-| **India's first CRISPR therapy** | BIRSA 101 — indigenous CRISPR-based gene therapy for Sickle Cell Disease, developed by CSIR-IGIB |
-| **Technology Partner** | Serum Institute of India — collaboration for scalable, affordable CRISPR therapies |
-| **CRISPR Diagnostic** | Tata CRISPR test (FELUDA) — India's first CRISPR-based COVID-19 diagnostic; 96% sensitivity, 98% specificity; approved by DCGI |
-| **National Centre** | National Genome Editing & Training Centre (NGETC) established at Mohali, Punjab |
-| **Regulatory Framework** | National Guidelines for Gene Therapy Product Development and Clinical Trials, 2019; overseen by CDSCO under NDCT Rules, 2019 |
+| **CRISPR-Cas9** | Enables precise modification of DNA sequences — see CRISPR section above |
+| **India's first CRISPR therapy** | **BIRSA 101** — indigenous CRISPR-based gene therapy for Sickle Cell Disease, developed by CSIR-IGIB; partner: Serum Institute of India |
+| **CRISPR Diagnostic** | **Tata CRISPR test (FELUDA)** — India's first CRISPR-based COVID-19 diagnostic; approved by DCGI |
+| **NGETC** | National Centre for Genome Editing & Training — Mohali, Punjab |
 
-> **Key distinction:** CRISPR-Cas9 is gene EDITING (precise modification of existing DNA), which is different from traditional genetic MODIFICATION (inserting foreign genes from another organism). India's 2022 SOPs provide a simplified regulatory pathway for SDN-1 and SDN-2 genome-edited plants (which do not contain foreign DNA), treating them differently from transgenic GM crops. This regulatory distinction is increasingly important for Prelims.
-
-### 3.2 Vaccines — Key Indian Contributions
+### Key Indian Vaccine Contributions
 
 | Vaccine | Developer | Type | Significance |
 |---------|-----------|------|-------------|
-| **Covaxin (BBV152)** | Bharat Biotech + ICMR-NIV Pune | Whole Virion Inactivated | India's first fully indigenous COVID-19 vaccine; 81% efficacy in Phase 3 trials |
-| **Covishield** | Serum Institute of India (SII) | Recombinant Adenovirus Vector (AstraZeneca-Oxford technology) | 70.42% efficacy; SII capacity ~250–275 million doses/month |
+| **Covaxin (BBV152)** | Bharat Biotech + ICMR-NIV Pune | Whole Virion Inactivated | India's first fully indigenous COVID-19 vaccine; 81% efficacy in Phase 3 |
+| **Covishield** | Serum Institute of India (SII) | Recombinant Adenovirus Vector (AstraZeneca-Oxford) | 70.42% efficacy; SII capacity ~250–275 million doses/month |
 | **Rotavac** | Bharat Biotech | Live attenuated oral | India's indigenous rotavirus vaccine; WHO prequalified |
 | **CERVAVAC** | Serum Institute of India | Quadrivalent HPV | India's first indigenous cervical cancer vaccine |
+| **ZyCoV-D** | Zydus Cadila | **DNA plasmid** | World's first DNA plasmid COVID-19 vaccine |
 
-### 3.3 Genome Sequencing Projects
+### Genome Sequencing Projects
 
 | Project | Lead Agency | Details |
 |---------|-------------|---------|
-| **IndiGen** | CSIR (IGIB Delhi + CCMB Hyderabad) | Whole genome sequencing of 1,029 Indians; identified 55.9 million single nucleotide variants; 32.23% variants unique to India |
-| **GenomeIndia** | Department of Biotechnology (DBT) | WGS of 10,000+ individuals from 99 communities across all major population groups; data dedicated to researchers by PM Modi on 9 January 2025 at Genomics Data Conclave |
+| **IndiGen** | CSIR (IGIB Delhi + CCMB Hyderabad) | WGS of 1,029 Indians; identified 55.9 million SNVs; 32.23% unique to India |
+| **GenomeIndia** | Department of Biotechnology (DBT) | WGS of **10,074 individuals** from **83 distinct populations** (99 communities); data opened by PM Modi on 9 January 2025; 135 million+ genetic variations identified |
+
+> **Why Genome India matters:** Global genomic databases are dominated by European-ancestry data. Indians are genetically distinct and diverse. Without an Indian reference genome, precision medicine cannot work for India's population.
+
+---
+
+## Biotech in Agriculture — Beyond GM Crops
+
+### Key Technologies
+
+| Technology | Application | Status in India |
+|-----------|-------------|-----------------|
+| **Biopesticides** | Microbial agents (Trichoderma, Beauveria, Bt spray) for pest control | Widely used; growing market |
+| **Biofertilisers** | Nitrogen-fixing bacteria (Rhizobium), phosphate solubilisers | Promoted under Soil Health Card scheme |
+| **Tissue culture** | Mass propagation of disease-free planting material | Used for banana, potato, sugarcane |
+| **Marker-assisted selection (MAS)** | Using DNA markers to select desirable traits without genetic modification | Used in rice drought-tolerant varieties |
+| **Biofortification** | Enhancing nutrient content through conventional breeding + biotech | **71+ ICAR varieties** released |
+| **Precision agriculture** | GPS, IoT sensors, drones, AI for data-driven farming | Digital Agriculture Mission; Kisan Drone initiative |
+| **Vertical farming** | Indoor multi-layer crop production using hydroponics/LED lighting | Startups in Mumbai, Bangalore, Delhi NCR |
+
+### Biofortification — Key Indian Varieties
+
+ICAR has released **71+ biofortified varieties** across multiple crops:
+
+| Crop | Variety | Nutrient Enriched |
+|------|---------|-------------------|
+| **Wheat** | Pusa Tejas (HI 8759) | High protein (12%), iron (42 ppm), zinc (43 ppm) |
+| **Rice** | CR Dhan 315 | High zinc |
+| **Maize** | Pusa Vivek QPM9 Improved | High provitamin-A, lysine, tryptophan (Quality Protein Maize) |
+| **Pearl millet** | Dhanashakti | High iron (70–75 mg/kg), zinc (35–40 mg/kg) |
+| **Sweet potato** | Bhu Sona | High beta-carotene (provitamin-A) |
+
+**Golden Rice** (engineered with beta-carotene genes) approved in Australia, New Zealand, Canada — NOT approved in India. Remains a GM crops debate topic.
 
 ---
 
 ## India's Biotech Institutional Framework
 
-### 4.1 Department of Biotechnology (DBT)
+### Department of Biotechnology (DBT)
 
 | Parameter | Detail |
 |-----------|--------|
-| **Established** | 1986 — under the Ministry of Science & Technology |
+| **Established** | **1986** — under Ministry of Science & Technology |
 | **Significance** | India was among the first countries to have a dedicated government body for biotechnology |
 | **Functions** | Funds R&D; promotes innovation; international collaborations; policy formulation |
 | **Focus Areas** | Healthcare, food security, environmental sustainability, energy security |
 
-### 4.2 BIRAC (Biotechnology Industry Research Assistance Council)
+### BIRAC (Biotechnology Industry Research Assistance Council)
 
 | Parameter | Detail |
 |-----------|--------|
 | **Type** | Not-for-profit Section 8 Public Sector Enterprise under DBT |
 | **Role** | Interface agency to strengthen emerging biotech enterprises; strategic research and innovation funding |
-| **Key Initiative** | National Biopharma Mission — $250 million programme (50% World Bank co-funded) for accelerating biopharmaceutical development |
 | **Programmes** | BIG (Biotechnology Ignition Grant), SPARSH, PACE, SEED Fund, CRS |
+| **Bio-incubators** | 95 BIRAC-supported centres across India |
 
-### 4.3 BioE3 Policy (2024)
+### National Biopharma Mission (NBM/i3)
 
-The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy was approved by the Union Cabinet on 24 August 2024. It aims to transform India into a global biomanufacturing hub, focusing on high-performance biomanufacturing for chemicals, enzymes, agriculture, and therapeutics while promoting sustainable growth.
+| Feature | Detail |
+|---------|--------|
+| **Outlay** | ₹1,500 crore (~$250 million); **50% co-funded by World Bank** |
+| **Objective** | Accelerate biopharmaceutical development — from discovery to clinical trials to commercialisation |
+| **Scale** | 101 projects; 150+ organisations; 30 MSMEs supported |
+| **Focus** | Indigenous vaccines, biosimilars, diagnostics, biotherapeutics |
 
----
+### India's Biopharmaceuticals — Global Position
 
-## India's Health Sector — Key Schemes and Missions
-
-### 5.1 Ayushman Bharat
-
-| Component | Detail |
-|-----------|--------|
-| **Launch Date** | 23 September 2018, at Ranchi, Jharkhand |
-| **Two Pillars** | (1) Health & Wellness Centres (HWCs) for primary care; (2) Pradhan Mantri Jan Arogya Yojana (PM-JAY) for secondary & tertiary care |
-| **PM-JAY Coverage** | Rs. 5 lakh per family per year for hospitalisation |
-| **Beneficiaries** | ~10.74 crore families (~50 crore individuals) — world's largest government-funded healthcare programme |
-| **No Restrictions** | No cap on family size, age, or pre-existing conditions |
-| **Implementation** | National Health Authority (NHA); empanelled hospitals (public + private) |
-
-### 5.2 National Health Mission (NHM)
-
-| Parameter | Detail |
-|-----------|--------|
-| **NRHM Launch** | 12 April 2005 (National Rural Health Mission) |
-| **NHM Formation** | 1 May 2013 — Union Cabinet approved NUHM as sub-mission alongside NRHM under umbrella NHM |
-| **Sub-Missions** | (1) NRHM — rural healthcare; (2) NUHM — urban healthcare |
-| **Key Components** | Health Systems Strengthening; RMNCH+A (Reproductive, Maternal, Neonatal, Child & Adolescent Health); Communicable & Non-Communicable Diseases |
-| **Key Cadres** | ASHA (Accredited Social Health Activist) workers — community health workers under NRHM |
-
-### 5.3 Other Key Health Programmes
-
-| Programme | Year | Key Feature |
-|-----------|------|-------------|
-| **National Digital Health Mission (ABDM)** | 2020 | Ayushman Bharat Digital Mission; Health ID, DigiDoctor, Health Facility Registry |
-| **Pradhan Mantri Swasthya Suraksha Yojana (PMSSY)** | 2003 | Setting up AIIMS-like institutions; upgrading government medical colleges |
-| **Mission Indradhanush** | 2014 | Intensified immunisation drive for children and pregnant women |
-| **Janaushadhi Scheme (PMBJP)** | 2008 (revamped 2015) | Affordable generic medicines through Jan Aushadhi Kendras |
-
----
-
-## COVID-19 Response — India's Strategy
-
-| Aspect | Detail |
-|--------|--------|
-| **Vaccination Drive** | Launched 16 January 2021; largest vaccination drive globally |
-| **Vaccines Used** | Covishield (SII), Covaxin (Bharat Biotech), Corbevax, Covovax, Sputnik V, ZyCoV-D (world's first DNA plasmid vaccine) |
-| **Co-WIN Platform** | Digital platform for vaccination registration, scheduling, and certification |
-| **Total Doses** | Over 220 crore doses administered |
-| **Vaccine Maitri** | India supplied vaccines to 100+ countries as part of diplomatic outreach |
-| **Indigenous Capacity** | India developed 4 indigenous COVID vaccines within 2 years |
+| Category | India's Position |
+|----------|----------------|
+| **Vaccines** | Largest global vaccine producer by volume; Serum Institute of India = world's largest vaccine manufacturer (~1.5 billion doses/year) |
+| **Generic formulations** | ~20% of global generic medicine volume; largest supplier to WHO prequalified procurement |
+| **Biosimilars** | 100+ approved biosimilars in India; rapidly growing segment |
+| **Insulin** | Major producer — Biocon, Lupin, Wockhardt |
 
 ---
 
@@ -175,12 +320,12 @@ The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy was ap
 | Aspect | Detail |
 |--------|--------|
 | **Concept** | Integrated approach recognising the interconnection between human health, animal health, and the environment |
-| **Relevance** | ~75% of emerging infectious diseases are zoonotic in origin |
-| **India's Adoption** | NAP-AMR (2017) adopted One Health framework; inter-ministerial coordination between MoHFW, MoAHD, MoEFCC |
+| **Relevance** | ~**75% of emerging infectious diseases** are zoonotic in origin (COVID-19, SARS, Nipah, Ebola) |
+| **India's Adoption** | **NAP-AMR (2017)** adopted One Health framework; inter-ministerial coordination between MoHFW, MoAHD, MoEFCC |
 | **Key Focus Areas** | Zoonotic diseases, food safety, antibiotic resistance, environmental health |
-| **ICMR Initiative** | Integrated One Health Surveillance Network for AMR in collaboration with ICAR |
+| **Research Initiative** | **ICMR-DBT-ICAR One Health Consortium (2021)** — collaborative surveillance and research network |
 
-> **Exam Tip:** "One Health" recognises the interconnection between human health, animal health, and the environment. This is a high-frequency Mains theme post-COVID. Key fact: ~75% of emerging infectious diseases are zoonotic. For answers on COVID-19, AMR, or avian flu, always invoke the One Health framework and mention that India's NAP-AMR (2017) explicitly adopted this approach. The institutional challenge is inter-ministerial coordination between MoHFW, MoAHD, and MoEFCC -- a governance angle that adds value.
+> **Exam Tip:** For any UPSC answer on COVID-19, AMR, or avian flu, invoke the One Health framework. Key fact: ~75% of emerging infectious diseases are zoonotic. India's NAP-AMR (2017) explicitly adopted this approach. The institutional challenge is inter-ministerial coordination between MoHFW, MoAHD, and MoEFCC.
 
 ---
 
@@ -188,47 +333,90 @@ The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy was ap
 
 | Parameter | Detail |
 |-----------|--------|
-| **NAP-AMR 1.0** | Launched 19 April 2017; aligned with WHO Global Action Plan on AMR |
-| **NAP-AMR 2.0** | Launched in 2024 by Union Health Minister; updated strategy with stakeholder consultations from human health, research, animal husbandry, and environment sectors |
-| **Surveillance** | National AMR surveillance laboratories established; data submitted to WHO's GLASS (Global AMR Surveillance System) |
-| **Strategic Pillars** | (1) Awareness & understanding; (2) Surveillance & research; (3) Infection prevention & control; (4) Optimal use of antimicrobials; (5) R&D for new medicines |
-| **Key Concern** | India is among the largest consumers of antibiotics; irrational use in human and veterinary medicine drives AMR |
+| **NAP-AMR 1.0** | Launched **19 April 2017**; aligned with WHO Global Action Plan on AMR |
+| **NAP-AMR 2.0** | Launched in **2024**; updated strategy with human health, research, animal husbandry, and environment sectors |
+| **Global scale** | ~**1.27 million deaths/year** (Lancet, 2022); could cause 10 million/year by 2050 |
+| **India's burden** | Among world's highest antibiotic consumers; ~119,000 MDR/RR-TB cases/year |
+| **ESKAPE pathogens** | *Enterococcus, Staphylococcus aureus, Klebsiella pneumoniae, Acinetobacter baumannii, Pseudomonas aeruginosa, Enterobacter* |
+| **Surveillance** | ICMR's AMR Surveillance Network (AMRSN); data to WHO's GLASS system |
+| **Root causes** | Over-the-counter antibiotics; irrational prescriptions; antibiotic overuse in agriculture/veterinary use |
+
+---
+
+## Ethical and Social Dimensions
+
+| Issue | Discussion Points |
+|-------|------------------|
+| **Food safety** | Are GM foods safe? Scientific consensus: yes (approved varieties). Public perception differs |
+| **Farmer autonomy** | GM seeds are often patented → farmers cannot save seeds → corporate dependency |
+| **Biodiversity risk** | Gene flow from GM crops to wild relatives could create "superweeds" |
+| **Labelling** | India requires GM food labelling but enforcement is weak |
+| **Gene editing ethics** | Crops (widely accepted) → Animals (debated) → Human embryos (banned in most countries) |
+| **Access and equity** | Will biotech benefits reach smallholders or only corporate farms? |
+| **Biopiracy** | Exploitation of indigenous genetic resources without benefit-sharing |
+
+### Biopiracy Landmark Cases
+
+**Turmeric Patent (1995–1997):**
+- **US Patent No. US5401504A** granted to University of Mississippi Medical Centre (1995) for use of turmeric in wound healing
+- CSIR challenged it, proving turmeric's wound-healing use was documented in ancient Ayurvedic texts — **not novel**
+- USPTO **revoked the patent in 1997** — one of the earliest successful biopiracy challenges
+
+**Neem Patent (1994–2005):**
+- **European Patent Office (EPO)** granted Patent EP436257 to W.R. Grace & Co. and USDA on a neem-based fungicide (1994)
+- Dr. Vandana Shiva and activists filed opposition citing India's traditional neem use
+- EPO revoked the patent in May 2000; appeal confirmed **final revocation in 2005**
+
+### Traditional Knowledge Digital Library (TKDL)
+
+| Feature | Detail |
+|---------|--------|
+| **Established** | **2001** — joint initiative of **CSIR** and **Ministry of AYUSH** |
+| **Purpose** | Document India's traditional medicinal knowledge in machine-readable format accessible to global patent offices |
+| **Content** | ~**0.9 million formulations** from Ayurveda, Unani, Siddha, and Yoga texts |
+| **Languages** | Available in English, French, German, Spanish, and Japanese |
+| **Access** | Provided to patent examiners at USPTO, EPO, JPO, UKIPO, CIPO as **prior art** database |
+| **Impact** | Cited in 200+ patent examination proceedings; prevented grant of patents on traditional Indian knowledge |
+
+TKDL represents India's **"defensive protection"** strategy — documenting traditional knowledge as prior art to prevent others from patenting it, rather than patenting it (which may not meet novelty criteria).
 
 ---
 
 ## Important for UPSC
 
-### Prelims Focus
+### Prelims Focus Areas
 
-- Bt Cotton: only GM crop approved in India (2002); GEAC is the apex regulatory body under MoEFCC
-- DBT established in 1986; BIRAC is a PSE under DBT
-- Ayushman Bharat PM-JAY: launched 23 September 2018; Rs. 5 lakh/family/year; ~50 crore beneficiaries
-- NHM = NRHM (2005) + NUHM (2013)
-- Covaxin: Bharat Biotech + ICMR; Covishield: SII with AstraZeneca-Oxford technology
-- CRISPR-based FELUDA test for COVID-19: Tata + CSIR-IGIB
-- GenomeIndia: 10,000+ whole genome sequences; IndiGen: 1,029 genomes
-- NAP-AMR launched in 2017; NAP-AMR 2.0 launched in 2024
-- SDN-1 and SDN-2 SOPs for genome-edited plants notified October 2022
+- **Bt Cotton:** only GM crop approved in India (2002); GEAC is apex body under **MoEFCC** (not MoA or DBT)
+- **Bt Brinjal** moratorium: February 2010, Jairam Ramesh; moratorium continues
+- **GM Mustard (DMH-11):** GEAC approved October 2022; SC split verdict 2024; legal limbo
+- **Genome-edited crops** (2025): Pusa Rice DST1 + DRR Dhan 100 — NOT GMOs (SDN-1 category)
+- **CRISPR:** Nobel Prize Chemistry 2020 — Doudna & Charpentier; FELUDA = Tata + CSIR-IGIB
+- **SDN-1/SDN-2/SDN-3** categories for genome editing
+- **DBT established 1986**; BIRAC = PSE under DBT
+- **BioE3 Policy:** Cabinet August 24, 2024; $195.3B bioeconomy (2025)
+- **NAP-AMR** launched 2017; updated 2024; ESKAPE pathogens
+- **GenomeIndia:** 10,074 individuals, 83 populations; IndiGen: 1,029 individuals
+- **Biofortified varieties:** Pusa Tejas (wheat), Dhanashakti (pearl millet), CR Dhan 315 (rice)
+- **BIRSA 101:** India's first indigenous CRISPR gene therapy (CSIR-IGIB + SII)
 
 ### Mains Dimensions
 
 | Dimension | Angle |
 |-----------|-------|
-| **Science & Tech (GS3)** | CRISPR applications in agriculture and medicine; GM crop debate; genome sequencing for precision medicine |
-| **Governance (GS2)** | Health sector reforms — PMJAY implementation challenges; regulatory framework for GM crops and gene therapy |
-| **Economy (GS3)** | India's bioeconomy; BioE3 Policy 2024; biotech start-up ecosystem; pharma sector — "Pharmacy of the World" |
-| **Social Issues (GS1/GS2)** | Health equity — universal health coverage through AB-PMJAY; tribal health and sickle cell disease |
-| **Ethics (GS4)** | Ethics of gene editing in humans; GM crop safety vs. food security; clinical trial ethics; informed consent |
-| **Environment (GS3)** | One Health approach; AMR and environment; biosafety concerns with GM organisms |
+| **Science & Tech (GS3)** | CRISPR applications (agriculture + medicine); GM crop debate; genome sequencing for precision medicine; biofortification as nutrition solution |
+| **Governance (GS2)** | Regulatory framework for GM crops — adequacy, Centre-state tensions; GEAC vs RCGM; gene therapy oversight |
+| **Economy (GS3)** | India's bioeconomy ($195.3B, 2025); BioE3 Policy; pharma sector — "Pharmacy of the World"; biotech start-up ecosystem |
+| **Social Issues (GS1/GS2)** | Health equity (UHC through PMJAY); tribal health and sickle cell disease (BIRSA 101) |
+| **Ethics (GS4)** | Ethics of gene editing in humans; GM crop safety vs food security; clinical trial ethics; informed consent; biopiracy |
+| **Environment (GS3)** | One Health approach; AMR and environment; biosafety concerns with GM organisms; gene drives for invasive species |
 
 ### Interview Angles
 
-- Should India allow GM food crops beyond Bt Cotton?
-- Gene editing: where should India draw the ethical line?
-- Can Ayushman Bharat achieve universal health coverage? Challenges of implementation
-- India as "Pharmacy of the World" — responsibility and opportunity
+- Should India allow GM food crops beyond Bt Cotton? What's the right balance between food security and biosafety?
+- Gene editing: where should India draw the ethical line? Crops vs animals vs human germline?
+- India's TKDL model — can traditional knowledge be effectively protected in the IP regime?
+- Is India's bioeconomy growth ($195B) benefiting small farmers and rural populations?
 - One Health: is India's institutional structure adequate for cross-sectoral health governance?
-- Balancing biotech innovation with biosafety regulation
 
 ---
 
@@ -244,12 +432,22 @@ The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy was ap
 ### CRISPR
 - **Pronunciation:** /ˈkrɪs.pər/
 - **Definition:** An acronym for Clustered Regularly Interspaced Short Palindromic Repeats, a gene-editing technology derived from a bacterial defence system that enables precise modification of DNA sequences in living organisms.
-- **Origin:** The acronym was proposed by Francisco Mojica and Ruud Jansen in 2001 to describe repetitive DNA sequences found in bacteria; the gene-editing application using CRISPR-Cas9 was developed by Jennifer Doudna and Emmanuelle Charpentier (Nobel Prize in Chemistry, 2020).
+- **Origin:** The acronym was proposed by Francisco Mojica and Ruud Jansen in 2001; the gene-editing application using CRISPR-Cas9 was developed by Jennifer Doudna and Emmanuelle Charpentier (Nobel Prize in Chemistry, 2020).
 
 ### Transgenic
 - **Pronunciation:** /trænzˈdʒɛn.ɪk/
 - **Definition:** Describing an organism whose genome has been altered by the introduction of one or more genes from a different species using genetic engineering techniques.
 - **Origin:** From Latin *trans-* ("across") + Greek *genos* ("race, kind") + *-ic*; coined in the 1980s to describe organisms carrying foreign genetic material.
+
+### Biopesticide
+- **Pronunciation:** /ˌbaɪoʊˈpɛstɪˌsaɪd/
+- **Definition:** A pest-control agent derived from natural biological sources — such as bacteria, fungi, viruses, or plant extracts — used as an environmentally safer alternative to synthetic chemical pesticides.
+- **Origin:** Compound of Greek *bios* ("life") + Latin *pestis* ("plague, pest") + *-cide* (from Latin *caedere*, "to kill").
+
+### Biofertiliser
+- **Pronunciation:** /ˌbaɪoʊˈfɜːrtɪˌlaɪzər/
+- **Definition:** A substance containing living micro-organisms — such as nitrogen-fixing bacteria (*Rhizobium*) or phosphate-solubilising fungi — that, when applied to seeds, plant surfaces, or soil, enhances nutrient availability and promotes plant growth.
+- **Origin:** Contraction of *biological fertiliser*; *bio-* from Greek *bios* ("life").
 
 ---
 
@@ -257,15 +455,24 @@ The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy was ap
 
 ### Genetic Modification
 - **Pronunciation:** /dʒəˈnɛt.ɪk ˌmɒd.ɪ.fɪˈkeɪ.ʃən/
-- **Definition:** The deliberate alteration of an organism's DNA using laboratory-based techniques that do not occur naturally through mating or recombination, including the insertion of foreign genes (transgenic), deletion of existing genes, or site-specific modification using tools like CRISPR-Cas9. The key distinction is between traditional genetic modification (introducing foreign DNA from another species) and genome editing (modifying the organism's own DNA without introducing foreign genetic material), which India's 2022 guidelines treat differently.
-- **Context:** The practice dates to the 1970s when Stanley Cohen and Herbert Boyer first demonstrated recombinant DNA technology (1973). In India, Bt cotton (containing the *cry1Ac* gene from *Bacillus thuringiensis*) is the only commercially approved GM crop since 2002, covering ~95% of India's cotton area. Bt Brinjal was approved by GEAC in October 2009 but placed under an indefinite moratorium in February 2010 by then Environment Minister Jairam Ramesh. GM Mustard (DMH-11) received GEAC approval in October 2022 but is in legal limbo following a split Supreme Court verdict in 2024. India's 2022 genome editing guidelines (SOPs) exempt SDN-1 and SDN-2 category edits (no foreign DNA) from the full GMO regulatory process.
-- **UPSC Relevance:** GS3 (Science & Technology / Biotechnology). Prelims tests CRISPR-Cas9 (Nobel Prize in Chemistry 2020, Doudna & Charpentier), the difference between GMOs (foreign DNA) and genome-edited organisms (own DNA modified), and GM crops in India (Bt cotton is the ONLY approved GM crop since 2002). Know SDN-1/SDN-2/SDN-3 categories: SDN-1 and SDN-2 have lighter regulation; SDN-3 is regulated as a full GMO. Mains frequently asks about the GM crops debate -- science vs regulation vs ethics, GEAC's role (under MoEFCC, not MoA), Bt Brinjal moratorium (2010), GM Mustard (DMH-11) controversy, and ethical boundaries of gene editing (human germline editing remains prohibited). India's first genome-edited crops approved in 2025: Pusa Rice DST1 (IARI) and DRR Dhan 100 (IIRR).
+- **Definition:** The deliberate alteration of an organism's DNA using laboratory techniques — including insertion of foreign genes (transgenic), deletion of existing genes, or site-specific modification using CRISPR-Cas9. The key regulatory distinction: traditional GM (foreign DNA, full GEAC process) vs genome editing SDN-1/SDN-2 (no foreign DNA, lighter regulation).
+- **Context:** Bt cotton (*cry1Ac* gene) is India's only approved GM crop since 2002. Bt Brinjal was approved by GEAC October 2009 but placed under moratorium February 2010 (Jairam Ramesh). GM Mustard (DMH-11) received GEAC approval October 2022 but faces SC legal challenge (split verdict 2024). India's first genome-edited crops (Pusa Rice DST1, DRR Dhan 100) approved 2025 — SDN-1 category, no foreign DNA.
+- **UPSC Relevance:** GS3 (Science & Technology). Know SDN-1/SDN-2/SDN-3 categories; GEAC under MoEFCC is apex GM approval body; RCGM under DBT handles research stage. Mains: GM crops debate, biopiracy (TKDL, Neem/Turmeric), Centre-state tensions, food security vs biosafety.
+
+### Bt Cotton
+- **Pronunciation:** /ˌbiː ˈtiː ˈkɒtən/
+- **Definition:** India's only approved GM crop (since 2002), containing the *cry1Ac* gene from *Bacillus thuringiensis* that produces insecticidal proteins toxic to bollworm larvae. Covers ~95% of India's cotton area; tripled cotton production by 2014. Controversies: pink bollworm resistance emerged; seed monopoly concerns (Monsanto/Bayer); farmer suicide debate (correlation only, not proven causation).
+- **UPSC Relevance:** GS3. Prelims: approved 2002, only approved GM crop, GEAC under MoEFCC. Mains: Use as case study for technology adoption — initial success (tripled production, ~70% pesticide reduction) vs emerging challenges (resistance, dependency). Centre-state regulation tensions.
+
+### GM Crops Regulation
+- **Pronunciation:** /ˌdʒiː ˈɛm krɒps ˌrɛɡjuˈleɪʃən/
+- **Definition:** India's six-tier framework: IBSC (institution) → RCGM (DBT) → RDAC (DBT policy) → SBCC (state) → DLC (district) → GEAC (apex, MoEFCC). Primary law: GMO Rules 1989 under EPA 1986. GEAC renamed from "Approval" to "Appraisal" Committee in July 2010. SDN-1/SDN-2 genome-edited plants exempt from full GMO process per 2022 SOPs.
+- **UPSC Relevance:** GS3 (Governance/Science). Know GEAC is under MoEFCC not DBT. Mains: Centre-state friction (agriculture = State subject; GM regulation = Union law), adequacy of India's regulatory framework, GM Mustard SC case 2024.
 
 ### Stem Cell Therapy
 - **Pronunciation:** /stɛm sɛl ˈθɛr.ə.pi/
-- **Definition:** A form of regenerative medicine that uses stem cells or their derivatives to repair, replace, or regenerate diseased, dysfunctional, or injured tissues in the body. Stem cells are unique in their ability to self-renew (divide indefinitely) and differentiate into specialised cell types. Three main types are therapeutically relevant: embryonic stem cells (pluripotent -- can become any cell type), adult/somatic stem cells (multipotent -- limited differentiation, found in bone marrow, blood, skin), and induced pluripotent stem cells (iPSCs -- adult cells reprogrammed to an embryonic-like state, developed by Shinya Yamanaka, Nobel Prize 2012).
-- **Context:** Stem cells were first identified by Canadian scientists Ernest McCulloch and James Till in 1961 through bone marrow experiments. iPSCs were created by Shinya Yamanaka in 2006 (Nobel Prize in Physiology/Medicine, 2012 with John Gurdon), revolutionising the field by enabling pluripotent cells without destroying embryos. India's regulatory framework for stem cell research is governed by the National Guidelines for Stem Cell Research (ICMR-DBT, first issued 2007, revised 2017), which permit research using adult and iPSCs but impose strict oversight on embryonic stem cell research. India prohibits reproductive cloning but permits therapeutic cloning under controlled conditions. AIIMS Delhi and CMC Vellore are among institutions conducting clinical trials.
-- **UPSC Relevance:** GS3 (Science & Technology). Prelims tests types of stem cells -- embryonic (pluripotent), adult (multipotent), and iPSCs (reprogrammed adult cells). UPSC Prelims 2020 asked about injecting human iPSCs into animal embryos (chimera research). Know that Yamanaka won the 2012 Nobel Prize for iPSCs. Mains asks about ethical concerns (embryonic stem cell controversy -- involves destruction of human embryos), therapeutic applications (bone marrow transplants for blood cancers, potential for Parkinson's, spinal cord injuries, diabetes), India's regulatory framework (ICMR-DBT Guidelines 2017), and the distinction between therapeutic cloning (permitted under oversight) and reproductive cloning (prohibited).
+- **Definition:** Regenerative medicine using stem cells to repair or replace diseased tissues. Types: embryonic stem cells (pluripotent), adult/somatic stem cells (multipotent), and induced pluripotent stem cells (iPSCs — adult cells reprogrammed by Shinya Yamanaka, Nobel 2012). India's regulatory framework: ICMR-DBT National Guidelines for Stem Cell Research (1st 2007, revised 2017). Reproductive cloning prohibited; therapeutic cloning permitted under oversight.
+- **UPSC Relevance:** GS3. Prelims: types of stem cells; iPSC Nobel 2012 (Yamanaka + Gurdon). Mains: ethical concerns (embryonic SC research involves embryo destruction), India's regulatory framework, therapeutic applications (bone marrow transplants, potential for Parkinson's, diabetes).
 
 ---
 
@@ -275,8 +482,7 @@ The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy was ap
 |----------|------|
 | Science & Tech News | [Ujiyari — Science & Tech News](https://ujiyari.com/subjects/science-tech/) |
 | Editorials | [Ujiyari — Editorials](https://ujiyari.com/editorials/) |
-| Daily Updates | [Ujiyari — Daily Updates](https://ujiyari.com/daily/) |
 
 ---
 
-**Sources:** pib.gov.in (Press Information Bureau), dbtindia.gov.in (Department of Biotechnology), isro.gov.in, mohfw.gov.in (Ministry of Health & Family Welfare), nhm.gov.in (National Health Mission), nha.gov.in (National Health Authority), birac.nic.in (BIRAC), ncdc.mohfw.gov.in (National Centre for Disease Control), india.gov.in (National Portal of India)
+**Sources:** pib.gov.in, dbtindia.gov.in, birac.nic.in, mohfw.gov.in, nhm.gov.in, nha.gov.in, moefcc.gov.in, ncdc.mohfw.gov.in, india.gov.in, Lancet 2022 (AMR data), ICAR biofortification data.
