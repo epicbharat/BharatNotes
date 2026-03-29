@@ -203,8 +203,8 @@
       "@page :first { margin:0; }",
       "@page backpage { margin:0; }",
 
-      /* Base typography — Crimson Pro body, EB Garamond display */
-      "body { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:13pt; line-height:1.72; color:#1a1a1a; background:#fff; }",
+      /* Base typography — system serif (no external font request) */
+      "body { font-family:'Georgia','Times New Roman',serif; font-size:13pt; line-height:1.72; color:#1a1a1a; background:#fff; }",
 
       /* ─── TITLE PAGE ─── */
       ".tp { width:210mm; height:297mm; display:flex; flex-direction:column; padding:0; page-break-after:always; position:relative; overflow:hidden; }",
@@ -402,9 +402,6 @@
 
     var html =
       '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>' + titleText + '</title>' +
-      '<link rel="preconnect" href="https://fonts.googleapis.com">' +
-      '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' +
-      '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap">' +
       '<style>' + css + '</style></head><body>' +
 
       /* ═══ TITLE PAGE ═══ */
