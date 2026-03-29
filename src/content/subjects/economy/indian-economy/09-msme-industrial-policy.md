@@ -251,8 +251,8 @@ Launched on **16 January 2016** by the DPIIT (Department for Promotion of Indust
 
 | Component | Detail |
 |-----------|--------|
-| **DPIIT recognition** | As of October 2025, **1,97,692 startups** recognized; crossed 2 lakh by December 2025 |
-| **Growth trajectory** | From fewer than 500 startups (2016) to over 2 lakh recognized startups |
+| **DPIIT recognition** | **2,07,135 startups** recognised as of 31 December 2025 — crossed the 2 lakh milestone during December 2025, creating over **21.9 lakh** direct jobs |
+| **Growth trajectory** | From fewer than 500 startups (2016) to over **2.07 lakh** recognised startups (December 2025) |
 | **Fund of Funds for Startups (FFS) 1.0** | Rs 10,000 crore corpus committed to 145 SEBI-registered AIFs; invested over Rs 25,500 crore in 1,370+ startups |
 | **FFS 2.0** | Rs 10,000 crore additional corpus approved by Cabinet to mobilize further venture capital |
 | **Tax benefits** | 3-year income tax exemption for eligible startups (Section 80-IAC); angel tax exemption |
@@ -261,7 +261,7 @@ Launched on **16 January 2016** by the DPIIT (Department for Promotion of Indust
 
 ### Startup India Impact
 
-India is now the **third-largest startup ecosystem** globally (after the US and China). 2025 marked the highest-ever annual startup registrations.
+India is now the **third-largest startup ecosystem** globally (after the US and China). FY 2025 marked the highest-ever annual startup registrations, with India crossing **2.07 lakh DPIIT-recognised startups** by December 2025.
 
 ---
 

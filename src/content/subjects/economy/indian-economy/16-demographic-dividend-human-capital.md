@@ -73,7 +73,7 @@ The **demographic dividend** refers to the economic growth potential arising fro
 
 | Indicator | India's Status |
 |-----------|---------------|
-| **Public health expenditure** | ~2.1% of GDP (Budget 2024–25); target: 2.5% by 2025 (NHP 2017) |
+| **Public health expenditure** | ~2.1% of GDP (Budget 2024–25); NHP 2017 target of **2.5% by 2025 not achieved** (stood at 1.9% of GDP in FY 2023–24) |
 | **Life expectancy at birth** | ~70.8 years (SRS 2020–24 estimates) |
 | **Infant Mortality Rate (IMR)** | 28 per 1,000 live births (SRS 2020) |
 | **Maternal Mortality Ratio (MMR)** | 97 per 100,000 live births (SRS 2018–20) |
@@ -226,7 +226,7 @@ NEP 2020, approved by the Union Cabinet in July 2020, introduced fundamental ref
 |--------------------|----------------------|
 | **Vocational education from Class 6** | Hands-on experience through internships and apprenticeships from middle school |
 | **No rigid arts/science streams** | Multidisciplinary approach; students can combine subjects freely |
-| **50% exposure target** | Aim: at least 50% of school and higher education learners to have vocational education exposure by 2025 |
+| **50% exposure target** | Aim: at least 50% of school and higher education learners to have vocational education exposure by 2025 — **not achieved**; implementation remains significantly below target due to infrastructure gaps, shortage of trained vocational instructors, and social stigma |
 | **Academic Bank of Credits** | Digital repository allowing credit transfer across institutions; supports lifelong learning |
 | **Multiple entry/exit in higher education** | Certificate (1 year), Diploma (2 years), Bachelor's (3–4 years) — flexible pathways |
 | **National Skills Qualifications Framework (NSQF)** | Aligned with educational qualifications; competency-based levels 1–10 |
@@ -240,7 +240,7 @@ NEP 2020, approved by the Union Cabinet in July 2020, introduced fundamental ref
 | Challenge | Explanation |
 |-----------|-------------|
 | **Low quality of education** | Learning outcomes remain poor despite high enrolment (ASER reports) |
-| **Inadequate healthcare** | Public health expenditure (~2.1% of GDP) is well below the 5% recommended by WHO |
+| **Inadequate healthcare** | Public health expenditure (~2.1% of GDP) is well below the NHP 2017 target of 2.5% (not achieved by 2025) and far below the 5% recommended by WHO |
 | **Jobless growth** | GDP growth has not always translated into proportionate employment growth |
 | **Informal dominance** | ~90% of workers lack social security, job stability, and growth opportunities |
 | **Gender gap** | Despite rising female LFPR (41.7%), much of it is unpaid/self-employment; gender wage gap persists |
@@ -268,7 +268,7 @@ NEP 2020, approved by the Union Cabinet in July 2020, introduced fundamental ref
 | What is the LFPR for females (PLFS 2023-24)? | 41.7% (age 15+, usual status) |
 | What percentage of India's workforce is informal? | Approximately 89-93% |
 | How many gig workers does India have? | 77 lakh (2020-21); projected 2.35 crore by 2029-30 |
-| What does NEP 2020 say about vocational education? | Introduction from Class 6; target 50% exposure by 2025 |
+| What does NEP 2020 say about vocational education? | Introduction from Class 6; target 50% exposure by 2025 (not achieved) |
 
 ---
 

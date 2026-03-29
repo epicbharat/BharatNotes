@@ -112,8 +112,8 @@ Launched on **10 September 2020**, PMMSY is the flagship scheme for fisheries de
 |---|---|
 | **Total Outlay** | ₹20,050 crore (2020–2025) |
 | **Objective** | Sustainable and responsible development of fisheries — "Blue Revolution" |
-| **Production Target** | Increase fish production from 13.75 MMT (2018–19) to **22 MMT by 2025** |
-| **Export Target** | Double seafood exports from ₹46,589 crore to **₹1 lakh crore by 2025** |
+| **Production Target** | Increase fish production from 13.75 MMT (2018–19) to **22 MMT by 2024–25** — **not achieved**; actual production reached **19.78 MMT (197.75 lakh tonnes) in FY 2024–25** |
+| **Export Target** | Double seafood exports from ₹46,589 crore to **₹1 lakh crore by 2024–25** — **not achieved**; actual exports were **₹62,408 crore (US$7.45 billion) in FY 2024–25**; revised target: ₹1.56 lakh crore by 2030 |
 | **Employment** | Generate **15 lakh additional direct employment** |
 | **Coverage** | All states and UTs; central assistance 60% (states), 90% (NE states), 100% (UTs) |
 
@@ -173,7 +173,7 @@ The **National Policy on Marine Fisheries, 2017** promotes sustainable, responsi
 - 20th Livestock Census 2019: Total livestock **536.76 million**; Poultry **851.81 million**
 - India's milk production 2023–24: **239.3 million tonnes**; world's largest producer since 1997–98
 - India: **2nd largest fish producer** and **2nd in aquaculture globally** (after China)
-- PMMSY: launched **10 September 2020**; outlay **₹20,050 crore**; target **22 MMT by 2025**
+- PMMSY: launched **10 September 2020**; outlay **₹20,050 crore**; target **22 MMT by 2024–25** (not achieved; actual 19.78 MMT)
 - FIDF: ₹7,522 crore; infrastructure for fishing harbours, cold chains
 - Seafood exports FY 2023–24: **₹60,523 crore** / US$7.38 billion (all-time high volume)
 - Operation Flood: Dr Verghese Kurien, NDDB; three phases (1970–1996)

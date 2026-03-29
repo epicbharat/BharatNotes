@@ -85,7 +85,7 @@ The four pillars of Make in India remain:
 3. **New Sectors** — Expanding beyond traditional sectors
 4. **New Mindset** — Government as partner, not regulator
 
-The manufacturing target under National Manufacturing Policy is to raise manufacturing's share in GDP to **25% by 2025** (revised projections extend this target timeline given slow progress).
+The manufacturing target under National Manufacturing Policy was to raise manufacturing's share in GDP to **25% by 2025 — not achieved**; the actual share stands at approximately **17–18% of GDP**. The target timeline has been revised to **2030** under Atmanirbhar Bharat and Make in India frameworks.
 
 ---
 

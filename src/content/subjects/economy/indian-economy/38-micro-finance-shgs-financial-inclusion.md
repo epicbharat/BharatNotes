@@ -1,27 +1,27 @@
 ---
 layout: topic.njk
 title: "Micro Finance, Self-Help Groups & Financial Inclusion"
-subject: polity
-parent_topic: "Constitutional Polity & Governance"
-parent_topic_url: "/subjects/polity/constitutional-polity/"
+subject: economy
+parent_topic: "Indian Economy"
+parent_topic_url: "/subjects/economy/indian-economy/"
 gs_papers:
-  - gs2
-syllabus_topic: "Constitutional Polity"
-description: "UPSC notes on microfinance, SHG-Bank Linkage Programme, NBFC-MFI RBI regulations, PMJDY (55 crore accounts), Andhra Pradesh MFI crisis 2010, Malegam Committee 2011, JAM Trinity, DAY-NRLM, Jan Samarth Portal, and financial inclusion strategy."
-sub_chapter: 31
+  - gs3
+syllabus_topic: "Indian Economy"
+description: "UPSC GS3 notes on microfinance, SHG-Bank Linkage Programme, NBFC-MFI RBI regulations, PMJDY (55 crore accounts), Andhra Pradesh MFI crisis 2010, Malegam Committee 2011, JAM Trinity, DAY-NRLM, Jan Samarth Portal, and financial inclusion strategy."
+sub_chapter: 38
 date: 2026-03-29
 foundation: true
 prelims: true
 mains: true
 tags:
-  - polity
+  - economy
 ---
 
 ## Introduction
 
-Financial inclusion — ensuring that every individual and enterprise has access to useful and affordable financial products and services — is a foundational governance objective. For a country where over 40 crore people had no bank account as recently as 2014, the challenge has been enormous. Microfinance and the Self-Help Group (SHG) movement represent the supply-side response: channelling small amounts of credit, savings, and insurance to the rural poor, particularly women, without collateral requirements.
+Financial inclusion — ensuring that every individual and enterprise has access to useful and affordable financial products and services — is a foundational development objective. For a country where over 40 crore people had no bank account as recently as 2014, the challenge has been enormous. Microfinance and the Self-Help Group (SHG) movement represent the supply-side response: channelling small amounts of credit, savings, and insurance to the rural poor, particularly women, without collateral requirements.
 
-For UPSC GS Paper II, this topic intersects governance, social justice, women empowerment, and the role of the State in regulating financial markets. The AP Microfinance Crisis (2010), the Malegam Committee (2011), the JAM Trinity, and PMJDY are frequently examined.
+For UPSC GS3, this topic falls under resource mobilisation, inclusive growth, and rural development. The AP Microfinance Crisis (2010), the Malegam Committee (2011), the JAM Trinity, and PMJDY are frequently examined.
 
 ---
 
@@ -231,8 +231,6 @@ Together, JAM enables **Direct Benefit Transfer (DBT)** — government subsidies
 | Women account holders | 56% of total accounts |
 | Total deposits | ~₹2.5 lakh crore |
 
-By August 2025, accounts had grown to over **56.16 crore** with deposits of ₹2.67 lakh crore.
-
 ---
 
 ## Jan Samarth Portal
@@ -277,7 +275,7 @@ By August 2025, accounts had grown to over **56.16 crore** with deposits of ₹2
 
 | Programme | Launch | Ministry/Body | Target Group | Key Feature |
 |---|---|---|---|---|
-| PMJDY | August 2014 | Ministry of Finance / DFS | All unbanked households | Zero-balance accounts; RuPay card; 55+ crore accounts by 2025 |
+| PMJDY | August 2014 | Ministry of Finance / DFS | All unbanked households | Zero-balance accounts; RuPay card; 55+ crore accounts |
 | SHG-Bank Linkage | 1992 | NABARD | Rural women | Savings-first; group credit; ₹2.59 lakh crore outstanding (2024) |
 | DAY-NRLM | 2011 (restructured) | Ministry of Rural Development | Rural poor women | Mobilised 10 crore women into 90 lakh SHGs by June 2024 |
 | MUDRA (PMMY) | 2015 | Ministry of Finance / MUDRA Ltd | Micro enterprises | Shishu (< ₹50k), Kishore (₹50k–5L), Tarun (₹5L–10L) loans |
@@ -288,22 +286,16 @@ By August 2025, accounts had grown to over **56.16 crore** with deposits of ₹2
 
 ## Exam Strategy
 
-**For Prelims:** Know the launch date of PMJDY (28 August 2014), Nobel Prize year for Grameen Bank/Yunus (2006), Malegam Committee year (constituted October 2010), SHG-Bank Linkage start year (1992 by NABARD). Know that MFIN became SRO in 2014. Jan Samarth Portal was launched June 2022. Current RBI framework uses ₹3 lakh annual household income as eligibility limit with no hard interest cap but 50% instalment-to-income ratio.
+**For Prelims:** Know PMJDY launch date (28 August 2014), Nobel Prize year for Grameen Bank/Yunus (2006), Malegam Committee year (constituted October 2010), SHG-Bank Linkage start year (1992 by NABARD). Know that MFIN became SRO in 2014. Jan Samarth Portal was launched June 2022. Current RBI framework uses ₹3 lakh annual household income as eligibility limit with no hard interest cap but 50% instalment-to-income ratio.
 
-**For Mains (GS II):** Questions on financial inclusion, women empowerment through SHGs, or microfinance regulation will appear. Structure answers as: (1) definition and importance, (2) models (Grameen vs SHG), (3) regulatory evolution (pre-AP crisis → Malegam → current RBI framework), (4) achievements (PMJDY data, NABARD SBLP data), (5) challenges (interest rates, mission drift, over-indebtedness), (6) way forward. Link microfinance to **Articles 38, 39, 46** (DPSP — promote welfare, equal distribution, uplift weaker sections) and the **SDG 1** (no poverty) and **SDG 5** (gender equality).
+**For Mains (GS3):** Structure answers as: (1) definition and importance, (2) models (Grameen vs SHG), (3) regulatory evolution (pre-AP crisis → Malegam → current RBI framework), (4) achievements (PMJDY data, NABARD SBLP data), (5) challenges (interest rates, mission drift, over-indebtedness), (6) way forward. Link to **Articles 38, 39, 46** (DPSPs — welfare state, equal distribution, uplift of weaker sections), **SDG 1** (no poverty), and **SDG 5** (gender equality).
 
-**Key Data Points for Mains:**
+**Key Data Points:**
 - PMJDY: 55.02 crore accounts (March 2025); 56% women; 67% rural/semi-urban
 - SHG-Bank Linkage: 77 lakh credit-linked SHGs; ₹2.59 lakh crore outstanding (March 2024)
 - DAY-NRLM: 10.05 crore women in 90.86 lakh SHGs (June 2024)
 - AP Crisis: 200+ suicides; led to Malegam Committee and NBFC-MFI regulation
 - MFIN SRO: ₹2 lakh total MFI exposure cap per borrower (November 2024)
-
-**Key Distinctions:**
-- SHG (Self-Help Group) = savings and credit group; not itself a financial institution
-- NBFC-MFI = regulated financial entity lending to MFI borrowers; RBI-regulated
-- Grameen model = JLG (5 members); SHG model = 10-20 members with internal savings
-- JAM = Jan Dhan + Aadhaar + Mobile; enables DBT and financial inclusion at scale
 
 ---
 
