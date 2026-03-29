@@ -193,7 +193,7 @@
   font-size: var(--text-xs);
   letter-spacing: 0.07em;
   text-transform: uppercase;
-  white-space: nowrap;
+  white-space: normal;
   border: none;
 }
 
