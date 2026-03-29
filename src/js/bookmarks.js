@@ -34,17 +34,17 @@
   var btn = document.createElement('button');
   btn.id = 'btn-bookmark';
   btn.setAttribute('aria-pressed', bookmarked ? 'true' : 'false');
-  btn.style.cssText = 'display:flex;align-items:center;justify-content:center;gap:6px;width:100%;margin-top:12px;padding:8px 12px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;transition:all 0.15s ease;border:1.5px solid;';
+  btn.style.cssText = 'display:flex;align-items:center;justify-content:center;gap:8px;width:100%;margin-top:12px;padding:12px 16px;min-height:48px;border-radius:10px;font-size:14px;font-weight:600;cursor:pointer;transition:all 0.2s ease;border:1.5px solid;touch-action:manipulation;letter-spacing:0.01em;';
 
   function render(active) {
     if (active) {
-      btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg> Bookmarked';
+      btn.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" style="flex-shrink:0;"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg> Bookmarked';
       btn.style.background = 'var(--color-accent-pale)';
       btn.style.color = 'var(--color-accent)';
       btn.style.borderColor = 'var(--color-accent)';
       btn.setAttribute('aria-pressed', 'true');
     } else {
-      btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg> Bookmark';
+      btn.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg> Bookmark';
       btn.style.background = 'transparent';
       btn.style.color = 'var(--color-text-secondary)';
       btn.style.borderColor = 'var(--color-border)';
