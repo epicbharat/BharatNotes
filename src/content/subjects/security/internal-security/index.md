@@ -20,7 +20,7 @@ tags:
 
 Internal security encompasses all threats to the territorial integrity, sovereignty, and public order of India that originate **within or across its borders** but are managed by internal security forces. India faces a complex internal security environment shaped by its geography, diversity, porous borders, and rapid digitalisation.
 
-This topic is divided into **14 detailed chapters** covering the full spectrum of GS3 Internal Security. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
+This topic is divided into **19 detailed chapters** covering the full spectrum of GS3 Internal Security. Work through them sequentially for a complete understanding, or jump to any chapter for targeted revision.
 
 ### What You'll Cover
 
@@ -41,7 +41,6 @@ This topic is divided into **14 detailed chapters** covering the full spectrum o
 | **Ch 13** | Human Trafficking & Modern Slavery | Legal framework, ITPA, Trafficking Bill, rescue & rehabilitation, forced labour, child trafficking |
 | **Ch 14** | Critical Infrastructure Protection & Space Security | NCIIPC, ASAT, space debris, satellite security, critical infrastructure threats, emerging tech risks |
 | **Ch 15** | Radicalization & Counter-Radicalization | UAPA 2019, NIA, MHA CT division, ISIS recruitment in India, Kerala Operation Pigeon, Saudi MNCC, UK CHANNEL, deradicalization models |
-| **Ch 16** | Cybercrime, IT Laws & Digital Forensics | IT Act 2000 offences, CERT-In, cybercrime types, digital forensics, DPDP Act 2023, cyber law enforcement, dark web, online fraud |
 | **Ch 17** | Development-Extremism Nexus | Underdevelopment as security threat, tribal displacement, LWE areas & development deficit, SAMADHAN, aspirational districts in conflict zones |
 | **Ch 18** | Emerging Tech in Security — AI Surveillance & Cyber Warfare | AI surveillance, facial recognition controversy, deepfakes, LAWS, NCIIPC, CCTNS, AFIS, Puttaswamy judgment, predictive policing |
 | **Ch 19** | Intelligence Agencies, NIA & NATGRID | IB (1887), RAW (1968, R.N. Kao), DIA (2002), NTRO (2004), NSC/NSA/NSAB, MAC, NATGRID (21 databases, fully operational 2020), NIA Act 2008, UAPA 2019 individual designation, Kargil Review Committee, Naresh Chandra Committee 2012 |

@@ -133,11 +133,26 @@ Any person who, having secured access to electronic records/books/correspondence
 | 66 | Hacking / dishonest computer-related acts | 3 years / ₹5 lakh |
 | 66A | Offensive messages | **STRUCK DOWN** (Shreya Singhal 2015) |
 | 66C | Identity theft | 3 years / ₹1 lakh |
+| 66E | Violation of privacy (capturing/transmitting private images without consent) | 3 years / ₹2 lakh |
 | 67 | Obscene material | 3–5 years / ₹5–10 lakh |
 | 67B | CSAM (child pornography) | 5–7 years / fine |
 | 69 | Interception/monitoring | 7 years (for non-compliance by intermediaries) |
 | 70 | Unauthorised access to Protected System | 10 years / fine |
 | 72 | Breach of confidentiality | 2 years / ₹1 lakh |
+
+---
+
+## Bharatiya Nyaya Sanhita (BNS) 2023 — Cyber-Related Provisions
+
+The **BNS 2023** replaced the Indian Penal Code (IPC, 1860) and added specific provisions supplementing the IT Act for offences with a digital dimension:
+
+| Section | Offence |
+|---|---|
+| **Section 303** | Theft — includes cyber theft and unauthorised taking of digital property |
+| **Section 318** | Cheating by impersonation, including **digital impersonation** (fake identities, deepfake fraud) |
+| **Section 351** | Criminal intimidation — extends to intimidation via digital/electronic means (cyberstalking, online threats) |
+
+The IT Act 2000 remains the **primary legislation** for cybercrime; BNS supplements it for offences that have cyber dimensions but fall within traditional criminal categories (theft, cheating, intimidation).
 
 ---
 
@@ -343,10 +358,11 @@ The **Dark Web** is a part of the internet accessible only through **anonymising
 
 ### Principles
 
-1. **Chain of custody:** Every person who handles evidence must be documented; evidence must not be altered
-2. **Write-blockers:** Forensic copies made using write-blockers to prevent modification of original media
-3. **Hash values:** MD5/SHA-256 hash of original data verified against forensic copy — mathematical proof of integrity
-4. **Documentation:** All forensic steps documented for court admissibility
+1. **Locard's Exchange Principle** (adapted for cyber): Every digital interaction leaves a trace — log files, metadata, access records, timestamps, and even deleted files can be recovered. The cyber investigator's task is to identify and preserve these traces before they are overwritten or destroyed.
+2. **Chain of custody:** Every person who handles evidence must be documented; evidence must not be altered — any break in the chain renders evidence inadmissible in court.
+3. **Write-blockers:** Forensic copies made using hardware/software write-blockers to prevent modification of original media during acquisition.
+4. **Hash values:** MD5/SHA-256 hash of original data verified against forensic copy — mathematical proof that evidence has not been tampered with.
+5. **Documentation:** All forensic steps documented in a forensic report for court admissibility.
 
 ### Types of Digital Evidence
 
@@ -354,6 +370,20 @@ The **Dark Web** is a part of the internet accessible only through **anonymising
 - **Mobile device forensics:** Call logs, messages (WhatsApp, Signal), app data, GPS history
 - **Network forensics:** Server logs, router traffic, email headers
 - **Cloud forensics:** Data stored on cloud platforms — requires service provider cooperation and legal process (MLAT for cross-border data)
+
+### Investigation Challenges
+
+| Challenge | Explanation |
+|-----------|-------------|
+| **Encryption** | End-to-end encrypted apps make content inaccessible even with legal orders — the "going dark" problem |
+| **Anonymity tools** | Tor, VPNs, proxy chains obscure attacker identity; tracing requires specialised dark web monitoring |
+| **Cross-border jurisdiction** | Servers in foreign jurisdictions may be uncooperative; MLAT process can take months |
+| **Volatile evidence** | RAM data, active network connections, and browser session data are lost on device shutdown — must be captured live |
+| **Volume** | Modern devices contain terabytes of data; AI-based triage tools are increasingly essential |
+| **Cloud storage** | Evidence on foreign cloud servers requires MLAT (Mutual Legal Assistance Treaty) or formal legal assistance requests |
+| **Anti-forensic tools** | Sophisticated attackers use file wiping, timestomping, and encryption to destroy or obscure evidence |
+
+**MLAT (Mutual Legal Assistance Treaties):** Bilateral/multilateral treaties enabling one country to formally request evidence or legal assistance from another. India has MLATs with the USA, UK, and EU members, but the process typically takes months — a major bottleneck in time-sensitive investigations.
 
 ### Legal Admissibility in India
 

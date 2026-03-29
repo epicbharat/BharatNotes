@@ -20,7 +20,7 @@ tags:
 
 GS Paper IV -- Ethics, Integrity and Aptitude -- tests a candidate's attitude, integrity, and ethical reasoning in public life. It carries 250 marks and is unique among UPSC papers because it evaluates not just knowledge, but the candidate's value system and decision-making framework.
 
-This topic is divided into **13 detailed chapters** -- covering ethical foundations, attitude and aptitude theory, emotional intelligence, contributions of moral thinkers, and a structured approach to case studies. Work through them sequentially for a complete GS4 preparation, or jump to any chapter for targeted revision.
+This topic is divided into **18 detailed chapters** -- covering ethical foundations, attitude and aptitude theory, emotional intelligence, contributions of moral thinkers, and a structured approach to case studies. Work through them sequentially for a complete GS4 preparation, or jump to any chapter for targeted revision.
 
 ### What You'll Cover
 
@@ -40,10 +40,9 @@ This topic is divided into **13 detailed chapters** -- covering ethical foundati
 | **Ch 12** | Probity in Governance & Anti-Corruption | Lokpal, Lokayukta, whistleblower protection, integrity institutions, RTI, transparency mechanisms |
 | **Ch 13** | Civil Service Values & Code of Conduct | Neutrality, impartiality, dedication to public service, code of ethics, AIS conduct rules |
 | **Ch 14** | Whistleblowing & Public Interest Disclosure | PIDPI 2004, WBP Act 2014, Satyendra Dubey, Shanmugam Manjunath, CVC, ethical dilemmas, case studies |
-| **Ch 15** | International Ethics & Global Justice | Cosmopolitanism, global justice theories, obligations to foreigners, climate justice, global poverty ethics, Rawls vs Singer vs Walzer |
 | **Ch 16** | Administrative Ethics, Governance Dilemmas & Civil Service Conduct | AIS Conduct Rules 1968, ministerial direction vs conscience, ethical dilemmas in administration, Nolan Principles, case study frameworks |
 | **Ch 17** | Case Studies — Governance Dilemmas & Administrative Ethics | 6 model case studies (whistleblowing, conflict of interest, disaster relief, POSH, environmental displacement, digital surveillance), IDEA framework, ethical theories comparison |
-| **Ch 18** | International Ethics & Global Justice | Cosmopolitanism (Kant, Nussbaum), Rawls's Law of Peoples, Singer's drowning child argument, Pogge's negative duty, climate justice (CBDR, Loss & Damage), refugee ethics (non-refoulement), R2P doctrine, India's Panchsheel tradition |
+| **Ch 18** | International Ethics & Global Justice | Just War Theory (jus ad bellum/in bello/post bellum), cosmopolitanism (Kant, Nussbaum, Beitz), universalism vs cultural relativism, Rawls (Law of Peoples), Singer (drowning child), Pogge (negative duty), climate justice (CBDR, Loss & Damage), R2P doctrine, refugee ethics (non-refoulement), ICC, foreign aid ethics, arms trade, India's ethical foreign policy |
 | **Ch 19** | Corporate Governance, CSR & Business Ethics | OECD Principles 2023, Cadbury Report 1992, Friedman vs Freeman, Triple Bottom Line (Elkington 1994), SEBI BRSR, Section 135 (2% CSR), Satyam scandal (₹7,136 crore fraud), IL&FS 2018, ESG, SDGs and business |
 
 > **Exam Strategy:** GS4 is divided into Section A (theory, ~125 marks) and Section B (case studies, ~125 marks). For Section A, master the key thinkers, EQ concepts, and foundational values -- always apply concepts to governance scenarios, never just define them. For Section B, use the stakeholder-values-options-action framework consistently, cite 2-3 thinkers per answer, and provide a concrete action plan. This paper rewards depth of ethical reasoning, not mere knowledge.
