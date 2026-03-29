@@ -16,7 +16,6 @@ prelims: true
 mains: true
 tags:
   - geography
-  - topic
 related_topics:
   - title: "Geomorphology & Landforms"
     url: "/subjects/geography/physical-geography/03-geomorphology-landforms/"

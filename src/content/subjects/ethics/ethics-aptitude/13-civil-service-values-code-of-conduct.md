@@ -16,7 +16,6 @@ prelims: true
 mains: true
 tags:
   - ethics
-  - topic
 ---
 
 ## Overview

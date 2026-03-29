@@ -35,3 +35,5 @@ Physics questions in UPSC Prelims test **conceptual understanding** of fundament
 | 7 | **Fluid Mechanics & Surface Tension** | Pressure, buoyancy, viscosity, Bernoulli's principle, surface tension, capillarity |
 | 8 | **Waves, Communication Technology & Fibre Optics** | Radio waves, satellite communication, radar, telecom physics, fibre optics, signal propagation |
 | 9 | **Energy Sources & Conversion** | Conventional, nuclear, solar, wind & hydrogen energy physics, energy conversion principles |
+| 10 | **Semiconductors, Diodes & Logic Gates** | Intrinsic/extrinsic semiconductors, p-n junction, diode applications, transistors, logic gates, integrated circuits, India Semiconductor Mission |
+| 11 | **Nuclear Physics, Radioactivity & Radiation** | Alpha/beta/gamma, C-14 half-life (5,730 yr), fission/fusion, India's 3-stage nuclear programme, PFBR Kalpakkam (Stage 2), thorium (25% world reserves), 8,880 MW installed (25 reactors), AERB, CLNDA 2010 |

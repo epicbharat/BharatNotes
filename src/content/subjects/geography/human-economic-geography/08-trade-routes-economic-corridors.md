@@ -16,7 +16,6 @@ prelims: true
 mains: true
 tags:
   - geography
-  - topic
 related_topics:
   - title: "Industries & Location Factors"
     url: "/subjects/geography/human-economic-geography/03-industries-location-factors/"

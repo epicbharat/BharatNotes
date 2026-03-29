@@ -35,3 +35,6 @@ Biology is the **highest-yield** science subject in UPSC Prelims — questions o
 | 7 | **Human Diseases & Epidemics** | Bacterial, viral, protozoan diseases, NCDs, vaccines, disease eradication, pandemics, India's public health response |
 | 8 | **Animal Kingdom & Zoology** | Classification, phyla, animal behaviour, conservation, endangered species, wildlife biology |
 | 9 | **Reproductive Health & Endocrine System** | Hormones, endocrine glands, family planning, population policy, reproductive health programmes |
+| 10 | **Cell Biology & Cell Division** | Cell organelles, prokaryotic vs eukaryotic, mitosis, meiosis, cell cycle, cancer biology, stem cells |
+| 11 | **Biotechnology, GM Crops & Bioeconomy** | Bt cotton (only approved GM crop), GM Mustard DMH-11 controversy, GEAC, CRISPR SDN distinction, BioE3 Policy 2024, India's bioeconomy ($165.75 bn), TKDL, Neem/turmeric biopiracy cases |
+| 12 | **Human Diseases, Epidemics & India's Public Health Response** | TB (26% global burden, NTEP, Nikshay Poshan), diabetes (101M — ICMR 2023), NFHS-5 (TFR=2.0, 57% anaemia in women), Ayushman Bharat PM-JAY + Arogya Mandirs, AMR One Health, Mental Healthcare Act 2017 |

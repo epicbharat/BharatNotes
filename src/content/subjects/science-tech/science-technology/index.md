@@ -40,3 +40,10 @@ Science & Technology is the **highest-weight GS3 section** in UPSC, covering eve
 | 12 | **Health Technology & Medical Devices** | Telemedicine, mRNA vaccines, genomics, digital health, medical device regulation, Ayushman Bharat Digital |
 | 13 | **AI Governance, Ethics & Policy** | AI regulation, algorithmic bias, AI safety, IndiaAI Mission, global AI governance frameworks |
 | 14 | **EVs, Battery Technology & Semiconductors** | EV policy, FAME scheme, battery technology, semiconductor fabs, India Semiconductor Mission |
+| 15 | **Green Hydrogen & Clean Energy Technology** | NGHM 2023, SIGHT scheme, green/blue/grey hydrogen, electrolysers, fuel cells, Rs 19,744 crore outlay, 5 MMT target by 2030 |
+| 16 | **Gene Editing, CRISPR & Synthetic Biology** | CRISPR-Cas9 mechanism, gene drives, synthetic biology, Genome India, regulatory framework, bioethics, agricultural applications |
+| 17 | **Advanced Materials, Composites & Smart Materials** | Graphene, carbon nanotubes, smart materials, metamaterials, CFRP, DRDO DMRL, 3D printing in defence, CSIR-NML |
+| 18 | **Drones, UAV Policy & New Space Economy** | Drone Rules 2021, BVLOS, PLI drones, IN-SPACe, NSIL, private space (Skyroot, Agnikul), FDI in space, India's space economy |
+| 19 | **Space Policy, ISRO & Outer Space Law** | Chandrayaan-3 (Aug 23, 2023), Aditya-L1, Gaganyaan, Indian Space Policy 2023, IN-SPACe/NSIL roles, NavIC (7 satellites), Outer Space Treaty 1967, ASAT Mission Shakti (Mar 2019), Artemis Accords (Jun 2023) |
+| 20 | **Semiconductor Policy & India Semiconductor Mission** | Global chip supply chain (TSMC 64%+), 2020-21 shortage, US CHIPS Act ($52B), India Semiconductor Mission (₹76,000 crore), Tata-PSMC Dholera fab (28nm), Micron Sanand ATMP, iCET, China gallium/germanium export controls |
+| 21 | **Artificial Intelligence — IndiaAI Mission & Governance** | IndiaAI Mission (₹10,372 crore, 7 pillars, March 2024), 10,000+ GPU compute, EU AI Act (Aug 2024, 4 risk tiers), India soft-touch approach, deepfake IT Rules, GPAI founding member, LAWS India UN position |

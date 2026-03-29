@@ -36,3 +36,6 @@ Post-Independence India (1947 onwards) encompasses the monumental task of nation
 | 8 | **India's Nuclear & Space Programme** | Nuclear tests (Pokhran I & II), ISRO milestones, Chandrayaan, Mangalyaan, strategic autonomy |
 | 9 | **Green Revolution & Agricultural Transformation** | Food self-sufficiency, M.S. Swaminathan, White Revolution, Operation Flood, rural change |
 | 10 | **Social Legislation & Reservation Policy** | Mandal Commission, OBC reservation, EWS quota, affirmative action, social legislation since 1947 |
+| 11 | **States Reorganisation & Linguistic States** | Dar Commission, JVP Committee, Potti Sriramulu, Fazl Ali Commission, SRA 1956, Telangana 2014 |
+| 12 | **Communalism, Partition & Ayodhya** | 1947 Partition violence, 1984 anti-Sikh riots, Babri Masjid demolition 1992, Liberhan Commission, Ayodhya verdict 2019, Gujarat 2002, India's secular framework, Ram Temple consecration 2024 |
+| 13 | **Land Reforms, Zamindari Abolition & Agrarian Change** | Tebhaga/Telangana movements, 1st Amendment 1951 (Art 31A/31B, Ninth Schedule), zamindari abolition acts, land ceiling (benami loopholes), Operation Barga 1978 (3/4 share), Kerala 1969 reforms, RFCTLARR 2013, DILRMP |

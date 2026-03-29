@@ -36,3 +36,6 @@ The UPSC GS Paper I syllabus covers events from the 18th century onwards that si
 | 8 | **Arab Nationalism, African Liberation & Latin American Revolutions** | Pan-Arabism, African independence movements, Apartheid, Latin American revolutions, Che Guevara |
 | 9 | **United Nations & Post-War World Order** | UN formation, Bretton Woods, NATO, Non-Alignment Movement, UDHR, global governance |
 | 10 | **Collapse of the USSR & New World Order** | Glasnost, Perestroika, fall of Berlin Wall, unipolar moment, globalisation, EU expansion |
+| 11 | **Colonialism, Imperialism & Decolonisation** | European expansion, Scramble for Africa, colonial exploitation, independence movements, decolonisation wave 1945–1975 |
+| 12 | **Political Philosophies — Capitalism, Communism & Fascism** | Liberalism, capitalism, Marxism, socialism, fascism, welfare state, Cold War ideological battle, contemporary relevance |
+| 13 | **Rise of Fascism, Nazism & World War II (Deep Dive)** | Versailles (Article 231, $33B reparations), Hitler Chancellor Jan 1933, Operation Barbarossa, Pearl Harbor, Wannsee Conference, Holocaust (6M), Hiroshima Aug 6, Nagasaki Aug 9, Nuremberg trials, Bretton Woods |

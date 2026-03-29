@@ -34,6 +34,10 @@ This section is divided into **8 detailed chapters** covering demographics, agri
 | **Ch 06** | Tourism & Cultural Geography | Heritage sites, ecotourism, India's tourism policy, cultural landscapes, pilgrimage tourism |
 | **Ch 07** | Land Use, Regional Planning & Development | Economic corridors, SEZs, spatial planning, land use changes, regional development models |
 | **Ch 08** | Trade Routes, Economic Corridors & Connectivity | BRI, IMEC, INSTC, global supply chains, connectivity projects, trade route geopolitics |
+| **Ch 09** | Mineral Resources & Mining Economy | Iron ore, coal, bauxite, copper distribution; MMDR Act 2021, DMF, PMKKKY, 30 critical minerals, 5.9 MT lithium in J&K, deep-sea mining |
+| **Ch 10** | Crop Geography & Agricultural Regions | Kharif/Rabi/Zaid seasons, major crop belts (rice, wheat, cotton, jute), agro-climatic zones, cropping intensity, agricultural diversification |
+| **Ch 11** | Global Agriculture, Food Security & Agrarian Systems | 5 farming types, wheat/rice/corn/cotton belts, FAO 4 food security pillars, GFSI 2022 (India 68th), GHI 2023 (India 111th), WFP Nobel 2020, Green Revolution (Borlaug), WTO AoA Peace Clause |
+| **Ch 12** | Industrial Geography — Location Factors & Major Industrial Regions | Weber's Least Cost Theory 1909 (Material Index), Losch market areas, Perroux growth poles, Ruhr/Pittsburgh/Shanghai industrial regions, India's 5 industrial belts, DMIC (1,483 km, 24 nodes), SEZ Act 2005, PM Gati Shakti |
 
 > **Exam Strategy:** Human Geography is where Prelims meets Mains most directly. Prelims tests Census data (sex ratio, literacy, density), crop-state associations, and industrial facts. Mains (GS1) asks about factors responsible for the location of primary, secondary, and tertiary sector industries, urbanisation challenges, and the effects of migration. Always link demographic data with development outcomes in your answers.
 

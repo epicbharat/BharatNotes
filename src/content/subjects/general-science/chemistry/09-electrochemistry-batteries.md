@@ -16,7 +16,6 @@ prelims: true
 mains: true
 tags:
   - general-science
-  - topic
 related_topics:
   - title: "Metals, Non-Metals & Alloys"
     url: "/subjects/general-science/chemistry/03-metals-nonmetals-alloys/"

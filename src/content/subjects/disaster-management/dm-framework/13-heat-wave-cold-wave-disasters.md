@@ -16,7 +16,6 @@ prelims: true
 mains: true
 tags:
   - disaster-management
-  - topic
 ---
 
 ## Overview

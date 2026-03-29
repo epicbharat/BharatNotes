@@ -16,7 +16,6 @@ prelims: true
 mains: true
 tags:
   - polity
-  - topic
 ---
 
 ## Overview — Duties and Citizenship in the Constitution

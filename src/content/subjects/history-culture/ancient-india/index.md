@@ -36,6 +36,9 @@ This topic is divided into **10 detailed chapters** — each covering a major er
 | **Ch 08** | Ancient Art, Architecture & Literature | Stupas, rock-cut caves, Gandhara-Mathura art, Sanskrit literature |
 | **Ch 09** | Ancient Indian Science & Contributions | Mathematics, astronomy, medicine, metallurgy, Aryabhata, Charaka, Sushruta |
 | **Ch 10** | Sangam Age & Early South India | Chera, Chola, Pandya kingdoms, Tamil literary tradition, Sangam literature, trade |
+| **Ch 11** | Ancient Trade, Guilds & Economy | Uttarapatha/Dakshinapatha routes, shrenis, Barygaza, Muzuris, Periplus, Indo-Roman trade, Silk Road, punch-marked coins |
+| **Ch 12** | Harsha & Post-Gupta Early Medieval Period | Harsha (606-647 CE), Pushyabhuti dynasty, Harshacharita, Xuanzang's account, Nalanda, defeat at Narmada by Pulakesi II, Chalukyas of Vatapi, Pallavas (Mahabalipuram), land grant feudalism |
+| **Ch 13** | Ancient Indian Philosophy — Six Darshanas & Heterodox Schools | Nyaya (Gautama), Vaisheshika (Kanada), Samkhya (Kapila), Yoga (Patanjali), Mimamsa (Jaimini), Vedanta (Advaita/Vishishtadvaita/Dvaita); Buddhist Madhyamaka, Jain Anekantavada, Charvaka materialism; Pramana types |
 
 > **Exam Strategy:** Ancient India is a high-yield area for both Prelims (factual recall — sites, rulers, dates) and Mains (analytical essays on Ashoka's Dhamma, Mauryan administration, trade routes). Focus on tables and mnemonics for Prelims; for Mains, practise writing balanced assessments of historical debates (Aryan migration, decline of IVC, "Golden Age" characterisation).
 

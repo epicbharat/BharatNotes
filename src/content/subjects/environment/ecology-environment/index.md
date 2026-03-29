@@ -41,3 +41,12 @@ Environment, Ecology and Biodiversity is a **high-scoring section** in both UPSC
 | 13 | **EIA & Coastal Regulation** | EIA process, CRZ norms, green clearances, EIA Notification 2006, coastal zone management |
 | 14 | **Marine Pollution, Ozone Depletion & Global Conventions** | Marine pollution sources, ozone layer, Montreal Protocol, MARPOL, global environmental MEAs |
 | 15 | **Soil Degradation & Desertification** | UNCCD, Land Degradation Neutrality, soil health, desertification mapping, soil conservation |
+| 16 | **Invasive Alien Species** | IAS definition, introduction pathways, Lantana, Parthenium, Water hyacinth, African catfish, CBD Article 8(h), GBF Target 6, management methods |
+| 17 | **Carbon Markets & Climate Finance** | Article 6 Paris Agreement, voluntary & compliance carbon markets, carbon credits, CDM, REDD+, CCUS, Green Climate Fund, climate bonds |
+| 18 | **Ecosystem Services & Natural Capital** | MEA 2005, four service types, TEEB framework, PES mechanisms, REDD+, CAMPA, Kunming-Montreal GBF resource mobilisation |
+| 19 | **Wetlands, Ramsar Sites & Freshwater Ecosystems** | Ramsar Convention 1971, India's Ramsar sites, Montreux Record, Wetland Rules 2017, Chilika, Keoladeo, Loktak, freshwater biodiversity |
+| 20 | **Forest Governance, JFM & CAMPA** | ISFR 2023, Forest Conservation Act 2023, JFM, FRA 2006, CAMPA Act 2016, Green India Mission, Van Dhan, forest carbon credits |
+| 21 | **Biodiversity Hotspots & Species Recovery** | Norman Myers' criteria, India's 4 hotspots (Western Ghats, Eastern Himalayas, Indo-Burma, Sundaland), Project Tiger (58 reserves, 3,682 tigers), Project Elephant, Snow Leopard, GIB breeding centre, vulture recovery |
+| 22 | **Coastal & Marine Ecosystems — Blue Economy** | India's 7,516.6 km coastline, coral bleaching (4th global event 2024), mangroves 4,992 sq km (ISFR 2023), CRZ Notification 2019, Blue Economy ($186B), Deep Ocean Mission (Matsya 6000), BBNJ Treaty 2023, microplastics, MPAs |
+| 23 | **EIA, Green Clearances & Environmental Governance** | EPA 1986, EIA Notification 2006 (Category A/B), 4-stage process, Draft EIA 2020 controversy (post-facto, 1.7M objections), FCA 2023 (100km border exemption), CAMPA Act 2016 (₹95,000 crore), NGT 2010 (5 benches), CRZ 2019 |
+| 24 | **Climate Change Adaptation, India's NDC & Loss and Damage** | Updated NDC Aug 2022 (45% intensity cut, 50% non-fossil by 2030, 2.5-3 Bt carbon sink), Panchamrit 5 targets, 8 NAPCC missions, COP27 L&D fund, COP28 $700M pledged, Ahmedabad HAP 2013, LiFE Mission, IPCC AR6 India findings |

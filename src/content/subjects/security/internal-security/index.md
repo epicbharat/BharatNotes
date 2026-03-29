@@ -40,6 +40,12 @@ This topic is divided into **14 detailed chapters** covering the full spectrum o
 | **Ch 12** | Police Reforms & Criminal Justice | Police modernisation, Prakash Singh judgment, new criminal laws (BNS/BNSS/BSA), accountability |
 | **Ch 13** | Human Trafficking & Modern Slavery | Legal framework, ITPA, Trafficking Bill, rescue & rehabilitation, forced labour, child trafficking |
 | **Ch 14** | Critical Infrastructure Protection & Space Security | NCIIPC, ASAT, space debris, satellite security, critical infrastructure threats, emerging tech risks |
+| **Ch 15** | Radicalization & Counter-Radicalization | UAPA 2019, NIA, MHA CT division, ISIS recruitment in India, Kerala Operation Pigeon, Saudi MNCC, UK CHANNEL, deradicalization models |
+| **Ch 16** | Cybercrime, IT Laws & Digital Forensics | IT Act 2000 offences, CERT-In, cybercrime types, digital forensics, DPDP Act 2023, cyber law enforcement, dark web, online fraud |
+| **Ch 17** | Development-Extremism Nexus | Underdevelopment as security threat, tribal displacement, LWE areas & development deficit, SAMADHAN, aspirational districts in conflict zones |
+| **Ch 18** | Emerging Tech in Security — AI Surveillance & Cyber Warfare | AI surveillance, facial recognition controversy, deepfakes, LAWS, NCIIPC, CCTNS, AFIS, Puttaswamy judgment, predictive policing |
+| **Ch 19** | Intelligence Agencies, NIA & NATGRID | IB (1887), RAW (1968, R.N. Kao), DIA (2002), NTRO (2004), NSC/NSA/NSAB, MAC, NATGRID (21 databases, fully operational 2020), NIA Act 2008, UAPA 2019 individual designation, Kargil Review Committee, Naresh Chandra Committee 2012 |
+| **Ch 20** | Cybercrime, IT Laws & Digital Forensics | IT Act 2000 (S.43/65/66/66A struck down/67/69), Shreya Singhal 2015, DPDP Act 2023 (₹250 crore penalty), CERT-In 6-hr reporting, I4C (1930 helpline), NCRB 2023 (86,420 cases), dark web, digital forensics, Budapest Convention non-signatory |
 
 > **Exam Strategy:** Internal Security is among the highest-scoring GS3 topics. Prelims tests institutional facts (CERT-In, FATF, BSF establishment year, IT Act sections). Mains demands analytical answers linking security with development (LWE), technology with rights (cyber security), and national security with free speech (media regulation). Always present both dimensions in your answers.
 

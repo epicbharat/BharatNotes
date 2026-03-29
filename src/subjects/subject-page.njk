@@ -69,14 +69,14 @@ eleventyComputed:
 
         {# Render section blocks (topics with chapters) #}
         {% for entry in indexTopics %}
-        <div class="section-block">
+        <div class="section-block{% if entry.topic.data.syllabus_direct %} section-block--syllabus-direct{% endif %}">
           <a href="{{ entry.topic.url }}" class="section-block__header">
             {% if entry.topic.data.chapter %}
             <span class="section-block__number" style="background:{{ subj.color }};">{{ entry.topic.data.chapter | string | padStart(2, "0") }}</span>
             {% endif %}
             <div class="section-block__info">
               <h3 class="section-block__title">{{ entry.topic.data.title }}</h3>
-              <p class="section-block__count">{{ entry.chapters.length }} chapter{{ "s" if entry.chapters.length > 1 }}</p>
+              <p class="section-block__count">{{ entry.chapters.length }} chapter{{ "s" if entry.chapters.length > 1 }}{% if entry.topic.data.syllabus_direct %} &nbsp;<span class="syllabus-direct-badge">UPSC Syllabus</span>{% endif %}</p>
             </div>
             <span class="section-block__arrow">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="9 6 15 12 9 18"/></svg>

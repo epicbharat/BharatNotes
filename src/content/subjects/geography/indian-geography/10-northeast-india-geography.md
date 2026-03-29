@@ -16,7 +16,6 @@ prelims: true
 mains: true
 tags:
   - geography
-  - topic
 related_topics:
   - title: "Indian Physical Geography"
     url: "/subjects/geography/indian-geography/01-indian-physical-geography/"

@@ -16,7 +16,6 @@ prelims: true
 mains: true
 tags:
   - general-science
-  - topic
 related_topics:
   - title: "Modern Physics & Nuclear Science"
     url: "/subjects/general-science/physics/05-modern-physics-nuclear/"

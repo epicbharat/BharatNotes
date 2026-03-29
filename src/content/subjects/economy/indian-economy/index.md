@@ -46,6 +46,23 @@ This topic is divided into **20 detailed chapters** — each covering a major ar
 | **Ch 18** | National Income & Economic Indicators | GDP, GNP, NNP, index numbers, economic data sources, base year revisions |
 | **Ch 19** | Union Budget & Disinvestment | Budget process, revenue & capital accounts, fiscal policy instruments, privatisation policy |
 | **Ch 20** | Competition Policy & Consumer Protection | CCI, anti-trust regulation, Consumer Protection Act 2019, consumer rights |
+| **Ch 21** | Food Processing Industry | PM Kisan SAMPADA, PMFME, PLI scheme, Mega Food Parks, cold chain, APEDA, agri-exports, value chain |
+| **Ch 22** | Startup Ecosystem | Startup India 2016, DPIIT recognition, unicorns, Fund of Funds, Atal Innovation Mission, India Stack |
+| **Ch 23** | Land Reforms & Rural Economy | Zamindari abolition, land ceiling acts, tenancy reforms, DILRMP, digital land records, rural land market challenges |
+| **Ch 24** | Animal Husbandry, Dairy & Fisheries | Blue Revolution, PM Matsya Sampada, NDP, NDDB, Operation Flood, livestock census, allied agriculture sector |
+| **Ch 25** | Financial Inclusion & JAM Trinity | PMJDY, Aadhaar, Direct Benefit Transfer, PMJJBY, PMSBY, UPI penetration, last-mile banking, PM Jan Dhan ecosystem |
+| **Ch 26** | Investment Models & PPP | HAM, BOT, DBFOT, InvIT, NIP, National Monetisation Pipeline, TOT, VGF, infrastructure finance models |
+| **Ch 27** | Inclusive Growth & Rural Development | PMGSY, PMAY-G, PMKSY, RURBAN, RKVY, PMEGP, MGNREGS, bottom-of-pyramid convergence strategies |
+| **Ch 28** | PLI Schemes & Manufacturing Competitiveness | 14 PLI sectors, ₹1.97 lakh crore outlay, Make in India 2.0, industrial corridors, DPIIT, China+1 strategy |
+| **Ch 29** | Cryptocurrency, CBDC & Digital Assets | RBI e-Rupee pilot, 30% crypto tax, FATF VASP norms, PMLA coverage, global approaches, stablecoin vs CBDC |
+| **Ch 30** | Global Value Chains & Supply Chain Resilience | GVC participation, China+1, COVID/Ukraine disruptions, reshoring, India Semiconductor Mission, Apple supply chain |
+| **Ch 31** | RBI & Monetary Policy — MPC & Inflation Targeting | MPC composition, 4%±2% CPI target, Repo/CRR/SLR/MSF/SDF tools, LAF, OMOs, rate hike-pause-cut cycle 2022-2026, monetary transmission, forward guidance |
+| **Ch 32** | MSP & Agricultural Price Policy | CACP, A2/FL/C2 cost concepts, Swaminathan C2+50% formula, 23 crops, FCI procurement, buffer norms, PM-AASHA (PSS/PDPS/PPSS), e-NAM, Shanta Kumar Committee, legal guarantee debate |
+| **Ch 33** | India's Trade Policy — Anti-Dumping & WTO Disputes | Trade profile (FY24-25), DGTR, anti-dumping/CVD/safeguards, WTO DSU, Appellate Body crisis, India's disputes, RoDTEP, PLI, UAE/Australia/EFTA FTAs, RCEP exit, FTP 2023-28 |
+| **Ch 34** | Energy Security — Oil, Coal & Renewable Transition | 85% oil import dependence, SPR (5.33 MMT), Coal India, JETP, 500 GW renewables by 2030, National Green Hydrogen Mission, PM Surya Ghar, RDSS, NaviC, 3-stage nuclear, ISA |
+| **Ch 35** | Housing, Real Estate & RERA | Urban housing deficit (~18-19M units), RERA 2016 (70% escrow, carpet area), PMAY-U 4 verticals, PMAY-U 2.0 (₹2.2L crore, 1 crore homes), Smart Cities Mission, AMRUT 2.0, Model Tenancy Act 2021, REITs |
+| **Ch 36** | Cooperative Sector — AMUL, PACS & Ministry of Cooperation | Rochdale Principles, AMUL (Dec 14, 1946), Operation Flood (1970-96), 97th Amendment 2011, PACS computerisation (67,930 PACS), Ministry of Cooperation (July 2021), MSCS Amendment Act 2023, 10,000 FPO scheme |
+| **Ch 37** | Digital Public Infrastructure — UPI, India Stack & CBDC | Aadhaar (1.44B enrolments), UPI (21.7B txns/Jan 2026), DigiLocker (57 crore users), Account Aggregator (2.61B accounts), ONDC (Apr 2022), CBDC e-Rupee (Nov/Dec 2022), OCEN, G20 DPI Framework 2023 |
 
 > **Exam Strategy:** Economy is the heaviest GS3 subject — expect 4-6 Prelims questions and at least one dedicated Mains question every year. For Prelims, memorise current-year numbers (GDP growth, fiscal deficit, repo rate, GST collections). For Mains, build analytical frameworks connecting fiscal policy to growth, trade to manufacturing, and reform intent to ground-level outcomes.
 

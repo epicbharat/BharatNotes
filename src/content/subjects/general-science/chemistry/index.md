@@ -35,3 +35,5 @@ Chemistry in UPSC focuses on **applied concepts** — properties of elements, ch
 | 7 | **Biochemistry & Food Chemistry** | Carbohydrates, proteins, vitamins, enzymes, food preservation, food adulteration |
 | 8 | **Solutions, Colloids & Everyday Science** | Mixtures, emulsions, household chemistry, daily life applications, cleaning agents |
 | 9 | **Electrochemistry & Batteries** | Electrolysis, galvanic cells, corrosion, modern batteries, fuel cells, lithium-ion technology |
+| 10 | **Drugs, Dyes, Soaps & Common Chemicals** | Analgesics, antibiotics, antiseptics, synthetic dyes, soap & detergent chemistry, common household chemicals, everyday chemistry |
+| 11 | **Everyday Chemistry, Materials & Industrial Processes** | Saponification, polymers, Haber-Bosch/Contact process, cement/glass types, nano urea (IFFCO), Stockholm Convention (POPs), 12 Principles of Green Chemistry, FSSAI food chemistry, nanomaterials |

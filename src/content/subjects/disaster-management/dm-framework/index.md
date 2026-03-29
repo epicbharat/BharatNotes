@@ -39,6 +39,11 @@ This topic is divided into **13 detailed chapters** covering the full spectrum o
 | **Ch 11** | Disaster Financing, Insurance & Resilient Infrastructure | CDRI, NDRF/SDRF funding, risk transfer, disaster insurance, resilient infrastructure investment |
 | **Ch 12** | Community-Based DM & Early Warning Systems | CBDM, volunteer networks, technology in early warning, last-mile connectivity, local capacity building |
 | **Ch 13** | Heat Waves, Cold Waves & Weather Extremes | Heat action plans, cold wave preparedness, weather extreme impacts, adaptation strategies |
+| **Ch 14** | Role of Armed Forces & NGOs in DM | NDRF, SDRF, military in disaster response, civil-military coordination, NGO roles, international aid |
+| **Ch 15** | Post-Disaster Reconstruction & Build Back Better | Sendai Priority 4, PDNA, GSDMA, Gujarat 2001 owner-driven model, Odisha transformation, Kerala PDNA 2018 |
+| **Ch 16** | Urban Disaster Risk & Building Safety | Seismic zones in cities, IS 1893/IS 13920, National Building Code 2016, urban flooding (Chennai 2015, Bengaluru 2022), USAR, resilient city planning |
+| **Ch 17** | Space Technology & Emerging Tech in Disaster Management | ISRO/NRSC DMS, RISAT SAR imaging, INSAT cyclone tracking, NavIC alerts, AI flood forecasting, drone search & rescue, Common Alerting Protocol, Sentinel Asia, Sendai Framework tech emphasis |
+| **Ch 18** | GLOFs, Mountain Disasters & Himalayan Disaster Risk | GLOF mechanism, Chamoli Feb 7 2021 (Ronti Peak rock-ice avalanche, 200+ dead), Teesta-3 collapse (Oct 4 2023, 55 dead), Kedarnath 2013 (~5,700 deaths), NRSC 28,039 glacial lakes, cloudburst >100mm/hr, DGRE (renamed SASE 2020), climate-mountain nexus |
 
 > **Exam Strategy:** Disaster Management is a consistent GS3 Mains topic. Prelims tests institutional facts (NDMA chair, NDRF battalions, Sendai targets, SDRF ratios). Mains demands case-study-based answers — always cite the Odisha cyclone transformation (1999 vs 2019) and link disaster management with climate change. For every answer, present both institutional framework and community-level preparedness dimensions.
 

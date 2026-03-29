@@ -36,6 +36,9 @@ Medieval Indian history spans roughly from the 8th century to the 18th century C
 | 8 | **Medieval Society, Economy & Culture** | Indo-Islamic architecture, Urdu emergence, Indian Ocean trade, textile economy, social structure |
 | 9 | **Medieval Administration & Revenue Systems** | Sultanate & Mughal governance, Iqta, Mansabdari, revenue systems, provincial administration |
 | 10 | **Sikh Gurus, Rajput Kingdoms & Regional Powers** | Sikh Gurus, Khalsa, Rajput polity, Ahoms, Jats, regional kingdoms of medieval India |
+| 11 | **Mughal Art, Architecture & Cultural Legacy** | Mughal miniature painting, Red Fort, Taj Mahal, Fatehpur Sikri, Humayun's Tomb, Din-i-Ilahi, Akbarnama, cultural syncretism |
+| 12 | **Vijayanagara Empire & Bahmani Sultanate (Deep Dive)** | 4 dynasties (1336-1646), Krishnadevaraya's conquests & Amuktamalyada, Nayankara/Ayagar systems, Battle of Talikota (Jan 1565), Hampi UNESCO WHS, Bahmani 1347, Mahmud Gawan, Five Deccan Sultanates, Gol Gumbaz |
+| 13 | **Mughal Administration, Economy & Cultural Contributions** | Central administration (Wazir/Mir Bakshi/Mir Saman), Mansabdari (Zat/Sawar/jagir), Todar Mal's Dahsala (1580-82), Subah-Sarkar-Pargana, tri-metallic coinage, Taj Mahal (1632-53), Hamzanama, Tansen, Din-i-Ilahi, Mughal trade |
 
 ---
 

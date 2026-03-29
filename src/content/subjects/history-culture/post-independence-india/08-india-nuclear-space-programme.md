@@ -16,7 +16,6 @@ prelims: true
 mains: true
 tags:
   - history-culture
-  - topic
 related_topics:
   - title: "Space Technology — ISRO & Satellites"
     url: "/subjects/science-tech/science-technology/01-space-technology/"

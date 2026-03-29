@@ -34,6 +34,10 @@ This section is divided into **8 detailed chapters** covering the core physical 
 | **Ch 06** | Map Reading, Remote Sensing & GIS | Cartography, satellite imagery, GIS applications, spatial analysis, ISRO remote sensing |
 | **Ch 07** | Natural Hazards & Vulnerability Mapping | Seismic zones, flood maps, risk assessment, vulnerability indices, hazard zonation |
 | **Ch 08** | Plate Tectonics & Volcanism | Continental drift, sea-floor spreading, volcanic landforms, Ring of Fire, earthquake zones |
+| **Ch 09** | El Niño, La Niña & ENSO | Walker Circulation, SOI, ENSO cycle, IOD, impact on Indian monsoon, historical droughts, MJO, ENSO monitoring |
+| **Ch 10** | Drainage Systems & River Geography | Himalayan vs Peninsular rivers, drainage patterns, inter-state water disputes, Ken-Betwa link, major river basins, estuaries vs deltas |
+| **Ch 11** | Oceanography — Ocean Currents, Tides & Marine Geography | Ocean floor relief, salinity (avg 35 ppt), warm currents (Gulf Stream, Kuroshio, Agulhas), cold currents (Benguela, Humboldt, Labrador), Indian Ocean seasonal reversal, ENSO/IOD effects, thermohaline circulation, Deep Ocean Mission, UNCLOS maritime zones |
+| **Ch 12** | Monsoon Mechanism, Jet Streams & Tropical Cyclones | Pressure belts, Hadley Cell, ITCZ, 3 monsoon theories (Halley/Flohn/Koteswaram), Tibetan heating, Somali Jet, SW monsoon branches, NE monsoon, ENSO/IOD/MJO, STJ/PFJ/TEJ, Western Disturbances, tropical cyclone formation, WMO naming |
 
 > **Exam Strategy:** Physical Geography is highly conceptual — understand the *why* behind phenomena (why trade winds blow NE in Northern Hemisphere, why western coasts of continents have cold currents, why tropical cyclones don't form at the equator). For Prelims, focus on factual associations (layers, belts, current names). For Mains, link physical processes to real-world impacts — cyclone management, ocean resource exploitation, climate change.
 

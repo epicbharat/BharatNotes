@@ -34,6 +34,10 @@ This section is divided into **8 detailed chapters** covering global physical pr
 | **Ch 06** | World Mapping — Strategic Locations | Strategic straits, canals, mountain ranges, important places, geopolitically significant locations |
 | **Ch 07** | World Population & Urbanisation | Global demographic trends, megacities, urban challenges, population policies, migration |
 | **Ch 08** | Geopolitics of Arctic, Antarctic & Boundaries | Polar regions, Arctic Council, Antarctic Treaty, disputed territories, international boundaries |
+| **Ch 09** | Middle East & Africa — Key Regions | Middle East geography, Gulf economies, Israel-Arab conflict, MENA, Sub-Saharan Africa, Sahel crisis, African Great Lakes |
+| **Ch 10** | Latin America & Southeast Asia Geography | Amazon basin, Andes, ASEAN geography, Mekong, Pacific Ring of Fire, key economies, strategic chokepoints |
+| **Ch 11** | Natural Resources, Energy Geography & Resource Politics | OPEC/OPEC+, shale revolution, gas pipeline politics, coal distribution (China 50%), Lithium Triangle (Chile/Argentina/Bolivia), DRC cobalt, China REE dominance, India's 30 critical minerals, KABIL, resource curse |
+| **Ch 12** | Climate Regions, Koppen Classification & Global Biomes | Koppen 5 groups (A/B/C/D/E), India's 6 climate types, tropical rainforest/savanna/desert/Mediterranean/temperate/taiga/tundra biomes, altitudinal zonation, climate change-biome impacts, Arctic amplification 2-3x |
 
 > **Exam Strategy:** World Geography in Prelims is heavily map-based — learn locations of straits (Hormuz, Malacca, Bab-el-Mandeb), canals (Suez, Panama), mountain ranges, rivers, and resource-rich regions. For Mains, focus on the *geopolitical implications* of resource distribution — why the South China Sea matters, how rare earth dominance shapes tech rivalry, and how climate change is opening Arctic shipping routes. Always connect physical geography to current geopolitical developments.
 

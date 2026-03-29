@@ -11,6 +11,7 @@ date: 2026-03-27
 foundation: true
 prelims: true
 mains: true
+syllabus_direct: true
 tags:
   - history-culture
   - topic

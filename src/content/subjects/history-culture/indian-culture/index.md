@@ -37,3 +37,7 @@ India's cultural heritage is among the richest and most diverse in the world, sh
 | 9 | **Indian Philosophy & Knowledge Systems** | Six Darshanas, heterodox schools, Nyaya, Vaisheshika, Samkhya, Yoga, Vedanta, intellectual traditions |
 | 10 | **UNESCO Heritage Sites & Cave Architecture** | Ajanta, Ellora, Hampi, Khajuraho, cave temples, India's World Heritage Sites, conservation |
 | 11 | **Indian Martial Arts, Traditional Sports & Games** | Kalaripayattu, Mallakhamb, Chess, Kabaddi, indigenous games, GI-tagged sports heritage |
+| 12 | **Intangible Cultural Heritage & GI Tags** | UNESCO ICH Convention 2003, India's inscribed elements, GI Act 1999, GI Registry, Darjeeling Tea, GI vs trademark, 658+ GI products |
+| 13 | **Classical Languages of India** | 11 classical languages (5 added Oct 2024), Tamil (oldest), Sanskrit, Dravidian family, Tolkappiyam, 8th Schedule, 22 scheduled languages, endangered languages |
+| 14 | **Sufism & Bhakti Movement — Medieval Devotional Revolution** | Alvars/Nayanmars (5th-9th c.), Nirguna (Kabir 1440-1518, Guru Nanak 1469-1539) vs Saguna Bhakti, Chishti/Naqshbandi/Suhrawardi/Qadiri orders, Moinuddin Chishti, Nizamuddin Auliya, Amir Khusrau, khanqah, sama |
+| 15 | **Folk Theatre, Puppetry & Traditional Performing Arts** | Nautanki (UP), Tamasha (Maharashtra), Yakshagana (Karnataka), Jatra (Bengal), Ankiya Nat (Assam/Sankardeva), Koodiyattam (Kerala, UNESCO ICH 2008); Kathputli/Gombeyatta (string), Tholu Bommalata (shadow), Pavakathakali (glove) |
