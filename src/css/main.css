@@ -99,6 +99,8 @@ p { line-height: var(--leading-relaxed); }
 }
 
 /* ── Nav Dropdown ──────────────────────────────────────── */
+/* Header container must not clip dropdowns */
+.site-header .container { overflow: visible; }
 .primary-nav__dropdown { position: relative; display: flex; align-items: center; }
 .primary-nav__dropdown-toggle {
   cursor: pointer;
