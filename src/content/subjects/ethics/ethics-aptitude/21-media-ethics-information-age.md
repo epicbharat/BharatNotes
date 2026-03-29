@@ -199,27 +199,3 @@ Key approaches:
 3. **Cite institutional mechanisms** — PCI, ECI, IT Rules 2021, Puttaswamy (2017) — to demonstrate awareness of regulatory frameworks
 4. **Acknowledge the structural problem** — media ethics failures often have structural (ownership, commercial) rather than individual causes
 5. For 10-mark or 15-mark questions, a three-part structure works well: (a) define the dilemma, (b) apply competing frameworks, (c) recommend a balanced position
-
----
-
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-1. The Press Council of India was re-established under which legislation? (a) Press Council Act, 1966 (b) Press Council Act, 1978 (c) Press and Registration of Books Act, 1867 (d) Freedom of Press Act, 1975
-
-2. In which landmark 2017 judgment did the Supreme Court of India recognise the right to privacy as a fundamental right? (a) Aadhaar case (b) Puttaswamy v Union of India (c) Maneka Gandhi case (d) Navtej Singh Johar case
-
-3. The term "infodemic" was popularised during which event? (a) 2016 US Presidential Election (b) COVID-19 pandemic (c) 2019 Indian General Election (d) Syrian Civil War
-
-4. Under the IT (Intermediary Guidelines and Digital Media Ethics Code) Rules 2021, significant social media intermediaries are required to appoint which of the following? (a) Data Protection Officer only (b) Grievance Officer, Chief Compliance Officer, and Nodal Contact Person (c) Press Ombudsman (d) Chief Information Officer
-
-### Mains
-
-1. "The freedom of the press is not a privilege of the press; it is a right of the people." In this context, evaluate the effectiveness of the Press Council of India as a regulatory body and suggest reforms needed in the era of digital media. (GS4, 250 words)
-
-2. A senior IAS officer discovers that a major newspaper is about to publish a story based on documents leaked from her department that are technically classified but reveal genuine public interest information about a policy failure. Describe the ethical dilemma she faces and how she should respond. (GS4 Case Study, 250 words)
-
-3. Distinguish between the right to privacy and the public's right to information. How should this tension be resolved in the context of investigative journalism? Discuss with suitable examples from India. (GS4, 150 words)
-
-4. Critically examine the ethical implications of algorithmic content curation by social media platforms for democratic discourse in India. (GS4, 150 words)

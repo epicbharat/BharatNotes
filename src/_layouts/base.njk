@@ -122,6 +122,14 @@
       <nav class="primary-nav" aria-label="Main navigation">
         <a href="/start-here/" class="primary-nav__link" {% if '/start-here/' in page.url %}aria-current="page"{% endif %}>Start Here</a>
         <a href="/subjects/" class="primary-nav__link" {% if '/subjects/' in page.url %}aria-current="page"{% endif %}>Subjects</a>
+        <div class="primary-nav__dropdown">
+          <button class="primary-nav__link primary-nav__dropdown-toggle" aria-expanded="false" aria-haspopup="true" {% if '/ncert/' in page.url %}aria-current="page"{% endif %}>NCERT <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="vertical-align:-1px;margin-left:2px;"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="primary-nav__dropdown-menu" role="menu">
+            <a href="/ncert/" class="primary-nav__dropdown-item" role="menuitem">📚 NCERT Hub</a>
+            <a href="/ncert/class-11/" class="primary-nav__dropdown-item" role="menuitem">Class XI Books</a>
+            <a href="/ncert/class-12/" class="primary-nav__dropdown-item" role="menuitem">Class XII Books</a>
+          </div>
+        </div>
         <a href="/prelims/" class="primary-nav__link" {% if '/prelims/' in page.url %}aria-current="page"{% endif %}>Prelims</a>
         <a href="/mains/" class="primary-nav__link" {% if '/mains/' in page.url %}aria-current="page"{% endif %}>Mains</a>
         <a href="/pyq/" class="primary-nav__link" {% if '/pyq/' in page.url %}aria-current="page"{% endif %}>PYQ</a>

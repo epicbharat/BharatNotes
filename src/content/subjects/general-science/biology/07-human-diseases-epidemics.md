@@ -183,7 +183,7 @@ India's UIP, launched in **1985**, is one of the largest immunisation programmes
 | **Smallpox** | **Eradicated globally** | Last naturally occurring case: **26 October 1977** (Ali Maow Maalin, Somalia); WHO certified global eradication on **8 May 1980**; the only human disease ever eradicated |
 | **Polio** | **Eliminated in India** | India's last wild poliovirus case: **13 January 2011** (Howrah, West Bengal); WHO South-East Asia Region (including India) certified polio-free on **27 March 2014**; global eradication ongoing — endemic in Afghanistan and Pakistan |
 | **Guinea Worm Disease** | Nearly eradicated globally | Cases reduced from 3.5 million (1986) to fewer than 15 (2023); led by the Carter Center |
-| **Tuberculosis (TB)** | India's elimination target: 2025 (ahead of global SDG target of 2030) | India carries the world's highest TB burden; NTEP (National TB Elimination Programme) driving efforts; Ni-kshay digital platform |
+| **Tuberculosis (TB)** | India's 2025 elimination target **missed** (ahead of global SDG target of 2030); India now realigns efforts toward the global 2030 elimination target | India carries the world's highest TB burden; NTEP (National TB Elimination Programme) driving efforts; Ni-kshay digital platform |
 | **Malaria** | Elimination target in India | National Framework for Malaria Elimination (2016-2030); India aims for malaria-free status by 2030 |
 | **Leprosy** | Eliminated as public health problem in India (2005) | Prevalence reduced to <1 per 10,000 population at national level; however, some states still have higher prevalence |
 | **Yaws** | India declared yaws-free | India declared yaws-free in May 2016 by WHO |

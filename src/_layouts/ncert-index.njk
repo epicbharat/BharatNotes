@@ -1,0 +1,168 @@
+---
+layout: base.njk
+---
+
+<!-- NCERT section CSS -->
+<link rel="stylesheet" href="/css/ncert.css?v={{ site.buildTime }}">
+
+{# Collect all NCERT chapters for this book (if book_slug set) or all books for a class #}
+{%- set isBookPage = book_slug and ncert_class -%}
+{%- set isClassPage = ncert_class and not book_slug -%}
+
+{%- if isBookPage -%}
+  {%- set bookChapters = [] -%}
+  {%- for item in collections.all -%}
+    {%- if item.data.book_slug == book_slug and item.data.ncert_class == ncert_class and item.data.chapter -%}
+      {%- set bookChapters = (bookChapters.push(item), bookChapters) -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- set bookChapters = bookChapters | sort(false, false, "data.chapter") -%}
+{%- endif -%}
+
+{# Book page #}
+{%- if isBookPage -%}
+
+<header class="ncert-header">
+  <div class="container">
+    <nav class="breadcrumb" style="margin-bottom:var(--space-4);">
+      <a href="/">Home</a><span class="breadcrumb__sep">/</span>
+      <a href="/ncert/">NCERT</a><span class="breadcrumb__sep">/</span>
+      <a href="/ncert/class-{{ ncert_class }}/">Class {{ ncert_class }}</a><span class="breadcrumb__sep">/</span>
+      {{ title }}
+    </nav>
+    <div class="ncert-class-badge">
+      📚 Class {{ ncert_class }} · {{ subject_area }}
+    </div>
+    <h1>{{ title }}</h1>
+    {% if description %}<p class="ncert-header__subtitle">{{ description }}</p>{% endif %}
+    <div class="ncert-book-tag">
+      <span>📖</span> {{ bookChapters.length }} Chapters
+    </div>
+  </div>
+</header>
+
+<section style="padding:var(--space-10) 0;">
+  <div class="container">
+    <div class="layout-with-sidebar">
+      <div>
+        {% if content | trim %}
+        <article class="article-body" style="margin-bottom:var(--space-8);">{{ content | safe }}</article>
+        {% endif %}
+
+        <div class="card">
+          <h2 style="font-family:var(--font-heading);font-size:var(--text-xl);color:var(--ncert-blue-dark);margin-bottom:var(--space-6);">Chapters</h2>
+          {% if bookChapters.length %}
+          <ul class="ncert-chapter-list">
+            {% for ch in bookChapters %}
+            <li class="ncert-chapter-list__item">
+              <a href="{{ ch.url }}" class="ncert-chapter-list__link">
+                <span class="ncert-chapter-list__num">{{ ch.data.chapter | string | padStart(2,"0") }}</span>
+                <span class="ncert-chapter-list__title">{{ ch.data.title }}</span>
+                <span class="ncert-chapter-list__arrow">→</span>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+          {% else %}
+          <p style="color:var(--color-text-muted);font-size:var(--text-sm);">Chapters coming soon.</p>
+          {% endif %}
+        </div>
+      </div>
+
+      <aside class="topic-sidebar">
+        <div class="ncert-book-info-card">
+          <div class="ncert-book-info-card__label">📚 Book Info</div>
+          <div class="ncert-book-info-card__item"><strong>Class</strong> Class {{ ncert_class }}</div>
+          <div class="ncert-book-info-card__item"><strong>Subject</strong> {{ subject_area }}</div>
+          {% if gs_papers %}
+          <div class="ncert-book-info-card__item">
+            <strong>GS</strong>
+            {% for paper in gs_papers %}{{ paper | upper }}{% if not loop.last %}, {% endif %}{% endfor %}
+          </div>
+          {% endif %}
+          <div class="ncert-book-info-card__item"><strong>Chapters</strong> {{ bookChapters.length }}</div>
+        </div>
+
+        {% if gs_subject_url %}
+        <div class="card" style="margin-bottom:var(--space-5);">
+          <h4 style="color:var(--color-brand);font-size:var(--text-xs);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:var(--space-3);">GS Notes</h4>
+          <a href="{{ gs_subject_url }}" class="btn btn--accent btn--sm" style="width:100%;justify-content:center;">🎯 GS Notes →</a>
+        </div>
+        {% endif %}
+
+        <div class="card">
+          <a href="/ncert/class-{{ ncert_class }}/" class="btn btn--ghost btn--sm" style="width:100%;justify-content:center;">← All Class {{ ncert_class }} Books</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+{# Class page — list of books #}
+{%- elif isClassPage -%}
+
+{%- set classBooks = [] -%}
+{%- for item in collections.all -%}
+  {%- if item.data.ncert_class == ncert_class and item.data.layout == "ncert-index.njk" and item.data.book_slug -%}
+    {%- set classBooks = (classBooks.push(item), classBooks) -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<header class="ncert-header">
+  <div class="container">
+    <nav class="breadcrumb" style="margin-bottom:var(--space-4);">
+      <a href="/">Home</a><span class="breadcrumb__sep">/</span>
+      <a href="/ncert/">NCERT</a><span class="breadcrumb__sep">/</span>
+      Class {{ ncert_class }}
+    </nav>
+    <div class="ncert-class-badge">NCERT · Phase 1</div>
+    <h1>{{ title }}</h1>
+    {% if description %}<p class="ncert-header__subtitle">{{ description }}</p>{% endif %}
+  </div>
+</header>
+
+<section style="padding:var(--space-10) 0;">
+  <div class="container">
+    {% if content | trim %}
+    <article class="article-body" style="margin-bottom:var(--space-8);">{{ content | safe }}</article>
+    {% endif %}
+
+    {% if classBooks.length %}
+    <div class="ncert-book-grid">
+      {% for book in classBooks %}
+      <a href="{{ book.url }}" class="ncert-book-card">
+        <div class="ncert-book-card__subject">{{ book.data.subject_area }}</div>
+        <div class="ncert-book-card__title">{{ book.data.title }}</div>
+        {% if book.data.description %}
+        <div style="font-size:var(--text-xs);color:var(--color-text-muted);line-height:var(--leading-relaxed);">{{ book.data.description | truncate(100) }}</div>
+        {% endif %}
+        <div class="ncert-book-card__chapters">Browse chapters →</div>
+      </a>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p style="color:var(--color-text-muted);">Books coming soon.</p>
+    {% endif %}
+  </div>
+</section>
+
+{# Hub page — show all classes #}
+{%- else -%}
+
+<header class="ncert-hub-header">
+  <div class="container">
+    <div class="ncert-phase-badge">Phase 1 — Class XI & XII</div>
+    <h1>{{ title }}</h1>
+    <p>{{ description }}</p>
+  </div>
+</header>
+
+<section style="padding:var(--space-10) 0;">
+  <div class="container">
+    {% if content | safe %}
+    <article class="article-body" style="margin-bottom:var(--space-8);">{{ content | safe }}</article>
+    {% endif %}
+  </div>
+</section>
+
+{%- endif -%}

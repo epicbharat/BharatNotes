@@ -38,7 +38,7 @@ India bears the **single largest share of global TB burden** — approximately 2
 | **National Programme** | National Tuberculosis Elimination Programme (NTEP), formerly RNTCP |
 | **NTEP Framework** | **Detect → Treat → Prevent → Build (DTPB)** — India's structured TB elimination strategy |
 | **Digital Platform** | Ni-kshay — web-based TB case notification and management system |
-| **Target** | TB elimination by 2025 (ahead of global SDG target of 2030) |
+| **Target** | TB elimination by 2025 (ahead of global SDG target of 2030) — **2025 target missed**; India now aligns with the global 2030 elimination target |
 | **Nikshay Poshan Yojana** | Financial support of **₹1,000/month** (raised from ₹500) to TB patients throughout treatment for nutrition; ₹3,202+ crore disbursed via DBT to 1.13 crore beneficiaries |
 | **CBNAAT** | Cartridge-Based Nucleic Acid Amplification Test — rapid molecular diagnosis for TB and drug resistance detection |
 | **MDR/XDR-TB** | Multi-Drug Resistant and Extensively Drug Resistant TB — ~119,000 MDR/RR-TB cases per year in India (world's highest); free treatment under NTEP |

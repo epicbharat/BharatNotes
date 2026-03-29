@@ -290,21 +290,3 @@ Compassion in governance is not sentimentality — it is the **capacity to perce
 3. State the legal/regulatory position.
 4. Give a principled resolution, acknowledging competing goods.
 5. Conclude with a forward-looking administrative recommendation.
-
----
-
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-1. With reference to the POSH Act 2013, which of the following is mandatory for organisations with 10 or more employees? — (a) Ethics committee (b) Internal Complaints Committee (c) Whistleblower Cell (d) Social Audit Committee *(Answer: b)*
-2. The All India Services (Conduct) Rules 1968 prohibit members of All India Services from engaging in which of the following activities without prior government permission?
-3. Which of the following best describes the "perceived conflict of interest"? *(Concept frequently tested in ethics paper)*
-4. The term "revolving door" in administrative ethics refers to: *(a) Transfer of files between departments (b) Movement of officials between public and private sector roles in related industries (c) Rotation of district postings (d) Cyclical budget review process)* *(Answer: b)*
-
-### Mains
-
-1. "A civil servant's first loyalty is to the Constitution, not to the minister or the party in power." Discuss the ethical and practical implications of this principle, with reference to the obedience dilemma in public administration. *(CSE GS4 2016 — related theme)*
-2. "The personal conduct of a public official, including on social media, is not entirely a private matter." Comment on this statement in the context of the ethical obligations of civil servants and the AIS (Conduct) Rules 1968. *(CSE GS4 2021 — related theme)*
-3. You are a senior officer in a government department. Your direct supervisor asks you to present a project evaluation report in a way that omits certain negative findings, as the project was initiated by the minister's office. Discuss the ethical dimensions of this situation and the course of action you would take. *(CSE GS4 Case Study — standard format)*
-4. "Nel Noddings' ethics of care offers an alternative foundation for public administration that is more humane than rule-bound bureaucracy." Do you agree? Critically examine the relevance of the ethics of care to Indian public administration. *(CSE GS4 — philosophical/applied question)*

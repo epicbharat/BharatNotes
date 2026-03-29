@@ -195,27 +195,3 @@ Bioethics is a recurring theme in GS4 case studies. Approach questions by:
 5. **Using tables or structured lists** in 250-word answers to cover multiple dimensions efficiently
 
 For case studies involving a doctor facing resource allocation or a patient refusing treatment, always begin with the ethical framework (four principles), apply relevant law, and conclude with a recommendation that balances all stakeholders.
-
----
-
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-1. Which of the following statements best describes "passive euthanasia" as upheld by the Supreme Court of India in 2018? (a) Administering a lethal injection to end suffering (b) Withdrawing life-sustaining treatment from a terminally ill patient (c) Sedating a patient to unconsciousness (d) Removing organs before natural death — **[Conceptual, UPSC-style]**
-
-2. The Surrogacy (Regulation) Act, 2021 permits which type of surrogacy in India? (a) Commercial surrogacy for foreign nationals (b) Altruistic surrogacy by close relatives (c) Commercial surrogacy with state oversight (d) Altruistic surrogacy by any willing woman
-
-3. The Nuremberg Code (1947) was primarily concerned with: (a) War crimes and crimes against humanity (b) Voluntary consent in human experimentation (c) Standards for organ transplantation (d) Definition of brain death
-
-4. Under India's organ transplantation legal framework, which body serves as the apex national coordinator for organ donation and transplantation? (a) AIIMS Transplant Authority (b) NOTTO (c) ICMR (d) National Health Authority
-
-### Mains
-
-1. "The right to die with dignity is an intrinsic facet of the right to life." Critically examine the Supreme Court's position on euthanasia in India with reference to relevant landmark judgments. (GS4, 250 words)
-
-2. The Surrogacy (Regulation) Act, 2021 has been praised for protecting women from exploitation but criticised for being overly restrictive. Analyse the ethical tensions inherent in regulating surrogacy in India. (GS4, 250 words)
-
-3. You are a senior doctor on a hospital ethics committee during a disease outbreak. There are only five ventilators available for twelve critically ill patients. Describe the ethical framework you would apply to make the allocation decision and justify your approach. (GS4 Case Study, 250 words)
-
-4. The emergence of CRISPR gene editing technology poses profound ethical challenges to humanity. Discuss the ethical boundaries of genetic interventions in humans with reference to international norms and the He Jiankui controversy. (GS4, 150 words)

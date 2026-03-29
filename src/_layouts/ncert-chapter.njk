@@ -1,0 +1,283 @@
+---
+layout: base.njk
+---
+
+{%- set classLabel = "Class " + ncert_class -%}
+{%- set chapterPad = chapter | string | padStart(2, "0") -%}
+
+{# Collect sibling chapters in same book #}
+{%- set bookChapters = [] -%}
+{%- for item in collections.all -%}
+  {%- if item.data.book_slug == book_slug and item.data.ncert_class == ncert_class and item.data.chapter -%}
+    {%- set bookChapters = (bookChapters.push(item), bookChapters) -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- set bookChapters = bookChapters | sort(false, false, "data.chapter") -%}
+
+{%- set prevCh = null -%}{%- set nextCh = null -%}{%- set foundSelf = false -%}
+{%- for ch in bookChapters -%}
+  {%- if ch.url == page.url -%}{%- set foundSelf = true -%}
+  {%- elif not foundSelf -%}{%- set prevCh = ch -%}
+  {%- elif foundSelf and not nextCh -%}{%- set nextCh = ch -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{# Build book index URL #}
+{%- set bookIndexUrl = "/ncert/class-" + ncert_class + "/" + book_slug + "/" -%}
+
+<!-- NCERT chapter-specific CSS -->
+<link rel="stylesheet" href="/css/ncert.css?v={{ site.buildTime }}">
+
+<!-- Page Header -->
+<header class="ncert-header">
+  <div class="container">
+    <nav class="breadcrumb" style="margin-bottom:var(--space-4);">
+      <a href="/">Home</a><span class="breadcrumb__sep">/</span>
+      <a href="/ncert/">NCERT</a><span class="breadcrumb__sep">/</span>
+      <a href="/ncert/class-{{ ncert_class }}/">{{ classLabel }}</a><span class="breadcrumb__sep">/</span>
+      <a href="{{ bookIndexUrl }}">{{ book }}</a><span class="breadcrumb__sep">/</span>
+      Ch {{ chapterPad }}
+    </nav>
+
+    <div class="ncert-class-badge">
+      📚 {{ classLabel }} · {{ subject_area }}
+    </div>
+
+    <div class="ncert-chapter-number">Chapter {{ chapterPad }} — {{ book }}</div>
+    <h1>{{ title }}</h1>
+    {% if description %}<p class="ncert-header__subtitle">{{ description }}</p>{% endif %}
+
+    <div class="ncert-book-tag">
+      <span>📖</span> {{ book }}
+    </div>
+  </div>
+</header>
+
+<!-- Main Content -->
+<section style="padding:var(--space-8) 0;">
+  <div class="container">
+    <div class="layout-with-sidebar">
+      <!-- Article -->
+      <div>
+        <!-- Mobile TOC -->
+        <div class="toc-mobile" id="toc-mobile" hidden>
+          <button class="toc-mobile__toggle" id="toc-mobile-toggle" aria-expanded="false">
+            <span>In This Chapter</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <ol class="toc-list toc-mobile__list" id="toc-mobile-list" hidden></ol>
+        </div>
+
+        <article class="article-body ncert-article" data-pagefind-body>
+          {{ content | safe }}
+        </article>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav">
+          {% if prevCh %}
+          <a href="{{ prevCh.url }}" class="chapter-nav__link">
+            <span class="chapter-nav__arrow">←</span>
+            <div>
+              <span class="chapter-nav__label">Previous Chapter</span>
+              <span class="chapter-nav__title">{{ prevCh.data.title | truncate(60, true) }}</span>
+            </div>
+          </a>
+          {% else %}
+          <a href="{{ bookIndexUrl }}" class="chapter-nav__link">
+            <span class="chapter-nav__arrow">←</span>
+            <div>
+              <span class="chapter-nav__label">Back to</span>
+              <span class="chapter-nav__title">{{ book }}</span>
+            </div>
+          </a>
+          {% endif %}
+          {% if nextCh %}
+          <a href="{{ nextCh.url }}" class="chapter-nav__link chapter-nav__link--next">
+            <div>
+              <span class="chapter-nav__label">Next Chapter</span>
+              <span class="chapter-nav__title">{{ nextCh.data.title | truncate(60, true) }}</span>
+            </div>
+            <span class="chapter-nav__arrow">→</span>
+          </a>
+          {% else %}
+          <a href="{{ bookIndexUrl }}" class="chapter-nav__link chapter-nav__link--next">
+            <div>
+              <span class="chapter-nav__label">Back to</span>
+              <span class="chapter-nav__title">{{ book }}</span>
+            </div>
+            <span class="chapter-nav__arrow">→</span>
+          </a>
+          {% endif %}
+        </nav>
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="topic-sidebar">
+        <!-- Book Info -->
+        <div class="ncert-book-info-card">
+          <div class="ncert-book-info-card__label">📚 Chapter Info</div>
+          <div class="ncert-book-info-card__item">
+            <strong>Class</strong> {{ classLabel }}
+          </div>
+          <div class="ncert-book-info-card__item">
+            <strong>Book</strong> {{ book }}
+          </div>
+          <div class="ncert-book-info-card__item">
+            <strong>Subject</strong> {{ subject_area }}
+          </div>
+          <div class="ncert-book-info-card__item">
+            <strong>Chapter</strong> {{ chapterPad }}
+          </div>
+          {% if gs_papers %}
+          <div class="ncert-book-info-card__item">
+            <strong>GS</strong>
+            {% for paper in gs_papers %}{{ paper | upper }}{% if not loop.last %}, {% endif %}{% endfor %}
+          </div>
+          {% endif %}
+        </div>
+
+        <!-- TOC Sidebar -->
+        <nav class="toc-card card ncert-toc" id="toc-sidebar" aria-label="Table of contents" style="margin-bottom:var(--space-5);">
+          <h4 style="color:var(--ncert-blue);font-size:var(--text-xs);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:var(--space-3);">In This Chapter</h4>
+          <ol class="toc-list" id="toc-list"></ol>
+        </nav>
+
+        <!-- Chapters in this Book -->
+        {% if bookChapters.length > 1 %}
+        <div class="card" style="margin-bottom:var(--space-5);">
+          <h4 style="color:var(--ncert-blue);font-size:var(--text-xs);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:var(--space-3);">{{ book }}</h4>
+          {% for ch in bookChapters %}
+          {% if ch.url == page.url %}
+          <span style="display:block;font-size:var(--text-xs);padding:var(--space-1) 0;color:var(--ncert-blue);font-weight:var(--font-semibold);">→ Ch {{ ch.data.chapter | string | padStart(2,"0") }}. {{ ch.data.title | truncate(45, true) }}</span>
+          {% else %}
+          <a href="{{ ch.url }}" style="display:block;font-size:var(--text-xs);padding:var(--space-1) 0;color:var(--color-text-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">Ch {{ ch.data.chapter | string | padStart(2,"0") }}. {{ ch.data.title | truncate(45, true) }}</a>
+          {% endif %}
+          {% endfor %}
+          <a href="{{ bookIndexUrl }}" style="display:block;font-size:var(--text-xs);padding:var(--space-2) 0;color:var(--ncert-blue);font-weight:var(--font-semibold);">← Back to book →</a>
+        </div>
+        {% endif %}
+
+        <!-- GS Subject Link -->
+        {% if gs_subject_url %}
+        <div class="card" style="margin-bottom:var(--space-5);">
+          <h4 style="color:var(--color-brand);font-size:var(--text-xs);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:var(--space-3);">GS Notes on This Topic</h4>
+          <a href="{{ gs_subject_url }}" class="btn btn--accent btn--sm" style="width:100%;justify-content:center;">
+            🎯 Read GS Notes →
+          </a>
+        </div>
+        {% endif %}
+
+        <!-- Current Affairs -->
+        <div class="card">
+          <h4 style="color:var(--color-brand);font-size:var(--text-xs);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:var(--space-3);">📰 Current Affairs</h4>
+          <p style="font-size:var(--text-xs);color:var(--color-text-muted);margin-bottom:var(--space-3);">Connect this chapter to live news</p>
+          <a href="https://ujiyari.com" class="btn btn--ghost btn--sm" target="_blank" rel="noopener" style="width:100%;justify-content:center;">Ujiyari.com ↗</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<script>
+(function() {
+  var article = document.querySelector('.ncert-article');
+  if (!article) return;
+
+  /* Wrap tables */
+  var tables = article.querySelectorAll('table');
+  for (var t = 0; t < tables.length; t++) {
+    var wrap = document.createElement('div');
+    wrap.className = 'table-scroll';
+    tables[t].parentNode.insertBefore(wrap, tables[t]);
+    wrap.appendChild(tables[t]);
+  }
+
+  /* ── Special Box Post-processor ──
+     Detects h3 headings with box prefixes and wraps
+     the heading + following content in styled box divs.
+     Patterns:
+       ### 💡 Explainer: Title   → .ncert-box--explainer
+       ### 🔗 Beyond the Book: Title → .ncert-box--bridge
+       ### 🎯 UPSC Connect: Title → .ncert-box--upsc
+       ### 📌 Key Fact: Title     → .ncert-box--fact
+  */
+  var BOX_PATTERNS = [
+    { re: /^(💡\s*Explainer|Explainer)[\s:]/i, cls: 'explainer' },
+    { re: /^(🔗\s*Beyond the Book|Beyond the Book|Bridging Gap)[\s:]/i, cls: 'bridge' },
+    { re: /^(🎯\s*UPSC Connect|UPSC Connect)[\s:]/i, cls: 'upsc' },
+    { re: /^(📌\s*Key Fact|Key Fact)[\s:]/i, cls: 'fact' }
+  ];
+
+  var h3s = Array.from(article.querySelectorAll('h3'));
+  h3s.forEach(function(h3) {
+    var text = h3.textContent.trim();
+    var matched = null;
+    for (var i = 0; i < BOX_PATTERNS.length; i++) {
+      if (BOX_PATTERNS[i].re.test(text)) { matched = BOX_PATTERNS[i]; break; }
+    }
+    if (!matched) return;
+
+    /* Collect content nodes until next h2/h3/hr */
+    var bodyNodes = [];
+    var next = h3.nextElementSibling;
+    while (next && next.tagName !== 'H2' && next.tagName !== 'H3' && next.tagName !== 'HR') {
+      bodyNodes.push(next);
+      next = next.nextElementSibling;
+    }
+
+    /* Build box */
+    var box = document.createElement('div');
+    box.className = 'ncert-box--' + matched.cls;
+
+    var titleDiv = document.createElement('div');
+    titleDiv.className = 'ncert-box__title';
+    /* Strip the emoji prefix from the heading text for the title label */
+    var cleanTitle = text.replace(/^[💡🔗🎯📌]\s*/, '').replace(/^(Explainer|Beyond the Book|Bridging Gap|UPSC Connect|Key Fact)\s*:\s*/i, '');
+    titleDiv.textContent = cleanTitle || text;
+
+    var bodyDiv = document.createElement('div');
+    bodyDiv.className = 'ncert-box__body';
+    bodyNodes.forEach(function(n) { bodyDiv.appendChild(n); });
+
+    box.appendChild(titleDiv);
+    box.appendChild(bodyDiv);
+
+    h3.parentNode.insertBefore(box, h3);
+    h3.remove();
+  });
+
+  /* ── TOC Builder ── */
+  var tocList = document.getElementById('toc-list');
+  var tocMobileList = document.getElementById('toc-mobile-list');
+  var tocMobileWrap = document.getElementById('toc-mobile');
+  var tocMobileToggle = document.getElementById('toc-mobile-toggle');
+
+  if (!tocList) return;
+
+  var headings = article.querySelectorAll('h2, h3');
+  if (headings.length < 2) {
+    var tocCard = document.getElementById('toc-sidebar');
+    if (tocCard) tocCard.hidden = true;
+    return;
+  }
+
+  var tocHtml = '';
+  headings.forEach(function(h, idx) {
+    var id = h.id || ('ncert-h-' + idx);
+    h.id = id;
+    var isH3 = h.tagName === 'H3';
+    tocHtml += '<li' + (isH3 ? ' style="padding-left:var(--space-4)"' : '') + '><a href="#' + id + '" style="font-size:var(--text-xs);color:var(--color-text-secondary);text-decoration:none;display:block;padding:2px 0;line-height:1.4;">' + h.textContent.trim().slice(0, 60) + '</a></li>';
+  });
+  tocList.innerHTML = tocHtml;
+  if (tocMobileList) tocMobileList.innerHTML = tocHtml;
+
+  if (tocMobileWrap) {
+    tocMobileWrap.hidden = false;
+    tocMobileToggle && tocMobileToggle.addEventListener('click', function() {
+      var expanded = tocMobileToggle.getAttribute('aria-expanded') === 'true';
+      tocMobileToggle.setAttribute('aria-expanded', String(!expanded));
+      tocMobileList.hidden = expanded;
+    });
+  }
+})();
+</script>

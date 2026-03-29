@@ -309,21 +309,3 @@ Edward Snowden (US NSA contractor) leaked classified surveillance documents in 2
 **High-frequency topics:** Child labour (Articles 24, 39(e)(f), MC Mehta), Capital punishment (Bachan Singh, Machhi Singh rarest of rare), Affirmative action (Indra Sawhney, EWS 103rd Amendment, SFFA 2023 for global comparison), Whistleblowing (Whistleblowers Protection Act 2014, Satyendra Dubey).
 
 **Avoid:** Merely listing laws. Every answer must articulate the ethical tension — the competing goods or rights — and offer a principled resolution.
-
----
-
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-1. Under the Child and Adolescent Labour (Prohibition and Regulation) Amendment Act 2016, employment of children below what age is completely prohibited in all occupations? *(Concept frequently tested in CSE Prelims GS1/GS2)*
-2. The "rarest of rare" doctrine for imposing capital punishment in India was established in which case? — (a) Maneka Gandhi v. Union of India (b) Bachan Singh v. State of Punjab (c) Kesavananda Bharati v. State of Kerala (d) A.K. Gopalan v. State of Madras *(Answer: b)*
-3. With reference to the Whistleblowers Protection Act 2014, which of the following statements is correct? *(Standard format for legislation-based prelims questions)*
-4. The 103rd Constitutional Amendment Act inserted which Articles in the Constitution to provide for EWS reservation? — (a) Articles 15(5) and 16(5) (b) Articles 15(6) and 16(6) (c) Articles 15(4) and 16(4) (d) Articles 15(3) and 16(3) *(Answer: b)*
-
-### Mains
-
-1. "The rarest of rare doctrine gives Indian courts enormous discretion in awarding capital punishment, but this discretion has been applied inconsistently." Examine the ethical arguments for and against capital punishment in India. *(CSE GS4 2018 — related theme)*
-2. Discuss the ethical tensions inherent in the Juvenile Justice (Care and Protection of Children) Act 2015 provision for trying adolescents aged 16–18 as adults for heinous offences. Should rehabilitation or retribution be the primary goal of the juvenile justice system? *(CSE GS4 — frequently asked)*
-3. "Poverty is not an excuse for child labour, but it is the root cause." Critically examine this statement with reference to India's legal framework and the ethical obligations of the State. *(CSE GS4 2016 — related theme)*
-4. The ethics of whistleblowing involve a conflict between loyalty to one's institution and one's duty to the public interest. Discuss with reference to the Satyendra Dubey and Manjunath Shanmugam cases and the adequacy of India's legal protection for whistleblowers. *(CSE GS4 2019 — related theme)*

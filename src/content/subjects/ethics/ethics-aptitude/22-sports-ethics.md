@@ -215,27 +215,3 @@ Key frameworks to deploy:
 4. **Structural vs individual ethics** — governance failures are not just individual lapses but systemic failures requiring institutional reform
 
 For case studies, use the DECIDE model: Define the dilemma, Examine the stakeholders, Consider options, Identify ethical basis, Decide, Evaluate the decision.
-
----
-
-## Previous Year Questions (PYQs)
-
-### Prelims
-
-1. The World Anti-Doping Agency (WADA) was established in which year? (a) 1997 (b) 1999 (c) 2001 (d) 2003
-
-2. The Indian Olympic Association (IOA) was suspended by the IOC in 2012 primarily because of: (a) Match-fixing allegations against Indian athletes (b) Failure to comply with Olympic Charter requirements on governance (c) India's withdrawal from the 2012 London Olympics (d) Doping violations by Indian athletes at the 2012 Games
-
-3. The National Anti-Doping Act, 2022 conferred statutory status on which body? (a) Sports Authority of India (b) Indian Olympic Association (c) National Anti-Doping Agency (d) National Dope Testing Laboratory
-
-4. The Lodha Committee report (2016) was primarily concerned with: (a) Anti-doping regulations in Indian athletics (b) Reforms in the governance of the BCCI (c) Restructuring the Indian Olympic Association (d) Setting standards for sports coaching in India
-
-### Mains
-
-1. "Doping in sport is not merely a violation of rules — it is a profound ethical failure that corrupts the athlete, the sport, and society." Critically examine this statement and evaluate India's institutional framework for combating doping. (GS4, 250 words)
-
-2. You are the Secretary of a national sports federation. A senior athlete approaches you confidentially with allegations of sexual harassment against the head coach — the architect of the team's recent medal successes. The coach's contract is up for renewal in two weeks. Describe the ethical dilemma and the steps you would take. (GS4 Case Study, 250 words)
-
-3. "The commercialisation of sport is an ethical double-edged sword — it funds excellence but corrodes integrity." Discuss with reference to the Indian Premier League and its impact on cricket's ethical standards. (GS4, 150 words)
-
-4. Critically examine the ethical dimensions of policies that require athletes with naturally occurring biological characteristics to modify their bodies in order to compete in women's events. Refer to international jurisprudence on the issue. (GS4, 150 words)
