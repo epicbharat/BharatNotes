@@ -561,6 +561,17 @@
     btn.innerHTML =
       '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="animation:spin 1s linear infinite;vertical-align:-2px;margin-right:6px;"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>Generating...';
 
+    /* Wait for Crimson Pro fonts to finish loading (max 5s) */
+    if (!crimsonFontsCSS) {
+      await new Promise(function(resolve) {
+        var waited = 0;
+        var check = setInterval(function() {
+          waited += 100;
+          if (crimsonFontsCSS || waited >= 5000) { clearInterval(check); resolve(); }
+        }, 100);
+      });
+    }
+
     var result = buildTopicHTML();
     if (!result) {
       showPDFToast("No content found to export", "error");

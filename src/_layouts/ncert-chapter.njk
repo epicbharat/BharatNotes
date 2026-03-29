@@ -234,6 +234,19 @@ layout: base.njk
     tables[t].parentNode.insertBefore(outer, tables[t]);
     outer.appendChild(inner);
     inner.appendChild(tables[t]);
+
+    /* Mark numeric-only first columns so CSS can suppress key-col highlight */
+    var bodyRows = tables[t].querySelectorAll('tbody tr');
+    var isNumCol = bodyRows.length > 0 && Array.from(bodyRows).every(function(row) {
+      var cell = row.querySelector('td:first-child');
+      return cell && /^\s*\d{1,3}\s*$/.test(cell.textContent);
+    });
+    if (isNumCol) {
+      bodyRows.forEach(function(row) {
+        var cell = row.querySelector('td:first-child');
+        if (cell) cell.classList.add('ncert-num-col');
+      });
+    }
   }
 
   /* ── Table Scroll Indicators ── */
