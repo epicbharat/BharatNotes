@@ -756,8 +756,8 @@ a.card:hover { text-decoration: none; }
   overflow: hidden;
 }
 .article-body th {
-  background: var(--color-brand);
-  color: var(--color-white);
+  background: #1e293b;
+  color: #f1f5f9;
   padding: 10px var(--space-4);
   text-align: left;
   font-weight: 600;
@@ -778,9 +778,8 @@ a.card:hover { text-decoration: none; }
   color: var(--color-text);
 }
 .article-body tr:last-child td { border-bottom: none; }
-.article-body tr:nth-child(even) td { background: rgba(15,76,58,0.02); }
-.article-body tr:hover td { background: rgba(15,76,58,0.04); }
-.article-body tr:hover td { background: rgba(224,90,51,0.04); }
+.article-body tr:nth-child(even) td { background: rgba(30,41,59,0.03); }
+.article-body tr:hover td { background: rgba(30,41,59,0.05); }
 .article-body a { font-weight: var(--font-medium); text-decoration: underline; text-decoration-color: var(--color-accent-light); text-underline-offset: 2px; }
 .article-body a:hover { text-decoration-color: var(--color-accent); }
 
