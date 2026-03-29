@@ -28,7 +28,7 @@ layout: base.njk
 <!-- Page Header -->
 <header class="ncert-header">
   <div class="container">
-    <nav class="breadcrumb" style="margin-bottom:var(--space-4);">
+    <nav class="breadcrumb" style="margin-bottom:var(--space-5);">
       <a href="/">Home</a><span class="breadcrumb__sep">/</span>
       <a href="/ncert/">NCERT</a><span class="breadcrumb__sep">/</span>
       <a href="/ncert/class-{{ ncert_class }}/">{{ classLabel }}</a><span class="breadcrumb__sep">/</span>
@@ -36,17 +36,17 @@ layout: base.njk
       Ch {{ chapterPad }}
     </nav>
 
-    <div class="ncert-class-badge">
-      📚 {{ classLabel }} · {{ subject_area }}
+    <div class="ncert-header__meta">
+      <div class="ncert-class-badge">📚 {{ classLabel }} · {{ subject_area }}</div>
+      {% if gs_papers %}
+      {% for paper in gs_papers %}
+      <span class="ncert-gs-badge ncert-gs-badge--{{ paper }}">{{ paper | upper }}</span>
+      {% endfor %}
+      {% endif %}
     </div>
 
-    <div class="ncert-chapter-number">Chapter {{ chapterPad }} — {{ book }}</div>
     <h1>{{ title }}</h1>
     {% if description %}<p class="ncert-header__subtitle">{{ description }}</p>{% endif %}
-
-    <div class="ncert-book-tag">
-      <span>📖</span> {{ book }}
-    </div>
   </div>
 </header>
 
