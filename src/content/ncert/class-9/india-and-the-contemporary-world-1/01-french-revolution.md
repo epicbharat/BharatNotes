@@ -310,3 +310,101 @@ The Indian Constitution's Preamble guarantees "Justice, Liberty, Equality" and "
 **1.** "The French Revolution gave the world the vocabulary of modern politics — liberty, equality, fraternity, nation, citizen, and revolution itself." Examine this statement with reference to the impact of the French Revolution on the world. *(GS1, 250 words)*
 
 **2.** The ideals of the French Revolution found resonance in India's freedom movement and constitutional design. Discuss with specific examples from the Indian Constitution and nationalist thought. *(GS1, 150 words)*
+
+---
+
+## Supplementary Notes: Key Concepts Explained
+
+### The Enlightenment — Intellectual Foundation of the Revolution
+
+The French Revolution did not emerge in a vacuum. The **18th-century Enlightenment** — a European intellectual movement — challenged traditional authority with reason, science, and individual rights.
+
+Key Enlightenment thinkers who influenced the Revolution:
+
+**John Locke (1632–1704, English):**
+- Government derives legitimacy from the "consent of the governed"
+- Natural rights: life, liberty, and property
+- If a government violates natural rights, the people have the right to revolt
+- His ideas directly influenced the American Declaration of Independence (1776) and the French Declaration of Rights of Man (1789)
+
+**Jean-Jacques Rousseau (1712–1778, Swiss-French):**
+- "The Social Contract" (1762): Society is a contract between citizens who surrender some freedoms to the collective ("General Will") in return for protection
+- The General Will represents the common good — above private interests
+- "Man is born free, and everywhere he is in chains" — the opening line of The Social Contract
+- Rousseau's idea of popular sovereignty (sovereignty rests with the people, not the king) was revolutionary
+
+**Voltaire (1694–1778, French):**
+- Fierce critic of the Church, religious intolerance, and aristocratic privilege
+- Championed freedom of speech, press, and religion
+- Satirised the hypocrisy of French society in novels like Candide
+
+**Montesquieu (1689–1755, French):**
+- "The Spirit of the Laws" (1748): Advocated separation of powers — executive, legislative, judicial — to prevent tyranny
+- His model directly influenced the US Constitution and French constitutional debates
+- India's own separation of powers (President, Parliament, Supreme Court) traces to this tradition
+
+### 📌 Key Fact: The Encyclopédie
+
+The **Encyclopédie** (1751–1772), edited by Denis Diderot and Jean d'Alembert, was the great project of the French Enlightenment — a multi-volume compendium of all human knowledge. It challenged church authority, promoted scientific thinking, and reached educated bourgeois readers across France. By systematically applying reason to every field (religion, politics, economics, science), the Encyclopédie helped create the intellectual climate that made revolution thinkable.
+
+---
+
+### The Abolition of Slavery: The Revolution's Incomplete Promise
+
+The Declaration of Rights of Man proclaimed universal human rights — yet France's Caribbean colonies (especially Saint-Domingue, modern Haiti) were built on enslaved labour. The revolution's ideals created a devastating contradiction.
+
+**Haitian Revolution (1791–1804):**
+Enslaved Africans in Saint-Domingue, inspired by the Declaration of Rights of Man, rose in rebellion in August 1791 — the world's only successful slave revolution. Led initially by Toussaint Louverture, the revolution ended with Haitian independence on January 1, 1804 — making Haiti the world's first Black republic and the second republic in the Western Hemisphere (after the USA).
+
+Napoleon sent an army to suppress the Haitian Revolution and restore slavery (which he had re-legalised in French colonies in 1802). The army was destroyed by yellow fever and Haitian resistance.
+
+**The French Revolution's record on slavery:**
+- 1794: The National Convention abolished slavery in French colonies (first abolition)
+- 1802: Napoleon restored slavery
+- 1848: France finally permanently abolished slavery (under the Second Republic)
+
+This history reveals the limits of Enlightenment universalism — liberty and equality were proclaimed as universal but withheld from non-European peoples for decades.
+
+### 🎯 UPSC Connect: French Revolution and the Limits of Liberalism
+
+The French Revolution's incomplete universalism — excluding women, colonised peoples, and enslaved Africans — is the starting point for understanding the **critique of liberalism** that runs through Indian political thought. Ambedkar's critique of the Congress as representing upper-caste interests, Gandhi's challenge to Western civilisation in "Hind Swaraj," and Nehru's anti-imperialism all implicitly engage with the gap between liberal rhetoric and practice. For UPSC Essay and Mains, the ability to appreciate both the revolutionary achievement AND its limitations is the mark of a sophisticated thinker.
+
+---
+
+### The Revolution in Art and Culture
+
+The French Revolution transformed not just politics but culture and aesthetics.
+
+**Revolutionary art:**
+- **Jacques-Louis David** became the Revolution's official painter — his "Death of Marat" (1793) portrayed the murdered radical journalist as a secular martyr
+- Neoclassical style (Greek and Roman imagery) replaced the ornate Baroque — classical Rome was seen as a republican inspiration
+- Public festivals replaced church ceremonies — elaborate Republican festivals staged by David celebrated the new civic religion of the nation
+
+**Revolutionary symbols:**
+- **Marianne:** The female figure symbolising the French Republic, liberty, and reason — appears on French stamps, coins, and official seals to this day
+- **Phrygian cap:** Red cap worn by freed slaves in ancient Rome; adopted by revolutionaries as a symbol of liberty
+- **Tricolor (blue, white, red):** The French national flag; blue and red were Paris's colours, white was the Bourbon royal colour — their combination symbolised the union of people and monarchy (briefly); later became France's Republican flag
+- **"La Marseillaise":** Revolutionary war song (1792) by Claude Joseph Rouget de Lisle; became France's national anthem; famously sung in the film Casablanca (1942) as an act of resistance
+
+These symbols spread across Europe and the world — France's tricolor influenced the flags of many countries (Ireland, Belgium, Italy, Mexico) and revolutionary movements everywhere.
+
+---
+
+### Glossary of Key Terms
+
+| Term | Definition |
+|------|-----------|
+| **Ancien Régime** | "Old Regime" — France's pre-revolutionary political and social order |
+| **Estate** | One of the three formal social orders of pre-revolutionary France |
+| **Bourgeoisie** | The middle class — merchants, lawyers, doctors, manufacturers |
+| **Proletariat** | The working class; wage labourers |
+| **Sans-culottes** | "Without breeches" — revolutionary urban working class of Paris |
+| **Jacobins** | Radical republican faction; led by Robespierre; ran the Terror |
+| **Girondins** | Moderate republican faction; opposed the Terror; many executed |
+| **Thermidorian Reaction** | The overthrow of Robespierre (July/Thermidor 1794) and end of the Terror |
+| **Directory** | The five-man executive that governed France 1795–1799 (before Napoleon) |
+| **Consulate** | Napoleon's government 1799–1804, before he declared himself Emperor |
+| **Levée en masse** | Mass conscription — France's revolutionary "people's army" |
+| **Constitutional monarchy** | System where a king rules but within constitutional limits |
+| **Popular sovereignty** | The principle that political authority derives from the people |
+| **Guillotine** | Device for beheading; used to execute ~16,594 people during the Terror |
