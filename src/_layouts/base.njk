@@ -355,6 +355,28 @@
 <script src="/js/bookmarks.js" defer></script>
 <script src="/js/pdf.js" defer></script>
 <script>
+/* Auto-subscript numbers in chemical formulas (e.g. CO2 → CO₂) */
+document.addEventListener('DOMContentLoaded', function() {
+  var el = document.querySelector('.article-body, .ncert-article');
+  if (!el) return;
+  var re = /([A-Z][a-z]?)(\d+)(?!\.\d)/g;
+  var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null, false);
+  var nodes = [];
+  while (walker.nextNode()) {
+    var n = walker.currentNode;
+    var tag = n.parentElement && n.parentElement.tagName;
+    if (tag === 'CODE' || tag === 'PRE' || tag === 'SUB' || tag === 'SUP' || tag === 'SCRIPT') continue;
+    re.lastIndex = 0;
+    if (re.test(n.textContent)) nodes.push(n);
+  }
+  nodes.forEach(function(n) {
+    var s = document.createElement('span');
+    s.innerHTML = n.textContent.replace(/([A-Z][a-z]?)(\d+)(?!\.\d)/g, '$1<sub>$2</sub>');
+    n.parentNode.replaceChild(s, n);
+  });
+});
+</script>
+<script>
 // Go to Top button
 (function(){
   var btn = document.getElementById('go-top');
