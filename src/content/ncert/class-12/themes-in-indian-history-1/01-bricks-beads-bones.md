@@ -1,7 +1,7 @@
 ---
 layout: ncert-chapter.njk
 title: "Bricks, Beads and Bones — The Harappan Civilisation"
-description: "The Harappan (Indus Valley) Civilisation c. 2600–1900 BCE — urban planning, subsistence, craft production, long-distance trade, seals and script, governance, and decline. UPSC-enriched Class XII NCERT notes."
+description: "UPSC master notes on the Harappan civilisation — Prelims fact bank, site-wise reference, traps, and Mains answer frameworks. Class XII NCERT Themes in Indian History Part I, Chapter 1."
 ncert_class: 12
 book: "Themes in Indian History — Part I"
 book_slug: themes-in-indian-history-1
@@ -19,400 +19,460 @@ tags:
   - harappan
 ---
 
-The Harappan civilisation — also called the **Indus Valley Civilisation** — was the earliest urban culture of the Indian subcontinent, flourishing between approximately **2600 and 1900 BCE**. It was named after **Harappa**, the first site to be discovered (modern-day Pakistan). The chapter uses Harappan artefacts, settlement patterns, and burial evidence to reconstruct how this civilisation was organised, what people ate, how they traded, and what caused its eventual decline.
+**Why this chapter matters for UPSC:** The Harappan civilisation is a perennial Prelims topic (8 questions between 1998–2025, including 2025, 2022, 2013, 2011) and a standard GS Paper 1 Mains topic for Ancient India. It also appears as a values and epistemology theme in Essay Paper. The NCERT's emphasis on *how* archaeologists reconstruct the past — not just *what* they found — is the key Mains differentiator.
+
+**Contemporary hook (for Mains introductions):** Dholavira was inscribed as a **UNESCO World Heritage Site on 27 July 2021** — India's 40th — under the name *Dholavira: a Harappan City*. This is the first Harappan site in India to receive this status.
 
 ---
 
-## Key Terms and Dating Conventions
-
-**Culture** — Archaeologists use this term to describe a set of distinctive objects (seals, beads, weights, stone blades, baked bricks) found together in a specific geographical area and time period.
-
-**Date abbreviations:**
-- **BP** = Before Present
-- **BCE** = Before Common Era
-- **CE** = Common Era
-- **c.** = circa (approximately)
-
-**Three phases of the civilisation:**
-- *Early Harappan* — pre-urban settlements with agriculture and pastoralism
-- *Mature Harappan* (c. 2600–1900 BCE) — the fully urban phase
-- *Late Harappan* — post-urban decline, rural character
-
-### 💡 Explainer: Why "Harappan" and not just "Indus Valley"?
-
-The term "Indus Valley Civilisation" was the original name given by John Marshall in 1924. Later, as hundreds of sites were found far beyond the Indus valley — in Gujarat, Rajasthan, Haryana, Punjab, and even Afghanistan — archaeologists shifted to "Harappan civilisation" (named after the first excavated site) to avoid geographical inaccuracy. The civilisation's geographical spread was enormous: from **Shortughai in Afghanistan** in the north-west to **Daimabad in Maharashtra** in the south-east, and from **Sutkagendor** on the Makran coast to **Alamgirpur in Uttar Pradesh** in the east.
-
----
-
-## 1. Beginnings
-
-Several **Early Harappan** cultures preceded the Mature Harappan phase. These settlements were small, had no large public structures, and were characterised by distinctive pottery, evidence of agriculture, pastoralism, and craft production. A clear break — marked by large-scale burning at some sites and abandonment of settlements — separates the Early from the Mature Harappan phase.
-
-**Settlement distribution data:**
-
-| Region | Total Sites | Early Harappan | Mature Harappan |
-|--------|-------------|----------------|-----------------|
-| Sind | 106 | 52 | 65 |
-| Cholistan | 239 | 37 | 136 |
-
-The jump in Mature Harappan sites — especially new settlements — indicates a significant expansion of the urban culture.
-
----
-
-## 2. Subsistence Strategies
-
-### What Harappans Ate
-
-Harappans had a diverse diet reconstructed from **archaeo-botanical** (plant) and **archaeo-zoological** (animal) evidence.
-
-**Plant remains found:**
-- Grains: wheat, barley, lentils, chickpea, sesame
-- Millets (Gujarat sites)
-- Rice (relatively rare)
-
-**Animal remains found:**
-- Domesticated: cattle, sheep, goat, buffalo, pig
-- Wild: boar, deer, gharial (indicating hunting or trade)
-- Also: fish and fowl bones
-
-### Agricultural Practices
-
-The NCERT notes that while grain finds indicate agriculture, direct evidence of farming methods must be reconstructed:
-
-- **Ploughing:** Terracotta plough models found at Cholistan and **Banawali**; at **Kalibangan**, a field with two sets of furrows at right angles (suggesting intercropping) was found
-- **Irrigation:** Most Harappan sites are in semi-arid zones. Traces of a canal were found at **Shortughai** (Afghanistan). Wells likely provided irrigation water. The large reservoir at **Dholavira** may have stored agricultural water
-
-### 🔗 Beyond the Book: The Harappan Agricultural Economy
-
-The NCERT does not detail the full range of Harappan agricultural sites but the archaeological record shows:
-- **Lothal** (Gujarat): Evidence of a brick-lined dock or warehouse, indicating maritime commerce
-- Harappans likely practised flood-retreat cultivation near rivers — planting in silt after seasonal floods receded, requiring minimal irrigation
-- The absence of palace storerooms (unlike Mesopotamia) has led some scholars to argue that surplus was managed through community networks rather than a centralised state granary — though the "granary" at Mohenjodaro is debated
-
----
-
-## 3. Mohenjodaro: A Planned Urban Centre
-
-**Mohenjodaro** (literally "Mound of the Dead") is the best-preserved Harappan city. Harappa itself was badly damaged by brick robbers in the 19th century — by 1875, enough bricks had been removed to lay "about 100 miles" of railway line between Lahore and Multan.
-
-### The Two-Part Settlement
-
-Every major Harappan city was divided into two distinct sections:
-
-| Section | Features |
-|---------|----------|
-| **Citadel** | Smaller; elevated on a mud-brick platform; separately walled; contained large public structures |
-| **Lower Town** | Larger; also walled; residential area with planned streets |
-
-Platform construction at the Lower Town required approximately **four million person-days** of labour — direct evidence of large-scale organised labour mobilisation.
-
-### The Grid-Plan and Drainage
-
-Streets and roads followed an **approximate grid pattern**, intersecting at right angles. Drains were laid out first; houses were built along them. Every house needed at least one wall along a street, so domestic wastewater could reach street drains.
-
-> "It is certainly the most complete ancient system as yet discovered. Every house was connected to the street drains. The main channels were made of bricks set in mortar and were covered with loose bricks that could be removed for cleaning."
-
-- Main drains had **sumps** (collection pits) at intervals for cleaning
-- Waste material was found in heaps alongside channels
-
-### Domestic Architecture
-
-- Houses centred on **open courtyards** with rooms on all sides — the courtyard was the hub for cooking, weaving, and daily work
-- No ground-level windows on exterior walls — indicating a concern for privacy
-- **Brick-paved bathrooms** in each house with drains connecting to street drainage
-- Staircase remains indicate upper storeys or roof access
-- Many houses had **wells**, often accessible from the street (possibly semi-public)
-- Mohenjodaro alone had an estimated **700 wells**
-
-### The Citadel Structures
-
-**The Great Bath:**
-- Large rectangular tank (approximately 12m × 7m × 2.4m deep) in a courtyard
-- Surrounded by corridors on all four sides
-- Two flights of steps leading into the tank (north and south)
-- Watertight construction: edge-set bricks, gypsum mortar, and a bitumen lining
-- An outlet drained into a large covered drain
-- Across a lane lay a smaller building with **eight bathrooms** (four on each side of a corridor), each with individual drains
-- Its location on the Citadel and elaborate construction suggest **ritual bathing** purposes
-
-**The Warehouse/Granary:**
-- Massive structure with surviving lower brick portions (upper wooden portions decayed)
-- Often described as a "granary" but the NCERT notes its function remains debated
-
-### 💡 Explainer: Standardised Bricks
-
-One of the most remarkable Harappan features: bricks across all settlements — from Jammu to Gujarat, spanning hundreds of kilometres — maintained the same **proportional ratio**. The length and breadth were always **four times and twice the height** respectively (ratio 4:2:1). This standardisation could not have happened without either a central authority specifying dimensions or a very tightly shared craft tradition.
-
----
-
-## 4. Tracking Social Differences
-
-### Evidence from Burials
-
-Harappan dead were generally laid in pits. Variations — some pits were brick-lined — possibly indicate social differences. Key findings:
-
-- Pottery and ornaments buried with the dead (possibly for afterlife use)
-- Jewellery found in both male and female graves
-- Mid-1980s Harappa cemetery excavations: some male burials contained elaborate ornaments (three shell rings, a jasper bead, hundreds of micro-beads near the skull) and copper mirrors
-- **Overall:** Minimal precious objects in burials, unlike Egyptian tombs — suggesting limited belief in provisioning the afterlife with wealth
-
-### Luxury versus Utilitarian Objects
-
-Archaeologists classify finds as:
-- **Utilitarian:** Daily-use objects from ordinary materials — querns, pottery, needles, stone blades
-- **Luxuries:** Rare items from costly non-local materials or requiring complex technology
-
-**Luxury object distribution:**
-- Miniature faience (fired paste) perfume bottles appear mostly in large cities (Mohenjodaro, Harappa) — none found at Kalibangan
-- **Gold:** All Harappan gold jewellery recovered from hoards only; gold was clearly precious
-- This concentration of luxury goods in large settlements indicates a hierarchy between large urban centres and smaller settlements
-
----
-
-## 5. Craft Production
-
-**Chanhudaro** (less than 7 hectares) was almost entirely devoted to craft production: bead-making, shell-cutting, metal-working, seal-making, and weight production.
-
-### Bead Production
-
-**Materials:** Carnelian, jasper, crystal, quartz, steatite; copper, bronze, gold; shell, faience, terracotta; composite stones (two materials cemented together)
-
-**Shapes:** Disc, cylindrical, spherical, barrel-shaped, segmented; some decorated by incising, painting, or etching
-
-**Manufacturing process varied by material:**
-
-*Carnelian:* Red colour obtained by **firing yellowish raw material first**. Process:
-1. Nodule chipped into rough shape
-2. Finely flaked into final form
-3. Ground and polished
-4. Drilled with specialised tools (found at Chanhudaro, Lothal, Dholavira)
-
-*Steatite (soft stone):* Could be moulded from paste (powder + water), permitting more shapes than hard stone
-
-### Specialised Production Centres
-
-| Centre | Specialisation |
-|--------|---------------|
-| Chanhudaro | Beads, shell objects, seals, weights |
-| Lothal | Bead-making, carnelian processing |
-| Nageshwar, Balakot (coastal) | Shell bangles, ladles, inlay |
-| Dholavira | Bead drilling |
-
-Finished products from these centres were distributed to large urban centres like Mohenjodaro and Harappa.
-
-### Identifying Production Sites
-
-Archaeologists look for: raw materials, tools, unfinished objects, rejects, and **waste material** (the most reliable indicator). Shell or stone cutting leaves waste at production sites; tiny residual bits remain in work areas.
-
-### 🔗 Beyond the Book: Faience
-
-Faience — not mentioned in detail in the NCERT — is a glazed non-clay ceramic material made by grinding sand or silica, adding colouring agents (usually copper for blue-green colour) and gum, and then firing. It was used for small vessels, beads, and figurines. The technique for producing faience was independently developed in ancient Egypt, Mesopotamia, and the Harappan civilisation — indicating parallel innovation rather than diffusion.
-
----
-
-## 6. Procurement of Materials and Long-Distance Trade
-
-Clay was locally available, but stone, timber, and metals required external procurement. **Terracotta bullock cart models** suggest land transport was significant; riverine routes along the Indus and coastal routes were also used.
-
-### Raw Material Sources
+## Part 1 — Prelims Fast Reference
+
+### 📌 Key Fact: The Three Numbers to Remember
+
+| Fact | Number |
+|------|--------|
+| Civilisation dates (Mature Harappan) | **c. 2600–1900 BCE** |
+| Harappan script signs | **375–400** (undeciphered) |
+| Mohenjodaro wells (estimated) | **~700** |
+
+### Site-Wise Reference Table
+
+| Site | State/Region | Discoverer | Year | Special Feature |
+|------|-------------|-----------|------|----------------|
+| Harappa | Punjab, Pakistan | Daya Ram Sahni | 1921 | First discovered; badly damaged by brick robbers |
+| Mohenjodaro | Sind, Pakistan | Rakhal Das Banerji | 1922 | Best preserved; Great Bath; ~700 wells |
+| Chanhudaro | Sind, Pakistan | N.G. Majumdar | 1931 | Only major site **without a citadel**; craft production hub |
+| Lothal | Gujarat, India | S.R. Rao | 1955 | Dockyard (debated); bead-making; carnelian processing |
+| Kalibangan | Rajasthan, India | B.B. Lal & B.K. Thapar | 1960 | Ploughed field (double-crop furrows); fire altars on citadel |
+| Surkotada | Gujarat, India | J.P. Joshi | 1964 | Bones of horse (debated); fortified settlement |
+| Dholavira | Gujarat, India | R.S. Bisht | 1990 | **Three-part division**; water reservoirs; large signboard; UNESCO WHC 2021 |
+| Rakhigarhi | Haryana, India | Amarendra Nath | 1969 | **Largest Harappan site** (by area); 2019 DNA study |
+| Banawali | Haryana, India | R.S. Bisht | 1973 | Terracotta plough; no drainage system |
+| Alamgirpur | Uttar Pradesh | Y.D. Sharma | 1958 | **Easternmost** known Harappan site |
+| Sutkagendor | Balochistan | Aurel Stein | 1927 | **Westernmost** Harappan site (on Makran coast) |
+| Manda | Jammu & Kashmir | J.P. Joshi | 1977 | **Northernmost** Harappan site |
+| Daimabad | Maharashtra | S.A. Sali | 1958 | **Southernmost** Harappan site |
+| Shortughai | Afghanistan | — | — | Lapis lazuli source; northernmost in full extent |
+
+### Key Firsts and Superlatives
+
+| Superlative | Answer |
+|-------------|--------|
+| First site discovered | **Harappa** (1921) |
+| Largest site (area) | **Rakhigarhi**, Haryana |
+| Best preserved city | **Mohenjodaro** |
+| Only site without citadel | **Chanhudaro** |
+| Site with earliest water conservation | **Dholavira** (stone reservoirs) |
+| Only site with three urban divisions | **Dholavira** (Upper, Middle, Lower Town) |
+| First UNESCO-listed Harappan site in India | **Dholavira** (2021) |
+| City announced as "discovery" (1924) | **Mohenjodaro + Harappa** jointly (John Marshall) |
+
+### Famous Artefacts and Where They Were Found
+
+| Artefact | Material | Found at |
+|---------|----------|---------|
+| **Dancing Girl** | Bronze (lost wax/cire perdue technique) | Mohenjodaro |
+| **Priest-King** statue | Steatite (soapstone) | Mohenjodaro |
+| **Pashupati Seal** (proto-Shiva) | Steatite | Mohenjodaro |
+| **Unicorn seal** | Steatite | Multiple sites (most common motif) |
+| **Mother goddess figurines** | Terracotta | Multiple sites |
+| **Terracotta plough** | Terracotta | Banawali, Cholistan |
+| **Copper chariot model** | Copper | Daimabad |
+| **Inscribed signboard** | White gypsum paste on wood | Dholavira (unique — largest Harappan inscription) |
+
+### 🎯 UPSC Connect: Prelims Traps
+
+These are statements UPSC has historically used as wrong options. Know why each is **false**:
+
+| False Statement | Why it's wrong |
+|----------------|---------------|
+| "Harappans used iron tools" | They were **Chalcolithic/Bronze Age** — no iron |
+| "Harappan script has been deciphered" | It remains **undeciphered** |
+| "The Dancing Girl is made of gold/terracotta" | It is **bronze** (lost wax technique) |
+| "All Harappan cities had a two-part division" | **Dholavira has three parts**; Chanhudaro had no citadel |
+| "Wheat was the primary crop" | Wheat, barley, lentil all found; **millets** in Gujarat sites; **rice rare** |
+| "Harappans had no contact with Mesopotamia" | Extensive trade — Harappan jars at Oman, seals in Mesopotamia |
+| "The horse was domesticated by Harappans" | **Debated** — horse bones at Surkotada are disputed |
+| "The Harappan state was definitely centralised" | **Debated** — egalitarian vs. city-state vs. unified state theories |
+| "Cunningham discovered Harappa" | Cunningham received a seal but **didn't recognise its antiquity**; Sahni excavated |
+
+### Agriculture Evidence: Site-by-Site
+
+| Evidence | Site |
+|---------|------|
+| Ploughed field with two sets of furrows at right angles (intercropping) | **Kalibangan** |
+| Terracotta plough model | **Banawali**, Cholistan |
+| Canal remains (irrigation) | **Shortughai**, Afghanistan |
+| Large water reservoir (possible irrigation storage) | **Dholavira** |
+| Rice grains | **Lothal** and some Gujarat sites |
+| Millets | Gujarat sites generally |
+
+### Trade: Materials and Sources
 
 | Material | Source Region |
-|----------|--------------|
-| Copper | Khetri region, Rajasthan |
-| Gold | South India |
-| Lapis lazuli | Shortughai, Afghanistan |
-| Carnelian | Bharuch, Gujarat |
+|---------|--------------|
+| Copper | Khetri, Rajasthan |
+| Gold | South India (Kolar) |
+| Silver | Afghanistan, Iran |
+| Lapis lazuli | **Shortughai**, Afghanistan (Badakhshan) |
+| Carnelian | Bharuch (Broach), Gujarat |
 | Steatite | South Rajasthan, North Gujarat |
-| Shell | Nageshwar, Balakot (coastal Makran) |
-| Timber | Himalayas and coastal areas |
+| Timber | Himalayas, Gujarat coast |
+| Shell | Nageshwar, Balakot (Makran coast) |
+| Tin | Afghanistan / Iran |
 
-### Contact with Mesopotamia
+### Mesopotamia Trade: Key Evidence Points
 
-**Mesopotamian texts** from the third millennium BCE mention trade with three regions:
-- **Dilmun** (probably Bahrain)
-- **Magan** (possibly Oman)
-- **Meluhha** (most likely the Harappan region)
+| Evidence Type | Specific Detail |
+|--------------|----------------|
+| Mesopotamian texts | Mention **Meluhha** (likely Harappan region) — products: carnelian, lapis, copper, gold, wood |
+| Mesopotamian texts | Also mention **Dilmun** (Bahrain) and **Magan** (Oman) as intermediaries |
+| Chemical analysis | Omani copper and Harappan artefacts share **nickel traces** → same ore source |
+| Harappan jars at Oman | Thick black clay-coated storage jars found at Omani sites |
+| Seals | Harappan-style seals (humped bull motif) in Mesopotamian contexts |
+| Dilmun weights | Follow **Harappan weight standards** |
+| Mesopotamian myth | "Haja-bird" from Meluhha = possibly **peacock** |
 
-Meluhha products mentioned: carnelian, lapis lazuli, copper, gold, and wood. One Mesopotamian myth references the **haja-bird** (possibly the peacock) as a Meluhhan bird.
+### Weight System
 
-**Archaeological evidence for Indus–Mesopotamia contact:**
-- Distinctive thick-walled, black clay-coated **Harappan jars** found at Omani sites (likely used to transport liquid goods in exchange for copper)
-- **Chemical analysis:** Omani copper and Harappan copper artefacts share **nickel traces**, suggesting common source
-- **Cylinder seals** with humped-bull motifs (Indus-derived) found in Mesopotamian contexts
-- **Dilmun ("Persian Gulf") seals** from Bahrain carry Harappan motifs
-- **Weights** at Dilmun followed Harappan standards — indicating direct commercial interaction
+| Feature | Detail |
+|---------|--------|
+| Material | Chert stone, cubical, no markings |
+| Lower denominations | **Binary** (1, 2, 4, 8, 16, 32, 64 … up to 12,800) |
+| Higher denominations | **Decimal** |
+| Use | Jewellery, bead weighing (smaller); commodity trade (larger) |
+| Metal scale-pans | Found at multiple sites |
+| Significance | Same weight system across entire Harappan region = centralised trade control |
 
-Mesopotamian texts describe Meluhha as "a land of seafarers"; ship depictions on Harappan seals confirm sea communication.
+### The Harappan Script: Prelims Facts
 
-### 🎯 UPSC Connect: Harappan Trade for GS Paper 1
-
-The Harappan civilisation's long-distance trade network is directly relevant to UPSC GS Paper 1 (Ancient India):
-- **Extent of trade**: Harappan artefacts (steatite micro-beads) found in the Khetri copper-mining region; Harappan jars at Omani sites; Indus-motif seals in Mesopotamia
-- **Standardised weights**: Use of the same binary–decimal weight system across the Harappan sphere indicates a coordinated trade network
-- **This topic has appeared in Mains** in the context of ancient India's maritime tradition and Indian Ocean trade history
-
----
-
-## 7. Seals, Script, and Weights
-
-### Seals and Sealings
-
-Seals had a dual function:
-1. **Identity:** Seals were pressed into wet clay on goods being traded; the impression identified the sender and confirmed the contents were untampered
-2. **Communication:** Motifs (usually an animal — the unicorn/one-horned bull is most common) conveyed meaning to non-literate recipients
-
-### The Harappan Script
-
-- Found on seals, copper tools, pottery, jewellery, tablets, bone rods
-- **Not yet deciphered** — one of the world's major unsolved script mysteries
-- Contains **375–400 signs** — too many for an alphabet; likely logosyllabic (a mix of word and syllable signs)
-- Most inscriptions are short; the **longest known inscription** has approximately 26 signs
-- Written **right to left** (inferred from wider spacing on the right side of inscriptions, suggesting the engraver started from the right)
-
-### Weights
-
-- Made from **chert stone**, generally cubical, no markings
-- **Lower denominations:** binary system (1, 2, 4, 8, 16, 32, 64, up to 12,800)
-- **Higher denominations:** decimal system
-- Smaller weights used for jewellery and beads; metal scale-pans also found
-- The **uniform weight system across the entire Harappan region** is strong evidence for centralised authority or at least a deeply integrated trade network
-
-### 📌 Key Fact: The Harappan Script
-
-The Harappan script remains undeciphered despite over a century of attempts. It is distinct from both Mesopotamian cuneiform and Egyptian hieroglyphics. If ever decoded, it would transform our understanding of the civilisation — we would be able to read its administrative records, religion, and social organisation directly.
+| Feature | Detail |
+|---------|--------|
+| Total signs | **375–400** |
+| Type | Logosyllabic (not alphabetic) |
+| Direction | **Right to left** (wider spacing on right side) |
+| Status | **Undeciphered** |
+| Longest inscription | ~26 signs |
+| Surfaces | Seals, copper tools, pottery, tablets, bone rods, jewellery |
+| Unique find | **Dholavira signboard** — largest Harappan inscription; white paste letters on wood |
 
 ---
 
-## 8. The Question of Authority
+## Part 2 — NCERT Chapter Notes (Mains Depth)
 
-The extraordinary uniformity of Harappan material culture — pottery, seals, weights, brick ratios — across a region larger than contemporary Egypt or Mesopotamia raises the question: **who organised all this?**
+### 1. Geography and Dating
 
-### Competing Theories
+The Harappan (Indus Valley) Civilisation spans approximately **2600–1900 BCE** in its Mature phase. It covered a vast territory — from **Shortughai in Afghanistan** to **Daimabad in Maharashtra**, from **Sutkagendor on the Makran coast** to **Alamgirpur in western Uttar Pradesh**. This was larger than contemporary Egypt or Mesopotamia combined.
 
-| Theory | Evidence For | Evidence Against |
+**Three-phase structure:**
+- *Early Harappan* (pre-urban, small settlements, distinctive pottery)
+- *Mature Harappan* (2600–1900 BCE) — fully urban
+- *Late Harappan* (post-1900 BCE) — rural, declining craft
+
+### 💡 Explainer: Why the Name Shift — "Indus Valley" → "Harappan"?
+
+"Indus Valley Civilisation" was coined by John Marshall (1924) but proved geographically misleading as sites proliferated well beyond the Indus. "Harappan" (after the first excavated site) is now standard among archaeologists. Hundreds of sites are in the **Ghaggar-Hakra river system** (the dried-up Sarasvati river basin) — actually more sites than on the Indus itself. This geographic reality is politically sensitive but archaeologically significant: the civilisation was not purely Indus-based.
+
+---
+
+### 2. Subsistence: What Harappans Ate and How They Farmed
+
+**From archaeo-botanical evidence:**
+- Wheat, barley, lentil, chickpea, sesame (widespread)
+- Millets (Gujarat sites — indicating different agro-ecological adaptations)
+- Rice (rare — Gujarat sites like Lothal)
+- Cotton (traces found — Harappans are among the earliest known cotton users)
+
+**From archaeo-zoological evidence:**
+- Domesticated: cattle, sheep, goat, buffalo, pig
+- Wild: boar, deer, gharial (hunted or traded)
+- Fish and fowl bones at multiple sites
+
+**Farming technology reconstructed from NCERT:**
+- Ploughing: terracotta plough models (Banawali, Cholistan); ploughed field at Kalibangan showing **two crops in the same field** (intercropping before the rabi season)
+- Irrigation: trace canal at Shortughai; wells throughout cities; large stone reservoir at Dholavira (earliest sophisticated water conservation system known)
+
+### 🎯 UPSC Connect: Harappan Agriculture for Mains
+
+The phrase "archaeological reconstruction" is key for GS Paper 1 answers. A strong answer on Harappan agriculture would note: (a) direct evidence — grain finds, animal bones; (b) indirect evidence — plough models, irrigation traces; (c) what we *cannot* say — we don't know the exact farming calendar, whether they practised flood-retreat cultivation, or who owned the land. Distinguishing evidence from inference impresses examiners.
+
+---
+
+### 3. Urban Planning: Mohenjodaro
+
+Mohenjodaro remains the most revealing Harappan city. It was organised into two clearly separated sections:
+
+**The Citadel:** Elevated on a mud-brick platform (~6–7 metres above Lower Town); separately walled; contained public/ritual structures. Construction of the platform alone required an estimated **four million person-days** of labour.
+
+**The Lower Town:** Walled, larger, residential. Streets ran approximately at right angles (grid plan). Drains were laid out *before* houses were built along them — confirming pre-planned, not organic, growth.
+
+**The drainage system:**
+- Every house connected to street drains
+- Main channels: brick-set, mortar-joined, covered with removable bricks for cleaning
+- Sumps at regular intervals for debris collection
+- No comparable system existed anywhere in the ancient world at this scale
+
+**Domestic architecture:**
+- Houses centred on open courtyards (cooking, weaving, social activity)
+- No ground-level street-facing windows (privacy)
+- Brick-paved bathrooms; individual drains connecting to street system
+- Many houses had wells (~700 wells in Mohenjodaro total)
+- Evidence of upper storeys (staircase remains)
+
+### 💡 Explainer: Standardised Bricks — What They Prove
+
+Across ALL Harappan sites — from Jammu to Gujarat — bricks maintain the same proportional ratio: **length : breadth : height = 4 : 2 : 1**. This is extraordinary. In Mesopotamia or Egypt, bricks varied widely by region and period. Harappan brick standardisation over thousands of kilometres over hundreds of years implies either:
+- A centralised authority that set specifications, OR
+- A deeply shared craft tradition transmitted across the entire cultural sphere
+
+Either way, it confirms a degree of coordination with no parallel in the ancient world at this scale and time.
+
+**The Great Bath:**
+- Rectangular tank (~12m × 7m × 2.4m deep) on the Citadel
+- Watertight: edge-set bricks + gypsum mortar + probable bitumen lining
+- Surrounded by corridors, rooms, a large well
+- Eight small bathrooms across a lane, each with individual drains
+- Purpose: the NCERT says "ritual bathing" is *suggested* by its Citadel location — not confirmed
+
+### 🔗 Beyond the Book: Dholavira's Three-Division Layout
+
+Unlike Mohenjodaro's two-part structure, **Dholavira** (Gujarat) had a **three-part layout**: a Citadel, a Middle Town, and a Lower Town — all separated by walls with fortified gateways. Dholavira also had:
+- **16 rock-cut water reservoirs** (the most sophisticated ancient water harvesting system found anywhere)
+- A large **signboard** with Harappan script letters made of white gypsum paste inlaid into wood — unique, as nothing similar has been found elsewhere; the letters are the largest known Harappan script characters
+- A large ceremonial ground (possibly for public gatherings)
+
+---
+
+### 4. Social Differences: What the Evidence Says
+
+**From burials:**
+- Dead generally laid in pits; some pits are brick-lined (possible status marker)
+- Pottery and ornaments buried with some individuals
+- Male burials at Harappa with shell rings, jasper beads, copper mirrors
+- **Overall:** burial goods are modest; no royal tombs comparable to Egyptian pharaohs or Mesopotamian kings
+
+**From artefact distribution:**
+- Luxury objects (miniature faience vessels, gold jewellery) concentrated in large cities
+- Faience vessels from Mohenjodaro and Harappa; none from smaller Kalibangan
+- All gold jewellery found only in **hoards** (buried caches), not in everyday contexts
+- This suggests stratification: large cities > small towns > villages in access to luxury goods
+
+**What we cannot say:** The NCERT is explicit — social differences existed, but whether they corresponded to hereditary caste, occupational guilds, or merchant families cannot be determined from material evidence alone.
+
+---
+
+### 5. Craft Production
+
+**Chanhudaro** (the NCERT's key case study) was almost entirely devoted to specialised craft production — bead-making, shell-cutting, metal-working, seal-making, weight production.
+
+**Bead technology:**
+
+| Material | Key Process |
+|---------|------------|
+| Carnelian | Fire the yellow raw material to turn it red; chip → flake → grind → polish → drill |
+| Steatite (soft) | Mould from powder paste; coat with alkali glaze and fire |
+| Faience | Grind silica + colour + gum; fire |
+| Gold | Roll into caps for composite beads (stone + gold) |
+
+**Identifying production centres (methodological point for Mains):**
+Archaeologists look for: raw materials, tools, unfinished objects, **waste material**. Waste is the most reliable indicator — shell chips, stone flakes, micro-beads. This allows identification even where finished products are absent.
+
+### 📌 Key Fact: The Specialised Production Network
+
+| Centre | Specialisation | Distribution |
+|--------|---------------|-------------|
+| Chanhudaro | Beads, seals, weights, shell objects | Mohenjodaro, Harappa |
+| Lothal | Bead-drilling, carnelian processing | Regional |
+| Nageshwar, Balakot | Shell bangles, ladles, inlay | Inter-regional |
+| Dholavira | Bead drilling | Regional |
+
+---
+
+### 6. Long-Distance Trade and External Contacts
+
+Mesopotamian texts (3rd millennium BCE) name three trading partners: **Dilmun** (Bahrain), **Magan** (Oman), and **Meluhha** (most likely Harappan). This is corroborated by:
+
+1. Harappan jars at Omani sites + chemical match of copper (nickel traces)
+2. Harappan seals (humped bull) in Mesopotamian contexts
+3. Dilmun weights following Harappan standards
+4. Meluhhan products in texts: carnelian, lapis lazuli, copper, gold, wood — all Harappan trade goods
+
+**So what does this prove?** Harappan merchants operated across the Arabian Sea ~2500 years before the famous Roman-Indian trade that historians often cite. The subcontinent's maritime trading tradition is ancient — Harappan, not just medieval.
+
+### 🔗 Beyond the Book: The Lothal Dockyard Debate
+
+**Lothal** (Gujarat) has a large rectangular brick structure (218m × 37m) that S.R. Rao interpreted as a **dockyard** — the world's earliest known artificial dock, connecting to the Bhogava river and allowing boats from the Gulf to unload. If true, this would be extraordinary evidence of organised maritime commerce. However, some scholars (including those in the NCERT tradition) remain cautious — the structure may have been a large storage facility or warehouse, not a dock. The **debate itself** is a useful Mains answer component: it illustrates how the same archaeological evidence can support competing interpretations.
+
+---
+
+### 7. Seals, Script, and Weights
+
+**Seals:** Flat, square, steatite; typically carry a script inscription + animal motif. Functions:
+- Pressed into clay on goods → authenticated untampered shipments
+- Conveyed identity to non-literate recipients via the animal motif
+
+**Most common seal motif:** The **unicorn** (one-horned bull) — found at virtually every major Harappan site.
+
+**Pashupati Seal:** Shows a horned, cross-legged seated figure surrounded by animals. Interpreted as a proto-Shiva or Pashupati. The NCERT is explicitly cautious — the figure could be a shaman, not a deity. The seated posture is consistent with yoga but also with other postures.
+
+**Script:** Logosyllabic, right to left, 375–400 signs, undeciphered. The NCERT notes that writing appeared on perishable materials too — suggesting widespread functional literacy beyond the small number of seal-using elites.
+
+**Weights:** Chert, cubical, binary (1–12,800) and decimal systems. The same weight system operating across thousands of kilometres for centuries = the most powerful single argument for a coordinated Harappan political or commercial authority.
+
+---
+
+### 8. The Question of Governance
+
+**The core puzzle:** The material record shows extraordinary uniformity — identical brick ratios from Jammu to Gujarat, identical weights, identical seals, strategically located settlements near raw material sources. Who organised this?
+
+**Three competing theories:**
+
+| Theory | Key Argument | Weakness |
+|--------|-------------|---------|
+| **Egalitarian society** | No clear elite burials or palaces | Can't explain standardisation across thousands of km |
+| **Multiple city-states** | Different cities may have had independent elites | Doesn't explain shared material culture |
+| **Unified state** | Uniformity, planning, strategic placement all suggest central authority | No palace, no royal tombs, no army depictions found |
+
+**The NCERT's position:** The unified state is most plausible. But the absence of the typical markers of ancient states — monumental royal tombs, palace complexes with treasure hoards, war propaganda, clear royal iconography — makes Harappan governance a unique archaeological puzzle.
+
+### 💡 Explainer: Why the Absence of Evidence Matters
+
+Ancient Mesopotamia gives us royal burial treasures (Ur's Royal Cemetery), king-lists, palace archives, war monuments. Ancient Egypt gives us pharaonic tombs and inscriptions naming rulers. Harappan civilisation — which was arguably *larger* than both — gives us *none of these*. Either:
+1. The Harappan state existed but expressed authority through trade control, standardisation, and infrastructure rather than military force and monumental display, OR
+2. The civilisation had a genuinely different political structure (merchant oligarchy? religious councils?) that left no familiar traces
+
+Both possibilities are fascinating — and both are valid Mains answer components.
+
+---
+
+### 9. The Decline: What We Know and What We Don't
+
+By **c. 1900 BCE**, Mature Harappan sites in Sind and Cholistan were being abandoned. By **c. 1800 BCE**, the urban phase was effectively over.
+
+**What the late/post-urban record shows:**
+- Disappearance of seals, standardised weights, long-distance trade objects
+- Script no longer in use
+- Craft specialisation collapses
+- House construction quality declines
+- Large public structures abandoned
+- Population disperses into smaller settlements in Gujarat, Haryana, western UP (but these are rural, not urban)
+
+**This sequence is important for Mains:** The decline was not a sudden catastrophe. It was a *systemic collapse* — the urban complex of trade, craft specialisation, administrative systems, and large-scale labour mobilisation unravelled together.
+
+**Proposed causes (evaluate, don't just list):**
+
+| Cause | Evidence For | Evidence Against |
+|-------|-------------|-----------------|
+| **Climate change / weakening monsoon** | Palaeoclimate data shows monsoon weakening c. 2000 BCE | Doesn't explain why some sites survived |
+| **Sarasvati/Ghaggar-Hakra drying** | Many sites along now-dry river; tectonic evidence of river course change | River may have dried gradually, not suddenly |
+| **Deforestation and overuse** | Charcoal evidence; kiln fuel demand | Too slow for civilisation-wide collapse |
+| **Trade disruption** | Mesopotamia's own third-dynasty collapse c. 2000 BCE may have cut Harappan export markets | Correlation, not proven causation |
+| **Epidemics** | No skeletal evidence of mass disease | Hard to disprove archaeologically |
+
+**The "Aryan Invasion" theory — definitively rejected:**
+Wheeler's 1947 hypothesis (Rigvedic *puramdara* = Harappan city-destroyer) was refuted by George Dales (1960s): the Mohenjodaro skeletons were from different time periods (not a single massacre), no weapon injuries, no destruction layer, no burning pattern consistent with warfare. Later DNA studies confirm the picture.
+
+### 🔗 Beyond the Book: Rakhigarhi DNA Study (2019)
+
+Published in *Cell* (2019), ancient DNA from a Harappan burial at **Rakhigarhi** (the civilisation's largest site, Haryana) showed:
+- **No Steppe pastoralist ancestry** — definitively refuting the Aryan-invasion-from-Central-Asia model as applying to the Harappan people
+- Ancestry from ancient Iranian farmers + South Asian hunter-gatherers
+- Modern South Asians derive *primarily* from the Harappan genetic pool
+
+**UPSC relevance:** This study directly addresses ancient Indian population history (GS Paper 1). It also frames the ongoing scholarly debate about migration vs. indigenism. Present it as evidence, not as political conclusion.
+
+---
+
+### 10. How the Civilisation Was Discovered: The Archaeological Method
+
+**The discovery timeline as a Mains topic:**
+
+| Figure | Contribution | Error/Limitation |
 |--------|-------------|-----------------|
-| **Egalitarian society** — no rulers | Minimal wealth differences in burials | Can't explain standardisation over such a vast region |
-| **Multiple city-states** — separate rulers for Harappa, Mohenjodaro, etc. | Different major cities may have had distinct characters | Artefact uniformity suggests some coordination |
-| **Unified state** — single centralised authority | Uniform bricks, weights, seals; planned settlements; raw material sites appear strategically located | No clear palace or royal tomb found |
+| **Alexander Cunningham** (1875) | Received Harappan seal; first ASI Director-General | Missed its antiquity; assumed Indian history began with Ganga valley |
+| **Daya Ram Sahni** (1921) | Excavated Harappa; identified seals as ancient | — |
+| **Rakhal Das Banerji** (1922) | Excavated Mohenjodaro; recognised single civilisation | — |
+| **John Marshall** (1924) | Announced discovery publicly; studied everyday life | Excavated in *horizontal* units ignoring stratigraphy — mixed artefacts from different periods |
+| **R.E.M. Wheeler** (1944) | Introduced *stratigraphic* excavation; recognised mound layers | Wrongly proposed "Aryan invasion" hypothesis based on Rigvedic analogy |
+| **George Dales** (1960s) | Refuted Wheeler's massacre theory with skeletal re-analysis | — |
+| **Post-1947** | Indian archaeologists discovered Kalibangan, Lothal, Rakhigarhi, Dholavira | — |
 
-The NCERT notes the **unified state theory** as most plausible — the level of standardisation across geography is difficult to explain through community consensus alone.
-
-### The "Palace" and the "Priest-King"
-
-- A large Mohenjodaro building was labelled a "palace" — but no exceptional associated finds confirmed this
-- A stone statue was named the **"priest-king"** based on analogy with Mesopotamia — but Harappan ritual practices are poorly understood and we cannot be certain ritual performers held political power
-
----
-
-## 9. The End of the Civilisation
-
-By approximately **1800 BCE**, most Mature Harappan sites — especially in Cholistan — were abandoned. Population simultaneously expanded into **Gujarat, Haryana, and western Uttar Pradesh**, but these settlements show:
-
-- **Disappearance** of seals, standardised weights, special beads, script
-- Loss of long-distance trade and craft specialisation
-- Deteriorated house construction
-- Abandonment of large public structures
-- Shift to "Late Harappan" rural lifestyles with only local crafts and objects
-
-This pattern suggests a **collapse of the Harappan state** — whatever the political or administrative structure was, it ceased functioning around 1900–1800 BCE.
-
-### Proposed Causes
-
-| Proposed Cause | Assessment |
-|----------------|------------|
-| Climate change / drought | Supported by some palaeoclimate data (weakening of monsoon) |
-| Deforestation for kiln fuel | Possible contributing factor |
-| Excessive floods | Evidence at some sites |
-| Sarasvati river drying up | Many sites along now-dry Ghaggar-Hakra river system |
-| Landscape overuse | Possible, but speculative |
-| "Aryan invasion" | **Rejected** — see below |
-
-No single cause fully explains the complete civilisation collapse; multiple interacting factors likely contributed.
-
-### The "Aryan Invasion" Theory — and Its Rejection
-
-**Original claim (Marshall 1931, Wheeler 1947):** Skeletal remains found in "Deadman Lane" at Mohenjodaro, combined with Rigvedic references to Indra destroying *puras* (fortified settlements), led Wheeler to suggest Aryan invaders destroyed the Harappan cities.
-
-**Refutation (George Dales, 1960s):** Dales showed the skeletons at Mohenjodaro belonged to **different time periods** and were not a single massacre event. There was:
-- No destruction layer
-- No signs of extensive burning
-- No bodies of armoured warriors
-- No evidence of citadel defence
-
-The "invasion" interpretation was based on wishful analogy with texts, not archaeological evidence.
+**The "Marshall vs Wheeler" debate for Mains:**
+Marshall's strength: focus on ordinary life, not just monumental finds (progressive for his time). Weakness: ignored stratigraphy. Wheeler's strength: scientific excavation method. Weakness: over-interpreted literary evidence (Rigveda). This contrast illustrates how **methodological choices shape historical conclusions** — a rich theme for History and archaeology-methodology questions.
 
 ---
 
-## 10. Discovery of the Harappan Civilisation
+### 11. Problems of Interpretation: The Epistemology of Archaeology
 
-### Cunningham's Missed Opportunity
+**Why we can say some things but not others:**
 
-**Alexander Cunningham**, the first Director-General of the Archaeological Survey of India (ASI), focused on sites mentioned in Chinese Buddhist pilgrim accounts. His framework assumed Indian history began with Ganga valley cities. When Harappan seals came to him in the 19th century, he failed to recognise their antiquity — they didn't fit his timeline.
+| Claim | Status |
+|-------|--------|
+| Harappans grew wheat and barley | **Established** (grain remains) |
+| Harappans had long-distance trade | **Established** (artefacts, chemical analysis) |
+| Harappans had a centralised state | **Plausible but debated** (uniformity + absence of palace evidence) |
+| Great Bath was for ritual bathing | **Speculative** (location + design suggest it, but no text confirms) |
+| Pashupati seal depicts a deity | **Speculative** (could be shaman, chief, or something unknown) |
+| Terracotta female figurines are "mother goddesses" | **Speculative** (assumption imported from later traditions) |
+| Conical stones are lingas | **Speculative** (Mackay noted they could be game pieces) |
 
-### Discovery (1921–24)
-
-- **Daya Ram Sahni** discovered seals at Harappa in layers far older than Early Historic levels
-- **Rakhal Das Banerji** found similar seals at Mohenjodaro, recognising that the two sites belonged to one civilisation
-- In **1924**, **John Marshall** (the ASI's first professional archaeologist, trained in Greece and Crete) publicly announced the discovery of the "Indus Valley Civilisation" — a culture contemporary with Mesopotamia
-- Marshall introduced the principle of studying everyday life patterns, not just monumental finds — but his error was excavating in **uniform horizontal units** rather than following natural soil layers (stratigraphy), which mixed artefacts from different periods
-
-### Wheeler's Stratigraphic Revolution
-
-**R.E.M. Wheeler**, appointed ASI Director-General in **1944**, corrected Marshall's stratigraphic error. A former army brigadier, Wheeler insisted on reading mound stratigraphy before digging — ensuring artefacts were assigned to the correct cultural layer.
-
-**After Partition (1947):** Major sites (Harappa, Mohenjodaro, Chanhudaro) fell in Pakistani territory. Indian archaeologists responded by intensively exploring Kutch, Punjab, and Haryana, discovering:
-- **Kalibangan** (Rajasthan) — B.B. Lal and B.K. Thapar, 1960
-- **Lothal** (Gujarat) — S.R. Rao, 1955
-- **Dholavira** (Gujarat) — R.S. Bisht, 1990
-- **Rakhi Garhi** (Haryana) — now among the largest known sites
-
-### Key Archaeological Dates
-
-| Year | Event |
-|------|-------|
-| 1875 | Cunningham reports a Harappan seal |
-| 1921 | M.S. Vats begins Harappa excavations |
-| 1925 | Mohenjodaro excavations begin |
-| 1924 | Marshall announces civilisation discovery |
-| 1946 | Wheeler excavates Harappa |
-| 1955 | S.R. Rao begins Lothal excavations |
-| 1960 | B.B. Lal, B.K. Thapar begin Kalibangan |
-| 1990 | R.S. Bisht begins Dholavira excavations |
+**The key methodological point:** As NCERT states, "it would be a mistake to assume that we can make sense of these figures by reading back from later traditions." Archaeology reconstructs from material evidence; it cannot confirm ritual meaning without texts. This is a sophisticated point that distinguishes A-grade Mains answers.
 
 ---
 
-## 11. Problems of Archaeological Reconstruction
+## Part 3 — Mains Answer Frameworks
 
-**Survivor bias:** Only broken, useless objects were discarded; everything else was recycled. Intact artefacts represent accidental losses or unrecovered hoards — not representative samples of Harappan material culture.
+### Q1: "Discuss the evidence for long-distance trade in the Harappan civilisation. What does it reveal about the nature of the Harappan economy?"
 
-**Organic materials:** Cloth, leather, wood, and reeds decompose in tropical climates. Only stone, burnt clay (terracotta), and metal survive in large quantities.
+**Intro hook:** Include Dholavira UNESCO 2021 or Rakhigarhi DNA to show contemporary relevance.
 
-**Interpretation challenges:**
+**Body structure:**
+1. **Material evidence for trade routes** — raw materials found far from sources (lapis lazuli from Afghanistan at Harappan sites; copper artefacts with Omani nickel signature)
+2. **Evidence for trade infrastructure** — standardised weights (binary+decimal), seals as authentication tools, Lothal dockyard (with the caveat that it's debated)
+3. **Textual corroboration** — Mesopotamian mention of Meluhha; products listed match Harappan goods
+4. **What the trade tells us** — surplus-producing economy; merchant class existed; no evidence of *state*-controlled trade (no palace warehouses); possibly *private* merchant trade coordinated through standardised instruments
 
-*Terracotta figurines:* Heavily jewelled female figurines were labelled "mother goddesses" — but this assumes Harappan religion paralleled later Indian traditions, which is speculative.
+**Conclusion angle:** The Harappan trade network prefigures India's subsequent role as a maritime and overland trading hub — a continuity worth noting for interdisciplinary Essays.
 
-*The "Priest-King" statue:* Named by analogy with Mesopotamia, not from internal evidence.
+---
 
-*The "proto-Shiva" seal:* A seal showing a cross-legged figure surrounded by animals was interpreted as an early form of Shiva as Pashupati. But the Rigvedic Rudra (precursor to Shiva) is not described as a yogi or lord of animals. The figure may equally represent a shaman.
+### Q2: "How do archaeologists reconstruct the past? Use the example of the Harappan civilisation to illustrate both the possibilities and the limitations of archaeological evidence."
 
-*Conical stones:* Often classified as Shiva lingas, but the original excavator Ernest Mackay noted they could equally be gaming pieces used in board games.
+**This is the NCERT's central methodological theme — and the most likely 10-mark or 15-mark question.**
+
+**Body structure:**
+1. **What survives and why** — stone, baked clay, metal survive; organic materials (cloth, wood, reed) decompose → survivor bias
+2. **Classification methods** — by material, by function, by context (where found: house, drain, grave, kiln changes interpretation)
+3. **What archaeology can establish** — economy, technology, trade, urban planning, demographic patterns
+4. **What archaeology cannot establish** — ritual meaning (Great Bath, terracotta figurines), political titles, literary tradition, personal identity
+5. **The Marshall-Wheeler contrast** — method shapes conclusion; Wheeler's stratigraphy fixed Marshall's errors; Dales' skeletal re-analysis overturned Wheeler's invasion theory
+6. **The Rakhigarhi DNA moment** — modern science reopening old questions (2019)
+
+**Conclusion:** Archaeological evidence is rich but not self-interpreting. Each generation of archaeologists brings new questions and new techniques. The Harappan civilisation remains "unfinished" in this sense — a productive space of scholarly debate.
+
+---
+
+### Q3: "Assess the various theories regarding the decline of the Harappan civilisation."
+
+**Key:** Don't just *list* theories — *evaluate* them. UPSC rewards analytical structure.
+
+**Framework:** Introduce systemic collapse (not sudden catastrophe) → present climate/river/trade/overuse theories with evidence and limitations → reject "invasion" theory with reasons (Dales, DNA) → conclude: multicausal, no single explanation, and the very nature of the collapse (state functions vanish, craft collapses, population disperses) suggests the *state mechanism* itself failed, not just the environment.
 
 ---
 
 ## Exam Strategy
 
-**For UPSC Prelims:** Focus on:
-- Dates (Mature Harappan c. 2600–1900 BCE)
-- Key sites and their discoveries (who discovered what, when)
-- Distinctive features: Great Bath, standardised bricks, drainage system, undeciphered script
-- Trade contacts: Mesopotamia, Oman, lapis lazuli from Afghanistan
-- Weight system: binary + decimal
-- Script: 375–400 signs, right to left, undeciphered
+**Prelims — what to memorise in priority order:**
+1. Site-discoverer-state table (most direct question type)
+2. The "only site without citadel" (Chanhudaro), "three-part city" (Dholavira), "largest site" (Rakhigarhi)
+3. Famous artefacts + materials (Dancing Girl = bronze; Priest-King = steatite)
+4. Script: 375–400 signs, undeciphered, right-to-left
+5. Weight system: binary (lower) + decimal (higher), chert stone
+6. Mesopotamia trade: Meluhha, nickel traces in copper, Dilmun weights
+7. Dholavira: UNESCO 2021, India's 40th WHC
 
-**For UPSC Mains (GS1):**
-- Urban planning and town planning features at Mohenjodaro
-- Evidence for trade and economic organisation
-- Theories on decline — evaluate multiple factors
-- Debate on authority/governance — egalitarian vs unified state
-- Archaeological methodology: how do we reconstruct the past? (Marshall vs Wheeler)
-- Significance of Harappan civilisation for understanding ancient India's cultural continuity
+**Mains — what to practise:**
+- Write a 150-word paragraph on "what Harappan uniformity tells us about governance" — practise the "evidence → inference → limitation" structure
+- Note the three debates: governance (centralised vs. not), decline (multicausal), Pashupati seal (deity vs. shaman)
+- Contemporary hooks: Dholavira UNESCO 2021; Rakhigarhi DNA 2019; Harappan cotton (India's textile tradition)
+- The Marshall/Wheeler/Dales sequence is a ready-made answer on "how methods shape historical interpretation"
