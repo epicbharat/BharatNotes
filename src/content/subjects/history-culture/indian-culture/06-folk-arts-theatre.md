@@ -26,24 +26,34 @@ India possesses one of the richest and most diverse traditions of folk and triba
 
 ## Folk Theatre Traditions of India
 
-Folk theatre in India predates classical Sanskrit drama and remains a powerful vehicle of storytelling, religious instruction, social commentary, and entertainment in rural communities. Most forms combine dance, music, dialogue, and elaborate costumes.
+**Folk theatre** (also called traditional or rural theatre) is community-based performing art practised across India, characterised by:
+- **Religious and ritual origins** — performances at temple festivals, seasonal fairs, lifecycle events
+- **Open-air performance** — in village squares, temple courtyards, or makeshift stages
+- **Audience participation** — spectators integral to performance, not passive consumers
+- **Blend of forms** — drama, music, dance, humour, satire, and devotion combined
+- **Oral tradition** — scripts transmitted orally and adapted for each performance context
+
+Folk theatre predates classical Sanskrit drama and served as pre-modern mass communication — conveying mythology, social critique, and political commentary to communities without print literacy.
 
 ### Major Folk Theatre Forms — State-Wise
 
 | Folk Theatre | State/Region | Key Features |
 |-------------|-------------|--------------|
 | **Yakshagana** | Karnataka (coastal — Dakshina Kannada, Udupi, Uttara Kannada) | Semi-classical dance-drama combining music, dialogue, costume, and stage techniques; evolved between the 11th and 16th centuries from Vaishnava Bhakti traditions; stories drawn from Ramayana, Mahabharata, and Bhagavata Purana; two styles — Thenku Thittu (southern) and Badaga Thittu (northern); traditionally performed in open air by all-male temple-sponsored troupes |
-| **Jatra** | West Bengal, Odisha, eastern Bihar | Originated in 15th-century Bengal from the Bhakti movement; combines drama, music, and dance; originally religious (Vaishnava themes), later expanded to secular and political themes; features a character called Vivek (conscience) who provides moral commentary |
-| **Tamasha** | Maharashtra | Popular folk theatre featuring lavani songs and dance; the female artist (Murki) is the chief exponent of dance; combines humour, music, and social satire; evolved from the Maratha period |
+| **Jatra** | West Bengal, Odisha, eastern Bihar | Originated in 15th-century Bengal from the Bhakti movement; combines drama, music, and dance; highly operatic; originally religious (Vaishnava themes), later expanded to patriotic and social themes under colonial rule; features a character called **Vivek** (conscience) who provides moral commentary; arena staging with audience on all sides; notable playwright: Mukunda Das |
+| **Tamasha** | Maharashtra | Popular folk theatre; evolved from folk forms (Gondhal, Jagran, Kirtan) in the 17th–18th century; features **Lavni** (rhythmic, sensuous dance); traditionally performed by women (called *muralis* or *kolhatis*); begins with Gan (Ganesha prayer) → Gaulan (devotional) → main play; combines humour, music, and sharp social satire; associated with **Shahir** (folk poet) tradition |
 | **Nautanki** | Uttar Pradesh, Rajasthan, Bihar | Folk operatic theatre popular in north India; major centres at Kanpur, Lucknow, and Haathras; features sung dialogue in verse form; themes drawn from romance, mythology, and history |
 | **Bhand Pather** | Jammu & Kashmir | Traditional satirical theatre of the Kashmir Valley; Bhands (traditional performers) enact plays called Pather; combines mythological legends with contemporary social satire; integrates acting, dance, and music |
 | **Swang (Svang)** | Haryana, Rajasthan, UP, Malwa (MP) | Dialogue-oriented folk drama (rather than movement-oriented); two major styles — Rohtak (Haryanvi/Bangru language) and Haathras (Brajbhasha); performed by 10-12 actors in open-air settings; themes from religious stories and folk tales |
 | **Therukoothu** | Tamil Nadu | Literally "street play" in Tamil; ancient form of open-air theatre performed in village squares and temple courtyards; core repertoire includes a cycle of eight plays based on the life of Draupadi from the Mahabharata; male actors perform all roles with elaborate costumes, headdresses, and bright make-up |
-| **Bhavai** | Gujarat | Traditional folk theatre combining devotion and romantic sentiments; performed in open spaces; associated with the Nayaka community; features a series of short plays called Veshas |
+| **Bhavai** | Gujarat | Traditional folk theatre; associated with the **Thakar community**; linked to worship of Goddess Amba (*Bhavai* = offering to Amba); acrobatic, satirical, richly comic; features over **360 Veshas** (character sketches); involves acrobatics — balancing pots on head, walking on stilts |
 | **Maach** | Madhya Pradesh | Traditional theatre form of Malwa; performed on a raised platform; features songs known as Rangat |
 | **Pandavani** | Chhattisgarh | Narrative folk art form based on the Mahabharata, particularly the stories of the Pandavas; performed by a solo narrator with musical accompaniment; Teejan Bai is the most celebrated Pandavani artist |
 | **Dashavatar** | Goa, Maharashtra (Konkan coast) | Based on the ten avatars of Lord Vishnu; one of the oldest surviving dramatic forms in Konkan |
-| **Koodiyattam (Kutiyattam)** | Kerala | Ancient Sanskrit theatre tradition; one of the oldest surviving theatrical forms in the world; UNESCO Intangible Cultural Heritage (inscribed 2008) |
+| **Gambhira** | West Bengal (Malda) | Mask dance dedicated to Shiva (as Gambhira — the benevolent); performed during Gajan festival; satirical commentary on social issues through dialogue between grandfather and grandson characters |
+| **Krishnanattam** | Kerala (Guruvayur Temple only) | Created in the 17th century by **Zamorin of Calicut (Manaveda)**; series of 8 plays based on Krishna's life; performed exclusively at Guruvayur Temple; considered the precursor to Kathakali — shares its elaborate costume and makeup tradition |
+| **Koodiyattam (Kutiyattam)** | Kerala | Oldest surviving form of Sanskrit theatre in the world; performed in temple theatres called **Koothambalams**; language: Sanskrit with Prakrit and Malayalam; training takes 10–15 years; UNESCO Intangible Cultural Heritage (inscribed 2008; originally proclaimed Masterpiece 2001) |
+| **Ankiya Nat (Bhaona)** | Assam | Created by saint-poet-reformer **Srimanta Sankardeva** (c. 1449–1568 CE) as part of his Eka Sharana Nama Dharma (Neo-Vaishnavite) movement; one-act plays enacted as **Bhaona** in **namghars** (prayer halls) of Sattras (Vaishnavite monasteries); written in Vrajawali literary language; features a **Sutradhara** (narrator-manager) on stage throughout; first play was **Chihna Yatra** |
 
 ### Key Characteristics of Indian Folk Theatre
 
@@ -178,12 +188,71 @@ As of December 2025, India has **16 elements** inscribed on UNESCO's Representat
 
 | Initiative | Details |
 |------------|---------|
-| **Zonal Cultural Centres (ZCCs)** | Seven ZCCs established by the Ministry of Culture to promote and preserve folk and tribal arts |
-| **Sangeet Natak Akademi** | National academy for music, dance, and drama; gives fellowships and awards for folk arts |
+| **Zonal Cultural Centres (ZCCs)** | Seven ZCCs established by the Ministry of Culture to promote and preserve folk and tribal arts; each has a distinct regional mandate |
+| **Sangeet Natak Akademi** | National academy for music, dance, and drama; established **1952** — India's first national academy of the arts; gives fellowships (**Sangeet Natak Akademi Fellowship / Ratna Sadasya** — highest honour) and annual awards |
+| **National School of Drama (NSD)** | Established **1959**; New Delhi; India's premier institution for training in theatre arts; autonomous under Ministry of Culture from 1975; organises **Bharat Rang Mahotsav** — India's largest international theatre festival |
 | **GI Tagging** | Geographical Indication tags protect regional art forms (Madhubani, Pattachitra, Kalamkari, etc.) |
 | **UNESCO ICH nominations** | India actively nominates elements for the Intangible Cultural Heritage list |
 | **Guru Shishya Parampara Scheme** | Supports transmission of traditional arts from master to disciple |
 | **Cultural Mapping** | Ongoing efforts to document and map India's intangible heritage across states |
+
+---
+
+### 7 Zonal Cultural Centres (ZCCs) — Headquarters
+
+| ZCC | Headquarters |
+|-----|-------------|
+| North Zone | Patiala |
+| South Zone | Thanjavur |
+| East Zone | Kolkata |
+| West Zone | Udaipur |
+| North-East Zone | Dimapur |
+| North-Central Zone | Allahabad (Prayagraj) |
+| South-Central Zone | Nagpur |
+
+---
+
+## Quick Comparison: Major Folk Theatre Forms
+
+| Form | State | Language | Key Theme | Distinctive Feature |
+|------|-------|----------|-----------|-------------------|
+| Nautanki | UP, Rajasthan | Braj, Hindi | Mythology, romance | Operatic, nagara drum |
+| Tamasha | Maharashtra | Marathi | Romance, social satire | Lavni dance, women performers (muralis) |
+| Yakshagana | Karnataka | Kannada/Tulu | Epics | All-night, elaborate towering headgear |
+| Jatra | West Bengal, Odisha | Bengali | Bhakti, patriotic, social | Arena staging, Vivek character |
+| Bhavai | Gujarat, Rajasthan | Gujarati | Social satire | Acrobatics, 360+ Veshas |
+| Therukoothu | Tamil Nadu | Tamil | Mahabharata (Draupadi cycle) | Street theatre, festival-linked |
+| Ankiya Nat | Assam | Vrajawali | Vaishnavite devotion | Sankardeva, namghar setting |
+| Koodiyattam | Kerala | Sanskrit | Classical Sanskrit drama | UNESCO ICH, oldest Sanskrit theatre |
+| Gambhira | WB (Malda) | Bengali | Shiva worship/social satire | Masks, grandfather-grandson dialogue |
+
+---
+
+## Previous Year Questions (PYQs)
+
+### Prelims
+
+1. **(2022)** With reference to Yakshagana, which of the following statements is/are correct?
+   1. It is a folk theatre form from coastal Karnataka.
+   2. It incorporates elements of dance, music, and improvised dialogue.
+   3. It is performed only during daytime.
+   Select the correct answer: **(a) 1 and 2 only** *(Yakshagana is traditionally an all-night performance)*
+
+2. **(2021)** "Kutiyattam" is: *(Answer: A traditional Sanskrit theatre form of Kerala inscribed on UNESCO ICH list)*
+
+3. **(2018)** "Tamasha" is associated with which state? *(Answer: Maharashtra)*
+
+4. **(2020)** Kathputli, the puppet tradition, is associated with which state? *(Answer: Rajasthan)*
+
+### Mains
+
+1. **(GS1 — 2023)** Discuss the significance of folk theatre in Indian society as a medium of social commentary and cultural preservation. Illustrate with examples from different regions.
+
+2. **(GS1 — 2020)** "India's folk arts and performing traditions face existential threats in the digital age." Examine the major folk theatre and puppetry traditions at risk, and suggest measures for their preservation.
+
+3. **(GS1 — 2019)** Highlight the major folk theatre forms of India with special reference to their regional diversity and the themes they address. What is the role of institutions like Sangeet Natak Akademi in preserving these traditions?
+
+4. **(GS1 — 2016)** Write a note on the contribution of Srimanta Sankardeva to the cultural and religious life of Assam. How does the Ankiya Nat tradition reflect his vision of Bhakti?
 
 ---
 

@@ -30,7 +30,7 @@ The UPSC GS Paper I syllabus covers events from the 18th century onwards that si
 | 2 | **French Revolution & Napoleonic Era** | Three Estates, Bastille, Terror, Napoleon, impact on Europe |
 | 3 | **Unification of Italy & Germany** | Mazzini, Cavour, Garibaldi, Bismarck, Blood and Iron |
 | 4 | **World War I & Russian Revolution** | MAIN causes, Treaty of Versailles, February & October Revolutions, Lenin |
-| 5 | **Rise of Fascism/Nazism & World War II** | Mussolini, Hitler, Holocaust, key battles, atomic bombings |
+| 5 | **Rise of Fascism/Nazism & World War II** | Versailles (Article 231, $33B reparations), Weimar crisis, March on Rome 1922, Hitler Chancellor Jan 1933, Night of Long Knives 1934, Spanish Civil War, Operation Barbarossa, Pearl Harbor, Holocaust (Kristallnacht, Wannsee, 6M Jews), Hiroshima/Nagasaki, Nuremberg trials, Bretton Woods, Cold War origins |
 | 6 | **Cold War, Decolonisation & Globalisation** | NATO vs Warsaw, proxy wars, decolonisation of Africa/Asia, EU, globalisation |
 | 7 | **Chinese Revolution & Asian Communism** | Mao Zedong, Cultural Revolution, modern China, Korean War, Vietnamese struggle |
 | 8 | **Arab Nationalism, African Liberation & Latin American Revolutions** | Pan-Arabism, African independence movements, Apartheid, Latin American revolutions, Che Guevara |
@@ -38,4 +38,3 @@ The UPSC GS Paper I syllabus covers events from the 18th century onwards that si
 | 10 | **Collapse of the USSR & New World Order** | Glasnost, Perestroika, fall of Berlin Wall, unipolar moment, globalisation, EU expansion |
 | 11 | **Colonialism, Imperialism & Decolonisation** | European expansion, Scramble for Africa, colonial exploitation, independence movements, decolonisation wave 1945–1975 |
 | 12 | **Political Philosophies — Capitalism, Communism & Fascism** | Liberalism, capitalism, Marxism, socialism, fascism, welfare state, Cold War ideological battle, contemporary relevance |
-| 13 | **Rise of Fascism, Nazism & World War II (Deep Dive)** | Versailles (Article 231, $33B reparations), Hitler Chancellor Jan 1933, Operation Barbarossa, Pearl Harbor, Wannsee Conference, Holocaust (6M), Hiroshima Aug 6, Nagasaki Aug 9, Nuremberg trials, Bretton Woods |

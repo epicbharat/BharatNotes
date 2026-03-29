@@ -40,6 +40,19 @@ tags:
 
 India ranks among the bottom five globally in **Economic Participation and Opportunity** (144th in 2025, score 40.7%). In **Educational Attainment**, India scored 97.1%. **Political Empowerment** remains weak -- women's share in Parliament fell from 14.7% to 13.8% between 2024 and 2025.
 
+Within South Asia, India ranks **5th** — behind Bangladesh, Nepal, Bhutan, and Sri Lanka.
+
+### 1.3 Female Labour Force Participation Rate (FLFPR)
+
+According to the **Periodic Labour Force Survey (PLFS) 2023-24**:
+- **Overall FLFPR:** 41.7% in 2023-24, up from 23.3% in 2017-18
+- **Rural FLFPR:** 47.6% (driven partly by MGNREGS and agricultural self-employment)
+- **Urban FLFPR:** 28.0% (low by international standards)
+- **Female unemployment rate:** Declined to 3.2% in 2023-24
+- **Self-employment among employed women:** Rose to 67.4% — raising questions about quality of employment
+
+Structural barriers include unpaid care work, mobility constraints, patriarchal norms, lack of safe transport, and inadequate childcare.
+
 ### 1.3 Causes of Gender Inequality
 
 - **Patriarchal social norms** -- son preference, dowry system, and restrictions on female mobility
@@ -76,13 +89,20 @@ The **73rd and 74th Constitutional Amendments (1992)** mandated reservation of n
 
 | Law | Year | Key Provisions |
 |-----|------|----------------|
-| **Dowry Prohibition Act** | 1961 | Prohibits giving or taking of dowry; penalty up to 5 years imprisonment and fine |
+| **Criminal Law (Amendment) Act** | 1983 | Post-**Mathura rape case (1972)** — custody rape criminalised; reversed burden of proof |
+| **Dowry Prohibition Act** | 1961 | Prohibits giving or taking of dowry; penalty up to 5 years imprisonment + fine of ₹15,000 or value of dowry (whichever higher) |
 | **Pre-Conception and Pre-Natal Diagnostic Techniques (PCPNDT) Act** | 1994 | Prohibits sex determination and sex-selective abortion; regulates use of prenatal diagnostic techniques |
-| **Protection of Women from Domestic Violence Act** | 2005 | Covers physical, sexual, verbal, emotional, and economic abuse; provides for protection orders, residence orders, and monetary relief |
-| **Sexual Harassment of Women at Workplace (POSH) Act** | 2013 | Mandates Internal Complaints Committee (ICC) in workplaces with 10+ employees; covers all women including contractual and domestic workers |
-| **Criminal Law (Amendment) Act** | 2013 | Post-Nirbhaya reforms; broadened definition of rape; introduced new offences -- acid attack (S. 326A), voyeurism (S. 354C), stalking (S. 354D); enhanced penalties for sexual offences |
+| **Hindu Succession (Amendment) Act** | 2005 | Daughters given **equal coparcenary rights** in ancestral property — landmark gender-justice reform |
+| **Protection of Women from Domestic Violence Act (PWDVA)** | 2005 | Civil law remedy; covers physical, sexual, verbal/emotional, and economic abuse; provides for protection orders, residence orders, monetary relief; woman has right to reside in shared household regardless of title; Magistrate must dispose of application within **60 days** |
+| **Sexual Harassment of Women at Workplace (POSH) Act** | 2013 | Codifies **Vishaka guidelines** (1997); Internal Complaints Committee (ICC) in workplaces with 10+ employees; Local Complaints Committee (LCC) for unorganised sector; inquiry to be completed within **90 days**; employer penalty up to ₹50,000 |
+| **Criminal Law (Amendment) Act** | 2013 | Post-Nirbhaya (December 2012); broadened definition of rape; new offences — acid attack, voyeurism, stalking; minimum 7 years for rape; **1,023 Fast-Track Special Courts (FTSCs)** established for POCSO and rape cases |
+| **Muslim Women (Protection of Rights on Marriage) Act** | 2019 | **Triple Talaq** (talaq-e-biddat) made void, illegal, and a cognisable non-bailable offence; up to **3 years' imprisonment** + fine; enacted after **Shayara Bano v. Union of India (2017)** — Supreme Court declared it unconstitutional 3:2 (Justices Nariman, Lalit, Kurian vs CJI Khehar and Justice Nazeer) |
 
-### 3.2 Criminal Law Amendment 2013 -- Key Changes
+### 3.2 Vishaka Guidelines and POSH
+
+**Vishaka v. State of Rajasthan (1997):** A landmark Supreme Court judgment following the gang rape of Bhanwari Devi (a social worker in Rajasthan). Laid down Vishaka Guidelines requiring employers to prohibit sexual harassment and set up Complaints Committees. These guidelines remained the law for 16 years until the POSH Act was enacted.
+
+### 3.3 Criminal Law Amendment 2013 -- Key Changes
 
 The Criminal Law (Amendment) Act 2013, passed after the December 2012 Nirbhaya gang-rape case, was based on the **Justice J.S. Verma Committee** recommendations. Key changes include:
 
@@ -92,6 +112,20 @@ The Criminal Law (Amendment) Act 2013, passed after the December 2012 Nirbhaya g
 - **Gang rape** -- minimum 20 years rigorous imprisonment
 - **Death penalty** introduced for rape causing death or persistent vegetative state
 - **Character evidence of victim** made irrelevant in rape trials (Section 53A, Indian Evidence Act)
+
+### 3.4 NCRB Data — Crimes Against Women
+
+Based on the **National Crime Records Bureau (NCRB) Crime in India 2022 report**:
+
+| Category | Data |
+|----------|------|
+| **Total crimes against women (2022)** | 4,45,256 cases (up from 3,71,503 in 2020) |
+| **Crime rate (per lakh women population)** | 66.4 in 2022 |
+| **Cruelty by husband/relatives (S. 498A IPC)** | 31.4% of all crimes — single largest category |
+| **Rape** | 7.1%; 31,516 cases recorded in 2022 |
+| **Highest crime state** | Uttar Pradesh (65,743 cases) |
+
+**NFHS-5 (2019-21) finding:** 32% of ever-married women reported physical, sexual, or emotional violence by their husbands.
 
 ---
 
@@ -115,9 +149,45 @@ The **Constitution (106th Amendment) Act, 2023** -- introduced as the 128th Amen
 - State Legislative Assemblies
 - Delhi Legislative Assembly
 
-This reservation also applies to seats reserved for SCs and STs. Implementation is linked to the conduct of a fresh **Census** followed by **delimitation** of constituencies. The Act has a sunset clause of 15 years from the date of commencement but can be extended by Parliament.
+| Feature | Detail |
+|---------|--------|
+| **Introduced** | 19 September 2023 (special session of Parliament) |
+| **Lok Sabha vote** | Passed with **454 votes in favour, 2 against** |
+| **Rajya Sabha vote** | Passed unanimously — **214 votes in favour** |
+| **Signed by President** | 28 September 2023 |
+| **Trigger** | Implementation requires **census + delimitation** — not immediately effective; likely no earlier than 2029 elections |
+| **Duration** | 15 years from commencement (extendable by Parliament) |
+| **Sub-quota** | Reservation for SC/ST women within the 33% |
 
 > **Exam Tip:** The bill was introduced as the 128th Amendment Bill but became the 106th Amendment Act (because several earlier amendment bills remained pending). The implementation depends on Census and delimitation -- this distinction between passage and implementation is frequently tested.
+
+**Beti Bachao Beti Padhao (BBBP) Progress:** Sex Ratio at Birth improved from **918 (2014-15) to 934 (2019-20)** per 1,000 male births at national average; significant gains in the initial 100 pilot districts.
+
+---
+
+## Feminist Movements in India
+
+### First Wave — Social Reform (19th–Early 20th Century)
+
+Focus on eliminating social evils: widow remarriage (Ram Mohan Roy, Vidyasagar), abolition of sati, women's education. Led largely by elite male reformers.
+
+### Second Wave — Post-Independence (1950s–1980s)
+
+Women's organisations engaged with the constitutional framework. The **Mathura rape case (1972)** acquittal sparked a national movement; open letters from academics led to the **1983 Criminal Law Amendment** strengthening custodial rape law.
+
+The **Chipko Movement (1973)** in Uttarakhand saw women as frontline environmental activists — an intersection of gender and ecological movements.
+
+### Third Wave — Contemporary (1990s–Present)
+
+- **Anti-rape protests (December 2012):** Nirbhaya case triggered mass street protests → Criminal Law Amendment Act 2013
+- **#MeToo India (2018):** Social media-driven exposure of workplace sexual harassment
+- **Anti-Triple Talaq movement:** Muslim women petitioners led the Shayara Bano SC challenge (2017) → Muslim Women Act 2019
+- **Sabarimala (2018):** Supreme Court ruled exclusion of women of menstruating age (10–50 years) violated Articles 14, 15, and 25; generated significant societal debate
+- **Joseph Shine v. UoI (2018):** Adultery provision struck down as violative of women's dignity
+
+### Gender Pay Gap
+
+Despite rising FLFPR, India's gender pay gap remains substantial. The **Equal Remuneration Act 1976** (now subsumed into **Code on Wages 2019**) mandates equal pay for equal work, but enforcement is weak in the informal sector where most women work. Women are concentrated in low-productivity sectors: agriculture, domestic work, garment manufacturing.
 
 ---
 
@@ -279,6 +349,28 @@ India **signed** the UN Convention on the Rights of Persons with Disabilities on
 - **Definition:** Informal voluntary associations of 10-20 persons (typically women from BPL households) from similar socio-economic backgrounds who pool small regular savings (Rs 10-100 per week), provide internal loans to members at group-determined interest rates, and collectively access bank credit for livelihood activities and mutual support. India has over 90 lakh SHGs with approximately 10 crore women members (2025 data), making it the world's largest community-based microfinance network.
 - **Context:** The concept was formalised in India when NABARD launched the SHG-Bank Linkage Programme (SBLP) in February 1992 in collaboration with the Reserve Bank of India, building on earlier community-based microfinance models pioneered by organisations such as MYRADA (in Karnataka) and SEWA (Self-Employed Women's Association, founded by Ela Bhatt in 1972 in Gujarat). Under DAY-NRLM (Deendayal Antyodaya Yojana -- National Rural Livelihoods Mission, 2011), the government promotes universal social mobilisation of rural poor women into SHGs. The Lakhpati Didi initiative aims to create 3 crore women "lakhpati" (earning Rs 1 lakh+ annually) through SHG-based entrepreneurship and skill development.
 - **UPSC Relevance:** GS1 Indian Society (women's empowerment), GS2 Social Justice, and GS3 Economy -- Prelims tests NABARD's SHG-Bank Linkage Programme (1992), DAY-NRLM's SHG promotion, and the Lakhpati Didi target (3 crore women). Mains asks about SHGs as tools for women's economic empowerment, financial inclusion, social capital building, and grassroots entrepreneurship -- particularly how SHGs build collective bargaining power and serve as platforms for government scheme delivery. Links to microfinance, financial inclusion (Jan Dhan), MUDRA loans (68%+ to women), and 73rd Amendment (women's participation in PRIs facilitated by SHG experience).
+
+---
+
+## Previous Year Questions (PYQs)
+
+### Prelims
+
+1. **UPSC Prelims 2014:** The Vishaka Guidelines relate to which of the following? *(Answer: Sexual harassment at workplace)*
+2. **UPSC Prelims 2018:** Which of the following provisions specifically allows the State to make special provisions for women? *(Answer: Article 15(3))*
+3. **UPSC Prelims 2020:** With reference to the PWDVA 2005, which of the following is not a remedy available? *(Answer: Criminal imprisonment — PWDVA is a civil law)*
+4. **UPSC Prelims 2023:** The Muslim Women (Protection of Rights on Marriage) Act, 2019 pertains to which practice? *(Answer: Triple Talaq — talaq-e-biddat)*
+5. **UPSC Prelims (pattern):** Nari Shakti Vandan Adhiniyam 2023 — Amendment number (106th), reservation percentage (33%), prerequisite (Census + delimitation)
+
+### Mains
+
+1. **UPSC Mains GS II 2017:** "Examine the scope of the Protection of Women from Domestic Violence Act, 2005. What are the challenges in its implementation?" *(15 marks)*
+2. **UPSC Mains GS I 2018:** "Women empowerment in India needs gender budgeting in public expenditures — justify with examples of key schemes." *(15 marks)*
+3. **UPSC Mains GS II 2023:** "Discuss the major provisions of laws related to protection of women from domestic violence and sexual harassment at workplace. How effective have these laws been in practice?" *(15 marks)*
+4. "The Constitution (106th Amendment) Act, 2023 provides for 33% reservation for women in Parliament. Critically examine its significance and the challenges in implementation." *(GS2)*
+5. "From Vishaka to POSH — trace the evolution of workplace sexual harassment law in India." *(GS2)*
+
+---
 
 ### Women's Reservation Bill
 - **Pronunciation:** /ˈwɪm.ɪnz ˌrɛz.əˈveɪ.ʃən bɪl/

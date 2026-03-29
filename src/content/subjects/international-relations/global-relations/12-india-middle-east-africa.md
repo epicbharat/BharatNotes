@@ -38,22 +38,30 @@ For UPSC, these regions appear in GS-II questions on bilateral relations, energy
 
 | Milestone | Detail |
 |-----------|--------|
-| **CEPA (2022)** | Comprehensive Economic Partnership Agreement signed in February 2022; first major bilateral FTA since 2011 |
-| **Bilateral trade** | Over USD 85 billion (FY 2022-23); UAE is India's third-largest trading partner |
-| **Indian diaspora** | Over 3 million Indians; largest expatriate community in the UAE, comprising over a third of the total population |
+| **CEPA (2022)** | Comprehensive Economic Partnership Agreement (CEPA) signed **18 February 2022**; in force **1 May 2022**; India's first major bilateral FTA since 2011 |
+| **Trade target** | US$100 billion in bilateral non-oil trade (within 5 years); US$15 billion in services |
+| **Trade performance** | Grew from US$72.9 billion (2021-22) to US$84.5 billion (2022-23) — 16% increase; UAE is India's **3rd-largest trading partner** |
+| **Tariff concessions** | UAE gave duty-free access on 97% of India's tariff lines; India on ~80% |
+| **Indian diaspora** | **~4.3 million Indians** in UAE — the largest Indian diaspora community in a single country |
 | **Defence cooperation** | Joint military exercises (Desert Eagle); UAE is a defence procurement partner |
-| **UPI linkage** | India's UPI was linked with UAE's payment systems, enabling cross-border digital payments |
-| **Real estate** | Over 35,000 Indians own approximately 69,000 properties in the UAE, accounting for about 20% of Dubai's real estate |
+| **UPI linkage** | India's UPI linked with UAE's payment systems; rupee-dirham trade settlement |
+| **Investments** | Abu Dhabi Investment Authority (ADIA) and Mubadala have made significant investments in Indian infrastructure and startups |
+| **Real estate** | Over 35,000 Indians own approximately 69,000 properties in the UAE, ~20% of Dubai's real estate |
 
 ### India-Saudi Arabia Relations
 
 | Aspect | Detail |
 |--------|--------|
-| **Strategic Partnership Council** | Established during PM Modi's visit to Riyadh in 2019; co-chaired by leaders of both countries |
-| **Investment target** | Saudi Arabia committed to invest USD 100 billion in India across infrastructure, energy, and technology |
-| **Energy** | Saudi Arabia is one of India's top crude oil suppliers; cooperation in strategic petroleum reserves |
+| **Strategic Partnership** | Elevated to Strategic Partnership in **2010** during PM Manmohan Singh's visit |
+| **Delhi Declaration (2016)** | PM Modi's visit — oil cooperation, counter-terrorism, investment |
+| **Strategic Partnership Council** | Established during Saudi Crown Prince MBS's India visit in 2019; Saudi Arabia announced **$100 billion investment plans** across refinery, infrastructure, technology |
+| **Oil imports** | Saudi Arabia supplies ~11–15% of India's crude oil imports (Iraq is the largest at ~20–24%) |
+| **Saudi Vision 2030 alignment** | Aligns with "Make in India" — potential for investment in refining, chemicals, renewable energy |
+| **ARAMCO-Reliance** | Saudi Aramco sought a 20% stake in Reliance Industries' O2C (Oil-to-Chemicals) business — deal under negotiation |
+| **Hajj** | Saudi Arabia accommodates ~1.75 lakh Indian Hajj pilgrims annually |
 | **Defence** | First joint naval exercise (Al-Mohed Al-Hindi) conducted in 2021 |
 | **Bilateral trade** | Approximately USD 52 billion (FY 2023-24) |
+| **Diaspora** | ~2.65 million Indians in Saudi Arabia — largest source of Gulf remittances |
 
 ---
 
@@ -67,6 +75,19 @@ For UPSC, these regions appear in GS-II questions on bilateral relations, energy
 | **Focus areas** | Water, energy, transportation, space, health, food security, and technology |
 | **Key projects** | UAE's USD 2 billion investment in integrated food parks across India; hybrid renewable energy project in Gujarat |
 
+---
+
+## India-Qatar Relations
+
+| Feature | Detail |
+|---------|--------|
+| **LNG imports** | Qatar is one of India's largest LNG suppliers (Petronet LNG long-term agreement) |
+| **Diaspora** | ~830,000 Indians in Qatar |
+| **FIFA World Cup 2022** | Indian workers played a significant role in construction; India-Qatar held talks on worker welfare |
+| **Crisis (2023)** | 8 former Indian Navy officers detained in Qatar on espionage charges; released in stages (2024) following diplomatic intervention |
+
+---
+
 > **For Mains:** I2U2 represents India's ability to engage simultaneously with Israel, the UAE, and the US in a single platform --- showcasing India's multi-alignment diplomacy. The group bypasses the traditional West Asian fault lines (Arab-Israeli, Sunni-Shia) by focusing on technology and economics rather than security.
 
 ---
@@ -78,9 +99,10 @@ For UPSC, these regions appear in GS-II questions on bilateral relations, energy
 | Milestone | Year | Detail |
 |-----------|------|--------|
 | **Israel's establishment** | 1948 | India recognised Israel in 1950 but did not establish full diplomatic relations |
-| **Full diplomatic relations** | 1992 | Established under PM Narasimha Rao; a strategic shift away from India's earlier pro-Palestine stance |
-| **PM Modi's visit** | 2017 | First Indian PM to visit Israel; upgraded ties significantly |
+| **Full diplomatic relations** | **29 January 1992** | Established under PM Narasimha Rao; a strategic shift away from India's earlier pro-Palestine stance |
+| **PM Modi's visit** | 2017 | **First Indian PM to visit Israel**; upgraded ties significantly |
 | **Strategic Partnership** | 2017 | Elevated to a Strategic Partnership during PM Modi's visit |
+| **October 7 Hamas attack** | 2023 | India issued strong condemnation; called for restraint and humanitarian aid; India evacuated nationals under **Operation Ajay (October 2023)** |
 | **Special Strategic Partnership** | 2026 | Further elevated during PM Modi's state visit to Israel |
 
 ### Key Cooperation Areas
@@ -190,14 +212,79 @@ For UPSC, these regions appear in GS-II questions on bilateral relations, energy
 
 ---
 
+## Gulf Indian Diaspora and Remittances
+
+### Scale of Indian Presence in GCC
+
+| Country | Indian Population |
+|---------|-----------------|
+| UAE | ~4.3 million |
+| Saudi Arabia | ~2.65 million |
+| Kuwait | ~1.0 million |
+| Qatar | ~830,000 |
+| Oman | ~665,000 |
+| Bahrain | ~350,000 |
+| **Total GCC** | **~9.7 million** |
+
+Total Indians abroad: **35.4 million** (world's largest diaspora). GCC accounts for ~27%.
+
+### Remittances
+
+| Year | India's Total Remittances | Key Fact |
+|------|--------------------------|----------|
+| 2023-24 | US$**118.7 billion** (RBI survey) | India's total; **GCC share ~38%** (~US$45 billion) |
+
+**Key shift (2023-24):** Advanced economies (US, UK, Singapore, Canada) overtook GCC countries in remittance share for the first time — reflecting increasing migration of **skilled professionals** to developed countries vs. **semi-skilled/unskilled workers** to Gulf.
+
+---
+
+## India's Energy Security — West Asia Dependence
+
+### Crude Oil Import Profile (2023-24)
+
+| Supplier | India's Import Share |
+|----------|---------------------|
+| Russia | ~36–41% (post-2022, became largest single supplier) |
+| Iraq | ~20–24% |
+| Saudi Arabia | ~11–15% |
+| UAE | ~9–11% |
+| **GCC + West Asia total** | **~46%** (down from 63% in 2017) |
+
+**The Strait of Hormuz** — through which ~45–50% of India's crude oil passes — remains a critical chokepoint for India's energy security.
+
+### India's Energy Strategy
+
+- **IEA Membership:** India became a full member of the International Energy Agency in **2021**
+- **Strategic Petroleum Reserves (SPR):** India maintains ~5–9 days of crude oil reserves in three locations (Vishakhapatnam, Mangaluru, Padur)
+- **Diversification:** Russia, US, Latin America as alternative suppliers
+- **Renewables:** 500 GW target by 2030 reduces long-term oil demand
+
+---
+
+## Abraham Accords (2020) — India's Perspective
+
+The **Abraham Accords** (August–September 2020) normalised diplomatic relations between Israel and: UAE (August 2020), Bahrain (September 2020), Sudan and Morocco (October–December 2020).
+
+**India's perspective:** India maintained studied neutrality; the normalisation **benefited India** as it reduced Israel-Gulf Arab tension, allowing India to maintain close ties with both simultaneously. The I2U2 grouping (formed 2021) was enabled in part by UAE-Israel normalisation.
+
+---
+
+## Yemen and India
+
+- Yemen civil war (since 2015): Houthi rebels (Iran-backed) vs. Saudi-led coalition
+- **Operation Raahat (April 2015):** India evacuated **~4,741 Indians and 960 foreign nationals** from Yemen
+- Post-October 2023: Houthi attacks on Red Sea/Gulf of Aden shipping disrupted global trade; India deployed INS warships for anti-piracy patrolling
+
+---
+
 ## Diaspora Diplomacy
 
-India's diaspora of approximately **32 million** (Overseas Indian community) is one of its most significant soft power assets:
+India's diaspora of approximately **35.4 million** (Overseas Indian community) is one of its most significant soft power assets:
 
 | Region | Estimated Numbers | Key Feature |
 |--------|-------------------|-------------|
-| **Gulf/Middle East** | ~8.9 million | Largest concentration; primarily blue-collar and white-collar workers; remittances of ~USD 47 billion |
-| **Africa** | ~3 million | Historically settled communities (South Africa, Kenya, Mauritius); business and professional classes |
+| **Gulf/Middle East** | ~9.7 million (GCC) | Largest concentration; remittances of ~USD 45 billion from GCC |
+| **Africa** | ~3 million | Historically settled communities (South Africa, Kenya, Mauritius) |
 | **Central Asia** | Small but growing | Primarily students, traders, and professionals |
 
 > **For Prelims:** India has 8.9 million diaspora members in the Gulf (MEA, 2024). The first India-Central Asia Summit was held in January 2022. India became a full SCO member in 2017. The INSTC is 7,200 km long. India signed the Chabahar port 10-year agreement in May 2024.
@@ -208,11 +295,13 @@ India's diaspora of approximately **32 million** (Overseas Indian community) is 
 
 | Feature | Detail |
 |---------|--------|
-| **Announced** | September 2023, at the G20 New Delhi Summit |
-| **Route** | India --- UAE --- Saudi Arabia --- Jordan --- Israel --- Greece --- EU (two corridors: Eastern and Northern) |
-| **Components** | Rail, shipping, electricity cables, hydrogen pipelines, data cables |
-| **Significance** | India's alternative to China's BRI; connects India to Europe via the Middle East; bypasses the Suez Canal bottleneck |
-| **Challenges** | Geopolitical instability in the Middle East (Israel-Hamas conflict since October 2023); requires massive capital investment; complex multi-country coordination |
+| **Announced** | **9 September 2023**, at the G20 New Delhi Summit |
+| **MoU signed by** | India, USA, EU, France, Germany, Italy, UAE, Saudi Arabia |
+| **Route** | India → UAE (sea) → Saudi Arabia → Jordan → Israel → Greece/Italy/France (sea) |
+| **Two wings** | East Corridor (India to Arabian Gulf); North Corridor (Gulf to Europe) |
+| **Infrastructure** | Railway network, ports, road, electric cable, hydrogen pipeline, high-speed data cable |
+| **Significance** | India's connectivity alternative to China's **Belt and Road Initiative (BRI)** |
+| **Challenges** | Israel-Gaza conflict (post-October 2023) raised near-term viability concerns; massive capital investment needed; complex multi-country coordination |
 
 > **For Mains:** IMEC represents India's most ambitious connectivity initiative in the Middle East. However, the Israel-Hamas conflict (October 2023 onwards) has delayed progress. For answer writing, discuss IMEC as both a counter to BRI and a practical connectivity solution, while acknowledging the geopolitical hurdles.
 
@@ -300,6 +389,25 @@ Common UPSC Mains themes on the Middle East, Africa, and Central Asia:
 | **SCO** | Shanghai Cooperation Organisation --- 10 members; India joined as full member in 2017 |
 | **Look West Policy** | India's strategic outreach to the Gulf and Middle East, complementing the Act East Policy |
 | **TAPI** | Turkmenistan-Afghanistan-Pakistan-India gas pipeline --- proposed but stalled |
+
+---
+
+## Previous Year Questions (PYQs)
+
+### Prelims
+
+1. **UPSC Prelims 2017:** With reference to the International North-South Transport Corridor, which countries are the original signatories? *(Answer: India, Iran, Russia — signed in 2000)*
+2. **UPSC Prelims 2019:** The Chabahar Port, which is being developed by India, is located in which country? *(Answer: Iran)*
+3. **UPSC Prelims 2023:** The I2U2 group comprises which of the following countries? *(Answer: India, Israel, UAE, USA)*
+4. **UPSC Prelims 2024:** With reference to IMEC announced at G20 New Delhi Summit in 2023, which of the following is NOT a participating party?
+
+### Mains
+
+1. **UPSC Mains GS II 2015:** "India needs to engage more proactively with the countries of West Asia. Discuss with special reference to energy security and the Indian diaspora." *(15 marks)*
+2. **UPSC Mains GS II 2019:** "The Chabahar port is a game-changer for India's connectivity with Central Asia and Afghanistan. Critically evaluate." *(15 marks)*
+3. **UPSC Mains GS II 2022:** "India-UAE CEPA 2022 is a landmark in India's trade diplomacy. Examine its key provisions and significance." *(15 marks)*
+4. **UPSC Mains GS II 2023:** "How does India balance its relationships with Israel and Arab countries, particularly in the context of the Israel-Gaza conflict?" *(15 marks)*
+5. "Evaluate India's development partnership with Africa. How does it differ from China's approach?" *(GS II pattern)*
 
 ---
 

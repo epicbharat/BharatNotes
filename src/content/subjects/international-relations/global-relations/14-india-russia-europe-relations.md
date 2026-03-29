@@ -68,6 +68,7 @@ India-Russia defence ties represent the most extensive military-technical partne
 | **Kudankulam Nuclear Power Plant** | Russian-built VVER-1000 reactors in Tamil Nadu; Units 1 and 2 operational (2013, 2016); Unit 3 in pre-commissioning (expected 2026); Units 4, 5, 6 under construction; total 6,000 MW capacity when complete |
 | **T-90 Bhishma tanks** | Over 1,000 tanks in service; licensed production at HVF Avadi, Chennai |
 | **AK-203 rifles** | 6.71 lakh rifles to be manufactured at Indo-Russian Rifles Private Ltd. in Amethi, Uttar Pradesh |
+| **Krivak-class frigates** | Four guided-missile frigates ordered: 2 built in Russia (Admiral Grigorovich-class), 2 to be built in India at Goa Shipyard Ltd. under joint production |
 | **RELOS Agreement** | Reciprocal Exchange of Logistics Support; signed 2025; allows access to each other's military facilities for refuelling, repairs, supplies, and maintenance |
 
 #### Defence Dependency Concerns
@@ -78,6 +79,18 @@ India-Russia defence ties represent the most extensive military-technical partne
 | **Diversification** | India has consciously diversified --- US, France, and Israel now account for growing shares of defence imports |
 | **Spare parts challenge** | Russian equipment requires Russian spare parts; supply chain disruptions during the Ukraine conflict have been a concern |
 | **CAATSA risk** | India's S-400 purchase technically triggers US sanctions under CAATSA; US has not imposed sanctions on India but the risk remains |
+
+#### CAATSA and India
+
+The **Countering America's Adversaries Through Sanctions Act (CAATSA)** (US legislation, 2017) imposes mandatory sanctions on countries making "significant" defence transactions with Russia, Iran, or North Korea (Section 231).
+
+| Issue | Detail |
+|-------|--------|
+| **CAATSA trigger** | India's S-400 deal ($5.43 billion, signed October 2018) qualifies as a "significant" transaction under Section 231 |
+| **US position** | US has repeatedly signalled it does not want to sanction India but has not formally granted a waiver |
+| **Waiver provision** | CAATSA allows Presidential national security waiver; Congress has questioned whether India deserves one |
+| **India's argument** | Defence diversification takes time; India cannot immediately replace Russian platforms; sanctions would damage the Quad partnership |
+| **Current status (2026)** | India has not been sanctioned despite all five S-400 deliveries; de facto US tolerance pending India's defence diversification |
 
 ---
 
@@ -146,6 +159,44 @@ India-Russia defence ties represent the most extensive military-technical partne
 
 ---
 
+### Russia-Ukraine War: India's Stance
+
+Russia launched its full-scale invasion of Ukraine on **24 February 2022**. India has navigated this carefully, maintaining ties with Moscow while avoiding direct confrontation with the West.
+
+#### India's Position
+
+- Abstained on **UN General Assembly resolutions** condemning Russia (Resolution ES-11/1, March 2022 and subsequent resolutions)
+- Consistently called for **dialogue and diplomacy** and respect for the UN Charter and international law
+- Has not condemned Russia's invasion directly
+- Significantly deepened oil imports from Russia (opportunistic use of discounted crude)
+- Maintained bilateral ties with Russia while engaging diplomatically with Ukraine (PM Modi visited Kyiv in August 2024)
+
+#### India's Reasoning
+
+| Factor | Explanation |
+|--------|------------|
+| **Defence dependency** | India cannot afford to alienate Russia while 60%+ of its military hardware is Russian-origin; spare parts and maintenance are critical |
+| **Nuclear cooperation** | Kudankulam NPP (Tamil Nadu) — built by Russian ROSATOM; Units 1-2 operational, Units 3-6 under construction |
+| **Strategic autonomy doctrine** | India's multi-alignment policy resists being drawn into Western alliance politics |
+| **China factor** | India does not want Russia to become entirely dependent on China — maintaining Russia as a counterbalance serves India's interests |
+| **Historical relationship** | Deep political, institutional, and people-to-people ties spanning 75+ years |
+
+#### Impact on Bilateral Trade
+
+| Metric | Pre-war (FY 2021-22) | Post-war (FY 2024-25) | Change |
+|--------|----------------------|----------------------|--------|
+| Bilateral trade | ~$10 billion | ~$69 billion | ~7x increase |
+| Russian oil share in India's imports | <1% | ~36% (~87.4 MT) | Massive surge |
+| Russia's rank as oil supplier | Not in top 5 | **India's largest oil supplier** | Structural shift |
+
+India benefited from discounted Russian crude (trading at $25–35/barrel discount to Brent immediately after sanctions). However, US sanctions imposed on Russian oil majors in November 2025 complicated Indian refiners' operations, prompting some diversification.
+
+#### Rupee-Ruble Trade
+
+A significant portion of India-Russia trade shifted to **rupee-ruble settlement** (bypassing USD/SWIFT systems under US/EU sanctions). However, accumulated rupee balances in Russian accounts created challenges — Russia found it difficult to utilise rupee surpluses since India has limited import demand for Russian non-oil goods.
+
+---
+
 ## Part II: India-EU and India-Europe Relations
 
 ### India-EU Relations
@@ -178,7 +229,9 @@ France is India's closest strategic partner in Europe, with cooperation spanning
 
 | Area | Detail |
 |------|--------|
-| **Strategic Partnership** | Established 1998; elevated to **Special Global Strategic Partnership** during President Macron's visit, 17--19 February 2026 |
+| **Strategic Partnership** | Established 1998; first European strategic partnership for India |
+| **Macron Republic Day visit** | 25--26 January 2024 — Macron was Republic Day Chief Guest; **Horizon 2047** roadmap (25-year bilateral vision document) signed; comprehensive joint statement |
+| **Special Global Strategic Partnership** | Elevated during President Macron's visit, 17--19 February 2026 — India's highest partnership designation for any European country |
 | **Defence --- Rafale** | 36 Rafale jets delivered to IAF (contract signed 2016); 26 Rafale-Marine fighters contracted for INS Vikrant |
 | **Defence --- Submarines** | Scorpene-class submarines (Project 75) built at Mazagon Dock with French DCNS (now Naval Group) collaboration; 6 submarines delivered |
 | **Nuclear --- Jaitapur** | 6 EPR (European Pressurized Reactor) units planned in Maharashtra with EDF/Framatome; total capacity 9.6 GWe; would be world's most powerful nuclear facility; Industrial Way Forward Agreement signed 2018; joint development of low/medium-power modular reactors agreed February 2025 |
@@ -196,6 +249,17 @@ France is India's closest strategic partner in Europe, with cooperation spanning
 |------|--------|
 | **FTA** | Negotiations relaunched January 2025; agreement in principle reached 6 May 2025; signed 24 July 2025; expected to come into force first half of 2026 |
 | **FTA significance** | UK's most economically significant bilateral FTA since Brexit; reduces tariffs on UK exports to India by up to GBP 400 million/year, potentially GBP 900 million after 10 years |
+
+#### Key Features of India-UK CETA (Comprehensive Economic and Trade Agreement)
+
+| Feature | Detail |
+|---------|--------|
+| **Tariff coverage** | India to eliminate tariffs on 99% of UK tariff lines (100% of trade value); UK to reduce tariffs on 90% of Indian tariff lines |
+| **Whisky and gin** | UK Scotch whisky tariffs phased down from 150% to much lower levels over several years |
+| **Automobiles** | UK auto/EV tariffs reduced; India maintains regulatory standards |
+| **Services** | Mode 4 movement of professionals; India wins mobility concessions for IT/business services workers |
+| **IPR** | Balanced provisions; India successfully defended data protection and pharmaceutical patent positions |
+| **Projected benefit** | UK: ~£4.8 billion annual economic boost by 2040 |
 | **Defence** | Carrier Strike Group cooperation; joint exercises (Ajeya Warrior, Konkan); Type 26/31 frigate discussions |
 | **Living Bridge** | ~1.9 million Indian-origin people in the UK; 2nd largest source of foreign students in UK universities |
 | **Technology** | Joint working groups on AI, cyber, fintech; India-UK Tech Partnership |
@@ -237,6 +301,22 @@ France is India's closest strategic partner in Europe, with cooperation spanning
 | **Finland** | Education, technology, 5G/6G research; Make in India partnership |
 | **Norway** | Blue economy; maritime cooperation; sovereign wealth fund investment in India |
 | **Iceland** Geothermal energy cooperation; Arctic Council cooperation |
+
+---
+
+### India and NATO: No Formal Alliance, Growing Coordination
+
+India is **not a NATO member** and has consistently maintained that joining formal alliances is incompatible with its strategic autonomy doctrine. However, there is growing functional cooperation.
+
+| Area | Status |
+|------|--------|
+| **Interoperability** | India's growing exercises with NATO members (India-US, India-France, India-UK joint drills) |
+| **Technology sharing** | India-US iCET (Initiative on Critical and Emerging Technologies); India-UK-Australia defence tech |
+| **Indo-Pacific coordination** | NATO's Indo-Pacific "partners" framework — India participates in select NATO events/platforms |
+| **Ukraine war** | India's abstentions strained relations; NATO countries want India to take clearer pro-Ukraine positions |
+| **No Article 5 participation** | India firmly resists any collective defence commitments |
+
+India's engagement with NATO is best characterised as **issue-specific, non-committal coordination** rather than alliance-building.
 
 ---
 
@@ -303,6 +383,59 @@ France is India's closest strategic partner in Europe, with cooperation spanning
 | **Jaitapur** | Planned 9.6 GWe nuclear plant in Maharashtra with French EPR technology |
 | **RELOS** | Reciprocal Exchange of Logistics Support (India-Russia, 2025); similar to LEMOA with the US |
 | **CAATSA** | US law threatening sanctions on purchasers of Russian defence equipment; India's S-400 deal is the test case |
+
+---
+
+## India's Strategic Autonomy: Multi-Alignment Doctrine
+
+India's approach to great power relations is governed by the doctrine of **strategic autonomy** — the ability to pursue an independent foreign policy that serves India's national interest without being locked into any bloc or alliance.
+
+### Key Tenets
+
+| Principle | Application |
+|-----------|------------|
+| **Multi-alignment** | Engage with the US, Russia, EU, China, Global South simultaneously; maintain leverage with each |
+| **Conditional engagement** | Cooperate on specific issues; refuse alliance commitments |
+| **Issue-by-issue approach** | India may vote with the US on climate, abstain on Ukraine, cooperate with Russia on defence, compete with China economically |
+| **Development primacy** | Economic development and national security take precedence over ideological solidarity |
+
+### India's Multi-Alignment in Practice (2025–26)
+
+| Relationship | Cooperation | Tension |
+|-------------|------------|---------|
+| **USA** | Quad, defence, technology (iCET), trade | CAATSA, H-1B visas, tariff disputes |
+| **Russia** | Oil imports, defence, INSTC | Western pressure, rupee surplus problem |
+| **EU** | FTA (concluded Jan 2026), TTC, green alliance | Data localisation, auto tariffs |
+| **China** | Bilateral trade (~$113 billion imports) | Border disputes, RCEP exit, competitive anxiety |
+| **Middle East** | I2U2, energy, diaspora | Iran sanctions complications |
+
+---
+
+## Previous Year Questions (PYQs)
+
+### Prelims
+
+1. The 'Indo-Soviet Treaty of Peace, Friendship and Cooperation' was signed in — *(Tests year and context; answer: 9 August 1971)*
+
+2. Consider the following statements about CAATSA:
+   (a) It was enacted by the US Congress in 2017
+   (b) It mandates automatic sanctions on any country purchasing major defence equipment from Russia
+   (c) India has received a formal CAATSA waiver for the S-400 deal
+   Which of the above statements is/are correct? *(Answer: (a) only — (b) is wrong as there is a waiver provision; (c) is wrong — no formal waiver granted)*
+
+3. The BrahMos supersonic cruise missile is a joint venture between India and: *(Answer: Russia — DRDO + NPO Mashinostroyenia)*
+
+4. INSTC (International North-South Transport Corridor) connects India to Russia via: *(Answer: Iran)*
+
+### Mains
+
+1. "India's decision to abstain from UN resolutions condemning Russia's invasion of Ukraine reflects strategic interest over principle." Critically evaluate India's position in the context of its strategic autonomy doctrine. *(CSE Mains GS2 2022)*
+
+2. Discuss the significance of India's defence cooperation with Russia. How has the Russia-Ukraine war impacted this relationship and what are the long-term implications for India's defence modernisation? *(CSE Mains GS2 pattern)*
+
+3. Examine the state of India-EU relations. How does the conclusion of the India-EU FTA (2026) mark a turning point in the bilateral relationship? *(CSE Mains GS2 pattern)*
+
+4. "India's foreign policy is neither non-alignment nor alignment — it is multi-alignment." Discuss with reference to India's simultaneous engagement with the US, Russia, and Europe. *(CSE Mains GS2 pattern)*
 
 ---
 
