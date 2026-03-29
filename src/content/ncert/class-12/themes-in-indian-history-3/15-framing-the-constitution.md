@@ -275,50 +275,111 @@ The last sitting of the Constituent Assembly took place on **24 January 1950**, 
 
 ## PART 3: MAINS ANSWER FRAMEWORKS
 
-### Framework 1: "The Indian Constitution was not just a legal document but a vision of social transformation. Discuss with reference to the debates in the Constituent Assembly." (GS1/GS2, 15 marks)
+### Framework 1 — Constitution as Social Transformation Vision (GS1/GS2, 15 marks)
 
-**Introduction:** Granville Austin described the Indian Constitution as "first and foremost a social document." The debates in the Constituent Assembly (1946–1949) confirm this: the framers were not merely codifying existing power but consciously trying to reshape Indian society.
+**Question:** "The Indian Constitution was not just a legal document but a vision of social transformation. Discuss with reference to the debates in the Constituent Assembly."
 
-**Body A — The Objectives Resolution as a social manifesto:**
-Nehru's Objectives Resolution (December 1946) explicitly promised safeguards for minorities, backward classes, and the poor. This was not merely a legal framework but a promise of social justice.
+#### Introduction
+- Granville Austin described the Indian Constitution as "first and foremost a social document"
+- The debates (1946–1949) confirm this: the framers were not merely codifying existing power but consciously trying to reshape Indian society
+- Establish the distinction between a legal document and a transformative one
 
-**Body B — Fundamental Rights debates — property vs. reform:**
-The zamindari abolition controversy shows the Assembly choosing social transformation over property rights. The eventual removal of property from Fundamental Rights (44th Amendment) was a logical conclusion of this intent.
+#### Body A — The Objectives Resolution as a Social Manifesto
+- Nehru's Objectives Resolution (December 13, 1946) explicitly promised safeguards for minorities, backward classes, and the poor
+- This was not merely a legal framework — it was a promise of social justice that became the Preamble's philosophical foundation
+- The language of sovereignty, republic, justice, equality, and minority protection was aspirational, not descriptive
 
-**Body C — Ambedkar's insistence on social democracy:**
-Ambedkar's valedictory speech (25 November 1949) is the clearest statement: political democracy without social equality is unstable. Art. 17 (abolition of untouchability) and Arts. 15–16 (anti-discrimination, equality of opportunity) were revolutionary for a caste-bound society.
+#### Body B — Fundamental Rights Debates: Property vs. Reform
+- The zamindari abolition controversy shows the Assembly choosing social transformation over property rights
+- Zamindars argued Art. 31 (right to property) prevented land reform; Congress majority insisted the state must be able to acquire land for public purposes
+- The 44th Amendment (1978) removing property from Fundamental Rights was the logical conclusion of this intent — the Assembly's direction of travel was clear from the start
 
-**Body D — Language and federalism as tools of inclusion:**
-The Munshi-Ayyangar formula on language and the three-list federal structure were designed to include all communities, not merely the Hindi-speaking North.
+#### Body C — Ambedkar's Insistence on Social Democracy
+- Valedictory speech (November 25, 1949): "Political democracy cannot last unless there lies at the base of it social democracy"
+- Art. 17 (abolition of untouchability): the first time any legal system in the world explicitly abolished this practice
+- Arts. 15–16 (anti-discrimination, equality of opportunity): revolutionary provisions for a deeply caste-stratified society
+- These were not procedural rules — they were declarations of intent to transform social relations
 
-**Conclusion:** The Constitution's aspirational Preamble — Justice, Liberty, Equality, Fraternity — was a commitment to transform, not merely describe, India. Whether that transformation has been achieved is the central question of Indian democracy.
+#### Body D — Language and Federalism as Tools of Inclusion
+- The Munshi-Ayyangar formula: Hindi as official language, English continuing, no "national language" declared — designed to include all regional communities
+- The three-list federal structure: designed to balance central authority with regional diversity
+- Both were instruments of inclusion, not just administrative convenience
 
-### Framework 2: "How did the Constituent Assembly debates reflect the tensions of post-partition India? Were these tensions successfully resolved in the Constitution?" (GS1, 10 marks)
+#### Nuance / Critical Edge
+- The Constitution's transformative intent has been only partially realised — caste discrimination persists, economic inequality has grown, and the Directive Principles remain non-justiciable
+- The tension between aspirational language and ground reality is itself a recurring UPSC question
 
-**Introduction:** The Constituent Assembly met in the shadow of Partition — one of history's greatest human catastrophes. Every major debate bore the marks of communal trauma.
+#### Conclusion
+- The Preamble's commitments to Justice, Liberty, Equality, Fraternity were a commitment to transform, not merely describe, India
+- Whether that transformation has been achieved is the central question of Indian democracy — strong answers acknowledge both the ambition and its incomplete realisation
 
-**Tension 1 — Minority fears after Partition:**
-The Muslim members who remained in the Assembly had to decide whether to trust the Congress majority or demand structural protections. The compromise — no separate electorates, protective rights instead of separate representation — was a leap of faith.
+### Framework 2 — Constituent Assembly Tensions and Their Resolution (GS1, 10 marks)
 
-**Tension 2 — Language and regional identity:**
-The North-South divide over Hindi nearly ruptured the Assembly. The Munshi-Ayyangar formula was a workable compromise, but not a permanent resolution — anti-Hindi agitations continued in South India through the 1960s.
+**Question:** "How did the Constituent Assembly debates reflect the tensions of post-partition India? Were these tensions successfully resolved in the Constitution?"
 
-**Tension 3 — Federalism vs. the fear of fragmentation:**
-The strong Centre was a response to Partition's lesson: fragmentation is dangerous. But it created a permanent tension with state autonomy that continues to animate Indian politics.
+#### Introduction
+- The Constituent Assembly met in the shadow of Partition — one of history's greatest human catastrophes
+- Every major debate bore the marks of communal trauma: distrust, fear of domination, anxiety about fragmentation
+- Establish that the question asks both what the tensions were and whether the Constitution resolved them
 
-**Assessment:** The Constitution resolved these tensions enough to survive — but "resolved" is too strong a word. It managed them through careful institutional design, buying time for democracy to mature.
+#### Body A — Tension 1: Minority Fears After Partition
+- Muslim members remaining in the Assembly had to decide whether to trust the Congress majority or demand structural protections
+- Begum Aizaz Rasul argued against separate electorates from within the Muslim community — a remarkable act of political trust
+- The compromise: no separate electorates, but anti-discrimination rights and reserved seats in joint electorates for SCs and STs
+- A leap of faith — not a structural guarantee of Muslim political power
 
-### Framework 3: "Examine Dr. B.R. Ambedkar's contribution to the making of the Indian Constitution. Why is he called the 'Father of the Indian Constitution'?" (GS1/GS2, 10 marks)
+#### Body B — Tension 2: Language and Regional Identity
+- The North-South divide over Hindi nearly ruptured the Assembly
+- T.T. Krishnamachari warned that South India might reconsider its place in the Union if Hindi were imposed
+- The Munshi-Ayyangar formula was a workable compromise — but not a permanent resolution
+- Anti-Hindi agitations continued in South India through the 1960s; the 1965 crisis showed the compromise was fragile
 
-**Introduction:** B.R. Ambedkar's role in the Constituent Assembly went far beyond drafting. He was the moral conscience of the constitution-making process.
+#### Body C — Tension 3: Federalism vs. Fear of Fragmentation
+- The strong Centre was a direct response to Partition's lesson: fragmentation is dangerous
+- But it created a permanent tension with state autonomy that continues to animate Indian politics
+- The three-list structure with residuary powers at the Centre was a deliberate departure from US/Australian models
 
-**Contribution 1 — As Chairman of the Drafting Committee:**
-Appointed 29 August 1947, Ambedkar led the seven-member committee that synthesised the work of all subcommittees into a coherent draft. Despite illness and the loss of two committee members (Khaitan died; Mitter resigned), he personally prepared much of the final draft.
+#### Nuance / Critical Edge
+- "Resolved" is too strong a word — the Constitution managed these tensions through careful institutional design, buying time for democracy to mature
+- The language question re-erupted in the 1960s; Centre-state tensions remain live; minority representation continues to be debated
+- What the Constitution achieved was to provide a framework within which these tensions could be contested peacefully
 
-**Contribution 2 — Specific constitutional provisions he championed:**
-Art. 17 (abolition of untouchability — the first time any legal system explicitly abolished this practice), Arts. 15–16 (anti-discrimination), the directive on equal pay for equal work, and the provision for reservations in legislatures and public employment all bear his direct influence.
+#### Conclusion
+- The Constitution resolved these tensions enough to survive — and 75 years of democratic functioning is evidence of that
+- But managing tensions is not the same as resolving them; the framers were realists who built a structure designed to endure, not to achieve perfection
 
-**Contribution 3 — The valedictory speech as constitutional philosophy:**
-His three warnings — against the grammar of anarchy, hero worship, and political democracy without social democracy — are the most important statement of constitutional morality in Indian history.
+### Framework 3 — Ambedkar's Role in Constitution-Making (GS1/GS2, 10 marks)
 
-**Nuance:** Ambedkar did not consider the Constitution perfect. He hoped it would be a vehicle for social change but recognised that the document's worth depended on the people who operated it. He also resigned from Nehru's Cabinet in 1951 over the Hindu Code Bill's dilution. His relationship with the Constitution he helped create was complex, critical, and deeply human.
+**Question:** "Examine Dr. B.R. Ambedkar's contribution to the making of the Indian Constitution. Why is he called the 'Father of the Indian Constitution'?"
+
+#### Introduction
+- B.R. Ambedkar's role went far beyond drafting — he was the moral conscience of the constitution-making process
+- Appointed Chairman of the Drafting Committee on August 29, 1947
+- Establish why the title "Father of the Constitution" is deserved but also contested
+
+#### Body A — As Chairman of the Drafting Committee
+- Led the seven-member committee that synthesised the work of all subcommittees into a coherent draft
+- Despite personal illness and the loss of two committee members (Khaitan died 1948; Mitter resigned), he personally prepared much of the final draft
+- Presided over 7,635 amendments proposed, of which 2,473 were moved and debated
+
+#### Body B — Specific Constitutional Provisions He Championed
+- Art. 17: abolition of untouchability — the first time any legal system in the world explicitly abolished this practice
+- Arts. 15–16: prohibition of discrimination and equality of opportunity in public employment
+- Directive Principles on equal pay for equal work
+- Reservations in legislatures and public employment for Scheduled Castes and Scheduled Tribes
+- His defence of Art. 356 (President's Rule) as a necessary but dangerous emergency tool
+
+#### Body C — The Valedictory Speech as Constitutional Philosophy
+- November 25, 1949: three warnings that remain the most important statement of constitutional morality in Indian history
+- Against "the grammar of anarchy": constitutional methods must replace civil disobedience in a democratic republic
+- Against "bhakti in politics": hero-worship is "a sure road to degradation and eventual dictatorship"
+- For social democracy: "Political democracy cannot last unless there lies at the base of it social democracy"
+
+#### Nuance / Critical Edge
+- Ambedkar did not consider the Constitution perfect — he saw it as a vehicle for social change whose worth depended on the people who operated it
+- He resigned from Nehru's Cabinet in 1951 over the dilution of the Hindu Code Bill, showing he was willing to challenge the government he had helped create
+- His relationship with the Constitution was complex, critical, and deeply human — not the reverence of a proud author but the wariness of someone who knew its limitations
+
+#### Conclusion
+- "Father of the Constitution" is justified by the intellectual, drafting, and philosophical weight of his contribution
+- But Ambedkar himself would insist the Constitution's value lies not in the document but in whether it delivers social equality — the question he left open for every generation after him

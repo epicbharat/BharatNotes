@@ -345,55 +345,90 @@ Gandhi's political campaigns ran alongside a deep commitment to social transform
 
 ## PART 3: MAINS ANSWER FRAMEWORKS
 
-### Framework 1: "Gandhi transformed the Indian National Congress from an elite organisation into a mass movement. Critically examine how he achieved this." [GS1, 15 marks]
+### Framework 1 — Gandhi and Congress Mass Mobilisation (GS1, 15 marks)
 
-**Introduction (3–4 lines):** Pre-Gandhi Congress: founded 1885, dominated by educated, English-speaking professionals — lawyers, journalists, teachers. Methods: petitions, memorials, annual resolutions. Hume called it a "safety valve." Maximum sessions attendance: a few thousand.
+**Question:** "Gandhi transformed the Indian National Congress from an elite organisation into a mass movement. Critically examine how he achieved this."
 
-**Body A — The Methodology of Mass Mobilisation:**
+#### Introduction
+- Pre-Gandhi Congress (founded 1885): dominated by educated, English-speaking professionals — lawyers, journalists, teachers
+- Methods were petitions, memorials, annual resolutions; Hume called it a "safety valve"
+- Maximum session attendance was a few thousand — establish the contrast with what Gandhi built
+
+#### Body A — The Methodology of Mass Mobilisation
 - Satyagraha: a technique accessible to all, requiring no weapons, money, or literacy — only moral courage
-- Selection of *universal* symbols: salt (civil disobedience), khadi (constructive programme), fasting (moral pressure)
+- Selection of universal symbols: salt (civil disobedience), khadi (constructive programme), fasting (moral pressure)
 - Use of vernacular languages and local idioms; Gandhi spoke in Hindustani, not English
-- Organisation: Congress constitution redrawn at Nagpur (1920) — provincial Congress committees on linguistic lines, dues reduced to 4 annas (accessible to the poor)
+- Congress constitution redrawn at Nagpur (1920): provincial committees on linguistic lines, membership dues reduced to 4 annas (accessible to the poor)
 
-**Body B — Reaching New Constituencies:**
+#### Body B — Reaching New Constituencies
 - Peasants: Champaran (1917), Kheda (1918), Bardoli (1928)
-- Workers: supported mill strikes in Ahmedabad (1918); but generally cautious about class conflict
-- Women: visibly mobilised in Civil Disobedience and Quit India
-- Religious minorities: Khilafat alliance brought Muslims into Congress fold
-- Tribal communities: entered movements (though sometimes with different agendas)
+- Workers: supported mill strikes in Ahmedabad (1918); generally cautious about class conflict
+- Women: visibly mobilised in Civil Disobedience and Quit India for the first time at scale
+- Religious minorities: Khilafat alliance brought Muslims into the Congress fold
+- Tribal communities: entered movements, though sometimes with their own distinct agendas
 
-**Body C — Limitations and Critiques:**
-- Movement was *controllable by Gandhi* — a strength (non-violence preserved) but also a limit (Chauri Chaura withdrawal showed ordinary people's agency was suspect)
+#### Body C — Limitations and Critiques
+- Movement was controllable by Gandhi — a strength (non-violence preserved) but also a limit (Chauri Chaura withdrawal showed ordinary people's agency was constrained)
 - Dalit question: Gandhi's approach to untouchability did not satisfy Ambedkar; Dalit interests not fully represented in Congress
-- Peasant interests: agrarian demands (rent reduction, land redistribution) were subordinated to anti-colonial unity; zamindars within Congress checked radical agrarian agenda
+- Peasant interests: agrarian demands (rent reduction, land redistribution) subordinated to anti-colonial unity; zamindars within Congress checked the radical agrarian agenda
 - Women's participation did not translate to equal leadership — Congress and Indian society remained patriarchal
 
-**Conclusion:** Gandhi achieved something historically unprecedented — a continent-scale mass movement against colonialism. But "mass movement" had limits: it was choreographed, withdrawal-capable, and served the goal of anti-colonial unity more than social transformation.
+#### Nuance / Critical Edge
+- The "mass movement" was choreographed and withdrawal-capable — which preserved the organisation but also showed limits of genuine popular autonomy
+- Historians like Bipan Chandra praise the strategic discipline; subaltern historians (Ranajit Guha, Shahid Amin) show that the masses had their own agendas that Gandhi often suppressed or overrode
+
+#### Conclusion
+- Gandhi achieved something historically unprecedented: a continent-scale movement against colonialism mobilising all classes and regions
+- But the movement served anti-colonial unity more than social transformation — the limits of "mass" participation are what distinguish average answers from top ones
 
 ---
 
-### Framework 2: "The Salt March was a brilliant act of political communication. Analyse how Gandhi chose the symbol of salt and what it achieved." [GS1, 10 marks]
+### Framework 2 — The Salt March as Political Communication (GS1, 10 marks)
 
-**Structure:**
-1. **Context** (2 lines): Purna Swaraj declared Dec 1929; Gandhi needed an act of civil disobedience that would be universal, simple, and internationally legible
-2. **Why Salt:** four dimensions — universal necessity, state monopoly, moral simplicity, media potential (explained in Beyond the Book section above)
-3. **Execution:** the march's theatricality — 24 days, 78 followers growing to thousands, Gandhi addressing villages along the way, the arrival at Dandi, the symbolic act of picking up salt
-4. **What it achieved:**
-   - Triggered mass civil disobedience across India (60,000+ arrested)
-   - Dharasana Salt Works: non-violent resistance to police beatings — covered by international press
-   - Forced Gandhi-Irwin Pact (March 1931) — British recognition of Congress's legitimacy
-   - International pressure on Britain (American and British public opinion shifted)
-   - Women entered the movement in large numbers
-5. **Limitations:** The Pact did not deliver Purna Swaraj; Civil Disobedience was suspended without the core demand being met
-6. **Conclusion:** The Salt March was less a legal or economic victory than a *moral and communicative* one — it changed the terms of the relationship between the coloniser and the colonised
+**Question:** "The Salt March was a brilliant act of political communication. Analyse how Gandhi chose the symbol of salt and what it achieved."
+
+#### Introduction
+- Purna Swaraj declared December 1929; Gandhi needed a civil disobedience act that would be universal, simple, and internationally legible
+- Establish that this was a deliberate, calculated choice — not an impulsive act
+
+#### Body A — Why Salt Was Chosen
+- Universal necessity: every Indian regardless of religion, caste, class, or region needed salt — unlike foreign cloth, it touched everyone
+- State monopoly: the colonial government monopolised a naturally occurring substance; the law was easily presented as absurd and unjust
+- Moral simplicity: an old man walking to the sea to pick up salt — impossible to complicate or justify suppressing
+- Media potential: Gandhi understood international opinion; the march was designed for global press coverage
+
+#### Body B — The Execution
+- Left Sabarmati Ashram on March 12, 1930 with 78 chosen followers; 241 miles over 24 days to Dandi, Navsari
+- Gandhi addressed crowds at every village along the route; the column grew
+- April 6, 1930: picked up salt from the beach — deliberately breaking the Salt Law
+- Dharasana Salt Works (May 1930): Sarojini Naidu led non-resistant marchers who were beaten by police; covered by American journalist Webb Miller; made international headlines
+
+#### Body C — What It Achieved
+- Triggered mass civil disobedience across India — 60,000+ arrested
+- Women entered the movement in large numbers for the first time (picketing, making salt)
+- Forced Gandhi-Irwin Pact (March 5, 1931): British recognition of Congress as legitimate negotiating partner
+- Shifted American and British public opinion against British rule
+
+#### Nuance / Critical Edge
+- The Pact did not deliver Purna Swaraj — Civil Disobedience was suspended without the core demand being met
+- The movement was ultimately a moral and communicative victory, not a legal or economic one
+- This distinction is key: what exactly did the Salt March "achieve," and what did it not?
+
+#### Conclusion
+- The Salt March changed the terms of the relationship between coloniser and colonised — the Viceroy negotiated with Gandhi as an equal
+- Less a legal victory than a demonstration that moral authority could challenge imperial authority — what today would be called strategic communication
 
 ---
 
-### Framework 3: "Compare the Non-Cooperation (1920–22), Civil Disobedience (1930), and Quit India (1942) movements. What does the escalation tell us about the changing relationship between the INC and the British?" [GS1, 15 marks]
+### Framework 3 — Escalation Across Three Mass Movements (GS1, 15 marks)
 
-**Introduction:** Three movements, twenty years, each escalating in scope, violence, and the depth of Congress's challenge to British authority.
+**Question:** "Compare the Non-Cooperation (1920–22), Civil Disobedience (1930), and Quit India (1942) movements. What does the escalation tell us about the changing relationship between the INC and the British?"
 
-**Comparison Table for Answer:**
+#### Introduction
+- Three movements, twenty years, each escalating in scope, violence, and depth of Congress's challenge to British authority
+- Frame the question: the escalation is not random — it reflects a structural change in the balance of power
+
+#### Body A — Comparative Overview (use this table in the answer)
 
 | Dimension | Non-Cooperation (1920–22) | Civil Disobedience (1930) | Quit India (1942) |
 |-----------|--------------------------|--------------------------|------------------|
@@ -405,10 +440,16 @@ Gandhi's political campaigns ran alongside a deep commitment to social transform
 | British response | Arrested Gandhi 1922 | Negotiated (Gandhi-Irwin Pact) | Massive repression (100,000+ arrested) |
 | Outcome | Movement withdrawn; Congress intact | Partial recognition; no swaraj | Suppressed; Britain knew India ungovernable |
 
-**Analysis — what the escalation tells us:**
-1. **From petition to confrontation to insurrection:** The trajectory shows Congress moving from requesting reform (pre-Gandhi) to demanding it (Non-Cooperation) to seizing it (Quit India)
-2. **British delegitimisation:** Each movement exposed British moral and administrative weakness. The Pact of 1931 was symbolically devastating — the Viceroy negotiating with a "rebel." Quit India showed India could not be governed without Indian consent.
-3. **Congress's confidence:** Each movement built organisational capacity and popular legitimacy. By 1942, Congress was the *de facto* representative of India even without formal power.
-4. **The irreversibility of 1942:** Even though Quit India was suppressed, post-WWII Britain lacked the resources or political will to hold India by force. The 1946 RIN Mutiny and the 1945–46 INA trials showed the British Indian military could no longer be relied on.
+#### Body B — What the Escalation Reveals
+- From petition to confrontation to insurrection: Congress moved from requesting reform (pre-Gandhi) to demanding it (Non-Cooperation) to seizing it (Quit India)
+- British delegitimisation: each movement exposed moral and administrative weakness; the 1931 Pact (Viceroy negotiating with a "rebel") was symbolically devastating
+- Congress's confidence grew: each movement built organisational capacity and popular legitimacy; by 1942, Congress was the de facto representative of India
+- The irreversibility of 1942: even though Quit India was suppressed, post-WWII Britain lacked resources or will to hold India by force; the 1946 RIN Mutiny and 1945–46 INA trials showed the British Indian military could no longer be relied on
 
-**Conclusion:** The escalation reflects not just Congress's growing ambition but Britain's declining capacity — moral, economic, military — to sustain empire. Independence in 1947 was the culmination of a twenty-five-year process in which each confrontation left Britain weaker and Congress stronger.
+#### Nuance / Critical Edge
+- The escalation in violence also reveals the limits of Gandhian discipline — Quit India was the most violent phase precisely because the leadership was absent
+- Some historians argue the British were already planning to leave India after WWII regardless of Congress's movements — meaning the "causal" relationship between movements and independence requires qualification
+
+#### Conclusion
+- The escalation reflects both Congress's growing ambition and Britain's declining capacity — moral, economic, military — to sustain empire
+- Independence in 1947 was the culmination of a twenty-five-year process in which each confrontation left Britain weaker and Congress stronger

@@ -405,72 +405,95 @@ The NCERT's analysis of Sanchi is the only sustained art-historical analysis in 
 
 ## PART 3: MAINS ANSWER FRAMEWORKS
 
-### Framework 1: "The emergence of Buddhism and Jainism in 6th century BCE India was not merely a religious development but a social revolution. Critically examine." [GS1, 15 marks]
+### Framework 1 — Buddhism & Jainism as Social Revolution (GS1, 15 marks)
 
-**Introduction (3–4 lines):** Anchor in the historical context — second urbanisation, rise of Gangetic city-states, new merchant class, critique of Brahmanical ritual excess. Thesis: Both movements challenged existing hierarchies while remaining limited in their scope of social transformation.
+**Question:** "The emergence of Buddhism and Jainism in 6th century BCE India was not merely a religious development but a social revolution. Critically examine."
 
-**Body — The Case FOR "Social Revolution":**
-- **Rejection of varna at the spiritual level:** Both the Buddha and Mahavira accepted disciples from all castes, including lower castes and untouchables (cite Sunita, Upali in Buddhist texts). This was genuinely revolutionary in a society where spiritual knowledge was the exclusive property of Brahmin men.
-- **Inclusion of women:** The admission of women to the Buddhist Sangha (despite conditions), the Therigatha as women's literature, Mahavira's establishment of a four-fold order including nuns — unprecedented in their social scale.
-- **New economic ethic:** The merchant community found in both religions a validation of their way of life: honest trade over sacrificial religion, non-violence over the warrior ethos, the accumulation of wealth as compatible with spiritual progress. This reorganised the relationship between economic and religious power.
-- **Language:** Both movements communicated in **Prakrit and Pali** — the languages of the people — rather than Vedic Sanskrit accessible only to the educated Brahmin class. This democratised religious discourse.
-- **The Sangha as an alternative institution:** The Buddhist monastery was an egalitarian community independent of the village and the court — a genuinely alternative social structure.
+#### Introduction
+- Anchor in historical context: second urbanisation, rise of Gangetic city-states, new merchant class, critique of Brahmanical ritual excess
+- Thesis: both movements challenged existing hierarchies while remaining limited in their scope of social transformation
 
-**Body — The Limits (Critical Examination):**
-- Neither Buddhism nor Jainism called for the **abolition of the varna system** in society at large. The Sangha was internally egalitarian, but both religions operated within a caste-stratified society without organising to change it.
-- Women's inclusion came with conditions (the Eight Garudhammas in Buddhism, the dispute over female liberation in Jainism). It was inclusion on unequal terms.
-- Both movements were heavily dependent on **royal and merchant patronage** — they did not build independent mass movements among the poorest.
-- The decline of Buddhism in India shows how contingent its social gains were on institutional support; the gains were not structurally embedded.
+#### Body A — The Case FOR "Social Revolution"
+- **Rejection of varna at the spiritual level:** Both the Buddha and Mahavira accepted disciples from all castes, including lower castes and untouchables (cite Sunita, Upali in Buddhist texts); spiritual knowledge was no longer the exclusive property of Brahmin men
+- **Inclusion of women:** Admission of women to the Buddhist Sangha (despite conditions), the Therigatha as women's literature, Mahavira's four-fold order including nuns — unprecedented in their social scale
+- **New economic ethic:** The merchant community found validation of their way of life — honest trade over sacrificial religion, non-violence over the warrior ethos, wealth as compatible with spiritual progress; this reorganised economic and religious power
+- **Language:** Both movements communicated in Prakrit and Pali — the languages of the people — rather than Vedic Sanskrit; this democratised religious discourse
+- **The Sangha as an alternative institution:** The Buddhist monastery was an egalitarian community independent of the village and the court — a genuinely alternative social structure
 
-**Conclusion:** Buddhism and Jainism were the most significant social challenges to Brahmanical hegemony in ancient India, anticipating many themes of modern social reform. But they were reformist rather than revolutionary — transforming within existing structures rather than overturning them. Their enduring legacy lies in the ethical vocabulary they introduced (ahimsa, karuna, sangha) that would resurface in Bhakti, in Gandhi, and in Ambedkar's conversion to Buddhism.
+#### Body B — The Limits (Critical Examination)
+- Neither Buddhism nor Jainism called for the abolition of the varna system in society at large; the Sangha was internally egalitarian but both religions operated within caste-stratified society without organising to change it
+- Women's inclusion came with conditions (the Eight Garudhammas in Buddhism, dispute over female liberation in Jainism) — inclusion on unequal terms
+- Both movements were heavily dependent on royal and merchant patronage; they did not build independent mass movements among the poorest
+- The decline of Buddhism in India shows how contingent its social gains were on institutional support; the gains were not structurally embedded
+
+#### Nuance / Critical Edge
+- The Sangha created an internal egalitarian space, but social transformation outside that space was minimal — a key distinction between "reform within" and "revolution of" a social order
+- This is what separates a descriptive answer (listing achievements) from an analytical one (assessing structural depth of change)
+
+#### Conclusion
+- Buddhism and Jainism were the most significant social challenges to Brahmanical hegemony in ancient India, anticipating many themes of modern social reform
+- But they were reformist rather than revolutionary — transforming within existing structures rather than overturning them
+- Their enduring legacy lies in the ethical vocabulary they introduced (ahimsa, karuna, sangha) that resurfaces in Bhakti, in Gandhi, and in Ambedkar's conversion to Buddhism
 
 ---
 
-### Framework 2: "What does the Sanchi stupa tell us about early Indian Buddhist society? How do art historians use architecture as a historical source?" [GS1, 10 marks]
+### Framework 2 — Sanchi Stupa as Historical Source (GS1, 10 marks)
 
-**Introduction:** Introduce Sanchi as a site spanning from Ashoka (3rd century BCE) to the Satavahana period (1st century CE) — a monument that accreted meaning over five centuries.
+**Question:** "What does the Sanchi stupa tell us about early Indian Buddhist society? How do art historians use architecture as a historical source?"
 
-**What Sanchi tells us about Buddhist society:**
-- **Lay patronage:** Donor inscriptions on the toranas record contributions from merchants, ivory workers from Vidisha, women donors — evidence of a broad base of lay supporters, not just royalty
+#### Introduction
+- Introduce Sanchi as a site spanning from Ashoka (3rd century BCE) to the Satavahana period (1st century CE) — a monument that accreted meaning over five centuries
+- Frame the dual question: what the stupa reveals about society, and how it functions as a historical source
+
+#### Body A — What Sanchi Reveals About Buddhist Society
+- **Lay patronage:** Donor inscriptions on the toranas record contributions from merchants, ivory workers from Vidisha, and women donors — a broad base of lay supporters, not just royalty
 - **Women as donors:** Named female donors appear — unusual in ancient Indian records; suggests Buddhist lay communities gave women economic and public roles
-- **Craft communities:** The ivory workers of Vidisha are specifically mentioned — a community whose skills (in carving) were applied to stone toranas; shows Buddhism's integration with artisan communities
+- **Craft communities:** Ivory workers of Vidisha specifically mentioned — their carving skills applied to stone toranas; shows Buddhism's integration with artisan communities
 - **The merchant class:** Vidisha (near Sanchi) was a major trade city; the stupa's patronage network maps onto trade routes
 - **Ashoka's role:** The original stupa and the Ashoka pillar at the site record the state's investment in Buddhist monuments as tools of political legitimacy
 
-**How art historians use architecture as a historical source:**
+#### Body B — How Art Historians Use Architecture as Historical Source
 - **Stratigraphy of a monument:** Different building phases (brick core, stone casing, toranas) reveal different historical moments and patrons
-- **Iconography as text:** The carved Jataka tales encode the Buddhist worldview; the aniconic symbols encode a theology of the un-representable; these can be "read" for religious history
+- **Iconography as text:** Carved Jataka tales encode the Buddhist worldview; aniconic symbols encode a theology of the un-representable — these can be "read" for religious history
 - **Inscriptions:** Donor and dedicatory inscriptions provide names, occupations, locations, genders, affiliations — the equivalent of written documents embedded in stone
-- **Comparative analysis:** Comparing Sanchi with Bharhut, Amaravati, and Bodh Gaya allows art historians to trace the evolution of style, iconography, and patronage across centuries
+- **Comparative analysis:** Comparing Sanchi with Bharhut, Amaravati, and Bodh Gaya allows tracing the evolution of style, iconography, and patronage across centuries
 
-**Conclusion:** Sanchi is simultaneously a religious monument, a social document, and an art-historical archive. The NCERT's use of Sanchi exemplifies the method of treating material culture as primary historical evidence — a skill directly tested in UPSC Mains.
+#### Nuance / Critical Edge
+- Architecture is not a neutral record — patrons shaped what was depicted; the absence of peasant donors in inscriptions reflects social power, not social indifference to Buddhism
+- Art historical method must combine visual analysis with external textual evidence to avoid projecting modern categories onto ancient objects
+
+#### Conclusion
+- Sanchi is simultaneously a religious monument, a social document, and an art-historical archive
+- The NCERT's use of Sanchi exemplifies treating material culture as primary historical evidence — a skill directly tested in UPSC Mains
 
 ---
 
-### Framework 3: "Trace the evolution of Buddhist thought from Hinayana to Mahayana. How did this transformation affect Buddhism's geographical spread?" [GS1, 15 marks]
+### Framework 3 — Hinayana to Mahayana: Thought & Spread (GS1, 15 marks)
 
-**Introduction:** Buddhism began as a relatively austere philosophy of individual liberation with the historical Shakyamuni Buddha as its teacher. Over seven centuries, it transformed into a world religion with diverse schools, a divine saviour figure, and a vast philosophical literature — a transformation that drove its extraordinary geographical expansion.
+**Question:** "Trace the evolution of Buddhist thought from Hinayana to Mahayana. How did this transformation affect Buddhism's geographical spread?"
 
-**Body — The Evolution of Thought:**
+#### Introduction
+- Buddhism began as an austere philosophy of individual liberation with the historical Shakyamuni Buddha as its teacher
+- Over seven centuries, it transformed into a world religion with diverse schools, a divine saviour figure, and a vast philosophical literature
+- This transformation drove its extraordinary geographical expansion — the thesis to sustain throughout the answer
 
-*Phase 1 — Early Buddhism (c. 5th century BCE):*
-The Buddha's original teaching was pragmatic, anti-metaphysical, and focused on individual liberation. The Pali Canon (Tipitaka) preserves this tradition. The ideal was the **arhat** — one who has achieved nirvana personally through the Eightfold Path. The Buddha was a historical teacher, not a god.
+#### Body A — Evolution of Buddhist Thought (Five Phases)
+- **Phase 1 — Early Buddhism (c. 5th century BCE):** Pragmatic, anti-metaphysical, focused on individual liberation; the Pali Canon (Tipitaka) preserves this tradition; the ideal was the arhat who achieved nirvana personally; the Buddha was a historical teacher, not a god
+- **Phase 2 — First Split (c. 383 BCE):** Sthaviravada vs. Mahasamghika at the Second Council; Mahasamghikas were more flexible and began developing ideas about the transcendental nature of the Buddha — seeds of Mahayana
+- **Phase 3 — Mahayana emerges (c. 1st century BCE – 1st century CE):** Prajnaparamita sutras and the Lotus Sutra articulated the Bodhisattva ideal — aspiration to Buddhahood for the sake of all beings; the Buddha became a cosmic, eternal, divine figure capable of compassionate intervention
+- **Phase 4 — Fourth Council (c. 78 CE, Kanishka):** Formal institutionalisation of the Mahayana–Hinayana distinction; Sanskrit became the vehicle for Mahayana texts; Kanishka's Kushana empire provided the network for spread along the Silk Road
+- **Phase 5 — Vajrayana (c. 5th–7th century CE):** Incorporated tantric rituals, mantra, and a complex pantheon; Pala dynasty of Bengal (8th–12th century CE) was the great patron; Nalanda and Vikramashila were centres before their destruction
 
-*Phase 2 — The First Split (Sthaviravada vs. Mahasamghika, c. 383 BCE):*
-Disputes over monastic rules at the Second Council produced the first institutional split. The Mahasamghikas ("Great Assembly") were more flexible and began developing ideas about the transcendental nature of the Buddha — seeds of Mahayana.
+#### Body B — Impact on Geographical Spread
+- **Theravada** (surviving Hinayana): Austere, Pali-based, individual-salvation focus; spread to Sri Lanka via Mahinda (Ashoka's son, c. 250 BCE), then Myanmar, Thailand, Cambodia, Laos — dominant religion in these regions today
+- **Mahayana:** The Bodhisattva ideal and elevation of the Buddha to divinity made Buddhism accessible as a religion of grace; drove success along the Silk Road to Central Asia, China (Han dynasty, c. 1st century CE), Korea (4th century CE), Japan (6th century CE), and Vietnam
+- **Vajrayana:** Spread to Tibet (7th century CE, under King Songtsen Gampo), Mongolia, Bhutan, Nepal — fused with indigenous Bon religion to create the distinctive Tibetan Buddhist tradition
 
-*Phase 3 — Mahayana emerges (c. 1st century BCE – 1st century CE):*
-The Prajnaparamita sutras ("Perfection of Wisdom" texts), the Lotus Sutra, and other Sanskrit texts articulated the **Bodhisattva ideal** — the aspiration to attain Buddhahood for the sake of all beings, not just personal nirvana. This was "greater" (maha) because it widened the circle of liberation. The Buddha became a cosmic, eternal, divine figure capable of compassionate intervention.
+#### Nuance / Critical Edge
+- The near-disappearance of Buddhism from its Indian homeland while it flourished abroad is one of history's great ironies — the very success of its export may have depleted its domestic institutional base
+- Loss of royal patronage (especially Pala collapse) and the Bhakti movement's absorption of Buddhism's devotional appeal within a Hindu framework are key factors for a complete answer
 
-*Phase 4 — Fourth Council (c. 78 CE, Kanishka):*
-Formal institutionalisation of the Mahayana–Hinayana distinction. Sanskrit became the vehicle for Mahayana texts. Kanishka's Kushana empire, spanning Central Asia to northern India, provided the network for Mahayana's spread east along the Silk Road.
-
-*Phase 5 — Vajrayana (c. 5th–7th century CE):*
-A further transformation incorporating tantric rituals, mantra, and a complex pantheon of deities. The Pala dynasty of Bengal (8th–12th century CE) was the great patron of Vajrayana; Nalanda and Vikramashila universities were centres of Vajrayana scholarship before their destruction.
-
-**Body — Impact on Geographical Spread:**
-- **Theravada** (surviving Hinayana): Austere, Pali-based, individual-salvation focus. Spread to Sri Lanka via Mahinda (Ashoka's son, c. 250 BCE). From Sri Lanka to Myanmar, Thailand, Cambodia, Laos — where it remains the dominant religion today.
-- **Mahayana**: The Bodhisattva ideal and the elevation of the Buddha to divinity made Buddhism more accessible as a religion of grace and devotion. This drove its success along the **Silk Road** to Central Asia, China (Han dynasty, c. 1st century CE), Korea (4th century CE), Japan (6th century CE), and Vietnam.
-- **Vajrayana**: The tantric form spread to **Tibet** (7th century CE, under King Songtsen Gampo), Mongolia, Bhutan, Nepal — where it fused with indigenous Bon religion to create the distinctive Tibetan Buddhist tradition.
-
-**Conclusion:** The transformation from Hinayana to Mahayana was the key that unlocked Buddhism's universal appeal — it moved from a monastic philosophy requiring renunciation to a religion of compassion and grace accessible to all. The geographical spread maps directly onto this doctrinal evolution: austere Theravada in Southeast Asia, devotional Mahayana in East Asia, tantric Vajrayana in the Himalayas and Central Asia. Buddhism's near-disappearance from its Indian homeland, while it flourished everywhere it spread, is one of history's great ironies — and a standard GS1 Mains theme.
+#### Conclusion
+- The transformation from Hinayana to Mahayana was the key that unlocked Buddhism's universal appeal — it moved from a monastic philosophy requiring renunciation to a religion of compassion and grace accessible to all
+- The geographical spread maps directly onto doctrinal evolution: austere Theravada in Southeast Asia, devotional Mahayana in East Asia, tantric Vajrayana in the Himalayas and Central Asia
+- This is a standard GS1 Mains theme connecting doctrinal history to civilisational geography

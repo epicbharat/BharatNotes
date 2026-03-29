@@ -422,41 +422,113 @@ Marshall's strength: focus on ordinary life, not just monumental finds (progress
 
 ## Part 3 — Mains Answer Frameworks
 
-### Q1: "Discuss the evidence for long-distance trade in the Harappan civilisation. What does it reveal about the nature of the Harappan economy?"
+### Framework 1 — Harappan Long-Distance Trade Evidence (GS1, 15 marks)
 
-**Intro hook:** Include Dholavira UNESCO 2021 or Rakhigarhi DNA to show contemporary relevance.
+**Question:** "Discuss the evidence for long-distance trade in the Harappan civilisation. What does it reveal about the nature of the Harappan economy?"
 
-**Body structure:**
-1. **Material evidence for trade routes** — raw materials found far from sources (lapis lazuli from Afghanistan at Harappan sites; copper artefacts with Omani nickel signature)
-2. **Evidence for trade infrastructure** — standardised weights (binary+decimal), seals as authentication tools, Lothal dockyard (with the caveat that it's debated)
-3. **Textual corroboration** — Mesopotamian mention of Meluhha; products listed match Harappan goods
-4. **What the trade tells us** — surplus-producing economy; merchant class existed; no evidence of *state*-controlled trade (no palace warehouses); possibly *private* merchant trade coordinated through standardised instruments
+#### Introduction
+- Open with Dholavira UNESCO 2021 or Rakhigarhi DNA 2019 to anchor contemporary relevance
+- Establish that the Harappan civilisation's trading reach stretched from Afghanistan to Oman millennia before Rome-India trade began
 
-**Conclusion angle:** The Harappan trade network prefigures India's subsequent role as a maritime and overland trading hub — a continuity worth noting for interdisciplinary Essays.
+#### Body A — Material Evidence for Trade Routes
+- Raw materials found far from their geological sources: lapis lazuli from Shortughai, Afghanistan at inland Harappan cities
+- Copper artefacts share nickel isotope signature with Omani ores — chemical proof of Arabian Sea trade
+- Carnelian from Bharuch (Gujarat) found at Mesopotamian sites
+
+#### Body B — Trade Infrastructure
+- Standardised weights (chert, cubical, binary + decimal system) operating across thousands of kilometres — strongest single argument for coordinated commerce
+- Seals functioned as authentication tools: pressed into clay on goods to certify untampered shipments
+- Lothal's large brick structure interpreted as a dockyard (debated — may have been a warehouse); either way, evidence of organised maritime handling
+
+#### Body C — Textual Corroboration from Mesopotamia
+- Mesopotamian texts (3rd millennium BCE) name Meluhha (most likely Harappan) alongside Dilmun (Bahrain) and Magan (Oman)
+- Products listed — carnelian, lapis lazuli, copper, gold, wood — match Harappan trade goods exactly
+- Dilmun weights followed Harappan weight standards, indicating shared commercial infrastructure
+
+#### Nuance / Critical Edge
+- No palace warehouses or centralised trade records found — trade may have been *private* merchant-led, not state-controlled
+- This makes Harappan commerce structurally distinct from Mesopotamian palace-economy trade
+- The Lothal dockyard debate illustrates that the same evidence supports competing interpretations
+
+#### Conclusion
+- Harappan economy was surplus-producing, commercially sophisticated, and maritimely active by c. 2500 BCE
+- The trade network prefigures India's subsequent role as a maritime and overland hub — a continuity worth noting in interdisciplinary Essay answers
 
 ---
 
-### Q2: "How do archaeologists reconstruct the past? Use the example of the Harappan civilisation to illustrate both the possibilities and the limitations of archaeological evidence."
+### Framework 2 — Archaeology's Possibilities and Limits (GS1, 15 marks)
 
-**This is the NCERT's central methodological theme — and the most likely 10-mark or 15-mark question.**
+**Question:** "How do archaeologists reconstruct the past? Use the example of the Harappan civilisation to illustrate both the possibilities and the limitations of archaeological evidence."
 
-**Body structure:**
-1. **What survives and why** — stone, baked clay, metal survive; organic materials (cloth, wood, reed) decompose → survivor bias
-2. **Classification methods** — by material, by function, by context (where found: house, drain, grave, kiln changes interpretation)
-3. **What archaeology can establish** — economy, technology, trade, urban planning, demographic patterns
-4. **What archaeology cannot establish** — ritual meaning (Great Bath, terracotta figurines), political titles, literary tradition, personal identity
-5. **The Marshall-Wheeler contrast** — method shapes conclusion; Wheeler's stratigraphy fixed Marshall's errors; Dales' skeletal re-analysis overturned Wheeler's invasion theory
-6. **The Rakhigarhi DNA moment** — modern science reopening old questions (2019)
+#### Introduction
+- This is the NCERT's central methodological theme — the most likely 10–15 mark question from this chapter
+- Frame the answer around the distinction between what material evidence *can* and *cannot* establish
 
-**Conclusion:** Archaeological evidence is rich but not self-interpreting. Each generation of archaeologists brings new questions and new techniques. The Harappan civilisation remains "unfinished" in this sense — a productive space of scholarly debate.
+#### Body A — What Survives and Why (Survivor Bias)
+- Stone, baked clay, and metal survive millennia; organic materials (cloth, wood, reed, grain in most cases) decompose
+- Our picture of the Harappan civilisation is therefore skewed towards durable, high-investment objects and away from everyday organic life
+
+#### Body B — Classification Methods
+- Archaeologists classify finds by material, function, and context
+- Context is decisive: the same terracotta figurine found in a house, a drain, or a kiln waste-heap yields very different interpretations
+- Waste material (shell chips, stone flakes, micro-beads) is the most reliable indicator of production centres
+
+#### Body C — What Archaeology Can Establish
+- Economy: trade goods, raw material sourcing, weight standardisation
+- Technology: craft specialisation (bead-making, seal-carving, metallurgy)
+- Urban planning: drainage systems, street grids, brick standardisation
+- Demographic patterns: site distribution, size hierarchies
+
+#### Body D — What Archaeology Cannot Establish
+- Ritual meaning: the Great Bath's purpose is inferred from location and design — no text confirms ritual bathing
+- Political titles or names: no royal inscriptions, no king-lists
+- Literary tradition: script undeciphered — the Harappans' own words remain inaccessible
+- Personal identity: the "Priest-King" is a scholarly label, not a confirmed title
+
+#### Nuance / Critical Edge
+- The Marshall–Wheeler contrast: Marshall's horizontal excavation mixed artefacts from different periods; Wheeler's stratigraphy fixed this but his Rigveda-based invasion theory showed how literary preconceptions distort archaeological conclusions
+- Dales' skeletal re-analysis (1960s) overturned Wheeler's massacre theory — showing that earlier scientific findings are themselves revisable
+- The Rakhigarhi DNA study (2019) illustrates how modern science (ancient genomics) reopens questions that seemed settled
+
+#### Conclusion
+- Archaeological evidence is rich but not self-interpreting — each generation of scholars brings new questions and new techniques
+- The Harappan civilisation remains a "productive space of scholarly debate" precisely because so much is material but so little is textual
 
 ---
 
-### Q3: "Assess the various theories regarding the decline of the Harappan civilisation."
+### Framework 3 — Theories of Harappan Decline (GS1, 10 marks)
 
-**Key:** Don't just *list* theories — *evaluate* them. UPSC rewards analytical structure.
+**Question:** "Assess the various theories regarding the decline of the Harappan civilisation."
 
-**Framework:** Introduce systemic collapse (not sudden catastrophe) → present climate/river/trade/overuse theories with evidence and limitations → reject "invasion" theory with reasons (Dales, DNA) → conclude: multicausal, no single explanation, and the very nature of the collapse (state functions vanish, craft collapses, population disperses) suggests the *state mechanism* itself failed, not just the environment.
+#### Introduction
+- Clarify upfront: the decline was not a sudden catastrophe but a *systemic collapse* — the interlocking urban complex of trade, craft specialisation, administrative systems, and large-scale labour mobilisation unravelled together over c. 1900–1800 BCE
+- The key word is "assess" — UPSC rewards evaluation, not mere listing
+
+#### Body A — Climate Change / Weakening Monsoon
+- Palaeoclimate data shows monsoon weakening c. 2000 BCE (corroborated by multiple independent proxy records)
+- Limitation: does not explain why some sites (in Gujarat, Haryana) survived and even grew during this period
+
+#### Body B — Sarasvati / Ghaggar-Hakra River Drying
+- The majority of Harappan sites lie along the now-dry Ghaggar-Hakra system, not the Indus
+- Tectonic evidence suggests the river system was disrupted, cutting off agricultural water supply
+- Limitation: river drying may have been gradual rather than sudden; timing correlation with site abandonment is contested
+
+#### Body C — Trade Disruption
+- Mesopotamia's own third-dynasty collapse (c. 2000 BCE) may have severed Harappan export markets
+- The disappearance of Harappan seals and standardised weights from the record is consistent with trade collapse
+- Limitation: correlation does not prove causation; internal factors may have preceded the external trade shock
+
+#### Body D — Deforestation and Resource Overuse
+- Charcoal evidence and kiln density suggest heavy fuel demand; deforestation could have degraded the agricultural hinterland
+- Limitation: environmental degradation operates on centuries-long timescales — too slow to explain rapid site abandonment
+
+#### Nuance / Critical Edge
+- The "Aryan Invasion" theory (Wheeler, 1947) is definitively rejected: George Dales' (1960s) skeletal re-analysis showed no massacre layer, no weapon injuries, and no battle-pattern burning; Rakhigarhi DNA (2019) confirms no Central Asian steppe ancestry in the Harappan population
+- The most significant analytical point: the *nature* of the collapse (state functions vanish, craft specialisation collapses, population disperses into rural settlements) suggests the *state mechanism itself* failed — not just the environment
+
+#### Conclusion
+- The decline was multicausal and geographically uneven; no single explanation is sufficient
+- The analytical priority is to explain why the *urban system* — not just individual cities — collapsed, since that is what makes the Harappan decline historically distinctive
 
 ---
 

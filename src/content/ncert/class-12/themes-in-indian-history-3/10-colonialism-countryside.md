@@ -291,63 +291,113 @@ This methodological point is the heart of the NCERT's approach to this chapter: 
 
 ## PART 3: MAINS ANSWER FRAMEWORKS
 
-### Framework 1: "Compare the Permanent Settlement, Ryotwari, and Mahalwari systems. Which was most exploitative and why?" [GS1, 15 marks]
+### Framework 1 — Three Revenue Systems Compared (GS1, 15 marks)
 
-**Introduction (3–4 lines):**
-Land revenue was the financial backbone of colonial rule. The three systems — Permanent Settlement (1793), Ryotwari (~1820), and Mahalwari (1822) — represented different strategies for extracting agricultural surplus, reflecting different theories about who owned the land and who could be made responsible for paying the state.
+**Question:** "Compare the Permanent Settlement, Ryotwari, and Mahalwari systems. Which was most exploitative and why?"
 
-**Body A — Permanent Settlement (design, logic, failure):**
+#### Introduction
+- Land revenue was the financial backbone of colonial rule
+- The three systems — Permanent Settlement (1793), Ryotwari (~1820), and Mahalwari (1822) — represented different strategies for extracting agricultural surplus
+- Each reflected different theories about who owned the land and who could be made responsible for paying the state
+
+#### Body A — Permanent Settlement (design, logic, failure)
 - Lord Cornwallis, 1793; Bengal, Bihar, Orissa
-- Fixed revenue in perpetuity; zamindars as permanent owners
-- Logic: English landlord model; secure property rights → investment
+- Fixed revenue in perpetuity; zamindars declared permanent owners
+- Logic: English landlord model — secure property rights → investment and improvement
 - Reality: absentee landlordism; no ceiling on peasant rents; Sunset Law created distress sales; new commercial classes bought estates; peasants had no legal security
 
-**Body B — Ryotwari (direct extraction, debt trap):**
+#### Body B — Ryotwari (direct extraction, debt trap)
 - Thomas Munro, Madras 1820; Elphinstone, Bombay 1820
 - Direct settlement with peasant; revenue assessed per plot; revised every 20–30 years
-- Logic: more equitable; cut out intermediary
+- Logic: more equitable than Permanent Settlement; cut out the parasitic intermediary
 - Reality: assessments set at exploitative levels; no adjustment for bad harvests; structural debt trap; Bombay Deccan Riots (1875) as direct outcome
 
-**Body C — Mahalwari (collective burden, 1857 connection):**
+#### Body C — Mahalwari (collective burden, 1857 connection)
 - Holt Mackenzie, 1822; NW Provinces, Punjab
 - Village community collectively responsible; headman (lambardar) collected from all cultivators
 - Logic: preserves village community; more flexible than individual assessment
 - Reality: state demand initially fixed at 66% of rental value; revised downward by Dalhousie (1855) to 50% but still high; collective responsibility meant prosperous members paid for poor ones; contributed to 1857 revolt resentment
 
-**Analysis — Comparative exploitation:**
-All three systems served colonial extraction, but exploited different sections of rural society differently. The Permanent Settlement was most catastrophic for the peasant because it gave zamindars unlimited power over tenants with no legal ceiling on rent. Ryotwari hit peasants directly through high revenue and drove them into moneylender debt. Mahalwari destroyed village community solidarity. The NCERT's view: there is no "least exploitative" colonial revenue system — all were designed to extract maximum surplus for the colonial state.
+#### Nuance / Critical Edge
+- All three systems served colonial extraction, but exploited different sections of rural society differently
+- The Permanent Settlement was most catastrophic for the peasant because it gave zamindars unlimited power over tenants with no legal ceiling on rent
+- Ryotwari hit peasants directly through high revenue and drove them into moneylender debt; Mahalwari destroyed village community solidarity
+- The NCERT's view: there is no "least exploitative" colonial revenue system — all were designed to extract maximum surplus for the colonial state
 
-**Conclusion:**
-Land revenue systems created the structural conditions for agrarian crisis, peasant movements, and eventually the demand for land reform after independence. Zamindari abolition in the 1950s was the belated recognition that all three systems had failed the Indian peasant.
-
----
-
-### Framework 2: "How did colonial forest laws affect tribal communities in India? Use specific examples." [GS1, 10 marks]
-
-**Introduction:** Before colonial rule, forest-dwelling communities had customary rights to use, cultivate, and manage forests. Colonial forest laws converted these community resources into state property, criminalising traditional practices and displacing millions.
-
-**Para 1 — The pre-colonial forest economy:** Santhals, Gonds, Bhils, and Paharias depended on forests for food, fuel, building materials, and shifting cultivation. These communities had internally regulated systems for sustainable forest use.
-
-**Para 2 — The Indian Forest Act, 1878:** Classified forests into reserved (full state control, no community access), protected (limited access), and village (restricted local use). Criminalised grazing, jhum cultivation, and collection of forest produce. Driven by colonial need for timber (railways, Navy).
-
-**Para 3 — Impact on Santhals:** The Santhals had been settled in Damin-i-koh from the 1830s by the colonial government. As forest laws excluded them from the forests they depended on, and as revenue demands, moneylenders, and traders followed colonial administration, they rose in the Santhal Hul of 1855–56 — one of the earliest and most significant tribal rebellions against colonial rule.
-
-**Para 4 — Broader impact:** Communities evicted from forests lost livelihoods and were pushed into wage labour. The Forest Act made traditional practices illegal overnight. Resistance took forms of arson, non-compliance, and armed rebellion (Birsa Munda's Ulgulan, 1899–1900).
-
-**Conclusion:** The colonial forest laws established a template of state control over forests that persisted in Indian law for over a century. The Forest Rights Act, 2006 attempted to restore community rights that colonial law had extinguished, recognising that colonial dispossession had never been adequately addressed.
+#### Conclusion
+- Land revenue systems created the structural conditions for agrarian crisis and peasant movements
+- Zamindari abolition in the 1950s was the belated recognition that all three systems had failed the Indian peasant
+- The demand for land reform after independence was a direct legacy of colonial revenue policy
 
 ---
 
-### Framework 3: "What do the Bombay Deccan Riots of 1875 reveal about the social consequences of colonial land revenue policy?" [GS1, 10 marks]
+### Framework 2 — Colonial Forest Laws and Tribal Displacement (GS1, 10 marks)
 
-**Introduction:** The Deccan Riots of 1875 were not a spontaneous outbreak of violence — they were a specific, targeted response to a structural condition created by colonial revenue policy: the permanent indebtedness of ryotwari peasants in the Bombay Deccan.
+**Question:** "How did colonial forest laws affect tribal communities in India? Use specific examples."
 
-**Para 1 — The structural cause (ryotwari debt trap):** Revenue set at exploitative levels; no adjustment for failed harvests; peasants forced to borrow from moneylenders; compounding interest meant debt was effectively permanent; moneylenders used debt to acquire land, bullocks, and household possessions.
+#### Introduction
+- Before colonial rule, forest-dwelling communities had customary rights to use, cultivate, and manage forests
+- Colonial forest laws converted these community resources into state property, criminalising traditional practices and displacing millions
 
-**Para 2 — The immediate triggers:** Post-Civil War collapse of cotton prices; 1867 revenue hike of 50%; recurring crop failures in early 1870s. These stacked crises pushed peasants past the breaking point.
+#### Body A — The pre-colonial forest economy
+- Santhals, Gonds, Bhils, and Paharias depended on forests for food, fuel, building materials, and shifting cultivation
+- These communities had internally regulated systems for sustainable forest use
+- Forests were not "unproductive wasteland" but the entire basis of their economy
 
-**Para 3 — The character of the riots:** Peasants targeted moneylenders specifically and destroyed debt bonds and account books — not random violence, but a rational attempt to destroy the instruments of debt bondage. This shows peasants understood the system's logic clearly.
+#### Body B — The Indian Forest Act, 1878
+- Classified forests into reserved (full state control, no community access), protected (limited access), and village (restricted local use)
+- Criminalised grazing, jhum cultivation, and collection of forest produce
+- Driven by colonial need for timber — teak and sal for railways and the Royal Navy
 
-**Para 4 — The official response and its limits:** Deccan Riots Commission (1877) acknowledged that high revenue was the root cause. The Deccan Agriculturists' Relief Act (1879) limited moneylender powers but did not reduce revenue — treating symptoms rather than causes.
+#### Body C — Impact on Santhals (specific example)
+- The Santhals had been settled in Damin-i-koh from the 1830s by the colonial government itself
+- As forest laws excluded them from the forests they depended on, and as revenue demands, moneylenders, and traders followed colonial administration, conditions worsened rapidly
+- Result: the Santhal Hul of 1855–56 — one of the earliest and most significant tribal rebellions against colonial rule
 
-**Para 5 — Broader significance (use for conclusion):** The riots reveal that colonial revenue policy had social consequences far beyond tax collection: it restructured power in villages, made moneylenders the dominant force in rural life, and pushed cultivators into a condition of structural dependence. This pattern — high state revenue demand → peasant debt → moneylender dominance — was replicated wherever ryotwari was applied, and echoes of it shaped agrarian politics in India well into the twentieth century.
+#### Nuance / Critical Edge
+- Communities evicted from forests lost livelihoods and were pushed into wage labour
+- The Forest Act made traditional practices illegal overnight — overnight criminalisation of communities' entire way of life
+- Resistance took forms of arson in reserved forests, non-compliance, and armed rebellion (Birsa Munda's Ulgulan, 1899–1900)
+- The colonial template shaped Indian forest policy well into the twentieth century
+
+#### Conclusion
+- The colonial forest laws established a template of state control over forests that persisted for over a century
+- The Forest Rights Act, 2006 attempted to restore community rights that colonial law had extinguished
+- This recognises that colonial dispossession was never adequately addressed in the decades after independence
+
+---
+
+### Framework 3 — Deccan Riots and Colonial Revenue Consequences (GS1, 10 marks)
+
+**Question:** "What do the Bombay Deccan Riots of 1875 reveal about the social consequences of colonial land revenue policy?"
+
+#### Introduction
+- The Deccan Riots of 1875 were not a spontaneous outbreak of violence
+- They were a specific, targeted response to a structural condition created by colonial revenue policy: the permanent indebtedness of ryotwari peasants in the Bombay Deccan
+
+#### Body A — The structural cause (ryotwari debt trap)
+- Revenue set at exploitative levels; no adjustment for failed harvests
+- Peasants forced to borrow from moneylenders to pay the state during bad years
+- Compounding interest meant debt was effectively permanent
+- Moneylenders used debt to acquire land, bullocks, and household possessions
+
+#### Body B — The immediate triggers
+- Post-American Civil War collapse of cotton prices devastated ryot incomes
+- 1867 revenue hike of 50% added to the burden
+- Recurring crop failures in early 1870s stacked onto existing debt
+- These intersecting crises pushed peasants past the breaking point
+
+#### Body C — The character of the riots
+- Peasants targeted moneylenders specifically and destroyed debt bonds and account books
+- Not random violence — a rational attempt to destroy the instruments of debt bondage
+- This demonstrates that peasants understood the system's logic clearly enough to target its paperwork
+
+#### Nuance / Critical Edge
+- Deccan Riots Commission (1877) acknowledged that high revenue was the root cause
+- The Deccan Agriculturists' Relief Act (1879) limited moneylender powers but did not reduce revenue levels
+- Official response treated symptoms, not causes — a pattern of limited reform that protected the extractive logic of the system
+
+#### Conclusion
+- The riots reveal that colonial revenue policy restructured power in villages, making moneylenders the dominant force in rural life
+- This pattern — high state revenue demand → peasant debt → moneylender dominance — was replicated wherever ryotwari was applied
+- Echoes of it shaped agrarian politics in India well into the twentieth century

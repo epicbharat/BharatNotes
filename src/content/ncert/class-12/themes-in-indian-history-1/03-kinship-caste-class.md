@@ -292,65 +292,94 @@ This is a directly UPSC-askable fact that appears in Multiple Choice Questions a
 
 ## PART 3: MAINS ANSWER FRAMEWORKS
 
-### Framework 1: "How did the varna-jati system function in early Indian society? Was it a rigid hierarchy or a flexible social order?" [GS1, 15 marks]
+### Framework 1 — Varna-Jati: Rigid or Flexible? (GS1, 15 marks)
 
-**Introduction (2–3 lines):** Introduce varna as the four-fold Brahmanical prescription and jati as the lived social reality; note the gap between them. Reference the Manusmriti (c. 200 BCE–200 CE) and the Dharmasutras (c. 450–100 BCE) as key prescriptive sources.
+**Question:** "How did the varna-jati system function in early Indian society? Was it a rigid hierarchy or a flexible social order?"
 
-**Body — Point 1: Brahmanical prescription (rigid hierarchy):**
-- The Purushasukta origin myth (Rigveda 10.90) presents varna as divinely ordained and immutable
+#### Introduction
+- Introduce varna as the four-fold Brahmanical prescription and jati as the lived social reality; note the gap between them
+- Reference the Manusmriti (c. 200 BCE–200 CE) and the Dharmasutras (c. 450–100 BCE) as the key prescriptive sources
+
+#### Body A — Brahmanical Prescription (Rigid Hierarchy)
+- The Purushasukta origin myth (Rigveda 10.90) presents varna as divinely ordained and immutable — emerging from the cosmic body of Purusha
 - Manusmriti prescribes specific and non-interchangeable duties (svadharma) for each varna
 - Inter-varna marriage and occupational crossing are extensively regulated and generally condemned
 
-**Body — Point 2: Social reality (flexible in practice):**
+#### Body B — Social Reality (Flexible in Practice)
 - Jati, not varna, was the actual unit of social organisation; hundreds of jatis could not be neatly mapped onto four varnas
-- Many ruling dynasties had disputed or non-Kshatriya varna origins (Chandragupta Maurya, Satavahanas)
-- Economic class (gahapati, dasa-karmakara) cross-cut varna categories
-- The Mahabharata itself records debates about whether conduct or birth determines varna, suggesting the question was live and contested
+- Many ruling dynasties had disputed or non-Kshatriya varna origins: Chandragupta Maurya's origins are contested across Buddhist, Jain, Hindu, and Greek sources; the Satavahanas claimed Brahman identity while ruling as warriors
+- Economic class (gahapati, dasa-karmakara) cross-cut varna categories — a wealthy Shudra merchant outranked a landless Brahmin economically
+- The Mahabharata itself records debates about whether conduct or birth determines varna, indicating the question was live and contested even within the tradition
 
-**Body — Point 3: Regional and temporal variation:**
-- North-South divergence in kinship rules (cross-cousin marriage) indicates no single "ancient Indian" social system
-- The Mahabharata evolved over 1,000 years (c. 400 BCE–400 CE); attitudes in the text changed across layers
+#### Body C — Regional and Temporal Variation
+- North-South divergence in kinship rules (cross-cousin marriage prohibited in North; prescribed in South) indicates no single uniform "ancient Indian" social system
+- The Mahabharata evolved over 1,000 years (c. 400 BCE–400 CE); social attitudes within the text changed across its compositional layers
 
-**Conclusion:** The varna-jati system combined ideological rigidity (Brahmanical prescription) with social flexibility (actual practice). Brahmanical texts presented an ideal order that real society continuously negotiated around. Historians must read the gap between prescription and practice as itself socially significant.
+#### Nuance / Critical Edge
+- The varna-jati gap is itself the key analytical insight: Brahmanical texts presented an ideal order that real society continuously negotiated around
+- The fact that texts had to repeatedly prescribe varna compliance is evidence that compliance was imperfect — prohibition implies transgression
+
+#### Conclusion
+- The varna-jati system combined ideological rigidity (Brahmanical prescription) with social flexibility (actual practice)
+- Historians must read the gap between prescription and practice as itself socially significant — the gap is data, not noise
 
 ---
 
-### Framework 2: "Examine the position of women in early Indian society as reflected in the Mahabharata and Manusmriti. How do these sources complement or contradict each other?" [GS1, 10 marks]
+### Framework 2 — Women in Mahabharata vs. Manusmriti (GS1, 10 marks)
 
-**Introduction:** Both sources were composed within the Brahmanical tradition (the Manusmriti: c. 200 BCE–200 CE; the Mahabharata: c. 400 BCE–400 CE) but serve different purposes — one is a legal-normative text, the other is narrative. Both reflect the perspective of literate, upper-caste men.
+**Question:** "Examine the position of women in early Indian society as reflected in the Mahabharata and Manusmriti. How do these sources complement or contradict each other?"
 
-**Areas of complementarity:**
-- Both endorse patrilineal family structure and male authority over women
+#### Introduction
+- Both sources were composed within the Brahmanical tradition (Manusmriti: c. 200 BCE–200 CE; Mahabharata: c. 400 BCE–400 CE) but serve different purposes — one is a legal-normative text, the other is narrative
+- Both reflect the perspective of literate, upper-caste men — neither gives voice to women directly
+
+#### Body A — Areas of Complementarity
+- Both endorse patrilineal family structure and male authority over women (father, husband, son)
 - Both recognise stridhana as women's personal property while placing limits on women's independent disposal of it
-- Both contain the concept of niyoga, though Manu was moving against it
+- Both contain the concept of niyoga, though Manu was moving against it by the time of his composition
 
-**Areas of contradiction or tension:**
-- Manusmriti is more uniformly restrictive ("a woman is never independent"); the Mahabharata contains women characters (Draupadi, Kunti, Gandhari) who exercise complex agency — debating, challenging, and at times defying male authority
-- Manusmriti does not record polyandry; the Mahabharata depicts it in the central storyline
-- Manusmriti prescribes widow non-remarriage among upper varnas; the Mahabharata contains debates about widow status with no settled answer
+#### Body B — Areas of Contradiction or Tension
+- Manusmriti is more uniformly restrictive ("a woman is never independent"); the Mahabharata contains women characters — Draupadi, Kunti, Gandhari — who exercise complex agency, debating, challenging, and at times defying male authority
+- Manusmriti does not record polyandry; the Mahabharata depicts it as the central domestic arrangement of the protagonists
+- Manusmriti prescribes widow non-remarriage among upper varnas; the Mahabharata contains debates about widow status with no settled answer — suggesting practices were still being contested
 
-**Critical reading point:** Neither source represents women's own voices. Both must be read against the grain — what they show inadvertently (debates about polyandry indicating the practice existed; prohibitions indicating violations) is as important as what they state explicitly.
+#### Nuance / Critical Edge
+- Neither source represents women's own voices — both must be read against the grain
+- What the texts show inadvertently is as important as what they state explicitly: debates about polyandry indicate the practice existed; prohibitions indicate violations were occurring
+- A complete picture of women's position also requires Buddhist texts (bhikkhuni sangha), Jain texts, and inscriptional evidence
 
-**Conclusion:** The two sources complement each other as evidence of Brahmanical social ideology, but their contradictions reveal that this ideology was contested even within the tradition. A complete picture of women's position requires also using Buddhist, Jain, and inscriptional sources.
+#### Conclusion
+- The two sources complement each other as evidence of Brahmanical social ideology, but their contradictions reveal that this ideology was contested even within the tradition
+- Distinguishing between the legal-normative voice of the Manusmriti and the narrative-descriptive voice of the Mahabharata is itself a methodological skill that scores well in Mains answers
 
 ---
 
-### Framework 3: "What does the Mahabharata tell us about early Indian society, and what are the limitations of using it as a historical source?" [GS1, 10 marks]
+### Framework 3 — Mahabharata as Historical Source (GS1, 10 marks)
 
-**Introduction:** The Mahabharata, composed over roughly 1,000 years (c. 400 BCE–400 CE), is one of the most richly documented texts for early Indian social history. The BORI critical edition (1919–1966) established its text from 1,259 manuscripts, enabling systematic historical analysis.
+**Question:** "What does the Mahabharata tell us about early Indian society, and what are the limitations of using it as a historical source?"
 
-**What it tells us — social history evidence:**
+#### Introduction
+- The Mahabharata, composed over roughly 1,000 years (c. 400 BCE–400 CE), is one of the most richly documented texts for early Indian social history
+- The BORI critical edition (1919–1966) established its text from 1,259 manuscripts — enabling systematic historical analysis for the first time
+
+#### Body A — What the Mahabharata Tells Us
 - Kinship rules: gotra exogamy, debates about cross-cousin marriage, niyoga, polyandry (Draupadi episode)
 - Varna hierarchy and its contestation: debates about whether birth or conduct determines varna; Shudra characters; non-Kshatriya warriors
-- Economic differentiation: wealthy householders, labourers, slave-women as gifts
-- Women's status: stridhana, debates about widow remarriage, complex female characters
+- Economic differentiation: wealthy householders (gahapati equivalents), labourers, slave-women given as gifts
+- Women's status: stridhana, debates about widow remarriage, complex female characters with real narrative agency
 
-**Limitations as a historical source:**
+#### Body B — Limitations as a Historical Source
+- Authorial bias: composed by Brahmanical scholars; subordinate groups (Shudras, women, tribals) are objects of description rather than speaking subjects
+- Prescriptive vs. descriptive: many passages describe what society should be, not what it was
+- Temporal layering: the text spans 1,000 years and contains contradictory social attitudes; attributing a passage to a specific period requires the critical apparatus
+- Geographic ambiguity: the epic aggregates practices from different regions; the "society" it depicts is not geographically uniform
+- Interpolations: later additions were made by regional scribal communities; establishing which passages are "original" requires manuscript comparison
 
-1. **Authorial bias:** Composed by Brahmanical scholars; subordinate groups (Shudras, women, tribals) are objects of description rather than speaking subjects.
-2. **Prescriptive vs. descriptive:** Many passages describe what society should be, not what it was.
-3. **Temporal layering:** The text spans 1,000 years and contains contradictory social attitudes; attributing a passage to a specific period is difficult without the critical apparatus.
-4. **Geographic ambiguity:** The epic aggregates practices from different regions; the "society" it depicts is not geographically uniform.
-5. **Interpolations:** Later additions were made by regional scribal communities; establishing which passages are "original" requires manuscript comparison.
+#### Nuance / Critical Edge
+- The BORI critical edition itself took 47 years (1919–1966) and 1,259 manuscripts — demonstrating just how complex establishing a "standard text" is
+- The methodological principle: "reading against the grain" allows the historian to use even a biased source productively — the historian reads for what is inadvertently revealed, not just what is explicitly stated
 
-**Conclusion:** The Mahabharata is an invaluable source for social history precisely because it is voluminous, multi-layered, and sometimes self-contradictory. A historian who reads it critically — noting whose perspective is represented, reading against the grain, and cross-checking with non-Brahmanical and inscriptional sources — can extract far richer information than a reader who takes its prescriptions at face value.
+#### Conclusion
+- The Mahabharata is invaluable for social history precisely because it is voluminous, multi-layered, and sometimes self-contradictory
+- A historian who reads it critically — noting whose perspective is represented, reading against the grain, cross-checking with non-Brahmanical and inscriptional sources — extracts far richer information than one who takes its prescriptions at face value
+- Demonstrating this mode of reading in a Mains answer is what differentiates top-scoring responses

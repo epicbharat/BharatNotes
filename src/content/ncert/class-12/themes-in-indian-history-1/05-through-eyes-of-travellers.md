@@ -251,64 +251,103 @@ The *Rihla* was not written by Ibn Battuta himself — he dictated his recollect
 
 ## PART 3: MAINS ANSWER FRAMEWORKS
 
-### Framework 1: "Analyse the accounts of any two foreign travellers to medieval India. What do their observations reveal about both Indian society and the travellers' own perspectives?" [GS1, 15 marks]
+### Framework 1 — Comparing Two Traveller Accounts (GS1, 15 marks)
 
-**Introduction (3–4 lines):** Foreign traveller accounts are indispensable yet problematic primary sources for medieval Indian social history. They document aspects of daily life — prices, postal systems, slavery, social customs — absent from official chronicles, but each observer's cultural lens filters and distorts what they record.
+**Question:** "Analyse the accounts of any two foreign travellers to medieval India. What do their observations reveal about both Indian society and the travellers' own perspectives?"
 
-**Body Part A — Al-Biruni:**
+#### Introduction
+- Foreign traveller accounts are indispensable yet problematic primary sources for medieval Indian social history
+- They document aspects of daily life — prices, postal systems, slavery, social customs — absent from official chronicles
+- But each observer's cultural lens filters and distorts what they record — this dual nature is the core argument to sustain
+
+#### Body A — Al-Biruni
 - Background: Persian-speaking scholar from Khwarazm, brought to Ghazni by Mahmud (1017 CE)
 - Exceptional for learning Sanskrit; read Vedas, Bhagavad Gita, Patanjali directly
-- Observations: four-varna system, ritual pollution, Indian philosophy, astronomy
-- Bias: Islamic universalism; only accessed Brahmanical sources; found caste exclusivism alien
+- Key observations: four-varna system, ritual pollution, Indian philosophy and astronomy
+- Bias: Islamic universalism led him to find caste exclusivism alien; only accessed Brahmanical sources — a skewed sample of Indian society
 
-**Body Part B — Ibn Battuta:**
-- Background: Moroccan qadi who served Muhammad bin Tughluq (1333–1342 CE)
+#### Body B — Ibn Battuta
+- Background: Moroccan qadi who served Muhammad bin Tughluq as Qadi of Delhi (1333–1342 CE)
 - Key observations: barid postal system (horse and foot relays), sati, festivals, Delhi markets
-- Rihla co-authored with Ibn Juzayy — not a diary; written from memory
-- Bias: normalised slavery; selectively exotic about non-Islamic practices
+- The Rihla was co-authored with Ibn Juzayy — not a diary; written from memory 10–20 years after events
+- Bias: normalised slavery (he owned enslaved people himself); selectively exotic about non-Islamic practices while treating familiar Islamic ones as unremarkable
 
-**Comparative analysis:** Both describe social stratification — caste and slavery respectively — but neither critically interrogates the system he finds familiar. Al-Biruni's intellectual rigour gives his account more analytical depth; Ibn Battuta's vivid social description gives his more immediacy. Both are limited by elite access.
+#### Body C — Comparative Analysis
+- Both describe social stratification — caste and slavery respectively — but neither critically interrogates the system he finds familiar
+- Al-Biruni's intellectual rigour gives his account more analytical depth; Ibn Battuta's vivid social description gives his more immediacy
+- Both are limited by elite access: neither spoke directly to peasants, artisans, or women outside court circles
 
-**Conclusion:** Critical reading of traveller accounts — identifying what the traveller chose to describe, what they ignored, and why — reveals as much about their own societies as about India. This reflexive reading is the core skill demanded by UPSC source-analysis questions.
+#### Nuance / Critical Edge
+- "Reading against the grain" — what the traveller chose NOT to describe is as historically significant as what they did describe
+- Al-Biruni's silence on the lives of lower castes reflects the limits of his textual method; Ibn Battuta's silence on trade mechanics reflects his court-centred access
+
+#### Conclusion
+- Critical reading of traveller accounts — identifying what the traveller chose to describe, what they ignored, and why — reveals as much about their own societies as about India
+- This reflexive reading is the core skill demanded by UPSC source-analysis questions
 
 ---
 
-### Framework 2: "How did François Bernier's observations about the Mughal Empire influence later European scholarship on India? Were his conclusions accurate?" [GS1, 10 marks]
+### Framework 2 — Bernier's Influence on European Scholarship (GS1, 10 marks)
 
-**Introduction:** Bernier's *Travels in the Mughal Empire* (1671) was the most widely read European account of Mughal India and shaped European understanding for over a century.
+**Question:** "How did François Bernier's observations about the Mughal Empire influence later European scholarship on India? Were his conclusions accurate?"
 
-**His core argument:** Crown ownership of all land; absence of private property; zamindars as temporary revenue-collectors; result: agricultural stagnation, peasant oppression, Mughal decline.
+#### Introduction
+- Bernier's *Travels in the Mughal Empire* (1671) was the most widely read European account of Mughal India
+- It shaped European understanding of India for over a century — and its errors had lasting consequences
 
-**Influence on European thought:**
-- Montesquieu used Bernier's framework to formulate "Oriental despotism" in *The Spirit of the Laws* (1748)
-- Karl Marx drew on Bernier for the "Asiatic Mode of Production" — a supposedly unique pre-capitalist mode of production characterised by state-extraction and stagnant village communities
+#### Body A — Bernier's Core Argument
+- Crown ownership of all land; absence of private property in land
+- Zamindars held only temporary, non-heritable tenures — no incentive to invest in agriculture
+- Result: systematic agricultural stagnation, peasant oppression, and Mughal decline
+- He contrasted this with France, where hereditary noble landowners had incentive to improve their estates
 
-**Were his conclusions accurate?**
-- No. Mughal farmans and administrative records document heritable and transferable zamindari rights
+#### Body B — Influence on European Thought
+- Montesquieu used Bernier's framework to formulate "Oriental despotism" in *The Spirit of the Laws* (1748) — a foundational text of European political theory
+- Karl Marx drew on Bernier for the "Asiatic Mode of Production" — a supposedly unique pre-capitalist mode characterised by state-extraction and stagnant village communities; influential in colonial-era analysis of India
+
+#### Body C — Were His Conclusions Accurate?
+- No — Mughal farmans and administrative records document heritable and transferable zamindari rights
 - Land revenue was described as "remuneration of sovereignty" — a political claim, not rent on state-owned land
 - Bernier's frame was ideological: he wanted to contrast "Oriental despotism" with European (French) private property to justify the latter's superiority
 
-**Conclusion:** Bernier was an intelligent observer whose ideological framing made him an unreliable analyst of Mughal political economy. His influence on European thought made his errors consequential — they shaped the colonial understanding of India and justified interventionist policies under the premise of fixing what "Orientals" had broken.
+#### Nuance / Critical Edge
+- Bernier was an intelligent, observant physician with genuine access to Mughal court life; his errors were not from ignorance but from ideological framing
+- The distinction between "accurate observer" and "accurate analyst" is what separates a strong answer here
+
+#### Conclusion
+- Bernier's influence on European thought made his errors consequential — they shaped colonial understanding of India and justified interventionist policies under the premise of fixing what "Orientals" had broken
+- The NCERT uses this case to show how a single influential observer's ideological bias can distort an entire scholarly tradition for centuries
 
 ---
 
-### Framework 3: "Foreign travellers often misunderstood what they observed in India. Discuss with examples from Al-Biruni, Ibn Battuta, and Bernier." [GS1, 10 marks]
+### Framework 3 — Travellers' Misunderstandings of India (GS1, 10 marks)
 
-**Introduction:** The capacity for misunderstanding is built into the act of foreign observation. Each traveller brings categories from home that do not map onto the society they visit.
+**Question:** "Foreign travellers often misunderstood what they observed in India. Discuss with examples from Al-Biruni, Ibn Battuta, and Bernier."
 
-**Al-Biruni's misunderstanding:**
+#### Introduction
+- The capacity for misunderstanding is built into the act of foreign observation — each traveller brings categories from home that do not map onto the society they visit
+- Frame the answer around why misunderstanding is structurally inevitable, not a personal failing
+
+#### Body A — Al-Biruni's Misunderstanding
 - Saw the caste system's "exclusivism" (barriers against foreigners and low castes) as irrationally opposed to the laws of nature
-- What he missed: the social system had an internal logic tied to concepts of purity, dharma, and occupational heredity that went beyond what his Arabic-Islamic frame could accommodate
-- Reveals: his Islamic universalism assumed all rational societies would be open to contact with outsiders
+- What he missed: the social system had an internal logic tied to concepts of purity, dharma, and occupational heredity beyond what his Arabic-Islamic frame could accommodate
+- Reveals: his Islamic universalism assumed all rational societies would be open to contact with outsiders — a projection, not an observation
 
-**Ibn Battuta's misunderstanding:**
-- Described sati as extraordinary while treating slave-trading (which he participated in) as unremarkable
+#### Body B — Ibn Battuta's Misunderstanding
+- Described sati as extraordinary while treating slave-trading (which he participated in) as entirely unremarkable
 - What this reveals: his Islamic framework normalised slavery; he applied the label "exotic" only to practices his own culture had not legitimated
-- Also: because the *Rihla* was dictated from memory and co-authored, some descriptions of his China visit appear to be second-hand — the "misunderstanding" here is partly a product of faulty memory and literary embellishment
+- An additional layer: because the Rihla was dictated from memory and co-authored, some descriptions (including portions of his China visit) appear to be second-hand — misunderstanding compounded by faulty memory and literary embellishment
 
-**Bernier's misunderstanding:**
+#### Body C — Bernier's Misunderstanding
 - Crown ownership of all Mughal land — empirically unsupported, ideologically convenient
-- "Camp towns" — he misread the mobile character of Mughal imperial camps as evidence that Indian cities lacked permanence; this ignored the deep-rooted mercantile urban networks that existed independently of the court
+- "Camp towns": he misread the mobile character of Mughal imperial camps as evidence that Indian cities lacked permanence; this ignored deep-rooted mercantile urban networks independent of the court
 - Reveals: he was constructing India as the negative image of France to validate French institutions
 
-**Conclusion:** Misunderstanding is not a failure of intelligence (all three were brilliant observers) but a structural consequence of using a foreign frame. The historian's task is to read these accounts "against the grain" — using what the traveller described (and what they failed to describe) as evidence of both the society visited and the society the traveller came from.
+#### Nuance / Critical Edge
+- Misunderstanding is not a failure of intelligence — all three were brilliant, trained observers
+- It is a structural consequence of using a foreign frame; recognising this is the historian's methodological point
+- Strong answers will distinguish between sincere intellectual error (Al-Biruni) and ideologically motivated distortion (Bernier)
+
+#### Conclusion
+- The historian's task is to read these accounts "against the grain" — using what the traveller described, and what they failed to describe, as evidence of both the society visited and the society the traveller came from
+- This double reading — of India and of Europe/the Islamic world — is the skill the NCERT chapter and UPSC Mains questions both reward

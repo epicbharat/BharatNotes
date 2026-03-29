@@ -256,71 +256,100 @@ The Archaeological Survey of India (ASI) has been conducting systematic excavati
 
 ## PART 3: MAINS ANSWER FRAMEWORKS
 
-### Framework 1: "The city of Vijayanagara was not merely a capital but a statement of imperial ideology. Discuss with reference to its layout, monuments, and ceremonies." [GS1, 15 marks]
+### Framework 1 — Capital as Imperial Ideology (GS1, 15 marks)
 
-**Introduction (3–4 lines):** A capital city is never merely a functional settlement — it is a political text. Vijayanagara (modern Hampi), the 14th–16th century capital of the Vijayanagara Empire, was deliberately constructed to project royal power, religious legitimacy, and cosmological order. Its layout, monuments, and ceremonies all communicated the same message: the king as protector of dharma and conqueror of the world.
+**Question:** "The city of Vijayanagara was not merely a capital but a statement of imperial ideology. Discuss with reference to its layout, monuments, and ceremonies."
 
-**Body A — Layout as ideology:**
-- Three-zone organisation (sacred centre, urban core, royal enclosure) placed the sacred at the city's heart and the royal authority at its protected core
+#### Introduction
+- A capital city is never merely a functional settlement — it is a political text
+- Vijayanagara (modern Hampi), the 14th–16th century capital, was deliberately constructed to project royal power, religious legitimacy, and cosmological order
+- Its layout, monuments, and ceremonies all communicated the same message: the king as protector of dharma and conqueror of the world
+
+#### Body A — Layout as Ideology
+- Three-zone organisation (sacred centre, urban core, royal enclosure) placed the sacred at the city's heart and royal authority at its protected core
 - The royal enclosure's multiple fortification walls symbolised layers of protection and inaccessibility — access to the king was controlled, graded, and ritually regulated
 - The city's position between rocky hills (natural fortifications) and the Tungabhadra (a sacred river) gave it a cosmologically significant setting — the founder's choice of site was itself a statement
 
-**Body B — Monuments as political statements:**
-- **Mahanavami Dibba:** The platform was not merely a viewing stand — it was a throne elevated above the landscape. The king surveying his forces from this height was enacting cosmological sovereignty: the ruler as the axis of the world
-- **Hazara Rama Temple:** A private royal chapel with public architectural ambition — the Ramayana friezes connected the king to Rama (the ideal dharmic king), implying that the Vijayanagara ruler was Rama's earthly successor
-- **Vittala Temple complex:** Its extraordinary ornamentation was not accidental. The investment of royal resources in temple-building was simultaneously religious piety and political communication — the wealthiest, most elaborately decorated temples in South India belonged to the wealthiest empire
+#### Body B — Monuments as Political Statements
+- **Mahanavami Dibba:** not merely a viewing stand — a throne elevated above the landscape; the king surveying his forces from this height was enacting cosmological sovereignty: the ruler as the axis of the world
+- **Hazara Rama Temple:** a private royal chapel with public architectural ambition — the Ramayana friezes connected the king to Rama (the ideal dharmic king), implying that the Vijayanagara ruler was Rama's earthly successor
+- **Vittala Temple complex:** its extraordinary ornamentation was not accidental; the investment of royal resources in temple-building was simultaneously religious piety and political communication — the wealthiest, most elaborately decorated temples in South India belonged to the wealthiest empire
 
-**Body C — The Mahanavami ceremony as power:**
+#### Body C — The Mahanavami Ceremony as Power
 - The annual Navaratri/Mahanavami festival was the empire's premier political theatre
 - Provincial governors (nayakas) attended in person to pledge loyalty — the festival was simultaneously a religious observance and a loyalty-binding political ritual
 - Abdur Razzaq and Domingo Paes both described the ceremony's magnificence — their awe was part of the ceremony's intent: to impress foreign observers and domestic subjects alike
 - Distribution of gifts (dana) to Brahmins, subjects, and temples completed the image of the king as a generous, dharmic ruler
 
-**Conclusion:** Vijayanagara's ruins tell us what its builders wanted to survive: stone temples, royal platforms, ceremonial spaces. The wooden palaces and bazaars are gone. This survival bias is itself ideological — what the Vijayanagara kings built to last was the religious and royal architecture that communicated their power. Reading these ruins as a political text, rather than merely an architectural inventory, is how historians recover the ideology of this imperial city.
+#### Nuance / Critical Edge
+- Survival bias in the archaeological record: what we read as ideology is partly shaped by what survived (stone) versus what was destroyed (wood, markets, residential areas)
+- The ideological reading of monuments must acknowledge that ceremonial spaces were also functional — the Mahanavami Dibba was used, not just built as symbol
+
+#### Conclusion
+- Vijayanagara's ruins tell us what its builders wanted to survive: stone temples, royal platforms, ceremonial spaces; the wooden palaces and bazaars are gone
+- This survival bias is itself ideological — what the Vijayanagara kings built to last was the religious and royal architecture that communicated their power
+- Reading these ruins as a political text, rather than merely an architectural inventory, is how historians recover the ideology of this imperial city
 
 ---
 
-### Framework 2: "How do travellers' accounts help us understand Vijayanagara? What are the limitations of these accounts?" [GS1, 10 marks]
+### Framework 2 — Travellers' Accounts: Value and Limits (GS1, 10 marks)
 
-**Introduction:** No major Indian literary source provides a sustained description of daily life in Vijayanagara. The accounts of foreign travellers — Nicolo de Conti (c. 1420 CE), Abdur Razzaq (1443 CE), Domingo Paes (c. 1520 CE), and Fernao Nuniz (c. 1535 CE) — are therefore indispensable supplements to the archaeological record.
+**Question:** "How do travellers' accounts help us understand Vijayanagara? What are the limitations of these accounts?"
 
-**What travellers contribute:**
+#### Introduction
+- No major Indian literary source provides a sustained description of daily life in Vijayanagara
+- The accounts of foreign travellers — Nicolo de Conti (c. 1420 CE), Abdur Razzaq (1443 CE), Domingo Paes (c. 1520 CE), and Fernao Nuniz (c. 1535 CE) — are therefore indispensable supplements to the archaeological record
 
-- **The urban fabric:** Domingo Paes described city walls, gates, markets, and bazaars — particularly the colonnaded market street in front of the Virupaksha temple — that no longer survive as physical structures. Without his account, we would have no description of the city's commercial life.
-- **Scale and population:** Abdur Razzaq estimated the city's enormous population and described its seven concentric fortification walls — giving historians a sense of the city's physical extent that archaeology alone cannot fully reconstruct.
-- **Ceremonies and social life:** Both Razzaq and Paes described the Mahanavami festival in detail, providing evidence for how royal power was displayed and communicated.
-- **Economic life:** References to open gem markets, horse traders, the diversity of goods available, and the number of merchants give economic historians essential data.
+#### Body A — What Travellers Contribute
+- **The urban fabric:** Domingo Paes described city walls, gates, markets, and bazaars — particularly the colonnaded market street in front of the Virupaksha temple — that no longer survive as physical structures; without his account, we would have no description of the city's commercial life
+- **Scale and population:** Abdur Razzaq estimated the city's enormous population and described its seven concentric fortification walls — giving historians a sense of the city's physical extent that archaeology alone cannot fully reconstruct
+- **Ceremonies and social life:** both Razzaq and Paes described the Mahanavami festival in detail, providing evidence for how royal power was displayed and communicated
+- **Economic life:** references to open gem markets, horse traders, the diversity of goods available, and the number of merchants give economic historians essential data
 
-**Limitations of travellers' accounts:**
+#### Body B — Limitations of Travellers' Accounts
+- **Elite access only:** all travellers accessed Vijayanagara through royal invitation or merchant networks; they saw what rulers and courtiers wanted them to see; ordinary people's lives — artisans, peasants, women outside the court — are largely absent
+- **Cultural filters:** Abdur Razzaq brought an Islamic diplomatic framework; Paes brought Portuguese commercial and military interests; each interpreted what they saw through their own cultural categories
+- **Language barrier:** most travellers used interpreters; what they heard was filtered through bilingual intermediaries whose interests and knowledge shaped what was communicated
+- **Agenda and purpose:** travellers wrote for audiences back home; dramatic, unusual, and spectacular details were emphasised; the mundane was ignored; this selection bias distorts the picture
 
-- **Elite access only:** All travellers accessed Vijayanagara through royal invitation or merchant networks. They saw what rulers and courtiers wanted them to see. Ordinary people's lives — artisans, peasants, women outside the court — are largely absent.
-- **Cultural filters:** Abdur Razzaq brought an Islamic diplomatic framework; Paes brought Portuguese commercial and military interests. Each interpreted what they saw through their own cultural categories.
-- **Language barrier:** Most travellers used interpreters. What they heard was filtered through bilingual intermediaries whose interests and knowledge shaped what was communicated.
-- **Agenda and purpose:** Travellers wrote for audiences back home. Dramatic, unusual, and spectacular details were emphasised; the mundane was ignored. This selection bias distorts the picture.
+#### Nuance / Critical Edge
+- The travellers' biases do not negate their value — they make them richer sources if read critically; knowing why Abdur Razzaq was impressed helps us understand what the Vijayanagara court intended to communicate
 
-**Conclusion:** Travellers' accounts must be read critically — as sources shaped by the traveller's position, cultural background, and intended audience. When used alongside archaeological evidence and literary sources, they complete a picture that neither source could provide alone.
+#### Conclusion
+- Travellers' accounts must be read critically — as sources shaped by the traveller's position, cultural background, and intended audience
+- When used alongside archaeological evidence and literary sources, they complete a picture that neither source could provide alone
 
 ---
 
-### Framework 3: "Examine the water management system of Vijayanagara. What does it reveal about the relationship between geography, technology, and imperial power?" [GS1, 10 marks]
+### Framework 3 — Water, Geography, and Imperial Power (GS1, 10 marks)
 
-**Introduction:** Vijayanagara was located in one of the driest parts of peninsular India — the Deccan Plateau, where annual rainfall is erratic and rivers run at low levels for much of the year. That a city of several hundred thousand people could exist and thrive in this landscape for over two centuries was a product of hydraulic engineering on a vast scale.
+**Question:** "Examine the water management system of Vijayanagara. What does it reveal about the relationship between geography, technology, and imperial power?"
 
-**Geography as constraint and opportunity:**
+#### Introduction
+- Vijayanagara was located in one of the driest parts of peninsular India — the Deccan Plateau, where annual rainfall is erratic and rivers run at low levels for much of the year
+- That a city of several hundred thousand people could exist and thrive in this landscape for over two centuries was a product of hydraulic engineering on a vast scale
+
+#### Body A — Geography as Constraint and Opportunity
 - The Tungabhadra River provided the primary water source — but its flow was seasonal and unreliable
 - The rocky terrain (granite outcrops) provided natural sites for dam construction and water storage
 - The semi-arid climate meant that agricultural success — and therefore food security for the capital and army — depended entirely on irrigation, not rain
 
-**Technology as imperial expression:**
+#### Body B — Technology as Imperial Expression
 - The **Hiriya Canal** (Sangama dynasty): drew water from a dam across the Tungabhadra and irrigated the cultivated valley between the sacred centre and urban core — integrating agriculture into the city's spatial plan
 - The **Kamalapura Tank** and the network of smaller tanks: stored monsoon runoff for use in the dry months; created by earthen and stone embankments that required major labour mobilisation — only an imperial state could organise such construction
 - Aqueducts and stone-lined channels carried water across the rocky terrain to temples, royal baths, and residential areas
 - The tank network extended beyond the capital to the agricultural hinterland — sustaining the tax base that funded the army and royal patronage
 
-**Water control as political power:**
+#### Body C — Water Control as Political Power
 - The ability to build and maintain hydraulic infrastructure required a state capable of mobilising labour, organising engineers, and maintaining structures over generations
 - Control of water was control of agriculture; control of agriculture was control of revenue; control of revenue was control of military power
 - The Vijayanagara kings' investment in irrigation was simultaneously an act of benevolence (providing water to farmers) and an act of power (making farmers dependent on the state's infrastructure)
 - The NCERT makes this explicit: the hydraulic system was as central to Vijayanagara's imperial power as its military system
 
-**Conclusion:** Vijayanagara's water management system reveals that imperial power in pre-modern South Asia was exercised not only through conquest and ceremony but through the transformation of the natural landscape. The empire's durability — spanning 310 years in a semi-arid zone — was partly a product of hydraulic infrastructure that tied population, agriculture, and urban life to the state's engineering capacity.
+#### Nuance / Critical Edge
+- The NCERT's methodological point: imperial power in pre-modern India was exercised not only through conquest and ceremony but through landscape transformation — a dimension often overlooked in political history
+- Compare with other pre-modern empires (Chola tank systems, Mauryan irrigation) to show this was a pan-Indian pattern, not unique to Vijayanagara
+
+#### Conclusion
+- Vijayanagara's water management system reveals that imperial power in pre-modern South Asia was exercised through the transformation of the natural landscape
+- The empire's durability — spanning 310 years in a semi-arid zone — was partly a product of hydraulic infrastructure that tied population, agriculture, and urban life to the state's engineering capacity

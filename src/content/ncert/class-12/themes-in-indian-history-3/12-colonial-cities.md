@@ -232,50 +232,105 @@ The 20-year timeline shows the scale and ambition of the project. The British ne
 
 ## PART 3: MAINS ANSWER FRAMEWORKS
 
-### Framework 1: "Colonial cities were not merely administrative centres but embodiments of imperial ideology. Discuss with reference to Calcutta, Bombay, and New Delhi." (GS1, 15 marks)
+### Framework 1 — Cities as Texts of Imperial Ideology (GS1, 15 marks)
 
-**Introduction:** Cities as texts — colonial urban spaces can be read as documents of imperial ideology. Architecture, planning, and infrastructure all encoded power relations.
+**Question:** "Colonial cities were not merely administrative centres but embodiments of imperial ideology. Discuss with reference to Calcutta, Bombay, and New Delhi."
 
-**Body A — Racial segregation as ideology (White Town / Black Town):**
+#### Introduction
+- Cities as texts — colonial urban spaces can be read as documents of imperial ideology
+- Architecture, planning, and infrastructure all encoded power relations
+- The NCERT's central argument: buildings communicate power, and colonial cities were deliberate spatial expressions of colonial authority
+
+#### Body A — Racial segregation as ideology (White Town / Black Town)
 - White Town and Black Town were not accidental formations but explicit planning choices
 - Infrastructure investment prioritised European zones; "sanitation" discourse masked racial hierarchy
-- The spatial separation reproduced and reinforced the social order daily
+- The spatial separation reproduced and reinforced the social order daily — living in different zones was a constant enactment of colonial hierarchy
 
-**Body B — Architecture as power statement:**
-- Phase 1 (Neo-Classical): communicated European rationality and order
+#### Body B — Architecture as power statement
+- Phase 1 (Neo-Classical): communicated European rationality and order — Enlightenment ideology in stone
 - Phase 2 (Indo-Saracenic): communicated British authority as heir to India's own great traditions — incorporation as legitimation
-- Key examples: VT Mumbai (Gothic + Mughal = British civilisation incorporating Indian greatness); Victoria Memorial (British presiding over India's memorial to its own subjugation)
+- Key examples: Victoria Terminus Mumbai (Gothic + Mughal = British civilisation incorporating Indian greatness); Victoria Memorial Kolkata (British presiding over a memorial to the Queen who ruled India)
 
-**Body C — New Delhi as the ultimate expression:**
-- Raisina Hill elevation: government physically above the governed
-- Rajpath axis: processional space designed for the spectacle of imperial power
-- Indian elements (chhatris, lotus dome) incorporated but subordinated — decorative, not structural
-- The 16-year irony: permanence claimed; independence denied it
+#### Body C — New Delhi as the ultimate expression
+- Raisina Hill elevation: government buildings physically above the governed — a spatial expression of hierarchy
+- Rajpath/Kingsway axis: two kilometres of processional space designed for the spectacle of imperial power
+- Indian elements (chhatris, lotus dome on Rashtrapati Bhavan) incorporated but subordinated — decorative, not structurally determining
+- The 16-year irony: New Delhi inaugurated 1931, India independent 1947 — the most ambitious claim to permanence lasted barely one generation
 
-**Conclusion:** Indian response — renaming (CSMT, Rajpath → Kartavya Path, Rashtrapati Bhavan) as decolonisation of urban space; the built environment as a site of ongoing historical negotiation.
+#### Nuance / Critical Edge
+- Lutyens was personally dismissive of Indian architecture; the Indian decorative elements were political concessions, not genuine respect
+- Yet Indian craftsmen who built these structures infused their own traditions — the buildings carry multiple authorial voices
+- Decolonisation continues in renaming: CSMT, Rajpath → Kartavya Path — the built environment as a site of ongoing historical negotiation
 
-### Framework 2: "How did colonial urbanisation transform Indian social life? What new social classes and conflicts did it create?" (GS1, 10 marks)
+#### Conclusion
+- Colonial cities were simultaneously administrative infrastructure and ideological texts
+- The racial geography, architectural choices, and infrastructure investment all served to naturalise British supremacy
+- The Indian response — renaming, repurposing, contesting — shows that colonial built space is never simply inherited; it must be actively renegotiated
 
-**Key points to cover:**
-- New middle class (bhadralok, lawyers, journalists, civil servants) — educated in English, working in colonial institutions, developing new political consciousness
-- Industrial working class — mill workers in Bombay and Calcutta chawls; emergence of labour unions and industrial disputes; new form of poverty distinct from rural poverty
-- Women in urban space — new schools, employment as teachers and nurses, early feminism; but also new vulnerabilities (migration, trafficking, isolation from joint-family support)
-- Communal conflicts — census-hardened identities meeting in close urban proximity; competition for jobs and housing along caste/religious lines
-- New associational life — clubs, reading rooms, sabhas, newspapers; colonial city as incubator of nationalism
+---
 
-### Framework 3: "Examine the Indo-Saracenic style of architecture in colonial India. Was it a genuine synthesis or a colonial appropriation of Indian architectural forms?" (GS1, 10 marks)
+### Framework 2 — Colonial Urbanisation and New Social Classes (GS1, 10 marks)
 
-**Introduction:** Define Indo-Saracenic — revivalist style blending Islamic/Mughal, Hindu-Rajput, and European Gothic/Classical elements, used predominantly in public colonial buildings from the late 18th to early 20th centuries.
+**Question:** "How did colonial urbanisation transform Indian social life? What new social classes and conflicts did it create?"
 
-**Argument FOR genuine synthesis:**
-- Indian craftsmen executed the buildings, infusing local building traditions
-- The style preserved Mughal and Rajput aesthetic traditions at a time when they might otherwise have been lost
+#### Introduction
+- Colonial cities were not just administrative and commercial hubs — they were crucibles for new social formations
+- The concentration of people, institutions, and capital in Calcutta, Bombay, and Madras created classes and conflicts that had no pre-colonial precedent
+
+#### Body A — New middle class
+- Bhadralok (Bengal), lawyers, journalists, civil servants — educated in English, working in colonial institutions
+- Developed new political consciousness; formed the social base for the nationalist movement
+- Lived in Black Town but aspired to European cultural forms — a class defined by colonial education and colonial employment
+
+#### Body B — Industrial working class
+- Mill workers in Bombay's cotton mills and Calcutta's jute mills, housed in chawls near factories
+- A distinctly new urban proletariat — a form of poverty distinct from rural poverty
+- Emergence of labour unions and industrial disputes; seeds of labour politics
+
+#### Body C — New conflicts and vulnerabilities
+- Women in urban space: new schools, employment as teachers and nurses, early feminism; but also new vulnerabilities — migration, trafficking, isolation from joint-family support networks
+- Communal conflicts: census-hardened identities meeting in close urban proximity; competition for jobs and housing along caste and religious lines
+- New associational life — clubs, reading rooms, sabhas, newspapers — the colonial city as incubator of both nationalism and communalism
+
+#### Nuance / Critical Edge
+- Colonial urbanisation created both emancipatory possibilities (education, employment, new political consciousness) and new forms of exploitation and conflict
+- The census played a key role: by hardening communal categories, it made urban competition feel like communal competition
+- The middle class that led the nationalist movement was itself a product of colonial institutions — a paradox the NCERT highlights
+
+#### Conclusion
+- Colonial urbanisation fundamentally restructured Indian social life in ways that outlasted colonial rule
+- The classes it created — the educated middle class, the industrial working class — shaped Indian politics for the entire 20th century
+- The conflicts it created — communal tensions, caste-based competition — also persisted, making colonial cities the origin point of both modern India's strengths and its fault lines
+
+---
+
+### Framework 3 — Indo-Saracenic: Synthesis or Appropriation? (GS1, 10 marks)
+
+**Question:** "Examine the Indo-Saracenic style of architecture in colonial India. Was it a genuine synthesis or a colonial appropriation of Indian architectural forms?"
+
+#### Introduction
+- Define Indo-Saracenic: a revivalist style blending Islamic/Mughal, Hindu-Rajput, and European Gothic/Classical elements
+- Used predominantly in public colonial buildings from the late 18th to early 20th centuries
+- The central debate: does this fusion represent genuine cultural synthesis or strategic colonial appropriation?
+
+#### Body A — Argument for genuine synthesis
+- Indian craftsmen executed the buildings, infusing local building traditions and regional variations
+- The style preserved Mughal and Rajput aesthetic traditions at a time when they might otherwise have been marginalised
 - Some Indian patrons (princely states) enthusiastically adopted it for their own palaces — suggesting genuine aesthetic adoption, not mere imposition
+- The blending of three architectural vocabularies produced a distinct style that could not have emerged from any one tradition alone
 
-**Argument FOR colonial appropriation:**
+#### Body B — Argument for colonial appropriation
 - European structural logic always dominated — Indian elements were applied as decoration, not structurally determining the buildings
-- The style was developed by British architects who were often dismissive of Indian architecture in private
-- It served an ideological purpose: to legitimate British rule by claiming authority over Indian tradition
+- The style was developed by British architects who were often privately dismissive of Indian architecture (Lutyens: "not true architecture")
+- It served an ideological purpose: to legitimate British rule by claiming authority over and continuity with Indian tradition
 - The choice of which Indian traditions to adopt (mainly Mughal — associating British power with the most recent pan-Indian empire) was deliberate and politically loaded
 
-**Conclusion:** Indo-Saracenic was simultaneously a genuine formal synthesis and an act of colonial appropriation. The same building can be read both ways — which is precisely why the NCERT uses architecture as a window into the contradictions of colonial culture.
+#### Nuance / Critical Edge
+- The same building can be read both ways — which is precisely the NCERT's point
+- The Chepauk Palace (1768, Chennai) — often cited as the first Indo-Saracenic building — was built for the Nawab of Arcot, complicating any simple "British imposition" narrative
+- The political meaning of a building depends on who views it, when, and with what frame — architecture is contested ground
+
+#### Conclusion
+- Indo-Saracenic was simultaneously a genuine formal synthesis and an act of colonial appropriation
+- These two readings are not mutually exclusive — both are historically accurate
+- The NCERT uses architecture to train precisely this capacity: to hold contradictions together, and to ask whose purposes a cultural form serves

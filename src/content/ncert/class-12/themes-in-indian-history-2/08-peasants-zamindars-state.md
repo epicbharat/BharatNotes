@@ -219,42 +219,107 @@ The Ain-i-Akbari contains the only systematic pre-colonial statistics on Indian 
 
 ## PART 3: MAINS ANSWER FRAMEWORKS
 
-### Framework 1: "Describe the agrarian structure of the Mughal Empire. How did the zamindari system serve both as a vehicle of revenue extraction and local governance?" [GS1, 15 marks]
+### Framework 1 — Zamindari: Revenue and Local Governance (GS1, 15 marks)
 
-**Introduction:** The Mughal Empire was overwhelmingly an agrarian economy — land revenue financed its military and administration. The agrarian structure was hierarchical: the state at the apex, intermediary zamindars, village communities, and different categories of peasants at the base. Understanding this structure requires examining both its formal mechanisms and its social logic.
+**Question:** "Describe the agrarian structure of the Mughal Empire. How did the zamindari system serve both as a vehicle of revenue extraction and local governance?"
 
-**Body A — The peasant hierarchy:** Distinguish khud-kashta (resident, more secure) from pahi-kashta (non-resident, mobile, more vulnerable). Note the role of caste in determining access to land, credit, and plough; specific peasant castes dominated cultivation in each region. Mention women's economic participation (wages, textile processing).
+#### Introduction
+- The Mughal Empire was overwhelmingly an agrarian economy — land revenue financed its military and administration
+- The agrarian structure was hierarchical: the state at the apex, intermediary zamindars, village communities, and different categories of peasants at the base
+- Understanding this structure requires examining both its formal mechanisms and its social logic
 
-**Body B — The revenue systems:** Explain zabt (measurement-based), batai (crop-sharing), and kankut (estimation). Detail Todar Mal's dahsala reform: ten-year average, four land categories, standardised measurement, extension from Lahore to Allahabad. Connect revenue design to political logic: sustainable extraction required keeping peasants in the fields; hence taqavi loans and remissions in bad years.
+#### Body A — The Peasant Hierarchy
+- Distinguish khud-kashta (resident, more secure) from pahi-kashta (non-resident, mobile, more vulnerable)
+- Caste determined access to land, credit, and plough; specific peasant castes dominated cultivation in each region (Jats in Punjab, Kunbis in western Maharashtra, Vellalas in Tamil Nadu)
+- Women's economic participation: lower wages than men (recorded in the Ain-i-Akbari), key role in rural textile processing — spinning and weaving raw cotton
 
-**Body C — The zamindars: dual role:** Zamindars held hereditary revenue rights over defined territories; paid fixed sums to the state; kept the margin. They maintained armed retainers and provided military service. They also provided local credit, dispute resolution, and administrative functions the Mughal bureaucracy could not reach. Their coercive and service roles coexisted — they were simultaneously exploitative and functionally necessary to the system.
+#### Body B — The Revenue Systems
+- **Zabt:** land measured, revenue fixed by area × productivity category; the most systematic method; required trained patwaris
+- **Batai:** crop-sharing (one-third to one-half of harvest); simpler but required officials present at harvest
+- **Kankut:** estimation of standing crop before harvest; a compromise between zabt and batai
+- Todar Mal's dahsala reform: ten-year average (1570–1579) of crop yield and prices; four land categories (polaj, parauti, chachar, banjar); standardised measurement extended from Lahore to Allahabad
+- Revenue design and political logic: sustainable extraction required keeping peasants in the fields; hence taqavi loans (interest-free advances) and remissions in bad years
 
-**Conclusion:** The Mughal agrarian structure was not feudal (zamindars held revenue rights, not ownership rights over persons). But it was also not a simple state-peasant relationship. The zamindari layer gave the system both resilience (local knowledge, enforcement capacity) and a built-in tension (zamindar interests often conflicted with both the state's revenue goals and the peasants' welfare). This tension accelerated when Mughal central authority weakened in the eighteenth century.
+#### Body C — The Zamindars: Dual Role
+- Held hereditary revenue rights over defined territories; paid fixed sums to the state; kept the margin (nanakar)
+- Maintained armed retainers and provided military service — a critical enforcement mechanism at the local level
+- Also provided local credit, dispute resolution, and administrative functions the Mughal bureaucracy could not reach directly
+- Their coercive and service roles coexisted — simultaneously exploitative and functionally necessary to the system
+
+#### Nuance / Critical Edge
+- The zamindari system was not "feudal" in the European sense: zamindars held revenue rights, not ownership rights over persons or the land itself
+- The system created a structural tension: zamindar interests often conflicted with both the state's revenue goals and the peasants' welfare — this tension accelerated the empire's fragmentation in the eighteenth century
+
+#### Conclusion
+- The Mughal agrarian structure was hierarchical but not uniformly oppressive; it built in mechanisms (taqavi, remissions, the "exit option") that acknowledged the limits of extraction
+- The zamindari layer gave the system resilience (local knowledge, enforcement capacity) and a built-in tension that accelerated when Mughal central authority weakened
 
 ---
 
-### Framework 2: "Critically examine the Ain-i-Akbari as a historical source for understanding Mughal India." [GS1, 10 marks]
+### Framework 2 — The Ain-i-Akbari as Historical Source (GS1, 10 marks)
 
-**Introduction:** The Ain-i-Akbari (c. 1596–98 CE), the third volume of Abul Fazl's Akbarnama, is the most comprehensive administrative and statistical record produced in pre-colonial India. Its value and its limitations are both products of the same fact: it was written by a loyalist at the height of Mughal power to celebrate that power.
+**Question:** "Critically examine the Ain-i-Akbari as a historical source for understanding Mughal India."
 
-**What it contains:** Five books covering the imperial household, military-civil services, revenue system (land survey, rent-roll, crop prices), Hindu social and literary traditions, and Akbar's moral maxims. Uniquely contains data on wages, agricultural productivity, and land revenue by province — unparalleled for the pre-colonial period.
+#### Introduction
+- The Ain-i-Akbari (c. 1596–98 CE), the third volume of Abul Fazl's Akbarnama, is the most comprehensive administrative and statistical record produced in pre-colonial India
+- Its value and its limitations are both products of the same fact: it was written by a loyalist at the height of Mughal power to celebrate that power
 
-**Why it is valuable:** Only systematic pre-colonial statistical source; essential for economic history of Mughal India; reveals administrative logic of the empire (how zabt was supposed to work, what the revenue demand was meant to be); provides demographic and economic baseline data.
+#### Body A — What It Contains
+- Five books covering the imperial household, military-civil services, revenue system (land survey, rent-roll, crop prices), Hindu social and literary traditions, and Akbar's moral maxims
+- Uniquely contains data on wages (including women's wages), agricultural productivity, and land revenue by province — unparalleled for the pre-colonial period
+- The only systematic pre-colonial statistical source for Indian agriculture and administration
 
-**Why it must be read critically:** Abul Fazl was constructing an image of ideal Mughal governance — the empire as Akbar's philosophers describe it should be, not necessarily as it was. Revenue figures may represent official demands rather than actual collections. Data is uneven — better for provinces with strong central administration than for peripheral areas. The Ain presents normative regulations; local departures from those regulations (which were common) are invisible in the text.
+#### Body B — Why It Is Valuable
+- Essential for economic history of Mughal India — no comparable source exists until British colonial surveys of the late eighteenth century
+- Reveals the administrative logic of the empire: how zabt was intended to work, what the revenue demand was meant to be
+- Provides demographic and economic baseline data for reconstructing Mughal society
 
-**Conclusion:** The Ain-i-Akbari is indispensable but requires triangulation. Historians use it alongside local farmans, revenue settlement records, and other chronicles to distinguish what the Mughal state intended from what it actually achieved.
+#### Body C — Why It Must Be Read Critically
+- Abul Fazl was constructing an image of ideal Mughal governance — the empire as it should be, not necessarily as it was
+- Revenue figures may represent official demands rather than actual collections
+- Data is uneven — better for provinces with strong central administration than for peripheral or forest areas
+- The Ain presents normative regulations; local departures from those regulations (which were common) are invisible in the text
+
+#### Nuance / Critical Edge
+- The Ain's propagandistic intent does not negate its data value — it means the data must be triangulated; modern historians treat it as official statistics: real data embedded in a political project
+- Cross-referencing with local farmans, dastur-ul-amals, and pargana revenue records reveals the gap between normative claim and ground reality
+
+#### Conclusion
+- The Ain-i-Akbari is indispensable but requires triangulation
+- Historians use it alongside local farmans, revenue settlement records, and other chronicles to distinguish what the Mughal state intended from what it actually achieved
 
 ---
 
-### Framework 3: "How did forest communities fit into the Mughal political economy? Were they inside or outside the empire?" [GS1, 10 marks]
+### Framework 3 — Forest Communities: Inside or Outside? (GS1, 10 marks)
 
-**Introduction:** The binary of "inside" or "outside" the Mughal empire is too simple for forest communities. They occupied a contested intermediate position: partly incorporated through tribute and zamindar arrangements, partly autonomous beyond effective revenue administration.
+**Question:** "How did forest communities fit into the Mughal political economy? Were they inside or outside the empire?"
 
-**Forest as resource and frontier:** Forests provided elephants (key military asset), timber, and other goods. The Mughal state needed forest communities as suppliers of these resources. But forests also sheltered rebels, fleeing peasants, and communities that refused to pay taxes — making them politically threatening.
+#### Introduction
+- The binary of "inside" or "outside" the Mughal empire is too simple for forest communities
+- They occupied a contested intermediate position: partly incorporated through tribute and zamindar arrangements, partly autonomous beyond effective revenue administration
 
-**Specific communities and Mughal strategies:** The Bhils (western India) were partly integrated through tributary chiefs who became zamindars. Gond kingdoms (central India) maintained quasi-independent status, with their chiefs paying peskesh and providing military service. The Ahom kingdom of Assam organised its economy around the labour obligations of tribal communities. In Bengal, forest clearance was actively promoted to expand the revenue-paying settled agricultural zone. Babur's memoirs record his frustration with forests that allowed communities to resist taxation.
+#### Body A — Forest as Resource and Frontier
+- Forests provided elephants (key military asset), timber, honey, wax, and other strategic goods
+- The Mughal state needed forest communities as suppliers of these resources
+- But forests also sheltered rebels, fleeing peasants, and communities that refused taxation — making them politically threatening
+- Babur's memoirs record his frustration with forests that allowed communities to resist taxation
 
-**Limits of Mughal power:** The Mughal revenue system (zabt, dahsala) operated only where fields could be measured and crops assessed. In forest zones, this was impossible. The Mughals extracted what they could through tribute relationships — peskesh in elephants, timber, or cash — without achieving systematic revenue administration.
+#### Body B — Specific Communities and Mughal Strategies
+- **Bhils** (western India): partly integrated through tributary chiefs who became zamindars
+- **Gond kingdoms** (central India): maintained quasi-independent status, chiefs paying peskesh and providing military service
+- **Ahom kingdom** (Assam): organised its economy around the labour obligations of tribal communities
+- In Bengal, forest clearance was actively promoted to expand the revenue-paying settled agricultural zone
+- Peskesh (tribute in elephants, timber, or cash) was the primary instrument of Mughal extraction from forest zones
 
-**Conclusion:** Forest communities were at the margins of the Mughal empire — not fully outside (the state extracted tribute and provided nominal incorporation) but not fully inside (no systematic revenue administration, no mansabdari governance structure). This ambiguity was productive for both sides: tribal chiefs gained a degree of legitimation and protection; the Mughal state gained resources and nominal sovereignty without the cost of full administration. The margin was thus a zone of negotiation, not simply a zone of exclusion.
+#### Body C — Limits of Mughal Power
+- The Mughal revenue system (zabt, dahsala) operated only where fields could be measured and crops assessed; in forest zones, this was impossible
+- The Mughals extracted what they could through tribute relationships without achieving systematic revenue administration
+- No mansabdari governance structure operated in forest zones — Mughal authority was nominal and negotiated, not administrative
+
+#### Nuance / Critical Edge
+- The "margin" was productive for both sides: tribal chiefs gained legitimation and protection; the Mughal state gained resources and nominal sovereignty without the cost of full administration
+- This zone of negotiation was not static — the Mughals constantly pushed for forest clearance and settlement, seeking to expand the revenue frontier
+
+#### Conclusion
+- Forest communities were at the margins of the Mughal empire — not fully outside (tribute extracted, nominal incorporation) and not fully inside (no systematic revenue administration)
+- The margin was a zone of negotiation, not simply a zone of exclusion

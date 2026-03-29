@@ -342,78 +342,100 @@ Direct UPSC link: Questions often ask which was the first all-marble Mughal stru
 
 ## PART 3: MAINS ANSWER FRAMEWORKS
 
-### Framework 1: "How did the Mughal court use historiography to legitimise imperial power? Discuss with reference to the *Akbarnama* and other chronicles." [GS1, 15 marks]
+### Framework 1 — Historiography as Imperial Legitimation (GS1, 15 marks)
 
-**Introduction (3–4 lines):**
-The Mughal Empire produced a distinctive genre of official historiography that served simultaneously as political legitimation, administrative record, and ideological statement. Chronicles were not neutral recordings of events but carefully constructed instruments of power, commissioned by emperors and shaped by court intellectuals with a specific vision of kingship.
+**Question:** "How did the Mughal court use historiography to legitimise imperial power? Discuss with reference to the *Akbarnama* and other chronicles."
 
-**Body Part A — The *Akbarnama* as Ideology:**
+#### Introduction
+- The Mughal Empire produced a distinctive genre of official historiography that served simultaneously as political legitimation, administrative record, and ideological statement
+- Chronicles were not neutral recordings of events but carefully constructed instruments of power, commissioned by emperors and shaped by court intellectuals with a specific vision of kingship
+
+#### Body A — The Akbarnama as Ideology
 - Abul Fazl's commission was not simply to record Akbar's reign but to construct Akbar as the *Insan-i-Kamil* — the divinely illuminated perfect man whose authority transcended sectarian religion
 - The three-volume structure itself was programmatic: ancestry (Timurid lineage), deeds (reign narrative), and administration (Ain-i-Akbari) — constructing legitimacy through genealogy, achievement, and system
 - Sulh-i-kul was presented not as pragmatic policy but as cosmic necessity — the emperor as the point of reconciliation for all human diversity
 - Abul Fazl's language was deliberately elevated and allusive, drawing on Sufi mystical vocabulary to give Akbar quasi-divine status
 
-**Body Part B — Contrast with the *Baburnama* and *Humayunnama*:**
+#### Body B — Contrast: Baburnama and Humayunnama
 - Babur wrote in Chagatai Turkic for himself, not for legitimation — his candour about failure, grief, and personal weakness was possible precisely because he was not writing for an imperial audience
 - Gulbadan Begum wrote at Akbar's request but in simple Persian from personal memory — her inclusion of unflattering details about Humayun is only possible because she was not an official court historian with an ideological programme to fulfil
 - These texts show what court chronicles suppress: the gap between the constructed image and lived reality
 
-**Body Part C — The *Tuzuk-i-Jahangiri* as Partial Counter-Narrative:**
+#### Body C — The Tuzuk-i-Jahangiri as Partial Counter-Narrative
 - Jahangir's self-authored memoir is unusual for a Mughal official chronicle because he recorded his own addiction, his relationships, and his doubts
 - Yet it too constructs a particular image of Jahangir — as the just, nature-loving, aesthetically refined emperor — which is equally selective, just in a different direction
 - The candour is real but is also a form of self-presentation
 
-**Conclusion:**
-All Mughal chronicles — regardless of their apparent candour — must be read "against the grain." The question for the historian is not what they say but why they say it: what political conditions required this particular construction of the emperor at this particular moment.
+#### Nuance / Critical Edge
+- Even the "candid" texts (Baburnama, Tuzuk-i-Jahangiri) must be read "against the grain" — candour is itself a rhetorical device; the historian asks not what these texts say but why they say it
+- What political conditions required this particular construction of the emperor at this particular moment?
+
+#### Conclusion
+- All Mughal chronicles — regardless of their apparent candour — must be read critically as sources shaped by the political conditions of their production
+- The question for the historian is not what they say but why they say it: what legitimation needs required this particular construction of the emperor at this moment
 
 ---
 
-### Framework 2: "Explain the mansab system. How did it help Akbar centralise power, and why did the system eventually weaken the Mughal Empire?" [GS1, 15 marks]
+### Framework 2 — Mansab System: Centralisation and Collapse (GS1, 15 marks)
 
-**Introduction:**
-The mansab system was Akbar's master instrument of imperial centralisation — a unified numerical hierarchy that absorbed the entire Mughal nobility, both military and civil, into a single structure of imperial dependency.
+**Question:** "Explain the mansab system. How did it help Akbar centralise power, and why did the system eventually weaken the Mughal Empire?"
 
-**Mechanics of the system:**
+#### Introduction
+- The mansab system was Akbar's master instrument of imperial centralisation — a unified numerical hierarchy that absorbed the entire Mughal nobility, both military and civil, into a single structure of imperial dependency
+
+#### Body A — Mechanics of the System
 - Dual zat (personal rank/salary) and sawar (cavalry obligation) numbers, introduced 1595–96
-- 33 grades from commander of 10 to commander of 10,000 (princes only at the top)
-- Non-hereditary: lapsed on death, reversion to emperor
-- Funded through jagirs (revenue assignments), not land grants
+- 33 grades from commander of 10 to commander of 10,000 (ranks above 5,000 exceptional; 7,000–10,000 reserved for princes)
+- Non-hereditary: mansabs lapsed on death and reverted to the emperor
+- Funded through jagirs (revenue assignments over territory), not permanent land grants
 
-**How it centralised power:**
+#### Body B — How It Centralised Power
 - By making every noble's rank entirely dependent on imperial favour, Akbar eliminated the basis for independent hereditary power
-- Unlike European feudalism where fiefs were heritable and nobles could accumulate autonomous power over generations, Mughal mansabdars held precarious tenures: they could be raised, reduced, or removed by imperial order alone
+- Unlike European feudalism where fiefs were heritable, Mughal mansabdars held precarious tenures — could be raised, reduced, or removed by imperial order alone
 - Nobles competed for imperial favour rather than consolidating local power bases — this competition itself was a mechanism of control
 - The emperor's control of jagir assignments meant nobles could never develop permanent economic independence from the centre
 
-**Why the system eventually weakened the empire:**
-- The system depended on a sufficient supply of jagirs to fund mansabdars — as the empire stopped expanding after Aurangzeb, there was a shortage of revenue-yielding territory to assign (the "jagir crisis")
+#### Body C — Why the System Eventually Weakened the Empire
+- As the empire stopped expanding after Aurangzeb, there was a shortage of revenue-yielding territory to assign — the "jagir crisis"
 - Because mansabs were non-hereditary, nobles had no long-term interest in the stability of any particular territory; they extracted maximum revenue during their assignment and moved on
-- The system's dependence on a strong, active emperor was its fatal weakness: when Aurangzeb died in 1707, there was no institutional loyalty to the Mughal system as such — nobles calculated individual advantage in the resulting vacuum
+- The system's dependence on a strong, active emperor was its fatal weakness: when Aurangzeb died in 1707, there was no institutional loyalty to the Mughal system — nobles calculated individual advantage in the resulting vacuum
 - Regional powers (the Marathas, Sikhs, and later nawabs) could offer more stable, heritable arrangements — drawing away the loyalty the Mughal system had never fully secured
 
-**Conclusion:**
-The mansab system was brilliant at concentration of power in the hands of a strong emperor and fatal to the state when that emperor was absent or weak. Its very strengths — the prevention of hereditary nobility, absolute imperial control — became liabilities when no emperor capable of exercising that control existed.
+#### Nuance / Critical Edge
+- The system's fatal design flaw was structural: it was brilliant at concentrating power but created no mechanisms for loyal succession or institutional continuity beyond the person of a strong emperor
+- Compare with the Ottoman devshirme system (also non-hereditary) which had similar centralising strengths and similar long-term vulnerabilities
+
+#### Conclusion
+- The mansab system was brilliant at concentration of power in the hands of a strong emperor and fatal to the state when that emperor was absent or weak
+- Its very strengths — prevention of hereditary nobility, absolute imperial control — became liabilities when no emperor capable of exercising that control existed
 
 ---
 
-### Framework 3: "Examine the role of women in the Mughal court. How did women like Nur Jahan and Gulbadan Begum exercise political and cultural agency?" [GS1, 10 marks]
+### Framework 3 — Women's Agency in the Mughal Court (GS1, 10 marks)
 
-**Introduction:**
-The Mughal harem has been systematically misrepresented in both orientalist scholarship and popular imagination as a space of passive seclusion. A critical reading of primary sources — coins, farmans, architectural records, and the chronicles produced by and about Mughal women — reveals a very different reality: the *zanana* was an active political space where senior women exercised real influence over administration, culture, and succession.
+**Question:** "Examine the role of women in the Mughal court. How did women like Nur Jahan and Gulbadan Begum exercise political and cultural agency?"
 
-**Gulbadan Begum — cultural agency:**
+#### Introduction
+- The Mughal harem has been systematically misrepresented in both orientalist scholarship and popular imagination as a space of passive seclusion
+- A critical reading of primary sources — coins, farmans, architectural records, and chronicles produced by and about Mughal women — reveals a very different reality: the *zanana* was an active political space where senior women exercised real influence over administration, culture, and succession
+
+#### Body A — Gulbadan Begum: Cultural Agency
 - Author of the *Humayunnama*, the only chronicle of the period written by a woman; her text provides evidence of women's perspectives entirely absent from official court histories
 - Undertook a pilgrimage to Mecca and Medina (1575–1582) — seven years away from court — demonstrating autonomous movement and decision-making
 - Her writing style (simple Persian, candid, from personal memory) stands in deliberate contrast to the elevated prose of court-commissioned histories, suggesting a conscious literary choice
 
-**Nur Jahan — political agency:**
+#### Body B — Nur Jahan: Political Agency
 - Coins bearing her name from the Agra mint (c. 1611–1623) — the only Mughal empress so honoured; a formal marker of co-sovereignty
 - Farmans bearing her seal alongside the imperial signature — direct participation in the exercise of royal authority
 - Building of Itimad-ud-Daulah's tomb — monumental patronage requiring imperial resources; also the first all-marble Mughal building, establishing the aesthetic tradition for the Taj Mahal
-- Construction of a court faction (*junta*) around her family network — a deliberate political strategy, not informal influence
+- Construction of a court faction around her family network — a deliberate political strategy, not informal influence
 
-**NCERT's broader point:**
-These examples are not exceptional — they are evidence of a wider pattern. The official chronicles suppress women's roles because they were written to glorify male emperors; coins, farmans, architectural records, and texts like the *Humayunnama* provide the counter-evidence. Recovering women's history from the Mughal period requires reading sources the official tradition did not intend as women's history.
+#### Nuance / Critical Edge
+- These examples are not exceptional — they are evidence of a wider pattern that official chronicles suppress because they were written to glorify male emperors
+- Recovering women's history from the Mughal period requires reading sources the official tradition did not intend as women's history: coins, farmans, architectural records, and texts like the *Humayunnama*
+- The NCERT's methodological point: the invisibility of women in official histories is a product of what official histories were designed to do, not of women's actual absence from power
 
-**Conclusion:**
-Mughal women of the royal household were political actors constrained by but not confined to the structures of a patriarchal court. Their agency expressed itself through the means available: writing, building, patronage, coalition-building, and personal access to emperors. Recognising this requires moving beyond the official chronicles to a wider range of sources.
+#### Conclusion
+- Mughal women of the royal household were political actors constrained by but not confined to the structures of a patriarchal court
+- Their agency expressed itself through the means available: writing, building, patronage, coalition-building, and personal access to emperors
+- Recognising this requires moving beyond the official chronicles to a wider range of sources

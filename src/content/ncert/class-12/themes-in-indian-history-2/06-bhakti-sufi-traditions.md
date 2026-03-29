@@ -329,66 +329,98 @@ This is a frequently tested UPSC fact and serves as a strong piece of evidence f
 
 ## PART 3: MAINS ANSWER FRAMEWORKS
 
-### Framework 1: "The Bhakti and Sufi movements were not just religious revolutions but social ones. Critically examine." [GS1, 15 marks]
+### Framework 1 — Bhakti-Sufi as Social Revolution (GS1, 15 marks)
 
-**Introduction (2–3 sentences):**
-The Bhakti and Sufi movements of medieval India (c. 6th–17th century) arose primarily as spiritual responses to religious formalism, but their insistence on direct personal experience of the divine, their use of vernacular languages, and their in-principle openness to devotees across caste and gender lines produced significant social consequences. Whether these consequences constitute a "social revolution" is, however, contested.
+**Question:** "The Bhakti and Sufi movements were not just religious revolutions but social ones. Critically examine."
 
-**Body A — The Social Challenges (the affirmative case):**
-- Caste challenge: Saints from low-caste backgrounds (Kabir the weaver, Ravidas the cobbler, Tukaram the Kunabi farmer, Namdev the tailor) achieved religious authority that was acknowledged across regions. This was a genuine disruption of the caste hierarchy of spiritual prestige.
-- Gender: Female saints — Andal, Karaikkal Ammaiyar, Mirabai, Janabai — achieved spiritual recognition. Mirabai's case shows a woman using devotion as grounds for refusing patriarchal control.
-- Language: Composing in Brajbhasha, Awadhi, Tamil, Marathi, Punjabi directly undermined the priestly monopoly on Sanskrit-based religious knowledge. Tulsidas's Awadhi Ramcharitmanas democratised the Rama narrative.
-- The Sikh Langar: Guru Nanak's community kitchen where all sat and ate together regardless of caste remains one of the most institutionally significant anti-caste practices.
-- Sufi khanqahs: The Chishti open hospice model — feeding all comers, welcoming Hindu visitors — created trans-caste and trans-religious spaces.
+#### Introduction
+- The Bhakti and Sufi movements of medieval India (c. 6th–17th century) arose primarily as spiritual responses to religious formalism
+- Their insistence on direct personal experience of the divine, use of vernacular languages, and in-principle openness across caste and gender lines produced significant social consequences
+- Whether these consequences constitute a "social revolution" is, however, contested — the thesis to interrogate
 
-**Body B — The Limits and Complications:**
-- Caste was not abolished. Successor sects often became caste-like structures. The followers of individual saints frequently organised themselves as endogamous communities.
-- Women saints were exceptional, not the norm — their examples did not change the structural position of women in their communities.
-- The NCERT's observation: the movements created alternative spaces where caste was "temporarily dissolved," not permanently eliminated.
-- The Naqshbandi reaction and Aurangzeb-era religious policy show the limits of the Chishti ecumenism — orthodoxy was always pushing back.
-- Execution of Sikh Gurus (Guru Arjan Dev 1606, Guru Tegh Bahadur 1675) shows the political vulnerability of these traditions.
+#### Body A — The Social Challenges (Affirmative Case)
+- **Caste challenge:** Saints from low-caste backgrounds (Kabir the weaver, Ravidas the cobbler, Tukaram the Kunabi farmer, Namdev the tailor) achieved religious authority acknowledged across regions — a genuine disruption of the caste hierarchy of spiritual prestige
+- **Gender:** Female saints — Andal, Karaikkal Ammaiyar, Mirabai, Janabai — achieved spiritual recognition; Mirabai used devotion as grounds for refusing patriarchal control
+- **Language:** Composing in Brajbhasha, Awadhi, Tamil, Marathi, and Punjabi directly undermined the priestly monopoly on Sanskrit-based religious knowledge; Tulsidas's Awadhi Ramcharitmanas democratised the Rama narrative
+- **The Sikh Langar:** Guru Nanak's community kitchen where all sat and ate together regardless of caste — one of the most institutionally significant anti-caste practices in Indian history
+- **Sufi khanqahs:** The Chishti open hospice model — feeding all comers, welcoming Hindu visitors — created trans-caste and trans-religious spaces
 
-**Body C — Political and Historical Context:**
-- Delhi Sultanate period: Bhakti saints operated in a context where Hindu religious life was under political pressure in some regions. The retreat to vernacular, personal, non-temple-dependent devotion had partly defensive logic.
-- Mughal period: Akbar's religious eclecticism (Din-i-Ilahi, translation projects) created a court atmosphere broadly hospitable to Bhakti-Sufi interactions. Aurangzeb's later reversal shows how contingent this was.
+#### Body B — The Limits and Complications
+- Caste was not abolished; successor sects often became caste-like structures; followers of individual saints frequently organised themselves as endogamous communities
+- Women saints were exceptional, not the norm — their examples did not change the structural position of women in their communities
+- The NCERT's key observation: the movements created alternative spaces where caste was "temporarily dissolved," not permanently eliminated
+- The Naqshbandi reaction and Aurangzeb-era religious policy show the limits of Chishti ecumenism — orthodoxy was always pushing back
+- Execution of Sikh Gurus (Guru Arjan Dev 1606, Guru Tegh Bahadur 1675) shows the political vulnerability of these traditions
 
-**Conclusion:**
-The Bhakti and Sufi movements transformed the emotional and linguistic texture of Indian religious life permanently. They created enduring vernacular literary traditions and spaces of relative social openness. But calling them "revolutions" overstates the case — caste and gender hierarchies continued, and the social radicalism of the founding saints was often domesticated by their successors. They were movements of spiritual democratisation with significant but limited social consequences.
+#### Body C — Political and Historical Context
+- **Delhi Sultanate period:** Bhakti saints operated under political pressure on Hindu religious life in some regions; the retreat to vernacular, personal, non-temple-dependent devotion had partly defensive logic
+- **Mughal period:** Akbar's religious eclecticism (Din-i-Ilahi, translation projects) created a court atmosphere broadly hospitable to Bhakti-Sufi interactions; Aurangzeb's later reversal shows how contingent this was
 
-### Framework 2: "How did the Sufi tradition adapt to Indian conditions? What role did the Chishti order play in this adaptation?" [GS1, 10 marks]
+#### Nuance / Critical Edge
+- The social radicalism of the founding saints was often domesticated by their successors — the institutionalisation of a movement tends to reproduce the hierarchies the founder challenged
+- Distinguishing between the saint's personal practice and the movement's structural impact is what separates an analytical answer from a descriptive one
 
-**Introduction:** Sufi Islam arrived in India as a tradition shaped by Persian mysticism and Arab theology. Its adaptation to Indian conditions was a complex process, not a simple adoption of Hindu practices, but a gradual development of new forms in response to a new social and religious environment.
+#### Conclusion
+- The Bhakti and Sufi movements transformed the emotional and linguistic texture of Indian religious life permanently; they created enduring vernacular literary traditions and spaces of relative social openness
+- But calling them "revolutions" overstates the case — caste and gender hierarchies continued
+- They were movements of spiritual democratisation with significant but limited social consequences
 
-**Key Points:**
+### Framework 2 — Sufi Adaptation and the Chishti Order (GS1, 10 marks)
 
-1. **The Khanqah Model:** The Chishti khanqah functioned as an open hospice — feeding all visitors regardless of religion or caste. This was an adaptation to Indian social conditions, extending the Islamic tradition of hospitality into a multi-religious context.
+**Question:** "How did the Sufi tradition adapt to Indian conditions? What role did the Chishti order play in this adaptation?"
 
-2. **Music (Sama/Qawwali):** The Chishti embrace of devotional music drew on Persianate traditions but was intensified and transformed in India by the incorporation of Indian melodic structures. Amir Khusrau's synthesis — Persian-Arabic poetry sung to Indian melodies with instruments like the tabla — created a distinctly Indian Sufi musical form.
+#### Introduction
+- Sufi Islam arrived in India as a tradition shaped by Persian mysticism and Arab theology
+- Its adaptation to Indian conditions was a complex process — not a simple adoption of Hindu practices, but a gradual development of new forms in response to a new social and religious environment
+- The Chishti order was the central agent of this adaptation
 
-3. **Distance from State:** The great Chishti masters' refusal of state patronage was partly theological (independence from worldly power as a spiritual value) but also practically adaptive — it maintained the khanqah's independence and broad social appeal.
+#### Body A — Key Dimensions of Chishti Adaptation
+- **The Khanqah Model:** The Chishti khanqah functioned as an open hospice — feeding all visitors regardless of religion or caste; an adaptation of the Islamic tradition of hospitality into a multi-religious context
+- **Music (Sama/Qawwali):** The Chishti embrace of devotional music drew on Persianate traditions but was transformed in India by the incorporation of Indian melodic structures; Amir Khusrau's synthesis — Persian-Arabic poetry sung to Indian melodies with instruments like the tabla — created a distinctly Indian Sufi musical form
+- **Distance from State:** The great Chishti masters' refusal of state patronage was partly theological (independence from worldly power) but also practically adaptive — it maintained the khanqah's independence and broad social appeal
+- **Vernacular Language:** Baba Farid composed poetry in early Punjabi — the first major Punjabi poet; later Sufi poets across South Asia composed in regional languages, creating vernacular Islamic devotional literature
 
-4. **Vernacular Language:** Baba Farid composed poetry in early Punjabi — the first major Punjabi poet. Later Sufi poets across South Asia composed in regional languages, creating vernacular Islamic devotional literature.
+#### Body B — Limits of Adaptation
+- The Naqshbandi counter-current (Ahmad Sirhindi, 17th century) shows that Sufi adaptation was contested within Islam
+- Sirhindi explicitly opposed what he saw as the Chishti deviation from sharia; his influence on Mughal court politics after Akbar was significant
+- The Chishti adaptation was achieved through theological argument and practical wisdom — it remained embedded in a distinctly Islamic framework, not a syncretism that abandoned Islamic identity
 
-5. **Limits of Adaptation:** The Naqshbandi counter-current (Ahmad Sirhindi, 17th century) shows that Sufi adaptation was contested within Islam. Sirhindi explicitly opposed what he saw as the Chishti deviation from sharia — his influence on Mughal court politics after Akbar was significant.
+#### Nuance / Critical Edge
+- "Adaptation" is not the same as "assimilation" — the Chishtis adapted methods (music, language, hospitality) while retaining Islamic theological core
+- Answers that conflate the two will miss the NCERT's nuanced point about how traditions evolve without dissolving
 
-**Conclusion:** The Chishti order's adaptation was the most thorough and consequential in Indian history. Its open-door hospitality, musical tradition, vernacular engagement, and independence from state power made it the dominant Islamic spiritual tradition in medieval India. But this adaptation was achieved through theological argument and practical wisdom, not simply by absorbing Hindu elements — and it remained embedded in a distinctly Islamic framework of belief and practice.
+#### Conclusion
+- The Chishti order's adaptation was the most thorough and consequential in Indian Sufi history
+- Its open-door hospitality, musical tradition, vernacular engagement, and independence from state power made it the dominant Islamic spiritual tradition in medieval India
+- It represents a model of cross-cultural engagement that was creative and principled, not merely eclectic
 
-### Framework 3: "Examine the contribution of the Bhakti movement to the development of regional languages and literature in medieval India." [GS1, 10 marks]
+### Framework 3 — Bhakti's Contribution to Regional Languages (GS1, 10 marks)
 
-**Introduction:** One of the most lasting and unambiguous consequences of the Bhakti movement was the creation of major vernacular literary traditions. By composing religious poetry and prose in regional languages rather than Sanskrit, Bhakti saints laid the foundations of Tamil, Marathi, Hindi, Punjabi, Bengali, and Kannada literature.
+**Question:** "Examine the contribution of the Bhakti movement to the development of regional languages and literature in medieval India."
 
-**Key Regional Contributions:**
+#### Introduction
+- One of the most lasting and unambiguous consequences of the Bhakti movement was the creation of major vernacular literary traditions
+- By composing in regional languages rather than Sanskrit, Bhakti saints laid the foundations of Tamil, Marathi, Hindi, Punjabi, Bengali, and Kannada literature
+- Frame this as a story of linguistic democratisation — making religion expressible in the languages people actually spoke
 
-- **Tamil (c. 6th–9th century):** The 12 Alvars and 63 Nayanmars created the first great corpus of Tamil devotional literature. The Nalayira Divya Prabandham (4,000 verses) and the Tevaram remain central texts of Tamil literary heritage. Tamil Bhakti poetry is the earliest major vernacular literary tradition in India.
+#### Body A — Key Regional Contributions
+- **Tamil (c. 6th–9th century):** The 12 Alvars and 63 Nayanmars created the first great corpus of Tamil devotional literature; the Nalayira Divya Prabandham (4,000 verses) and the Tevaram remain central texts; Tamil Bhakti poetry is the earliest major vernacular literary tradition in India
+- **Kannada (c. 12th century):** The Vachana movement — Basavanna and the Lingayat tradition — produced Vachana (prose-poem) literature in Kannada, challenging Brahmanical Sanskrit dominance
+- **Marathi (c. 13th–17th century):** Dnyaneshwar wrote the Dnyaneshwari (c. 1290), first major Marathi literary work; the Warkari tradition produced Namdev, Eknath, and Tukaram's abhangas — establishing Marathi as a sophisticated literary language
+- **Hindi — multiple dialects (c. 15th–17th century):** Kabir's Sadhukkadi created a transregional Hindi-based devotional language; Surdas perfected Brajbhasha; Tulsidas's Ramcharitmanas made Awadhi the prestige dialect of Hindi devotional literature; Mirabai contributed to the Rajasthani-Brajbhasha tradition
+- **Punjabi (c. 13th century onwards):** Baba Farid (Fariduddin Ganj-i-Shakar) is the first major Punjabi poet; Guru Nanak's compositions established the literary standard; the Guru Granth Sahib is the greatest compilation of early Punjabi literature
+- **Bengali (c. 16th century):** Chaitanya's movement sparked the Chaitanya Charitamrita (by Krishnadasa Kaviraja) and a rich Vaishnava poetry tradition in Bengali
 
-- **Kannada (c. 12th century):** The Vachana movement — associated with Basavanna and the Lingayat tradition — produced Vachana (prose-poem) literature in Kannada, challenging Brahmanical Sanskrit dominance in a different way.
+#### Body B — Why This Mattered
+- These compositions standardised regional scripts and dialects, giving them literary prestige
+- They created a reading/listening public for religious and later secular literature in each language
+- The relationship between Bhakti composition and modern regional identity is traceable — Tamil, Marathi, and Punjabi literary culture still root themselves in Bhakti-era texts
 
-- **Marathi (c. 13th–17th century):** Dnyaneshwar (Jnaneshwar) wrote the Dnyaneshwari (c. 1290), a commentary on the Bhagavad Gita in Marathi — the first major Marathi literary work. The Warkari tradition produced Namdev, Eknath, and culminating in Tukaram's abhangas. This established Marathi as a sophisticated literary language.
+#### Nuance / Critical Edge
+- The linguistic contribution is more durably measurable than the social contribution — it is less contested
+- An answer that covers both dimensions (social and linguistic) while noting this asymmetry will score higher than one that treats them as equally ambiguous
 
-- **Hindi — multiple dialects (c. 15th–17th century):** Kabir's Sadhukkadi created a transregional Hindi-based devotional language. Surdas perfected Brajbhasha as a literary language. Tulsidas's Ramcharitmanas made Awadhi the prestige dialect of Hindi devotional literature. Mirabai's Rajasthani-Brajbhasha bhajans contributed to that tradition.
-
-- **Punjabi (c. 13th century onwards):** Fariduddin Ganj-i-Shakar (Baba Farid) is regarded as the first major Punjabi poet. Guru Nanak's compositions in Punjabi established the language's literary standard; the Guru Granth Sahib is the greatest compilation of early Punjabi literature.
-
-- **Bengali (c. 16th century):** Chaitanya's movement sparked the writing of the Chaitanya Charitamrita (by Krishnadasa Kaviraja) and a rich tradition of Vaishnava poetry in Bengali.
-
-**Conclusion:** The Bhakti movement's linguistic contribution is arguably more durable than its social impact. Modern Hindi, Marathi, Tamil, Punjabi, and Bengali literature all trace their classical roots to Bhakti-era compositions. This linguistic democratisation — making religion expressible and discussable in the languages people actually spoke — was one of the most consequential intellectual developments of medieval India.
+#### Conclusion
+- The Bhakti movement's linguistic contribution is arguably more durable than its social impact
+- Modern Hindi, Marathi, Tamil, Punjabi, and Bengali literature all trace their classical roots to Bhakti-era compositions
+- This linguistic democratisation was one of the most consequential intellectual developments of medieval India

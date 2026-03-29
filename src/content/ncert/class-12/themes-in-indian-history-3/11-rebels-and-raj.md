@@ -309,87 +309,122 @@ Queen Victoria's Proclamation, read at a grand durbar at Allahabad on 1 November
 
 ## PART 3: MAINS ANSWER FRAMEWORKS
 
-### Framework 1: "The revolt of 1857 was neither a mere military mutiny nor India's first war of independence. Critically examine." (GS1, 15 marks)
+### Framework 1 — Mutiny vs. First War of Independence (GS1, 15 marks)
 
-**Introduction (3–4 lines):** The 1857 revolt remains one of the most historiographically contested events in Indian history. While the British termed it a "Sepoy Mutiny" and V.D. Savarkar famously called it the "First War of Indian Independence" (1909), neither label fully captures its character. The truth lies in the complexity of its causes, composition, and legacy.
+**Question:** "The revolt of 1857 was neither a mere military mutiny nor India's first war of independence. Critically examine."
 
-**Body A — Why it was more than a mutiny (5–6 lines):**
+#### Introduction
+- The 1857 revolt remains one of the most historiographically contested events in Indian history
+- The British termed it a "Sepoy Mutiny"; V.D. Savarkar famously called it the "First War of Indian Independence" (1909)
+- Neither label fully captures its character — the truth lies in the complexity of its causes, composition, and legacy
+
+#### Body A — Why it was more than a mutiny
 - Started as a military revolt over cartridges but rapidly drew in peasants (Awadh), zamindars (Kunwar Singh in Bihar), talukdars, traders, artisans, and dispossessed rulers
-- The Bengal Army's grievances were not purely military — they were rooted in social, economic, and political dislocations caused by British rule over several decades
-- The revolt spread across a wide geography — from Meerut and Delhi through Lucknow and Kanpur to Jhansi and Bihar
-- The rebels articulated political goals: restoration of Mughal sovereignty (Delhi), restoration of Awadh's Nawab (Lucknow), restoration of Jhansi's ruling family (Rani Lakshmibai)
-- The ferocity and scale demanded structural British response — the Government of India Act 1858 — not just a punitive crackdown
+- The Bengal Army's grievances were not purely military — rooted in social, economic, and political dislocations caused by decades of British rule
+- The revolt spread across a wide geography: from Meerut and Delhi through Lucknow and Kanpur to Jhansi and Bihar
+- Rebels articulated political goals: restoration of Mughal sovereignty (Delhi), restoration of Awadh's Nawab (Lucknow), restoration of Jhansi's ruling family
+- The ferocity and scale demanded a structural British response — the Government of India Act 1858 — not merely a punitive crackdown
 
-**Body B — Why it was not a fully "national" war of independence (5–6 lines):**
-- Geographically limited: confined largely to the upper Gangetic plain, central India, and Bihar; Bombay and Madras armies were loyal; south India and Bengal were largely uninvolved
+#### Body B — Why it was not a fully "national" war of independence
+- Geographically limited: confined largely to the upper Gangetic plain, central India, and Bihar; Bombay and Madras armies were loyal; south India largely uninvolved
 - No unified command, strategy, or communication across rebel centres — Delhi, Lucknow, Kanpur, and Jhansi fought independently
-- Sikh, Gurkha, and many other Indian soldiers actively fought *for* the British
-- Major Indian rulers — Nizam of Hyderabad, Maharaja Scindia — supported the British
-- "National consciousness" in the modern sense was absent in 1857; participants fought for their caste, their religion, their land, their ruler — not for an "Indian nation"
-- Savarkar's "First War of Independence" was a 1909 nationalist projection back onto 1857, not a description of 1857 actors' own motivations
+- Sikh, Gurkha, and many other Indian soldiers actively fought for the British
+- Major Indian rulers — Nizam of Hyderabad, Maharaja Scindia — supported the British side
+- "National consciousness" in the modern sense was absent; participants fought for their caste, religion, land, and ruler — not for an "Indian nation"
+- Savarkar's framing was a 1909 nationalist projection back onto 1857, not a description of 1857 actors' own motivations
 
-**Body C — What it actually was (3–4 lines):**
+#### Body C — What it actually was
 - A large-scale armed revolt combining military mutiny, agrarian unrest, dynastic resistance, and religious anxiety
 - The most serious challenge to British rule before the 20th century
 - A watershed that demonstrated the fragility of Company rule and the depth of anti-British feeling across large sections of Indian society
 - Not nationally unified, but nationally important as a formative memory for the independence movement that came later
 
-**Conclusion (2–3 lines):** The revolt of 1857 was neither a simple mutiny nor a fully formed nationalist uprising — it was a transitional event, a multi-layered crisis of the colonial order that transformed British India's governance and seeded the historical memory from which later nationalism drew inspiration.
+#### Nuance / Critical Edge
+- The NCERT's synthesis rejects both the "mutiny" and "first war" labels as politically motivated framings
+- Every representation of 1857 — British, nationalist, Marxist — reflects the political purposes of those who made it
+- The test of a strong answer is showing awareness of these layers of representation, not just listing facts
+
+#### Conclusion
+- The revolt of 1857 was a transitional event — neither a simple mutiny nor a fully formed nationalist uprising
+- It was a multi-layered crisis of the colonial order that transformed British India's governance
+- It seeded the historical memory from which later nationalism drew inspiration
 
 ---
 
-### Framework 2: "How did the revolt of 1857 transform British policy towards India? Assess the significance of the Government of India Act 1858 and Victoria's Proclamation." (GS1, 10 marks)
+### Framework 2 — 1857's Impact on British Policy (GS1, 10 marks)
 
-**Introduction:** The shock of 1857 compelled a fundamental reassessment of Britain's approach to Indian governance. The revolt exposed the dangers of the East India Company model — commercial profit as the motive for imperial rule — and forced a shift to direct Crown governance with a more explicit ideology of paternalistic responsibility.
+**Question:** "How did the revolt of 1857 transform British policy towards India? Assess the significance of the Government of India Act 1858 and Victoria's Proclamation."
 
-**Body — Key policy transformations:**
+#### Introduction
+- The shock of 1857 compelled a fundamental reassessment of Britain's approach to Indian governance
+- The revolt exposed the dangers of the East India Company model — commercial profit as the motive for imperial rule
+- It forced a shift to direct Crown governance with a more explicit ideology of paternalistic responsibility
 
-*Structural changes (Government of India Act 1858):*
-- Ended Company rule; Crown assumed sovereignty
+#### Body A — Structural changes (Government of India Act 1858)
+- Ended Company rule; Crown assumed sovereignty over India
 - Board of Control and Court of Directors abolished
-- Secretary of State for India (Cabinet minister) created; India Council of 15 members advised
+- Secretary of State for India (Cabinet minister) created; advised by a 15-member India Council
 - Governor-General became Viceroy — the personal representative of the Crown
 - Significance: India moved from a commercial entity to an imperial possession with formal constitutional arrangements
 
-*Policy changes (Victoria's Proclamation):*
+#### Body B — Policy changes (Victoria's Proclamation)
 - End of annexation policy; respect for princely treaties; adoption of heirs permitted
-- Non-interference in religion; equal law promised
-- Civil service open to Indians regardless of race or religion (promise)
-- Significance: Britain attempted to recast itself as a benevolent, treaty-respecting sovereign rather than an aggressive annexationist power; but practical racial inequality persisted
+- Non-interference in religion; equal law promised for Indian and British subjects
+- Civil service open to Indians regardless of race or religion (promise, imperfectly honoured)
+- Significance: Britain attempted to recast itself as benevolent rather than annexationist — but practical racial inequality persisted
 
-*Military reorganisation:*
+#### Body C — Military reorganisation
 - Ratio of British to Indian soldiers in the army was permanently increased
 - Artillery placed exclusively under British command
 - Recruitment increasingly from "martial races" — Sikhs, Gurkhas, Punjabi Muslims — who had stayed loyal in 1857
-- Bengal Army's old recruitment structure (high-caste Brahmins) was deliberately broken up
+- Bengal Army's old high-caste Brahmin recruitment structure was deliberately broken up
 
-**Conclusion:** The Government of India Act 1858 and Victoria's Proclamation were the constitutional expressions of a shift from Company exploitation to Crown paternalism. They changed the legal structure of British India profoundly while leaving the racial hierarchies of colonial rule substantially intact.
+#### Nuance / Critical Edge
+- The promises of Victoria's Proclamation were unevenly honoured: ICS examinations held in London until 1922; racial hierarchies in the army persisted
+- The Ilbert Bill controversy (1883) showed how bitterly the British community resisted judicial equality
+- The shift from Company to Crown changed the legal structure but left colonial exploitation intact
+
+#### Conclusion
+- The Government of India Act 1858 and Victoria's Proclamation were constitutional expressions of a shift from Company exploitation to Crown paternalism
+- They changed the legal structure of British India profoundly while leaving racial hierarchies substantially intact
+- The gap between the Proclamation's promises and colonial reality became one of the central grievances of the nationalist movement
 
 ---
 
-### Framework 3: "Examine the role of women leaders in the revolt of 1857. What do their stories reveal about gender and resistance in colonial India?" (GS1/GS4, 10 marks)
+### Framework 3 — Women Leaders of 1857 (GS1/GS4, 10 marks)
 
-**Introduction:** The revolt of 1857 produced women leaders whose roles challenge both colonial stereotypes and conventional nationalist narratives. Rani Lakshmibai of Jhansi and Begum Hazrat Mahal of Awadh embodied distinct forms of political and military agency that deserve examination on their own terms.
+**Question:** "Examine the role of women leaders in the revolt of 1857. What do their stories reveal about gender and resistance in colonial India?"
 
-**Rani Lakshmibai — Military leadership:**
+#### Introduction
+- The revolt of 1857 produced women leaders whose roles challenge both colonial stereotypes and conventional nationalist narratives
+- Rani Lakshmibai of Jhansi and Begum Hazrat Mahal of Awadh embodied distinct forms of political and military agency that deserve examination on their own terms
+
+#### Body A — Rani Lakshmibai: military leadership
 - Dispossessed of Jhansi (1853) under the Doctrine of Lapse after her husband's death
 - When the revolt spread to Jhansi, took direct military command of the city's defence
 - Led troops personally in battle; organised the city's fortifications
 - When Jhansi fell, escaped to Gwalior and continued fighting until her death in battle (June 1858)
-- British General Hugh Rose called her "the most dangerous of all Indian leaders" — the highest possible tribute from an enemy commander
+- British General Hugh Rose called her "the most dangerous of all Indian leaders" — the highest tribute from an enemy commander
 - Her resistance was both personal (reclaiming her throne) and political (resistance to colonial dispossession)
 
-**Begum Hazrat Mahal — Political leadership:**
-- Wife of exiled Nawab Wajid Ali Shah of Awadh; chose to stay in Lucknow when her husband was taken to Calcutta
-- Organised the revolt in Awadh; proclaimed her young son Birjis Qadr as Wali (ruler) of Awadh — a declaration of Awadh's continuing sovereignty
-- Led the siege of the Lucknow Residency for five months; gave speeches encouraging soldiers; wrote letters directing the movement
-- Rejected the terms of Victoria's Proclamation in a written counter-proclamation that critiqued British hypocrisy — a rare, direct political document by a woman in 19th-century India
-- Died in exile in Nepal (1879) rather than submit
+#### Body B — Begum Hazrat Mahal: political leadership
+- Wife of exiled Nawab Wajid Ali Shah of Awadh; chose to remain in Lucknow when her husband was taken to Calcutta
+- Organised the revolt in Awadh; proclaimed her young son Birjis Qadr as Wali (ruler) — a declaration of Awadh's continuing sovereignty
+- Led the siege of the Lucknow Residency for five months; gave speeches to encourage soldiers; wrote letters directing the movement
+- Rejected the terms of Victoria's Proclamation in a written counter-proclamation critiquing British hypocrisy — a rare direct political document by a woman in 19th-century India
+- Died in exile in Nepal (1879) rather than submit to British authority
 
-**What their stories reveal:**
+#### Body C — What their stories reveal
 - Women's political agency was not simply about "stepping in" when men were absent — both women made active choices to resist
-- Their stories disrupt the British colonial narrative that represented Indian women exclusively as victims (of Indian barbarism, needing British protection) rather than as actors
-- Both women led not for "nationalism" in the modern sense but to reclaim specific sovereignties — their families' thrones — which itself represented a form of anti-colonial resistance
-- Their marginalisation in mainstream British accounts and their celebration in Indian nationalist accounts are both forms of appropriation that the NCERT encourages students to examine critically
+- Their stories disrupt the British colonial narrative that represented Indian women exclusively as victims needing British protection rather than as political actors
+- Both women led to reclaim specific sovereignties — their families' thrones — which itself constituted a form of anti-colonial resistance
+- Their marginalisation in British accounts and celebration in nationalist accounts are both forms of appropriation the NCERT encourages students to examine critically
 
-**Conclusion:** The women leaders of 1857 demonstrate that resistance to colonial rule was not exclusively a male enterprise. Their stories reveal the limits of colonial narratives that erased women's agency and the limits of nationalist narratives that reduced them to symbols. History demands they be understood as political actors in their own right.
+#### Nuance / Critical Edge
+- The nationalist narrative, while restoring their agency, also turns them into symbols — obscuring their specific, local motivations
+- Neither woman fought for "India" as a nation; they fought for their princely sovereignties — which is itself historically significant and distinct from 20th-century nationalism
+
+#### Conclusion
+- The women leaders of 1857 demonstrate that resistance to colonial rule was not exclusively a male enterprise
+- Their stories reveal the limits of colonial narratives (erasing women's agency) and nationalist narratives (reducing them to symbols)
+- History demands they be understood as political actors in their own right, with specific motivations and strategies

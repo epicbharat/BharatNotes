@@ -295,50 +295,105 @@ The NCERT's point: the 1947 partition of Bengal did not come from nowhere. It bu
 
 ## PART 3: MAINS ANSWER FRAMEWORKS
 
-### Framework 1: "The partition of India in 1947 was the result of both colonial policy and domestic political failures. Critically examine." [GS1, 15 marks]
+### Framework 1 — Causes of Partition: Colonial and Political (GS1, 15 marks)
 
-**Introduction (2–3 sentences):** Partition was simultaneously a political negotiation and a human catastrophe. Its causes were multiple and contested — no single factor, no single actor, was solely responsible.
+**Question:** "The partition of India in 1947 was the result of both colonial policy and domestic political failures. Critically examine."
 
-**Body A — Colonial responsibility:**
-- British "divide and rule" strategy formalised through the Morley-Minto Reforms (1909) which introduced separate communal electorates, institutionalising Muslim and Hindu political identities
-- The 1905 Partition of Bengal demonstrated early use of religious geography as administrative tool
-- Cyril Radcliffe's hasty 5-week boundary drawing process — by a man who had never been to India — produced a line that satisfied no one and triggered mass violence
-- The deliberate delay in announcing the Radcliffe Award until after independence transferred the human cost to the new governments
+#### Introduction
+- Partition was simultaneously a political negotiation and a human catastrophe
+- Its causes were multiple and contested — no single factor, no single actor, was solely responsible
+- Establish the two-sided analytical frame the question demands
 
-**Body B — Political failures:**
-- Congress-League breakdown after 1937: Congress's failure to bring League into provincial governments hardened Jinnah's position
-- Direct Action Day (August 16, 1946): Muslim League's deliberate triggering of communal violence to force a political outcome
-- Congress's ambiguous interpretation of Cabinet Mission "groupings" destroyed the last framework for a united India
-- Speed of Mountbatten's timeline (independence advanced to August 1947 from June 1948): insufficient time to plan safe transfer of 12–15 million people
+#### Body A — Colonial Responsibility
+- British "divide and rule": Morley-Minto Reforms (1909) introduced separate communal electorates, institutionalising Muslim and Hindu political identities in law
+- The 1905 Partition of Bengal: early demonstration of using religious geography as an administrative tool
+- Radcliffe's boundary-drawing: a 5-week process by a man who had never been to India produced a line that satisfied no one and triggered mass violence
+- Deliberate delay of the Radcliffe Award until after independence transferred the human cost entirely to the new governments
 
-**Body C — Long-term ideological factors:**
+#### Body B — Domestic Political Failures
+- Congress-League breakdown after 1937: Congress's failure to bring the League into provincial governments hardened Jinnah's position
+- Direct Action Day (August 16, 1946): Muslim League's deliberate triggering of communal violence to force a political outcome — 4,000+ dead in Calcutta within 72 hours
+- Congress's ambiguous interpretation of Cabinet Mission "groupings" destroyed the last serious framework for a united India
+- Mountbatten's accelerated timeline (independence moved from June 1948 to August 1947): insufficient time to plan safe transfer of 12–15 million people
+
+#### Body C — Long-term Ideological Factors
 - Two-nation theory had roots in 19th-century Muslim political thinking (Sayyid Ahmad Khan); Jinnah operationalised it but did not create it
 - Congress's failure to develop a credible constitutional guarantee for Muslim political representation within a united India
+- The 1937 election results: Congress won Muslim seats too, but its refusal to share ministerial power with the League was read as proof that Muslims would be permanently dominated
 
-**Conclusion:** Responsibility for partition is genuinely shared between colonial policy and domestic political decisions. Monocausal explanations — blaming only Jinnah, or only the British, or only Congress — miss the layered causation. What is clear is that the human cost of partition fell overwhelmingly on ordinary people who had no role in making the political decisions.
+#### Nuance / Critical Edge
+- Monocausal explanations — blaming only Jinnah, or only the British, or only Congress — miss the layered causation
+- The human cost of partition fell overwhelmingly on ordinary people who had no role in making the political decisions — this asymmetry between decision-makers and sufferers is the moral core of the question
 
----
-
-### Framework 2: "What does oral history add to our understanding of the partition that official records cannot? Discuss with examples." [GS1, 10 marks]
-
-**Paragraph 1 — Limitations of official records:** Official colonial and early postcolonial records documented administrative events: refugee numbers, "recovery" statistics, financial transfers. They did not record individual experiences, communal violence patterns, or the choices individuals made under duress. The colonial state had an interest in orderly record-keeping, not in documenting its own failures.
-
-**Paragraph 2 — What oral history reveals:** Testimonies collected from partition survivors (by scholars like Urvashi Butalia, Ritu Menon, and the Partition Archive) reveal: how neighbours turned on neighbours; the specific dynamics of gendered violence; the experience of children separated from families; the difference between the Punjab and Bengal refugee experiences; and the long-term psychological consequences of displacement.
-
-**Paragraph 3 — Literary sources as a related category:** Manto's "Khol Do" documents the systematic nature of sexual violence against women — something no official record acknowledged. Bhisham Sahni's *Tamas* shows how local political actors deliberately activated communal violence. Fiction, when it truthfully represents experience, functions as historical evidence.
-
-**Paragraph 4 — Methodological limitations:** Oral history has real limitations: memory is fallible, especially after trauma; survivors may self-censor; retrospective testimony is shaped by intervening events and political contexts; non-survivors cannot testify. Historians must triangulate oral testimony against other sources and treat it critically.
-
-**Conclusion:** Oral history does not replace official records — it supplements them by recovering the human experience that official categories cannot contain. The NCERT's methodological point is that a history of partition that used only official records would be a history of administration, not of people.
+#### Conclusion
+- Responsibility is genuinely shared between colonial policy and domestic political decisions
+- Top answers will resist assigning a single cause and instead show how each factor interacted with and amplified the others
 
 ---
 
-### Framework 3: "Examine the role of women in the partition of 1947. Why does the NCERT treat their experiences as a separate historical subject?" [GS1 / GS4, 10 marks]
+### Framework 2 — Oral History and Partition Memory (GS1, 10 marks)
 
-**Paragraph 1 — Scale of gendered violence:** Approximately 75,000–100,000 women were abducted, raped, forcibly converted, or killed during partition. This violence was not random — it was systematic. Women's bodies were treated as repositories of community "honour"; attacking the women of another community was a form of communal warfare. Both sides committed these acts.
+**Question:** "What does oral history add to our understanding of the partition that official records cannot? Discuss with examples."
 
-**Paragraph 2 — The silence of official culture:** Both the Indian and Pakistani states preferred to suppress public discussion of sexual violence during partition. Women who had been raped or forcibly converted were socially stigmatised; families often did not want them back. "Recovery" programmes run by both states from 1947 to the mid-1950s forcibly returned women to their original religious communities — often without asking the women what they wanted. Some women had formed new attachments; some had converted and built new lives; many resisted "recovery" that their families and states insisted upon.
+#### Introduction
+- Official records documented administrative events: refugee numbers, "recovery" statistics, financial transfers
+- They could not record individual experiences, communal violence patterns, or choices made under terror
+- Establish the methodological gap that oral history fills
 
-**Paragraph 3 — Feminist historiography and why the NCERT treats this separately:** Scholars like Urvashi Butalia (*The Other Side of Silence*, 1998) and Ritu Menon and Kamla Bhasin (*Borders and Boundaries*, 1998) recovered women's testimonies that had been deliberately excluded from mainstream partition history. The NCERT treats women's experiences as a separate subject because mainstream political history — focused on Jinnah, Nehru, Mountbatten — made women invisible. Recovering women's experiences is not an addendum to partition history; it reveals dimensions (the sexual politics of communal violence, the state's relationship to women's bodies, the definition of citizenship) that the dominant narrative erases.
+#### Body A — Limitations of Official Records
+- Colonial state had an interest in orderly record-keeping, not in documenting its own failures or the violence it set in motion
+- Early postcolonial states (India and Pakistan) both preferred to suppress discussion of gendered violence and communal atrocity
+- "Recovery" statistics record how many women were returned — not what those women experienced or wanted
 
-**Conclusion:** The partition experience of women is not a footnote to "real" political history — it is evidence of how partition was experienced by half the population. The NCERT's treatment reflects the methodological shift in Indian historiography toward social history, oral history, and the recovery of voices the state preferred to silence.
+#### Body B — What Oral History Reveals
+- Testimonies collected by scholars (Urvashi Butalia, Ritu Menon) and institutions (the Partition Archive) reveal: how neighbours turned on neighbours; specific dynamics of gendered violence; children separated from families
+- The difference between Punjab and Bengal refugee experiences (Punjab refugees rehabilitated relatively quickly using land records; Bengal refugees decades in informal camps)
+- Long-term psychological consequences of displacement — trauma that persisted across generations
+
+#### Body C — Literary Sources as a Related Category
+- Manto's "Khol Do": documents the systematic nature of sexual violence against women — something no official record acknowledged
+- Bhisham Sahni's Tamas: shows how local political actors deliberately activated communal violence
+- Fiction, when it truthfully represents experience, functions as historical evidence for the kinds of things that happened and the moral universe in which they occurred
+
+#### Nuance / Critical Edge
+- Oral history has real limitations: memory is fallible especially after trauma; survivors may self-censor; retrospective testimony is shaped by intervening events; non-survivors cannot testify
+- Historians must triangulate oral testimony against other sources and treat it critically — it is evidence, not proof
+
+#### Conclusion
+- Oral history does not replace official records — it supplements them by recovering the human experience that official categories cannot contain
+- A history of partition using only official records would be a history of administration, not of people
+
+---
+
+### Framework 3 — Women's Experiences in Partition (GS1 / GS4, 10 marks)
+
+**Question:** "Examine the role of women in the partition of 1947. Why does the NCERT treat their experiences as a separate historical subject?"
+
+#### Introduction
+- Approximately 75,000–100,000 women were abducted, raped, forcibly converted, or killed during partition
+- This violence was not random — it was systematic; women's bodies were treated as repositories of community "honour"
+- Both sides of the border committed these acts
+
+#### Body A — The Scale and Nature of Gendered Violence
+- Attacking the women of another community was a form of communal warfare — honour of the community was located in women's bodies
+- Indian government estimated 33,000 Hindu and Sikh women remained in Pakistan; Pakistani government estimated 50,000 Muslim women were in India; actual figures likely higher
+- Violence was perpetrated by neighbours and strangers alike — oral histories reveal its deeply personal character
+
+#### Body B — The Silence of Official Culture
+- Both Indian and Pakistani states preferred to suppress public discussion of sexual violence during partition
+- Women who had been raped or forcibly converted were socially stigmatised; families often did not want them back
+- "Recovery" programmes (1947 to mid-1950s) forcibly returned women to their original religious communities — often without asking the women what they wanted
+- Some women had formed new attachments, converted, built new lives; many resisted "recovery" their families and states insisted upon
+
+#### Body C — Feminist Historiography and Why the NCERT Treats This Separately
+- Scholars like Urvashi Butalia (The Other Side of Silence, 1998) and Ritu Menon and Kamla Bhasin (Borders and Boundaries, 1998) recovered testimonies deliberately excluded from mainstream partition history
+- Mainstream political history — focused on Jinnah, Nehru, Mountbatten — made women invisible
+- Recovering women's experiences reveals dimensions that the dominant narrative erases: the sexual politics of communal violence, the state's relationship to women's bodies, the definition of citizenship
+
+#### Nuance / Critical Edge
+- The NCERT's separate treatment is a methodological statement: social history and feminist historiography are not addenda to "real" political history — they are a different lens on the same events
+- For GS4: the state's "recovery" programme is an ethics case study — compulsory recovery against women's expressed wishes raises questions about bodily autonomy, state paternalism, and whose interests "recovery" served
+
+#### Conclusion
+- Women's partition experience is not a footnote — it is evidence of how partition was experienced by half the population
+- The NCERT's treatment reflects the broader shift in Indian historiography toward oral history, social history, and the recovery of voices the state preferred to silence
