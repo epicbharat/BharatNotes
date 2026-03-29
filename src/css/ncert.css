@@ -161,14 +161,17 @@
 
 /* ── NCERT Article Tables ────────────────────────────────────── */
 
-/* Scroll wrapper: owns the border, radius, shadow */
+/* Scroll wrapper: outer clips corners, inner scrolls */
 .ncert-article .table-scroll {
   border-radius: var(--radius-lg);
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  overflow: hidden;
   border: 1px solid var(--ncert-blue-border);
   box-shadow: 0 2px 8px rgba(29, 78, 216, 0.07);
   margin: var(--space-5) 0;
+}
+.ncert-article .table-scroll-inner {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Table itself strips its own chrome — wrapper handles it */

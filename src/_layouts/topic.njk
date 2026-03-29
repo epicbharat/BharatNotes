@@ -231,13 +231,16 @@ layout: base.njk
   var article = document.querySelector('.article-body');
   if (!article) return;
 
-  /* Wrap tables in scrollable container for mobile */
+  /* Wrap tables: outer clips to border-radius, inner scrolls horizontally */
   var tables = article.querySelectorAll('table');
   for (var t = 0; t < tables.length; t++) {
-    var wrap = document.createElement('div');
-    wrap.className = 'table-scroll';
-    tables[t].parentNode.insertBefore(wrap, tables[t]);
-    wrap.appendChild(tables[t]);
+    var outer = document.createElement('div');
+    outer.className = 'table-scroll';
+    var inner = document.createElement('div');
+    inner.className = 'table-scroll-inner';
+    tables[t].parentNode.insertBefore(outer, tables[t]);
+    outer.appendChild(inner);
+    inner.appendChild(tables[t]);
   }
 
   var chevronSvg = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="6 9 12 15 18 9"/></svg>';
