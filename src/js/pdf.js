@@ -273,7 +273,8 @@
       ".ct tbody tr:last-child td { border-bottom:2px solid #1a1a1a; }",
       ".ct tbody tr:nth-child(even) td { background:rgba(0,0,0,0.015); }",
 
-      /* Links */
+      /* Links — suppress PDF viewer annotation boxes */
+      "a { outline:none; box-shadow:none; -webkit-tap-highlight-color:transparent; }",
       ".ct a { color:#1a1a1a; text-decoration:underline; text-decoration-color:#aaa; text-underline-offset:2px; }",
 
       /* Code */
@@ -387,7 +388,7 @@
               '<span class="mid-brand__name">Bharat Choudhary</span>' +
               '<span class="mid-brand__role">Founder, BharatNotes &amp; Ujiyari</span>' +
             '</div>' +
-            '<a href="https://bharatnotes.com" class="mid-brand__link">bharatnotes.com &rarr;</a>';
+            '<span class="mid-brand__link">bharatnotes.com &rarr;</span>';
           h2.parentNode.insertBefore(card, h2);
         }
       });
@@ -428,13 +429,13 @@
             '<span><strong>License</strong> Free for personal use</span>' +
           '</div>' +
           '<div style="display:flex; gap:10px; margin-top:16px;">' +
-            '<a href="https://bharatnotes.com" class="tp-btn">BharatNotes.com &rarr;</a>' +
-            '<a href="https://ujiyari.com" class="tp-btn tp-btn--accent">Ujiyari.com &rarr;</a>' +
+            '<span class="tp-btn">BharatNotes.com &rarr;</span>' +
+            '<span class="tp-btn tp-btn--accent">Ujiyari.com &rarr;</span>' +
           '</div>' +
           '<div class="tp-ujiyari">' +
             '<div class="tp-ujiyari-icon">📰</div>' +
             '<div class="tp-ujiyari-text"><strong>Ujiyari.com</strong> &mdash; Daily current affairs, editorial analysis, monthly compilations &amp; Mains answer writing practice. Pair these static notes with live news coverage.</div>' +
-            '<a href="https://ujiyari.com" class="tp-ujiyari-btn">Visit &rarr;</a>' +
+            '<span class="tp-ujiyari-btn">Visit &rarr;</span>' +
           '</div>' +
         '</div>' +
       '</div>' +
@@ -455,9 +456,9 @@
             '<div class="bp-author-name">Bharat Choudhary</div>' +
             '<div class="bp-author-role">Founder &amp; Content Lead</div>' +
             '<div class="bp-author-links">' +
-              '<a class="bp-link" href="https://www.linkedin.com/in/epicbharat/">LinkedIn</a>' +
-              '<a class="bp-link" href="https://bharatnotes.com">BharatNotes</a>' +
-              '<a class="bp-link" href="https://ujiyari.com">Ujiyari</a>' +
+              '<span class="bp-link">LinkedIn</span>' +
+              '<span class="bp-link">bharatnotes.com</span>' +
+              '<span class="bp-link">ujiyari.com</span>' +
             '</div>' +
           '</div>' +
         '</div>' +
@@ -472,7 +473,7 @@
               '<span class="bp-feat">PYQ Analysis</span>' +
               '<span class="bp-feat">Exam Strategy</span>' +
             '</div>' +
-            '<a href="https://bharatnotes.com" class="bp-site-btn bp-site-btn--primary">bharatnotes.com &rarr;</a>' +
+            '<span class="bp-site-btn bp-site-btn--primary">bharatnotes.com &rarr;</span>' +
           '</div>' +
           '<div class="bp-site">' +
             '<div class="bp-site-label">Current Affairs</div>' +
@@ -484,7 +485,7 @@
               '<span class="bp-feat">Monthly Compilations</span>' +
               '<span class="bp-feat">Mains Practice</span>' +
             '</div>' +
-            '<a href="https://ujiyari.com" class="bp-site-btn bp-site-btn--accent">ujiyari.com &rarr;</a>' +
+            '<span class="bp-site-btn bp-site-btn--accent">ujiyari.com &rarr;</span>' +
           '</div>' +
         '</div>' +
         '<div class="bp-ad">' +
@@ -492,7 +493,7 @@
             '<div class="bp-ad-title">Advertise with Us</div>' +
             '<div class="bp-ad-desc">Reach thousands of serious UPSC aspirants. Place your coaching, book, or ed-tech brand right here &mdash; inside every PDF download.</div>' +
           '</div>' +
-          '<a class="bp-ad-cta" href="mailto:epicbharat@gmail.com">epicbharat@gmail.com</a>' +
+          '<span class="bp-ad-cta">epicbharat@gmail.com</span>' +
         '</div>' +
         '<div class="bp-footer">' +
           '<p class="bp-disc">All content sourced from official government publications &amp; standard UPSC references. Free for personal use.</p>' +
