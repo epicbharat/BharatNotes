@@ -6,18 +6,19 @@
 
   const PDF_API_URL = "https://rbse-pdf.vercel.app/api/generate";
 
-  // Convert author photo to base64 at load time so it embeds in the PDF
+  // Convert author photo to base64 at load time — resized to 90px JPEG to keep payload small
   var authorPhotoB64 = "";
   (function preloadPhoto() {
     var img = new Image();
     img.crossOrigin = "anonymous";
     img.onload = function () {
       try {
+        var size = 90;
         var c = document.createElement("canvas");
-        c.width = img.naturalWidth;
-        c.height = img.naturalHeight;
-        c.getContext("2d").drawImage(img, 0, 0);
-        authorPhotoB64 = c.toDataURL("image/png");
+        c.width = size;
+        c.height = size;
+        c.getContext("2d").drawImage(img, 0, 0, size, size);
+        authorPhotoB64 = c.toDataURL("image/jpeg", 0.7);
       } catch (e) { /* cross-origin or tainted canvas — skip */ }
     };
     img.src = "/img/bharat-choudhary.png";
@@ -373,7 +374,7 @@
     /* ──────────────
        HTML Assembly
        ────────────── */
-    var photoSrc = authorPhotoB64 || "https://bharatnotes.com/img/bharat-choudhary.png";
+    var photoSrc = authorPhotoB64 || "";
 
     /* Inject mid-content brand cards after every 3rd H2 (indexes 2,5,8…) */
     (function() {
