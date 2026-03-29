@@ -411,6 +411,11 @@
   white-space: nowrap;
 }
 
+/* ── NCERT Sidebar: correct sticky offset (nav = 56px, not 72px) ─ */
+.ncert-header ~ section .topic-sidebar {
+  top: 60px;
+}
+
 /* ── NCERT Sidebar Author Card ───────────────────────────────── */
 .ncert-author-card {
   display: flex;
@@ -445,16 +450,25 @@
   margin-top: 2px;
 }
 
+.ncert-author-card__links {
+  display: flex;
+  gap: var(--space-3);
+  margin-top: 4px;
+  flex-wrap: wrap;
+}
+
 .ncert-author-card__link {
   font-size: calc(var(--text-xs) - 1px);
   color: var(--ncert-blue);
   text-decoration: none;
-  display: inline-block;
-  margin-top: 3px;
 }
 
 .ncert-author-card__link:hover {
   text-decoration: underline;
+}
+
+.ncert-author-card__link--ujiyari {
+  color: var(--color-accent, #d4a017);
 }
 
 /* ── NCERT Hub Page ──────────────────────────────────────────── */
