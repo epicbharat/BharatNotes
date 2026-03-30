@@ -1,10 +1,9 @@
 ---
 layout: ncert-index.njk
-title: "Class 9 Social Science"
-description: "Class IX Social Science NCERT — UPSC-enriched notes covering History (France, Russia, India), Geography (physical features, drainage, climate), Civics (democracy, elections, federalism), and Economics (Palampur, poverty, food security)."
+title: "Class 9 NCERT"
+description: "Class IX NCERT — UPSC-enriched notes covering Social Science (History, Geography, Civics, Economics) and Science (Biology, Ecology). Foundation for Class 10–12 UPSC preparation."
 ncert_class: 9
-book_slug: class-9
-subject_area: Social Science
+subject_area: Social Science & Science
 gs_papers:
   - gs1
   - gs2

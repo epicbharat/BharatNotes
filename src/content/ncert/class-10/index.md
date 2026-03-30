@@ -1,10 +1,9 @@
 ---
 layout: ncert-index.njk
-title: "Class 10 Social Science"
-description: "Class X Social Science NCERT — UPSC-enriched notes covering History (nationalism in Europe/India, Industrial Revolution), Geography (resources, agriculture, minerals, manufacturing), Civics (federalism, democracy, political parties), and Economics (sectors, globalisation, money)."
+title: "Class 10 NCERT"
+description: "Class X NCERT — UPSC-enriched notes covering Social Science (History, Geography, Civics, Economics) and Science (Life Processes, Heredity, Environment). The most UPSC-relevant class after Class 12."
 ncert_class: 10
-book_slug:
-subject_area: Social Science
+subject_area: Social Science & Science
 gs_papers:
   - gs1
   - gs2
