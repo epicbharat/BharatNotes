@@ -18,7 +18,7 @@ UPSC CSE questions are frequently rooted in NCERT textbooks — not because the 
 
 **Note on rationalized chapters:** NCERT removed several chapters in 2022–23. This site covers **all chapters** — including removed ones — because UPSC can still draw from the full original syllabus. Removed chapters are marked accordingly.
 
-## Old NCERT (Class VI–XII)
+## NCERT (Class VI–XII)
 
 | Class | Books Available |
 |-------|----------------|
