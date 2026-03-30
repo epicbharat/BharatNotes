@@ -361,11 +361,13 @@
 <script src="/js/bookmarks.js" defer></script>
 <script src="/js/pdf.js" defer></script>
 <script>
-/* Auto-subscript numbers in chemical formulas (e.g. CO2 → CO₂) */
+/* Auto-subscript numbers in chemical formulas (e.g. CO2 → CO₂)
+   Negative lookbehind (?<![A-Za-z]) prevents matching GS1/GS2/GS3/GS4
+   since those are preceded by a letter (G before S). */
 document.addEventListener('DOMContentLoaded', function() {
   var el = document.querySelector('.article-body, .ncert-article');
   if (!el) return;
-  var re = /([A-Z][a-z]?)(\d+)(?!\.\d)/g;
+  var re = /(?<![A-Za-z])([A-Z][a-z]?)(\d+)(?!\.\d)/g;
   var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null, false);
   var nodes = [];
   while (walker.nextNode()) {
@@ -377,7 +379,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   nodes.forEach(function(n) {
     var s = document.createElement('span');
-    s.innerHTML = n.textContent.replace(/([A-Z][a-z]?)(\d+)(?!\.\d)/g, '$1<sub>$2</sub>');
+    s.innerHTML = n.textContent.replace(/(?<![A-Za-z])([A-Z][a-z]?)(\d+)(?!\.\d)/g, '$1<sub>$2</sub>');
     n.parentNode.replaceChild(s, n);
   });
 });

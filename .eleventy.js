@@ -3,7 +3,7 @@ module.exports = function (eleventyConfig) {
   const markdownIt = require("markdown-it");
   const markdownItContainer = require("markdown-it-container");
 
-  const md = markdownIt({ html: true, linkify: true, typographer: true });
+  const md = markdownIt({ html: true, linkify: true, typographer: false });
 
   // Map container names used in .md files → existing CSS classes + title labels
   const boxMap = {
