@@ -1,4 +1,36 @@
 module.exports = function (eleventyConfig) {
+  // ── Markdown library with custom container support ──────────────
+  const markdownIt = require("markdown-it");
+  const markdownItContainer = require("markdown-it-container");
+
+  const md = markdownIt({ html: true, linkify: true, typographer: true });
+
+  // Map container names used in .md files → existing CSS classes + title labels
+  const boxMap = {
+    "ncert-box--key-term":     { css: "ncert-box--explainer", title: "Key Term" },
+    "ncert-box--explainer":    { css: "ncert-box--explainer", title: "Explainer" },
+    "ncert-box--upsc-connect": { css: "ncert-box--upsc",      title: "UPSC Connect" },
+    "ncert-box--beyond-book":  { css: "ncert-box--bridge",    title: "Beyond the Book" },
+    "ncert-box--key-facts":    { css: "ncert-box--fact",      title: "Key Facts" },
+    "ncert-box--exam-tip":     { css: "ncert-box--fact",      title: "Exam Tip" },
+  };
+
+  md.use(markdownItContainer, "ncert-box", {
+    validate(params) {
+      return params.trim().startsWith("ncert-box--");
+    },
+    render(tokens, idx) {
+      if (tokens[idx].nesting === 1) {
+        const name = tokens[idx].info.trim();
+        const cfg = boxMap[name] || { css: "ncert-box--explainer", title: "Note" };
+        return `<div class="ncert-box ${cfg.css}">\n<div class="ncert-box__title">${cfg.title}</div>\n<div class="ncert-box__body">\n`;
+      }
+      return `</div></div>\n`;
+    }
+  });
+
+  eleventyConfig.setLibrary("md", md);
+
   // ── Markdown inline filter (renders **bold**, *italic*, links) ──
   const { marked } = require("marked");
   eleventyConfig.addFilter("md", function(value) {
