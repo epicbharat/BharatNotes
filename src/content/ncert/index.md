@@ -1,8 +1,8 @@
 ---
 layout: ncert-index.njk
-title: "NCERT Notes for UPSC — Class XI & XII"
-description: "Chapter-wise NCERT notes enriched for UPSC — explainer boxes, bridging-gap content, and direct GS connections. Class XI and XII across History, Geography, Polity, Economics and Sociology."
-date: 2026-03-29
+title: "NCERT Notes for UPSC"
+description: "Chapter-wise NCERT notes (Class IX–XII) enriched for UPSC — explainer boxes, bridging-gap content, and direct GS connections across History, Geography, Polity, Economics, Sociology, Science and Art & Culture."
+date: 2026-03-30
 tags:
   - ncert
 ---
@@ -16,9 +16,11 @@ UPSC CSE questions are frequently rooted in NCERT textbooks — not because the 
 - **🎯 UPSC Connect** — direct linkages to GS syllabus topics, previous year questions, and current affairs angles
 - **📌 Key Facts** — high-priority numbers, names, and dates for rapid revision
 
-## Phase 1: Class XI & XII
+## All Classes
 
 | Class | Books Available |
 |-------|----------------|
-| [Class XI](/ncert/class-11/) | History · Geography · Political Science · Economics · Sociology |
-| [Class XII](/ncert/class-12/) | History · Geography · Political Science · Economics · Sociology |
+| [Class IX](/ncert/class-9/) | History · Geography · Civics · Economics · Science |
+| [Class X](/ncert/class-10/) | History · Geography · Civics · Economics · Science |
+| [Class XI](/ncert/class-11/) | History · Geography · Political Science · Political Theory · Economics · Sociology · Art & Culture |
+| [Class XII](/ncert/class-12/) | History · Geography · Political Science · Economics · Sociology · Social Change |

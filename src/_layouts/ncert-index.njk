@@ -149,7 +149,7 @@ layout: base.njk
       <a href="/ncert/">NCERT</a><span class="breadcrumb__sep">/</span>
       Class {{ ncert_class }}
     </nav>
-    <div class="ncert-class-badge">NCERT · Phase 1</div>
+    <div class="ncert-class-badge">NCERT · Class {{ ncert_class }}</div>
     <h1>{{ title }}</h1>
     {% if description %}<p class="ncert-header__subtitle">{{ description }}</p>{% endif %}
   </div>
@@ -183,9 +183,11 @@ layout: base.njk
 {# Hub page — show all classes #}
 {%- else -%}
 
+{%- set allClasses = [9, 10, 11, 12] -%}
+
 <header class="ncert-hub-header">
   <div class="container">
-    <div class="ncert-phase-badge">Phase 1 — Class XI & XII</div>
+    <div class="ncert-phase-badge">Class IX · X · XI · XII</div>
     <h1>{{ title }}</h1>
     <p>{{ description }}</p>
   </div>
@@ -193,9 +195,29 @@ layout: base.njk
 
 <section style="padding:var(--space-10) 0;">
   <div class="container">
-    {% if content | safe %}
+    {% if content | trim %}
     <article class="article-body" style="margin-bottom:var(--space-8);">{{ content | safe }}</article>
     {% endif %}
+
+    {# Dynamic class cards #}
+    <div class="ncert-book-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr));margin-top:var(--space-6);">
+      {%- for cls in allClasses -%}
+      {%- set classBooks = [] -%}
+      {%- for item in collections.all -%}
+        {%- if item.data.ncert_class == cls and item.data.layout == "ncert-index.njk" and item.data.book_slug -%}
+          {%- set classBooks = (classBooks.push(item), classBooks) -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if classBooks.length -%}
+      <a href="/ncert/class-{{ cls }}/" class="ncert-book-card" style="text-decoration:none;">
+        <div class="ncert-book-card__subject" style="font-size:var(--text-xs);text-transform:uppercase;letter-spacing:0.06em;color:var(--ncert-blue);">NCERT</div>
+        <div class="ncert-book-card__title" style="font-size:var(--text-xl);font-weight:700;margin:var(--space-2) 0;">Class {{ cls }}</div>
+        <div style="font-size:var(--text-xs);color:var(--color-text-muted);margin-bottom:var(--space-3);">{{ classBooks.length }} book{% if classBooks.length != 1 %}s{% endif %}</div>
+        <div class="ncert-book-card__chapters">Browse books →</div>
+      </a>
+      {%- endif -%}
+      {%- endfor -%}
+    </div>
   </div>
 </section>
 
