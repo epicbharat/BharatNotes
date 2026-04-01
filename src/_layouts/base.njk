@@ -50,14 +50,25 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "{% if layout == 'topic.njk' %}Article{% else %}WebSite{% endif %}",
+    "@type": {% if layout == 'topic.njk' or layout == 'ncert-chapter.njk' %}["Article","LearningResource"]{% else %}"WebSite"{% endif %},
     "name": "{{ title or site.shortName }}",
     "url": "{{ pageUrl }}",
-    {% if layout == 'topic.njk' %}"headline": "{{ title }}",
+    {% if layout == 'topic.njk' or layout == 'ncert-chapter.njk' %}
+    "headline": "{{ title }}",
     "datePublished": "{{ date | isoDate }}",
+    "dateModified": "{{ date | isoDate }}",
+    "inLanguage": "en-IN",
     "author": {"@type": "Person", "name": "Bharat Choudhary", "url": "https://www.linkedin.com/in/epicbharat/"},
     "publisher": {"@type": "Organization", "name": "{{ site.shortName }}", "url": "{{ site.url }}", "logo": {"@type": "ImageObject", "url": "{{ site.url }}/images/logos/bharatnotes-logo.png"}},
-    {% endif %}"description": "{{ pageDesc | safe }}"
+    "educationalLevel": "Higher Education",
+    "educationalUse": "Self Study",
+    "learningResourceType": "Study Guide",
+    "audience": {"@type": "EducationalAudience", "educationalRole": "student", "audienceType": "UPSC Civil Services aspirants"},
+    "about": {"@type": "Thing", "name": "UPSC Civil Services Examination"},
+    "isAccessibleForFree": true,
+    "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["h1","h2",".page-header__subtitle"]},
+    {% endif %}
+    "description": "{{ pageDesc | safe }}"
   }
   </script>
   <script type="application/ld+json">
@@ -69,9 +80,26 @@
     "logo": "{{ site.url }}/images/logos/bharatnotes-logo.png",
     "founder": {"@type": "Person", "name": "Bharat Choudhary", "url": "https://www.linkedin.com/in/epicbharat/"},
     "description": "{{ site.description }}",
-    "sameAs": ["https://ujiyari.com", "https://www.linkedin.com/in/epicbharat/"]
+    "sameAs": ["https://ujiyari.com", "https://www.linkedin.com/in/epicbharat/"],
+    "knowsAbout": ["UPSC Civil Services Examination","IAS Preparation","GS Paper I","GS Paper II","GS Paper III","GS Paper IV","Indian History","Indian Polity","Indian Economy","Indian Geography","Environment","Ethics"]
   }
   </script>
+  {% if page.url == '/' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "BharatNotes",
+    "url": "{{ site.url }}",
+    "description": "{{ site.description }}",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {"@type": "EntryPoint", "urlTemplate": "{{ site.url }}/?search={search_term_string}"},
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  {% endif %}
   {% if layout == 'topic.njk' %}
   {%- set _subjectName = subject -%}
   {%- for s in subjects -%}{%- if s.slug == subject -%}{%- set _subjectName = s.name -%}{%- endif -%}{%- endfor -%}

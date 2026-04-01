@@ -1,0 +1,70 @@
+# BharatNotes — Free UPSC Civil Services Notes
+
+> BharatNotes (bharatnotes.com) is a free, comprehensive, syllabus-aligned study resource for UPSC Civil Services (IAS/CSE) aspirants in India. It covers GS Paper I, II, III, and IV, Essay, and Interview preparation. All factual content is verified against official government sources and standard UPSC textbooks. No login, no paywall.
+
+## About
+
+BharatNotes is maintained by Bharat Choudhary, a UPSC aspirant and educator. Content is written to UPSC-expert standard — verified facts, exam strategy, PYQ analysis, and current affairs integration. Companion site: Ujiyari.com (current affairs).
+
+## Key Sections
+
+- [UPSC Syllabus & Study Plan](https://bharatnotes.com/start-here/): Where to begin — GS syllabus, study plan, and how to use this site
+- [GS Paper I — History, Geography, Society](https://bharatnotes.com/subjects/): Ancient, Medieval, Modern India; World History; Physical & Indian Geography; Indian Society
+- [GS Paper II — Governance, Polity, IR](https://bharatnotes.com/subjects/): Indian Constitution, Polity, Governance, Social Justice, International Relations
+- [GS Paper III — Economy, Environment, Security](https://bharatnotes.com/subjects/): Indian Economy, Agriculture, Industry, Environment, Disaster Management, Security
+- [GS Paper IV — Ethics](https://bharatnotes.com/subjects/): Ethics, Integrity, Aptitude — case studies and theory
+- [NCERT Notes Hub](https://bharatnotes.com/ncert/): NCERT-based notes for Class VI–XII (History, Geography, Civics, Science) — fully enriched for UPSC
+- [Prelims Practice](https://bharatnotes.com/prelims/): MCQ practice, previous year questions
+- [Mains Practice](https://bharatnotes.com/mains/): Answer writing, mains question bank
+- [Key Terms Glossary](https://bharatnotes.com/key-term-articles/): 700+ UPSC terms defined and explained
+
+## NCERT Notes (Class VI–XII)
+
+### Class VI
+- [Class VI NCERT Hub](https://bharatnotes.com/ncert/class-6/): All books
+- [Our Pasts – Part 1 (History)](https://bharatnotes.com/ncert/class-6/our-pasts-1/): Ancient India — Harappan Civilisation, Vedic period, Mahajanapadas, Mauryas, Guptas
+- [Earth Our Habitat (Geography)](https://bharatnotes.com/ncert/class-6/earth-our-habitat/): Solar system, landforms, India's geography, climate, biodiversity
+- [Social & Political Life – 1 (Civics)](https://bharatnotes.com/ncert/class-6/social-political-life-1/): Constitution, diversity, government
+- [Science](https://bharatnotes.com/ncert/class-6/science/): Food, nutrition, fibres, ecology, water, air, waste management
+
+### Class VII
+- [Class VII NCERT Hub](https://bharatnotes.com/ncert/class-7/): All books
+- [Our Pasts – Part 2 (History)](https://bharatnotes.com/ncert/class-7/our-pasts-2/): Medieval India — Delhi Sultanate, Mughals, regional kingdoms
+- [Our Environment (Geography)](https://bharatnotes.com/ncert/class-7/our-environment/): Environment, climate zones, human-environment interaction
+- [Social & Political Life – 2 (Civics)](https://bharatnotes.com/ncert/class-7/social-political-life-2/): Democracy, equality, state government
+- [Science](https://bharatnotes.com/ncert/class-7/science/): Nutrition, respiration, weather, soil, forests
+
+### Class VIII
+- [Class VIII NCERT Hub](https://bharatnotes.com/ncert/class-8/): All books
+- [Our Pasts – Part 3 (History)](https://bharatnotes.com/ncert/class-8/our-pasts-3/): Modern India — colonialism, 1857, nationalism, social reform
+- [Resource and Development (Geography)](https://bharatnotes.com/ncert/class-8/resource-and-development/): Natural resources, agriculture, industries, human resources
+- [Social & Political Life – 3 (Civics)](https://bharatnotes.com/ncert/class-8/social-political-life-3/): Constitution, Parliament, judiciary, social justice
+- [Science](https://bharatnotes.com/ncert/class-8/science/): Materials, living world, natural phenomena, natural resources
+
+### Class IX
+- [Class IX NCERT Hub](https://bharatnotes.com/ncert/class-9/): All books
+
+### Class X
+- [Class X NCERT Hub](https://bharatnotes.com/ncert/class-10/): All books
+
+### Class XI
+- [Class XI NCERT Hub](https://bharatnotes.com/ncert/class-11/): All books
+- [Themes in World History](https://bharatnotes.com/ncert/class-11/themes-in-world-history/): Ancient civilisations, empires, nomadic empires, industrialisation
+- [Themes in Indian History Part 1](https://bharatnotes.com/ncert/class-11/themes-in-indian-history-part-1/): Harappan, Vedic, Mauryan, Gupta, early medieval India
+- [Political Theory](https://bharatnotes.com/ncert/class-11/political-theory/): Freedom, equality, justice, rights, secularism, nationalism, citizenship
+- [Introduction to Indian Art](https://bharatnotes.com/ncert/class-11/introduction-to-indian-art/): Architecture, sculpture, painting, dance, music, handicrafts
+- [Understanding Society](https://bharatnotes.com/ncert/class-11/understanding-society/): Sociology — social structure, culture, gender, media
+
+### Class XII
+- [Class XII NCERT Hub](https://bharatnotes.com/ncert/class-12/): All books
+
+### New NCERT (2024+)
+- [New NCERT Hub](https://bharatnotes.com/ncert/new-ncert/): New books under NEP 2020 — Exploring Society (Class VI), Curiosity (Class VI Science)
+
+## Content Standards
+
+- All factual claims verified against official government sources (PIB, legislative.gov.in, NCERT, MoEFCC, DAHD, NTCA, FSI, IMD, MNRE)
+- Data current to 2025–2026 (latest available reports)
+- Includes rationalized/removed NCERT chapters (post-2022) with updated data
+- Covers all 4 GS Papers + Essay + Interview
+- Free — no login, no subscription, no paywall
