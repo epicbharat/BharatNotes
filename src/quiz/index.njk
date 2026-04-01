@@ -1,229 +1,136 @@
 ---
 layout: base.njk
-title: "UPSC Practice Quiz — Topic-wise PYQ Quiz Hub"
-description: "Practice UPSC Prelims PYQs topic-wise. Track your scores, find weak areas, and revise — subject-wise quiz dashboard for GS1, GS2, GS3, GS4."
+title: "UPSC PYQ Quiz Hub — Practice by Subject"
+description: "Practice UPSC Prelims Previous Year Questions by subject. Interactive MCQs with score tracking, explanations, and progress — no login needed."
 ---
 
 <style>
-/* ── Quiz Hub ─────────────────────────────────── */
+/* ══════════════════════════════════════════
+   Quiz Hub styles
+   ══════════════════════════════════════════ */
 .qh-hero {
   background: linear-gradient(135deg, var(--color-brand-dark) 0%, #1a5c45 100%);
   color: #fff;
   padding: var(--space-10) 0 var(--space-8);
 }
 .qh-hero__eyebrow {
-  font-size: var(--text-xs);
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--color-accent-light, #f5c842);
-  margin-bottom: var(--space-2);
+  font-size: var(--text-xs); font-weight: 700;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: #fde68a; margin-bottom: var(--space-2);
 }
 .qh-hero__title {
   font-family: var(--font-heading);
-  font-size: var(--text-3xl);
-  font-weight: 800;
-  margin-bottom: var(--space-3);
+  font-size: var(--text-3xl); font-weight: 800;
+  margin: 0 0 var(--space-2);
 }
 .qh-hero__sub {
-  color: rgba(255,255,255,0.72);
-  font-size: var(--text-sm);
-  max-width: 520px;
-  margin-bottom: var(--space-6);
+  color: rgba(255,255,255,0.65); font-size: var(--text-sm);
+  max-width: 500px; margin-bottom: var(--space-6);
 }
-.qh-stats {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-5);
+.qh-totals {
+  display: flex; flex-wrap: wrap; gap: var(--space-6);
 }
-.qh-stat {
-  text-align: center;
+.qh-total { text-align: center; }
+.qh-total__num {
+  display: block; font-size: var(--text-xl); font-weight: 800;
+  color: #fde68a; line-height: 1.1;
 }
-.qh-stat__num {
-  display: block;
-  font-size: var(--text-xl);
-  font-weight: 800;
-  color: var(--color-accent-light, #f5c842);
-}
-.qh-stat__label {
-  font-size: var(--text-xs);
-  color: rgba(255,255,255,0.55);
-}
+.qh-total__lbl { font-size: var(--text-xs); color: rgba(255,255,255,0.5); }
 
-/* ── Filters ── */
-.qh-filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2);
-  padding: var(--space-5) 0;
-  border-bottom: 1px solid var(--color-border);
-  margin-bottom: var(--space-6);
+/* Summary bar (shown after any questions answered) */
+.qh-summary {
+  background: var(--color-surface); border-bottom: 1px solid var(--color-border);
+  padding: var(--space-3) 0; display: none;
 }
-.qh-filter {
-  padding: 6px 16px;
-  border-radius: 999px;
-  font-size: var(--text-xs);
-  font-weight: 600;
-  border: 1.5px solid var(--color-border);
-  background: transparent;
-  color: var(--color-text-muted);
-  cursor: pointer;
-  transition: all 0.15s;
-  font-family: var(--font-body);
+.qh-summary__inner {
+  display: flex; flex-wrap: wrap; gap: var(--space-5);
+  align-items: center; font-size: var(--text-sm);
 }
-.qh-filter.active, .qh-filter:hover {
-  border-color: var(--color-brand);
-  color: var(--color-brand);
-  background: rgba(15,76,58,0.06);
-}
-.qh-filter--paper.active {
-  border-color: var(--color-accent-hover);
-  color: var(--color-accent-hover);
-  background: rgba(212,160,23,0.08);
-}
-.qh-filter-sep { flex-basis: 100%; height: 0; }
+.qh-summary__item { display: flex; align-items: center; gap: var(--space-2); }
+.qh-summary__dot { width: 10px; height: 10px; border-radius: 50%; }
+.qh-summary__num { font-weight: 800; }
 
-/* ── Subject sections ── */
-.qh-subject {
-  margin-bottom: var(--space-10);
-}
-.qh-subject__head {
-  display: flex;
-  align-items: center;
-  gap: var(--space-3);
-  margin-bottom: var(--space-4);
-  padding-bottom: var(--space-3);
-  border-bottom: 2px solid var(--qh-color, var(--color-brand));
-}
-.qh-subject__icon { font-size: 1.4rem; }
-.qh-subject__name {
-  font-family: var(--font-heading);
-  font-size: var(--text-lg);
-  font-weight: 700;
-  color: var(--qh-color, var(--color-brand));
-  flex: 1;
-}
-.qh-subject__meta {
-  font-size: var(--text-xs);
-  color: var(--color-text-muted);
-}
-
-/* ── Topic cards grid ── */
+/* Subject grid */
 .qh-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-5);
+  padding: var(--space-8) 0 var(--space-14);
 }
 
-/* ── Topic card ── */
+/* Subject card */
 .qh-card {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
-  border-top: 3px solid var(--qh-color, var(--color-brand));
-  border-radius: var(--radius-lg);
-  padding: var(--space-4) var(--space-5);
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-2);
-  transition: box-shadow 0.15s, transform 0.15s;
+  border-top: 4px solid var(--qhc, var(--color-brand));
+  border-radius: 14px;
+  padding: var(--space-5);
+  text-decoration: none; color: inherit;
+  display: flex; flex-direction: column; gap: var(--space-3);
+  transition: box-shadow 0.18s, transform 0.15s;
 }
 .qh-card:hover {
-  box-shadow: var(--shadow-md);
-  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transform: translateY(-3px);
+  text-decoration: none;
 }
-.qh-card__papers {
-  display: flex;
-  gap: 4px;
-  flex-wrap: wrap;
+.qh-card__head {
+  display: flex; align-items: center; gap: var(--space-3);
 }
-.qh-card__title {
-  font-size: var(--text-sm);
-  font-weight: 700;
-  color: var(--color-text);
-  line-height: 1.35;
-  flex: 1;
+.qh-card__icon { font-size: 1.6rem; }
+.qh-card__name {
+  font-family: var(--font-heading); font-size: var(--text-lg);
+  font-weight: 700; color: var(--qhc, var(--color-brand));
 }
+.qh-card__desc {
+  font-size: var(--text-xs); color: var(--color-text-muted);
+  line-height: 1.5; flex: 1;
+}
+.qh-card__meta {
+  display: flex; justify-content: space-between;
+  font-size: var(--text-xs); color: var(--color-text-muted);
+}
+.qh-card__count { font-weight: 700; color: var(--color-text); }
 
-/* Score bar (populated by JS from localStorage) */
-.qh-card__score {
-  font-size: var(--text-xs);
-  color: var(--color-text-muted);
-  display: flex;
-  align-items: center;
-  gap: var(--space-2);
-}
+/* Score bar */
 .qh-card__bar {
-  flex: 1;
-  height: 5px;
-  background: var(--color-border);
-  border-radius: 999px;
-  overflow: hidden;
+  height: 5px; background: var(--color-border);
+  border-radius: 999px; overflow: hidden; display: flex;
 }
-.qh-card__bar-fill {
+.qh-card__fill {
   height: 100%;
-  background: var(--color-success, #16a34a);
-  border-radius: 999px;
-  width: 0;
-  transition: width 0.4s ease;
+  transition: width 0.5s ease;
 }
-.qh-card__bar-fill--wrong { background: var(--color-error, #dc2626); }
+.qh-card__fill--correct { background: #22c55e; }
+.qh-card__fill--wrong   { background: #ef4444; }
 
 .qh-card__status {
-  font-size: 0.65rem;
-  font-weight: 700;
-  padding: 2px 8px;
-  border-radius: 999px;
-  background: var(--color-border);
-  color: var(--color-text-muted);
+  font-size: 0.65rem; font-weight: 700;
+  padding: 2px 10px; border-radius: 999px;
   align-self: flex-start;
+  background: var(--color-border); color: var(--color-text-muted);
 }
-.qh-card__status--done { background: rgba(22,163,74,0.12); color: #16a34a; }
-.qh-card__status--partial { background: rgba(212,160,23,0.12); color: #b45309; }
-.qh-card__status--weak { background: rgba(220,38,38,0.1); color: #dc2626; }
+.qh-card__status--done    { background: rgba(22,163,74,0.12); color: #16a34a; }
+.qh-card__status--partial { background: rgba(212,160,23,0.1); color: #b45309; }
+.qh-card__status--weak    { background: rgba(220,38,38,0.1); color: #dc2626; }
 
-.qh-card__action {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-2);
-  padding: 8px var(--space-4);
-  border-radius: var(--radius-md);
-  background: var(--qh-color, var(--color-brand));
-  color: #fff;
-  font-size: var(--text-xs);
-  font-weight: 700;
-  text-decoration: none;
-  margin-top: auto;
-  transition: opacity 0.15s;
+.qh-card__cta {
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: var(--space-2); padding: 9px var(--space-4);
+  background: var(--qhc, var(--color-brand));
+  color: #fff; border-radius: var(--radius-md);
+  font-size: var(--text-xs); font-weight: 700;
+  margin-top: auto; transition: opacity 0.15s;
 }
-.qh-card__action:hover { opacity: 0.88; }
-.qh-card__action--retry {
-  background: transparent;
-  color: var(--qh-color, var(--color-brand));
-  border: 1.5px solid var(--qh-color, var(--color-brand));
-}
+.qh-card:hover .qh-card__cta { opacity: 0.88; }
 
-/* ── Summary bar ── */
-.qh-summary {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-4);
-  padding: var(--space-4) var(--space-5);
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  margin-bottom: var(--space-8);
-}
-.qh-summary__item { text-align: center; }
-.qh-summary__num { font-size: var(--text-lg); font-weight: 800; color: var(--color-brand); display: block; }
-.qh-summary__label { font-size: var(--text-xs); color: var(--color-text-muted); }
-.qh-summary__num--correct { color: var(--color-success, #16a34a); }
-.qh-summary__num--weak { color: var(--color-error, #dc2626); }
+/* Coming soon overlay */
+.qh-card--empty { opacity: 0.6; pointer-events: none; }
+.qh-card--empty .qh-card__cta { background: #94a3b8; }
 
 @media (max-width: 640px) {
   .qh-hero__title { font-size: var(--text-2xl); }
   .qh-grid { grid-template-columns: 1fr; }
-  .qh-summary { justify-content: space-around; }
 }
 </style>
 
@@ -231,217 +138,152 @@ description: "Practice UPSC Prelims PYQs topic-wise. Track your scores, find wea
 <div class="qh-hero">
   <div class="container">
     <p class="qh-hero__eyebrow">Practice Dashboard</p>
-    <h1 class="qh-hero__title">UPSC Quiz Hub 🎯</h1>
-    <p class="qh-hero__sub">Topic-wise interactive practice. Answer PYQs, track scores, find weak areas — all saved locally, no login needed.</p>
-    <div class="qh-stats">
-      <div class="qh-stat">
-        <span class="qh-stat__num" id="qh-total-topics">{{ collections.allTopics | length }}</span>
-        <span class="qh-stat__label">Topics</span>
+    <h1 class="qh-hero__title">🎯 UPSC PYQ Quiz Hub</h1>
+    <p class="qh-hero__sub">Subject-wise Previous Year Questions — interactive MCQs with instant feedback, explanations, and progress tracking.</p>
+    <div class="qh-totals">
+      <div class="qh-total">
+        <span class="qh-total__num" id="qh-total-q">0</span>
+        <span class="qh-total__lbl">Questions</span>
       </div>
-      <div class="qh-stat">
-        <span class="qh-stat__num">12</span>
-        <span class="qh-stat__label">Subjects</span>
+      <div class="qh-total">
+        <span class="qh-total__num">12</span>
+        <span class="qh-total__lbl">Subjects</span>
       </div>
-      <div class="qh-stat">
-        <span class="qh-stat__num" id="qh-attempted">0</span>
-        <span class="qh-stat__label">Attempted</span>
+      <div class="qh-total">
+        <span class="qh-total__num" id="qh-attempted">0</span>
+        <span class="qh-total__lbl">Attempted</span>
       </div>
-      <div class="qh-stat">
-        <span class="qh-stat__num" id="qh-avg-score">—</span>
-        <span class="qh-stat__label">Avg Score</span>
+      <div class="qh-total">
+        <span class="qh-total__num" id="qh-avg">—</span>
+        <span class="qh-total__lbl">Avg Score</span>
       </div>
     </div>
   </div>
 </div>
 
-<section style="padding: var(--space-8) 0 var(--space-12);">
+<!-- Summary (shown via JS if any answers exist) -->
+<div class="qh-summary" id="qh-summary">
   <div class="container">
-
-    <!-- Overall summary (populated by JS) -->
-    <div class="qh-summary" id="qh-summary" style="display:none;">
-      <div class="qh-summary__item"><span class="qh-summary__num" id="qs-attempted">0</span><span class="qh-summary__label">Topics Attempted</span></div>
-      <div class="qh-summary__item"><span class="qh-summary__num qh-summary__num--correct" id="qs-strong">0</span><span class="qh-summary__label">Strong (≥70%)</span></div>
-      <div class="qh-summary__item"><span class="qh-summary__num qh-summary__num--weak" id="qs-weak">0</span><span class="qh-summary__label">Needs Revision (&lt;50%)</span></div>
-      <div class="qh-summary__item"><span class="qh-summary__num" id="qs-unattempted">0</span><span class="qh-summary__label">Not Started</span></div>
-    </div>
-
-    <!-- Filter bar -->
-    <div class="qh-filters" id="qh-filters">
-      <button class="qh-filter active" data-filter="all">All Subjects</button>
-      <button class="qh-filter" data-filter="unattempted">Not Started</button>
-      <button class="qh-filter" data-filter="weak">Needs Revision</button>
-      <button class="qh-filter" data-filter="strong">Strong Topics</button>
-      <span class="qh-filter-sep"></span>
-      <button class="qh-filter qh-filter--paper" data-paper="gs1">GS1</button>
-      <button class="qh-filter qh-filter--paper" data-paper="gs2">GS2</button>
-      <button class="qh-filter qh-filter--paper" data-paper="gs3">GS3</button>
-      <button class="qh-filter qh-filter--paper" data-paper="gs4">GS4</button>
-    </div>
-
-    <!-- Subject sections, each with topic cards -->
-    {%- for subj in subjects -%}
-    {%- set subjectTopics = collections.allTopics | selectattr("data.subject", "equalto", subj.slug) | sort(false, false, "data.chapter") -%}
-    {%- if subjectTopics.length > 0 -%}
-    <div class="qh-subject" data-subject="{{ subj.slug }}" style="--qh-color:{{ subj.color }};">
-      <div class="qh-subject__head">
-        <span class="qh-subject__icon">{{ subj.icon }}</span>
-        <span class="qh-subject__name">{{ subj.name }}</span>
-        <span class="qh-subject__meta">{{ subjectTopics.length }} topics</span>
+    <div class="qh-summary__inner">
+      <div class="qh-summary__item">
+        <span class="qh-summary__dot" style="background:#22c55e;"></span>
+        <span class="qh-summary__num" id="qhs-correct">0</span> correct
       </div>
-      <div class="qh-grid">
-        {%- for topic in subjectTopics -%}
-        <div class="qh-card"
-             data-url="{{ topic.url }}"
-             data-subject="{{ subj.slug }}"
-             data-papers="{{ topic.data.gs_papers | join(',') }}">
-          <div class="qh-card__papers">
-            {%- for paper in topic.data.gs_papers -%}
-            <span class="gs-badge gs-badge--{{ paper }}">{{ paper | upper }}</span>
-            {%- endfor -%}
-          </div>
-          <div class="qh-card__title">{{ topic.data.title }}</div>
-          <!-- Score bar: populated by JS -->
-          <div class="qh-card__score" id="score-{{ loop.index }}-{{ subj.slug }}">
-            <span class="qh-card__status">Not started</span>
-          </div>
-          <a href="{{ topic.url }}?mode=quiz" class="qh-card__action">
-            🎯 Start Quiz
-          </a>
+      <div class="qh-summary__item">
+        <span class="qh-summary__dot" style="background:#ef4444;"></span>
+        <span class="qh-summary__num" id="qhs-wrong">0</span> incorrect
+      </div>
+      <div class="qh-summary__item">
+        <span class="qh-summary__dot" style="background:#e2e8f0;"></span>
+        <span class="qh-summary__num" id="qhs-remain">0</span> remaining
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Subject grid -->
+<section style="background:var(--color-bg);">
+  <div class="container">
+    <div class="qh-grid" id="qh-grid">
+      {%- for subj in subjects -%}
+      {%- set subjectPyq = pyq[subj.slug] or [] -%}
+      <a href="/quiz/{{ subj.slug }}/"
+         class="qh-card{% if subjectPyq.length == 0 %} qh-card--empty{% endif %}"
+         style="--qhc:{{ subj.color }};"
+         data-subject="{{ subj.slug }}"
+         data-total="{{ subjectPyq.length }}">
+        <div class="qh-card__head">
+          <span class="qh-card__icon">{{ subj.icon }}</span>
+          <span class="qh-card__name">{{ subj.name }}</span>
         </div>
-        {%- endfor -%}
-      </div>
+        <p class="qh-card__desc">{{ subj.description }}</p>
+        <div class="qh-card__meta">
+          <span class="qh-card__count">{{ subjectPyq.length }} question{{ 's' if subjectPyq.length != 1 }}</span>
+          <span class="qh-card__status" id="status-{{ subj.slug }}">Not started</span>
+        </div>
+        <div class="qh-card__bar">
+          <div class="qh-card__fill qh-card__fill--correct" id="bar-correct-{{ subj.slug }}" style="width:0%"></div>
+          <div class="qh-card__fill qh-card__fill--wrong"   id="bar-wrong-{{ subj.slug }}"   style="width:0%"></div>
+        </div>
+        <span class="qh-card__cta">
+          {%- if subjectPyq.length == 0 -%}📋 Coming Soon{%- else -%}🎯 Start Quiz{%- endif -%}
+        </span>
+      </a>
+      {%- endfor -%}
     </div>
-    {%- endif -%}
-    {%- endfor -%}
-
   </div>
 </section>
 
 <script>
-(function() {
-  var SCORES_KEY = 'bharatnotes_pyq_scores';
-
-  function loadScores() {
-    try { return JSON.parse(localStorage.getItem(SCORES_KEY)) || {}; } catch(e) { return {}; }
+(function () {
+  /* Hydrate cards with localStorage scores */
+  var STORE_KEY = 'bn_quiz_v2';
+  function loadStore() {
+    try { return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; }
+    catch (e) { return {}; }
   }
 
-  function getStatus(score) {
-    if (!score || (!score.prelims.total && !score.mains.attempted.length)) return 'unattempted';
-    if (!score.prelims.total) return 'mains-only';
-    var pct = score.prelims.total ? (score.prelims.correct / score.prelims.total) : 0;
-    if (pct >= 0.7) return 'strong';
-    if (pct < 0.5) return 'weak';
-    return 'partial';
-  }
+  /* Subject question counts from page data (set as data- attributes) */
+  var store = loadStore();
+  var totalQ = 0, totalAttempted = 0, totalCorrect = 0, totalWrong = 0;
 
-  function hydrate() {
-    var scores = loadScores();
-    var cards = document.querySelectorAll('.qh-card');
-    var totalAttempted = 0, strong = 0, weak = 0;
-    var totalCorrect = 0, totalAnswered = 0;
+  document.querySelectorAll('.qh-card[data-subject]').forEach(function (card) {
+    var subject = card.getAttribute('data-subject');
+    var total   = parseInt(card.getAttribute('data-total')) || 0;
+    totalQ += total;
+    if (!total) return;
 
-    cards.forEach(function(card) {
-      var url = card.getAttribute('data-url');
-      var score = scores[url];
-      var scoreEl = card.querySelector('.qh-card__score');
-      var actionEl = card.querySelector('.qh-card__action');
-      var status = getStatus(score);
+    var saved   = store[subject] || {};
+    var correct = 0, wrong = 0, answered = 0;
 
-      if (status === 'unattempted') return;
-      totalAttempted++;
+    /* We don't have the correct answers here — we only know what was saved.
+       To calculate correct/wrong we'd need the full data. Instead we track
+       answered count and link to the subject page for detail. */
+    answered = Object.keys(saved).length;
 
-      var s = score.prelims;
-      var pct = s.total ? Math.round(s.correct / s.total * 100) : 0;
-      totalCorrect += s.correct;
-      totalAnswered += s.total;
-      if (status === 'strong') strong++;
-      if (status === 'weak') weak++;
+    /* Estimate: we store raw answer idx but not correct flag.
+       Just show attempted count in hub — correct % shown on subject page. */
+    totalAttempted += answered;
 
-      // Build score bar
-      var statusLabel = status === 'strong' ? 'Strong' : status === 'weak' ? 'Needs revision' : 'In progress';
-      var statusClass = 'qh-card__status--' + (status === 'strong' ? 'done' : status === 'weak' ? 'weak' : 'partial');
-      var correctPct = s.total ? (s.correct / s.total * 100) : 0;
-      var wrongPct = s.total ? ((s.total - s.correct) / s.total * 100) : 0;
+    var pAttempted = total ? (answered / total * 100) : 0;
 
-      scoreEl.innerHTML =
-        '<span class="qh-card__status ' + statusClass + '">' + statusLabel + '</span>' +
-        '<div class="qh-card__bar">' +
-          '<div class="qh-card__bar-fill" style="width:' + correctPct + '%"></div>' +
-        '</div>' +
-        '<span style="font-size:0.65rem;color:var(--color-text-muted);white-space:nowrap;">' + s.correct + '/' + s.total + '</span>';
+    /* Score bar (attempted width only — correct/wrong split computed on subject page) */
+    var fillEl = document.getElementById('bar-correct-' + subject);
+    if (fillEl) fillEl.style.width = pAttempted + '%';
 
-      // Change button to "Retry"
-      if (actionEl) {
-        actionEl.textContent = pct >= 70 ? '✅ ' + pct + '% · Review' : '↩ ' + pct + '% · Retry';
-        actionEl.className = 'qh-card__action' + (pct >= 70 ? '' : ' qh-card__action--retry');
-      }
-
-      card.setAttribute('data-status', status);
-    });
-
-    // Update hero stats
-    var avgEl = document.getElementById('qh-avg-score');
-    if (totalAnswered > 0 && avgEl) avgEl.textContent = Math.round(totalCorrect / totalAnswered * 100) + '%';
-    var attEl = document.getElementById('qh-attempted');
-    if (attEl) attEl.textContent = totalAttempted;
-
-    // Show summary if any attempted
-    if (totalAttempted > 0) {
-      var summaryEl = document.getElementById('qh-summary');
-      if (summaryEl) {
-        summaryEl.style.display = 'flex';
-        document.getElementById('qs-attempted').textContent = totalAttempted;
-        document.getElementById('qs-strong').textContent = strong;
-        document.getElementById('qs-weak').textContent = weak;
-        document.getElementById('qs-unattempted').textContent = document.querySelectorAll('.qh-card').length - totalAttempted;
+    /* Status badge */
+    var statusEl = document.getElementById('status-' + subject);
+    if (statusEl) {
+      if (answered === 0) {
+        statusEl.textContent = 'Not started';
+      } else if (answered < total) {
+        statusEl.textContent = answered + '/' + total + ' done';
+        statusEl.className = 'qh-card__status qh-card__status--partial';
+        var btn = card.querySelector('.qh-card__cta');
+        if (btn) btn.textContent = '↩ Continue';
+      } else {
+        statusEl.textContent = 'Completed';
+        statusEl.className = 'qh-card__status qh-card__status--done';
+        var btn = card.querySelector('.qh-card__cta');
+        if (btn) btn.textContent = '✅ Review';
       }
     }
-  }
-
-  // ── Filter logic ──
-  var activeFilter = 'all';
-  var activePaper = 'all';
-
-  function applyFilters() {
-    document.querySelectorAll('.qh-card').forEach(function(card) {
-      var status = card.getAttribute('data-status') || 'unattempted';
-      var papers = (card.getAttribute('data-papers') || '').split(',');
-      var matchFilter = activeFilter === 'all' ||
-        (activeFilter === 'unattempted' && status === 'unattempted') ||
-        (activeFilter === 'weak' && status === 'weak') ||
-        (activeFilter === 'strong' && status === 'strong');
-      var matchPaper = activePaper === 'all' || papers.indexOf(activePaper) !== -1;
-      card.closest('.qh-card').style.display = (matchFilter && matchPaper) ? '' : 'none';
-    });
-
-    // Hide empty subject sections
-    document.querySelectorAll('.qh-subject').forEach(function(subj) {
-      var visible = subj.querySelectorAll('.qh-card:not([style*="display: none"])').length;
-      subj.style.display = visible ? '' : 'none';
-    });
-  }
-
-  document.getElementById('qh-filters').addEventListener('click', function(e) {
-    var btn = e.target.closest('.qh-filter');
-    if (!btn) return;
-    var filter = btn.getAttribute('data-filter');
-    var paper = btn.getAttribute('data-paper');
-
-    if (paper) {
-      // Paper filter
-      document.querySelectorAll('.qh-filter--paper').forEach(function(b) { b.classList.remove('active'); });
-      btn.classList.add('active');
-      activePaper = activePaper === paper ? 'all' : paper;
-      if (activePaper === 'all') btn.classList.remove('active');
-    } else if (filter) {
-      // Status filter
-      document.querySelectorAll('.qh-filter:not(.qh-filter--paper)').forEach(function(b) { b.classList.remove('active'); });
-      btn.classList.add('active');
-      activeFilter = filter;
-    }
-    applyFilters();
   });
 
-  hydrate();
+  /* Hero stats */
+  var totalEl = document.getElementById('qh-total-q');
+  if (totalEl) totalEl.textContent = totalQ;
+  var attEl = document.getElementById('qh-attempted');
+  if (attEl) attEl.textContent = totalAttempted;
+
+  /* Summary bar */
+  if (totalAttempted > 0) {
+    var summaryEl = document.getElementById('qh-summary');
+    if (summaryEl) summaryEl.style.display = '';
+    var remEl = document.getElementById('qhs-remain');
+    if (remEl) remEl.textContent = totalQ - totalAttempted;
+    var attSum = document.getElementById('qhs-correct');
+    if (attSum) attSum.textContent = totalAttempted;
+  }
 })();
 </script>
