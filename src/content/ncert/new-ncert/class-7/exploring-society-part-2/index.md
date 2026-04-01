@@ -23,11 +23,11 @@ tags:
 
 | Ch | Title | Theme | UPSC Relevance |
 |----|-------|-------|---------------|
-| 1 | How the Land Becomes Sacred | Sacred geography, pilgrimage, ganga-jamuni tehzeeb | GS1 Culture; GS2 Religious rights |
-| 2 | From the Rulers to the Ruled: Types of Governments | Democracy, monarchy, theocracy; ECI, EVMs | GS2 Polity |
-| 3 | The Constitution of India: An Introduction | Constituent Assembly, Preamble, Basic Structure | GS2 Constitutional law |
-| 4 | From Barter to Money | Economic history, RBI, demonetisation, UPI, CBDC | GS3 Economy |
-| 5 | Understanding Markets | Market structures, APMC, Consumer Protection Act | GS3 Economy |
-| 6 | The Gupta Era: An Age of Tireless Creativity | Aryabhata, Kalidasa, Ajanta, Iron Pillar | GS1 Medieval India; GS3 Science |
+| 1 | [How the Land Becomes Sacred](/ncert/new-ncert/class-7/exploring-society-part-2/01-how-the-land-becomes-sacred/) | Sacred geography, pilgrimage, ganga-jamuni tehzeeb | GS1 Culture; GS2 Religious rights |
+| 2 | [From the Rulers to the Ruled: Types of Governments](/ncert/new-ncert/class-7/exploring-society-part-2/02-from-the-rulers-to-the-ruled-types-of-governments/) | Democracy, monarchy, theocracy; ECI, EVMs | GS2 Polity |
+| 3 | [The Constitution of India: An Introduction](/ncert/new-ncert/class-7/exploring-society-part-2/03-the-constitution-of-india-an-introduction/) | Constituent Assembly, Preamble, Basic Structure | GS2 Constitutional law |
+| 4 | [From Barter to Money](/ncert/new-ncert/class-7/exploring-society-part-2/04-from-barter-to-money/) | Economic history, RBI, demonetisation, UPI, CBDC | GS3 Economy |
+| 5 | [Understanding Markets](/ncert/new-ncert/class-7/exploring-society-part-2/05-understanding-markets/) | Market structures, APMC, Consumer Protection Act | GS3 Economy |
+| 6 | [The Gupta Era: An Age of Tireless Creativity](/ncert/new-ncert/class-7/exploring-society-part-2/06-the-gupta-era-an-age-of-tireless-creativity/) | Aryabhata, Kalidasa, Ajanta, Iron Pillar | GS1 Medieval India; GS3 Science |
 
 → [Back to New NCERT Hub](/ncert/new-ncert/) | [Exploring Society Part 1](/ncert/new-ncert/class-7/exploring-society-part-1/)

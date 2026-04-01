@@ -29,18 +29,18 @@ tags:
 
 | Ch | Title | Theme | UPSC Relevance |
 |----|-------|-------|---------------|
-| 1 | The Wonderful World of Science | Scientific method, India's science ecosystem | GS3 Science & Technology |
-| 2 | Diversity in the Living World | Classification, biodiversity, India's hotspots | GS3 Biodiversity |
-| 3 | Mindful Eating: A Path to a Healthy Body | Nutrition, deficiency diseases, food security | GS3 Agriculture; GS2 Health |
-| 4 | Exploring Magnets | Magnetism, Earth's magnetosphere, navigation | GS3 Science & Technology |
-| 5 | Measurement of Length and Motion | SI units, motion basics, LIDAR technology | GS3 Science & Technology |
-| 6 | Materials Around Us | States of matter, materials science, aerogel | GS3 Science & Technology |
-| 7 | Temperature and Its Measurement | Heat, thermometry, climate change connections | GS3 Environment/Climate |
-| 8 | A Journey Through States of Water | Water cycle, glaciers, water conservation | GS3 Environment; GS2 Jal Jeevan |
-| 9 | Methods of Separation in Everyday Life | Separation techniques, water treatment, petroleum | GS3 Science & Technology |
-| 10 | Living Creatures: Exploring Their Characteristics | Life characteristics, respiration, biofuels | GS3 Environment |
-| 11 | Nature's Treasures | Forests, ozone layer, minerals, biodiversity | GS3 Environment |
-| 12 | Beyond Earth | ISRO missions, Chandrayaan-3, Gaganyaan, space law | GS3 Space |
+| 1 | [The Wonderful World of Science](/ncert/new-ncert/class-6/curiosity/01-the-wonderful-world-of-science/) | Scientific method, India's science ecosystem | GS3 Science & Technology |
+| 2 | [Diversity in the Living World](/ncert/new-ncert/class-6/curiosity/02-diversity-in-the-living-world/) | Classification, biodiversity, India's hotspots | GS3 Biodiversity |
+| 3 | [Mindful Eating: A Path to a Healthy Body](/ncert/new-ncert/class-6/curiosity/03-mindful-eating-a-path-to-a-healthy-body/) | Nutrition, deficiency diseases, food security | GS3 Agriculture; GS2 Health |
+| 4 | [Exploring Magnets](/ncert/new-ncert/class-6/curiosity/04-exploring-magnets/) | Magnetism, Earth's magnetosphere, navigation | GS3 Science & Technology |
+| 5 | [Measurement of Length and Motion](/ncert/new-ncert/class-6/curiosity/05-measurement-of-length-and-motion/) | SI units, motion basics, LIDAR technology | GS3 Science & Technology |
+| 6 | [Materials Around Us](/ncert/new-ncert/class-6/curiosity/06-materials-around-us/) | States of matter, materials science, aerogel | GS3 Science & Technology |
+| 7 | [Temperature and Its Measurement](/ncert/new-ncert/class-6/curiosity/07-temperature-and-its-measurement/) | Heat, thermometry, climate change connections | GS3 Environment/Climate |
+| 8 | [A Journey Through States of Water](/ncert/new-ncert/class-6/curiosity/08-a-journey-through-states-of-water/) | Water cycle, glaciers, water conservation | GS3 Environment; GS2 Jal Jeevan |
+| 9 | [Methods of Separation in Everyday Life](/ncert/new-ncert/class-6/curiosity/09-methods-of-separation-in-everyday-life/) | Separation techniques, water treatment, petroleum | GS3 Science & Technology |
+| 10 | [Living Creatures: Exploring Their Characteristics](/ncert/new-ncert/class-6/curiosity/10-living-creatures-exploring-their-characteristics/) | Life characteristics, respiration, biofuels | GS3 Environment |
+| 11 | [Nature's Treasures](/ncert/new-ncert/class-6/curiosity/11-natures-treasures/) | Forests, ozone layer, minerals, biodiversity | GS3 Environment |
+| 12 | [Beyond Earth](/ncert/new-ncert/class-6/curiosity/12-beyond-earth/) | ISRO missions, Chandrayaan-3, Gaganyaan, space law | GS3 Space |
 
 > **Note:** Chapter titles based on official NCERT 2024–25 *Curiosity* publication. Content enriched with UPSC connections and updated data.
 

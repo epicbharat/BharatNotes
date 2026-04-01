@@ -25,18 +25,18 @@ tags:
 
 | Ch | Title | Theme | UPSC Relevance |
 |----|-------|-------|---------------|
-| 1 | Locating India in the World | Geography — India's position, neighbours | GS1 India's location; GS2 borders |
-| 2 | Grasslands | Environment — world grasslands and their people | GS3 ecology; GS1 nomadic communities |
-| 3 | Tropical Rainforests | Environment — rainforest ecosystems | GS3 biodiversity; GS1 tribal communities |
-| 4 | Timeline and Sources of History | Historiography — how we know the past | GS1 methodology |
-| 5 | India's Cultural Roots | Ancient India — Harappan civilisation, Vedic traditions | GS1 Ancient India |
-| 6 | India: Climate, Vegetation and Wildlife | Physical Geography — monsoon, biomes, wildlife | GS1 Geography; GS3 environment |
-| 7 | Ruling Oneself: Self-Governance in Ancient India | Ancient polity — Janapadas, Mahajanapadas, republics | GS1 Ancient India; GS2 democracy roots |
-| 8 | India During the Time of the Buddha | Philosophy and society — Buddhism, Jainism, Upanishadic thought | GS1 Ancient India; GS4 ethics |
-| 9 | Janapadas to Empire | Ancient polity — Mauryan empire, Ashoka | GS1 Ancient India |
-| 10 | Social Life in Ancient India | Society — varnas, guilds, everyday life | GS1 social history |
-| 11 | Revisiting the Past: Primary and Secondary Sources | Methodology — archaeological and textual sources | GS1 source critique |
-| 12 | Local Government: Then and Now | Governance — ancient sabhas to modern Panchayati Raj | GS2 local governance |
+| 1 | [Locating India in the World](/ncert/new-ncert/class-6/exploring-society/01-locating-india-in-the-world/) | Geography — India's position, neighbours | GS1 India's location; GS2 borders |
+| 2 | [Grasslands](/ncert/new-ncert/class-6/exploring-society/02-grasslands/) | Environment — world grasslands and their people | GS3 ecology; GS1 nomadic communities |
+| 3 | [Tropical Rainforests](/ncert/new-ncert/class-6/exploring-society/03-tropical-rainforests/) | Environment — rainforest ecosystems | GS3 biodiversity; GS1 tribal communities |
+| 4 | [Timeline and Sources of History](/ncert/new-ncert/class-6/exploring-society/04-timeline-and-sources-of-history/) | Historiography — how we know the past | GS1 methodology |
+| 5 | [India's Cultural Roots](/ncert/new-ncert/class-6/exploring-society/05-indias-cultural-roots/) | Ancient India — Harappan civilisation, Vedic traditions | GS1 Ancient India |
+| 6 | [India: Climate, Vegetation and Wildlife](/ncert/new-ncert/class-6/exploring-society/06-india-climate-vegetation-and-wildlife/) | Physical Geography — monsoon, biomes, wildlife | GS1 Geography; GS3 environment |
+| 7 | [Ruling Oneself: Self-Governance in Ancient India](/ncert/new-ncert/class-6/exploring-society/07-ruling-oneself-self-governance-in-ancient-india/) | Ancient polity — Janapadas, Mahajanapadas, republics | GS1 Ancient India; GS2 democracy roots |
+| 8 | [India During the Time of the Buddha](/ncert/new-ncert/class-6/exploring-society/08-india-during-the-time-of-the-buddha/) | Philosophy and society — Buddhism, Jainism, Upanishadic thought | GS1 Ancient India; GS4 ethics |
+| 9 | [Janapadas to Empire](/ncert/new-ncert/class-6/exploring-society/09-janapadas-to-empire/) | Ancient polity — Mauryan empire, Ashoka | GS1 Ancient India |
+| 10 | [Social Life in Ancient India](/ncert/new-ncert/class-6/exploring-society/10-social-life-in-ancient-india/) | Society — varnas, guilds, everyday life | GS1 social history |
+| 11 | [Revisiting the Past: Primary and Secondary Sources](/ncert/new-ncert/class-6/exploring-society/11-revisiting-the-past-primary-and-secondary-sources/) | Methodology — archaeological and textual sources | GS1 source critique |
+| 12 | [Local Government: Then and Now](/ncert/new-ncert/class-6/exploring-society/12-local-government-then-and-now/) | Governance — ancient sabhas to modern Panchayati Raj | GS2 local governance |
 
 > **Note:** Chapter titles based on official NCERT 2024 publication. Content enriched with UPSC connections and updated data.
 

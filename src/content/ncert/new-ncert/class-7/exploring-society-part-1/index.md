@@ -23,11 +23,11 @@ tags:
 
 | Ch | Title | Theme | UPSC Relevance |
 |----|-------|-------|---------------|
-| 1 | Geographical Diversity of India | Physical geography — physiographic divisions, islands | GS1 Indian Geography |
-| 2 | Understanding the Weather | Meteorology — IMD, weather systems, early warning | GS1 Climate; GS3 Disaster |
-| 3 | Climates of India | Monsoon, climate types, India's NDCs | GS1 Climate; GS3 Environment |
-| 4 | New Beginnings: Cities and States | Harappan civilisation, Mahajanapadas, 74th Amendment | GS1 Ancient India; GS2 Urban |
-| 5 | The Rise of Empires | Mauryan empire, Ashoka, Arthashastra, Gupta age | GS1 Ancient India |
-| 6 | The Age of Reorganisation | Tripartite Struggle, Delhi Sultanate, Bhakti-Sufi, States Reorganisation 1956 | GS1 Medieval; GS2 Federalism |
+| 1 | [Geographical Diversity of India](/ncert/new-ncert/class-7/exploring-society-part-1/01-geographical-diversity-of-india/) | Physical geography — physiographic divisions, islands | GS1 Indian Geography |
+| 2 | [Understanding the Weather](/ncert/new-ncert/class-7/exploring-society-part-1/02-understanding-the-weather/) | Meteorology — IMD, weather systems, early warning | GS1 Climate; GS3 Disaster |
+| 3 | [Climates of India](/ncert/new-ncert/class-7/exploring-society-part-1/03-climates-of-india/) | Monsoon, climate types, India's NDCs | GS1 Climate; GS3 Environment |
+| 4 | [New Beginnings: Cities and States](/ncert/new-ncert/class-7/exploring-society-part-1/04-new-beginnings-cities-and-states/) | Harappan civilisation, Mahajanapadas, 74th Amendment | GS1 Ancient India; GS2 Urban |
+| 5 | [The Rise of Empires](/ncert/new-ncert/class-7/exploring-society-part-1/05-the-rise-of-empires/) | Mauryan empire, Ashoka, Arthashastra, Gupta age | GS1 Ancient India |
+| 6 | [The Age of Reorganisation](/ncert/new-ncert/class-7/exploring-society-part-1/06-the-age-of-reorganisation/) | Tripartite Struggle, Delhi Sultanate, Bhakti-Sufi, States Reorganisation 1956 | GS1 Medieval; GS2 Federalism |
 
 → [Back to New NCERT Hub](/ncert/new-ncert/) | [Exploring Society Part 2](/ncert/new-ncert/class-7/exploring-society-part-2/)
