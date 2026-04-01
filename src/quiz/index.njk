@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: "UPSC PYQ Quiz Hub — Practice by Subject"
-description: "Practice UPSC Prelims Previous Year Questions by subject. Interactive MCQs with score tracking, explanations, and progress — no login needed."
+title: "Practice PYQs — Official UPSC Prelims Questions by Subject"
+description: "Practice official UPSC CSE Prelims Previous Year Questions subject-wise. Actual exam MCQs with verified answers, detailed explanations, score tracking, and progress — no login needed."
 ---
 
 <style>
@@ -9,84 +9,118 @@ description: "Practice UPSC Prelims Previous Year Questions by subject. Interact
    Quiz Hub styles
    ══════════════════════════════════════════ */
 
-/* ── Compact hero banner ───────────────────── */
-.qh-hero {
-  background: linear-gradient(105deg, #0b3d2e 0%, #163528 40%, #2d1a06 72%, #1c1008 100%);
-  color: #fff;
-  padding: var(--space-4) 0;
-  position: relative; overflow: hidden;
+/* ── Stats row in page-header ───────────────── */
+.qh-hero-stats {
+  display: flex; flex-wrap: wrap; gap: var(--space-5);
+  margin-top: var(--space-5);
 }
-.qh-hero::before {
-  content: '';
-  position: absolute; inset: 0;
-  background: radial-gradient(ellipse at 80% 50%, rgba(212,160,23,0.13) 0%, transparent 55%);
-  pointer-events: none;
+.qh-stat {
+  display: flex; flex-direction: column; gap: 2px;
+  background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 10px; padding: var(--space-3) var(--space-4);
+  min-width: 90px;
 }
-.qh-hero__layout {
-  display: flex; align-items: center; gap: var(--space-5);
-  position: relative; z-index: 1; flex-wrap: wrap;
-}
-.qh-hero__main { flex: 1; min-width: 0; }
-.qh-hero__title {
-  font-family: var(--font-heading); font-size: var(--text-xl); font-weight: 800;
-  margin: 0 0 var(--space-2); white-space: nowrap;
-}
-.qh-totals {
-  display: flex; flex-wrap: wrap; gap: var(--space-4);
-}
-.qh-total { display: flex; align-items: baseline; gap: 4px; }
-.qh-total__num { font-size: var(--text-sm); font-weight: 800; color: #fde68a; }
-.qh-total__lbl { font-size: var(--text-xs); color: rgba(255,255,255,0.45); }
+.qh-stat__num { font-size: var(--text-xl); font-weight: 900; color: #fde68a; line-height: 1; }
+.qh-stat__lbl { font-size: var(--text-xs); color: rgba(255,255,255,0.55); font-weight: 600; margin-top: 3px; }
 
-/* Inline summary (shown via JS) */
+/* Progress summary row (JS-shown) */
 .qh-summary {
-  display: none; margin-top: var(--space-2);
+  display: none; margin-top: var(--space-4);
 }
 .qh-summary__inner {
-  display: flex; flex-wrap: wrap; gap: var(--space-3);
-  align-items: center; font-size: var(--text-xs);
+  display: flex; flex-wrap: wrap; gap: var(--space-4);
+  align-items: center;
 }
-.qh-summary__item { display: flex; align-items: center; gap: 5px; color: rgba(255,255,255,0.65); }
-.qh-summary__dot  { width: 7px; height: 7px; border-radius: 50%; }
+.qh-summary__item {
+  display: flex; align-items: center; gap: 6px;
+  background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 999px; padding: 4px 12px;
+  font-size: var(--text-xs); color: rgba(255,255,255,0.8);
+}
+.qh-summary__dot  { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
 .qh-summary__num  { font-weight: 800; color: #fff; }
 
-/* Vertical sep */
-.qh-hero__sep {
-  width: 1px; background: rgba(255,255,255,0.12);
-  align-self: stretch; min-height: 48px; flex-shrink: 0;
+/* Hub layout: cards + sidebar */
+.qh-layout {
+  display: grid;
+  grid-template-columns: 1fr 288px;
+  gap: var(--space-6);
+  padding: var(--space-8) 0 var(--space-16);
+  align-items: start;
 }
-
-/* Ujiyari compact promo */
-.qh-hero__ujiyari {
-  display: flex; align-items: center; gap: var(--space-3);
-  flex-shrink: 0;
-}
-.ujq-pill {
-  font-size: 0.6rem; font-weight: 800; letter-spacing: 0.07em; text-transform: uppercase;
-  color: #fde68a; white-space: nowrap;
-}
-.ujq-side-desc {
-  font-size: var(--text-xs); color: rgba(255,255,255,0.55);
-  max-width: 200px; line-height: 1.5;
-}
-.ujq-side-desc strong { color: #fde68a; }
-.ujq-cta-btn {
-  display: inline-flex; align-items: center; gap: 6px;
-  background: linear-gradient(135deg, #d4a017, #f5c842);
-  color: #1c1008; font-weight: 800; font-size: var(--text-xs);
-  padding: 8px 16px; border-radius: 8px; white-space: nowrap;
-  text-decoration: none; flex-shrink: 0;
-  transition: transform 0.14s, box-shadow 0.14s;
-  box-shadow: 0 3px 10px rgba(212,160,23,0.35);
-}
-.ujq-cta-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(212,160,23,0.5); text-decoration: none; color: #1c1008; }
 
 /* Subject grid */
 .qh-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: var(--space-5);
-  padding: var(--space-8) 0 var(--space-16);
+}
+
+/* Ujiyari sidebar — sticky TOC style */
+.qh-sidebar {
+  position: sticky;
+  top: 80px;
+  max-height: calc(100vh - 96px);
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+.qh-sidebar::-webkit-scrollbar { display: none; }
+.qh-ujiyari-card {
+  background: linear-gradient(150deg, #0b3d2e 0%, #1c1008 100%);
+  border-radius: 14px; padding: var(--space-5);
+  color: #fff; overflow: hidden; position: relative;
+}
+.qh-ujiyari-card::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse at 80% 20%, rgba(212,160,23,0.18) 0%, transparent 60%);
+  pointer-events: none;
+}
+.qhuj-logo { font-size: 1.8rem; margin-bottom: var(--space-2); position: relative; }
+.qhuj-name {
+  font-family: var(--font-heading); font-size: var(--text-lg); font-weight: 800;
+  color: #fde68a; margin-bottom: 4px; position: relative;
+}
+.qhuj-tagline {
+  font-size: var(--text-xs); color: rgba(255,255,255,0.6);
+  line-height: 1.5; margin-bottom: var(--space-4); position: relative;
+}
+.qhuj-tagline strong { color: #fde68a; }
+.qhuj-features {
+  display: flex; flex-direction: column; gap: var(--space-2);
+  margin-bottom: var(--space-5); position: relative;
+}
+.qhuj-feat {
+  display: flex; align-items: center; gap: var(--space-2);
+  font-size: var(--text-xs); color: rgba(255,255,255,0.75);
+}
+.qhuj-feat-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: #fde68a; flex-shrink: 0;
+}
+.qhuj-cta {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  background: linear-gradient(135deg, #d4a017, #f5c842);
+  color: #1c1008; font-weight: 800; font-size: var(--text-sm);
+  padding: 10px var(--space-4); border-radius: 10px;
+  text-decoration: none; width: 100%;
+  transition: transform 0.14s, box-shadow 0.14s;
+  box-shadow: 0 3px 12px rgba(212,160,23,0.4);
+  position: relative;
+}
+.qhuj-cta:hover { transform: translateY(-2px); box-shadow: 0 5px 16px rgba(212,160,23,0.55); text-decoration: none; color: #1c1008; }
+.qhuj-note {
+  font-size: 0.65rem; color: rgba(255,255,255,0.35);
+  text-align: center; margin-top: var(--space-3); position: relative;
+}
+
+@media (max-width: 1024px) {
+  .qh-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 860px) {
+  .qh-layout  { grid-template-columns: 1fr; }
+  .qh-sidebar { position: static; max-height: none; }
+  .qh-grid    { grid-template-columns: 1fr; }
 }
 
 /* Subject card */
@@ -129,85 +163,99 @@ description: "Practice UPSC Prelims Previous Year Questions by subject. Interact
 .qh-card:hover .qh-card__cta { opacity: 0.88; }
 .qh-card--empty { opacity: 0.6; pointer-events: none; }
 .qh-card--empty .qh-card__cta { background: #94a3b8; }
-
-@media (max-width: 860px) {
-  .qh-hero__layout { grid-template-columns: 1fr; }
-  .qh-hero__sep    { display: none; }
-  .qh-hero__title  { font-size: var(--text-2xl); }
-  .qh-grid         { grid-template-columns: 1fr; }
-}
 </style>
 
-<!-- Compact hero banner -->
-<div class="qh-hero">
+<!-- Page hero — same as other BharatNotes section pages -->
+<header class="page-header">
   <div class="container">
-    <div class="qh-hero__layout">
+    <div class="page-header__eyebrow">🎯 Official UPSC CSE Prelims Questions</div>
+    <h1 class="page-header__title">Practice PYQs</h1>
+    <p class="page-header__subtitle">Practise actual UPSC Prelims Previous Year Questions — verified, subject-wise, with answer explanations and score tracking. No login needed.</p>
 
-      <!-- Title + stats -->
-      <div class="qh-hero__main">
-        <h1 class="qh-hero__title">🎯 UPSC PYQ Quiz Hub</h1>
-        <div class="qh-totals">
-          <div class="qh-total"><span class="qh-total__num" id="qh-total-q">0</span><span class="qh-total__lbl">Questions</span></div>
-          <div class="qh-total"><span class="qh-total__num">11</span><span class="qh-total__lbl">Subjects</span></div>
-          <div class="qh-total"><span class="qh-total__num" id="qh-attempted">0</span><span class="qh-total__lbl">Attempted</span></div>
-          <div class="qh-total"><span class="qh-total__num" id="qh-avg">—</span><span class="qh-total__lbl">Avg Score</span></div>
-        </div>
-        <div class="qh-summary" id="qh-summary">
-          <div class="qh-summary__inner">
-            <div class="qh-summary__item"><span class="qh-summary__dot" style="background:#22c55e;"></span><span class="qh-summary__num" id="qhs-correct">0</span>&nbsp;correct</div>
-            <div class="qh-summary__item"><span class="qh-summary__dot" style="background:#ef4444;"></span><span class="qh-summary__num" id="qhs-wrong">0</span>&nbsp;wrong</div>
-            <div class="qh-summary__item"><span class="qh-summary__dot" style="background:rgba(255,255,255,0.3);"></span><span class="qh-summary__num" id="qhs-remain">0</span>&nbsp;left</div>
-          </div>
-        </div>
+    <!-- Stats row (hydrated by JS) -->
+    <div class="qh-hero-stats">
+      <div class="qh-stat">
+        <span class="qh-stat__num" id="qh-total-q">0</span>
+        <span class="qh-stat__lbl">Questions</span>
       </div>
-
-      <!-- Divider -->
-      <div class="qh-hero__sep"></div>
-
-      <!-- Ujiyari compact promo -->
-      <div class="qh-hero__ujiyari">
-        <div>
-          <div class="ujq-pill">⚡ Also on Ujiyari</div>
-          <p class="ujq-side-desc" style="margin-top:4px;">PYQs + <strong>Daily Current Affairs Quiz</strong> = Complete Prelims prep.</p>
-        </div>
-        <a href="https://ujiyari.com/quiz/" target="_blank" rel="noopener" class="ujq-cta-btn">🦁 Practice Now →</a>
+      <div class="qh-stat">
+        <span class="qh-stat__num">11</span>
+        <span class="qh-stat__lbl">Subjects</span>
       </div>
+      <div class="qh-stat">
+        <span class="qh-stat__num" id="qh-attempted">0</span>
+        <span class="qh-stat__lbl">Attempted</span>
+      </div>
+      <div class="qh-stat">
+        <span class="qh-stat__num" id="qh-avg">—</span>
+        <span class="qh-stat__lbl">Avg Score</span>
+      </div>
+    </div>
 
+    <!-- Progress summary (shown by JS when any attempted) -->
+    <div class="qh-summary" id="qh-summary">
+      <div class="qh-summary__inner">
+        <div class="qh-summary__item"><span class="qh-summary__dot" style="background:#22c55e;"></span><span class="qh-summary__num" id="qhs-correct">0</span>&nbsp;correct</div>
+        <div class="qh-summary__item"><span class="qh-summary__dot" style="background:#ef4444;"></span><span class="qh-summary__num" id="qhs-wrong">0</span>&nbsp;wrong</div>
+        <div class="qh-summary__item"><span class="qh-summary__dot" style="background:rgba(255,255,255,0.4);"></span><span class="qh-summary__num" id="qhs-remain">0</span>&nbsp;remaining</div>
+      </div>
     </div>
   </div>
-</div>
+</header>
 
-<!-- Subject grid -->
+<!-- Subject grid + Ujiyari sidebar -->
 <section style="background:#f1f5f9;">
   <div class="container">
-    <div class="qh-grid" id="qh-grid">
-      {%- for subj in subjects -%}
-      {%- if subj.quiz != false -%}
-      {%- set subjectPyq = pyq[subj.slug] or [] -%}
-      <a href="/quiz/{{ subj.slug }}/"
-         class="qh-card{% if subjectPyq.length == 0 %} qh-card--empty{% endif %}"
-         style="--qhc:{{ subj.color }};"
-         data-subject="{{ subj.slug }}"
-         data-total="{{ subjectPyq.length }}">
-        <div class="qh-card__head">
-          <span class="qh-card__icon">{{ subj.icon }}</span>
-          <span class="qh-card__name">{{ subj.name }}</span>
+    <div class="qh-layout">
+
+      <!-- Subject cards (3-column grid) -->
+      <div class="qh-grid" id="qh-grid">
+        {%- for subj in subjects -%}
+        {%- if subj.quiz != false -%}
+        {%- set subjectPyq = pyq[subj.slug] or [] -%}
+        <a href="/quiz/{{ subj.slug }}/"
+           class="qh-card{% if subjectPyq.length == 0 %} qh-card--empty{% endif %}"
+           style="--qhc:{{ subj.color }};"
+           data-subject="{{ subj.slug }}"
+           data-total="{{ subjectPyq.length }}">
+          <div class="qh-card__head">
+            <span class="qh-card__icon">{{ subj.icon }}</span>
+            <span class="qh-card__name">{{ subj.name }}</span>
+          </div>
+          <p class="qh-card__desc">{{ subj.description }}</p>
+          <div class="qh-card__meta">
+            <span class="qh-card__count">{{ subjectPyq.length }} question{{ 's' if subjectPyq.length != 1 }}</span>
+            <span class="qh-card__status" id="status-{{ subj.slug }}">Not started</span>
+          </div>
+          <div class="qh-card__bar">
+            <div class="qh-card__fill qh-card__fill--correct" id="bar-correct-{{ subj.slug }}" style="width:0%"></div>
+            <div class="qh-card__fill qh-card__fill--wrong"   id="bar-wrong-{{ subj.slug }}"   style="width:0%"></div>
+          </div>
+          <span class="qh-card__cta">
+            {%- if subjectPyq.length == 0 -%}📋 Coming Soon{%- else -%}🎯 Start Quiz{%- endif -%}
+          </span>
+        </a>
+        {%- endif -%}
+        {%- endfor -%}
+      </div>
+
+      <!-- Ujiyari sidebar -->
+      <aside class="qh-sidebar">
+        <div class="qh-ujiyari-card">
+          <div class="qhuj-logo">🦁</div>
+          <div class="qhuj-name">Ujiyari.com</div>
+          <p class="qhuj-tagline">Complete your Prelims prep with <strong>Daily Current Affairs Quizzes</strong> — curated for UPSC aspirants.</p>
+          <div class="qhuj-features">
+            <div class="qhuj-feat"><span class="qhuj-feat-dot"></span>Daily MCQs from current affairs</div>
+            <div class="qhuj-feat"><span class="qhuj-feat-dot"></span>Topic-wise quiz archives</div>
+            <div class="qhuj-feat"><span class="qhuj-feat-dot"></span>Instant answer explanations</div>
+            <div class="qhuj-feat"><span class="qhuj-feat-dot"></span>Free — no login needed</div>
+          </div>
+          <a href="https://ujiyari.com/quiz/" target="_blank" rel="noopener" class="qhuj-cta">Practice Now →</a>
+          <p class="qhuj-note">PYQs here · Current Affairs on Ujiyari</p>
         </div>
-        <p class="qh-card__desc">{{ subj.description }}</p>
-        <div class="qh-card__meta">
-          <span class="qh-card__count">{{ subjectPyq.length }} question{{ 's' if subjectPyq.length != 1 }}</span>
-          <span class="qh-card__status" id="status-{{ subj.slug }}">Not started</span>
-        </div>
-        <div class="qh-card__bar">
-          <div class="qh-card__fill qh-card__fill--correct" id="bar-correct-{{ subj.slug }}" style="width:0%"></div>
-          <div class="qh-card__fill qh-card__fill--wrong"   id="bar-wrong-{{ subj.slug }}"   style="width:0%"></div>
-        </div>
-        <span class="qh-card__cta">
-          {%- if subjectPyq.length == 0 -%}📋 Coming Soon{%- else -%}🎯 Start Quiz{%- endif -%}
-        </span>
-      </a>
-      {%- endif -%}
-      {%- endfor -%}
+      </aside>
+
     </div>
   </div>
 </section>
