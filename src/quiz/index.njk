@@ -55,7 +55,7 @@ description: "Practice UPSC Prelims Previous Year Questions by subject. Interact
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: var(--space-5);
-  padding: var(--space-8) 0 var(--space-14);
+  padding: var(--space-8) 0 var(--space-16);
 }
 
 /* Subject card */
@@ -146,7 +146,7 @@ description: "Practice UPSC Prelims Previous Year Questions by subject. Interact
         <span class="qh-total__lbl">Questions</span>
       </div>
       <div class="qh-total">
-        <span class="qh-total__num">12</span>
+        <span class="qh-total__num">11</span>
         <span class="qh-total__lbl">Subjects</span>
       </div>
       <div class="qh-total">
@@ -182,10 +182,11 @@ description: "Practice UPSC Prelims Previous Year Questions by subject. Interact
 </div>
 
 <!-- Subject grid -->
-<section style="background:var(--color-bg);">
+<section style="background:#f1f5f9;">
   <div class="container">
     <div class="qh-grid" id="qh-grid">
       {%- for subj in subjects -%}
+      {%- if subj.quiz != false -%}
       {%- set subjectPyq = pyq[subj.slug] or [] -%}
       <a href="/quiz/{{ subj.slug }}/"
          class="qh-card{% if subjectPyq.length == 0 %} qh-card--empty{% endif %}"
@@ -209,6 +210,7 @@ description: "Practice UPSC Prelims Previous Year Questions by subject. Interact
           {%- if subjectPyq.length == 0 -%}📋 Coming Soon{%- else -%}🎯 Start Quiz{%- endif -%}
         </span>
       </a>
+      {%- endif -%}
       {%- endfor -%}
     </div>
   </div>

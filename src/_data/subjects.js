@@ -96,6 +96,7 @@ module.exports = [
     color: "#854d0e",
     description: "Ethics, attitude, aptitude, emotional intelligence, moral thinkers, case studies",
     gs_papers: ["gs4"],
+    quiz: false,   // GS4 Mains only — no Prelims MCQs
     syllabus_sections: [
       "Ethics, Integrity & Aptitude"
     ]

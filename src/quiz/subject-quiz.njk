@@ -5,878 +5,815 @@ pagination:
   alias: subj
 permalink: /quiz/{{ subj.slug }}/
 layout: base.njk
+title: "{{ subj.name }} PYQ Quiz — UPSC Prelims Practice"
+description: "Practice {{ subj.name }} UPSC Prelims Previous Year Questions. Interactive MCQs with instant feedback and explanations."
+eleventyExcludeFromCollections: true
 ---
 {%- set subjectPyq = pyq[subj.slug] or [] -%}
 
 <style>
 /* ══════════════════════════════════════════════════════
-   Quiz Subject Page — self-contained styles
+   One-Question-at-a-Time Quiz — subject-quiz.njk
    ══════════════════════════════════════════════════════ */
 
-/* Page */
-.qs-page { background: #f1f5f9; }
+:root { --sq: {{ subj.color }}; }
 
-/* Hero */
-.qs-hero {
-  background: linear-gradient(135deg, var(--qs-color, var(--color-brand-dark)) 0%, color-mix(in srgb, var(--qs-color, var(--color-brand-dark)) 80%, #000) 100%);
-  color: #fff;
-  padding: var(--space-8) 0 var(--space-6);
-}
-.qs-hero__back {
-  display: inline-flex; align-items: center; gap: 6px;
-  color: rgba(255,255,255,0.65); font-size: var(--text-xs);
-  text-decoration: none; margin-bottom: var(--space-3);
-  font-weight: 600; letter-spacing: 0.02em;
-}
-.qs-hero__back:hover { color: #fff; }
-.qs-hero__subject {
-  display: flex; align-items: center; gap: var(--space-3);
-  margin-bottom: var(--space-2);
-}
-.qs-hero__icon { font-size: 2rem; }
-.qs-hero__title {
-  font-family: var(--font-heading);
-  font-size: var(--text-2xl); font-weight: 800; margin: 0;
-}
-.qs-hero__sub {
-  color: rgba(255,255,255,0.65); font-size: var(--text-sm);
-  margin: var(--space-1) 0 var(--space-5);
-}
-.qs-hero__stats {
-  display: flex; flex-wrap: wrap; gap: var(--space-6);
-}
-.qs-hero__stat { text-align: center; min-width: 48px; }
-.qs-hero__stat-num {
-  display: block; font-size: var(--text-xl); font-weight: 800;
-  color: #fde68a; line-height: 1.1;
-}
-.qs-hero__stat-lbl {
-  font-size: 0.65rem; color: rgba(255,255,255,0.5);
-  text-transform: uppercase; letter-spacing: 0.07em;
-}
-
-/* Progress bar strip */
-.qs-prog {
+/* ── Sticky header ──────────────────────── */
+.sq-header {
+  position: sticky; top: 0; z-index: 100;
   background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
-  padding: var(--space-3) 0;
-  position: sticky; top: 0; z-index: 10;
+  height: 52px;
+  display: flex; align-items: center;
+  padding: 0 var(--space-5); gap: var(--space-3);
 }
-.qs-prog__bar {
-  height: 6px; background: #e2e8f0;
-  border-radius: 999px; overflow: hidden;
-  display: flex; margin-bottom: var(--space-2);
+.sq-back {
+  display: flex; align-items: center; gap: 5px;
+  color: var(--color-text-muted); font-size: var(--text-xs); font-weight: 600;
+  text-decoration: none; white-space: nowrap;
+  flex-shrink: 0;
 }
-.qs-prog__fill {
-  height: 100%;
-  transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+.sq-back:hover { color: var(--sq); text-decoration: none; }
+.sq-divider { color: var(--color-border); font-size: 1.2rem; flex-shrink: 0; }
+.sq-title {
+  font-family: var(--font-heading); font-weight: 700;
+  font-size: var(--text-sm); color: var(--sq);
+  flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
-.qs-prog__fill--correct { background: #22c55e; }
-.qs-prog__fill--wrong   { background: #ef4444; }
-.qs-prog__labels {
-  display: flex; gap: var(--space-4);
-  font-size: var(--text-xs); color: var(--color-text-muted);
-  flex-wrap: wrap;
+.sq-counter {
+  font-size: var(--text-xs); font-weight: 700;
+  color: var(--color-text-muted); white-space: nowrap; flex-shrink: 0;
 }
-.qs-prog__lbl { display: flex; align-items: center; gap: 4px; }
-.qs-prog__dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
-.qs-prog__dot--correct { background: #22c55e; }
-.qs-prog__dot--wrong   { background: #ef4444; }
-.qs-prog__dot--remain  { background: #e2e8f0; }
-.qs-prog__lbl b { color: var(--color-text); }
+.sq-reset-btn {
+  flex-shrink: 0;
+  font-size: var(--text-xs); font-weight: 700;
+  color: var(--color-text-muted);
+  background: none; border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm); padding: 4px 10px;
+  cursor: pointer;
+}
+.sq-reset-btn:hover { color: #dc2626; border-color: #dc2626; }
 
-/* Filter bar */
-.qs-filters {
+/* ── Progress bar ───────────────────────── */
+.sq-prog-track {
+  height: 4px; background: var(--color-border);
+  display: flex; overflow: hidden;
+}
+.sq-prog-correct { height: 100%; background: #22c55e; transition: width 0.4s ease; width: 0%; }
+.sq-prog-wrong   { height: 100%; background: #ef4444; transition: width 0.4s ease; width: 0%; }
+.sq-prog-done    { height: 100%; background: #cbd5e1; transition: width 0.4s ease; width: 0%; }
+
+/* ── Topic filter bar ───────────────────── */
+.sq-filters {
   background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
-  padding: var(--space-3) 0;
+  padding: var(--space-2) var(--space-5);
+  display: flex; gap: var(--space-2); overflow-x: auto;
+  scrollbar-width: none;
 }
-.qs-filters__inner {
-  display: flex; flex-wrap: wrap; gap: var(--space-2); align-items: center;
-}
-.qs-filter-select {
-  padding: 6px 12px; border-radius: 999px;
+.sq-filters::-webkit-scrollbar { display: none; }
+.sq-ftag {
+  flex-shrink: 0;
+  font-size: 0.68rem; font-weight: 700;
+  padding: 4px 14px; border-radius: 999px;
   border: 1.5px solid var(--color-border);
-  background: var(--color-bg); font-size: var(--text-xs);
-  font-family: var(--font-body); color: var(--color-text);
-  cursor: pointer; outline: none;
-  transition: border-color 0.15s;
+  background: transparent; color: var(--color-text-muted);
+  cursor: pointer; transition: all 0.14s;
 }
-.qs-filter-select:focus { border-color: var(--qs-color, var(--color-brand)); }
-.qs-filter-btn {
-  padding: 6px 16px; border-radius: 999px;
-  border: 1.5px solid var(--color-border);
-  background: transparent; font-size: var(--text-xs);
-  font-weight: 600; color: var(--color-text-muted);
-  cursor: pointer; font-family: var(--font-body);
-  transition: all 0.15s;
-}
-.qs-filter-btn:hover {
-  border-color: var(--qs-color, var(--color-brand));
-  color: var(--qs-color, var(--color-brand));
-}
-.qs-filter-btn.active {
-  background: var(--qs-color, var(--color-brand));
-  border-color: var(--qs-color, var(--color-brand));
-  color: #fff;
-}
-.qs-sep { width: 1px; height: 18px; background: var(--color-border); }
-.qs-reset {
-  margin-left: auto; font-size: var(--text-xs);
-  color: var(--color-text-muted); background: none;
-  border: none; cursor: pointer;
-  text-decoration: underline; font-family: var(--font-body);
-}
-.qs-reset:hover { color: #ef4444; }
+.sq-ftag:hover { border-color: var(--sq); color: var(--sq); }
+.sq-ftag.active { background: var(--sq); color: #fff; border-color: var(--sq); }
 
-/* Main content area */
-.qs-main { padding: var(--space-6) 0 var(--space-14); }
-.qs-feed-header {
-  display: flex; justify-content: space-between; align-items: center;
-  margin-bottom: var(--space-5);
+/* ── Stage ──────────────────────────────── */
+.sq-stage {
+  min-height: calc(100vh - 56px);
+  padding: var(--space-6) var(--space-4) var(--space-16);
+  display: flex; flex-direction: column; align-items: center;
+  background: #f1f5f9;
 }
-.qs-count {
-  font-size: var(--text-sm); font-weight: 600;
+
+/* ── Empty state ────────────────────────── */
+.sq-empty {
+  max-width: 480px; width: 100%;
+  text-align: center; padding: var(--space-16) var(--space-4);
   color: var(--color-text-muted);
 }
-.qs-feed {
-  display: flex; flex-direction: column;
-  gap: var(--space-5); max-width: 760px;
+.sq-empty h3 {
+  font-family: var(--font-heading); font-size: var(--text-xl);
+  color: var(--color-text); margin-bottom: var(--space-2);
 }
+.sq-empty p { font-size: var(--text-sm); line-height: 1.6; }
+.sq-empty a { color: var(--sq); font-weight: 700; text-decoration: none; }
+.sq-empty a:hover { text-decoration: underline; }
 
-/* ════════════════════════════
-   Question Card (.qc)
-   ════════════════════════════ */
-.qc {
-  background: #fff;
-  border-radius: 14px;
-  border: 1px solid #e2e8f0;
-  border-left: 4px solid var(--qs-color, var(--color-brand));
-  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
-  overflow: hidden;
-  transition: box-shadow 0.2s;
+/* ── Question card ──────────────────────── */
+.sq-card {
+  width: 100%; max-width: 700px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--sq);
+  border-radius: 12px;
+  padding: var(--space-6);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
 }
-.qc:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.1); }
-.qc.qc--answered { border-left-color: var(--qs-color, var(--color-brand)); }
-.qc.qc--correct  { border-left-color: #22c55e; }
-.qc.qc--wrong    { border-left-color: #ef4444; }
 
 /* Meta row */
-.qc-meta {
+.sq-meta {
   display: flex; align-items: center; gap: var(--space-2);
-  padding: var(--space-4) var(--space-5) 0;
-  flex-wrap: wrap;
+  flex-wrap: wrap; margin-bottom: var(--space-4);
 }
-.qc-num {
-  width: 30px; height: 30px;
-  background: var(--qs-color, var(--color-brand));
-  color: #fff; border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  font-size: var(--text-xs); font-weight: 800; flex-shrink: 0;
+.sq-badge {
+  display: inline-block;
+  font-size: 0.65rem; font-weight: 700; letter-spacing: 0.06em;
+  padding: 2px 10px; border-radius: 999px;
 }
-.qc-year {
-  font-size: var(--text-xs); font-weight: 700; color: #475569;
-  background: #f1f5f9; padding: 3px 10px; border-radius: 999px;
+.sq-badge--topic {
+  color: var(--sq);
+  background: color-mix(in srgb, var(--sq) 12%, transparent);
 }
-.qc-badge {
-  font-size: 0.6rem; font-weight: 700; text-transform: uppercase;
-  letter-spacing: 0.08em;
-  padding: 3px 9px; border-radius: 999px;
+.sq-badge--subtopic {
+  color: var(--sq); opacity: 0.7;
+  background: color-mix(in srgb, var(--sq) 8%, transparent);
 }
-.qc-badge--ar   { background: rgba(124,58,237,0.1); color: #7c3aed; }
-.qc-badge--stmt { background: rgba(15,76,58,0.08);  color: var(--color-brand); }
-.qc-badge--dir  { background: rgba(212,160,23,0.1); color: #92400e; }
-.qc-topic {
-  font-size: var(--text-xs); color: #94a3b8;
-  margin-left: auto; white-space: nowrap;
+.sq-badge--year {
+  color: var(--color-text-muted);
+  background: var(--color-border);
 }
 
-/* Body */
-.qc-body { padding: var(--space-4) var(--space-5) 0; }
-.qc-stem {
-  font-size: var(--text-sm); line-height: 1.65;
-  color: #1e293b; margin: 0 0 var(--space-3);
-  font-weight: 500;
+/* Stem */
+.sq-stem {
+  font-size: var(--text-sm); font-weight: 500;
+  line-height: 1.65; color: var(--color-text);
+  margin-bottom: var(--space-3);
 }
-.qc-stem:last-child { margin-bottom: 0; }
 
-/* Statement block */
-.qc-stmts {
-  list-style: none;
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-left: 3px solid #94a3b8;
-  border-radius: 8px;
-  padding: var(--space-3) var(--space-4);
+/* Statements list */
+.sq-stmts {
+  list-style: none; padding: var(--space-3) var(--space-4);
   margin: 0 0 var(--space-3);
-  counter-reset: stmt-counter;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border); border-radius: 8px;
+  counter-reset: stmt;
+  display: flex; flex-direction: column; gap: var(--space-2);
 }
-.qc-stmts li {
-  counter-increment: stmt-counter;
-  display: flex; gap: var(--space-3);
-  font-size: var(--text-sm); line-height: 1.65;
-  color: #334155; padding: var(--space-1) 0;
+.sq-stmts li {
+  counter-increment: stmt;
+  display: grid; grid-template-columns: 22px 1fr; gap: var(--space-2);
+  font-size: var(--text-sm); line-height: 1.6; color: var(--color-text);
 }
-.qc-stmts li + li { border-top: 1px solid #e2e8f0; margin-top: var(--space-1); padding-top: var(--space-2); }
-.qc-stmts li::before {
-  content: counter(stmt-counter) ".";
-  font-weight: 700; color: #64748b;
-  flex-shrink: 0; min-width: 18px;
-}
-.qc-tail {
-  font-size: var(--text-sm); color: #475569;
-  font-style: italic; margin: 0 0 var(--space-1);
+.sq-stmts li::before {
+  content: counter(stmt) ".";
+  font-weight: 700; color: var(--sq); padding-top: 1px;
 }
 
-/* Assertion–Reason block */
-.qc-ar {
-  border: 1px solid #e2e8f0; border-radius: 10px;
-  overflow: hidden; margin-bottom: 0;
+/* Tail */
+.sq-tail {
+  font-size: var(--text-sm); font-weight: 600; font-style: italic;
+  color: var(--color-text); margin-bottom: var(--space-4);
 }
-.qc-ar__row {
-  display: flex; gap: var(--space-3);
-  padding: var(--space-3) var(--space-4);
+
+/* Assertion-Reason block */
+.sq-ar-block {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 8px; overflow: hidden;
+  margin-bottom: var(--space-4);
 }
-.qc-ar__row:first-child {
-  background: rgba(124,58,237,0.03);
-  border-bottom: 1px solid #e2e8f0;
+.sq-ar-row {
+  display: grid; grid-template-columns: 90px 1fr;
+  gap: var(--space-3); padding: var(--space-3) var(--space-4);
+  font-size: var(--text-sm); line-height: 1.6;
 }
-.qc-ar__row:last-child { background: rgba(124,58,237,0.015); }
-.qc-ar__lbl {
-  font-size: var(--text-xs); font-weight: 800; color: #7c3aed;
-  white-space: nowrap; min-width: 110px; padding-top: 2px;
-}
-.qc-ar__txt {
-  font-size: var(--text-sm); color: #1e293b; line-height: 1.65;
+.sq-ar-row + .sq-ar-row { border-top: 1px solid var(--color-border); }
+.sq-ar-label {
+  font-size: 0.65rem; font-weight: 800; text-transform: uppercase;
+  letter-spacing: 0.07em; color: var(--sq); padding-top: 3px;
 }
 
 /* Options */
-.qc-opts {
-  padding: var(--space-4) var(--space-5);
-  display: flex; flex-direction: column; gap: 8px;
+.sq-opts {
+  list-style: none; padding: 0; margin: 0 0 var(--space-4);
+  display: flex; flex-direction: column; gap: var(--space-2);
 }
-.qc-opt {
+.sq-opt {
   display: flex; align-items: flex-start; gap: var(--space-3);
   padding: var(--space-3) var(--space-4);
-  border: 1.5px solid #e2e8f0;
-  border-radius: 9px;
-  background: #fff;
-  cursor: pointer; text-align: left; width: 100%;
-  font-family: var(--font-body);
-  transition: border-color 0.13s, background 0.13s, transform 0.1s;
-  outline: none;
+  border: 1.5px solid var(--color-border);
+  border-radius: 8px; background: var(--color-surface);
+  cursor: pointer; transition: border-color 0.14s, background 0.14s;
+  text-align: left; width: 100%;
+  font-size: var(--text-sm); line-height: 1.55; color: var(--color-text);
 }
-.qc-opt:hover:not(:disabled) {
-  border-color: var(--qs-color, var(--color-brand));
-  background: color-mix(in srgb, var(--qs-color, var(--color-brand)) 5%, #fff);
-  transform: translateX(2px);
+.sq-opt:hover:not(:disabled) {
+  border-color: var(--sq);
+  background: color-mix(in srgb, var(--sq) 5%, white);
 }
-.qc-opt:focus-visible { outline: 2px solid var(--qs-color, var(--color-brand)); outline-offset: 2px; }
-.qc-opt--selected:not(.qc-opt--correct):not(.qc-opt--wrong) {
-  border-color: var(--qs-color, var(--color-brand));
-  background: color-mix(in srgb, var(--qs-color, var(--color-brand)) 8%, #fff);
+.sq-opt.sq-opt--sel {
+  border-color: var(--sq);
+  background: color-mix(in srgb, var(--sq) 8%, white);
 }
-.qc-opt--correct { border-color: #22c55e !important; background: #f0fdf4 !important; transform: none !important; }
-.qc-opt--wrong   { border-color: #ef4444 !important; background: #fef2f2 !important; transform: none !important; }
-.qc-opt:disabled { cursor: default; }
+.sq-opt.sq-opt--ok {
+  border-color: #16a34a; background: rgba(22,163,74,0.07); color: #15803d;
+}
+.sq-opt.sq-opt--bad {
+  border-color: #dc2626; background: rgba(220,38,38,0.07); color: #b91c1c;
+}
+.sq-opt.sq-opt--reveal {
+  border-color: #16a34a; background: rgba(22,163,74,0.04);
+}
+.sq-opt:disabled { cursor: default; }
 
-.qc-opt__lbl {
-  width: 28px; height: 28px; border-radius: 50%;
-  border: 1.5px solid #cbd5e1;
+.sq-opt-ltr {
+  width: 24px; height: 24px; border-radius: 50%; flex-shrink: 0;
   display: flex; align-items: center; justify-content: center;
-  font-size: 0.7rem; font-weight: 800; color: #64748b;
-  flex-shrink: 0; font-family: monospace; text-transform: uppercase;
-  transition: all 0.13s;
+  font-size: 0.65rem; font-weight: 800;
+  background: var(--color-border); color: var(--color-text-muted);
+  margin-top: 1px; transition: background 0.14s;
 }
-.qc-opt--selected .qc-opt__lbl,
-.qc-opt:hover:not(:disabled) .qc-opt__lbl {
-  background: var(--qs-color, var(--color-brand));
-  border-color: var(--qs-color, var(--color-brand));
-  color: #fff;
-}
-.qc-opt--correct .qc-opt__lbl { background: #22c55e !important; border-color: #22c55e !important; color: #fff !important; }
-.qc-opt--wrong   .qc-opt__lbl { background: #ef4444 !important; border-color: #ef4444 !important; color: #fff !important; }
-.qc-opt__txt {
-  font-size: var(--text-sm); color: #1e293b;
-  line-height: 1.5; padding-top: 4px; flex: 1;
-}
-.qc-opt--correct .qc-opt__txt { color: #15803d !important; font-weight: 600; }
-.qc-opt--wrong   .qc-opt__txt { color: #dc2626 !important; }
+.sq-opt.sq-opt--sel  .sq-opt-ltr { background: var(--sq); color: #fff; }
+.sq-opt.sq-opt--ok   .sq-opt-ltr { background: #16a34a; color: #fff; }
+.sq-opt.sq-opt--bad  .sq-opt-ltr { background: #dc2626; color: #fff; }
+.sq-opt.sq-opt--reveal .sq-opt-ltr { background: #16a34a; color: #fff; }
 
-/* Verdict */
-.qc-verdict {
-  margin: 0 var(--space-5) var(--space-3);
-  padding: var(--space-3) var(--space-4);
-  border-radius: 8px;
-  display: flex; align-items: flex-start;
-  gap: var(--space-2); font-size: var(--text-sm); font-weight: 600;
+/* Check button */
+.sq-check {
+  width: 100%; padding: 11px var(--space-4);
+  background: var(--sq); color: #fff;
+  font-weight: 700; font-size: var(--text-sm);
+  border: none; border-radius: 8px; cursor: pointer;
+  transition: opacity 0.15s; margin-bottom: var(--space-3);
 }
-.qc-verdict--correct { background: #f0fdf4; color: #15803d; border: 1px solid #bbf7d0; }
-.qc-verdict--wrong   { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
-.qc-verdict__icon { font-size: 1.1rem; line-height: 1; flex-shrink: 0; }
+.sq-check:disabled {
+  background: var(--color-border); color: var(--color-text-muted); cursor: not-allowed;
+}
+.sq-check:not(:disabled):hover { opacity: 0.88; }
 
-/* Explanation */
-.qc-expl {
-  margin: 0 var(--space-5) var(--space-3);
-  border-radius: 8px;
-  border: 1px solid #fde68a;
-  background: #fffbeb;
-  overflow: hidden;
+/* Feedback */
+.sq-feedback {
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-4); margin-top: var(--space-3);
 }
-.qc-expl__toggle {
-  padding: var(--space-3) var(--space-4);
-  font-size: var(--text-xs); font-weight: 700; color: #92400e;
-  cursor: pointer; list-style: none;
-  display: flex; align-items: center; justify-content: space-between;
-  user-select: none;
+.sq-result-badge {
+  display: inline-flex; align-items: center; gap: var(--space-2);
+  font-weight: 800; font-size: var(--text-sm);
+  padding: var(--space-2) var(--space-3); border-radius: 8px;
+  margin-bottom: var(--space-3);
 }
-.qc-expl__toggle::-webkit-details-marker { display: none; }
-.qc-expl__toggle::after {
-  content: '▾'; font-size: 0.75rem; transition: transform 0.2s;
-}
-details[open] .qc-expl__toggle::after { transform: rotate(-180deg); }
-.qc-expl__body {
-  padding: var(--space-3) var(--space-4) var(--space-4);
-  font-size: var(--text-sm); color: #78350f;
-  line-height: 1.7; border-top: 1px solid #fde68a;
-}
+.sq-result-badge.ok  { color: #15803d; background: rgba(22,163,74,0.1); }
+.sq-result-badge.bad { color: #b91c1c; background: rgba(220,38,38,0.08); }
 
-/* Footer */
-.qc-footer {
-  padding: var(--space-3) var(--space-5) var(--space-4);
-  border-top: 1px solid #f1f5f9;
-  display: flex; gap: var(--space-3); align-items: center;
+.sq-explanation-lbl {
+  font-size: var(--text-xs); font-weight: 800; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--color-text-muted);
+  margin-bottom: var(--space-2);
 }
-.qc-check {
-  flex: 1; padding: 11px var(--space-4);
-  background: var(--qs-color, var(--color-brand));
-  color: #fff; border: none; border-radius: 9px;
-  font-size: var(--text-sm); font-weight: 700;
-  cursor: pointer; font-family: var(--font-body);
-  transition: opacity 0.15s, transform 0.1s;
-  letter-spacing: 0.02em;
-}
-.qc-check:disabled { opacity: 0.35; cursor: not-allowed; transform: none !important; }
-.qc-check:hover:not(:disabled) { opacity: 0.88; transform: translateY(-1px); }
-.qc-check:active:not(:disabled) { transform: translateY(0); }
-.qc-retry {
-  padding: 9px 20px;
-  background: transparent; color: #64748b;
-  border: 1.5px solid #e2e8f0; border-radius: 9px;
-  font-size: var(--text-sm); cursor: pointer;
-  font-family: var(--font-body); transition: all 0.15s;
-}
-.qc-retry:hover {
-  border-color: var(--qs-color, var(--color-brand));
-  color: var(--qs-color, var(--color-brand));
-}
-.qc-kbd-hint {
-  font-size: 0.6rem; color: #94a3b8; margin-left: auto;
-  display: none;
-}
-@media (hover: hover) { .qc-kbd-hint { display: block; } }
-
-/* Empty / no-questions state */
-.qs-empty {
-  text-align: center; padding: var(--space-12) var(--space-6);
-  background: #fff; border-radius: 14px;
-  border: 1px dashed #e2e8f0; max-width: 760px;
+.sq-explanation {
+  font-size: var(--text-sm); line-height: 1.75;
   color: var(--color-text-muted);
 }
-.qs-empty__icon { font-size: 3rem; margin-bottom: var(--space-3); display: block; }
-.qs-empty h3 { color: var(--color-text); margin-bottom: var(--space-2); }
-.qs-empty p { font-size: var(--text-sm); margin-bottom: var(--space-5); }
-.qs-empty-btn {
-  display: inline-block; padding: 10px 24px;
-  background: var(--qs-color, var(--color-brand));
-  color: #fff; border-radius: var(--radius-md);
-  text-decoration: none; font-weight: 700; font-size: var(--text-sm);
-  border: none; cursor: pointer; font-family: var(--font-body);
+.sq-explanation strong { color: var(--color-text); }
+
+/* Navigation */
+.sq-nav {
+  width: 100%; max-width: 700px;
+  display: flex; align-items: center; justify-content: space-between;
+  margin-top: var(--space-4); gap: var(--space-3); flex-wrap: wrap;
+}
+.sq-nav-btn {
+  display: inline-flex; align-items: center; gap: var(--space-2);
+  padding: var(--space-2) var(--space-5);
+  border: 1.5px solid var(--color-border);
+  border-radius: 8px; background: var(--color-surface);
+  font-size: var(--text-sm); font-weight: 700; color: var(--color-text-muted);
+  cursor: pointer; transition: all 0.14s; text-decoration: none;
+}
+.sq-nav-btn:hover:not(:disabled) { border-color: var(--sq); color: var(--sq); text-decoration: none; }
+.sq-nav-btn:disabled { opacity: 0.35; cursor: default; }
+.sq-nav-btn--next {
+  background: var(--sq); color: #fff; border-color: var(--sq);
+}
+.sq-nav-btn--next:hover:not(:disabled) { opacity: 0.88; color: #fff; }
+
+.sq-skip-link {
+  font-size: var(--text-xs); color: var(--color-text-muted);
+  background: none; border: none; cursor: pointer;
+  text-decoration: underline; text-underline-offset: 3px;
+}
+.sq-skip-link:hover { color: var(--sq); }
+
+/* Keyboard hint */
+.sq-keys {
+  width: 100%; max-width: 700px; text-align: center;
+  font-size: 0.65rem; color: var(--color-text-muted);
+  margin-top: var(--space-2);
+}
+.sq-key {
+  display: inline-block;
+  background: var(--color-border); padding: 1px 6px;
+  border-radius: 4px; font-weight: 700; margin: 0 2px;
 }
 
-/* Mobile */
+/* Results screen */
+.sq-results {
+  width: 100%; max-width: 700px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-top: 4px solid var(--sq);
+  border-radius: 14px;
+  padding: var(--space-8);
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+.sq-results__emoji { font-size: 3rem; margin-bottom: var(--space-3); }
+.sq-results__title {
+  font-family: var(--font-heading); font-size: var(--text-2xl);
+  font-weight: 800; margin-bottom: var(--space-2);
+}
+.sq-results__score {
+  font-size: 3.5rem; font-weight: 900;
+  color: var(--sq); line-height: 1; margin-bottom: 4px;
+}
+.sq-results__score-lbl {
+  font-size: var(--text-sm); color: var(--color-text-muted);
+  margin-bottom: var(--space-6);
+}
+.sq-results__breakdown {
+  display: flex; justify-content: center; gap: var(--space-8);
+  flex-wrap: wrap; margin-bottom: var(--space-6);
+}
+.sq-results__stat { text-align: center; }
+.sq-results__num {
+  display: block; font-size: var(--text-xl); font-weight: 800;
+}
+.sq-results__num--c { color: #16a34a; }
+.sq-results__num--w { color: #dc2626; }
+.sq-results__num--s { color: #94a3b8; }
+.sq-results__lbl { font-size: var(--text-xs); color: var(--color-text-muted); }
+.sq-results__actions {
+  display: flex; gap: var(--space-3); flex-wrap: wrap; justify-content: center;
+}
+.sq-results__btn {
+  padding: var(--space-3) var(--space-5);
+  border-radius: 8px; font-weight: 700; font-size: var(--text-sm);
+  border: 1.5px solid; cursor: pointer; transition: opacity 0.15s;
+  text-decoration: none; display: inline-block;
+}
+.sq-results__btn--primary  { background: var(--sq);  color: #fff; border-color: var(--sq); }
+.sq-results__btn--outline  { background: transparent; color: var(--color-text); border-color: var(--color-border); }
+.sq-results__btn:hover { opacity: 0.82; }
+
 @media (max-width: 640px) {
-  .qs-hero__title { font-size: var(--text-xl); }
-  .qc-meta  { padding: var(--space-3) var(--space-4) 0; }
-  .qc-body  { padding: var(--space-3) var(--space-4) 0; }
-  .qc-opts  { padding: var(--space-3) var(--space-4); }
-  .qc-footer{ padding: var(--space-3) var(--space-4); }
-  .qc-verdict,.qc-expl { margin-left: var(--space-4); margin-right: var(--space-4); }
-  .qc-ar__lbl { min-width: 80px; font-size: 0.6rem; }
+  .sq-card { padding: var(--space-4); }
+  .sq-stage { padding: var(--space-4) var(--space-3) var(--space-16); }
+  .sq-header { padding: 0 var(--space-3); }
+  .sq-title { max-width: 100px; }
+  .sq-ar-row { grid-template-columns: 70px 1fr; }
+  .sq-results { padding: var(--space-5) var(--space-4); }
+  .sq-results__score { font-size: 2.5rem; }
 }
 </style>
 
-<!-- Hero -->
-<div class="qs-hero" style="--qs-color:{{ subj.color }};">
-  <div class="container">
-    <a href="/quiz/" class="qs-hero__back">← Quiz Hub</a>
-    <div class="qs-hero__subject">
-      <span class="qs-hero__icon">{{ subj.icon }}</span>
-      <h1 class="qs-hero__title">{{ subj.name }} — PYQ Practice</h1>
-    </div>
-    <p class="qs-hero__sub">UPSC Prelims Previous Year Questions · Track scores · Practice all MCQ types</p>
-    <div class="qs-hero__stats">
-      <div class="qs-hero__stat">
-        <span class="qs-hero__stat-num" id="qs-total">{{ subjectPyq | length }}</span>
-        <span class="qs-hero__stat-lbl">Questions</span>
-      </div>
-      <div class="qs-hero__stat">
-        <span class="qs-hero__stat-num" id="qs-correct-count">0</span>
-        <span class="qs-hero__stat-lbl">Correct</span>
-      </div>
-      <div class="qs-hero__stat">
-        <span class="qs-hero__stat-num" id="qs-wrong-count">0</span>
-        <span class="qs-hero__stat-lbl">Incorrect</span>
-      </div>
-      <div class="qs-hero__stat">
-        <span class="qs-hero__stat-num" id="qs-remain-count">{{ subjectPyq | length }}</span>
-        <span class="qs-hero__stat-lbl">Remaining</span>
-      </div>
-    </div>
-  </div>
+<!-- Header -->
+<div class="sq-header">
+  <a href="/quiz/" class="sq-back">← Quiz Hub</a>
+  <span class="sq-divider">|</span>
+  <span class="sq-title">{{ subj.icon }} {{ subj.name }}</span>
+  <span class="sq-counter" id="sq-counter"></span>
+  <button class="sq-reset-btn" id="sq-reset-btn">Reset</button>
 </div>
 
-<!-- Progress bar (sticky) -->
-<div class="qs-prog">
-  <div class="container">
-    <div class="qs-prog__bar">
-      <div class="qs-prog__fill qs-prog__fill--correct" id="qs-prog-correct" style="width:0%"></div>
-      <div class="qs-prog__fill qs-prog__fill--wrong"   id="qs-prog-wrong"   style="width:0%"></div>
-    </div>
-    <div class="qs-prog__labels">
-      <span class="qs-prog__lbl"><span class="qs-prog__dot qs-prog__dot--correct"></span><b id="qs-p-correct">0</b> correct</span>
-      <span class="qs-prog__lbl"><span class="qs-prog__dot qs-prog__dot--wrong"></span><b id="qs-p-wrong">0</b> incorrect</span>
-      <span class="qs-prog__lbl"><span class="qs-prog__dot qs-prog__dot--remain"></span><b id="qs-p-remain">{{ subjectPyq | length }}</b> remaining</span>
-    </div>
-  </div>
+<!-- Progress bar -->
+<div class="sq-prog-track">
+  <div class="sq-prog-correct" id="sq-prog-c"></div>
+  <div class="sq-prog-wrong"   id="sq-prog-w"></div>
+  <div class="sq-prog-done"    id="sq-prog-d"></div>
 </div>
 
-<!-- Filter bar -->
-<div class="qs-filters" style="--qs-color:{{ subj.color }};">
-  <div class="container">
-    <div class="qs-filters__inner">
-      <select class="qs-filter-select" id="qs-filter-topic" aria-label="Filter by topic">
-        <option value="all">All Topics</option>
-      </select>
-      <select class="qs-filter-select" id="qs-filter-year" aria-label="Filter by year">
-        <option value="all">All Years</option>
-      </select>
-      <span class="qs-sep"></span>
-      <button class="qs-filter-btn active" data-f="all">All</button>
-      <button class="qs-filter-btn" data-f="unanswered">Unanswered</button>
-      <button class="qs-filter-btn" data-f="correct">Correct</button>
-      <button class="qs-filter-btn" data-f="wrong">Incorrect</button>
-      <button class="qs-reset" id="qs-reset">Reset All</button>
-    </div>
+{% if subj.quiz == false %}
+<!-- Mains-only subject — no Prelims quiz -->
+<div class="sq-stage">
+  <div class="sq-empty">
+    <p style="font-size:2.5rem; margin-bottom:var(--space-3);">✍️</p>
+    <h3>Mains-Only Subject</h3>
+    <p>{{ subj.name }} covers GS{{ subj.gs_papers | join('/GS') | upper }} topics that appear only in UPSC Mains (essay-type questions), not in Prelims MCQs.</p>
+    <a href="/quiz/">← Back to Quiz Hub</a>
   </div>
 </div>
+{% else %}
+<!-- Topic filter bar -->
+<div class="sq-filters" id="sq-filters"></div>
 
-<!-- Questions -->
-<div class="qs-page">
-  <div class="qs-main">
-    <div class="container">
-      <div class="qs-feed-header">
-        <span class="qs-count" id="qs-count"></span>
-      </div>
-      <div class="qs-feed" id="qs-feed" style="--qs-color:{{ subj.color }};"></div>
-    </div>
-  </div>
+<!-- Main question stage -->
+<div class="sq-stage">
+  <div id="sq-main" style="width:100%; max-width:700px;"></div>
 </div>
+{% endif %}
 
 <script>
 (function () {
-  /* ── Data ── */
-  var DATA    = {{ subjectPyq | dump | safe }};
-  var SUBJECT = '{{ subj.slug }}';
-  var STORE_KEY = 'bn_quiz_v2';
+  if ({{ 'true' if subj.quiz == false else 'false' }}) return; // mains-only subject
 
-  /* ── Assertion–Reason fixed options ── */
+  /* ── Data ─────────────────────────────────────────────── */
+  var ALL_Q  = {{ (pyq[subj.slug] or []) | dump | safe }};
+  var SLUG   = '{{ subj.slug }}';
+  var STORE  = 'bn_quiz_v2';
+  var LETTERS = ['A','B','C','D'];
   var AR_OPTS = [
     'Both A and R are true and R is the correct explanation of A',
     'Both A and R are true but R is NOT the correct explanation of A',
     'A is true but R is false',
     'A is false but R is true'
   ];
-  var LETTERS = ['a', 'b', 'c', 'd'];
 
-  /* ── localStorage helpers ── */
+  /* ── State ────────────────────────────────────────────── */
+  var S = {
+    q:         [],       // active (filtered) questions
+    idx:       0,        // current index in S.q
+    answers:   {},       // { id: {chosen:n, ok:bool} }
+    topic:     'all',
+    chosen:    -1        // selected but not yet checked
+  };
+
+  /* ── localStorage ─────────────────────────────────────── */
   function loadStore() {
-    try { return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; }
-    catch (e) { return {}; }
+    try { return (JSON.parse(localStorage.getItem(STORE)) || {})[SLUG] || {}; }
+    catch(e) { return {}; }
   }
-  function saveAnswer(id, ansIdx) {
-    var store = loadStore();
-    if (!store[SUBJECT]) store[SUBJECT] = {};
-    store[SUBJECT][id] = ansIdx;
-    localStorage.setItem(STORE_KEY, JSON.stringify(store));
+  function saveToStore(id, chosen, ok) {
+    try {
+      var st = JSON.parse(localStorage.getItem(STORE)) || {};
+      if (!st[SLUG]) st[SLUG] = {};
+      st[SLUG][id] = { chosen: chosen, ok: ok };
+      localStorage.setItem(STORE, JSON.stringify(st));
+    } catch(e) {}
   }
-  function removeAnswer(id) {
-    var store = loadStore();
-    if (store[SUBJECT]) {
-      delete store[SUBJECT][id];
-      localStorage.setItem(STORE_KEY, JSON.stringify(store));
-    }
-  }
-  function clearSubject() {
-    var store = loadStore();
-    delete store[SUBJECT];
-    localStorage.setItem(STORE_KEY, JSON.stringify(store));
+  function clearStore() {
+    try {
+      var st = JSON.parse(localStorage.getItem(STORE)) || {};
+      delete st[SLUG];
+      localStorage.setItem(STORE, JSON.stringify(st));
+    } catch(e) {}
   }
 
-  /* ── HTML escape ── */
+  /* ── Helpers ──────────────────────────────────────────── */
   function esc(s) {
-    if (!s) return '';
-    return String(s)
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;');
+    return String(s || '')
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
+  function opts(q) { return q.qtype === 'assertion' ? AR_OPTS : (q.options || []); }
 
-  /* ── Build option buttons HTML ── */
-  function buildOpts(opts, savedAns, correct) {
-    var answered = savedAns !== undefined;
-    var html = '<div class="qc-opts" role="radiogroup" aria-label="Answer options">';
-    opts.forEach(function (opt, i) {
-      var cls = 'qc-opt';
-      if (answered) {
-        if (i === correct) cls += ' qc-opt--correct';
-        else if (i === savedAns) cls += ' qc-opt--wrong';
-        if (i === savedAns) cls += ' qc-opt--selected';
-      }
-      var disabledAttr = answered ? ' disabled' : '';
-      html += '<button class="' + cls + '" data-idx="' + i + '"' + disabledAttr + ' type="button">';
-      html += '<span class="qc-opt__lbl">' + LETTERS[i] + '</span>';
-      html += '<span class="qc-opt__txt">' + esc(opt) + '</span>';
-      html += '</button>';
-    });
-    html += '</div>';
-    return html;
-  }
-
-  /* ── Build verdict HTML ── */
-  function buildVerdict(isCorrect, correct, opts) {
-    var cls = isCorrect ? 'qc-verdict--correct' : 'qc-verdict--wrong';
-    var icon = isCorrect ? '✓' : '✗';
-    var msg = isCorrect
-      ? 'Correct!'
-      : 'Incorrect — correct answer: (' + LETTERS[correct] + ') ' + esc(opts[correct]);
-    return '<div class="qc-verdict ' + cls + '"><span class="qc-verdict__icon">' + icon + '</span><span>' + msg + '</span></div>';
-  }
-
-  /* ── Build explanation HTML ── */
-  function buildExpl(explanation, open) {
-    if (!explanation) return '';
-    return '<details class="qc-expl"' + (open ? ' open' : '') + '>' +
-      '<summary class="qc-expl__toggle">💡 Explanation</summary>' +
-      '<div class="qc-expl__body">' + esc(explanation) + '</div>' +
-      '</details>';
-  }
-
-  /* ── Render one question card ── */
-  function renderCard(q, seqNum, savedAns) {
-    var answered  = savedAns !== undefined;
-    var isCorrect = answered && savedAns === q.correct;
-    var opts = q.qtype === 'assertion' ? AR_OPTS : (q.options || []);
-
-    var cardCls = 'qc';
-    if (answered) cardCls += isCorrect ? ' qc--correct qc--answered' : ' qc--wrong qc--answered';
-
-    var html = '<div class="' + cardCls + '" data-id="' + esc(q.id) + '" data-correct="' + q.correct + '">';
-
-    /* meta row */
-    var qtypeBadge = '';
-    if (q.qtype === 'assertion') qtypeBadge = '<span class="qc-badge qc-badge--ar">Assertion–Reason</span>';
-    else if (q.qtype === 'statement') qtypeBadge = '<span class="qc-badge qc-badge--stmt">Statement Based</span>';
-    else if (q.qtype === 'direct') qtypeBadge = '<span class="qc-badge qc-badge--dir">Direct MCQ</span>';
-
-    html += '<div class="qc-meta">';
-    html += '<span class="qc-num">' + seqNum + '</span>';
-    if (q.year) html += '<span class="qc-year">CSE&nbsp;' + q.year + '</span>';
-    html += qtypeBadge;
-    if (q.topic) html += '<span class="qc-topic">' + esc(q.topic) + (q.subtopic ? ' · ' + esc(q.subtopic) : '') + '</span>';
-    html += '</div>';
-
-    /* body */
-    html += '<div class="qc-body">';
-    if (q.qtype === 'assertion') {
-      html += '<div class="qc-ar">';
-      html += '<div class="qc-ar__row"><span class="qc-ar__lbl">Assertion (A):</span><span class="qc-ar__txt">' + esc(q.assertion) + '</span></div>';
-      html += '<div class="qc-ar__row"><span class="qc-ar__lbl">Reason&nbsp;&nbsp;&nbsp;(R):</span><span class="qc-ar__txt">' + esc(q.reason) + '</span></div>';
-      html += '</div>';
-    } else {
-      html += '<p class="qc-stem">' + esc(q.stem) + '</p>';
-      if (q.statements && q.statements.length) {
-        html += '<ol class="qc-stmts">';
-        q.statements.forEach(function (s) { html += '<li>' + esc(s) + '</li>'; });
-        html += '</ol>';
-        if (q.tail) html += '<p class="qc-tail">' + esc(q.tail || 'Which of the statements given above is/are correct?') + '</p>';
-      }
-    }
-    html += '</div>';
-
-    /* options */
-    html += buildOpts(opts, savedAns, q.correct);
-
-    /* verdict + explanation (if already answered) */
-    if (answered) {
-      html += buildVerdict(isCorrect, q.correct, opts);
-      html += buildExpl(q.explanation, true);
-    }
-
-    /* footer */
-    html += '<div class="qc-footer">';
-    if (!answered) {
-      html += '<button class="qc-check" data-id="' + esc(q.id) + '" type="button" disabled>Check Answer</button>';
-      html += '<span class="qc-kbd-hint">1–4 to select · Enter to check</span>';
-    } else {
-      html += '<button class="qc-retry" data-id="' + esc(q.id) + '" type="button">↺ Try Again</button>';
-    }
-    html += '</div>';
-
-    html += '</div>'; /* .qc */
-    return html;
-  }
-
-  /* ── Wire events to rendered cards ── */
-  function wireCards(feed) {
-    /* Option selection */
-    feed.querySelectorAll('.qc:not(.qc--answered) .qc-opt').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        var card = btn.closest('.qc');
-        card.querySelectorAll('.qc-opt').forEach(function (b) { b.classList.remove('qc-opt--selected'); });
-        btn.classList.add('qc-opt--selected');
-        var checkBtn = card.querySelector('.qc-check');
-        if (checkBtn) checkBtn.disabled = false;
-      });
-    });
-
-    /* Keyboard shortcut (1–4 and Enter) on unanswered cards */
-    feed.querySelectorAll('.qc:not(.qc--answered)').forEach(function (card) {
-      card.addEventListener('keydown', function (e) {
-        var k = e.key;
-        var idx = { '1': 0, '2': 1, '3': 2, '4': 3 }[k];
-        if (idx !== undefined) {
-          var opts = card.querySelectorAll('.qc-opt');
-          if (opts[idx]) opts[idx].click();
-        }
-        if (k === 'Enter') {
-          var checkBtn = card.querySelector('.qc-check:not(:disabled)');
-          if (checkBtn) checkBtn.click();
-        }
-      });
-      card.setAttribute('tabindex', '0');
-    });
-
-    /* Check answer */
-    feed.querySelectorAll('.qc-check').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        var card  = btn.closest('.qc');
-        var id    = btn.getAttribute('data-id');
-        var sel   = card.querySelector('.qc-opt--selected');
-        if (!sel) return;
-        var ansIdx  = parseInt(sel.getAttribute('data-idx'));
-        var correct = parseInt(card.getAttribute('data-correct'));
-        var q = DATA.find(function (d) { return d.id === id; });
-        var opts = q && q.qtype === 'assertion' ? AR_OPTS : (q ? q.options || [] : []);
-        var isCorrect = ansIdx === correct;
-
-        /* Save */
-        saveAnswer(id, ansIdx);
-
-        /* Style options */
-        card.querySelectorAll('.qc-opt').forEach(function (opt, i) {
-          opt.disabled = true;
-          if (i === correct) opt.classList.add('qc-opt--correct');
-          else if (i === ansIdx) opt.classList.add('qc-opt--wrong');
-        });
-
-        /* Insert verdict */
-        var optsEl = card.querySelector('.qc-opts');
-        var verdictEl = document.createElement('div');
-        verdictEl.innerHTML = buildVerdict(isCorrect, correct, opts);
-        optsEl.parentNode.insertBefore(verdictEl.firstChild, optsEl.nextSibling);
-
-        /* Insert explanation */
-        if (q && q.explanation) {
-          var explEl = document.createElement('div');
-          explEl.innerHTML = buildExpl(q.explanation, true);
-          var verdict = card.querySelector('.qc-verdict');
-          verdict.parentNode.insertBefore(explEl.firstChild, verdict.nextSibling);
-        }
-
-        /* Replace footer */
-        var footer = card.querySelector('.qc-footer');
-        footer.innerHTML = '<button class="qc-retry" data-id="' + esc(id) + '" type="button">↺ Try Again</button>';
-        footer.querySelector('.qc-retry').addEventListener('click', function () {
-          removeAnswer(id);
-          renderAll();
-        });
-
-        /* Update card class */
-        card.classList.add('qc--answered');
-        card.classList.add(isCorrect ? 'qc--correct' : 'qc--wrong');
-
-        updateProgress();
-      });
-    });
-
-    /* Try Again */
-    feed.querySelectorAll('.qc-retry').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        removeAnswer(btn.getAttribute('data-id'));
-        renderAll();
-      });
-    });
-  }
-
-  /* ── Populate filter dropdowns ── */
-  function populateFilters() {
-    var topics = {}, years = {};
-    DATA.forEach(function (q) {
-      if (q.topic) topics[q.topic] = true;
-      if (q.year) years[q.year] = true;
-    });
-
-    var topicSel = document.getElementById('qs-filter-topic');
-    Object.keys(topics).sort().forEach(function (t) {
-      var o = document.createElement('option');
-      o.value = t; o.textContent = t;
-      topicSel.appendChild(o);
-    });
-
-    var yearSel = document.getElementById('qs-filter-year');
-    Object.keys(years).sort(function (a, b) { return b - a; }).forEach(function (y) {
-      var o = document.createElement('option');
-      o.value = y; o.textContent = y;
-      yearSel.appendChild(o);
-    });
-
-    topicSel.addEventListener('change', renderAll);
-    yearSel.addEventListener('change', renderAll);
-  }
-
-  /* ── Update progress bar & hero stats ── */
-  function updateProgress() {
-    var store  = loadStore();
-    var saved  = store[SUBJECT] || {};
-    var total  = DATA.length;
-    var answered = 0, correct = 0;
-    DATA.forEach(function (q) {
-      var a = saved[q.id];
-      if (a !== undefined) { answered++; if (a === q.correct) correct++; }
-    });
-    var wrong   = answered - correct;
-    var remain  = total - answered;
-    var pCorrect = total ? (correct / total * 100) : 0;
-    var pWrong   = total ? (wrong   / total * 100) : 0;
-
-    document.getElementById('qs-prog-correct').style.width = pCorrect + '%';
-    document.getElementById('qs-prog-wrong').style.width   = pWrong   + '%';
-
-    var set = function (id, v) { var el = document.getElementById(id); if (el) el.textContent = v; };
-    set('qs-correct-count', correct);
-    set('qs-wrong-count',   wrong);
-    set('qs-remain-count',  remain);
-    set('qs-p-correct', correct);
-    set('qs-p-wrong',   wrong);
-    set('qs-p-remain',  remain);
-  }
-
-  /* ── Main render ── */
-  function renderAll() {
-    var store = loadStore();
-    var saved = store[SUBJECT] || {};
-    var feed  = document.getElementById('qs-feed');
-    if (!feed) return;
-
-    /* Collect filter values */
-    var topicFilter  = document.getElementById('qs-filter-topic').value;
-    var yearFilter   = document.getElementById('qs-filter-year').value;
-    var activeBtn    = document.querySelector('.qs-filter-btn.active');
-    var statusFilter = activeBtn ? activeBtn.getAttribute('data-f') : 'all';
-
-    /* Filter */
-    var filtered = DATA.filter(function (q) {
-      if (topicFilter !== 'all' && q.topic !== topicFilter) return false;
-      if (yearFilter  !== 'all' && String(q.year) !== yearFilter) return false;
-      var a = saved[q.id];
-      var ans = a !== undefined;
-      if (statusFilter === 'unanswered' && ans) return false;
-      if (statusFilter === 'correct' && (!ans || a !== q.correct)) return false;
-      if (statusFilter === 'wrong'   && (!ans || a === q.correct)) return false;
+  /* ── Filter questions ─────────────────────────────────── */
+  function applyFilter(topic, retryWrong) {
+    S.topic = topic;
+    S.q = ALL_Q.filter(function(q) {
+      if (q.type === 'mains') return false;
+      if (topic !== 'all' && q.topic !== topic) return false;
+      if (retryWrong) { var a = S.answers[q.id]; return !a || !a.ok; }
       return true;
     });
+    // resume: jump to first unanswered
+    S.idx = 0;
+    for (var i = 0; i < S.q.length; i++) {
+      if (!S.answers[S.q[i].id]) { S.idx = i; break; }
+    }
+  }
 
-    /* Render */
-    if (!DATA.length) {
-      feed.innerHTML = '<div class="qs-empty">' +
-        '<span class="qs-empty__icon">📝</span>' +
+  /* ── Progress bar + counter ───────────────────────────── */
+  function updateProgress() {
+    var total = S.q.length;
+    var c = 0, w = 0;
+    S.q.forEach(function(q) {
+      var a = S.answers[q.id];
+      if (a) { if (a.ok) c++; else w++; }
+    });
+    var pC = total ? (c/total*100).toFixed(1) : 0;
+    var pW = total ? (w/total*100).toFixed(1) : 0;
+    var pD = total ? ((c+w)/total*100 - pC - pW + parseFloat(pC) + parseFloat(pW)).toFixed(1) : 0;
+    // just set correct + wrong widths; remainder is gray track
+    var eC = document.getElementById('sq-prog-c');
+    var eW = document.getElementById('sq-prog-w');
+    if (eC) eC.style.width = pC + '%';
+    if (eW) eW.style.width = pW + '%';
+
+    var ce = document.getElementById('sq-counter');
+    if (ce && total) {
+      ce.textContent = 'Q ' + (S.idx+1) + ' / ' + total;
+    } else if (ce) {
+      ce.textContent = '';
+    }
+  }
+
+  /* ── HTML builders ────────────────────────────────────── */
+  function buildStem(q) {
+    var h = '';
+    if (q.qtype === 'assertion') {
+      h += '<p class="sq-stem">Consider the following Assertion (A) and Reason (R):</p>';
+      h += '<div class="sq-ar-block">';
+      h += '<div class="sq-ar-row"><span class="sq-ar-label">Assertion (A)</span><span>' + esc(q.assertion) + '</span></div>';
+      h += '<div class="sq-ar-row"><span class="sq-ar-label">Reason (R)</span><span>' + esc(q.reason) + '</span></div>';
+      h += '</div>';
+      return h;
+    }
+    h += '<p class="sq-stem">' + esc(q.stem) + '</p>';
+    if (q.statements && q.statements.length) {
+      h += '<ul class="sq-stmts">';
+      q.statements.forEach(function(s) { h += '<li><span>' + esc(s) + '</span></li>'; });
+      h += '</ul>';
+    }
+    if (q.tail) h += '<p class="sq-tail">' + esc(q.tail) + '</p>';
+    return h;
+  }
+
+  function buildOpts(q, answered, chosenIdx) {
+    var os = opts(q);
+    var h = '<ul class="sq-opts">';
+    os.forEach(function(o, i) {
+      var cls = 'sq-opt';
+      var dis = '';
+      if (answered) {
+        dis = 'disabled';
+        if (i === q.correct) cls += ' sq-opt--ok';
+        else if (i === chosenIdx) cls += ' sq-opt--bad';
+      } else {
+        if (i === chosenIdx) cls += ' sq-opt--sel';
+      }
+      h += '<button class="' + cls + '" data-opt="' + i + '" ' + dis + '>' +
+           '<span class="sq-opt-ltr">' + LETTERS[i] + '</span>' +
+           '<span>' + esc(o) + '</span>' +
+           '</button>';
+    });
+    h += '</ul>';
+    return h;
+  }
+
+  /* ── Render question ──────────────────────────────────── */
+  function render() {
+    var el = document.getElementById('sq-main');
+    if (!el) return;
+
+    if (!S.q.length) {
+      el.innerHTML = '<div class="sq-empty">' +
+        '<p style="font-size:2.5rem;margin-bottom:var(--space-3)">🔄</p>' +
         '<h3>Questions Coming Soon</h3>' +
-        '<p>We are preparing verified UPSC PYQs for this subject. Check back shortly.</p>' +
-        '<a href="/quiz/" class="qs-empty-btn">← Back to Quiz Hub</a>' +
+        '<p>We\'re verifying and adding PYQs for this subject. Check back soon.</p>' +
+        '<a href="/quiz/">← Back to Quiz Hub</a>' +
         '</div>';
-      document.getElementById('qs-count').textContent = '';
       return;
     }
 
-    if (!filtered.length) {
-      feed.innerHTML = '<div class="qs-empty">' +
-        '<span class="qs-empty__icon">🔍</span>' +
-        '<h3>No Questions Match</h3>' +
-        '<p>Try changing the filters above.</p>' +
-        '<button class="qs-empty-btn" id="qs-clear-f">Clear Filters</button>' +
-        '</div>';
-      document.getElementById('qs-count').textContent = '0 questions';
-      var cb = document.getElementById('qs-clear-f');
-      if (cb) cb.addEventListener('click', clearFilters);
-      return;
+    // check if all done
+    var allDone = S.q.every(function(q) { return !!S.answers[q.id]; });
+    if (allDone && S.q.length > 0) { showResults(); return; }
+
+    // find current: skip to next unanswered if current is answered (edge case on filter change)
+    if (S.answers[S.q[S.idx] && S.q[S.idx].id]) {
+      for (var j = 0; j < S.q.length; j++) {
+        if (!S.answers[S.q[j].id]) { S.idx = j; break; }
+      }
     }
 
-    var html = '';
-    filtered.forEach(function (q, i) {
-      html += renderCard(q, i + 1, saved[q.id]);
-    });
-    feed.innerHTML = html;
-    wireCards(feed);
+    var q = S.q[S.idx];
+    var saved = S.answers[q.id] || null;
+    var answered = !!saved;
+    var chosenIdx = answered ? saved.chosen : S.chosen;
+
+    var h = '<div class="sq-card">';
+
+    // meta
+    h += '<div class="sq-meta">';
+    h += '<span class="sq-badge sq-badge--topic">' + esc(q.topic) + '</span>';
+    if (q.subtopic) h += '<span class="sq-badge sq-badge--subtopic">' + esc(q.subtopic) + '</span>';
+    h += '<span class="sq-badge sq-badge--year">CSE Prelims ' + esc(q.year) + '</span>';
+    h += '</div>';
+
+    // question body
+    h += buildStem(q);
+
+    // options
+    h += buildOpts(q, answered, chosenIdx);
+
+    // check button (hidden after answering)
+    if (!answered) {
+      h += '<button class="sq-check" id="sq-chk" ' + (S.chosen < 0 ? 'disabled' : '') + '>Check Answer</button>';
+    }
+
+    // feedback
+    if (answered) {
+      var ok = saved.ok;
+      h += '<div class="sq-feedback">';
+      h += '<div class="sq-result-badge ' + (ok ? 'ok' : 'bad') + '">' + (ok ? '✅ Correct!' : '❌ Incorrect') + '</div>';
+      if (q.explanation) {
+        h += '<p class="sq-explanation-lbl">Explanation</p>';
+        h += '<p class="sq-explanation">' + esc(q.explanation) + '</p>';
+      }
+      h += '</div>';
+    }
+
+    h += '</div>'; // .sq-card
+
+    // navigation
+    var isLast = S.idx >= S.q.length - 1;
+    h += '<div class="sq-nav">';
+    h += '<button class="sq-nav-btn" id="sq-prev" ' + (S.idx === 0 ? 'disabled' : '') + '>← Prev</button>';
+    if (!answered) {
+      h += '<button class="sq-skip-link" id="sq-skip">Skip for now</button>';
+    } else {
+      h += '<span></span>';
+    }
+    if (answered) {
+      h += '<button class="sq-nav-btn sq-nav-btn--next" id="sq-next">' +
+           (isLast ? 'See Results →' : 'Next →') + '</button>';
+    } else {
+      h += '<span></span>';
+    }
+    h += '</div>';
+
+    // keyboard hint
+    h += '<p class="sq-keys">Keyboard: <span class="sq-key">1</span>–<span class="sq-key">4</span> select &nbsp; <span class="sq-key">Enter</span> check / next</p>';
+
+    el.innerHTML = h;
     updateProgress();
-
-    var n = filtered.length;
-    document.getElementById('qs-count').textContent = n + ' question' + (n !== 1 ? 's' : '');
+    wireEvents(q);
   }
 
-  /* ── Clear filters ── */
-  function clearFilters() {
-    document.getElementById('qs-filter-topic').value = 'all';
-    document.getElementById('qs-filter-year').value  = 'all';
-    document.querySelectorAll('.qs-filter-btn').forEach(function (b) { b.classList.remove('active'); });
-    var allBtn = document.querySelector('.qs-filter-btn[data-f="all"]');
-    if (allBtn) allBtn.classList.add('active');
-    renderAll();
-  }
-
-  /* ── Wire status filter buttons ── */
-  document.querySelectorAll('.qs-filter-btn').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      document.querySelectorAll('.qs-filter-btn').forEach(function (b) { b.classList.remove('active'); });
-      btn.classList.add('active');
-      renderAll();
+  /* ── Wire card events ─────────────────────────────────── */
+  function wireEvents(q) {
+    // options
+    document.querySelectorAll('.sq-opt:not([disabled])').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        document.querySelectorAll('.sq-opt').forEach(function(b) { b.classList.remove('sq-opt--sel'); });
+        btn.classList.add('sq-opt--sel');
+        S.chosen = parseInt(btn.getAttribute('data-opt'));
+        var chk = document.getElementById('sq-chk');
+        if (chk) chk.disabled = false;
+      });
     });
+
+    // check
+    var chkBtn = document.getElementById('sq-chk');
+    if (chkBtn) {
+      chkBtn.addEventListener('click', function() {
+        if (S.chosen < 0) return;
+        var ok = S.chosen === q.correct;
+        S.answers[q.id] = { chosen: S.chosen, ok: ok };
+        saveToStore(q.id, S.chosen, ok);
+        S.chosen = -1;
+        render();
+      });
+    }
+
+    // next
+    var nxtBtn = document.getElementById('sq-next');
+    if (nxtBtn) {
+      nxtBtn.addEventListener('click', function() {
+        if (S.idx < S.q.length - 1) { S.idx++; S.chosen = -1; render(); }
+        else showResults();
+      });
+    }
+
+    // prev
+    var prvBtn = document.getElementById('sq-prev');
+    if (prvBtn) {
+      prvBtn.addEventListener('click', function() {
+        if (S.idx > 0) { S.idx--; S.chosen = -1; render(); }
+      });
+    }
+
+    // skip
+    var skpBtn = document.getElementById('sq-skip');
+    if (skpBtn) {
+      skpBtn.addEventListener('click', function() {
+        if (S.idx < S.q.length - 1) {
+          S.idx++; S.chosen = -1; render();
+        } else {
+          // wrap to first unanswered
+          for (var i = 0; i < S.q.length; i++) {
+            if (!S.answers[S.q[i].id]) { S.idx = i; S.chosen = -1; render(); return; }
+          }
+          showResults();
+        }
+      });
+    }
+  }
+
+  /* ── Keyboard shortcuts ───────────────────────────────── */
+  document.addEventListener('keydown', function(e) {
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    var key = e.key;
+    if (key >= '1' && key <= '4') {
+      var btns = document.querySelectorAll('.sq-opt:not([disabled])');
+      var i = parseInt(key) - 1;
+      if (btns[i]) btns[i].click();
+      return;
+    }
+    if (key === 'Enter') {
+      var chk = document.getElementById('sq-chk');
+      if (chk && !chk.disabled) { chk.click(); return; }
+      var nxt = document.getElementById('sq-next');
+      if (nxt) { nxt.click(); return; }
+    }
+    if (key === 'ArrowRight') {
+      var nxt2 = document.getElementById('sq-next');
+      if (nxt2) nxt2.click();
+    }
+    if (key === 'ArrowLeft') {
+      var prv2 = document.getElementById('sq-prev');
+      if (prv2 && !prv2.disabled) prv2.click();
+    }
   });
 
-  /* ── Reset All ── */
-  var resetBtn = document.getElementById('qs-reset');
-  if (resetBtn) {
-    resetBtn.addEventListener('click', function () {
-      if (!window.confirm('Reset all scores for this subject? This cannot be undone.')) return;
-      clearSubject();
-      renderAll();
+  /* ── Results screen ───────────────────────────────────── */
+  function showResults() {
+    var el = document.getElementById('sq-main');
+    if (!el) return;
+    var total = S.q.length;
+    var correct = 0, wrong = 0, skipped = 0;
+    S.q.forEach(function(q) {
+      var a = S.answers[q.id];
+      if (!a) skipped++;
+      else if (a.ok) correct++;
+      else wrong++;
+    });
+    var pct = total ? Math.round(correct / total * 100) : 0;
+    var emoji = pct >= 70 ? '🎯' : pct >= 50 ? '📊' : '📚';
+    var msg   = pct >= 70 ? 'Great work!' : pct >= 50 ? 'Good effort!' : 'Keep practising!';
+
+    var h = '<div class="sq-results">';
+    h += '<div class="sq-results__emoji">' + emoji + '</div>';
+    h += '<div class="sq-results__title">' + msg + '</div>';
+    h += '<div class="sq-results__score">' + correct +
+         '<span style="font-size:1.5rem;color:var(--color-text-muted);">/' + total + '</span></div>';
+    h += '<div class="sq-results__score-lbl">Correct answers &nbsp;·&nbsp; ' + pct + '% accuracy</div>';
+    h += '<div class="sq-results__breakdown">';
+    h += '<div class="sq-results__stat"><span class="sq-results__num sq-results__num--c">' + correct + '</span><span class="sq-results__lbl">Correct</span></div>';
+    h += '<div class="sq-results__stat"><span class="sq-results__num sq-results__num--w">' + wrong + '</span><span class="sq-results__lbl">Incorrect</span></div>';
+    if (skipped) h += '<div class="sq-results__stat"><span class="sq-results__num sq-results__num--s">' + skipped + '</span><span class="sq-results__lbl">Skipped</span></div>';
+    h += '</div>';
+    h += '<div class="sq-results__actions">';
+    if (wrong > 0) {
+      h += '<button class="sq-results__btn sq-results__btn--primary" id="sq-r-wrong">Retry Wrong (' + wrong + ')</button>';
+    }
+    h += '<button class="sq-results__btn sq-results__btn--outline" id="sq-r-all">Retry All</button>';
+    h += '<a href="/quiz/" class="sq-results__btn sq-results__btn--outline">← Quiz Hub</a>';
+    h += '</div>';
+    h += '</div>';
+
+    el.innerHTML = h;
+    updateProgress();
+
+    var rWrong = document.getElementById('sq-r-wrong');
+    if (rWrong) rWrong.addEventListener('click', function() {
+      applyFilter(S.topic, true);
+      S.chosen = -1;
+      render();
+    });
+    var rAll = document.getElementById('sq-r-all');
+    if (rAll) rAll.addEventListener('click', function() {
+      clearStore(); S.answers = {};
+      applyFilter('all', false);
+      S.chosen = -1;
+      render();
     });
   }
 
-  /* ── Boot ── */
-  populateFilters();
-  renderAll();
+  /* ── Topic filter bar ─────────────────────────────────── */
+  function buildFilters() {
+    var bar = document.getElementById('sq-filters');
+    if (!bar) return;
+    var preliQ = ALL_Q.filter(function(q) { return q.type !== 'mains'; });
+    var topicMap = {};
+    preliQ.forEach(function(q) { topicMap[q.topic] = (topicMap[q.topic] || 0) + 1; });
+    var topics = Object.keys(topicMap);
+    if (topics.length <= 1) { bar.style.display = 'none'; return; }
+    var h = '<button class="sq-ftag active" data-t="all">All (' + preliQ.length + ')</button>';
+    topics.forEach(function(t) {
+      h += '<button class="sq-ftag" data-t="' + esc(t) + '">' + esc(t) + ' (' + topicMap[t] + ')</button>';
+    });
+    bar.innerHTML = h;
+    bar.querySelectorAll('.sq-ftag').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        bar.querySelectorAll('.sq-ftag').forEach(function(b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        applyFilter(btn.getAttribute('data-t'), false);
+        S.chosen = -1;
+        render();
+      });
+    });
+  }
 
+  /* ── Reset button ─────────────────────────────────────── */
+  document.getElementById('sq-reset-btn').addEventListener('click', function() {
+    if (!confirm('Reset all answers for this subject?')) return;
+    clearStore(); S.answers = {};
+    applyFilter(S.topic, false);
+    S.chosen = -1;
+    render();
+  });
+
+  /* ── Init ─────────────────────────────────────────────── */
+  S.answers = loadStore();
+  buildFilters();
+  applyFilter('all', false);
+  render();
 })();
 </script>
