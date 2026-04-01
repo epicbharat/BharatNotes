@@ -1585,7 +1585,1082 @@ module.exports = {
     }
 
   ],
-  economy: [],
+  economy: [
+    // ── National Income ──────────────────────────────────────────────────────
+    {
+      id: 'eco-001',
+      topic: 'National Income',
+      year: 2014,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Increase in absolute and per capita real GNP do not connote a higher level of economic development, if',
+      options: [
+        'Industrial output fails to keep pace with agricultural output',
+        'Agricultural output fails to keep pace with industrial output',
+        'Poverty and unemployment increase',
+        'Imports grow faster than exports'
+      ],
+      correct: 2,
+      explanation: 'Economic development is broader than GNP growth — it requires reduction in poverty, unemployment, and inequality. Even if GNP rises, if poverty and unemployment simultaneously increase, the benefits are not reaching the poor and it does not represent true development.'
+    },
+    {
+      id: 'eco-002',
+      topic: 'National Income',
+      year: 2016,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Which of the following constitute Capital Account in India\'s Balance of Payments?',
+      options: [
+        'Foreign Loans, Foreign Direct Investment, Portfolio Investment and Banking Capital',
+        'Foreign Loans, Foreign Direct Investment, Private Remittances and Tourism',
+        'Foreign Direct Investment, Portfolio Investment and Trade Balance',
+        'Private Remittances, Portfolio Investment and Banking Capital'
+      ],
+      correct: 0,
+      explanation: 'Capital Account in India\'s BoP includes Foreign Loans, FDI, Foreign Portfolio Investment, External Commercial Borrowings, and Banking Capital. Private remittances and tourism receipts are Current Account items.'
+    },
+    {
+      id: 'eco-003',
+      topic: 'National Income',
+      year: 2020,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to the Indian economy, consider the following statements:',
+      statements: [
+        'An increase in the Nominal Effective Exchange Rate (NEER) indicates the appreciation of the rupee.',
+        'An increase in the Real Effective Exchange Rate (REER) indicates an improvement in trade competitiveness.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 0,
+      explanation: 'NEER is the weighted average of bilateral nominal exchange rates — an increase means the rupee appreciates against the basket (statement 1 correct). REER adjusts NEER for relative prices — an increase in REER means Indian goods become relatively more expensive, indicating a loss in trade competitiveness (statement 2 incorrect). Hence 1 only.'
+    },
+    {
+      id: 'eco-004',
+      topic: 'National Income',
+      year: 2021,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'In India, credit rating agencies are regulated by the Reserve Bank of India.',
+        'The rating agency popularly known as ICRA is a public limited company.',
+        'Brickwork Ratings is an Indian credit rating agency.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 1,
+      explanation: 'Credit rating agencies in India are regulated by SEBI, not RBI — statement 1 is incorrect. ICRA Ltd is a public limited company listed on Indian stock exchanges — statement 2 is correct. Brickwork Ratings is an Indian credit rating agency registered with SEBI — statement 3 is correct. Hence 2 and 3 only.'
+    },
+    {
+      id: 'eco-005',
+      topic: 'National Income',
+      year: 2023,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'India accounts for 3.5% of global export of goods.',
+        'Many local companies and joint ventures in India have become global players.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 1,
+      explanation: 'India\'s share in global merchandise exports is around 1.8–2% (as of 2022-23), not 3.5% — statement 1 is incorrect. Statement 2 is broadly correct — Indian companies like Tata, Infosys, Wipro, Sun Pharma have become significant global players. Hence 2 only.'
+    },
+    // ── Budget & Fiscal Policy ────────────────────────────────────────────────
+    {
+      id: 'eco-006',
+      topic: 'Budget',
+      year: 2015,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Which one of the following is likely to be the most inflationary in its effect?',
+      options: [
+        'Repayment of public debt',
+        'Borrowing from the public to finance a budget deficit',
+        'Borrowing from banks to finance a budget deficit',
+        'Creation of new money to finance a budget deficit'
+      ],
+      correct: 3,
+      explanation: 'Creation of new money (monetisation of deficit) directly increases money supply without a corresponding increase in goods and services, producing the most inflationary effect. Borrowing from the public simply transfers purchasing power from public to government and is least inflationary.'
+    },
+    {
+      id: 'eco-007',
+      topic: 'Budget',
+      year: 2017,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'The Fiscal Responsibility and Budget Management (FRBM) Review Committee Report has recommended a debt-to-GDP ratio of 60% for the General (Central and State) Government by 2023.',
+        'The Central Government has a debt-to-GDP ratio of 50% and all State Governments taken together have a debt-to-GDP ratio of 25% at present.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 0,
+      explanation: 'The N.K. Singh Committee (FRBM Review, 2017) recommended a combined General Government debt-to-GDP of 60% (40% Centre + 20% States) by FY2023. Statement 1 is correct. The specific ratios in statement 2 are not accurately stated — the actual Central and State ratios at the time differed. Hence 1 only.'
+    },
+    {
+      id: 'eco-008',
+      topic: 'Budget',
+      year: 2017,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following actions by the Government:',
+      statements: [
+        'Cutting the tax rates',
+        'Increasing the government spending',
+        'Abolishing the subsidies'
+      ],
+      tail: 'In the context of economic recession, which of the above actions can be considered a part of the "fiscal stimulus" package?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 0,
+      explanation: 'Fiscal stimulus involves expansionary fiscal policy to boost aggregate demand during recession. Cutting tax rates raises disposable income; increasing government spending directly boosts demand. Abolishing subsidies reduces household income and is contractionary. Hence 1 and 2 only.'
+    },
+    {
+      id: 'eco-009',
+      topic: 'Budget',
+      year: 2016,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'The terms "Marginal Standing Facility Rate" and "Net Demand and Time Liabilities", sometimes appearing in news, are used in relation to',
+      options: [
+        'Banking operations',
+        'Communication networking',
+        'Military strategies',
+        'Supply and demand of agricultural products'
+      ],
+      correct: 0,
+      explanation: 'Marginal Standing Facility (MSF) Rate is the rate at which banks borrow overnight funds from RBI against government securities. Net Demand and Time Liabilities (NDTL) is the sum of a bank\'s demand and time liabilities, used to calculate CRR and SLR. Both are banking/monetary policy terms.'
+    },
+    {
+      id: 'eco-010',
+      topic: 'Budget',
+      year: 2018,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'The primary deficit = Fiscal deficit − Interest payments.',
+        'A revenue deficit means total revenue expenditure exceeds total revenue receipts.',
+        'Zero primary deficit means the government has to borrow only to meet interest payments on existing debt.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct standard definitions. Primary deficit = Fiscal deficit − Interest payments. Revenue deficit = Total Revenue Expenditure − Total Revenue Receipts. Zero primary deficit means the government only borrows to service existing debt (interest payments), not for fresh spending. All three are correct.'
+    },
+    {
+      id: 'eco-011',
+      topic: 'Budget',
+      year: 2022,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'With reference to "Sovereign Green Bonds" in India, which of the following statements is correct?',
+      options: [
+        'The proceeds will be used only for funding renewable energy projects.',
+        'The government will issue these bonds in foreign currency only.',
+        'The proceeds will be deployed in public sector projects to reduce the carbon intensity of the economy.',
+        'The bonds will be issued only to foreign institutional investors.'
+      ],
+      correct: 2,
+      explanation: 'India\'s Sovereign Green Bonds (announced in Union Budget 2022-23) deploy proceeds into public sector green projects aimed at reducing the carbon intensity of the economy. They cover renewable energy, green transport, water, and pollution control — not just renewables alone — and are open to both domestic and foreign investors.'
+    },
+    {
+      id: 'eco-012',
+      topic: 'Budget',
+      year: 2022,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'The "Vivad se Vishwas" scheme was launched to reduce direct tax litigation.',
+        'Under this scheme, taxpayers must pay the disputed tax amount in full along with full interest and penalty to settle disputes.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 0,
+      explanation: 'Statement 1 is correct: "Vivad se Vishwas" (2020) was launched to resolve pending direct tax disputes and reduce litigation. Statement 2 is incorrect: taxpayers only pay the disputed tax amount; penalty and interest are fully waived for early settlement. Hence 1 only.'
+    },
+    // ── Banking & Monetary Policy ─────────────────────────────────────────────
+    {
+      id: 'eco-013',
+      topic: 'Banking',
+      year: 2015,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'When the Reserve Bank of India reduces the Statutory Liquidity Ratio by 50 basis points, which of the following is likely to happen?',
+      options: [
+        'India\'s GDP growth rate increases drastically',
+        'Foreign Institutional Investors may bring more capital into our country',
+        'Scheduled Commercial Banks may cut their lending rates',
+        'It may drastically reduce the liquidity to the banking system'
+      ],
+      correct: 2,
+      explanation: 'When SLR is reduced, banks need to maintain less proportion of NDTL in government securities. This frees more funds for lending, increasing lendable resources, which may induce banks to cut lending rates due to greater availability of funds. Option D is wrong — reducing SLR increases, not reduces, systemic liquidity.'
+    },
+    {
+      id: 'eco-014',
+      topic: 'Banking',
+      year: 2016,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'What is the purpose of the Marginal Cost of Funds based Lending Rate (MCLR) announced by RBI?',
+      options: [
+        'These are measures to enhance liquidity in the banking system',
+        'To bring more transparency in the process of fixing interest rates on advances by banks',
+        'To help small borrowers get loans at a cheaper rate of interest',
+        'These are guidelines related to the size of loans to various sectors of the economy'
+      ],
+      correct: 1,
+      explanation: 'MCLR was introduced by RBI from April 2016 to replace the Base Rate system. It makes the lending rate-setting process transparent and ensures faster transmission of monetary policy changes to actual lending rates, as it is based on marginal (not average) cost of funds.'
+    },
+    {
+      id: 'eco-015',
+      topic: 'Banking',
+      year: 2019,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to the Indian economy, consider the following statements:',
+      statements: [
+        'Monetary Policy Committee (MPC) decides the repo rate.',
+        'Government of India sets the inflation target for MPC.',
+        'In India, RBI is the lender of last resort to the commercial banks.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '1 and 3 only', '2 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct. The MPC (constituted under RBI Act 1934, Section 45ZB) decides the policy repo rate. The Government of India, in consultation with RBI, sets the inflation target (4% CPI ±2% band). RBI acts as lender of last resort to commercial banks, providing emergency liquidity support.'
+    },
+    {
+      id: 'eco-016',
+      topic: 'Banking',
+      year: 2017,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements about the Monetary Policy Committee (MPC):',
+      statements: [
+        'The MPC consists of six members — three from the RBI and three nominated by the Central Government.',
+        'The RBI Governor is the ex-officio Chairperson of the MPC.',
+        'The MPC decides the policy interest rates to maintain price stability.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct. The MPC has 6 members: RBI Governor (Chair), Deputy Governor (monetary policy), one RBI officer, and 3 external members nominated by the Central Government. It decides the policy repo rate to achieve the inflation target while supporting growth.'
+    },
+    {
+      id: 'eco-017',
+      topic: 'Banking',
+      year: 2019,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'With reference to the Indian economy, what is/are the purpose/purposes of "Statutory Reserve Requirements"?',
+      options: [
+        'To enable the Central Bank to control the amount of advances the banks can create',
+        'To make the people\'s deposits with banks safe and liquid',
+        'To prevent commercial banks from making excessive profits',
+        'To force banks to have sufficient vault cash for day-to-day requirements'
+      ],
+      correct: 0,
+      explanation: 'Statutory Reserve Requirements (CRR and SLR) are monetary policy instruments that enable RBI to control the credit-creation capacity of banks and thereby regulate money supply. By varying CRR/SLR, RBI can expand or contract the credit multiplier and influence inflation and growth.'
+    },
+    {
+      id: 'eco-018',
+      topic: 'Banking',
+      year: 2020,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to the Indian economy, consider the following statements:',
+      statements: [
+        'Commercial Paper is a short-term unsecured promissory note.',
+        'Certificate of Deposit is a long-term instrument issued by the Reserve Bank of India.',
+        'Call Money is a short-term finance used for interbank transactions.',
+        'Treasury Bills are issued by the Government of India to meet its long-term fiscal needs.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '1 and 3 only', '2, 3 and 4 only', '1, 2, 3 and 4'],
+      correct: 1,
+      explanation: 'Commercial Paper is a short-term unsecured promissory note (statement 1 correct). Certificate of Deposit is issued by scheduled commercial banks (not RBI) and is a short-term instrument (statement 2 incorrect). Call Money is short-term overnight interbank lending (statement 3 correct). Treasury Bills are short-term (91, 182, 364 days), not long-term (statement 4 incorrect). Hence 1 and 3 only.'
+    },
+    {
+      id: 'eco-019',
+      topic: 'Banking',
+      year: 2021,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to the "money multiplier" in an economy, which of the following statements is/are correct?',
+      statements: [
+        'Money multiplier increases with the decrease in the Cash Reserve Ratio.',
+        'Money multiplier is the ratio between the reserve money and the broad money.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 0,
+      explanation: 'Statement 1 is correct: money multiplier = 1/reserve ratio; as CRR decreases, banks can lend more, increasing the multiplier. Statement 2 is incorrect: money multiplier = broad money / reserve money (not the reverse). Hence 1 only.'
+    },
+    {
+      id: 'eco-020',
+      topic: 'Banking',
+      year: 2022,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to the Indian economy, consider the following statements:',
+      statements: [
+        'If the inflation is too high, RBI is likely to buy government bonds.',
+        'If the rupee is rapidly depreciating, RBI is likely to sell dollars in the market.',
+        'If interest rates in the USA rise, it can attract capital flows out of India.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 1,
+      explanation: 'Statement 1 is incorrect: to curb high inflation, RBI sells government bonds (OMO sale) to absorb excess liquidity — buying bonds would inject liquidity and worsen inflation. Statement 2 is correct: RBI sells USD to support a depreciating rupee. Statement 3 is correct: higher US interest rates attract global capital to US (carry trade reversal), causing FPI outflows from India. Hence 2 and 3 only.'
+    },
+    {
+      id: 'eco-021',
+      topic: 'Banking',
+      year: 2018,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to Non-Performing Assets of the banking sector, consider the following statements:',
+      statements: [
+        'A loan granted for a short duration crop is classified as NPA if interest and/or principal is overdue for two crop seasons.',
+        'A loan granted for a long duration crop is classified as NPA if interest and/or principal is overdue for one crop season.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 2,
+      explanation: 'Both are correct as per RBI NPA norms for agricultural loans. For short-duration crops (season up to 1 year), the NPA classification threshold is 2 crop seasons. For long-duration crops (season above 1 year), the threshold is 1 crop season. Both statements correctly state these norms.'
+    },
+    {
+      id: 'eco-022',
+      topic: 'Banking',
+      year: 2023,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'The Central Bank Digital Currency (CBDC) is the digital form of currency notes issued by the Reserve Bank of India.',
+        'CBDC can be held by individuals and businesses and it is equivalent to holding physical cash.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 2,
+      explanation: 'Both are correct. CBDC (Digital Rupee, e₹) launched by RBI is the digital equivalent of sovereign currency — legal tender issued by the central bank in digital form. It can be held by individuals (retail CBDC) or financial institutions (wholesale CBDC) and is equivalent in value to physical currency notes.'
+    },
+    // ── Inflation ─────────────────────────────────────────────────────────────
+    {
+      id: 'eco-023',
+      topic: 'Inflation',
+      year: 2020,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'The weightage of Food in Consumer Price Index (CPI) is higher than that in Wholesale Price Index (WPI).',
+        'The WPI does not capture changes in the prices of services, which CPI does.',
+        'The Reserve Bank of India has now adopted WPI as its key measure of inflation and to decide on changing the key policy rates.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 0,
+      explanation: 'Statement 1 is correct: food has ~46% weight in CPI vs ~24% in WPI. Statement 2 is correct: WPI covers only goods; services are not included, but CPI includes services. Statement 3 is incorrect: RBI adopted CPI (not WPI) as the nominal anchor for monetary policy from 2014 onwards. Hence 1 and 2 only.'
+    },
+    {
+      id: 'eco-024',
+      topic: 'Inflation',
+      year: 2015,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'If the interest rate is decreased in an economy, it will',
+      options: [
+        'Decrease the consumption expenditure in the economy',
+        'Increase the tax collection of the Government',
+        'Increase the investment expenditure in the economy',
+        'Increase the total savings in the economy'
+      ],
+      correct: 2,
+      explanation: 'A decrease in interest rates lowers the cost of borrowing, encouraging businesses to borrow and invest more (investment expenditure increases). Lower rates also reduce the return on savings, discouraging saving and encouraging consumption. The primary direct effect is increased investment expenditure.'
+    },
+    {
+      id: 'eco-025',
+      topic: 'Inflation',
+      year: 2016,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'The Reserve Bank of India\'s directives relating to "Differentiated Bank Licences" aim at',
+      options: [
+        'Preventing mergers of small regional rural banks',
+        'Allowing various categories of banks to perform only specific functions',
+        'Promoting financial inclusion',
+        'Both allowing specific functions and promoting financial inclusion'
+      ],
+      correct: 3,
+      explanation: 'RBI\'s differentiated bank licences (Payment Banks and Small Finance Banks, 2015) serve both purposes: they allow specific types of entities to provide limited banking services (functional specialisation) and target the unserved/underserved segments to promote financial inclusion. Both objectives are simultaneously served.'
+    },
+    {
+      id: 'eco-026',
+      topic: 'Inflation',
+      year: 2023,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to the "Consumer Price Index" (CPI) in India, consider the following statements:',
+      statements: [
+        'The National Statistical Office (NSO) compiles the CPI for rural and urban areas separately.',
+        'The base year for the current CPI series in India is 2011-12.',
+        'CPI is compiled on a monthly basis.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct. NSO (National Statistical Office) compiles CPI separately for Rural, Urban and Combined series. The current CPI series has base year 2011-12. CPI is compiled and released on a monthly basis by NSO. All three statements accurately describe the Indian CPI framework.'
+    },
+    // ── Taxation ──────────────────────────────────────────────────────────────
+    {
+      id: 'eco-027',
+      topic: 'Taxation',
+      year: 2017,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to the Goods and Services Tax (GST), consider the following statements:',
+      statements: [
+        'It will replace multiple taxes collected by multiple authorities and will thus create a single market in India.',
+        'It will subsume certain taxes levied by State Governments.',
+        'It is a destination-based tax.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct. GST (from 1 July 2017) replaced multiple central and state taxes, creating one national market. It subsumed state-level VAT, entertainment tax, entry tax, etc. It is a destination/consumption-based tax — revenue accrues to the consuming state.'
+    },
+    {
+      id: 'eco-028',
+      topic: 'Taxation',
+      year: 2018,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Which of the following are exempted from levy under GST?',
+      statements: [
+        'Cereal grains, hulled',
+        'Chicken eggs, cooked',
+        'Fish processed and canned',
+        'Newspapers containing advertising material'
+      ],
+      tail: 'Select the correct answer using the code given below:',
+      options: ['1, 2 and 4 only', '2 and 3 only', '1, 3 and 4 only', '1, 2, 3 and 4'],
+      correct: 0,
+      explanation: 'Under GST: hulled cereal grains are nil-rated/exempt; cooked chicken eggs are exempt; newspapers (including those with advertising) are exempt. Fish processed and canned attracts 5% GST and is not exempt. Hence items 1, 2 and 4 are exempt; 3 is not.'
+    },
+    {
+      id: 'eco-029',
+      topic: 'Taxation',
+      year: 2016,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to the Goods and Services Tax (GST) Council, which of the following statements is/are correct?',
+      statements: [
+        'It shall consist of the Union Finance Minister as the Chairperson.',
+        'It shall make recommendations to the Union and States on tax rates, exemptions, and thresholds.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 2,
+      explanation: 'Both are correct. The GST Council (Article 279A) is chaired by the Union Finance Minister. It makes recommendations to Union and States on GST rates, exemptions, threshold limits, and procedural matters. Both statements accurately describe the GST Council.'
+    },
+    {
+      id: 'eco-030',
+      topic: 'Taxation',
+      year: 2019,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following taxes:',
+      statements: [
+        'Corporation tax',
+        'Customs duty',
+        'Wealth tax',
+        'Excise duty'
+      ],
+      tail: 'Which of the above are direct taxes?',
+      options: ['1 and 3 only', '2 and 4 only', '1, 2 and 3 only', '1, 2, 3 and 4'],
+      correct: 0,
+      explanation: 'Direct taxes are levied on income/wealth of individuals and entities. Corporation tax (on company profits) and Wealth tax (abolished 2015 but historically a direct tax) are direct taxes. Customs duty (on imports/exports) and Excise duty (on manufactured goods) are indirect taxes. Hence 1 and 3 only.'
+    },
+    {
+      id: 'eco-031',
+      topic: 'Taxation',
+      year: 2014,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Which one of the following is not a feature of "Value Added Tax"?',
+      options: [
+        'It is a multi-point destination-based system of taxation',
+        'It is a tax levied on value added at each stage of production',
+        'It avoids double taxation',
+        'The tax burden ultimately falls on the consumer'
+      ],
+      correct: 0,
+      explanation: 'VAT is an origin-based multi-point tax, not destination-based. The destination principle was introduced with GST. Options B, C, and D correctly describe VAT features. Hence option A — describing it as "destination-based" — is NOT a feature of VAT.'
+    },
+    // ── Agriculture ───────────────────────────────────────────────────────────
+    {
+      id: 'eco-032',
+      topic: 'Agriculture',
+      year: 2016,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to \'Pradhan Mantri Fasal Bima Yojana\', consider the following statements:',
+      statements: [
+        'Under this scheme, farmers will have to pay a uniform premium of two percent for any crop they cultivate in any season of the year.',
+        'This scheme covers post-harvest losses arising out of cyclones and unseasonal rains.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 1,
+      explanation: 'Statement 1 is incorrect: the premium is not uniform — it is 2% for Kharif, 1.5% for Rabi, and up to 5% for annual commercial/horticultural crops. Statement 2 is correct: PMFBY covers post-harvest losses from cyclones and unseasonal rains. Hence 2 only.'
+    },
+    {
+      id: 'eco-033',
+      topic: 'Agriculture',
+      year: 2019,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to the Minimum Support Price (MSP) in India, consider the following statements:',
+      statements: [
+        'MSP is announced by the central government for 25 crops every year.',
+        'MSP is fixed at a level which ensures that the market prices will never rise above MSP.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 3,
+      explanation: 'Statement 1 is incorrect: MSP is announced for 23 crops (14 Kharif + 6 Rabi + others including sugarcane), not 25. Statement 2 is incorrect: MSP is a floor/minimum price — market prices can and do rise above it; MSP does not cap market prices. Hence neither is correct.'
+    },
+    {
+      id: 'eco-034',
+      topic: 'Agriculture',
+      year: 2020,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Under the Kisan Credit Card scheme, short-term credit support is given to farmers for which of the following purposes?',
+      statements: [
+        'Working capital for maintenance of farm assets',
+        'Purchase of combine harvesters, tractors and mini trucks',
+        'Consumption requirements of farm households',
+        'Post-harvest expenses',
+        'Construction of family house and setting up of village cold storage facility'
+      ],
+      tail: 'Select the correct answer using the code given below:',
+      options: ['1, 2 and 5 only', '1, 3 and 4 only', '2, 3, 4 and 5 only', '1, 2, 3, 4 and 5'],
+      correct: 1,
+      explanation: 'KCC provides short-term credit for: working capital for farm asset maintenance (1), consumption requirements of farm households (3), and post-harvest expenses (4). Purchase of heavy machinery like combine harvesters/tractors (2) is investment/term credit. Construction of houses (5) is not covered under KCC short-term credit. Hence 1, 3 and 4 only.'
+    },
+    {
+      id: 'eco-035',
+      topic: 'Agriculture',
+      year: 2021,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to PM-KISAN scheme, consider the following statements:',
+      statements: [
+        'Only small and marginal farmers are eligible for the scheme.',
+        'The scheme provides income support of ₹6,000 per year in three equal instalments.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 1,
+      explanation: 'Statement 1 is incorrect: PM-KISAN was initially limited to small and marginal farmers at launch (Feb 2019) but was universalised in June 2019 to cover all landholding farmer families. Statement 2 is correct: ₹6,000/year is paid in three instalments of ₹2,000 each. Hence 2 only.'
+    },
+    {
+      id: 'eco-036',
+      topic: 'Agriculture',
+      year: 2018,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'What is the purpose of \'e-NAM\' in India?',
+      options: [
+        'To provide an online platform for trading of agricultural commodities across India',
+        'To provide online loans to farmers through NABARD',
+        'To enable digital payments to farmers for crop insurance claims',
+        'To provide weather data and advisories to farmers online'
+      ],
+      correct: 0,
+      explanation: 'e-NAM (Electronic National Agriculture Market) is a pan-India electronic trading portal that networks existing APMC mandis to create a unified national market for agricultural commodities. It enables farmers to get better prices through transparent competitive online bidding and wider market access.'
+    },
+    {
+      id: 'eco-037',
+      topic: 'Agriculture',
+      year: 2020,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'What is the purpose of \'Zero Budget Natural Farming (ZBNF)\'?',
+      options: [
+        'To eliminate cost of cultivation through government-subsidised chemical-free farming',
+        'To bring down cost of cultivation to near-zero through use of locally available resources',
+        'To provide zero-interest credit to farmers',
+        'To encourage contract farming with zero premium crop insurance'
+      ],
+      correct: 1,
+      explanation: 'ZBNF, promoted by Subhash Palekar, aims to bring cultivation costs close to zero by using locally available inputs — cow dung, cow urine, jaggery, and soil microbes (Jeevamrutha, Bijamrutha). It avoids purchased external chemical inputs and borrowed capital, thereby minimising input costs.'
+    },
+    // ── Industry ──────────────────────────────────────────────────────────────
+    {
+      id: 'eco-038',
+      topic: 'Industry',
+      year: 2016,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements about the National Manufacturing Policy (NMP) 2011:',
+      statements: [
+        'It aims to increase the share of manufacturing in GDP to 25% by 2022.',
+        'It envisages creation of National Investment and Manufacturing Zones (NIMZs).',
+        'It targets creation of 100 million additional jobs by 2022.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct objectives of NMP 2011: increasing manufacturing share in GDP to 25% by 2022, creating large integrated NIMZs as greenfield manufacturing townships, and generating 100 million additional jobs by 2022.'
+    },
+    {
+      id: 'eco-039',
+      topic: 'Industry',
+      year: 2020,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to \'Make in India\' initiative, consider the following statements:',
+      statements: [
+        'It was launched in September 2014 to transform India into a global manufacturing hub.',
+        'Under this initiative, FDI was increased to 100% through the automatic route in all sectors.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 0,
+      explanation: 'Statement 1 is correct: Make in India was launched on 25 September 2014. Statement 2 is incorrect: FDI was not raised to 100% automatic route in all sectors — defence, media, atomic energy, and pharmaceuticals continue to have caps or government approval requirements. Hence 1 only.'
+    },
+    {
+      id: 'eco-040',
+      topic: 'Industry',
+      year: 2022,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to the Production Linked Incentive (PLI) scheme, consider the following statements:',
+      statements: [
+        'The PLI scheme provides incentives to manufacturers based on incremental sales from a base year.',
+        'The scheme is applicable only to foreign companies investing in India.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 0,
+      explanation: 'Statement 1 is correct: PLI provides financial incentives calculated on incremental production/sales above a base year threshold across 14 sectors. Statement 2 is incorrect: PLI is open to both domestic Indian companies and foreign companies. Hence 1 only.'
+    },
+    {
+      id: 'eco-041',
+      topic: 'Industry',
+      year: 2022,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'With reference to India, "Gig Workers" refers to whom?',
+      options: [
+        'Workers employed in the informal sector on daily wages',
+        'Workers who work in flexible, non-traditional arrangements, often via digital platforms',
+        'Migrant workers who move between states seasonally',
+        'Workers below poverty line in rural areas'
+      ],
+      correct: 1,
+      explanation: 'Gig Workers are individuals working in flexible, temporary, or freelance jobs, often facilitated through digital platforms (Ola, Uber, Zomato, Swiggy, etc.). India\'s Code on Social Security 2020 formally defines gig workers as those working outside the traditional employer-employee relationship.'
+    },
+    // ── International Trade ───────────────────────────────────────────────────
+    {
+      id: 'eco-042',
+      topic: 'International Trade',
+      year: 2020,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'With reference to Foreign Direct Investment in India, which one of the following is considered its major characteristic?',
+      options: [
+        'It is the investment through capital instruments by a person resident outside India in an unlisted Indian company.',
+        'It is a short-term investment that can be sold quickly on the stock exchange.',
+        'It is an investment by a non-resident in any listed or unlisted company in any sector.',
+        'It is an investment where the foreign investor holds at least 10% of the equity or voting rights of the investee company.'
+      ],
+      correct: 3,
+      explanation: 'The defining characteristic of FDI is that the foreign investor holds 10% or more of equity/voting rights, conferring a lasting interest and degree of influence over management — distinguishing it from FPI (below 10%). SEBI and RBI both define FDI as investment of 10% or more of equity.'
+    },
+    {
+      id: 'eco-043',
+      topic: 'International Trade',
+      year: 2017,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'The Trade-Related Investment Measures (TRIMS) agreement under WTO prohibits measures inconsistent with GATT Articles on national treatment and quantitative restrictions.',
+        'The TRIMS agreement applies to investment measures related to trade in goods only.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 2,
+      explanation: 'Both are correct. TRIMs prohibits investment measures inconsistent with GATT\'s national treatment (Article III) and quantitative restriction (Article XI) provisions. TRIMs applies only to trade in goods; investment in services trade is governed separately under GATS.'
+    },
+    {
+      id: 'eco-044',
+      topic: 'International Trade',
+      year: 2018,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Which of the following best describes the term "Import Cover", sometimes seen in the news?',
+      options: [
+        'It is the number of months of imports that can be paid for by a country\'s international reserves.',
+        'It is the ratio of the value of imports to the value of exports over a period of time.',
+        'It is the maximum volume of imports that an economy can absorb.',
+        'It is the total tax paid on imports by a country in a given time period.'
+      ],
+      correct: 0,
+      explanation: 'Import Cover measures the number of months of imports that a country\'s foreign exchange reserves can finance. It is a key external vulnerability indicator — IMF recommends at least 3 months; India typically maintains 7–8 months of import cover.'
+    },
+    {
+      id: 'eco-045',
+      topic: 'International Trade',
+      year: 2016,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to the \'Logistics Performance Index\', consider the following statements:',
+      statements: [
+        'It measures the trade and transport related logistics performance of a country.',
+        'It is published by the World Economic Forum.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 0,
+      explanation: 'The Logistics Performance Index (LPI) measures ease of logistics across customs, infrastructure, international shipments, logistics competence, tracking, and timeliness (statement 1 correct). It is published by the World Bank, not the World Economic Forum (statement 2 incorrect). Hence 1 only.'
+    },
+    {
+      id: 'eco-046',
+      topic: 'International Trade',
+      year: 2021,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'The Global Financial Stability Report is prepared by the International Monetary Fund.',
+        'The International Labour Organization prepares the World Employment and Social Outlook Report.',
+        'The World Economic Outlook is prepared by the World Trade Organization.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 0,
+      explanation: 'The Global Financial Stability Report (GFSR) is published by the IMF (statement 1 correct). The World Employment and Social Outlook (WESO) is published by the ILO (statement 2 correct). The World Economic Outlook (WEO) is published by the IMF, not the WTO (statement 3 incorrect). Hence 1 and 2 only.'
+    },
+    {
+      id: 'eco-047',
+      topic: 'International Trade',
+      year: 2022,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'India has the highest number of Geographical Indication (GI) tags in the world.',
+        'GI tags can be given to both agricultural and non-agricultural products in India.',
+        'GI protection in India is governed by the Geographical Indications of Goods (Registration and Protection) Act, 1999.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 1,
+      explanation: 'Statement 1 is incorrect: India does not have the highest number of GI registrations in the world. Statement 2 is correct: GI tags in India can be given to agricultural, natural, and manufactured goods. Statement 3 is correct: GI protection is governed by the Geographical Indications of Goods (Registration and Protection) Act, 1999, administered under the Ministry of Commerce. Hence 2 and 3 only.'
+    },
+    // ── Financial Inclusion ───────────────────────────────────────────────────
+    {
+      id: 'eco-048',
+      topic: 'Financial Inclusion',
+      year: 2015,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to \'Pradhan Mantri Jan-Dhan Yojana (PMJDY)\', consider the following statements:',
+      statements: [
+        'Overdraft facility up to ₹10,000 will be allowed only to those account holders who have linked their accounts with Aadhaar.',
+        'One Life Insurance Policy of ₹30,000 will be provided to those who opened the account between 15 August 2014 and 26 January 2015.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 1,
+      explanation: 'Statement 1 is not fully accurate — the overdraft facility of ₹10,000 has multiple eligibility conditions beyond just Aadhaar linkage (minimum 6 months banking history, satisfactory conduct, etc.). Statement 2 is correct — beneficiaries who opened accounts during the launch window (28 August 2014 to 26 January 2015) were eligible for ₹30,000 life insurance cover. Hence 2 only.'
+    },
+    {
+      id: 'eco-049',
+      topic: 'Financial Inclusion',
+      year: 2016,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'Pradhan Mantri Mudra Yojana is aimed at bringing small entrepreneurs into the formal financial system.',
+        'Pradhan Mantri Jan-Dhan Yojana is aimed at promoting savings among the poor people of India.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 2,
+      explanation: 'Both are correct. PMMY (Mudra Yojana, 2015) provides loans up to ₹10 lakh to non-corporate, non-farm small/micro enterprises, formalising their credit access. PMJDY\'s primary goal is financial inclusion — providing banking accounts to unbanked households to enable savings, remittances, and financial services access.'
+    },
+    {
+      id: 'eco-050',
+      topic: 'Financial Inclusion',
+      year: 2018,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'Pradhan Mantri Suraksha Bima Yojana (PMSBY) provides accidental death and total disability cover of ₹2 lakh.',
+        'Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) provides a life cover of ₹2 lakh payable on death due to any reason.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 2,
+      explanation: 'Both are correct. PMSBY (launched May 2015) provides accidental death and full disability cover of ₹2 lakh at ₹20/year premium. PMJJBY (launched May 2015) provides life insurance of ₹2 lakh for death from any cause at ₹436/year premium (revised). Both statements are accurate.'
+    },
+    {
+      id: 'eco-051',
+      topic: 'Financial Inclusion',
+      year: 2019,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Which of the following is NOT the purpose of the "Stand Up India Scheme"?',
+      options: [
+        'Facilitating bank loans between ₹10 lakh and ₹1 crore to SC/ST borrowers',
+        'Facilitating bank loans to at least one woman borrower per bank branch',
+        'Providing subsidised loans to backward regions of India',
+        'Supporting greenfield enterprise creation by SC/ST and women entrepreneurs'
+      ],
+      correct: 2,
+      explanation: 'Stand Up India (2016) facilitates bank loans of ₹10 lakh to ₹1 crore to at least one SC/ST borrower and one woman borrower per branch for greenfield enterprises. It is not specifically aimed at subsidised loans to backward regions — that is the objective of other schemes like NABARD schemes. Hence option C is NOT a purpose.'
+    },
+    {
+      id: 'eco-052',
+      topic: 'Financial Inclusion',
+      year: 2020,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Which one of the following is the purpose of \'Atal Pension Yojana\'?',
+      options: [
+        'It aims at securing the interests of poor labourers in the unorganised sector.',
+        'It aims at providing pension to all people in urban areas.',
+        'It aims at securing the interests of all organised sector employees.',
+        'It aims at encouraging savings among the rich and middle class.'
+      ],
+      correct: 0,
+      explanation: 'Atal Pension Yojana (APY, launched May 2015) focuses on workers in the unorganised/informal sector. It provides a defined monthly pension (₹1,000–₹5,000) after age 60, with government co-contribution for eligible subscribers who joined before March 2016. It specifically targets informal sector workers lacking formal pension coverage.'
+    },
+    // ── Infrastructure ────────────────────────────────────────────────────────
+    {
+      id: 'eco-053',
+      topic: 'Infrastructure',
+      year: 2019,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to the "UDAN" scheme of the Aviation Ministry, which of the following statements is/are correct?',
+      statements: [
+        'The objective is to make flying affordable for the common citizens of small towns.',
+        'Airport Authority of India and State Governments shall provide Viability Gap Funding for airlines under the scheme.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 2,
+      explanation: 'Both are correct. UDAN (Ude Desh Ka Aam Naagrik, 2016) aims to make air travel affordable for common citizens in smaller cities. Viability Gap Funding is provided jointly by the central government, AAI, and state governments to make unserved/underserved routes financially viable for airlines.'
+    },
+    {
+      id: 'eco-054',
+      topic: 'Infrastructure',
+      year: 2020,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'The Dedicated Freight Corridor (DFC) project aims at improving freight traffic to reduce load on the passenger train network.',
+        'The Eastern DFC connects Ludhiana to Dankuni while the Western DFC connects Jawaharlal Nehru Port to Dadri.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 2,
+      explanation: 'Both are correct. DFCs separate freight and passenger traffic, improving capacity and speed of both networks. The Eastern DFC runs ~1,856 km from Ludhiana (Punjab) to Dankuni (West Bengal). The Western DFC runs ~1,506 km from JNPT (Mumbai) to Dadri (Greater Noida). Both statements are accurate.'
+    },
+    {
+      id: 'eco-055',
+      topic: 'Infrastructure',
+      year: 2016,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'The minimum quantity of gold that can be deposited under the \'Gold Monetization Scheme\' is',
+      options: [
+        '10 grams',
+        '30 grams',
+        '50 grams',
+        '100 grams'
+      ],
+      correct: 1,
+      explanation: 'The Gold Monetization Scheme (GMS, launched November 2015) allows depositors to earn interest on idle physical gold. The minimum deposit is 30 grams of raw gold (in any form). Banks can then lend or sell this gold to jewellers or auction houses, thereby monetising idle household gold.'
+    },
+    // ── Five Year Plans & NITI Aayog ──────────────────────────────────────────
+    {
+      id: 'eco-056',
+      topic: 'Five Year Plans & NITI Aayog',
+      year: 2015,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'The Government of India has established NITI Aayog to replace the',
+      options: [
+        'Human Rights Commission',
+        'Finance Commission',
+        'Law Commission',
+        'Planning Commission'
+      ],
+      correct: 3,
+      explanation: 'NITI Aayog (National Institution for Transforming India) was established on 1 January 2015 by a Union Cabinet resolution, replacing the Planning Commission which had existed since 1950. The Prime Minister is the ex-officio Chairperson of NITI Aayog.'
+    },
+    {
+      id: 'eco-057',
+      topic: 'Five Year Plans & NITI Aayog',
+      year: 2014,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Which of the following is the theme of the Twelfth Five-Year Plan (2012–2017)?',
+      options: [
+        'Inclusive Growth',
+        'Faster, More Inclusive and Sustainable Growth',
+        'Growth with Social Justice and Equity',
+        'Faster and More Inclusive Growth'
+      ],
+      correct: 1,
+      explanation: 'The 12th Five-Year Plan (2012–2017) had the theme "Faster, More Inclusive and Sustainable Growth" targeting 8% per annum GDP growth. The 11th Plan (2007–2012) had the theme "Faster and More Inclusive Growth". The 12th Plan was India\'s last Five-Year Plan before the Planning Commission was dissolved.'
+    },
+    {
+      id: 'eco-058',
+      topic: 'Five Year Plans & NITI Aayog',
+      year: 2016,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to the \'Financial Stability and Development Council (FSDC)\', consider the following statements:',
+      statements: [
+        'It is an organ of NITI Aayog.',
+        'It is headed by the Union Finance Minister.',
+        'It monitors macroprudential supervision of the economy.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '3 only', '2 and 3 only', '1, 2 and 3'],
+      correct: 2,
+      explanation: 'FSDC is not an organ of NITI Aayog — it was set up in 2010 under the Finance Ministry, chaired by the Finance Minister. It monitors macroprudential supervision and coordinates between financial sector regulators. Statement 1 is incorrect; statements 2 and 3 are correct. Hence 2 and 3 only.'
+    },
+    {
+      id: 'eco-059',
+      topic: 'Five Year Plans & NITI Aayog',
+      year: 2017,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to the \'National Investment and Infrastructure Fund (NIIF)\', which of the following statements is/are correct?',
+      statements: [
+        'It is an organ of NITI Aayog.',
+        'It has a corpus of ₹4,00,000 crore at present.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 3,
+      explanation: 'NIIF is not an organ of NITI Aayog — it is a Category II Alternative Investment Fund under the Finance Ministry with the government as 49% anchor investor. Statement 1 is incorrect. NIIF\'s initial corpus target was ₹20,000 crore, not ₹4,00,000 crore. Statement 2 is also incorrect. Hence neither is correct.'
+    },
+    {
+      id: 'eco-060',
+      topic: 'Five Year Plans & NITI Aayog',
+      year: 2018,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements about NITI Aayog:',
+      statements: [
+        'NITI Aayog can allocate funds directly to the State Governments.',
+        'NITI Aayog provides policy recommendations and serves as a think tank for the Union Government.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 1,
+      explanation: 'NITI Aayog is a policy think tank and does NOT have the power to allocate funds to states — fund allocation is done by the Finance Ministry and line ministries. Statement 1 is incorrect. NITI Aayog provides policy and strategic recommendations to the government. Statement 2 is correct. Hence 2 only.'
+    },
+    {
+      id: 'eco-061',
+      topic: 'Five Year Plans & NITI Aayog',
+      year: 2019,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements about the \'Aspirational Districts Programme\':',
+      statements: [
+        'It is implemented by the Ministry of Rural Development.',
+        'It focuses on 112 least developed districts across India.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 1,
+      explanation: 'The Aspirational Districts Programme is monitored by NITI Aayog, not the Ministry of Rural Development — statement 1 is incorrect. The programme covers 112 most under-developed districts focusing on health, nutrition, education, agriculture, water, financial inclusion, infrastructure and skill development — statement 2 is correct. Hence 2 only.'
+    },
+    {
+      id: 'eco-062',
+      topic: 'Five Year Plans & NITI Aayog',
+      year: 2019,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Which of the following is/are the objective/objectives of the "Atal Innovation Mission"?',
+      statements: [
+        'Establishment of world-class Innovation Hubs and Grand Challenges for India',
+        'Promotion of a network of world-class incubators and accelerators',
+        'Providing innovation and entrepreneurship exposure to school students through Atal Tinkering Labs'
+      ],
+      tail: 'Select the correct answer using the code given below:',
+      options: ['1 only', '2 only', '3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'Atal Innovation Mission (AIM) under NITI Aayog has three main pillars: Innovation Hubs and Grand Challenges (systemic change at scale), Atal Incubation Centres (world-class incubators/accelerators), and Atal Tinkering Labs (promoting innovation culture in schools). All three are correct objectives of AIM.'
+    },
+    {
+      id: 'eco-063',
+      topic: 'Agriculture',
+      year: 2017,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'With reference to the \'National Investment and Infrastructure Fund (NIIF)\', which is/are considered as its objective(s)?',
+      options: [
+        'To act as a Social Venture Fund for the government sector',
+        'To create a fund of funds with the government as the anchor investor',
+        'To provide long-term capital to infrastructure and other productive sectors',
+        'Both to create a fund of funds and to provide long-term capital to infrastructure'
+      ],
+      correct: 3,
+      explanation: 'NIIF (2015) is a fund-of-funds with the government as the 49% anchor investor, designed to attract domestic and international institutional investors. Its objective is to provide long-term capital to infrastructure and productive sectors. Both (b) and (c) are correct objectives — hence "Both" is the answer.'
+    },
+    {
+      id: 'eco-064',
+      topic: 'Banking',
+      year: 2014,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Which of the following is the most likely consequence of implementing the "Inflation Targeting" framework in India?',
+      options: [
+        'The exchange rates will become more stable.',
+        'The currency will be appreciated permanently.',
+        'GDP growth will not be significantly affected.',
+        'India will become a developed economy in a shorter period.'
+      ],
+      correct: 0,
+      explanation: 'Inflation targeting (formally adopted by India in 2016 with 4% CPI ±2% band) provides a credible nominal anchor. By maintaining stable and low inflation, it reduces macroeconomic uncertainty and helps stabilise the exchange rate — a well-recognised benefit of credible inflation targeting.'
+    },
+    {
+      id: 'eco-065',
+      topic: 'International Trade',
+      year: 2019,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'With reference to the "Atal Innovation Mission", which one of the following best describes its location under the Government of India?',
+      options: [
+        'Under the Ministry of Science and Technology',
+        'Under the Ministry of Human Resource Development',
+        'Under NITI Aayog',
+        'Under the Ministry of Commerce and Industry'
+      ],
+      correct: 2,
+      explanation: 'Atal Innovation Mission (AIM) was established under NITI Aayog in 2016 to promote a culture of innovation and entrepreneurship across India. It oversees Atal Tinkering Labs (schools), Atal Incubation Centres (universities/industry), and Atal Community Innovation Centres (community centres).'
+    }
+  ],
   geography: [
     // ── Indian Physical Geography ──────────────────────────────────────────
     {
@@ -3438,6 +4513,969 @@ module.exports = {
   society: [],
   ethics: [],
   security: [],
-  'general-science': [],
+  'general-science': [
+    // ── Biology — Human Body Systems ─────────────────────────────────────────
+    {
+      id: 'gs-001',
+      topic: 'Biology',
+      subtopic: 'Human Body Systems',
+      year: 2017,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Consider the following pairs: Vitamin — Deficiency disease. 1. Vitamin C — Scurvy. 2. Vitamin D — Rickets. 3. Vitamin E — Night blindness. Which of the pairs given above is/are correctly matched?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 0,
+      explanation: 'Vitamin C deficiency causes Scurvy (pair 1 correct). Vitamin D deficiency causes Rickets in children and Osteomalacia in adults (pair 2 correct). Night blindness is caused by Vitamin A deficiency, not Vitamin E — pair 3 is incorrect. Vitamin E deficiency causes neurological problems, muscle weakness, and haemolytic anaemia. Hence 1 and 2 only.'
+    },
+    {
+      id: 'gs-002',
+      topic: 'Biology',
+      subtopic: 'Vitamins and Nutrition',
+      year: 2014,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to vitamins, consider the following statements:',
+      statements: [
+        'Vitamin A is stored in the liver.',
+        'Vitamin B12 is produced by micro-organisms in the human gut.',
+        'Vitamin D is synthesised in the skin when exposed to sunlight.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct. Vitamin A (fat-soluble) is stored in the liver. Vitamin B12 is produced by intestinal microflora (micro-organisms in the gut), though dietary intake is also needed. Vitamin D (calciferol) is synthesised in the skin through exposure to ultraviolet radiation from sunlight. All three statements are accurate.'
+    },
+    {
+      id: 'gs-003',
+      topic: 'Biology',
+      subtopic: 'Diseases',
+      year: 2019,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to "Zika virus disease", consider the following statements:',
+      statements: [
+        'It is caused by a virus transmitted by Aedes mosquitoes.',
+        'Sexual transmission of the disease is also possible.',
+        'It causes microcephaly in newborns whose mothers were infected during pregnancy.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct. Zika virus is transmitted primarily by Aedes aegypti mosquitoes (also dengue/chikungunya vector). Sexual transmission is documented. Zika infection during pregnancy causes microcephaly (abnormally small head) and other congenital brain defects in newborns. The 2015-16 Brazil outbreak established all three links conclusively.'
+    },
+    {
+      id: 'gs-004',
+      topic: 'Biology',
+      subtopic: 'Diseases',
+      year: 2018,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to "Pradhan Mantri POSHAN Abhiyan", consider the following: Which of the following is/are included in the initiative?',
+      statements: [
+        'Supplementary nutrition',
+        'Promotion of breastfeeding',
+        'Treatment of severe acute malnutrition',
+        'Deworming'
+      ],
+      tail: 'Select the correct answer using the code given below:',
+      options: ['1, 2 and 3 only', '2 and 3 only', '1, 3 and 4 only', '1, 2, 3 and 4'],
+      correct: 3,
+      explanation: 'POSHAN Abhiyan (National Nutrition Mission) and its integrated approach includes supplementary nutrition, promotion of breastfeeding, treatment of severe acute malnutrition, deworming, and other nutrition interventions. All four are components of the comprehensive nutrition programme.'
+    },
+    {
+      id: 'gs-005',
+      topic: 'Biology',
+      subtopic: 'Human Body Systems',
+      year: 2015,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'The human liver is the seat of glycogen synthesis and storage.',
+        'The human liver produces bile required for the digestion of fats.',
+        'The human liver helps in the regulation of blood sugar levels.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct functions of the human liver. (1) Glycogen is synthesised and stored in the liver (glycogenesis). (2) The liver produces bile, stored in the gallbladder, which emulsifies fats for digestion. (3) The liver regulates blood glucose levels through glycogenesis (glucose to glycogen), glycogenolysis (glycogen to glucose), and gluconeogenesis.'
+    },
+    {
+      id: 'gs-006',
+      topic: 'Biology',
+      subtopic: 'Human Body Systems',
+      year: 2020,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements regarding human blood:',
+      statements: [
+        'Red blood cells (RBCs) contain haemoglobin which transports oxygen.',
+        'White blood cells (WBCs) are responsible for carrying nutrients to body cells.',
+        'Platelets help in blood clotting.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '1 and 3 only', '2 and 3 only', '1, 2 and 3'],
+      correct: 1,
+      explanation: 'RBCs contain haemoglobin and transport oxygen throughout the body (statement 1 correct). WBCs are immune cells that fight pathogens — they do not carry nutrients; nutrients are transported by plasma (statement 2 incorrect). Platelets (thrombocytes) are essential for blood clotting/haemostasis (statement 3 correct). Hence 1 and 3 only.'
+    },
+    {
+      id: 'gs-007',
+      topic: 'Biology',
+      subtopic: 'Hormones',
+      year: 2016,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements about human hormones:',
+      statements: [
+        'Insulin is produced by the alpha cells of the islets of Langerhans in the pancreas.',
+        'Thyroxine is produced by the thyroid gland and regulates metabolic rate.',
+        'Adrenaline is produced by the adrenal medulla and prepares the body for fight-or-flight response.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 1,
+      explanation: 'Statement 1 is incorrect: Insulin is produced by the beta cells (not alpha cells) of the islets of Langerhans; alpha cells produce glucagon. Statement 2 is correct: thyroxine (T4) is produced by the thyroid gland and regulates metabolic rate. Statement 3 is correct: adrenaline (epinephrine) is produced by the adrenal medulla and mediates the fight-or-flight response. Hence 2 and 3 only.'
+    },
+    // ── Genetics ─────────────────────────────────────────────────────────────
+    {
+      id: 'gs-008',
+      topic: 'Genetics',
+      year: 2017,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements about the human genome:',
+      statements: [
+        'DNA replication occurs in the nucleus of a cell.',
+        'mRNA is synthesised in the nucleus and moves to the cytoplasm for protein synthesis.',
+        'The genetic information in DNA is directly translated into proteins without RNA.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 0,
+      explanation: 'Statement 1 is correct: DNA replication occurs in the nucleus (S phase of cell cycle). Statement 2 is correct: mRNA is transcribed from DNA in the nucleus and then moves to ribosomes in the cytoplasm for translation (protein synthesis). Statement 3 is incorrect: the central dogma of molecular biology states DNA → RNA (mRNA) → Protein; direct DNA-to-protein translation does not occur. Hence 1 and 2 only.'
+    },
+    {
+      id: 'gs-009',
+      topic: 'Genetics',
+      year: 2018,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'With reference to hereditary diseases, consider the following: A person suffering from haemophilia',
+      options: [
+        'Has blood which clots very easily',
+        'Has blood which does not clot easily',
+        'Has reduced number of red blood cells',
+        'Has excess production of red blood cells'
+      ],
+      correct: 1,
+      explanation: 'Haemophilia is a hereditary blood clotting disorder caused by deficiency of clotting factors (Factor VIII in Haemophilia A, Factor IX in Haemophilia B). Affected individuals have blood that does not clot easily, leading to excessive bleeding even from minor injuries. It is an X-linked recessive disorder more common in males.'
+    },
+    {
+      id: 'gs-010',
+      topic: 'Genetics',
+      year: 2021,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements about mitochondria:',
+      statements: [
+        'Mitochondria have their own DNA and ribosomes.',
+        'Mitochondrial diseases are generally inherited from the mother.',
+        'Mitochondria are found in plant cells but not in animal cells.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 0,
+      explanation: 'Statement 1 is correct: mitochondria have their own circular DNA and 70S ribosomes (evidence of endosymbiotic origin). Statement 2 is correct: mitochondria are maternally inherited since fertilised eggs receive mitochondria from the egg (mother), not the sperm. Statement 3 is incorrect: mitochondria are found in both plant and animal eukaryotic cells (and most other eukaryotes). Hence 1 and 2 only.'
+    },
+    {
+      id: 'gs-011',
+      topic: 'Genetics',
+      year: 2019,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'With reference to the recent developments in science, which one of the following is not correct?',
+      options: [
+        'Functional chromosomes can be created by combining the DNA taken from different cells of organisms.',
+        'Genetically modified artificial functional DNA can be created in laboratories.',
+        'A piece of DNA can be transferred from one organism to another.',
+        'Multicellular organisms cannot be cloned in laboratory conditions.'
+      ],
+      correct: 3,
+      explanation: 'Statements A, B, and C all describe real scientific achievements. Multicellular organisms CAN be cloned — Dolly the sheep (1996) was the first mammal cloned from an adult somatic cell. Subsequent cloning of cats, dogs, pigs, horses, and cattle has been achieved. Statement D is factually incorrect, making it the "not correct" option.'
+    },
+    // ── Biotechnology ─────────────────────────────────────────────────────────
+    {
+      id: 'gs-012',
+      topic: 'Biotechnology',
+      year: 2019,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'What is the "Cas9 protein" that is often mentioned in news?',
+      options: [
+        'A molecular scissors used in targeted gene editing',
+        'A protein produced by cancer cells for cell division',
+        'A synthetic peptide used in targeted drug delivery',
+        'A gene that makes plants pest-resistant'
+      ],
+      correct: 0,
+      explanation: 'Cas9 is the enzyme (endonuclease) used in the CRISPR-Cas9 gene editing system. It acts as "molecular scissors" guided by RNA to cut DNA at a specific location, enabling targeted gene editing. CRISPR-Cas9 was developed by Jennifer Doudna and Emmanuelle Charpentier (2020 Nobel Prize in Chemistry).'
+    },
+    {
+      id: 'gs-013',
+      topic: 'Biotechnology',
+      year: 2018,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to Genetically Modified (GM) mustard developed in India, consider the following statements:',
+      statements: [
+        'GM mustard has the genes of a soil bacterium that allow cross-pollination and hybridisation.',
+        'GM mustard has been developed jointly by the Indian Council of Agricultural Research and Punjab Agricultural University.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 0,
+      explanation: 'Statement 1 is correct: GM Mustard (DMH-11) uses barnase-barstar genes from Bacillus amyloliquefaciens (a soil bacterium) to enable hybridisation by making plants male-sterile and fertility-restorer. Statement 2 is incorrect: GM Mustard was developed by Delhi University\'s Centre for Genetic Manipulation of Crop Plants (CGMCP), not jointly by ICAR and PAU. Hence 1 only.'
+    },
+    {
+      id: 'gs-014',
+      topic: 'Biotechnology',
+      year: 2021,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to "Immune Boosters" and vaccines, consider the following statements:',
+      statements: [
+        'Vaccines work by stimulating the immune system to produce antibodies without causing the disease.',
+        'mRNA vaccines introduce a piece of mRNA that instructs cells to make a protein that triggers an immune response.',
+        'Live attenuated vaccines contain killed pathogens.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 0,
+      explanation: 'Statement 1 is correct: vaccines prime the immune system to recognise and fight a specific pathogen without causing the disease. Statement 2 is correct: mRNA vaccines (like Pfizer-BioNTech, Moderna COVID-19 vaccines) deliver mRNA instructions for making spike protein, triggering immunity. Statement 3 is incorrect: live attenuated vaccines contain weakened (not killed) pathogens; killed pathogen vaccines are inactivated vaccines. Hence 1 and 2 only.'
+    },
+    {
+      id: 'gs-015',
+      topic: 'Biotechnology',
+      year: 2020,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to the "RNA Interference (RNAi) Technology", consider the following statements:',
+      statements: [
+        'It is used in gene silencing therapies for various human diseases.',
+        'It can be used in developing crop plants with pest-resistant features.',
+        'It is used as a hormone replacement therapy for humans.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 0,
+      explanation: 'RNAi involves small RNA molecules (siRNA/miRNA) silencing specific gene expression. It is used in gene silencing therapies for diseases like cancer and genetic disorders (statement 1 correct). In agriculture, RNAi is used to develop pest-resistant crops by silencing pest genes (statement 2 correct). Statement 3 is incorrect — RNAi has nothing to do with hormone replacement therapy. Hence 1 and 2 only.'
+    },
+    {
+      id: 'gs-016',
+      topic: 'Biotechnology',
+      year: 2022,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements about "Stem Cells":',
+      statements: [
+        'Stem cells can be derived from embryos as well as from adult tissue.',
+        'Induced Pluripotent Stem Cells (iPSCs) are reprogrammed from adult cells to behave like embryonic stem cells.',
+        'Stem cells can only differentiate into blood cells.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 0,
+      explanation: 'Statement 1 is correct: stem cells can be derived from embryos (embryonic stem cells) or adult tissues (adult/somatic stem cells) or umbilical cord blood. Statement 2 is correct: iPSCs (developed by Shinya Yamanaka, 2006 Nobel Prize 2012) are reprogrammed adult cells that regain pluripotency. Statement 3 is incorrect: stem cells can differentiate into various cell types (blood, nerve, muscle, bone, etc.) — they are not limited to blood cells. Hence 1 and 2 only.'
+    },
+    {
+      id: 'gs-017',
+      topic: 'Biotechnology',
+      year: 2020,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to the Pneumococcal Conjugate Vaccines (PCVs), consider the following statements:',
+      statements: [
+        'They provide protection against pneumonia caused by Streptococcus pneumoniae.',
+        'They can also prevent meningitis caused by pneumococcal bacteria.',
+        'They reduce the use of antibiotics by preventing bacterial infections.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct. PCVs protect against diseases caused by Streptococcus pneumoniae including pneumonia (statement 1), meningitis and sepsis (statement 2). By preventing pneumococcal infections, they reduce the need for antibiotic treatment, helping combat antibiotic resistance (statement 3). India introduced PCV in its Universal Immunisation Programme.'
+    },
+    // ── Physics ───────────────────────────────────────────────────────────────
+    {
+      id: 'gs-018',
+      topic: 'Physics',
+      subtopic: 'Optics',
+      year: 2016,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Which one of the following phenomena is used in optical fibres for transmission of light signals?',
+      options: [
+        'Refraction of light',
+        'Scattering of light',
+        'Total internal reflection of light',
+        'Interference of light'
+      ],
+      correct: 2,
+      explanation: 'Optical fibres transmit light through the phenomenon of Total Internal Reflection (TIR). When light travels from a denser medium (glass core) to a rarer medium (cladding) at an angle greater than the critical angle, it is completely reflected back into the denser medium. This enables light to travel long distances through glass fibres with minimal loss.'
+    },
+    {
+      id: 'gs-019',
+      topic: 'Physics',
+      subtopic: 'Optics',
+      year: 2014,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Which of the following is/are the characteristic/characteristics of electromagnetic waves?',
+      options: [
+        'They require a medium for propagation.',
+        'They travel through vacuum at the speed of light.',
+        'They are longitudinal waves.',
+        'Both (a) and (c)'
+      ],
+      correct: 1,
+      explanation: 'Electromagnetic waves (light, radio waves, X-rays, etc.) are transverse waves (not longitudinal) that do NOT require a medium for propagation and can travel through vacuum at the speed of light (approximately 3 × 10⁸ m/s). Option B correctly identifies this key characteristic.'
+    },
+    {
+      id: 'gs-020',
+      topic: 'Physics',
+      subtopic: 'Nuclear',
+      year: 2015,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements about nuclear energy:',
+      statements: [
+        'Nuclear fission involves splitting of heavy atomic nuclei to release energy.',
+        'Nuclear fusion involves combining light atomic nuclei to release energy.',
+        'The sun produces energy through nuclear fission.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 0,
+      explanation: 'Statement 1 is correct: nuclear fission splits heavy nuclei (like uranium-235) releasing enormous energy. Statement 2 is correct: nuclear fusion combines light nuclei (like hydrogen isotopes deuterium and tritium) releasing even more energy per unit mass. Statement 3 is incorrect: the sun and other stars produce energy through nuclear FUSION (hydrogen nuclei fusing to form helium), not fission. Hence 1 and 2 only.'
+    },
+    {
+      id: 'gs-021',
+      topic: 'Physics',
+      subtopic: 'Basic Laws',
+      year: 2017,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Why does water dissolve more substances than any other liquid?',
+      options: [
+        'It is a dipolar molecule',
+        'It is a good conductor of heat',
+        'It has high specific heat',
+        'It is an oxide of hydrogen'
+      ],
+      correct: 0,
+      explanation: 'Water is called the "universal solvent" because of its polar (dipolar) nature. The oxygen end of water carries a partial negative charge and the hydrogen ends carry partial positive charges. This polarity allows water to dissolve ionic compounds and polar molecules by hydrating the ions/molecules, making it effective at dissolving more substances than any other liquid.'
+    },
+    {
+      id: 'gs-022',
+      topic: 'Physics',
+      subtopic: 'Basic Laws',
+      year: 2016,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'A person can distinguish two closely spaced objects because of the resolving power of the eye.',
+        'The near point of a normal human eye is at a distance of 25 cm from the eye.',
+        'The far point of a normal human eye is at infinity.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct. (1) Resolving power of the eye (determined by the diffraction limit and retinal structure) allows distinguishing closely spaced objects. (2) The near point (least distance of distinct vision) for a normal human eye is 25 cm. (3) The far point of a normal emmetropic eye is at infinity — it can focus on objects at very large distances. All three statements are accurate.'
+    },
+    {
+      id: 'gs-023',
+      topic: 'Physics',
+      subtopic: 'Nuclear',
+      year: 2018,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements about radioactivity:',
+      statements: [
+        'Alpha particles are helium nuclei and have low penetrating power.',
+        'Beta particles are electrons and have more penetrating power than alpha particles.',
+        'Gamma rays are electromagnetic radiation and have the highest penetrating power among the three types of radiation.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct. Alpha particles (He-4 nuclei) have the least penetrating power (stopped by paper or skin). Beta particles (electrons/positrons) have more penetrating power (stopped by thin aluminium). Gamma rays (electromagnetic radiation, highest energy) have the greatest penetrating power, requiring thick lead or concrete to stop. All three accurately describe the three types of radiation.'
+    },
+    // ── Chemistry ─────────────────────────────────────────────────────────────
+    {
+      id: 'gs-024',
+      topic: 'Chemistry',
+      subtopic: 'Elements and Compounds',
+      year: 2015,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to the chemical compounds, which of the following statements is/are correct?',
+      statements: [
+        'Sodium chloride (NaCl) is an ionic compound.',
+        'Carbon dioxide (CO₂) is a covalent compound.',
+        'Water (H₂O) is a polar covalent compound.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct. NaCl (common salt) is an ionic compound formed by electrostatic attraction between Na⁺ and Cl⁻ ions. CO₂ is a covalent compound (carbon shares electrons with oxygen). Water is a polar covalent compound because the oxygen end carries partial negative charge and hydrogen ends carry partial positive charge, making it polar.'
+    },
+    {
+      id: 'gs-025',
+      topic: 'Chemistry',
+      subtopic: 'Alloys',
+      year: 2016,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following pairs: Alloy — Major constituents.',
+      statements: [
+        'Brass — Copper and Zinc',
+        'Bronze — Copper and Tin',
+        'German Silver — Copper, Zinc and Nickel'
+      ],
+      tail: 'Which of the pairs given above is/are correctly matched?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three pairs are correctly matched. Brass = Copper + Zinc (65-35% typical). Bronze = Copper + Tin (historically the first alloy). German Silver (nickel silver) = Copper + Zinc + Nickel (it contains no actual silver, just has a silver appearance). All three are correct alloy compositions.'
+    },
+    {
+      id: 'gs-026',
+      topic: 'Chemistry',
+      subtopic: 'Acids and Bases',
+      year: 2014,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Which one of the following is used as a mordant in dyeing fabrics?',
+      options: [
+        'Potassium dichromate',
+        'Potassium permanganate',
+        'Potassium nitrate',
+        'Potassium chloride'
+      ],
+      correct: 0,
+      explanation: 'Potassium dichromate (K₂Cr₂O₇) is used as a mordant in textile dyeing. Mordants are metallic compounds that form coordination complexes with dyes and fabric fibres, fixing the colour permanently. Chromium compounds are among the most widely used mordants in the textile industry.'
+    },
+    {
+      id: 'gs-027',
+      topic: 'Chemistry',
+      subtopic: 'Acids and Bases',
+      year: 2017,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'Acids have a pH value less than 7.',
+        'Bases have a pH value greater than 7.',
+        'A neutral substance has a pH of exactly 7.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three statements correctly describe the pH scale. Acids have pH < 7 (the lower, the more acidic). Bases/alkalis have pH > 7 (the higher, the more basic). Neutral substances (like pure water at 25°C) have pH = 7. The pH scale ranges from 0 (most acidic) to 14 (most basic).'
+    },
+    {
+      id: 'gs-028',
+      topic: 'Chemistry',
+      subtopic: 'Elements and Compounds',
+      year: 2019,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Which one of the following elements is found in all organic compounds?',
+      options: [
+        'Nitrogen',
+        'Oxygen',
+        'Carbon',
+        'Hydrogen'
+      ],
+      correct: 2,
+      explanation: 'All organic compounds by definition contain carbon. Organic chemistry is the chemistry of carbon compounds (with the exception of a few simple carbon compounds like CO₂, CO, carbonates, which are classified as inorganic). While most organic compounds also contain hydrogen, oxygen, or nitrogen, carbon is the one element present in all of them.'
+    },
+    {
+      id: 'gs-029',
+      topic: 'Chemistry',
+      subtopic: 'Alloys',
+      year: 2021,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements about Stainless Steel:',
+      statements: [
+        'Stainless steel is an alloy of iron, chromium and nickel.',
+        'The presence of chromium makes stainless steel resistant to rust and corrosion.',
+        'Stainless steel is a pure metal, not an alloy.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 0,
+      explanation: 'Statement 1 is correct: stainless steel is an alloy primarily of iron (Fe) with at least 10.5% chromium; nickel is added in austenitic grades. Statement 2 is correct: chromium forms a thin passive oxide layer (Cr₂O₃) on the surface, providing corrosion and rust resistance. Statement 3 is incorrect: stainless steel is an alloy, not a pure metal. Hence 1 and 2 only.'
+    },
+    // ── Space Technology ──────────────────────────────────────────────────────
+    {
+      id: 'gs-030',
+      topic: 'Space Technology',
+      subtopic: 'ISRO Missions',
+      year: 2014,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'India\'s first dedicated multi-wavelength space observatory is',
+      options: [
+        'INSAT-3D',
+        'Astrosat',
+        'Chandrayaan-1',
+        'Resourcesat-2'
+      ],
+      correct: 1,
+      explanation: 'ASTROSAT, launched by ISRO on 28 September 2015 using PSLV-C30, is India\'s first dedicated multi-wavelength space observatory. It is designed to study astronomical objects simultaneously in X-ray, ultraviolet, and visible wavelengths — giving it a unique multi-wavelength observation capability.'
+    },
+    {
+      id: 'gs-031',
+      topic: 'Space Technology',
+      subtopic: 'ISRO Missions',
+      year: 2015,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'India\'s Mars Orbiter Mission (Mangalyaan) made India',
+      options: [
+        'The first country to reach Mars in its very first attempt',
+        'The second Asian country to reach Mars',
+        'The third country overall to reach Mars',
+        'The first country to send a crew to Mars'
+      ],
+      correct: 0,
+      explanation: 'India\'s Mars Orbiter Mission (Mangalyaan), launched November 2013 and inserted into Martian orbit on 24 September 2014, made India the first country in the world to successfully reach Mars orbit in its very first attempt. India became the fourth entity (after USSR, USA, ESA) to reach Mars and the first Asian nation to do so.'
+    },
+    {
+      id: 'gs-032',
+      topic: 'Space Technology',
+      subtopic: 'ISRO Missions',
+      year: 2017,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to the Indian Regional Navigation Satellite System (IRNSS)/NavIC, consider the following statements:',
+      statements: [
+        'IRNSS is also known as NavIC (Navigation with Indian Constellation).',
+        'It provides accurate position information service to users in India and the region extending up to 1500 km from its boundary.',
+        'IRNSS consists of a constellation of 7 satellites.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct. IRNSS is officially named NavIC (Navigation with Indian Constellation) — statement 1 correct. NavIC covers India and extends to 1500 km beyond Indian borders, serving the region — statement 2 correct. The NavIC constellation consists of 7 operational satellites (3 geostationary + 4 geosynchronous orbit) — statement 3 correct.'
+    },
+    {
+      id: 'gs-033',
+      topic: 'Space Technology',
+      subtopic: 'ISRO Missions',
+      year: 2019,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to Chandrayaan-2, consider the following statements:',
+      statements: [
+        'It was launched by India\'s most powerful rocket GSLV Mk-III.',
+        'Its orbiter is designed to operate for one year.',
+        'The Vikram lander successfully soft-landed on the lunar south pole.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 0,
+      explanation: 'Statement 1 is correct: Chandrayaan-2 was launched on 22 July 2019 by GSLV Mk-III (India\'s most powerful rocket). Statement 2 is correct: the orbiter was designed for a 1-year mission (it has actually continued operating much longer). Statement 3 is incorrect: the Vikram lander lost communication during the descent and crashed near the south pole — it did not successfully soft-land. Hence 1 and 2 only.'
+    },
+    {
+      id: 'gs-034',
+      topic: 'Space Technology',
+      subtopic: 'ISRO Missions',
+      year: 2021,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'With reference to India\'s space programme, what is the purpose of the "One Web" satellite constellation partnership with India?',
+      options: [
+        'To provide broadband internet connectivity from space',
+        'To monitor weather and natural disasters over India',
+        'To provide navigation services in India',
+        'To conduct planetary exploration missions'
+      ],
+      correct: 0,
+      explanation: 'OneWeb is a global satellite communications company that provides broadband internet services through a Low Earth Orbit (LEO) satellite constellation. ISRO (through NewSpace India Limited) launched several OneWeb satellites via GSLV Mk-III/LVM3. The service is designed to provide high-speed broadband internet connectivity globally, including to remote areas.'
+    },
+    {
+      id: 'gs-035',
+      topic: 'Space Technology',
+      subtopic: 'ISRO Missions',
+      year: 2022,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to India\'s space programme, consider the following statements:',
+      statements: [
+        'PSLV is a four-stage rocket with alternating solid and liquid propellant stages.',
+        'GSLV Mk-III uses indigenous cryogenic technology.',
+        'Satish Dhawan Space Centre is located in Andhra Pradesh.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct. PSLV (Polar Satellite Launch Vehicle) has 4 stages: solid (PS1), liquid (PS2), solid (PS3), liquid (PS4) — alternating solid and liquid. GSLV Mk-III uses the CE-20 cryogenic engine (indigenous Indian cryogenic technology) in its upper stage. Satish Dhawan Space Centre (Sriharikota Range, SHAR) is located in Sriharikota, Andhra Pradesh. All three are correct.'
+    },
+    {
+      id: 'gs-036',
+      topic: 'Space Technology',
+      subtopic: 'Satellites',
+      year: 2020,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'Geostationary satellites appear stationary relative to a fixed point on the Earth.',
+        'Geostationary satellites are placed in orbit at an altitude of approximately 36,000 km above the Earth\'s surface.',
+        'Geostationary satellites orbit the Earth once every 24 hours.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct. Geostationary satellites (GEO) orbit at ~35,786 km (approximately 36,000 km) altitude above the equator. Their orbital period matches Earth\'s rotation (24 hours), so they appear stationary relative to a fixed point on Earth\'s surface — enabling continuous coverage of the same area (used for TV broadcast, weather monitoring, etc.).'
+    },
+    // ── Defence Technology ────────────────────────────────────────────────────
+    {
+      id: 'gs-037',
+      topic: 'Defence Technology',
+      subtopic: 'Missiles',
+      year: 2016,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Consider the following missiles: 1. Agni-V. 2. BrahMos. 3. Prithvi. Which of the above is/are surface-to-surface missiles?',
+      options: [
+        '1 only',
+        '1 and 2 only',
+        '2 and 3 only',
+        '1, 2 and 3'
+      ],
+      correct: 3,
+      explanation: 'All three — Agni-V (ICBM-class ballistic missile), BrahMos (supersonic cruise missile), and Prithvi (tactical ballistic missile) — are surface-to-surface missiles, meaning they are launched from the ground and strike ground targets. BrahMos also has air-launched and submarine-launched variants, but all three are primarily surface-to-surface systems.'
+    },
+    {
+      id: 'gs-038',
+      topic: 'Defence Technology',
+      subtopic: 'Missiles',
+      year: 2018,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'Ballistic missiles travel along a curved parabolic trajectory after initial powered flight.',
+        'Cruise missiles are self-propelled throughout their flight and travel at low altitudes.'
+      ],
+      tail: 'Which of the statements given above is/are correct?',
+      options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+      correct: 2,
+      explanation: 'Both are correct. Ballistic missiles follow a ballistic (free-fall) trajectory — they are powered only during initial boost phase and then follow a parabolic arc to their target under gravity. Cruise missiles are jet-powered throughout their flight, maintain a sustained and guided horizontal trajectory, and typically fly at low altitudes to evade radar detection.'
+    },
+    {
+      id: 'gs-039',
+      topic: 'Defence Technology',
+      subtopic: 'Missiles',
+      year: 2019,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements about India\'s Integrated Guided Missile Development Programme (IGMDP):',
+      statements: [
+        'IGMDP was initiated in 1983 under the leadership of Dr. A.P.J. Abdul Kalam.',
+        'Prithvi, Agni, Trishul, Akash and Nag were the five missiles developed under IGMDP.',
+        'BrahMos was also developed as part of IGMDP.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 0,
+      explanation: 'Statements 1 and 2 are correct. IGMDP was launched in 1983, led by Dr. Kalam. The five missiles — Prithvi (surface-to-surface), Agni (intermediate range), Trishul (surface-to-air), Akash (medium range SAM), and Nag (anti-tank) — were developed under it (mnemonic: PATNA). Statement 3 is incorrect: BrahMos is an India-Russia joint venture (BrahMos Aerospace), developed separately from IGMDP. Hence 1 and 2 only.'
+    },
+    {
+      id: 'gs-040',
+      topic: 'Defence Technology',
+      subtopic: 'INS',
+      year: 2017,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Which one of the following is not a BrahMos missile feature?',
+      options: [
+        'It is a supersonic cruise missile',
+        'It is a joint development of India and Russia',
+        'It is a ballistic missile capable of carrying nuclear warheads',
+        'It can be launched from land, sea and air platforms'
+      ],
+      correct: 2,
+      explanation: 'BrahMos (named after Brahmaputra and Moskva rivers) is: (a) a supersonic cruise missile (Mach 2.8–3.0), (b) an India-Russia joint venture through BrahMos Aerospace, and (d) capable of being launched from land, sea, submarine, and air. Option (c) is NOT a feature — BrahMos is a conventional precision-strike cruise missile; it is not a ballistic missile and is not designed to carry nuclear warheads (it is a tactical weapon).'
+    },
+    {
+      id: 'gs-041',
+      topic: 'Defence Technology',
+      subtopic: 'INS',
+      year: 2016,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'INS Arihant, which was in news recently, is India\'s',
+      options: [
+        'First indigenously built nuclear-powered attack submarine',
+        'First indigenously built nuclear ballistic missile submarine',
+        'First aircraft carrier built in India',
+        'First indigenously designed destroyer'
+      ],
+      correct: 1,
+      explanation: 'INS Arihant (SSBN — Ship Submersible Ballistic Nuclear) is India\'s first indigenously built nuclear-powered ballistic missile submarine (SSBN). Commissioned in 2016, it carries K-15 Sagarika ballistic missiles and completes India\'s nuclear triad (land + air + sea-based nuclear delivery). It is not an attack submarine (which would be SSN).'
+    },
+    {
+      id: 'gs-042',
+      topic: 'Defence Technology',
+      subtopic: 'Missiles',
+      year: 2023,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements:',
+      statements: [
+        'Ballistic missiles are powered throughout their flight path.',
+        'A Ballistic missile has a high trajectory compared to a cruise missile.',
+        'In terms of guidance, NAVIC provides navigation to India\'s missile systems.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 1,
+      explanation: 'Statement 1 is incorrect: ballistic missiles are powered only during the boost phase (initial launch); after that they coast in a ballistic trajectory under gravity. Statement 2 is correct: ballistic missiles follow a high arcing trajectory (reaching the upper atmosphere or space), unlike cruise missiles which fly at low altitudes. Statement 3 is broadly correct: NavIC (IRNSS) can provide navigation support for various Indian defence applications including missile guidance. Hence 2 and 3 only.'
+    },
+    // ── Biology — Diseases & Environment ─────────────────────────────────────
+    {
+      id: 'gs-043',
+      topic: 'Biology',
+      subtopic: 'Diseases',
+      year: 2021,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following diseases:',
+      statements: [
+        'Malaria — caused by a protozoan parasite and transmitted by female Anopheles mosquito',
+        'Dengue — caused by a bacterium and transmitted by Aedes mosquito',
+        'Filariasis (elephantiasis) — caused by a parasitic worm (nematode) and transmitted by Culex mosquito'
+      ],
+      tail: 'Which of the above correctly states the cause and vector?',
+      options: ['1 and 3 only', '2 and 3 only', '1 and 2 only', '1, 2 and 3'],
+      correct: 0,
+      explanation: 'Malaria is caused by Plasmodium (protozoan parasite) transmitted by female Anopheles mosquito — statement 1 correct. Dengue is caused by dengue virus (not bacterium), transmitted by Aedes aegypti mosquito — statement 2 is incorrect (it states bacterium). Filariasis/Elephantiasis is caused by Wuchereria bancrofti (filarial worm/nematode) transmitted by Culex mosquito — statement 3 correct. Hence 1 and 3 only.'
+    },
+    {
+      id: 'gs-044',
+      topic: 'Biology',
+      subtopic: 'Diseases',
+      year: 2020,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements about COVID-19:',
+      statements: [
+        'COVID-19 is caused by a coronavirus designated as SARS-CoV-2.',
+        'It primarily spreads through respiratory droplets and aerosols.',
+        'COVID-19 vaccines provide immunity only for 6 months.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 0,
+      explanation: 'Statement 1 is correct: COVID-19 is caused by SARS-CoV-2 (Severe Acute Respiratory Syndrome Coronavirus 2), identified in late 2019. Statement 2 is correct: primary transmission is through respiratory droplets and aerosols when an infected person coughs, sneezes, speaks, or breathes. Statement 3 is incorrect: the duration of vaccine-induced immunity varies and has not been established as exactly 6 months; it depends on variant, age, and vaccine type. Hence 1 and 2 only.'
+    },
+    {
+      id: 'gs-045',
+      topic: 'Biology',
+      subtopic: 'Human Body Systems',
+      year: 2022,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Which one of the following is not a communicable disease?',
+      options: [
+        'Tuberculosis',
+        'Malaria',
+        'Diabetes mellitus',
+        'Cholera'
+      ],
+      correct: 2,
+      explanation: 'Diabetes mellitus is a metabolic/non-communicable disease caused by insufficient insulin production or the body\'s inability to effectively use insulin. It cannot be transmitted from person to person. Tuberculosis (bacteria), Malaria (protozoan parasite), and Cholera (bacteria) are all communicable (infectious) diseases transmitted through various routes.'
+    },
+    {
+      id: 'gs-046',
+      topic: 'Chemistry',
+      subtopic: 'Elements and Compounds',
+      year: 2018,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements about ozone:',
+      statements: [
+        'Ozone is an allotrope of oxygen consisting of three oxygen atoms.',
+        'The ozone layer in the stratosphere absorbs harmful ultraviolet radiation.',
+        'Chlorofluorocarbons (CFCs) deplete the ozone layer by releasing chlorine atoms.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct. Ozone (O₃) is an allotrope of oxygen with three oxygen atoms. The ozone layer (15-35 km altitude in stratosphere) absorbs UV-B and UV-C radiation protecting life on Earth. CFCs released from refrigerants, aerosols etc. break down in the stratosphere and release chlorine radicals that catalytically destroy ozone molecules. All three statements are accurate.'
+    },
+    {
+      id: 'gs-047',
+      topic: 'Space Technology',
+      subtopic: 'ISRO Missions',
+      year: 2023,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to India\'s Chandrayaan-3 mission, consider the following statements:',
+      statements: [
+        'It successfully soft-landed the Vikram lander near the lunar south pole.',
+        'The Pragyan rover deployed from Chandrayaan-3 conducted in-situ analysis of the lunar surface.',
+        'Chandrayaan-3 was launched using the PSLV-C55 rocket.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 0,
+      explanation: 'Statement 1 is correct: Chandrayaan-3\'s Vikram lander successfully soft-landed near the lunar south pole on 23 August 2023, making India the first country to land near the Moon\'s south pole and the fourth country to achieve a lunar soft landing. Statement 2 is correct: the Pragyan rover conducted in-situ analysis including LIBS (Laser-Induced Breakdown Spectroscopy) and confirmed the presence of sulphur and other elements. Statement 3 is incorrect: Chandrayaan-3 was launched on 14 July 2023 by LVM3-M4 (GSLV Mk-III), not PSLV-C55. Hence 1 and 2 only.'
+    },
+    {
+      id: 'gs-048',
+      topic: 'Physics',
+      subtopic: 'Basic Laws',
+      year: 2021,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements about plant and animal cells:',
+      statements: [
+        'Plant cells have a cell wall made of cellulose, but animal cells do not.',
+        'Both plant and animal cells have a plasma membrane.',
+        'Animal cells have large central vacuoles while plant cells generally do not have vacuoles.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 0,
+      explanation: 'Statement 1 is correct: plant cells have a rigid cellulose cell wall outside the cell membrane; animal cells lack a cell wall. Statement 2 is correct: both plant and animal cells have a plasma membrane (cell membrane). Statement 3 is incorrect: plant cells (not animal cells) typically have one large central vacuole; animal cells may have small vacuoles but not the large central vacuoles characteristic of plant cells. Hence 1 and 2 only.'
+    },
+    {
+      id: 'gs-049',
+      topic: 'Biotechnology',
+      year: 2023,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Which one of the following best describes the term "Somatic Cell Nuclear Transfer (SCNT)" used in biotechnology?',
+      options: [
+        'Transfer of a nucleus from a body cell into an enucleated egg cell to create a clone',
+        'Transfer of genes from one plant to another using bacteria as a vector',
+        'Transplantation of stem cells into damaged tissue for regeneration',
+        'Transfer of RNA from one organism to another for gene expression'
+      ],
+      correct: 0,
+      explanation: 'Somatic Cell Nuclear Transfer (SCNT) is the cloning technique used to create Dolly the sheep. A nucleus from a donor somatic (body) cell is transferred into an enucleated egg cell (egg with nucleus removed). The reconstructed cell is stimulated to develop into an embryo, which is a genetic clone of the nucleus donor. This technique is also used to create patient-specific stem cells (therapeutic cloning).'
+    },
+    {
+      id: 'gs-050',
+      topic: 'Chemistry',
+      subtopic: 'Elements and Compounds',
+      year: 2022,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements about rare earth elements:',
+      statements: [
+        'Rare earth elements comprise 17 elements including 15 lanthanides, scandium and yttrium.',
+        'China has the largest known reserves of rare earth elements.',
+        'Rare earth elements are used in manufacturing electric vehicle motors and wind turbine generators.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct. Rare earth elements (REEs) are a group of 17 metallic elements: 15 lanthanides + scandium + yttrium (statement 1 correct). China holds about 35-40% of global REE reserves and produces ~60% of global supply (statement 2 correct). REEs like neodymium and dysprosium are critical for high-performance permanent magnets used in EV motors and wind turbines (statement 3 correct).'
+    },
+    {
+      id: 'gs-051',
+      topic: 'Defence Technology',
+      subtopic: 'Missiles',
+      year: 2021,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements about India\'s "Agni-V" missile:',
+      statements: [
+        'Agni-V is a surface-to-surface intercontinental ballistic missile.',
+        'Agni-V has a range of over 5,000 km.',
+        'Agni-V is a solid-fuel based missile.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct. Agni-V is classified as an ICBM-class surface-to-surface ballistic missile (statement 1 correct). It has a range of 5,000–8,000 km, covering all of China and parts of Europe (statement 2 correct). Agni-V uses solid fuel propellant in all its stages (statement 3 correct). It is also being developed with MIRV (Multiple Independently targetable Re-entry Vehicle) capability. All three statements are accurate.'
+    },
+    {
+      id: 'gs-052',
+      topic: 'Biology',
+      subtopic: 'Genetics',
+      year: 2022,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Which one of the following is the correct explanation of the "Central Dogma of Molecular Biology"?',
+      options: [
+        'DNA → RNA → Protein',
+        'RNA → DNA → Protein',
+        'Protein → RNA → DNA',
+        'DNA → Protein → RNA'
+      ],
+      correct: 0,
+      explanation: 'The Central Dogma of Molecular Biology (proposed by Francis Crick, 1958) describes the flow of genetic information: DNA is transcribed into mRNA (messenger RNA), which is then translated into protein at ribosomes. The sequence is DNA → RNA → Protein. Reverse transcription (RNA → DNA) occurs in retroviruses like HIV as an exception, but the standard flow is DNA → RNA → Protein.'
+    },
+    {
+      id: 'gs-053',
+      topic: 'Space Technology',
+      subtopic: 'ISRO Missions',
+      year: 2019,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'With reference to Mission Shakti (A-SAT test), consider the following statements:',
+      statements: [
+        'India conducted an anti-satellite weapons test in March 2019.',
+        'India became the fourth country to demonstrate anti-satellite missile capability.',
+        'The test was conducted in low Earth orbit to minimize space debris.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 3,
+      explanation: 'All three are correct. India conducted Mission Shakti (ASAT test) on 27 March 2019, becoming the fourth country (after USA, Russia, China) to demonstrate ASAT capability. The test was deliberately conducted at a low altitude (~300 km LEO) to minimise space debris — the debris was expected to decay and re-enter within weeks. All three statements are accurate.'
+    },
+    {
+      id: 'gs-054',
+      topic: 'Chemistry',
+      subtopic: 'Alloys',
+      year: 2020,
+      type: 'prelims',
+      qtype: 'direct',
+      stem: 'Which one of the following types of glass can cut off ultraviolet rays?',
+      options: [
+        'Pyrex glass',
+        'Crookes glass',
+        'Flint glass',
+        'Soda glass'
+      ],
+      correct: 1,
+      explanation: 'Crookes glass (developed by Sir William Crookes) contains cerium and other rare earth oxides that absorb ultraviolet radiation. It is used in sunglasses to protect eyes from UV rays. Pyrex glass (borosilicate) is heat-resistant; flint glass contains lead and has high refractive index (used in optical lenses); soda glass (sodium carbonate + silica) is common glass.'
+    },
+    {
+      id: 'gs-055',
+      topic: 'Biology',
+      subtopic: 'Diseases',
+      year: 2022,
+      type: 'prelims',
+      qtype: 'statement',
+      stem: 'Consider the following statements about antibiotics:',
+      statements: [
+        'Antibiotics are effective against both bacterial and viral infections.',
+        'Overuse and misuse of antibiotics leads to antibiotic resistance.',
+        'Penicillin was the first antibiotic discovered, by Alexander Fleming in 1928.'
+      ],
+      tail: 'Which of the statements given above are correct?',
+      options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', '1, 2 and 3'],
+      correct: 1,
+      explanation: 'Statement 1 is incorrect: antibiotics work only against bacteria and are ineffective against viral infections (like common cold, influenza, COVID-19). Using antibiotics for viral infections is a major cause of antibiotic resistance. Statement 2 is correct: antibiotic overuse/misuse is the primary driver of antimicrobial resistance (AMR). Statement 3 is correct: Alexander Fleming discovered penicillin in 1928 by observing that Penicillium mould inhibited bacterial growth. Hence 2 and 3 only.'
+    }
+  ],
   'disaster-management': []
 };
