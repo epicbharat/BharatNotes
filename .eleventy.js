@@ -105,6 +105,11 @@ module.exports = function (eleventyConfig) {
     const d = new Date(dateObj);
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
   });
+  eleventyConfig.addFilter("isoDateTime", (dateObj) => {
+    const d = new Date(dateObj);
+    const ymd = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+    return `${ymd}T00:00:00+05:30`;
+  });
 
   eleventyConfig.addFilter("limit", (arr, n) => (arr || []).slice(0, n));
   eleventyConfig.addFilter("includes", (arr, val) => (arr || []).includes(val));

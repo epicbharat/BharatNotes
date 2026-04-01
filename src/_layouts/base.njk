@@ -55,8 +55,9 @@
     "url": "{{ pageUrl }}",
     {% if layout == 'topic.njk' or layout == 'ncert-chapter.njk' %}
     "headline": "{{ title }}",
-    "datePublished": "{{ date | isoDate }}",
-    "dateModified": "{{ date | isoDate }}",
+    "datePublished": "{{ date | isoDateTime }}",
+    "dateModified": "{{ date | isoDateTime }}",
+    "image": "{{ site.url }}/images/logos/bharatnotes-og.jpg",
     "inLanguage": "en-IN",
     "author": {"@type": "Person", "name": "Bharat Choudhary", "url": "https://www.linkedin.com/in/epicbharat/"},
     "publisher": {"@type": "Organization", "name": "{{ site.shortName }}", "url": "{{ site.url }}", "logo": {"@type": "ImageObject", "url": "{{ site.url }}/images/logos/bharatnotes-logo.png"}},
