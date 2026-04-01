@@ -39,7 +39,7 @@ Note: The Himalayan system is covered in detail in the India Mapping section. Br
 
 | Feature | Type | Countries / Location | Key Facts |
 |--------|------|---------------------|-----------|
-| Karakoram Range | Mountain range | Pakistan, China (Xinjiang), India (disputed) | Contains K2 (8,611 m), world's second-highest peak; CPEC traverses the Karakoram Highway |
+| Karakoram Range | Mountain range | India (Ladakh UT); Gilgit-Baltistan (Indian territory under Pakistani illegal occupation); China (Xinjiang) | Contains K2 (8,611 m), world's second-highest peak; India claims entire J&K including Gilgit-Baltistan; CPEC traverses the Karakoram Highway through Indian-claimed territory |
 | Hindu Kush | Mountain range | Afghanistan, Pakistan | Separates Central Asia from South Asia; Khyber Pass (1,070 m) is the historic route |
 | Tian Shan | Mountain range | Kyrgyzstan, Kazakhstan, China (Xinjiang) | Means "Celestial Mountains"; up to 7,439 m (Jengish Chokusu); separates Central Asia from Tarim Basin |
 | Altai Mountains | Mountain range | Russia, Kazakhstan, Mongolia, China | Source of the Ob and Irtysh rivers; connects Siberia and Central Asia |

@@ -26,7 +26,7 @@ India shares land borders with 7 countries (total land border: ~15,106 km) and m
 | Nepal | 1,751 km | Uttarakhand, UP, Bihar, West Bengal, Sikkim | Open border; Kalapani-Lipulekh-Limpiyadhura (dispute); Raxaul-Birgunj (busiest land port); Sunauli (UP-Nepal) |
 | Myanmar | 1,643 km | Arunachal Pradesh, Nagaland, Manipur, Mizoram | Free Movement Regime (FMR, now suspended 2024); Moreh-Tamu (Manipur); Zokhawthar (Mizoram); Stilwell Road; India-Myanmar-Thailand Trilateral Highway project |
 | Bhutan | 699 km | Sikkim, West Bengal, Assam, Arunachal Pradesh | Special relationship; Jaigaon-Phuentsholing; Bhutan-China border dispute affects Doklam (India's strategic interest) |
-| Afghanistan | 106 km (shortest; only through PoK/Wakhan Corridor) | — (through Pakistan-occupied J&K) | India has no operational land border with Afghanistan since PoK is under Pakistani control |
+| Afghanistan | 106 km (through Wakhan Corridor, in J&K territory under Pakistani illegal occupation) | J&K (PoJK — Indian territory illegally occupied by Pakistan) | India's rightful land border with Afghanistan exists through PoJK (Gilgit-Baltistan); operationally inaccessible as Pakistan illegally occupies this Indian territory |
 
 ---
 
