@@ -4,7 +4,7 @@ title: "Tiger Reserves of India — UPSC Mapping Reference"
 gs_papers:
   - gs1
   - gs3
-description: "Complete UPSC mapping reference for India's 58 tiger reserves — state-wise list, newest reserves, tiger population data (2024-25), and key facts. Madhya Pradesh leads with 9 tiger reserves."
+description: "Complete UPSC mapping reference for India's 58 tiger reserves — state-wise list, newest reserves (58th: Madhav TR, March 2025), tiger population 3,682 (2022 census), and key facts. Madhya Pradesh leads with 9 tiger reserves."
 date: 2026-04-01
 tags:
   - geography
@@ -12,19 +12,19 @@ tags:
   - upsc-maps
 ---
 
-India has 58 Tiger Reserves (as of March 2025, when Madhav Tiger Reserve in MP was declared the 58th). Madhya Pradesh leads with 9 tiger reserves. Tiger Reserves span 18 states. India's 2022 Tiger Census estimated 3,167 tigers (range up to 3,925); more recent 2024-25 estimates place the count at 3,682 — approximately 75% of the world's wild tiger population. The largest Tiger Reserve by area is Nagarjunasagar-Srisailam (3,296 sq km, AP/Telangana). UPSC tests the newest reserves, state-wise counts, and record tiger densities.
+India has 58 Tiger Reserves (as of March 2025, when Madhav Tiger Reserve in MP was declared the 58th). Madhya Pradesh leads with 9 tiger reserves. Tiger Reserves span 18 states. India's 2022 Tiger Census (the most recent official census, conducted by NTCA and WII) estimated India's tiger population at **3,682** — approximately 70% of the world's wild tiger population; the statistically rigorous minimum estimate is 3,167. The largest Tiger Reserve by area is Nagarjunasagar-Srisailam (AP/Telangana). UPSC tests the newest reserves, state-wise counts, and record tiger densities.
 
 ---
 
 ## Newest Tiger Reserves (Last 5 Added — Frequently Tested)
 
-| Reserve (newest first) | State | Year | Notable |
-|------------------------|-------|------|---------|
-| Madhav TR (58th) | Madhya Pradesh | 2025 | Madhav NP declared 58th TR (March 2025); 9th in MP |
-| Veerangana Durgavati TR (57th) | Madhya Pradesh | 2023 | Damoh district; 8th in MP |
-| Guru Ghasidas-Tamor Pingla TR (56th) | Chhattisgarh | 2023 | Largest TR in CG; Korea and Surajpur districts |
-| Ramgarh Vishdhari TR (55th) | Rajasthan | 2022 | Bundi district; connects Ranthambore and Mukundra |
-| Srivilliputhur-Megamalai TR (54th) | Tamil Nadu | 2021 | Virudhunagar and Theni districts; Grizzled Giant Squirrel |
+| Reserve (newest first) | State | Year Notified | Notable |
+|------------------------|-------|--------------|---------|
+| Madhav TR (58th) | Madhya Pradesh | March 2025 | Madhav NP, Shivpuri district; 9th in MP; total area 1,751 sq km |
+| Ratapani TR (57th) | Madhya Pradesh | December 2024 | Raisen and Sehore districts; total area 1,271.4 sq km; 8th in MP |
+| Guru Ghasidas-Tamor Pingla TR (56th) | Chhattisgarh | November 2024 | 3rd largest TR in India (2,829 sq km); Korea, Surajpur, Balrampur districts |
+| Veerangana Durgavati TR (55th) | Madhya Pradesh | September 2023 | Sagar, Damoh, Narsinghpur districts; 2,339 sq km; 7th in MP |
+| Dholpur-Karauli TR (54th) | Rajasthan | September 2023 | Rajasthan's 5th TR; connects eastern Rajasthan forests |
 
 ---
 

@@ -30,11 +30,11 @@ Strategic significance: Close to Malacca Strait; Great Nicobar is near the shipp
 | Neil Island | Island | Renamed Shaheed Dweep; coral beaches |
 | Havelock Island | Island | Renamed Swaraj Dweep; most popular tourist island; Radhanagar Beach |
 | North Sentinel Island | Northernmost Andaman | Home of the Sentinelese; Prohibited area; uncontacted tribe; ~50-400 estimated population; no access permitted |
-| Barren Island | Active Volcano | Only confirmed active volcano in South Asia / Indian subcontinent; ~138 km northeast of Port Blair; erupted 2025 (latest); caldera ~2 km wide; 354 m high |
+| Barren Island | Active Volcano | Only confirmed active volcano in South Asia / Indian subcontinent; ~138 km northeast of Port Blair; intermittent Strombolian eruptions since 1991; active in 2024 (ash plumes March–April 2024) and 2025 (eruptions July, September, October 2025 — ash plume reached ~3,000 m in October 2025); caldera ~2 km wide; 354 m high |
 | Narcondam Island | Dormant Volcano | Small island; 710 m peak; Narcondam Hornbill (endemic bird); no historical eruption recorded; dormant |
 | Little Andaman | Southern island | Onge Tribal Reserve; Onge PVTG; limited access |
 | Car Nicobar | Nicobar Group | Northernmost Nicobar island; Indian Air Force base (strategic) |
-| Great Nicobar Island | Southernmost island | India's southernmost point (Pygmalion Point / Indira Point — tip is at ~6°N); Campbell Bay NP; Galathea Bay NP (Leatherback Turtle nesting); Shompen PVTG; Great Nicobar Biosphere Reserve (UNESCO); Holistic Development project (2024) controversy — port, township, military base |
+| Great Nicobar Island | Southernmost island | India's southernmost point (Pygmalion Point / Indira Point — tip is at ~6°N); Campbell Bay NP; Galathea Bay NP (Leatherback Turtle nesting); Shompen PVTG; Great Nicobar Biosphere Reserve (UNESCO); Holistic Development Project (₹81,000 crore; developed by ANIIDCO) — International Container Transshipment Terminal (ICTT, Phase 1 target: 4 million TEUs by 2028), dual-use civil-military airport, township, and power plant; NGT gave final approval February 2026 dismissing petitions; no ground construction started as of early 2026; NTPC invited bids for 5 MW solar power project in April 2025 |
 | Indira Point | Geographic point | Southernmost point of India (6°4'N); submerged partially during 2004 Indian Ocean tsunami |
 | Baratang Island | Middle Andaman | Limestone caves; mud volcanoes; Jarawa Tribal Reserve on Andaman Trunk Road passage |
 

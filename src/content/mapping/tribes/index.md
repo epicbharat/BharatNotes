@@ -12,7 +12,9 @@ tags:
   - upsc-maps
 ---
 
-India has 705 scheduled tribes and 75 Particularly Vulnerable Tribal Groups (PVTGs). UPSC tests tribal locations in the context of biodiversity (tribes living in forest areas/tiger reserves), constitutional provisions (Fifth and Sixth Schedules), cultural rights, and recent controversies (mining disputes, displacement, Great Nicobar development project). The Andaman tribes — especially the Sentinelese — are tested repeatedly for their uncontacted status and the legal/ethical dimensions of contact.
+India has 705 scheduled tribes and 75 Particularly Vulnerable Tribal Groups (PVTGs) spread across 18 states and the Union Territory of Andaman & Nicobar Islands. UPSC tests tribal locations in the context of biodiversity (tribes living in forest areas/tiger reserves), constitutional provisions (Fifth and Sixth Schedules), cultural rights, and recent controversies (mining disputes, displacement, Great Nicobar development project). The Andaman tribes — especially the Sentinelese — are tested repeatedly for their uncontacted status and the legal/ethical dimensions of contact.
+
+**PM-JANMAN (PM Janjati Adivasi Nyaya Maha Abhiyan):** Launched on Janjatiya Gaurav Diwas (15 November 2023) from Khunti, Jharkhand. Budget: Rs 24,104 crore over 2023–26. Covers all 75 PVTGs across 18 states and A&N Islands through 11 critical interventions (housing, water, health, nutrition, education, road/telecom connectivity, electrification, livelihoods) implemented by 9 line ministries. As of early 2025, over 4.6 lakh pucca houses sanctioned under PM Awas Yojana-Gramin for PVTG families; over 850 Multi-Purpose Centres (MPCs) sanctioned; IEC saturation campaigns running in 194 districts. PM-JANMAN and the Forest Rights Act (particularly habitat rights under Section 3(1)(e) for PVTGs) are the twin policy pillars for PVTG development.
 
 ---
 

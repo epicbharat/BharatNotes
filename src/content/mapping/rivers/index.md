@@ -40,8 +40,8 @@ The Ganga originates from the Gangotri Glacier (Gomukh) in Uttarakhand at ~3,900
 | Ganga | Gangotri Glacier (Gomukh), Uttarkashi, Uttarakhand | Uttarakhand, UP, Bihar, Jharkhand, WB | Yamuna, Ghaghra, Gandak, Kosi, Son, Chambal, Betwa, Ken, Ramganga | Bay of Bengal | 2,525 km; National River; Farakka Barrage; Tehri Dam on Bhagirathi (tributary) |
 | Yamuna | Yamunotri Glacier, Uttarkashi, Uttarakhand | Uttarakhand, HP, Delhi, Haryana, UP | Chambal, Sind, Betwa, Ken, Hindon | Ganga at Prayagraj (Triveni Sangam) | 1,376 km; longest tributary of Ganga |
 | Chambal | Vindhya Range, Mhow, MP | MP, Rajasthan, UP | Banas, Parbati, Kali Sindh | Yamuna (in Etawah, UP) | Gandhi Sagar, Rana Pratap Sagar, Jawahar Sagar dams; ravine/gully landscape |
-| Betwa | Vindhya Range, Raisen, MP | MP, UP | Dhasan, Sindh | Yamuna (in Hamirpur, UP) | Rajghat Dam; Ken-Betwa River Link Project |
-| Ken | Vindhya Range, Katni, MP | MP, UP | Sonar, Bearma | Yamuna (in Banda, UP) | Ken-Betwa River Link involves Ken; flows through Panna NP |
+| Betwa | Vindhya Range, Raisen, MP | MP, UP | Dhasan, Sindh | Yamuna (in Hamirpur, UP) | Rajghat Dam; Ken-Betwa Link Project (foundation stone laid Dec 25, 2024 by PM Modi at Khajuraho) |
+| Ken | Vindhya Range, Katni, MP | MP, UP | Sonar, Bearma | Yamuna (in Banda, UP) | Ken-Betwa River Link — donor river; Dhaudhan Dam (77 m) being built inside Panna Tiger Reserve; 230 km transfer canal; cost ₹44,605 crore; targets irrigation of 10.62 lakh hectares in Bundelkhand |
 | Ghaghra (Karnali) | Mapchachungo Glacier, Tibet | Uttarakhand, UP, Bihar | Sarda (Kali/Mahakali), Rapti, Little Gandak | Ganga (near Chhapra, Bihar) | Also called Saryu in Uttarakhand; Sharda Sahayak Canal |
 | Gandak (Narayani) | Mustang, Nepal (Annapurna region) | UP, Bihar | Burhi Gandak, Trijuga | Ganga (at Hajipur/Patna, Bihar) | Gandak Barrage at Valmiki Nagar; Gandhi Setu nearby |
 | Kosi | Gosainthan and Kangchenjunga Massif, Nepal | Nepal, Bihar | Arun, Sun Kosi, Tamur | Ganga (near Katihar, Bihar) | "Sorrow of Bihar" (floods); Kosi Barrage at Bhimnagar |
@@ -85,7 +85,7 @@ The Brahmaputra originates as the Yarlung Tsangpo in Tibet near Mansarovar. It e
 |-------|--------|------------------|-------------------|-------------|-----------------|
 | Mahanadi | Sihawa, Raipur, Chhattisgarh | CG, Odisha | Seonath, Mand, Ib, Jonk, Tel, Hasdeo | Bay of Bengal | Hirakud Dam (longest earthen dam in world); deltaic region; fertile alluvial plains |
 | Subarnarekha | Ranchi, Jharkhand | Jharkhand, WB, Odisha | Karkari, Kanchi, Roro | Bay of Bengal | Flows through Jharkhand's industrial belt; Chandil Dam |
-| Godavari | Trimbakeshwar, Nashik, Maharashtra | Maharashtra, Telangana, AP, Odisha | Pravara, Manjira, Bindusara, Pranhita, Indravati, Sabari | Bay of Bengal | 1,465 km; "Dakshin Ganga"; 2nd longest peninsular river; Polavaram Project (Andhra); Jayakwadi Dam |
+| Godavari | Trimbakeshwar, Nashik, Maharashtra | Maharashtra, Telangana, AP, Odisha | Pravara, Manjira, Bindusara, Pranhita, Indravati, Sabari | Bay of Bengal | 1,465 km; "Dakshin Ganga"; 2nd longest peninsular river; Polavaram Project (Andhra — under construction, ~55.9% civil work done as of Feb 2025, target Dec 2027); Jayakwadi Dam |
 | Krishna | Mahabaleshwar, Satara, Maharashtra | Maharashtra, Karnataka, Telangana, AP | Bhima, Tungabhadra, Musi, Peddavagu, Munneru, Koyna | Bay of Bengal | 1,400 km; Nagarjuna Sagar Dam; Almatti Dam; Srisailam Dam; Krishna Water Disputes Tribunal |
 | Tungabhadra | Convergence of Tunga and Bhadra at Kudali, Karnataka | Karnataka, AP (briefly) | Hagari (Vedavathi), Handri | Krishna (near Kurnool, AP) | Tungabhadra Dam (Hospet); Hampi UNESCO site on its banks |
 | Kaveri (Cauvery) | Talakaveri, Brahmagiri Hills, Kodagu, Karnataka | Karnataka, Tamil Nadu, Puducherry | Hemavathi, Shimsha, Arkavathi, Kabini, Bhavani, Amaravathi, Noyyal | Bay of Bengal | ~800 km; "Dakshina Ganga"; Cauvery water dispute (inter-state); KRS Dam; Mettur Dam |

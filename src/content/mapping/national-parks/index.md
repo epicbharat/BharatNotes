@@ -47,7 +47,7 @@ India has 107 national parks (as of April 2025) covering approximately 44,402 sq
 | Nameri NP | Assam | 200 | Tropical wet evergreen; Tiger, Elephant, White-winged Wood Duck | Adjacent to Pakke Tiger Reserve (AP) |
 | Dibru-Saikhowa NP | Assam | 340 | Semi-evergreen; Feral Horses, Gangetic Dolphin, Tiger | Rare feral horse population; flood-prone |
 | Raimona NP | Assam | 422 | Tropical; Golden Langur (endemic to Assam-Bhutan border region) | 6th NP of Assam; declared 2021; part of Manas landscape |
-| Shikhna Jwhwlao NP | Assam | 321.90 | Bodo Territorial Region; Tiger, Elephant | 8th NP of Assam; 3rd in BTR landscape; notified February 2025 |
+| Sikhna Jwhwlao NP | Assam | 316.29 | Bodo Territorial Region (Chirang-Kokrajhar); Golden Langur, Tiger, Elephant, One-horned Rhino | 8th NP of Assam; 3rd in BTR landscape; officially notified March 5, 2025; part of Manas Biosphere Reserve |
 | Mouling NP | Arunachal Pradesh | 483 | Mixed tropical; Tiger, Snow Leopard, Red Panda | Uppermost catchment of Siang River |
 | Namdapha NP | Arunachal Pradesh | 1,985.23 | Tropical to alpine; 4 big cats (Tiger, Leopard, Snow Leopard, Clouded Leopard); Red Panda, Hoolock Gibbon | Largest NP in Northeast India; only park in world with 4 big cat species |
 | Pakke (Pakhui) NP | Arunachal Pradesh | 861.95 | Tropical; Tiger, Elephant, Great Indian Hornbill | Pakke Tiger Reserve; hornbill nesting project |
@@ -130,7 +130,7 @@ India has 107 national parks (as of April 2025) covering approximately 44,402 sq
 | Mount Harriet NP | Andaman & Nicobar | 46.62 | Tropical rainforest; Andaman Wood Pigeon | South Andaman island |
 | Saddle Peak NP | Andaman & Nicobar | 32.54 | Tropical; highest peak in A&N (732 m) | North Andaman |
 | Rani Jhansi Marine NP | Andaman & Nicobar | 256.14 | Marine; Coral, Rays | Ritchie's Archipelago, North Andaman |
-| Simlipal NP | Odisha | 845.70 | Sal forest; Tiger, Elephant, Gaur, Melanistic Tigers | India's 107th NP (declared April 2025); Simlipal Biosphere Reserve; rare melanistic tigers |
+| Similipal NP | Odisha | 845.70 | Sal forest; Tiger, Elephant, Gaur, rare Melanistic Tigers | India's 107th NP (officially notified April 24, 2025); Odisha's 2nd NP after Bhitarkanika; Similipal Tiger Reserve + Biosphere Reserve; only known habitat of melanistic tigers in India |
 
 ---
 

@@ -4,8 +4,8 @@ title: "Biosphere Reserves of India — UPSC Mapping Reference"
 gs_papers:
   - gs1
   - gs3
-description: "Complete UPSC mapping reference for India's 18 biosphere reserves — UNESCO MAB recognition status, year designated, key species, and locations. Includes India's newest UNESCO-recognized biosphere reserve (Cold Desert, 2025)."
-date: 2026-04-01
+description: "Complete UPSC mapping reference for India's 18 biosphere reserves — 13 UNESCO MAB recognized as of September 2025. Covers year designated, key species, zone structure, and Cold Desert's latest UNESCO recognition."
+date: 2026-04-02
 tags:
   - geography
   - mapping
@@ -38,7 +38,7 @@ India has 18 notified Biosphere Reserves. Of these, 13 have been recognized unde
 | Khangchendzonga | Sikkim | Yes | 2000 | 2018 | Snow Leopard, Red Panda, Himalayan Tahr; Kangchenjunga NP within it; UNESCO WH Site |
 | Seshachalam Hills | Andhra Pradesh | No | 2010 | — | Red Sanders (Pterocarpus santalinus); Eastern Ghats; unique to this region |
 | Panna | Madhya Pradesh | No | 2011 | — | Tiger (reintroduced), Ken River; Ken-Betwa Link concerns |
-| Cold Desert | Himachal Pradesh | Yes | 2009 | 2025 | Pin Valley NP; Snow Leopard, Siberian Ibex, Tibetan Wolf; Spiti and Lahaul valleys; India's 13th UNESCO-recognized BR (September 2025) |
+| Cold Desert | Himachal Pradesh | Yes | 2009 | 2025 | Lahaul-Spiti district; 7,770 sq km; Pin Valley NP, Chandratal, Kibber WLS; Snow Leopard, Siberian Ibex, Tibetan Wolf; India's 13th UNESCO-recognized BR (Sept 27, 2025, at 5th World Congress of Biosphere Reserves, Hangzhou) |
 | Shellong (Shillong) | Meghalaya | No | 2020 | — | Sub-tropical broadleaf; Sacred groves (Law Kyntang) |
 
 ---

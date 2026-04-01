@@ -12,7 +12,9 @@ tags:
   - upsc-maps
 ---
 
-India has a total coastline of approximately 7,516.6 km (mainland: 5,422.6 km; island coastline: 2,094 km). The coastline touches 13 states and UTs. Gujarat has the longest state coastline (2,340 km), followed by Andhra Pradesh (1,053 km) and Tamil Nadu (1,068 km). UPSC tests the names of coastal plains, associated ports, lagoons, and the difference between the west coast (rocky, indented, natural harbours) and the east coast (deltaic, straight, cyclone-prone).
+India's coastline was officially revised in 2023–24 by the Survey of India and the National Hydrographic Office using advanced geospatial mapping at a finer scale (1:250,000 vs the old 1:4,500,000 used in the 1970s). The revised total coastline is **11,098.81 km** (mainland: 7,870.51 km; island coastline: 3,228.30 km) — a 47.7% increase from the old figure of 7,516.6 km. The coastline will be reviewed every 10 years. There are 9 coastal states and 4 coastal UTs (Daman & Diu, Lakshadweep, Puducherry, Andaman & Nicobar Islands). Gujarat retains the longest state coastline (2,340.62 km, revised from the earlier ~1,600 km figure), followed by Tamil Nadu (1,068 km) and Andhra Pradesh (1,053 km). UPSC tests the names of coastal plains, associated ports, lagoons, and the difference between the west coast (rocky, indented, natural harbours) and the east coast (deltaic, straight, cyclone-prone).
+
+> **UPSC Alert (2024):** The old figure of 7,516.6 km is now superseded. The revised figure of 11,098.81 km was reported in 2024 under the National Maritime Security Coordinator and is increasingly appearing in current affairs questions. Be ready with both figures and the reason for the change (improved geospatial methodology, not territorial change).
 
 ---
 
@@ -27,7 +29,7 @@ The west coast is narrower (average 64 km wide), rocky, with submerged coastline
 | Gulf of Khambhat (Cambay) | Gujarat | Funnel-shaped; extreme tidal range (11 m); Narmada and Mahi estuaries; tidal power potential | — | Bharuch (Broach); Cambay town |
 | Konkan Coast | Maharashtra, Goa, part of Karnataka | 500-700 km long; rocky, indented; laterite cliffs; 50-80 km wide; submerged coastline type | Mumbai (JNPT — Jawaharlal Nehru Port, busiest in India); Mormugao (Goa); New Mangalore (Karnataka) | Mumbai; Panaji (Goa); Mangaluru; Karwar; Sindhudurg Fort |
 | Kannad (Karnataka) Coast | Karnataka | Between Goa and Kerala; narrow; Western Ghats close to sea | New Mangalore Port | Mangaluru; Udupi; Karwar; Murudeshwar |
-| Malabar Coast | Kerala | Famous for backwaters (Kayals); lagoons, spice trade historically; wet throughout | Kochi (Cochin) — natural harbour, oldest port; Vizhinjam (under development as transhipment port) | Thiruvananthapuram; Kochi; Kozhikode (Calicut — Vasco da Gama landed 1498) |
+| Malabar Coast | Kerala | Famous for backwaters (Kayals); lagoons, spice trade historically; wet throughout | Kochi (Cochin) — natural harbour, oldest port; Vizhinjam International Seaport — India's first deep-water transhipment port, inaugurated May 2025 by PM Modi; Phase I capacity 1 million TEUs (operational Dec 2024); all phases to be completed by 2028 | Thiruvananthapuram; Kochi; Kozhikode (Calicut — Vasco da Gama landed 1498) |
 
 ---
 

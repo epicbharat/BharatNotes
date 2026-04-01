@@ -53,6 +53,9 @@ Dams are tested in UPSC both as geography (river-dam mapping, states, reservoir 
 | Tilaiya Dam | Barakar (Damodar tributary) | Jharkhand | Hydro, Flood control | Tilaiya Reservoir | First DVC dam; 1953 |
 | Maithon Dam | Barakar (Damodar) | Jharkhand/WB | Flood control, Hydro | Maithon Reservoir | DVC project; Dhanbad region |
 | Panchet Dam | Damodar | Jharkhand/WB | Flood control, Hydro | Panchet Reservoir | DVC; near Dhanbad |
+| Polavaram Dam | Godavari | Andhra Pradesh | Irrigation (7.2 lakh ha), Hydro (960 MW), Drinking water | Polavaram Reservoir | National project; ~55.9% civil work complete as of Feb 2025; target: Dec 2027; displaced families from Telangana, Odisha, CG too; R&R a major challenge |
+| Shahpur Kandi Dam | Ravi | Punjab | Hydro (206 MW), Irrigation, Flood control | — | Completed Feb 2024; cost ₹3,400 crore; declared national importance; irrigates 5,000 ha (Punjab) + 32,000 ha (J&K); stops Ravi waters from flowing to Pakistan unutilised; located downstream of Ranjit Sagar Dam |
+| Dibang Multipurpose Project | Dibang | Arunachal Pradesh | Hydro (2,880 MW), Flood control | — | Foundation stone laid by PM Modi on March 9, 2024; Lower Dibang Valley district; to be India's highest dam (278 m) when complete; NHPC project |
 
 ---
 

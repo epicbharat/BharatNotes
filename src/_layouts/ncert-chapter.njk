@@ -22,8 +22,12 @@ layout: base.njk
   {%- endif -%}
 {%- endfor -%}
 
-{# Build book index URL #}
-{%- set bookIndexUrl = "/ncert/class-" + ncert_class + "/" + book_slug + "/" -%}
+{# Build book index URL — new NCERT lives under /ncert/new-ncert/class-X/book/ #}
+{%- if is_new_ncert -%}
+  {%- set bookIndexUrl = "/ncert/new-ncert/class-" + ncert_class + "/" + book_slug + "/" -%}
+{%- else -%}
+  {%- set bookIndexUrl = "/ncert/class-" + ncert_class + "/" + book_slug + "/" -%}
+{%- endif -%}
 
 <!-- Page Header -->
 <header class="ncert-header">
@@ -31,7 +35,11 @@ layout: base.njk
     <nav class="breadcrumb" style="margin-bottom:var(--space-5);">
       <a href="/">Home</a><span class="breadcrumb__sep">/</span>
       <a href="/ncert/">NCERT</a><span class="breadcrumb__sep">/</span>
+      {%- if is_new_ncert -%}
+      <a href="/ncert/new-ncert/">New NCERT</a><span class="breadcrumb__sep">/</span>
+      {%- else -%}
       <a href="/ncert/class-{{ ncert_class }}/">{{ classLabel }}</a><span class="breadcrumb__sep">/</span>
+      {%- endif -%}
       <a href="{{ bookIndexUrl }}">{{ book }}</a><span class="breadcrumb__sep">/</span>
       Ch {{ chapterPad }}
     </nav>

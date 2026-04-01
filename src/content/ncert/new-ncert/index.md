@@ -43,6 +43,7 @@ These new books are relevant for UPSC because:
 |------|---------|---------|
 | [Exploring Society Part 1](/ncert/new-ncert/class-7/exploring-society-part-1/) | Integrated Social Science — Part 1 | 6 chapters |
 | [Exploring Society Part 2](/ncert/new-ncert/class-7/exploring-society-part-2/) | Integrated Social Science — Part 2 | 6 chapters |
+| [Curiosity](/ncert/new-ncert/class-7/curiosity/) | Science | 12 chapters |
 
 ### Class VIII New NCERT
 
