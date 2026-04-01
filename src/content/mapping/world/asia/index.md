@@ -1,10 +1,10 @@
 ---
 layout: topic.njk
-title: "Asia (excl. India) — UPSC Mapping Reference"
+title: "Asia — UPSC Mapping Reference"
 gs_papers:
   - gs1
   - gs2
-description: "Asia mapping reference for UPSC — East Asia, Southeast Asia, Central Asia, West Asia, physical features, key countries, India's relations, and current affairs."
+description: "Asia mapping reference for UPSC — India, East Asia, Southeast Asia, Central Asia, West Asia, physical features, rivers, mountains, deserts, key countries, India's relations, and current affairs."
 date: 2026-04-01
 tags:
   - geography
@@ -14,7 +14,7 @@ tags:
   - asia
 ---
 
-Asia is the world's largest and most populous continent, spanning from the Pacific Ocean in the east to the Ural Mountains in the west and from the Arctic Ocean in the north to the Indian Ocean in the south. For UPSC, Asia generates the highest volume of GS2 (International Relations) and GS1 (Physical Geography) map questions. This page covers all sub-regions except India, which has its own dedicated mapping section.
+Asia is the world's largest and most populous continent, spanning from the Pacific Ocean in the east to the Ural Mountains in the west and from the Arctic Ocean in the north to the Indian Ocean in the south. For UPSC, Asia generates the highest volume of GS2 (International Relations) and GS1 (Physical Geography) map questions. India — as the largest democracy, a rising global power, and the geographic heart of South Asia — is the most important country in this continent for UPSC preparation and is fully covered in this page.
 
 ---
 
@@ -24,7 +24,7 @@ Asia is the world's largest and most populous continent, spanning from the Pacif
 |-----------|-----------|---------------------|-------------------|
 | East Asia | China, Japan, South Korea, North Korea, Mongolia, Taiwan | Yangtze River, Yellow River, Himalayas (Tibet Plateau) | Border disputes (China-LAC), trade, technology, cultural ties |
 | Southeast Asia | Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, Timor-Leste, Vietnam | Mekong River, Irrawaddy, Malacca Strait, Ring of Fire | Act East Policy, ASEAN FTA, Kaladan project, Myanmar connectivity |
-| South Asia (excl. India) | Afghanistan, Bangladesh, Bhutan, Maldives, Nepal, Pakistan, Sri Lanka | Hindu Kush, Karakoram, Bay of Bengal | SAARC, BIMSTEC, Neighbourhood First Policy |
+| South Asia | India, Afghanistan, Bangladesh, Bhutan, Maldives, Nepal, Pakistan, Sri Lanka | Himalayan system, Hindu Kush, Karakoram, Deccan Plateau, Bay of Bengal, Arabian Sea | SAARC, BIMSTEC, Neighbourhood First Policy; India is the dominant nation in the sub-region |
 | Central Asia | Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan | Tian Shan, Altai ranges, Aral Sea, Caspian Sea | SCO, INSTC, TAPI pipeline, India-Central Asia Summit |
 | West Asia / Middle East | Saudi Arabia, UAE, Iran, Iraq, Kuwait, Qatar, Bahrain, Oman, Jordan, Israel, Lebanon, Syria, Yemen, Turkey | Zagros Mountains, Tigris-Euphrates, Rub' al Khali | Gulf diaspora (9M+ Indians), oil imports, IMEC, I2U2 |
 | Caucasus | Armenia, Azerbaijan, Georgia | Caucasus Mountain range | Limited direct ties; Armenia-Azerbaijan conflict has India policy relevance |
@@ -33,13 +33,19 @@ Asia is the world's largest and most populous continent, spanning from the Pacif
 
 ## 2. Physical Features of Asia
 
-Note: The Himalayan system is covered in detail in the India Mapping section. Brief references to trans-border ranges are included here.
+This section covers the major physical features of Asia, including India's key mountains, rivers, deserts, plateaus, and coastal features.
 
 ### Mountain Ranges
 
 | Feature | Type | Countries / Location | Key Facts |
 |--------|------|---------------------|-----------|
+| Himalayan System | Mountain range | India (J&K, Ladakh UT, Himachal Pradesh, Uttarakhand, Sikkim, Arunachal Pradesh), Nepal, Bhutan, China (Tibet), Pakistan | World's highest mountain range; contains all 14 peaks above 8,000 m; runs ~2,500 km west-east; forms India's northern and northeastern barrier; source of major peninsular and trans-Asian rivers |
 | Karakoram Range | Mountain range | India (Ladakh UT); Gilgit-Baltistan (Indian territory under Pakistani illegal occupation); China (Xinjiang) | Contains K2 (8,611 m), world's second-highest peak; India claims entire J&K including Gilgit-Baltistan; CPEC traverses the Karakoram Highway through Indian-claimed territory |
+| Western Ghats (Sahyadri) | Mountain range | India (Gujarat, Maharashtra, Goa, Karnataka, Kerala, Tamil Nadu) | Runs ~1,600 km parallel to western coast; UNESCO World Heritage Site (2012); origin of west-flowing rivers (Periyar, Godavari tributaries); biodiversity hotspot |
+| Eastern Ghats | Mountain range | India (Odisha, Andhra Pradesh, Tamil Nadu) | Discontinuous range along eastern coast; lower elevation than Western Ghats; origin of several east-flowing rivers |
+| Vindhya Range | Mountain range | India (Gujarat, Madhya Pradesh, Uttar Pradesh) | Acts as watershed separating north India (Ganga basin) from Deccan plateau; historically considered the divide between "Aryavarta" and peninsular India |
+| Satpura Range | Mountain range | India (Maharashtra, Madhya Pradesh, Chhattisgarh) | Runs parallel to Vindhyas; lies between Narmada and Tapti rivers; Pachmarhi hill station located here |
+| Aravalli Range | Mountain range | India (Rajasthan, Haryana, Delhi, Gujarat) | Oldest fold mountains in India (~1.8 billion years old); run NE-SW for ~800 km; form divide between Thar Desert and Gangetic Plain; Guru Shikhar (1,722 m) is the highest peak |
 | Hindu Kush | Mountain range | Afghanistan, Pakistan | Separates Central Asia from South Asia; Khyber Pass (1,070 m) is the historic route |
 | Tian Shan | Mountain range | Kyrgyzstan, Kazakhstan, China (Xinjiang) | Means "Celestial Mountains"; up to 7,439 m (Jengish Chokusu); separates Central Asia from Tarim Basin |
 | Altai Mountains | Mountain range | Russia, Kazakhstan, Mongolia, China | Source of the Ob and Irtysh rivers; connects Siberia and Central Asia |
@@ -52,6 +58,14 @@ Note: The Himalayan system is covered in detail in the India Mapping section. Br
 
 | River | Source | Mouth | Countries | Key Facts |
 |-------|--------|-------|-----------|-----------|
+| Ganga (Ganges) | Gangotri Glacier, Uttarakhand (via Bhagirathi; Alaknanda joins at Devprayag) | Bay of Bengal (via Sundarbans delta, Bangladesh) | India, Bangladesh | 2,525 km (India's national river); flows through 5 states (Uttarakhand, UP, Bihar, Jharkhand, West Bengal); enters Bangladesh as Padma; basin covers 26% of India's land area |
+| Brahmaputra (Yarlung Tsangpo) | Manasarovar Lake region near Mt. Kailash, Tibet | Bay of Bengal (via Jamuna, Bangladesh) | China (Tibet), India (Arunachal Pradesh, Assam), Bangladesh | Trans-boundary river (~2,900 km total); called Yarlung Tsangpo in Tibet, Siang/Dihang in Arunachal Pradesh, Brahmaputra in Assam, Jamuna in Bangladesh; world's 9th largest by discharge |
+| Indus (Sindhu) | Manasarovar / Sênggê Kanbab, Tibet | Arabian Sea (via Pakistan) | China (Tibet), India (Ladakh), Pakistan | 3,180 km; enters India via Demchok in Ladakh; flows northwest through Ladakh (422 km in India) before entering Pakistan-occupied Jammu & Kashmir (PoJK); Indus Waters Treaty (1960) divides waters between India and Pakistan |
+| Yamuna | Yamunotri Glacier, Uttarakhand | Meets Ganga at Prayagraj (Triveni Sangam) | India | 1,376 km; longest tributary of the Ganga; flows through Delhi, Agra; Triveni Sangam at Prayagraj is site of Kumbh Mela |
+| Godavari | Trimbakeshwar, Maharashtra (Western Ghats) | Bay of Bengal | India | 1,465 km; longest river of peninsular India; called "Dakshin Ganga" (Ganga of the South); flows through Maharashtra, Telangana, Andhra Pradesh |
+| Mahanadi | Sihawa, Chhattisgarh | Bay of Bengal | India | 858 km; flows through Chhattisgarh and Odisha; Hirakud Dam (one of India's longest earth dams) is on this river |
+| Krishna | Mahabaleshwar, Maharashtra (Western Ghats) | Bay of Bengal | India | 1,400 km; flows through Maharashtra, Karnataka, Andhra Pradesh; important for irrigation in Deccan |
+| Cauvery (Kaveri) | Talakaveri, Coorg (Karnataka) | Bay of Bengal | India | 802 km; flows through Karnataka and Tamil Nadu; subject of longstanding inter-state water dispute (Cauvery Water Disputes Tribunal, 1990; Supreme Court final order 2018) |
 | Yangtze (Chang Jiang) | Tibetan Plateau | East China Sea | China | Longest river in Asia (6,300 km); Three Gorges Dam on Yangtze |
 | Yellow River (Huang He) | Bayan Har Mountains, Tibet | Bohai Sea | China | "Cradle of Chinese civilisation"; prone to devastating floods; called "China's Sorrow" |
 | Mekong | Tibetan Plateau | South China Sea | China, Myanmar, Laos, Thailand, Cambodia, Vietnam | Sixth-longest in Asia; LMC (Lancang-Mekong Cooperation) is China's sub-regional bloc on this river |
@@ -70,6 +84,7 @@ Note: The Himalayan system is covered in detail in the India Mapping section. Br
 
 | Desert | Location | Countries | Key Facts |
 |--------|----------|-----------|-----------|
+| Thar Desert (Great Indian Desert) | Northwestern India and Pakistan | India (Rajasthan, Gujarat, Haryana, Punjab), Pakistan | ~264,000 sq km total; ~195,000 sq km in India; world's most densely populated desert (83 persons/sq km); hot desert; forms a natural barrier on India's northwestern flank; Indira Gandhi Canal (Rajasthan Canal) brings irrigation water |
 | Gobi Desert | East-Central Asia | China, Mongolia | Cold desert; largest in Asia; important in Silk Road history; expanding due to desertification |
 | Taklamakan Desert | Tarim Basin, Xinjiang | China | "You go in, you don't come out" — one of the world's largest sand deserts; encircled by mountain ranges |
 | Arabian Desert | Arabian Peninsula | Saudi Arabia, UAE, Oman, Yemen, Jordan | World's fourth-largest desert; includes the Rub' al Khali sub-desert |
@@ -91,6 +106,11 @@ Note: The Himalayan system is covered in detail in the India Mapping section. Br
 
 | Feature | Location | Key Facts |
 |--------|----------|-----------|
+| Deccan Plateau | India (Maharashtra, Telangana, Andhra Pradesh, Karnataka, parts of MP, Chhattisgarh) | Triangular plateau; one of the world's oldest geological formations (part of ancient Gondwana supercontinent); bounded by Western Ghats (west), Eastern Ghats (east), Vindhya-Satpura ranges (north); average elevation ~600 m; slopes west-to-east so most rivers flow eastward to Bay of Bengal; rich in black cotton soil (regur) |
+| Konkan Coast | India (Maharashtra and Goa) | Narrow coastal strip between Western Ghats and Arabian Sea; known for laterite soil; natural harbours |
+| Malabar Coast | India (Kerala) | Southern part of India's western coast; receives highest rainfall in India; lagoons (backwaters/Kayals) are unique feature; important for cashew and spice trade |
+| Coromandel Coast | India (Tamil Nadu, southern Andhra Pradesh) | Eastern coastal plain; receives rain from northeast monsoon (October–December); prone to cyclones from Bay of Bengal |
+| Sundarbans Delta | India (West Bengal) and Bangladesh | World's largest mangrove forest (~10,277 sq km total; ~4,260 sq km in India); UNESCO World Heritage Site; habitat of the Bengal tiger; formed by Ganga-Brahmaputra delta system; shared India-Bangladesh territory |
 | Siberian Permafrost | Russia (Siberia) | Covers ~65% of Russia's territory; stores vast amounts of methane; thawing permafrost is a major climate feedback loop; major concern in IPCC reports |
 | Tibetan Plateau | China, India (disputed) | Highest plateau on Earth ("Roof of the World"); average elevation ~4,500 m; source of major Asian rivers (Yangtze, Yellow, Mekong, Salween, Brahmaputra, Indus); LAC runs along its edge |
 | Korean Peninsula | East Asia | Divided at 38th Parallel (DMZ); North Korea has nuclear programme; one of the most militarised borders in the world |
@@ -228,7 +248,24 @@ Nagorno-Karabakh is an enclave inside Azerbaijan populated predominantly by ethn
 
 ---
 
-## 8. Key International Organisations (Asia-focused)
+## 8. South Asia (including India)
+
+South Asia is home to about 2 billion people — nearly one-quarter of the world's population — packed into a relatively compact landmass. India is the dominant nation by land area, population, economy, and military power. The sub-region is defined by shared geography (Himalayan system, Bay of Bengal, Arabian Sea) and complex historical, political, and cultural ties.
+
+| Country | Capital | Key Geographic Feature / Resource | India's Relationship |
+|--------|---------|----------------------------------|---------------------|
+| India | New Delhi | Himalayan system; Deccan Plateau; Ganga-Brahmaputra basin; 7,500 km coastline; world's largest democracy | Central actor in South Asia; founding member of SAARC and BIMSTEC; Neighbourhood First Policy |
+| Bangladesh | Dhaka | Ganga-Brahmaputra-Meghna delta; Bay of Bengal coast; largest river delta in the world; jute and garments | Shared rivers (Teesta water-sharing dispute); Land Boundary Agreement (2015); BIMSTEC; Bangladeshi migrants to India a political issue; Bangladesh political crisis (Sheikh Hasina resigned Aug 2024) |
+| Sri Lanka | Sri Jayawardenepura Kotte (legislative); Colombo (commercial) | Island nation; Palk Strait separates from India; Trincomalee harbour; tea, rubber, gems | Historical ties; India intervened (IPKF 1987-90); Sri Lanka economic crisis (2022) — India provided $4B+ relief; India-Sri Lanka connectivity (power grid, BSNL cable) |
+| Nepal | Kathmandu | Landlocked; Himalayas (contains 8 of world's 14 highest peaks including Everest 8,848.86 m); hydropower potential | "Roti-Beti" (deep civilisational ties); transit dependence on India; Kalapani-Lipulek-Limpiyadhura border dispute; Eminent Persons' Group (EPG) report pending |
+| Bhutan | Thimphu | Landlocked; eastern Himalayas; hydropower; Doklam plateau | Special relationship; India the dominant trade/security partner; Doklam standoff (2017, India-China-Bhutan trijunction); Bhutan-China boundary talks (ongoing) |
+| Pakistan | Islamabad | Indus River plains; Thar Desert (eastern); Karakoram (north); K2; Gwadar Port (CPEC) | Hostile; two major wars (1965, 1971); Kargil War (1999); Line of Control (LoC) in J&K; India's official position: Pakistan illegally occupies parts of J&K (PoJK — Pakistan-occupied Jammu & Kashmir) and Gilgit-Baltistan; SAARC stalled since 2016 |
+| Afghanistan | Kabul | Landlocked; Hindu Kush mountains; Helmand River; poppy production | India has no land border with Afghanistan; provided $3B+ in reconstruction aid; Taliban returned to power (August 2021); India reopened technical mission in Kabul (June 2022); TAPI pipeline and Chabahar route critical |
+| Maldives | Malé | Archipelago of ~1,200 coral islands; lowest-lying nation (average 1.5 m above sea level); vulnerable to sea-level rise; tourism economy | Neighbourhood First Policy; "India First" vs "India Out" political dynamic; President Muizzu elected 2023 (China-leaning pivot); India withdrew military personnel (2024); critical for India's maritime security in the Indian Ocean |
+
+---
+
+## 9. Key International Organisations (Asia-focused)
 
 | Organisation | HQ | Members | India's Role | Key Facts |
 |-------------|-----|---------|-------------|-----------|
@@ -242,7 +279,7 @@ Nagorno-Karabakh is an enclave inside Azerbaijan populated predominantly by ethn
 
 ---
 
-## 9. Major Conflicts and Current Affairs (Asia, 2022–2026)
+## 10. Major Conflicts and Current Affairs (Asia, 2022–2026)
 
 | Conflict / Issue | Countries Involved | Status | India's Position |
 |-----------------|-------------------|--------|----------------|
