@@ -168,6 +168,32 @@
             <a href="/ncert/new-ncert/" class="primary-nav__dropdown-item" role="menuitem" style="border-top:1px solid var(--color-border);margin-top:var(--space-1);padding-top:var(--space-2);">✨ New NCERT (2024+)</a>
           </div>
         </div>
+        <div class="primary-nav__dropdown">
+          <button class="primary-nav__link primary-nav__dropdown-toggle" aria-expanded="false" aria-haspopup="true" {% if '/mapping/' in page.url %}aria-current="page"{% endif %}>Mapping <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="vertical-align:-1px;margin-left:2px;"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="primary-nav__dropdown-menu" role="menu">
+            <a href="/mapping/" class="primary-nav__dropdown-item" role="menuitem">India Mapping Hub</a>
+            <a href="/mapping/rivers/" class="primary-nav__dropdown-item" role="menuitem">Rivers</a>
+            <a href="/mapping/mountain-passes/" class="primary-nav__dropdown-item" role="menuitem">Mountain Passes</a>
+            <a href="/mapping/national-parks/" class="primary-nav__dropdown-item" role="menuitem">National Parks</a>
+            <a href="/mapping/tiger-reserves/" class="primary-nav__dropdown-item" role="menuitem">Tiger Reserves</a>
+            <a href="/mapping/biosphere-reserves/" class="primary-nav__dropdown-item" role="menuitem">Biosphere Reserves</a>
+            <a href="/mapping/ramsar-wetlands/" class="primary-nav__dropdown-item" role="menuitem">Ramsar Wetlands</a>
+            <a href="/mapping/dams/" class="primary-nav__dropdown-item" role="menuitem">Dams</a>
+            <a href="/mapping/borders/" class="primary-nav__dropdown-item" role="menuitem">Borders</a>
+            <a href="/mapping/tribes/" class="primary-nav__dropdown-item" role="menuitem">Tribes</a>
+            <a href="/mapping/minerals/" class="primary-nav__dropdown-item" role="menuitem">Minerals</a>
+            <a href="/mapping/coastlines/" class="primary-nav__dropdown-item" role="menuitem">Coastlines</a>
+            <a href="/mapping/islands/" class="primary-nav__dropdown-item" role="menuitem">Islands</a>
+            <a href="/mapping/world/" class="primary-nav__dropdown-item" role="menuitem" style="border-top:1px solid var(--color-border);margin-top:var(--space-1);padding-top:var(--space-2);">World Mapping Hub</a>
+            <a href="/mapping/world/straits-choke-points/" class="primary-nav__dropdown-item" role="menuitem">Straits & Choke Points</a>
+            <a href="/mapping/world/africa/" class="primary-nav__dropdown-item" role="menuitem">Africa</a>
+            <a href="/mapping/world/asia/" class="primary-nav__dropdown-item" role="menuitem">Asia</a>
+            <a href="/mapping/world/europe/" class="primary-nav__dropdown-item" role="menuitem">Europe</a>
+            <a href="/mapping/world/americas/" class="primary-nav__dropdown-item" role="menuitem">Americas</a>
+            <a href="/mapping/world/oceania/" class="primary-nav__dropdown-item" role="menuitem">Oceania & Antarctica</a>
+            <a href="/mapping/world/disputed-territories/" class="primary-nav__dropdown-item" role="menuitem">Disputed Territories</a>
+          </div>
+        </div>
         <a href="/prelims/" class="primary-nav__link" {% if '/prelims/' in page.url %}aria-current="page"{% endif %}>Prelims</a>
         <a href="/mains/" class="primary-nav__link" {% if '/mains/' in page.url %}aria-current="page"{% endif %}>Mains</a>
         <a href="/pyq/" class="primary-nav__link" {% if '/pyq/' in page.url %}aria-current="page"{% endif %}>PYQ</a>
