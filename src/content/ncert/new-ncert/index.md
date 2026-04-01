@@ -35,7 +35,7 @@ These new books are relevant for UPSC because:
 | Book | Subject | Chapters |
 |------|---------|---------|
 | [Exploring Society: India and Beyond](/ncert/new-ncert/class-6/exploring-society/) | Integrated Social Science (History + Geography + Civics) | 12 chapters |
-| [Curiosity](/ncert/new-ncert/class-6/curiosity/) | Science | 10 chapters |
+| [Curiosity](/ncert/new-ncert/class-6/curiosity/) | Science | 12 chapters |
 
 ### Class VII New NCERT (2025–26)
 
