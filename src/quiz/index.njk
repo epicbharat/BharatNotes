@@ -8,10 +8,32 @@ description: "Practice UPSC Prelims Previous Year Questions by subject. Interact
 /* ══════════════════════════════════════════
    Quiz Hub styles
    ══════════════════════════════════════════ */
+
+/* ── Unified hero ──────────────────────────── */
 .qh-hero {
-  background: linear-gradient(135deg, var(--color-brand-dark) 0%, #1a5c45 100%);
+  background: linear-gradient(125deg,
+    #0b3d2e 0%, #163528 30%,
+    #2a1a05 62%, #1c1008 100%);
   color: #fff;
-  padding: var(--space-10) 0 var(--space-8);
+  padding: var(--space-10) 0;
+  position: relative; overflow: hidden;
+}
+.qh-hero::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse at 78% 50%, rgba(212,160,23,0.16) 0%, transparent 55%);
+  pointer-events: none;
+}
+.qh-hero__layout {
+  display: grid;
+  grid-template-columns: 1fr 1px 300px;
+  gap: var(--space-8);
+  align-items: center;
+  position: relative; z-index: 1;
+}
+.qh-hero__sep {
+  background: rgba(255,255,255,0.1);
+  align-self: stretch; min-height: 220px;
 }
 .qh-hero__eyebrow {
   font-size: var(--text-xs); font-weight: 700;
@@ -25,10 +47,11 @@ description: "Practice UPSC Prelims Previous Year Questions by subject. Interact
 }
 .qh-hero__sub {
   color: rgba(255,255,255,0.65); font-size: var(--text-sm);
-  max-width: 500px; margin-bottom: var(--space-6);
+  max-width: 440px; margin-bottom: var(--space-6);
 }
 .qh-totals {
   display: flex; flex-wrap: wrap; gap: var(--space-6);
+  margin-bottom: var(--space-5);
 }
 .qh-total { text-align: center; }
 .qh-total__num {
@@ -37,18 +60,67 @@ description: "Practice UPSC Prelims Previous Year Questions by subject. Interact
 }
 .qh-total__lbl { font-size: var(--text-xs); color: rgba(255,255,255,0.5); }
 
-/* Summary bar (shown after any questions answered) */
+/* Inline summary */
 .qh-summary {
-  background: var(--color-surface); border-bottom: 1px solid var(--color-border);
-  padding: var(--space-3) 0; display: none;
+  display: none;
+  padding: var(--space-3) var(--space-4);
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 10px; max-width: 380px;
 }
 .qh-summary__inner {
-  display: flex; flex-wrap: wrap; gap: var(--space-5);
+  display: flex; flex-wrap: wrap; gap: var(--space-4);
   align-items: center; font-size: var(--text-sm);
 }
-.qh-summary__item { display: flex; align-items: center; gap: var(--space-2); }
-.qh-summary__dot { width: 10px; height: 10px; border-radius: 50%; }
-.qh-summary__num { font-weight: 800; }
+.qh-summary__item { display: flex; align-items: center; gap: var(--space-2); color: rgba(255,255,255,0.7); }
+.qh-summary__dot  { width: 8px; height: 8px; border-radius: 50%; }
+.qh-summary__num  { font-weight: 800; color: #fff; }
+
+/* Right: Ujiyari */
+.ujq-pill {
+  display: inline-block;
+  font-size: 0.62rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase;
+  color: #fde68a; background: rgba(253,230,138,0.12);
+  border: 1px solid rgba(253,230,138,0.25);
+  padding: 3px 12px; border-radius: 999px; margin-bottom: var(--space-3);
+}
+.ujq-side-desc {
+  font-size: var(--text-xs); line-height: 1.65;
+  color: rgba(255,255,255,0.58); margin-bottom: var(--space-3);
+}
+.ujq-side-desc strong { color: #fde68a; }
+.ujq-side-desc em { font-style: normal; color: #fff; font-weight: 700; }
+.ujq-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: var(--space-4); }
+.ujq-tag {
+  font-size: 0.6rem; font-weight: 700;
+  color: rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 3px 10px; border-radius: 999px;
+}
+.ujq-cta-card {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(253,230,138,0.3);
+  border-radius: 14px; padding: var(--space-4) var(--space-5);
+  text-align: center;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.08);
+}
+.ujq-cta-logo  { font-size: 2rem; margin-bottom: 2px; }
+.ujq-cta-site  { font-family: var(--font-heading); font-size: 1rem; font-weight: 800; color: #fde68a; margin-bottom: 2px; }
+.ujq-cta-label { font-size: var(--text-xs); color: rgba(255,255,255,0.4); margin-bottom: var(--space-3); }
+.ujq-cta-btn {
+  display: block;
+  background: linear-gradient(135deg, #d4a017, #f5c842);
+  color: #1c1008; font-weight: 800; font-size: var(--text-sm);
+  padding: 10px var(--space-4); border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s;
+  box-shadow: 0 3px 10px rgba(212,160,23,0.4);
+  margin-bottom: var(--space-2);
+}
+.ujq-cta-btn:hover { transform: translateY(-2px); box-shadow: 0 5px 16px rgba(212,160,23,0.55); text-decoration: none; color: #1c1008; }
+.ujq-cta-note { font-size: 0.6rem; color: rgba(255,255,255,0.3); margin: 0; }
 
 /* Subject grid */
 .qh-grid {
@@ -63,57 +135,30 @@ description: "Practice UPSC Prelims Previous Year Questions by subject. Interact
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-top: 4px solid var(--qhc, var(--color-brand));
-  border-radius: 14px;
-  padding: var(--space-5);
+  border-radius: 14px; padding: var(--space-5);
   text-decoration: none; color: inherit;
   display: flex; flex-direction: column; gap: var(--space-3);
   transition: box-shadow 0.18s, transform 0.15s;
 }
-.qh-card:hover {
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-  transform: translateY(-3px);
-  text-decoration: none;
-}
-.qh-card__head {
-  display: flex; align-items: center; gap: var(--space-3);
-}
+.qh-card:hover { box-shadow: 0 6px 20px rgba(0,0,0,0.1); transform: translateY(-3px); text-decoration: none; }
+.qh-card__head { display: flex; align-items: center; gap: var(--space-3); }
 .qh-card__icon { font-size: 1.6rem; }
-.qh-card__name {
-  font-family: var(--font-heading); font-size: var(--text-lg);
-  font-weight: 700; color: var(--qhc, var(--color-brand));
-}
-.qh-card__desc {
-  font-size: var(--text-xs); color: var(--color-text-muted);
-  line-height: 1.5; flex: 1;
-}
-.qh-card__meta {
-  display: flex; justify-content: space-between;
-  font-size: var(--text-xs); color: var(--color-text-muted);
-}
+.qh-card__name { font-family: var(--font-heading); font-size: var(--text-lg); font-weight: 700; color: var(--qhc, var(--color-brand)); }
+.qh-card__desc { font-size: var(--text-xs); color: var(--color-text-muted); line-height: 1.5; flex: 1; }
+.qh-card__meta { display: flex; justify-content: space-between; font-size: var(--text-xs); color: var(--color-text-muted); }
 .qh-card__count { font-weight: 700; color: var(--color-text); }
-
-/* Score bar */
-.qh-card__bar {
-  height: 5px; background: var(--color-border);
-  border-radius: 999px; overflow: hidden; display: flex;
-}
-.qh-card__fill {
-  height: 100%;
-  transition: width 0.5s ease;
-}
+.qh-card__bar { height: 5px; background: var(--color-border); border-radius: 999px; overflow: hidden; display: flex; }
+.qh-card__fill { height: 100%; transition: width 0.5s ease; }
 .qh-card__fill--correct { background: #22c55e; }
 .qh-card__fill--wrong   { background: #ef4444; }
-
 .qh-card__status {
   font-size: 0.65rem; font-weight: 700;
-  padding: 2px 10px; border-radius: 999px;
-  align-self: flex-start;
+  padding: 2px 10px; border-radius: 999px; align-self: flex-start;
   background: var(--color-border); color: var(--color-text-muted);
 }
 .qh-card__status--done    { background: rgba(22,163,74,0.12); color: #16a34a; }
-.qh-card__status--partial { background: rgba(212,160,23,0.1); color: #b45309; }
-.qh-card__status--weak    { background: rgba(220,38,38,0.1); color: #dc2626; }
-
+.qh-card__status--partial { background: rgba(212,160,23,0.1);  color: #b45309; }
+.qh-card__status--weak    { background: rgba(220,38,38,0.1);   color: #dc2626; }
 .qh-card__cta {
   display: inline-flex; align-items: center; justify-content: center;
   gap: var(--space-2); padding: 9px var(--space-4);
@@ -123,190 +168,89 @@ description: "Practice UPSC Prelims Previous Year Questions by subject. Interact
   margin-top: auto; transition: opacity 0.15s;
 }
 .qh-card:hover .qh-card__cta { opacity: 0.88; }
-
-/* Coming soon overlay */
 .qh-card--empty { opacity: 0.6; pointer-events: none; }
 .qh-card--empty .qh-card__cta { background: #94a3b8; }
 
-@media (max-width: 640px) {
-  .qh-hero__title { font-size: var(--text-2xl); }
-  .qh-grid { grid-template-columns: 1fr; }
+@media (max-width: 860px) {
+  .qh-hero__layout { grid-template-columns: 1fr; }
+  .qh-hero__sep    { display: none; }
+  .qh-hero__title  { font-size: var(--text-2xl); }
+  .qh-grid         { grid-template-columns: 1fr; }
 }
 </style>
 
-<!-- Hero -->
+<!-- Unified hero: Quiz Hub + Ujiyari promo -->
 <div class="qh-hero">
   <div class="container">
-    <p class="qh-hero__eyebrow">Practice Dashboard</p>
-    <h1 class="qh-hero__title">🎯 UPSC PYQ Quiz Hub</h1>
-    <p class="qh-hero__sub">Subject-wise Previous Year Questions — interactive MCQs with instant feedback, explanations, and progress tracking.</p>
-    <div class="qh-totals">
-      <div class="qh-total">
-        <span class="qh-total__num" id="qh-total-q">0</span>
-        <span class="qh-total__lbl">Questions</span>
-      </div>
-      <div class="qh-total">
-        <span class="qh-total__num">11</span>
-        <span class="qh-total__lbl">Subjects</span>
-      </div>
-      <div class="qh-total">
-        <span class="qh-total__num" id="qh-attempted">0</span>
-        <span class="qh-total__lbl">Attempted</span>
-      </div>
-      <div class="qh-total">
-        <span class="qh-total__num" id="qh-avg">—</span>
-        <span class="qh-total__lbl">Avg Score</span>
-      </div>
-    </div>
-  </div>
-</div>
+    <div class="qh-hero__layout">
 
-<!-- Summary (shown via JS if any answers exist) -->
-<div class="qh-summary" id="qh-summary">
-  <div class="container">
-    <div class="qh-summary__inner">
-      <div class="qh-summary__item">
-        <span class="qh-summary__dot" style="background:#22c55e;"></span>
-        <span class="qh-summary__num" id="qhs-correct">0</span> correct
-      </div>
-      <div class="qh-summary__item">
-        <span class="qh-summary__dot" style="background:#ef4444;"></span>
-        <span class="qh-summary__num" id="qhs-wrong">0</span> incorrect
-      </div>
-      <div class="qh-summary__item">
-        <span class="qh-summary__dot" style="background:#e2e8f0;"></span>
-        <span class="qh-summary__num" id="qhs-remain">0</span> remaining
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Ujiyari promo banner -->
-<div class="ujq-promo">
-  <div class="container">
-    <div class="ujq-inner">
-      <div class="ujq-left">
-        <span class="ujq-pill">⚡ Also on Ujiyari</span>
-        <h2 class="ujq-title">Current Affairs Quiz — Daily Updated</h2>
-        <p class="ujq-desc">PYQs cover the past. <strong>Ujiyari Quiz</strong> covers <em>today</em> — daily MCQs on news, government schemes, international events &amp; more. Both together = complete Prelims prep.</p>
-        <div class="ujq-tags">
-          <span class="ujq-tag">📰 Daily News MCQs</span>
-          <span class="ujq-tag">🏛️ Government Schemes</span>
-          <span class="ujq-tag">🌏 International Affairs</span>
-          <span class="ujq-tag">📊 Economy & Science</span>
+      <!-- Left: BharatNotes PYQ Hub -->
+      <div class="qh-hero__left">
+        <p class="qh-hero__eyebrow">Practice Dashboard</p>
+        <h1 class="qh-hero__title">🎯 UPSC PYQ Quiz Hub</h1>
+        <p class="qh-hero__sub">Subject-wise Previous Year Questions — interactive MCQs with instant feedback, explanations, and progress tracking.</p>
+        <div class="qh-totals">
+          <div class="qh-total">
+            <span class="qh-total__num" id="qh-total-q">0</span>
+            <span class="qh-total__lbl">Questions</span>
+          </div>
+          <div class="qh-total">
+            <span class="qh-total__num">11</span>
+            <span class="qh-total__lbl">Subjects</span>
+          </div>
+          <div class="qh-total">
+            <span class="qh-total__num" id="qh-attempted">0</span>
+            <span class="qh-total__lbl">Attempted</span>
+          </div>
+          <div class="qh-total">
+            <span class="qh-total__num" id="qh-avg">—</span>
+            <span class="qh-total__lbl">Avg Score</span>
+          </div>
+        </div>
+        <!-- Inline progress summary (shown via JS) -->
+        <div class="qh-summary" id="qh-summary">
+          <div class="qh-summary__inner">
+            <div class="qh-summary__item">
+              <span class="qh-summary__dot" style="background:#22c55e;"></span>
+              <span class="qh-summary__num" id="qhs-correct">0</span>&nbsp;correct
+            </div>
+            <div class="qh-summary__item">
+              <span class="qh-summary__dot" style="background:#ef4444;"></span>
+              <span class="qh-summary__num" id="qhs-wrong">0</span>&nbsp;wrong
+            </div>
+            <div class="qh-summary__item">
+              <span class="qh-summary__dot" style="background:rgba(255,255,255,0.3);"></span>
+              <span class="qh-summary__num" id="qhs-remain">0</span>&nbsp;remaining
+            </div>
+          </div>
         </div>
       </div>
-      <div class="ujq-right">
+
+      <!-- Vertical divider -->
+      <div class="qh-hero__sep"></div>
+
+      <!-- Right: Ujiyari promo -->
+      <div class="qh-hero__right">
+        <span class="ujq-pill">⚡ Also Practice on Ujiyari</span>
+        <p class="ujq-side-desc">PYQs cover the <em>past</em>. <strong>Ujiyari Quiz</strong> covers <em>today</em> — daily MCQs on news, government schemes &amp; international events. Both together = complete Prelims prep.</p>
+        <div class="ujq-tags">
+          <span class="ujq-tag">📰 Daily News</span>
+          <span class="ujq-tag">🏛️ Schemes</span>
+          <span class="ujq-tag">🌏 International</span>
+          <span class="ujq-tag">📊 Economy</span>
+        </div>
         <div class="ujq-cta-card">
           <div class="ujq-cta-logo">🦁</div>
           <div class="ujq-cta-site">ujiyari.com</div>
           <div class="ujq-cta-label">Current Affairs Quiz Hub</div>
-          <a href="https://ujiyari.com/quiz/" target="_blank" rel="noopener" class="ujq-cta-btn">
-            Practice Now →
-          </a>
+          <a href="https://ujiyari.com/quiz/" target="_blank" rel="noopener" class="ujq-cta-btn">Practice Now →</a>
           <p class="ujq-cta-note">Free · No login · Updated daily</p>
         </div>
       </div>
+
     </div>
   </div>
 </div>
-
-<style>
-.ujq-promo {
-  background: linear-gradient(135deg, #1c1008 0%, #3d1f00 50%, #1a0f00 100%);
-  padding: var(--space-10) 0;
-  position: relative; overflow: hidden;
-}
-.ujq-promo::before {
-  content: '';
-  position: absolute; inset: 0;
-  background: radial-gradient(ellipse at 70% 50%, rgba(212,160,23,0.18) 0%, transparent 60%);
-  pointer-events: none;
-}
-.ujq-inner {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: var(--space-8);
-  align-items: center;
-  position: relative; z-index: 1;
-}
-.ujq-pill {
-  display: inline-block;
-  font-size: var(--text-xs); font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase;
-  color: #fde68a;
-  background: rgba(253,230,138,0.12);
-  border: 1px solid rgba(253,230,138,0.25);
-  padding: 4px 14px; border-radius: 999px;
-  margin-bottom: var(--space-3);
-}
-.ujq-title {
-  font-family: var(--font-heading);
-  font-size: var(--text-2xl); font-weight: 800;
-  color: #fff;
-  margin: 0 0 var(--space-3);
-  line-height: 1.25;
-}
-.ujq-desc {
-  font-size: var(--text-sm); line-height: 1.7;
-  color: rgba(255,255,255,0.65);
-  max-width: 460px; margin-bottom: var(--space-4);
-}
-.ujq-desc strong { color: #fde68a; }
-.ujq-desc em { font-style: normal; color: #fff; font-weight: 700; }
-.ujq-tags {
-  display: flex; flex-wrap: wrap; gap: var(--space-2);
-}
-.ujq-tag {
-  font-size: 0.68rem; font-weight: 700;
-  color: rgba(255,255,255,0.55);
-  background: rgba(255,255,255,0.07);
-  border: 1px solid rgba(255,255,255,0.1);
-  padding: 4px 12px; border-radius: 999px;
-}
-
-/* CTA card */
-.ujq-cta-card {
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(253,230,138,0.25);
-  border-radius: 16px;
-  padding: var(--space-5) var(--space-6);
-  text-align: center;
-  min-width: 200px;
-  backdrop-filter: blur(8px);
-  box-shadow: 0 8px 32px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.08);
-}
-.ujq-cta-logo { font-size: 2.5rem; margin-bottom: 4px; }
-.ujq-cta-site {
-  font-family: var(--font-heading); font-size: var(--text-lg); font-weight: 800;
-  color: #fde68a; margin-bottom: 2px;
-}
-.ujq-cta-label {
-  font-size: var(--text-xs); color: rgba(255,255,255,0.5);
-  margin-bottom: var(--space-4);
-}
-.ujq-cta-btn {
-  display: block;
-  background: linear-gradient(135deg, #d4a017, #f5c842);
-  color: #1c1008; font-weight: 800; font-size: var(--text-sm);
-  padding: 11px var(--space-5);
-  border-radius: 8px; text-decoration: none;
-  transition: transform 0.15s, box-shadow 0.15s;
-  box-shadow: 0 4px 12px rgba(212,160,23,0.4);
-  margin-bottom: var(--space-2);
-}
-.ujq-cta-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(212,160,23,0.55);
-  text-decoration: none; color: #1c1008;
-}
-.ujq-cta-note { font-size: 0.62rem; color: rgba(255,255,255,0.35); margin: 0; }
-
-@media (max-width: 720px) {
-  .ujq-inner { grid-template-columns: 1fr; }
-  .ujq-cta-card { min-width: unset; }
-  .ujq-title { font-size: var(--text-xl); }
-}
-</style>
 
 <!-- Subject grid -->
 <section style="background:#f1f5f9;">

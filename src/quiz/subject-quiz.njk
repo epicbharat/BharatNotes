@@ -184,6 +184,7 @@ eleventyExcludeFromCollections: true
   background: linear-gradient(135deg, var(--sq), color-mix(in srgb, var(--sq) 60%, #000));
   display: flex; align-items: center; justify-content: center;
   font-size: 1.2rem; flex-shrink: 0;
+  overflow: hidden; padding: 0;
 }
 .sq-profile-card__info { flex: 1; }
 .sq-profile-card__name {
@@ -222,6 +223,49 @@ eleventyExcludeFromCollections: true
   display: flex; gap: var(--space-3);
 }
 .sq-cover-btn--row .sq-cover-btn { width: auto; flex: 1; }
+
+/* Mode selector */
+.sq-mode-wrap {
+  display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3);
+  margin-bottom: var(--space-1);
+}
+.sq-mode-card {
+  border: 2px solid var(--color-border);
+  border-radius: 10px; padding: var(--space-4);
+  cursor: pointer; transition: all 0.15s;
+  background: var(--color-surface); text-align: left;
+  position: relative;
+}
+.sq-mode-card:hover { border-color: var(--sq); }
+.sq-mode-card.selected {
+  border-color: var(--sq);
+  background: color-mix(in srgb, var(--sq) 6%, white);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--sq) 15%, transparent);
+}
+.sq-mode-card__check {
+  position: absolute; top: var(--space-3); right: var(--space-3);
+  width: 18px; height: 18px; border-radius: 50%;
+  background: var(--color-border); display: flex; align-items: center; justify-content: center;
+  font-size: 0.6rem;
+}
+.sq-mode-card.selected .sq-mode-card__check { background: var(--sq); color: #fff; }
+.sq-mode-card__icon { font-size: 1.4rem; margin-bottom: 6px; }
+.sq-mode-card__title {
+  font-weight: 800; font-size: var(--text-sm); color: var(--color-text);
+  margin-bottom: 4px;
+}
+.sq-mode-card__desc {
+  font-size: 0.7rem; color: var(--color-text-muted); line-height: 1.5;
+}
+.sq-mode-card.selected .sq-mode-card__title { color: var(--sq); }
+.sq-mode-badge {
+  display: inline-block;
+  font-size: 0.6rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em;
+  padding: 2px 8px; border-radius: 999px;
+  margin-bottom: var(--space-2);
+}
+.sq-mode-badge--practice { background: rgba(22,163,74,0.1); color: #15803d; }
+.sq-mode-badge--exam     { background: rgba(59,130,246,0.1); color: #1d4ed8; }
 
 /* ════════════════════════════════════════════
    QUIZ (one question at a time)
@@ -549,7 +593,8 @@ eleventyExcludeFromCollections: true
     answers: {},   // { id: {chosen, ok, ts} }
     topic: 'all',
     chosen: -1,
-    mode: 'cover'  // cover | quiz | results | review
+    mode: 'cover', // cover | quiz | results | review
+    examMode: false // false=practice (instant feedback) | true=exam (review at end)
   };
 
   /* ── localStorage ─────────────────────────────────────── */
@@ -569,8 +614,22 @@ eleventyExcludeFromCollections: true
     try {
       var st = JSON.parse(localStorage.getItem(STORE)) || {};
       delete st[SLUG];
+      delete st[SLUG + '_mode'];
       localStorage.setItem(STORE, JSON.stringify(st));
     } catch(e) {}
+  }
+  function saveMode(isExam) {
+    try {
+      var st = JSON.parse(localStorage.getItem(STORE)) || {};
+      st[SLUG + '_mode'] = isExam ? 'exam' : 'practice';
+      localStorage.setItem(STORE, JSON.stringify(st));
+    } catch(e) {}
+  }
+  function loadMode() {
+    try {
+      var st = JSON.parse(localStorage.getItem(STORE)) || {};
+      return st[SLUG + '_mode'] === 'exam';
+    } catch(e) { return false; }
   }
   /* Global profile across all subjects */
   function globalProfile() {
@@ -777,10 +836,15 @@ eleventyExcludeFromCollections: true
     /* ── Overall profile card ── */
     if (prof.total > 0) {
       h += '<div class="sq-profile-card">';
-      h += '<div class="sq-profile-card__avatar">📊</div>';
+      h += '<div class="sq-profile-card__avatar" id="sq-profile-avatar">' +
+           '<img src="/assets/img/bharat.jpg" alt="Bharat" ' +
+           'style="width:100%;height:100%;object-fit:cover;border-radius:50%;" ' +
+           'onerror="this.style.display=\'none\';document.getElementById(\'sq-profile-initials\').style.display=\'flex\'">' +
+           '<span id="sq-profile-initials" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;font-size:1rem;font-weight:800;color:#fff;">BC</span>' +
+           '</div>';
       h += '<div class="sq-profile-card__info">';
-      h += '<div class="sq-profile-card__name">Your Overall Profile</div>';
-      h += '<div class="sq-profile-card__tagline">Progress stored in your browser (no login needed)</div>';
+      h += '<div class="sq-profile-card__name">Bharat Choudhary</div>';
+      h += '<div class="sq-profile-card__tagline">UPSC Aspirant · BharatNotes.com</div>';
       h += '</div>';
       h += '<div class="sq-profile-card__stats">';
       h += '<div class="sq-profile-card__stat"><span class="sq-profile-card__stat-num">' + prof.total + '</span><span class="sq-profile-card__stat-lbl">Attempted</span></div>';
@@ -795,11 +859,30 @@ eleventyExcludeFromCollections: true
     if (!pq.length) {
       h += '<button class="sq-cover-btn sq-cover-btn--primary" disabled>🔄 Questions Coming Soon</button>';
     } else if (stats.answered === 0) {
+      // Mode selector for fresh start
+      var defExam = S.examMode;
+      h += '<div class="sq-mode-wrap">';
+      h += '<button class="sq-mode-card' + (!defExam ? ' selected' : '') + '" id="mode-practice">' +
+           '<span class="sq-mode-card__check">' + (!defExam ? '✓' : '') + '</span>' +
+           '<span class="sq-mode-badge sq-mode-badge--practice">Practice</span>' +
+           '<div class="sq-mode-card__icon">✅</div>' +
+           '<div class="sq-mode-card__title">Check as I go</div>' +
+           '<div class="sq-mode-card__desc">See if you\'re right + full explanation after every question.</div>' +
+           '</button>';
+      h += '<button class="sq-mode-card' + (defExam ? ' selected' : '') + '" id="mode-exam">' +
+           '<span class="sq-mode-card__check">' + (defExam ? '✓' : '') + '</span>' +
+           '<span class="sq-mode-badge sq-mode-badge--exam">Exam</span>' +
+           '<div class="sq-mode-card__icon">📝</div>' +
+           '<div class="sq-mode-card__title">Review at the end</div>' +
+           '<div class="sq-mode-card__desc">Answer all questions first, then see results &amp; explanations.</div>' +
+           '</button>';
+      h += '</div>';
       h += '<button class="sq-cover-btn sq-cover-btn--primary" id="cv-start">🎯 Start Quiz</button>';
     } else if (stats.answered < stats.total) {
-      h += '<button class="sq-cover-btn sq-cover-btn--primary" id="cv-resume">▶️ Resume — Q' + (stats.answered + 1) + ' of ' + stats.total + '</button>';
+      var modeLbl = S.examMode ? '📝 Exam Mode' : '✅ Practice Mode';
+      h += '<button class="sq-cover-btn sq-cover-btn--primary" id="cv-resume">▶️ Resume — Q' + (stats.answered + 1) + ' of ' + stats.total + ' &nbsp;<span style="opacity:.7;font-weight:600;font-size:0.75em;">(' + modeLbl + ')</span></button>';
       h += '<div class="sq-cover-btn--row">';
-      h += '<button class="sq-cover-btn sq-cover-btn--outline" id="cv-review">📋 Review Answers (' + stats.answered + ')</button>';
+      h += '<button class="sq-cover-btn sq-cover-btn--outline" id="cv-review">📋 Review (' + stats.answered + ' answered)</button>';
       h += '<button class="sq-cover-btn sq-cover-btn--outline" id="cv-restart">🔁 Start Fresh</button>';
       h += '</div>';
     } else {
@@ -815,12 +898,27 @@ eleventyExcludeFromCollections: true
     h += '</div>'; // .sq-cover
     el.innerHTML = h;
 
+    /* wire mode cards */
+    var mPractice = document.getElementById('mode-practice');
+    var mExam     = document.getElementById('mode-exam');
+    if (mPractice && mExam) {
+      function selectMode(isExam) {
+        S.examMode = isExam;
+        mPractice.classList.toggle('selected', !isExam);
+        mExam.classList.toggle('selected', isExam);
+        mPractice.querySelector('.sq-mode-card__check').textContent = !isExam ? '✓' : '';
+        mExam.querySelector('.sq-mode-card__check').textContent = isExam ? '✓' : '';
+      }
+      mPractice.addEventListener('click', function() { selectMode(false); });
+      mExam.addEventListener('click',     function() { selectMode(true);  });
+    }
+
     /* wire cover buttons */
     var btn;
     btn = document.getElementById('cv-start');
-    if (btn) btn.addEventListener('click', function() { startQuiz(false); });
+    if (btn) btn.addEventListener('click', function() { startQuiz(false, S.examMode); });
     btn = document.getElementById('cv-resume');
-    if (btn) btn.addEventListener('click', function() { startQuiz(false); });
+    if (btn) btn.addEventListener('click', function() { startQuiz(false, S.examMode); });
     btn = document.getElementById('cv-review');
     if (btn) btn.addEventListener('click', function() { showReview(); });
     btn = document.getElementById('cv-restart');
@@ -833,8 +931,10 @@ eleventyExcludeFromCollections: true
     if (btn) btn.addEventListener('click', function() { startQuiz(true); });
   }
 
-  function startQuiz(retryWrong) {
+  function startQuiz(retryWrong, examMode) {
     S.mode = 'quiz';
+    S.examMode = (examMode === true);
+    saveMode(S.examMode);
     applyFilter('all', retryWrong);
     S.chosen = -1;
     buildFilters();
@@ -879,24 +979,41 @@ eleventyExcludeFromCollections: true
     h += '</div>';
     h += buildStem(q);
     h += buildOpts(q, answered, chosenIdx);
-    if (!answered) h += '<button class="sq-check" id="sq-chk" ' + (S.chosen < 0 ? 'disabled' : '') + '>Check Answer</button>';
-    if (answered) {
-      h += '<div class="sq-feedback">';
-      h += '<div class="sq-result-badge ' + (saved.ok ? 'ok' : 'bad') + '">' + (saved.ok ? '✅ Correct!' : '❌ Incorrect') + '</div>';
-      if (q.explanation) {
-        h += '<p class="sq-explanation-lbl">Explanation</p>';
-        h += '<p class="sq-explanation">' + esc(q.explanation) + '</p>';
+
+    var isLast = S.idx >= S.q.length - 1;
+
+    if (S.examMode) {
+      // Exam mode: no feedback during quiz — next button enabled after selection
+      if (!answered) {
+        h += '<button class="sq-check" id="sq-next-exam" ' + (S.chosen < 0 ? 'disabled' : '') + '>' +
+             (isLast ? 'Submit →' : 'Next →') + '</button>';
       }
-      h += '</div>';
+      // if somehow already answered (resumed exam session), show silent next
+      if (answered) {
+        h += '<div style="height:var(--space-3)"></div>';
+      }
+    } else {
+      // Practice mode: check button → show feedback → next
+      if (!answered) h += '<button class="sq-check" id="sq-chk" ' + (S.chosen < 0 ? 'disabled' : '') + '>Check Answer</button>';
+      if (answered) {
+        h += '<div class="sq-feedback">';
+        h += '<div class="sq-result-badge ' + (saved.ok ? 'ok' : 'bad') + '">' + (saved.ok ? '✅ Correct!' : '❌ Incorrect') + '</div>';
+        if (q.explanation) {
+          h += '<p class="sq-explanation-lbl">Explanation</p>';
+          h += '<p class="sq-explanation">' + esc(q.explanation) + '</p>';
+        }
+        h += '</div>';
+      }
     }
     h += '</div>'; // .sq-card
 
-    var isLast = S.idx >= S.q.length - 1;
     h += '<div class="sq-nav">';
     h += '<button class="sq-nav-btn" id="sq-prev" ' + (S.idx === 0 ? 'disabled' : '') + '>← Prev</button>';
-    if (!answered) h += '<button class="sq-skip-link" id="sq-skip">Skip for now</button>';
+    if (!answered && !S.examMode) h += '<button class="sq-skip-link" id="sq-skip">Skip for now</button>';
     else h += '<span></span>';
-    if (answered) h += '<button class="sq-nav-btn sq-nav-btn--next" id="sq-next">' + (isLast ? 'See Results →' : 'Next →') + '</button>';
+    // In practice mode, next only after answering. In exam mode, next is the check button itself.
+    if (answered && !S.examMode) h += '<button class="sq-nav-btn sq-nav-btn--next" id="sq-next">' + (isLast ? 'See Results →' : 'Next →') + '</button>';
+    else if (answered && S.examMode) h += '<button class="sq-nav-btn sq-nav-btn--next" id="sq-next">' + (isLast ? 'See Results →' : 'Next →') + '</button>';
     else h += '<span></span>';
     h += '</div>';
 
@@ -913,10 +1030,14 @@ eleventyExcludeFromCollections: true
         document.querySelectorAll('.sq-opt').forEach(function(b) { b.classList.remove('sq-opt--sel'); });
         btn.classList.add('sq-opt--sel');
         S.chosen = parseInt(btn.getAttribute('data-opt'));
+        // Enable the relevant action button
         var chk = document.getElementById('sq-chk');
         if (chk) chk.disabled = false;
+        var nxtExam = document.getElementById('sq-next-exam');
+        if (nxtExam) nxtExam.disabled = false;
       });
     });
+    // Practice mode: check → show feedback
     var chkBtn = document.getElementById('sq-chk');
     if (chkBtn) chkBtn.addEventListener('click', function() {
       if (S.chosen < 0) return;
@@ -924,6 +1045,18 @@ eleventyExcludeFromCollections: true
       S.answers[q.id] = { chosen: S.chosen, ok: ok, ts: Date.now() };
       saveToStore(q.id, S.chosen, ok);
       S.chosen = -1; render();
+    });
+    // Exam mode: next → save silently, advance
+    var nxtExamBtn = document.getElementById('sq-next-exam');
+    if (nxtExamBtn) nxtExamBtn.addEventListener('click', function() {
+      if (S.chosen >= 0) {
+        var ok = S.chosen === q.correct;
+        S.answers[q.id] = { chosen: S.chosen, ok: ok, ts: Date.now() };
+        saveToStore(q.id, S.chosen, ok);
+        S.chosen = -1;
+      }
+      if (S.idx < S.q.length - 1) { S.idx++; render(); }
+      else showResults();
     });
     var nxtBtn = document.getElementById('sq-next');
     if (nxtBtn) nxtBtn.addEventListener('click', function() {
@@ -1165,6 +1298,7 @@ eleventyExcludeFromCollections: true
 
   /* ── Init ─────────────────────────────────────────────── */
   S.answers = loadStore();
+  S.examMode = loadMode();
   showCover();
 })();
 </script>
