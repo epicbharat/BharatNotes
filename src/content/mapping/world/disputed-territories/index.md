@@ -141,45 +141,34 @@ Key precision points:
 
 ---
 
-## PYQs — Disputed Territories
+## Previous Year Questions
 
-**Q1. The 2016 verdict of the Permanent Court of Arbitration (PCA) on the South China Sea was related to a case filed by: (UPSC Prelims 2017 style)**
-- (a) Vietnam
-- **(b) Philippines**
-- (c) Malaysia
-- (d) Brunei
+**Prelims:**
 
-The Philippines filed the case in January 2013 under UNCLOS Annex VII. The PCA delivered its award on July 12, 2016, ruling overwhelmingly in favour of the Philippines and declaring China's nine-dash line historic rights claims to have no legal basis under UNCLOS. China rejected the ruling.
+1. The 2016 verdict of the Permanent Court of Arbitration (PCA) on the South China Sea was related to a case filed by:<br>
+   (a) Vietnam<br>
+   **(b) Philippines**<br>
+   (c) Malaysia<br>
+   (d) Brunei<br>
 
----
+2. With reference to the Line of Actual Control (LAC) between India and China, consider the following statements:<br>
+   1. The western sector of the LAC runs along Ladakh and includes the Galwan Valley.<br>
+   2. The McMahon Line defines the LAC in the middle sector (Himachal Pradesh and Uttarakhand).<br>
+   3. The eastern sector of the LAC is coterminous with the McMahon Line separating Arunachal Pradesh from China.<br>
+   Which of the statements given above is/are correct?<br>
+   (a) 1 only<br>
+   **(b) 1 and 3 only**<br>
+   (c) 2 and 3 only<br>
+   (d) 1, 2 and 3<br>
 
-**Q2. With reference to the Line of Actual Control (LAC) between India and China, consider the following statements:**
-1. The western sector of the LAC runs along Ladakh and includes the Galwan Valley.
-2. The McMahon Line defines the LAC in the middle sector (Himachal Pradesh and Uttarakhand).
-3. The eastern sector of the LAC is coterminous with the McMahon Line separating Arunachal Pradesh from China.
-
-Which of the statements given above is/are correct?
-- (a) 1 only
-- (b) 1 and 3 only
-- **(c) 1 and 3 only**
-- (d) 1, 2 and 3
-
-Statement 1 is correct: western sector = Ladakh including Galwan, Aksai Chin. Statement 3 is correct: eastern sector broadly follows the McMahon Line (though exact alignment is contested). Statement 2 is incorrect: the McMahon Line is in the eastern sector, NOT the middle sector. The middle sector (Himachal Pradesh, Uttarakhand) is generally less disputed with a more defined boundary. Answer: **(b) 1 and 3 only.**
-
----
-
-**Q3. With reference to India's Arctic Policy 2022, which of the following statements is/are correct?**
-1. India's Arctic Policy was released by the Ministry of External Affairs.
-2. India has observer status in the Arctic Council since 2013.
-3. India's research station Himadri is located at Ny-Ålesund, Svalbard, Norway.
-
-Select the correct answer:
-- (a) 1 and 2 only
-- (b) 2 only
-- **(c) 2 and 3 only**
-- (d) 1, 2 and 3
-
-Statement 1 is incorrect: India's Arctic Policy was released by the Ministry of Earth Sciences (not External Affairs). Statement 2 is correct: India became Arctic Council observer in 2013. Statement 3 is correct: Himadri Station is at Ny-Ålesund, Svalbard. Answer: **(c) 2 and 3 only.**
+3. With reference to India's Arctic Policy 2022, which of the following statements is/are correct?<br>
+   1. India's Arctic Policy was released by the Ministry of External Affairs.<br>
+   2. India has observer status in the Arctic Council since 2013.<br>
+   3. India's research station Himadri is located at Ny-Ålesund, Svalbard, Norway.<br>
+   (a) 1 and 2 only<br>
+   (b) 2 only<br>
+   **(c) 2 and 3 only**<br>
+   (d) 1, 2 and 3<br>
 
 ---
 

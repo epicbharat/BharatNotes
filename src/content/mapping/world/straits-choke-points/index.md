@@ -135,47 +135,36 @@ Key Prelims traps to memorize:
 
 ---
 
-## PYQ-Style Practice MCQs
+## Previous Year Questions
 
-**Q1.** Consider the following pairs — Strait : Connects:
+**Prelims:**
 
-1. Bab-el-Mandeb : Red Sea and Persian Gulf
-2. Strait of Malacca : Indian Ocean and South China Sea
-3. Dardanelles : Aegean Sea and Sea of Marmara
-4. Lombok Strait : Java Sea and Indian Ocean
+1. Consider the following pairs — Strait : Connects:<br>
+   1. Bab-el-Mandeb : Red Sea and Persian Gulf<br>
+   2. Strait of Malacca : Indian Ocean and South China Sea<br>
+   3. Dardanelles : Aegean Sea and Sea of Marmara<br>
+   4. Lombok Strait : Java Sea and Indian Ocean<br>
+   How many of the above pairs are correctly matched?<br>
+   (a) One<br>
+   **(b) Two**<br>
+   (c) Three<br>
+   (d) Four<br>
 
-How many of the above pairs are correctly matched?
+2. With reference to India's island territories, consider the following statements:<br>
+   1. The Ten Degree Channel separates the Andaman Islands from the Nicobar Islands.<br>
+   2. The Nine Degree Channel separates Minicoy from the Maldives.<br>
+   3. The Eight Degree Channel separates Minicoy from the rest of the Lakshadweep group.<br>
+   Which of the statements given above is/are correct?<br>
+   **(a) 1 only**<br>
+   (b) 2 and 3 only<br>
+   (c) 1 and 3 only<br>
+   (d) 1, 2 and 3<br>
 
-(a) One
-(b) **Two**
-(c) Three
-(d) Four
-
-*(Pair 1 is wrong — Bab-el-Mandeb connects Red Sea to Gulf of Aden, NOT Persian Gulf. Pairs 2, 3, 4 are correct.)*
-
-**Q2.** With reference to India's island territories, consider the following statements:
-
-1. The Ten Degree Channel separates the Andaman Islands from the Nicobar Islands.
-2. The Nine Degree Channel separates Minicoy from the Maldives.
-3. The Eight Degree Channel separates Minicoy from the rest of the Lakshadweep group.
-
-Which of the statements given above is/are correct?
-
-(a) **1 only**
-(b) 2 and 3 only
-(c) 1 and 3 only
-(d) 1, 2 and 3
-
-*(Statement 1 is correct. Statement 2 is wrong — Nine Degree separates Minicoy from rest of Lakshadweep. Statement 3 is wrong — Eight Degree separates Minicoy from Maldives. Statements 2 and 3 are swapped.)*
-
-**Q3.** The Montreux Convention of 1936 is associated with which of the following?
-
-(a) Freedom of navigation in the Strait of Malacca
-(b) **Regime of passage through the Turkish Straits (Bosphorus and Dardanelles)**
-(c) Demilitarization of the Suez Canal zone
-(d) Transit rights through the Panama Canal
-
-*(The Montreux Convention governs the Turkish Straits — Bosphorus and Dardanelles — and regulates warship passage, returning control to Turkey. It became significant again in the Russia-Ukraine conflict.)*
+3. The Montreux Convention of 1936 is associated with which of the following?<br>
+   (a) Freedom of navigation in the Strait of Malacca<br>
+   **(b) Regime of passage through the Turkish Straits (Bosphorus and Dardanelles)**<br>
+   (c) Demilitarization of the Suez Canal zone<br>
+   (d) Transit rights through the Panama Canal<br>
 
 ---
 

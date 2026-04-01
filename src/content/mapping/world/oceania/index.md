@@ -164,11 +164,32 @@ Pacific Island nations face existential threats from sea-level rise caused by cl
 
 ## Previous Year Questions
 
-**Q. (UPSC Prelims 2022):** With reference to AUKUS, the recently launched trilateral security partnership, consider the following countries: (1) Australia (2) United Kingdom (3) United States. Which of the above are its members? — **Answer: All three — Australia, UK, USA**
+**Prelims:**
 
-**Q. (UPSC Prelims 2014):** The 'Indian Remote Sensing Satellite' and 'Indian National Satellite' are examples of India's space programme. India also has research stations in Antarctica. What is the name of India's current active research stations? — *(Tests Maitri and Bharati; Dakshin Gangotri is decommissioned.)*
+1. With reference to AUKUS, the recently launched trilateral security partnership, which of the following are its members?<br>
+   1. Australia<br>
+   2. United Kingdom<br>
+   3. United States<br>
+   4. New Zealand<br>
+   (a) 1 and 3 only<br>
+   (b) 1, 2 and 4 only<br>
+   **(c) 1, 2 and 3 only**<br>
+   (d) 1, 2, 3 and 4<br>
 
-**Q. (UPSC Mains GS2 2023):** "China's growing footprint in the Pacific Island states poses a strategic challenge to the Quad." Critically analyse this statement with reference to recent developments. *(Directly tests Solomon Islands security pact 2022, Kiribati-China, FIPIC, QUAD response.)*
+2. Which of the following statements about India's Antarctic research stations is/are correct?<br>
+   1. Maitri station is located on the Schirmacher Oasis in East Antarctica.<br>
+   2. Bharati station was commissioned in 2012 near the Larsemann Hills.<br>
+   3. Dakshin Gangotri is India's currently active research station.<br>
+   (a) 1 only<br>
+   (b) 3 only<br>
+   **(c) 1 and 2 only**<br>
+   (d) 1, 2 and 3<br>
+
+3. The Falepili Union (2023), which has been in the news, was signed between Australia and which of the following countries?<br>
+   (a) Kiribati<br>
+   (b) Fiji<br>
+   (c) Vanuatu<br>
+   **(d) Tuvalu**<br>
 
 ---
 

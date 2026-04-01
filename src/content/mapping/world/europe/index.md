@@ -177,11 +177,29 @@ Europe is tested repeatedly in UPSC — primarily through the Russia-Ukraine con
 
 ## Previous Year Questions
 
-**Q. (UPSC Prelims 2022):** With reference to the 'G20 Common Framework,' consider the following statements: (1) It is an initiative of the G20 together with the Paris Club. (2) It is an initiative to support Low Income Countries. — *(Tests knowledge of international frameworks involving European powers.)*
+**Prelims:**
 
-**Q. (UPSC Prelims 2019):** 'Belt and Road Initiative' is sometimes seen in the news in the context of the affairs of: **(a) African Union (b) European Union (c) China (d) USA** — Answer: **(c) China**
+1. With reference to the European Union, consider the following statements:<br>
+   1. The EU was established by the Maastricht Treaty in 1993.<br>
+   2. The European Central Bank is headquartered in Frankfurt, Germany.<br>
+   3. All 27 EU member states use the Euro as their official currency.<br>
+   Which of the statements given above is/are correct?<br>
+   (a) 1 only<br>
+   **(b) 1 and 2 only**<br>
+   (c) 2 and 3 only<br>
+   (d) 1, 2 and 3<br>
 
-**Q. (UPSC Mains GS2 2022):** "The expansion of NATO is a threat to world peace." Critically evaluate this statement in the context of Russia-Ukraine conflict. *(Direct application of NATO expansion facts — Finland, Sweden, Article 5, Russia's security concerns.)*
+2. 'Belt and Road Initiative' is sometimes seen in the news in the context of the affairs of:<br>
+   (a) African Union<br>
+   (b) European Union<br>
+   **(c) China**<br>
+   (d) USA<br>
+
+3. Which of the following countries joined NATO most recently (as of 2024)?<br>
+   (a) Finland<br>
+   **(b) Sweden**<br>
+   (c) Ukraine<br>
+   (d) Georgia<br>
 
 ---
 

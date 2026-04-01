@@ -185,47 +185,38 @@ Full detail in the [Straits & Choke Points](/mapping/world/straits-choke-points/
 
 ---
 
-## PYQ-Style Practice MCQs
+## Previous Year Questions
 
-**Q1.** Which of the following statements about world rivers is/are correct?
+**Prelims:**
 
-1. The Amazon River has the highest volume of water discharge among all rivers.
-2. The Yangtze is the longest river that flows entirely within one country.
-3. The Congo River is the deepest river in the world.
+1. Which of the following statements about world rivers is/are correct?<br>
+   1. The Amazon River has the highest volume of water discharge among all rivers.<br>
+   2. The Yangtze is the longest river that flows entirely within one country.<br>
+   3. The Congo River is the deepest river in the world.<br>
+   (a) 1 only<br>
+   (b) 1 and 2 only<br>
+   (c) 2 and 3 only<br>
+   **(d) 1, 2 and 3**<br>
 
-(a) 1 only
-(b) 1 and 2 only
-(c) 2 and 3 only
-(d) **1, 2 and 3**
+2. Consider the following pairs — Desert : Type:<br>
+   1. Atacama : Hot<br>
+   2. Gobi : Cold<br>
+   3. Kalahari : Hot<br>
+   Which of the pairs given above is/are correctly matched?<br>
+   (a) 1 and 2 only<br>
+   **(b) 2 and 3 only**<br>
+   (c) 1 and 3 only<br>
+   (d) 1, 2 and 3<br>
 
-**Q2.** Consider the following pairs — Desert : Type:
-
-1. Atacama : Hot
-2. Gobi : Cold
-3. Kalahari : Hot
-
-Which of the pairs given above is/are correctly matched?
-
-(a) 1 and 2 only
-(b) **2 and 3 only**
-(c) 1 and 3 only
-(d) 1, 2 and 3
-
-*(The Atacama is a cold/coastal desert, not a hot desert. Gobi is cold. Kalahari is semi-arid/hot.)*
-
-**Q3.** The Tropic of Cancer passes through which of the following Indian states?
-
-1. Gujarat
-2. Odisha
-3. Chhattisgarh
-4. Tripura
-
-(a) 1, 2 and 4 only
-(b) 1, 3 and 4 only
-(c) **1, 3 and 4 only**
-(d) 1, 2, 3 and 4
-
-*(Odisha does NOT lie on the Tropic of Cancer. The 8 states are: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram.)*
+3. The Tropic of Cancer passes through which of the following Indian states?<br>
+   1. Gujarat<br>
+   2. Odisha<br>
+   3. Chhattisgarh<br>
+   4. Tripura<br>
+   (a) 1, 2 and 4 only<br>
+   **(b) 1, 3 and 4 only**<br>
+   (c) 1, 2 and 3 only<br>
+   (d) 1, 2, 3 and 4<br>
 
 ---
 

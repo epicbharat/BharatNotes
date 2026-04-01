@@ -140,11 +140,25 @@ The Amazon basin is the world's largest tropical rainforest, covering approximat
 
 ## Previous Year Questions
 
-**Q. (UPSC Prelims 2023):** With reference to Angel Falls, consider the following: It is located in Venezuela on the Auyán-tepui plateau. Which of the following is correct? — *(Tests exact location knowledge — **Venezuela**, Bolívar State.)*
+**Prelims:**
 
-**Q. (UPSC Prelims 2019):** The term 'Goldilocks Zone' is often seen in the news in the context of: (a) search for habitable planets (b) the Lithium Triangle in South America (c) the Deep Ocean Mission (d) commercial mining in the Moon — **Answer: (a) search for habitable planets** — *(Tests ability to distinguish trendy terms from geography.)*
+1. Angel Falls, the world's highest uninterrupted waterfall, is located in which of the following countries?<br>
+   (a) Brazil<br>
+   (b) Colombia<br>
+   **(c) Venezuela**<br>
+   (d) Peru<br>
 
-**Q. (UPSC Mains GS3 2022):** "Discuss the significance of the Lithium Triangle for India's transition to electric mobility. What steps has India taken to secure its critical mineral supply chain?" — *(Directly tests KABIL, Lithium Triangle, critical minerals strategy.)*
+2. The term 'Goldilocks Zone' is often seen in the news in the context of:<br>
+   **(a) Search for habitable planets**<br>
+   (b) The Lithium Triangle in South America<br>
+   (c) The Deep Ocean Mission<br>
+   (d) Commercial mining in the Moon<br>
+
+3. Which of the following correctly identifies the three countries of the Lithium Triangle?<br>
+   (a) Brazil, Bolivia, Peru<br>
+   (b) Chile, Peru, Colombia<br>
+   **(c) Chile, Argentina, Bolivia**<br>
+   (d) Argentina, Brazil, Chile<br>
 
 ---
 

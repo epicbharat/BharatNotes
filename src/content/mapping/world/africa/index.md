@@ -156,46 +156,35 @@ Key mnemonics to remember:
 
 ---
 
-## PYQs — Africa
+## Previous Year Questions
 
-**Q1. Consider the following pairs: (UPSC Prelims 2014)**
-Lake — Country
-1. Lake Chad — Niger
-2. Lake Tanganyika — Zambia
-3. Lake Victoria — Kenya
+**Prelims:**
 
-Which of the above pairs is/are correctly matched?
-- (a) 1 only
-- (b) 1 and 2 only
-- **(c) 2 and 3 only**
-- (d) 1, 2 and 3
+1. Consider the following pairs — Lake : Country:<br>
+   1. Lake Chad — Niger<br>
+   2. Lake Tanganyika — Zambia<br>
+   3. Lake Victoria — Kenya<br>
+   Which of the above pairs is/are correctly matched?<br>
+   (a) 1 only<br>
+   (b) 1 and 2 only<br>
+   **(c) 2 and 3 only**<br>
+   (d) 1, 2 and 3<br>
 
-Lake Tanganyika borders Tanzania, DRC, Burundi, and Zambia — so pair 2 is correct. Lake Victoria borders Kenya, Uganda, and Tanzania — so pair 3 is correct. Lake Chad's primary shoreline is in Chad and Nigeria, with Niger and Cameroon sharing parts — pair 1 is debatable but conventionally Niger is NOT the main lake-Chad country; Chad is. So (c) 2 and 3 only is standard answer.
+2. With reference to ECOWAS, consider the following statements:<br>
+   1. ECOWAS headquarters is in Lagos, Nigeria.<br>
+   2. ECOWAS suspended Mali, Burkina Faso, Guinea, and Niger following military coups.<br>
+   3. ECOWAS has 17 member states.<br>
+   Which of the statements given above is/are correct?<br>
+   (a) 1 and 3 only<br>
+   **(b) 2 only**<br>
+   (c) 1 and 2 only<br>
+   (d) 1, 2 and 3<br>
 
----
-
-**Q2. With reference to ECOWAS, consider the following statements: (UPSC Prelims style)**
-1. ECOWAS headquarters is in Lagos, Nigeria.
-2. ECOWAS suspended Mali, Burkina Faso, Guinea, and Niger following military coups.
-3. ECOWAS has 17 member states.
-
-Which of the statements given above is/are correct?
-- (a) 1 and 3 only
-- **(b) 2 only**
-- (c) 1 and 2 only
-- (d) 1, 2 and 3
-
-ECOWAS HQ is in Abuja (not Lagos); it has 15 members (not 17); statement 2 is correct — all four countries were suspended.
-
----
-
-**Q3. The Rovuma Basin, which has been in news, is associated with which of the following? (UPSC Prelims style)**
-- (a) Cobalt mining in DRC
-- **(b) Natural gas reserves in Mozambique**
-- (c) Uranium deposits in Niger
-- (d) Phosphate extraction in Morocco
-
-The Rovuma Basin in Cabo Delgado, Mozambique, holds one of Africa's largest natural gas finds (100+ trillion cubic feet). India's ONGC Videsh, Bharat Petroleum, and Oil India are stakeholders.
+3. The Rovuma Basin, which has been in news, is associated with which of the following?<br>
+   (a) Cobalt mining in DRC<br>
+   **(b) Natural gas reserves in Mozambique**<br>
+   (c) Uranium deposits in Niger<br>
+   (d) Phosphate extraction in Morocco<br>
 
 ---
 

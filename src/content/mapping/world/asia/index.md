@@ -298,58 +298,41 @@ Study the following on a map before the exam:
 
 ---
 
-## PYQ-Style Practice MCQs
+## Previous Year Questions
 
-**Question 1.** Consider the following statements about ASEAN:
+**Prelims:**
 
-1. ASEAN was founded in 1967 with five founding members.
-2. The headquarters of ASEAN is in Singapore.
-3. As of 2026, ASEAN has 11 member states.
+1. Consider the following statements about ASEAN:<br>
+   1. ASEAN was founded in 1967 with five founding members.<br>
+   2. The headquarters of ASEAN is in Singapore.<br>
+   3. As of 2026, ASEAN has 11 member states.<br>
+   Which of the statements given above is/are correct?<br>
+   (a) 1 only<br>
+   **(b) 1 and 3 only**<br>
+   (c) 2 and 3 only<br>
+   (d) 1, 2 and 3<br>
 
-Which of the statements given above is/are correct?
+2. With reference to the International North-South Transport Corridor (INSTC), consider the following statements:<br>
+   1. It was established in 2000 by India, Iran, and Russia.<br>
+   2. It connects India to Europe via Central Asia, bypassing Pakistan.<br>
+   3. The Chabahar Port in Iran serves as India's entry point into the corridor.<br>
+   Which of the statements given above are correct?<br>
+   (a) 1 and 2 only<br>
+   (b) 2 and 3 only<br>
+   (c) 1 and 3 only<br>
+   **(d) 1, 2 and 3**<br>
 
-(a) 1 only
-(b) 1 and 3 only
-(c) 2 and 3 only
-(d) 1, 2 and 3
-
-**Answer: (b) 1 and 3 only.** ASEAN was founded in 1967 (correct). Its headquarters is in **Jakarta, Indonesia** — not Singapore (incorrect). Timor-Leste became the 11th member in October 2025 (correct).
-
----
-
-**Question 2.** With reference to the International North-South Transport Corridor (INSTC), consider the following statements:
-
-1. It was established in 2000 by India, Iran, and Russia.
-2. It connects India to Europe via Central Asia, bypassing Pakistan.
-3. The Chabahar Port in Iran serves as India's entry point into the corridor.
-
-Which of the statements given above are correct?
-
-(a) 1 and 2 only
-(b) 2 and 3 only
-(c) 1 and 3 only
-(d) **1, 2 and 3**
-
-**Answer: (d) 1, 2 and 3.** INSTC was established in September 2000 in St. Petersburg by India, Iran, and Russia (correct). It provides a multi-modal route (sea to Bandar Abbas, rail/road through Iran and Azerbaijan to Russia and Europe) that bypasses Pakistan (correct). Chabahar Port is India's gateway into Iran and the INSTC route (correct).
-
----
-
-**Question 3.** Which of the following countries are littoral states of the Caspian Sea?
-
-1. Russia
-2. Kazakhstan
-3. Uzbekistan
-4. Turkmenistan
-5. Azerbaijan
-
-Select the correct answer using the code below:
-
-(a) 1, 2, 4 and 5 only
-(b) 1, 3, 4 and 5 only
-(c) 2, 3 and 4 only
-(d) **1, 2, 4 and 5 only**
-
-**Answer: (a) 1, 2, 4 and 5 only.** The five Caspian Sea littoral states are Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan — a total of five. **Uzbekistan is landlocked and does not border the Caspian Sea.** Iran (not listed in the options above) is the fifth state. Option (a) correctly excludes Uzbekistan.
+3. Which of the following countries are littoral states of the Caspian Sea?<br>
+   1. Russia<br>
+   2. Kazakhstan<br>
+   3. Uzbekistan<br>
+   4. Turkmenistan<br>
+   5. Azerbaijan<br>
+   Select the correct answer using the code below:<br>
+   **(a) 1, 2, 4 and 5 only**<br>
+   (b) 1, 3, 4 and 5 only<br>
+   (c) 2, 3 and 4 only<br>
+   (d) 1, 2, 3, 4 and 5<br>
 
 ---
 
