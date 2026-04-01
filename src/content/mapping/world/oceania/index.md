@@ -175,6 +175,7 @@ Pacific Island nations face existential threats from sea-level rise caused by cl
    (b) 1, 2 and 4 only<br>
    **(c) 1, 2 and 3 only**<br>
    (d) 1, 2, 3 and 4<br>
+   *Answer: (c) — AUKUS members are Australia, UK, and USA only; New Zealand is NOT a member despite being in Five Eyes.*
 
 2. Which of the following statements about India's Antarctic research stations is/are correct?<br>
    1. Maitri station is located on the Schirmacher Oasis in East Antarctica.<br>
@@ -184,12 +185,14 @@ Pacific Island nations face existential threats from sea-level rise caused by cl
    (b) 3 only<br>
    **(c) 1 and 2 only**<br>
    (d) 1, 2 and 3<br>
+   *Answer: (c) — Dakshin Gangotri was decommissioned in 1990; only Maitri (1989) and Bharati (2012) are currently active.*
 
 3. The Falepili Union (2023), which has been in the news, was signed between Australia and which of the following countries?<br>
    (a) Kiribati<br>
    (b) Fiji<br>
    (c) Vanuatu<br>
    **(d) Tuvalu**<br>
+   *Answer: (d) — Australia and Tuvalu signed the Falepili Union in November 2023, allowing climate migration and security cooperation.*
 
 ---
 

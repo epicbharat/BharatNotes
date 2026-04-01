@@ -188,18 +188,21 @@ Europe is tested repeatedly in UPSC — primarily through the Russia-Ukraine con
    **(b) 1 and 2 only**<br>
    (c) 2 and 3 only<br>
    (d) 1, 2 and 3<br>
+   *Answer: (b) — Only 20 of the 27 EU members use the Euro; statement 3 is wrong; Maastricht 1993 and ECB in Frankfurt are correct.*
 
 2. 'Belt and Road Initiative' is sometimes seen in the news in the context of the affairs of:<br>
    (a) African Union<br>
    (b) European Union<br>
    **(c) China**<br>
    (d) USA<br>
+   *Answer: (c) — Belt and Road Initiative is China's global infrastructure investment strategy, launched in 2013 by President Xi Jinping.*
 
 3. Which of the following countries joined NATO most recently (as of 2024)?<br>
    (a) Finland<br>
    **(b) Sweden**<br>
    (c) Ukraine<br>
    (d) Georgia<br>
+   *Answer: (b) — Sweden became NATO's 32nd member on March 7, 2024; Finland had joined earlier in April 2023.*
 
 ---
 

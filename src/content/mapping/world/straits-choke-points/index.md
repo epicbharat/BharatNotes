@@ -149,6 +149,7 @@ Key Prelims traps to memorize:
    **(b) Two**<br>
    (c) Three<br>
    (d) Four<br>
+   *Answer: (b) — Pairs 3 (Dardanelles) and 4 (Lombok) are correct; Bab-el-Mandeb connects Red Sea to Gulf of Aden, not Persian Gulf.*
 
 2. With reference to India's island territories, consider the following statements:<br>
    1. The Ten Degree Channel separates the Andaman Islands from the Nicobar Islands.<br>
@@ -159,12 +160,14 @@ Key Prelims traps to memorize:
    (b) 2 and 3 only<br>
    (c) 1 and 3 only<br>
    (d) 1, 2 and 3<br>
+   *Answer: (a) — Only statement 1 is correct; 9° separates Minicoy from rest of Lakshadweep, and 8° separates Minicoy from Maldives.*
 
 3. The Montreux Convention of 1936 is associated with which of the following?<br>
    (a) Freedom of navigation in the Strait of Malacca<br>
    **(b) Regime of passage through the Turkish Straits (Bosphorus and Dardanelles)**<br>
    (c) Demilitarization of the Suez Canal zone<br>
    (d) Transit rights through the Panama Canal<br>
+   *Answer: (b) — Montreux Convention (1936) governs warship passage through both the Bosphorus and Dardanelles (Turkish Straits).*
 
 ---
 

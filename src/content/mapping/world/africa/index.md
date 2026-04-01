@@ -169,6 +169,7 @@ Key mnemonics to remember:
    (b) 1 and 2 only<br>
    **(c) 2 and 3 only**<br>
    (d) 1, 2 and 3<br>
+   *Answer: (c) — Lake Chad borders Niger (not only Niger); Tanganyika and Victoria are correctly matched with Zambia and Kenya.*
 
 2. With reference to ECOWAS, consider the following statements:<br>
    1. ECOWAS headquarters is in Lagos, Nigeria.<br>
@@ -179,12 +180,14 @@ Key mnemonics to remember:
    **(b) 2 only**<br>
    (c) 1 and 2 only<br>
    (d) 1, 2 and 3<br>
+   *Answer: (b) — ECOWAS HQ is in Abuja (not Lagos); it has 15 members (not 17); only statement 2 on suspensions is correct.*
 
 3. The Rovuma Basin, which has been in news, is associated with which of the following?<br>
    (a) Cobalt mining in DRC<br>
    **(b) Natural gas reserves in Mozambique**<br>
    (c) Uranium deposits in Niger<br>
    (d) Phosphate extraction in Morocco<br>
+   *Answer: (b) — Rovuma Basin in Mozambique's Cabo Delgado province holds massive offshore natural gas reserves, with Indian company investment.*
 
 ---
 

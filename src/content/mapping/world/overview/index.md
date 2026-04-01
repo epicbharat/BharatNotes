@@ -197,6 +197,7 @@ Full detail in the [Straits & Choke Points](/mapping/world/straits-choke-points/
    (b) 1 and 2 only<br>
    (c) 2 and 3 only<br>
    **(d) 1, 2 and 3**<br>
+   *Answer: (d) — Amazon has highest discharge, Yangtze is longest within one country, and Congo is the deepest river.*
 
 2. Consider the following pairs — Desert : Type:<br>
    1. Atacama : Hot<br>
@@ -207,6 +208,7 @@ Full detail in the [Straits & Choke Points](/mapping/world/straits-choke-points/
    **(b) 2 and 3 only**<br>
    (c) 1 and 3 only<br>
    (d) 1, 2 and 3<br>
+   *Answer: (b) — Atacama is a cold/coastal desert, not hot; Gobi and Kalahari classifications are correct.*
 
 3. The Tropic of Cancer passes through which of the following Indian states?<br>
    1. Gujarat<br>
@@ -217,6 +219,7 @@ Full detail in the [Straits & Choke Points](/mapping/world/straits-choke-points/
    **(b) 1, 3 and 4 only**<br>
    (c) 1, 2 and 3 only<br>
    (d) 1, 2, 3 and 4<br>
+   *Answer: (b) — Odisha is NOT on the Tropic of Cancer; Gujarat, Chhattisgarh, and Tripura are among the 8 correct states.*
 
 ---
 

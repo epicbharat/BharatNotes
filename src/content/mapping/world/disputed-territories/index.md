@@ -150,6 +150,7 @@ Key precision points:
    **(b) Philippines**<br>
    (c) Malaysia<br>
    (d) Brunei<br>
+   *Answer: (b) — Philippines filed the UNCLOS Annex VII arbitration in 2013; PCA ruled in July 2016 that China's nine-dash line has no legal basis.*
 
 2. With reference to the Line of Actual Control (LAC) between India and China, consider the following statements:<br>
    1. The western sector of the LAC runs along Ladakh and includes the Galwan Valley.<br>
@@ -160,6 +161,7 @@ Key precision points:
    **(b) 1 and 3 only**<br>
    (c) 2 and 3 only<br>
    (d) 1, 2 and 3<br>
+   *Answer: (b) — McMahon Line defines the eastern sector LAC (Arunachal), not the middle sector; statements 1 and 3 are correct.*
 
 3. With reference to India's Arctic Policy 2022, which of the following statements is/are correct?<br>
    1. India's Arctic Policy was released by the Ministry of External Affairs.<br>
@@ -169,6 +171,7 @@ Key precision points:
    (b) 2 only<br>
    **(c) 2 and 3 only**<br>
    (d) 1, 2 and 3<br>
+   *Answer: (c) — India's Arctic Policy was released by the Ministry of Earth Sciences (not MEA); statements 2 and 3 on Arctic Council and Himadri are correct.*
 
 ---
 

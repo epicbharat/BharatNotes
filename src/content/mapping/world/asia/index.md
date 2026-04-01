@@ -311,6 +311,7 @@ Study the following on a map before the exam:
    **(b) 1 and 3 only**<br>
    (c) 2 and 3 only<br>
    (d) 1, 2 and 3<br>
+   *Answer: (b) — ASEAN HQ is in Jakarta (not Singapore); it has 11 members (Timor-Leste joining), so statements 1 and 3 are correct.*
 
 2. With reference to the International North-South Transport Corridor (INSTC), consider the following statements:<br>
    1. It was established in 2000 by India, Iran, and Russia.<br>
@@ -321,6 +322,7 @@ Study the following on a map before the exam:
    (b) 2 and 3 only<br>
    (c) 1 and 3 only<br>
    **(d) 1, 2 and 3**<br>
+   *Answer: (d) — All three statements about INSTC are correct: founded 2000 by India-Iran-Russia, bypasses Pakistan, uses Chabahar.*
 
 3. Which of the following countries are littoral states of the Caspian Sea?<br>
    1. Russia<br>
@@ -333,6 +335,7 @@ Study the following on a map before the exam:
    (b) 1, 3, 4 and 5 only<br>
    (c) 2, 3 and 4 only<br>
    (d) 1, 2, 3, 4 and 5<br>
+   *Answer: (a) — Uzbekistan is landlocked and does not border the Caspian Sea; the five littoral states are Russia, Kazakhstan, Azerbaijan, Turkmenistan, and Iran.*
 
 ---
 

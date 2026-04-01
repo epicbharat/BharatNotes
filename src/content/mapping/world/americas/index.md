@@ -147,18 +147,21 @@ The Amazon basin is the world's largest tropical rainforest, covering approximat
    (b) Colombia<br>
    **(c) Venezuela**<br>
    (d) Peru<br>
+   *Answer: (c) — Angel Falls (979 m) is located in Venezuela's Bolívar state on the Auyán-tepui plateau, not in Brazil.*
 
 2. The term 'Goldilocks Zone' is often seen in the news in the context of:<br>
    **(a) Search for habitable planets**<br>
    (b) The Lithium Triangle in South America<br>
    (c) The Deep Ocean Mission<br>
    (d) Commercial mining in the Moon<br>
+   *Answer: (a) — Goldilocks Zone refers to the orbital region around a star where liquid water could exist, enabling life.*
 
 3. Which of the following correctly identifies the three countries of the Lithium Triangle?<br>
    (a) Brazil, Bolivia, Peru<br>
    (b) Chile, Peru, Colombia<br>
    **(c) Chile, Argentina, Bolivia**<br>
    (d) Argentina, Brazil, Chile<br>
+   *Answer: (c) — The Lithium Triangle comprises Chile, Argentina, and Bolivia, which together hold over 50% of global lithium resources.*
 
 ---
 
