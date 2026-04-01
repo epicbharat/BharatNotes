@@ -407,6 +407,41 @@ p { line-height: var(--leading-relaxed); }
   gap: var(--space-3);
   flex-wrap: wrap;
 }
+.hero__quick-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-5);
+}
+.hero__quick-links-label {
+  font-size: var(--text-xs);
+  color: rgba(255,255,255,0.45);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-right: var(--space-1);
+  white-space: nowrap;
+}
+.hero__quick-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 12px;
+  font-size: var(--text-xs);
+  font-weight: var(--font-semibold);
+  color: rgba(255,255,255,0.82);
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+.hero__quick-link:hover {
+  background: rgba(255,255,255,0.16);
+  color: #fff;
+  border-color: rgba(255,255,255,0.35);
+}
 .btn--lg {
   font-size: var(--text-md);
   padding: 13px var(--space-8);
@@ -1142,6 +1177,7 @@ a.card:hover { text-decoration: none; }
   .hero__content { text-align: center; }
   .hero__subtitle { margin-left: auto; margin-right: auto; }
   .hero__actions { justify-content: center; }
+  .hero__quick-links { justify-content: center; }
   .layout-with-sidebar { grid-template-columns: minmax(0, 1fr) 240px; gap: var(--space-5); }
   .footer-inner { grid-template-columns: 1.5fr repeat(3, 1fr); gap: var(--space-6); }
 }
@@ -1902,6 +1938,61 @@ a:focus-visible {
   margin-top: var(--space-2);
 }
 .pyq-progress__score strong { color: var(--color-success); }
+
+/* ── PYQ Quiz CTA (article mode — links to quiz page) ── */
+.pyq-quiz-cta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-5);
+  margin: var(--space-3) 0 var(--space-5);
+  background: linear-gradient(135deg, rgba(15,76,58,0.05) 0%, rgba(212,160,23,0.06) 100%);
+  border: 1.5px solid var(--color-brand);
+  border-radius: var(--radius-md);
+  font-size: var(--text-sm);
+  font-weight: var(--font-semibold);
+  color: var(--color-brand-dark);
+  text-decoration: none;
+  transition: background 0.15s, box-shadow 0.15s;
+}
+.pyq-quiz-cta:hover {
+  background: linear-gradient(135deg, rgba(15,76,58,0.1) 0%, rgba(212,160,23,0.1) 100%);
+  box-shadow: var(--shadow-sm);
+}
+.pyq-quiz-cta__arrow { margin-left: auto; color: var(--color-brand); }
+
+/* ── Quiz mode: hide article, show only PYQ section ── */
+.quiz-mode .article-body > *:not(.section-card--pyq) { display: none; }
+.quiz-mode .section-card--pyq { display: block !important; }
+.quiz-mode .topic-sidebar { display: none; }
+.quiz-mode .layout-with-sidebar { grid-template-columns: 1fr; }
+.quiz-mode .page-header__subtitle { display: none; }
+.quiz-mode .topic-tabs { display: none; }
+
+/* ── Quiz mode header bar ── */
+.quiz-mode-bar {
+  display: none;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-5);
+  background: var(--color-brand);
+  color: #fff;
+  font-size: var(--text-xs);
+  font-weight: var(--font-semibold);
+}
+.quiz-mode .quiz-mode-bar { display: flex; }
+.quiz-mode-bar__back {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.quiz-mode-bar__back:hover { color: #fff; }
+.quiz-mode-bar__title { flex: 1; }
+.quiz-mode-bar__hub { color: rgba(255,255,255,0.8); text-decoration:none; }
+.quiz-mode-bar__hub:hover { color: #fff; }
+
 .pyq-reset-all {
   font-size: var(--text-xs);
   font-weight: var(--font-semibold);

@@ -7,6 +7,13 @@ layout: base.njk
   {%- if s.slug == subject -%}{%- set subjectData = s -%}{%- endif -%}
 {%- endfor -%}
 
+<!-- Quiz mode top bar (hidden in article mode via CSS) -->
+<div class="quiz-mode-bar">
+  <a href="/quiz/" class="quiz-mode-bar__back">← Quiz Hub</a>
+  <span class="quiz-mode-bar__title">🎯 Practice Mode</span>
+  <a href="{{ page.url }}" class="quiz-mode-bar__hub">Exit to Article →</a>
+</div>
+
 <section class="page-header">
   <div class="container">
     <nav class="breadcrumb">
@@ -252,6 +259,12 @@ layout: base.njk
 
 <script>
 (function() {
+  /* ── Quiz mode: activated when ?mode=quiz is in the URL ── */
+  window.__quizMode = new URLSearchParams(window.location.search).get('mode') === 'quiz';
+  if (window.__quizMode) {
+    document.documentElement.classList.add('quiz-mode');
+  }
+
   var article = document.querySelector('.article-body');
   if (!article) return;
 
@@ -389,8 +402,20 @@ layout: base.njk
       if (next && next.tagName === 'HR') next.remove();
     }
 
-    // PYQ interactive component disabled — PYQs render as plain static markdown
-    if (false && /previous\s+year\s+questions|pyq/i.test(text)) {
+    // PYQ section: inject "Practice Quiz" button in article mode; full interactive in quiz mode
+    if (/previous\s+year\s+questions|pyq/i.test(text)) {
+      if (!window.__quizMode) {
+        // Article mode: add a Practice Quiz CTA button after the heading
+        var quizUrl = window.location.pathname + '?mode=quiz';
+        var ctaEl = document.createElement('a');
+        ctaEl.href = quizUrl;
+        ctaEl.className = 'pyq-quiz-cta';
+        ctaEl.innerHTML = '<span>🎯</span><span>Practice these questions interactively</span><span class="pyq-quiz-cta__arrow">→</span>';
+        h2.parentNode.insertBefore(ctaEl, h2.nextSibling);
+        return;
+      }
+    }
+    if (window.__quizMode && /previous\s+year\s+questions|pyq/i.test(text)) {
       var wrapper = document.createElement('div');
       wrapper.className = 'section-card section-card--pyq';
       h2.parentNode.insertBefore(wrapper, h2);
