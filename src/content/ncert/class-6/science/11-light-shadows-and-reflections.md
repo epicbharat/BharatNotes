@@ -90,7 +90,8 @@ The principle of light absorption underlies solar energy technology:
 - National Solar Mission (PM's Council on Climate Change): Target **500 GW renewable energy capacity by 2030** (including 280 GW from solar)
 - **PM-KUSUM** (Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan): Solar pumps for agriculture; solar panels on barren lands; solar power plants
 - **ISTS waiver:** Inter-State Transmission System charges waived for solar/wind projects (reduces cost)
-- India's solar installed capacity: ~90 GW as of early 2025; 4th largest in the world
+- India's solar installed capacity: **143.60 GW** (MNRE, February 2026); India deployed 37.9 GW of solar in 2025 alone
+- Total renewable energy capacity: **~263 GW** (January 2026); India crossed 50% non-fossil installed capacity milestone in June 2025 — **five years ahead of NDC target**
 :::
 
 ### Pinhole Camera

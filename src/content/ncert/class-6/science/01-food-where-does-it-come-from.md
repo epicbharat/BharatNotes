@@ -65,7 +65,7 @@ Every part of a plant can be a food source:
 
 **Milk and dairy:**
 - Cow, buffalo, goat, camel, yak all provide milk
-- India is the world's largest milk producer (~230 million tonnes/year as of 2023-24)
+- India is the world's largest milk producer — **247.87 million tonnes** in 2024-25 (BAHS 2025, DAHD); ~24.76% of world production
 - White Revolution (Operation Flood): Led by Dr. Verghese Kurien; transformed India from a milk-deficit to milk-surplus country
 
 **Eggs and poultry:**

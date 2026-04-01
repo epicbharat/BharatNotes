@@ -21,7 +21,7 @@ tags:
   - environment
 ---
 
-**Why this chapter matters for UPSC:** Air quality, air pollution, and the atmosphere are tested extensively in GS3 (environment) and GS2 (health policy). India faces a severe air pollution crisis — 21 of the world's 30 most polluted cities are in India (IQAir 2023 data). This connects to National Clean Air Programme, AQI, PM2.5, and health impacts.
+**Why this chapter matters for UPSC:** Air quality, air pollution, and the atmosphere are tested extensively in GS3 (environment) and GS2 (health policy). India faces a severe air pollution crisis — 66 of the world's 100 most polluted cities are in India (IQAir World Air Quality Report 2025). This connects to National Clean Air Programme, AQI, PM2.5, and health impacts.
 
 ---
 
@@ -72,7 +72,7 @@ tags:
 
 **Scale of the problem:**
 - ~7 lakh premature deaths annually in India due to air pollution (Lancet study)
-- 21 of world's 30 most polluted cities in India (IQAir World Air Quality Report 2023)
+- **66 of world's 100 most polluted cities in India** (IQAir World Air Quality Report 2025, covering 2024 data); India ranked **6th most polluted country** (national PM2.5 avg: 48.9 µg/m³); **Loni** (Ghaziabad, UP) = most polluted city; **Delhi** (99.6 µg/m³) = world's most polluted capital
 - North Indian Plain (Delhi-NCR, UP, Bihar) suffers worst pollution — geography (bowl shape), cold winters (temperature inversion trapping pollutants), and crop burning
 
 **Sources of air pollution:**

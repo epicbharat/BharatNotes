@@ -71,7 +71,7 @@ tags:
 | **Forest cover** | **21.76%** of geographic area | ISFR 2023 (FSI) |
 | **Forest + Tree cover** | **25.17%** | ISFR 2023 |
 | **Tiger population (2022)** | **3,682** | NTCA — AITE 2022 |
-| **Tiger Reserves** | 55 | NTCA 2024 |
+| **Tiger Reserves** | **58** (across 18 states) | NTCA; Madhav NP, MP notified March 2025 |
 
 ---
 
@@ -140,7 +140,7 @@ The monsoon is not just a meteorological event — it is the backbone of India's
 **India's Protected Area network:**
 - **National Parks:** ~106; no human habitation or grazing; highest protection
 - **Wildlife Sanctuaries:** ~570+; some human activities allowed
-- **Tiger Reserves:** 55 (as per Project Tiger/NTCA); within these, **Critical Tiger Habitat (Core zone)** is most strictly protected
+- **Tiger Reserves:** **58** across 18 states (as of March 2025; Madhav National Park, MP added as 58th); within these, **Critical Tiger Habitat (Core zone)** is most strictly protected
 - **Biosphere Reserves:** 18; largest category; include core (strict protection), buffer (research allowed), transition (human use) zones
 
 **Project Tiger (1973):** India's flagship wildlife conservation programme; started with 9 Tiger Reserves; now 55 reserves covering ~78,000 sq km; tiger population increased from ~1,827 (1972) to **3,682 (2022)** — one of the world's great conservation successes

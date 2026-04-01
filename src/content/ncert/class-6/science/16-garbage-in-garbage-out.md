@@ -86,7 +86,8 @@ tags:
 - India is one of the top 10 plastic polluters of oceans globally
 
 **Single-use plastic ban:**
-- **Single-Use Plastic (SUP) ban (July 1, 2022):** 19 categories of SUP banned — earbuds, balloons sticks, plastic flags, candy sticks, ice cream sticks, polystyrene (thermocol), plastic cutlery, straws, trays, stirrers, plastic bags < 75 micron thickness
+- **Single-Use Plastic (SUP) ban (July 1, 2022):** 19 categories of SUP banned — earbuds, balloon sticks, plastic flags, candy sticks, ice cream sticks, polystyrene (thermocol), plastic cutlery, straws, trays, stirrers, plastic bags < 75 micron thickness. (**No new categories added as of 2026**; enforcement and EPR compliance is the current focus)
+- **2025 EPR update:** From July 1, 2025, mandatory QR code/barcode traceability on all plastic packaging; rigid plastic packaging must include 30% recycled content (rising to 60% within 3 years)
 - **Plastic Waste Management Rules (amended 2022):** Extended Producer Responsibility (EPR) — manufacturers, importers, and brand owners responsible for collecting back the plastic they put into market
 
 **Microplastics:**
@@ -100,7 +101,7 @@ tags:
 
 ::: ncert-box--explainer
 **E-waste (Electronic waste):**
-- India is the **3rd largest generator of e-waste** globally (~3.2 million MT/year)
+- India is the **3rd largest generator of e-waste** globally — domestic generation: **1.751 million MT** in 2023-24 (MeitY; up 73% in 5 years); broader UN/ITU methodology estimates ~3.8 million MT
 - Contains valuable metals (gold, silver, copper, palladium) AND toxic materials (lead, mercury, cadmium, chromium)
 - **E-Waste Management Rules (amended 2022):** EPR framework; authorised recyclers only; collection targets; Producer Responsibility Organisation (PRO) system
 - **Urban mining:** Extracting precious metals from e-waste — more cost-effective than traditional mining for gold, silver; reduces import dependence

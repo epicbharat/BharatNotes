@@ -63,10 +63,10 @@ tags:
 ::: ncert-box--upsc-connect
 **UPSC GS3 — Power sector:**
 
-**Installed capacity (2024-25):**
-- Total installed electricity capacity: ~**950 GW** (as of early 2025; growing rapidly)
-- Thermal (coal, gas): ~55-60% share
-- Renewable (solar, wind, hydro, bio): ~45% share (growing)
+**Installed capacity (as of January 2026):**
+- Total installed electricity capacity: **520.51 GW** (Ministry of Power, Feb 2026)
+- Non-fossil fuel capacity (271,969 MW) now **exceeds** fossil-fuel capacity (248,541 MW) — a historic milestone crossed in 2025
+- India added a record **52,537 MW** in FY 2025-26 (Apr 2025–Jan 2026)
 - India is the **3rd largest electricity producer** globally
 
 **Rural electrification:**
