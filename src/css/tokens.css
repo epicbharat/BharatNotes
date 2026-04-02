@@ -1,51 +1,57 @@
 /* ═══════════════════════════════════════════════════════════════
-   BHARATNOTES — Design Tokens v3
-   Deep indigo + warm coral — scholarly, bold, distinctive
+   BHARATNOTES — Design Tokens v4
+   Ink + Saffron — Indian editorial, authoritative, warm
+   Primary: #1c1917 (printer's ink)  Accent: #ea580c (saffron)
 ═══════════════════════════════════════════════════════════════ */
 
 :root {
-  /* ── Colors ──────────────────────────────────────── */
 
-  /* Brand — deep indigo-navy, scholarly and authoritative */
-  --color-brand:       #1e293b;
-  --color-brand-dark:  #0f172a;
-  --color-brand-mid:   #334155;
-  --color-brand-light: #374151;
+  /* ── Brand — deep ink, like a well-worn reference book ─── */
+  --color-brand:       #1c1917;   /* stone-900 — primary ink */
+  --color-brand-dark:  #0c0a09;   /* near-black ink */
+  --color-brand-mid:   #44403c;   /* stone-700 — secondary ink */
+  --color-brand-light: #78716c;   /* stone-500 — muted ink */
 
-  /* Accent — warm terracotta-coral, energetic and distinctive */
-  --color-accent:       #e05a33;
-  --color-accent-hover: #c94d2a;
-  --color-accent-light: #f08c6d;
-  --color-accent-pale:  #fef0eb;
+  /* ── Accent — saffron orange, distinctly Indian ─────────── */
+  --color-accent:       #ea580c;  /* orange-600 */
+  --color-accent-hover: #c2410c;  /* orange-700 */
+  --color-accent-light: #fb923c;  /* orange-400 */
+  --color-accent-pale:  #fff7ed;  /* orange-50 */
+  --color-accent-dark:  #9a3412;  /* orange-800 — for dark surfaces */
 
-  /* Secondary accent — amber for highlights */
-  --color-highlight:     #d97706;
-  --color-highlight-pale:#fefbf0;
+  /* ── Highlight — turmeric gold, for badges & emphasis ───── */
+  --color-highlight:     #ca8a04; /* yellow-600 */
+  --color-highlight-pale:#fefce8; /* yellow-50 */
 
-  /* Surfaces — warm cream base */
-  --color-bg:          #faf8f6;
-  --color-bg-alt:      #f0ece7;   /* slightly tinted — for inset boxes, alpha bars */
-  --color-surface:     #ffffff;
-  --color-surface-alt: #f5f2ee;
+  /* ── Surfaces — warm parchment, aged paper feel ─────────── */
+  --color-bg:          #faf9f7;   /* warm off-white — page body */
+  --color-bg-alt:      #f3f0eb;   /* warm parchment — section backgrounds */
+  --color-surface:     #ffffff;   /* pure white — cards & panels */
+  --color-surface-alt: #faf8f5;   /* warm white — subtle card variation */
 
-  /* Text */
-  --color-text:         #1a1a2e;
-  --color-text-secondary:#3a3a54;
-  --color-text-muted:   #6b6b80;
-  --color-white:        #ffffff;
+  /* ── Text ───────────────────────────────────────────────── */
+  --color-text:           #1c1917; /* matches brand ink */
+  --color-text-secondary: #44403c; /* stone-700 */
+  --color-text-muted:     #78716c; /* stone-500 */
+  --color-text-light:     #a8a29e; /* stone-400 — captions, meta */
+  --color-white:          #ffffff;
 
-  /* Borders — warm-tinted */
-  --color-border:       #d6d1ca;
-  --color-border-light: #e8e3dc;
+  /* ── Borders ─────────────────────────────────────────────── */
+  --color-border:       #d6d3d1;  /* stone-300 */
+  --color-border-light: #e7e5e4;  /* stone-200 */
 
-  /* Status */
-  --color-success: #0f8a4c;
-  --color-warning: #d4870a;
-  --color-error:   #c9302c;
+  /* ── Status ──────────────────────────────────────────────── */
+  --color-success: #16a34a;  /* green-600 */
+  --color-warning: #d97706;  /* amber-600 */
+  --color-error:   #dc2626;  /* red-600 */
 
-  /* ── Typography ─────────────────────────────────── */
+  /* ══════════════════════════════════════════════════════════
+     TYPOGRAPHY
+     Crimson Pro  — editorial serif, headlines & display
+     Plus Jakarta Sans — clean modern sans for UI & body
+  ══════════════════════════════════════════════════════════ */
 
-  --font-heading: 'DM Serif Display', Georgia, 'Times New Roman', serif;
+  --font-heading: 'Crimson Pro', Georgia, 'Times New Roman', serif;
   --font-body:    'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   --font-mono:    'JetBrains Mono', 'Fira Code', monospace;
 
@@ -53,16 +59,16 @@
   --font-serif: var(--font-heading);
   --font-sans:  var(--font-body);
 
-  /* Type scale — 1.2 ratio (minor third) from 16px base */
-  --text-xs:   0.8rem;      /* 12.8px — meta, labels, captions */
-  --text-sm:   0.875rem;    /* 14px — secondary body, card text */
-  --text-base: 1rem;        /* 16px — primary body text */
-  --text-md:   1.1rem;      /* 17.6px — emphasis body */
-  --text-lg:   1.25rem;     /* 20px — section titles, card heads */
-  --text-xl:   1.5rem;      /* 24px — page subtitles */
-  --text-2xl:  1.875rem;    /* 30px — page titles */
-  --text-3xl:  2.25rem;     /* 36px — hero headings */
-  --text-4xl:  3rem;        /* 48px — display */
+  /* Type scale */
+  --text-xs:   0.75rem;    /* 12px  — meta, labels, captions */
+  --text-sm:   0.875rem;   /* 14px  — secondary body, card text */
+  --text-base: 1rem;       /* 16px  — primary body text */
+  --text-md:   1.1rem;     /* 17.6px — emphasis body */
+  --text-lg:   1.25rem;    /* 20px  — section titles */
+  --text-xl:   1.5rem;     /* 24px  — page subtitles */
+  --text-2xl:  1.875rem;   /* 30px  — page titles */
+  --text-3xl:  2.25rem;    /* 36px  — hero headings */
+  --text-4xl:  3rem;       /* 48px  — display / hero */
 
   /* Weights */
   --font-normal:    400;
@@ -71,50 +77,58 @@
   --font-bold:      700;
   --font-extrabold: 800;
 
-  /* Line height */
+  /* Line heights */
   --leading-tight:   1.2;
   --leading-snug:    1.35;
-  --leading-normal:  1.55;
-  --leading-relaxed: 1.7;
-  --leading-loose:   1.85;
+  --leading-normal:  1.6;
+  --leading-relaxed: 1.75;
+  --leading-loose:   1.9;
 
   /* Letter spacing */
-  --tracking-tight:  -0.01em;
+  --tracking-tight:  -0.02em;
   --tracking-normal: 0;
   --tracking-wide:   0.04em;
   --tracking-wider:  0.08em;
 
-  /* ── Spacing ────────────────────────────────────── */
-  --space-1:  0.25rem;
-  --space-2:  0.5rem;
-  --space-3:  0.75rem;
-  --space-4:  1rem;
-  --space-5:  1.25rem;
-  --space-6:  1.5rem;
-  --space-8:  2rem;
-  --space-10: 2.5rem;
-  --space-12: 3rem;
-  --space-16: 4rem;
-  --space-20: 5rem;
-  --space-24: 6rem;
+  /* ══════════════════════════════════════════════════════════
+     SPACING — 4px base unit
+  ══════════════════════════════════════════════════════════ */
+  --space-1:  0.25rem;   /* 4px  */
+  --space-2:  0.5rem;    /* 8px  */
+  --space-3:  0.75rem;   /* 12px */
+  --space-4:  1rem;      /* 16px */
+  --space-5:  1.25rem;   /* 20px */
+  --space-6:  1.5rem;    /* 24px */
+  --space-8:  2rem;      /* 32px */
+  --space-10: 2.5rem;    /* 40px */
+  --space-12: 3rem;      /* 48px */
+  --space-16: 4rem;      /* 64px */
+  --space-20: 5rem;      /* 80px */
+  --space-24: 6rem;      /* 96px */
 
-  /* ── Radius ─────────────────────────────────────── */
-  --radius-sm:   6px;
-  --radius-md:   10px;
-  --radius-lg:   14px;
-  --radius-xl:   20px;
+  /* ══════════════════════════════════════════════════════════
+     RADIUS
+  ══════════════════════════════════════════════════════════ */
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   12px;
+  --radius-xl:   18px;
   --radius-2xl:  28px;
   --radius-full: 9999px;
 
-  /* ── Shadows ────────────────────────────────────── */
-  --shadow-xs:  0 1px 2px rgba(30,41,59,0.04);
-  --shadow-sm:  0 1px 3px rgba(30,41,59,0.06), 0 1px 2px rgba(30,41,59,0.03);
-  --shadow-md:  0 4px 8px rgba(30,41,59,0.06), 0 2px 4px rgba(30,41,59,0.03);
-  --shadow-lg:  0 8px 24px rgba(30,41,59,0.08), 0 4px 8px rgba(30,41,59,0.04);
-  --shadow-xl:  0 16px 48px rgba(30,41,59,0.10), 0 8px 16px rgba(30,41,59,0.04);
-  --shadow-card-hover: 0 8px 30px rgba(30,41,59,0.10), 0 2px 8px rgba(30,41,59,0.05);
+  /* ══════════════════════════════════════════════════════════
+     SHADOWS — tinted with ink color for warmth
+  ══════════════════════════════════════════════════════════ */
+  --shadow-xs:  0 1px 2px rgba(28,25,23,0.05);
+  --shadow-sm:  0 1px 4px rgba(28,25,23,0.08), 0 1px 2px rgba(28,25,23,0.04);
+  --shadow-md:  0 4px 12px rgba(28,25,23,0.10), 0 2px 4px rgba(28,25,23,0.05);
+  --shadow-lg:  0 8px 28px rgba(28,25,23,0.12), 0 4px 8px rgba(28,25,23,0.05);
+  --shadow-xl:  0 16px 48px rgba(28,25,23,0.14), 0 8px 16px rgba(28,25,23,0.06);
+  --shadow-card-hover: 0 8px 32px rgba(28,25,23,0.13), 0 2px 8px rgba(28,25,23,0.07);
 
-  /* ── Transitions ────────────────────────────────── */
+  /* ══════════════════════════════════════════════════════════
+     TRANSITIONS
+  ══════════════════════════════════════════════════════════ */
   --transition-fast:   120ms ease;
   --transition-normal: 200ms ease;
   --transition-slow:   350ms cubic-bezier(0.4, 0, 0.2, 1);

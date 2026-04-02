@@ -93,10 +93,8 @@
       el.remove();
     });
 
-    // 4. Unwrap section-card divs — keep content, strip wrapper
-    //    (We'll style content directly instead of relying on website classes)
+    // 4. Mark section-card divs for PDF type styling — keep the wrapper so boxes render
     clone.querySelectorAll(".section-card").forEach(function (card) {
-      // Mark h2 inside for special treatment
       var h2 = card.querySelector("h2");
       if (h2) {
         if (card.classList.contains("section-card--upsc")) {
@@ -111,11 +109,8 @@
           h2.setAttribute("data-pdf-type", "terms");
         }
       }
-      // Unwrap: move children out, remove wrapper
-      while (card.firstChild) {
-        card.parentNode.insertBefore(card.firstChild, card);
-      }
-      card.remove();
+      // Strip website-specific inline styles but keep the element
+      card.removeAttribute("style");
     });
 
     // 5. Mark PART dividers (## PART 1 —) for page-break-before in PDF
@@ -338,6 +333,17 @@
       ".pyq-card--mains .pyq-meta { background:#f7f7f2; }",
       ".pyq-section-heading { font-family:'Crimson Pro','Georgia',serif; font-size:13.5pt; font-style:italic; color:#333; margin:20px 0 10px; }",
 
+      /* Section cards — keep box structure, render as bordered panel */
+      ".ct .section-card { border:0.5px solid #ccc; border-left:3px solid #888; padding:14px 18px; margin:20px 0; page-break-inside:avoid; break-inside:avoid; background:#fafaf8; }",
+      ".ct .section-card--upsc { border-left-color:#1a1a1a; }",
+      ".ct .section-card--mains { border-left-color:#333; }",
+      ".ct .section-card--pyq { border-left-color:#444; }",
+      ".ct .section-card--vocab { border-left-color:#555; }",
+      ".ct .section-card--terms { border-left-color:#555; }",
+      ".ct .section-card--news { border-left-color:#666; }",
+      ".ct .section-card h2 { margin-top:0; border-bottom:0.5px solid #ddd; padding-bottom:6px; }",
+      ".ct .section-card h3 { margin-top:16px; }",
+
       /* Callout boxes — scholarly notes */
       ".callout { margin:14px 0; padding:12px 16px; border:0.5px solid #ccc; border-left:3px solid #555; background:#fafafa; font-size:11.5pt; page-break-inside:avoid; break-inside:avoid; }",
       ".callout-title { font-family:'Inter',sans-serif; font-size:9pt; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#555; margin-bottom:6px; }",
@@ -413,25 +419,7 @@
        ────────────── */
     var photoSrc = authorPhotoB64 || "";
 
-    /* Inject mid-content brand cards after every 3rd H2 (indexes 2,5,8…) */
-    (function() {
-      var h2s = Array.prototype.slice.call(clone.querySelectorAll("h2"));
-      h2s.forEach(function(h2, i) {
-        if ((i + 1) % 3 === 0) {
-          var card = document.createElement("div");
-          card.className = "mid-brand";
-          card.innerHTML =
-            '<img class="mid-brand__photo" src="' + photoSrc + '" alt="" onerror="this.style.display=\'none\'">' +
-            '<div class="mid-brand__info">' +
-              '<span class="mid-brand__name">Bharat Choudhary</span>' +
-              '<span class="mid-brand__role">Founder, BharatNotes &amp; Ujiyari</span>' +
-            '</div>' +
-            '<span class="mid-brand__link">bharatnotes.com &rarr;</span>';
-          /* insert after the H2, before its next sibling */
-          h2.parentNode.insertBefore(card, h2.nextSibling);
-        }
-      });
-    })();
+    /* No mid-content brand injection — keeps the PDF clean and editorial */
 
     var descEl = isNcert
       ? document.querySelector(".ncert-header__subtitle")
