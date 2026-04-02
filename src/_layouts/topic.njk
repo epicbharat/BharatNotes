@@ -285,6 +285,13 @@ layout: base.njk
           <a href="https://ujiyari.com/daily/" class="btn btn--ghost btn--sm" target="_blank" style="width:100%; justify-content:center;">Daily Updates →</a>
         </div>
 
+        <!-- Read on Phone — QR code for current page -->
+        <div class="card sidebar-qr" id="sidebar-qr-card" style="margin-bottom:var(--space-5); text-align:center;">
+          <h4 style="color:var(--color-brand); font-size:var(--text-xs); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:var(--space-3);">Read on Phone</h4>
+          <div id="sidebar-qr-img" style="display:flex; justify-content:center; margin-bottom:var(--space-2);"></div>
+          <p style="font-size:var(--text-xs); color:var(--color-text-muted);">Scan to open this article</p>
+        </div>
+
         </div><!-- /topic-sidebar__sticky -->
       </aside>
     </div>
@@ -298,6 +305,26 @@ layout: base.njk
   if (window.__quizMode) {
     document.documentElement.classList.add('quiz-mode');
   }
+
+  /* ── Sidebar QR: generate for current page ── */
+  (function() {
+    var el = document.getElementById('sidebar-qr-img');
+    if (!el) return;
+    var url = window.location.href;
+    var qrSrc = 'https://api.qrserver.com/v1/create-qr-code/?size=100x100&format=png&data=' + encodeURIComponent(url);
+    var link = document.createElement('a');
+    link.href = url;
+    link.title = 'Open this article';
+    var img = document.createElement('img');
+    img.src = qrSrc;
+    img.width = 100;
+    img.height = 100;
+    img.alt = 'QR code for this article';
+    img.style.cssText = 'border-radius:6px; border:1px solid var(--color-border-light);';
+    img.onerror = function() { document.getElementById('sidebar-qr-card').style.display = 'none'; };
+    link.appendChild(img);
+    el.appendChild(link);
+  })();
 
   /* ── Sticky subnav: add shadow when stuck ── */
   var subnav = document.querySelector('.topic-subnav');

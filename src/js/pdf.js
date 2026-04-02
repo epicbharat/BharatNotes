@@ -166,7 +166,8 @@
   /* ══════════════════════════════════════════════════════════
      buildTopicHTML — creates a self-contained Oxford-style HTML
      ══════════════════════════════════════════════════════════ */
-  function buildTopicHTML() {
+  function buildTopicHTML(qrData) {
+    qrData = qrData || {};
     var article = document.querySelector(".article-body");
     if (!article) return null;
 
@@ -481,10 +482,9 @@
         '</li>';
     }).join('');
 
-    /* QR code URLs */
-    var qrBN  = "https://chart.googleapis.com/chart?chs=80x80&cht=qr&choe=UTF-8&chl=" + encodeURIComponent("https://bharatnotes.com");
-    var qrUJ  = "https://chart.googleapis.com/chart?chs=80x80&cht=qr&choe=UTF-8&chl=" + encodeURIComponent("https://ujiyari.com");
-    var qrPage = "https://chart.googleapis.com/chart?chs=80x80&cht=qr&choe=UTF-8&chl=" + encodeURIComponent(pageUrl);
+    /* QR codes — pre-fetched as base64 data URLs by downloadPDF() */
+    var qrPageSrc = qrData.page || "";
+    var qrUJSrc   = qrData.uj   || "";
 
     var descEl = isNcert
       ? document.querySelector(".ncert-header__subtitle")
@@ -586,18 +586,22 @@
             '<span class="bp-site-btn bp-site-btn--accent">ujiyari.com &rarr;</span>' +
           '</div>' +
         '</div>' +
-        '<div class="qr-row">' +
-          '<div class="qr-item">' +
-            '<img src="' + qrPage + '" width="80" height="80" alt="">' +
-            '<div class="qr-item__label">This Article</div>' +
-            '<div class="qr-item__url">bharatnotes.com</div>' +
-          '</div>' +
-          '<div class="qr-item">' +
-            '<img src="' + qrUJ + '" width="80" height="80" alt="">' +
-            '<div class="qr-item__label">Current Affairs</div>' +
-            '<div class="qr-item__url">ujiyari.com</div>' +
-          '</div>' +
-        '</div>' +
+        (qrPageSrc || qrUJSrc ?
+          '<div class="qr-row">' +
+            (qrPageSrc ?
+              '<div class="qr-item">' +
+                '<a href="' + pageUrl + '"><img src="' + qrPageSrc + '" width="80" height="80" alt="QR: this article"></a>' +
+                '<div class="qr-item__label">This Article</div>' +
+                '<a href="' + pageUrl + '" class="qr-item__url">' + pageUrl.replace(/^https?:\/\//,'').substring(0,35) + '</a>' +
+              '</div>' : '') +
+            (qrUJSrc ?
+              '<div class="qr-item">' +
+                '<a href="https://ujiyari.com"><img src="' + qrUJSrc + '" width="80" height="80" alt="QR: ujiyari.com"></a>' +
+                '<div class="qr-item__label">Current Affairs</div>' +
+                '<a href="https://ujiyari.com" class="qr-item__url">ujiyari.com</a>' +
+              '</div>' : '') +
+          '</div>'
+        : '') +
         '<div class="bp-ad">' +
           '<div class="bp-ad-text">' +
             '<div class="bp-ad-title">Advertise with Us</div>' +
@@ -635,6 +639,18 @@
     }, 3500);
   }
 
+  async function fetchAsDataURL(url) {
+    var res = await fetch(url);
+    if (!res.ok) throw new Error("QR fetch failed: " + res.status);
+    var blob = await res.blob();
+    return new Promise(function(resolve, reject) {
+      var reader = new FileReader();
+      reader.onload  = function() { resolve(reader.result); };
+      reader.onerror = reject;
+      reader.readAsDataURL(blob);
+    });
+  }
+
   async function downloadPDF() {
     var btn = document.getElementById("btn-download-pdf");
     if (!btn) return;
@@ -655,7 +671,19 @@
       });
     }
 
-    var result = buildTopicHTML();
+    /* Pre-fetch QR codes as data URLs so they embed reliably in PDF HTML */
+    var qrData = { page: "", uj: "" };
+    try {
+      var qrApiBase = "https://api.qrserver.com/v1/create-qr-code/?size=80x80&format=png&data=";
+      var results = await Promise.allSettled([
+        fetchAsDataURL(qrApiBase + encodeURIComponent(window.location.href)),
+        fetchAsDataURL(qrApiBase + encodeURIComponent("https://ujiyari.com"))
+      ]);
+      if (results[0].status === "fulfilled") qrData.page = results[0].value;
+      if (results[1].status === "fulfilled") qrData.uj   = results[1].value;
+    } catch(e) { /* QRs optional — PDF still generates without them */ }
+
+    var result = buildTopicHTML(qrData);
     if (!result) {
       showPDFToast("No content found to export", "error");
       btn.disabled = false;
