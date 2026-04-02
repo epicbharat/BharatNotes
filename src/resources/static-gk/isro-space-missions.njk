@@ -1,0 +1,354 @@
+---
+layout: base.njk
+title: "ISRO & Space Missions — UPSC Static GK"
+description: "ISRO overview, all launch vehicles (SLV to LVM3/SSLV), major missions (Aryabhata to SpaDeX), Chandrayaan-3 landing details, Mangalyaan, Aditya-L1, Gaganyaan status, NavIC, and top UPSC exam traps. Updated to April 2026."
+---
+
+<section class="page-header">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Home</a><span class="breadcrumb__sep">/</span>
+      <a href="/resources/">Resources</a><span class="breadcrumb__sep">/</span>
+      <a href="/resources/static-gk/">Static GK</a><span class="breadcrumb__sep">/</span>
+      ISRO &amp; Space Missions
+    </nav>
+    <p class="page-header__eyebrow">Static GK</p>
+    <h1 class="page-header__title">ISRO &amp; India's Space Missions</h1>
+    <p class="page-header__subtitle">Launch vehicles · Chandrayaan · Mangalyaan · Aditya-L1 · SpaDeX · Gaganyaan · NavIC. Updated to April 2026.</p>
+  </div>
+</section>
+
+<section class="gk-page">
+  <div class="container">
+    <div class="gk-layout">
+      <aside class="gk-sidebar">
+        {% include "gk-sidebar.njk" %}
+      </aside>
+      <div class="gk-main">
+
+    <div class="gk-tip">
+      <strong>Quick facts:</strong> ISRO founded <strong>15 August 1969</strong>; predecessor INCOSPAR (1962); HQ Bengaluru. Parent: <strong>Department of Space (DoS)</strong> — under PM directly (NOT under DST). First chairman: <strong>Vikram Sarabhai</strong>. Current chairman: <strong>Dr. V. Narayanan</strong> (assumed 14 January 2025). India is the <strong>4th country</strong> to soft-land on the Moon (Chandrayaan-3, 23 August 2023) and <strong>4th country</strong> to demonstrate space docking (SpaDeX, 16 January 2025).
+    </div>
+
+    {# ══ ISRO OVERVIEW ══ #}
+    <div class="gk-section">
+      <h2 class="gk-section-title">🛰️ ISRO — Key Dates &amp; Structure</h2>
+      <div class="gk-scroll">
+        <table class="gk-table">
+          <thead>
+            <tr><th>Parameter</th><th>Detail</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Founded</td><td>15 August 1969</td></tr>
+            <tr><td>Predecessor</td><td>INCOSPAR (Indian National Committee for Space Research) — 1962, under Vikram Sarabhai</td></tr>
+            <tr><td>HQ</td><td>Bengaluru, Karnataka</td></tr>
+            <tr><td>Parent body</td><td><strong>Department of Space (DoS)</strong> — directly under the Prime Minister. NOT under Ministry of Science &amp; Technology or DST.</td></tr>
+            <tr><td>First chairman</td><td><strong>Dr. Vikram Sarabhai</strong> (1963–1971)</td></tr>
+            <tr><td>Current chairman</td><td><strong>Dr. V. Narayanan</strong> (assumed charge 14 January 2025, succeeded Dr. S. Somanath)</td></tr>
+            <tr><td>Commercial arm</td><td><strong>NewSpace India Limited (NSIL)</strong> — PSU under DoS for commercial space activities</td></tr>
+            <tr><td>Regulatory body</td><td><strong>IN-SPACe</strong> (Indian National Space Promotion and Authorisation Centre) — authorises and promotes private sector space activities</td></tr>
+            <tr><td>Space policy</td><td>Indian Space Policy 2023 — issued April 2023; formalises role of private sector in space</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    {# ══ LAUNCH VEHICLES ══ #}
+    <div class="gk-section">
+      <h2 class="gk-section-title">🚀 Launch Vehicles</h2>
+      <div class="gk-scroll">
+        <table class="gk-table">
+          <thead>
+            <tr>
+              <th>Vehicle</th>
+              <th>Full Name</th>
+              <th>First Launch</th>
+              <th>Status</th>
+              <th>Key Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>SLV</strong></td>
+              <td>Satellite Launch Vehicle</td>
+              <td>10 Aug 1979 (failed); success: 18 Jul 1980</td>
+              <td>Retired</td>
+              <td>First successful launch placed Rohini RS-1 in orbit (1980). India's first indigenous orbital launch vehicle. Designed by A.P.J. Abdul Kalam.</td>
+            </tr>
+            <tr>
+              <td><strong>ASLV</strong></td>
+              <td>Augmented Satellite Launch Vehicle</td>
+              <td>1987</td>
+              <td>Retired</td>
+              <td>4 launches (1987–1994); only ASLV-D4 (May 1994) fully successful. Retired after 4th flight.</td>
+            </tr>
+            <tr>
+              <td><strong>PSLV</strong></td>
+              <td>Polar Satellite Launch Vehicle</td>
+              <td>20 Sep 1993 (failed); success: 15 Oct 1994</td>
+              <td><strong>Operational (workhorse)</strong></td>
+              <td>63+ launches as of early 2026; ~92% success rate. Launched Chandrayaan-1, Mangalyaan, Aditya-L1, AstroSat. Set record: 104 satellites in one mission (PSLV-C37, Feb 2017). PSLV-C62 (Jan 2026) failed.</td>
+            </tr>
+            <tr>
+              <td><strong>GSLV Mk I/II</strong></td>
+              <td>Geosynchronous Satellite Launch Vehicle</td>
+              <td>18 Apr 2001 (Mk I)</td>
+              <td>Operational (Mk II)</td>
+              <td>Mk I used Russian KVD-1 cryogenic stage. Russia backed out of tech transfer (1992) under US/MTCR pressure → India developed indigenous cryogenic engine (CE-7.5) for Mk II. Capacity: ~2,500 kg to GTO.</td>
+            </tr>
+            <tr>
+              <td><strong>LVM3</strong><br><small>(GSLV Mk III)</small></td>
+              <td>Launch Vehicle Mark-3</td>
+              <td>Dec 2014 (experimental); Jun 2017 (operational)</td>
+              <td><strong>Operational (heavy-lift)</strong></td>
+              <td>India's heaviest rocket — <strong>4,000 kg to GTO</strong>. Indigenous CE-20 cryogenic upper stage. Launched Chandrayaan-2, Chandrayaan-3, OneWeb commercial missions.</td>
+            </tr>
+            <tr>
+              <td><strong>SSLV</strong></td>
+              <td>Small Satellite Launch Vehicle</td>
+              <td>7 Aug 2022 (failed); success: 10 Feb 2023 (SSLV-D2)</td>
+              <td>Operational (small sats)</td>
+              <td>Designed for quick turnaround (72 hours assembly vs months for PSLV). Payload: ~500 kg to LEO. Targets commercial small-satellite market.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    {# ══ MAJOR MISSIONS ══ #}
+    <div class="gk-section">
+      <h2 class="gk-section-title">🌙 Major Missions — Chronological</h2>
+      <div class="gk-scroll">
+        <table class="gk-table">
+          <thead>
+            <tr>
+              <th>Mission</th>
+              <th>Date</th>
+              <th>Launched by</th>
+              <th>Key Significance</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Aryabhata</strong></td>
+              <td>19 April 1975</td>
+              <td>Soviet Kosmos-3M rocket</td>
+              <td><strong>India's first satellite.</strong> Named after the 5th-century mathematician-astronomer. Launched from Kapustin Yar, USSR.</td>
+            </tr>
+            <tr>
+              <td><strong>APPLE</strong><br><small>(Ariane Passenger Payload Experiment)</small></td>
+              <td>19 June 1981</td>
+              <td>ESA Ariane-1 (French Guiana)</td>
+              <td>India's first experimental geostationary communication satellite. Successfully tested India's ability to build and operate GEO comsat.</td>
+            </tr>
+            <tr>
+              <td><strong>INSAT-1B</strong></td>
+              <td>30 August 1983</td>
+              <td>US Delta rocket</td>
+              <td>First operational satellite of the INSAT series (INSAT-1A had failed in 1983). Revolutionised Indian telecommunications and meteorology.</td>
+            </tr>
+            <tr>
+              <td><strong>IRS-1A</strong></td>
+              <td>17 March 1988</td>
+              <td>Soviet rocket (Baikonur)</td>
+              <td>India's first remote sensing satellite. Predecessor to today's EOS series.</td>
+            </tr>
+            <tr>
+              <td><strong>Chandrayaan-1</strong></td>
+              <td>22 October 2008</td>
+              <td>PSLV-C11</td>
+              <td><strong>India's first lunar mission.</strong> Discovered water molecules on Moon via Moon Mineralogy Mapper (NASA M3) and CHACE spectrometer on Moon Impact Probe (MIP). MIP crash-landed at Jawahar Point. Contact lost Aug 2009 (all mission objectives met).</td>
+            </tr>
+            <tr>
+              <td><strong>ASTROSAT</strong></td>
+              <td>28 September 2015</td>
+              <td>PSLV-C30</td>
+              <td><strong>India's first multi-wavelength space observatory.</strong> Studies universe in UV, optical, soft and hard X-ray bands simultaneously.</td>
+            </tr>
+            <tr>
+              <td><strong>Chandrayaan-2</strong></td>
+              <td>22 July 2019</td>
+              <td>GSLV Mk III-M1</td>
+              <td>Orbiter (still operational), Vikram lander (crashed 6 September 2019 due to software error), Pragyan rover. Orbiter has 8 payloads; continues remote sensing of Moon.</td>
+            </tr>
+            <tr>
+              <td><strong>Chandrayaan-3</strong></td>
+              <td>14 July 2023 (launch)</td>
+              <td>LVM3-M4</td>
+              <td><strong>India's first successful soft landing on Moon.</strong> Landed <strong>23 August 2023 at 18:04 IST</strong> at <strong>Statio Shiv Shakti</strong> (69.37°S, 32.32°E) — near Moon's south pole. India = <strong>4th nation</strong> to soft-land (after USSR, USA, China). Pragyan rover operated for 14 Earth days. Landing site officially named by IAU.</td>
+            </tr>
+            <tr>
+              <td><strong>Aditya-L1</strong></td>
+              <td>2 September 2023 (launch)</td>
+              <td>PSLV-C57</td>
+              <td><strong>India's first solar mission.</strong> Reached L1 halo orbit on <strong>6 January 2024</strong>. 7 payloads to study solar corona, solar wind, flares. L1 = first Lagrange point (~1.5 million km from Earth) — provides uninterrupted view of Sun.</td>
+            </tr>
+            <tr>
+              <td><strong>XPoSat</strong></td>
+              <td>1 January 2024</td>
+              <td>PSLV-C58</td>
+              <td><strong>India's first X-ray polarimetry mission</strong> (only second globally after NASA's IXPE). Studies polarisation of cosmic X-ray sources — black holes, neutron stars, pulsars.</td>
+            </tr>
+            <tr>
+              <td><strong>SpaDeX</strong><br><small>(Space Docking Experiment)</small></td>
+              <td>30 December 2024 (launch)</td>
+              <td>PSLV-C60</td>
+              <td><strong>India's first space docking mission.</strong> First docking achieved <strong>16 January 2025</strong> — India = <strong>4th country</strong> to demonstrate space docking (after USA, USSR, China). Undocking: 13 March 2025. 2nd docking + power transfer: 20–21 April 2025. Technology essential for Gaganyaan and Bharatiya Antariksh Station.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    {# ══ MANGALYAAN ══ #}
+    <div class="gk-section">
+      <h2 class="gk-section-title">🔴 Mangalyaan — Mars Orbiter Mission (MOM)</h2>
+      <div class="gk-scroll">
+        <table class="gk-table">
+          <thead>
+            <tr><th>Parameter</th><th>Detail</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Launch</td><td>5 November 2013 (PSLV-C25)</td></tr>
+            <tr><td>Mars orbit insertion</td><td><strong>24 September 2014</strong></td></tr>
+            <tr><td>Cost</td><td>~₹454 crore (~USD 54 million) — cheapest interplanetary mission in history at the time</td></tr>
+            <tr><td>Significance</td><td><strong>First Asian nation to reach Mars orbit.</strong> India was the <strong>first nation to succeed in its maiden attempt</strong> to Mars. (USSR, USA, and Europe all failed their first attempts.)</td></tr>
+            <tr><td>Mission end</td><td>Lost communication: September 2022 (battery depletion — no longer able to withstand prolonged eclipse periods)</td></tr>
+            <tr><td>Payloads</td><td>5 science instruments — Methane Sensor (MSM), Mars Colour Camera (MCC), Thermal Infrared Imaging (TIS), Lyman Alpha Photometer (LAP), Mars Exospheric Neutral Composition Analyser (MENCA)</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    {# ══ GAGANYAAN ══ #}
+    <div class="gk-section">
+      <h2 class="gk-section-title">👨‍🚀 Gaganyaan — India's Human Spaceflight Programme</h2>
+      <div class="gk-scroll">
+        <table class="gk-table">
+          <thead>
+            <tr><th>Parameter</th><th>Detail</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Programme announced</td><td>Independence Day 2018 (PM Modi's announcement)</td></tr>
+            <tr><td>Launch vehicle</td><td>LVM3 (GSLV Mk III)</td></tr>
+            <tr><td>TV-D1 (abort test)</td><td><strong>21 October 2023</strong> — Crew Escape System test at Mach 1.2, ~11.7 km altitude; successful</td></tr>
+            <tr><td>Selected astronauts (4)</td><td>IAF pilots: <strong>Prasanth Balakrishnan Nair, Ajit Krishnan, Angad Pratap, Shubhanshu Shukla</strong> (trained at Gagarin Cosmonaut Training Centre, Russia)</td></tr>
+            <tr><td>Shubhanshu Shukla — ISS mission</td><td>Selected for Axiom Space Mission 4 (Ax-4) to ISS; launched 25 May 2025 — first Indian to visit ISS</td></tr>
+            <tr><td>Uncrewed flight (G1)</td><td>Targeted 2025 (delayed)</td></tr>
+            <tr><td>Crewed flight</td><td>Now targeted <strong>2027</strong> (revised from earlier 2024/2025 targets)</td></tr>
+            <tr><td>Bharatiya Antariksh Station (BAS)</td><td>India's planned space station — first module targeted 2028; operational by 2035</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="gk-tip" style="margin-top:1rem;">
+        <strong>First Indian in space:</strong> <strong>Rakesh Sharma</strong> — aboard Soviet Soyuz T-11 on <strong>3 April 1984</strong>. When PM Indira Gandhi asked how India looked from space, he replied "<strong>Saare Jahan Se Achha</strong>" (from Iqbal's poem). He was an IAF pilot, not an ISRO astronaut — the mission was a Soviet-Indian joint mission.
+      </div>
+    </div>
+
+    {# ══ NavIC ══ #}
+    <div class="gk-section">
+      <h2 class="gk-section-title">🧭 NavIC — India's Navigation System</h2>
+      <div class="gk-scroll">
+        <table class="gk-table">
+          <thead>
+            <tr><th>Parameter</th><th>Detail</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Full name</td><td>Navigation with Indian Constellation (NavIC); also called IRNSS (Indian Regional Navigation Satellite System)</td></tr>
+            <tr><td>Designed constellation</td><td><strong>7 satellites</strong> (3 geostationary / GEO + 4 geosynchronous / GSO)</td></tr>
+            <tr><td>Total launched (programme)</td><td>10 satellites: IRNSS-1A to 1I + NVS-01 (second generation)</td></tr>
+            <tr><td>Operational as of 2024–25</td><td>~5 (several first-gen satellites have degraded atomic clocks; NVS series replacing them)</td></tr>
+            <tr><td>Coverage</td><td>India and ~1,500 km beyond borders (regional navigation, unlike global systems GPS/GLONASS)</td></tr>
+            <tr><td>Accuracy</td><td>&lt;20 m for standard users; &lt;10 m for restricted service users</td></tr>
+            <tr><td>Services</td><td>Standard Positioning Service (SPS — civilian); Restricted Service (RS — encrypted, for defence)</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    {# ══ MOON SOFT LANDINGS ══ #}
+    <div class="gk-section">
+      <h2 class="gk-section-title">🌕 Nations that Soft-Landed on the Moon (as of April 2026)</h2>
+      <div class="gk-scroll">
+        <table class="gk-table">
+          <thead>
+            <tr><th>#</th><th>Country</th><th>First Soft Landing</th><th>Mission</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td><strong>USSR</strong></td><td>February 1966</td><td>Luna 9</td></tr>
+            <tr><td>2</td><td><strong>USA</strong></td><td>June 1966</td><td>Surveyor 1</td></tr>
+            <tr><td>3</td><td><strong>China</strong></td><td>December 2013</td><td>Chang'e 3 / Yutu rover</td></tr>
+            <tr><td>4</td><td><strong>India</strong></td><td><strong>23 August 2023</strong></td><td>Chandrayaan-3 / Vikram lander</td></tr>
+            <tr><td>5</td><td><strong>Japan</strong></td><td>January 2024</td><td>SLIM (Smart Lander for Investigating Moon)</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    {# ══ EXAM TRAPS ══ #}
+    <div class="gk-section">
+      <h2 class="gk-section-title">⚠️ Exam Traps</h2>
+      <div class="gk-scroll">
+        <table class="gk-table">
+          <thead>
+            <tr><th>Trap</th><th>Correct Answer</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>ISRO is under DST (Dept. of Science &amp; Technology)?</td>
+              <td><strong>No.</strong> ISRO is under the <strong>Department of Space (DoS)</strong>, which is directly under the Prime Minister. DoS is separate from DST (which is under the Ministry of Science &amp; Technology).</td>
+            </tr>
+            <tr>
+              <td>When exactly did Chandrayaan-3 land?</td>
+              <td><strong>23 August 2023 at 18:04 IST.</strong> The landing site is officially named <strong>Statio Shiv Shakti</strong> (IAU-approved). Located at 69.37°S, 32.32°E — near (but NOT at) the geographic south pole.</td>
+            </tr>
+            <tr>
+              <td>India was the first to land near the south pole of the Moon?</td>
+              <td><strong>Contextually correct but nuanced.</strong> Chandrayaan-3 landed at ~69°S — the highest southern latitude ever for a lunar landing. It is near the south polar region but NOT at the geographic south pole (90°S).</td>
+            </tr>
+            <tr>
+              <td>India was the first country to reach Mars orbit?</td>
+              <td><strong>No.</strong> USA, USSR, and ESA all reached Mars before India. India was the <strong>first Asian nation to reach Mars orbit</strong> and the <strong>first country to succeed on its maiden attempt</strong>.</td>
+            </tr>
+            <tr>
+              <td>SpaDeX made India the 3rd country to dock in space?</td>
+              <td><strong>No — 4th.</strong> Docking sequence: USA, USSR, China, then <strong>India</strong> (16 January 2025).</td>
+            </tr>
+            <tr>
+              <td>Chandrayaan-1 confirmed water on the Moon?</td>
+              <td><strong>Yes</strong>, but note: the discovery was via the NASA M3 (Moon Mineralogy Mapper) instrument on board, and ISRO's own CHACE spectrometer on the Moon Impact Probe. Both Indian and NASA instruments contributed.</td>
+            </tr>
+            <tr>
+              <td>How many satellites does NavIC have — 7 or 9?</td>
+              <td><strong>Designed for 7</strong> (3 GEO + 4 GSO). 10 have been launched in the programme (including replacements and NVS-01 second-gen). Only ~5 were fully operational as of 2024–25. Distinguish "designed constellation" (7) from "total launched" (10).</td>
+            </tr>
+            <tr>
+              <td>Aryabhata was launched by ISRO/PSLV?</td>
+              <td><strong>No.</strong> Aryabhata (1975) was launched by a <strong>Soviet Kosmos-3M rocket</strong> — India did not yet have its own orbital launch vehicle. PSLV's first successful launch was in 1994.</td>
+            </tr>
+            <tr>
+              <td>Rakesh Sharma was an ISRO astronaut?</td>
+              <td><strong>No.</strong> Rakesh Sharma was an <strong>IAF pilot</strong> who flew on a Soviet Soyuz T-11 (3 April 1984) as part of a Soviet-Indian joint mission. He was not an ISRO-trained astronaut.</td>
+            </tr>
+            <tr>
+              <td>Aditya-L1 studies the Sun from L1 point — how far is that?</td>
+              <td>L1 (first Lagrange point) is approximately <strong>1.5 million km from Earth</strong> (~1% of Earth-Sun distance). It provides a continuous, unobstructed view of the Sun. Aditya-L1 inserted into L1 halo orbit on <strong>6 January 2024</strong>.</td>
+            </tr>
+            <tr>
+              <td>Was Mangalyaan (MOM) India's first interplanetary mission?</td>
+              <td><strong>Yes.</strong> Chandrayaan-1 was a lunar (not interplanetary) mission. Mangalyaan was India's <strong>first interplanetary mission</strong>, launched November 2013, arrived Mars September 2014.</td>
+            </tr>
+            <tr>
+              <td>What is the difference between GSLV Mk III and LVM3?</td>
+              <td><strong>Same rocket, different name.</strong> GSLV Mk III was renamed <strong>LVM3</strong> (Launch Vehicle Mark 3) in 2022. The renaming reflects that it is a new class, not a variant of GSLV Mk I/II.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+      </div>{# /gk-main #}
+    </div>{# /gk-layout #}
+
+  </div>
+</section>
