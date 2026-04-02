@@ -114,6 +114,43 @@ description: "Practice official UPSC CSE Prelims Previous Year Questions subject
   text-align: center; margin-top: var(--space-3); position: relative;
 }
 
+/* Streak stat glow */
+.qh-stat__num--streak { color: #fde68a; }
+
+/* GS filter bar */
+.qh-filterbar {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-3) 0;
+  position: sticky;
+  top: 60px;
+  z-index: 50;
+}
+.qh-filterpills {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+.qh-fpill {
+  font-size: var(--text-xs);
+  font-weight: var(--font-semibold);
+  font-family: var(--font-body);
+  padding: 6px 16px;
+  border-radius: var(--radius-full);
+  border: 1.5px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: all 0.14s;
+  white-space: nowrap;
+}
+.qh-fpill:hover { border-color: var(--color-accent); color: var(--color-accent); }
+.qh-fpill.active {
+  background: var(--color-brand);
+  color: #fff;
+  border-color: var(--color-brand);
+}
+
 @media (max-width: 1024px) {
   .qh-grid { grid-template-columns: repeat(2, 1fr); }
 }
@@ -121,6 +158,10 @@ description: "Practice official UPSC CSE Prelims Previous Year Questions subject
   .qh-layout  { grid-template-columns: 1fr; }
   .qh-sidebar { position: static; max-height: none; }
   .qh-grid    { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .qh-filterpills { gap: var(--space-1); }
+  .qh-fpill { font-size: 0.65rem; padding: 5px 12px; }
 }
 
 /* Subject card */
@@ -178,17 +219,17 @@ description: "Practice official UPSC CSE Prelims Previous Year Questions subject
         <span class="qh-stat__num" id="qh-total-q">0</span>
         <span class="qh-stat__lbl">Questions</span>
       </div>
-      <div class="qh-stat">
-        <span class="qh-stat__num">11</span>
-        <span class="qh-stat__lbl">Subjects</span>
+      <div class="qh-stat qh-stat--streak" id="qh-streak-stat" style="display:none;">
+        <span class="qh-stat__num qh-stat__num--streak" id="qh-streak">0</span>
+        <span class="qh-stat__lbl">🔥 Day Streak</span>
       </div>
       <div class="qh-stat">
         <span class="qh-stat__num" id="qh-attempted">0</span>
         <span class="qh-stat__lbl">Attempted</span>
       </div>
       <div class="qh-stat">
-        <span class="qh-stat__num" id="qh-avg">—</span>
-        <span class="qh-stat__lbl">Avg Score</span>
+        <span class="qh-stat__num" id="qh-accuracy">—</span>
+        <span class="qh-stat__lbl">Accuracy</span>
       </div>
     </div>
 
@@ -202,6 +243,18 @@ description: "Practice official UPSC CSE Prelims Previous Year Questions subject
     </div>
   </div>
 </header>
+
+<!-- GS Paper filter bar -->
+<div class="qh-filterbar" id="qh-filterbar">
+  <div class="container">
+    <div class="qh-filterpills">
+      <button class="qh-fpill active" data-gs="all">All Subjects</button>
+      <button class="qh-fpill" data-gs="gs1">GS1 — History, Geo, Society</button>
+      <button class="qh-fpill" data-gs="gs2">GS2 — Polity, Governance, IR</button>
+      <button class="qh-fpill" data-gs="gs3">GS3 — Economy, Science, Env</button>
+    </div>
+  </div>
+</div>
 
 <!-- Subject grid + Ujiyari sidebar -->
 <section style="background:#f1f5f9;">
@@ -217,6 +270,7 @@ description: "Practice official UPSC CSE Prelims Previous Year Questions subject
            class="qh-card{% if subjectPyq.length == 0 %} qh-card--empty{% endif %}"
            style="--qhc:{{ subj.color }};"
            data-subject="{{ subj.slug }}"
+           data-gs="{{ subj.gs_papers | join(',') }}"
            data-total="{{ subjectPyq.length }}">
           <div class="qh-card__head">
             <span class="qh-card__icon">{{ subj.icon }}</span>
@@ -262,14 +316,37 @@ description: "Practice official UPSC CSE Prelims Previous Year Questions subject
 
 <script>
 (function () {
-  /* Hydrate cards with localStorage scores */
+  /* ── localStorage ── */
   var STORE_KEY = 'bn_quiz_v2';
+  var STREAK_KEY = 'bn_streak_v1';
+
   function loadStore() {
     try { return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; }
     catch (e) { return {}; }
   }
 
-  /* Subject question counts from page data (set as data- attributes) */
+  /* ── Streak tracking ── */
+  function trackStreak() {
+    try {
+      var today = new Date().toDateString();
+      var yesterday = new Date(Date.now() - 86400000).toDateString();
+      var data = JSON.parse(localStorage.getItem(STREAK_KEY)) || { streak: 0, lastDate: '' };
+      if (data.lastDate === today) return data.streak;
+      data.streak = (data.lastDate === yesterday) ? (data.streak || 0) + 1 : 1;
+      data.lastDate = today;
+      localStorage.setItem(STREAK_KEY, JSON.stringify(data));
+      return data.streak;
+    } catch(e) { return 0; }
+  }
+  var streak = trackStreak();
+  if (streak >= 2) {
+    var streakStat = document.getElementById('qh-streak-stat');
+    var streakNum  = document.getElementById('qh-streak');
+    if (streakStat) streakStat.style.display = '';
+    if (streakNum)  streakNum.textContent = streak;
+  }
+
+  /* ── Hydrate cards ── */
   var store = loadStore();
   var totalQ = 0, totalAttempted = 0, totalCorrect = 0, totalWrong = 0;
 
@@ -279,57 +356,80 @@ description: "Practice official UPSC CSE Prelims Previous Year Questions subject
     totalQ += total;
     if (!total) return;
 
-    var saved   = store[subject] || {};
-    var correct = 0, wrong = 0, answered = 0;
+    var saved    = store[subject] || {};
+    var answered = 0, correct = 0, wrong = 0;
 
-    /* We don't have the correct answers here — we only know what was saved.
-       To calculate correct/wrong we'd need the full data. Instead we track
-       answered count and link to the subject page for detail. */
-    answered = Object.keys(saved).length;
+    Object.keys(saved).forEach(function(id) {
+      var a = saved[id];
+      if (a && typeof a === 'object' && 'ok' in a) {
+        answered++;
+        if (a.ok) correct++; else wrong++;
+      } else {
+        answered++; // legacy format: just an index stored
+      }
+    });
 
-    /* Estimate: we store raw answer idx but not correct flag.
-       Just show attempted count in hub — correct % shown on subject page. */
     totalAttempted += answered;
+    totalCorrect   += correct;
+    totalWrong     += wrong;
 
-    var pAttempted = total ? (answered / total * 100) : 0;
+    var pC = total ? (correct  / total * 100) : 0;
+    var pW = total ? (wrong    / total * 100) : 0;
 
-    /* Score bar (attempted width only — correct/wrong split computed on subject page) */
-    var fillEl = document.getElementById('bar-correct-' + subject);
-    if (fillEl) fillEl.style.width = pAttempted + '%';
+    var fillC = document.getElementById('bar-correct-' + subject);
+    var fillW = document.getElementById('bar-wrong-'   + subject);
+    if (fillC) fillC.style.width = pC + '%';
+    if (fillW) fillW.style.width = pW + '%';
 
-    /* Status badge */
     var statusEl = document.getElementById('status-' + subject);
+    var btn      = card.querySelector('.qh-card__cta');
     if (statusEl) {
       if (answered === 0) {
         statusEl.textContent = 'Not started';
       } else if (answered < total) {
         statusEl.textContent = answered + '/' + total + ' done';
         statusEl.className = 'qh-card__status qh-card__status--partial';
-        var btn = card.querySelector('.qh-card__cta');
         if (btn) btn.textContent = '↩ Continue';
       } else {
         statusEl.textContent = 'Completed';
         statusEl.className = 'qh-card__status qh-card__status--done';
-        var btn = card.querySelector('.qh-card__cta');
         if (btn) btn.textContent = '✅ Review';
       }
     }
   });
 
-  /* Hero stats */
-  var totalEl = document.getElementById('qh-total-q');
-  if (totalEl) totalEl.textContent = totalQ;
-  var attEl = document.getElementById('qh-attempted');
-  if (attEl) attEl.textContent = totalAttempted;
+  /* ── Hero stats ── */
+  var el;
+  el = document.getElementById('qh-total-q');   if (el) el.textContent = totalQ;
+  el = document.getElementById('qh-attempted'); if (el) el.textContent = totalAttempted;
+  el = document.getElementById('qh-accuracy');
+  if (el) {
+    var answeredWithResult = totalCorrect + totalWrong;
+    el.textContent = answeredWithResult > 0
+      ? Math.round(totalCorrect / answeredWithResult * 100) + '%'
+      : '—';
+  }
 
-  /* Summary bar */
+  /* ── Progress summary row ── */
   if (totalAttempted > 0) {
     var summaryEl = document.getElementById('qh-summary');
     if (summaryEl) summaryEl.style.display = '';
-    var remEl = document.getElementById('qhs-remain');
-    if (remEl) remEl.textContent = totalQ - totalAttempted;
-    var attSum = document.getElementById('qhs-correct');
-    if (attSum) attSum.textContent = totalAttempted;
+    el = document.getElementById('qhs-correct'); if (el) el.textContent = totalCorrect;
+    el = document.getElementById('qhs-wrong');   if (el) el.textContent = totalWrong;
+    el = document.getElementById('qhs-remain');  if (el) el.textContent = totalQ - totalAttempted;
   }
+
+  /* ── GS Paper filter ── */
+  document.querySelectorAll('.qh-fpill').forEach(function (pill) {
+    pill.addEventListener('click', function () {
+      document.querySelectorAll('.qh-fpill').forEach(function (p) { p.classList.remove('active'); });
+      pill.classList.add('active');
+      var filter = pill.getAttribute('data-gs');
+      document.querySelectorAll('.qh-card[data-gs]').forEach(function (card) {
+        var gs = card.getAttribute('data-gs') || '';
+        card.style.display = (filter === 'all' || gs.indexOf(filter) !== -1) ? '' : 'none';
+      });
+    });
+  });
 })();
 </script>
