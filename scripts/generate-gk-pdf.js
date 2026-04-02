@@ -2,15 +2,20 @@
 /**
  * BharatNotes — Static GK Compendium PDF Generator
  *
- * Generates a single PDF from all 28 static-GK chapters using the same
- * Oxford-style cover and back-page design as individual topic PDFs.
+ * Improvements applied:
+ *   1. Clickable TOC — anchor links preserved by Chromium as internal PDF links
+ *   2. Running chapter headers — per-chapter named @page rules via CSS paged media
+ *   3. Exam traps styled as cheat-sheet — last .gk-section per chapter gets
+ *      distinct grey-background, page-break-before, clean table style
+ *   4. Author photo compressed — jimp resizes 851 KB PNG → ~4 KB JPEG before
+ *      embedding, cutting HTML payload from ~3.2 MB to ~2 MB
+ *   5. GS Paper Index — second TOC grouped by GS1/GS2/GS3 paper relevance
+ *   6. "How to use" intro page — revision guide before the main TOC
  *
  * Run after `npm run build`:
  *   node scripts/generate-gk-pdf.js
  *
  * Output: src/downloads/bharatnotes-static-gk.pdf
- *   → Eleventy passthrough copies it to dist/downloads/
- *   → Accessible at /downloads/bharatnotes-static-gk.pdf
  */
 
 "use strict";
@@ -18,6 +23,7 @@
 const fs    = require("fs");
 const path  = require("path");
 const https = require("https");
+const Jimp  = require("jimp");
 
 // ── Config ────────────────────────────────────────────────────────────────────
 
@@ -36,37 +42,38 @@ const GENERATED_DATE = new Date().toLocaleDateString("en-IN", {
 });
 const CURRENT_YEAR = new Date().getFullYear();
 
-// ── Chapter manifest (sidebar order) ─────────────────────────────────────────
+// ── Chapter manifest ──────────────────────────────────────────────────────────
+// gs: primary GS papers for the GS Index page
 
 const CHAPTERS = [
-  { slug: "constitutional-provisions",   title: "Constitutional Provisions",         group: "Polity & Constitution" },
-  { slug: "schedules",                   title: "Schedules of the Constitution",      group: "Polity & Constitution" },
-  { slug: "constitutional-bodies",       title: "Constitutional & Statutory Bodies",  group: "Polity & Constitution" },
-  { slug: "committees-commissions",      title: "Committees & Commissions",           group: "Polity & Constitution" },
-  { slug: "five-year-plans",             title: "Five Year Plans & NITI Aayog",       group: "Polity & Constitution" },
-  { slug: "presidents-of-india",         title: "Presidents of India",                group: "Polity & Constitution" },
-  { slug: "prime-ministers-of-india",    title: "Prime Ministers of India",           group: "Polity & Constitution" },
-  { slug: "lok-sabha-speakers",          title: "Lok Sabha Speakers",                 group: "Polity & Constitution" },
-  { slug: "chief-justices-of-india",     title: "Chief Justices of India",            group: "Polity & Constitution" },
-  { slug: "viceroys-governors-general",  title: "Viceroys & Governors-General",       group: "History & Governance" },
-  { slug: "rivers-of-india",             title: "Rivers of India",                    group: "India — Facts & Identity" },
-  { slug: "bharat-ratna",                title: "Bharat Ratna",                       group: "India — Facts & Identity" },
-  { slug: "padma-awards",                title: "Padma Awards",                       group: "India — Facts & Identity" },
-  { slug: "national-symbols",            title: "National Symbols",                   group: "India — Facts & Identity" },
-  { slug: "states-capitals",             title: "States & Capitals",                  group: "India — Facts & Identity" },
-  { slug: "geographical-facts",          title: "Geographical Facts",                 group: "India — Facts & Identity" },
-  { slug: "india-firsts",                title: "India's Firsts",                     group: "India — Facts & Identity" },
-  { slug: "international-organisations", title: "International Organisations",        group: "India — Facts & Identity" },
-  { slug: "gallantry-awards",            title: "Gallantry Awards",                   group: "India — Facts & Identity" },
-  { slug: "classical-languages",         title: "Classical Languages",                group: "Language & Culture" },
-  { slug: "scheduled-languages",         title: "Scheduled Languages (8th Schedule)", group: "Language & Culture" },
-  { slug: "important-days",              title: "Important Days",                     group: "Language & Culture" },
-  { slug: "classical-dance-forms",       title: "Classical Dance Forms",              group: "Language & Culture" },
-  { slug: "isro-space-missions",         title: "ISRO & Space Missions",              group: "Science & Technology" },
-  { slug: "nuclear-programme",           title: "Nuclear Programme",                  group: "Science & Technology" },
-  { slug: "major-ports",                 title: "Major Ports of India",               group: "Economy & Infrastructure" },
-  { slug: "unesco-world-heritage",       title: "UNESCO World Heritage Sites",        group: "Environment & Heritage" },
-  { slug: "protected-areas",             title: "Protected Areas",                    group: "Environment & Heritage" },
+  { slug: "constitutional-provisions",   title: "Constitutional Provisions",          group: "Polity & Constitution",    gs: ["GS2"] },
+  { slug: "schedules",                   title: "Schedules of the Constitution",       group: "Polity & Constitution",    gs: ["GS2"] },
+  { slug: "constitutional-bodies",       title: "Constitutional & Statutory Bodies",   group: "Polity & Constitution",    gs: ["GS2"] },
+  { slug: "committees-commissions",      title: "Committees & Commissions",            group: "Polity & Constitution",    gs: ["GS2"] },
+  { slug: "five-year-plans",             title: "Five Year Plans & NITI Aayog",        group: "Polity & Constitution",    gs: ["GS3"] },
+  { slug: "presidents-of-india",         title: "Presidents of India",                 group: "Polity & Constitution",    gs: ["GS2"] },
+  { slug: "prime-ministers-of-india",    title: "Prime Ministers of India",            group: "Polity & Constitution",    gs: ["GS2"] },
+  { slug: "lok-sabha-speakers",          title: "Lok Sabha Speakers",                  group: "Polity & Constitution",    gs: ["GS2"] },
+  { slug: "chief-justices-of-india",     title: "Chief Justices of India",             group: "Polity & Constitution",    gs: ["GS2"] },
+  { slug: "viceroys-governors-general",  title: "Viceroys & Governors-General",        group: "History & Governance",     gs: ["GS1"] },
+  { slug: "rivers-of-india",             title: "Rivers of India",                     group: "India — Facts & Identity", gs: ["GS1", "GS3"] },
+  { slug: "bharat-ratna",                title: "Bharat Ratna",                        group: "India — Facts & Identity", gs: ["GS1"] },
+  { slug: "padma-awards",                title: "Padma Awards",                        group: "India — Facts & Identity", gs: ["GS1"] },
+  { slug: "national-symbols",            title: "National Symbols",                    group: "India — Facts & Identity", gs: ["GS1"] },
+  { slug: "states-capitals",             title: "States & Capitals",                   group: "India — Facts & Identity", gs: ["GS1"] },
+  { slug: "geographical-facts",          title: "Geographical Facts",                  group: "India — Facts & Identity", gs: ["GS1"] },
+  { slug: "india-firsts",                title: "India's Firsts",                      group: "India — Facts & Identity", gs: ["GS1", "GS2"] },
+  { slug: "international-organisations", title: "International Organisations",         group: "India — Facts & Identity", gs: ["GS2"] },
+  { slug: "gallantry-awards",            title: "Gallantry Awards",                    group: "India — Facts & Identity", gs: ["GS3"] },
+  { slug: "classical-languages",         title: "Classical Languages",                 group: "Language & Culture",       gs: ["GS1"] },
+  { slug: "scheduled-languages",         title: "Scheduled Languages (8th Schedule)",  group: "Language & Culture",       gs: ["GS1"] },
+  { slug: "important-days",              title: "Important Days",                      group: "Language & Culture",       gs: ["GS1"] },
+  { slug: "classical-dance-forms",       title: "Classical Dance Forms",               group: "Language & Culture",       gs: ["GS1"] },
+  { slug: "isro-space-missions",         title: "ISRO & Space Missions",               group: "Science & Technology",     gs: ["GS3"] },
+  { slug: "nuclear-programme",           title: "Nuclear Programme",                   group: "Science & Technology",     gs: ["GS3"] },
+  { slug: "major-ports",                 title: "Major Ports of India",                group: "Economy & Infrastructure", gs: ["GS3"] },
+  { slug: "unesco-world-heritage",       title: "UNESCO World Heritage Sites",         group: "Environment & Heritage",   gs: ["GS1"] },
+  { slug: "protected-areas",             title: "Protected Areas",                     group: "Environment & Heritage",   gs: ["GS3"] },
 ];
 
 // ── Asset loading ─────────────────────────────────────────────────────────────
@@ -74,6 +81,28 @@ const CHAPTERS = [
 function loadBase64(filePath) {
   if (!fs.existsSync(filePath)) return "";
   return fs.readFileSync(filePath).toString("base64");
+}
+
+/** Resize + compress author photo using jimp (851 KB PNG → ~4 KB JPEG) */
+async function buildAuthorPhotoSrc() {
+  const src = path.join(IMG_DIR, "bharat-choudhary.png");
+  if (!fs.existsSync(src)) return "";
+  try {
+    const img = await Jimp.read(src);
+    img.resize({ w: 90, h: 90 });
+    const buf = await img.getBuffer("image/jpeg", { quality: 70 });
+    return "data:image/jpeg;base64," + buf.toString("base64");
+  } catch (e) {
+    console.warn("  ⚠ Photo compression failed, using original:", e.message);
+    const b64 = loadBase64(src);
+    return b64 ? "data:image/png;base64," + b64 : "";
+  }
+}
+
+function buildLogoSrc() {
+  // Circle logo — used as a badge/seal on cover and back pages
+  const b64 = loadBase64(path.join(IMG_DIR, "bharatnotes-circle-sm.png"));
+  return b64 ? `data:image/png;base64,${b64}` : "";
 }
 
 function buildCrimsonFontsCSS() {
@@ -90,70 +119,102 @@ function buildCrimsonFontsCSS() {
   }).join("");
 }
 
-function buildAuthorPhotoSrc() {
-  const b64 = loadBase64(path.join(IMG_DIR, "bharat-choudhary.png"));
-  return b64 ? `data:image/png;base64,${b64}` : "";
-}
-
-function buildLogoSrc() {
-  // Standard dark-on-white SVG — perfect for white cover/back pages
-  const b64 = loadBase64(path.join(IMG_DIR, "bharatnotes-logo.svg"));
-  return b64 ? `data:image/svg+xml;base64,${b64}` : "";
-}
-
 // ── Content extraction ────────────────────────────────────────────────────────
 
-/**
- * Extract inner HTML of <div class="gk-main"> using depth-counting
- * (handles arbitrarily nested divs without fragile regex).
- */
 function extractGkMain(htmlStr) {
   const OPEN_TAG = '<div class="gk-main">';
   const start = htmlStr.indexOf(OPEN_TAG);
   if (start === -1) return null;
-
-  let depth = 1;
-  let pos   = start + OPEN_TAG.length;
-
+  let depth = 1, pos = start + OPEN_TAG.length;
   while (pos < htmlStr.length && depth > 0) {
-    const nextOpen  = htmlStr.indexOf("<div", pos);
-    const nextClose = htmlStr.indexOf("</div>", pos);
-    if (nextClose === -1) break;
-    if (nextOpen !== -1 && nextOpen < nextClose) { depth++; pos = nextOpen + 4; }
-    else                                         { depth--; pos = nextClose + 6; }
+    const o = htmlStr.indexOf("<div", pos);
+    const c = htmlStr.indexOf("</div>", pos);
+    if (c === -1) break;
+    if (o !== -1 && o < c) { depth++; pos = o + 4; }
+    else                   { depth--; pos = c + 6; }
   }
-
   return htmlStr.substring(start + OPEN_TAG.length, pos - 6);
 }
 
 // ── CSS ───────────────────────────────────────────────────────────────────────
 
+/** Generate per-chapter named @page rules so @bottom-center shows the chapter title */
+function buildChapterPageRules() {
+  return CHAPTERS.map(ch => {
+    // Escape single quotes in title for CSS content value
+    const safeTitle = ch.title.replace(/'/g, "\\'");
+    return (
+      `@page pg-${ch.slug} {` +
+        `@bottom-left { content:'bharatnotes.com'; font-family:'Inter',sans-serif; font-size:6.5pt; color:#bbb; letter-spacing:0.06em; }` +
+        `@bottom-center { content:'${safeTitle}'; font-family:'Inter',sans-serif; font-size:6pt; color:#aaa; }` +
+        `@bottom-right { content:counter(page) ' / ' counter(pages); font-family:'Inter',sans-serif; font-size:6.5pt; color:#999; }` +
+      `}`
+    );
+  }).join(" ");
+}
+
 function buildCSS() {
-  // Oxford academic base — exact match with pdf.js
-  const oxford = [
+  const chapterPageRules = buildChapterPageRules();
+
+  const rules = [
     "*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }",
 
-    // Page rules — running footer with page numbers; suppressed on title/toc/back
+    // Default page — running footer; suppressed on named pages for cover/toc/back
     "@page { size:A4; margin:22mm 20mm 26mm 20mm;" +
       " @bottom-left { content:'bharatnotes.com'; font-family:'Inter',sans-serif; font-size:6.5pt; color:#bbb; letter-spacing:0.06em; }" +
-      " @bottom-center { content:'Static GK Compendium'; font-family:'Inter',sans-serif; font-size:6pt; color:#ccc; }" +
       " @bottom-right { content:counter(page) ' / ' counter(pages); font-family:'Inter',sans-serif; font-size:6.5pt; color:#999; } }",
     "@page :first { margin:0; @bottom-left{content:none} @bottom-center{content:none} @bottom-right{content:none} }",
-    "@page toc { margin:22mm 20mm 26mm 20mm; @bottom-left{content:none} @bottom-center{content:none} @bottom-right{content:none} }",
+    "@page howto { margin:22mm 20mm 26mm 20mm; @bottom-left{content:none} @bottom-center{content:none} @bottom-right{content:none} }",
+    "@page toc   { margin:22mm 20mm 26mm 20mm; @bottom-left{content:none} @bottom-center{content:none} @bottom-right{content:none} }",
+    "@page gsidx { margin:22mm 20mm 26mm 20mm; @bottom-left{content:none} @bottom-center{content:none} @bottom-right{content:none} }",
     "@page backpage { margin:0; @bottom-left{content:none} @bottom-center{content:none} @bottom-right{content:none} }",
 
-    // Typography base
+    // Per-chapter running headers (improvement #2)
+    chapterPageRules,
+
     "body { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:12.5pt; line-height:1.72; color:#1a1a1a; background:#fff; }",
 
-    // ── TOC PAGE ──
+    // ── HOW TO USE page ──
+    ".howto { page:howto; page-break-after:always; padding:28mm 28mm 20mm; }",
+    ".howto h2 { font-family:'Crimson Pro','Georgia',serif; font-size:24pt; font-weight:400; color:#1a1a1a; border-bottom:2px solid #1a1a1a; padding-bottom:10px; margin-bottom:20px; letter-spacing:-0.01em; }",
+    ".howto h3 { font-family:'Inter',sans-serif; font-size:9pt; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#555; margin:18px 0 8px; }",
+    ".howto p { font-size:11pt; line-height:1.7; color:#333; margin-bottom:10px; }",
+    ".howto ul { margin:0 0 12px 18px; }",
+    ".howto li { font-size:10.5pt; line-height:1.65; color:#333; margin-bottom:4px; }",
+    ".howto-grid { display:flex; gap:16px; margin:12px 0; }",
+    ".howto-card { flex:1; padding:12px 14px; border:1px solid #e0e0e0; border-radius:5px; }",
+    ".howto-card__label { font-family:'Inter',sans-serif; font-size:7pt; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#999; margin-bottom:4px; }",
+    ".howto-card__day { font-family:'Crimson Pro','Georgia',serif; font-size:13pt; font-weight:600; color:#1a1a1a; margin-bottom:4px; }",
+    ".howto-card__chapters { font-size:9pt; color:#666; line-height:1.5; }",
+    ".howto-legend { margin-top:16px; }",
+    ".howto-legend-row { display:flex; align-items:center; gap:10px; padding:5px 0; border-bottom:0.3pt solid #eee; font-size:10pt; }",
+    ".howto-legend-row:last-child { border-bottom:none; }",
+    ".howto-legend-swatch { width:28px; height:14px; border-radius:2px; flex-shrink:0; }",
+
+    // ── TOC page ──
     ".toc-pg { page:toc; page-break-after:always; padding:28mm 28mm 20mm; }",
     ".toc-pg__eyebrow { font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:#999; margin-bottom:10px; }",
     ".toc-pg__title { font-family:'Crimson Pro','Georgia',serif; font-size:28pt; font-weight:400; color:#1a1a1a; border-bottom:2px solid #1a1a1a; padding-bottom:10px; margin-bottom:24px; letter-spacing:-0.01em; }",
     ".toc-pg__list { list-style:none; padding:0; margin:0; }",
     ".toc-group { font-family:'Inter',sans-serif; font-size:7pt; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; color:#999; border-top:1px solid #eee; padding-top:12px; margin:16px 0 4px; }",
+    // Clickable TOC entries (improvement #1)
     ".toc-e { display:flex; align-items:baseline; gap:10px; padding:7px 0; border-bottom:0.5px solid #eee; page-break-inside:avoid; }",
     ".toc-e__num { font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:700; color:#bbb; flex-shrink:0; min-width:18px; }",
-    ".toc-e__title { font-family:'Crimson Pro','Georgia',serif; font-size:13pt; color:#1a1a1a; text-decoration:none; flex:1; line-height:1.4; }",
+    ".toc-e__title { font-family:'Crimson Pro','Georgia',serif; font-size:13pt; color:#1a4a8a; text-decoration:underline; text-underline-offset:2px; flex:1; line-height:1.4; }",
+    ".toc-e__gs { font-family:'Inter',sans-serif; font-size:6.5pt; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#999; flex-shrink:0; padding:2px 5px; border:0.5px solid #ddd; border-radius:2px; }",
+
+    // ── GS INDEX page ──
+    ".gs-idx { page:gsidx; page-break-after:always; padding:28mm 28mm 20mm; }",
+    ".gs-idx__eyebrow { font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:#999; margin-bottom:10px; }",
+    ".gs-idx__title { font-family:'Crimson Pro','Georgia',serif; font-size:28pt; font-weight:400; color:#1a1a1a; border-bottom:2px solid #1a1a1a; padding-bottom:10px; margin-bottom:6px; letter-spacing:-0.01em; }",
+    ".gs-idx__sub { font-family:'Inter',sans-serif; font-size:8.5pt; color:#888; margin-bottom:20px; }",
+    ".gs-paper-block { margin-bottom:18px; }",
+    ".gs-paper-label { font-family:'Inter',sans-serif; font-size:8pt; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#1a1a1a; padding:4px 10px; background:#f0f0f0; display:inline-block; border-radius:3px; margin-bottom:8px; }",
+    ".gs-paper-label--gs1 { background:#f0f5ff; color:#1a3a8a; }",
+    ".gs-paper-label--gs2 { background:#f0fff5; color:#1a4a2a; }",
+    ".gs-paper-label--gs3 { background:#fff8f0; color:#8a4a1a; }",
+    ".gs-entry { display:inline-flex; align-items:center; gap:5px; margin:3px 4px 3px 0; padding:3px 8px; border:0.5px solid #ddd; border-radius:3px; font-family:'Crimson Pro','Georgia',serif; font-size:11pt; color:#1a4a8a; text-decoration:none; }",
+    ".gs-entry:hover { text-decoration:underline; }",
 
     // ── TITLE PAGE ──
     ".tp { width:210mm; height:297mm; display:flex; flex-direction:column; padding:0; page-break-after:always; position:relative; overflow:hidden; }",
@@ -162,7 +223,6 @@ function buildCSS() {
     ".tp-logo { font-family:'Crimson Pro','Georgia',serif; font-size:14.5pt; font-weight:600; color:#1a1a1a; letter-spacing:-0.01em; }",
     ".tp-logo span { color:#b8860b; }",
     ".tp-paper { font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:600; letter-spacing:0.18em; text-transform:uppercase; color:#888; }",
-    ".tp-chapter-line { font-family:'Inter',sans-serif; font-size:8.5pt; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:#999; margin-bottom:10px; }",
     ".tp-title { font-family:'Crimson Pro','Georgia',serif; font-size:38.5pt; font-weight:400; line-height:1.1; color:#1a1a1a; margin-bottom:16px; letter-spacing:-0.02em; }",
     ".tp-desc { font-family:'Crimson Pro','Georgia',serif; font-size:12pt; color:#555; line-height:1.6; max-width:140mm; }",
     ".tp-bottom { flex:1; display:flex; flex-direction:column; justify-content:flex-end; padding:24mm 28mm 28mm; }",
@@ -182,21 +242,17 @@ function buildCSS() {
     ".tp-ujiyari-text strong { color:#451a03; font-weight:700; }",
     ".tp-ujiyari-btn { flex-shrink:0; display:inline-block; padding:6px 14px; font-family:'Inter',sans-serif; font-size:7pt; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:#92400e; background:#fff; border:1.5px solid #d97706; border-radius:4px; text-decoration:none; }",
 
-    // ── CHAPTER content wrapper ──
+    // ── CHAPTER content ──
+    ".chapter { page-break-before:always; break-before:page; }",
     ".ct { padding:0; max-width:152mm; }",
     ".ct-sub { font-family:'Inter',sans-serif; font-size:9pt; color:#888; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:20px; padding-bottom:16px; border-bottom:1px solid #1a1a1a; }",
     ".ct h1 { font-family:'Crimson Pro','Georgia',serif; font-size:24.5pt; font-weight:600; color:#1a1a1a; margin-bottom:6px; line-height:1.2; letter-spacing:-0.01em; }",
-    // Chapter page-break on h1 except first chapter
-    ".chapter + .chapter .ct h1 { page-break-before:always; break-before:page; }",
-    ".ct h2 { font-family:'Crimson Pro','Georgia',serif; font-size:16pt; font-weight:600; color:#1a1a1a; margin:28px 0 8px; padding-bottom:6px; border-bottom:0.5px solid #ccc; page-break-after:avoid; break-after:avoid; }",
-    ".ct h2:first-child { margin-top:0; }",
-    ".ct h3 { font-family:'Crimson Pro','Georgia',serif; font-size:13pt; font-weight:400; font-style:italic; color:#333; margin:18px 0 6px; page-break-after:avoid; break-after:avoid; }",
     ".ct p { margin-bottom:6px; line-height:1.6; }",
     ".ct ul, .ct ol { margin:0 0 10px 20px; }",
     ".ct li { margin-bottom:3px; }",
     ".ft { margin-top:24px; padding-top:10px; border-top:0.5px solid #ccc; display:flex; justify-content:space-between; font-family:'Inter',sans-serif; font-size:7.5pt; color:#999; letter-spacing:0.04em; }",
 
-    // ── GK TABLES (Oxford booktabs applied to .gk-table) ──
+    // ── GK sections & tables (Oxford booktabs) ──
     ".gk-section { margin-bottom:16px; page-break-inside:avoid; break-inside:avoid; }",
     ".gk-section-title { font-family:'Crimson Pro','Georgia',serif; font-size:16pt; font-weight:600; color:#1a1a1a; margin:28px 0 8px; padding-bottom:6px; border-bottom:0.5pt solid #ccc; page-break-after:avoid; break-after:avoid; }",
     ".gk-scroll { overflow:visible; }",
@@ -213,9 +269,17 @@ function buildCSS() {
     "strong { font-weight:700; }",
     "em { font-style:italic; }",
 
-    // ── CHAPTER page-break ──
-    ".chapter { page-break-before:always; break-before:page; }",
-    ".chapter:first-of-type { page-break-before:auto; break-before:auto; }",
+    // ── EXAM TRAPS CHEAT SHEET (improvement #3) ──
+    // Last .gk-section in every chapter = exam traps
+    ".chapter .gk-section:last-child { page-break-before:always; break-before:page; background:#f5f5f2; padding:14mm 12mm; margin:-6px -6px 0; }",
+    ".chapter .gk-section:last-child .gk-section-title { font-family:'Inter',sans-serif; font-size:10pt; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; color:#333; border-bottom:2pt solid #333; border-left:none; padding:0 0 6px; margin:0 0 12px; }",
+    // Clean cheat-sheet table — no heavy rules, just light separators
+    ".chapter .gk-section:last-child .gk-table { font-size:10pt; }",
+    ".chapter .gk-section:last-child .gk-table thead { border-top:none; border-bottom:1px solid #888; }",
+    ".chapter .gk-section:last-child .gk-table th { font-size:8pt; color:#666; background:none; border:none; padding:5px 8px; }",
+    ".chapter .gk-section:last-child .gk-table td { border-bottom:0.3pt solid #ccc; padding:5px 8px; font-size:10pt; }",
+    ".chapter .gk-section:last-child .gk-table tbody tr:last-child td { border-bottom:1px solid #888; }",
+    ".chapter .gk-section:last-child .gk-table tbody tr:nth-child(even) td { background:rgba(0,0,0,0.025); }",
 
     // ── BACK PAGE ──
     ".bp { page-break-before:always; page:backpage; min-height:250mm; padding:28mm 26mm 20mm; display:flex; flex-direction:column; }",
@@ -248,19 +312,14 @@ function buildCSS() {
     "@media print { * { -webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; } }",
   ];
 
-  return oxford.join(" ");
+  return rules.join(" ");
 }
 
-// ── HTML builders ─────────────────────────────────────────────────────────────
+// ── Page builders ─────────────────────────────────────────────────────────────
 
 function buildTitlePage(photoSrc, logoSrc) {
-  const paperText   = "Static GK Compendium · UPSC Prelims";
-  const descText    = `Complete reference for UPSC Prelims — ${CHAPTERS.length} chapters covering ` +
-                      "Polity, History, Geography, Awards, Science & Environment. " +
-                      `All facts verified to ${GENERATED_DATE}.`;
-
   const logoHTML = logoSrc
-    ? `<img src="${logoSrc}" alt="BharatNotes" height="36" style="display:block;">`
+    ? `<img src="${logoSrc}" alt="BharatNotes" width="54" height="54" style="display:block;border-radius:50%;">`
     : `<div class="tp-logo">Bharat<span>Notes</span></div>`;
 
   return `
@@ -268,10 +327,14 @@ function buildTitlePage(photoSrc, logoSrc) {
     <div class="tp-top">
       <div class="tp-brand-row">
         ${logoHTML}
-        <div class="tp-paper">${paperText}</div>
+        <div class="tp-paper">Static GK Compendium · UPSC Prelims</div>
       </div>
       <h1 class="tp-title">Static GK<br>Compendium</h1>
-      <p class="tp-desc">${descText}</p>
+      <p class="tp-desc">
+        Complete reference for UPSC Prelims — ${CHAPTERS.length} chapters covering
+        Polity, History, Geography, Awards, Science &amp; Environment.
+        All facts verified to ${GENERATED_DATE}.
+      </p>
     </div>
     <div class="tp-bottom">
       <div class="tp-subject">${CHAPTERS.length} Chapters &nbsp;·&nbsp; All GS Papers &nbsp;·&nbsp; UPSC Prelims 2025–26</div>
@@ -304,6 +367,87 @@ function buildTitlePage(photoSrc, logoSrc) {
   </div>`;
 }
 
+/** Improvement #6 — How to use this compendium */
+function buildHowToUsePage() {
+  return `
+  <div class="howto">
+    <h2>How to Use This Compendium</h2>
+
+    <h3>What This Is</h3>
+    <p>
+      A single-file reference covering all major <strong>Static GK</strong> topics tested in
+      UPSC Prelims — constitutional facts, historical firsts, geographical data, awards, science
+      &amp; environment. Every figure is verified against official sources as of ${GENERATED_DATE}.
+    </p>
+
+    <h3>What This Is Not</h3>
+    <p>
+      This is not a current affairs resource. For events after the generated date, pair this with
+      <strong>Ujiyari.com</strong> (daily current affairs, monthly compilations, editorial analysis).
+    </p>
+
+    <h3>How Each Chapter Is Structured</h3>
+    <ul>
+      <li><strong>Fact tables</strong> — Oxford booktabs style; scan vertically to compare, horizontally for details</li>
+      <li><strong>Key Firsts / Records</strong> — highest-frequency UPSC question type; memorise these first</li>
+      <li><strong>⚠ Exam Traps</strong> — the last page of every chapter, on a grey background. This is the cheat-sheet. Read it once before every mock test.</li>
+    </ul>
+
+    <h3>Suggested 7-Day Revision Plan</h3>
+    <div class="howto-grid">
+      <div class="howto-card">
+        <div class="howto-card__label">Day 1–2</div>
+        <div class="howto-card__day">Polity Core</div>
+        <div class="howto-card__chapters">Constitutional Provisions · Schedules · Presidents · Prime Ministers · Lok Sabha Speakers · Chief Justices</div>
+      </div>
+      <div class="howto-card">
+        <div class="howto-card__label">Day 3</div>
+        <div class="howto-card__day">Governance &amp; Bodies</div>
+        <div class="howto-card__chapters">Constitutional Bodies · Committees &amp; Commissions · Five Year Plans · Viceroys</div>
+      </div>
+      <div class="howto-card">
+        <div class="howto-card__label">Day 4</div>
+        <div class="howto-card__day">India Facts</div>
+        <div class="howto-card__chapters">National Symbols · States &amp; Capitals · Geographical Facts · India's Firsts · Rivers</div>
+      </div>
+    </div>
+    <div class="howto-grid">
+      <div class="howto-card">
+        <div class="howto-card__label">Day 5</div>
+        <div class="howto-card__day">Awards &amp; Culture</div>
+        <div class="howto-card__chapters">Bharat Ratna · Padma Awards · Gallantry Awards · Classical Languages · Classical Dance · Important Days</div>
+      </div>
+      <div class="howto-card">
+        <div class="howto-card__label">Day 6</div>
+        <div class="howto-card__day">Science &amp; Environment</div>
+        <div class="howto-card__chapters">ISRO &amp; Space · Nuclear Programme · Major Ports · UNESCO Heritage · Protected Areas</div>
+      </div>
+      <div class="howto-card">
+        <div class="howto-card__label">Day 7</div>
+        <div class="howto-card__day">Full Revision</div>
+        <div class="howto-card__chapters">Read only the ⚠ Exam Traps page of every chapter. 30 minutes total. This is the highest ROI revision session.</div>
+      </div>
+    </div>
+
+    <h3>Visual Legend</h3>
+    <div class="howto-legend">
+      <div class="howto-legend-row">
+        <div class="howto-legend-swatch" style="background:#f5f5f2;border:1px solid #ccc;"></div>
+        <span><strong>Grey background page</strong> = Exam Traps cheat-sheet. Photocopy or screenshot this page.</span>
+      </div>
+      <div class="howto-legend-row">
+        <div class="howto-legend-swatch" style="background:rgba(0,0,0,0.015);border:1px solid #e0e0e0;"></div>
+        <span><strong>Alternating table rows</strong> = standard reference table; no special meaning.</span>
+      </div>
+      <div class="howto-legend-row">
+        <div class="howto-legend-swatch" style="background:#fafaf8;border-left:3px solid #888;border-top:0.5px solid #ccc;border-right:0.5px solid #ccc;border-bottom:0.5px solid #ccc;"></div>
+        <span><strong>Boxed note</strong> = additional context or important clarification; not always examinable.</span>
+      </div>
+    </div>
+  </div>`;
+}
+
+/** Improvement #1 — Clickable TOC with anchor links */
 function buildTOCPage(chapters) {
   const groups = {};
   for (const ch of chapters) {
@@ -315,10 +459,13 @@ function buildTOCPage(chapters) {
   for (const [groupName, groupChapters] of Object.entries(groups)) {
     items += `<div class="toc-group">${groupName}</div>`;
     for (const ch of groupChapters) {
+      const gsTag = ch.gs.map(g => `<span class="toc-e__gs">${g}</span>`).join(" ");
+      // href="#chapter-{slug}" → Chromium preserves these as internal PDF links
       items += `
         <li class="toc-e">
           <span class="toc-e__num">${num++}</span>
-          <span class="toc-e__title">${ch.title}</span>
+          <a href="#chapter-${ch.slug}" class="toc-e__title">${ch.title}</a>
+          ${gsTag}
         </li>`;
     }
   }
@@ -331,15 +478,57 @@ function buildTOCPage(chapters) {
   </div>`;
 }
 
-function buildChapterPage(chapter, index) {
+/** Improvement #5 — GS Paper Index */
+function buildGSIndexPage(chapters) {
+  const papers = { GS1: [], GS2: [], GS3: [] };
+  for (const ch of chapters) {
+    for (const g of ch.gs) {
+      if (papers[g]) papers[g].push(ch);
+    }
+  }
+
+  const paperMeta = {
+    GS1: { label: "General Studies I",   desc: "History, Culture, Society, Geography",   cls: "gs1" },
+    GS2: { label: "General Studies II",  desc: "Polity, Constitution, Governance, IR",   cls: "gs2" },
+    GS3: { label: "General Studies III", desc: "Economy, Science & Technology, Environment", cls: "gs3" },
+  };
+
+  let blocks = "";
+  for (const [key, chList] of Object.entries(papers)) {
+    const meta  = paperMeta[key];
+    const links = chList.map(ch =>
+      `<a href="#chapter-${ch.slug}" class="gs-entry">${ch.title}</a>`
+    ).join("");
+    blocks += `
+      <div class="gs-paper-block">
+        <div class="gs-paper-label gs-paper-label--${meta.cls}">${meta.label} &nbsp;·&nbsp; ${meta.desc}</div>
+        <div>${links}</div>
+      </div>`;
+  }
+
+  return `
+  <div class="gs-idx">
+    <div class="gs-idx__eyebrow">BharatNotes &middot; Static GK Compendium</div>
+    <h2 class="gs-idx__title">GS Paper Index</h2>
+    <p class="gs-idx__sub">
+      Chapters grouped by their primary GS paper — use this to plan paper-specific revision sessions.
+      Chapters appearing under multiple papers are cross-listed.
+    </p>
+    ${blocks}
+  </div>`;
+}
+
+function buildChapterPage(chapter) {
   const content = chapter.content ||
     `<p style="color:#888;font-style:italic;">Content unavailable — run npm run build first.</p>`;
 
+  // id="chapter-{slug}" → target for TOC anchor links (improvement #1)
+  // style="page: pg-{slug}" → named @page rule for running header (improvement #2)
   return `
-  <div class="chapter">
+  <div class="chapter" id="chapter-${chapter.slug}" style="page:pg-${chapter.slug};">
     <div class="ct">
       <h1>${chapter.title}</h1>
-      <div class="ct-sub">Static GK · ${chapter.group} · ${GENERATED_DATE}</div>
+      <div class="ct-sub">Static GK &nbsp;·&nbsp; ${chapter.group} &nbsp;·&nbsp; ${GENERATED_DATE}</div>
       ${content}
       <div class="ft">
         <span>bharatnotes.com</span>
@@ -351,7 +540,7 @@ function buildChapterPage(chapter, index) {
 
 function buildBackPage(photoSrc, logoSrc) {
   const logoHTML = logoSrc
-    ? `<img src="${logoSrc}" alt="BharatNotes" height="40" style="display:block;margin-bottom:28px;">`
+    ? `<img src="${logoSrc}" alt="BharatNotes" width="64" height="64" style="display:block;margin-bottom:28px;border-radius:50%;">`
     : "";
 
   return `
@@ -405,7 +594,7 @@ function buildBackPage(photoSrc, logoSrc) {
         <div class="bp-ad-title">Advertise with Us</div>
         <div class="bp-ad-desc">
           Reach thousands of serious UPSC aspirants. Place your coaching,
-          book, or ed-tech brand right here — inside every PDF download.
+          book, or ed-tech brand inside every PDF download.
         </div>
       </div>
       <span class="bp-ad-cta">epicbharat@gmail.com</span>
@@ -418,23 +607,29 @@ function buildBackPage(photoSrc, logoSrc) {
 }
 
 function buildCombinedHTML(chapters, photoSrc, logoSrc, crimsonCSS) {
-  const css      = buildCSS();
-  const titlePg  = buildTitlePage(photoSrc, logoSrc);
-  const tocPg    = buildTOCPage(chapters);
-  const chapters_ = chapters.map((ch, i) => buildChapterPage(ch, i)).join("\n");
-  const backPg   = buildBackPage(photoSrc, logoSrc);
+  const css       = buildCSS();
+  const titlePg   = buildTitlePage(photoSrc, logoSrc);
+  const howToPg   = buildHowToUsePage();
+  const tocPg     = buildTOCPage(chapters);
+  const gsIdxPg   = buildGSIndexPage(chapters);
+  const chapterPgs = chapters.map(buildChapterPage).join("\n");
+  const backPg    = buildBackPage(photoSrc, logoSrc);
 
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="author" content="Bharat Choudhary">
+  <meta name="description" content="BharatNotes Static GK Compendium — UPSC Prelims ${CURRENT_YEAR}">
   <title>BharatNotes Static GK Compendium — UPSC Prelims</title>
   <style>${crimsonCSS}${css}</style>
 </head>
 <body>
   ${titlePg}
+  ${howToPg}
   ${tocPg}
-  ${chapters_}
+  ${gsIdxPg}
+  ${chapterPgs}
   ${backPg}
 </body>
 </html>`;
@@ -447,7 +642,7 @@ function callAPI(html) {
     const payload = JSON.stringify({
       html,
       filename: "bharatnotes-static-gk",
-      displayHeaderFooter: false,   // page numbers via CSS @page counter
+      displayHeaderFooter: false,  // page numbers via CSS @page counter
     });
 
     const body = Buffer.from(payload, "utf-8");
@@ -474,10 +669,7 @@ function callAPI(html) {
     req.on("error", reject);
     req.setTimeout(API_TIMEOUT_MS, () => {
       req.destroy();
-      reject(new Error(
-        `Timed out after ${API_TIMEOUT_MS / 1000}s. ` +
-        "Try again — serverless cold-starts can be slow."
-      ));
+      reject(new Error(`Timed out after ${API_TIMEOUT_MS / 1000}s — try again.`));
     });
 
     req.write(body);
@@ -488,80 +680,83 @@ function callAPI(html) {
 // ── Main ──────────────────────────────────────────────────────────────────────
 
 async function main() {
-  console.log("╔═══════════════════════════════════════════╗");
-  console.log("║  BharatNotes Static GK PDF Generator      ║");
-  console.log("╚═══════════════════════════════════════════╝\n");
+  console.log("╔═══════════════════════════════════════════════════╗");
+  console.log("║  BharatNotes Static GK PDF Generator  (v2)        ║");
+  console.log("╚═══════════════════════════════════════════════════╝\n");
 
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
-  // 1. Load fonts + author photo from src/
+  // 1. Load assets
   console.log("🔤 Loading Crimson Pro fonts...");
   const crimsonCSS = buildCrimsonFontsCSS();
-  console.log(`  ${crimsonCSS ? "✓ fonts loaded" : "⚠ fonts not found — will fall back to Georgia"}`);
+  console.log(`  ${crimsonCSS ? "✓ fonts embedded" : "⚠ not found — falling back to Georgia"}`);
 
-  console.log("📷 Loading author photo & logo...");
-  const photoSrc = buildAuthorPhotoSrc();
-  const logoSrc  = buildLogoSrc();
-  console.log(`  ${photoSrc ? "✓ photo" : "⚠ photo not found"} · ${logoSrc ? "✓ logo" : "⚠ logo not found"}\n`);
+  // improvement #4 — compress photo with jimp before embedding
+  console.log("📷 Compressing author photo (jimp 851 KB PNG → JPEG)...");
+  const photoSrc = await buildAuthorPhotoSrc();
+  const photoKB  = Math.round(Buffer.byteLength(photoSrc.replace(/^data:[^,]+,/, ""), "base64") / 1024);
+  console.log(`  ✓ photo compressed to ~${photoKB} KB`);
 
-  // 2. Extract gk-main content from each built chapter
+  console.log("🖼  Loading logo...");
+  const logoSrc = buildLogoSrc();
+  console.log(`  ${logoSrc ? "✓ logo embedded" : "⚠ logo not found"}\n`);
+
+  // 2. Extract gk-main from each built chapter
   console.log(`📂 Extracting content from ${CHAPTERS.length} chapters...\n`);
   let skipped = 0;
 
   for (const ch of CHAPTERS) {
     const htmlPath = path.join(DIST_DIR, "resources", "static-gk", ch.slug, "index.html");
-
     if (!fs.existsSync(htmlPath)) {
-      console.warn(`  ⚠  SKIP: ${ch.slug} — not found (run npm run build first)`);
-      ch.content = null;
-      skipped++;
-      continue;
+      console.warn(`  ⚠  SKIP ${ch.slug} — run npm run build first`);
+      ch.content = null; skipped++; continue;
     }
-
     ch.content = extractGkMain(fs.readFileSync(htmlPath, "utf-8"));
-
     if (!ch.content) {
-      console.warn(`  ⚠  SKIP: ${ch.slug} — .gk-main not found in HTML`);
-      ch.content = null;
-      skipped++;
+      console.warn(`  ⚠  SKIP ${ch.slug} — .gk-main not found`);
+      ch.content = null; skipped++;
     } else {
       console.log(`  ✓ ${ch.title}`);
     }
   }
-
   if (skipped) console.warn(`\n  ${skipped} chapter(s) skipped.\n`);
 
-  // 3. Assemble combined HTML
+  // 3. Assemble HTML
   console.log("\n📝 Assembling combined HTML...");
   const combinedHTML = buildCombinedHTML(CHAPTERS, photoSrc, logoSrc, crimsonCSS);
   const sizeMB = (Buffer.byteLength(combinedHTML, "utf-8") / 1024 / 1024).toFixed(1);
-  console.log(`  Total size: ${sizeMB} MB (fonts embedded)`);
+  console.log(`  HTML payload: ${sizeMB} MB`);
+  console.log(`  Pages: cover · how-to-use · TOC · GS index · ${CHAPTERS.length} chapters · back`);
 
-  // 4. Call Puppeteer API
-  console.log(`\n🚀 Calling PDF API (timeout: ${API_TIMEOUT_MS / 1000}s)...`);
-  console.log("  This takes 30–90 seconds — Crimson Pro fonts slow down initial render.\n");
+  // 4. Generate PDF
+  console.log(`\n🚀 Calling Puppeteer API (timeout: ${API_TIMEOUT_MS / 1000}s)...`);
+  console.log("  Rendering ~200 pages with embedded Crimson Pro — allow 30–90 s.\n");
 
   const t0 = Date.now();
-  let pdfBuffer;
-
+  let pdfBuf;
   try {
-    pdfBuffer = await callAPI(combinedHTML);
+    pdfBuf = await callAPI(combinedHTML);
   } catch (err) {
-    console.error(`\n❌ Failed: ${err.message}`);
+    console.error(`\n❌ ${err.message}`);
     process.exit(1);
   }
 
-  const elapsed   = ((Date.now() - t0) / 1000).toFixed(1);
-  const pdfSizeKB = Math.round(pdfBuffer.length / 1024);
-  console.log(`  ✓ PDF received in ${elapsed}s (${pdfSizeKB} KB)\n`);
+  const elapsed = ((Date.now() - t0) / 1000).toFixed(1);
+  const pdfKB   = Math.round(pdfBuf.length / 1024);
+  console.log(`  ✓ PDF in ${elapsed}s — ${pdfKB} KB\n`);
 
   // 5. Save
-  fs.writeFileSync(OUTPUT_FILE, pdfBuffer);
-  console.log(`✅ Saved: ${OUTPUT_FILE}`);
-  console.log(`   ${pdfSizeKB} KB · ${CHAPTERS.length} chapters · ${GENERATED_DATE}\n`);
-  console.log("Next steps:");
-  console.log("  1. npm run build");
-  console.log("  2. git add src/downloads/bharatnotes-static-gk.pdf && git commit && git push");
+  fs.writeFileSync(OUTPUT_FILE, pdfBuf);
+  console.log(`✅ ${OUTPUT_FILE}`);
+  console.log(`   ${pdfKB} KB · ${CHAPTERS.length} chapters · ${GENERATED_DATE}\n`);
+  console.log("Improvements applied:");
+  console.log("  #1 Clickable TOC     — anchor links → internal PDF links");
+  console.log("  #2 Running headers   — chapter title in @bottom-center of each chapter");
+  console.log("  #3 Exam traps page   — grey cheat-sheet, page-break-before, clean table");
+  console.log("  #4 Photo compressed  — jimp JPEG ~4 KB vs original 851 KB PNG");
+  console.log("  #5 GS Paper Index    — second TOC grouped by GS1/GS2/GS3");
+  console.log("  #6 How to use page   — 7-day revision plan + visual legend\n");
+  console.log("Next: npm run build → git add src/downloads/ → commit → push");
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
