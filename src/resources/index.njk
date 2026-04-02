@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "UPSC Resources — Booklist, Sources & Study Tools"
-description: "Curated UPSC preparation resources — standard booklist by GS paper, official government sources, BharatNotes study tools, and exam strategy guide."
+description: "Curated UPSC preparation resources — static GK, vocab builder, key terms, progress tracker, standard booklist by GS paper, official government sources, and exam strategy."
 ---
 
 <section class="page-header">
@@ -12,289 +12,543 @@ description: "Curated UPSC preparation resources — standard booklist by GS pap
     </nav>
     <p class="page-header__eyebrow">Study Smarter</p>
     <h1 class="page-header__title">UPSC Preparation Resources</h1>
-    <p class="page-header__subtitle">Booklist, official sources, study tools, and strategy — everything you need in one place.</p>
+    <p class="page-header__subtitle">Study tools, static GK reference, standard booklist, official sources, and exam strategy — organised for efficient preparation.</p>
   </div>
 </section>
 
 <section style="padding:var(--space-8) 0;">
   <div class="container">
 
+    {# ── In-page navigation ── #}
+    <nav class="res-subnav" aria-label="Resources sections">
+      <a href="#study-tools" class="res-subnav__link">🛠 Study Tools</a>
+      <a href="#static-gk" class="res-subnav__link">📋 Static GK</a>
+      <a href="#booklist" class="res-subnav__link">📚 Booklist</a>
+      <a href="#official-sources" class="res-subnav__link">🏛 Official Sources</a>
+      <a href="#exam-strategy" class="res-subnav__link">🎯 Exam Strategy</a>
+    </nav>
+
     {# ══════════════════════════════════════════════════════════
-       STUDY TOOLS (BharatNotes + Ujiyari)
+       STUDY TOOLS
        ══════════════════════════════════════════════════════════ #}
-    <h2 class="section-heading">Study Tools</h2>
-    <p style="color:var(--color-text-muted); font-size:var(--text-sm); margin-bottom:var(--space-6);">Interactive tools on BharatNotes and Ujiyari to boost your preparation.</p>
-
-    <div class="syllabus-grid" style="margin-bottom:var(--space-10);">
-
-      <div class="syl-card" style="--syl-color:#047857;">
-        <div class="syl-card__head">
-          <span class="syl-card__icon">📚</span>
-          <div>
-            <h3 class="syl-card__title">Vocab Builder</h3>
-            <span class="syl-card__count">Build exam-ready vocabulary</span>
-          </div>
-          <a href="/resources/vocab-builder/" class="syl-card__all">Open &rarr;</a>
-        </div>
-        <div class="syl-card__topics">
-          <span class="syl-topic" style="cursor:default;">Editorial words</span>
-          <span class="syl-topic" style="cursor:default;">Usage examples</span>
-          <span class="syl-topic" style="cursor:default;">Mark as learned</span>
-          <span class="syl-topic" style="cursor:default;">Subject filters</span>
-        </div>
-        <div class="syl-card__footer">Master vocabulary from The Hindu and Indian Express editorials. Tracked in your browser — pick up where you left off.</div>
+    <div class="res-section" id="study-tools">
+      <div class="res-section__header">
+        <h2 class="res-section__title">Study Tools</h2>
+        <span class="res-section__badge">BharatNotes + Ujiyari</span>
       </div>
+      <p class="res-section__desc">Interactive tools to build vocabulary, track progress, and analyse past-year question trends.</p>
 
-      <div class="syl-card" style="--syl-color:#4338ca;">
-        <div class="syl-card__head">
-          <span class="syl-card__icon">🔑</span>
-          <div>
-            <h3 class="syl-card__title">Key Terms</h3>
-            <span class="syl-card__count">UPSC-relevant terminology</span>
+      <div class="res-tools-grid">
+
+        <a href="/resources/vocab-builder/" class="res-tool-card" style="--res-tool-color:#047857;">
+          <div class="res-tool-card__header">
+            <div class="res-tool-card__icon">📚</div>
+            <div class="res-tool-card__meta">
+              <div class="res-tool-card__title">Vocab Builder</div>
+              <div class="res-tool-card__subtitle">Build exam-ready editorial vocabulary</div>
+            </div>
+            <span class="res-tool-card__arrow">→</span>
           </div>
-          <a href="/resources/key-terms/" class="syl-card__all">Open &rarr;</a>
-        </div>
-        <div class="syl-card__topics">
-          <span class="syl-topic" style="cursor:default;">Subject-wise terms</span>
-          <span class="syl-topic" style="cursor:default;">Definitions</span>
-          <span class="syl-topic" style="cursor:default;">Mark as learned</span>
-          <span class="syl-topic" style="cursor:default;">Search &amp; filter</span>
-        </div>
-        <div class="syl-card__footer">Key terms across all GS papers — polity, economy, environment, IR, and more. Know the precise definitions UPSC tests.</div>
-      </div>
-
-      <div class="syl-card" style="--syl-color:#0f4c3a;">
-        <div class="syl-card__head">
-          <span class="syl-card__icon">📊</span>
-          <div>
-            <h3 class="syl-card__title">Progress Tracker</h3>
-            <span class="syl-card__count">Prelims + Mains progress</span>
+          <div class="res-tool-card__body">
+            Master vocabulary from The Hindu and Indian Express editorials. Tracked in your browser — pick up where you left off.
           </div>
-          <a href="/tracker/" class="syl-card__all">Open &rarr;</a>
-        </div>
-        <div class="syl-card__topics">
-          <span class="syl-topic" style="cursor:default;">Prelims notes read</span>
-          <span class="syl-topic" style="cursor:default;">Mains syllabus done</span>
-          <span class="syl-topic" style="cursor:default;">Bookmarks</span>
-          <span class="syl-topic" style="cursor:default;">Vocab &amp; terms</span>
-        </div>
-        <div class="syl-card__footer">Your preparation dashboard — see how far you've come across all subjects and tools.</div>
-      </div>
-
-      <div class="syl-card" style="--syl-color:#9f1239;">
-        <div class="syl-card__head">
-          <span class="syl-card__icon">📝</span>
-          <div>
-            <h3 class="syl-card__title">PYQ Analysis</h3>
-            <span class="syl-card__count">Trends &amp; weightage</span>
+          <div class="res-tool-card__tags">
+            <span class="res-tool-tag">Editorial words</span>
+            <span class="res-tool-tag">Usage examples</span>
+            <span class="res-tool-tag">Mark as learned</span>
+            <span class="res-tool-tag">Subject filters</span>
           </div>
-          <a href="/pyq/" class="syl-card__all">Open &rarr;</a>
-        </div>
-        <div class="syl-card__topics">
-          <span class="syl-topic" style="cursor:default;">Prelims weightage</span>
-          <span class="syl-topic" style="cursor:default;">Mains trends</span>
-          <span class="syl-topic" style="cursor:default;">How to use PYQs</span>
-        </div>
-        <div class="syl-card__footer">Subject-wise question count, paper-wise trends, and a step-by-step guide to using PYQs effectively.</div>
-      </div>
+        </a>
 
-      <div class="syl-card syl-card--ujiyari">
-        <div class="syl-card__head" style="background:linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); border-color:#fde68a;">
-          <span class="syl-card__icon">📰</span>
-          <div>
-            <h3 class="syl-card__title" style="color:#92400e;">Ujiyari — Current Affairs</h3>
-            <span class="syl-card__count" style="color:#b45309;">Daily news, editorials, monthly digest</span>
+        <a href="/resources/key-terms/" class="res-tool-card" style="--res-tool-color:#4338ca;">
+          <div class="res-tool-card__header">
+            <div class="res-tool-card__icon">🔑</div>
+            <div class="res-tool-card__meta">
+              <div class="res-tool-card__title">Key Terms</div>
+              <div class="res-tool-card__subtitle">UPSC-relevant terminology across all GS papers</div>
+            </div>
+            <span class="res-tool-card__arrow">→</span>
           </div>
-          <a href="https://ujiyari.com/" target="_blank" rel="noopener" class="syl-card__all" style="color:#b45309;">Visit &rarr;</a>
-        </div>
-        <div class="syl-card__topics" style="background:#fffdf5;">
-          <a href="https://ujiyari.com/daily/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">Daily News</a>
-          <a href="https://ujiyari.com/editorial/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">Editorials</a>
-          <a href="https://ujiyari.com/monthly/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">Monthly Digest</a>
-          <a href="https://ujiyari.com/mains-guide/" target="_blank" rel="noopener" class="syl-topic syl-topic--ujiyari">Mains Guide</a>
-        </div>
-        <div class="syl-card__footer">30-40% of Prelims is current affairs. Daily reading on Ujiyari is non-negotiable.</div>
-      </div>
+          <div class="res-tool-card__body">
+            Precise definitions for polity, economy, environment, IR, and more — exactly the way UPSC tests them.
+          </div>
+          <div class="res-tool-card__tags">
+            <span class="res-tool-tag">Subject-wise terms</span>
+            <span class="res-tool-tag">Definitions</span>
+            <span class="res-tool-tag">Mark as learned</span>
+            <span class="res-tool-tag">Search &amp; filter</span>
+          </div>
+        </a>
 
+        <a href="/tracker/" class="res-tool-card" style="--res-tool-color:#0f4c3a;">
+          <div class="res-tool-card__header">
+            <div class="res-tool-card__icon">📊</div>
+            <div class="res-tool-card__meta">
+              <div class="res-tool-card__title">Progress Tracker</div>
+              <div class="res-tool-card__subtitle">Prelims + Mains preparation dashboard</div>
+            </div>
+            <span class="res-tool-card__arrow">→</span>
+          </div>
+          <div class="res-tool-card__body">
+            See how far you've come across all subjects and tools. Track notes read, mains syllabus coverage, and bookmarks.
+          </div>
+          <div class="res-tool-card__tags">
+            <span class="res-tool-tag">Prelims notes read</span>
+            <span class="res-tool-tag">Mains syllabus done</span>
+            <span class="res-tool-tag">Bookmarks</span>
+            <span class="res-tool-tag">Vocab &amp; terms</span>
+          </div>
+        </a>
+
+        <a href="/pyq/" class="res-tool-card" style="--res-tool-color:#9f1239;">
+          <div class="res-tool-card__header">
+            <div class="res-tool-card__icon">📝</div>
+            <div class="res-tool-card__meta">
+              <div class="res-tool-card__title">PYQ Analysis</div>
+              <div class="res-tool-card__subtitle">Past-year question trends &amp; weightage</div>
+            </div>
+            <span class="res-tool-card__arrow">→</span>
+          </div>
+          <div class="res-tool-card__body">
+            Subject-wise question count, paper-wise trends, and a step-by-step guide to using PYQs effectively in your preparation.
+          </div>
+          <div class="res-tool-card__tags">
+            <span class="res-tool-tag">Prelims weightage</span>
+            <span class="res-tool-tag">Mains trends</span>
+            <span class="res-tool-tag">How to use PYQs</span>
+          </div>
+        </a>
+
+        <div class="res-tool-card res-tool-card--ujiyari">
+          <a href="https://ujiyari.com/" target="_blank" rel="noopener" class="res-tool-card__header" style="background:linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); border-bottom-color:#fde68a; text-decoration:none; display:flex; align-items:center; gap:var(--space-4); padding:var(--space-5) var(--space-6) var(--space-4);">
+            <div class="res-tool-card__icon" style="background:#fef9c3;">📰</div>
+            <div class="res-tool-card__meta">
+              <div class="res-tool-card__title" style="color:#92400e;">Ujiyari — Current Affairs</div>
+              <div class="res-tool-card__subtitle" style="color:#b45309;">Daily news, editorials, monthly digest</div>
+            </div>
+            <span class="res-tool-card__arrow" style="color:#f59e0b;">↗</span>
+          </a>
+          <div class="res-tool-card__body">
+            30–40% of Prelims is current affairs. Daily reading on Ujiyari is non-negotiable. Complementary to BharatNotes.
+          </div>
+          <div class="res-tool-card__tags">
+            <a href="https://ujiyari.com/daily/" target="_blank" rel="noopener" class="res-tool-tag" style="background:#fef3c7;color:#92400e;">Daily News</a>
+            <a href="https://ujiyari.com/editorial/" target="_blank" rel="noopener" class="res-tool-tag" style="background:#fef3c7;color:#92400e;">Editorials</a>
+            <a href="https://ujiyari.com/monthly/" target="_blank" rel="noopener" class="res-tool-tag" style="background:#fef3c7;color:#92400e;">Monthly Digest</a>
+            <a href="https://ujiyari.com/mains-guide/" target="_blank" rel="noopener" class="res-tool-tag" style="background:#fef3c7;color:#92400e;">Mains Guide</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    {# ══════════════════════════════════════════════════════════
+       STATIC GK
+       ══════════════════════════════════════════════════════════ #}
+    <div class="res-section" id="static-gk">
+      <div class="res-section__header">
+        <h2 class="res-section__title">Static GK</h2>
+        <span class="res-section__badge">7 topics</span>
+      </div>
+      <p class="res-section__desc">Fixed, non-changing facts tested directly as Prelims MCQs — national symbols, states, firsts, constitutional articles, and more.</p>
+
+      <div class="res-tools-grid">
+
+        <a href="/resources/static-gk/national-symbols/" class="res-tool-card" style="--res-tool-color:#0f4c3a;">
+          <div class="res-tool-card__header">
+            <div class="res-tool-card__icon">🇮🇳</div>
+            <div class="res-tool-card__meta">
+              <div class="res-tool-card__title">National Symbols</div>
+              <div class="res-tool-card__subtitle">16 official symbols</div>
+            </div>
+            <span class="res-tool-card__arrow">→</span>
+          </div>
+          <div class="res-tool-card__body">Animal, bird, flower, tree, anthem, song, motto, flag, currency, calendar — with scientific names and adoption dates.</div>
+          <div class="res-tool-card__tags">
+            <span class="res-tool-tag">Flora &amp; Fauna</span>
+            <span class="res-tool-tag">State &amp; Identity</span>
+            <span class="res-tool-tag">Flag facts</span>
+          </div>
+        </a>
+
+        <a href="/resources/static-gk/states-capitals/" class="res-tool-card" style="--res-tool-color:#0f4c3a;">
+          <div class="res-tool-card__header">
+            <div class="res-tool-card__icon">🗺️</div>
+            <div class="res-tool-card__meta">
+              <div class="res-tool-card__title">States &amp; Capitals</div>
+              <div class="res-tool-card__subtitle">28 states · 8 UTs</div>
+            </div>
+            <span class="res-tool-card__arrow">→</span>
+          </div>
+          <div class="res-tool-card__body">All states and union territories with capitals, statehood years, and summer/winter capital notes. Updated to April 2026.</div>
+          <div class="res-tool-card__tags">
+            <span class="res-tool-tag">Statehood years</span>
+            <span class="res-tool-tag">Capital notes</span>
+            <span class="res-tool-tag">UT legislature status</span>
+          </div>
+        </a>
+
+        <a href="/resources/static-gk/india-firsts/" class="res-tool-card" style="--res-tool-color:#0f4c3a;">
+          <div class="res-tool-card__header">
+            <div class="res-tool-card__icon">🏆</div>
+            <div class="res-tool-card__meta">
+              <div class="res-tool-card__title">India's Firsts</div>
+              <div class="res-tool-card__subtitle">Government, women, space, awards</div>
+            </div>
+            <span class="res-tool-card__arrow">→</span>
+          </div>
+          <div class="res-tool-card__body">First President, PM, CJI, Speaker — plus women firsts in government and civil services, space firsts, and Bharat Ratna history.</div>
+          <div class="res-tool-card__tags">
+            <span class="res-tool-tag">Constitutional firsts</span>
+            <span class="res-tool-tag">Women firsts</span>
+            <span class="res-tool-tag">Space &amp; awards</span>
+          </div>
+        </a>
+
+        <a href="/resources/static-gk/scheduled-languages/" class="res-tool-card" style="--res-tool-color:#0f4c3a;">
+          <div class="res-tool-card__header">
+            <div class="res-tool-card__icon">📜</div>
+            <div class="res-tool-card__meta">
+              <div class="res-tool-card__title">Scheduled Languages</div>
+              <div class="res-tool-card__subtitle">22 languages in 8th Schedule</div>
+            </div>
+            <span class="res-tool-card__arrow">→</span>
+          </div>
+          <div class="res-tool-card__body">Amendment history, scripts, and 11 Classical Languages (including 5 added in October 2024). Hindi ≠ national language.</div>
+          <div class="res-tool-card__tags">
+            <span class="res-tool-tag">Amendment history</span>
+            <span class="res-tool-tag">Classical languages</span>
+            <span class="res-tool-tag">Script guide</span>
+          </div>
+        </a>
+
+        <a href="/resources/static-gk/geographical-facts/" class="res-tool-card" style="--res-tool-color:#0f4c3a;">
+          <div class="res-tool-card__header">
+            <div class="res-tool-card__icon">🧭</div>
+            <div class="res-tool-card__meta">
+              <div class="res-tool-card__title">Geographical Facts</div>
+              <div class="res-tool-card__subtitle">Extremes, rivers, states by area</div>
+            </div>
+            <span class="res-tool-card__arrow">→</span>
+          </div>
+          <div class="res-tool-card__body">India's dimensions, geographical extremes, land neighbours with border lengths, major rivers, highest peaks, and state rankings.</div>
+          <div class="res-tool-card__tags">
+            <span class="res-tool-tag">Geographical extremes</span>
+            <span class="res-tool-tag">Rivers &amp; peaks</span>
+            <span class="res-tool-tag">State rankings</span>
+          </div>
+        </a>
+
+        <a href="/resources/static-gk/important-days/" class="res-tool-card" style="--res-tool-color:#0f4c3a;">
+          <div class="res-tool-card__header">
+            <div class="res-tool-card__icon">📅</div>
+            <div class="res-tool-card__meta">
+              <div class="res-tool-card__title">Important Days</div>
+              <div class="res-tool-card__subtitle">12 months · 80+ days</div>
+            </div>
+            <span class="res-tool-card__arrow">→</span>
+          </div>
+          <div class="res-tool-card__body">Month-wise national and international days — founding context, UN observance years, 2025/2026 themes, and confusion-buster pairs.</div>
+          <div class="res-tool-card__tags">
+            <span class="res-tool-tag">National holidays</span>
+            <span class="res-tool-tag">UN observances</span>
+            <span class="res-tool-tag">Common traps</span>
+          </div>
+        </a>
+
+        <a href="/resources/static-gk/constitutional-provisions/" class="res-tool-card" style="--res-tool-color:#0f4c3a;">
+          <div class="res-tool-card__header">
+            <div class="res-tool-card__icon">⚖️</div>
+            <div class="res-tool-card__meta">
+              <div class="res-tool-card__title">Constitutional Provisions</div>
+              <div class="res-tool-card__subtitle">Key articles cheat sheet</div>
+            </div>
+            <span class="res-tool-card__arrow">→</span>
+          </div>
+          <div class="res-tool-card__body">Parts overview, Fundamental Rights (12–35), DPSP, Fundamental Duties, Emergency provisions, and 106 amendment landmarks.</div>
+          <div class="res-tool-card__tags">
+            <span class="res-tool-tag">Fundamental Rights</span>
+            <span class="res-tool-tag">DPSP &amp; FD</span>
+            <span class="res-tool-tag">Emergency provisions</span>
+            <span class="res-tool-tag">Key amendments</span>
+          </div>
+        </a>
+
+        <a href="/resources/static-gk/committees-commissions/" class="res-tool-card" style="--res-tool-color:#0f4c3a;">
+          <div class="res-tool-card__header">
+            <div class="res-tool-card__icon">📋</div>
+            <div class="res-tool-card__meta">
+              <div class="res-tool-card__title">Committees &amp; Commissions</div>
+              <div class="res-tool-card__subtitle">22+ committees across all GS papers</div>
+            </div>
+            <span class="res-tool-card__arrow">→</span>
+          </div>
+          <div class="res-tool-card__body">Sarkaria, Mandal, Balwant Rai Mehta, Kothari, Narasimham, Justice Verma and more — chairman, year, and key recommendations.</div>
+          <div class="res-tool-card__tags">
+            <span class="res-tool-tag">Panchayati Raj</span>
+            <span class="res-tool-tag">Centre-State</span>
+            <span class="res-tool-tag">Banking reforms</span>
+            <span class="res-tool-tag">Police reforms</span>
+          </div>
+        </a>
+
+        <a href="/resources/static-gk/constitutional-bodies/" class="res-tool-card" style="--res-tool-color:#0f4c3a;">
+          <div class="res-tool-card__header">
+            <div class="res-tool-card__icon">🏛️</div>
+            <div class="res-tool-card__meta">
+              <div class="res-tool-card__title">Constitutional &amp; Statutory Bodies</div>
+              <div class="res-tool-card__subtitle">20+ bodies — type, appointment, tenure, removal</div>
+            </div>
+            <span class="res-tool-card__arrow">→</span>
+          </div>
+          <div class="res-tool-card__body">ECI, CAG, UPSC, Finance Commission, NHRC, CVC, CIC, Lokpal, NCSC, NCST, NCBC — with key exam distinctions and comparison tables.</div>
+          <div class="res-tool-card__tags">
+            <span class="res-tool-tag">Constitutional bodies</span>
+            <span class="res-tool-tag">Statutory bodies</span>
+            <span class="res-tool-tag">Key distinctions</span>
+          </div>
+        </a>
+
+        <a href="/resources/static-gk/schedules/" class="res-tool-card" style="--res-tool-color:#0f4c3a;">
+          <div class="res-tool-card__header">
+            <div class="res-tool-card__icon">📑</div>
+            <div class="res-tool-card__meta">
+              <div class="res-tool-card__title">Schedules of the Constitution</div>
+              <div class="res-tool-card__subtitle">All 12 Schedules — key counts, traps, landmark cases</div>
+            </div>
+            <span class="res-tool-card__arrow">→</span>
+          </div>
+          <div class="res-tool-card__body">Schedule 7 lists (Union 99, State 61, Concurrent 52) · 22 languages · Anti-Defection (Sch. 10) · Panchayat 29 functions · Municipal 18 functions — with IR Coelho and Kihoto Hollohan case notes.</div>
+          <div class="res-tool-card__tags">
+            <span class="res-tool-tag">12 Schedules</span>
+            <span class="res-tool-tag">Landmark cases</span>
+            <span class="res-tool-tag">Exam traps</span>
+          </div>
+        </a>
+
+      </div>
     </div>
 
     {# ══════════════════════════════════════════════════════════
        STANDARD BOOKLIST
        ══════════════════════════════════════════════════════════ #}
-    <h2 class="section-heading">Standard Booklist</h2>
-    <p style="color:var(--color-text-muted); font-size:var(--text-sm); margin-bottom:var(--space-6);">The essentials — these are the books most toppers read. Don't over-collect; master these first.</p>
+    <div class="res-section" id="booklist">
+      <div class="res-section__header">
+        <h2 class="res-section__title">Standard Booklist</h2>
+        <span class="res-section__badge">Toppers-verified</span>
+      </div>
+      <p class="res-section__desc">The essentials — books most toppers read. Don't over-collect; master these first.</p>
 
-    <div class="syllabus-grid" style="margin-bottom:var(--space-10);">
+      <div class="res-books-grid">
 
-      <div class="syl-card" style="--syl-color:#9f1239;">
-        <div class="syl-card__head">
-          <span class="syl-card__icon">🏛️</span>
-          <div>
-            <h3 class="syl-card__title">GS Paper 1</h3>
-            <span class="syl-card__count">History, Culture, Geography, Society</span>
+        <div class="res-book-card" style="--res-book-color:#9f1239;">
+          <div class="res-book-card__header">
+            <span class="res-book-card__icon">🏛️</span>
+            <div class="res-book-card__info">
+              <div class="res-book-card__paper">GS Paper 1</div>
+              <div class="res-book-card__subject">History · Culture · Geography · Society</div>
+            </div>
           </div>
+          <ul class="res-book-list">
+            <li class="res-book-item">India's Struggle for Independence — Bipan Chandra</li>
+            <li class="res-book-item">History of Modern India — Bipan Chandra</li>
+            <li class="res-book-item">Indian Art &amp; Culture — Nitin Singhania</li>
+            <li class="res-book-item">Certificate Physical &amp; Human Geography — G.C. Leong</li>
+            <li class="res-book-item">Indian Society — Ram Ahuja</li>
+            <li class="res-book-item">Oxford School Atlas (latest edition)</li>
+          </ul>
         </div>
-        <div style="padding:var(--space-3) var(--space-4) var(--space-4);">
-          <div class="resource-book">India's Struggle for Independence — Bipan Chandra</div>
-          <div class="resource-book">History of Modern India — Bipan Chandra</div>
-          <div class="resource-book">Indian Art &amp; Culture — Nitin Singhania</div>
-          <div class="resource-book">Certificate Physical &amp; Human Geography — G.C. Leong</div>
-          <div class="resource-book">Indian Society — Ram Ahuja</div>
-          <div class="resource-book">Oxford School Atlas (latest edition)</div>
+
+        <div class="res-book-card" style="--res-book-color:#7c3aed;">
+          <div class="res-book-card__header">
+            <span class="res-book-card__icon">⚖️</span>
+            <div class="res-book-card__info">
+              <div class="res-book-card__paper">GS Paper 2</div>
+              <div class="res-book-card__subject">Polity · Governance · IR</div>
+            </div>
+          </div>
+          <ul class="res-book-list">
+            <li class="res-book-item">Indian Polity — M. Laxmikanth</li>
+            <li class="res-book-item">Governance in India — M. Laxmikanth</li>
+            <li class="res-book-item">India's Foreign Policy — Rajiv Sikri</li>
+            <li class="res-book-item">Introduction to the Constitution of India — D.D. Basu</li>
+          </ul>
         </div>
+
+        <div class="res-book-card" style="--res-book-color:#0369a1;">
+          <div class="res-book-card__header">
+            <span class="res-book-card__icon">💡</span>
+            <div class="res-book-card__info">
+              <div class="res-book-card__paper">GS Paper 3</div>
+              <div class="res-book-card__subject">Economy · S&amp;T · Environment · Security</div>
+            </div>
+          </div>
+          <ul class="res-book-list">
+            <li class="res-book-item">Indian Economy — Ramesh Singh</li>
+            <li class="res-book-item">Economic Survey (latest year)</li>
+            <li class="res-book-item">India Year Book (latest year)</li>
+            <li class="res-book-item">Science &amp; Technology — Ravi Agrahari</li>
+            <li class="res-book-item">Environment — Shankar IAS</li>
+          </ul>
+        </div>
+
+        <div class="res-book-card" style="--res-book-color:#047857;">
+          <div class="res-book-card__header">
+            <span class="res-book-card__icon">🧭</span>
+            <div class="res-book-card__info">
+              <div class="res-book-card__paper">GS Paper 4</div>
+              <div class="res-book-card__subject">Ethics · Integrity · Aptitude</div>
+            </div>
+          </div>
+          <ul class="res-book-list">
+            <li class="res-book-item">Ethics, Integrity &amp; Aptitude — Lexicon (Chronicle)</li>
+            <li class="res-book-item">2nd ARC 4th Report on Ethics in Governance</li>
+            <li class="res-book-item">Previous Year Case Studies with model answers</li>
+          </ul>
+        </div>
+
+        <div class="res-book-card" style="--res-book-color:#b45309;">
+          <div class="res-book-card__header">
+            <span class="res-book-card__icon">📖</span>
+            <div class="res-book-card__info">
+              <div class="res-book-card__paper">Foundation — NCERTs</div>
+              <div class="res-book-card__subject">Class 6–12 · Start here</div>
+            </div>
+          </div>
+          <ul class="res-book-list">
+            <li class="res-book-item">History — Old &amp; New NCERTs (Class 6–12)</li>
+            <li class="res-book-item">Geography — Class 6–12 NCERTs</li>
+            <li class="res-book-item">Indian Polity — Class 9–12 NCERTs</li>
+            <li class="res-book-item">Economics — Class 9–12 NCERTs</li>
+            <li class="res-book-item">Science — Class 6–10 NCERTs</li>
+          </ul>
+        </div>
+
       </div>
 
-      <div class="syl-card" style="--syl-color:#7c3aed;">
-        <div class="syl-card__head">
-          <span class="syl-card__icon">⚖️</span>
-          <div>
-            <h3 class="syl-card__title">GS Paper 2</h3>
-            <span class="syl-card__count">Polity, Governance, IR</span>
-          </div>
-        </div>
-        <div style="padding:var(--space-3) var(--space-4) var(--space-4);">
-          <div class="resource-book">Indian Polity — M. Laxmikanth</div>
-          <div class="resource-book">Governance in India — M. Laxmikanth</div>
-          <div class="resource-book">India's Foreign Policy — Rajiv Sikri</div>
-          <div class="resource-book">Introduction to the Constitution of India — D.D. Basu</div>
-        </div>
+      <div class="gk-note" style="margin-top:var(--space-2);">
+        <strong>Note:</strong> NCERTs are non-negotiable. They build the conceptual base that standard books assume you already have. Read them before picking up Laxmikanth or Ramesh Singh.
       </div>
-
-      <div class="syl-card" style="--syl-color:#0369a1;">
-        <div class="syl-card__head">
-          <span class="syl-card__icon">💡</span>
-          <div>
-            <h3 class="syl-card__title">GS Paper 3</h3>
-            <span class="syl-card__count">Economy, S&amp;T, Environment, Security</span>
-          </div>
-        </div>
-        <div style="padding:var(--space-3) var(--space-4) var(--space-4);">
-          <div class="resource-book">Indian Economy — Ramesh Singh</div>
-          <div class="resource-book">Economic Survey (latest year)</div>
-          <div class="resource-book">India Year Book (latest year)</div>
-          <div class="resource-book">Science &amp; Technology — Ravi Agrahari</div>
-          <div class="resource-book">Environment — Shankar IAS</div>
-        </div>
-      </div>
-
-      <div class="syl-card" style="--syl-color:#047857;">
-        <div class="syl-card__head">
-          <span class="syl-card__icon">🧭</span>
-          <div>
-            <h3 class="syl-card__title">GS Paper 4</h3>
-            <span class="syl-card__count">Ethics, Integrity &amp; Aptitude</span>
-          </div>
-        </div>
-        <div style="padding:var(--space-3) var(--space-4) var(--space-4);">
-          <div class="resource-book">Ethics, Integrity &amp; Aptitude — Lexicon (Chronicle)</div>
-          <div class="resource-book">2nd ARC 4th Report on Ethics in Governance</div>
-          <div class="resource-book">Previous Year Case Studies with model answers</div>
-        </div>
-      </div>
-
-      <div class="syl-card" style="--syl-color:#b45309;">
-        <div class="syl-card__head">
-          <span class="syl-card__icon">📖</span>
-          <div>
-            <h3 class="syl-card__title">Foundation (NCERTs)</h3>
-            <span class="syl-card__count">Class 6-12 — start here</span>
-          </div>
-        </div>
-        <div style="padding:var(--space-3) var(--space-4) var(--space-4);">
-          <div class="resource-book">History — Old &amp; New NCERTs (Class 6-12)</div>
-          <div class="resource-book">Geography — Class 6-12 NCERTs</div>
-          <div class="resource-book">Indian Polity — Class 9-12 NCERTs</div>
-          <div class="resource-book">Economics — Class 9-12 NCERTs</div>
-          <div class="resource-book">Science — Class 6-10 NCERTs</div>
-        </div>
-        <div class="syl-card__footer">NCERTs are non-negotiable. They build the conceptual base that standard books assume you have.</div>
-      </div>
-
     </div>
 
     {# ══════════════════════════════════════════════════════════
        OFFICIAL GOVERNMENT SOURCES
        ══════════════════════════════════════════════════════════ #}
-    <h2 class="section-heading">Official Government Sources</h2>
-    <p style="color:var(--color-text-muted); font-size:var(--text-sm); margin-bottom:var(--space-6);">Primary sources UPSC trusts. Use these for facts, data, and policy details in your answers.</p>
-
-    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-5); margin-bottom:var(--space-10);">
-
-      <div class="strategy-card">
-        <h4 class="strategy-card__title">PIB (Press Information Bureau)</h4>
-        <p class="strategy-card__text">Official press releases — policies, schemes, government decisions. Essential for both Prelims and Mains current affairs.</p>
+    <div class="res-section" id="official-sources">
+      <div class="res-section__header">
+        <h2 class="res-section__title">Official Government Sources</h2>
+        <span class="res-section__badge">Primary sources</span>
       </div>
+      <p class="res-section__desc">Primary sources UPSC trusts. Use these for facts, data, and policy details in your answers — they carry more authority than coaching notes.</p>
 
-      <div class="strategy-card">
-        <h4 class="strategy-card__title">PRS Legislative Research</h4>
-        <p class="strategy-card__text">Bill summaries, Parliament sessions, committee reports. The single best source for GS2 governance and polity questions.</p>
+      <div class="res-sources-grid">
+
+        <div class="res-source-card">
+          <h4 class="res-source-card__name">PIB — Press Information Bureau</h4>
+          <p class="res-source-card__desc">Official press releases — policies, schemes, government decisions. Essential for both Prelims and Mains current affairs. Read daily summaries.</p>
+        </div>
+
+        <div class="res-source-card">
+          <h4 class="res-source-card__name">PRS Legislative Research</h4>
+          <p class="res-source-card__desc">Bill summaries, Parliament sessions, committee reports. The single best source for GS2 governance and polity questions on recent legislation.</p>
+        </div>
+
+        <div class="res-source-card">
+          <h4 class="res-source-card__name">Economic Survey &amp; Union Budget</h4>
+          <p class="res-source-card__desc">Annual economic analysis by DEA. Mandatory reading for GS3 economy questions — data, trends, and policy direction. Read the overview chapters.</p>
+        </div>
+
+        <div class="res-source-card">
+          <h4 class="res-source-card__name">NITI Aayog Reports</h4>
+          <p class="res-source-card__desc">SDG India Index, State Health Index, development reports. Data-rich source for value additions in Mains answers on governance and development.</p>
+        </div>
+
+        <div class="res-source-card">
+          <h4 class="res-source-card__name">India Year Book (MII)</h4>
+          <p class="res-source-card__desc">Government publication covering all sectors — facts, figures, schemes. Direct source for Prelims factual MCQs. Especially useful for GS3 S&amp;T and defence.</p>
+        </div>
+
+        <div class="res-source-card">
+          <h4 class="res-source-card__name">Yojana &amp; Kurukshetra</h4>
+          <p class="res-source-card__desc">Government magazines with thematic deep dives on development, agriculture, governance. Great for Mains essay material and case-study examples.</p>
+        </div>
+
+        <div class="res-source-card">
+          <h4 class="res-source-card__name">IPCC &amp; Environment Reports</h4>
+          <p class="res-source-card__desc">IPCC Assessment Reports, India's Biennial Update Reports to UNFCCC, Wildlife Census data (tiger, elephant, leopard). Key for GS3 environment.</p>
+        </div>
+
+        <div class="res-source-card">
+          <h4 class="res-source-card__name">RBI Annual Report &amp; Bulletins</h4>
+          <p class="res-source-card__desc">Monetary policy, banking sector data, inflation. Essential for GS3 monetary policy questions. State of the Economy article in each monthly bulletin.</p>
+        </div>
+
+        <div class="res-source-card">
+          <h4 class="res-source-card__name">Ministry Websites &amp; Schemes</h4>
+          <p class="res-source-card__desc">Ministry of Finance, MoEFCC, MSME, Agriculture. Flagship scheme details — objectives, beneficiaries, budget. Verify facts from official scheme pages.</p>
+        </div>
+
       </div>
-
-      <div class="strategy-card">
-        <h4 class="strategy-card__title">Economic Survey &amp; Budget</h4>
-        <p class="strategy-card__text">Annual economic analysis by DEA. Mandatory reading for GS3 economy questions — data, trends, and policy direction.</p>
-      </div>
-
-      <div class="strategy-card">
-        <h4 class="strategy-card__title">NITI Aayog Reports</h4>
-        <p class="strategy-card__text">SDG India Index, State Health Index, development reports. Data-rich source for value additions in Mains answers.</p>
-      </div>
-
-      <div class="strategy-card">
-        <h4 class="strategy-card__title">India Year Book</h4>
-        <p class="strategy-card__text">Government publication covering all sectors — facts, figures, schemes. Direct source for Prelims factual MCQs.</p>
-      </div>
-
-      <div class="strategy-card">
-        <h4 class="strategy-card__title">Yojana &amp; Kurukshetra</h4>
-        <p class="strategy-card__text">Government magazines with thematic deep dives on development, agriculture, governance. Great for Mains essay material.</p>
-      </div>
-
     </div>
 
     {# ══════════════════════════════════════════════════════════
        EXAM STRATEGY
        ══════════════════════════════════════════════════════════ #}
-    <h2 class="section-heading">Exam Strategy — The 3-Phase Approach</h2>
+    <div class="res-section" id="exam-strategy">
+      <div class="res-section__header">
+        <h2 class="res-section__title">Exam Strategy</h2>
+        <span class="res-section__badge">3-Phase Approach</span>
+      </div>
+      <p class="res-section__desc">A structured preparation plan — from building the conceptual base to answer writing and final revision.</p>
 
-    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-5); margin-bottom:var(--space-6);">
+      <div class="res-strategy-grid">
 
-      <div class="strategy-card">
-        <h4 class="strategy-card__title">Phase 1 — Foundation</h4>
-        <p class="strategy-card__text">3-4 months: Read NCERTs (6-12) + standard books. Build the conceptual base for all 4 GS papers. Don't jump to answer writing yet.</p>
+        <div class="res-phase-card">
+          <div class="res-phase-card__num">1</div>
+          <div class="res-phase-card__sub">Months 1–4</div>
+          <div class="res-phase-card__title">Foundation</div>
+          <p class="res-phase-card__desc">Read NCERTs (Class 6–12) + standard books by paper. Build the conceptual base before picking up coaching material. Don't jump to answer writing yet — understanding must come first.</p>
+        </div>
+
+        <div class="res-phase-card">
+          <div class="res-phase-card__num">2</div>
+          <div class="res-phase-card__sub">Ongoing</div>
+          <div class="res-phase-card__title">Current Affairs Integration</div>
+          <p class="res-phase-card__desc">Daily newspaper reading + editorial analysis throughout the preparation. Link static notes with current events — this is what creates Mains-quality answers. Use <a href="https://ujiyari.com" target="_blank" rel="noopener" style="color:var(--color-brand);font-weight:600;">Ujiyari.com</a> for structured daily coverage.</p>
+        </div>
+
+        <div class="res-phase-card">
+          <div class="res-phase-card__num">3</div>
+          <div class="res-phase-card__sub">3–4 months before Mains</div>
+          <div class="res-phase-card__title">Answer Writing &amp; Revision</div>
+          <p class="res-phase-card__desc">Practice 2–3 answers daily under timed conditions. Revise using BharatNotes topic pages. Solve PYQs and analyse why wrong answers were wrong. Do full-length mock tests for Prelims 6 weeks before the exam.</p>
+        </div>
+
       </div>
 
-      <div class="strategy-card">
-        <h4 class="strategy-card__title">Phase 2 — Current Affairs</h4>
-        <p class="strategy-card__text">Ongoing: Daily newspaper reading + editorial analysis. Link static notes with current events. Use <a href="https://ujiyari.com" target="_blank" rel="noopener" style="color:var(--color-brand); font-weight:600;">Ujiyari.com</a> for daily coverage.</p>
+      <div class="res-section__header" style="margin-top:var(--space-8);">
+        <h3 class="res-section__title" style="font-size:var(--text-xl);">Key Habits</h3>
+      </div>
+      <p class="res-section__desc">Consistency beats volume at every stage of UPSC preparation.</p>
+
+      <div class="res-habits-grid">
+        <div class="res-habit-card">
+          <div class="res-habit-card__label">Daily</div>
+          <p class="res-habit-card__text">1 hour current affairs + 1 editorial analysis. Reading every day is non-negotiable — 1 hour daily beats 5 hours on weekends.</p>
+        </div>
+        <div class="res-habit-card">
+          <div class="res-habit-card__label">Weekly</div>
+          <p class="res-habit-card__text">2 answer writing practice sessions + 1 Prelims mock or sectional test. Review mistakes the same day, not the next week.</p>
+        </div>
+        <div class="res-habit-card">
+          <div class="res-habit-card__label">Monthly</div>
+          <p class="res-habit-card__text">Full revision of one GS paper + monthly current affairs compilation. Use BharatNotes as your revision template for static topics.</p>
+        </div>
       </div>
 
-      <div class="strategy-card">
-        <h4 class="strategy-card__title">Phase 3 — Answer Writing</h4>
-        <p class="strategy-card__text">3-4 months before Mains: Practice 2-3 answers daily. Revise using BharatNotes topic pages. Solve PYQs under timed conditions.</p>
+      <div class="gk-note" style="margin-top:var(--space-6);">
+        <strong>Prelims-specific:</strong> Solve minimum 5 years of PYQs subject-wise before the exam. Identify repeated topics (polity, environment, schemes). Static GK (<a href="/resources/static-gk/" style="color:var(--color-brand);font-weight:600;">this section</a>) gives you guaranteed marks — these facts don't change, so a one-time investment pays off in every attempt.
       </div>
-
-    </div>
-
-    <h2 class="section-heading">Key Habits</h2>
-
-    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-5); margin-bottom:var(--space-8);">
-
-      <div class="strategy-card">
-        <h4 class="strategy-card__title">Daily</h4>
-        <p class="strategy-card__text">1 hour current affairs + 1 editorial analysis. Consistency beats volume — 1 hour daily is better than 5 hours on weekends.</p>
-      </div>
-
-      <div class="strategy-card">
-        <h4 class="strategy-card__title">Weekly</h4>
-        <p class="strategy-card__text">2 answer writing practice sessions + 1 Prelims mock or sectional test. Review mistakes the same day.</p>
-      </div>
-
-      <div class="strategy-card">
-        <h4 class="strategy-card__title">Monthly</h4>
-        <p class="strategy-card__text">Full revision of one GS paper + monthly current affairs compilation. Use BharatNotes as your revision template.</p>
-      </div>
-
     </div>
 
   </div>
