@@ -1781,8 +1781,9 @@ section + section {
   .pyq-check-btn { font-size: var(--text-xs); }
   .pyq-answer-toggle { padding: var(--space-2) var(--space-3); font-size: var(--text-xs); }
   .pyq-answer { padding: var(--space-3) var(--space-4); }
-  .vocab-entry__header { flex-wrap: wrap; padding: var(--space-3) var(--space-4); }
-  .vocab-entry__brief { white-space: normal; order: 4; flex-basis: 100%; margin-top: var(--space-1); }
+  .vocab-entry__header { padding: var(--space-3) var(--space-4); }
+  .vocab-entry__term { font-size: var(--text-base); }
+  .vocab-entry__brief { white-space: nowrap; }
   .vocab-entry__body { padding: 0 var(--space-4) var(--space-4); }
   .vocab-dialog { max-width: 100%; margin: 1rem; border-radius: var(--radius-lg); }
   .footer-inner { gap: var(--space-6); }
@@ -2008,6 +2009,17 @@ a:focus-visible {
   flex-shrink: 0; transition: transform 0.2s; color: var(--color-text-muted);
 }
 .vocab-entry--expanded .vocab-entry__chevron { transform: rotate(180deg); }
+
+/* Override .article-body p cascade inside vocab entries */
+.article-body .vocab-entry p,
+.article-body .vocab-entry li {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+  margin-bottom: var(--space-1);
+  color: var(--color-text-secondary);
+}
+.article-body .vocab-entry p:last-child { margin-bottom: 0; }
 
 /* Expanded body */
 .vocab-entry__body {
