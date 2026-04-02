@@ -990,6 +990,154 @@ layout: base.njk
         });
       });
 
+      /* ── Mains Answer Writing (4d) ── */
+      var DRAFTS_KEY = 'bn_mains_drafts_v1';
+      function loadMainsDraft(qn) {
+        try { var d = JSON.parse(localStorage.getItem(DRAFTS_KEY)) || {}; return (d[pageSlug] || {})[qn] || null; }
+        catch(e) { return null; }
+      }
+      function saveMainsDraft(qn, text, submitted) {
+        try {
+          var d = JSON.parse(localStorage.getItem(DRAFTS_KEY)) || {};
+          if (!d[pageSlug]) d[pageSlug] = {};
+          d[pageSlug][qn] = { text: text, submitted: submitted, ts: Date.now() };
+          localStorage.setItem(DRAFTS_KEY, JSON.stringify(d));
+        } catch(e) {}
+      }
+      function fmtTime(s) { return Math.floor(s/60) + ':' + ('0' + (s%60)).slice(-2); }
+
+      pyqInner.querySelectorAll('.pyq-card--mains').forEach(function(card) {
+        var qn = parseInt(card.getAttribute('data-q')) || 0;
+        var qText = card.querySelector('.pyq-question-text');
+        if (!qText) return;
+        var fullText = qText.textContent;
+        var marksM = fullText.match(/(\d+(?:\.5)?)\s*marks/i);
+        var marks = marksM ? parseFloat(marksM[1]) : 0;
+        var timerSecs = marks >= 15 ? 900 : 600;
+        var targetWords = marks >= 15 ? 250 : 150;
+
+        var answerDiv = card.querySelector('.pyq-answer');
+        var toggle = card.querySelector('.pyq-answer-toggle');
+        if (!answerDiv && !toggle) return; // no model answer — skip
+
+        /* Write button */
+        var writeBtn = document.createElement('button');
+        writeBtn.className = 'pyq-write-btn';
+        writeBtn.innerHTML = '\u270D\uFE0F Practice Writing';
+
+        /* Writing zone */
+        var zone = document.createElement('div');
+        zone.className = 'pyq-write-zone';
+        var timerId = 'pwt-' + qn;
+        zone.innerHTML =
+          '<div class="pyq-write-header">' +
+            '<div class="pyq-timer" id="' + timerId + '">' + fmtTime(timerSecs) + '</div>' +
+            '<span class="pyq-write-target">~' + targetWords + ' words' + (marks ? ' \u00B7 ' + marks + ' marks' : '') + '</span>' +
+            '<button class="pyq-write-close" title="Close" type="button">\u00D7</button>' +
+          '</div>' +
+          '<textarea class="pyq-write-textarea" placeholder="Write your structured answer here...\n\nIntroduction \u2192 Body (multi-dimensional) \u2192 Conclusion"></textarea>' +
+          '<div class="pyq-write-footer">' +
+            '<span class="pyq-write-wc">0 / ' + targetWords + ' words</span>' +
+            '<button class="pyq-write-submit" type="button">Submit \u0026 See Model Answer</button>' +
+          '</div>';
+
+        var timeLeft = timerSecs;
+        var timerInterval = null;
+        var timerStarted = false;
+
+        var textarea  = zone.querySelector('.pyq-write-textarea');
+        var wcEl      = zone.querySelector('.pyq-write-wc');
+        var submitBtn = zone.querySelector('.pyq-write-submit');
+        var closeBtn  = zone.querySelector('.pyq-write-close');
+
+        function startTimer() {
+          if (timerStarted) return;
+          timerStarted = true;
+          timerInterval = setInterval(function() {
+            timeLeft--;
+            var te = document.getElementById(timerId);
+            if (te) {
+              if (timeLeft <= 0) {
+                clearInterval(timerInterval);
+                te.textContent = '\u23F1\uFE0F Time\'s up!';
+                te.className = 'pyq-timer pyq-timer--up';
+              } else {
+                te.textContent = fmtTime(timeLeft);
+                te.className = 'pyq-timer' + (timeLeft <= timerSecs * 0.2 ? ' pyq-timer--warn' : '');
+              }
+            }
+          }, 1000);
+        }
+        function stopTimer() { if (timerInterval) { clearInterval(timerInterval); timerInterval = null; } }
+
+        function countWords(str) { return str.trim().split(/\s+/).filter(function(w) { return w; }).length; }
+
+        textarea.addEventListener('input', function() {
+          startTimer();
+          var w = countWords(textarea.value);
+          wcEl.textContent = w + ' / ' + targetWords + ' words';
+          wcEl.className = 'pyq-write-wc' + (w >= targetWords ? ' pyq-write-wc--ok' : '');
+          saveMainsDraft(qn, textarea.value, false);
+        });
+
+        submitBtn.addEventListener('click', function() {
+          stopTimer();
+          saveMainsDraft(qn, textarea.value, true);
+          saveScore(qn, 'mains', -1, false);
+          // Reveal model answer
+          if (answerDiv) answerDiv.classList.add('pyq-answer--open');
+          if (toggle) { toggle.setAttribute('aria-expanded', 'true'); toggle.hidden = true; }
+          // Lock zone
+          zone.classList.add('pyq-write-zone--submitted');
+          submitBtn.textContent = '\u2713 Submitted';
+          submitBtn.disabled = true;
+          textarea.readOnly = true;
+          if (answerDiv) setTimeout(function() { answerDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }, 200);
+        });
+
+        closeBtn.addEventListener('click', function() {
+          stopTimer();
+          zone.classList.remove('pyq-write-zone--open');
+          writeBtn.hidden = false;
+        });
+
+        /* Insert into card before toggle (toggle stays hidden — writing is the path) */
+        if (toggle) {
+          toggle.hidden = true;
+          card.insertBefore(writeBtn, toggle);
+          card.insertBefore(zone, toggle);
+        } else {
+          card.appendChild(writeBtn);
+          card.appendChild(zone);
+        }
+
+        writeBtn.addEventListener('click', function() {
+          zone.classList.add('pyq-write-zone--open');
+          writeBtn.hidden = true;
+          setTimeout(function() { textarea.focus(); }, 50);
+        });
+
+        /* Restore saved state */
+        var saved = loadMainsDraft(qn);
+        if (saved && saved.text) {
+          textarea.value = saved.text;
+          var ww = countWords(saved.text);
+          wcEl.textContent = ww + ' / ' + targetWords + ' words';
+          wcEl.className = 'pyq-write-wc' + (ww >= targetWords ? ' pyq-write-wc--ok' : '');
+          if (saved.submitted) {
+            zone.classList.add('pyq-write-zone--open', 'pyq-write-zone--submitted');
+            writeBtn.hidden = true;
+            submitBtn.textContent = '\u2713 Submitted';
+            submitBtn.disabled = true;
+            textarea.readOnly = true;
+            if (answerDiv) answerDiv.classList.add('pyq-answer--open');
+            if (toggle) toggle.hidden = true;
+          } else {
+            writeBtn.innerHTML = '\u270D\uFE0F Continue Writing (' + ww + ' words saved)';
+          }
+        }
+      });
+
       /* ── Restore state from localStorage ── */
       var savedScores = loadScores();
       var savedPage = savedScores[pageSlug];
