@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "BharatNotes — Free UPSC GS Notes, syllabus-wise and exam-ready",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy && npx pagefind --site dist",
+    "start": "node --max-old-space-size=4096 node_modules/@11ty/eleventy/cmd.cjs --serve",
+    "build": "node --max-old-space-size=4096 node_modules/@11ty/eleventy/cmd.cjs && node_modules/.bin/pagefind --site dist",
     "generate-gk-pdf": "node scripts/generate-gk-pdf.js",
     "generate-og": "node scripts/generate-og-image.js",
     "generate-all-og": "node scripts/generate-all-og.js"
