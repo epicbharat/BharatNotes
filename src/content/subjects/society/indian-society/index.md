@@ -47,6 +47,7 @@ This topic is divided into **16 detailed chapters** — covering the full breadt
 | **Ch 18** | Indian Diaspora, Migration & Overseas Indians | Pravasi Bharatiya Divas, NRI, OCI, PIO status, global diaspora distribution, diaspora contributions, Pravasi Bharatiya Bima Yojana |
 | **Ch 19** | Poverty Measurement & Social Indicators | Tendulkar, Rangarajan & Multidimensional Poverty Index, SECC, social indicators, human development indices, welfare scheme outcomes |
 | **Ch 20** | Urbanisation, Housing Deficit & Slums | Urban growth trends, PMAY-Urban, slum rehabilitation, Smart Cities Mission, AMRUT 2.0, urban poverty, 74th Amendment |
+| **Ch 21** | Communalism, Secularism & Social Harmony | Bipan Chandra's 3-stage framework, Articles 25–28, S.R. Bommai 1994 (secularism = basic structure), major riots (1984/2002/2013/2020 data), NFCH (1992), BNS S.196/299, Prevention of Communal Violence Bill |
 | **Ch 22** | Dalit Rights & SC/ST Atrocities Act | Constitutional provisions (Art 15/16/17/46/338/341), PCR Act 1955, POA Act 1989, 2015 Amendment, Mahajan 2018 controversy, Davinder Singh 2024 sub-categorisation, NCRB data, welfare schemes |
 | **Ch 23** | OBC Reservation & Mandal Commission | Articles 15(4)/16(4)/340/338B, Kaka Kalelkar 1953, Mandal Commission 1980 (27% OBC), V.P. Singh 1990, Indra Sawhney 1992 (50% cap, creamy layer ₹8L), 102nd Amendment 2018, Janhit Abhiyan 2022 (EWS upheld) |
 

@@ -41,6 +41,7 @@ This topic is divided into **19 detailed chapters** covering the full spectrum o
 | **Ch 13** | Human Trafficking & Modern Slavery | Legal framework, ITPA, Trafficking Bill, rescue & rehabilitation, forced labour, child trafficking |
 | **Ch 14** | Critical Infrastructure Protection & Space Security | NCIIPC, ASAT, space debris, satellite security, critical infrastructure threats, emerging tech risks |
 | **Ch 15** | Radicalization & Counter-Radicalization | UAPA 2019, NIA, MHA CT division, ISIS recruitment in India, Kerala Operation Pigeon, Saudi MNCC, UK CHANNEL, deradicalization models |
+| **Ch 16** | Security Forces & Paramilitary — CAPF Structure & Mandate | BSF (1965, ~2.57L), CRPF (1939, ~3.31L, largest CAPF), CISF (1969), ITBP (1962, LAC), SSB (2001), NSG Black Cats (1984), SPG (1985); MHA vs MoD; AFSPA; coordination challenges; modernisation |
 | **Ch 17** | Development-Extremism Nexus | Underdevelopment as security threat, tribal displacement, LWE areas & development deficit, SAMADHAN, aspirational districts in conflict zones |
 | **Ch 18** | Emerging Tech in Security — AI Surveillance & Cyber Warfare | AI surveillance, facial recognition controversy, deepfakes, LAWS, NCIIPC, CCTNS, AFIS, Puttaswamy judgment, predictive policing |
 | **Ch 19** | Intelligence Agencies, NIA & NATGRID | IB (1887), RAW (1968, R.N. Kao), DIA (2002), NTRO (2004), NSC/NSA/NSAB, MAC, NATGRID (21 databases, fully operational 2020), NIA Act 2008, UAPA 2019 individual designation, Kargil Review Committee, Naresh Chandra Committee 2012 |
