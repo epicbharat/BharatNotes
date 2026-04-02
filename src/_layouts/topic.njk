@@ -1319,11 +1319,15 @@ layout: base.njk
           wrapper.appendChild(searchDiv);
         }
 
-        // Progress
+        // Progress + bar (C)
         var progressDiv = document.createElement('div');
         progressDiv.className = 'vocab-progress';
         progressDiv.innerHTML = '<span>' + entries.length + ' terms</span><span class="vocab-progress__count"><span class="vocab-expanded-count">0</span> / ' + entries.length + ' explored</span>';
         wrapper.appendChild(progressDiv);
+        var barWrap = document.createElement('div');
+        barWrap.className = 'vocab-progress__bar-wrap';
+        barWrap.innerHTML = '<div class="vocab-progress__bar-fill"></div>';
+        wrapper.appendChild(barWrap);
 
         var entriesDiv = document.createElement('div');
         entriesDiv.className = 'vocab-entries';
@@ -1343,10 +1347,14 @@ layout: base.njk
           header.setAttribute('role', 'button');
           header.setAttribute('aria-expanded', 'false');
           header.innerHTML =
-            '<span class="vocab-entry__term">' + entry.term + '</span>' +
-            (f.pronunciation ? '<span class="vocab-entry__pron">' + f.pronunciation + '</span>' : '') +
-            '<span class="vocab-entry__brief">' + (f.definition || '') + '</span>' +
-            '<svg class="vocab-entry__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>';
+            '<div class="vocab-entry__header-top">' +
+              '<span class="vocab-entry__term">' + entry.term + '</span>' +
+              '<svg class="vocab-entry__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>' +
+            '</div>' +
+            '<div class="vocab-entry__header-sub">' +
+              (f.pronunciation ? '<span class="vocab-entry__pron">' + f.pronunciation + '</span>' : '') +
+              '<span class="vocab-entry__brief">' + (f.definition || '') + '</span>' +
+            '</div>';
 
           // Body
           var body = document.createElement('div');
@@ -1403,11 +1411,17 @@ layout: base.njk
             body.hidden = isExpanded;
             card.classList.toggle('vocab-entry--expanded', !isExpanded);
             header.setAttribute('aria-expanded', String(!isExpanded));
-            if (!isExpanded && !card.dataset.counted) {
-              card.dataset.counted = 'true';
-              expandedCount++;
-              var cEl = wrapper.querySelector('.vocab-expanded-count');
-              if (cEl) cEl.textContent = expandedCount;
+            if (!isExpanded) {
+              card.classList.add('vocab-entry--explored'); // D: permanent explored dot
+              if (!card.dataset.counted) {
+                card.dataset.counted = 'true';
+                expandedCount++;
+                var cEl = wrapper.querySelector('.vocab-expanded-count');
+                if (cEl) cEl.textContent = expandedCount;
+                // C: update progress bar fill
+                var barFill = wrapper.querySelector('.vocab-progress__bar-fill');
+                if (barFill) barFill.style.width = Math.round((expandedCount / entries.length) * 100) + '%';
+              }
             }
           }
           header.addEventListener('click', toggleCard);
