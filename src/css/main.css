@@ -1977,9 +1977,11 @@ a:focus-visible {
 .section-card--terms .vocab-entry__header:focus-visible { outline-color: var(--color-highlight); }
 .vocab-entry__header-top {
   display: flex; align-items: center; justify-content: space-between; gap: var(--space-2);
+  min-width: 0;
 }
 .vocab-entry__header-sub {
   display: flex; align-items: baseline; gap: var(--space-3);
+  overflow: hidden; min-width: 0;
 }
 
 .vocab-entry__term {
