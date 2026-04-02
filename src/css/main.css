@@ -3751,18 +3751,24 @@ a:focus-visible {
 /* ══ STATIC GK — SIDEBAR LAYOUT ══════════════════════════════════ */
 .gk-page { padding: var(--space-8) 0 var(--space-16); }
 
-/* Two-column layout: sidebar + main */
+/* Two-column layout: main + sidebar (sidebar on right) */
 .gk-layout {
   display: grid;
-  grid-template-columns: 220px 1fr;
+  grid-template-columns: 1fr 260px;
   gap: var(--space-8);
   align-items: start;
 }
 
-/* Sticky sidebar */
+/* Sidebar on right — swap visual order without changing HTML order */
 .gk-sidebar {
+  grid-column: 2;
+  grid-row: 1;
   position: sticky;
   top: 1.5rem;
+}
+.gk-main {
+  grid-column: 1;
+  grid-row: 1;
 }
 
 /* Profile card: reuses .ncert-author-card from line ~1228 */
