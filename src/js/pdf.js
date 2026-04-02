@@ -93,24 +93,34 @@
       el.remove();
     });
 
-    // 4. Mark section-card divs for PDF type styling — keep the wrapper so boxes render
+    // 4. Mark section-card divs + inject section labels + keep wrapper
+    var sectionLabelMap = {
+      "section-card--upsc":  { type: "upsc",  label: "Prelims Focus" },
+      "section-card--mains": { type: "mains", label: "Mains Focus" },
+      "section-card--pyq":   { type: "pyq",   label: "Previous Year Questions" },
+      "section-card--news":  { type: "news",  label: "In the News" },
+      "section-card--vocab": { type: "vocab", label: "Key Vocabulary" },
+      "section-card--terms": { type: "terms", label: "Key Terms" }
+    };
     clone.querySelectorAll(".section-card").forEach(function (card) {
+      var matched = null;
+      Object.keys(sectionLabelMap).forEach(function(cls) {
+        if (card.classList.contains(cls)) matched = sectionLabelMap[cls];
+      });
       var h2 = card.querySelector("h2");
-      if (h2) {
-        if (card.classList.contains("section-card--upsc")) {
-          h2.setAttribute("data-pdf-type", "upsc");
-        } else if (card.classList.contains("section-card--pyq")) {
-          h2.setAttribute("data-pdf-type", "pyq");
-        } else if (card.classList.contains("section-card--news")) {
-          h2.setAttribute("data-pdf-type", "news");
-        } else if (card.classList.contains("section-card--vocab")) {
-          h2.setAttribute("data-pdf-type", "vocab");
-        } else if (card.classList.contains("section-card--terms")) {
-          h2.setAttribute("data-pdf-type", "terms");
-        }
+      if (h2 && matched) h2.setAttribute("data-pdf-type", matched.type);
+      if (matched) {
+        var lbl = document.createElement("div");
+        lbl.className = "sec-lbl sec-lbl--" + matched.type;
+        lbl.textContent = matched.label;
+        card.parentNode.insertBefore(lbl, card);
       }
-      // Strip website-specific inline styles but keep the element
       card.removeAttribute("style");
+    });
+
+    // 4b. Ensure every H2 has an ID for TOC anchor links
+    clone.querySelectorAll("h2").forEach(function(h2, i) {
+      if (!h2.id) h2.id = "pdf-h" + i;
     });
 
     // 5. Mark PART dividers (## PART 1 —) for page-break-before in PDF
@@ -227,15 +237,40 @@
     /* ──────────────────────
        CSS — Oxford Academic
        ────────────────────── */
+    var safeTitleForCSS = titleText.replace(/\\/g,"\\\\").replace(/'/g,"\\'").substring(0, 60);
+    var pageUrl = window.location.href;
+
     var css = [
       /* Reset & page */
       "*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }",
-      "@page { size:A4; margin:22mm 20mm 24mm 20mm; }",
-      "@page :first { margin:0; }",
-      "@page backpage { margin:0; }",
+      /* Running page numbers + site attribution in footer margin */
+      "@page { size:A4; margin:22mm 20mm 26mm 20mm; @bottom-left { content:'bharatnotes.com'; font-family:'Inter',sans-serif; font-size:6.5pt; color:#bbb; letter-spacing:0.06em; } @bottom-center { content:'" + safeTitleForCSS + "'; font-family:'Inter',sans-serif; font-size:6pt; color:#ccc; } @bottom-right { content:counter(page) ' / ' counter(pages); font-family:'Inter',sans-serif; font-size:6.5pt; color:#999; } }",
+      "@page :first { margin:0; @bottom-left{content:none} @bottom-center{content:none} @bottom-right{content:none} }",
+      "@page toc { margin:22mm 20mm 26mm 20mm; @bottom-left{content:none} @bottom-center{content:none} @bottom-right{content:none} }",
+      "@page backpage { margin:0; @bottom-left{content:none} @bottom-center{content:none} @bottom-right{content:none} }",
 
       /* Base typography — Crimson Pro (Oxford academic style) */
       "body { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:12.5pt; line-height:1.72; color:#1a1a1a; background:#fff; }",
+
+      /* ─── TOC PAGE ─── */
+      ".toc-pg { page:toc; page-break-after:always; padding:28mm 28mm 20mm; }",
+      ".toc-pg__eyebrow { font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:#999; margin-bottom:10px; }",
+      ".toc-pg__title { font-family:'Crimson Pro','Georgia',serif; font-size:28pt; font-weight:400; color:#1a1a1a; border-bottom:2px solid #1a1a1a; padding-bottom:10px; margin-bottom:24px; letter-spacing:-0.01em; }",
+      ".toc-pg__list { list-style:none; padding:0; margin:0; }",
+      ".toc-e { display:flex; align-items:baseline; gap:10px; padding:9px 0; border-bottom:0.5px solid #eee; page-break-inside:avoid; }",
+      ".toc-e__num { font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:700; color:#bbb; flex-shrink:0; min-width:18px; }",
+      ".toc-e__title { font-family:'Crimson Pro','Georgia',serif; font-size:13pt; color:#1a1a1a; text-decoration:none; flex:1; line-height:1.4; }",
+      ".toc-e__title:hover { text-decoration:underline; }",
+      ".toc-e__tag { font-family:'Inter',sans-serif; font-size:6.5pt; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#999; flex-shrink:0; padding:2px 6px; border:0.5px solid #ddd; border-radius:2px; }",
+
+      /* ─── SECTION LABELS ─── */
+      ".sec-lbl { font-family:'Inter',sans-serif; font-size:7pt; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:#999; border-top:1.5px solid #eee; padding-top:20px; margin:28px 0 -10px; }",
+      ".sec-lbl--upsc { color:#1a1a1a; border-top-color:#1a1a1a; }",
+      ".sec-lbl--mains { color:#333; border-top-color:#444; }",
+      ".sec-lbl--pyq { color:#555; border-top-color:#888; }",
+      ".sec-lbl--vocab { color:#444; border-top-color:#666; }",
+      ".sec-lbl--terms { color:#444; border-top-color:#666; }",
+      ".sec-lbl--news { color:#555; border-top-color:#888; }",
 
       /* ─── TITLE PAGE ─── */
       ".tp { width:210mm; height:297mm; display:flex; flex-direction:column; padding:0; page-break-after:always; position:relative; overflow:hidden; }",
@@ -265,7 +300,7 @@
       ".tp-ujiyari-btn { flex-shrink:0; display:inline-block; padding:6px 14px; font-family:'Inter',sans-serif; font-size:7pt; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:#92400e; background:#fff; border:1.5px solid #d97706; border-radius:4px; text-decoration:none; }",
 
       /* ─── CONTENT ─── */
-      ".ct { padding:0; }",
+      ".ct { padding:0; max-width:152mm; }",
       ".ct h1 { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:24.5pt; font-weight:600; color:#1a1a1a; margin-bottom:6px; line-height:1.2; letter-spacing:-0.01em; }",
       ".ct-sub { font-family:'Inter',sans-serif; font-size:9pt; color:#888; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:20px; padding-bottom:16px; border-bottom:1px solid #1a1a1a; }",
 
@@ -285,8 +320,11 @@
       ".ct h3 { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:15pt; font-weight:400; font-style:italic; color:#333; margin:26px 0 8px; page-break-after:avoid; break-after:avoid; }",
       ".ct h4 { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:11pt; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:#444; margin:22px 0 6px; page-break-after:avoid; break-after:avoid; }",
 
-      /* Body text — widows/orphans control */
-      ".ct p { margin-bottom:10px; text-align:justify; hyphens:auto; widows:2; orphans:2; }",
+      /* Body text — first-line indent (academic style) + drop cap on opening para */
+      ".ct p { margin-bottom:6px; text-align:justify; hyphens:auto; widows:2; orphans:2; }",
+      ".ct p + p { text-indent:1.6em; margin-bottom:0; }",
+      ".ct-sub + p::first-letter, .ct-sub + p + p::first-letter { float:left; font-family:'Crimson Pro','Georgia',serif; font-size:3.8em; line-height:0.78; padding-right:5px; padding-top:4px; color:#1a1a1a; font-weight:400; }",
+      ".ct-sub + p { text-indent:0 !important; }",
       ".ct h2 + p, .ct h3 + p, .ct h4 + p { page-break-before:avoid; break-before:avoid; }",
       ".ct ul, .ct ol { margin:0 0 12px 20px; page-break-inside:avoid; break-inside:avoid; }",
       ".ct li { margin-bottom:4px; }",
@@ -408,6 +446,13 @@
       ".bp-ad-desc { font-size:8.5pt; color:#777; line-height:1.5; }",
       ".bp-ad-cta { flex-shrink:0; padding:7px 16px; font-family:'Inter',sans-serif; font-size:7pt; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:#555; background:#fff; border:1.5px solid #ccc; border-radius:4px; text-decoration:none; }",
 
+      /* QR codes */
+      ".qr-row { display:flex; gap:28px; align-items:flex-start; margin-bottom:24px; }",
+      ".qr-item { display:flex; flex-direction:column; align-items:center; gap:6px; }",
+      ".qr-item img { width:80px; height:80px; display:block; border:1px solid #e2e8f0; border-radius:4px; }",
+      ".qr-item__label { font-family:'Inter',sans-serif; font-size:7pt; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:#999; text-align:center; }",
+      ".qr-item__url { font-family:'Inter',sans-serif; font-size:6.5pt; color:#bbb; text-align:center; }",
+
       /* Footer */
       ".bp-footer { margin-top:auto; text-align:center; padding-top:16px; border-top:1px solid #e2e8f0; }",
       ".bp-disc { font-size:7.5pt; color:#bbb; line-height:1.7; margin-bottom:6px; }",
@@ -419,7 +464,27 @@
        ────────────── */
     var photoSrc = authorPhotoB64 || "";
 
-    /* No mid-content brand injection — keeps the PDF clean and editorial */
+    /* Build TOC from H2s (IDs already set in cleanClone) */
+    var tocEntries = [];
+    clone.querySelectorAll("h2").forEach(function(h2, i) {
+      var text = h2.textContent.trim();
+      if (!text) return;
+      var type = h2.getAttribute("data-pdf-type") || "";
+      var tagMap = { upsc:"Prelims", mains:"Mains", pyq:"PYQ", vocab:"Vocab", terms:"Terms", news:"News" };
+      tocEntries.push({ id: h2.id, text: text, tag: tagMap[type] || "" });
+    });
+    var tocInnerHTML = tocEntries.map(function(e, i) {
+      return '<li class="toc-e">' +
+        '<span class="toc-e__num">' + (i + 1) + '</span>' +
+        '<a href="#' + e.id + '" class="toc-e__title">' + e.text + '</a>' +
+        (e.tag ? '<span class="toc-e__tag">' + e.tag + '</span>' : '') +
+        '</li>';
+    }).join('');
+
+    /* QR code URLs */
+    var qrBN  = "https://chart.googleapis.com/chart?chs=80x80&cht=qr&choe=UTF-8&chl=" + encodeURIComponent("https://bharatnotes.com");
+    var qrUJ  = "https://chart.googleapis.com/chart?chs=80x80&cht=qr&choe=UTF-8&chl=" + encodeURIComponent("https://ujiyari.com");
+    var qrPage = "https://chart.googleapis.com/chart?chs=80x80&cht=qr&choe=UTF-8&chl=" + encodeURIComponent(pageUrl);
 
     var descEl = isNcert
       ? document.querySelector(".ncert-header__subtitle")
@@ -463,6 +528,15 @@
           '</div>' +
         '</div>' +
       '</div>' +
+
+      /* ═══ TABLE OF CONTENTS ═══ */
+      (tocEntries.length > 2 ?
+        '<div class="toc-pg">' +
+          '<div class="toc-pg__eyebrow">BharatNotes &middot; ' + paperText + '</div>' +
+          '<h2 class="toc-pg__title">Contents</h2>' +
+          '<ol class="toc-pg__list">' + tocInnerHTML + '</ol>' +
+        '</div>'
+      : '') +
 
       /* ═══ CONTENT ═══ */
       '<div class="ct">' +
@@ -510,6 +584,18 @@
               '<span class="bp-feat">Mains Practice</span>' +
             '</div>' +
             '<span class="bp-site-btn bp-site-btn--accent">ujiyari.com &rarr;</span>' +
+          '</div>' +
+        '</div>' +
+        '<div class="qr-row">' +
+          '<div class="qr-item">' +
+            '<img src="' + qrPage + '" width="80" height="80" alt="">' +
+            '<div class="qr-item__label">This Article</div>' +
+            '<div class="qr-item__url">bharatnotes.com</div>' +
+          '</div>' +
+          '<div class="qr-item">' +
+            '<img src="' + qrUJ + '" width="80" height="80" alt="">' +
+            '<div class="qr-item__label">Current Affairs</div>' +
+            '<div class="qr-item__url">ujiyari.com</div>' +
           '</div>' +
         '</div>' +
         '<div class="bp-ad">' +
