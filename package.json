@@ -5,7 +5,8 @@
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy && npx pagefind --site dist",
-    "generate-gk-pdf": "node scripts/generate-gk-pdf.js"
+    "generate-gk-pdf": "node scripts/generate-gk-pdf.js",
+    "generate-og": "node scripts/generate-og-image.js"
   },
   "keywords": [
     "upsc",
