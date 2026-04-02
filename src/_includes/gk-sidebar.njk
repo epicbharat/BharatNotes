@@ -1,11 +1,26 @@
 {# ══ STATIC GK SIDEBAR — include in every static-gk page ══ #}
 {# Uses page.url (Eleventy built-in) to auto-highlight the active link. #}
 
-<div class="gk-profile-card">
-  <div class="gk-profile-card__avatar">BC</div>
-  <div class="gk-profile-card__name">Bharat Choudhary</div>
-  <div class="gk-profile-card__sub">BharatNotes.com</div>
-  <div class="gk-profile-card__tag">UPSC GS Prep</div>
+<div class="ncert-author-card" style="margin-bottom:0.625rem;">
+  <div class="ncert-author-card__header">
+    <img class="ncert-author-card__photo" src="/img/bharat-choudhary.png" alt="Bharat Choudhary" loading="lazy">
+    <div>
+      <div class="ncert-author-card__name">Bharat Choudhary</div>
+      <div class="ncert-author-card__role">UPSC Educator &amp; Content Creator</div>
+    </div>
+  </div>
+  <div class="ncert-author-card__sites">
+    <a href="https://bharatnotes.com" class="ncert-author-card__site" target="_blank" rel="noopener">
+      <div class="ncert-author-card__site-badge ncert-author-card__site-badge--bn">B</div>
+      <span class="ncert-author-card__site-name">BharatNotes</span>
+      <span class="ncert-author-card__site-desc">GS Notes</span>
+    </a>
+    <a href="https://ujiyari.com" class="ncert-author-card__site" target="_blank" rel="noopener">
+      <div class="ncert-author-card__site-badge ncert-author-card__site-badge--uj">U</div>
+      <span class="ncert-author-card__site-name">Ujiyari</span>
+      <span class="ncert-author-card__site-desc">Current Affairs</span>
+    </a>
+  </div>
 </div>
 
 <nav class="gk-sidenav" aria-label="Static GK chapters">

@@ -3765,51 +3765,7 @@ a:focus-visible {
   top: 1.5rem;
 }
 
-/* Profile card */
-.gk-profile-card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  padding: 1.25rem 1rem;
-  text-align: center;
-  margin-bottom: 0.625rem;
-}
-.gk-profile-card__avatar {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  background: #0f4c3a;
-  color: #fff;
-  font-size: 1.1rem;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 0.75rem;
-  letter-spacing: 0.02em;
-}
-.gk-profile-card__name {
-  font-size: 0.875rem;
-  font-weight: 700;
-  color: var(--color-text);
-  margin-bottom: 0.15rem;
-}
-.gk-profile-card__sub {
-  font-size: 0.72rem;
-  color: var(--color-text-muted);
-  margin-bottom: 0.5rem;
-}
-.gk-profile-card__tag {
-  display: inline-block;
-  font-size: 0.65rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  background: rgba(15,76,58,0.1);
-  color: #0f4c3a;
-  border-radius: 999px;
-  padding: 0.2rem 0.65rem;
-}
+/* Profile card: reuses .ncert-author-card from line ~1228 */
 
 /* Sidebar nav */
 .gk-sidenav {
