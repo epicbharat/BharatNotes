@@ -4,7 +4,8 @@
   "description": "BharatNotes — Free UPSC GS Notes, syllabus-wise and exam-ready",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy && npx pagefind --site dist"
+    "build": "npx @11ty/eleventy && npx pagefind --site dist",
+    "generate-gk-pdf": "node scripts/generate-gk-pdf.js"
   },
   "keywords": [
     "upsc",
@@ -19,5 +20,8 @@
     "markdown-it-container": "^4.0.0",
     "marked": "^17.0.5",
     "pagefind": "^1.4.0"
+  },
+  "devDependencies": {
+    "pdf-lib": "^1.17.1"
   }
 }
