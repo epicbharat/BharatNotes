@@ -20,11 +20,11 @@ eleventyComputed:
     <div style="display:flex; align-items:center; gap:var(--space-3); margin-bottom:var(--space-3);">
       <span style="font-size:2.5rem;">{{ subj.icon }}</span>
       <div>
-        <p class="page-header__eyebrow">
+        <div style="display:flex; gap:var(--space-2); flex-wrap:wrap; margin-bottom:var(--space-2);">
           {% for paper in subj.gs_papers %}
-          <span class="gs-badge gs-badge--{{ paper }}" style="font-size:0.65rem;">{{ paper | upper }}</span>
+          <span class="gs-badge gs-badge--{{ paper }}">{{ paper | upper }}</span>
           {% endfor %}
-        </p>
+        </div>
         <h1 class="page-header__title">{{ subj.name }}</h1>
       </div>
     </div>
@@ -32,13 +32,13 @@ eleventyComputed:
   </div>
 </section>
 
-<section style="padding:var(--space-8) 0;">
+<section style="padding:var(--space-10) 0; background:var(--color-bg-alt);">
   <div class="container">
 
     <!-- Syllabus sections -->
     {% for sectionName in subj.syllabus_sections %}
     <div class="subject-section">
-      <h2 class="subject-section__heading" style="border-bottom-color:{{ subj.color }};">{{ sectionName }}</h2>
+      <h2 class="subject-section__heading">{{ sectionName }}</h2>
 
       {# Find topics matching this subject AND this syllabus section, sorted by chapter #}
       {% set topicList = [] %}

@@ -118,6 +118,61 @@
   </script>
   {% endif %}
 
+  {% if layout == 'topic.njk' and description %}
+  {%- set _faqDesc = description | truncate(300) | replace('"', '&quot;') -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is {{ title }} in UPSC context?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ _faqDesc | safe }}"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How is {{ title }} relevant for UPSC Prelims and Mains?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ title }} is an important topic under {% if syllabus_topic %}{{ syllabus_topic }}{% else %}the UPSC Civil Services syllabus{% endif %}. It appears in both Prelims objective questions and Mains analytical questions. Aspirants should understand the conceptual framework, key provisions, and current developments related to {{ title }} for comprehensive exam preparation."
+        }
+      }{% if faqs %}{% for faq in faqs %},
+      {
+        "@type": "Question",
+        "name": {{ faq.question | dump | safe }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ faq.answer | dump | safe }}
+        }
+      }{% endfor %}{% endif %}
+    ]
+  }
+  </script>
+  {% endif %}
+
+  {% if '/quiz/' in page.url %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": {% if title %}{{ title | dump | safe }}{% else %}"UPSC Prelims PYQ Practice — BharatNotes"{% endif %},
+    "description": {{ pageDesc | dump | safe }},
+    "url": "{{ pageUrl }}",
+    "educationalUse": "Practice",
+    "educationalLevel": "Higher Education",
+    "isAccessibleForFree": true,
+    "inLanguage": "en-IN",
+    "about": {"@type": "Thing", "name": "UPSC Civil Services Examination — Prelims"},
+    "audience": {"@type": "EducationalAudience", "educationalRole": "student", "audienceType": "UPSC aspirants"},
+    "publisher": {"@type": "Organization", "name": "BharatNotes", "url": "{{ site.url }}"}
+  }
+  </script>
+  {% endif %}
+
   <!-- Favicon & PWA -->
   <link rel="icon" type="image/png" href="/images/logos/bharatnotes-logo.png">
   <link rel="apple-touch-icon" href="/images/logos/bharatnotes-logo.png">
@@ -128,7 +183,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
 
   <!-- Styles -->
   <link rel="stylesheet" href="/css/main.css?v={{ site.buildTime }}">

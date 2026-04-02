@@ -264,16 +264,26 @@ layout: base.njk
 
         <!-- More in this subject -->
         {% if subjectData %}
-        <div class="card" style="margin-bottom:var(--space-5);">
-          <h4 style="color:var(--color-brand); font-size:var(--text-xs); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:var(--space-3);">More in {{ subjectData.name }}</h4>
-          {% set siblings = collections.allTopics | selectattr("data.subject", "equalto", subject) | sort(false, false, "data.chapter") %}
-          {% for sibling in siblings | limit(8) %}
-          {% if sibling.url != page.url %}
-          <a href="{{ sibling.url }}" style="display:block; font-size:var(--text-xs); padding:var(--space-1) 0; color:var(--color-text-muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{{ sibling.data.title }}</a>
-          {% endif %}
-          {% endfor %}
-          <a href="/subjects/{{ subject }}/" style="display:block; font-size:var(--text-xs); padding:var(--space-2) 0; color:var(--color-brand-light); font-weight:var(--font-semibold);">View all →</a>
+        {% set siblings = collections.allTopics | selectattr("data.subject", "equalto", subject) | sort(false, false, "data.chapter") %}
+        {% if siblings.length > 1 %}
+        <div class="card sidebar-more-in">
+          <div class="sidebar-more-in__head">
+            <span class="sidebar-more-in__icon">{{ subjectData.icon }}</span>
+            <span class="sidebar-more-in__label">More in {{ subjectData.name }}</span>
+          </div>
+          <ul class="sidebar-more-in__list">
+            {% for sibling in siblings | limit(7) %}
+            {% if sibling.url != page.url %}
+            <li class="sidebar-more-in__item">
+              {% if sibling.data.chapter %}<span class="sidebar-more-in__ch">{{ sibling.data.chapter | string | padStart(2, "0") }}</span>{% endif %}
+              <a href="{{ sibling.url }}" class="sidebar-more-in__link">{{ sibling.data.title }}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+          <a href="/subjects/{{ subject }}/" class="sidebar-more-in__all">View all chapters →</a>
         </div>
+        {% endif %}
         {% endif %}
 
         <!-- Current Affairs from Ujiyari -->

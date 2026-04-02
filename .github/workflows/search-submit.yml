@@ -1,0 +1,53 @@
+name: Submit to Search Engines
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Google Sitemap
+        run: |
+          echo "Pinging Google sitemap..."
+          curl -s "https://www.google.com/ping?sitemap=https://bharatnotes.com/sitemap.xml" -o /dev/null -w "Google ping: HTTP %{http_code}\n"
+
+      - name: Submit to IndexNow (Bing / Yandex)
+        run: |
+          echo "Submitting to IndexNow..."
+          curl -s -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d '{
+              "host": "bharatnotes.com",
+              "key": "5d5fe90cd9c74acf842fb4de7d2bb154",
+              "keyLocation": "https://bharatnotes.com/5d5fe90cd9c74acf842fb4de7d2bb154.txt",
+              "urlList": [
+                "https://bharatnotes.com/",
+                "https://bharatnotes.com/subjects/",
+                "https://bharatnotes.com/quiz/",
+                "https://bharatnotes.com/pyq/",
+                "https://bharatnotes.com/gs1/",
+                "https://bharatnotes.com/gs2/",
+                "https://bharatnotes.com/gs3/",
+                "https://bharatnotes.com/gs4/",
+                "https://bharatnotes.com/essay/",
+                "https://bharatnotes.com/start-here/",
+                "https://bharatnotes.com/subjects/polity/",
+                "https://bharatnotes.com/subjects/economy/",
+                "https://bharatnotes.com/subjects/geography/",
+                "https://bharatnotes.com/subjects/history-culture/",
+                "https://bharatnotes.com/subjects/environment/",
+                "https://bharatnotes.com/subjects/science-tech/",
+                "https://bharatnotes.com/subjects/international-relations/",
+                "https://bharatnotes.com/subjects/society/",
+                "https://bharatnotes.com/subjects/security/",
+                "https://bharatnotes.com/subjects/disaster-management/",
+                "https://bharatnotes.com/quiz/polity/",
+                "https://bharatnotes.com/quiz/economy/",
+                "https://bharatnotes.com/quiz/geography/",
+                "https://bharatnotes.com/quiz/history-culture/",
+                "https://bharatnotes.com/quiz/environment/"
+              ]
+            }' \
+            -w "\nIndexNow: HTTP %{http_code}\n"
