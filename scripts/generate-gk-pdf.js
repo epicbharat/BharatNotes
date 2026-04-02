@@ -337,7 +337,7 @@ function buildCSS() {
 
 function buildTitlePage(photoSrc, logoSrc) {
   const logoHTML = logoSrc
-    ? `<img src="${logoSrc}" alt="BharatNotes" width="90" height="90" style="display:block;border-radius:50%;">`
+    ? `<img src="${logoSrc}" alt="BharatNotes" width="130" height="130" style="display:block;border-radius:50%;">`
     : `<div class="tp-logo">Bharat<span>Notes</span></div>`;
 
   return `
