@@ -1095,6 +1095,7 @@ a.card:hover { text-decoration: none; }
   border-radius: var(--radius-lg);
   overflow: hidden;
   background: var(--color-surface);
+  margin-bottom: var(--space-5);
 }
 .sidebar-qr-card__inner {
   display: flex;
