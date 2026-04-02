@@ -277,26 +277,25 @@ layout: base.njk
         {% endif %}
 
         <!-- Current Affairs from Ujiyari -->
-        <div class="card">
-          <h4 style="color:var(--color-brand); font-size:var(--text-xs); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:var(--space-3);">📰 Current Affairs</h4>
-          <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin-bottom:var(--space-3);">Link static concepts with live news from Ujiyari.com</p>
-          <a href="https://ujiyari.com/subjects/{{ subject }}/" class="btn btn--accent btn--sm" target="_blank" style="width:100%; justify-content:center; margin-bottom:var(--space-2);">{{ subjectData.name if subjectData else 'Subject' }} News →</a>
-          <a href="https://ujiyari.com/editorials/" class="btn btn--ghost btn--sm" target="_blank" style="width:100%; justify-content:center; margin-bottom:var(--space-2);">Editorial Analysis →</a>
-          <a href="https://ujiyari.com/daily/" class="btn btn--ghost btn--sm" target="_blank" style="width:100%; justify-content:center;">Daily Updates →</a>
+        <div class="card sidebar-ujiyari">
+          <h4 class="sidebar-ujiyari__heading">Current Affairs</h4>
+          <a href="https://ujiyari.com/subjects/{{ subject }}/" class="btn btn--accent btn--sm sidebar-ujiyari__primary" target="_blank">{{ subjectData.name if subjectData else 'Subject' }} News →</a>
+          <div class="sidebar-ujiyari__secondary">
+            <a href="https://ujiyari.com/editorials/" class="sidebar-ujiyari__link" target="_blank">Editorials →</a>
+            <a href="https://ujiyari.com/daily/" class="sidebar-ujiyari__link" target="_blank">Daily Updates →</a>
+          </div>
         </div>
 
         <!-- Read on Phone — QR code for current page -->
-        <div class="sidebar-qr-card" id="sidebar-qr-card" style="margin-bottom:var(--space-5);">
-          <div class="sidebar-qr-card__inner">
-            <div id="sidebar-qr-img" class="sidebar-qr-card__qr"></div>
-            <div class="sidebar-qr-card__meta">
-              <span class="sidebar-qr-card__label">
-                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:-1px;"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12" y2="18" stroke-width="3"/></svg>
-                Read on Phone
-              </span>
-              <p class="sidebar-qr-card__hint">Scan to open this article on any device</p>
-              <span class="sidebar-qr-card__url" id="sidebar-qr-url"></span>
-            </div>
+        <div class="sidebar-qr-card" id="sidebar-qr-card">
+          <div class="sidebar-qr-card__qr" id="sidebar-qr-img"></div>
+          <div class="sidebar-qr-card__meta">
+            <span class="sidebar-qr-card__label">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><polyline points="12 18 12 18"/></svg>
+              Read on Phone
+            </span>
+            <p class="sidebar-qr-card__hint">Scan to open on any device</p>
+            <span class="sidebar-qr-card__url">bharatnotes.com</span>
           </div>
         </div>
 
@@ -319,17 +318,13 @@ layout: base.njk
     var el = document.getElementById('sidebar-qr-img');
     if (!el) return;
     var url = window.location.href;
-    var shortUrl = url.replace(/^https?:\/\//, '').replace(/\/$/, '');
-    if (shortUrl.length > 38) shortUrl = shortUrl.substring(0, 36) + '…';
-    var urlLabel = document.getElementById('sidebar-qr-url');
-    if (urlLabel) urlLabel.textContent = shortUrl;
-    var qrSrc = 'https://api.qrserver.com/v1/create-qr-code/?size=84x84&format=png&margin=10&data=' + encodeURIComponent(url);
+    var qrSrc = 'https://api.qrserver.com/v1/create-qr-code/?size=110x110&format=png&margin=8&data=' + encodeURIComponent(url);
     var link = document.createElement('a');
     link.href = url;
     link.title = 'Open this article';
     var img = document.createElement('img');
     img.src = qrSrc;
-    img.width = 84; img.height = 84;
+    img.width = 110; img.height = 110;
     img.alt = 'QR code for this article';
     img.onerror = function() { document.getElementById('sidebar-qr-card').style.display = 'none'; };
     link.appendChild(img);
