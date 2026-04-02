@@ -323,13 +323,13 @@ layout: base.njk
     if (shortUrl.length > 38) shortUrl = shortUrl.substring(0, 36) + '…';
     var urlLabel = document.getElementById('sidebar-qr-url');
     if (urlLabel) urlLabel.textContent = shortUrl;
-    var qrSrc = 'https://api.qrserver.com/v1/create-qr-code/?size=88x88&format=png&margin=4&data=' + encodeURIComponent(url);
+    var qrSrc = 'https://api.qrserver.com/v1/create-qr-code/?size=84x84&format=png&margin=10&data=' + encodeURIComponent(url);
     var link = document.createElement('a');
     link.href = url;
     link.title = 'Open this article';
     var img = document.createElement('img');
     img.src = qrSrc;
-    img.width = 88; img.height = 88;
+    img.width = 84; img.height = 84;
     img.alt = 'QR code for this article';
     img.onerror = function() { document.getElementById('sidebar-qr-card').style.display = 'none'; };
     link.appendChild(img);
