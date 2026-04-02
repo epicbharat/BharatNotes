@@ -1,6 +1,7 @@
 {# ══ STATIC GK SIDEBAR — include in every static-gk page ══ #}
 {# Uses page.url (Eleventy built-in) to auto-highlight the active link. #}
 
+{# ── Author Profile ── #}
 <div class="ncert-author-card" style="margin-bottom:0.625rem;">
   <div class="ncert-author-card__header">
     <img class="ncert-author-card__photo" src="/img/bharat-choudhary.png" alt="Bharat Choudhary" loading="lazy">
@@ -23,12 +24,31 @@
   </div>
 </div>
 
+{# ── Download PDF ── #}
+<div class="card" style="margin-bottom:0.625rem;padding:var(--space-4);">
+  <button onclick="window.print()" class="btn btn--primary" style="width:100%;justify-content:center;gap:8px;min-height:44px;font-size:var(--text-sm);border-radius:10px;touch-action:manipulation;">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="flex-shrink:0;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+    Download / Print
+  </button>
+  <p style="font-size:var(--text-xs);color:var(--color-text-muted);margin-top:var(--space-2);text-align:center;line-height:1.4;">Print-ready · save as PDF from browser</p>
+</div>
+
+{# ── Practice & Prepare ── #}
+<div class="card" style="margin-bottom:0.625rem;padding:var(--space-4);">
+  <h4 style="color:var(--color-brand);font-size:var(--text-xs);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:var(--space-3);">Practice &amp; Prepare</h4>
+  <a href="/resources/" class="btn btn--ghost btn--sm" style="width:100%;justify-content:center;margin-bottom:var(--space-2);">📚 All Resources</a>
+  <a href="/prelims/" class="btn btn--ghost btn--sm" style="width:100%;justify-content:center;margin-bottom:var(--space-2);">🎯 Prelims Practice</a>
+  <a href="/mains/" class="btn btn--ghost btn--sm" style="width:100%;justify-content:center;margin-bottom:var(--space-2);">✍️ Mains Practice</a>
+  <a href="/pyq/" class="btn btn--ghost btn--sm" style="width:100%;justify-content:center;">📝 PYQ Analysis</a>
+</div>
+
+{# ── Chapter Navigation ── #}
 <nav class="gk-sidenav" aria-label="Static GK chapters">
-  <div class="gk-sidenav__group-label">Static GK</div>
+  <div class="gk-sidenav__group-label">Static GK — All Chapters</div>
 
   <a href="/resources/static-gk/"
     {% if page.url == '/resources/static-gk/' %}aria-current="page"{% endif %}>
-    🗂️ Hub — All Chapters
+    🗂️ Hub — Overview
   </a>
 
   <div class="gk-sidenav__divider">Polity &amp; Constitution</div>
@@ -58,12 +78,14 @@
     📊 Five Year Plans &amp; NITI Aayog
   </a>
 
-  <div class="gk-sidenav__divider">India — Facts &amp; Identity</div>
+  <div class="gk-sidenav__divider">History &amp; Governance</div>
 
   <a href="/resources/static-gk/viceroys-governors-general/"
     {% if page.url == '/resources/static-gk/viceroys-governors-general/' %}aria-current="page"{% endif %}>
     🏰 Viceroys &amp; Governors-General
   </a>
+
+  <div class="gk-sidenav__divider">India — Facts &amp; Identity</div>
 
   <a href="/resources/static-gk/bharat-ratna/"
     {% if page.url == '/resources/static-gk/bharat-ratna/' %}aria-current="page"{% endif %}>
@@ -97,14 +119,26 @@
 
   <div class="gk-sidenav__divider">Language &amp; Culture</div>
 
+  <a href="/resources/static-gk/classical-languages/"
+    {% if page.url == '/resources/static-gk/classical-languages/' %}aria-current="page"{% endif %}>
+    🗣️ Classical Languages
+  </a>
+
   <a href="/resources/static-gk/scheduled-languages/"
     {% if page.url == '/resources/static-gk/scheduled-languages/' %}aria-current="page"{% endif %}>
-    📜 Scheduled Languages
+    📜 Scheduled Languages (8th Schedule)
   </a>
 
   <a href="/resources/static-gk/important-days/"
     {% if page.url == '/resources/static-gk/important-days/' %}aria-current="page"{% endif %}>
     📅 Important Days
+  </a>
+
+  <div class="gk-sidenav__divider">Environment &amp; Heritage</div>
+
+  <a href="/resources/static-gk/unesco-world-heritage/"
+    {% if page.url == '/resources/static-gk/unesco-world-heritage/' %}aria-current="page"{% endif %}>
+    🏯 UNESCO World Heritage Sites
   </a>
 
 </nav>
