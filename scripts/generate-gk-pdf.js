@@ -189,7 +189,7 @@ function buildCSS() {
     ".howto-legend { margin-top:16px; }",
     ".howto-legend-row { display:flex; align-items:center; gap:10px; padding:5px 0; border-bottom:0.3pt solid #eee; font-size:10pt; }",
     ".howto-legend-row:last-child { border-bottom:none; }",
-    ".howto-legend-swatch { width:28px; height:14px; border-radius:2px; flex-shrink:0; print-color-adjust:exact; -webkit-print-color-adjust:exact; }",
+    ".howto-legend-swatch { width:28px; height:14px; border-radius:2px; flex-shrink:0; display:block; }",
 
     // ── TOC page ──
     ".toc-pg { page:toc; page-break-after:always; padding:28mm 28mm 20mm; }",
@@ -209,10 +209,10 @@ function buildCSS() {
     ".gs-idx__title { font-family:'Crimson Pro','Georgia',serif; font-size:28pt; font-weight:400; color:#1a1a1a; border-bottom:2px solid #1a1a1a; padding-bottom:10px; margin-bottom:6px; letter-spacing:-0.01em; }",
     ".gs-idx__sub { font-family:'Inter',sans-serif; font-size:8.5pt; color:#888; margin-bottom:20px; }",
     ".gs-paper-block { margin-bottom:18px; }",
-    ".gs-paper-label { font-family:'Inter',sans-serif; font-size:8pt; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#1a1a1a; padding:4px 10px; background:#f0f0f0; display:inline-block; border-radius:3px; margin-bottom:8px; }",
-    ".gs-paper-label--gs1 { background:#f0f5ff; color:#1a3a8a; }",
-    ".gs-paper-label--gs2 { background:#f0fff5; color:#1a4a2a; }",
-    ".gs-paper-label--gs3 { background:#fff8f0; color:#8a4a1a; }",
+    ".gs-paper-label { font-family:'Inter',sans-serif; font-size:8pt; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#1a1a1a; padding:4px 10px; box-shadow:inset 0 0 0 9999px #e8e8e8; display:inline-block; border-radius:3px; margin-bottom:8px; }",
+    ".gs-paper-label--gs1 { box-shadow:inset 0 0 0 9999px #dce8ff; color:#1a3a8a; }",
+    ".gs-paper-label--gs2 { box-shadow:inset 0 0 0 9999px #d0f5e0; color:#1a4a2a; }",
+    ".gs-paper-label--gs3 { box-shadow:inset 0 0 0 9999px #fde8cc; color:#8a4a1a; }",
     ".gs-entry { display:inline-flex; align-items:center; gap:5px; margin:3px 4px 3px 0; padding:3px 8px; border:0.5px solid #ddd; border-radius:3px; font-family:'Crimson Pro','Georgia',serif; font-size:11pt; color:#1a4a8a; text-decoration:none; }",
     ".gs-entry:hover { text-decoration:underline; }",
 
@@ -234,9 +234,9 @@ function buildCSS() {
     ".tp-info { display:flex; gap:20px; flex-wrap:wrap; font-family:'Inter',sans-serif; font-size:7.5pt; color:#999; }",
     ".tp-info span { display:inline-flex; align-items:center; gap:4px; }",
     ".tp-info strong { color:#555; font-weight:600; }",
-    ".tp-btn { display:inline-block; margin-top:16px; padding:7px 18px; font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:#1a1a1a; background:#fff; border:1px solid #ccc; border-radius:4px; text-decoration:none; margin-right:10px; }",
-    ".tp-btn--accent { color:#92400e; background:#fffbeb; border-color:#fde68a; }",
-    ".tp-ujiyari { margin-top:20px; padding:14px 18px; background:#fffbeb; border:1px solid #fde68a; border-radius:6px; display:flex; align-items:center; gap:14px; }",
+    ".tp-btn { display:inline-block; margin-top:16px; padding:7px 18px; font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:#1a1a1a; border:1px solid #ccc; border-radius:4px; text-decoration:none; margin-right:10px; }",
+    ".tp-btn--accent { color:#92400e; box-shadow:inset 0 0 0 9999px #fffbeb; border-color:#fde68a; }",
+    ".tp-ujiyari { margin-top:20px; padding:14px 18px; box-shadow:inset 0 0 0 9999px #fffbeb; border:1px solid #fde68a; border-radius:6px; display:flex; align-items:center; gap:14px; }",
     ".tp-ujiyari-icon { font-size:18pt; flex-shrink:0; }",
     ".tp-ujiyari-text { font-family:'Inter',sans-serif; font-size:8pt; color:#78350f; line-height:1.5; }",
     ".tp-ujiyari-text strong { color:#451a03; font-weight:700; }",
@@ -262,16 +262,16 @@ function buildCSS() {
     ".gk-table th { padding:7px 10px; text-align:left; font-family:'Crimson Pro','Georgia',serif; font-size:9.5pt; font-weight:700; letter-spacing:0.04em; text-transform:uppercase; color:#333; background:none; }",
     ".gk-table td { padding:7px 10px; border-bottom:none; color:#333; vertical-align:top; font-size:10.5pt; }",
     ".gk-table tbody tr:last-child td { border-bottom:2px solid #1a1a1a; }",
-    ".gk-table tbody tr:nth-child(even) td { background:rgba(0,0,0,0.015); }",
+    ".gk-table tbody tr:nth-child(even) td { box-shadow:inset 0 0 0 9999px rgba(0,0,0,0.04); }",
     ".gk-note { margin:8px 0; padding:8px 14px; border-left:2px solid #999; font-style:italic; color:#555; font-size:11pt; line-height:1.6; }",
-    ".gk-tip { margin:10px 0; padding:10px 14px; border:0.5px solid #ccc; border-left:3px solid #888; background:#fafaf8; font-size:11pt; line-height:1.6; page-break-inside:avoid; break-inside:avoid; }",
+    ".gk-tip { margin:10px 0; padding:10px 14px; border:0.5px solid #ccc; border-left:3px solid #888; box-shadow:inset 0 0 0 9999px #f5f5f2; font-size:11pt; line-height:1.6; page-break-inside:avoid; break-inside:avoid; }",
     "a { color:#1a4a8a; text-decoration:none; }",
     "strong { font-weight:700; }",
     "em { font-style:italic; }",
 
     // ── EXAM TRAPS CHEAT SHEET (improvement #3) ──
     // Last .gk-section in every chapter = exam traps
-    ".chapter .gk-section:last-child { page-break-before:always; break-before:page; background:#f5f5f2; padding:14mm 12mm; margin:-6px -6px 0; }",
+    ".chapter .gk-section:last-child { page-break-before:always; break-before:page; box-shadow:inset 0 0 0 9999px #efefec; padding:14mm 12mm; margin:-6px -6px 0; }",
     ".chapter .gk-section:last-child .gk-section-title { font-family:'Inter',sans-serif; font-size:10pt; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; color:#333; border-bottom:2pt solid #333; border-left:none; padding:0 0 6px; margin:0 0 12px; }",
     // Clean cheat-sheet table — no heavy rules, just light separators
     ".chapter .gk-section:last-child .gk-table { font-size:10pt; }",
@@ -279,7 +279,7 @@ function buildCSS() {
     ".chapter .gk-section:last-child .gk-table th { font-size:8pt; color:#666; background:none; border:none; padding:5px 8px; }",
     ".chapter .gk-section:last-child .gk-table td { border-bottom:0.3pt solid #ccc; padding:5px 8px; font-size:10pt; }",
     ".chapter .gk-section:last-child .gk-table tbody tr:last-child td { border-bottom:1px solid #888; }",
-    ".chapter .gk-section:last-child .gk-table tbody tr:nth-child(even) td { background:rgba(0,0,0,0.025); }",
+    ".chapter .gk-section:last-child .gk-table tbody tr:nth-child(even) td { box-shadow:inset 0 0 0 9999px rgba(0,0,0,0.05); }",
 
     // ── BACK PAGE ──
     ".bp { page-break-before:always; page:backpage; min-height:250mm; padding:28mm 26mm 20mm; display:flex; flex-direction:column; }",
@@ -288,7 +288,7 @@ function buildCSS() {
     ".bp-author-name { font-family:'Georgia',serif; font-size:16pt; color:#1a1a1a; margin-bottom:2px; }",
     ".bp-author-role { font-family:'Inter',sans-serif; font-size:8pt; color:#888; margin-bottom:6px; }",
     ".bp-author-links { display:flex; gap:8px; }",
-    ".bp-link { display:inline-block; padding:4px 12px; font-family:'Inter',sans-serif; font-size:7pt; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:#555; background:#f1f5f9; border:1px solid #e2e8f0; border-radius:3px; }",
+    ".bp-link { display:inline-block; padding:4px 12px; font-family:'Inter',sans-serif; font-size:7pt; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:#555; box-shadow:inset 0 0 0 9999px #e8eef5; border:1px solid #e2e8f0; border-radius:3px; }",
     ".bp-sep { border:none; border-top:1px solid #e2e8f0; margin:0 0 28px; }",
     ".bp-sites { display:flex; gap:24px; margin-bottom:28px; }",
     ".bp-site { flex:1; padding:18px 20px; border:1px solid #e2e8f0; border-radius:8px; }",
@@ -296,11 +296,11 @@ function buildCSS() {
     ".bp-site-name { font-family:'Georgia',serif; font-size:15pt; color:#1a1a1a; margin-bottom:4px; }",
     ".bp-site-desc { font-size:9pt; color:#666; line-height:1.5; margin-bottom:12px; }",
     ".bp-site-features { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px; }",
-    ".bp-feat { font-family:'Inter',sans-serif; font-size:6.5pt; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; color:#666; padding:3px 8px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:3px; }",
+    ".bp-feat { font-family:'Inter',sans-serif; font-size:6.5pt; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; color:#666; padding:3px 8px; box-shadow:inset 0 0 0 9999px #eef2f6; border:1px solid #e2e8f0; border-radius:3px; }",
     ".bp-site-btn { display:inline-block; padding:7px 18px; font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; border-radius:4px; text-decoration:none; }",
     ".bp-site-btn--primary { color:#1a1a1a; background:#fff; border:1.5px solid #1a1a1a; }",
     ".bp-site-btn--accent { color:#92400e; background:#fff; border:1.5px solid #b45309; }",
-    ".bp-ad { padding:16px 20px; background:#fafaf5; border:1px dashed #d4d4c8; border-radius:6px; margin-bottom:28px; display:flex; align-items:center; gap:16px; }",
+    ".bp-ad { padding:16px 20px; box-shadow:inset 0 0 0 9999px #f5f5ee; border:1px dashed #d4d4c8; border-radius:6px; margin-bottom:28px; display:flex; align-items:center; gap:16px; }",
     ".bp-ad-text { flex:1; }",
     ".bp-ad-title { font-family:'Inter',sans-serif; font-size:8pt; font-weight:700; color:#555; letter-spacing:0.06em; text-transform:uppercase; margin-bottom:3px; }",
     ".bp-ad-desc { font-size:8.5pt; color:#777; line-height:1.5; }",
@@ -321,7 +321,7 @@ function buildCSS() {
 
 function buildTitlePage(photoSrc, logoSrc) {
   const logoHTML = logoSrc
-    ? `<img src="${logoSrc}" alt="BharatNotes" width="54" height="54" style="display:block;border-radius:50%;">`
+    ? `<img src="${logoSrc}" alt="BharatNotes" width="90" height="90" style="display:block;border-radius:50%;">`
     : `<div class="tp-logo">Bharat<span>Notes</span></div>`;
 
   return `
@@ -434,15 +434,15 @@ function buildHowToUsePage() {
     <h3>Visual Legend</h3>
     <div class="howto-legend">
       <div class="howto-legend-row">
-        <div class="howto-legend-swatch" style="background:#f5f5f2;border:1px solid #ccc;print-color-adjust:exact;-webkit-print-color-adjust:exact;"></div>
+        <svg width="28" height="14" style="flex-shrink:0;border-radius:2px;overflow:hidden" xmlns="http://www.w3.org/2000/svg"><rect width="28" height="14" fill="#efefec"/><rect width="28" height="14" fill="none" stroke="#aaa" stroke-width="1"/></svg>
         <span><strong>Grey background page</strong> = Exam Traps cheat-sheet. Photocopy or screenshot this page.</span>
       </div>
       <div class="howto-legend-row">
-        <div class="howto-legend-swatch" style="background:#f0f0ee;border:1px solid #d0d0d0;print-color-adjust:exact;-webkit-print-color-adjust:exact;"></div>
+        <svg width="28" height="14" style="flex-shrink:0;border-radius:2px;overflow:hidden" xmlns="http://www.w3.org/2000/svg"><rect width="28" height="14" fill="#e8e8e4"/><rect width="28" height="14" fill="none" stroke="#bbb" stroke-width="1"/></svg>
         <span><strong>Alternating table rows</strong> = standard reference table; no special meaning.</span>
       </div>
       <div class="howto-legend-row">
-        <div class="howto-legend-swatch" style="background:#fafaf8;border-left:3px solid #888;border-top:0.5px solid #ccc;border-right:0.5px solid #ccc;border-bottom:0.5px solid #ccc;print-color-adjust:exact;-webkit-print-color-adjust:exact;"></div>
+        <svg width="28" height="14" style="flex-shrink:0;border-radius:2px;overflow:hidden" xmlns="http://www.w3.org/2000/svg"><rect width="28" height="14" fill="#f5f5f2"/><rect width="4" height="14" fill="#888"/><rect width="28" height="14" fill="none" stroke="#ccc" stroke-width="1"/></svg>
         <span><strong>Boxed note</strong> = additional context or important clarification; not always examinable.</span>
       </div>
     </div>
@@ -542,7 +542,7 @@ function buildChapterPage(chapter) {
 
 function buildBackPage(photoSrc, logoSrc) {
   const logoHTML = logoSrc
-    ? `<img src="${logoSrc}" alt="BharatNotes" width="64" height="64" style="display:block;margin-bottom:28px;border-radius:50%;">`
+    ? `<img src="${logoSrc}" alt="BharatNotes" width="90" height="90" style="display:block;margin-bottom:28px;border-radius:50%;">`
     : "";
 
   return `
