@@ -3,6 +3,8 @@
  * BharatNotes — Dynamic OG Image Generator
  * Usage: node scripts/generate-og-image.js [--title "..."] [--desc "..."] [--tags "..."] [--out path.jpg]
  * Output: 1200 × 630 JPEG
+ *
+ * Also exports: renderOG({ title, desc, tags, out }) for batch use
  */
 "use strict";
 
@@ -13,14 +15,6 @@ const { Jimp, loadFont, measureText } = require("jimp");
 const ROOT     = path.resolve(__dirname, "..");
 const FONT_DIR = path.join(ROOT, "node_modules", "@jimp", "plugin-print", "fonts", "open-sans");
 const LOGO     = path.join(ROOT, "BHARATNOTES_cicrclelogo.png");
-
-const args = process.argv.slice(2);
-const get  = (f) => { const i = args.indexOf(f); return i !== -1 ? args[i + 1] : null; };
-
-const TITLE = get("--title") || "BharatNotes: Free UPSC GS Notes";
-const DESC  = get("--desc")  || "Fact-verified notes for UPSC Civil Services Prelims & Mains";
-const TAGS  = get("--tags")  || "Free · UPSC Prelims · GS1 · GS2 · GS3 · GS4 · Static GK";
-const OUT   = get("--out")   || path.join(ROOT, "src", "images", "logos", "bharatnotes-og.jpg");
 
 // ── Palette ───────────────────────────────────────────────────────────────────
 const BG1   = 0x080f1eff;   // near-black navy
@@ -88,30 +82,58 @@ function radialGlow(img, cx, cy, r, glowColour, strength) {
   }
 }
 
-/** Word-wrap: returns array of lines fitting maxWidth */
+/** Word-wrap: returns array of lines fitting maxWidth. \n forces a line break. */
 function wrap(font, text, maxWidth) {
-  const words = String(text).split(/\s+/);
-  const lines = []; let line = "";
-  for (const w of words) {
-    const t = line ? `${line} ${w}` : w;
-    if (measureText(font, t) <= maxWidth) { line = t; }
-    else { if (line) lines.push(line); line = w; }
+  const segments = String(text).split("\n");
+  const lines = [];
+  for (const seg of segments) {
+    const words = seg.split(/\s+/).filter(Boolean);
+    if (!words.length) { lines.push(""); continue; }
+    let line = "";
+    for (const w of words) {
+      const t = line ? `${line} ${w}` : w;
+      if (measureText(font, t) <= maxWidth) { line = t; }
+      else { if (line) lines.push(line); line = w; }
+    }
+    if (line) lines.push(line);
   }
-  if (line) lines.push(line);
   return lines;
 }
 
-// ── Main ──────────────────────────────────────────────────────────────────────
-async function main() {
+/** Sanitise text for Open Sans bitmap font (strips chars outside basic Latin) */
+function sanitise(str) {
+  return String(str || "")
+    .replace(/\u2014|\u2013/g, " - ")   // em-dash, en-dash
+    .replace(/\u2018|\u2019/g, "'")     // curly single quotes
+    .replace(/\u201c|\u201d/g, '"')     // curly double quotes
+    .replace(/[^\x20-\x7E]/g, "");      // drop anything outside printable ASCII
+}
+
+// ── Cached font loader (loads once per process) ───────────────────────────────
+let _fonts = null;
+async function getFonts() {
+  if (_fonts) return _fonts;
+  _fonts = {
+    f64: await loadFont(path.join(FONT_DIR, "open-sans-64-white", "open-sans-64-white.fnt")),
+    f32: await loadFont(path.join(FONT_DIR, "open-sans-32-white", "open-sans-32-white.fnt")),
+    f16: await loadFont(path.join(FONT_DIR, "open-sans-16-white", "open-sans-16-white.fnt")),
+  };
+  return _fonts;
+}
+
+// ── Core renderer ─────────────────────────────────────────────────────────────
+async function renderOG({ title, desc, tags, out }) {
+  const TITLE = title  ? sanitise(title) : "Master the\nCivil Services Examination.";
+  const DESC  = desc   ? sanitise(desc)  : "Complete UPSC GS study material - subject-wise notes, Prelims PYQs, Mains answer frameworks, and syllabus tracking. Foundation to Interview.";
+  const TAGS  = sanitise(tags || "Free · UPSC Prelims · GS1 · GS2 · GS3 · GS4 · Static GK");
+  const OUT   = out || path.join(ROOT, "src", "images", "logos", "bharatnotes-og.jpg");
+
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
 
   const W = 1200, H = 630;
   const SPLIT = 400;  // left panel width
 
-  // ── Fonts ──
-  const f64 = await loadFont(path.join(FONT_DIR, "open-sans-64-white",  "open-sans-64-white.fnt"));
-  const f32 = await loadFont(path.join(FONT_DIR, "open-sans-32-white",  "open-sans-32-white.fnt"));
-  const f16 = await loadFont(path.join(FONT_DIR, "open-sans-16-white",  "open-sans-16-white.fnt"));
+  const { f64, f32, f16 } = await getFonts();
 
   // ── Canvas ──
   const img = new Jimp({ width: W, height: H, color: BG1 });
@@ -149,19 +171,19 @@ async function main() {
 
   img.composite(logo, lx, ly);
 
-  // Brand name + URL below logo
+  // Brand name below logo
   const brand  = "BharatNotes";
   const bW     = measureText(f32, brand);
   img.print({ font: f32, x: Math.round((SPLIT - bW) / 2), y: ly + LSIZ + 18, text: brand });
 
-  // Gold rule under brand — 3 segments of decreasing opacity
+  // Gold rule under brand
   const ruleX = Math.round((SPLIT - 80) / 2);
   const ruleY = ly + LSIZ + 60;
   rect(img, ruleX + 8,  ruleY, 64, 2, GOLD);
   rect(img, ruleX,      ruleY, 8,  2, GOLD2);
   rect(img, ruleX + 72, ruleY, 8,  2, GOLD2);
 
-  // URL — very small, muted
+  // URL below rule
   const url  = "bharatnotes.com";
   const uW   = measureText(f16, url);
   img.print({ font: f16, x: Math.round((SPLIT - uW) / 2), y: ruleY + 10, text: url });
@@ -172,59 +194,58 @@ async function main() {
     px(img, SPLIT, y, rgba(ch(BG2,24), ch(BG2,16)+a, ch(BG2,8)+a*2, 255));
   }
 
-  // ── Right panel — vertically centred content block ──
+  // ── Right panel ──
   const rx    = SPLIT + 60;
   const maxW  = W - rx - 50;
 
-  // Pre-calculate heights to centre the block
-  const titleLines = wrap(f64, TITLE, maxW).slice(0, 2);
+  const allTitleLines = wrap(f64, TITLE, maxW);
+  const titleLines = allTitleLines.slice(0, 3);
+  // If truncated beyond 3 lines, add "..." to last rendered line
+  if (allTitleLines.length > 3) {
+    const last = titleLines[titleLines.length - 1];
+    const words = last.split(" ");
+    // Remove words until "..." fits
+    while (words.length > 1 && measureText(f64, words.join(" ") + "...") > maxW) words.pop();
+    titleLines[titleLines.length - 1] = words.join(" ") + "...";
+  }
   const descLines  = wrap(f16, DESC, maxW).slice(0, 2);
   const blockH = 20 + 18 + 6 + titleLines.length * 74 + 14 + descLines.length * 24 + 32 + 26;
   let ry = Math.round((H - blockH) / 2);
 
-  // Subject label — muted, tracked look via spacing
   img.print({ font: f16, x: rx, y: ry, text: "UPSC CIVIL SERVICES  EXAM  PREP" });
   ry += 20;
 
-  // Gold accent tick (3px tall, 40px wide)
   rect(img, rx, ry, 40, 3, GOLD);
   rect(img, rx + 40, ry, 120, 1, GOLD2);
   ry += 18;
 
-  // Title
   for (const line of titleLines) {
     img.print({ font: f64, x: rx, y: ry, text: line });
     ry += 74;
   }
   ry += 14;
 
-  // Description
   for (const line of descLines) {
     img.print({ font: f16, x: rx, y: ry, text: line });
     ry += 24;
   }
   ry += 20;
 
-  // Thin rule — full right-panel width
   rect(img, rx, ry, maxW, 1, DIM);
   ry += 12;
 
-  // Tags — plain inline, no boxes, gold dot separators
   const tagStr = TAGS.split("·").map(s => s.trim()).filter(Boolean).join("  ·  ");
   img.print({ font: f16, x: rx, y: ry, text: tagStr });
 
-  // ── Bottom: Gold strip (4px) ──
+  // ── Accents ──
   rect(img, 0, H - 4, W, 4, GOLD);
-
-  // ── Left gold accent (4px, full height) ──
   rect(img, 0, 0, 4, H, GOLD);
 
-  // ── Bottom-right: "bharatnotes.com" watermark ──
   const wm  = "bharatnotes.com";
   const wmW = measureText(f16, wm);
   img.print({ font: f16, x: W - wmW - 20, y: H - 28, text: wm });
 
-  // ── Vignette: darken all 4 corners ──
+  // ── Vignette ──
   const vigR = 420;
   for (const [cx, cy] of [[0,0],[W,0],[0,H],[W,H]]) {
     for (let y = 0; y < H; y++) {
@@ -245,9 +266,25 @@ async function main() {
   // ── Save ──
   const buf = await img.getBuffer("image/jpeg", { quality: 94 });
   fs.writeFileSync(OUT, buf);
-  const kb = Math.round(fs.statSync(OUT).size / 1024);
-  console.log(`✅ OG image — 1200×630 — ${kb} KB — "${TITLE}"`);
-  console.log(`   → ${OUT}`);
+  return OUT;
 }
 
-main().catch(e => { console.error("❌", e.message); process.exit(1); });
+// ── CLI entry point ───────────────────────────────────────────────────────────
+if (require.main === module) {
+  const args = process.argv.slice(2);
+  const get  = (f) => { const i = args.indexOf(f); return i !== -1 ? args[i + 1] : null; };
+
+  renderOG({
+    title: get("--title"),
+    desc:  get("--desc"),
+    tags:  get("--tags"),
+    out:   get("--out"),
+  }).then(out => {
+    const title = get("--title") || "BharatNotes: Free UPSC GS Notes";
+    const kb = Math.round(require("fs").statSync(out).size / 1024);
+    console.log(`✅ OG image — 1200×630 — ${kb} KB — "${title}"`);
+    console.log(`   → ${out}`);
+  }).catch(e => { console.error("❌", e.message); process.exit(1); });
+}
+
+module.exports = { renderOG };

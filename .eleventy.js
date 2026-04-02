@@ -131,6 +131,12 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("unique", (arr) => [...new Set(arr || [])]);
 
+  // OG image slug: /subjects/polity/parliament/ → subjects--polity--parliament
+  eleventyConfig.addFilter("ogSlug", (url) => {
+    const slug = (url || "").replace(/^\/|\/$/g, "").replace(/\//g, "--");
+    return slug || null;
+  });
+
   eleventyConfig.addFilter("selectattr", (arr, attr, op, val) => {
     return (arr || []).filter(item => {
       const v = attr.split(".").reduce((o, k) => (o || {})[k], item);
