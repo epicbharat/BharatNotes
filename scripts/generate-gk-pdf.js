@@ -309,6 +309,8 @@ function buildCSS() {
     ".bp-disc { font-size:7.5pt; color:#bbb; line-height:1.7; margin-bottom:6px; }",
     ".bp-copy { font-family:'Inter',sans-serif; font-size:7pt; color:#ccc; letter-spacing:0.1em; text-transform:uppercase; }",
 
+    // Force background rendering in Puppeteer PDF (complements printBackground:true in API call)
+    "* { -webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; color-adjust:exact !important; }",
     "@media print { * { -webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; } }",
   ];
 
@@ -643,6 +645,7 @@ function callAPI(html) {
       html,
       filename: "bharatnotes-static-gk",
       displayHeaderFooter: false,  // page numbers via CSS @page counter
+      printBackground: true,        // render background fills/colors in PDF
     });
 
     const body = Buffer.from(payload, "utf-8");
