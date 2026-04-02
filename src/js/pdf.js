@@ -168,7 +168,7 @@
      ══════════════════════════════════════════════════════════ */
   function buildTopicHTML(qrData) {
     qrData = qrData || {};
-    var article = document.querySelector(".article-body");
+    var article = document.querySelector(".article-body") || document.querySelector(".gk-main");
     if (!article) return null;
 
     var isNcert = !!document.querySelector(".ncert-article");

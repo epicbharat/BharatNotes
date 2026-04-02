@@ -26,11 +26,11 @@
 
 {# ── Download PDF ── #}
 <div class="card" style="margin-bottom:0.625rem;padding:var(--space-4);">
-  <button onclick="window.print()" class="btn btn--primary" style="width:100%;justify-content:center;gap:8px;min-height:44px;font-size:var(--text-sm);border-radius:10px;touch-action:manipulation;">
+  <button id="btn-download-pdf" class="btn btn--primary" style="width:100%;justify-content:center;gap:8px;min-height:44px;font-size:var(--text-sm);border-radius:10px;touch-action:manipulation;">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="flex-shrink:0;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-    Download / Print
+    Download PDF
   </button>
-  <p style="font-size:var(--text-xs);color:var(--color-text-muted);margin-top:var(--space-2);text-align:center;line-height:1.4;">Print-ready · save as PDF from browser</p>
+  <p style="font-size:var(--text-xs);color:var(--color-text-muted);margin-top:var(--space-2);text-align:center;line-height:1.4;">Print-ready · ink-optimised</p>
 </div>
 
 {# ── Practice & Prepare ── #}
@@ -76,6 +76,16 @@
   <a href="/resources/static-gk/five-year-plans/"
     {% if page.url == '/resources/static-gk/five-year-plans/' %}aria-current="page"{% endif %}>
     📊 Five Year Plans &amp; NITI Aayog
+  </a>
+
+  <a href="/resources/static-gk/presidents-of-india/"
+    {% if page.url == '/resources/static-gk/presidents-of-india/' %}aria-current="page"{% endif %}>
+    🏛️ Presidents of India
+  </a>
+
+  <a href="/resources/static-gk/prime-ministers-of-india/"
+    {% if page.url == '/resources/static-gk/prime-ministers-of-india/' %}aria-current="page"{% endif %}>
+    🎗️ Prime Ministers of India
   </a>
 
   <div class="gk-sidenav__divider">History &amp; Governance</div>
