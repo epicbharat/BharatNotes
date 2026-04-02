@@ -2003,6 +2003,7 @@ a:focus-visible {
   font-size: var(--text-sm);
   color: var(--color-text-secondary);
   flex: 1;
+  min-width: 0;
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 .vocab-entry__chevron {
