@@ -207,7 +207,7 @@ function buildCSS() {
     ".howto-legend-row:last-child { border-bottom:none; }",
 
     // ── TOC page ──
-    ".toc-pg { page:toc; page-break-after:always; padding:28mm 28mm 20mm; }",
+    ".toc-pg { page:toc; page-break-before:always; page-break-after:always; padding:28mm 28mm 20mm; }",
     ".toc-pg__eyebrow { font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:#999; margin-bottom:10px; }",
     ".toc-pg__title { font-family:'Crimson Pro','Georgia',serif; font-size:28pt; font-weight:400; color:#1a1a1a; border-bottom:2px solid #1a1a1a; padding-bottom:10px; margin-bottom:24px; letter-spacing:-0.01em; }",
     ".toc-pg__list { list-style:none; padding:0; margin:0; }",
@@ -224,7 +224,7 @@ function buildCSS() {
     ".gs-idx__title { font-family:'Crimson Pro','Georgia',serif; font-size:28pt; font-weight:400; color:#1a1a1a; border-bottom:2px solid #1a1a1a; padding-bottom:10px; margin-bottom:6px; letter-spacing:-0.01em; }",
     ".gs-idx__sub { font-family:'Inter',sans-serif; font-size:8.5pt; color:#888; margin-bottom:20px; }",
     ".gs-paper-block { margin-bottom:18px; }",
-    ".gs-paper-label { font-family:'Inter',sans-serif; font-size:8pt; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#1a1a1a; padding:4px 10px; box-shadow:inset 0 0 0 9999px #e8e8e8; display:inline-block; border-radius:3px; margin-bottom:8px; }",
+    ".gs-paper-label { font-family:'Inter',sans-serif; font-size:8pt; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; padding:4px 10px; display:inline-block; border-radius:3px; margin-bottom:8px; }",
     ".gs-paper-label--gs1 { box-shadow:inset 0 0 0 9999px #dce8ff; color:#1a3a8a; }",
     ".gs-paper-label--gs2 { box-shadow:inset 0 0 0 9999px #d0f5e0; color:#1a4a2a; }",
     ".gs-paper-label--gs3 { box-shadow:inset 0 0 0 9999px #fde8cc; color:#8a4a1a; }",
@@ -232,7 +232,7 @@ function buildCSS() {
     ".gs-entry:hover { text-decoration:underline; }",
 
     // ── TITLE PAGE ──
-    ".tp { width:210mm; height:297mm; display:flex; flex-direction:column; padding:0; page-break-after:always; position:relative; overflow:hidden; }",
+    ".tp { width:210mm; min-height:297mm; display:flex; flex-direction:column; padding:0; page-break-after:always; position:relative; }",
     ".tp-top { background:#fff; color:#1a1a1a; padding:28mm 28mm 24mm; flex-shrink:0; border-bottom:2px solid #1a1a1a; }",
     ".tp-brand-row { display:flex; justify-content:space-between; align-items:center; margin-bottom:40px; }",
     ".tp-logo { font-family:'Crimson Pro','Georgia',serif; font-size:14.5pt; font-weight:600; color:#1a1a1a; letter-spacing:-0.01em; }",
@@ -259,7 +259,7 @@ function buildCSS() {
 
     // ── CHAPTER content ──
     ".chapter { page-break-before:always; break-before:page; }",
-    ".ct { padding:0; max-width:152mm; }",
+    ".ct { padding:0; }",
     ".ct-sub { font-family:'Inter',sans-serif; font-size:9pt; color:#888; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:20px; padding-bottom:16px; border-bottom:1px solid #1a1a1a; }",
     ".ct h1 { font-family:'Crimson Pro','Georgia',serif; font-size:24.5pt; font-weight:600; color:#1a1a1a; margin-bottom:6px; line-height:1.2; letter-spacing:-0.01em; }",
     ".ct p { margin-bottom:6px; line-height:1.6; }",
@@ -268,7 +268,7 @@ function buildCSS() {
     ".ft { margin-top:24px; padding-top:10px; border-top:0.5px solid #ccc; display:flex; justify-content:space-between; font-family:'Inter',sans-serif; font-size:7.5pt; color:#999; letter-spacing:0.04em; }",
 
     // ── GK sections & tables (Oxford booktabs) ──
-    ".gk-section { margin-bottom:16px; page-break-inside:avoid; break-inside:avoid; }",
+    ".gk-section { margin-bottom:16px; }",
     ".gk-section-title { font-family:'Crimson Pro','Georgia',serif; font-size:16pt; font-weight:600; color:#1a1a1a; margin:28px 0 8px; padding-bottom:6px; border-bottom:0.5pt solid #ccc; page-break-after:avoid; break-after:avoid; }",
     ".gk-scroll { overflow:visible; }",
     ".gk-table { width:100%; border-collapse:collapse; margin:12px 0; font-size:10.5pt; line-height:1.5; page-break-inside:avoid; break-inside:avoid; }",
@@ -277,7 +277,7 @@ function buildCSS() {
     ".gk-table th { padding:7px 10px; text-align:left; font-family:'Crimson Pro','Georgia',serif; font-size:9.5pt; font-weight:700; letter-spacing:0.04em; text-transform:uppercase; color:#333; background:none; }",
     ".gk-table td { padding:7px 10px; border-bottom:none; color:#333; vertical-align:top; font-size:10.5pt; }",
     ".gk-table tbody tr:last-child td { border-bottom:2px solid #1a1a1a; }",
-    ".gk-table tbody tr:nth-child(even) td { box-shadow:inset 0 0 0 9999px rgba(0,0,0,0.04); }",
+    ".gk-table tbody tr:nth-child(even) td { box-shadow:inset 0 0 0 9999px rgba(0,0,0,0.07); }",
     ".gk-note { margin:8px 0; padding:8px 14px; border-left:2px solid #999; font-style:italic; color:#555; font-size:11pt; line-height:1.6; }",
     ".gk-tip { margin:10px 0; padding:10px 14px; border:0.5px solid #ccc; border-left:3px solid #888; box-shadow:inset 0 0 0 9999px #f5f5f2; font-size:11pt; line-height:1.6; page-break-inside:avoid; break-inside:avoid; }",
     "a { color:#1a4a8a; text-decoration:none; }",
@@ -286,7 +286,8 @@ function buildCSS() {
 
     // ── EXAM TRAPS CHEAT SHEET (improvement #3) ──
     // Last .gk-section in every chapter = exam traps
-    ".chapter .gk-section:last-child { page-break-before:always; break-before:page; box-shadow:inset 0 0 0 9999px #efefec; padding:14mm 12mm; margin:-6px -6px 0; }",
+    // Extend negative margins to cover full page (incl. margins) so grey fills entire page
+    ".chapter .gk-section:last-child { page-break-before:always; break-before:page; box-shadow:inset 0 0 0 9999px #efefec; margin:-22mm -20mm -26mm; padding:22mm 20mm 26mm; min-height:297mm; }",
     ".chapter .gk-section:last-child .gk-section-title { font-family:'Inter',sans-serif; font-size:10pt; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; color:#333; border-bottom:2pt solid #333; border-left:none; padding:0 0 6px; margin:0 0 12px; }",
     // Clean cheat-sheet table — no heavy rules, just light separators
     ".chapter .gk-section:last-child .gk-table { font-size:10pt; }",
@@ -294,7 +295,7 @@ function buildCSS() {
     ".chapter .gk-section:last-child .gk-table th { font-size:8pt; color:#666; background:none; border:none; padding:5px 8px; }",
     ".chapter .gk-section:last-child .gk-table td { border-bottom:0.3pt solid #ccc; padding:5px 8px; font-size:10pt; }",
     ".chapter .gk-section:last-child .gk-table tbody tr:last-child td { border-bottom:1px solid #888; }",
-    ".chapter .gk-section:last-child .gk-table tbody tr:nth-child(even) td { box-shadow:inset 0 0 0 9999px rgba(0,0,0,0.05); }",
+    ".chapter .gk-section:last-child .gk-table tbody tr:nth-child(even) td { box-shadow:inset 0 0 0 9999px rgba(0,0,0,0.08); }",
 
     // ── BACK PAGE ──
     ".bp { page-break-before:always; page:backpage; min-height:250mm; padding:28mm 26mm 20mm; display:flex; flex-direction:column; }",
@@ -480,11 +481,11 @@ function buildTOCPage(chapters) {
       const gsTag = ch.gs.map(g => `<span class="toc-e__gs">${g}</span>`).join(" ");
       // href="#chapter-{slug}" → Chromium preserves these as internal PDF links
       items += `
-        <li class="toc-e">
+        <div class="toc-e">
           <span class="toc-e__num">${num++}</span>
           <a href="#chapter-${ch.slug}" class="toc-e__title">${ch.title}</a>
           ${gsTag}
-        </li>`;
+        </div>`;
     }
   }
 
@@ -492,7 +493,7 @@ function buildTOCPage(chapters) {
   <div class="toc-pg">
     <div class="toc-pg__eyebrow">BharatNotes &middot; Static GK Compendium &middot; UPSC Prelims</div>
     <h2 class="toc-pg__title">Contents</h2>
-    <ol class="toc-pg__list">${items}</ol>
+    <div class="toc-pg__list">${items}</div>
   </div>`;
 }
 
@@ -557,13 +558,16 @@ function buildChapterPage(chapter) {
 }
 
 function buildBackPage(photoSrc, logoSrc) {
-  const logoHTML = logoSrc
-    ? `<img src="${logoSrc}" alt="BharatNotes" width="90" height="90" style="display:block;margin-bottom:28px;border-radius:50%;">`
-    : "";
+  const logoBlock = logoSrc ? `
+    <div style="text-align:center;margin-bottom:24px;">
+      <img src="${logoSrc}" alt="BharatNotes" width="90" height="90" style="display:inline-block;border-radius:50%;">
+      <div style="font-family:'Inter',sans-serif;font-size:7.5pt;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#bbb;margin-top:8px;">bharatnotes.com</div>
+    </div>
+    <hr class="bp-sep">` : "";
 
   return `
   <div class="bp">
-    ${logoHTML}
+    ${logoBlock}
     <div class="bp-header">
       <img class="bp-photo" src="${photoSrc}" alt="" onerror="this.style.display='none'">
       <div>
