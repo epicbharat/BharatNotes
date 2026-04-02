@@ -24,6 +24,7 @@
 
   /* Surfaces — warm cream base */
   --color-bg:          #faf8f6;
+  --color-bg-alt:      #f0ece7;   /* slightly tinted — for inset boxes, alpha bars */
   --color-surface:     #ffffff;
   --color-surface-alt: #f5f2ee;
 

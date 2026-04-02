@@ -407,41 +407,6 @@ p { line-height: var(--leading-relaxed); }
   gap: var(--space-3);
   flex-wrap: wrap;
 }
-.hero__quick-links {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: var(--space-2);
-  margin-top: var(--space-5);
-}
-.hero__quick-links-label {
-  font-size: var(--text-xs);
-  color: rgba(255,255,255,0.45);
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  margin-right: var(--space-1);
-  white-space: nowrap;
-}
-.hero__quick-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 5px 12px;
-  font-size: var(--text-xs);
-  font-weight: var(--font-semibold);
-  color: rgba(255,255,255,0.82);
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.18);
-  border-radius: 999px;
-  text-decoration: none;
-  transition: background 0.15s, color 0.15s, border-color 0.15s;
-  white-space: nowrap;
-}
-.hero__quick-link:hover {
-  background: rgba(255,255,255,0.16);
-  color: #fff;
-  border-color: rgba(255,255,255,0.35);
-}
 .btn--lg {
   font-size: var(--text-md);
   padding: 13px var(--space-8);
@@ -905,7 +870,7 @@ a.card:hover { text-decoration: none; }
   scrollbar-width: none;
   margin-bottom: var(--space-6);
   position: sticky;
-  top: 0;
+  top: 56px;
   z-index: 10;
   background: var(--color-bg);
   padding-top: var(--space-2);
@@ -985,7 +950,7 @@ a.card:hover { text-decoration: none; }
 .related-topics {
   margin-top: var(--space-8);
   padding: var(--space-5) var(--space-6);
-  background: rgba(15,76,58,0.03);
+  background: rgba(30,41,59,0.03);
   border: 1px solid var(--color-border-light);
   border-radius: var(--radius-lg);
 }
@@ -1177,7 +1142,6 @@ a.card:hover { text-decoration: none; }
   .hero__content { text-align: center; }
   .hero__subtitle { margin-left: auto; margin-right: auto; }
   .hero__actions { justify-content: center; }
-  .hero__quick-links { justify-content: center; }
   .layout-with-sidebar { grid-template-columns: minmax(0, 1fr) 240px; gap: var(--space-5); }
   .footer-inner { grid-template-columns: 1.5fr repeat(3, 1fr); gap: var(--space-6); }
 }
@@ -1337,7 +1301,7 @@ a:focus-visible {
 .section-card li { margin-bottom: var(--space-1); }
 
 .section-card--upsc {
-  background: linear-gradient(135deg, rgba(15,76,58,0.04) 0%, rgba(15,76,58,0.01) 100%);
+  background: linear-gradient(135deg, rgba(30,41,59,0.04) 0%, rgba(30,41,59,0.01) 100%);
   border: 1px solid var(--color-brand);
   border-left: 4px solid var(--color-brand);
 }
@@ -1848,14 +1812,14 @@ a:focus-visible {
 .pyq-answer-toggle:hover { background: rgba(30,41,59,0.06); }
 .pyq-answer-toggle svg { transition: transform var(--transition-fast); }
 .pyq-answer-toggle[aria-expanded="true"] svg { transform: rotate(180deg); }
-.pyq-answer-toggle[aria-expanded="true"] { background: rgba(15,76,58,0.04); }
+.pyq-answer-toggle[aria-expanded="true"] { background: rgba(30,41,59,0.04); }
 .pyq-card--mains .pyq-answer-toggle { color: var(--color-accent); }
 .pyq-card--mains .pyq-answer-toggle:hover { background: rgba(224,90,51,0.04); }
 
 /* Answer / explanation reveal */
 .pyq-answer {
   padding: var(--space-5);
-  background: linear-gradient(135deg, rgba(15,76,58,0.03), rgba(15,76,58,0.01));
+  background: linear-gradient(135deg, rgba(30,41,59,0.03), rgba(30,41,59,0.01));
   font-size: var(--text-sm);
   line-height: var(--leading-relaxed);
   color: var(--color-text);
@@ -1946,7 +1910,7 @@ a:focus-visible {
   gap: var(--space-3);
   padding: var(--space-3) var(--space-5);
   margin: var(--space-3) 0 var(--space-5);
-  background: linear-gradient(135deg, rgba(15,76,58,0.05) 0%, rgba(212,160,23,0.06) 100%);
+  background: linear-gradient(135deg, rgba(30,41,59,0.05) 0%, rgba(212,160,23,0.06) 100%);
   border: 1.5px solid var(--color-brand);
   border-radius: var(--radius-md);
   font-size: var(--text-sm);
@@ -1956,7 +1920,7 @@ a:focus-visible {
   transition: background 0.15s, box-shadow 0.15s;
 }
 .pyq-quiz-cta:hover {
-  background: linear-gradient(135deg, rgba(15,76,58,0.1) 0%, rgba(212,160,23,0.1) 100%);
+  background: linear-gradient(135deg, rgba(30,41,59,0.1) 0%, rgba(212,160,23,0.1) 100%);
   box-shadow: var(--shadow-sm);
 }
 .pyq-quiz-cta__arrow { margin-left: auto; color: var(--color-brand); }
@@ -2360,7 +2324,7 @@ a:focus-visible {
   transition: background 0.15s;
 }
 .section-block__header:hover {
-  background: rgba(15,76,58,0.03);
+  background: rgba(30,41,59,0.03);
 }
 .section-block__number {
   display: flex;
@@ -2442,7 +2406,7 @@ a:focus-visible {
   transition: background 0.15s, color 0.15s;
 }
 .chapter-list__link:hover {
-  background: rgba(15,76,58,0.04);
+  background: rgba(30,41,59,0.04);
   color: var(--color-brand);
 }
 .chapter-list__num {
@@ -2751,7 +2715,7 @@ a:focus-visible {
 .mains-guide-card__title {
   font-family: var(--font-body);
   font-size: 1.35rem;
-  color: var(--color-brand, #0f4c3a);
+  color: var(--color-brand);
   margin: 0 0 var(--space-2);
 }
 .mains-guide-card__desc {
@@ -2824,7 +2788,7 @@ a:focus-visible {
   border-radius: 4px;
   transition: background 0.15s;
 }
-.syllabus-label:hover { background: rgba(15,76,58,0.03); }
+.syllabus-label:hover { background: rgba(30,41,59,0.03); }
 .syllabus-label input[type="checkbox"] {
   margin-top: 3px;
   flex-shrink: 0;
@@ -2897,7 +2861,7 @@ a:focus-visible {
   left: 0;
 }
 .pyq-table tbody tr { transition: background 0.1s; }
-.pyq-table tbody tr:hover { background: rgba(15,76,58,0.03); }
+.pyq-table tbody tr:hover { background: rgba(30,41,59,0.03); }
 .pyq-table tbody tr:last-child td { border-bottom: none; }
 .pyq-table .pyq-table__highlight {
   background: rgba(212,160,23,0.15);
