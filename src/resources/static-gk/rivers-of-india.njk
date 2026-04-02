@@ -1,0 +1,353 @@
+---
+layout: base.njk
+title: "Rivers of India — Complete Quick-Reference for UPSC"
+description: "Major rivers of India for UPSC — Himalayan vs Peninsular systems, origin, length, tributaries, drainage basins, east vs west-flowing rivers, Indus Waters Treaty, river disputes, sacred rivers, exam traps."
+---
+
+<section class="page-header">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Home</a><span class="breadcrumb__sep">/</span>
+      <a href="/resources/">Resources</a><span class="breadcrumb__sep">/</span>
+      <a href="/resources/static-gk/">Static GK</a><span class="breadcrumb__sep">/</span>
+      Rivers of India
+    </nav>
+    <p class="page-header__eyebrow">Static GK</p>
+    <h1 class="page-header__title">Rivers of India</h1>
+    <p class="page-header__subtitle">Himalayan and Peninsular river systems — origin, length, drainage, tributaries, key dams, water treaties, sacred significance, and UPSC exam traps.</p>
+  </div>
+</section>
+
+<section class="gk-page">
+  <div class="container">
+    <div class="gk-layout">
+      <aside class="gk-sidebar">
+        {% include "gk-sidebar.njk" %}
+      </aside>
+      <div class="gk-main">
+
+    {# ══ CLASSIFICATION ══ #}
+    <div class="gk-section">
+      <h2 class="gk-section-title">🗂️ Classification of Indian Rivers</h2>
+
+      <div class="gk-scroll">
+        <table class="gk-table">
+          <thead>
+            <tr><th>Type</th><th>Characteristic</th><th>Examples</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Himalayan (Perennial)</strong></td>
+              <td>Fed by snowmelt + monsoon; antecedent rivers; formed before the Himalayas rose (gorge formation)</td>
+              <td>Ganga, Yamuna, Indus, Brahmaputra, Sutlej, Beas, Ravi, Chenab, Jhelum</td>
+            </tr>
+            <tr>
+              <td><strong>Peninsular (Seasonal)</strong></td>
+              <td>Rain-fed only; dry in summer; shorter course; flow over hard rocks; older, more stable valleys</td>
+              <td>Godavari, Krishna, Kaveri, Mahanadi, Narmada, Tapi</td>
+            </tr>
+            <tr>
+              <td><strong>East-flowing</strong></td>
+              <td>Drain into Bay of Bengal; form deltas; have many tributaries</td>
+              <td>Ganga, Brahmaputra, Mahanadi, Godavari, Krishna, Kaveri, Damodar, Subarnarekha</td>
+            </tr>
+            <tr>
+              <td><strong>West-flowing</strong></td>
+              <td>Drain into Arabian Sea; form estuaries (not deltas); shorter, steeper</td>
+              <td>Indus, Narmada, Tapi, Sabarmati, Mahi, Luni, Periyar, Sharavathi, Bharathapuzha</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="gk-tip">
+        <strong>Why do Narmada and Tapi flow west?</strong> They flow through rift valleys formed by the Narmada-Son trough — faulted depressions along which west-flowing drainage was established. The Western Ghats act as the main watershed for short west-flowing coastal rivers; Narmada and Tapi are exceptions that pre-date the Ghats.
+      </div>
+    </div>
+
+    {# ══ HIMALAYAN RIVERS ══ #}
+    <div class="gk-section">
+      <h2 class="gk-section-title">🏔️ Himalayan Rivers</h2>
+
+      <div class="gk-scroll">
+        <table class="gk-table">
+          <thead>
+            <tr><th>River</th><th>Origin</th><th>Total Length (km)</th><th>Key Tributaries</th><th>Drains Into</th><th>Key Exam Fact</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Indus</strong></td>
+              <td>Sengge Zangbo, near Mansarovar Lake, Tibet (5,182 m)</td>
+              <td>3,180 (only ~1,114 in India)</td>
+              <td>Jhelum, Chenab, Ravi, Beas, Sutlej (Left bank); Shyok, Gilgit (Right bank)</td>
+              <td>Arabian Sea (Karachi)</td>
+              <td>Longest river in South Asia; most of its course outside India; "Punjab" = land of five rivers (all Indus tributaries)</td>
+            </tr>
+            <tr>
+              <td><strong>Sutlej</strong></td>
+              <td>Langchen Khambab/Rakas Lake, Tibet (4,572 m)</td>
+              <td>1,500 (450 in India)</td>
+              <td>Beas (merges before entering Pakistan)</td>
+              <td>Indus (Pakistan)</td>
+              <td>Gorge at Shipki La; Bhakra Nangal dam; allocated to India under IWT</td>
+            </tr>
+            <tr>
+              <td><strong>Ganga</strong></td>
+              <td>Gangotri glacier/Gomukh, Uttarakhand (3,892 m) — Bhagirathi + Alaknanda join at Devprayag</td>
+              <td>2,525</td>
+              <td>Yamuna, Son, Ghaghara, Gandak, Kosi (right); Chambal, Betwa, Ken (through Yamuna)</td>
+              <td>Bay of Bengal (Sundarbans delta)</td>
+              <td>Longest river entirely in India; largest river basin in India; National River (4 Nov 2008); Namami Gange mission</td>
+            </tr>
+            <tr>
+              <td><strong>Yamuna</strong></td>
+              <td>Yamunotri glacier, Uttarakhand (6,387 m)</td>
+              <td>1,376</td>
+              <td>Chambal, Betwa, Ken, Sindh</td>
+              <td>Ganga (at Prayagraj — Triveni Sangam with Saraswati)</td>
+              <td>Largest tributary of Ganga; Delhi, Agra, Mathura on its banks; most polluted major river</td>
+            </tr>
+            <tr>
+              <td><strong>Brahmaputra</strong></td>
+              <td>Angsi Glacier, near Mansarovar, Tibet (5,300 m) — called <strong>Tsangpo</strong> in Tibet</td>
+              <td>2,900 (916 in India)</td>
+              <td>Dibang, Lohit (join before entering Assam); Subansiri, Manas, Teesta (in Assam)</td>
+              <td>Bay of Bengal (Sundarbans/Bangladesh)</td>
+              <td>Known as Tsangpo (Tibet) → Siang/Dihang (Arunachal) → Brahmaputra (Assam) → Jamuna (Bangladesh); widest river in India; huge sediment load</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    {# ══ EAST-FLOWING PENINSULAR ══ #}
+    <div class="gk-section">
+      <h2 class="gk-section-title">🌊 East-Flowing Peninsular Rivers</h2>
+
+      <div class="gk-scroll">
+        <table class="gk-table">
+          <thead>
+            <tr><th>River</th><th>Origin</th><th>Length (km)</th><th>States</th><th>Key Facts</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Godavari</strong></td>
+              <td>Trimbak hills, Nashik, Maharashtra (1,067 m)</td>
+              <td>1,465</td>
+              <td>MH, Telangana, AP</td>
+              <td><strong>Largest peninsular river</strong>; called "Vridha Ganga" (Old Ganga) / "Dakshina Ganga" (Ganga of the South); Polavaram dam (national project, under construction)</td>
+            </tr>
+            <tr>
+              <td><strong>Krishna</strong></td>
+              <td>Mahabaleshwar, Maharashtra (1,337 m)</td>
+              <td>1,400</td>
+              <td>MH, Karnataka, AP/Telangana</td>
+              <td>Second longest peninsular river; major tributaries: Bhima, Tungabhadra, Musi; Nagarjuna Sagar dam; Krishna Water Disputes Tribunal</td>
+            </tr>
+            <tr>
+              <td><strong>Mahanadi</strong></td>
+              <td>Raipur district, Chhattisgarh (442 m)</td>
+              <td>858</td>
+              <td>CG, Odisha</td>
+              <td>Hirakud dam (one of longest dams in the world ~25.8 km); Bhitarkanika mangroves at mouth; Chilika Lake nearby</td>
+            </tr>
+            <tr>
+              <td><strong>Kaveri (Cauvery)</strong></td>
+              <td>Talakaveri, Brahmagiri hills, Kodagu, Karnataka (1,341 m)</td>
+              <td>765</td>
+              <td>Karnataka, Tamil Nadu</td>
+              <td>Called "Ponni" (Gold river) in Tamil; KRS dam (designed by Visvesvaraya); Mettur dam; <strong>Cauvery water dispute</strong> — most litigated river dispute in India; Kaveri Wildlife Sanctuary</td>
+            </tr>
+            <tr>
+              <td><strong>Damodar</strong></td>
+              <td>Khamarpat Hill, Chota Nagpur Plateau, Jharkhand</td>
+              <td>592</td>
+              <td>Jharkhand, West Bengal</td>
+              <td>Historically "Sorrow of Bengal" (flooding); Damodar Valley Corporation (DVC) modelled on TVA; DVC dams: Tilaiya, Maithon, Konar, Panchet; drains into Hooghly</td>
+            </tr>
+            <tr>
+              <td><strong>Subarnarekha</strong></td>
+              <td>Nagri, Ranchi, Jharkhand</td>
+              <td>395</td>
+              <td>Jharkhand, WB, Odisha</td>
+              <td>Getalsud dam; flows through Saranda forest; Bay of Bengal outfall</td>
+            </tr>
+            <tr>
+              <td><strong>Pennar (Penna)</strong></td>
+              <td>Nandi Hills (Chenna Kasava Hill), Chikkaballapura, Karnataka</td>
+              <td>597</td>
+              <td>Karnataka, AP</td>
+              <td>Rain-fed/intermittent; mouth near Nellore; basin ~55,213 sq km</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    {# ══ WEST-FLOWING PENINSULAR ══ #}
+    <div class="gk-section">
+      <h2 class="gk-section-title">🌅 West-Flowing Peninsular Rivers</h2>
+
+      <div class="gk-scroll">
+        <table class="gk-table">
+          <thead>
+            <tr><th>River</th><th>Origin</th><th>Length (km)</th><th>States</th><th>Key Facts</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Narmada</strong></td>
+              <td>Amarkantak, Madhya Pradesh (1,057 m)</td>
+              <td>1,312</td>
+              <td>MP, Maharashtra, Gujarat</td>
+              <td>Longest west-flowing river; also called "Rewa"; forms boundary between North and South India; Sardar Sarovar dam (163 m, 1,450 MW); Omkareshwar, Indira Sagar (largest reservoir by volume); estuary at Gulf of Khambhat; Narmada Bachao Andolan</td>
+            </tr>
+            <tr>
+              <td><strong>Tapi (Tapti)</strong></td>
+              <td>Multai, Betul, Madhya Pradesh (~752 m)</td>
+              <td>724</td>
+              <td>MP, Maharashtra, Gujarat</td>
+              <td>Flows parallel to Narmada ~80 km south; Ukai dam (Gujarat); estuary at Gulf of Khambhat; both Narmada and Tapi flow through rift valleys</td>
+            </tr>
+            <tr>
+              <td><strong>Sabarmati</strong></td>
+              <td>Aravalli Hills, Udaipur, Rajasthan (~762 m)</td>
+              <td>371</td>
+              <td>Rajasthan, Gujarat</td>
+              <td>Passes through Ahmedabad and Gandhinagar; Gandhi Ashram (Sabarmati Ashram) on its banks; Dharoi dam; estuary at Gulf of Khambhat</td>
+            </tr>
+            <tr>
+              <td><strong>Mahi</strong></td>
+              <td>Vindhyas, Dhar, MP (~500 m)</td>
+              <td>583</td>
+              <td>MP, Rajasthan, Gujarat</td>
+              <td>Kadana reservoir; <strong>crosses the Tropic of Cancer twice</strong> — distinctive geographic feature; Arabian Sea via Gulf of Khambhat</td>
+            </tr>
+            <tr>
+              <td><strong>Luni</strong></td>
+              <td>Western Aravalli, near Ajmer (~772 m)</td>
+              <td>511</td>
+              <td>Rajasthan</td>
+              <td>Drains into <strong>Rann of Kutch</strong> (not the sea); fresh water in upper reaches, <strong>saline below Balotra</strong>; semi-arid river; not perennial</td>
+            </tr>
+            <tr>
+              <td><strong>Sharavathi</strong></td>
+              <td>Ambuthirtha, Western Ghats, Karnataka</td>
+              <td>~128</td>
+              <td>Karnataka</td>
+              <td>Source of <strong>Jog Falls (Gersoppa Falls)</strong> — highest untiered waterfall in India (253 m); Linganamakki dam</td>
+            </tr>
+            <tr>
+              <td><strong>Periyar</strong></td>
+              <td>Sivagiri hills, Western Ghats, Kerala</td>
+              <td>244</td>
+              <td>Kerala</td>
+              <td><strong>Longest river in Kerala</strong>; Idukki arch dam (one of India's largest arch dams); Periyar Tiger Reserve (Thekkady)</td>
+            </tr>
+            <tr>
+              <td><strong>Bharathapuzha (Nila)</strong></td>
+              <td>Anaimalai Hills, Western Ghats</td>
+              <td>209</td>
+              <td>Kerala</td>
+              <td>Second longest river in Kerala; "Cultural River of Kerala"</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    {# ══ INDUS WATERS TREATY ══ #}
+    <div class="gk-section">
+      <h2 class="gk-section-title">💧 Indus Waters Treaty (IWT) 1960</h2>
+
+      <div class="gk-scroll">
+        <table class="gk-table">
+          <thead>
+            <tr><th>Parameter</th><th>Detail</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Signed</td><td><strong>19 September 1960</strong> — PM Nehru (India) and President Ayub Khan (Pakistan); brokered by World Bank</td></tr>
+            <tr><td>India's rivers (Eastern)</td><td><strong>Ravi, Beas, Sutlej</strong> — unrestricted use by India</td></tr>
+            <tr><td>Pakistan's rivers (Western)</td><td><strong>Indus, Jhelum, Chenab</strong> — unrestricted use by Pakistan (India has limited non-consumptive use)</td></tr>
+            <tr><td>Mnemonic</td><td><strong>RBS → India; IJC → Pakistan</strong> (Ravi-Beas-Sutlej to India; Indus-Jhelum-Chenab to Pakistan)</td></tr>
+            <tr><td>Permanent Indus Commission</td><td>India and Pakistan each appoint a commissioner; annual meetings</td></tr>
+            <tr><td>2025 status</td><td>India served notice to Pakistan (January 2023) to modify treaty; negotiations ongoing; treaty still in force as of April 2026</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    {# ══ SACRED RIVERS ══ #}
+    <div class="gk-section">
+      <h2 class="gk-section-title">🕉️ Sacred Rivers &amp; Cultural Names</h2>
+
+      <div class="gk-scroll">
+        <table class="gk-table">
+          <thead>
+            <tr><th>River</th><th>Sacred Name / Note</th><th>Key Significance</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>Ganga</strong></td><td>National River of India — declared 4 November 2008 (Manmohan Singh govt)</td><td>Most sacred; Namami Gange Mission (2014); Haridwar, Prayagraj, Varanasi on banks</td></tr>
+            <tr><td><strong>Godavari</strong></td><td>"Dakshina Ganga" (Ganga of South) / "Vridha Ganga" (Old Ganga)</td><td>Largest peninsular river; Nashik Kumbh Mela held on Godavari</td></tr>
+            <tr><td><strong>Kaveri</strong></td><td>"Ponni" (Golden River in Tamil)</td><td>Sacred in South India; Adi Shankaracharya's Sringeri matha on a tributary</td></tr>
+            <tr><td><strong>Narmada</strong></td><td>"Rewa" in Madhya Pradesh; "Mekhala"</td><td>Circumambulation (parikrama) — 1,312 km on foot; one of 7 sacred rivers</td></tr>
+            <tr><td><strong>Brahmaputra</strong></td><td>"Luit" or "Barhola" in Assam</td><td>Worshipped as a male river god (Brahma's son); Majuli island (world's largest river island) in it</td></tr>
+            <tr><td><strong>Sapta Sindhu</strong></td><td>Seven sacred rivers in Rigveda</td><td>Origin of the word "Hindu" — Persian mispronunciation of "Sindhu" (Indus); ancient India = Sapta Sindhu region</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    {# ══ KEY DAM RECORDS ══ #}
+    <div class="gk-section">
+      <h2 class="gk-section-title">🏗️ Key Dam Records</h2>
+
+      <div class="gk-scroll">
+        <table class="gk-table">
+          <thead>
+            <tr><th>Record</th><th>Dam</th><th>River</th><th>State</th><th>Detail</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>Tallest dam in India</strong></td><td>Tehri Dam</td><td>Bhagirathi (Ganga)</td><td>Uttarakhand</td><td>260.5 m; earth-and-rockfill; 1,000 MW</td></tr>
+            <tr><td><strong>Longest dam in India</strong></td><td>Hirakud Dam</td><td>Mahanadi</td><td>Odisha</td><td>~25.8 km including dykes; completed 1957; first post-independence multipurpose dam</td></tr>
+            <tr><td><strong>Largest reservoir by volume</strong></td><td>Indira Sagar Dam</td><td>Narmada</td><td>Madhya Pradesh</td><td>12.22 billion m³; completed 2005; 1,000 MW</td></tr>
+            <tr><td><strong>Largest gravity dam</strong></td><td>Bhakra Dam</td><td>Sutlej</td><td>HP/Punjab border</td><td>225 m; Gobind Sagar reservoir; 2nd tallest straight gravity dam in world at time of construction</td></tr>
+            <tr><td><strong>Largest arch dam</strong></td><td>Idukki Dam</td><td>Periyar</td><td>Kerala</td><td>Double-curvature arch dam; 168.9 m; 780 MW</td></tr>
+            <tr><td><strong>First major post-independence dam</strong></td><td>Hirakud Dam</td><td>Mahanadi</td><td>Odisha</td><td>Completed 1957; first major multipurpose river valley project</td></tr>
+            <tr><td><strong>Highest waterfall (source)</strong></td><td>Jog Falls (253 m)</td><td>Sharavathi</td><td>Karnataka</td><td>Highest untiered waterfall in India; Linganamakki dam upstream</td></tr>
+            <tr><td><strong>Largest dam by capacity (current)</strong></td><td>Sardar Sarovar</td><td>Narmada</td><td>Gujarat</td><td>163 m; benefits 4 states; 1,450 MW; Narmada Bachao Andolan</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    {# ══ EXAM TRAPS ══ #}
+    <div class="gk-section">
+      <h2 class="gk-section-title">⚠️ Exam Traps &amp; High-Yield Points</h2>
+
+      <div class="gk-scroll">
+        <table class="gk-table">
+          <thead>
+            <tr><th>#</th><th>Wrong belief</th><th>Correct fact</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="gk-num">1</td><td>"Ganga originates at Gangotri glacier"</td><td>Technically Ganga starts at <strong>Gomukh</strong> (snout of Gangotri glacier, 18 km from Gangotri town) where the Bhagirathi emerges. Gangotri is the town/shrine. UPSC often uses both — but Gomukh is more precise.</td></tr>
+            <tr><td class="gk-num">2</td><td>"Brahmaputra originates in India"</td><td>Brahmaputra originates in Tibet as the <strong>Tsangpo</strong> near Angsi Glacier (~5,300 m). It enters India at Arunachal Pradesh. Its four names: Tsangpo (Tibet) → Siang/Dihang (AP) → Brahmaputra (Assam) → Jamuna (Bangladesh).</td></tr>
+            <tr><td class="gk-num">3</td><td>"Sutlej, Indus, Brahmaputra are consequent rivers formed by Himalayan uplift"</td><td>They are <strong>antecedent rivers</strong> — they pre-date the Himalayas and cut through the mountains as the ranges rose. This explains their gorge-forming nature through the mountains.</td></tr>
+            <tr><td class="gk-num">4</td><td>"IWT gives Indus to India"</td><td>IWT allocates <strong>Ravi, Beas, Sutlej</strong> (Eastern rivers) to <strong>India</strong>. <strong>Indus, Jhelum, Chenab</strong> (Western) go to <strong>Pakistan</strong>. Mnemonic: RBS → India; IJC → Pakistan.</td></tr>
+            <tr><td class="gk-num">5</td><td>"Narmada and Tapi form deltas"</td><td>They form <strong>estuaries</strong>, not deltas. East-flowing rivers (Ganga, Godavari, etc.) form deltas. West-flowing peninsular rivers are shorter, steeper, and lack sufficient sediment deposition.</td></tr>
+            <tr><td class="gk-num">6</td><td>"Godavari is longer than Ganga"</td><td>Ganga (2,525 km) is the <strong>longest river in India</strong>. Godavari (1,465 km) is the longest peninsular river but shorter than Ganga.</td></tr>
+            <tr><td class="gk-num">7</td><td>"Luni drains into the Arabian Sea"</td><td>Luni drains into the <strong>Rann of Kutch</strong> (a seasonal salt marsh in Gujarat), not directly into the sea.</td></tr>
+            <tr><td class="gk-num">8</td><td>"Damodar was called 'Sorrow of Bengal' because of pollution"</td><td>"Sorrow of Bengal" refers to its historical <strong>flooding and embankment breaches</strong>, not pollution. DVC was built to tame these floods.</td></tr>
+            <tr><td class="gk-num">9</td><td>"Mahi river crosses Tropic of Cancer once"</td><td>Mahi river is notable for crossing the <strong>Tropic of Cancer twice</strong> due to its curved course in Rajasthan and Gujarat.</td></tr>
+            <tr><td class="gk-num">10</td><td>"Kaveri dispute is between Karnataka and Andhra Pradesh"</td><td>The <strong>Cauvery water dispute</strong> is between <strong>Karnataka and Tamil Nadu</strong> (along with Puducherry and Kerala). The Cauvery Water Disputes Tribunal gave its final award in 2007 (confirmed by SC in 2018).</td></tr>
+            <tr><td class="gk-num">11</td><td>"Hirakud is the tallest dam in India"</td><td>Hirakud is the <strong>longest</strong> dam (~25.8 km). The <strong>tallest</strong> is Tehri Dam (260.5 m).</td></tr>
+            <tr><td class="gk-num">12</td><td>"Kosi is a tributary of Brahmaputra"</td><td>Kosi is a tributary of the <strong>Ganga</strong>, joining it in Bihar. It is called "Sorrow of Bihar" due to frequent course changes and flooding.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+      </div>{# end gk-main #}
+    </div>{# end gk-layout #}
+  </div>
+</section>
