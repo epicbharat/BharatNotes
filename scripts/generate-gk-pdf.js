@@ -189,7 +189,7 @@ function buildCSS() {
     ".howto-legend { margin-top:16px; }",
     ".howto-legend-row { display:flex; align-items:center; gap:10px; padding:5px 0; border-bottom:0.3pt solid #eee; font-size:10pt; }",
     ".howto-legend-row:last-child { border-bottom:none; }",
-    ".howto-legend-swatch { width:28px; height:14px; border-radius:2px; flex-shrink:0; }",
+    ".howto-legend-swatch { width:28px; height:14px; border-radius:2px; flex-shrink:0; print-color-adjust:exact; -webkit-print-color-adjust:exact; }",
 
     // ── TOC page ──
     ".toc-pg { page:toc; page-break-after:always; padding:28mm 28mm 20mm; }",
@@ -432,15 +432,15 @@ function buildHowToUsePage() {
     <h3>Visual Legend</h3>
     <div class="howto-legend">
       <div class="howto-legend-row">
-        <div class="howto-legend-swatch" style="background:#f5f5f2;border:1px solid #ccc;"></div>
+        <div class="howto-legend-swatch" style="background:#f5f5f2;border:1px solid #ccc;print-color-adjust:exact;-webkit-print-color-adjust:exact;"></div>
         <span><strong>Grey background page</strong> = Exam Traps cheat-sheet. Photocopy or screenshot this page.</span>
       </div>
       <div class="howto-legend-row">
-        <div class="howto-legend-swatch" style="background:rgba(0,0,0,0.015);border:1px solid #e0e0e0;"></div>
+        <div class="howto-legend-swatch" style="background:#f0f0ee;border:1px solid #d0d0d0;print-color-adjust:exact;-webkit-print-color-adjust:exact;"></div>
         <span><strong>Alternating table rows</strong> = standard reference table; no special meaning.</span>
       </div>
       <div class="howto-legend-row">
-        <div class="howto-legend-swatch" style="background:#fafaf8;border-left:3px solid #888;border-top:0.5px solid #ccc;border-right:0.5px solid #ccc;border-bottom:0.5px solid #ccc;"></div>
+        <div class="howto-legend-swatch" style="background:#fafaf8;border-left:3px solid #888;border-top:0.5px solid #ccc;border-right:0.5px solid #ccc;border-bottom:0.5px solid #ccc;print-color-adjust:exact;-webkit-print-color-adjust:exact;"></div>
         <span><strong>Boxed note</strong> = additional context or important clarification; not always examinable.</span>
       </div>
     </div>
