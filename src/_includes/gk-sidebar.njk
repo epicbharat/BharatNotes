@@ -1,0 +1,75 @@
+{# ══ STATIC GK SIDEBAR — include in every static-gk page ══ #}
+{# Uses page.url (Eleventy built-in) to auto-highlight the active link. #}
+
+<div class="gk-profile-card">
+  <div class="gk-profile-card__avatar">BC</div>
+  <div class="gk-profile-card__name">Bharat Choudhary</div>
+  <div class="gk-profile-card__sub">BharatNotes.com</div>
+  <div class="gk-profile-card__tag">UPSC GS Prep</div>
+</div>
+
+<nav class="gk-sidenav" aria-label="Static GK chapters">
+  <div class="gk-sidenav__group-label">Static GK</div>
+
+  <a href="/resources/static-gk/"
+    {% if page.url == '/resources/static-gk/' %}aria-current="page"{% endif %}>
+    🗂️ Hub — All Chapters
+  </a>
+
+  <div class="gk-sidenav__divider">Polity &amp; Constitution</div>
+
+  <a href="/resources/static-gk/constitutional-provisions/"
+    {% if page.url == '/resources/static-gk/constitutional-provisions/' %}aria-current="page"{% endif %}>
+    ⚖️ Constitutional Provisions
+  </a>
+
+  <a href="/resources/static-gk/schedules/"
+    {% if page.url == '/resources/static-gk/schedules/' %}aria-current="page"{% endif %}>
+    📑 Schedules of the Constitution
+  </a>
+
+  <a href="/resources/static-gk/constitutional-bodies/"
+    {% if page.url == '/resources/static-gk/constitutional-bodies/' %}aria-current="page"{% endif %}>
+    🏛️ Constitutional &amp; Statutory Bodies
+  </a>
+
+  <a href="/resources/static-gk/committees-commissions/"
+    {% if page.url == '/resources/static-gk/committees-commissions/' %}aria-current="page"{% endif %}>
+    📋 Committees &amp; Commissions
+  </a>
+
+  <div class="gk-sidenav__divider">India — Facts &amp; Identity</div>
+
+  <a href="/resources/static-gk/national-symbols/"
+    {% if page.url == '/resources/static-gk/national-symbols/' %}aria-current="page"{% endif %}>
+    🇮🇳 National Symbols
+  </a>
+
+  <a href="/resources/static-gk/states-capitals/"
+    {% if page.url == '/resources/static-gk/states-capitals/' %}aria-current="page"{% endif %}>
+    🗺️ States &amp; Capitals
+  </a>
+
+  <a href="/resources/static-gk/geographical-facts/"
+    {% if page.url == '/resources/static-gk/geographical-facts/' %}aria-current="page"{% endif %}>
+    🧭 Geographical Facts
+  </a>
+
+  <a href="/resources/static-gk/india-firsts/"
+    {% if page.url == '/resources/static-gk/india-firsts/' %}aria-current="page"{% endif %}>
+    🏆 India's Firsts
+  </a>
+
+  <div class="gk-sidenav__divider">Language &amp; Culture</div>
+
+  <a href="/resources/static-gk/scheduled-languages/"
+    {% if page.url == '/resources/static-gk/scheduled-languages/' %}aria-current="page"{% endif %}>
+    📜 Scheduled Languages
+  </a>
+
+  <a href="/resources/static-gk/important-days/"
+    {% if page.url == '/resources/static-gk/important-days/' %}aria-current="page"{% endif %}>
+    📅 Important Days
+  </a>
+
+</nav>

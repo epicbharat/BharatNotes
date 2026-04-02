@@ -20,21 +20,11 @@ description: "Quick-reference for UPSC Prelims — ECI, CAG, UPSC, Finance Commi
 
 <section class="gk-page">
   <div class="container">
-
-    <nav class="gk-subnav" aria-label="Static GK sections">
-      <a href="/resources/static-gk/">Hub</a>
-      <a href="/resources/static-gk/national-symbols/">National Symbols</a>
-      <a href="/resources/static-gk/states-capitals/">States &amp; Capitals</a>
-      <a href="/resources/static-gk/india-firsts/">India's Firsts</a>
-      <a href="/resources/static-gk/scheduled-languages/">Scheduled Languages</a>
-      <a href="/resources/static-gk/geographical-facts/">Geographical Facts</a>
-      <a href="/resources/static-gk/important-days/">Important Days</a>
-      <a href="/resources/static-gk/constitutional-provisions/">Constitutional Provisions</a>
-      <a href="/resources/static-gk/committees-commissions/">Committees &amp; Commissions</a>
-      <a href="/resources/static-gk/constitutional-bodies/" aria-current="page">Constitutional &amp; Statutory Bodies</a>
-      <a href="/resources/static-gk/schedules/">Schedules</a>
-    </nav>
-
+    <div class="gk-layout">
+      <aside class="gk-sidebar">
+        {% include "gk-sidebar.njk" %}
+      </aside>
+      <div class="gk-main">
     <div class="gk-tip">
       <strong>Constitutional vs Statutory:</strong> A <strong>constitutional body</strong> is directly established by the Constitution — it cannot be abolished by ordinary Parliament legislation. A <strong>statutory body</strong> is created by an Act of Parliament — it can be amended or abolished by the same Parliament. UPSC tests this distinction regularly.
     </div>
@@ -448,6 +438,9 @@ description: "Quick-reference for UPSC Prelims — ECI, CAG, UPSC, Finance Commi
     <div class="gk-note">
       <strong>Exam strategy:</strong> For each body, UPSC tests three types of questions — (1) Is it constitutional or statutory? (2) Who appoints / removes the head? (3) What is unique about this body (reappointment ban, expense from Consolidated Fund, etc.)? Learn at least one "uniqueness" per body. The CEC-vs-EC asymmetry, CAG reappointment ban, SPSC removal by President, and NHRC 2019 amendment are the most frequently trapped.
     </div>
+
+        </div>{# /gk-main #}
+    </div>{# /gk-layout #}
 
   </div>
 </section>

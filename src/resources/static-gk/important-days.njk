@@ -20,20 +20,11 @@ description: "Month-wise list of all important national and international days f
 
 <section class="gk-page">
   <div class="container">
-
-    <nav class="gk-subnav" aria-label="Static GK sections">
-      <a href="/resources/static-gk/">Hub</a>
-      <a href="/resources/static-gk/national-symbols/">National Symbols</a>
-      <a href="/resources/static-gk/states-capitals/">States &amp; Capitals</a>
-      <a href="/resources/static-gk/india-firsts/">India's Firsts</a>
-      <a href="/resources/static-gk/scheduled-languages/">Scheduled Languages</a>
-      <a href="/resources/static-gk/geographical-facts/">Geographical Facts</a>
-      <a href="/resources/static-gk/important-days/" aria-current="page">Important Days</a>
-      <a href="/resources/static-gk/constitutional-provisions/">Constitutional Provisions</a>
-      <a href="/resources/static-gk/committees-commissions/">Committees &amp; Commissions</a>
-      <a href="/resources/static-gk/constitutional-bodies/">Constitutional Bodies</a>
-    </nav>
-
+    <div class="gk-layout">
+      <aside class="gk-sidebar">
+        {% include "gk-sidebar.njk" %}
+      </aside>
+      <div class="gk-main">
     <div class="gk-tip">
       <strong>Exam relevance:</strong> UPSC Prelims regularly asks about the <em>founding reason</em> for an international day, the <em>year it was first observed</em>, and its associated theme. Focus on days proposed by India (Yoga Day), days linked to key events (National Technology Day, National Science Day), and frequently confused pairs (Teachers' Day India vs. World Teachers' Day).
     </div>
@@ -817,6 +808,9 @@ description: "Month-wise list of all important national and international days f
     <div class="gk-note">
       <strong>Current affairs link:</strong> Each year's <em>themes</em> for international days (World Environment Day, World Health Day, etc.) are frequently asked in Prelims. Since themes change annually, check <a href="https://ujiyari.com" target="_blank" rel="noopener" style="color:#0f4c3a;">Ujiyari.com</a> for the latest year's themes closer to your exam. The dates and founding notes above are static and permanent.
     </div>
+
+        </div>{# /gk-main #}
+    </div>{# /gk-layout #}
 
   </div>
 </section>

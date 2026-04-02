@@ -20,20 +20,11 @@ description: "Complete list of 22 languages in the 8th Schedule of India's Const
 
 <section class="gk-page">
   <div class="container">
-
-    <nav class="gk-subnav" aria-label="Static GK sections">
-      <a href="/resources/static-gk/">Hub</a>
-      <a href="/resources/static-gk/national-symbols/">National Symbols</a>
-      <a href="/resources/static-gk/states-capitals/">States &amp; Capitals</a>
-      <a href="/resources/static-gk/india-firsts/">India's Firsts</a>
-      <a href="/resources/static-gk/scheduled-languages/" aria-current="page">Scheduled Languages</a>
-      <a href="/resources/static-gk/geographical-facts/">Geographical Facts</a>
-      <a href="/resources/static-gk/important-days/">Important Days</a>
-      <a href="/resources/static-gk/constitutional-provisions/">Constitutional Provisions</a>
-      <a href="/resources/static-gk/committees-commissions/">Committees &amp; Commissions</a>
-      <a href="/resources/static-gk/constitutional-bodies/">Constitutional Bodies</a>
-    </nav>
-
+    <div class="gk-layout">
+      <aside class="gk-sidebar">
+        {% include "gk-sidebar.njk" %}
+      </aside>
+      <div class="gk-main">
     <div class="gk-tip">
       <strong>What is the 8th Schedule?</strong> Article 344(1) and Article 351 of the Constitution refer to the Eighth Schedule, which lists languages that may be used for official purposes. The Official Languages Commission is set up to recommend progressive use of these languages. Currently <strong>22 languages</strong> are listed.
     </div>
@@ -346,6 +337,9 @@ description: "Complete list of 22 languages in the 8th Schedule of India's Const
     <div class="gk-note">
       <strong>Key distinction for Prelims:</strong> Hindi is the <em>Official Language</em> of the Union (Article 343) — NOT the "national language". India has no constitutionally designated "national language". The two official languages of the Union are Hindi and English (for transitional purposes, extended indefinitely). Individual states may have their own official languages under Article 345.
     </div>
+
+        </div>{# /gk-main #}
+    </div>{# /gk-layout #}
 
   </div>
 </section>

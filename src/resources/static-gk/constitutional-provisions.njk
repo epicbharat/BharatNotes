@@ -20,20 +20,11 @@ description: "Quick-reference table of key articles of the Indian Constitution f
 
 <section class="gk-page">
   <div class="container">
-
-    <nav class="gk-subnav" aria-label="Static GK sections">
-      <a href="/resources/static-gk/">Hub</a>
-      <a href="/resources/static-gk/national-symbols/">National Symbols</a>
-      <a href="/resources/static-gk/states-capitals/">States &amp; Capitals</a>
-      <a href="/resources/static-gk/india-firsts/">India's Firsts</a>
-      <a href="/resources/static-gk/scheduled-languages/">Scheduled Languages</a>
-      <a href="/resources/static-gk/geographical-facts/">Geographical Facts</a>
-      <a href="/resources/static-gk/important-days/">Important Days</a>
-      <a href="/resources/static-gk/constitutional-provisions/" aria-current="page">Constitutional Provisions</a>
-      <a href="/resources/static-gk/committees-commissions/">Committees &amp; Commissions</a>
-      <a href="/resources/static-gk/constitutional-bodies/">Constitutional Bodies</a>
-    </nav>
-
+    <div class="gk-layout">
+      <aside class="gk-sidebar">
+        {% include "gk-sidebar.njk" %}
+      </aside>
+      <div class="gk-main">
     <div class="gk-tip">
       <strong>How to use this page:</strong> The Constitution has <strong>448 articles</strong> (as amended) in 25 Parts and 12 Schedules. UPSC Prelims tests ~60–80 key articles repeatedly. This cheat sheet covers the highest-frequency articles — learn the article number, the subject, and the exam-critical note column.
     </div>
@@ -448,6 +439,9 @@ description: "Quick-reference table of key articles of the Indian Constitution f
     <div class="gk-note">
       <strong>UPSC Prelims strategy for Constitution:</strong> Focus on article numbers for Rights (12–35), Emergency (352, 356, 360), President/Parliament comparisons, differences between Governor &amp; President (pardoning power, qualifications, removal), and landmark amendments (42nd, 44th, 73rd, 74th, 86th, 101st). UPSC also tests differences: Money Bill vs Financial Bill (Art 110), joint sitting (Art 108 — only ordinary Bills), and what cannot be suspended during Emergency (Arts 20 and 21).
     </div>
+
+        </div>{# /gk-main #}
+    </div>{# /gk-layout #}
 
   </div>
 </section>

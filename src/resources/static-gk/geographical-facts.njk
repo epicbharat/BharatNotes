@@ -20,20 +20,11 @@ description: "India's geographical extremes, dimensions, area rankings, longest 
 
 <section class="gk-page">
   <div class="container">
-
-    <nav class="gk-subnav" aria-label="Static GK sections">
-      <a href="/resources/static-gk/">Hub</a>
-      <a href="/resources/static-gk/national-symbols/">National Symbols</a>
-      <a href="/resources/static-gk/states-capitals/">States &amp; Capitals</a>
-      <a href="/resources/static-gk/india-firsts/">India's Firsts</a>
-      <a href="/resources/static-gk/scheduled-languages/">Scheduled Languages</a>
-      <a href="/resources/static-gk/geographical-facts/" aria-current="page">Geographical Facts</a>
-      <a href="/resources/static-gk/important-days/">Important Days</a>
-      <a href="/resources/static-gk/constitutional-provisions/">Constitutional Provisions</a>
-      <a href="/resources/static-gk/committees-commissions/">Committees &amp; Commissions</a>
-      <a href="/resources/static-gk/constitutional-bodies/">Constitutional Bodies</a>
-    </nav>
-
+    <div class="gk-layout">
+      <aside class="gk-sidebar">
+        {% include "gk-sidebar.njk" %}
+      </aside>
+      <div class="gk-main">
     {# ══ INDIA AT A GLANCE ══ #}
     <div class="gk-section">
       <h2 class="gk-section-title">📋 India at a Glance</h2>
@@ -508,6 +499,9 @@ description: "India's geographical extremes, dimensions, area rankings, longest 
     <div class="gk-note">
       <strong>For deep geography notes</strong> — physical features, drainage systems, climate, soils, and natural vegetation — see the <a href="/subjects/geography/" style="color:#0f4c3a;">Geography subject pages</a>. For <a href="/mapping/" style="color:#0f4c3a;">India Mapping</a> practice, use the interactive mapping tool.
     </div>
+
+        </div>{# /gk-main #}
+    </div>{# /gk-layout #}
 
   </div>
 </section>

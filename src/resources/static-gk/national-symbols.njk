@@ -20,20 +20,11 @@ description: "Official national symbols of India — national animal, bird, flow
 
 <section class="gk-page">
   <div class="container">
-
-    <nav class="gk-subnav" aria-label="Static GK sections">
-      <a href="/resources/static-gk/">Hub</a>
-      <a href="/resources/static-gk/national-symbols/" aria-current="page">National Symbols</a>
-      <a href="/resources/static-gk/states-capitals/">States &amp; Capitals</a>
-      <a href="/resources/static-gk/india-firsts/">India's Firsts</a>
-      <a href="/resources/static-gk/scheduled-languages/">Scheduled Languages</a>
-      <a href="/resources/static-gk/geographical-facts/">Geographical Facts</a>
-      <a href="/resources/static-gk/important-days/">Important Days</a>
-      <a href="/resources/static-gk/constitutional-provisions/">Constitutional Provisions</a>
-      <a href="/resources/static-gk/committees-commissions/">Committees &amp; Commissions</a>
-      <a href="/resources/static-gk/constitutional-bodies/">Constitutional Bodies</a>
-    </nav>
-
+    <div class="gk-layout">
+      <aside class="gk-sidebar">
+        {% include "gk-sidebar.njk" %}
+      </aside>
+      <div class="gk-main">
     {# ══ FLORA & FAUNA ══ #}
     <div class="gk-section">
       <h2 class="gk-section-title">🦁 Flora &amp; Fauna Symbols</h2>
@@ -241,6 +232,9 @@ description: "Official national symbols of India — national animal, bird, flow
     <div class="gk-note">
       <strong>Related topics:</strong> For wildlife conservation (Project Tiger, Project Elephant, Dolphin conservation), see the <a href="/subjects/environment/" style="color:#0f4c3a;">Environment</a> subject. For the State Emblem and constitutional provisions, see <a href="/subjects/polity/" style="color:#0f4c3a;">Polity</a>.
     </div>
+
+        </div>{# /gk-main #}
+    </div>{# /gk-layout #}
 
   </div>
 </section>

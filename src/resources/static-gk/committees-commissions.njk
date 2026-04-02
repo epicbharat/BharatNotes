@@ -20,20 +20,11 @@ description: "Quick-reference table of India's most important committees and com
 
 <section class="gk-page">
   <div class="container">
-
-    <nav class="gk-subnav" aria-label="Static GK sections">
-      <a href="/resources/static-gk/">Hub</a>
-      <a href="/resources/static-gk/national-symbols/">National Symbols</a>
-      <a href="/resources/static-gk/states-capitals/">States &amp; Capitals</a>
-      <a href="/resources/static-gk/india-firsts/">India's Firsts</a>
-      <a href="/resources/static-gk/scheduled-languages/">Scheduled Languages</a>
-      <a href="/resources/static-gk/geographical-facts/">Geographical Facts</a>
-      <a href="/resources/static-gk/important-days/">Important Days</a>
-      <a href="/resources/static-gk/constitutional-provisions/">Constitutional Provisions</a>
-      <a href="/resources/static-gk/committees-commissions/" aria-current="page">Committees &amp; Commissions</a>
-      <a href="/resources/static-gk/constitutional-bodies/">Constitutional Bodies</a>
-    </nav>
-
+    <div class="gk-layout">
+      <aside class="gk-sidebar">
+        {% include "gk-sidebar.njk" %}
+      </aside>
+      <div class="gk-main">
     <div class="gk-tip">
       <strong>How UPSC tests this:</strong> Questions typically ask — "Which committee recommended X?", "Who chaired the committee on Y?", or "In which year was commission Z set up?" Focus on the <em>chairman name</em>, the <em>year</em>, and the <em>single most important recommendation</em> from each. Negative-marking traps: confusing Sarkaria (1983) with Punchhi (2007), Balwant Rai Mehta (1957) with Ashok Mehta (1977), Narasimham-I (1991) with Narasimham-II (1998).
     </div>
@@ -461,6 +452,9 @@ description: "Quick-reference table of India's most important committees and com
     <div class="gk-note">
       <strong>Common exam trap:</strong> "Dharam Vira Commission 1969" is a widely circulated error — <strong>there is no such commission</strong>. Dharam Vira chaired the National Police Commission constituted in <strong>November 1977</strong>. Also: Rajamannar Committee was set up by Tamil Nadu state government (not Central govt) — the only state-constituted committee on this list. All others were Central Government committees.
     </div>
+
+        </div>{# /gk-main #}
+    </div>{# /gk-layout #}
 
   </div>
 </section>

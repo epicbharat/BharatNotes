@@ -20,20 +20,11 @@ description: "India's firsts for UPSC Prelims — first President, Prime Ministe
 
 <section class="gk-page">
   <div class="container">
-
-    <nav class="gk-subnav" aria-label="Static GK sections">
-      <a href="/resources/static-gk/">Hub</a>
-      <a href="/resources/static-gk/national-symbols/">National Symbols</a>
-      <a href="/resources/static-gk/states-capitals/">States &amp; Capitals</a>
-      <a href="/resources/static-gk/india-firsts/" aria-current="page">India's Firsts</a>
-      <a href="/resources/static-gk/scheduled-languages/">Scheduled Languages</a>
-      <a href="/resources/static-gk/geographical-facts/">Geographical Facts</a>
-      <a href="/resources/static-gk/important-days/">Important Days</a>
-      <a href="/resources/static-gk/constitutional-provisions/">Constitutional Provisions</a>
-      <a href="/resources/static-gk/committees-commissions/">Committees &amp; Commissions</a>
-      <a href="/resources/static-gk/constitutional-bodies/">Constitutional Bodies</a>
-    </nav>
-
+    <div class="gk-layout">
+      <aside class="gk-sidebar">
+        {% include "gk-sidebar.njk" %}
+      </aside>
+      <div class="gk-main">
     {# ══ CONSTITUTIONAL FIRSTS ══ #}
     <div class="gk-section">
       <h2 class="gk-section-title">🏛️ Constitutional &amp; Government Firsts</h2>
@@ -356,6 +347,9 @@ description: "India's firsts for UPSC Prelims — first President, Prime Ministe
     <div class="gk-note">
       <strong>Exam tip:</strong> For Bharat Ratna, note that it has been awarded to non-Indians too — Khan Abdul Ghaffar Khan (1987, first non-Indian) and Nelson Mandela (1990). Also, it has been awarded to sportspersons: Sachin Tendulkar (2014, youngest recipient at 40), and C.N.R. Rao. The award was also given posthumously to BR Ambedkar, Rajiv Gandhi, Vallabhbhai Patel, Subhas Chandra Bose (all posthumous).
     </div>
+
+        </div>{# /gk-main #}
+    </div>{# /gk-layout #}
 
   </div>
 </section>

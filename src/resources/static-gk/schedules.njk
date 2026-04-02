@@ -20,21 +20,11 @@ description: "All 12 Schedules of the Indian Constitution — subject, key facts
 
 <section class="gk-page">
   <div class="container">
-
-    <nav class="gk-subnav" aria-label="Static GK sections">
-      <a href="/resources/static-gk/">Hub</a>
-      <a href="/resources/static-gk/national-symbols/">National Symbols</a>
-      <a href="/resources/static-gk/states-capitals/">States &amp; Capitals</a>
-      <a href="/resources/static-gk/india-firsts/">India's Firsts</a>
-      <a href="/resources/static-gk/scheduled-languages/">Scheduled Languages</a>
-      <a href="/resources/static-gk/geographical-facts/">Geographical Facts</a>
-      <a href="/resources/static-gk/important-days/">Important Days</a>
-      <a href="/resources/static-gk/constitutional-provisions/">Constitutional Provisions</a>
-      <a href="/resources/static-gk/committees-commissions/">Committees &amp; Commissions</a>
-      <a href="/resources/static-gk/constitutional-bodies/">Constitutional &amp; Statutory Bodies</a>
-      <a href="/resources/static-gk/schedules/" aria-current="page">Schedules</a>
-    </nav>
-
+    <div class="gk-layout">
+      <aside class="gk-sidebar">
+        {% include "gk-sidebar.njk" %}
+      </aside>
+      <div class="gk-main">
     <div class="gk-tip">
       <strong>Original vs Current:</strong> The Constitution had <strong>8 Schedules</strong> at commencement (1950). Four more were added by amendments — 9th (1951), 10th (1985), 11th (1992), 12th (1992). The Constitution now has <strong>12 Schedules</strong>. UPSC frequently tests which schedule was added by which amendment.
     </div>
@@ -632,6 +622,9 @@ description: "All 12 Schedules of the Indian Constitution — subject, key facts
         </table>
       </div>
     </div>
+
+        </div>{# /gk-main #}
+    </div>{# /gk-layout #}
 
   </div>
 </section>

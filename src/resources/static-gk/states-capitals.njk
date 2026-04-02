@@ -20,20 +20,11 @@ description: "Complete list of India's 28 states and 8 union territories with ca
 
 <section class="gk-page">
   <div class="container">
-
-    <nav class="gk-subnav" aria-label="Static GK sections">
-      <a href="/resources/static-gk/">Hub</a>
-      <a href="/resources/static-gk/national-symbols/">National Symbols</a>
-      <a href="/resources/static-gk/states-capitals/" aria-current="page">States &amp; Capitals</a>
-      <a href="/resources/static-gk/india-firsts/">India's Firsts</a>
-      <a href="/resources/static-gk/scheduled-languages/">Scheduled Languages</a>
-      <a href="/resources/static-gk/geographical-facts/">Geographical Facts</a>
-      <a href="/resources/static-gk/important-days/">Important Days</a>
-      <a href="/resources/static-gk/constitutional-provisions/">Constitutional Provisions</a>
-      <a href="/resources/static-gk/committees-commissions/">Committees &amp; Commissions</a>
-      <a href="/resources/static-gk/constitutional-bodies/">Constitutional Bodies</a>
-    </nav>
-
+    <div class="gk-layout">
+      <aside class="gk-sidebar">
+        {% include "gk-sidebar.njk" %}
+      </aside>
+      <div class="gk-main">
     <div class="gk-tip">
       <strong>Key count:</strong> India has <strong>28 States</strong> and <strong>8 Union Territories</strong> (as of 2020). J&amp;K was reorganised into 2 UTs on 31 October 2019 — J&amp;K (with legislature) and Ladakh (without legislature).
     </div>
@@ -336,6 +327,9 @@ description: "Complete list of India's 28 states and 8 union territories with ca
     <div class="gk-note">
       <strong>Remember:</strong> Telangana became the 29th state in 2014, but the count reverted back to 28 after J&amp;K was bifurcated into 2 UTs (reducing states from 29 to 28, and increasing UTs from 7 to 9; then Dadra &amp; NH merged with Daman &amp; Diu reducing UTs to 8). Current count: <strong>28 States + 8 UTs</strong>.
     </div>
+
+        </div>{# /gk-main #}
+    </div>{# /gk-layout #}
 
   </div>
 </section>
