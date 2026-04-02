@@ -112,7 +112,7 @@ function svgSwatch(fill, stroke = "#999", leftAccent = null) {
 
 function buildLogoSrc() {
   // Circle logo — used as a badge/seal on cover and back pages
-  const b64 = loadBase64(path.join(IMG_DIR, "bharatnotes-circle-sm.png"));
+  const b64 = loadBase64(path.join(ROOT, "BHARATNOTES_cicrclelogo.png"));
   return b64 ? `data:image/png;base64,${b64}` : "";
 }
 
