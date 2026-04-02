@@ -2266,6 +2266,11 @@ a:focus-visible {
 }
 
 /* Result feedback bar */
+@keyframes pyqResultFlash {
+  0%   { transform: translateY(-6px); opacity: 0; }
+  60%  { transform: translateY(1px); }
+  100% { transform: translateY(0); opacity: 1; }
+}
 .pyq-result {
   display: flex;
   align-items: center;
@@ -2274,6 +2279,7 @@ a:focus-visible {
   font-size: var(--text-sm);
   font-weight: var(--font-bold);
   border-top: 1px solid var(--color-border-light);
+  animation: pyqResultFlash 0.22s ease both;
 }
 .pyq-result--correct {
   background: rgba(15,138,76,0.08);
@@ -2308,14 +2314,26 @@ a:focus-visible {
 .pyq-card--mains .pyq-answer-toggle { color: var(--color-accent); }
 .pyq-card--mains .pyq-answer-toggle:hover { background: rgba(224,90,51,0.04); }
 
-/* Answer / explanation reveal */
+/* Answer / explanation reveal — animated */
 .pyq-answer {
-  padding: var(--space-5);
   background: linear-gradient(135deg, rgba(28,25,23,0.03), rgba(28,25,23,0.01));
   font-size: var(--text-sm);
   line-height: var(--leading-relaxed);
   color: var(--color-text);
   border-top: 1px solid var(--color-border-light);
+  /* Closed state */
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  padding: 0 var(--space-5);
+  transition: max-height 0.38s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 0.22s ease,
+              padding 0.2s ease;
+}
+.pyq-answer.pyq-answer--open {
+  max-height: 2400px;
+  opacity: 1;
+  padding: var(--space-5);
 }
 .pyq-answer strong { color: var(--color-brand); font-weight: var(--font-bold); }
 .pyq-card--mains .pyq-answer {
@@ -2537,6 +2555,41 @@ a:focus-visible {
 .pyq-retry-btn:hover {
   background: rgba(28,25,23,0.06);
   color: var(--color-brand);
+}
+
+/* ── Mark as Revised ───────────────────────────────────── */
+.pyq-revised-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  width: 100%;
+  font-size: var(--text-xs);
+  font-weight: var(--font-semibold);
+  font-family: var(--font-body);
+  color: var(--color-text-muted);
+  background: var(--color-surface-alt);
+  border: none;
+  border-top: 1px solid var(--color-border-light);
+  padding: var(--space-2) var(--space-4);
+  cursor: pointer;
+  transition: all 0.15s;
+  letter-spacing: 0.01em;
+}
+.pyq-revised-btn:hover {
+  background: rgba(22,163,74,0.06);
+  color: var(--color-success);
+}
+.pyq-card--revised .pyq-revised-btn {
+  background: rgba(22,163,74,0.08);
+  color: var(--color-success);
+  font-weight: var(--font-bold);
+}
+.pyq-card--revised {
+  border-left: 3px solid var(--color-success);
+}
+.pyq-card--revised .pyq-meta {
+  background: rgba(22,163,74,0.04);
 }
 
 /* ── PYQ Mains Hints ───────────────────────────────────── */

@@ -548,7 +548,7 @@ layout: base.njk
           if (answerHtml) {
             var answerId = 'pyq-ans-' + qCount;
             cardsHtml += '<button class="pyq-answer-toggle" aria-expanded="false" aria-controls="' + answerId + '">Reveal Answer ' + chevronSvg + '</button>';
-            cardsHtml += '<div class="pyq-answer" id="' + answerId + '" hidden>' + answerHtml + '</div>';
+            cardsHtml += '<div class="pyq-answer" id="' + answerId + '">' + answerHtml + '</div>';
           }
           cardsHtml += '</div>';
           return;
@@ -559,7 +559,7 @@ layout: base.njk
           var lastDiv = cardsHtml.lastIndexOf('</div>');
           if (lastDiv !== -1) {
             var toggle = '<button class="pyq-answer-toggle" aria-expanded="false" aria-controls="' + answerId + '">Reveal Answer ' + chevronSvg + '</button>';
-            toggle += '<div class="pyq-answer" id="' + answerId + '" hidden>' + content + '</div>';
+            toggle += '<div class="pyq-answer" id="' + answerId + '">' + content + '</div>';
             cardsHtml = cardsHtml.substring(0, lastDiv) + toggle + '</div>';
           }
           return;
@@ -576,7 +576,7 @@ layout: base.njk
               var insert = '';
               if (qPart) insert += '<div class="pyq-question-text" style="margin-top:var(--space-1);">' + qPart + '</div>';
               insert += '<button class="pyq-answer-toggle" aria-expanded="false" aria-controls="' + answerId + '">Reveal Answer ' + chevronSvg + '</button>';
-              insert += '<div class="pyq-answer" id="' + answerId + '" hidden>' + aPart + '</div>';
+              insert += '<div class="pyq-answer" id="' + answerId + '">' + aPart + '</div>';
               cardsHtml = cardsHtml.substring(0, lastDiv) + insert + '</div>';
             } else {
               cardsHtml = cardsHtml.substring(0, lastDiv) + '<div class="pyq-question-text" style="margin-top:var(--space-1);">' + content + '</div></div>';
@@ -899,7 +899,7 @@ layout: base.njk
           });
           checkBtn.disabled = true;
           checkBtn.hidden = false;
-          if (answerDiv) answerDiv.hidden = true;
+          if (answerDiv) answerDiv.classList.remove('pyq-answer--open');
           if (toggle) toggle.hidden = true;
           var result = card.querySelector('.pyq-result');
           if (result) result.remove();
@@ -939,7 +939,7 @@ layout: base.njk
 
           checkBtn.parentNode.insertBefore(resultEl, checkBtn);
           checkBtn.hidden = true;
-          if (answerDiv) answerDiv.hidden = false;
+          if (answerDiv) answerDiv.classList.add('pyq-answer--open');
           if (toggle) toggle.hidden = true;
 
           // Try Again button
@@ -984,7 +984,7 @@ layout: base.njk
           var expanded = toggle.getAttribute('aria-expanded') === 'true';
           toggle.setAttribute('aria-expanded', !expanded);
           if (answerDiv) {
-            answerDiv.hidden = expanded;
+            answerDiv.classList.toggle('pyq-answer--open', !expanded);
             if (!expanded) saveScore(qNum, 'mains', -1, false);
           }
         });
@@ -1011,13 +1011,57 @@ layout: base.njk
             if (card) {
               var answerDiv = card.querySelector('.pyq-answer');
               var toggle = card.querySelector('.pyq-answer-toggle');
-              if (answerDiv) answerDiv.hidden = false;
+              if (answerDiv) answerDiv.classList.add('pyq-answer--open');
               if (toggle) toggle.setAttribute('aria-expanded', 'true');
             }
           });
         }
       }
       updateProgress();
+
+      /* ── Mark as Revised ── */
+      var revisedStoreKey = 'bn_pyq_revised_v1';
+      function loadRevised() {
+        try { return JSON.parse(localStorage.getItem(revisedStoreKey)) || {}; } catch(e) { return {}; }
+      }
+      function saveRevised(qNum, state) {
+        var data = loadRevised();
+        if (!data[pageSlug]) data[pageSlug] = [];
+        var idx = data[pageSlug].indexOf(qNum);
+        if (state && idx === -1) data[pageSlug].push(qNum);
+        else if (!state && idx !== -1) data[pageSlug].splice(idx, 1);
+        localStorage.setItem(revisedStoreKey, JSON.stringify(data));
+      }
+      function isRevisedQ(qNum) {
+        var data = loadRevised();
+        return data[pageSlug] && data[pageSlug].indexOf(qNum) !== -1;
+      }
+
+      var checkIconSvg = '<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>';
+
+      pyqInner.querySelectorAll('.pyq-card').forEach(function(card) {
+        var qNum = parseInt(card.getAttribute('data-q'));
+        var revisedBtn = document.createElement('button');
+        revisedBtn.className = 'pyq-revised-btn';
+
+        function updateRevisedUI(rev) {
+          if (rev) {
+            revisedBtn.innerHTML = checkIconSvg + ' Marked as Revised';
+            card.classList.add('pyq-card--revised');
+          } else {
+            revisedBtn.innerHTML = checkIconSvg + ' Mark as Revised';
+            card.classList.remove('pyq-card--revised');
+          }
+        }
+
+        updateRevisedUI(isRevisedQ(qNum));
+        revisedBtn.addEventListener('click', function() {
+          var nowRevised = !card.classList.contains('pyq-card--revised');
+          saveRevised(qNum, nowRevised);
+          updateRevisedUI(nowRevised);
+        });
+        card.appendChild(revisedBtn);
+      });
     }
 
     // ── Vocabulary / Key Terms — rich expandable entries ──
