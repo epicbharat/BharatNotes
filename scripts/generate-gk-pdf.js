@@ -99,6 +99,17 @@ async function buildAuthorPhotoSrc() {
   }
 }
 
+/** Inline SVG as base64 img — always renders in Puppeteer (unlike CSS backgrounds) */
+function svgSwatch(fill, stroke = "#999", leftAccent = null) {
+  let svg = `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="16">`;
+  svg += `<rect width="32" height="16" fill="${fill}"/>`;
+  if (leftAccent) svg += `<rect width="5" height="16" fill="${leftAccent}"/>`;
+  svg += `<rect width="32" height="16" fill="none" stroke="${stroke}" stroke-width="1"/>`;
+  svg += `</svg>`;
+  const b64 = Buffer.from(svg).toString("base64");
+  return `<img src="data:image/svg+xml;base64,${b64}" width="32" height="16" style="flex-shrink:0;border-radius:2px;display:block;">`;
+}
+
 function buildLogoSrc() {
   // Circle logo — used as a badge/seal on cover and back pages
   const b64 = loadBase64(path.join(IMG_DIR, "bharatnotes-circle-sm.png"));
@@ -174,22 +185,26 @@ function buildCSS() {
 
     "body { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:12.5pt; line-height:1.72; color:#1a1a1a; background:#fff; }",
 
-    // ── HOW TO USE page ──
-    ".howto { page:howto; page-break-after:always; padding:28mm 28mm 20mm; }",
+    // ── HOW TO USE page — flows across 2 pages naturally ──
+    ".howto { page:howto; padding:28mm 28mm 20mm; }",
     ".howto h2 { font-family:'Crimson Pro','Georgia',serif; font-size:24pt; font-weight:400; color:#1a1a1a; border-bottom:2px solid #1a1a1a; padding-bottom:10px; margin-bottom:20px; letter-spacing:-0.01em; }",
-    ".howto h3 { font-family:'Inter',sans-serif; font-size:9pt; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#555; margin:18px 0 8px; }",
+    ".howto h3 { font-family:'Inter',sans-serif; font-size:9pt; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#555; margin:22px 0 8px; }",
     ".howto p { font-size:11pt; line-height:1.7; color:#333; margin-bottom:10px; }",
-    ".howto ul { margin:0 0 12px 18px; }",
-    ".howto li { font-size:10.5pt; line-height:1.65; color:#333; margin-bottom:4px; }",
-    ".howto-grid { display:flex; gap:16px; margin:12px 0; }",
-    ".howto-card { flex:1; padding:12px 14px; border:1px solid #e0e0e0; border-radius:5px; }",
-    ".howto-card__label { font-family:'Inter',sans-serif; font-size:7pt; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#999; margin-bottom:4px; }",
-    ".howto-card__day { font-family:'Crimson Pro','Georgia',serif; font-size:13pt; font-weight:600; color:#1a1a1a; margin-bottom:4px; }",
-    ".howto-card__chapters { font-size:9pt; color:#666; line-height:1.5; }",
-    ".howto-legend { margin-top:16px; }",
-    ".howto-legend-row { display:flex; align-items:center; gap:10px; padding:5px 0; border-bottom:0.3pt solid #eee; font-size:10pt; }",
+    ".howto ol { margin:0 0 12px 20px; }",
+    ".howto li { font-size:10.5pt; line-height:1.65; color:#333; margin-bottom:5px; }",
+    // 7-day plan table
+    ".howto-plan { width:100%; border-collapse:collapse; margin:10px 0 18px; font-size:10.5pt; }",
+    ".howto-plan thead tr { border-top:2px solid #1a1a1a; border-bottom:1px solid #1a1a1a; }",
+    ".howto-plan th { font-family:'Inter',sans-serif; font-size:8pt; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:#555; padding:6px 10px; text-align:left; }",
+    ".howto-plan td { padding:7px 10px; vertical-align:top; border-bottom:0.5px solid #e8e8e8; color:#333; line-height:1.5; }",
+    ".howto-plan td:first-child { font-family:'Inter',sans-serif; font-size:9pt; font-weight:700; color:#1a1a1a; white-space:nowrap; width:32px; }",
+    ".howto-plan td:nth-child(2) { font-family:'Crimson Pro','Georgia',serif; font-size:11pt; font-weight:600; white-space:nowrap; width:90px; }",
+    ".howto-plan td:last-child { font-size:10pt; color:#555; }",
+    ".howto-plan tbody tr:last-child td { border-bottom:2px solid #1a1a1a; }",
+    // legend
+    ".howto-legend { margin-top:14px; }",
+    ".howto-legend-row { display:flex; align-items:center; gap:12px; padding:6px 0; border-bottom:0.5px solid #eee; font-size:10.5pt; }",
     ".howto-legend-row:last-child { border-bottom:none; }",
-    ".howto-legend-swatch { width:28px; height:14px; border-radius:2px; flex-shrink:0; display:block; }",
 
     // ── TOC page ──
     ".toc-pg { page:toc; page-break-after:always; padding:28mm 28mm 20mm; }",
@@ -369,7 +384,7 @@ function buildTitlePage(photoSrc, logoSrc) {
   </div>`;
 }
 
-/** Improvement #6 — How to use this compendium */
+/** Improvement #6 — How to use this compendium (flows across pages 2–3) */
 function buildHowToUsePage() {
   return `
   <div class="howto">
@@ -381,69 +396,70 @@ function buildHowToUsePage() {
       UPSC Prelims — constitutional facts, historical firsts, geographical data, awards, science
       &amp; environment. Every figure is verified against official sources as of ${GENERATED_DATE}.
     </p>
-
-    <h3>What This Is Not</h3>
     <p>
-      This is not a current affairs resource. For events after the generated date, pair this with
-      <strong>Ujiyari.com</strong> (daily current affairs, monthly compilations, editorial analysis).
+      Pair with <strong>Ujiyari.com</strong> for current affairs after this date — daily coverage,
+      monthly compilations, and editorial analysis.
     </p>
 
     <h3>How Each Chapter Is Structured</h3>
-    <ul>
-      <li><strong>Fact tables</strong> — Oxford booktabs style; scan vertically to compare, horizontally for details</li>
-      <li><strong>Key Firsts / Records</strong> — highest-frequency UPSC question type; memorise these first</li>
-      <li><strong>⚠ Exam Traps</strong> — the last page of every chapter, on a grey background. This is the cheat-sheet. Read it once before every mock test.</li>
-    </ul>
+    <ol>
+      <li><strong>Fact tables</strong> — Oxford booktabs style; scan vertically to compare entries, horizontally for full details.</li>
+      <li><strong>Key Firsts &amp; Records</strong> — highest-frequency UPSC question type; memorise these before anything else.</li>
+      <li><strong>⚠ Exam Traps</strong> — the last section of every chapter, on a distinct grey page. This is the cheat-sheet. Read it once before every mock test. 30 minutes through all 28 chapters on revision day.</li>
+    </ol>
 
     <h3>Suggested 7-Day Revision Plan</h3>
-    <div class="howto-grid">
-      <div class="howto-card">
-        <div class="howto-card__label">Day 1–2</div>
-        <div class="howto-card__day">Polity Core</div>
-        <div class="howto-card__chapters">Constitutional Provisions · Schedules · Presidents · Prime Ministers · Lok Sabha Speakers · Chief Justices</div>
-      </div>
-      <div class="howto-card">
-        <div class="howto-card__label">Day 3</div>
-        <div class="howto-card__day">Governance &amp; Bodies</div>
-        <div class="howto-card__chapters">Constitutional Bodies · Committees &amp; Commissions · Five Year Plans · Viceroys</div>
-      </div>
-      <div class="howto-card">
-        <div class="howto-card__label">Day 4</div>
-        <div class="howto-card__day">India Facts</div>
-        <div class="howto-card__chapters">National Symbols · States &amp; Capitals · Geographical Facts · India's Firsts · Rivers</div>
-      </div>
-    </div>
-    <div class="howto-grid">
-      <div class="howto-card">
-        <div class="howto-card__label">Day 5</div>
-        <div class="howto-card__day">Awards &amp; Culture</div>
-        <div class="howto-card__chapters">Bharat Ratna · Padma Awards · Gallantry Awards · Classical Languages · Classical Dance · Important Days</div>
-      </div>
-      <div class="howto-card">
-        <div class="howto-card__label">Day 6</div>
-        <div class="howto-card__day">Science &amp; Environment</div>
-        <div class="howto-card__chapters">ISRO &amp; Space · Nuclear Programme · Major Ports · UNESCO Heritage · Protected Areas</div>
-      </div>
-      <div class="howto-card">
-        <div class="howto-card__label">Day 7</div>
-        <div class="howto-card__day">Full Revision</div>
-        <div class="howto-card__chapters">Read only the ⚠ Exam Traps page of every chapter. 30 minutes total. This is the highest ROI revision session.</div>
-      </div>
-    </div>
+    <table class="howto-plan">
+      <thead>
+        <tr><th>Day</th><th>Focus Area</th><th>Chapters to Cover</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1–2</td>
+          <td>Polity Core</td>
+          <td>Constitutional Provisions · Schedules · Presidents · Prime Ministers · Lok Sabha Speakers · Chief Justices</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Governance</td>
+          <td>Constitutional &amp; Statutory Bodies · Committees &amp; Commissions · Five Year Plans &amp; NITI Aayog · Viceroys &amp; Governors-General</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>India Facts</td>
+          <td>National Symbols · States &amp; Capitals · Geographical Facts · India's Firsts · Rivers of India</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Awards &amp; Culture</td>
+          <td>Bharat Ratna · Padma Awards · Gallantry Awards · Classical Languages · Classical Dance Forms · Important Days</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Science &amp; World</td>
+          <td>ISRO &amp; Space Missions · Nuclear Programme · Major Ports · UNESCO Heritage Sites · Protected Areas · International Organisations</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Full Revision</td>
+          <td>Read only the <strong>⚠ Exam Traps page</strong> of every chapter. 30 minutes total. Highest ROI revision session.</td>
+        </tr>
+      </tbody>
+    </table>
 
     <h3>Visual Legend</h3>
     <div class="howto-legend">
       <div class="howto-legend-row">
-        <svg width="28" height="14" style="flex-shrink:0;border-radius:2px;overflow:hidden" xmlns="http://www.w3.org/2000/svg"><rect width="28" height="14" fill="#efefec"/><rect width="28" height="14" fill="none" stroke="#aaa" stroke-width="1"/></svg>
-        <span><strong>Grey background page</strong> = Exam Traps cheat-sheet. Photocopy or screenshot this page.</span>
+        ${svgSwatch("#c8c8c0", "#888")}
+        <span><strong>Grey page</strong> — Exam Traps cheat-sheet (last section of every chapter). Print or screenshot this page for quick revision.</span>
       </div>
       <div class="howto-legend-row">
-        <svg width="28" height="14" style="flex-shrink:0;border-radius:2px;overflow:hidden" xmlns="http://www.w3.org/2000/svg"><rect width="28" height="14" fill="#e8e8e4"/><rect width="28" height="14" fill="none" stroke="#bbb" stroke-width="1"/></svg>
-        <span><strong>Alternating table rows</strong> = standard reference table; no special meaning.</span>
+        ${svgSwatch("#e0e0d8", "#bbb")}
+        <span><strong>Shaded table row</strong> — alternating row in a standard fact table; no special significance.</span>
       </div>
       <div class="howto-legend-row">
-        <svg width="28" height="14" style="flex-shrink:0;border-radius:2px;overflow:hidden" xmlns="http://www.w3.org/2000/svg"><rect width="28" height="14" fill="#f5f5f2"/><rect width="4" height="14" fill="#888"/><rect width="28" height="14" fill="none" stroke="#ccc" stroke-width="1"/></svg>
-        <span><strong>Boxed note</strong> = additional context or important clarification; not always examinable.</span>
+        ${svgSwatch("#f0f0ec", "#ccc", "#777")}
+        <span><strong>Boxed note</strong> (left-border box) — additional context or clarification; not always directly examinable.</span>
       </div>
     </div>
   </div>`;
