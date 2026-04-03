@@ -355,6 +355,26 @@
 .ee-q-ar strong{color:#0c0a09;font-family:var(--font-body);font-size:0.75rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;}
 .ee-q-ar-note{font-size:var(--text-sm);color:#9ca3af;margin:var(--space-2) 0 var(--space-4);}
 
+/* Match the Following table */
+.ee-match-table{
+  width:100%;border-collapse:collapse;
+  margin:var(--space-3) 0 var(--space-4);
+  font-size:1rem;
+}
+.ee-match-table th{
+  background:#f0f7f4;color:#0f4c3a;
+  font-family:var(--font-body);font-size:0.68rem;font-weight:800;
+  text-transform:uppercase;letter-spacing:.06em;
+  padding:8px 14px;border:1px solid #d1e8de;text-align:left;
+}
+.ee-match-table td{
+  padding:10px 14px;border:1px solid #e5e7eb;
+  font-family:var(--font-serif);font-size:1.08rem;line-height:1.55;
+  vertical-align:top;color:#292524;
+}
+.ee-match-table tr:nth-child(even) td{ background:#fafaf8; }
+.ee-match-key{font-weight:700;color:#0f4c3a;margin-right:3px;}
+
 /* Options */
 .ee-opts{display:flex;flex-direction:column;gap:10px;}
 .ee-opt{
@@ -737,11 +757,13 @@ body.ee-exam-active .ee-exit{ border-color:rgba(255,255,255,.4);color:#fff; }
 #ee-test.ee-font-sm .ee-q-tail  { font-size:0.94rem; }
 #ee-test.ee-font-sm .ee-q-ar    { font-size:0.94rem; }
 #ee-test.ee-font-sm .ee-opt__text{ font-size:0.92rem; }
+#ee-test.ee-font-sm .ee-match-table td{ font-size:0.9rem; }
 #ee-test.ee-font-lg .ee-q-stem   { font-size:1.42rem; }
 #ee-test.ee-font-lg .ee-q-stmts li{ font-size:1.32rem; }
 #ee-test.ee-font-lg .ee-q-tail  { font-size:1.32rem; }
 #ee-test.ee-font-lg .ee-q-ar    { font-size:1.32rem; }
 #ee-test.ee-font-lg .ee-opt__text{ font-size:1.28rem; }
+#ee-test.ee-font-lg .ee-match-table td{ font-size:1.22rem; }
 
 /* ── Bottom palette strip ────────────────────────────────────── */
 .ee-pal-btm-strip{
@@ -772,6 +794,10 @@ body.ee-exam-active .ee-exit{ border-color:rgba(255,255,255,.4);color:#fff; }
 #ee-test.ee-dark .ee-q-stmts{ background:#162219;border-color:#283d30; }
 #ee-test.ee-dark .ee-q-stmts li{ color:#d4cab8; }
 #ee-test.ee-dark .ee-q-ar{ background:#162219;border-left-color:#4ade80;color:#d4cab8; }
+#ee-test.ee-dark .ee-match-table th{ background:#162219;color:#6ee7b7;border-color:#283d30; }
+#ee-test.ee-dark .ee-match-table td{ background:#1a2820;border-color:#283d30;color:#d4cab8; }
+#ee-test.ee-dark .ee-match-table tr:nth-child(even) td{ background:#162219; }
+#ee-test.ee-dark .ee-match-key{ color:#6ee7b7; }
 #ee-test.ee-dark .ee-opt{ background:#162219;border-color:#283d30; }
 #ee-test.ee-dark .ee-opt__text{ color:#d4cab8; }
 #ee-test.ee-dark .ee-opt__letter{ background:#111a16;border-color:#283d30;color:#6b7280; }
@@ -1739,6 +1765,23 @@ function renderSingleQuestion(q, idx) {
     html += '<div class="ee-q-ar"><strong>Assertion (A):</strong> '+esc(q.assertion)+'</div>';
     html += '<div class="ee-q-ar"><strong>Reason (R):</strong> '+esc(q.reason)+'</div>';
     html += '<p class="ee-q-ar-note">In the context of the above, which one of the following is correct?</p>';
+  } else if (q.qtype === 'match') {
+    html += '<p class="ee-q-stem">'+esc(q.stem)+'</p>';
+    if (q.listI && q.listII) {
+      var l1 = q.listI, l2 = q.listII;
+      var rows = Math.max(l1.items.length, l2.items.length);
+      html += '<table class="ee-match-table"><thead><tr>';
+      html += '<th>'+esc(l1.label||'List-I')+'</th>';
+      html += '<th>'+esc(l2.label||'List-II')+'</th>';
+      html += '</tr></thead><tbody>';
+      for (var ri = 0; ri < rows; ri++) {
+        html += '<tr>';
+        html += '<td>'+(l1.items[ri] ? esc(l1.items[ri]) : '')+'</td>';
+        html += '<td>'+(l2.items[ri] ? esc(l2.items[ri]) : '')+'</td>';
+        html += '</tr>';
+      }
+      html += '</tbody></table>';
+    }
   } else if (q.qtype === 'statement') {
     html += '<p class="ee-q-stem">'+esc(q.stem)+'</p>';
     if (q.statements && q.statements.length) {
@@ -2002,6 +2045,73 @@ function normalizeCAQuestion(q) {
   });
 }
 
+/* Normalise Match the Following questions.
+   Detects "Match" keyword + A./B. items + 1./2. items in stem.
+   Converts to qtype:'match' with listI:{label,items[]} and listII:{label,items[]}.   */
+function normalizeMatchQuestion(q) {
+  if (!q.stem || (q.qtype && q.qtype !== 'direct')) return q;
+  var stem = q.stem.trim();
+  if (!/\bmatch\b/i.test(stem)) return q;
+  if (!/\bA\.\s/.test(stem) || !/\b1\.\s/.test(stem)) return q;
+
+  /* Extract optional sub-labels like "List-I (Books)" */
+  function extractLabel(key, fallback) {
+    var m = stem.match(new RegExp(key + '\\s*(?:\\(([^)]+)\\))?', 'i'));
+    return m ? (fallback + (m[1] ? ' (' + m[1] + ')' : '')) : fallback;
+  }
+  var l1Label = extractLabel('List[- ]?I(?!I)', 'List-I');
+  var l2Label = extractLabel('List[- ]?II', 'List-II');
+
+  /* Intro = everything before first A. or List-I */
+  var introEnd = stem.search(/\b(?:List[- ]?I\b|A\.)\s/);
+  var intro = introEnd > -1 ? stem.substring(0, introEnd).trim() : 'Match the following:';
+
+  /* Extract letter items A–D: each ends at the next letter/number delimiter */
+  function grabItem(letter, nextDelim) {
+    var re = new RegExp('\\b' + letter + '\\.\\s+([\\s\\S]*?)(?=\\s+' + nextDelim + '|$)', 'i');
+    var m = stem.match(re);
+    return m ? letter + '. ' + m[1].trim().replace(/\s*$/, '') : null;
+  }
+  var l1Items = [
+    grabItem('A', 'B\\.'),
+    grabItem('B', 'C\\.'),
+    grabItem('C', 'D\\.'),
+    grabItem('D', '1\\.')
+  ].filter(Boolean);
+
+  /* Extract number items 1–4 */
+  function grabNum(n, next) {
+    var re = new RegExp('\\b' + n + '\\.\\s+([\\s\\S]*?)(?=\\s+' + next + '|$)');
+    var m = stem.match(re);
+    return m ? n + '. ' + m[1].trim() : null;
+  }
+  var l2Items = [
+    grabNum('1', '2\\.'),
+    grabNum('2', '3\\.'),
+    grabNum('3', '4\\.'),
+    grabNum('4', '$')
+  ].filter(Boolean);
+
+  /* Clean trailing "Codes / Which" noise from last items */
+  function cleanLast(items) {
+    if (!items.length) return items;
+    items[items.length - 1] = items[items.length - 1]
+      .replace(/\s+(?:Codes?|Which\b|How many\b).*$/i, '').trim();
+    return items;
+  }
+  l1Items = cleanLast(l1Items);
+  l2Items = cleanLast(l2Items);
+
+  if (l1Items.length < 2 || l2Items.length < 2) return q;
+
+  return Object.assign({}, q, {
+    qtype: 'match',
+    stem: intro,
+    listI:  { label: l1Label, items: l1Items },
+    listII: { label: l2Label, items: l2Items }
+  });
+}
+
 /* Normalise Assertion-Reason questions that have A/R embedded in stem.
    Detects: "Assertion (A): ... Reason (R): ..." in the stem field.        */
 function normalizeARQuestion(q) {
@@ -2037,7 +2147,8 @@ function launchTest() {
     .then(function(arrays) {
       var all = [].concat.apply([], arrays);
       all = all.map(function(q){
-        var n = normalizeCAQuestion(q);
+        var n = normalizeMatchQuestion(q);
+        n = normalizeCAQuestion(n);
         n = normalizeARQuestion(n);
         return Object.assign({}, n, { _subject: 'current-affairs' });
       });
