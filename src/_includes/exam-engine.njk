@@ -1976,7 +1976,7 @@ function launchTest() {
     .filter(function(m){ return caSelectedMonths.indexOf(m.month) > -1; })
     .map(function(m){ return m.url.startsWith('http') ? m.url : 'https://ujiyari.com' + m.url; });
 
-  Promise.all(urls.map(function(url){ return fetch(url).then(function(r){ return r.json(); }); }))
+  Promise.all(urls.map(function(url){ return fetch(url).then(function(r){ return r.json(); }).then(function(d){ return d.questions || d; }); }))
     .then(function(arrays) {
       var all = [].concat.apply([], arrays);
       all = all.map(function(q){ return Object.assign({}, q, { _subject: 'current-affairs' }); });
@@ -2153,7 +2153,7 @@ document.getElementById('ee-ca-count-row').addEventListener('click', function(e)
   fetch(CA_MANIFEST_URL)
     .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(function(data) {
-      caManifest = data;
+      caManifest = data.months || data;
       var status = document.getElementById('ee-ca-status');
       if (status) status.style.display = 'none';
       renderCAMonths(data);
