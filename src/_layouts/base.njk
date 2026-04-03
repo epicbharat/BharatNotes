@@ -238,7 +238,6 @@
         <a href="/prelims/" class="primary-nav__link" {% if '/prelims/' in page.url %}aria-current="page"{% endif %}>Prelims</a>
         <a href="/mains/" class="primary-nav__link" {% if '/mains/' in page.url %}aria-current="page"{% endif %}>Mains</a>
         <a href="/essay/" class="primary-nav__link" {% if '/essay/' in page.url %}aria-current="page"{% endif %}>Essay</a>
-        <a href="/pyq/" class="primary-nav__link" {% if '/pyq/' in page.url %}aria-current="page"{% endif %}>PYQ Stats</a>
         <div class="primary-nav__dropdown">
           <button class="primary-nav__link primary-nav__dropdown-toggle" aria-expanded="false" aria-haspopup="true" {% if '/quiz/' in page.url or '/prelims-practice/' in page.url or '/mains/mock/' in page.url or '/mains/pyq/' in page.url %}aria-current="page"{% endif %}>Practice <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="vertical-align:-1px;margin-left:2px;"><polyline points="6 9 12 15 18 9"/></svg></button>
           <div class="primary-nav__dropdown-menu" role="menu">
@@ -248,18 +247,19 @@
             <a href="/mains/mock/" class="primary-nav__dropdown-item" role="menuitem" {% if '/mains/mock/' in page.url %}aria-current="page"{% endif %}>✍️ Mains Mock Test <span style="font-size:0.65rem;font-weight:700;background:rgba(234,88,12,0.12);color:#ea580c;padding:1px 6px;border-radius:999px;margin-left:4px;">AI Eval</span></a>
           </div>
         </div>
-        <a href="/tracker/" class="primary-nav__link" {% if '/tracker/' in page.url %}aria-current="page"{% endif %}>Tracker</a>
         <div class="primary-nav__dropdown">
-          <button class="primary-nav__link primary-nav__dropdown-toggle" aria-expanded="false" aria-haspopup="true">Resources <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="vertical-align:-1px;margin-left:2px;"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <button class="primary-nav__link primary-nav__dropdown-toggle" aria-expanded="false" aria-haspopup="true" {% if '/resources/' in page.url or '/tracker/' in page.url or '/pyq/' in page.url or '/upsc-checklist/' in page.url or '/study-kit/' in page.url or '/mapping/' in page.url %}aria-current="page"{% endif %}>Resources <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="vertical-align:-1px;margin-left:2px;"><polyline points="6 9 12 15 18 9"/></svg></button>
           <div class="primary-nav__dropdown-menu" role="menu">
             <a href="/resources/" class="primary-nav__dropdown-item" role="menuitem">All Resources</a>
             <a href="/resources/vocab-builder/" class="primary-nav__dropdown-item" role="menuitem">📚 Vocab Builder</a>
             <a href="/resources/key-terms/" class="primary-nav__dropdown-item" role="menuitem">📖 Key Terms & Concepts</a>
             <a href="/upsc-checklist/" class="primary-nav__dropdown-item" role="menuitem">📋 UPSC Syllabus Checklist</a>
             <a href="/study-kit/" class="primary-nav__dropdown-item" role="menuitem">📦 UPSC Study Kit</a>
-            <a href="/resources/static-gk/" class="primary-nav__dropdown-item" role="menuitem" style="border-top:1px solid var(--color-border);margin-top:var(--space-1);padding-top:var(--space-2);">📋 Static GK</a>
+            <a href="/resources/static-gk/" class="primary-nav__dropdown-item" role="menuitem">📋 Static GK</a>
             <a href="/mapping/" class="primary-nav__dropdown-item" role="menuitem" style="border-top:1px solid var(--color-border);margin-top:var(--space-1);padding-top:var(--space-2);">🗺️ India Mapping</a>
             <a href="/mapping/world/" class="primary-nav__dropdown-item" role="menuitem">🌍 World Mapping</a>
+            <a href="/pyq/" class="primary-nav__dropdown-item" role="menuitem" {% if '/pyq/' in page.url %}aria-current="page"{% endif %} style="border-top:1px solid var(--color-border);margin-top:var(--space-1);padding-top:var(--space-2);">📊 PYQ Stats & Analysis</a>
+            <a href="/tracker/" class="primary-nav__dropdown-item" role="menuitem" {% if '/tracker/' in page.url %}aria-current="page"{% endif %}>📈 Progress Tracker</a>
           </div>
         </div>
         <a href="https://ujiyari.com" class="primary-nav__link" target="_blank" rel="noopener" style="color:var(--color-accent-light);">Ujiyari ↗</a>
