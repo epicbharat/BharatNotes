@@ -1,0 +1,1291 @@
+---
+layout: base.njk
+title: "How to Use BharatNotes & Ujiyari — Complete Guide"
+description: "A step-by-step guide to using BharatNotes and Ujiyari together for UPSC preparation — from foundation to interview."
+---
+
+<style>
+/* ══ Guide Page ══════════════════════════════════════════════ */
+.guide-hero {
+  background: linear-gradient(135deg, #071810 0%, #0a2318 50%, #0f4c3a 100%);
+  padding: var(--space-12) 0 var(--space-10);
+  position: relative;
+  overflow: hidden;
+}
+.guide-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 70% 40%, rgba(212,160,23,.07) 0%, transparent 60%);
+  pointer-events: none;
+}
+.guide-hero__inner { position: relative; z-index: 1; }
+.guide-hero__kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: #d4a017;
+  border: 1px solid rgba(212,160,23,.3);
+  background: rgba(212,160,23,.1);
+  border-radius: 100px;
+  padding: 4px 14px;
+  margin-bottom: var(--space-4);
+}
+.guide-hero h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: #fff;
+  margin: 0 0 var(--space-3);
+  line-height: 1.2;
+  max-width: 720px;
+}
+.guide-hero h1 em { color: #d4a017; font-style: italic; }
+.guide-hero p {
+  color: rgba(255,255,255,.6);
+  font-size: var(--text-sm);
+  max-width: 560px;
+  line-height: 1.7;
+  margin: 0 0 var(--space-6);
+}
+.guide-hero__pills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.guide-hero__pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 6px 13px;
+  border-radius: 100px;
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.15);
+  color: rgba(255,255,255,.7);
+}
+
+/* ══ Layout ══════════════════════════════════════════════════ */
+.guide-body {
+  background: var(--color-bg);
+  padding: var(--space-10) 0 var(--space-16);
+}
+.guide-layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: var(--space-8);
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+/* ── TOC Sidebar ────────────────────────────────────────────── */
+.guide-toc {
+  position: sticky;
+  top: 72px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: var(--space-4) var(--space-4);
+  box-shadow: 0 2px 8px rgba(0,0,0,.04);
+}
+.guide-toc__title {
+  font-size: 0.62rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--color-text-muted);
+  margin: 0 0 var(--space-3);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid #f0f0ec;
+}
+.guide-toc__list {
+  list-style: none;
+  padding: 0; margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.guide-toc__list a {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  text-decoration: none;
+  padding: 5px 8px;
+  border-radius: 7px;
+  transition: background .12s, color .12s;
+  line-height: 1.4;
+}
+.guide-toc__list a:hover { background: #f0f7f4; color: #0f4c3a; }
+.guide-toc__list a.active { background: #f0f7f4; color: #0f4c3a; font-weight: 700; }
+.guide-toc__list .toc-num {
+  font-size: 0.6rem;
+  font-weight: 800;
+  color: #0f4c3a;
+  background: rgba(15,76,58,.1);
+  border-radius: 4px;
+  padding: 1px 5px;
+  flex-shrink: 0;
+}
+
+/* ── Main content ───────────────────────────────────────────── */
+.guide-content { min-width: 0; }
+
+/* Section block */
+.guide-section {
+  margin-bottom: var(--space-12);
+  scroll-margin-top: 80px;
+}
+.guide-section__label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: #0f4c3a;
+  background: rgba(15,76,58,.07);
+  border-radius: 100px;
+  padding: 3px 11px;
+  margin-bottom: var(--space-3);
+}
+.guide-section h2 {
+  font-family: var(--font-heading);
+  font-size: 1.7rem;
+  color: var(--color-text);
+  margin: 0 0 var(--space-2);
+  line-height: 1.25;
+}
+.guide-section__intro {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.75;
+  margin: 0 0 var(--space-6);
+  max-width: 720px;
+}
+
+/* Card grid */
+.guide-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+.guide-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: var(--space-5);
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+}
+.guide-card__icon {
+  font-size: 1.5rem;
+  margin-bottom: var(--space-3);
+  display: block;
+}
+.guide-card h3 {
+  font-size: var(--text-sm);
+  font-weight: 800;
+  margin: 0 0 6px;
+  color: var(--color-text);
+}
+.guide-card p {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  margin: 0 0 10px;
+}
+.guide-card a {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  color: #0f4c3a;
+  text-decoration: none;
+}
+.guide-card a:hover { text-decoration: underline; }
+
+/* Step list */
+.guide-steps {
+  counter-reset: step;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+.guide-step {
+  display: flex;
+  gap: var(--space-4);
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: var(--space-5);
+}
+.guide-step__num {
+  counter-increment: step;
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: #0f4c3a;
+  color: #fff;
+  font-size: var(--text-sm);
+  font-weight: 900;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.guide-step__body { flex: 1; min-width: 0; }
+.guide-step h3 { font-size: var(--text-sm); font-weight: 800; margin: 0 0 5px; }
+.guide-step p { font-size: var(--text-xs); color: var(--color-text-muted); line-height: 1.65; margin: 0; }
+
+/* Tip / callout boxes */
+.guide-tip {
+  border-radius: 12px;
+  padding: var(--space-4) var(--space-5);
+  margin-bottom: var(--space-4);
+  font-size: var(--text-xs);
+  line-height: 1.7;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.guide-tip--green  { background: #f0fdf4; border: 1px solid #bbf7d0; color: #14532d; }
+.guide-tip--gold   { background: #fffbeb; border: 1px solid #fde68a; color: #78350f; }
+.guide-tip--blue   { background: #eff6ff; border: 1px solid #bfdbfe; color: #1e3a8a; }
+.guide-tip--orange { background: #fff7ed; border: 1px solid #fed7aa; color: #7c2d12; }
+.guide-tip__icon { font-size: 1.1rem; flex-shrink: 0; margin-top: 1px; }
+.guide-tip strong { font-weight: 800; }
+
+/* Feature table */
+.guide-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-xs);
+  margin-bottom: var(--space-5);
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.guide-table th {
+  background: #f8f9f6;
+  font-weight: 800;
+  text-align: left;
+  padding: 11px 14px;
+  color: var(--color-text);
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+.guide-table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #f0f0ec;
+  color: var(--color-text-muted);
+  line-height: 1.55;
+  vertical-align: top;
+}
+.guide-table tr:last-child td { border-bottom: none; }
+.guide-table td:first-child { font-weight: 700; color: var(--color-text); }
+
+/* Platform split */
+.guide-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+.guide-platform-card {
+  border-radius: 16px;
+  padding: var(--space-5);
+  border: 1px solid;
+}
+.guide-platform-card--bn {
+  background: linear-gradient(135deg, #f0fdf4, #fff);
+  border-color: #bbf7d0;
+}
+.guide-platform-card--uj {
+  background: linear-gradient(135deg, #fffbeb, #fff);
+  border-color: #fde68a;
+}
+.guide-platform-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  margin: 0 0 var(--space-3);
+}
+.guide-platform-card ul {
+  list-style: none;
+  padding: 0; margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.guide-platform-card ul li {
+  display: flex;
+  gap: 8px;
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+.guide-platform-card ul li::before {
+  content: '→';
+  font-weight: 800;
+  flex-shrink: 0;
+}
+.guide-platform-card--bn ul li::before { color: #15803d; }
+.guide-platform-card--uj ul li::before { color: #b45309; }
+
+/* Workflow diagram */
+.guide-workflow {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  margin-bottom: var(--space-5);
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+.guide-wf-step {
+  flex: 1;
+  min-width: 140px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: var(--space-4);
+  text-align: center;
+  position: relative;
+}
+.guide-wf-step + .guide-wf-step {
+  margin-left: 8px;
+}
+.guide-wf-step::after {
+  content: '→';
+  position: absolute;
+  right: -14px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  color: #9ca3af;
+  z-index: 1;
+}
+.guide-wf-step:last-child::after { display: none; }
+.guide-wf-step__icon { font-size: 1.4rem; margin-bottom: 6px; display: block; }
+.guide-wf-step__label { font-size: 0.65rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: var(--color-text-muted); }
+.guide-wf-step__title { font-size: var(--text-xs); font-weight: 700; color: var(--color-text); margin-top: 3px; }
+
+/* Stage band */
+.guide-stage {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-left: 4px solid #0f4c3a;
+  border-radius: 12px;
+  padding: var(--space-5) var(--space-6);
+  margin-bottom: var(--space-4);
+}
+.guide-stage--gold { border-left-color: #d4a017; }
+.guide-stage--blue { border-left-color: #2563eb; }
+.guide-stage--red  { border-left-color: #dc2626; }
+.guide-stage h3 {
+  font-size: var(--text-sm);
+  font-weight: 800;
+  margin: 0 0 var(--space-2);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.guide-stage .stage-badge {
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  background: rgba(15,76,58,.1);
+  color: #0f4c3a;
+  border-radius: 100px;
+  padding: 2px 8px;
+}
+.guide-stage--gold .stage-badge { background: rgba(212,160,23,.12); color: #92400e; }
+.guide-stage--blue .stage-badge { background: rgba(37,99,235,.1); color: #1e40af; }
+.guide-stage--red  .stage-badge { background: rgba(220,38,38,.1);  color: #991b1b; }
+.guide-stage ul {
+  margin: 0;
+  padding-left: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.guide-stage li { font-size: var(--text-xs); color: var(--color-text-muted); line-height: 1.55; }
+.guide-stage li strong { color: var(--color-text); }
+
+/* Divider */
+.guide-divider {
+  height: 1px;
+  background: linear-gradient(90deg, #e5e7eb, transparent);
+  margin: var(--space-8) 0;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .guide-layout { grid-template-columns: 1fr; }
+  .guide-toc { position: static; }
+  .guide-split { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .guide-card-grid { grid-template-columns: 1fr; }
+  .guide-step { flex-direction: column; gap: var(--space-3); }
+  .guide-step__num { width: 30px; height: 30px; font-size: var(--text-xs); }
+}
+</style>
+
+<!-- Hero -->
+<section class="guide-hero">
+  <div class="container">
+    <div class="guide-hero__inner">
+      <div class="guide-hero__kicker">📖 Complete User Guide</div>
+      <h1>How to Use <em>BharatNotes</em> &amp; Ujiyari</h1>
+      <p>Everything you need to know to get the most from both platforms — structured notes, daily current affairs, practice tools, and AI-powered evaluation — working together.</p>
+      <div class="guide-hero__pills">
+        <span class="guide-hero__pill">✓ 100% Free</span>
+        <span class="guide-hero__pill">✓ No Login Required</span>
+        <span class="guide-hero__pill">✓ Works on Mobile</span>
+        <span class="guide-hero__pill">✓ UPSC 2025–26 Ready</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Body -->
+<div class="guide-body">
+  <div class="container">
+    <div class="guide-layout">
+
+      <!-- TOC -->
+      <nav class="guide-toc" aria-label="Table of contents">
+        <div class="guide-toc__title">Contents</div>
+        <ul class="guide-toc__list">
+          <li><a href="#overview"><span class="toc-num">1</span> Overview</a></li>
+          <li><a href="#bharatnotes"><span class="toc-num">2</span> BharatNotes — All Features</a></li>
+          <li><a href="#getting-started"><span class="toc-num">3</span> Getting Started</a></li>
+          <li><a href="#subjects"><span class="toc-num">4</span> Studying Subjects</a></li>
+          <li><a href="#ncert"><span class="toc-num">5</span> NCERT Section</a></li>
+          <li><a href="#practice"><span class="toc-num">6</span> Practice &amp; Mock Tests</a></li>
+          <li><a href="#resources"><span class="toc-num">7</span> Resources</a></li>
+          <li><a href="#ujiyari"><span class="toc-num">8</span> Ujiyari — Current Affairs</a></li>
+          <li><a href="#integration"><span class="toc-num">9</span> Using Both Together</a></li>
+          <li><a href="#by-stage"><span class="toc-num">10</span> Stage-by-Stage Plan</a></li>
+          <li><a href="#tips"><span class="toc-num">11</span> Pro Tips</a></li>
+        </ul>
+      </nav>
+
+      <!-- Content -->
+      <div class="guide-content">
+
+        <!-- ① Overview -->
+        <section class="guide-section" id="overview">
+          <div class="guide-section__label">01 · Overview</div>
+          <h2>Two Platforms, One Goal</h2>
+          <p class="guide-section__intro">BharatNotes and Ujiyari are built to work as a system. BharatNotes gives you the static backbone — syllabus-aligned notes, NCERT summaries, PYQs, and practice tools. Ujiyari gives you the live layer — daily news, editorial analysis, and current affairs mapped to the same UPSC syllabus. Together they cover everything an aspirant needs from Day 1 to Interview.</p>
+
+          <div class="guide-split">
+            <div class="guide-platform-card guide-platform-card--bn">
+              <h3>📖 BharatNotes</h3>
+              <ul>
+                <li>12 GS subjects — structured, syllabus-mapped</li>
+                <li>200+ topic pages with key concepts and tables</li>
+                <li>NCERT summaries (Class 6–12)</li>
+                <li>83 verified Mains PYQs (2019–2024)</li>
+                <li>650+ Prelims PYQs with explanations</li>
+                <li>AI-powered Mains answer evaluation</li>
+                <li>Vocab builder, key terms, mapping tools</li>
+                <li>Progress tracker and syllabus checklist</li>
+              </ul>
+            </div>
+            <div class="guide-platform-card guide-platform-card--uj">
+              <h3>🌟 Ujiyari</h3>
+              <ul>
+                <li>Daily current affairs (news + analysis)</li>
+                <li>Monthly digests — subject-wise compiled</li>
+                <li>Editorial deep-dives (The Hindu, IE)</li>
+                <li>Current affairs mapped to UPSC syllabus</li>
+                <li>Mains answer writing frameworks</li>
+                <li>Daily quiz from news topics</li>
+                <li>Revision-mode flashcards</li>
+                <li>I-B-C answer structure guides</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="guide-tip guide-tip--green">
+            <span class="guide-tip__icon">💡</span>
+            <span><strong>The golden rule:</strong> Read the static concept on BharatNotes first — then check Ujiyari to see how it appears in current news. Static knowledge + current context = complete UPSC answer.</span>
+          </div>
+        </section>
+
+        <div class="guide-divider"></div>
+
+        <!-- ② BharatNotes Features -->
+        <section class="guide-section" id="bharatnotes">
+          <div class="guide-section__label">02 · BharatNotes</div>
+          <h2>All Features at a Glance</h2>
+          <p class="guide-section__intro">BharatNotes has multiple sections — here is what each one does and when to use it.</p>
+
+          <table class="guide-table">
+            <thead>
+              <tr>
+                <th>Section</th>
+                <th>What it contains</th>
+                <th>Best used for</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Start Here</td>
+                <td>4-stage preparation pathway with guided links</td>
+                <td>First-time visitors; orientation</td>
+              </tr>
+              <tr>
+                <td>Subjects</td>
+                <td>12 GS subjects — Polity, Economy, Geography, History, Environment, S&amp;T, IR, Society, Ethics, Security, Disaster Mgmt, General Science</td>
+                <td>Core conceptual study</td>
+              </tr>
+              <tr>
+                <td>NCERT</td>
+                <td>Class 6–12 NCERT summaries + new NCERT 2024+</td>
+                <td>Foundation building; Prelims preparation</td>
+              </tr>
+              <tr>
+                <td>Prelims</td>
+                <td>Prelims strategy, subject-wise focus areas</td>
+                <td>Prelims-specific prep</td>
+              </tr>
+              <tr>
+                <td>Mains</td>
+                <td>Answer frameworks, paper strategy, PYQ browser, Mock test</td>
+                <td>Mains answer writing practice</td>
+              </tr>
+              <tr>
+                <td>Essay</td>
+                <td>Essay writing framework, previous year topics, domain-wise essay guides</td>
+                <td>GS Paper IV + Essay Paper prep</td>
+              </tr>
+              <tr>
+                <td>Practice → PYQs</td>
+                <td>650+ official Prelims PYQs with explanations</td>
+                <td>Daily quiz practice</td>
+              </tr>
+              <tr>
+                <td>Practice → Prelims Mock</td>
+                <td>Live timed mock tests (100 Qs)</td>
+                <td>Exam simulation</td>
+              </tr>
+              <tr>
+                <td>Practice → Mains PYQs</td>
+                <td>83 verified Mains PYQs (GS1–4, 2019–24) with model answers</td>
+                <td>Mains question analysis</td>
+              </tr>
+              <tr>
+                <td>Practice → Mains Mock</td>
+                <td>AI-evaluated timed Mains mock (Gemini-powered)</td>
+                <td>Answer writing + AI feedback</td>
+              </tr>
+              <tr>
+                <td>Resources → Vocab Builder</td>
+                <td>715+ UPSC terms with definitions</td>
+                <td>Enriching answer language</td>
+              </tr>
+              <tr>
+                <td>Resources → Key Terms</td>
+                <td>1000+ concept articles linked to subjects</td>
+                <td>Quick revision; fact-check</td>
+              </tr>
+              <tr>
+                <td>Resources → India Mapping</td>
+                <td>Blank maps — states, rivers, minerals, national parks, dams, passes</td>
+                <td>Geography practice</td>
+              </tr>
+              <tr>
+                <td>Resources → World Mapping</td>
+                <td>World geography — countries, regions, seas, mountain ranges</td>
+                <td>IR + Geography</td>
+              </tr>
+              <tr>
+                <td>Resources → PYQ Stats</td>
+                <td>Year-wise, subject-wise PYQ frequency analysis</td>
+                <td>Identifying high-frequency topics</td>
+              </tr>
+              <tr>
+                <td>Resources → Progress Tracker</td>
+                <td>Locally-stored syllabus completion tracker</td>
+                <td>Monitoring study progress</td>
+              </tr>
+              <tr>
+                <td>Resources → Syllabus Checklist</td>
+                <td>Full UPSC syllabus in checkable format</td>
+                <td>Ensuring full coverage</td>
+              </tr>
+              <tr>
+                <td>Study Plan</td>
+                <td>Month-by-month structured preparation plan</td>
+                <td>Building a study schedule</td>
+              </tr>
+              <tr>
+                <td>Interview</td>
+                <td>Interview preparation guide, DAF analysis tips</td>
+                <td>Post-Mains interview prep</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <div class="guide-divider"></div>
+
+        <!-- ③ Getting Started -->
+        <section class="guide-section" id="getting-started">
+          <div class="guide-section__label">03 · Getting Started</div>
+          <h2>Your First Week on BharatNotes</h2>
+          <p class="guide-section__intro">No login needed. No app to install. Open the site and follow these steps in your first week to set up your study system.</p>
+
+          <div class="guide-steps">
+            <div class="guide-step">
+              <div class="guide-step__num">1</div>
+              <div class="guide-step__body">
+                <h3>Visit "Start Here" and identify your stage</h3>
+                <p>Go to <strong>bharatnotes.com/start-here/</strong>. The page maps you to one of four stages — Just Starting, Prelims Prep, Mains &amp; Essay, or Interview Ready. Click your stage to see the recommended reading and practice sequence.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">2</div>
+              <div class="guide-step__body">
+                <h3>Check the Syllabus Tracker and mark your known topics</h3>
+                <p>Open <strong>Resources → Progress Tracker</strong>. Tick off topics you already know. This gives you an instant picture of your coverage gaps. Data is saved in your browser — no account needed.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">3</div>
+              <div class="guide-step__body">
+                <h3>Set up your Study Plan</h3>
+                <p>Open <strong>Study Plan</strong> from the homepage. Follow the month-by-month sequence or adapt it to your exam timeline. Bookmark the plan page for daily reference.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">4</div>
+              <div class="guide-step__body">
+                <h3>Join the Telegram channel (@bharatnotes_upsc)</h3>
+                <p>Get notified when new notes, PYQ analyses, or current affairs digests are added. The channel also pushes Ujiyari daily updates so you never miss a relevant news event.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">5</div>
+              <div class="guide-step__body">
+                <h3>Bookmark Ujiyari.com alongside BharatNotes</h3>
+                <p>Open <strong>ujiyari.com</strong> every morning for the daily brief. Read BharatNotes static notes in the evening study session. This morning/evening split is the core daily rhythm described in the integration section below.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="guide-divider"></div>
+
+        <!-- ④ Subjects -->
+        <section class="guide-section" id="subjects">
+          <div class="guide-section__label">04 · Studying Subjects</div>
+          <h2>How to Study a Topic on BharatNotes</h2>
+          <p class="guide-section__intro">Every topic page follows a consistent structure. Here is how to get maximum value from each page.</p>
+
+          <div class="guide-steps">
+            <div class="guide-step">
+              <div class="guide-step__num">1</div>
+              <div class="guide-step__body">
+                <h3>Read the introduction and key concepts</h3>
+                <p>Every page opens with a clear definition and UPSC syllabus reference. Read this first to understand exactly what the examiner expects you to know about the topic.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">2</div>
+              <div class="guide-step__body">
+                <h3>Study the tables and structured breakdowns</h3>
+                <p>Most pages have comparison tables, constitutional article references, and numbered lists. These are optimised for quick revision. Screenshot or note down tables that appear frequently in PYQs.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">3</div>
+              <div class="guide-step__body">
+                <h3>Check the Vocab / Key Terms widget</h3>
+                <p>Many topic pages include an in-article vocabulary widget showing UPSC-relevant terms for that topic. Click any term to see its full definition — this is drawn from the 715+ term Vocab Builder.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">4</div>
+              <div class="guide-step__body">
+                <h3>Follow the Ujiyari link at the end of each page</h3>
+                <p>Every topic page links to the related Ujiyari tag or section. After reading the static notes, click this link to see how the topic has appeared in recent news, editorials, or government announcements.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">5</div>
+              <div class="guide-step__body">
+                <h3>Mark the topic as done in the Tracker</h3>
+                <p>Go to <strong>Resources → Progress Tracker</strong> and tick the topic you just completed. This keeps your study record up to date and helps you prioritise what to revise next.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="guide-tip guide-tip--gold">
+            <span class="guide-tip__icon">⭐</span>
+            <span><strong>High-priority subjects for Prelims:</strong> Polity, Economy, Environment, and History &amp; Culture account for 60–65% of Prelims questions. Start with these four subjects on BharatNotes before moving to others.</span>
+          </div>
+
+          <div class="guide-card-grid">
+            <div class="guide-card">
+              <span class="guide-card__icon">⚖️</span>
+              <h3>Polity</h3>
+              <p>Constitutional articles, amendments, institutions, federalism, rights. Highest Prelims frequency. Read alongside Laxmikanth.</p>
+              <a href="/content/subjects/polity/">Explore Polity →</a>
+            </div>
+            <div class="guide-card">
+              <span class="guide-card__icon">💹</span>
+              <h3>Economy</h3>
+              <p>Fiscal policy, banking, schemes, Budget concepts, international trade. Always check Ujiyari for Budget/RBI updates.</p>
+              <a href="/content/subjects/economy/">Explore Economy →</a>
+            </div>
+            <div class="guide-card">
+              <span class="guide-card__icon">🌿</span>
+              <h3>Environment</h3>
+              <p>Ecology, biodiversity, climate change, environmental laws, IUCN species. High Prelims weight — 12–15 questions per year.</p>
+              <a href="/content/subjects/environment/">Explore Environment →</a>
+            </div>
+            <div class="guide-card">
+              <span class="guide-card__icon">🏛️</span>
+              <h3>History &amp; Culture</h3>
+              <p>Ancient, Medieval, Modern India + Art &amp; Culture. Modern History (post-1857) has highest Prelims frequency.</p>
+              <a href="/content/subjects/history/">Explore History →</a>
+            </div>
+            <div class="guide-card">
+              <span class="guide-card__icon">🗺️</span>
+              <h3>Geography</h3>
+              <p>Physical, human and economic geography. Pair with the India and World Mapping tools for location-based questions.</p>
+              <a href="/content/subjects/geography/">Explore Geography →</a>
+            </div>
+            <div class="guide-card">
+              <span class="guide-card__icon">🔬</span>
+              <h3>Science &amp; Technology</h3>
+              <p>Space, defence technology, biotech, AI/digital policy. Fast-moving — check Ujiyari weekly for new S&amp;T developments.</p>
+              <a href="/content/subjects/science-technology/">Explore S&amp;T →</a>
+            </div>
+          </div>
+        </section>
+
+        <div class="guide-divider"></div>
+
+        <!-- ⑤ NCERT -->
+        <section class="guide-section" id="ncert">
+          <div class="guide-section__label">05 · NCERT</div>
+          <h2>Using the NCERT Section</h2>
+          <p class="guide-section__intro">NCERT books form the foundation for Prelims and Mains. BharatNotes has chapter-level summaries for Class 6–12, plus the new 2024+ NCERT editions. Use them to build base understanding before moving to advanced notes.</p>
+
+          <div class="guide-steps">
+            <div class="guide-step">
+              <div class="guide-step__num">1</div>
+              <div class="guide-step__body">
+                <h3>Start with Class 6–8 for History and Geography</h3>
+                <p>These provide foundational concepts that appear repeatedly in Prelims. Read the BharatNotes chapter summaries first — they are shorter and UPSC-filtered versions of the full books.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">2</div>
+              <div class="guide-step__body">
+                <h3>Class 9–10: Economy, Polity, Science</h3>
+                <p>Democratic Politics (Polity), Contemporary India (Geography), Understanding Economic Development (Economy), and Science chapters on environment and biology — all high-yield for Prelims.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">3</div>
+              <div class="guide-step__body">
+                <h3>Class 11–12: Advanced topics</h3>
+                <p>Indian Economic Development (XI), Macroeconomics (XII), Indian Constitution at Work (XI Polity), Contemporary World Politics (XII) — these directly map to GS2 and GS3 Mains syllabus.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">4</div>
+              <div class="guide-step__body">
+                <h3>Check the New NCERT 2024+ section</h3>
+                <p>NCERT revised several books in 2024. The new editions contain updated content on social science, environment, and science. Check this section under NCERT → New NCERT (2024+) for the updated summaries.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="guide-tip guide-tip--blue">
+            <span class="guide-tip__icon">📚</span>
+            <span><strong>Recommended reading order:</strong> Geography (6–10) → History (6–12) → Polity (9–12) → Economy (9–12) → Science (6–10 for environment, 11–12 for science &amp; tech). Complete NCERTs first, then move to BharatNotes advanced subject notes.</span>
+          </div>
+        </section>
+
+        <div class="guide-divider"></div>
+
+        <!-- ⑥ Practice -->
+        <section class="guide-section" id="practice">
+          <div class="guide-section__label">06 · Practice &amp; Mock Tests</div>
+          <h2>Practice Tools — How Each One Works</h2>
+          <p class="guide-section__intro">BharatNotes has four distinct practice modes. Use all four at different stages of preparation.</p>
+
+          <div class="guide-card-grid">
+            <div class="guide-card">
+              <span class="guide-card__icon">🎯</span>
+              <h3>Practice PYQs</h3>
+              <p>650+ official Prelims PYQs from 2010–2024. Subject-filtered, explanation provided for each answer. Best for: daily 20-question subject-wise practice.</p>
+              <a href="/quiz/">Start PYQ Practice →</a>
+            </div>
+            <div class="guide-card">
+              <span class="guide-card__icon">⏱️</span>
+              <h3>Prelims Mock Test</h3>
+              <p>100-question timed mock (2 hours). Randomised from the full question bank. Scores tracked. Best for: weekend simulation tests.</p>
+              <a href="/prelims-practice/">Take Mock Test →</a>
+            </div>
+            <div class="guide-card">
+              <span class="guide-card__icon">📝</span>
+              <h3>Mains PYQs Browser</h3>
+              <p>83 verified Mains questions (GS1–4, 2019–2024) with full model answers. Filter by paper and year. Read model answers to understand the ideal structure.</p>
+              <a href="/mains/pyq/">Browse Mains PYQs →</a>
+            </div>
+            <div class="guide-card">
+              <span class="guide-card__icon">🤖</span>
+              <h3>Mains Mock + AI Eval</h3>
+              <p>Write a timed answer, then click "Evaluate Answer" for instant AI feedback — score breakdown, strengths, gaps, examiner's note. Uses Gemini AI.</p>
+              <a href="/mains/mock/">Start Mains Mock →</a>
+            </div>
+          </div>
+
+          <h3 style="font-size:var(--text-sm);font-weight:800;margin:var(--space-5) 0 var(--space-3);">How to use Mains Mock + AI Evaluation</h3>
+          <div class="guide-steps">
+            <div class="guide-step">
+              <div class="guide-step__num">1</div>
+              <div class="guide-step__body">
+                <h3>Select paper and mode</h3>
+                <p>Choose GS1, GS2, GS3, or GS4. Select Full Paper (20 questions, 3 hrs), Half Paper (10 questions, 90 min), or Topic-wise Practice. Enter your name — it helps personalise the report.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">2</div>
+              <div class="guide-step__body">
+                <h3>Write your answer in the text area</h3>
+                <p>The word count target is shown (e.g., 150 words for 10-mark, 250 words for 15-mark questions). Use the Voice Typing button if you prefer dictation. Track word count live.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">3</div>
+              <div class="guide-step__body">
+                <h3>Click "Evaluate Answer" for instant AI feedback</h3>
+                <p>After writing, click the orange "Evaluate Answer" button. The AI (Gemini) scores your answer on Content, Analysis, Structure, and Word Discipline — each out of a sub-maximum. Takes 10–15 seconds.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">4</div>
+              <div class="guide-step__body">
+                <h3>Read the model answer and compare</h3>
+                <p>Below the AI evaluation, click "Show ▼" to open the Model Answer. Compare it with your answer — note which key points you missed, and how the ideal answer is structured.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">5</div>
+              <div class="guide-step__body">
+                <h3>Use "Save &amp; Next" to move through questions</h3>
+                <p>You don't have to evaluate every question. You can write, save, move on, and evaluate selectively. "Mark" a question to revisit it later within the same session.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="guide-tip guide-tip--orange">
+            <span class="guide-tip__icon">🚀</span>
+            <span><strong>AI Evaluation tip:</strong> The AI evaluates based on content accuracy, analytical depth, structure (intro-body-conclusion), and word discipline. Write in clear paragraphs with a proper conclusion — these are the highest weighted dimensions.</span>
+          </div>
+        </section>
+
+        <div class="guide-divider"></div>
+
+        <!-- ⑦ Resources -->
+        <section class="guide-section" id="resources">
+          <div class="guide-section__label">07 · Resources</div>
+          <h2>Resources Section — Deep Dive</h2>
+          <p class="guide-section__intro">The Resources section has eight distinct tools. Here is what each does and the best workflow for each.</p>
+
+          <div class="guide-card-grid">
+            <div class="guide-card">
+              <span class="guide-card__icon">📖</span>
+              <h3>Vocab Builder</h3>
+              <p>715+ UPSC-specific terms with clear definitions. Organised by subject. Use 10 new terms per day — add them to your Mains answers for examiner impact.</p>
+              <a href="/resources/">Open Vocab Builder →</a>
+            </div>
+            <div class="guide-card">
+              <span class="guide-card__icon">🔑</span>
+              <h3>Key Terms &amp; Concepts</h3>
+              <p>1000+ deep-dive concept articles — constitutional provisions, policy terms, historical events, scientific concepts. Use when you encounter an unfamiliar term in PYQs.</p>
+              <a href="/resources/">Browse Key Terms →</a>
+            </div>
+            <div class="guide-card">
+              <span class="guide-card__icon">🗺️</span>
+              <h3>India Mapping</h3>
+              <p>Blank maps for states, rivers, minerals, national parks, wetlands, mountain passes, dams, coastal features, and islands. Print and practise locating features daily.</p>
+              <a href="/mapping/">India Mapping →</a>
+            </div>
+            <div class="guide-card">
+              <span class="guide-card__icon">🌍</span>
+              <h3>World Mapping</h3>
+              <p>World political maps with countries, disputed regions, important seas and straits, mountain ranges, and deserts. Essential for IR and Geography Prelims questions.</p>
+              <a href="/mapping/">World Mapping →</a>
+            </div>
+            <div class="guide-card">
+              <span class="guide-card__icon">📊</span>
+              <h3>PYQ Stats &amp; Analysis</h3>
+              <p>Year-wise and subject-wise frequency analysis of UPSC Prelims questions. Identify which topics repeat most often and prioritise accordingly.</p>
+              <a href="/pyq/">PYQ Stats →</a>
+            </div>
+            <div class="guide-card">
+              <span class="guide-card__icon">✅</span>
+              <h3>Progress Tracker</h3>
+              <p>Tick off topics as you complete them. See your completion percentage by subject. All data stored locally in your browser — private and instant.</p>
+              <a href="/tracker/">Open Tracker →</a>
+            </div>
+            <div class="guide-card">
+              <span class="guide-card__icon">📋</span>
+              <h3>Syllabus Checklist</h3>
+              <p>Full UPSC Prelims and Mains GS syllabus broken into checkable items. Useful for ensuring you haven't missed any syllabus sub-topic before the exam.</p>
+              <a href="/upsc-checklist/">Open Checklist →</a>
+            </div>
+            <div class="guide-card">
+              <span class="guide-card__icon">🧰</span>
+              <h3>Study Kit</h3>
+              <p>Curated collection of recommended books, online tools, government sources, and useful links — the complete toolkit for UPSC preparation.</p>
+              <a href="/study-kit/">View Study Kit →</a>
+            </div>
+          </div>
+        </section>
+
+        <div class="guide-divider"></div>
+
+        <!-- ⑧ Ujiyari -->
+        <section class="guide-section" id="ujiyari">
+          <div class="guide-section__label">08 · Ujiyari</div>
+          <h2>How to Use Ujiyari for Current Affairs</h2>
+          <p class="guide-section__intro">Ujiyari (ujiyari.com) is BharatNotes' companion current affairs platform. It covers daily news with UPSC-lens analysis, monthly digests, and answer-writing frameworks. Here is how to extract maximum value.</p>
+
+          <div class="guide-steps">
+            <div class="guide-step">
+              <div class="guide-step__num">1</div>
+              <div class="guide-step__body">
+                <h3>Read the Daily Brief every morning (10–15 minutes)</h3>
+                <p>Ujiyari publishes a daily brief covering 5–8 important news stories with UPSC relevance tags (GS1, GS2, GS3, GS4, Prelims). Scan headlines and read full analysis only for topics in your current study subject.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">2</div>
+              <div class="guide-step__body">
+                <h3>Use Monthly Digests for bulk revision</h3>
+                <p>Ujiyari compiles a monthly digest of all important events, organised by UPSC subject. Use these for the last-2-months revision before Prelims. They are quicker to revise than daily notes and cover everything that matters.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">3</div>
+              <div class="guide-step__body">
+                <h3>Read editorials using the I-B-C framework</h3>
+                <p>Ujiyari provides editorial analysis in the Introduction → Body → Conclusion (I-B-C) structure used in Mains answers. When you read an editorial, note the IBC breakdown — this trains your mind to think in answer-structure format automatically.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">4</div>
+              <div class="guide-step__body">
+                <h3>Do the Daily Quiz</h3>
+                <p>Ujiyari posts a short 5–10 question daily quiz based on the day's news. Do this every evening to reinforce what you read in the morning brief. Current affairs quiz questions often directly appear in Prelims.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">5</div>
+              <div class="guide-step__body">
+                <h3>Use Revision Mode before exams</h3>
+                <p>Ujiyari's Revision Mode compresses 6–12 months of current affairs into flashcard-style summaries. Activate this 4–6 weeks before Prelims for rapid review of all important events.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="guide-tip guide-tip--blue">
+            <span class="guide-tip__icon">📰</span>
+            <span><strong>Editorial strategy:</strong> Don't read every editorial. Focus on editorials tagged GS2 (Governance, IR) and GS3 (Economy, Environment) — these GS papers have the highest Mains weightage and are most directly driven by current events.</span>
+          </div>
+        </section>
+
+        <div class="guide-divider"></div>
+
+        <!-- ⑨ Integration -->
+        <section class="guide-section" id="integration">
+          <div class="guide-section__label">09 · Integration</div>
+          <h2>Using BharatNotes + Ujiyari Together</h2>
+          <p class="guide-section__intro">The two platforms are designed to complement each other. Here is the recommended daily and weekly workflow for combining both effectively.</p>
+
+          <h3 style="font-size:var(--text-sm);font-weight:800;margin-bottom:var(--space-3);">Daily Study Rhythm</h3>
+          <div class="guide-workflow">
+            <div class="guide-wf-step">
+              <span class="guide-wf-step__icon">☀️</span>
+              <div class="guide-wf-step__label">Morning</div>
+              <div class="guide-wf-step__title">Ujiyari Daily Brief + Quiz</div>
+            </div>
+            <div class="guide-wf-step">
+              <span class="guide-wf-step__icon">📖</span>
+              <div class="guide-wf-step__label">Afternoon</div>
+              <div class="guide-wf-step__title">BharatNotes Topic Study</div>
+            </div>
+            <div class="guide-wf-step">
+              <span class="guide-wf-step__icon">🔗</span>
+              <div class="guide-wf-step__label">Evening</div>
+              <div class="guide-wf-step__title">Link Notes to News</div>
+            </div>
+            <div class="guide-wf-step">
+              <span class="guide-wf-step__icon">✍️</span>
+              <div class="guide-wf-step__label">Night</div>
+              <div class="guide-wf-step__title">Mains Writing Practice</div>
+            </div>
+          </div>
+
+          <table class="guide-table" style="margin-top:var(--space-4);">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Activity</th>
+                <th>Platform</th>
+                <th>Duration</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Morning (7–8am)</td>
+                <td>Read Ujiyari daily brief; tag relevant GS papers</td>
+                <td>Ujiyari</td>
+                <td>30–45 min</td>
+              </tr>
+              <tr>
+                <td>Morning (8–8:30am)</td>
+                <td>Do Ujiyari daily quiz (5–10 questions)</td>
+                <td>Ujiyari</td>
+                <td>15 min</td>
+              </tr>
+              <tr>
+                <td>Afternoon (2–5pm)</td>
+                <td>Study 2 BharatNotes topic pages (read, tables, vocab)</td>
+                <td>BharatNotes</td>
+                <td>2–3 hrs</td>
+              </tr>
+              <tr>
+                <td>Afternoon (5–5:30pm)</td>
+                <td>Read Ujiyari editorial/analysis linked from today's topic</td>
+                <td>Ujiyari</td>
+                <td>30 min</td>
+              </tr>
+              <tr>
+                <td>Evening (7–8pm)</td>
+                <td>20 Prelims PYQs on today's subject</td>
+                <td>BharatNotes</td>
+                <td>45–60 min</td>
+              </tr>
+              <tr>
+                <td>Night (9–10pm)</td>
+                <td>Write one Mains answer; evaluate with AI</td>
+                <td>BharatNotes</td>
+                <td>30–45 min</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3 style="font-size:var(--text-sm);font-weight:800;margin:var(--space-6) 0 var(--space-3);">Weekly Structure</h3>
+          <table class="guide-table">
+            <thead>
+              <tr><th>Day</th><th>Focus</th><th>Activity</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday–Friday</td>
+                <td>Topic study</td>
+                <td>2 BharatNotes topic pages per day + Ujiyari daily brief</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>Practice</td>
+                <td>Full Prelims Mock (100 Qs) + review wrong answers in BharatNotes</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>Revision + Mains writing</td>
+                <td>Revise week's topics in Tracker + 3 Mains answers with AI eval + Ujiyari weekly digest</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="guide-tip guide-tip--green">
+            <span class="guide-tip__icon">🔗</span>
+            <span><strong>The integration trick:</strong> When you study a topic on BharatNotes (e.g., Panchayati Raj), search for it in Ujiyari the same day to find the most recent news item on that topic. Note the current event in a sentence and add it to your BharatNotes topic note. When this topic appears in Mains, your answer will have both static depth and current relevance — exactly what examiners want.</span>
+          </div>
+        </section>
+
+        <div class="guide-divider"></div>
+
+        <!-- ⑩ By Stage -->
+        <section class="guide-section" id="by-stage">
+          <div class="guide-section__label">10 · Stage-by-Stage</div>
+          <h2>What to Use at Each Stage of Preparation</h2>
+          <p class="guide-section__intro">Your study approach should shift as you move through different stages. Here is exactly which tools to prioritise at each stage.</p>
+
+          <div class="guide-stage">
+            <h3>
+              Foundation Stage (0–3 months)
+              <span class="stage-badge">Beginner</span>
+            </h3>
+            <ul>
+              <li><strong>BharatNotes:</strong> Start Here page → NCERT summaries (Class 6–10) → Polity and Economy subject notes → Syllabus Checklist</li>
+              <li><strong>BharatNotes:</strong> Do 10 Prelims PYQs per day (subject-wise, from 2013–2018 papers) to understand the pattern</li>
+              <li><strong>Ujiyari:</strong> Read the Daily Brief every morning for awareness; don't stress about retaining everything yet</li>
+              <li><strong>Ujiyari:</strong> Subscribe to the Telegram channel for passive current affairs exposure</li>
+              <li><strong>Skip for now:</strong> Mains Mock, Mains PYQs — focus on building Prelims base first</li>
+            </ul>
+          </div>
+
+          <div class="guide-stage guide-stage--gold">
+            <h3>
+              Prelims Preparation Stage (3–8 months)
+              <span class="stage-badge">Prelims Focus</span>
+            </h3>
+            <ul>
+              <li><strong>BharatNotes:</strong> Complete all 12 subjects systematically using the Study Plan</li>
+              <li><strong>BharatNotes:</strong> 30–50 Prelims PYQs per day; take one Full Mock Test every Saturday</li>
+              <li><strong>BharatNotes:</strong> Use PYQ Stats to identify high-frequency topics and give them extra time</li>
+              <li><strong>BharatNotes:</strong> India and World Mapping — 10 minutes per day on blank maps</li>
+              <li><strong>Ujiyari:</strong> Daily Brief + Quiz strictly every day; read Monthly Digests for the previous 2 months</li>
+              <li><strong>Ujiyari:</strong> Focus current affairs reading on Environment, Science &amp; Tech, and Economy — highest Prelims CA weight</li>
+            </ul>
+          </div>
+
+          <div class="guide-stage guide-stage--blue">
+            <h3>
+              Mains Preparation Stage (post-Prelims, 3–4 months)
+              <span class="stage-badge">Mains Focus</span>
+            </h3>
+            <ul>
+              <li><strong>BharatNotes:</strong> Mains PYQs Browser — study all 83 questions; analyse what aspects each question tests</li>
+              <li><strong>BharatNotes:</strong> Mains Mock Test — write 2–3 answers per day and evaluate with AI; focus on weak dimensions (structure, word discipline)</li>
+              <li><strong>BharatNotes:</strong> Vocab Builder — add 5–10 new UPSC terms per day into your answers</li>
+              <li><strong>BharatNotes:</strong> Essay section — study essay frameworks, read PYQ essay titles (2019–2024)</li>
+              <li><strong>Ujiyari:</strong> Editorials daily — read with I-B-C framework; link current events to Mains sub-topics</li>
+              <li><strong>Ujiyari:</strong> Monthly Digests for the entire year's current affairs — build a 1-page summary per sub-topic</li>
+            </ul>
+          </div>
+
+          <div class="guide-stage guide-stage--red">
+            <h3>
+              Pre-Exam Revision (last 4–6 weeks)
+              <span class="stage-badge">Final Sprint</span>
+            </h3>
+            <ul>
+              <li><strong>BharatNotes:</strong> Progress Tracker — identify incomplete topics and finish them urgently</li>
+              <li><strong>BharatNotes:</strong> Re-read all table summaries across subjects — don't read full topic pages at this stage</li>
+              <li><strong>BharatNotes:</strong> One full Prelims Mock every day for the last 2 weeks before Prelims</li>
+              <li><strong>Ujiyari:</strong> Revision Mode — activate for compressed 12-month current affairs review</li>
+              <li><strong>Ujiyari:</strong> Last 2–3 Monthly Digests only — don't go beyond 6 months back this close to exam</li>
+              <li><strong>Both:</strong> Do NOT read new topics at this stage — only revise covered material</li>
+            </ul>
+          </div>
+        </section>
+
+        <div class="guide-divider"></div>
+
+        <!-- ⑪ Pro Tips -->
+        <section class="guide-section" id="tips">
+          <div class="guide-section__label">11 · Pro Tips</div>
+          <h2>Tips to Get the Most from Both Platforms</h2>
+
+          <div class="guide-steps">
+            <div class="guide-step">
+              <div class="guide-step__num">💡</div>
+              <div class="guide-step__body">
+                <h3>Use the Search function on BharatNotes</h3>
+                <p>The search icon (top right) uses Pagefind to search across all 200+ pages instantly. When you encounter a term in a PYQ or news article that you don't know, search it on BharatNotes first — it's likely covered in a Key Terms article.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">💡</div>
+              <div class="guide-step__body">
+                <h3>Screenshot tables for offline revision</h3>
+                <p>BharatNotes topic pages have comparison tables optimised for quick recall. Screenshot or print key tables (e.g., Constitutional Amendments table, Schedules of the Constitution, Five-Year Plans timeline) and review them during commutes.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">💡</div>
+              <div class="guide-step__body">
+                <h3>Use voice typing for Mains practice</h3>
+                <p>The Mains Mock has a voice typing button. Use it to dictate your answer while walking or during low-energy periods. It records your speech into the answer box. This is especially useful for answer fluency practice.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">💡</div>
+              <div class="guide-step__body">
+                <h3>Cross-link your study notes with Ujiyari tags</h3>
+                <p>When you read a BharatNotes topic (e.g., Wetlands), note the Ujiyari tag for that topic (e.g., #WetlandConservation). Whenever that tag appears in Ujiyari news, you've already studied the static base — the link between static and current becomes automatic.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">💡</div>
+              <div class="guide-step__body">
+                <h3>Treat AI evaluation as a coach, not a grader</h3>
+                <p>The AI Evaluation on the Mains Mock gives you a score, but more importantly it shows your weak dimensions. If "Structure" is consistently low, focus your next 10 answers on intro-body-conclusion discipline regardless of content quality.</p>
+              </div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-step__num">💡</div>
+              <div class="guide-step__body">
+                <h3>Report errors — the content gets fixed fast</h3>
+                <p>BharatNotes is a solo project with a strict verify-before-write rule. If you spot an outdated statistic, wrong date, or factual error, use the Contact page to report it. Corrections are typically made within 24–48 hours and benefit all aspirants.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="guide-tip guide-tip--green" style="margin-top:var(--space-6);">
+            <span class="guide-tip__icon">🎯</span>
+            <div>
+              <strong>Your preparation system in one sentence:</strong> Read Ujiyari every morning for awareness, study BharatNotes topic pages every afternoon for depth, practise 20 PYQs every evening for accuracy, and write one Mains answer every night for fluency — repeat this for 12 months and you will have covered everything UPSC demands.
+            </div>
+          </div>
+
+          <div style="margin-top:var(--space-8);padding:var(--space-6);background:#fff;border:1px solid #e5e7eb;border-radius:16px;text-align:center;">
+            <div style="font-size:1.5rem;margin-bottom:var(--space-3);">📖</div>
+            <h3 style="font-family:var(--font-heading);font-size:1.2rem;margin:0 0 var(--space-2);">Ready to begin?</h3>
+            <p style="font-size:var(--text-xs);color:var(--color-text-muted);margin:0 0 var(--space-5);max-width:400px;margin-left:auto;margin-right:auto;line-height:1.65;">Start with the Start Here page to identify your preparation stage, then follow the stage-by-stage guide above.</p>
+            <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+              <a href="/start-here/" style="display:inline-flex;align-items:center;gap:7px;background:#0f4c3a;color:#fff;text-decoration:none;padding:12px 22px;border-radius:10px;font-size:var(--text-sm);font-weight:800;">Start Here →</a>
+              <a href="https://ujiyari.com" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:7px;background:#d4a017;color:#fff;text-decoration:none;padding:12px 22px;border-radius:10px;font-size:var(--text-sm);font-weight:800;">Visit Ujiyari ↗</a>
+              <a href="https://t.me/bharatnotes_upsc" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:7px;background:#229ed9;color:#fff;text-decoration:none;padding:12px 22px;border-radius:10px;font-size:var(--text-sm);font-weight:800;">Join Telegram →</a>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* Highlight active TOC item on scroll */
+(function(){
+  var sections = document.querySelectorAll('.guide-section');
+  var links    = document.querySelectorAll('.guide-toc__list a');
+  if (!sections.length || !links.length) return;
+
+  function setActive() {
+    var scrollY = window.scrollY + 100;
+    var active  = null;
+    sections.forEach(function(s) {
+      if (s.offsetTop <= scrollY) active = s.id;
+    });
+    links.forEach(function(a) {
+      a.classList.toggle('active', a.getAttribute('href') === '#' + active);
+    });
+  }
+  window.addEventListener('scroll', setActive, { passive: true });
+  setActive();
+})();
+</script>
