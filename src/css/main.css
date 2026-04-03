@@ -450,6 +450,46 @@ p { line-height: var(--leading-relaxed); }
   color: var(--color-white);
 }
 
+/* Quick-link pills row — hero */
+.hero__quicklinks {
+  display: flex;
+  gap: 10px;
+  margin-top: var(--space-5);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.hero__ql {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 10px;
+  color: rgba(255,255,255,0.82);
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.hero__ql svg { flex-shrink: 0; color: rgba(255,255,255,0.45); }
+.hero__ql:hover {
+  background: rgba(255,255,255,0.15);
+  border-color: rgba(255,255,255,0.35);
+  color: #fff;
+}
+.hero__ql-badge {
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 999px;
+  letter-spacing: 0.04em;
+}
+.hero__ql-badge--green  { background: rgba(22,163,74,0.2);  color: #86efac; }
+.hero__ql-badge--teal   { background: rgba(20,184,166,0.2); color: #5eead4; }
+.hero__ql-badge--orange { background: rgba(234,88,12,0.3);  color: #fdba74; }
+
 /* Stats bar — bottom strip of hero */
 .hero__statsbar {
   position: relative;
