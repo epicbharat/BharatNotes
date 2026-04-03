@@ -321,7 +321,7 @@ function renderList() {
       html += '<p class="mpq-card__q">' + escH(q.question) + '</p>';
       html += '<div class="mpq-card__footer">';
       html += '<span class="mpq-card__words">~' + (q.words || Math.round(q.marks * 13)) + ' words</span>';
-      html += '<span class="mpq-card__btn">Attempt <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span>';
+      html += '<span class="mpq-card__btn">View Answer <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span>';
       html += '</div></div>';
     });
   }
@@ -346,10 +346,8 @@ function openAttempt(q) {
   document.body.style.overflow = 'hidden';
   window.scrollTo(0, 0);
 
-  var wordLimit = q.words || Math.round(q.marks * 13);
   var body = document.getElementById('mpq-attempt-body');
   body.innerHTML =
-    /* Question card */
     '<div class="mpq-q-card">' +
       '<div class="mpq-q-meta" style="margin-bottom:var(--space-3)">' +
         '<span class="mpq-badge mpq-badge--year">' + (q.year||'—') + '</span>' +
@@ -359,41 +357,7 @@ function openAttempt(q) {
       '</div>' +
       '<p class="mpq-q-text">' + escH(q.question) + '</p>' +
     '</div>' +
-    /* Answer card */
-    '<div class="mpq-ans-card">' +
-      '<div class="mpq-ans-label"><span>Your Answer</span><span id="mpq-wc" class="mpq-wc">0 / ' + wordLimit + ' words</span></div>' +
-      '<textarea class="mpq-textarea" id="mpq-textarea" placeholder="Write your answer here…"></textarea>' +
-      '<div class="mpq-wc-row">' +
-        '<div class="mpq-actions">' +
-          (EVAL_URL ? '<button class="mpq-btn-eval" id="mpq-eval-btn">✦ Evaluate with AI</button>' : '') +
-          '<button class="mpq-btn-voice" id="mpq-voice-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg> Voice</button>' +
-        '</div>' +
-      '</div>' +
-    '</div>' +
-    '<div id="mpq-eval-panel"></div>' +
-    renderModelPanel(q);
-
-  /* Wire word counter */
-  var ta = document.getElementById('mpq-textarea');
-  var wcel = document.getElementById('mpq-wc');
-  ta.addEventListener('input', function(){
-    var wc = ta.value.trim() ? ta.value.trim().split(/\s+/).length : 0;
-    wcel.textContent = wc + ' / ' + wordLimit + ' words';
-    wcel.className = 'mpq-wc' + (wc >= wordLimit * 0.85 && wc <= wordLimit * 1.15 ? ' ok' : (wc > wordLimit * 1.15 ? ' over' : ''));
-  });
-
-  /* Eval button */
-  var evalBtn = document.getElementById('mpq-eval-btn');
-  if (evalBtn) evalBtn.addEventListener('click', function(){
-    var ans = ta.value.trim();
-    if (!ans) { alert('Please write an answer first.'); return; }
-    requestEval(q, ans);
-  });
-
-  /* Voice button */
-  document.getElementById('mpq-voice-btn').addEventListener('click', function(){
-    toggleVoice(wordLimit);
-  });
+    renderModelPanel(q, true);
 
   /* Model answer toggle */
   var mhd = document.getElementById('mpq-model-hd');
@@ -403,10 +367,10 @@ function openAttempt(q) {
 }
 
 /* ── Model answer HTML ────────────────────────────────────── */
-function renderModelPanel(q) {
+function renderModelPanel(q, open) {
   if (!q.model_answer) return '';
   var ma = q.model_answer;
-  var html = '<div class="mpq-model" id="mpq-model-wrap">';
+  var html = '<div class="mpq-model' + (open ? ' open' : '') + '" id="mpq-model-wrap">';
   html += '<div class="mpq-model__hd" id="mpq-model-hd">';
   html += '<span class="mpq-model__title">📖 Model Answer</span>';
   html += '<svg class="mpq-model__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>';
