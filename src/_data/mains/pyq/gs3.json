@@ -1,0 +1,516 @@
+[
+  {
+    "id": "gs3-pyq-2024-01",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2024,
+    "marks": 10,
+    "words": 150,
+    "question": "What are the causes of persistent high food inflation in India and comment on the effectiveness of the monetary policy of RBI to control this type of inflation.",
+    "topic": "Indian Economy",
+    "subtopic": "Inflation and Monetary Policy",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Food Inflation in India: Causes and Monetary Policy\n\n**Causes of Persistent High Food Inflation:**\n\n- **Supply-side shocks:** Erratic monsoon, heat waves, and unseasonal rains damage kharif and rabi crops. The 2023 tomato and onion price surge was a classic example.\n- **Structural bottlenecks:** Inadequate cold storage (India loses ~30% of perishables post-harvest), poor farm-to-market connectivity, and APMC-related intermediary costs inflate retail prices.\n- **International commodity prices:** Import dependency for edible oils (India imports ~60% of its needs) transmits global price shocks.\n- **Rising input costs:** Higher fuel, fertiliser, and labour costs push minimum support prices (MSPs) upward.\n- **Climate change:** Increased frequency of extreme events disrupts sowing and harvesting patterns.\n\n**Effectiveness of RBI's Monetary Policy:**\n\nRBI's repo rate hikes (raised to 6.5% by April 2023 under the inflation-targeting framework) are more effective against demand-pull inflation than supply-side food inflation. Since food inflation is primarily driven by supply disruptions, monetary tightening has limited direct impact and risks collateral damage to growth. The MPC's 4% (+/- 2%) CPI target keeps food prices under watch, but coordinated supply-side interventions by the Centre — buffer stock releases, export bans, import duty waivers — remain the more effective tools.",
+      "key_points": [
+        "Supply-side shocks (irregular monsoon, heat waves) are primary drivers",
+        "Post-harvest losses (~30%) and cold storage deficit structurally inflate prices",
+        "Import dependence on edible oils transmits global price shocks",
+        "RBI repo rate (6.5%) targets demand-pull inflation — limited efficacy on food supply shocks",
+        "Supply-side measures (buffer stock release, export restrictions) more effective for food inflation"
+      ],
+      "keywords": ["food inflation", "repo rate", "MPC", "supply-side shocks", "cold chain", "edible oil import", "buffer stocks"],
+      "sources": ["RBI Monetary Policy Reports", "Economic Survey 2023-24", "PIB press releases on food management"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2024-02",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2024,
+    "marks": 10,
+    "words": 150,
+    "question": "Explain the role of millets in ensuring food and nutritional security in India.",
+    "topic": "Agriculture",
+    "subtopic": "Nutrition and Food Security",
+    "difficulty": "easy",
+    "model_answer": {
+      "text": "## Millets and Food-Nutritional Security in India\n\nMillets — including sorghum (jowar), pearl millet (bajra), finger millet (ragi), foxtail, barnyard, and little millet — are ancient grains with exceptional nutritional and ecological significance.\n\n**Nutritional Value:**\n- Rich in iron, calcium, magnesium, and dietary fibre; ragi has three times more calcium than milk per 100g.\n- High protein content (8–12%) and low glycaemic index make them ideal for diabetic and anaemic populations.\n- Gluten-free — suitable for celiac patients.\n\n**Food Security:**\n- Drought-tolerant and require 70% less water than rice — crucial in rainfed regions (Rajasthan, Maharashtra, Karnataka).\n- Productive on marginal soils with minimal inputs; resistant to pests and diseases.\n- Affordable and calorie-dense, suited for low-income populations.\n\n**Government Initiatives:**\n- 2023 was declared the **International Year of Millets** at India's initiative (UNGA resolution).\n- PM-JANMAN supports tribal millet farming; POSHAN Abhiyan integrates millets into mid-day meals and PDS in states like Odisha (Odisha Millets Mission).\n- MSP enhancement for coarse cereals incentivises cultivation.\n\nMillets offer a nutritionally superior, climate-resilient alternative to the rice-wheat monoculture, addressing both hidden hunger and agricultural sustainability.",
+      "key_points": [
+        "International Year of Millets 2023 — India's global initiative",
+        "Nutritional density: ragi has 3x calcium of milk; high iron and fibre",
+        "Drought-tolerant, low water requirement — ideal for rain-fed agriculture",
+        "POSHAN Abhiyan and Odisha Millets Mission link millets to nutrition programmes",
+        "Low glycaemic index addresses diabetes — a growing public health concern"
+      ],
+      "keywords": ["millets", "ragi", "jowar", "bajra", "International Year of Millets 2023", "POSHAN Abhiyan", "food security", "nutritional security"],
+      "sources": ["PIB — International Year of Millets 2023", "ICAR Millet Research Institute", "Economic Survey 2022-23"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2024-03",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2024,
+    "marks": 15,
+    "words": 250,
+    "question": "What are the merits and demerits of the four Labour Codes in India? Discuss the progress of their implementation.",
+    "topic": "Indian Economy",
+    "subtopic": "Labour Reforms",
+    "difficulty": "hard",
+    "model_answer": {
+      "text": "## Four Labour Codes: Merits, Demerits, and Implementation\n\nThe Government of India consolidated 29 central labour laws into four Labour Codes:\n1. Code on Wages, 2019\n2. Industrial Relations Code, 2020\n3. Code on Social Security, 2020\n4. Occupational Safety, Health and Working Conditions Code, 2020\n\n## Merits\n\n**Simplification and Compliance:**\n- Consolidation reduces multiplicity — from 29 laws to 4 codes — cutting compliance burden on employers.\n- Universal minimum wage through the Code on Wages covers all workers including unorganised sector (previously excluded).\n- Portable social security via EPFO/ESIC extended to gig workers, platform workers, and contract labour for the first time.\n- Fixed-term employment recognised nationally — provides employment flexibility while ensuring proportionate benefits.\n\n**Worker Protections:**\n- Gratuity entitlement after 1 year (down from 5 years) for fixed-term workers.\n- Universal floor wage concept strengthens wage justice.\n- OSH Code mandates safety standards in non-factory sectors.\n\n## Demerits\n\n- **Weakening of trade union rights:** Industrial Relations Code raises the threshold for strikes — 60-day mandatory notice period — and requires a larger worker majority (75%) to form recognised unions, disadvantaging small unions.\n- **Hire-and-fire concerns:** Threshold for seeking prior government permission to retrench raised from 100 to 300 workers — may reduce job security.\n- **State implementation lag:** Labour is a Concurrent Subject; as of 2024, most states have not yet notified the codes, creating a dual-law situation.\n- **Definition gaps:** 'Gig worker' definitions remain broad, creating ambiguity for platform companies.\n\n## Implementation Status (2024)\n\nThe Codes were passed by Parliament (2019-2020) but rules have not been uniformly finalised. The Central Government has drafted rules; however, states including Maharashtra, West Bengal, and others have yet to notify their rules. Implementation is thus stalled, with the old laws continuing to operate. The government has indicated phased implementation upon broader state consensus.",
+      "key_points": [
+        "29 labour laws consolidated into 4 codes — simplification is key merit",
+        "Gig and platform workers covered under social security for first time",
+        "IR Code's 75% threshold for union recognition weakens collective bargaining",
+        "Retrenchment threshold raised to 300 workers — hire-and-fire flexibility concern",
+        "State implementation pending as of 2024 — labour is Concurrent Subject",
+        "Gratuity after 1 year for fixed-term workers — significant worker benefit"
+      ],
+      "keywords": ["Labour Codes", "Code on Wages", "Industrial Relations Code", "gig workers", "fixed-term employment", "trade unions", "social security", "Concurrent List"],
+      "sources": ["Ministry of Labour and Employment — Labour Codes overview", "PRS Legislative Research — Labour Code summaries", "Economic Survey 2022-23"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2023-01",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2023,
+    "marks": 10,
+    "words": 150,
+    "question": "Faster economic growth requires increased share of the manufacturing sector in GDP, particularly of MSMEs. Comment on the present policies of the Government in this regard.",
+    "topic": "Indian Economy",
+    "subtopic": "Manufacturing and MSMEs",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Manufacturing and MSME Policies for Economic Growth\n\nIndia's manufacturing sector contributes about 17% of GDP — well below the 25% target set under 'Make in India.' MSMEs, accounting for **30.1% of GDP**, 35.4% of manufacturing output, and 45.73% of exports (PIB, 2024), are the backbone of this agenda.\n\n**Key Government Policies:**\n\n**Production Linked Incentive (PLI) Schemes:** Rolled out across 14 sectors (mobile phones, pharmaceuticals, textiles, etc.) with an outlay of ₹1.97 lakh crore — aimed at large-scale manufacturing with MSME linkages.\n\n**Revised MSME Definition (2020):** Enhanced investment and turnover limits allowed more enterprises to avail MSME benefits without fear of graduating out.\n\n**CHAMPIONS Portal and Udyam Registration:** Digital platforms for MSME registration, credit access, and grievance redressal — over 3.8 crore units registered on Udyam portal (July 2024).\n\n**Emergency Credit Line Guarantee Scheme (ECLGS):** Extended ₹3.68 lakh crore credit to MSMEs post-COVID.\n\n**PM Vishwakarma Scheme (2023):** Targets traditional artisans with skill training and collateral-free credit up to ₹3 lakh.\n\n**Gaps:** MSMEs still face credit constraints (credit gap estimated at ₹20-25 lakh crore), technology adoption barriers, and logistics challenges. A stronger National Manufacturing Policy 2.0 focusing on MSMEs' upstream integration in global value chains is needed.",
+      "key_points": [
+        "MSMEs: 30.1% of GDP, 35.4% manufacturing, 45.73% exports (PIB 2024)",
+        "PLI Scheme — 14 sectors, ₹1.97 lakh crore outlay for domestic manufacturing",
+        "Udyam portal — 3.8 crore MSMEs registered, formalising the sector",
+        "ECLGS — ₹3.68 lakh crore credit guarantee support post-COVID",
+        "PM Vishwakarma Scheme 2023 targets traditional artisans"
+      ],
+      "keywords": ["MSMEs", "Make in India", "PLI scheme", "Udyam registration", "ECLGS", "PM Vishwakarma", "manufacturing GDP", "CHAMPIONS portal"],
+      "sources": ["PIB — MSME contribution data (2024)", "Ministry of MSME Annual Report 2023-24", "Economic Survey 2023-24"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2023-02",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2023,
+    "marks": 10,
+    "words": 150,
+    "question": "What is the status of digitalization in the Indian economy? Examine the problems faced in this regard and suggest improvements.",
+    "topic": "Indian Economy",
+    "subtopic": "Digital Economy",
+    "difficulty": "easy",
+    "model_answer": {
+      "text": "## Digitalization of the Indian Economy\n\n**Current Status:**\n\nIndia has made remarkable strides in digital payments and infrastructure. Total digital payment transactions grew from 2,071 crore in FY 2017-18 to **18,737 crore in FY 2023-24** (CAGR 44%). UPI processed **131 billion transactions worth ₹200 lakh crore** in 2023-24, capturing ~49% of global real-time payment volume (ACI Worldwide 2024). India Stack (Aadhaar, UPI, DigiLocker) has become a model for digital public infrastructure globally.\n\n**Problems:**\n\n- **Digital divide:** Only ~55% of Indians use the internet; rural broadband penetration remains low despite PM-WANI and BharatNet.\n- **Cybersecurity risks:** Rising cases of phishing, digital arrest scams, and UPI fraud.\n- **Low digital literacy:** Especially among elderly, women, and tribal populations.\n- **Data privacy:** Digital Personal Data Protection Act, 2023 (DPDPA) is enacted but rules not yet finalised.\n- **MSMEs' digital gap:** Many micro enterprises lack digital infrastructure for GST filing, digital payments acceptance.\n\n**Suggestions:**\n\n- Accelerate BharatNet rollout for last-mile rural connectivity.\n- Finalise DPDP Rules to build consumer trust.\n- Scale PM e-VIDYA and Pradhan Mantri Gramin Digital Saksharta Abhiyan.\n- Promote interoperability with Open Network for Digital Commerce (ONDC) to democratise e-commerce.",
+      "key_points": [
+        "UPI: 131 billion transactions, ₹200 lakh crore in FY 2023-24",
+        "India captures ~49% of global real-time payments volume",
+        "Digital divide: ~55% internet penetration; rural gap persists",
+        "DPDPA 2023 enacted — data protection framework in progress",
+        "BharatNet and ONDC are key instruments to deepen digital inclusion"
+      ],
+      "keywords": ["UPI", "India Stack", "digital payments", "BharatNet", "Digital Personal Data Protection Act 2023", "digital divide", "ONDC", "PM-WANI"],
+      "sources": ["PIB — Digital payment transactions data 2023-24", "ACI Worldwide Report 2024", "MeitY Annual Report 2023-24"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2023-03",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2023,
+    "marks": 15,
+    "words": 250,
+    "question": "What is the main task of India's third moon mission which could not be achieved in its earlier mission? List the countries that have achieved this task. Introduce the subsystems in the spacecraft launched and explain the role of the 'Virtual Launch Control Centre' at the Vikram Sarabhai Space Centre which contributed to the successful launch from Sriharikota.",
+    "topic": "Science and Technology",
+    "subtopic": "Space Technology",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Chandrayaan-3: India's Lunar Success Story\n\n**Primary Task — Soft Landing Near the South Pole:**\n\nChandrayaan-3's main objective was to demonstrate a **safe and soft landing on the lunar surface** — specifically near the Moon's **south pole** (69°S latitude) — a feat Chandrayaan-2's Vikram lander failed to achieve in September 2019 due to a last-minute software glitch.\n\n**Countries That Achieved a Soft Moon Landing:**\n\nBefore Chandrayaan-3 (August 23, 2023), only three countries had achieved successful lunar soft landings:\n1. **Soviet Union (USSR)** — Luna 9 (1966)\n2. **United States (NASA)** — Surveyor 1 (1966) and Apollo missions\n3. **China (CNSA)** — Chang'e 3 (2013)\n\nWith Chandrayaan-3, **India became the 4th country** to achieve a lunar soft landing, and the **1st to land near the south pole**.\n\n**Spacecraft Subsystems:**\n\n- **Propulsion Module (PM):** Carried the Lander+Rover from Earth to lunar orbit (~100 km); hosted the SHAPE payload to study Earth's spectral signatures.\n- **Vikram Lander:** Equipped with RAMBHA-LP (plasma density), ChaSTE (thermal conductivity), ILSA (seismology), and LRA (laser retroreflector) instruments.\n- **Pragyan Rover:** Six-wheeled rover carrying LIBS (Laser-Induced Breakdown Spectroscopy) and APXS (Alpha Particle X-ray Spectrometer) for in-situ elemental analysis of the regolith. Detected sulfur for the first time near the south pole.\n\n**Virtual Launch Control Centre (VLCC):**\n\nThe VLCC at Vikram Sarabhai Space Centre (VSSC), Thiruvananthapuram, provided a **remote launch command capability**, allowing ISRO to command and monitor the launch from VSSC rather than requiring all personnel physically at Sriharikota (SDSC-SHAR). This added operational redundancy, enhanced safety protocols, and demonstrated India's capability for distributed mission control — a critical step towards future deep-space missions.",
+      "key_points": [
+        "Chandrayaan-3 achieved first-ever soft landing near Moon's south pole on August 23, 2023",
+        "India became 4th nation after USSR, USA, and China to achieve lunar soft landing",
+        "Three components: Propulsion Module, Vikram Lander, Pragyan Rover",
+        "Pragyan's LIBS detected sulfur near south pole — first in-situ measurement",
+        "VLCC at VSSC enabled remote launch command — added operational redundancy"
+      ],
+      "keywords": ["Chandrayaan-3", "Vikram lander", "Pragyan rover", "south pole", "LIBS", "APXS", "Virtual Launch Control Centre", "VSSC", "ISRO", "soft landing"],
+      "sources": ["ISRO official press releases — Chandrayaan-3", "Wikipedia — Chandrayaan-3 (cross-referenced with Space.com coverage)", "Nature News — Chandrayaan-3 south pole landing"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2023-04",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2023,
+    "marks": 15,
+    "words": 250,
+    "question": "Comment on the National Wetland Conservation Programme initiated by the Government of India and name a few India's wetlands of international importance included in the Ramsar Sites.",
+    "topic": "Environment and Ecology",
+    "subtopic": "Wetlands and Biodiversity",
+    "difficulty": "easy",
+    "model_answer": {
+      "text": "## National Wetland Conservation Programme and Ramsar Sites\n\n**National Wetland Conservation Programme (NWCP):**\n\nLaunched in **1985-86** by the Ministry of Environment, Forest and Climate Change (MoEFCC), the NWCP aimed to protect ecologically important wetlands outside Protected Areas. In **2013**, the NWCP was merged with the National Lake Conservation Plan (NLCP) to form the **National Plan for Conservation of Aquatic Ecosystems (NPCA)**, under which both wetlands and lakes are managed holistically.\n\n**Key features:**\n- Centrally sponsored scheme with 60:40 (Centre:State) funding.\n- Activities include demarcation, biodiversity assessment, community engagement, and pollution abatement.\n- Wetland Rules, 2017 prohibit conversion, encroachment, and pollution of notified wetlands.\n- India released a **National Wetland Atlas** for comprehensive mapping.\n\n**Gaps:** Implementation is uneven — many wetlands lack buffer zone demarcation; urban encroachment on lakes (e.g., Bengaluru's lakes) continues despite notifications.\n\n**India's Ramsar Sites:**\n\nIndia has **85 Ramsar Sites** (as of August 2024), the highest in Asia, covering about 1,35,806 ha. Notable sites include:\n\n| Wetland | State | Significance |\n|---------|-------|-------------|\n| Chilika Lake | Odisha | Largest coastal lagoon in Asia; flamingo haven |\n| Keoladeo (Bharatpur) | Rajasthan | Critical migratory bird habitat |\n| Sundarbans | West Bengal | Mangrove biodiversity hotspot |\n| Loktak Lake | Manipur | Only floating national park (Keibul Lamjao) |\n| Wular Lake | J&K | Largest freshwater lake in India |\n| Kolleru Lake | Andhra Pradesh | One of largest freshwater lakes; Grey Pelican habitat |\n\nTamil Nadu has the most Ramsar sites (18) among Indian states.",
+      "key_points": [
+        "NWCP launched 1985-86; merged into NPCA in 2013",
+        "India has 85 Ramsar Sites as of August 2024 — highest in Asia",
+        "Wetlands Rules 2017 legally protect notified wetlands from conversion",
+        "Chilika Lake (Odisha) — largest coastal lagoon in Asia",
+        "Loktak Lake (Manipur) — only floating national park"
+      ],
+      "keywords": ["NWCP", "NPCA", "Ramsar Sites", "Wetland Rules 2017", "Chilika Lake", "Loktak Lake", "Sundarbans", "wetland conservation", "MoEFCC"],
+      "sources": ["MoEFCC — Ramsar Sites of India list (August 2024)", "PIB — India adds 3 Ramsar sites (August 2024)", "Ramsar Convention Secretariat"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2023-05",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2023,
+    "marks": 15,
+    "words": 250,
+    "question": "The Intergovernmental Panel on Climate Change (IPCC) has predicted a global sea level rise of about one metre by AD 2100. What would be its impact in India and the other countries in the Indian Ocean region?",
+    "topic": "Environment and Ecology",
+    "subtopic": "Climate Change and Sea Level Rise",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Sea Level Rise: Impacts on India and the Indian Ocean Region\n\n**IPCC Projections:**\n\nThe IPCC Sixth Assessment Report (AR6, 2021-22) projects a global mean sea level rise of **0.3–1.0 metres by 2100** under different emission scenarios (SSP1-2.6 to SSP5-8.5). Under high-emission pathways, rise could exceed 1 metre. India's Ministry of Earth Sciences (2024) projects 50–100 cm rise along Indian coasts by 2100 under high-emission scenarios.\n\n**Impacts on India:**\n\n- **Coastal inundation:** India's 7,516 km coastline houses ~250 million people and contributes ~14% to GDP (fisheries, ports, tourism). Mumbai, Kochi, and Kolkata face significant flood risk; Mumbai could see 28 cm rise by 2050 (IITM projections).\n- **Sundarbans crisis:** 200+ villages face annual salinisation; 100,000 fishers displaced since 2015; mangrove buffers diminishing.\n- **Displacement:** Chennai, Visakhapatnam, and low-lying areas in Kerala, Goa face potential permanent inundation.\n- **Saline intrusion:** Freshwater aquifers in coastal districts (e.g., Gujarat, West Bengal) will be contaminated, affecting agriculture and drinking water.\n- **Biodiversity loss:** Coral reefs (Lakshadweep, Gulf of Kutch) bleach under warmer, higher seas.\n\n**Impacts on Indian Ocean Region:**\n\n- **Maldives:** Average elevation <1.5 m — existential threat; the government has already purchased land in India as contingency.\n- **Bangladesh:** Brahmaputra-Ganga delta vulnerable; 20% of territory could flood displacing ~30 million people.\n- **Sri Lanka and Myanmar:** Low-lying deltas and fishing communities at risk.\n- **Small Island States:** Kiribati, Tuvalu face complete submergence.\n\n**India's Response:** India's NAPCC (National Action Plan on Climate Change) includes National Water Mission and Coastal Regulation Zone (CRZ) notifications for adaptation; CDRI (Coalition for Disaster Resilient Infrastructure) reflects India's global leadership.",
+      "key_points": [
+        "IPCC AR6 projects 0.3–1.0 m sea level rise by 2100; India projects 50–100 cm",
+        "India's coastline: 7,516 km, 250 million people, 14% GDP — high exposure",
+        "Sundarbans: 200+ villages face salinisation; 100,000 fishers displaced",
+        "Maldives: existential threat — average elevation under 1.5 m",
+        "Bangladesh: 20% territory could submerge displacing 30 million people",
+        "India's response: NAPCC, CRZ notifications, CDRI leadership"
+      ],
+      "keywords": ["sea level rise", "IPCC AR6", "Sundarbans", "Maldives", "coastal inundation", "NAPCC", "CRZ", "CDRI", "saline intrusion", "climate change"],
+      "sources": ["IPCC Sixth Assessment Report (AR6) 2021-22", "MoES India Climate Report 2024", "IITM projections on coastal cities", "PIB — CDRI"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2022-01",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2022,
+    "marks": 10,
+    "words": 150,
+    "question": "Why is Public Private Partnership (PPP) required in infrastructural projects? Examine the role of PPP model in the redevelopment of Railway Stations in India.",
+    "topic": "Infrastructure",
+    "subtopic": "PPP and Railways",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Public-Private Partnership in Infrastructure Development\n\n**Why PPP is Required:**\n\n- **Fiscal constraints:** Government cannot fund all infrastructure from its budget; PPP leverages private capital for public assets.\n- **Efficiency gains:** Private sector brings operational efficiency, innovation, and time-bound project execution.\n- **Risk sharing:** Financial, construction, and operational risks are distributed between public and private entities.\n- **Technology and expertise:** Private players bring superior technical and managerial capabilities.\n\nIndia's infrastructure needs an investment of ₹111 lakh crore by 2030 (National Infrastructure Pipeline); PPP is indispensable.\n\n**PPP in Railway Station Redevelopment:**\n\nIndian Railways launched the **Station Redevelopment Programme** under the **Rail Land Development Authority (RLDA)** with a PPP framework. Key features:\n\n- **Redevelopment Model:** Private developers get long-term lease of railway land (45–99 years) for commercial development in exchange for station redevelopment costs.\n- **Examples:** Gandhinagar (Gujarat) and Habibganj (Rani Kamlapati, Bhopal) stations were redeveloped as world-class facilities under PPP.\n- **New Approach — Amrit Bharat Stations Scheme (2023):** Covers 1,309 stations for modernisation; blends state funding with PPP elements.\n\n**Challenges:** Revenue model misalignment, land acquisition disputes, regulatory ambiguities, and delays in financial closure have slowed the programme.\n\n**Way Forward:** Standardised concession agreements, dispute resolution mechanisms, and viability gap funding (VGF) can attract private investment at scale.",
+      "key_points": [
+        "National Infrastructure Pipeline: ₹111 lakh crore needed by 2030 — PPP indispensable",
+        "RLDA manages railway land; 45–99 year leases for commercial development",
+        "Habibganj (Rani Kamlapati, Bhopal) and Gandhinagar — first world-class PPP redeveloped stations",
+        "Amrit Bharat Stations Scheme 2023 — 1,309 stations for modernisation",
+        "Viability Gap Funding (VGF) needed for commercially unviable but critical stations"
+      ],
+      "keywords": ["PPP", "RLDA", "station redevelopment", "viability gap funding", "Amrit Bharat Stations Scheme", "National Infrastructure Pipeline", "concession agreement", "Rani Kamlapati station"],
+      "sources": ["Ministry of Railways — Station Redevelopment Programme", "PIB — Amrit Bharat Stations Scheme 2023", "National Infrastructure Pipeline Report"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2022-02",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2022,
+    "marks": 15,
+    "words": 250,
+    "question": "Do you think India will meet 50 percent of its energy needs from renewable energy by 2030? Justify your answer. How will the shift of subsidies from fossil fuels to renewables help achieve the above objective? Explain.",
+    "topic": "Infrastructure",
+    "subtopic": "Renewable Energy",
+    "difficulty": "hard",
+    "model_answer": {
+      "text": "## India's 50% Renewable Energy Target by 2030\n\n**India's Commitments:**\n\nAt COP26 (Glasgow, 2021), India announced the 'Panchamrit' goals, including:\n- **500 GW** of non-fossil fuel electricity capacity by 2030\n- **50% of cumulative electric power** from renewable sources by 2030\n\n**Current Progress (2024):**\n\nAs of October 2024, India's total renewable energy installed capacity reached **203 GW** (PIB), with solar at 92 GW, wind at 47.7 GW, and hydro at ~52 GW. India is adding capacity at a CAGR of ~13.5%. To reach 500 GW by 2030, India must add ~50 GW per year — a feasible but challenging pace given grid integration, financing, and land acquisition bottlenecks.\n\n**Assessment — Partially Achievable:**\n\n- The 50% renewable share in **electricity generation** (not just installed capacity) is more challenging, as solar and wind are intermittent. Storage infrastructure (pumped hydro, grid-scale batteries) must scale simultaneously.\n- The National Electricity Plan 2022-32 projects 319 GW solar and 110 GW wind by 2032, suggesting the target is achievable with sustained policy support.\n\n**Role of Subsidy Rationalisation:**\n\n- India spends approximately ₹2.5–3 lakh crore annually on petroleum subsidies (LPG, kerosene, FAME) — far exceeding renewable energy subsidies.\n- **Redirecting fossil fuel subsidies** toward Production Linked Incentives (PLI) for solar manufacturing, green hydrogen, and battery storage will dramatically reduce renewable energy costs.\n- Reducing fossil fuel subsidies also raises carbon prices indirectly, making renewables comparatively cheaper (internalising externalities).\n- The **FAME III scheme** for EVs and **National Green Hydrogen Mission** (₹19,744 crore outlay) are early signs of this transition.\n\n**Conclusion:** India is on track for the 500 GW capacity target but the 50% generation share requires parallel investment in energy storage, smart grids, and high-voltage transmission — all of which need subsidy redirection to succeed.",
+      "key_points": [
+        "India's COP26 Panchamrit: 500 GW non-fossil capacity + 50% renewable generation by 2030",
+        "Installed RE capacity: 203 GW as of October 2024 (solar 92 GW, wind 47.7 GW)",
+        "50 GW/year addition needed — feasible with policy support but grid integration is a bottleneck",
+        "India spends ~₹2.5–3 lakh crore on petroleum subsidies annually",
+        "Subsidy redirection to PLI (solar), Green Hydrogen Mission (₹19,744 cr) accelerates transition"
+      ],
+      "keywords": ["renewable energy", "Panchamrit", "500 GW target", "COP26", "PLI solar", "National Green Hydrogen Mission", "fossil fuel subsidies", "FAME", "energy storage"],
+      "sources": ["PIB — India's Renewable Energy Capacity October 2024", "National Electricity Plan 2022-32", "MoNRE — National Green Hydrogen Mission"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2022-03",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2022,
+    "marks": 15,
+    "words": 250,
+    "question": "Launched on 25th December, 2021, James Webb Space Telescope has been much in the news since then. What are its unique features which make it superior to its predecessor Space Telescopes? What are the key goals of this mission? What potential benefits does it hold for the human race?",
+    "topic": "Science and Technology",
+    "subtopic": "Space Technology",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## James Webb Space Telescope (JWST): Features, Goals, and Benefits\n\n**Launch and Deployment:**\n\nJWST was launched on December 25, 2021, from Kourou, French Guiana, aboard an Ariane 5 rocket. It reached its operational orbit at the **Sun-Earth Lagrange Point 2 (L2)**, 1.5 million km from Earth, in January 2022 and began science operations in mid-2022.\n\n**Unique Features — Superiority over Predecessors:**\n\n| Feature | Hubble Space Telescope | James Webb Space Telescope |\n|---------|----------------------|---------------------------|\n| Primary Mirror | 2.4 m diameter | 6.5 m diameter (18 gold-coated beryllium segments) |\n| Wavelength | Mainly visible + UV | Infrared (0.6–28.5 microns) |\n| Location | Low Earth orbit (540 km) | L2 point, 1.5 million km from Earth |\n| Temperature | Ambient | Cryogenic — shield cools instruments to -233°C |\n| Light collection | Reference standard | 100x more light than Hubble |\n\n- **Sunshield:** A 5-layer, tennis-court-sized sunshield (made of Kapton film) keeps instruments at near absolute-zero temperatures, essential for infrared observation.\n- **Infrared vision:** Can peer through cosmic dust clouds to observe star formation regions invisible to Hubble.\n\n**Key Mission Goals:**\n\n1. Observe the **first galaxies** formed after the Big Bang (~13.5 billion years ago) — studying cosmic dawn.\n2. Track **galaxy evolution** across cosmic time.\n3. Study **star and planet formation** within dust clouds.\n4. Investigate the **atmospheres of exoplanets** for biosignature gases (water, oxygen, methane).\n\n**Potential Benefits:**\n\n- **Search for extraterrestrial life:** JWST's spectroscopic capability can analyse exoplanet atmospheres for life-indicating chemicals.\n- **Understanding origins:** Tracing the formation of elements and first stars illuminates the universe's chemical history — including origins of Earth's building blocks.\n- **Spinoff technologies:** Infrared sensor technologies, materials science (Kapton, beryllium optics), and cryogenic systems developed for JWST have Earth applications in medical imaging and telecommunications.\n- **Inspirational value:** Advancing humanity's self-understanding as a species in a vast cosmos.",
+      "key_points": [
+        "JWST: 6.5 m mirror (vs Hubble's 2.4 m); infrared range 0.6–28.5 microns",
+        "Located at Sun-Earth L2 point, 1.5 million km from Earth",
+        "100x more light-collecting power than Hubble",
+        "Can detect first galaxies formed 13.5 billion years ago",
+        "Can analyse exoplanet atmospheres for biosignatures — search for extraterrestrial life",
+        "5-layer sunshield cools instruments to -233°C"
+      ],
+      "keywords": ["James Webb Space Telescope", "JWST", "L2 Lagrange point", "infrared telescope", "exoplanet atmosphere", "biosignature", "sunshield", "Hubble comparison", "Big Bang"],
+      "sources": ["NASA JWST Mission page — science.nasa.gov", "ESA JWST press releases", "Wikipedia — James Webb Space Telescope (verified with NASA sources)"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2022-04",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2022,
+    "marks": 15,
+    "words": 250,
+    "question": "Naxalism is a social, economic and developmental issue manifesting as a violent internal security threat. In this context, discuss the emerging issues and suggest a multilayered strategy to tackle the menace of Naxalism.",
+    "topic": "Internal Security",
+    "subtopic": "Left Wing Extremism",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Naxalism: Root Causes, Emerging Issues, and Multilayered Strategy\n\n**Background:**\n\nNaxalism (Left Wing Extremism, LWE) originated in 1967 at Naxalbari, West Bengal. At its peak, LWE affected 126 districts across 10 states. Due to sustained government effort, affected districts have reduced to **38 districts across 9 states** (MHA, April 2024). Incidents of violence fell from 1,936 in 2010 to **374 in 2024**.\n\n**Emerging Issues:**\n\n- **Consolidation in core areas:** CPI(Maoist) — the primary outfit — is contracting to Bastar (Chhattisgarh), Jharkhand, and Gadchiroli (Maharashtra) where it retains deep forest cover.\n- **Urban Naxalism:** Sympathisers embedded in urban civil society, academia, and NGOs provide ideological and financial support — the Elgar Parishad case revealed this network.\n- **Technology adoption:** Maoists increasingly use encrypted communication, IEDs (Improvised Explosive Devices), and drones.\n- **Recruitment of tribal youth:** Exploiting land alienation, forest rights disputes, and administrative neglect.\n- **Narco-Naxal nexus:** Drug trafficking funds insurgent operations in some corridors.\n\n**Multilayered Strategy:**\n\n**Security Dimension:**\n- Coordinated operations by CoBRA (Commando Battalion for Resolute Action) and state police.\n- Grid-based deployment, real-time intelligence sharing through CCTNS.\n- 290 Naxalites neutralised in 2024; surrender policy offering rehabilitation.\n\n**Development Dimension (3-C Strategy):**\n- **Road connectivity:** 14,618 km of roads built under PMGSY in LWE areas (85% complete as of 2024).\n- **Mobile connectivity:** 7,768 mobile towers commissioned; digital inclusion of tribal populations.\n- **Financial connectivity:** 1,007 bank branches, 5,731 post offices opened in LWE districts.\n\n**Governance Dimension:**\n- PESA (Panchayats Extension to Scheduled Areas Act) implementation to empower tribal self-governance.\n- Speedy resolution of land alienation cases under FRA (Forest Rights Act, 2006).\n- Fast-track courts for Naxal-related cases.\n\n**Social Dimension:**\n- **Aspirational Districts Programme:** Convergence of welfare schemes in most backward districts.\n- Tribal youth engagement through Eklavya Model Residential Schools (EMRS) and vocational training.\n\n**Conclusion:** India's goal of eliminating LWE by March 2026 (MHA target) requires maintaining security pressure while accelerating rights-based development — the 'Smart Policing + Smart Governance' approach.",
+      "key_points": [
+        "LWE districts reduced from 126 (2013) to 38 (April 2024); violence down 80%",
+        "Urban Naxalism — Elgar Parishad case revealed academic and NGO networks",
+        "CoBRA units and intelligence grid: 290 Naxalites neutralised in 2024",
+        "3-C strategy: Road connectivity (14,618 km), Mobile towers (7,768), Bank branches (1,007)",
+        "PESA implementation and FRA resolution address root cause of tribal alienation",
+        "MHA target: Eliminate LWE by March 2026"
+      ],
+      "keywords": ["Naxalism", "LWE", "CPI Maoist", "CoBRA", "PESA", "FRA", "3-C strategy", "Aspirational Districts", "urban Naxalism", "Elgar Parishad"],
+      "sources": ["PIB — India's Decisive Battle Against LWE (2025)", "MHA Annual Report 2023-24", "Amit Shah statement on LWE districts (December 2024)"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2021-01",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2021,
+    "marks": 10,
+    "words": 150,
+    "question": "How did land reforms in some parts of the country help to improve the socio-economic conditions of marginal and small farmers?",
+    "topic": "Agriculture",
+    "subtopic": "Land Reforms",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Land Reforms and Socio-Economic Uplift of Marginal Farmers\n\n**Key Land Reform Measures:**\n\nPost-independence land reforms included: abolition of zamindari/intermediary tenures (1950s), tenancy reforms, ceiling laws, and consolidation of holdings.\n\n**Impact Where Effectively Implemented:**\n\n**Kerala Model:**\n- The **Kerala Land Reforms Act, 1963 (amended 1969)** is cited as the most successful. It abolished landlordism, granted ownership to tenants, and distributed surplus land.\n- **Result:** Near-complete elimination of landlessness; Kerala's literacy and human development indices correlate strongly with land-based security.\n\n**West Bengal:**\n- **Operation Barga (1978–81):** Registered ~15 lakh sharecroppers under the Land Reforms Act, giving them security of tenure. Agricultural productivity in West Bengal rose substantially post-Barga.\n\n**Jammu & Kashmir:**\n- **Big Landed Estates Abolition Act (1950):** Led by Sheikh Abdullah — redistributed ~10 lakh acres to 2.5 lakh peasant families; reduced rural inequality sharply.\n\n**Socio-Economic Benefits:**\n- Security of tenure improved investment in land by tenant farmers.\n- Land ownership enhanced access to institutional credit.\n- Women beneficiaries gained social status and bargaining power.\n- Reduced dependence on moneylenders and intermediaries.\n\n**Limitations:** In many states, ceiling laws were subverted through benami holdings; judicial delays hampered redistribution. The gains were uneven — Maharashtra, UP, and Bihar saw limited impact.",
+      "key_points": [
+        "Kerala Land Reforms Act 1963/69 — most effective; ended landlordism, granted tenant ownership",
+        "Operation Barga 1978-81 (West Bengal) — registered ~15 lakh sharecroppers",
+        "J&K Big Landed Estates Abolition Act 1950 — 10 lakh acres to 2.5 lakh families",
+        "Land ownership unlocked institutional credit and investment in land",
+        "Ceiling laws subverted via benami holdings in many states"
+      ],
+      "keywords": ["land reforms", "Operation Barga", "Kerala Land Reforms Act", "zamindari abolition", "tenancy reforms", "sharecroppers", "benami", "ceiling laws"],
+      "sources": ["Ramesh Singh — Indian Economy (standard reference)", "NCERT Political Science Class 12 — Land Reforms", "Planning Commission Report on Land Reforms"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2021-02",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2021,
+    "marks": 15,
+    "words": 250,
+    "question": "Describe the major outcomes of the 26th session of the Conference of the Parties (COP) to the United Nations Framework Convention on Climate Change (UNFCCC). What are the commitments made by India at this conference?",
+    "topic": "Environment and Ecology",
+    "subtopic": "Climate Change Negotiations",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## COP26 Outcomes and India's Commitments (Glasgow, November 2021)\n\n**COP26 Background:**\nThe 26th Conference of Parties (COP26) to the UNFCCC was held in **Glasgow, Scotland, from 31 October to 12 November 2021**, hosted by the UK. It was considered the most critical climate summit since the Paris Agreement (2015).\n\n**Major Outcomes — Glasgow Climate Pact:**\n\n1. **Coal Phase-down:** First time coal was explicitly mentioned in a COP decision; countries agreed to phase-down (not phase-out, as India pushed back) unabated coal power and phase out inefficient fossil fuel subsidies.\n2. **1.5°C Temperature Goal:** Reaffirmed the Paris Agreement target of limiting warming to 1.5°C; countries asked to submit stronger NDCs (Nationally Determined Contributions) by end of 2022.\n3. **Article 6 Carbon Markets:** Finalised rules for international carbon trading (Article 6 of Paris Agreement), completing the Paris rulebook after 6 years.\n4. **Finance Gap:** Developed nations acknowledged failure to deliver the $100 billion/year climate finance pledge (promised at COP15, 2009); urged to fulfil and double adaptation finance.\n5. **Methane Pledge:** Over 100 countries pledged to cut methane emissions by 30% by 2030 (India not a signatory).\n6. **Forests and Land Use:** Over 100 nations signed Glasgow Leaders' Declaration on Forests, pledging to halt deforestation by 2030.\n7. **Green Grid Initiative — One Sun, One World, One Grid:** Co-launched by India and UK.\n\n**India's Commitments (Panchamrit):**\n\nPM Narendra Modi announced five ambitious targets (Panchamrit) at COP26:\n\n1. **500 GW** non-fossil fuel energy capacity by 2030.\n2. **50% of energy needs** from renewables by 2030.\n3. Reduction of carbon emissions by **1 billion tonnes by 2030**.\n4. Reduction of **carbon intensity of the economy by 45%** by 2030 (from 2005 levels).\n5. Achieve **Net Zero by 2070**.\n\nIndia also advocated for **climate justice** — differentiating historical responsibilities of developed vs. developing nations — and called for adequate climate finance for the Global South.\n\n**Significance:** India's 2070 Net Zero target was later codified in India's updated NDC submitted to UNFCCC in 2022.",
+      "key_points": [
+        "COP26: Glasgow, October-November 2021; Glasgow Climate Pact adopted",
+        "Phase-down (not phase-out) of unabated coal — first explicit coal language",
+        "Article 6 carbon markets rules finalised — completed Paris rulebook",
+        "India's Panchamrit: 500 GW non-fossil, 50% renewables, 1 billion tonne CO2 reduction, 45% carbon intensity cut, Net Zero 2070",
+        "India co-launched Green Grid Initiative (One Sun, One World, One Grid) with UK",
+        "$100 billion climate finance pledge by developed nations still unmet"
+      ],
+      "keywords": ["COP26", "Glasgow Climate Pact", "Panchamrit", "Net Zero 2070", "Article 6", "carbon markets", "coal phase-down", "NDC", "climate finance", "Green Grid Initiative"],
+      "sources": ["UNFCCC — Glasgow Climate Pact text", "PIB — India's Panchamrit at COP26", "MoEFCC — India's Updated NDC 2022"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2021-03",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2021,
+    "marks": 15,
+    "words": 250,
+    "question": "Analyse the multidimensional challenges posed by external state and non-state actors, to the internal security of India. Also, discuss measures required to be taken to combat these threats.",
+    "topic": "Internal Security",
+    "subtopic": "External Threats and Non-State Actors",
+    "difficulty": "hard",
+    "model_answer": {
+      "text": "## External Threats to India's Internal Security: Challenges and Countermeasures\n\n**Multidimensional Challenges:**\n\n**State Actors:**\n\n- **China:** PLA's salami-slicing tactics along LAC; use of grey-zone warfare (infrastructure build-up in Aksai Chin, Galwan 2020 standoff). China also deploys economic leverage and cyber espionage targeting Indian defence and government networks.\n- **Pakistan:** Persistent support to terrorist groups (Lashkar-e-Taiba, Jaish-e-Mohammed) operating in Jammu & Kashmir; cross-border tunnels, drone drops of arms and narcotics (Punjab-J&K border), and use of hawala channels for terror financing.\n- **Proxy Wars:** State-sponsored disinformation operations (Operation Sindoor-era information warfare), fake narratives seeded via social media to inflame communal tensions.\n\n**Non-State Actors:**\n\n- **Terrorist Groups:** JeM, LeT, Al-Badr, and ISIS affiliates operate from Pakistan's soil with state patronage. 2019 Pulwama attack (CRPF — 40 personnel killed) demonstrated their lethal capacity.\n- **Drug Trafficking:** Punjab's narco-terrorism corridor — drugs (heroin, methamphetamine) from Afghanistan via Pakistan fund secessionist activities. The 'Golden Crescent' supply chain directly threatens India.\n- **Cyber Threats:** APT (Advanced Persistent Threat) groups linked to China and Pakistan target critical infrastructure — power grids (2020 Mumbai blackout linked to Chinese group RedEcho), banking systems.\n- **Insurgent Groups:** Manipur-based groups (ULFA-I, NSCN-IM) with Myanmar linkages exploit ethnic conflicts; Meitei-Kuki violence (2023) had external dimensions.\n\n**Countermeasures:**\n\n**Intelligence and Surveillance:**\n- Modernisation of RAW, IB, and NTRO with enhanced HUMINT and SIGINT capabilities.\n- National Cyber Coordination Centre (NCCC) for real-time cyber threat monitoring.\n- NATGRID for integrated intelligence database.\n\n**Border Management:**\n- Comprehensive Integrated Border Management System (CIBMS) with sensors, cameras, and drones.\n- Increased deployment of ITBP along China border; BSF along Pakistan and Bangladesh borders.\n- Smart Fencing project — 2,026 km along Indo-Pakistan and Indo-Bangladesh borders.\n\n**Counter-Terrorism:**\n- NIA (National Investigation Agency) has successfully prosecuted hundreds of terrorism cases.\n- FATF engagement to pressure Pakistan on terror financing (Pakistan was grey-listed until 2022).\n- Enhanced cooperation under SAARC and bilateral frameworks (Quad for maritime security).\n\n**Financial Measures:**\n- Prevention of Money Laundering Act (PMLA) amendments; Enforcement Directorate crackdown on hawala networks.\n- Participation in FATF's 'No Money for Terror' conference (New Delhi, November 2022).",
+      "key_points": [
+        "China: LAC grey-zone tactics, cyber espionage (RedEcho 2020 Mumbai blackout)",
+        "Pakistan: cross-border terrorism (Pulwama 2019), drone drops, narco-terrorism (Golden Crescent)",
+        "Non-state actors: JeM, LeT, ISIS affiliates; drug trafficking funds secessionism",
+        "Countermeasures: NATGRID, NCCC, CIBMS smart fencing (2,026 km), NIA, FATF",
+        "FATF grey-listing of Pakistan — financial pressure on terror financing",
+        "Quad cooperation for maritime security against non-traditional threats"
+      ],
+      "keywords": ["internal security", "LAC", "cross-border terrorism", "Pulwama", "narco-terrorism", "Golden Crescent", "CIBMS", "NATGRID", "NIA", "FATF", "APT", "cyber espionage"],
+      "sources": ["MHA Annual Report 2023-24", "FATF — Pakistan evaluation report", "PIB — Comprehensive Integrated Border Management System"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2020-01",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2020,
+    "marks": 10,
+    "words": 150,
+    "question": "What are the salient features of the Jal Shakti Abhiyan launched by the Government of India for water conservation and water security?",
+    "topic": "Environment and Ecology",
+    "subtopic": "Water Conservation",
+    "difficulty": "easy",
+    "model_answer": {
+      "text": "## Jal Shakti Abhiyan: Features and Significance\n\n**Background:**\nJal Shakti Abhiyan (JSA) was launched in July 2019 as a time-bound, mission-mode campaign for water conservation and water security across water-stressed districts.\n\n**Salient Features:**\n\n**Phase I (2019):** Covered 256 water-stressed districts during monsoon season (July–November 2019). Phase II (2021) extended to 'Catch the Rain — Where it Falls, When it Falls.'\n\n**Key Interventions:**\n1. **Water conservation and rainwater harvesting** — revival and repair of traditional water bodies (check dams, ponds, step wells).\n2. **Renovation of traditional water bodies and tanks.**\n3. **Reuse and recharge structures** — watershed development, afforestation to improve groundwater recharge.\n4. **Watershed development** — contour bunding, drainage line treatment.\n5. **Intensive afforestation** — planting in water catchment areas.\n\n**Governance Features:**\n- Central teams comprising officers from GoI departments were deployed to districts.\n- Jan Andolan character — community participation through Jal Doots, Gram Sabhas.\n- Convergence with MGNREGS for labour creation in water conservation works.\n- Link with Jal Jeevan Mission — which aims Har Ghar Jal (tap water to every rural household by 2024).\n\n**Significance:** India is among the world's most water-stressed nations; 21 cities including Delhi may run out of groundwater by 2030 (NITI Aayog report). JSA creates decentralised water infrastructure resilience.",
+      "key_points": [
+        "JSA launched July 2019 — covers 256 water-stressed districts",
+        "Five core interventions: rainwater harvesting, water body renovation, reuse structures, watershed development, afforestation",
+        "Central officer teams deployed to districts — governance innovation",
+        "Convergence with MGNREGS and Jal Jeevan Mission (Har Ghar Jal)",
+        "NITI Aayog: 21 cities may exhaust groundwater by 2030 — urgency context"
+      ],
+      "keywords": ["Jal Shakti Abhiyan", "water conservation", "rainwater harvesting", "Jal Jeevan Mission", "Har Ghar Jal", "MGNREGS", "groundwater recharge", "water-stressed districts"],
+      "sources": ["PIB — Jal Shakti Abhiyan launch details", "MoJSW — Jal Jeevan Mission progress", "NITI Aayog — Composite Water Management Index"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2020-02",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2020,
+    "marks": 15,
+    "words": 250,
+    "question": "COVID-19 pandemic has caused unprecedented devastation worldwide. However, technological advancements are being availed readily to win over the crisis. Give an account of how technology was sought to aid management of the pandemic.",
+    "topic": "Science and Technology",
+    "subtopic": "Technology and Pandemic Management",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Technology in COVID-19 Pandemic Management\n\nThe COVID-19 pandemic (declared by WHO, March 2020) was met with an unprecedented deployment of technology across surveillance, treatment, logistics, and communication.\n\n**1. Digital Surveillance and Contact Tracing:**\n- **Aarogya Setu app** (India): Launched April 2020; used Bluetooth and GPS for proximity-based contact tracing. Over 23 crore downloads.\n- Global equivalents: Singapore's TraceTogether; South Korea's CCTV-based movement tracking; Israel's Shin Bet system.\n- **CoWIN platform** (India): World's largest vaccination management platform — managed booking, certificate generation, and real-time tracking for 220 crore+ vaccine doses.\n\n**2. Vaccine Development — Accelerated by Biotechnology:**\n- **mRNA vaccine technology** (Pfizer-BioNTech, Moderna): Unprecedented 11-month development timeline (vs. traditional 10–15 years). AI/ML platforms designed spike protein targets.\n- **India's contributions:** Covaxin (Bharat Biotech — inactivated virus platform), Covishield (SII — adenoviral vector), CORBEVAX (RBS-based, antigen subunit).\n\n**3. Artificial Intelligence and Big Data:**\n- AI tools predicted outbreak hotspots (BlueDot predicted COVID spread 9 days before WHO alert).\n- CT scan AI tools (CT-Lung AI, DeepMind) accelerated diagnosis at scale.\n- Telemedicine platforms (eSanjeevani, India) recorded 8+ crore consultations during the pandemic.\n\n**4. Genome Sequencing:**\n- INSACOG (Indian SARS-CoV-2 Genomics Consortium): Network of 54 labs for real-time variant sequencing — identified Delta, Omicron variants in India early.\n\n**5. Logistics and Supply Chain:**\n- Drone delivery of vaccines and medicines in Manipur, Meghalaya, and Telangana through iDEX and State Government programmes.\n- AI-based optimisation of vaccine cold chain logistics by UNDP-India.\n\n**6. Mental Health Technology:**\n- Kiran helpline (MoSJE, 2020): 24x7 toll-free mental health support; iCall and Vandrevala Foundation digital platforms scaled.\n\n**Conclusion:** The pandemic demonstrated that technology — from genomics to digital governance — is an indispensable pillar of modern public health resilience. India's CoWIN and eSanjeevani were cited by WHO as global best practices.",
+      "key_points": [
+        "Aarogya Setu — contact tracing app, 23 crore downloads; CoWIN managed 220 crore+ doses",
+        "mRNA vaccine technology — 11-month development; AI designed spike protein targets",
+        "Covaxin (inactivated), Covishield (adenoviral), CORBEVAX (protein subunit) — India's three vaccines",
+        "INSACOG — 54-lab genomics network for real-time variant surveillance",
+        "eSanjeevani telemedicine — 8+ crore consultations during pandemic",
+        "BlueDot AI predicted COVID spread 9 days before WHO alert"
+      ],
+      "keywords": ["Aarogya Setu", "CoWIN", "mRNA vaccine", "Covaxin", "INSACOG", "eSanjeevani", "telemedicine", "CORBEVAX", "contact tracing", "genomic surveillance"],
+      "sources": ["PIB — CoWIN, eSanjeevani usage data", "INSACOG official reports", "WHO Global Health Observatory — India vaccine data"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2020-03",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2020,
+    "marks": 15,
+    "words": 250,
+    "question": "Explain the rationale behind the Goods and Services Tax (Compensation to States) Act of 2017. How has COVID-19 impacted the GST compensation fund and created new federal tensions?",
+    "topic": "Indian Economy",
+    "subtopic": "Fiscal Federalism and GST",
+    "difficulty": "hard",
+    "model_answer": {
+      "text": "## GST Compensation to States: Rationale and COVID-19 Impact\n\n**Rationale behind the GST (Compensation to States) Act, 2017:**\n\nWhen GST was introduced on **1 July 2017**, it subsumed multiple central and state taxes (Central Excise, VAT, Service Tax, Octroi, etc.). States feared revenue loss from the transition — particularly because:\n- States lost revenue autonomy over petroleum, alcohol, and property taxes.\n- The GST Council's consensus-based rate setting limited states' fiscal flexibility.\n\nTo address these concerns, the **GST (Compensation to States) Act, 2017** guaranteed states a **14% annual revenue growth** over the FY 2015-16 base for five years (until July 2022). Any shortfall below this guaranteed rate was to be compensated from a **GST Compensation Cess** collected on luxury and demerit goods (tobacco, cars, aerated drinks).\n\n**Rationale:** To incentivise states to join GST and overcome their justified concern about loss of fiscal autonomy and revenue.\n\n**COVID-19 Impact and Federal Tensions:**\n\n- The COVID-19 pandemic caused a **sharp contraction in economic activity** in 2020-21, dramatically reducing both GST collections and cess revenues.\n- The **GST Compensation Cess fund ran into deficit** — cess collections were insufficient to pay states their guaranteed 14% growth compensation.\n- The Centre offered states two borrowing options (October 2020): borrow from RBI (Option 1 — ₹97,000 crore) or from open market (Option 2 — ₹2.35 lakh crore). States including Punjab, Kerala, Rajasthan, Jharkhand rejected these options, insisting the Centre borrow on their behalf.\n- **Federal tensions:** Non-BJP states accused the Centre of reneging on a constitutional commitment; Centre argued the shortfall was an 'Act of God' (COVID) not covered by the guarantee.\n- **Resolution:** The Centre eventually borrowed ~₹1.59 lakh crore over 2020-21 and 2021-22 to compensate states. The compensation period ended July 2022; cess collection was extended to repay this borrowing.\n\n**Broader Lesson:** The episode revealed structural vulnerabilities in cooperative federalism — the need for a stabilisation fund within GST architecture to handle revenue shocks.",
+      "key_points": [
+        "GST Compensation Act 2017: guaranteed states 14% annual revenue growth over FY16 base for 5 years",
+        "Compensation Cess on luxury goods funds the guarantee",
+        "COVID caused cess fund deficit — states not fully compensated in 2020-21",
+        "Centre offered borrowing options; non-BJP states refused, demanding Centre borrow directly",
+        "Centre borrowed ~₹1.59 lakh crore over two years to settle dues",
+        "Compensation period ended July 2022; cess extended to repay Centre's borrowings"
+      ],
+      "keywords": ["GST compensation", "Compensation Cess", "fiscal federalism", "14% revenue growth guarantee", "COVID impact", "cooperative federalism", "GST Council", "state revenues"],
+      "sources": ["GST Council official documentation", "PRS Legislative Research — GST Compensation Act summary", "Economic Survey 2021-22"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2019-01",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2019,
+    "marks": 15,
+    "words": 250,
+    "question": "Enumerate the indirect taxes which have been subsumed in the Goods and Services Tax (GST) in India. Also, comment on the revenue implications of the GST introduced in India in July 2017.",
+    "topic": "Indian Economy",
+    "subtopic": "Taxation and GST",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## GST: Subsumed Taxes and Revenue Implications\n\n**Indirect Taxes Subsumed in GST (July 1, 2017):**\n\n**Central Taxes Subsumed:**\n1. Central Excise Duty (except on petroleum products)\n2. Additional Excise Duties (textiles, tobacco)\n3. Service Tax\n4. Additional Customs Duty (CVD)\n5. Special Additional Duty of Customs (SAD)\n6. Central Sales Tax (CST) — partially\n7. Surcharges and cesses on above taxes\n\n**State Taxes Subsumed:**\n1. State VAT (Value Added Tax)\n2. Central Sales Tax (state portion)\n3. Luxury Tax\n4. Entry Tax / Octroi\n5. Entertainment Tax (except levied by local bodies)\n6. Taxes on advertisements\n7. Purchase Tax\n8. Taxes on lottery, betting, gambling\n\n**Kept Outside GST:** Petroleum products (crude oil, high-speed diesel, motor spirit, aviation turbine fuel, natural gas) and alcohol for human consumption remain outside GST; states levy their own taxes on these.\n\n**Revenue Implications:**\n\n**Short-term (2017–19):**\n- Initial disruption: GST revenue fell short of projections in the first year due to technical glitches (GSTN issues), compliance learning curve, and cascading rate corrections.\n- States required compensation; the Centre paid ~₹1.5–2 lakh crore in compensation during 2017-22.\n\n**Medium to Long-term (2019–2024):**\n- GST revenues have shown consistent improvement. **FY 2023-24 GST collection: ₹20.18 lakh crore** — 11.7% growth, first year to cross ₹20 lakh crore.\n- Average monthly collection in 2023-24: **₹1.68 lakh crore**.\n- **Formalisation effect:** GST brought lakhs of previously unregistered businesses into the tax net; GST registrations grew from 70 lakh (2017) to 1.4 crore (2024).\n- **Anti-evasion:** E-invoicing, e-way bills, and GSTN's invoice matching reduced tax evasion and improved compliance.\n- **Single national market:** Elimination of inter-state check posts improved logistics efficiency, estimated to save ~₹50,000 crore/year.\n\n**Pending Challenges:** Petroleum products' exclusion limits GST's scope; rate rationalisation (multiple slabs) remains complex.",
+      "key_points": [
+        "17 Central and State taxes subsumed; petroleum products and alcohol kept outside GST",
+        "FY 2023-24: ₹20.18 lakh crore GST collection — first to cross ₹20 lakh crore",
+        "Average monthly collection 2023-24: ₹1.68 lakh crore",
+        "GST registrations: 70 lakh (2017) to 1.4 crore (2024) — formalisation of economy",
+        "E-invoicing and e-way bills: anti-evasion tools",
+        "Centre paid ~₹1.5–2 lakh crore in state compensation during transition (2017-22)"
+      ],
+      "keywords": ["GST", "indirect taxes", "Central Excise", "VAT", "service tax", "GSTN", "e-invoicing", "e-way bill", "GST compensation", "formalisation"],
+      "sources": ["GST Council — revenue statistics", "PIB — GST collection FY 2023-24", "PRS Legislative Research — GST implementation review"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2019-02",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2019,
+    "marks": 15,
+    "words": 250,
+    "question": "Coastal sand mining, whether legal or illegal, poses one of the biggest threats to our environment. Analyse the impact of sand mining along the Indian coasts, citing specific examples.",
+    "topic": "Environment and Ecology",
+    "subtopic": "Coastal Ecosystem and Mining",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Coastal Sand Mining: Environmental Impacts\n\n**Context:**\nCoastal sand is a critical component of the littoral ecosystem. India's 7,516 km coastline faces intense pressure from sand mining driven by booming construction demand. Both legal (licensed) and illegal (unreported) sand mining are widespread in states like Kerala, Goa, Tamil Nadu, and Odisha.\n\n**Impacts of Coastal Sand Mining:**\n\n**1. Coastal Erosion:**\n- Sand removal destabilises the beach profile, accelerating erosion. Studies show beaches in Kerala (Varkala, Kovalam) and Odisha (Puri) are retreating at 1–3 metres per year partly due to sand extraction.\n- Sand bars and spits that act as natural wave buffers are destroyed, increasing wave energy on the shoreline.\n\n**2. Habitat Destruction:**\n- **Sea turtle nesting grounds** are directly disturbed. Olive Ridley turtles at Odisha's Rushikulya and Gahirmatha rookeries face nesting disruption.\n- Coral reefs in Lakshadweep and the Gulf of Mannar are smothered by turbidity generated by mining.\n- Mangrove communities lose substrate stability.\n\n**3. Saltwater Intrusion:**\n- Excavation of coastal sand lowers beach elevation, allowing saltwater to infiltrate freshwater aquifers. This has affected drinking water in coastal Kerala and Tamil Nadu villages.\n\n**4. Destruction of Infrastructure:**\n- Undermining of bridges and embankments — several river mouth bridges in Goa have been weakened.\n- Coastal roads and sea walls damaged by accelerated erosion.\n\n**5. Loss of Biodiversity:**\n- Seagrass beds and benthic organisms destroyed; fisheries productivity declines as nursery habitats are lost.\n\n**Regulatory Framework:**\n- Supreme Court has repeatedly banned illegal sand mining.\n- **Coastal Regulation Zone (CRZ) Notification, 2019** restricts activities within intertidal zones.\n- **Sustainable Sand Mining Management Guidelines, 2016** by MoEFCC require district-level sand audits.\n\n**Way Forward:** Promote manufactured sand (M-sand) and recycled construction material as alternatives; strengthen district-level enforcement with satellite monitoring.",
+      "key_points": [
+        "Coastal erosion: Kerala and Odisha beaches retreating 1–3 m/year partly due to sand mining",
+        "Olive Ridley turtle nesting disrupted at Rushikulya and Gahirmatha (Odisha)",
+        "Saltwater intrusion into freshwater aquifers — drinking water crisis in coastal villages",
+        "CRZ Notification 2019 and Sustainable Sand Mining Guidelines 2016 regulate extraction",
+        "M-sand (manufactured sand) as environmentally safer alternative"
+      ],
+      "keywords": ["coastal sand mining", "coastal erosion", "CRZ 2019", "Olive Ridley turtle", "saltwater intrusion", "mangroves", "M-sand", "Gahirmatha", "benthic organisms"],
+      "sources": ["MoEFCC — Sustainable Sand Mining Management Guidelines 2016", "CRZ Notification 2019", "WWF India — Olive Ridley conservation reports"]
+    }
+  },
+  {
+    "id": "gs3-pyq-2019-03",
+    "type": "pyq",
+    "paper": "gs3",
+    "year": 2019,
+    "marks": 15,
+    "words": 250,
+    "question": "The Indian government has recently strengthened the anti-terrorism laws by amending the Unlawful Activities (Prevention) Act (UAPA), 1967, and the NIA Act. Analyse the changes in the context of the prevailing security environment while discussing the scope and reasons for opposing the UAPA by human rights organizations.",
+    "topic": "Internal Security",
+    "subtopic": "Anti-Terror Legislation",
+    "difficulty": "hard",
+    "model_answer": {
+      "text": "## UAPA Amendments 2019 and NIA Act: Analysis\n\n**Key Amendments — UAPA (Amendment) Act, 2019:**\n\n1. **Designation of Individuals as Terrorists:** The original UAPA allowed only organisations to be designated as 'unlawful'. The 2019 amendment empowers the Central Government to **designate individuals as terrorists** — without conviction — if they are believed to be involved in terrorism. The designated person can challenge this only before a government-appointed review committee.\n2. **Bail Provisions Strengthened:** Bail for those charged under UAPA remains extremely difficult — courts must be satisfied that prima facie no case exists, and bail can be denied if the case is not disposed of within 90 days (the accused can apply for default bail but courts are restrictive).\n3. **NIA Officers' Powers:** Officers of the National Investigation Agency (NIA) of Inspector rank and above can now investigate UAPA cases — earlier, only DSP rank was empowered.\n\n**NIA (Amendment) Act, 2019:**\n- Extended NIA's jurisdiction to investigate offences committed outside India if they involve Indian citizens or target India.\n- Expanded NIA's mandate to include human trafficking, cybercrime, and offences against atomic energy installations.\n\n**Security Context Justifying Amendments:**\n- Pulwama attack (February 2019) — deadliest terrorist attack on security forces in decades (40 CRPF personnel killed).\n- Rise of individual radicalisation (lone-wolf attacks) — existing law was inadequate to pre-emptively act against individuals.\n- Global precedent: FATF's recommendation to target individuals, not just organisations (consistent with UN Security Council Resolution 1267).\n\n**Opposition by Human Rights Organisations:**\n\n1. **Presumption of guilt:** Designating individuals as terrorists without trial undermines the constitutional presumption of innocence (Article 21).\n2. **Misuse potential:** Civil society, journalists, and activists have alleged misuse — the Bhima Koregaon (Elgar Parishad) case saw academics, poets, and lawyers arrested under UAPA.\n3. **Weak judicial oversight:** Review Committee is executive, not judicial — inadequate safeguard.\n4. **Chilling effect:** Fear of UAPA use inhibits political dissent, journalism, and peaceful protest.\n5. **Bail denial:** Long pre-trial detention (Father Stan Swamy died in custody, 2021) amounts to punishment before conviction.\n\n**Balanced View:** While strong anti-terror laws are necessary in India's security environment, robust independent judicial oversight, time-bound trials, and clear definitional limits are essential to prevent abuse.",
+      "key_points": [
+        "2019 amendment: individuals (not just organisations) can be designated as terrorists",
+        "NIA officers of Inspector rank can now investigate UAPA cases",
+        "NIA Act 2019 extends jurisdiction to offences targeting India committed abroad",
+        "Pulwama attack 2019 and lone-wolf threat justified legislative strengthening",
+        "HROs: violation of Article 21 (presumption of innocence), weak judicial oversight",
+        "Bhima Koregaon/Elgar Parishad case — alleged misuse against academics and activists"
+      ],
+      "keywords": ["UAPA 2019 amendment", "individual terrorist designation", "NIA Act 2019", "Pulwama 2019", "Elgar Parishad", "Bhima Koregaon", "bail provisions", "human rights", "Article 21", "FATF"],
+      "sources": ["PRS Legislative Research — UAPA Amendment Bill 2019", "Ministry of Home Affairs — NIA Act 2019", "Amnesty International India reports on UAPA"]
+    }
+  }
+]
