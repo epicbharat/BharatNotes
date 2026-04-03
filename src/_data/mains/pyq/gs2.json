@@ -1,0 +1,482 @@
+[
+  {
+    "id": "gs2-pyq-2024-01",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2024,
+    "marks": 10,
+    "words": 150,
+    "question": "Examine the need for electoral reforms as suggested by various committees with particular reference to 'one nation – one election' principle.",
+    "topic": "Indian Polity",
+    "subtopic": "Elections & Electoral Reforms",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Electoral Reforms: Need and Key Committees\n\nElectoral reforms are essential to strengthen democracy, reduce money power, curb criminalization, and make elections more participatory. Several committees have recommended systemic changes:\n\n**Key Committee Recommendations**\n- **Tarkunde Committee (1974):** Recommended lowering voting age to 18 and state funding of elections.\n- **Dinesh Goswami Committee (1990):** Proposed curtailing use of official machinery, partial state funding, and limits on election expenditure.\n- **Indrajit Gupta Committee (1998):** Recommended state funding of elections on a limited basis to reduce corporate and black-money influence.\n- **Law Commission (170th Report, 1999):** Favoured proportional representation and simultaneous elections.\n- **Election Commission Proposals:** Anti-defection law reform, NOTA, EVMs with VVPAT, and caps on campaign spending.\n\n**One Nation – One Election**\n\nThe concept envisions simultaneous Lok Sabha and State Assembly elections. The **Ram Nath Kovind Committee (2024)** endorsed a two-phase approach — Lok Sabha + State elections simultaneously, followed by local body elections within 100 days.\n\n**Benefits:** Reduced governance disruption, cost savings (estimated ₹4,500 crore per election cycle), and bureaucratic efficiency.\n\n**Challenges:** Requires amending Articles 83, 85, 172, 174, and 356; federal concerns if a state government falls mid-term; and complex consensus-building.\n\n**Conclusion:** While one nation–one election offers administrative efficiency, it must be balanced against federal autonomy and constitutional safeguards.",
+      "key_points": [
+        "Dinesh Goswami (1990) and Indrajit Gupta (1998) committees are key references on electoral reform",
+        "Ram Nath Kovind Committee (2024) recommended two-phase simultaneous elections",
+        "One nation–one election requires amending multiple constitutional articles including 83, 85, 172, 174, 356",
+        "Cost reduction and reduced Model Code of Conduct disruption are key benefits",
+        "Federal autonomy and mid-term fall of governments are major concerns"
+      ],
+      "keywords": ["One Nation One Election", "Dinesh Goswami Committee", "Indrajit Gupta Committee", "Ram Nath Kovind Committee", "Article 83", "Article 172", "simultaneous elections", "state funding of elections"],
+      "sources": ["Laxmikanth M.P. – Indian Polity", "Election Commission of India Reports", "Ram Nath Kovind Committee Report 2024"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2024-02",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2024,
+    "marks": 15,
+    "words": 250,
+    "question": "What changes has the Union Government recently introduced in the domain of Centre-State relations? Suggest measures to be adopted to build the trust between the Centre and the States and for strengthening federalism.",
+    "topic": "Indian Polity",
+    "subtopic": "Federalism & Centre-State Relations",
+    "difficulty": "hard",
+    "model_answer": {
+      "text": "## Recent Changes in Centre-State Relations\n\n### Union Government Initiatives\n- **Cooperative Federalism via NITI Aayog:** Replaced the Planning Commission (2015) with NITI Aayog, which includes Chief Ministers in its Governing Council, facilitating bottom-up planning.\n- **GST Council (Article 279A):** Established through the 101st Constitutional Amendment Act (2016), giving states an institutionalised voice in indirect taxation decisions.\n- **Increased Tax Devolution:** The 15th Finance Commission (2021–26) recommended 41% devolution of central taxes to states (previously 42% under 14th FC, reduced by 1% due to creation of J&K UTs).\n- **Centrally Sponsored Schemes (CSS) Rationalisation:** Attempt to reduce conditionalities and give states more flexibility in implementation.\n- **Special Category Status disputes:** Several states (Andhra Pradesh, Bihar) have pressed for special category status — a recurring friction point.\n- **Use of Governors:** Opposition-ruled states have alleged partisan use of Governors under Articles 153–167, including delay in assenting to bills.\n\n### Concerns Raised by States\n- Pendency of GST compensation arrears\n- Curtailment of state police jurisdiction (CBI jurisdiction disputes — e.g., West Bengal, Maharashtra withdrawing general consent)\n- Discriminatory allocation in disaster relief funds\n\n### Measures to Build Trust\n1. **Revive the Inter-State Council** (Article 263) as a regular forum for Centre-State dialogue.\n2. **Codify Governor's role** through legislation to prevent misuse under Article 356.\n3. **Constitute a permanent Finance Commission** to reduce ad-hoc fiscal disputes.\n4. **Expand Concurrent List consultations** — mandatory Centre-State consultation before legislating on concurrent subjects.\n5. **Strengthen GST Council** with enforceable consensus mechanism.\n\n**Conclusion:** Genuine federalism requires institutional trust. Reforms in cooperative fiscal frameworks, transparent Governor appointments, and revitalization of inter-governmental bodies are essential.",
+      "key_points": [
+        "101st Amendment Act created GST Council under Article 279A — landmark in cooperative federalism",
+        "15th Finance Commission recommended 41% devolution of central taxes to states",
+        "Governors' partisan role under Articles 153-167 is a recurring Centre-State friction point",
+        "Article 263 Inter-State Council must be revived as a regular consultative forum",
+        "States withdrawing CBI general consent signals deepening trust deficit"
+      ],
+      "keywords": ["cooperative federalism", "GST Council", "Article 279A", "15th Finance Commission", "Inter-State Council Article 263", "Article 356", "Governor", "NITI Aayog", "devolution"],
+      "sources": ["Laxmikanth M.P. – Indian Polity", "15th Finance Commission Report 2021", "Constitution of India Articles 245–263", "Sarkaria Commission Report 1988", "Punchhi Commission Report 2010"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2024-03",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2024,
+    "marks": 15,
+    "words": 250,
+    "question": "Discuss the geopolitical and geostrategic importance of Maldives for India with a focus on global trade and energy flows. Further also discuss how this relationship affects India's maritime security and regional stability amidst international competition.",
+    "topic": "International Relations",
+    "subtopic": "India's Neighbourhood Policy",
+    "difficulty": "hard",
+    "model_answer": {
+      "text": "## Maldives: Strategic Significance for India\n\n### Geopolitical Importance\nThe Maldives, an archipelago of 1,200 islands in the Indian Ocean, sits astride **critical Sea Lines of Communication (SLOCs)**. About **80% of India's oil imports and 50% of container traffic** passes through the Indian Ocean, much of it near Maldivian waters.\n\n### Trade and Energy Flows\n- The **Malacca Strait–Indian Ocean–Suez Canal** route, which Maldivian waters flank, carries trillions of dollars of global trade annually.\n- Any hostile presence in Maldives could threaten India's energy supply chain, particularly crude oil from the Gulf.\n- The **Exclusive Economic Zone (EEZ)** of Maldives (nearly 900,000 sq km) has rich fishery and sub-sea resource potential.\n\n### India's Maritime Security Interests\n- India has long maintained a **'Neighbourhood First'** policy, with Maldives being central to its **SAGAR (Security and Growth for All in the Region)** vision.\n- India established a **Coast Guard cooperation framework** and provides surveillance aircraft and ships for EEZ monitoring.\n- The **Uthuru Thila Falhu (UTF)** naval base project (India-Maldives Defence Agreement, 2021) gives India strategic presence north of the archipelago.\n\n### China's Growing Footprint\n- China's Belt and Road Initiative (BRI) investments in Maldives — including the China–Maldives Friendship Bridge — have increased Beijing's influence.\n- The 2023 presidential election of Mohamed Muizzu, who pursued an 'India Out' campaign and sought withdrawal of Indian military personnel, heightened tensions.\n- This reflects the broader **Indian Ocean Competition** between India and China.\n\n### Regional Stability\n- A Maldives tilting toward China would be a strategic blow to India's **maritime domain awareness** in the western Indian Ocean.\n- India must balance aid diplomacy, infrastructure investment, and defence partnerships to retain Maldivian goodwill.\n\n**Conclusion:** Maldives is not merely a small island nation — it is a strategic pivot in India's Indian Ocean strategy. Sustaining a stable, friendly Maldives through aid, capacity building, and diplomatic engagement is indispensable.",
+      "key_points": [
+        "80% of India's oil imports pass through Indian Ocean SLOCs near Maldivian waters",
+        "SAGAR doctrine (Security and Growth for All in the Region) frames India's Indian Ocean policy",
+        "Uthuru Thila Falhu (UTF) naval base agreement (2021) is India's strategic anchor in Maldives",
+        "China's BRI investments and Muizzu's 'India Out' stance represent India's strategic challenge",
+        "Maldives EEZ of ~900,000 sq km has significant resource and surveillance value"
+      ],
+      "keywords": ["SAGAR doctrine", "Neighbourhood First Policy", "Sea Lines of Communication", "Uthuru Thila Falhu", "Belt and Road Initiative", "Indian Ocean", "maritime security", "Maldives EEZ"],
+      "sources": ["Ministry of External Affairs – India-Maldives Relations", "India's Maritime Security Strategy 2015", "SAGAR Vision – PM Modi speech 2015"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2023-01",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2023,
+    "marks": 10,
+    "words": 150,
+    "question": "'Constitutionally guaranteed judicial independence is a prerequisite of democracy.' Comment.",
+    "topic": "Indian Polity",
+    "subtopic": "Judiciary",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Judicial Independence as a Democratic Prerequisite\n\nJudicial independence means that judges decide cases based on law and facts, free from external pressure by the executive, legislature, or private interests. It is fundamental to democracy for several reasons:\n\n**Constitutional Safeguards in India**\n- **Security of tenure:** Judges of the Supreme Court serve till age 65, High Courts till 62 (Articles 124 & 217); removal only through impeachment under Article 124(4).\n- **Fixed service conditions:** Salaries charged to Consolidated Fund of India — not subject to legislative vote (Article 112).\n- **Prohibition on practice after retirement:** Supreme Court judges cannot practice in any court after retirement (Article 124(7)).\n- **Collegium system:** Judicial appointments through collegium (evolved through Three Judges Cases — 1981, 1993, 1998) insulates judiciary from executive patronage.\n\n**Why It Is Indispensable**\n- Democracy requires that individual rights be protected against arbitrary state action — only an independent judiciary can perform this role.\n- Rule of law — a basic structure element (Kesavananda Bharati, 1973) — depends on courts that can strike down unconstitutional executive or legislative acts.\n- The NJAC case (2015) upheld collegium, reaffirming judicial primacy in appointments.\n\n**Challenges:** Collegium opacity, executive delays in appointments, and post-retirement executive appointments (tribunals, commissions) pose threats to true independence.\n\n**Conclusion:** Judicial independence is not a privilege of judges — it is a guarantee for citizens in a constitutional democracy.",
+      "key_points": [
+        "Security of tenure under Articles 124 and 217; removal only through impeachment",
+        "Salaries charged to Consolidated Fund — insulates judiciary from legislative pressure",
+        "Collegium system evolved through Three Judges Cases (1981, 1993, 1998)",
+        "NJAC (99th Amendment) struck down in 2015 — reaffirmed judicial independence in appointments",
+        "Post-retirement appointments by executive remain a concern for independence"
+      ],
+      "keywords": ["judicial independence", "Article 124", "collegium system", "NJAC", "Three Judges Cases", "Kesavananda Bharati", "basic structure", "Consolidated Fund of India"],
+      "sources": ["Laxmikanth M.P. – Indian Polity", "Constitution of India Articles 124–147", "Supreme Court NJAC Judgment 2015"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2023-02",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2023,
+    "marks": 10,
+    "words": 150,
+    "question": "Who are entitled to receive free legal aid? Assess the role of the National Legal Services Authority (NALSA) in rendering free legal aid in India.",
+    "topic": "Governance",
+    "subtopic": "Social Justice & Access to Justice",
+    "difficulty": "easy",
+    "model_answer": {
+      "text": "## Free Legal Aid in India: NALSA's Role\n\n**Constitutional Basis:** Article 39A (DPSP) directs the State to ensure equal justice and free legal aid. The **Legal Services Authorities Act, 1987** established NALSA to operationalise this mandate.\n\n**Who Is Entitled (Section 12, Legal Services Authorities Act, 1987)**\n- Women and children\n- Members of Scheduled Castes and Scheduled Tribes\n- Persons with disabilities\n- Victims of trafficking or mass disaster\n- Industrial workmen\n- Persons in custody\n- Persons whose annual income is below ₹3 lakh (in Supreme Court) or as specified by State Legal Services Authorities\n\n**NALSA's Role and Achievements**\n- **Lok Adalats:** Over 5.53 crore cases settled through Lok Adalats (April 2022–February 2023).\n- **Tele-Law Scheme:** Available across 1 lakh Gram Panchayats in 755 districts; over 33.5 lakh beneficiaries advised by March 2023.\n- **Legal Aid Clinics:** Established in law schools and prisons.\n- **NALSA Schemes:** Special schemes for victims of acid attacks, disaster victims, and mentally ill persons.\n- **Budget:** ₹200 crore allocated in Union Budget 2023–24.\n\n**Limitations:** Lack of quality legal aid lawyers, poor awareness in rural areas, overburdened Lok Adalats, and digital divide limiting Tele-Law access.\n\n**Conclusion:** NALSA has significantly expanded access to justice, but bridging the awareness and quality gap remains critical.",
+      "key_points": [
+        "Article 39A DPSP mandates free legal aid; Legal Services Authorities Act 1987 operationalises it",
+        "Section 12 lists entitled categories: SC/ST, women, children, disabled, custody inmates, persons below income threshold",
+        "5.53 crore cases settled through Lok Adalats (April 2022 – February 2023)",
+        "Tele-Law scheme covers 1 lakh Gram Panchayats in 755 districts — 33.5 lakh beneficiaries",
+        "NALSA budget: ₹200 crore in 2023-24"
+      ],
+      "keywords": ["Article 39A", "NALSA", "Legal Services Authorities Act 1987", "Lok Adalat", "Tele-Law", "free legal aid", "Section 12"],
+      "sources": ["Legal Services Authorities Act 1987", "NALSA Annual Report", "PIB Press Release 2023", "Constitution of India Article 39A"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2023-03",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2023,
+    "marks": 15,
+    "words": 250,
+    "question": "Account for the legal and political factors responsible for the reduced frequency of using Article 356 by the Union Governments since mid-1990s.",
+    "topic": "Indian Polity",
+    "subtopic": "Federalism & Centre-State Relations",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Reduced Use of Article 356 After Mid-1990s\n\n### Background\nArticle 356 allows the President to impose President's Rule in a state on the Governor's report that constitutional governance has broken down. Between 1950 and March 1994, it was invoked over **100 times**, averaging 2.5 times per year — frequently for political reasons.\n\n### Legal Factors\n\n**1. S.R. Bommai v. Union of India (1994)** — the watershed judgment\n- A 9-judge Constitutional Bench ruled that the proclamation of President's Rule is **subject to judicial review** on grounds of malafide, irrelevance, or perversity.\n- The **floor of the Assembly** was declared the only legitimate test for a government's majority, overruling the Governor's subjective opinion.\n- State Assembly cannot be dissolved before Parliament approves the proclamation (prevents fait accompli).\n- Restored state assemblies could be reinstated by courts if proclamation was found malafide.\n\n**2. Sarkaria Commission Recommendations (1988)**\n- Recommended that Article 356 be used only as a last resort, after exhausting all other remedies.\n- Cautioned against using it for political purposes.\n\n**3. Punchhi Commission (2010)**\n- Recommended a 'Localized Emergency' provision — limiting imposition to specific areas rather than whole states.\n\n### Political Factors\n\n**1. Coalition Era Politics (post-1989)**\n- No single party enjoyed a parliamentary majority from 1989 to 2014, making arbitrary imposition of Article 356 politically costly — it could destabilise the coalition at the Centre.\n\n**2. Rise of Regional Parties**\n- Regional parties became kingmakers in coalition governments; alienating them by toppling state governments was politically untenable.\n\n**3. Increased Political Awareness**\n- Civil society, media scrutiny, and judicial vigilance raised the political cost of misuse.\n\n### Outcome\nBetween 1995 and 2021, President's Rule was imposed only **29 times** — just over once per year, a dramatic reduction.\n\n**Conclusion:** The Bommai judgment and coalition politics together effectively curbed the misuse of Article 356, strengthening Indian federalism.",
+      "key_points": [
+        "S.R. Bommai v. Union of India (1994): Presidential proclamation under Article 356 is judicially reviewable",
+        "Bommai ruling: floor test is the only legitimate majority test; Assembly cannot be dissolved before Parliament approves",
+        "Article 356 used 100+ times from 1950–1994; only 29 times from 1995–2021",
+        "Coalition era (post-1989) made arbitrary imposition politically costly",
+        "Sarkaria Commission (1988) recommended Article 356 as last resort only"
+      ],
+      "keywords": ["Article 356", "President's Rule", "S.R. Bommai case 1994", "judicial review", "Sarkaria Commission", "Punchhi Commission", "coalition politics", "federalism", "Governor's report"],
+      "sources": ["S.R. Bommai v. Union of India AIR 1994 SC 1918", "Sarkaria Commission Report 1988", "Punchhi Commission Report 2010", "Laxmikanth M.P. – Indian Polity"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2023-04",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2023,
+    "marks": 15,
+    "words": 250,
+    "question": "Explain the significance of the 101st Constitutional Amendment Act. To what extent does it reflect the accommodative spirit of federalism?",
+    "topic": "Indian Polity",
+    "subtopic": "Federalism & Centre-State Relations",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## 101st Constitutional Amendment Act, 2016: Significance and Federal Spirit\n\n### Overview\nThe 101st Constitutional Amendment Act (2016) introduced the **Goods and Services Tax (GST)** — India's most comprehensive indirect tax reform. GST came into effect on **1 July 2017**, subsuming over 17 Central and State taxes and 13 cesses.\n\n### Significance\n\n**1. Unified National Market**\n- Eliminated the cascading 'tax-on-tax' effect of the earlier fragmented system.\n- Created a single destination-based, multi-stage tax — \"One Nation, One Tax, One Market.\"\n\n**2. Constitutional Basis**\n- Amended Articles 246A, 269A, and 279A to grant concurrent taxing powers to the Centre and States.\n- Inserted Article 279A, establishing the **GST Council** as a constitutional body.\n\n**3. Revenue Efficiency**\n- Widened the tax base and brought more businesses into the formal economy.\n- GST collections crossed ₹2 lakh crore in a single month for the first time in April 2024.\n\n### Accommodative Federalism\n\n**Federal Spirit — How It Is Reflected**\n- **GST Council (Article 279A):** Composed of Union Finance Minister (Chair), Union Minister of State for Finance, and Finance Ministers of all states. Decisions by **three-fourths majority** — giving states a collective weight of two-thirds (Centre has one-third voting weight).\n- **Consensus Model:** Historically, most GST Council decisions have been reached by consensus, demonstrating cooperative federalism in practice. The Supreme Court in *Union of India v. Mohit Minerals (2022)* affirmed that GST Council recommendations are persuasive, not binding, reinforcing state autonomy.\n- **Revenue Compensation:** States were guaranteed compensation for revenue losses for five years (2017–2022), addressing states' fears of fiscal loss.\n- **Dual GST Structure:** Both Centre (CGST) and States (SGST) levy their own GST — preserving separate fiscal domains.\n\n**Limitations**\n- Centre's administrative and fiscal dominance can skew the 'cooperative' balance.\n- GST compensation arrears during COVID-19 (2020–21) led to sharp Centre-State friction.\n- IGST allocation disputes between states reflect unresolved federal tensions.\n\n**Conclusion:** The 101st Amendment reflects a genuine attempt at accommodation — creating an institutionalised platform for Centre-State fiscal cooperation. However, true federal equality requires addressing the Centre's inherent structural advantages in the GST Council.",
+      "key_points": [
+        "101st Amendment Act 2016 — GST implemented from 1 July 2017",
+        "Article 279A constitutionalised the GST Council — Centre has 1/3 vote weight, states have 2/3 collectively",
+        "Supreme Court in Mohit Minerals (2022) ruled GST Council recommendations are persuasive, not binding",
+        "Revenue compensation to states guaranteed for 5 years (2017–2022) — federal accommodation",
+        "GST collections exceeded ₹2 lakh crore in April 2024 — fiscal success"
+      ],
+      "keywords": ["101st Constitutional Amendment", "GST", "Article 279A", "GST Council", "cooperative federalism", "Mohit Minerals case 2022", "CGST", "SGST", "IGST", "destination-based tax"],
+      "sources": ["Constitution of India – Articles 246A, 269A, 279A", "GST Council official records", "Supreme Court – Union of India v. Mohit Minerals 2022", "Laxmikanth M.P. – Indian Polity"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2023-05",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2023,
+    "marks": 10,
+    "words": 150,
+    "question": "Indian diaspora has scaled new heights in the West. Describe its economic and political benefits for India.",
+    "topic": "International Relations",
+    "subtopic": "Indian Diaspora",
+    "difficulty": "easy",
+    "model_answer": {
+      "text": "## Indian Diaspora: Economic and Political Benefits\n\nIndia has the world's largest diaspora — approximately **35 million** people living abroad (World Migration Report 2022). Their rise to prominence in the West translates into substantial economic and political dividends for India.\n\n**Economic Benefits**\n- **Remittances:** India received **$125 billion** in 2023 — the highest globally (World Bank). Remittances from the USA, UK, and Singapore alone account for 36% of this inflow, supporting consumption, healthcare, and education in states like Kerala, Punjab, and Andhra Pradesh.\n- **Foreign Direct Investment:** Diaspora entrepreneurs and venture capitalists (especially Silicon Valley-based Indian-Americans) invest in India's technology, fintech, and startup ecosystem.\n- **Knowledge Transfer:** Returnee professionals contribute R&D, managerial expertise, and global networks.\n\n**Political Benefits**\n- **Soft Power:** Leaders like Rishi Sunak (UK PM) and Kamala Harris (US VP) exemplify India's civilisational depth and democratic values.\n- **Lobby Power:** Indian-American groups were pivotal in securing the India-US Civil Nuclear Deal (2008); diaspora organizations regularly lobby Western governments for trade deals and India-friendly policies.\n- **Cultural Diplomacy:** Yoga, Bollywood, and Indian cuisine promoted by the diaspora enhance India's global image.\n\n**Conclusion:** The diaspora acts as India's 'informal ambassadors' — generating economic capital through remittances and investment, while enhancing India's political clout and soft power internationally.",
+      "key_points": [
+        "India's diaspora: ~35 million globally — world's largest (World Migration Report 2022)",
+        "Remittances: $125 billion in 2023 — India is world's largest recipient (World Bank)",
+        "US, UK, Singapore account for 36% of India's total remittance inflow",
+        "India-US Civil Nuclear Deal (2008) — Indian diaspora lobby was instrumental",
+        "Rishi Sunak (UK) and Kamala Harris (US) represent diaspora's political ascent"
+      ],
+      "keywords": ["Indian diaspora", "remittances", "$125 billion 2023", "soft power", "India-US Nuclear Deal", "Rishi Sunak", "Kamala Harris", "Silicon Valley", "GOPIO", "Pravasi Bharatiya Diwas"],
+      "sources": ["World Bank Migration and Development Brief 2023", "Ministry of External Affairs – Indian Diaspora", "World Migration Report 2022"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2022-01",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2022,
+    "marks": 10,
+    "words": 150,
+    "question": "Comment on how the fundamental right to movement and residence is restricted despite being available to citizens.",
+    "topic": "Indian Polity",
+    "subtopic": "Fundamental Rights",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Restrictions on Fundamental Rights to Movement and Residence\n\n**Constitutional Provision**\nArticle 19(1)(d) guarantees the right to **move freely throughout the territory of India**, and Article 19(1)(e) guarantees the right to **reside and settle in any part of India** — both available only to citizens.\n\n**Reasonable Restrictions (Article 19(5))**\nThe State can impose reasonable restrictions in the interests of:\n- **General public** (public order, health, morality)\n- **Interests of any Scheduled Tribe** — to protect indigenous communities from migration-driven disruption (e.g., Inner Line Permit system in Arunachal Pradesh, Manipur, Mizoram, Nagaland)\n\n**Practical Restrictions**\n- **Inner Line Permit (ILP):** Non-residents require an ILP to enter protected states, restricting free movement.\n- **Protected Area Permit (PAP):** Applies to border areas and union territories like the Andaman & Nicobar Islands.\n- **Domicile-based Reservations:** Several states restrict government jobs or educational admissions to domicile holders — indirectly restricting effective settlement.\n- **COVID-19 Restrictions (2020–21):** State lockdowns and inter-state travel bans curtailed movement under the Disaster Management Act, 2005 — upheld by courts as reasonable.\n- **Preventive Detention Laws:** UAPA, NSA allow detention that effectively curtails movement.\n\n**Judicial Stance:** The Supreme Court in *Maneka Gandhi v. Union of India (1978)* held that Article 19(1)(d) and (e) must be read with Articles 14 and 21 — restrictions must be just, fair, and reasonable.\n\n**Conclusion:** While movement and residence are guaranteed rights, the state's power to impose restrictions remains broad — requiring constant judicial vigilance.",
+      "key_points": [
+        "Article 19(1)(d): free movement; Article 19(1)(e): right to reside — both citizen-only rights",
+        "Article 19(5): restrictions in interests of general public or Scheduled Tribes are valid",
+        "Inner Line Permit (ILP) in Arunachal Pradesh, Manipur, Mizoram, Nagaland restricts outsider entry",
+        "Maneka Gandhi v. Union of India (1978): restrictions must satisfy Articles 14, 19, and 21 test",
+        "COVID-19 lockdowns were upheld as valid restrictions on movement under Disaster Management Act 2005"
+      ],
+      "keywords": ["Article 19(1)(d)", "Article 19(1)(e)", "Inner Line Permit", "Article 19(5)", "Maneka Gandhi case 1978", "Protected Area Permit", "domicile reservation", "reasonable restrictions"],
+      "sources": ["Constitution of India Articles 19, 14, 21", "Maneka Gandhi v. Union of India AIR 1978 SC 597", "Laxmikanth M.P. – Indian Polity"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2022-02",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2022,
+    "marks": 15,
+    "words": 250,
+    "question": "Discuss the essential conditions for exercise of the legislative powers by the Governor and the legality of re-promulgation of ordinances by the Governor without placing them before the Legislature.",
+    "topic": "Indian Polity",
+    "subtopic": "State Executive & Governor",
+    "difficulty": "hard",
+    "model_answer": {
+      "text": "## Governor's Ordinance-Making Power: Conditions and Re-Promulgation\n\n### Constitutional Basis\nArticle 213 of the Constitution empowers the Governor to promulgate ordinances when the State Legislature is not in session, provided the following conditions are met:\n\n### Essential Conditions\n1. **Legislature not in session:** At least one House must not be in session.\n2. **Governor's satisfaction:** The Governor must be satisfied that circumstances exist requiring immediate action. This satisfaction is subjective but reviewable.\n3. **Presidential assent required:** If the ordinance contains provisions that would require Presidential assent if enacted as a Bill (e.g., matters that can only be enacted with central consent), Presidential assent is mandatory.\n4. **Subject matter restriction:** The Governor cannot promulgate ordinances on subjects beyond the State Legislature's legislative competence.\n5. **Fundamental Rights:** Ordinances cannot violate Fundamental Rights (Part III) or the basic structure of the Constitution.\n\n### Duration and Approval\n- An ordinance has the **same force as an Act** but ceases to operate six weeks after the reassembly of the Legislature, or earlier if disapproved by the Legislature.\n- If the Legislature is dissolved, it operates until 6 weeks after the next Legislature assembles.\n\n### Re-Promulgation: Legality\nRe-promulgation — issuing a fresh ordinance on the same subject before the Legislature can deliberate on the earlier one — was examined in:\n\n**D.C. Wadhwa v. State of Bihar (1987):** The Supreme Court held that **re-promulgation of ordinances is a fraud on the Constitution** if used to bypass legislative scrutiny. Ordinances are not meant to be a parallel legislative channel. The Court ruled that systematic re-promulgation is unconstitutional.\n\n**Krishna Kumar Singh v. State of Bihar (2017):** A 7-judge bench reaffirmed that:\n- Ordinances are temporary measures; failure to place before the Legislature is subject to judicial review.\n- Re-promulgation defeats the deliberative democratic process.\n- The doctrine of **colourable legislation** applies — the Governor cannot do indirectly what is constitutionally prohibited directly.\n\n### Conclusion\nWhile the Governor's ordinance power is a necessary emergency legislative tool, re-promulgation without legislative ratification undermines parliamentary supremacy and cooperative governance. Judicial checks have significantly curtailed its misuse.",
+      "key_points": [
+        "Article 213 empowers Governor to issue ordinances when Legislature is not in session",
+        "Ordinance ceases 6 weeks after Legislature reassembles unless approved",
+        "D.C. Wadhwa v. State of Bihar (1987): re-promulgation is a 'fraud on the Constitution'",
+        "Krishna Kumar Singh v. State of Bihar (2017): 7-judge bench reaffirmed ordinance cannot replace legislature",
+        "Presidential assent required if ordinance deals with matters requiring President's prior sanction"
+      ],
+      "keywords": ["Article 213", "Governor's ordinance power", "re-promulgation", "D.C. Wadhwa case 1987", "Krishna Kumar Singh case 2017", "colourable legislation", "fraud on Constitution", "State Legislature"],
+      "sources": ["Constitution of India Article 213", "D.C. Wadhwa v. State of Bihar AIR 1987 SC 579", "Krishna Kumar Singh v. State of Bihar 2017 SC", "Laxmikanth M.P. – Indian Polity"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2022-03",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2022,
+    "marks": 10,
+    "words": 150,
+    "question": "Discuss the role of the National Commission for Backward Classes in the wake of its transformation from a statutory body to a constitutional body.",
+    "topic": "Indian Polity",
+    "subtopic": "Constitutional Bodies",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## National Commission for Backward Classes (NCBC): Constitutional Elevation\n\n**Background**\nThe NCBC was originally established as a **statutory body** under the National Commission for Backward Classes Act, 1993, following the Supreme Court's directions in *Indra Sawhney v. Union of India (1992)* (Mandal Commission case). Its mandate was to examine inclusion/exclusion requests for the Central OBC list.\n\n**Constitutional Elevation: 102nd Constitutional Amendment Act, 2018**\n- Inserted **Article 338B** — constitutionalised the NCBC.\n- Gave NCBC the same status as the National Commission for Scheduled Castes (NCSC) and Scheduled Tribes (NCST).\n- Empowers NCBC to investigate complaints of rights deprivation and matters of OBC welfare.\n\n**Enhanced Role After Constitutional Status**\n1. **Quasi-judicial powers:** Can summon witnesses, examine documents, receive affidavits — akin to a civil court.\n2. **Investigation mandate:** Can probe violations of OBC safeguards in government employment and education.\n3. **Advisory role:** Must be consulted on all major policy decisions affecting OBCs (made mandatory under Article 338B(9)).\n4. **Annual report:** Submits reports to the President, which are laid before Parliament.\n5. **State list authority:** After the 105th Constitutional Amendment Act (2021), states have restored authority to maintain their own OBC lists — NCBC's role is focused on the Central OBC list.\n\n**Significance:** Elevating NCBC to constitutional status strengthens accountability, provides statutory independence from political interference, and institutionalises OBC welfare oversight.\n\n**Conclusion:** The constitutional status of NCBC marks a significant step in ensuring that OBC rights receive the same constitutional attention as SC/ST rights.",
+      "key_points": [
+        "NCBC made constitutional by 102nd Constitutional Amendment Act 2018 — Article 338B inserted",
+        "Earlier a statutory body under National Commission for Backward Classes Act 1993",
+        "Indra Sawhney v. Union of India (1992) led to NCBC's original creation",
+        "Article 338B(9): mandatory consultation with NCBC on OBC-related policy decisions",
+        "105th Amendment Act (2021) restored states' authority to prepare their own OBC lists"
+      ],
+      "keywords": ["NCBC", "Article 338B", "102nd Constitutional Amendment 2018", "105th Constitutional Amendment 2021", "Indra Sawhney case 1992", "OBC", "Other Backward Classes", "constitutional body", "quasi-judicial powers"],
+      "sources": ["Constitution of India Article 338B", "102nd Constitutional Amendment Act 2018", "Indra Sawhney v. Union of India 1992", "Laxmikanth M.P. – Indian Polity"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2022-04",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2022,
+    "marks": 15,
+    "words": 250,
+    "question": "Compare BIMSTEC and SAARC: examine their similarities, differences, and the relevance of BIMSTEC for India's foreign policy objectives.",
+    "topic": "International Relations",
+    "subtopic": "Regional Bodies & India's Foreign Policy",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## BIMSTEC vs SAARC: A Comparative Analysis\n\n### Background\n- **SAARC** (South Asian Association for Regional Cooperation): Established 1985, Dhaka Charter; 8 members (India, Pakistan, Bangladesh, Sri Lanka, Nepal, Bhutan, Maldives, Afghanistan).\n- **BIMSTEC** (Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation): Established 1997; 7 members (India, Bangladesh, Myanmar, Sri Lanka, Thailand, Nepal, Bhutan). Headquarters: Dhaka.\n\n### Similarities\n- Both are sub-regional groupings aimed at economic cooperation.\n- Both include India, Bangladesh, Sri Lanka, Nepal, and Bhutan.\n- Both pursue trade facilitation, connectivity, energy cooperation, and cultural exchange.\n- Both function on consensus-based decision-making.\n\n### Key Differences\n| Parameter | SAARC | BIMSTEC |\n|-----------|-------|--------|\n| Members | 8 (includes Pakistan, Afghanistan) | 7 (includes Myanmar, Thailand — no Pakistan) |\n| Founding | 1985 | 1997 |\n| Geographical Focus | South Asia | Bay of Bengal littoral |\n| Functionality | Near-paralysed due to India-Pakistan tensions | More active; growing cooperation |\n| Free Trade | SAFTA (limited progress) | BIMSTEC FTA (under negotiation) |\n| Headquarters | Kathmandu | Dhaka |\n\n### BIMSTEC's Relevance for India\n1. **Bypass Pakistan:** BIMSTEC allows India to deepen South and Southeast Asian integration without Pakistan blocking progress.\n2. **Act East Policy:** Includes Myanmar and Thailand — key nodes in India's connectivity with ASEAN.\n3. **Bay of Bengal:** India's 'SAGAR' vision for the Indian Ocean aligns with BIMSTEC's geographic focus.\n4. **Counter-Terrorism & Security:** BIMSTEC has a Security sub-group, useful for India's anti-terrorism cooperation with Bay of Bengal neighbours.\n5. **Energy Connectivity:** Joint power grid interconnection projects (India–Bangladesh–Nepal–Bhutan).\n\n**Conclusion:** BIMSTEC has emerged as India's preferred regional platform, complementing its Neighbourhood First policy and Act East Policy by circumventing SAARC's Pakistan-induced deadlock.",
+      "key_points": [
+        "SAARC founded 1985 in Dhaka; BIMSTEC founded 1997; both headquartered in Dhaka",
+        "BIMSTEC excludes Pakistan — allows India to pursue regional cooperation without bilateral baggage",
+        "BIMSTEC aligns with India's Act East Policy — includes Myanmar and Thailand",
+        "SAARC stalled due to India-Pakistan tensions; BIMSTEC more functional",
+        "SAGAR vision and Bay of Bengal geopolitics elevate BIMSTEC's strategic importance for India"
+      ],
+      "keywords": ["BIMSTEC", "SAARC", "Bay of Bengal", "Act East Policy", "SAGAR vision", "SAFTA", "Neighbourhood First Policy", "connectivity", "Pakistan", "Myanmar"],
+      "sources": ["Ministry of External Affairs – BIMSTEC", "BIMSTEC Charter 2022", "SAARC Charter 1985", "MEA Annual Report 2022-23"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2021-01",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2021,
+    "marks": 10,
+    "words": 150,
+    "question": "'Constitutional Morality' is rooted in the Constitution itself and is founded on its essential facets. Explain the doctrine of 'Constitutional Morality' with the help of relevant judicial decisions.",
+    "topic": "Indian Polity",
+    "subtopic": "Constitution & Constitutional Law",
+    "difficulty": "hard",
+    "model_answer": {
+      "text": "## Doctrine of Constitutional Morality\n\n**Origin of the Concept**\nThe term 'Constitutional Morality' was first used by Dr. B.R. Ambedkar in the Constituent Assembly debates (1948). He borrowed it from George Grote's *History of Greece* and applied it to mean adherence to the **constitutional form and processes**, even when they may be contrary to popular morality.\n\n**Meaning**\nConstitutional Morality implies:\n- Fidelity to the letter and spirit of the Constitution.\n- Respect for constitutional institutions, rule of law, and separation of powers.\n- Supremacy of constitutional values over social or religious popular morality.\n\n**Key Judicial Pronouncements**\n\n**1. Navtej Singh Johar v. Union of India (2018):** The Supreme Court read down Section 377 of IPC (criminalising consensual same-sex relations) and held that **constitutional morality must prevail over social morality**. The rights of minorities cannot be subjugated to the majoritarian view.\n\n**2. Indian Young Lawyers Association v. State of Kerala (2018) (Sabarimala Case):** The Court held that exclusion of women from the temple violated constitutional morality. Religion cannot override constitutional rights.\n\n**3. Puttaswamy v. Union of India (2017):** Affirmed privacy as a Fundamental Right — grounding it in constitutional morality rather than popular sentiment.\n\n**Significance**\n- Acts as a counter-weight to majoritarian or populist impulses.\n- Ensures constitutional institutions are not subverted even by democratically elected majorities.\n- Links the living constitutionalism of India's constitution to evolving human rights norms.\n\n**Conclusion:** Constitutional morality is the backbone of India's transformative constitutional project — placing rule of law above popular will whenever the two conflict.",
+      "key_points": [
+        "Coined by B.R. Ambedkar in Constituent Assembly debates (1948) — derived from George Grote",
+        "Navtej Singh Johar (2018): constitutional morality overrides social morality — Section 377 read down",
+        "Sabarimala case (2018): religious exclusion of women violates constitutional morality",
+        "Puttaswamy (2017): right to privacy as a Fundamental Right grounded in constitutional morality",
+        "Constitutional morality = adherence to constitutional form, processes, and values"
+      ],
+      "keywords": ["Constitutional Morality", "Navtej Singh Johar 2018", "Sabarimala case 2018", "Puttaswamy 2017", "Ambedkar", "Constituent Assembly", "social morality", "Section 377", "transformative constitutionalism"],
+      "sources": ["Navtej Singh Johar v. Union of India 2018 SC", "Indian Young Lawyers Association v. State of Kerala 2018 SC", "Justice K.S. Puttaswamy v. Union of India 2017 SC", "Constituent Assembly Debates Volume VII"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2021-02",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2021,
+    "marks": 15,
+    "words": 250,
+    "question": "Do Department-related Parliamentary Standing Committees keep the administration on its toes and inspire reverence for parliamentary control? Evaluate the working of such committees with suitable examples.",
+    "topic": "Indian Polity",
+    "subtopic": "Parliament & Parliamentary Committees",
+    "difficulty": "hard",
+    "model_answer": {
+      "text": "## Department-Related Parliamentary Standing Committees (DRSCs): Effectiveness\n\n### Background\nDepartment-Related Parliamentary Standing Committees (DRSCs) were established in 1993 to provide detailed, expert scrutiny of ministry-wise legislation and budgets. There are currently **24 DRSCs** covering all major ministries, with members drawn from both Lok Sabha and Rajya Sabha.\n\n### Role in Administrative Oversight\n\n**1. Budget Scrutiny**\nDRSCs examine Demands for Grants of respective ministries and submit detailed reports, allowing Parliament to take informed votes rather than rubber-stamping budgets. The Standing Committee on Finance has examined complex legislation like the FRBM Act amendments and budget proposals.\n\n**2. Legislative Scrutiny**\nBills referred to DRSCs receive clause-by-clause examination. Example: The **Personal Data Protection Bill** underwent extensive DRSC scrutiny (Joint Parliamentary Committee, 2021) over 78 sittings, leading to significant revisions.\n\n**3. Departmental Accountability**\nDRSCs summon senior officials (Secretaries, DG-level) to explain policy implementation and expenditure. This forces bureaucratic preparedness and accountability.\n\n### Successes\n- DRSC on Finance's scrutiny of amendments to the RBI Act informed tighter oversight of monetary policy committee.\n- DRSC on External Affairs examined India's foreign policy responses — increasing parliamentary awareness.\n- Committees have produced hundreds of reports that shaped policy in defence procurement, agriculture subsidies, and health.\n\n### Limitations\n- **Non-binding recommendations:** Government is not obliged to accept committee recommendations; compliance rates are uneven.\n- **Whittled referral:** Governments sometimes bypass DRSCs by introducing bills under certification of 'Money Bill' or pushing through without referral (e.g., Farm Bills 2020 passed without DRSC referral).\n- **Low attendance:** Several members attend irregularly; committees lack technical research support.\n- **No real-time scrutiny:** Committees cannot monitor day-to-day administration or executive action in real time.\n- **Limited public hearings:** Unlike UK Parliamentary Committees, Indian DRSCs rarely conduct public hearings with civil society.\n\n### Conclusion\nDRSCs are an indispensable tool of parliamentary oversight but operate sub-optimally. Mandatory referral of all Bills, binding compliance timelines for government on committee recommendations, and professional secretariat support would significantly enhance their effectiveness.",
+      "key_points": [
+        "24 DRSCs established since 1993 — cover all major ministries; members from both Houses",
+        "Personal Data Protection Bill: Joint Committee held 78 sittings — exemplary scrutiny",
+        "Farm Bills 2020 passed without DRSC referral — highlighting executive bypass of committee oversight",
+        "Government recommendations are non-binding — key structural limitation",
+        "UK Parliamentary Committees compared favourably — conduct public hearings, more transparent"
+      ],
+      "keywords": ["DRSCs", "Department-Related Standing Committees", "parliamentary oversight", "Farm Bills 2020", "Personal Data Protection Bill", "Lok Sabha", "Rajya Sabha", "Demands for Grants", "parliamentary accountability"],
+      "sources": ["Laxmikanth M.P. – Indian Polity", "Lok Sabha Secretariat – Committee Reports", "PRS Legislative Research – Committee Analysis Reports"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2021-03",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2021,
+    "marks": 15,
+    "words": 250,
+    "question": "Critically examine the role of SCO (Shanghai Cooperation Organisation) in the context of changing global order and its significance for India.",
+    "topic": "International Relations",
+    "subtopic": "International Bodies & Multilateralism",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Shanghai Cooperation Organisation (SCO): Role and India's Perspective\n\n### Overview of SCO\nThe SCO was founded in 2001 (Shanghai Charter) by China, Russia, Kazakhstan, Kyrgyzstan, Tajikistan, and Uzbekistan. India and Pakistan became full members in **2017**. Iran joined in 2023. The SCO now represents nearly **40% of global GDP** and **40% of world population**.\n\n**Headquarters:** Beijing | **Official languages:** Russian, Chinese\n\n### Objectives\n- Combating terrorism, separatism, and extremism ('three evils')\n- Promoting economic cooperation\n- Enhancing regional security in Central Asia\n- Developing a new international political order based on multipolarity\n\n### SCO in the Changing Global Order\n1. **Counter-western Balance:** SCO is increasingly viewed as a Eurasian bloc challenging the US-led Western order. Russia-China partnership within SCO intensified post-2022 Ukraine conflict.\n2. **Multipolar Vision:** SCO's 2023 New Delhi Declaration emphasised UN Charter principles, sovereign equality, and non-interference — against unilateral Western sanctions.\n3. **Expansion:** SCO's inclusion of Iran (2023) and observer status to Belarus reflect its growing geopolitical weight.\n\n### SCO's Significance for India\n**Positive Aspects:**\n- **Central Asia connectivity:** Access to Central Asian Republics (CARs) — critical for energy resources, trade, and the International North–South Transport Corridor (INSTC).\n- **Counter-terrorism:** RATS (Regional Anti-Terrorist Structure) — useful for India's counterterrorism goals, especially in Afghanistan-linked networks.\n- **Diplomatic platform:** Bilateral sideline meetings with China and Russia at SCO summits have strategic value.\n- **Afghanistan stability:** SCO's 2021 discussions on Afghanistan post-US withdrawal were crucial for India's security.\n\n**Challenges for India:**\n- India-Pakistan tensions within SCO complicate consensus decisions.\n- China-Pakistan nexus shapes SCO's Central Asian strategy against India's interests (CPEC linkage).\n- China's dominance in SCO infrastructure and financial institutions limits India's influence.\n- India boycotted the SCO-RATS meeting hosted in Pakistan (2023) — reflecting trust deficit.\n\n**Conclusion:** SCO offers India a platform for Central Asian engagement and multipolarity, but the China-Pakistan structural alignment within the bloc limits India's ability to shape the organisation's agenda.",
+      "key_points": [
+        "SCO founded 2001; India and Pakistan became full members in 2017; Iran joined 2023",
+        "SCO covers ~40% of global GDP and 40% of world population",
+        "RATS (Regional Anti-Terrorist Structure) is SCO's counter-terrorism mechanism",
+        "INSTC (International North-South Transport Corridor) — key India–SCO connectivity goal",
+        "India boycotted SCO-RATS meeting hosted in Pakistan 2023 — signals bilateral tensions within SCO"
+      ],
+      "keywords": ["SCO", "Shanghai Cooperation Organisation", "RATS", "Central Asia", "INSTC", "multipolarity", "China-Pakistan", "three evils", "Iran SCO 2023", "SCO New Delhi Declaration 2023"],
+      "sources": ["Ministry of External Affairs – SCO", "SCO Charter 2001", "SCO New Delhi Declaration June 2023", "MEA Annual Report 2022-23"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2020-01",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2020,
+    "marks": 15,
+    "words": 250,
+    "question": "How far do you think cooperation, competition and confrontation have shaped the nature of federation in India? Cite some recent examples to validate your answer.",
+    "topic": "Indian Polity",
+    "subtopic": "Federalism & Centre-State Relations",
+    "difficulty": "hard",
+    "model_answer": {
+      "text": "## Cooperation, Competition, and Confrontation in Indian Federalism\n\nIndian federalism, while nominally federal, has been described as **'quasi-federal' with a unitary bias** (K.C. Wheare). However, Centre-State dynamics are not static — they oscillate between cooperation, competition, and confrontation.\n\n### Cooperation\n- **GST Council (Article 279A):** A cooperative federal institution where Centre and states jointly decide tax rates — consensus-driven decision-making. This exemplifies **cooperative federalism**.\n- **NITI Aayog:** Governing Council includes all Chief Ministers — cooperative planning with states.\n- **Finance Commission:** Regular consultative mechanism for fiscal transfers.\n- **COVID-19 Management (2020):** Centre-State cooperation on vaccine procurement and distribution, joint monitoring dashboards, and coordinated lockdowns under the Epidemic Diseases Act and DM Act, 2005.\n\n### Competition\n- **'Competitive Federalism'** — States compete for investment through ease of doing business rankings, industrial policies, and skill development.\n- NITI Aayog's 'SDG India Index' and 'Health Index' rank states, creating positive competition.\n- States like Gujarat, Tamil Nadu, and Karnataka compete aggressively for foreign investment.\n- Agricultural market reforms: States have introduced their own model APMC reforms, competing for agri-investment.\n\n### Confrontation\n- **Farm Laws 2020:** Several states (Punjab, Rajasthan, Chhattisgarh) passed their own Bills to nullify the Centre's Farm Laws — direct legislative confrontation.\n- **CBI Jurisdiction:** West Bengal, Maharashtra, Rajasthan withdrew general consent to CBI — a formal act of Centre-State confrontation.\n- **Governor's Partisan Role:** Kerala, Tamil Nadu, and West Bengal faced acute confrontation between Governor and elected state governments over bill assent and university appointments.\n- **GST Compensation Arrears (2020–21):** States accused Centre of withholding legally owed compensation — financial confrontation.\n\n**Conclusion:** Indian federalism is dynamic and context-driven. Cooperation is strongest during shared crises; competition drives development; confrontation intensifies when party-political interests diverge across levels of government. A robust Inter-State Council (Article 263) is needed to manage these tensions institutionally.",
+      "key_points": [
+        "GST Council (Article 279A) exemplifies cooperative federalism — joint tax decision-making",
+        "Farm Laws 2020: Punjab, Rajasthan, Chhattisgarh passed state bills to nullify Centre's laws",
+        "West Bengal, Maharashtra withdrew CBI general consent — classic confrontation",
+        "NITI Aayog's SDG India Index and Health Index create 'competitive federalism'",
+        "Article 263 Inter-State Council must be used more actively to manage confrontation"
+      ],
+      "keywords": ["cooperative federalism", "competitive federalism", "GST Council Article 279A", "Farm Laws 2020", "CBI general consent", "Governor", "NITI Aayog", "Article 263 Inter-State Council", "Finance Commission", "quasi-federal"],
+      "sources": ["Laxmikanth M.P. – Indian Polity", "Constitution of India Articles 245–263, 279A", "Sarkaria Commission Report 1988", "Punchhi Commission Report 2010"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2020-02",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2020,
+    "marks": 10,
+    "words": 150,
+    "question": "Critically examine the role of WHO in providing global health security during the COVID-19 pandemic.",
+    "topic": "International Relations",
+    "subtopic": "International Bodies & Global Governance",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## WHO and Global Health Security: COVID-19 Assessment\n\nThe **World Health Organization (WHO)**, established in 1948 and headquartered in Geneva, is the UN's primary agency for global health. The COVID-19 pandemic (2019–2023) both tested and exposed the limitations of WHO's global health security architecture.\n\n**Role Played by WHO**\n- Declared COVID-19 a **Public Health Emergency of International Concern (PHEIC)** on 30 January 2020 and a **pandemic** on 11 March 2020.\n- Coordinated **COVAX** (COVID-19 Vaccines Global Access) — aimed to deliver 2 billion doses to low-and-middle-income countries by end of 2021.\n- Provided real-time technical guidance, treatment protocols, and genome sequencing coordination.\n- Led global surveillance through the **Global Outbreak Alert and Response Network (GOARN)**.\n\n**Criticisms**\n- **Delay in declaring pandemic:** WHO was criticised for a slow response — influenced by Chinese political pressure not to declare emergency status earlier.\n- **Taiwan's exclusion:** Taiwan's early outbreak data was ignored due to its exclusion from WHO membership (China's objection), hampering early warning.\n- **Funding dependence:** Heavy reliance on voluntary contributions from the USA (which withdrew in 2020) and private donors (Gates Foundation) limits independence.\n- **IHR (International Health Regulations) non-compliance:** Countries violated WHO reporting timelines without meaningful consequences — WHO lacks enforcement powers.\n- **Vaccine inequity:** COVAX failed to meet its targets; rich countries hoarded vaccines while LMICs faced shortfalls.\n\n**Reforms Needed**\n- Strengthen Independent Pandemic Preparedness Monitoring Board (IPPMB)\n- Amend IHR to give WHO more autonomous investigation rights\n- Ensure sustainable core funding through assessed contributions\n\n**Conclusion:** WHO played an indispensable coordination role but structural limitations — political pressure, funding gaps, and lack of enforcement — severely constrained its effectiveness during COVID-19.",
+      "key_points": [
+        "WHO declared PHEIC on 30 January 2020; pandemic declaration on 11 March 2020",
+        "COVAX — WHO-led mechanism for equitable vaccine distribution to LMICs",
+        "Criticised for delayed pandemic declaration due to political considerations regarding China",
+        "WHO lacks enforcement powers under International Health Regulations (IHR)",
+        "Taiwan's exclusion from WHO due to China's objection hampered early warning"
+      ],
+      "keywords": ["WHO", "COVID-19", "PHEIC", "pandemic", "COVAX", "GOARN", "International Health Regulations", "IHR", "IPPMB", "global health security", "Taiwan WHO exclusion"],
+      "sources": ["WHO COVID-19 Timeline", "IHR International Health Regulations 2005", "Independent Panel for Pandemic Preparedness and Response (IPPR) Report 2021"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2019-01",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2019,
+    "marks": 15,
+    "words": 250,
+    "question": "'Parliament's power to amend the Constitution is a limited power and it cannot be enlarged into absolute power.' In the light of this statement explain whether Parliament under Article 368 can destroy the Basic Structure of the Constitution by expanding its amending power.",
+    "topic": "Indian Polity",
+    "subtopic": "Constitutional Amendments",
+    "difficulty": "hard",
+    "model_answer": {
+      "text": "## Parliament's Amending Power Under Article 368 and the Basic Structure Doctrine\n\n### Article 368: Scope and Procedure\nArticle 368 vests in Parliament the constituent power to **amend the Constitution**. The procedure requires: special majority in both Houses (two-thirds of members present and voting + absolute majority of total membership), and ratification by at least half the states for certain amendments (federal provisions).\n\n### Evolution of the Doctrine\n\n**Shankari Prasad v. Union of India (1951):** The Supreme Court held that Parliament can amend Fundamental Rights under Article 368 — 'law' in Article 13 does not include constitutional amendments.\n\n**Golak Nath v. State of Punjab (1967):** A 11-judge bench reversed course — held that Fundamental Rights cannot be amended under Article 368 as they are transcendental.\n\n**24th Constitutional Amendment (1971):** Parliament responded by explicitly amending Article 368 to assert absolute amending power, and amended Article 13 to exclude constitutional amendments from its purview.\n\n**Kesavananda Bharati v. State of Kerala (1973) — The Watershed**\nA 13-judge bench, in a **7:6 verdict**, settled the question:\n- Parliament **can** amend any part of the Constitution, including Fundamental Rights.\n- BUT Parliament **cannot** destroy, damage, or emasculate the **basic structure** of the Constitution.\n- The amending power in Article 368 is limited — it does not include the power to abrogate the Constitution's identity.\n\n**Elements of Basic Structure (indicative, not exhaustive):**\n- Supremacy of the Constitution\n- Republican and democratic form of government\n- Secular character\n- Separation of powers\n- Judicial review\n- Free and fair elections\n- Rule of law\n- Federal character\n\n**Minerva Mills v. Union of India (1980):** The Court struck down Section 55 of the 42nd Amendment (which made Parliament's amending power unlimited) — reaffirming that **Article 368 does not confer an absolute power**. The harmony between Fundamental Rights and Directive Principles is itself part of the basic structure.\n\n**Waman Rao v. Union of India (1981):** Post-Kesavananda constitutional amendments are subject to basic structure review.\n\n### Conclusion\nParliament's amending power under Article 368 is wide but not unlimited. The basic structure doctrine — judicially evolved — ensures that constitutional amendments cannot be weaponised to subvert the foundational character of the Constitution. This represents a mature equilibrium between parliamentary sovereignty and constitutional supremacy.",
+      "key_points": [
+        "Kesavananda Bharati v. State of Kerala (1973): 7:6 verdict — Parliament cannot destroy basic structure",
+        "Basic structure includes supremacy of Constitution, judicial review, federalism, democratic republic, secularism",
+        "Minerva Mills (1980): 42nd Amendment's clause granting Parliament unlimited amending power struck down",
+        "24th Amendment (1971): Parliament explicitly asserted Article 368 power over Fundamental Rights — partially upheld in Kesavananda",
+        "Golak Nath (1967) held FRs unamendable — overruled by Kesavananda"
+      ],
+      "keywords": ["Article 368", "Basic Structure Doctrine", "Kesavananda Bharati 1973", "Minerva Mills 1980", "Golak Nath 1967", "24th Amendment", "42nd Amendment", "Fundamental Rights", "judicial review", "constituent power"],
+      "sources": ["Kesavananda Bharati v. State of Kerala AIR 1973 SC 1461", "Minerva Mills v. Union of India AIR 1980 SC 1789", "Constitution of India Article 368", "Laxmikanth M.P. – Indian Polity"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2019-02",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2019,
+    "marks": 15,
+    "words": 250,
+    "question": "Individual Parliamentarian's role as the national lawmaker is on a decline, which in turn, has adversely impacted the quality of debates and their outcome. Discuss.",
+    "topic": "Indian Polity",
+    "subtopic": "Parliament & Parliamentary Functioning",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Declining Role of Individual Parliamentarians as Lawmakers\n\n### The Problem\nIndia's Parliament is constitutionally the supreme legislative body (Article 79), but the role of individual members as autonomous lawmakers is systematically declining. This has weakened deliberative democracy.\n\n### Factors Behind the Decline\n\n**1. Anti-Defection Law (10th Schedule, 1985)**\n- Members must vote in accordance with party directions or face disqualification.\n- This converts MPs into party automatons, stripping them of individual legislative conscience.\n- The Dinesh Goswami Committee (1990) and Law Commission (170th Report, 1999) recommended limiting anti-defection to confidence votes and money bills — but reforms are still pending.\n\n**2. Decline in Sitting Days**\n- Parliament sat for **~100 days** annually in the 1950s–70s; now averages **55–60 days** per year.\n- The 17th Lok Sabha (2019–2024) averaged about 57 sitting days per year — significantly below constitutional expectations.\n- Less time means bills are passed without adequate debate.\n\n**3. Ordinances and Bypassing Parliament**\n- Repeated use of ordinances (Article 123) undermines Parliament's primary lawmaking role.\n- Between 2014 and 2020, the government issued several back-to-back ordinances (e.g., Land Acquisition Amendment Ordinance, Farm Ordinances 2020).\n\n**4. Money Bill Controversy**\n- Certifying bills as Money Bills (Article 110) bypasses Rajya Sabha scrutiny — used for Aadhaar Act (2016), Finance Acts incorporating tax changes.\n- This reduces half of Parliament to a rubber stamp on crucial legislation.\n\n**5. Private Members' Bills**\n- Private Members' Bills have had negligible legislative success. Last Private Member's Bill to become law was in **1970** (*Muslim Waqfs Repeal Bill*).\n- Friday sessions reserved for private member bills are often lost to adjournments.\n\n**6. Low Research Support**\n- MPs have inadequate research support compared to legislators in mature democracies.\n- MPLADS funds distract MPs toward constituency development rather than lawmaking.\n\n### Impact on Debate Quality\n- Many bills passed in **minutes** without clause-by-clause debate (e.g., multiple bills passed in Rajya Sabha within hours in 2019 monsoon session).\n- Disruptions and walkouts reduce productive legislative time.\n\n### Reforms Needed\n- Fix minimum sitting days by law (National Commission to Review Working of Constitution recommended 100+ days).\n- Reform anti-defection law to exclude non-confidence votes.\n- Mandate DRSC referral for all bills.\n- Strengthen Parliament's research secretariat (PRS-type support as institutional service).\n\n**Conclusion:** The decline of the individual MP's role erodes Parliament's deliberative character. Without structural reform in anti-defection law, sitting days, and research support, India risks having a rubber-stamp legislature in place of a living democratic assembly.",
+      "key_points": [
+        "Anti-defection law (10th Schedule, 1985) converts MPs into party automatons — kills individual legislative conscience",
+        "Parliament averaged 55-60 sitting days/year in 17th Lok Sabha vs ~100 days in early decades",
+        "Last Private Member's Bill to become law was in 1970",
+        "Money Bill certification bypasses Rajya Sabha — undermines bicameral scrutiny",
+        "Farm Ordinances 2020 and back-to-back ordinances circumvent Parliament's primary lawmaking role"
+      ],
+      "keywords": ["anti-defection law", "10th Schedule", "Private Members' Bill", "Money Bill Article 110", "Article 123 ordinance", "Parliamentary sitting days", "DRSC", "deliberative democracy", "Dinesh Goswami Committee"],
+      "sources": ["Laxmikanth M.P. – Indian Polity", "Constitution of India Articles 79–122, 123, 110", "PRS Legislative Research – Parliament Performance Reports", "National Commission to Review Working of Constitution Report 2002"]
+    }
+  },
+  {
+    "id": "gs2-pyq-2019-03",
+    "type": "pyq",
+    "paper": "gs2",
+    "year": 2019,
+    "marks": 10,
+    "words": 150,
+    "question": "Do you think that the Constitution of India does not accept the principle of strict separation of powers rather it is based on the principle of 'checks and balances'? Explain.",
+    "topic": "Indian Polity",
+    "subtopic": "Constitution & Constitutional Design",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Separation of Powers vs. Checks and Balances in India\n\n**Strict Separation of Powers** (Montesquieu's model) — as in the US — means the three organs (Legislature, Executive, Judiciary) are functionally and personally separate, with no organ performing functions of another.\n\n**India's Approach: Checks and Balances**\nThe Indian Constitution does not adopt strict separation; instead, it creates **functional overlaps with mutual checks**:\n\n**1. Legislature-Executive Overlap**\n- The Council of Ministers (Executive) is collectively responsible to and is drawn from the Legislature (Articles 74, 75). The Executive thus operates within Parliament.\n- Parliament controls Executive through Question Hour, No-Confidence Motion, and Budget approval.\n\n**2. Judicial Check on Legislature and Executive**\n- Judicial Review (Article 13, 32, 226): Courts can strike down laws violating Fundamental Rights.\n- Basic Structure doctrine (Kesavananda Bharati, 1973) limits Parliament's amending power.\n\n**3. Executive Check on Judiciary**\n- The President (on advice of Council of Ministers) appoints judges (though collegium now dominates).\n- Parliament can impeach judges (Article 124(4)).\n\n**4. Legislature's Check on Judiciary**\n- Parliament can expand or restrict jurisdiction of courts (subject to constitutional limits).\n\n**Judicial Pronouncement:** In *Ram Jawaya Kapur v. State of Punjab (1955)*, the Supreme Court held that the Indian Constitution has not recognised the doctrine of strict separation of powers — the three organs are not hermetically sealed but have functional interdependence.\n\n**Conclusion:** India's constitutional design reflects a pragmatic **checks and balances** model suited to parliamentary democracy — each organ exercises power within its sphere while remaining accountable to the others.",
+      "key_points": [
+        "India does not follow strict separation of powers (US model) — Ram Jawaya Kapur case (1955) affirmed this",
+        "Executive (Council of Ministers) drawn from Legislature — Articles 74, 75",
+        "Judicial Review (Articles 13, 32, 226) — judiciary checks legislature and executive",
+        "Basic Structure doctrine (Kesavananda Bharati, 1973) limits Parliament's amending power",
+        "Parliamentary system inherently requires executive-legislative overlap — unlike presidential system"
+      ],
+      "keywords": ["separation of powers", "checks and balances", "Ram Jawaya Kapur case 1955", "Article 74", "Article 75", "judicial review", "Article 13", "Montesquieu", "Kesavananda Bharati", "parliamentary system"],
+      "sources": ["Ram Jawaya Kapur v. State of Punjab AIR 1955 SC 549", "Constitution of India Articles 53, 74, 75, 121, 122, 211, 212", "Laxmikanth M.P. – Indian Polity"]
+    }
+  }
+]

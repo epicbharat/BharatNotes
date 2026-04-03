@@ -1,0 +1,504 @@
+[
+  {
+    "id": "gs4-pyq-2024-01",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2024,
+    "marks": 10,
+    "words": 150,
+    "question": "The application of Artificial Intelligence as a dependable source of input for administrative rational decision-making is a debatable issue. Critically examine the statement from the ethical point of view.",
+    "topic": "Ethics in Public Administration",
+    "subtopic": "Digital Ethics & Technology",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## AI in Administrative Decision-Making: Ethical Examination\n\nArtificial Intelligence offers speed, consistency, and data-driven insights — yet its use as a dependable source for administrative decisions raises profound ethical concerns.\n\n**Arguments supporting AI in administration:**\n- Eliminates human bias in routine decisions (e.g., ration card verification, scholarship allocation)\n- Ensures consistency and reduces discretionary abuse\n- Mission Karmayogi envisions tech-enabled, citizen-centric governance\n\n**Ethical concerns:**\n- **Accountability deficit:** If an AI-driven decision causes harm (e.g., wrongful denial of welfare benefit), who is answerable? The principle of *answerability* — core to ARC 2nd Report — demands a human decision-maker\n- **Algorithmic bias:** AI trained on historical data perpetuates caste, gender, or income biases — violating Article 14 (equality) and Articles 15–16 (non-discrimination)\n- **Lack of empathy:** Ethical governance requires *context-sensitivity*; an AI cannot weigh a widow's circumstance the way a compassionate officer can\n- **Data privacy:** Mass data collection for AI training violates informational autonomy (Justice K.S. Puttaswamy judgment, 2017)\n- **Transparency gap:** Opaque algorithms make it impossible for citizens to challenge decisions — violating natural justice\n\n**Balanced approach:**\nAI should serve as a *decision-support tool*, not a decision-maker. Human oversight, explainable AI mandates, and ethical audits are essential.\n\n**Conclusion:** Rational administration demands human wisdom, empathy, and accountability — AI can assist but must not supplant the moral agency of civil servants.",
+      "key_points": [
+        "AI eliminates human bias but introduces algorithmic bias",
+        "Accountability deficit — no moral agency in AI systems",
+        "Lack of empathy violates context-sensitive ethical governance",
+        "Data privacy concerns — Puttaswamy judgment 2017",
+        "AI as decision-support tool, not decision-maker"
+      ],
+      "keywords": ["algorithmic bias", "accountability", "explainable AI", "natural justice", "Mission Karmayogi", "informational autonomy"],
+      "sources": ["ARC 2nd Report on Ethics in Governance", "K.S. Puttaswamy v. Union of India (2017)", "Mission Karmayogi (National Programme for Civil Services Capacity Building)"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2024-02",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2024,
+    "marks": 10,
+    "words": 150,
+    "question": "Ethics encompasses several key dimensions that are crucial in guiding individuals and organizations towards morally responsible behaviour. Explain the key dimensions of ethics that influence human actions and discuss how these dimensions shape ethical decision-making in the professional context.",
+    "topic": "Foundations of Ethics",
+    "subtopic": "Dimensions of Ethics",
+    "difficulty": "easy",
+    "model_answer": {
+      "text": "## Key Dimensions of Ethics\n\nEthics, derived from the Greek *ethos* (character), encompasses multiple dimensions that collectively guide moral conduct.\n\n**Key Dimensions:**\n\n1. **Descriptive ethics** — Describes what people actually believe is right/wrong across cultures; helps understand moral diversity\n2. **Normative ethics** — Prescribes how people *ought* to act:\n   - *Consequentialism* (Utilitarianism — Mill): Greatest good for greatest number\n   - *Deontology* (Kant): Duty-based ethics; act only on universalisable maxims\n   - *Virtue ethics* (Aristotle): Character-centred; cultivate virtues like courage, justice, prudence\n3. **Applied ethics** — Application to specific domains: medical ethics, environmental ethics, administrative ethics\n4. **Meta-ethics** — Examines the nature, foundations, and methodology of ethical claims\n\n**In Professional Context:**\n- A civil servant invoking *deontological* ethics upholds rules even under political pressure\n- A doctor applying *consequentialist* ethics prioritises patient welfare over institutional profit\n- *Virtue ethics* drives a public servant's intrinsic motivation to serve honestly\n\nThe 2nd ARC emphasises that ethical civil service requires internalised values, not merely rule compliance — pointing to virtue ethics as the foundation of public administration.\n\n**Conclusion:** Effective ethical decision-making integrates all dimensions — understanding what is valued (descriptive), what ought to be done (normative), and developing the character to act accordingly (virtue).",
+      "key_points": [
+        "Descriptive, normative, applied, and meta-ethics are the four key dimensions",
+        "Normative ethics includes consequentialism, deontology, and virtue ethics",
+        "Virtue ethics most relevant for civil service — intrinsic motivation over rule compliance",
+        "ARC 2nd Report emphasises internalised values over mechanical compliance"
+      ],
+      "keywords": ["utilitarianism", "deontology", "virtue ethics", "Kant", "Aristotle", "Mill", "applied ethics", "normative ethics"],
+      "sources": ["ARC 2nd Report on Ethics in Governance", "Lexicon for Ethics, Integrity & Aptitude by N. Bhattacharya", "An Introduction to Ethics by John Dewey"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2024-03",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2024,
+    "marks": 20,
+    "words": 250,
+    "question": "Sneha is a senior official in the Public Health Department responsible for procuring medical equipment. Her brother's firm submits the lowest bid for a major procurement. Sneha's superior asks her to handle the case. (a) What course of action should Sneha take regarding her brother's bid? (b) How would you justify the approach selected? (c) How does personal interest compromise medical ethics in such a scenario?",
+    "topic": "Ethics in Public Administration",
+    "subtopic": "Conflict of Interest",
+    "difficulty": "hard",
+    "model_answer": {
+      "text": "## Case Study: Conflict of Interest in Public Procurement\n\n### (a) Course of Action\n\nSneha must **immediately recuse herself** from the procurement decision and disclose the conflict of interest in writing to her superior and the vigilance department. The case should be transferred to another equally competent officer with no personal interest.\n\nShe should not:\n- Favour her brother's firm even if the bid is genuinely lowest\n- Reject it arbitrarily to appear impartial\n- Conceal the relationship and proceed\n\n### (b) Justification\n\n**Legal basis:**\n- GFR (General Financial Rules) 2017 mandates arms-length transactions in procurement\n- CVC guidelines require declaration of conflict of interest\n- Prevention of Corruption Act, 1988 — Section 13(1)(d) criminalises abuse of position for personal gain\n\n**Ethical basis:**\n- *Impartiality* and *integrity* — Nolan Committee's Seven Principles of Public Life — demand that public officials act solely in the public interest\n- Even the *appearance* of impropriety damages institutional trust\n- ARC 2nd Report: Probity in governance requires that officers neither benefit personally nor be seen to benefit from public decisions\n\n### (c) Medical Ethics Compromise\n\nPublic health procurement is uniquely sensitive — compromised decisions can cost lives. Personal interest distorts:\n- **Quality assessment:** Lowest bid may not mean safest equipment\n- **Beneficence:** Medical ethics mandates acting in the patient's best interest, not the officer's\n- **Non-maleficence:** Biased procurement could supply substandard equipment, harming patients\n- Public trust in health institutions erodes when corruption enters supply chains\n\n**Conclusion:** Recusal is not weakness — it is the highest expression of integrity. A civil servant who voluntarily steps aside protects both the institution and the citizen.",
+      "key_points": [
+        "Immediate recusal and written disclosure of conflict of interest",
+        "GFR 2017 and CVC guidelines mandate arms-length procurement",
+        "Nolan Committee's Seven Principles — impartiality and integrity",
+        "Medical ethics (beneficence, non-maleficence) compromised by personal interest",
+        "Appearance of impropriety is as damaging as actual impropriety"
+      ],
+      "keywords": ["conflict of interest", "probity", "recusal", "impartiality", "GFR 2017", "Prevention of Corruption Act", "Nolan Principles", "beneficence", "non-maleficence"],
+      "sources": ["General Financial Rules 2017", "CVC Guidelines on Procurement", "Prevention of Corruption Act 1988", "ARC 2nd Report on Ethics in Governance", "Nolan Committee Report (Seven Principles of Public Life)"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2023-01",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2023,
+    "marks": 10,
+    "words": 150,
+    "question": "What do you understand by 'moral integrity' and 'professional efficiency' in the context of corporate governance in India? Illustrate with suitable examples.",
+    "topic": "Ethics in Public Administration",
+    "subtopic": "Integrity and Corporate Governance",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Moral Integrity and Professional Efficiency in Corporate Governance\n\n**Moral Integrity** refers to the consistent adherence to ethical principles — honesty, transparency, and accountability — irrespective of external pressures. In corporate governance, it means that directors and executives act in the interest of all stakeholders, not merely shareholders.\n\n**Professional Efficiency** refers to achieving organisational goals with optimal use of resources, processes, and competencies — guided by performance, quality, and accountability.\n\n**Interrelation:** Moral integrity without efficiency produces good intentions with poor outcomes. Efficiency without integrity produces performance at the cost of ethics — as seen in corporate frauds.\n\n**Examples:**\n- *Satyam Scandal (2009):* B. Ramalinga Raju fabricated accounts for years — failure of both integrity and governance oversight\n- *Infosys:* Long cited as a model of transparent governance and ethical leadership under N.R. Narayana Murthy\n- *Yes Bank crisis (2020):* Board governance failures led to collapse, harming depositors\n\n**SEBI's LODR Regulations (2015)** and the **Companies Act 2013** mandate independent directors and audit committees precisely to institutionalise moral integrity within professional structures.\n\n**Conclusion:** Effective corporate governance requires both dimensions — moral integrity provides the ethical compass, professional efficiency ensures that compass guides productive action.",
+      "key_points": [
+        "Moral integrity = consistent ethical behaviour regardless of pressure",
+        "Professional efficiency = optimal goal achievement with accountability",
+        "Both are necessary — integrity without efficiency is ineffective; efficiency without integrity is dangerous",
+        "Satyam Scandal as case of integrity failure; Infosys as model",
+        "Companies Act 2013 and SEBI LODR institutionalise these values"
+      ],
+      "keywords": ["corporate governance", "moral integrity", "professional efficiency", "SEBI", "Companies Act 2013", "independent directors", "transparency"],
+      "sources": ["Companies Act 2013", "SEBI LODR Regulations 2015", "Lexicon for Ethics by Chronicle Publications"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2023-02",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2023,
+    "marks": 10,
+    "words": 150,
+    "question": "\"Corruption is the manifestation of the failure of core values in the society.\" In your opinion, what measures can be adopted to uplift the core values in the society to reduce corruption?",
+    "topic": "Ethics in Public Administration",
+    "subtopic": "Anti-Corruption",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Corruption as Value Failure: Measures to Rebuild Core Values\n\nCorruption is not merely a legal or administrative failure — it reflects the erosion of foundational values: honesty, fairness, integrity, and respect for public good. When individuals normalise shortcuts and see corruption as rational, it signals systemic moral decay.\n\n**Measures to Uplift Core Values:**\n\n**1. Education and Early Socialisation**\n- Value education in schools (NEP 2020 emphasises holistic development)\n- Ethics as a compulsory subject in civil services training (LBSNAA curriculum)\n\n**2. Institutional Integrity**\n- Independent anti-corruption bodies (Lokpal, CVC, CAG) with real teeth\n- Robust whistleblower protection under Whistleblowers Protection Act, 2014\n\n**3. Role Models and Public Culture**\n- Political leaders, judiciary, and senior civil servants must visibly model integrity\n- Gandhi's principle: *Be the change you wish to see*\n\n**4. Simplification of Procedures**\n- E-governance and digitalisation reduce human discretion and corruption opportunities (e.g., DBT, PFMS)\n\n**5. Social Accountability**\n- Social audits (Mahatma Gandhi NREGA) empower communities to hold institutions accountable\n- RTI Act enables citizens to demand transparency\n\n**6. Incentive Restructuring**\n- Recognise and reward integrity (e.g., Prime Minister's Awards for Excellence in Public Administration)\n\n**Conclusion:** Corruption retreats when values are internalised — not merely regulated. A society that valorises honesty in daily life creates the cultural foundation for corruption-free governance.",
+      "key_points": [
+        "Corruption reflects erosion of core social values, not just administrative failure",
+        "Value education from early childhood — NEP 2020",
+        "Institutional mechanisms: Lokpal, CVC, Whistleblower Protection Act 2014",
+        "E-governance and DBT reduce discretionary corruption",
+        "Social audits (MGNREGA) and RTI empower citizens"
+      ],
+      "keywords": ["probity", "value education", "Lokpal", "whistleblower protection", "e-governance", "DBT", "social audit", "RTI"],
+      "sources": ["ARC 2nd Report on Ethics in Governance", "Whistleblowers Protection Act 2014", "NEP 2020", "RTI Act 2005"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2023-03",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2023,
+    "marks": 10,
+    "words": 150,
+    "question": "\"Is conscience a more reliable guide than laws, rules and regulations in the context of ethical decision-making?\" Discuss.",
+    "topic": "Foundations of Ethics",
+    "subtopic": "Conscience and Moral Reasoning",
+    "difficulty": "hard",
+    "model_answer": {
+      "text": "## Conscience vs. Laws in Ethical Decision-Making\n\n**Conscience** is the inner moral faculty — the voice of ethical self-awareness that judges actions as right or wrong. **Laws and regulations** are externally codified norms backed by state authority.\n\n**Case for Conscience as More Reliable:**\n- Laws can be unjust — apartheid laws, colonial laws, and caste-based discrimination were all legal yet profoundly unethical\n- Conscience guided Gandhi to break unjust British laws through civil disobedience — morally superior to legal compliance\n- Henry David Thoreau argued conscience supersedes law when the law itself is unjust (*Civil Disobedience*, 1849)\n- Laws cannot anticipate every situation; conscience fills normative gaps\n\n**Case Against Over-Reliance on Conscience:**\n- Conscience is subjective and culturally conditioned — a terrorist may sincerely believe their violence is just\n- Selective conscience-following creates anarchy — each person becomes their own moral legislature\n- Hannah Arendt's *banality of evil*: Nazi officials acted on institutional loyalty, not conscience — underscoring why conscience must be cultivated and not just assumed\n- Laws represent collective wisdom and social consensus\n\n**Balanced View:**\nThe ideal civil servant uses laws as the *minimum standard* and conscience as the *higher guide*. Where law permits an action but conscience objects, the officer must exercise moral courage. Where law and conscience align, both reinforce right conduct.\n\n**Conclusion:** Conscience without legal structure invites subjectivity; law without conscience invites tyranny. Ethical maturity lies in harmonising both.",
+      "key_points": [
+        "Conscience fills gaps where law is silent or unjust",
+        "Laws can be unjust — Gandhi's civil disobedience as moral example",
+        "Over-reliance on conscience risks subjectivity and anarchy",
+        "Hannah Arendt's banality of evil — conscience must be cultivated",
+        "Ideal: law as minimum standard, conscience as higher guide"
+      ],
+      "keywords": ["conscience", "moral intuition", "civil disobedience", "Thoreau", "Hannah Arendt", "banality of evil", "moral courage", "natural law"],
+      "sources": ["Civil Disobedience by Henry David Thoreau (1849)", "The Origins of Totalitarianism by Hannah Arendt", "Lexicon for Ethics by Chronicle Publications"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2023-04",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2023,
+    "marks": 10,
+    "words": 150,
+    "question": "\"Probity is essential for effective governance and development.\" Discuss with examples.",
+    "topic": "Ethics in Public Administration",
+    "subtopic": "Probity in Governance",
+    "difficulty": "easy",
+    "model_answer": {
+      "text": "## Probity: Foundation of Effective Governance\n\n**Probity** derives from the Latin *probitas* — honesty, uprightness. In public administration, it means complete and confirmed integrity; unwillingness to engage in dishonest or improper conduct.\n\n**Why Probity is Essential:**\n\n**1. Builds Public Trust**\nGovernance rests on the consent of the governed. When citizens trust that officials act with integrity, institutions function effectively. Corruption — the antithesis of probity — erodes this trust (e.g., PDS leakages prior to Aadhaar-linked DBT).\n\n**2. Ensures Equitable Development**\nLeakage of development funds denies benefits to the intended. Probity in implementation ensures welfare reaches marginalised communities (e.g., MGNREGA social audits curbing corruption).\n\n**3. Attracts Investment**\nBusiness confidence depends on predictable, rule-based administration. States with low corruption indices attract more FDI.\n\n**4. Upholds Constitutional Values**\nArticle 311 (protection of civil servants) and conduct rules are designed to insulate officials from pressure — enabling probity.\n\n**Examples of Probity in Action:**\n- T.N. Seshan's electoral reforms as CEC — insisted on rule-based conduct despite political opposition\n- E. Sreedharan (Delhi Metro) — completed projects on time, within budget, with zero corruption allegations\n- CAG reports exposing 2G spectrum and Coal scam irregularities\n\n**ARC 2nd Report** defines probity as including: integrity, impartiality, non-partisanship, accountability, and transparency.\n\n**Conclusion:** Probity is not optional — it is the oxygen of governance. Without it, institutions decay and development becomes a mirage.",
+      "key_points": [
+        "Probity = complete integrity; unwillingness to act dishonestly",
+        "Builds public trust — essential for governance legitimacy",
+        "Ensures equitable development — prevents leakages",
+        "ARC 2nd Report: probity includes integrity, impartiality, accountability, transparency",
+        "Examples: T.N. Seshan, E. Sreedharan"
+      ],
+      "keywords": ["probity", "integrity", "accountability", "transparency", "public trust", "ARC 2nd Report", "CAG", "MGNREGA social audit"],
+      "sources": ["ARC 2nd Report on Ethics in Governance", "Citizens Charter and Probity in Governance (Government of India)", "Nolan Committee — Seven Principles of Public Life"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2023-05",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2023,
+    "marks": 20,
+    "words": 250,
+    "question": "Rashika is a Joint Secretary in the Finance Ministry. She is asked by her superiors to work on a critical budget presentation on a Sunday — her daughter's birthday. She faces a conflict between her professional obligation and family commitment. Identify the ethical issues involved, evaluate the available options, and suggest how she should resolve this dilemma.",
+    "topic": "Ethics in Public Administration",
+    "subtopic": "Work-Life Balance and Civil Service Values",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Case Analysis: Professional Obligation vs. Family Commitment\n\n### Ethical Issues Involved\n\n1. **Duty vs. Personal Obligation:** The Civil Service demands commitment beyond fixed hours — yet human flourishing requires family bonds. Both are legitimate values.\n2. **Gender dimension:** Women in senior positions disproportionately face such conflicts due to the double burden of professional and domestic responsibilities — raising issues of gender equity in public service\n3. **Wellbeing of dependents:** A child's emotional needs are a legitimate ethical consideration\n4. **Institutional accountability:** Budget work is time-sensitive public work — delay has systemic consequences\n\n### Available Options\n\n**Option A:** Attend office on Sunday, meet professional obligation fully\n- Pro: Fulfils duty; demonstrates professional commitment\n- Con: Family promise broken; child's emotional harm; perpetuates gender inequality in workplace expectations\n\n**Option B:** Refuse and prioritise family\n- Pro: Models healthy boundaries; upholds family commitment\n- Con: Fails professional duty; may harm her credibility and career\n\n**Option C (Best):** Seek a middle path\n- Negotiate with superiors: work from home for part of the day using secure government systems\n- Arrange the birthday celebration in the evening; work during morning/afternoon\n- Delegate non-critical parts to subordinates with clear instructions\n\n### Resolution\n\nRashika should exercise **emotional intelligence** — self-awareness of her dual obligations — and communicate proactively with her superior. She can also flag the systemic issue: organisations that demand perpetual availability without accommodation harm long-term retention of women officers.\n\n**Policy Recommendation:** Civil service rules should provide for compensatory off, work-from-home provisions, and explicit recognition that personal wellbeing is not incompatible with professional excellence.\n\n**Conclusion:** A civil servant who balances duty and humanity models the values the Constitution enshrines — Article 51A(e) promotes harmony and the spirit of a humane administration.",
+      "key_points": [
+        "Conflict between professional duty and family commitment",
+        "Gender dimension — women officers face disproportionate burden",
+        "Best option: negotiate middle path — WFH + delegation",
+        "Emotional intelligence essential to manage dual obligations",
+        "Policy recommendation for WFH provisions and compensatory leave"
+      ],
+      "keywords": ["work-life balance", "emotional intelligence", "gender equity", "professional duty", "family obligation", "civil service values"],
+      "sources": ["ARC 2nd Report on Ethics in Governance", "Sexual Harassment of Women at Workplace Act 2013", "Emotional Intelligence by Daniel Goleman"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2022-01",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2022,
+    "marks": 10,
+    "words": 150,
+    "question": "It is believed that adherence to ethics in human actions would ensure smooth functioning of an organization/system. If so, what does ethics seek to promote in human life? How do ethical values assist in the resolution of conflicts faced by him in his day-to-day functioning?",
+    "topic": "Foundations of Ethics",
+    "subtopic": "Nature and Purpose of Ethics",
+    "difficulty": "easy",
+    "model_answer": {
+      "text": "## Ethics in Human Life and Conflict Resolution\n\n**Ethics** is a branch of moral philosophy that evaluates human conduct as right or wrong, good or bad. It seeks to promote:\n\n1. **Human flourishing (Eudaimonia — Aristotle):** Ethics guides individuals toward a life of virtue, meaning, and excellence\n2. **Social harmony:** By establishing shared norms of behaviour, ethics enables cooperation and trust\n3. **Justice and fairness:** It ensures equitable treatment of all — foundational to democratic governance\n4. **Intrinsic motivation:** Ethical values transform external compliance into internal commitment\n5. **Accountability:** Ethics demands that individuals own the consequences of their actions\n\n**Resolution of Day-to-Day Conflicts:**\n\n| Conflict Type | Ethical Framework Applied | Resolution |\n|---|---|---|\n| Duty vs. personal interest | Deontology (Kant) | Prioritise duty |\n| Competing stakeholder interests | Utilitarianism (Mill) | Greatest good for greatest number |\n| Institutional loyalty vs. public interest | Whistle-blowing ethics | Public interest prevails |\n| Short-term vs. long-term benefit | Consequentialism | Long-term welfare |\n\n**In public administration**, ethical values help officers:\n- Resist political interference by anchoring decisions in rule of law\n- Exercise discretion fairly when rules are ambiguous\n- Build public trust through transparent action\n\n**Conclusion:** Ethics does not eliminate conflicts — it provides a principled framework to resolve them. An officer grounded in ethics navigates dilemmas with clarity, fairness, and moral courage.",
+      "key_points": [
+        "Ethics promotes human flourishing, social harmony, justice, and accountability",
+        "Aristotle's eudaimonia — virtue-based conception of good life",
+        "Different ethical frameworks resolve different conflict types",
+        "Ethics enables discretion in ambiguous situations",
+        "Transforms external compliance into intrinsic motivation"
+      ],
+      "keywords": ["eudaimonia", "virtue ethics", "utilitarianism", "deontology", "moral courage", "social harmony", "accountability"],
+      "sources": ["Nicomachean Ethics by Aristotle", "Utilitarianism by John Stuart Mill", "Lexicon for Ethics by Chronicle Publications", "ARC 2nd Report on Ethics in Governance"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2022-02",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2022,
+    "marks": 10,
+    "words": 150,
+    "question": "\"Ethics is knowing the difference between what you have the right to do and what is right to do.\" — Potter Stewart. Examine this statement with suitable examples from public administration.",
+    "topic": "Foundations of Ethics",
+    "subtopic": "Ethical Decision-Making",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Ethics Beyond Legal Rights\n\nPotter Stewart, former US Supreme Court Justice, captures a profound distinction: **legality** grants rights; **ethics** demands responsibility. Many actions that are legally permissible are ethically questionable.\n\n**Core Insight:**\nLaw defines the *floor* of conduct — the minimum required. Ethics defines the *ceiling* — the ideal towards which one aspires. A civil servant may have the *right* to do many things; ethics asks whether those things are *right*.\n\n**Examples from Public Administration:**\n\n1. **Discretionary powers:** A District Collector has the *legal right* to interpret a land acquisition order broadly to benefit a corporation. Ethics demands that they consider the impact on displaced tribals — even if law permits the wider interpretation.\n\n2. **Information control:** An officer has the *right* to withhold certain files under Official Secrets Act. Ethics demands they ask: does this serve public interest or protect the powerful?\n\n3. **Political instructions:** An IAS officer may be *legally entitled* to follow superior orders. But ethics — and the IPC — prohibit following manifestly unlawful orders.\n\n4. **Procurement:** A purchase officer may *legally* award a contract to a technically qualifying firm. Ethics demands checking whether the firm has a history of substandard delivery.\n\n**Gandhi's example** is instructive: he had the *legal right* to remain silent against British injustice as a practising lawyer — but chose civil disobedience as the ethical path.\n\n**Conclusion:** Ethics fills the moral space between legal permission and right action. Civil servants who operate only within legal rights, not ethical responsibilities, fail their public trust.",
+      "key_points": [
+        "Law = floor (minimum); Ethics = ceiling (ideal)",
+        "Legal right to act does not imply ethical justification to act",
+        "Discretionary powers must be exercised with ethical restraint",
+        "Following manifestly unlawful orders is both unethical and illegal (IPC)",
+        "Gandhi's civil disobedience as example of ethics superseding legal right"
+      ],
+      "keywords": ["legal right vs ethical right", "discretionary powers", "moral obligation", "probity", "public trust", "Potter Stewart"],
+      "sources": ["ARC 2nd Report on Ethics in Governance", "IPC Section 76 (mistake of law)", "Lexicon for Ethics by Chronicle Publications"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2022-03",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2022,
+    "marks": 10,
+    "words": 150,
+    "question": "Whistle blower, who reports corruption and illegal activities, wrongdoing and misconduct to the concerned authorities, runs the risk of being exposed to grave danger, physical harm and victimisation by the vested interests. What policy measures would you suggest to strengthen the protection mechanism to safeguard the whistle blower?",
+    "topic": "Ethics in Public Administration",
+    "subtopic": "Whistleblowing and Anti-Corruption",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Strengthening Whistleblower Protection in India\n\nWhistleblowers are the conscience of institutions — they expose wrongdoing at enormous personal risk. Their protection is not just an administrative necessity but a moral imperative.\n\n**Current Framework:**\n- **Whistleblowers Protection Act, 2014** — allows anonymous complaints to CVC; prohibits victimisation\n- **CVC guidelines** on complaint redressal\n- **Public Interest Disclosure and Protection of Persons Making Disclosure Rules, 2014**\n\n**Gaps and Policy Recommendations:**\n\n**1. Strengthen the 2014 Act:**\n- Remove exemptions for national security concerns that dilute protection\n- Extend coverage to private sector whistleblowers (currently limited)\n- Prescribe mandatory timelines for investigation (currently absent)\n\n**2. Anonymous Reporting Channels:**\n- Dedicated digital platform with end-to-end encryption\n- Ban on attempts to identify anonymous complainants\n\n**3. Independent Oversight Body:**\n- Create a National Whistleblower Protection Authority, insulated from the ministries being investigated\n- Fast-track courts for cases of retaliation against whistleblowers\n\n**4. Financial Protection:**\n- Provide financial assistance and job security guarantees during investigation period\n- Reward mechanism for disclosures leading to recovery of public funds (as in USA's False Claims Act)\n\n**5. Awareness and Culture:**\n- Train civil servants on the moral duty to report — LBSNAA curriculum\n- Destigmatise whistleblowing; celebrate exemplary cases publicly\n\n**Examples:** Satyendra Dubey (NHAI corruption, killed in 2003) and Manjunath Shanmugam (oil adulteration, killed in 2005) highlight the deadly cost of inadequate protection.\n\n**Conclusion:** A democracy that allows its truth-tellers to be silenced defeats its own foundation. Robust whistleblower protection is indispensable for clean governance.",
+      "key_points": [
+        "Whistleblowers Protection Act 2014 — current framework and gaps",
+        "Anonymous reporting channels with encryption",
+        "Independent National Whistleblower Protection Authority",
+        "Financial protection and fast-track courts",
+        "Satyendra Dubey and Manjunath Shanmugam as cautionary cases"
+      ],
+      "keywords": ["whistleblower", "Whistleblowers Protection Act 2014", "CVC", "anonymous reporting", "retaliation", "public interest disclosure"],
+      "sources": ["Whistleblowers Protection Act 2014", "CVC Annual Report", "ARC 2nd Report on Ethics in Governance", "USA False Claims Act (comparative reference)"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2022-04",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2022,
+    "marks": 20,
+    "words": 250,
+    "question": "Ashok is a journalist working with a reputed media organisation. He uncovers a major corruption story involving a stone mafia operating with political patronage. His editor, under pressure from the media owner (who has business ties with the politicians involved), suppresses the story. Ashok faces an ethical dilemma about whether to publish the story through alternate means. Examine the options available to Ashok, the ethical issues involved, and suggest what he should do.",
+    "topic": "Ethics in Public Administration",
+    "subtopic": "Media Ethics and Whistleblowing",
+    "difficulty": "hard",
+    "model_answer": {
+      "text": "## Case Analysis: Journalism, Corruption, and Ethical Dilemma\n\n### Ethical Issues Involved\n\n1. **Press freedom vs. institutional loyalty:** Ashok's duty as a journalist (to inform the public) conflicts with his employment obligation to his organisation\n2. **Public interest vs. corporate interest:** The media owner's business interests override public good — a form of media capture\n3. **Personal safety:** Publishing could endanger Ashok and his family\n4. **Complicity by silence:** Remaining silent makes Ashok a passive enabler of corruption\n5. **Institutional integrity of media:** Suppression of legitimate news undermines the Fourth Estate's democratic function\n\n### Options Available\n\n**Option 1: Comply with suppression**\n- Pro: Job security, personal safety\n- Con: Moral failure; public deprived of critical information; Ashok becomes complicit\n\n**Option 2: Publish through alternate platforms (independent media, social media)**\n- Pro: Public informed; democratic accountability served\n- Con: Risk of defamation suit; job loss; physical danger from mafia\n\n**Option 3: Report to appropriate authorities (CBI, CVC, judiciary)**\n- Pro: Uses official channels; shifts burden of investigation to state\n- Con: Risk of suppression if political influence extends to investigative agencies\n\n**Option 4: Approach Press Council of India or editor associations**\n- Pro: Institutional support; due process\n- Con: Slow; may not result in publication\n\n### Recommended Course of Action\n\nAshok should adopt a **sequential approach**:\n1. First, exhaust internal channels — document the suppression formally\n2. Report to CBI/ED if corruption involves financial crimes\n3. Simultaneously approach a credible independent publication or reputable international outlet\n4. Ensure personal legal protection (pre-emptive legal advice) before publication\n5. Seek support from journalist safety organisations\n\n**Ethical Basis:** The principle of **social responsibility** of the press, enshrined in the Press Council Act 1978, mandates that news of legitimate public interest must be published without fear or favour. Article 19(1)(a) — freedom of speech — protects Ashok's right to publish.\n\n**Conclusion:** Silence in the face of corruption is not neutrality — it is complicity. Ashok's highest ethical obligation is to the public he serves, not the organisation that employs him.",
+      "key_points": [
+        "Media capture — owner's business interests suppressing legitimate journalism",
+        "Complicity by silence is a moral failure",
+        "Sequential approach: internal channels → authorities → alternate publication",
+        "Article 19(1)(a) protects the right to publish matters of public interest",
+        "Press Council Act 1978 — social responsibility of media"
+      ],
+      "keywords": ["press freedom", "media ethics", "whistleblowing", "public interest", "fourth estate", "Article 19(1)(a)", "Press Council Act 1978"],
+      "sources": ["Press Council Act 1978", "Press Council of India Norms of Journalistic Conduct", "Article 19(1)(a) Constitution of India", "ARC 2nd Report on Ethics in Governance"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2021-01",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2021,
+    "marks": 10,
+    "words": 150,
+    "question": "In a crisis of conscience, does emotional intelligence help to overcome the same without compromising the ethical and moral stand? Critically examine.",
+    "topic": "Emotional Intelligence",
+    "subtopic": "EI and Ethical Decision-Making",
+    "difficulty": "hard",
+    "model_answer": {
+      "text": "## Emotional Intelligence and Crises of Conscience\n\nA **crisis of conscience** occurs when an individual's values conflict with institutional demands, creating moral anguish — for example, a civil servant asked to obey an unethical order.\n\n**Daniel Goleman** defines Emotional Intelligence (EI) as comprising five elements: self-awareness, self-regulation, motivation, empathy, and social skills.\n\n**How EI Helps:**\n\n1. **Self-awareness:** Recognises the crisis — understands one's own values are under threat. Without this, the individual may unknowingly compromise ethics through rationalisation\n2. **Self-regulation:** Controls impulsive reactions (fear, anger) that might lead to either blind compliance or reckless defiance. It enables measured, principled response\n3. **Empathy:** Understands the human impact of the ethical choice — on colleagues, citizens, and oneself — enabling compassionate decision-making\n4. **Intrinsic motivation:** Sustains commitment to ethical principles even when the external environment rewards compromise\n5. **Social skills:** Navigates the crisis without burning bridges — communicates principled disagreement diplomatically\n\n**Limitations of EI:**\n- EI is not a moral compass — a person can be emotionally intelligent yet ethically flexible (e.g., skilled manipulators)\n- EI helps manage the *process* of facing a crisis; it does not determine the *content* of the ethical stand\n- A person with low moral conviction but high EI may resolve the crisis by rationalising compromise\n\n**Conclusion:** EI is a *facilitator*, not a *guarantor* of ethical conduct. It equips the individual to navigate crises calmly — but only when rooted in strong foundational values does EI reliably lead to ethical outcomes.",
+      "key_points": [
+        "Crisis of conscience = values conflicting with institutional demands",
+        "Goleman's five elements: self-awareness, self-regulation, motivation, empathy, social skills",
+        "EI helps manage the process but does not determine ethical content",
+        "High EI without moral conviction can rationalise compromise",
+        "EI is a facilitator, not a guarantor, of ethical behaviour"
+      ],
+      "keywords": ["emotional intelligence", "crisis of conscience", "self-awareness", "self-regulation", "empathy", "Daniel Goleman", "moral courage"],
+      "sources": ["Emotional Intelligence by Daniel Goleman (1995)", "ARC 2nd Report on Ethics in Governance", "Lexicon for Ethics by Chronicle Publications"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2021-02",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2021,
+    "marks": 10,
+    "words": 150,
+    "question": "Discuss the role of social audit in ensuring accountability and ethical conduct in public programs with suitable examples.",
+    "topic": "Ethics in Public Administration",
+    "subtopic": "Accountability and Transparency",
+    "difficulty": "easy",
+    "model_answer": {
+      "text": "## Social Audit: Accountability Through Community Participation\n\n**Social audit** is a process whereby the community audits government programs — examining whether public funds were spent as claimed and whether intended beneficiaries were served. It democratises accountability.\n\n**Role in Ensuring Accountability:**\n\n1. **Transparency:** Gram Sabhas scrutinise MGNREGA muster rolls publicly — exposing fake entries and ghost workers. This direct transparency is more effective than bureaucratic oversight alone\n\n2. **Citizen Empowerment:** Aruna Roy and MKSS (Mazdoor Kisan Shakti Sangathan) pioneered Jan Sunwais (public hearings) in Rajasthan in the 1990s, laying the groundwork for the RTI Act 2005\n\n3. **Deterrence:** Knowledge that community will audit discourages corruption at implementation level\n\n4. **Feedback Loop:** Social audits identify implementation gaps — informing policy correction\n\n**Legal Framework:**\n- Section 17 of MGNREGA mandates social audit\n- Social Audit Units established in each state under MGNREGA\n- Comptroller and Auditor General (CAG) works alongside social audit findings\n\n**Examples:**\n- **Telangana:** Strong Social Audit Unit model — recovered crores of misappropriated MGNREGA funds\n- **Rajasthan:** Aruna Roy's MKSS established the template for participatory accountability\n- **Mid-Day Meal Scheme:** Social audits revealed diversion of grains and sub-standard food in several states\n\n**Limitations:**\n- Social audits are toothless without enforcement mechanisms\n- Elite capture — local power structures can manipulate audit processes\n\n**Conclusion:** Social audit is not merely a technical exercise — it is an ethical intervention that restores public ownership of public programs.",
+      "key_points": [
+        "Social audit = community scrutiny of public programs",
+        "MGNREGA Section 17 mandates social audit",
+        "Aruna Roy and MKSS — pioneers of social audit movement in India",
+        "Telangana's Social Audit Unit as best practice model",
+        "Limitations: toothless without enforcement; risk of elite capture"
+      ],
+      "keywords": ["social audit", "MGNREGA", "Gram Sabha", "transparency", "accountability", "Aruna Roy", "MKSS", "RTI", "Jan Sunwai"],
+      "sources": ["MGNREGA Section 17 (social audit mandate)", "RTI Act 2005", "CAG Report on MGNREGA", "Ministry of Rural Development — Social Audit Guidelines"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2021-03",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2021,
+    "marks": 20,
+    "words": 250,
+    "question": "You are the District Magistrate of a district where a sand mining mafia operates with political connections. A junior officer submits a detailed report documenting illegal mining, but your senior — the Divisional Commissioner — instructs you to file the report and take no action, hinting that political leadership has cleared it. You are aware that continued illegal mining is destroying river ecology and affecting downstream farmers. Examine the ethical issues, the options available to you, and the most appropriate course of action.",
+    "topic": "Ethics in Public Administration",
+    "subtopic": "Civil Service Integrity Under Pressure",
+    "difficulty": "hard",
+    "model_answer": {
+      "text": "## Case Analysis: Sand Mining Mafia and Bureaucratic Pressure\n\n### Ethical Issues\n\n1. **Rule of law vs. superior orders:** Following the Divisional Commissioner's instruction violates the DM's oath to uphold the Constitution and law\n2. **Environmental ethics:** Illegal sand mining causes irreversible ecological damage — violating the rights of present and future generations (intergenerational equity)\n3. **Accountability of civil servants:** The junior officer who filed the report is at risk of victimisation if the DM buries it\n4. **Political-administrative nexus:** Compliance entrenches an unhealthy nexus that degrades governance integrity\n5. **Harm to farmers:** Downstream agricultural communities face real, measurable harm\n\n### Options Available\n\n**Option 1: Comply with Commissioner's instruction**\n- Pros: Avoids immediate conflict\n- Cons: Moral failure; complicity in ecological crime; violation of oath of service\n\n**Option 2: Take suo motu action under existing law**\n- Initiate action under the Mines and Minerals (Development and Regulation) Act, 1957\n- File FIR under relevant IPC sections and Environment Protection Act, 1986\n- Pros: Legally sound; fulfils duty\n- Cons: Career risk; possible transfer\n\n**Option 3: Escalate to higher authority**\n- Report to Chief Secretary bypassing the Commissioner (with documented justification)\n- Approach State Environment Impact Assessment Authority\n- Pros: Creates official paper trail; shifts accountability upward\n- Cons: Risk of suppression at higher level\n\n**Option 4: Judicial/Constitutional channels**\n- File a report with NGT (National Green Tribunal) if executive action is blocked\n- Approach High Court through suo motu public interest if ecological emergency\n\n### Recommended Course of Action\n\n1. **Document everything:** Record the Commissioner's verbal instruction in writing; seek clarification in writing\n2. **Initiate legal action under MMDR Act and EPA** — cannot delay where active harm is ongoing\n3. **Simultaneously escalate to Chief Secretary and State Pollution Control Board**\n4. **Protect the junior officer** who filed the report — ensure no victimisation\n5. **If executive channels fail, approach NGT** — which has original jurisdiction over environmental matters\n\n**Ethical Basis:** Article 51A(g) — fundamental duty to protect the natural environment. The Supreme Court in *M.C. Mehta v. Union of India* held environmental protection is part of the right to life under Article 21. Civil servants cannot plead superior orders to justify inaction in the face of ongoing harm.\n\n**Conclusion:** Moral courage is not the absence of fear — it is acting rightly despite the personal cost. The DM's highest duty is to the Constitution and the citizens, not to political convenience.",
+      "key_points": [
+        "Illegal mining = violation of MMDR Act 1957, EPA 1986, and Article 21",
+        "Document the Commissioner's instruction; create paper trail",
+        "Initiate legal action + escalate to Chief Secretary simultaneously",
+        "Approach NGT if executive channels are blocked",
+        "Protect junior officer who filed original report"
+      ],
+      "keywords": ["sand mining", "MMDR Act", "Environmental Protection Act", "NGT", "moral courage", "political-administrative nexus", "Article 21", "Article 51A(g)"],
+      "sources": ["Mines and Minerals (Development and Regulation) Act 1957", "Environment Protection Act 1986", "NGT Act 2010", "M.C. Mehta v. Union of India (Supreme Court)", "ARC 2nd Report on Ethics in Governance"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2020-01",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2020,
+    "marks": 10,
+    "words": 150,
+    "question": "Distinguish between laws and rules. Discuss the role of ethics in formulating them.",
+    "topic": "Foundations of Ethics",
+    "subtopic": "Laws, Rules and Ethics",
+    "difficulty": "easy",
+    "model_answer": {
+      "text": "## Laws vs. Rules: The Role of Ethics in Formulating Them\n\n**Distinction:**\n\n| Basis | Laws | Rules |\n|---|---|---|\n| Authority | Enacted by legislature; state-sanctioned | Framed by organisations/institutions within legal framework |\n| Enforceability | Backed by state coercive power; penal consequences | Enforced by institutional authority; penalties are internal |\n| Scope | Universal application within jurisdiction | Limited to specific institutions/contexts |\n| Stability | Relatively permanent; amended through formal process | More flexible; can be updated by executive order |\n| Examples | IPC, CPC, Income Tax Act | Civil Services Conduct Rules, Company bye-laws |\n\n**Role of Ethics in Formulating Laws and Rules:**\n\n1. **Moral foundation:** Laws derive legitimacy from underlying ethical principles — natural law theory (Locke, Grotius) holds that unjust laws lack moral authority\n2. **Gap-filling:** Ethics guides legislators where law is silent — determining what *should* be prohibited even before law prohibits it\n3. **Legislative intent:** Parliamentary debates often reflect ethical debates — e.g., abolition of triple talaq (Muslim Women Protection Act 2019) was driven by the ethical principle of gender equality\n4. **Administrative rules:** Conduct Rules for civil servants are codified ethics — prescribing what officers *ought* to do, not merely what they must\n5. **Evolutionary pressure:** Ethics evolves faster than law — sustained ethical consensus eventually forces legislative change (e.g., Section 377 decriminalisation in 2018)\n\n**Conclusion:** Laws and rules derive their moral authority from ethics. A law that violates fundamental ethics — even if validly enacted — faces the challenge of legitimacy, as Aristotle noted: *an unjust law is no law at all*.",
+      "key_points": [
+        "Laws = legislature-enacted, universally applicable, state-enforced",
+        "Rules = institutional, context-specific, internally enforced",
+        "Natural law theory — unjust laws lack moral authority",
+        "Ethics evolves faster than law and drives legislative change",
+        "Civil Service Conduct Rules are codified ethics"
+      ],
+      "keywords": ["natural law", "positive law", "legislative intent", "conduct rules", "ethics and law", "Section 377", "triple talaq"],
+      "sources": ["ARC 2nd Report on Ethics in Governance", "Natural Law Theory (Locke, Grotius)", "Lexicon for Ethics by Chronicle Publications", "Central Civil Services (Conduct) Rules 1964"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2020-02",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2020,
+    "marks": 10,
+    "words": 150,
+    "question": "Discuss the role of ethics and values in enhancing the three major components of Comprehensive National Power (CNP): human capital, soft power (culture and policies), and social harmony.",
+    "topic": "Foundations of Ethics",
+    "subtopic": "Ethics and National Development",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Ethics, Values, and Comprehensive National Power\n\n**Comprehensive National Power (CNP)** is a holistic measure of a nation's strength, encompassing military, economic, diplomatic, and soft dimensions. Ethics and values are foundational to three key CNP components:\n\n**1. Human Capital**\n- Ethical values — honesty, hard work, fairness — drive individual and collective productivity\n- Education rooted in values produces citizens with both technical skills and moral character\n- NEP 2020 emphasises holistic development, embedding ethical thinking into curricula\n- Low corruption in public institutions (a function of ethical governance) enables efficient skill development and welfare delivery\n\n**2. Soft Power (Culture and Policies)**\n- India's civilisational values — *ahimsa*, *vasudhaiva kutumbakam*, yoga, tolerance — constitute its greatest soft power assets\n- Ethical foreign policy builds trust: India's credibility as a reliable partner (e.g., vaccine diplomacy during COVID-19) enhances global standing\n- Values-driven cultural exports (literature, cinema, Ayurveda) project an ethical image internationally\n\n**3. Social Harmony**\n- Values of justice, equality, and fraternity (Preamble) bind diverse communities\n- Ethical leadership resolves social conflicts without violence — key to domestic stability\n- Constitutional morality — Dr. B.R. Ambedkar's concept — prioritises principles of equality over majoritarian impulse\n- Social capital (trust between citizens and institutions) is an ethical construct that reduces conflict costs\n\n**Conclusion:** Nations with strong ethical foundations build more durable CNP. India's challenge is to translate its rich value heritage into institutional practice — creating a virtuous cycle of ethical governance and national power.",
+      "key_points": [
+        "CNP has military, economic, diplomatic, and soft power dimensions",
+        "Ethics drives human capital through productive values and low corruption",
+        "Vasudhaiva kutumbakam and ahimsa as India's soft power foundations",
+        "Constitutional morality (Ambedkar) — foundation of social harmony",
+        "Social capital is an ethical construct reducing conflict costs"
+      ],
+      "keywords": ["Comprehensive National Power", "soft power", "human capital", "social harmony", "vasudhaiva kutumbakam", "constitutional morality", "Ambedkar", "NEP 2020"],
+      "sources": ["NEP 2020 (Government of India)", "Dr. B.R. Ambedkar's speeches on Constitutional Morality", "India's Foreign Policy and Vaccine Diplomacy", "Lexicon for Ethics by Chronicle Publications"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2019-01",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2019,
+    "marks": 10,
+    "words": 150,
+    "question": "What are the basic principles of public life? Illustrate any three of these with suitable examples.",
+    "topic": "Ethics in Public Administration",
+    "subtopic": "Civil Service Values",
+    "difficulty": "easy",
+    "model_answer": {
+      "text": "## Basic Principles of Public Life\n\nThe **Nolan Committee (Committee on Standards in Public Life, 1995)** articulated seven foundational principles for public life, widely adopted by democratic governments including India:\n\n1. **Selflessness** — Act solely in the public interest; no personal benefit\n2. **Integrity** — Avoid financial or other obligations that might compromise judgment\n3. **Objectivity** — Base decisions on merit, evidence, and fairness\n4. **Accountability** — Submit to public scrutiny; be answerable for decisions\n5. **Openness** — Be transparent; share information unless specific public interest demands confidentiality\n6. **Honesty** — Declare conflicts of interest; be truthful\n7. **Leadership** — Promote and support these principles by personal example\n\n**Illustrations:**\n\n**Selflessness — T.N. Seshan (CEC, 1990–96):**\nDespite political pressure from the ruling establishment, Seshan upheld electoral laws with zero compromise. His reforms — multi-photo ID cards, limits on election expenditure — were driven purely by public interest, at great personal and professional cost.\n\n**Integrity — E. Sreedharan (Delhi Metro):**\nAs MD of DMRC, Sreedharan ensured the Delhi Metro was completed ahead of schedule, within budget, and without corruption allegations — a rare achievement in Indian infrastructure. He returned government housing after retirement, symbolising his personal integrity.\n\n**Accountability — CAG of India:**\nThe Comptroller and Auditor General's reports on the 2G spectrum scam and Coal allocation irregularities demonstrated institutional accountability — holding the executive answerable even when politically inconvenient.\n\n**Conclusion:** These principles are not aspirational ideals — they are the operational standards by which public servants earn the trust that democratic governance demands.",
+      "key_points": [
+        "Nolan Committee (1995) — seven principles of public life",
+        "Selflessness: T.N. Seshan's electoral reforms despite political pressure",
+        "Integrity: E. Sreedharan's incorruptible record with Delhi Metro",
+        "Accountability: CAG's exposure of 2G and Coal scam irregularities"
+      ],
+      "keywords": ["Nolan Committee", "seven principles of public life", "selflessness", "integrity", "accountability", "objectivity", "openness", "T.N. Seshan", "E. Sreedharan"],
+      "sources": ["Nolan Committee Report (1995) — Seven Principles of Public Life", "ARC 2nd Report on Ethics in Governance", "CAG Annual Reports"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2019-02",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2019,
+    "marks": 10,
+    "words": 150,
+    "question": "\"Non-performance of duty by a public servant is a form of corruption.\" Do you agree with this view? Justify your answer.",
+    "topic": "Ethics in Public Administration",
+    "subtopic": "Duty and Corruption",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Non-Performance of Duty as Corruption\n\nYes, non-performance of duty by a public servant constitutes a form of corruption — though it is often less visible than financial corruption.\n\n**Why It Is Corruption:**\n\n1. **Betrayal of trust:** Public servants are trustees of citizen welfare. Non-performance is a breach of that trust — the defining element of corruption\n2. **ARC Definition:** The 2nd ARC defines corruption broadly to include *abuse of power, breach of trust, and failure to perform public duties* — explicitly covering non-performance\n3. **Economic harm:** When an officer delays signing a licence, approving a pension, or releasing a payment — real economic harm accrues to citizens and the economy\n4. **Moral dimension:** Kautilya in Arthashastra identified *alasya* (sloth) as a form of administrative vice equal in consequence to active misconduct\n5. **Legal basis:** Prevention of Corruption Act 1988, Section 13(1)(d) covers *criminal misconduct* including abuse of position — which extends to wilful negligence of duty\n\n**Counterargument:**\n- Non-performance due to incapacity, systemic failure, or resource constraints may not constitute corruption\n- Intent matters: corruption typically implies deliberate wrongdoing\n\n**Reconciliation:**\nNon-performance is corruption when it is:\n- Deliberate (motivated by laziness, malice, or extraction of bribe for action)\n- Systemic (normalised dereliction that leadership condones)\n\n**Conclusion:** A civil servant who collects a salary but denies citizens their due is engaged in a transaction as corrupt as bribery — one enriches the officer, the other impoverishes the citizen. Both violate the covenant of public service.",
+      "key_points": [
+        "ARC 2nd Report — corruption includes breach of trust and failure to perform duty",
+        "Non-performance causes measurable economic harm to citizens",
+        "Kautilya's Arthashastra — sloth (alasya) is an administrative vice",
+        "Prevention of Corruption Act 1988 — Section 13(1)(d)",
+        "Intent matters: non-performance is corrupt when deliberate or systemic"
+      ],
+      "keywords": ["non-performance", "duty", "corruption", "breach of trust", "ARC 2nd Report", "Prevention of Corruption Act", "Kautilya", "Arthashastra"],
+      "sources": ["ARC 2nd Report on Ethics in Governance", "Prevention of Corruption Act 1988", "Arthashastra by Kautilya", "Central Civil Services (Conduct) Rules 1964"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2019-03",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2019,
+    "marks": 10,
+    "words": 150,
+    "question": "\"Emotional Intelligence is the ability to make your emotions work for you instead of against you.\" Do you agree with this view? Discuss.",
+    "topic": "Emotional Intelligence",
+    "subtopic": "Definition and Application of EI",
+    "difficulty": "easy",
+    "model_answer": {
+      "text": "## Emotional Intelligence: Making Emotions Work For You\n\nThe statement captures the essence of **Emotional Intelligence (EI)** as articulated by **Daniel Goleman (1995)** — emotions are not liabilities to be suppressed but assets to be channelled.\n\n**Agreement with the Statement:**\n\nGoleman's model identifies five components of EI:\n1. **Self-awareness:** Recognising one's emotional state — the prerequisite for directing emotions constructively\n2. **Self-regulation:** Converting anger into assertiveness; converting anxiety into focus\n3. **Motivation:** Using passion and drive to sustain effort in the face of setbacks\n4. **Empathy:** Reading others' emotions — essential for negotiation, conflict resolution, and leadership\n5. **Social skills:** Using emotional attunement to build coalitions and manage teams\n\n**Applied to Civil Service:**\n- A collector facing hostile villagers during a project — anger responses escalate; empathy de-escalates and builds trust\n- An IAS officer pressured by political superiors — self-regulation prevents impulsive resignation or sycophantic compliance; enables a measured, principled response\n- A field officer distributing relief in disaster — empathy enables reading distress signals beyond verbal communication\n\n**Academic Support:**\n- Peter Salovey and John D. Mayer (1990) — original theorists: EI = perceiving, using, understanding, and managing emotions\n- IQ predicts potential; EI determines how that potential is deployed in social contexts (Goleman)\n\n**Limitation:** Emotions can be manipulated — high EI without ethical grounding enables sophisticated manipulation. EI must be paired with values.\n\n**Conclusion:** Yes, EI transforms emotions from random forces into purposeful instruments. For public servants who navigate complex human environments daily, EI is as indispensable as domain expertise.",
+      "key_points": [
+        "Goleman's five components: self-awareness, self-regulation, motivation, empathy, social skills",
+        "IQ = potential; EI = how that potential is deployed in social contexts",
+        "Salovey and Mayer (1990) — original EI theorists",
+        "EI must be paired with ethical values to prevent manipulation",
+        "Empathy is critical for civil servants managing conflict situations"
+      ],
+      "keywords": ["emotional intelligence", "Daniel Goleman", "Salovey and Mayer", "self-awareness", "self-regulation", "empathy", "social skills", "EQ"],
+      "sources": ["Emotional Intelligence by Daniel Goleman (1995)", "Emotional Intelligence Theory — Peter Salovey and John Mayer (1990)", "ARC 2nd Report on Ethics in Governance"]
+    }
+  },
+  {
+    "id": "gs4-pyq-2019-04",
+    "type": "pyq",
+    "paper": "gs4",
+    "year": 2019,
+    "marks": 10,
+    "words": 150,
+    "question": "What is meant by 'constitutional morality'? How does one uphold constitutional morality in the face of social morality?",
+    "topic": "Ethics in Public Administration",
+    "subtopic": "Constitutional Values",
+    "difficulty": "medium",
+    "model_answer": {
+      "text": "## Constitutional Morality vs. Social Morality\n\n**Constitutional morality**, as articulated by **Dr. B.R. Ambedkar** in the Constituent Assembly debates, means the unwavering adherence to the forms and procedures of the Constitution — its spirit, not just its letter. It prioritises individual rights, rule of law, and equality over dominant social customs.\n\n**Key Elements of Constitutional Morality:**\n- Supremacy of the Constitution\n- Protection of individual rights against majoritarian excess\n- Separation of powers and judicial independence\n- Non-discrimination based on religion, caste, sex (Articles 14–16)\n\n**Conflict with Social Morality:**\nSocial morality reflects prevailing community norms — often shaped by religion, caste, or tradition. When the majority's social morality conflicts with constitutional guarantees, constitutional morality must prevail.\n\n**Examples:**\n1. **Section 377 (Navtej Singh Johar v. Union of India, 2018):** A large section of social morality condemned same-sex relations. The Supreme Court invoked constitutional morality to decriminalise homosexuality, protecting individual dignity under Article 21\n2. **Triple Talaq (Shayara Bano v. Union of India, 2017):** Instant triple talaq had social legitimacy in certain communities. The Supreme Court struck it down as unconstitutional — constitutional morality overriding religious-social norm\n3. **Sabarimala (Indian Young Lawyers Association v. State of Kerala, 2018):** Traditional exclusion of women vs. right to worship — constitutional morality upheld equality\n\n**How to Uphold It:**\n- Judiciary: Active constitutional review of majoritarian legislation\n- Civil servants: Implement laws fairly regardless of personal or community beliefs\n- Citizens: Engage in constitutional discourse, not mob morality\n\n**Conclusion:** Constitutional morality is India's ethical insurance policy — ensuring that the rights of every individual are protected even when popular sentiment runs against them.",
+      "key_points": [
+        "Constitutional morality — Ambedkar's concept: adherence to spirit of Constitution",
+        "Prioritises individual rights over majoritarian social norms",
+        "Section 377 decriminalisation, Triple Talaq ban, Sabarimala — SC invoking constitutional morality",
+        "Civil servants must implement law regardless of personal social morality",
+        "Constitutional morality is the ethical insurance against majoritarianism"
+      ],
+      "keywords": ["constitutional morality", "social morality", "Ambedkar", "Article 21", "Section 377", "Navtej Singh Johar", "Sabarimala", "Shayara Bano", "majoritarianism"],
+      "sources": ["Constituent Assembly Debates — Dr. B.R. Ambedkar", "Navtej Singh Johar v. Union of India (2018)", "Shayara Bano v. Union of India (2017)", "Indian Young Lawyers Association v. State of Kerala (2018)"]
+    }
+  }
+]
