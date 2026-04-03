@@ -1961,6 +1961,63 @@ function startTest(caQuestions) {
   window.scrollTo(0, 0);
 }
 
+/* Normalise a CA question that has an inline numbered list in stem.
+   Converts: "Intro: 1. Stmt A 2. Stmt B Which of the above..."
+   To:       qtype:'statement', stem:'Intro:', statements:[], tail:'Which...'  */
+function normalizeCAQuestion(q) {
+  if (!q.stem || (q.qtype && q.qtype !== 'direct')) return q;
+  var stem = q.stem.trim();
+  /* Must contain at least "1. " and "2. " to be a list question */
+  if (!/\b1\.\s/.test(stem) || !/\b2\.\s/.test(stem)) return q;
+
+  /* Split off intro (everything before "1.") */
+  var firstIdx = stem.search(/\b1\.\s/);
+  var intro = stem.substring(0, firstIdx).trim().replace(/:$/, ':');
+
+  /* Split the rest on "N. " delimiters */
+  var rest = stem.substring(firstIdx);
+  var rawParts = rest.split(/\s*\b\d+\.\s+/).filter(function(s){ return s.trim(); });
+
+  /* Detect a tail sentence in the last part (question phrase after the period) */
+  var tail = '';
+  var tailRe = /\s+((?:Which|How many|Select|Choose|Among|Of the above|Of these)[^]*)$/i;
+  var last = rawParts[rawParts.length - 1] || '';
+  var tm = last.match(tailRe);
+  if (tm) {
+    rawParts[rawParts.length - 1] = last.substring(0, tm.index).trim();
+    tail = tm[1].trim();
+  }
+
+  var statements = rawParts
+    .map(function(s){ return s.trim().replace(/\.\s*$/, ''); })
+    .filter(Boolean);
+
+  if (statements.length < 2) return q; /* not enough items — leave as-is */
+
+  return Object.assign({}, q, {
+    qtype: 'statement',
+    stem: intro,
+    statements: statements,
+    tail: tail
+  });
+}
+
+/* Normalise Assertion-Reason questions that have A/R embedded in stem.
+   Detects: "Assertion (A): ... Reason (R): ..." in the stem field.        */
+function normalizeARQuestion(q) {
+  if (!q.stem || (q.qtype && q.qtype !== 'direct')) return q;
+  var stem = q.stem.trim();
+  var arRe = /Assertion\s*\(A\)\s*[:\-]\s*(.*?)\s+Reason\s*\(R\)\s*[:\-]\s*(.*?)(?:\s+In the context.*|$)/is;
+  var m = stem.match(arRe);
+  if (!m) return q;
+  return Object.assign({}, q, {
+    qtype: 'assertion',
+    assertion: m[1].trim().replace(/\.\s*$/, ''),
+    reason: m[2].trim().replace(/\.\s*$/, ''),
+    stem: undefined
+  });
+}
+
 /* Fetch CA questions then start — entry point for all start paths */
 function launchTest() {
   if (caCount === 0 || caSelectedMonths.length === 0) {
@@ -1979,7 +2036,11 @@ function launchTest() {
   Promise.all(urls.map(function(url){ return fetch(url).then(function(r){ return r.json(); }).then(function(d){ return d.questions || d; }); }))
     .then(function(arrays) {
       var all = [].concat.apply([], arrays);
-      all = all.map(function(q){ return Object.assign({}, q, { _subject: 'current-affairs' }); });
+      all = all.map(function(q){
+        var n = normalizeCAQuestion(q);
+        n = normalizeARQuestion(n);
+        return Object.assign({}, n, { _subject: 'current-affairs' });
+      });
       all = shuffle(all).slice(0, caCount);
       startTest(all);
     })
