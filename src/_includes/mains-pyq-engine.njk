@@ -203,12 +203,12 @@
     <div class="mpq-hero__inner">
       <span class="mpq-kicker">✍️ UPSC Mains PYQs</span>
       <h1>Previous Year <em>Mains</em> Questions</h1>
-      <p class="mpq-hero__sub">GS I–IV, 2019–2024 — attempt any question, write your answer, get AI evaluation.</p>
+      <p class="mpq-hero__sub">GS I–IV, 2019–2024 — browse, attempt and compare with model answers.</p>
       <div class="mpq-stats">
         <div class="mpq-stat"><strong id="mpq-total-count">—</strong>&nbsp;Questions</div>
         <div class="mpq-stat"><strong>2019–2024</strong>&nbsp;Years</div>
         <div class="mpq-stat"><strong>GS I–IV</strong>&nbsp;Papers</div>
-        <div class="mpq-stat"><strong>AI Eval</strong>&nbsp;Free</div>
+        <div class="mpq-stat"><strong>Model Answers</strong>&nbsp;Included</div>
       </div>
     </div>
   </div>
@@ -365,7 +365,7 @@ function openAttempt(q) {
       '<textarea class="mpq-textarea" id="mpq-textarea" placeholder="Write your answer here…"></textarea>' +
       '<div class="mpq-wc-row">' +
         '<div class="mpq-actions">' +
-          '<button class="mpq-btn-eval" id="mpq-eval-btn">✦ Evaluate with AI</button>' +
+          (EVAL_URL ? '<button class="mpq-btn-eval" id="mpq-eval-btn">✦ Evaluate with AI</button>' : '') +
           '<button class="mpq-btn-voice" id="mpq-voice-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg> Voice</button>' +
         '</div>' +
       '</div>' +
@@ -383,7 +383,8 @@ function openAttempt(q) {
   });
 
   /* Eval button */
-  document.getElementById('mpq-eval-btn').addEventListener('click', function(){
+  var evalBtn = document.getElementById('mpq-eval-btn');
+  if (evalBtn) evalBtn.addEventListener('click', function(){
     var ans = ta.value.trim();
     if (!ans) { alert('Please write an answer first.'); return; }
     requestEval(q, ans);
