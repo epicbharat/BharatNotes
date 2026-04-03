@@ -143,6 +143,71 @@
 .ee-name-input-wrap input:focus{border-color:var(--color-brand);background:#fff;box-shadow:0 0 0 3px rgba(15,76,58,.08);}
 .ee-name-hint{font-size:0.62rem;color:var(--color-text-muted);}
 
+/* ── Current Affairs card ── */
+.ee-ca-header{
+  display:flex;align-items:center;justify-content:space-between;
+  flex-wrap:wrap;gap:8px;margin-bottom:var(--space-4);
+}
+.ee-ca-powered{
+  display:inline-flex;align-items:center;gap:6px;
+  font-size:0.62rem;font-weight:700;color:var(--color-text-muted);
+  text-decoration:none;
+}
+.ee-ca-powered svg{ flex-shrink:0; }
+.ee-ca-powered:hover{ color:var(--color-brand); }
+.ee-ca-count-row{ display:flex;gap:8px;flex-wrap:wrap;margin-bottom:0; }
+.ee-ca-chip{
+  border:1.5px solid #e5e7eb;border-radius:8px;
+  background:#fafafa;color:var(--color-text-muted);
+  font-size:var(--text-xs);font-weight:700;
+  padding:7px 14px;cursor:pointer;transition:all .15s;
+}
+.ee-ca-chip:hover{ border-color:var(--color-brand);color:var(--color-brand); }
+.ee-ca-chip.active{
+  background:var(--color-brand);border-color:var(--color-brand);color:#fff;
+}
+.ee-ca-months-wrap{
+  margin-top:var(--space-4);
+  border-top:1px solid #f0f0ec;
+  padding-top:var(--space-3);
+}
+.ee-ca-status{
+  font-size:var(--text-xs);color:var(--color-text-muted);
+  display:flex;align-items:center;gap:7px;
+}
+.ee-ca-status--error{ color:#dc2626; }
+.ee-ca-months{ display:flex;flex-direction:column;gap:6px;margin-top:var(--space-3); }
+.ee-ca-month{
+  display:flex;align-items:center;gap:10px;
+  padding:10px 12px;
+  border:1.5px solid #e5e7eb;border-radius:10px;
+  cursor:pointer;transition:border-color .15s;
+  font-size:var(--text-xs);font-weight:600;
+}
+.ee-ca-month:hover{ border-color:var(--color-brand); }
+.ee-ca-month input[type=checkbox]{ accent-color:var(--color-brand);width:15px;height:15px;flex-shrink:0;cursor:pointer; }
+.ee-ca-month__label{ flex:1; }
+.ee-ca-month__count{
+  font-size:0.6rem;font-weight:700;padding:2px 8px;border-radius:100px;
+  background:#f0f7f4;color:var(--color-brand);white-space:nowrap;
+}
+/* Loading spinner (reuse for CA) */
+.ee-ca-spinner{
+  width:13px;height:13px;border:2px solid #e5e7eb;border-top-color:var(--color-brand);
+  border-radius:50%;animation:ee-spin .7s linear infinite;flex-shrink:0;
+}
+@keyframes ee-spin{ to{ transform:rotate(360deg); } }
+/* Toast */
+.ee-toast{
+  position:fixed;bottom:80px;left:50%;transform:translateX(-50%) translateY(20px);
+  background:#1c1917;color:#fff;font-size:var(--text-xs);font-weight:600;
+  padding:10px 18px;border-radius:100px;
+  box-shadow:0 4px 20px rgba(0,0,0,.25);
+  opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;
+  z-index:9999;white-space:nowrap;
+}
+.ee-toast.show{ opacity:1;transform:translateX(-50%) translateY(0); }
+
 /* ── Launch row (preview + button) ── */
 .ee-launch-card{
   background:#fff;border:1px solid #e5e7eb;border-radius:16px;
@@ -952,6 +1017,31 @@ body.ee-exam-active .ee-exit{ border-color:rgba(255,255,255,.4);color:#fff; }
         </div>
       </div>
 
+      <!-- Current Affairs -->
+      <div class="ee-setup-card" id="ee-ca-section">
+        <div class="ee-ca-header">
+          <div class="ee-section-label" style="margin:0;">Current Affairs</div>
+          <a class="ee-ca-powered" href="https://ujiyari.com" target="_blank" rel="noopener">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            Powered by Ujiyari.com
+          </a>
+        </div>
+        <div class="ee-ca-count-row" id="ee-ca-count-row">
+          <button class="ee-ca-chip active" data-n="0">Off</button>
+          <button class="ee-ca-chip" data-n="5">5 Qs</button>
+          <button class="ee-ca-chip" data-n="10">10 Qs</button>
+          <button class="ee-ca-chip" data-n="15">15 Qs</button>
+          <button class="ee-ca-chip" data-n="20">20 Qs</button>
+        </div>
+        <div class="ee-ca-months-wrap" id="ee-ca-months-wrap" style="display:none;">
+          <div class="ee-ca-status" id="ee-ca-status">
+            <div class="ee-ca-spinner"></div>
+            Loading available months…
+          </div>
+          <div class="ee-ca-months" id="ee-ca-months"></div>
+        </div>
+      </div>
+
       <!-- Name input -->
       <div class="ee-setup-card">
         <div class="ee-section-label">Your Name</div>
@@ -1159,6 +1249,9 @@ body.ee-exam-active .ee-exit{ border-color:rgba(255,255,255,.4);color:#fff; }
     <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
   </button>
 </div>
+
+<!-- Toast -->
+<div class="ee-toast" id="ee-toast"></div>
 
 <!-- ═══ INSTRUCTION MODAL ════════════════════════════════════════ -->
 <div class="ee-instr-overlay" id="ee-instr-overlay" style="display:none;">
@@ -1399,7 +1492,8 @@ var SUBJ_META = {
   'international-relations': { name:'International Relations',  color:'#0e7490' },
   'society':                 { name:'Indian Society',           color:'#be123c' },
   'security':                { name:'Internal Security',        color:'#1e3a5f' },
-  'disaster-management':     { name:'Disaster Management',      color:'#dc2626' }
+  'disaster-management':     { name:'Disaster Management',      color:'#dc2626' },
+  'current-affairs':         { name:'Current Affairs',          color:'#d97706' }
 };
 
 /* ══ Constants ═════════════════════════════════════════════════ */
@@ -1416,6 +1510,10 @@ var selectedSize     = cfgSizes[cfgDefaultSize] ? cfgSizes[cfgDefaultSize].n    
 var selectedMins     = cfgSizes[cfgDefaultSize] ? cfgSizes[cfgDefaultSize].mins : 120;
 var selectedSubjects = [];
 var testQuestions    = [];
+var caCount          = 0;          // 0 = off
+var caSelectedMonths = [];         // ['2026-03', '2026-02', ...]
+var caManifest       = [];         // [{month, label, count, url}, ...]
+var CA_MANIFEST_URL  = 'https://ujiyari.com/api/ca-manifest.json';
 var userAnswers      = {};
 var questionStatus   = [];
 var currentQ         = 0;
@@ -1615,8 +1713,11 @@ function updatePreview() {
 updatePreview();
 
 /* ══ Build Test ════════════════════════════════════════════════ */
-function buildTest() {
-  testQuestions = shuffle(getPool()).slice(0, selectedSize);
+function buildTest(caQuestions) {
+  caQuestions = caQuestions || [];
+  var coreSize = Math.max(0, selectedSize - caQuestions.length);
+  var pool = shuffle(getPool()).slice(0, coreSize);
+  testQuestions = shuffle(pool.concat(caQuestions));
   userAnswers   = {};
   questionStatus = testQuestions.map(function(){ return 'not-visited'; });
   currentQ = 0;
@@ -1836,12 +1937,20 @@ nameInput.addEventListener('focus', function(){ this.style.borderColor = 'var(--
 nameInput.addEventListener('blur',  function(){ this.style.borderColor = 'var(--color-border)'; });
 
 /* ══ Start test ════════════════════════════════════════════════ */
-function startTest() {
+function showToast(msg) {
+  var t = document.getElementById('ee-toast');
+  if (!t) return;
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(function(){ t.classList.remove('show'); }, 3500);
+}
+
+function startTest(caQuestions) {
   /* Capture & persist name */
   candidateName = (nameInput.value || '').trim() || 'Aspirant';
   try { localStorage.setItem('bn_exam_name', candidateName === 'Aspirant' ? '' : candidateName); } catch(e){}
 
-  buildTest();
+  buildTest(caQuestions || []);
   if (testQuestions.length === 0) { alert('No questions available.'); return; }
   startTimer(selectedMins);
   document.getElementById('ee-setup').style.display  = 'none';
@@ -1850,6 +1959,41 @@ function startTest() {
   enterFullscreen();
   showQuestion(0);
   window.scrollTo(0, 0);
+}
+
+/* Fetch CA questions then start — entry point for all start paths */
+function launchTest() {
+  if (caCount === 0 || caSelectedMonths.length === 0) {
+    startTest([]);
+    return;
+  }
+  /* Show loading on start btn */
+  var btn = document.getElementById('ee-start-btn');
+  btn.disabled = true;
+  btn.innerHTML = '<div class="ee-ca-spinner" style="border-top-color:#fff;margin-right:8px;"></div>Fetching current affairs…';
+
+  var urls = caManifest
+    .filter(function(m){ return caSelectedMonths.indexOf(m.month) > -1; })
+    .map(function(m){ return m.url.startsWith('http') ? m.url : 'https://ujiyari.com' + m.url; });
+
+  Promise.all(urls.map(function(url){ return fetch(url).then(function(r){ return r.json(); }); }))
+    .then(function(arrays) {
+      var all = [].concat.apply([], arrays);
+      all = all.map(function(q){ return Object.assign({}, q, { _subject: 'current-affairs' }); });
+      all = shuffle(all).slice(0, caCount);
+      startTest(all);
+    })
+    .catch(function() {
+      showToast('⚠ Could not fetch current affairs — starting without them.');
+      startTest([]);
+    })
+    .finally(function() {
+      var b = document.getElementById('ee-start-btn');
+      if (b) {
+        b.disabled = false;
+        b.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>Start Test';
+      }
+    });
 }
 
 /* ══ Instruction modal ══════════════════════════════════════════ */
@@ -1871,7 +2015,7 @@ function hideInstrModal() {
 document.getElementById('ee-start-btn').addEventListener('click', function() {
   var seen = false;
   try { seen = !!localStorage.getItem('bn_exam_guide_seen'); } catch(e){}
-  if (seen) { startTest(); return; }
+  if (seen) { launchTest(); return; }
   showInstrModal();
 });
 
@@ -1882,7 +2026,7 @@ document.getElementById('ee-instr-begin-btn').addEventListener('click', function
     }
   } catch(e){}
   hideInstrModal();
-  startTest();
+  launchTest();
 });
 
 /* ══ Help popover ══════════════════════════════════════════════ */
@@ -1986,10 +2130,74 @@ document.querySelectorAll('.ee-sc').forEach(function(btn){
   });
 });
 
+/* ══ Current Affairs integration ══════════════════════════════ */
+
+/* Count chip clicks */
+document.getElementById('ee-ca-count-row').addEventListener('click', function(e) {
+  var chip = e.target.closest('.ee-ca-chip');
+  if (!chip) return;
+  document.querySelectorAll('.ee-ca-chip').forEach(function(c){ c.classList.remove('active'); });
+  chip.classList.add('active');
+  caCount = parseInt(chip.dataset.n, 10);
+  var wrap = document.getElementById('ee-ca-months-wrap');
+  if (caCount > 0) {
+    wrap.style.display = '';
+  } else {
+    wrap.style.display = 'none';
+  }
+  updatePreview();
+});
+
+/* Fetch manifest */
+(function fetchCAManifest() {
+  fetch(CA_MANIFEST_URL)
+    .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(function(data) {
+      caManifest = data;
+      var status = document.getElementById('ee-ca-status');
+      if (status) status.style.display = 'none';
+      renderCAMonths(data);
+    })
+    .catch(function() {
+      var status = document.getElementById('ee-ca-status');
+      if (status) {
+        status.innerHTML = 'Could not load months — check back later.';
+        status.className = 'ee-ca-status ee-ca-status--error';
+      }
+    });
+})();
+
+function renderCAMonths(manifest) {
+  var container = document.getElementById('ee-ca-months');
+  if (!container) return;
+  container.innerHTML = '';
+  manifest.forEach(function(m, i) {
+    var checked = (i === 0); // default: latest month pre-selected
+    if (checked && caSelectedMonths.indexOf(m.month) === -1) {
+      caSelectedMonths.push(m.month);
+    }
+    var row = document.createElement('label');
+    row.className = 'ee-ca-month';
+    row.innerHTML =
+      '<input type="checkbox" value="' + esc(m.month) + '"' + (checked ? ' checked' : '') + '>' +
+      '<span class="ee-ca-month__label">' + esc(m.label) + '</span>' +
+      '<span class="ee-ca-month__count">' + m.count + ' questions</span>';
+    row.querySelector('input').addEventListener('change', function(e) {
+      if (e.target.checked) {
+        if (caSelectedMonths.indexOf(m.month) === -1) caSelectedMonths.push(m.month);
+      } else {
+        caSelectedMonths = caSelectedMonths.filter(function(x) { return x !== m.month; });
+      }
+      updatePreview();
+    });
+    container.appendChild(row);
+  });
+}
+
 /* autoStart — skip setup view */
 if (cfgAutoStart) {
   document.getElementById('ee-setup').style.display = 'none';
-  startTest();
+  launchTest();
 }
 
 /* ══ Exit test ═════════════════════════════════════════════════ */
