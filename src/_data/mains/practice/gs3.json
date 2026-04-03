@@ -1,0 +1,100 @@
+[
+  {
+    "id": "gs3-001",
+    "paper": "gs3",
+    "topic": "Agriculture",
+    "subtopic": "Farmers' Income and Agricultural Challenges",
+    "year": 2023,
+    "marks": 15,
+    "words": 250,
+    "question": "What are the challenges faced by India's agriculture sector? Discuss the measures needed to double farmers' income.",
+    "model_answer": {
+      "text": "Agriculture remains India's economic backbone — employing over 45% of the workforce while contributing ~17% of GDP (2023–24). Yet, an average Indian farmer earns barely ₹10,218 per month (NABARD NAFIS Survey 2018), reflecting a deep structural crisis. Doubling farmers' income (DFI) — announced by PM Modi in February 2016 with a 2022 target — thus carries both economic and political urgency.\n\n**Challenges in Indian Agriculture**\n- **Fragmented landholding**: Average farm size is ~1.08 hectares (Agriculture Census 2015–16); 86% of farmers are small and marginal, limiting mechanisation and economies of scale.\n- **Low productivity**: Yield gaps persist across crops — India's rice yield (~2.6 t/ha) lags behind China (~6.7 t/ha) and Vietnam (~5.8 t/ha).\n- **Market failures**: Only ~6% of farmers access Minimum Support Price (MSP) procurement; most sell at distress prices through intermediaries in fragmented APMC mandis.\n- **Credit and insurance gaps**: Institutional credit often bypasses tenant farmers, sharecroppers, and women cultivators — who lack Record of Rights (RoR) and hence are excluded from PM-KISAN and PMFBY.\n- **Climate vulnerability**: Hydro-meteorological calamities damaged ~33.9 million hectares of cropped area between 2015–16 and 2021–22.\n- **Input cost escalation**: Rising costs of fertilisers, pesticides, seeds, and energy erode net income even when output prices rise.\n- **Post-harvest losses**: India loses ~16% of food production post-harvest due to inadequate cold chain, storage, and processing infrastructure.\n\n**Ashok Dalwai Committee Blueprint (2018)**\nThe 14-volume report of the Dalwai Committee (constituted 2016, report submitted September 2018) identified seven sources of income growth: productivity improvement, reduction in cost of cultivation, diversification toward high-value crops, improved price realisation, non-farm income, risk mitigation, and allied sector integration.\n\n**Measures Needed**\n- **Market reforms**: Expand e-NAM (electronic National Agricultural Market) to integrate mandis; reform APMC Acts to allow direct farmer-to-buyer sales.\n- **Income support**: PM-KISAN (₹6,000/year direct benefit transfer, launched December 2018) must be expanded to cover all cultivators including tenant farmers.\n- **Crop insurance**: PMFBY (launched February 2016) must be reformed — faster claim settlements (currently delayed by months), reduced premiums, and satellite-based assessment.\n- **Irrigation**: PM Krishi Sinchai Yojana targets \"Har Khet ko Pani, More Crop Per Drop\" — micro-irrigation expansion is critical given that only 52% of net sown area is irrigated.\n- **Allied sectors**: Diversification into horticulture, dairy, fisheries, and poultry can raise income 2–3x compared to cereal monoculture.\n- **Value chain investment**: Cold chains, food processing (PM Formalisation of Micro Food Processing Enterprises scheme, 2020), and agri-logistics infrastructure reduce post-harvest losses.\n- **Soil health**: Soil Health Cards (SHCs) and precision farming technologies reduce input costs while maintaining productivity.\n\n**Conclusion**\nDoubling farmers' income requires a simultaneous push on productivity, markets, risk mitigation, and allied sectors. The Dalwai Committee framework remains the most comprehensive roadmap — its implementation through convergent Centre-state cooperation is the key challenge ahead.",
+      "key_points": [
+        "Agriculture: 45%+ workforce, ~17% GDP; average farm income ~₹10,218/month (NAFIS 2018)",
+        "DFI announced February 2016 with 2022 target; Dalwai Committee constituted same year",
+        "Dalwai Committee 14-volume report (2018) — seven sources of income growth identified",
+        "86% small and marginal farmers; average holding 1.08 ha (Agriculture Census 2015–16)",
+        "Only ~6% farmers access MSP procurement; rest sell at distress prices",
+        "PM-KISAN (Dec 2018) — ₹6,000/year DBT; excludes tenant farmers and sharecroppers",
+        "PMFBY (Feb 2016) — crop insurance scheme; claim settlement delays remain a critical gap",
+        "e-NAM and APMC reform needed for better price realisation",
+        "PM Krishi Sinchai Yojana — micro-irrigation; only 52% net sown area is irrigated",
+        "Allied sectors (dairy, fisheries, horticulture) can multiply income compared to cereal farming"
+      ],
+      "keywords": [
+        "Doubling Farmers' Income",
+        "Dalwai Committee",
+        "PM-KISAN",
+        "PMFBY",
+        "e-NAM",
+        "MSP",
+        "APMC",
+        "PM Krishi Sinchai Yojana",
+        "Soil Health Card",
+        "small and marginal farmers",
+        "post-harvest losses",
+        "allied sectors",
+        "value chain",
+        "NABARD NAFIS"
+      ],
+      "sources": [
+        "Wikipedia — Doubling Farmers' Income (Ashok Dalwai Committee)",
+        "Testbook — Ashok Dalwai Committee: Background, Objectives, Key Recommendations",
+        "PIB — Pradhan Mantri Fasal Bima Yojana statistics (pmfby.gov.in)",
+        "India.gov.in — PM-KISAN scheme details",
+        "agriwelfare.gov.in — Department of Agriculture & Farmers Welfare, DFI page"
+      ]
+    },
+    "difficulty": "medium",
+    "type": "practice"
+  },
+  {
+    "id": "gs3-002",
+    "paper": "gs3",
+    "topic": "Economy",
+    "subtopic": "Manufacturing and Industrial Policy",
+    "year": 2022,
+    "marks": 10,
+    "words": 150,
+    "question": "Discuss the significance of the Production Linked Incentive (PLI) scheme for India's manufacturing sector.",
+    "model_answer": {
+      "text": "India's manufacturing sector contributes ~17% of GDP against an aspirational target of 25% envisaged under the National Manufacturing Policy (2011). The Production Linked Incentive (PLI) scheme — first launched in March–April 2020 for mobile phones, Active Pharmaceutical Ingredients (APIs), and medical devices — represents India's most ambitious industrial policy intervention since liberalisation.\n\n**Design and Scope**\nPLI schemes incentivise incremental sales above a base year threshold, with incentives ranging from 4–20% depending on the sector. By 2021, the scheme was expanded to 14 strategic sectors with a total outlay of ₹1.97 lakh crore (~$28 billion), including automobiles, electronics, telecom, pharmaceuticals, solar PV modules, textiles, white goods, specialty steel, and advanced chemistry cell batteries.\n\n**Significance**\n- **Investment mobilisation**: By March 2025, actual investments of ₹1.76 lakh crore (~$20.3 billion) were realised across 14 sectors.\n- **Production surge**: Incremental production/sales exceeded ₹16.5 lakh crore by March 2025.\n- **Employment generation**: Over 12 lakh direct and indirect jobs created across PLI sectors.\n- **Export boost**: Mobile phone exports rose ~8x — from ₹22,871 crore (2020–21) to ₹2 lakh crore (2024–25). India transitioned from a net importer to net exporter of bulk drugs.\n- **Atmanirbhar Bharat**: PLI directly operationalises self-reliance by reducing import dependence in critical sectors — semiconductors, defence electronics, APIs.\n- **Global supply chain integration**: PLI attracted Apple ecosystem partners (Foxconn, Pegatron, Tata) to India, positioning it as an alternative to China.\n\n**Challenges**\n- Low domestic value addition in electronics (much of it is assembly); some sectors like specialty steel and drones face slower-than-expected uptake.\n- Over-reliance on fiscal incentives without adequate skilling, infrastructure, and logistics support risks limiting long-term competitiveness.\n\n**Conclusion**\nPLI is a necessary but not sufficient condition for India to become a global manufacturing hub. Its success must be reinforced by complementary reforms in land, labour, power, and logistics — the \"ease of doing business\" ecosystem — to sustain competitiveness beyond the incentive window.",
+      "key_points": [
+        "PLI first launched March–April 2020 for mobile phones, APIs, and medical devices",
+        "Expanded to 14 sectors with total outlay of ₹1.97 lakh crore (~$28 billion)",
+        "By March 2025: ₹1.76 lakh crore investments realised; ₹16.5 lakh crore production generated",
+        "Over 12 lakh direct and indirect jobs created across PLI sectors",
+        "Mobile phone exports rose ~8x from ₹22,871 crore (2020–21) to ₹2 lakh crore (2024–25)",
+        "India shifted from net importer to net exporter of bulk drugs under pharma PLI",
+        "Operationalises Atmanirbhar Bharat — reduces import dependence in critical sectors",
+        "Apple ecosystem (Foxconn, Pegatron, Tata) attracted to India as China alternative",
+        "Challenge: low domestic value addition; some sectors show slow uptake",
+        "PLI must be complemented by land, labour, logistics reforms for sustained competitiveness"
+      ],
+      "keywords": [
+        "PLI scheme",
+        "Production Linked Incentive",
+        "Atmanirbhar Bharat",
+        "APIs",
+        "mobile phone exports",
+        "bulk drugs",
+        "National Manufacturing Policy",
+        "14 sectors",
+        "₹1.97 lakh crore",
+        "global supply chain",
+        "Foxconn",
+        "Make in India"
+      ],
+      "sources": [
+        "PIB — PLI Scheme: Powering India's Industrial Renaissance (pib.gov.in, 2025)",
+        "PIB — 755 applications approved, investment of ₹1.23 lakh crore till March 2024",
+        "Wikipedia — Production Linked Incentive Schemes in India",
+        "India Briefing — India's PLI Schemes Bring in US$21 Billion in Investment in 2025",
+        "IEA — Self-Reliant India Scheme: PLI Scheme policy profile"
+      ]
+    },
+    "difficulty": "easy",
+    "type": "practice"
+  }
+]

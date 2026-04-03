@@ -1,0 +1,567 @@
+<style>
+/* ══ Mains PYQ Engine — mpq- namespace ═════════════════════════
+   Browse UPSC Mains PYQs by paper/year/topic, attempt with AI eval
+══════════════════════════════════════════════════════════════ */
+
+/* ── Hero ─────────────────────────────────────────────────── */
+.mpq-hero{
+  background:linear-gradient(135deg,#1c0a00 0%,#2d1200 55%,#3d1f00 100%);
+  padding:var(--space-10) 0 var(--space-8);position:relative;overflow:hidden;
+}
+.mpq-hero::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 70% 50%,rgba(234,88,12,.12) 0%,transparent 60%);
+  pointer-events:none;
+}
+.mpq-hero__inner{position:relative;z-index:1;}
+.mpq-kicker{
+  display:inline-flex;align-items:center;gap:7px;
+  font-size:0.65rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+  color:#fb923c;border:1px solid rgba(251,146,60,.35);
+  background:rgba(251,146,60,.1);border-radius:100px;
+  padding:4px 12px;margin-bottom:var(--space-4);
+}
+.mpq-hero h1{
+  font-family:var(--font-serif);font-size:clamp(1.8rem,4vw,2.6rem);
+  color:#fff;margin:0 0 var(--space-2);line-height:1.2;
+}
+.mpq-hero h1 em{color:#fb923c;font-style:italic;}
+.mpq-hero__sub{color:rgba(255,255,255,.6);font-size:var(--text-sm);margin:0 0 var(--space-5);}
+.mpq-stats{display:flex;gap:var(--space-6);flex-wrap:wrap;}
+.mpq-stat{display:flex;align-items:center;gap:6px;font-size:var(--text-xs);color:rgba(255,255,255,.5);}
+.mpq-stat strong{color:rgba(255,255,255,.85);font-size:var(--text-sm);}
+
+/* ── Filter Bar ───────────────────────────────────────────── */
+.mpq-filters{background:#fff;border-bottom:1px solid #e5e7eb;padding:var(--space-4) 0;position:sticky;top:60px;z-index:90;}
+.mpq-filter-inner{display:flex;gap:var(--space-3);flex-wrap:wrap;align-items:center;}
+.mpq-filter-group{display:flex;gap:6px;flex-wrap:wrap;}
+.mpq-chip{
+  padding:5px 14px;border-radius:999px;border:1.5px solid #e5e7eb;
+  font-size:var(--text-xs);font-weight:600;cursor:pointer;
+  background:#fafafa;color:var(--color-text-muted);transition:all .15s;white-space:nowrap;
+}
+.mpq-chip:hover{border-color:#ea580c;color:#ea580c;}
+.mpq-chip.active{border-color:#ea580c;background:#ea580c;color:#fff;}
+.mpq-filter-sep{width:1px;height:24px;background:#e5e7eb;margin:0 var(--space-1);}
+.mpq-count{font-size:var(--text-xs);color:var(--color-text-muted);margin-left:auto;white-space:nowrap;}
+
+/* ── Question List ────────────────────────────────────────── */
+.mpq-body{background:var(--color-bg);padding:var(--space-6) 0 var(--space-16);}
+.mpq-grid{display:flex;flex-direction:column;gap:var(--space-3);}
+.mpq-card{
+  background:#fff;border:1px solid #e5e7eb;border-radius:14px;
+  padding:var(--space-4) var(--space-5);cursor:pointer;
+  transition:border-color .15s,box-shadow .15s;
+}
+.mpq-card:hover{border-color:#ea580c;box-shadow:0 2px 12px rgba(234,88,12,.1);}
+.mpq-card__hd{display:flex;align-items:flex-start;gap:var(--space-3);}
+.mpq-card__badges{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:var(--space-2);}
+.mpq-badge{
+  font-size:0.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;
+  padding:2px 8px;border-radius:999px;
+}
+.mpq-badge--year{background:#fef3c7;color:#92400e;}
+.mpq-badge--paper{background:#fff7ed;color:#ea580c;}
+.mpq-badge--marks{background:#f0fdf4;color:#15803d;}
+.mpq-badge--topic{background:#f0f9ff;color:#0369a1;}
+.mpq-card__q{
+  font-family:var(--font-serif);font-size:var(--text-base);
+  color:var(--color-text);line-height:1.6;margin:0;
+}
+.mpq-card__footer{display:flex;align-items:center;justify-content:space-between;margin-top:var(--space-3);}
+.mpq-card__words{font-size:var(--text-xs);color:var(--color-text-muted);}
+.mpq-card__btn{
+  font-size:var(--text-xs);font-weight:700;color:#ea580c;
+  display:flex;align-items:center;gap:4px;
+}
+.mpq-empty{text-align:center;padding:var(--space-12);color:var(--color-text-muted);}
+.mpq-empty svg{opacity:.3;margin-bottom:var(--space-3);}
+
+/* ── Attempt Overlay ──────────────────────────────────────── */
+#mpq-attempt{display:none;position:fixed;inset:0;z-index:200;background:var(--color-bg);overflow-y:auto;}
+.mpq-attempt-hd{
+  position:sticky;top:0;z-index:10;
+  background:#fff;border-bottom:1px solid #e5e7eb;
+  padding:var(--space-3) 0;
+}
+.mpq-attempt-hd-inner{display:flex;align-items:center;gap:var(--space-3);}
+.mpq-back-btn{
+  display:flex;align-items:center;gap:6px;
+  font-size:var(--text-sm);font-weight:600;color:var(--color-text-muted);
+  background:none;border:none;cursor:pointer;padding:6px 10px;
+  border-radius:8px;transition:background .15s;
+}
+.mpq-back-btn:hover{background:#f5f5f5;color:var(--color-text);}
+.mpq-attempt-title{font-weight:700;font-size:var(--text-sm);flex:1;text-align:center;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.mpq-attempt-body{max-width:860px;margin:0 auto;padding:var(--space-6) var(--space-4) var(--space-16);}
+
+/* Question card */
+.mpq-q-card{
+  background:#fff;border:1px solid #e5e7eb;border-radius:16px;
+  padding:var(--space-5) var(--space-6);margin-bottom:var(--space-4);
+}
+.mpq-q-text{
+  font-family:var(--font-serif);font-size:1.05rem;line-height:1.75;
+  color:var(--color-text);margin:0 0 var(--space-3);
+}
+.mpq-q-meta{display:flex;gap:8px;flex-wrap:wrap;}
+
+/* Answer card */
+.mpq-ans-card{
+  background:#fff;border:1px solid #e5e7eb;border-radius:16px;
+  padding:var(--space-5) var(--space-6);margin-bottom:var(--space-4);
+}
+.mpq-ans-label{
+  font-size:0.65rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;
+  color:var(--color-text-muted);margin-bottom:var(--space-3);
+  display:flex;align-items:center;justify-content:space-between;
+}
+.mpq-textarea{
+  width:100%;min-height:280px;resize:vertical;
+  border:1.5px solid #e5e7eb;border-radius:12px;
+  padding:var(--space-4);font-family:var(--font-serif);
+  font-size:var(--text-base);line-height:1.8;color:var(--color-text);
+  background:#fafaf8;transition:border-color .15s;
+  box-sizing:border-box;
+}
+.mpq-textarea:focus{outline:none;border-color:#ea580c;background:#fff;}
+.mpq-wc-row{display:flex;align-items:center;justify-content:space-between;margin-top:var(--space-2);}
+.mpq-wc{font-size:var(--text-xs);font-weight:600;color:var(--color-text-muted);transition:color .2s;}
+.mpq-wc.ok{color:#15803d;}
+.mpq-wc.over{color:#dc2626;}
+.mpq-actions{display:flex;gap:var(--space-3);margin-top:var(--space-4);flex-wrap:wrap;}
+.mpq-btn-eval{
+  flex:1;padding:12px 20px;border-radius:12px;border:none;cursor:pointer;
+  background:#ea580c;color:#fff;font-weight:700;font-size:var(--text-sm);
+  transition:background .15s;
+}
+.mpq-btn-eval:hover{background:#c2410c;}
+.mpq-btn-eval:disabled{background:#d1d5db;cursor:not-allowed;}
+.mpq-btn-voice{
+  padding:12px 16px;border-radius:12px;border:1.5px solid #e5e7eb;
+  background:#fff;cursor:pointer;font-size:var(--text-sm);font-weight:600;
+  color:var(--color-text-muted);transition:all .15s;display:flex;align-items:center;gap:6px;
+}
+.mpq-btn-voice:hover{border-color:#ea580c;color:#ea580c;}
+.mpq-btn-voice.listening{border-color:#dc2626;color:#dc2626;background:#fef2f2;animation:mpq-pulse 1.2s infinite;}
+@keyframes mpq-pulse{0%,100%{opacity:1;}50%{opacity:.6;}}
+
+/* Eval panel — reuse me- styles, override accent */
+.mpq-eval-wrap .me-eval{border-color:#ea580c;}
+.mpq-eval-wrap .me-eval__hd{background:linear-gradient(135deg,#fff7ed,#fff);}
+
+/* Model answer panel */
+.mpq-model{
+  background:#fff;border:1px solid #e5e7eb;border-radius:16px;
+  margin-bottom:var(--space-4);overflow:hidden;
+}
+.mpq-model__hd{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:var(--space-4) var(--space-5);cursor:pointer;
+  border-bottom:1px solid transparent;transition:border-color .15s;
+}
+.mpq-model__hd:hover{background:#faf9f7;}
+.mpq-model.open .mpq-model__hd{border-color:#e5e7eb;}
+.mpq-model__title{font-weight:700;font-size:var(--text-sm);color:var(--color-text);}
+.mpq-model__chevron{transition:transform .2s;color:var(--color-text-muted);}
+.mpq-model.open .mpq-model__chevron{transform:rotate(180deg);}
+.mpq-model__body{display:none;padding:var(--space-5);border-top:1px solid #f0f0ec;}
+.mpq-model.open .mpq-model__body{display:block;}
+.mpq-model__text{font-family:var(--font-serif);font-size:0.95rem;line-height:1.85;color:#44403c;}
+.mpq-kw-row{display:flex;gap:6px;flex-wrap:wrap;margin-top:var(--space-4);}
+.mpq-kw{font-size:0.65rem;font-weight:700;text-transform:uppercase;
+  padding:3px 10px;border-radius:999px;background:rgba(234,88,12,.1);color:#ea580c;}
+
+/* Loading spinner */
+.mpq-spinner{
+  display:inline-block;width:18px;height:18px;border-radius:50%;
+  border:2.5px solid #fde8d8;border-top-color:#ea580c;animation:mpq-spin .7s linear infinite;
+}
+@keyframes mpq-spin{to{transform:rotate(360deg);}}
+.mpq-loading{display:flex;align-items:center;gap:10px;padding:var(--space-4);
+  font-size:var(--text-sm);color:var(--color-text-muted);}
+
+/* ── Markdown rendering (reuse me- classes) ─────────────── */
+.mpq-md-heading{font-size:0.78rem;font-weight:800;text-transform:uppercase;
+  letter-spacing:.08em;color:#ea580c;margin:var(--space-4) 0 var(--space-2);}
+.mpq-md-p{margin:0 0 var(--space-2);}
+.mpq-md-list{padding-left:var(--space-5);margin:0 0 var(--space-2);}
+.mpq-md-list li{margin-bottom:4px;}
+
+@media(max-width:640px){
+  .mpq-filter-inner{gap:var(--space-2);}
+  .mpq-attempt-body{padding:var(--space-4) var(--space-3) var(--space-12);}
+  .mpq-q-card,.mpq-ans-card,.mpq-model{padding:var(--space-4);}
+  .mpq-textarea{min-height:220px;}
+}
+</style>
+
+<!-- ── Hero ──────────────────────────────────────────────────── -->
+<section class="mpq-hero">
+  <div class="container">
+    <div class="mpq-hero__inner">
+      <span class="mpq-kicker">✍️ UPSC Mains PYQs</span>
+      <h1>Previous Year <em>Mains</em> Questions</h1>
+      <p class="mpq-hero__sub">GS I–IV, 2019–2024 — attempt any question, write your answer, get AI evaluation.</p>
+      <div class="mpq-stats">
+        <div class="mpq-stat"><strong id="mpq-total-count">—</strong>&nbsp;Questions</div>
+        <div class="mpq-stat"><strong>2019–2024</strong>&nbsp;Years</div>
+        <div class="mpq-stat"><strong>GS I–IV</strong>&nbsp;Papers</div>
+        <div class="mpq-stat"><strong>AI Eval</strong>&nbsp;Free</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Filter Bar ─────────────────────────────────────────────── -->
+<div class="mpq-filters">
+  <div class="container">
+    <div class="mpq-filter-inner">
+      <div class="mpq-filter-group" id="mpq-paper-filters">
+        <button class="mpq-chip active" data-filter="paper" data-val="">All Papers</button>
+        <button class="mpq-chip" data-filter="paper" data-val="gs1">GS I</button>
+        <button class="mpq-chip" data-filter="paper" data-val="gs2">GS II</button>
+        <button class="mpq-chip" data-filter="paper" data-val="gs3">GS III</button>
+        <button class="mpq-chip" data-filter="paper" data-val="gs4">GS IV</button>
+      </div>
+      <div class="mpq-filter-sep"></div>
+      <div class="mpq-filter-group" id="mpq-year-filters">
+        <button class="mpq-chip active" data-filter="year" data-val="">All Years</button>
+      </div>
+      <span class="mpq-count" id="mpq-shown-count"></span>
+    </div>
+  </div>
+</div>
+
+<!-- ── Question List ──────────────────────────────────────────── -->
+<section class="mpq-body">
+  <div class="container">
+    <div class="mpq-grid" id="mpq-grid"></div>
+  </div>
+</section>
+
+<!-- ── Attempt Overlay ────────────────────────────────────────── -->
+<div id="mpq-attempt">
+  <div class="mpq-attempt-hd">
+    <div class="container">
+      <div class="mpq-attempt-hd-inner">
+        <button class="mpq-back-btn" id="mpq-back-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+          Browse PYQs
+        </button>
+        <span class="mpq-attempt-title" id="mpq-attempt-title"></span>
+      </div>
+    </div>
+  </div>
+  <div class="mpq-attempt-body" id="mpq-attempt-body"></div>
+</div>
+
+<script>
+(function(){
+var ALL_DATA   = (window.MAINS_DATA || []).filter(function(q){ return q.type === 'pyq'; });
+var EVAL_URL   = (window.MAINS_CONFIG || {}).evalUrl || '';
+var activeQ    = null;
+var voiceRecog = null;
+var evalDone   = false;
+
+/* ── Filter state ─────────────────────────────────────────── */
+var filterPaper = '';
+var filterYear  = '';
+
+/* ── Init ─────────────────────────────────────────────────── */
+document.getElementById('mpq-total-count').textContent = ALL_DATA.length;
+
+/* Build year chips from data */
+var years = [...new Set(ALL_DATA.map(function(q){ return q.year; }))].sort(function(a,b){ return b-a; });
+var yf = document.getElementById('mpq-year-filters');
+years.forEach(function(y){
+  var btn = document.createElement('button');
+  btn.className = 'mpq-chip';
+  btn.dataset.filter = 'year';
+  btn.dataset.val = y;
+  btn.textContent = y;
+  yf.appendChild(btn);
+});
+
+/* Filter chip clicks */
+document.querySelectorAll('.mpq-chip').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var ftype = btn.dataset.filter;
+    document.querySelectorAll('.mpq-chip[data-filter="' + ftype + '"]').forEach(function(b){ b.classList.remove('active'); });
+    btn.classList.add('active');
+    if (ftype === 'paper') filterPaper = btn.dataset.val;
+    if (ftype === 'year')  filterYear  = String(btn.dataset.val);
+    renderList();
+  });
+});
+
+/* ── Render list ──────────────────────────────────────────── */
+function renderList() {
+  var filtered = ALL_DATA.filter(function(q){
+    if (filterPaper && q.paper !== filterPaper) return false;
+    if (filterYear  && String(q.year) !== filterYear) return false;
+    return true;
+  });
+  document.getElementById('mpq-shown-count').textContent = filtered.length + ' question' + (filtered.length !== 1 ? 's' : '');
+
+  var paperLabel = { gs1:'GS I', gs2:'GS II', gs3:'GS III', gs4:'GS IV', essay:'Essay' };
+  var html = '';
+  if (!filtered.length) {
+    html = '<div class="mpq-empty"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/></svg><p>No questions match the selected filters.</p></div>';
+  } else {
+    filtered.forEach(function(q, i){
+      html += '<div class="mpq-card" data-qi="' + ALL_DATA.indexOf(q) + '">';
+      html += '<div class="mpq-card__badges">';
+      html += '<span class="mpq-badge mpq-badge--year">' + (q.year || '—') + '</span>';
+      html += '<span class="mpq-badge mpq-badge--paper">' + (paperLabel[q.paper] || q.paper.toUpperCase()) + '</span>';
+      html += '<span class="mpq-badge mpq-badge--marks">' + q.marks + ' marks</span>';
+      if (q.topic) html += '<span class="mpq-badge mpq-badge--topic">' + escH(q.topic) + '</span>';
+      html += '</div>';
+      html += '<p class="mpq-card__q">' + escH(q.question) + '</p>';
+      html += '<div class="mpq-card__footer">';
+      html += '<span class="mpq-card__words">~' + (q.words || Math.round(q.marks * 13)) + ' words</span>';
+      html += '<span class="mpq-card__btn">Attempt <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span>';
+      html += '</div></div>';
+    });
+  }
+  document.getElementById('mpq-grid').innerHTML = html;
+
+  document.querySelectorAll('.mpq-card').forEach(function(card){
+    card.addEventListener('click', function(){
+      var qi = parseInt(card.dataset.qi, 10);
+      openAttempt(ALL_DATA[qi]);
+    });
+  });
+}
+
+/* ── Open attempt overlay ─────────────────────────────────── */
+function openAttempt(q) {
+  activeQ   = q;
+  evalDone  = false;
+  var paperLabel = { gs1:'GS I', gs2:'GS II', gs3:'GS III', gs4:'GS IV', essay:'Essay' };
+  document.getElementById('mpq-attempt-title').textContent =
+    (paperLabel[q.paper] || q.paper.toUpperCase()) + ' ' + (q.year || '') + ' — ' + q.marks + ' marks';
+  document.getElementById('mpq-attempt').style.display = 'block';
+  document.body.style.overflow = 'hidden';
+  window.scrollTo(0, 0);
+
+  var wordLimit = q.words || Math.round(q.marks * 13);
+  var body = document.getElementById('mpq-attempt-body');
+  body.innerHTML =
+    /* Question card */
+    '<div class="mpq-q-card">' +
+      '<div class="mpq-q-meta" style="margin-bottom:var(--space-3)">' +
+        '<span class="mpq-badge mpq-badge--year">' + (q.year||'—') + '</span>' +
+        '<span class="mpq-badge mpq-badge--paper">' + (paperLabel[q.paper]||q.paper) + '</span>' +
+        '<span class="mpq-badge mpq-badge--marks">' + q.marks + ' marks</span>' +
+        (q.topic ? '<span class="mpq-badge mpq-badge--topic">' + escH(q.topic) + '</span>' : '') +
+      '</div>' +
+      '<p class="mpq-q-text">' + escH(q.question) + '</p>' +
+    '</div>' +
+    /* Answer card */
+    '<div class="mpq-ans-card">' +
+      '<div class="mpq-ans-label"><span>Your Answer</span><span id="mpq-wc" class="mpq-wc">0 / ' + wordLimit + ' words</span></div>' +
+      '<textarea class="mpq-textarea" id="mpq-textarea" placeholder="Write your answer here…"></textarea>' +
+      '<div class="mpq-wc-row">' +
+        '<div class="mpq-actions">' +
+          '<button class="mpq-btn-eval" id="mpq-eval-btn">✦ Evaluate with AI</button>' +
+          '<button class="mpq-btn-voice" id="mpq-voice-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg> Voice</button>' +
+        '</div>' +
+      '</div>' +
+    '</div>' +
+    '<div id="mpq-eval-panel"></div>' +
+    renderModelPanel(q);
+
+  /* Wire word counter */
+  var ta = document.getElementById('mpq-textarea');
+  var wcel = document.getElementById('mpq-wc');
+  ta.addEventListener('input', function(){
+    var wc = ta.value.trim() ? ta.value.trim().split(/\s+/).length : 0;
+    wcel.textContent = wc + ' / ' + wordLimit + ' words';
+    wcel.className = 'mpq-wc' + (wc >= wordLimit * 0.85 && wc <= wordLimit * 1.15 ? ' ok' : (wc > wordLimit * 1.15 ? ' over' : ''));
+  });
+
+  /* Eval button */
+  document.getElementById('mpq-eval-btn').addEventListener('click', function(){
+    var ans = ta.value.trim();
+    if (!ans) { alert('Please write an answer first.'); return; }
+    requestEval(q, ans);
+  });
+
+  /* Voice button */
+  document.getElementById('mpq-voice-btn').addEventListener('click', function(){
+    toggleVoice(wordLimit);
+  });
+
+  /* Model answer toggle */
+  var mhd = document.getElementById('mpq-model-hd');
+  if (mhd) mhd.addEventListener('click', function(){
+    document.getElementById('mpq-model-wrap').classList.toggle('open');
+  });
+}
+
+/* ── Model answer HTML ────────────────────────────────────── */
+function renderModelPanel(q) {
+  if (!q.model_answer) return '';
+  var ma = q.model_answer;
+  var html = '<div class="mpq-model" id="mpq-model-wrap">';
+  html += '<div class="mpq-model__hd" id="mpq-model-hd">';
+  html += '<span class="mpq-model__title">📖 Model Answer</span>';
+  html += '<svg class="mpq-model__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>';
+  html += '</div>';
+  html += '<div class="mpq-model__body">';
+  html += '<div class="mpq-model__text">' + renderMd(escH(ma.text || '')) + '</div>';
+  if (ma.keywords && ma.keywords.length) {
+    html += '<div class="mpq-kw-row">';
+    ma.keywords.forEach(function(kw){ html += '<span class="mpq-kw">' + escH(kw) + '</span>'; });
+    html += '</div>';
+  }
+  html += '</div></div>';
+  return html;
+}
+
+/* ── AI Eval ──────────────────────────────────────────────── */
+function requestEval(q, answer) {
+  if (!EVAL_URL) { showEvalError('Evaluation URL not configured.'); return; }
+  var panel = document.getElementById('mpq-eval-panel');
+  var btn   = document.getElementById('mpq-eval-btn');
+  btn.disabled = true;
+  panel.innerHTML = '<div class="mpq-loading"><div class="mpq-spinner"></div>Evaluating with AI…</div>';
+
+  fetch(EVAL_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      question: q.question, answer: answer, marks: q.marks,
+      words: q.words || Math.round(q.marks * 13), paper: q.paper,
+      model_key_points: (q.model_answer && q.model_answer.key_points) || []
+    })
+  })
+  .then(function(r){ return r.json(); })
+  .then(function(data){
+    if (data.error) throw new Error(data.error);
+    evalDone = true;
+    panel.innerHTML = renderEvalPanel(data, q.marks);
+    btn.textContent = '✦ Re-evaluate';
+    btn.disabled = false;
+    panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  })
+  .catch(function(err){
+    showEvalError('Could not evaluate: ' + err.message);
+    btn.disabled = false;
+  });
+}
+
+function showEvalError(msg) {
+  document.getElementById('mpq-eval-panel').innerHTML =
+    '<div style="padding:var(--space-4);background:#fef2f2;border-radius:12px;color:#dc2626;font-size:var(--text-sm);">⚠ ' + escH(msg) + '</div>';
+}
+
+function renderEvalPanel(ev, maxMarks) {
+  var pct = Math.round((ev.total / maxMarks) * 100);
+  var bk = ev.breakdown || {};
+  var html = '<div style="background:#fff;border:1.5px solid #ea580c;border-radius:16px;overflow:hidden;margin-bottom:var(--space-4);">';
+  html += '<div style="background:linear-gradient(135deg,#fff7ed,#fff);padding:var(--space-4) var(--space-5);border-bottom:1px solid #fed7aa;">';
+  html += '<div style="display:flex;align-items:baseline;gap:10px;">';
+  html += '<span style="font-size:2.4rem;font-weight:900;color:#ea580c;line-height:1;">' + ev.total + '</span>';
+  html += '<span style="font-size:var(--text-sm);color:var(--color-text-muted);">/ ' + maxMarks + ' marks (' + pct + '%)</span>';
+  html += '</div></div>';
+  html += '<div style="padding:var(--space-4) var(--space-5);">';
+  var dims = [
+    { key:'content',   label:'Content & Accuracy' },
+    { key:'analysis',  label:'Analytical Depth' },
+    { key:'structure', label:'Structure & Presentation' },
+    { key:'words',     label:'Word Discipline' }
+  ];
+  dims.forEach(function(d){
+    var dim = bk[d.key] || {};
+    var dpct = dim.max ? Math.round((dim.score/dim.max)*100) : 0;
+    html += '<div style="margin-bottom:var(--space-3);">';
+    html += '<div style="display:flex;justify-content:space-between;font-size:var(--text-xs);margin-bottom:4px;">';
+    html += '<span style="font-weight:600;">' + d.label + '</span>';
+    html += '<span style="color:#ea580c;font-weight:700;">' + (dim.score||0) + '/' + (dim.max||0) + '</span>';
+    html += '</div>';
+    html += '<div style="height:6px;background:#f3f4f6;border-radius:999px;overflow:hidden;">';
+    html += '<div style="height:100%;width:' + dpct + '%;background:#ea580c;border-radius:999px;transition:width .4s;"></div>';
+    html += '</div>';
+    if (dim.comment) html += '<div style="font-size:0.72rem;color:var(--color-text-muted);margin-top:3px;">' + escH(dim.comment) + '</div>';
+    html += '</div>';
+  });
+  if (ev.strengths && ev.strengths.length) {
+    html += '<div style="margin-top:var(--space-3);padding:var(--space-3);background:#f0fdf4;border-radius:10px;">';
+    html += '<div style="font-size:0.65rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:#15803d;margin-bottom:6px;">Strengths</div>';
+    ev.strengths.forEach(function(s){ html += '<div style="font-size:var(--text-xs);color:#166534;margin-bottom:3px;">✓ ' + escH(s) + '</div>'; });
+    html += '</div>';
+  }
+  if (ev.missing && ev.missing.length) {
+    html += '<div style="margin-top:var(--space-3);padding:var(--space-3);background:#fef2f2;border-radius:10px;">';
+    html += '<div style="font-size:0.65rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:#dc2626;margin-bottom:6px;">Missing / Improve</div>';
+    ev.missing.forEach(function(s){ html += '<div style="font-size:var(--text-xs);color:#991b1b;margin-bottom:3px;">✗ ' + escH(s) + '</div>'; });
+    html += '</div>';
+  }
+  if (ev.examiner_note) {
+    html += '<div style="margin-top:var(--space-3);padding:var(--space-3);background:#fffbeb;border-radius:10px;font-size:var(--text-xs);color:#92400e;line-height:1.6;">';
+    html += '<strong>Examiner Note:</strong> ' + escH(ev.examiner_note);
+    html += '</div>';
+  }
+  html += '</div></div>';
+  return html;
+}
+
+/* ── Voice ────────────────────────────────────────────────── */
+function toggleVoice(wordLimit) {
+  var btn = document.getElementById('mpq-voice-btn');
+  var ta  = document.getElementById('mpq-textarea');
+  if (voiceRecog) { voiceRecog.stop(); voiceRecog = null; btn.classList.remove('listening'); btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg> Voice'; return; }
+  var SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SR) { alert('Voice typing not supported in this browser. Try Chrome.'); return; }
+  voiceRecog = new SR();
+  voiceRecog.lang = 'en-IN';
+  voiceRecog.continuous = true;
+  voiceRecog.interimResults = true;
+  var base = ta.value;
+  voiceRecog.onresult = function(e) {
+    var interim = '', final = '';
+    for (var i = e.resultIndex; i < e.results.length; i++) {
+      if (e.results[i].isFinal) final += e.results[i][0].transcript;
+      else interim += e.results[i][0].transcript;
+    }
+    if (final) base += (base ? ' ' : '') + final;
+    ta.value = base + (interim ? ' ' + interim : '');
+    ta.dispatchEvent(new Event('input'));
+  };
+  voiceRecog.onend = function(){ btn.classList.remove('listening'); btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg> Voice'; voiceRecog = null; };
+  voiceRecog.start();
+  btn.classList.add('listening');
+  btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="6" width="12" height="12" rx="2"/></svg> Stop';
+}
+
+/* ── Back button ──────────────────────────────────────────── */
+document.getElementById('mpq-back-btn').addEventListener('click', function(){
+  if (voiceRecog) { voiceRecog.stop(); voiceRecog = null; }
+  document.getElementById('mpq-attempt').style.display = 'none';
+  document.body.style.overflow = '';
+  activeQ = null; evalDone = false;
+});
+
+/* ── Utilities ────────────────────────────────────────────── */
+function escH(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function renderMd(s) {
+  return s
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    .replace(/^## (.+)$/gm, '<div class="mpq-md-heading">$1</div>')
+    .replace(/^- (.+)$/gm, '<li>$1</li>')
+    .replace(/(<li>.*<\/li>)/s, '<ul class="mpq-md-list">$1</ul>')
+    .replace(/\n\n/g, '</p><p class="mpq-md-p">');
+}
+
+/* ── Initial render ───────────────────────────────────────── */
+renderList();
+
+})();
+</script>

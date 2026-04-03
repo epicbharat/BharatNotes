@@ -1,0 +1,102 @@
+[
+  {
+    "id": "gs2-001",
+    "paper": "gs2",
+    "topic": "Indian Polity",
+    "subtopic": "Election Commission of India",
+    "year": 2023,
+    "marks": 15,
+    "words": 250,
+    "question": "Examine the role of the Election Commission of India in strengthening democracy. What reforms are needed to make it more effective?",
+    "model_answer": {
+      "text": "The Election Commission of India (ECI), established under Article 324 of the Constitution, is a permanent independent constitutional body entrusted with superintendence, direction, and control of elections to Parliament, State Legislatures, and the offices of the President and Vice-President. It stands as one of the most consequential pillars of Indian democracy.\n\n**Role in Strengthening Democracy**\n- **Free and fair elections**: The Supreme Court in *Mohinder Singh Gill v. Chief Election Commissioner* (1978) affirmed that Article 324 grants the ECI plenary powers to ensure free and fair elections, operating in spaces unoccupied by legislation.\n- **Model Code of Conduct (MCC)**: The ECI enforces the MCC — a self-regulatory code that levels the electoral playing field by restricting incumbent governments from misusing state resources once elections are announced.\n- **Electoral rolls and EPIC**: Continuous voter registration drives and the Electronic Photo Identity Card (EPIC) system have strengthened voter identification and reduced bogus voting.\n- **EVMs and VVPATs**: Introduction of Electronic Voting Machines and Voter Verifiable Paper Audit Trails (VVPATs) has minimised ballot manipulation.\n- **T.N. Seshan's transformative tenure (1990–96)**: Seshan investigated ~40,000 cases of electoral malpractice, disqualified nearly 14,000 candidates, and made the ECI a feared enforcement authority — prompting Parliament to amend the Constitution to add two Election Commissioners in 1993.\n- **Expenditure monitoring**: The ECI monitors campaign finance to curb the influence of money power in elections.\n\n**Reforms Needed**\n- **Appointment process**: The Chief Election Commissioner and Other Election Commissioners (Appointment) Act, 2023 replaced the Chief Justice of India in the selection panel with a Cabinet Minister nominated by the Prime Minister, giving the ruling government a majority on the three-member Selection Committee. This undermines ECI independence. Restoring the CJI's role — as directed by the Supreme Court in *Anoop Baranwal v. Union of India* (2023) — is essential.\n- **Security of tenure**: Election Commissioners (other than the CEC) lack constitutional protection from removal, unlike the CEC who can only be removed by impeachment. This asymmetry should be corrected.\n- **State Election Commissions**: SECs lack the ECI's institutional strength; uniform standards and capacity-building are urgently needed.\n- **Campaign finance transparency**: Electoral bonds — now struck down by the Supreme Court in *Association for Democratic Reforms v. Union of India* (2024) — exposed opacity in political funding. Stricter disclosure norms are needed.\n- **Voter awareness**: SVEEP (Systematic Voters' Education and Electoral Participation) must be intensified, particularly among first-time and marginalised voters.\n\n**Conclusion**\nAn independent ECI is not a luxury but a constitutional necessity. Reforms must insulate it from executive influence while modernising its enforcement capacity — so that India's elections remain the world's largest and most credible democratic exercise.",
+      "key_points": [
+        "Article 324 — constitutional basis; covers Parliament, State Legislatures, President and VP elections",
+        "Mohinder Singh Gill case (1978) — plenary powers of ECI affirmed by Supreme Court",
+        "Model Code of Conduct restricts incumbent government misuse of state resources",
+        "T.N. Seshan (1990–96) — 40,000 cases investigated, 14,000 candidates disqualified",
+        "EVMs and VVPATs introduced to minimise ballot manipulation",
+        "CEC Appointment Act 2023 — CJI replaced by PM-nominated Cabinet Minister in selection panel",
+        "Anoop Baranwal v. Union of India (2023) — SC mandated inclusion of CJI in selection panel",
+        "Asymmetric removal protection between CEC and other ECs needs correction",
+        "Electoral bonds struck down by SC in 2024; stronger campaign finance transparency needed",
+        "SVEEP for voter education and participation among marginalised communities"
+      ],
+      "keywords": [
+        "Article 324",
+        "Election Commission of India",
+        "Model Code of Conduct",
+        "EPIC",
+        "EVMs",
+        "VVPATs",
+        "T.N. Seshan",
+        "Mohinder Singh Gill case",
+        "Anoop Baranwal case",
+        "CEC Appointment Act 2023",
+        "electoral bonds",
+        "SVEEP",
+        "campaign finance",
+        "plenary powers"
+      ],
+      "sources": [
+        "Constitution of India — Article 324 (constitutionofindia.net)",
+        "PRS Legislative Research — The CEC and Other Election Commissioners Bill, 2023",
+        "Supreme Court — Anoop Baranwal v. Union of India (2023)",
+        "Supreme Court — Mohinder Singh Gill v. Chief Election Commissioner (1978)",
+        "Wikipedia — Chief Election Commissioner and Other Election Commissioners Act, 2023"
+      ]
+    },
+    "difficulty": "medium",
+    "type": "practice"
+  },
+  {
+    "id": "gs2-002",
+    "paper": "gs2",
+    "topic": "Indian Polity",
+    "subtopic": "Federalism",
+    "year": 2022,
+    "marks": 15,
+    "words": 250,
+    "question": "Discuss the significance of cooperative federalism in India's development with suitable examples.",
+    "model_answer": {
+      "text": "India is a \"Union of States\" (Article 1) — a quasi-federal polity with a strong unitary bias. Yet its developmental challenges — diverse geographies, 28 states, 8 UTs, and 1.4 billion people — demand that Centre and states function not as adversaries but as collaborative partners. Cooperative federalism provides this framework.\n\n**Constitutional Basis**\n- **Article 263**: Empowers the President to establish an Inter-State Council for investigating and recommending on inter-state and Centre-State matters.\n- **Article 280**: Finance Commission ensures institutionalised fiscal devolution — the 15th Finance Commission (2021–26) devolved 41% of the divisible pool to states.\n- **Concurrent List (Schedule VII)**: Subjects like education, forests, and labour allow joint legislation, requiring coordinated implementation.\n- **Article 356 restraint**: Over the decades, the scope for President's Rule has been narrowed by Supreme Court rulings (S.R. Bommai, 1994), protecting state autonomy.\n\n**Significance with Examples**\n- **GST Council**: Launched in 2017, the GST Council is the finest institutional expression of cooperative federalism — a consensus-driven body where states collectively set tax policy with the Centre. States receive ~71% of GST revenues. The Centre provided ₹6.52 lakh crore in GST compensation to states between 2017–18 and 2024–25.\n- **NITI Aayog (est. 2015)**: Replaced Planning Commission; its Governing Council includes all Chief Ministers, fostering \"Team India\" development. It facilitates knowledge-sharing — e.g., Gujarat's solar energy model (22 GW in 2024) was adopted by Rajasthan and Tamil Nadu.\n- **PM Gati Shakti**: A national infrastructure master plan integrating projects across ministries and state governments through a unified digital platform.\n- **COVID-19 response**: Centre-State coordination in vaccine procurement, cold chain logistics, and National Disaster Management Authority (NDMA) operations demonstrated cooperative federalism in a crisis.\n- **Disaster management**: The National Disaster Management Act, 2005 created a layered structure — NDMA, SDMAs, and DDMAs — requiring Centre-State-district cooperation.\n\n**Challenges**\n- States often perceive centralisation of resources and conditional grants (Centrally Sponsored Schemes) as undermining fiscal autonomy.\n- Governor's role as Centre's representative creates friction in non-ruling-party states.\n- Article 356 misuse, though restrained by courts, remains a concern.\n\n**Conclusion**\nCooperative federalism transforms constitutional architecture into developmental practice. As NITI Aayog's mandate declares — \"strong states make a strong nation.\" Deepening institutional mechanisms like the GST Council, Inter-State Council, and Finance Commission is essential to realising India's Viksit Bharat 2047 vision.",
+      "key_points": [
+        "Constitutional basis: Articles 1, 263, 280; Schedule VII (Concurrent List)",
+        "15th Finance Commission devolved 41% of divisible pool to states (2021–26)",
+        "GST Council (2017) — consensus tax governance; states receive ~71% of GST revenues",
+        "Centre paid ₹6.52 lakh crore GST compensation to states (2017–18 to 2024–25)",
+        "NITI Aayog (2015) — Governing Council with all CMs; replaced Planning Commission",
+        "Gujarat solar model (22 GW) adopted by other states via NITI knowledge-sharing",
+        "PM Gati Shakti — digital platform integrating Centre-state infrastructure planning",
+        "COVID-19 response as real-world test of cooperative federalism under NDMA, 2005",
+        "S.R. Bommai (1994) — SC ruling narrowed Article 356 misuse, protecting state autonomy",
+        "Challenges: CSS conditions on grants, Governor friction, fiscal autonomy concerns"
+      ],
+      "keywords": [
+        "cooperative federalism",
+        "Article 263",
+        "Article 280",
+        "Inter-State Council",
+        "Finance Commission",
+        "GST Council",
+        "NITI Aayog",
+        "Team India",
+        "Concurrent List",
+        "PM Gati Shakti",
+        "NDMA",
+        "S.R. Bommai",
+        "Viksit Bharat 2047",
+        "Centrally Sponsored Schemes"
+      ],
+      "sources": [
+        "NITI Aayog — Cooperative Federalism (niti.gov.in)",
+        "GST Council — GST and Co-operative Federalism (gstcouncil.gov.in)",
+        "Constitution of India — Articles 1, 263, 280 (legislative.gov.in)",
+        "PW Only IAS — Federalism in India: Role of NITI Aayog (2015–2025)",
+        "World Economic Forum — Cooperative and Competitive Federalism in India (2019)"
+      ]
+    },
+    "difficulty": "medium",
+    "type": "practice"
+  }
+]

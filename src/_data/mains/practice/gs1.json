@@ -1,0 +1,104 @@
+[
+  {
+    "id": "gs1-001",
+    "paper": "gs1",
+    "topic": "Medieval India",
+    "subtopic": "Bhakti Movement",
+    "year": 2023,
+    "marks": 15,
+    "words": 250,
+    "question": "Discuss the socio-economic and political factors responsible for the rise of the Bhakti Movement in medieval India. How did it contribute to social reform?",
+    "model_answer": {
+      "text": "The Bhakti Movement, originating in 6th-century Tamil Nadu through the Alvars and Nayanars before sweeping northward between the 13th–17th centuries, was not merely a religious renaissance — it was a profound response to the social, economic, and political crises of medieval India.\n\n**Socio-Economic Factors**\n- **Rigid caste hierarchy**: Brahmanical orthodoxy denied spiritual access to Shudras, women, and untouchables, creating widespread alienation.\n- **Ritualistic excess**: Religion had degenerated into complex, expensive rituals accessible only to upper castes, alienating the masses.\n- **Feudal exploitation**: Growth of feudalism concentrated agricultural surplus in the hands of ruling elites, while peasants and artisans faced oppressive taxation and forced labour (begar).\n- **Rise of trade towns**: Urbanisation under the Delhi Sultanate created new artisan and merchant classes who sought a religion free from Brahmanical mediation.\n\n**Political Factors**\n- **Islamic conquest and Sultanate rule**: The Rajput-Brahmin alliance was disrupted; Brahmanical institutions lost state patronage, creating space for anti-caste ideologies.\n- **Sufi influence**: The egalitarian message of Sufi saints inspired a parallel reform within Hinduism, emphasising personal devotion (ishq) over ritual.\n- **Political instability**: Frequent invasions fostered spiritual seeking; people turned to personal devotion as a source of stability and solace.\n\n**Contribution to Social Reform**\n- **Rejection of caste**: Saints like Kabir (weaver), Ravidas (cobbler), and Tukaram (Shudra) demonstrated that spiritual worth was independent of birth. Ramananda famously accepted disciples across caste lines.\n- **Gender inclusion**: Mirabai, Andal, and Akka Mahadevi challenged patriarchal norms, elevating women's participation in spiritual life.\n- **Linguistic democratisation**: Saints composed in vernacular languages — Hindi, Marathi, Tamil, Bengali — breaking the Sanskrit monopoly of the Brahmin clergy.\n- **Syncretic tradition**: Kabir's dohas drew equally from Hindu and Muslim traditions, fostering Hindu-Muslim amity.\n- **Philosophical legacy**: Shankaracharya's Advaita, Ramanuja's Vishishtadvaita, and Madhva's Dvaita provided intellectual frameworks that the Bhakti saints populaised for the masses.\n\n**Way Forward / Conclusion**\nThe Bhakti Movement's legacy endures in India's composite culture. It was, in essence, a subaltern challenge to entrenched inequality — anticipating modern notions of social justice by several centuries. Its insistence on inner devotion over external hierarchy continues to resonate in constitutional values of equality and fraternity.",
+      "key_points": [
+        "Origin in Tamil Nadu (6th century) via Alvars and Nayanars; northward spread in 13th–17th centuries",
+        "Brahmanical ritualism and caste rigidity as primary socio-religious triggers",
+        "Feudal oppression and disruption of Rajput-Brahman alliance under Sultanate rule",
+        "Sufi movement as an external stimulus for devotional reform within Hinduism",
+        "Saints like Kabir, Ravidas, Tukaram, Mirabai challenged caste and gender hierarchies",
+        "Ramananda accepted disciples across caste lines; preached in vernacular Hindi",
+        "Composition in vernacular languages democratised spiritual knowledge",
+        "Hindu-Muslim syncretism through Kabir's poetry and shared devotional spaces",
+        "Philosophical schools — Advaita, Vishishtadvaita, Dvaita — underpinned reform",
+        "Anticipated constitutional values of equality, fraternity, and social justice"
+      ],
+      "keywords": [
+        "Bhakti Movement",
+        "Alvars",
+        "Nayanars",
+        "Ramananda",
+        "Kabir",
+        "Mirabai",
+        "Tukaram",
+        "Ravidas",
+        "Sufi movement",
+        "Advaita",
+        "Vishishtadvaita",
+        "Dvaita",
+        "caste system",
+        "vernacular language",
+        "feudalism",
+        "syncretism",
+        "untouchability",
+        "Delhi Sultanate"
+      ],
+      "sources": [
+        "Wikipedia — Bhakti Movement (cross-referenced with NCERT History textbooks)",
+        "IGNOU eGyanKosh — Unit 14: Bhakti Tradition; Unit 29: Socio-Religious Movement",
+        "Laxmikanth, Indian Polity (for constitutional values context)",
+        "Sleepy Classes — Bhakti Movement: Impact on Indian Society and Culture"
+      ]
+    },
+    "difficulty": "medium",
+    "type": "practice"
+  },
+  {
+    "id": "gs1-002",
+    "paper": "gs1",
+    "topic": "Geography",
+    "subtopic": "Climate Change and Monsoon",
+    "year": 2022,
+    "marks": 10,
+    "words": 150,
+    "question": "Discuss the impact of climate change on the monsoon patterns in India and its consequences for agriculture.",
+    "model_answer": {
+      "text": "India's agriculture — employing over 45% of its workforce and contributing ~17% of GDP — is critically dependent on the South-West Monsoon, which delivers ~80% of the country's annual precipitation. Climate change is fundamentally destabilising this dependence.\n\n**Impact on Monsoon Patterns**\n- **Intensification and erraticism**: IPCC and CMIP6 climate models project stronger but more variable monsoon rainfall — more intense wet spells interspersed with longer dry breaks.\n- **Spatial skew**: While some arid regions recorded 10–30% more south-west monsoon rain in the past decade, ~11% of Indian tehsils — mostly in the agriculturally critical Indo-Gangetic Plains — recorded >10% rainfall decline.\n- **Delayed onset and withdrawal**: Shifting onset dates disrupt the agricultural calendar, affecting sowing and harvesting cycles.\n- **Extreme events**: India was hit by disasters on 292 of 334 days in 2022; August 2023 recorded 40% below-normal rainfall — the driest August since 1901.\n- **Glacial retreat**: 67% of Himalayan glaciers have retreated in the past decade, threatening perennial river flows that support irrigated agriculture.\n\n**Consequences for Agriculture**\n- **Yield losses**: Studies project rice yield could fall by 3–22% by end of the 21st century; wheat is similarly threatened by rising temperatures.\n- **Flood and drought simultaneity**: Hydro-meteorological calamities damaged ~33.9 million hectares of cropped area between 2015–16 and 2021–22.\n- **Food security risk**: IFPRI's Global Food Policy Report warns climate change may push 90 million Indians toward hunger by 2030.\n- **Crop insurance burden**: Erratic rainfall has strained the Pradhan Mantri Fasal Bima Yojana (PMFBY, launched 2016), with multiple states exiting due to high premium costs.\n\n**Way Forward**\nIndia must accelerate climate-smart agriculture — drought-resistant varieties, micro-irrigation (PM Krishi Sinchai Yojana), crop diversification, and strengthening early-warning systems — alongside ambitious commitments under its NDCs to limit warming below 2°C.",
+      "key_points": [
+        "South-West Monsoon delivers ~80% of India's annual precipitation; agriculture employs 45%+ workforce",
+        "IPCC/CMIP6 models project stronger but more variable monsoon under warming scenarios",
+        "Spatial inequality: Indo-Gangetic Plains face declining rainfall while some arid zones see increases",
+        "Extreme events: August 2023 was 40% below-normal; India hit by disasters on 292 days in 2022",
+        "67% Himalayan glaciers retreated — threat to perennial river flows for irrigation",
+        "Rice yield projected to fall 3–22% by end of century; wheat equally vulnerable",
+        "Hydro-meteorological calamities damaged ~33.9 mn hectares of cropland (2015–16 to 2021–22)",
+        "IFPRI: 90 million Indians at hunger risk by 2030 due to climate change",
+        "PMFBY strained by erratic rainfall; multiple states have exited the scheme",
+        "Climate-smart agriculture and PM Krishi Sinchai Yojana as mitigation responses"
+      ],
+      "keywords": [
+        "South-West Monsoon",
+        "IPCC",
+        "CMIP6",
+        "Indo-Gangetic Plains",
+        "Himalayan glaciers",
+        "climate-smart agriculture",
+        "PMFBY",
+        "PM Krishi Sinchai Yojana",
+        "NDCs",
+        "erratic rainfall",
+        "extreme weather events",
+        "food security",
+        "IFPRI"
+      ],
+      "sources": [
+        "CEEW — Decoding Changing Monsoon Rainfall Patterns due to Climate Change in India",
+        "Down to Earth — Year of extremes: India hit by disasters on 292 days in 2022",
+        "IFPRI Global Food Policy Report 2022",
+        "PIB — Structural Challenges in Indian Agriculture",
+        "ScienceDirect — Impacts of climate change on the South Asian monsoon (2025)"
+      ]
+    },
+    "difficulty": "medium",
+    "type": "practice"
+  }
+]

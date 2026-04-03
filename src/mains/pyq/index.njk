@@ -1,0 +1,15 @@
+---
+layout: base.njk
+title: "UPSC Mains PYQ Practice | BharatNotes"
+description: "Practice UPSC Mains Previous Year Questions (2019–2024) with AI evaluation. GS1, GS2, GS3, GS4 — filter by paper, year and topic."
+---
+
+<script>
+window.MAINS_CONFIG = {
+  evalUrl: 'https://mains-eval.epicbharat.workers.dev',
+  mode:    'pyq'
+};
+window.MAINS_DATA = {{ mains_all | dump | safe }};
+</script>
+
+{% include "mains-pyq-engine.njk" %}
