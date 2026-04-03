@@ -652,8 +652,8 @@ function startTest() {
   timerSecs = mins * 60;
 
   document.getElementById('me-setup').style.display    = 'none';
-  document.getElementById('me-test').style.display     = '';
-  document.getElementById('me-footer').style.display   = '';
+  document.getElementById('me-test').style.display     = 'block';
+  document.getElementById('me-footer').style.display   = 'block';
   document.getElementById('me-hd-title').textContent   = pm.name + ' — ' + selectedMode.charAt(0).toUpperCase() + selectedMode.slice(1) + ' Mock';
 
   startTimer();
@@ -1048,7 +1048,7 @@ document.getElementById('me-back-btn').addEventListener('click', function() {
   if (voiceRecog) voiceRecog.stop();
   document.getElementById('me-test').style.display   = 'none';
   document.getElementById('me-footer').style.display = 'none';
-  document.getElementById('me-setup').style.display  = '';
+  document.getElementById('me-setup').style.display  = 'block';
   document.body.classList.remove('me-exam-active');
   window.scrollTo(0, 0);
 });
