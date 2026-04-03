@@ -2146,7 +2146,11 @@ function launchTest() {
   Promise.all(urls.map(function(url){ return fetch(url).then(function(r){ return r.json(); }).then(function(d){ return d.questions || d; }); }))
     .then(function(arrays) {
       var all = [].concat.apply([], arrays);
-      all = all.map(function(q){
+      all = all.filter(function(q) {
+        return q && typeof q.stem === 'string' &&
+               Array.isArray(q.options) && q.options.length === 4 &&
+               typeof q.answer === 'number';
+      }).map(function(q){
         var n = normalizeMatchQuestion(q);
         n = normalizeCAQuestion(n);
         n = normalizeARQuestion(n);
