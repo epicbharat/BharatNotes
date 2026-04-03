@@ -1,23 +1,26 @@
 ---
 layout: base.njk
-title: "Prelims Practice — UPSC Standard Questions"
-description: "Practice UPSC-standard Prelims questions crafted by BharatNotes — topic-wise, syllabus-mapped, coming soon."
+title: "Prelims Practice — Mock Test with Timer & Negative Marking"
+description: "Practice UPSC Prelims with timed mock tests — 25, 50, or 100 questions drawn from the official PYQ bank, negative marking (-0.66), and subject-wise score analysis."
 ---
 
-<section class="page-header">
-  <div class="container">
-    <div class="page-header__eyebrow">📝 Coming Soon</div>
-    <h1 class="page-header__title">Prelims Practice</h1>
-    <p class="page-header__subtitle">UPSC-standard questions crafted by BharatNotes — topic-mapped, syllabus-aligned, and built for deep revision. Not yet live.</p>
-  </div>
-</section>
-
-<section style="padding:var(--space-16) 0;">
-  <div class="container" style="max-width:640px; text-align:center;">
-    <div style="font-size:3rem; margin-bottom:var(--space-6);">🚧</div>
-    <h2 style="font-family:var(--font-heading); color:var(--color-brand-dark); margin-bottom:var(--space-4);">We're building this</h2>
-    <p style="color:var(--color-text-muted); margin-bottom:var(--space-6);">Prelims Practice will feature BharatNotes-crafted questions — not just official PYQs. Each question will be syllabus-tagged, difficulty-rated, and accompanied by a detailed explanation.</p>
-    <p style="color:var(--color-text-muted); margin-bottom:var(--space-8);">In the meantime, practice with <strong>official UPSC PYQs</strong> — 526 verified questions across all GS subjects.</p>
-    <a href="/quiz/" class="btn btn--accent btn--lg">Practice Official PYQs &rarr;</a>
-  </div>
-</section>
+<script>
+var EXAM_DATA = {{ pyq | dump | safe }};
+var EXAM_CONFIG = {
+  mode: "all-subjects",
+  title: "Mock Prelims Test",
+  subtitle: "Official UPSC PYQs — timed, with negative marking. Replicate real exam conditions.",
+  sizes: [
+    { n: 100, mins: 120, label: "Full Mock" },
+    { n: 50,  mins: 60,  label: "Half Mock" },
+    { n: 25,  mins: 30,  label: "Quick Test" }
+  ],
+  defaultSize: 0,
+  breadcrumb: [
+    { label: "Home", url: "/" },
+    { label: "Prelims", url: "/prelims/" },
+    { label: "Practice" }
+  ]
+};
+</script>
+{% include "exam-engine.njk" %}

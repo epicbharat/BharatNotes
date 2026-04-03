@@ -66,53 +66,74 @@ description: "Practice official UPSC CSE Prelims Previous Year Questions subject
 }
 .qh-sidebar::-webkit-scrollbar { display: none; }
 .qh-ujiyari-card {
-  background: linear-gradient(150deg, #0b3d2e 0%, #1c1008 100%);
-  border-radius: 14px; padding: var(--space-5);
+  background: linear-gradient(160deg, #0d3d2c 0%, #0a2218 55%, #1a0e04 100%);
+  border-radius: 18px;
   color: #fff; overflow: hidden; position: relative;
+  border: 1px solid rgba(212,160,23,0.2);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.35);
 }
+/* gold glow top-right */
 .qh-ujiyari-card::before {
   content: '';
-  position: absolute; inset: 0;
-  background: radial-gradient(ellipse at 80% 20%, rgba(212,160,23,0.18) 0%, transparent 60%);
+  position: absolute; top: -60px; right: -60px;
+  width: 220px; height: 220px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(212,160,23,0.2) 0%, transparent 70%);
   pointer-events: none;
 }
-.qhuj-logo { font-size: 1.8rem; margin-bottom: var(--space-2); position: relative; }
-.qhuj-name {
-  font-family: var(--font-heading); font-size: var(--text-lg); font-weight: 800;
-  color: #fde68a; margin-bottom: 4px; position: relative;
-}
-.qhuj-tagline {
-  font-size: var(--text-xs); color: rgba(255,255,255,0.6);
-  line-height: 1.5; margin-bottom: var(--space-4); position: relative;
-}
-.qhuj-tagline strong { color: #fde68a; }
-.qhuj-features {
-  display: flex; flex-direction: column; gap: var(--space-2);
-  margin-bottom: var(--space-5); position: relative;
-}
-.qhuj-feat {
-  display: flex; align-items: center; gap: var(--space-2);
-  font-size: var(--text-xs); color: rgba(255,255,255,0.75);
-}
-.qhuj-feat-dot {
-  width: 6px; height: 6px; border-radius: 50%;
-  background: #fde68a; flex-shrink: 0;
-}
-.qhuj-cta {
-  display: flex; align-items: center; justify-content: center; gap: 6px;
-  background: linear-gradient(135deg, #d4a017, #f5c842);
-  color: #1c1008; font-weight: 800; font-size: var(--text-sm);
-  padding: 10px var(--space-4); border-radius: 10px;
-  text-decoration: none; width: 100%;
-  transition: transform 0.14s, box-shadow 0.14s;
-  box-shadow: 0 3px 12px rgba(212,160,23,0.4);
+/* Logo hero strip */
+.qhuj-logo-strip {
+  padding: var(--space-6) var(--space-5) var(--space-4);
+  display: flex; align-items: center; justify-content: center;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
   position: relative;
 }
-.qhuj-cta:hover { transform: translateY(-2px); box-shadow: 0 5px 16px rgba(212,160,23,0.55); text-decoration: none; color: #1c1008; }
-.qhuj-note {
-  font-size: 0.65rem; color: rgba(255,255,255,0.35);
-  text-align: center; margin-top: var(--space-3); position: relative;
+/* Body */
+.qhuj-body { padding: var(--space-5); position: relative; }
+.qhuj-name {
+  font-family: var(--font-heading); font-size: var(--text-xl); font-weight: 800;
+  color: #fde68a; margin-bottom: var(--space-2); line-height: 1.1;
 }
+.qhuj-tagline {
+  font-size: var(--text-xs); color: rgba(255,255,255,0.55);
+  line-height: 1.65; margin-bottom: var(--space-4);
+}
+.qhuj-tagline strong { color: rgba(255,255,255,0.9); }
+/* Divider */
+.qhuj-div {
+  border: none; border-top: 1px solid rgba(255,255,255,0.08);
+  margin: 0 0 var(--space-4);
+}
+.qhuj-features {
+  display: flex; flex-direction: column; gap: 10px;
+  margin-bottom: var(--space-5);
+}
+.qhuj-feat {
+  display: flex; align-items: center; gap: 10px;
+  font-size: var(--text-xs); color: rgba(255,255,255,0.72); line-height: 1.4;
+}
+.qhuj-feat-icon {
+  width: 22px; height: 22px; border-radius: 6px; flex-shrink: 0;
+  background: rgba(212,160,23,0.15); border: 1px solid rgba(212,160,23,0.3);
+  display: flex; align-items: center; justify-content: center;
+  color: #d4a017; font-size: 11px; font-weight: 800;
+}
+.qhuj-cta {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  background: linear-gradient(135deg, #c8940f, #f0c040);
+  color: #1a0a00; font-weight: 800; font-size: var(--text-sm);
+  padding: 13px var(--space-4); border-radius: 10px;
+  text-decoration: none; width: 100%;
+  transition: transform 0.14s, box-shadow 0.14s;
+  box-shadow: 0 4px 18px rgba(212,160,23,0.45);
+  letter-spacing: 0.01em;
+}
+.qhuj-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(212,160,23,0.6); text-decoration: none; color: #1a0a00; }
+.qhuj-note {
+  font-size: 0.62rem; color: rgba(255,255,255,0.28);
+  text-align: center; margin-top: var(--space-3);
+}
+.qhuj-note a { color: rgba(212,160,23,0.55); text-decoration: none; }
+.qhuj-note a:hover { color: #d4a017; }
 
 /* Streak stat glow */
 .qh-stat__num--streak { color: #fde68a; }
@@ -296,17 +317,45 @@ description: "Practice official UPSC CSE Prelims Previous Year Questions subject
       <!-- Ujiyari sidebar -->
       <aside class="qh-sidebar">
         <div class="qh-ujiyari-card">
-          <div class="qhuj-logo">🦁</div>
-          <div class="qhuj-name">Ujiyari.com</div>
-          <p class="qhuj-tagline">Complete your Prelims prep with <strong>Daily Current Affairs Quizzes</strong> — curated for UPSC aspirants.</p>
-          <div class="qhuj-features">
-            <div class="qhuj-feat"><span class="qhuj-feat-dot"></span>Daily MCQs from current affairs</div>
-            <div class="qhuj-feat"><span class="qhuj-feat-dot"></span>Topic-wise quiz archives</div>
-            <div class="qhuj-feat"><span class="qhuj-feat-dot"></span>Instant answer explanations</div>
-            <div class="qhuj-feat"><span class="qhuj-feat-dot"></span>Free — no login needed</div>
+          <!-- Logo hero -->
+          <div class="qhuj-logo-strip">
+            <img src="/img/ujiyari-logo.png" alt="Ujiyari" style="width:120px;height:120px;object-fit:contain;border-radius:20px;filter:drop-shadow(0 4px 16px rgba(212,160,23,0.3));">
           </div>
-          <a href="https://ujiyari.com/quiz/" target="_blank" rel="noopener" class="qhuj-cta">Practice Now →</a>
-          <p class="qhuj-note">PYQs here · Current Affairs on Ujiyari</p>
+
+          <!-- Body -->
+          <div class="qhuj-body">
+            <div class="qhuj-name">Ujiyari.com</div>
+            <p class="qhuj-tagline">Complete your Prelims prep with <strong>Daily Current Affairs Quizzes</strong> — curated for UPSC aspirants.</p>
+
+            <hr class="qhuj-div">
+
+            <div class="qhuj-features">
+              <div class="qhuj-feat">
+                <span class="qhuj-feat-icon">✦</span>
+                Daily MCQs from current affairs
+              </div>
+              <div class="qhuj-feat">
+                <span class="qhuj-feat-icon">≡</span>
+                Topic-wise quiz archives
+              </div>
+              <div class="qhuj-feat">
+                <span class="qhuj-feat-icon">✓</span>
+                Instant answer explanations
+              </div>
+              <div class="qhuj-feat">
+                <span class="qhuj-feat-icon">◎</span>
+                Free — no login needed
+              </div>
+            </div>
+
+            <a href="https://ujiyari.com/quiz/" target="_blank" rel="noopener" class="qhuj-cta">
+              Practice Now
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+            <p class="qhuj-note">
+              PYQs here &nbsp;·&nbsp; <a href="https://ujiyari.com/daily/" target="_blank" rel="noopener">Current Affairs on Ujiyari</a>
+            </p>
+          </div>
         </div>
       </aside>
 

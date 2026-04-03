@@ -124,8 +124,15 @@ module.exports = [
     year: 2018,
     type: 'prelims',
     qtype: 'statement',
-    stem: 'Consider the following countries: 1. Australia  2. Canada  3. China  4. India  5. Japan  6. USA',
-    statements: [],
+    stem: 'Consider the following countries:',
+    statements: [
+      'Australia',
+      'Canada',
+      'China',
+      'India',
+      'Japan',
+      'USA',
+    ],
     tail: 'Which of the above are among the "free-trade partners" of ASEAN?',
     options: [
       '1, 2, 4 and 5',
@@ -626,6 +633,295 @@ module.exports = [
     ],
     correct: 0,
     explanation: 'BTIA refers to the India-EU Broad-based Trade and Investment Agreement, negotiations for which began in 2007 but have been paused multiple times. It is also called the India-EU FTA. The deal aims to cover goods, services, investments, and intellectual property between India and the 27-member European Union.'
+  },
+
+  // ─── 2019 QUESTIONS ───────────────────────────────────────────────────────
+
+  {
+    id: 'ir-031',
+    topic: 'International Organisations',
+    subtopic: 'AIIB — Membership and Shareholding',
+    year: 2019,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to Asian Infrastructure Investment Bank (AIIB), consider the following statements:',
+    statements: [
+      'AIIB has more than 80 member nations.',
+      'India is the largest shareholder in AIIB.',
+      'AIIB does not have any members from outside Asia.'
+    ],
+    tail: 'Which of the statements given above is/are correct?',
+    options: [
+      '1 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3'
+    ],
+    correct: 0,
+    explanation: 'Only Statement 1 is correct. The AIIB (established 2016) has grown to over 100 member nations including non-Asian countries such as the UK, France, Germany, Australia, and New Zealand, so Statement 3 is false. Statement 2 is incorrect: China is the largest shareholder with approximately 26% voting share; India is the second-largest shareholder with approximately 7.6%.'
+  },
+
+  {
+    id: 'ir-032',
+    topic: 'Multilateral Agreements',
+    subtopic: 'UNCAC and UNTOC — UN Anti-Corruption Framework',
+    year: 2019,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Consider the following statements:',
+    statements: [
+      'The United Nations Convention against Corruption (UNCAC) has a \'Protocol against the Smuggling of Migrants by Land, Sea and Air\'.',
+      'The UNCAC is the ever-first legally binding global anti-corruption instrument.',
+      'A highlight of the United Nations Convention against Transnational Organized Crime (UNTOC) is the inclusion of a specific chapter aimed at returning assets to their rightful owners from whom they had been taken illicitly.',
+      'The United Nations Office on Drugs and Crime (UNODC) is mandated by its member States to assist in the implementation of both UNCAC and UNTOC.'
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1 and 3 only',
+      '2, 3 and 4 only',
+      '2 and 4 only',
+      '1, 2, 3 and 4'
+    ],
+    correct: 2,
+    explanation: 'Statements 2 and 4 are correct. The UNCAC (2003) is the only universal legally binding anti-corruption instrument (Statement 2 correct). The UNODC is mandated to assist implementation of both UNCAC and UNTOC (Statement 4 correct). Statement 1 is incorrect: the Protocol against Smuggling of Migrants belongs to UNTOC, not UNCAC. Statement 3 is incorrect: it is UNCAC (not UNTOC) that contains provisions on asset recovery and return of illicitly taken assets (Chapter V of UNCAC).'
+  },
+
+  {
+    id: 'ir-033',
+    topic: "India's Foreign Policy",
+    subtopic: 'India-Russia Nuclear Cooperation',
+    year: 2019,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: "Recently, India signed a deal known as 'Action Plan for Prioritization and Implementation of Cooperation Areas in the Nuclear Field' with which of the following countries?",
+    options: [
+      'Japan',
+      'Russia',
+      'The United Kingdom',
+      'The United States of America'
+    ],
+    correct: 1,
+    explanation: 'India signed this Action Plan with Russia during the 2018 India-Russia Annual Summit. It covers nuclear energy cooperation across multiple projects including the Kudankulam Nuclear Power Plant (Units 3–6), which is being built with Russian technical assistance. Russia (through Rosatom) is a long-standing partner in India\'s civilian nuclear programme.'
+  },
+
+  {
+    id: 'ir-034',
+    topic: 'International Organisations',
+    subtopic: 'Data Protection — General Data Protection Regulation',
+    year: 2019,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: "Which of the following adopted a law on data protection and privacy for its citizens known as 'General Data Protection Regulation' in April 2016 and started implementation of it from 25th May, 2018?",
+    options: [
+      'Australia',
+      'Canada',
+      'The European Union',
+      'The United States of America'
+    ],
+    correct: 2,
+    explanation: 'The General Data Protection Regulation (GDPR) was adopted by the European Parliament and Council in April 2016 and came into force on 25 May 2018. It replaced the 1995 EU Data Protection Directive and is considered the world\'s strongest set of data protection rules, giving EU citizens rights over their personal data and imposing strict obligations on organisations handling that data.'
+  },
+
+  // ─── 2021 QUESTIONS ───────────────────────────────────────────────────────
+
+  {
+    id: 'ir-035',
+    topic: 'International Organisations',
+    subtopic: 'International Seabed Authority — Seabed Mineral Exploration',
+    year: 2021,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Consider the following statements:',
+    statements: [
+      'The Global Ocean Commission grants licences for seabed exploration and mining in international waters.',
+      'India has received licences for seabed mineral exploration in international waters.',
+      '\'Rare earth minerals\' are present on seafloor in international waters.'
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3'
+    ],
+    correct: 1,
+    explanation: 'Statements 2 and 3 are correct. Statement 1 is incorrect: it is the International Seabed Authority (ISA), established under UNCLOS, that regulates seabed mining in international waters (the "Area") — not the Global Ocean Commission, which is an independent policy body. Statement 2 is correct: India holds ISA exploration contracts for polymetallic nodules in the Central Indian Ocean Basin and for polymetallic sulphides in the Indian Ocean. Statement 3 is correct: rare earth elements, cobalt, manganese, and nickel-rich polymetallic nodules exist on the seafloor in international waters.'
+  },
+
+  {
+    id: 'ir-036',
+    topic: 'Neighbourhood Relations',
+    subtopic: 'India-Bangladesh — International Mother Language Day',
+    year: 2021,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Consider the following statements:',
+    statements: [
+      '21st February is declared to be the International Mother Language Day by UNICEF.',
+      'The demand that Bangla has to be one of the national languages was raised in the Constituent Assembly of Pakistan.'
+    ],
+    tail: 'Which of the statements given above is/are correct?',
+    options: [
+      '1 only',
+      '2 only',
+      'Both 1 and 2',
+      'Neither 1 nor 2'
+    ],
+    correct: 1,
+    explanation: 'Only Statement 2 is correct. Statement 1 is incorrect: the International Mother Language Day (21 February) was proclaimed by UNESCO — not UNICEF — in November 1999, effective from 2000, to promote linguistic diversity. It commemorates the 1952 Dhaka student protests where students were killed demanding Bangla as a state language of Pakistan. Statement 2 is correct: the demand for Bangla as an official national language of Pakistan was indeed raised in Pakistan\'s Constituent Assembly in 1948, notably by Dhirendranath Datta.'
+  },
+
+  // ─── 2024 QUESTIONS ───────────────────────────────────────────────────────
+
+  {
+    id: 'ir-037',
+    topic: "India's Foreign Policy",
+    subtopic: 'India-Sri Lanka — Exercise Mitra Shakti 2023',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: "Which of the following statements about 'Exercise Mitra Shakti-2023' are correct?",
+    statements: [
+      'This was a joint military exercise between India and Bangladesh.',
+      'It commenced in Aundh (Pune).',
+      'Joint response during counter-terrorism operations was a goal of this operation.',
+      'Indian Air Force was a part of this exercise.'
+    ],
+    tail: 'Select the correct answer using the code given below:',
+    options: [
+      '1, 2 and 3 only',
+      '1 and 4 only',
+      '1, 3 and 4 only',
+      '2, 3 and 4 only'
+    ],
+    correct: 3,
+    explanation: 'Statements 2, 3 and 4 are correct. Statement 1 is incorrect: Exercise Mitra Shakti is conducted between India and Sri Lanka, not India and Bangladesh. The India-Bangladesh exercise is called Exercise SAMPRITI. The 9th edition of Mitra Shakti-2023 was held at Aundh Military Station, Pune (November 16–29, 2023). Its objectives included rehearsal of sub-conventional operations under UN Chapter VII with emphasis on counter-terrorism joint responses. Crucially, IAF personnel participated for the first time in this edition, alongside Indian Army and Sri Lanka Army troops.'
+  },
+
+  {
+    id: 'ir-038',
+    topic: 'Global Groupings',
+    subtopic: 'Countries in News — Argentina, Sudan, Turkey',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Consider the following pairs:\n  Country | Reason for being in the news\n  Argentina | Worst economic crisis\n  Sudan | War between the country\'s regular army and paramilitary forces\n  Turkey | Rescinded its membership of NATO',
+    statements: [],
+    tail: 'How many of the pairs given above are correctly matched?',
+    options: [
+      'Only one pair',
+      'Only two pairs',
+      'All three pairs',
+      'None of the pairs'
+    ],
+    correct: 1,
+    explanation: 'Only two pairs are correctly matched (Argentina and Sudan). Argentina suffered its worst economic crisis in decades with inflation exceeding 287% annually in 2024. Sudan\'s civil war erupted in April 2023 between the Sudanese Armed Forces and the paramilitary Rapid Support Forces. The Turkey pair is incorrect: Turkey has NOT rescinded NATO membership — it remains a founding member and, notably, approved Sweden\'s NATO accession in January 2024.'
+  },
+
+  {
+    id: 'ir-039',
+    topic: 'Global Groupings',
+    subtopic: 'Sahel Region — Instability and Military Coups',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'assertion',
+    assertion: 'There is instability and worsening security situation in the Sahel region.',
+    reason: 'There have been military takeovers/coups d\'état in several countries of the Sahel region in the recent past.',
+    correct: 0,
+    explanation: 'Both statements are correct and Statement-II correctly explains Statement-I. The Sahel — a belt spanning Mauritania, Mali, Burkina Faso, Niger, Chad, and Sudan — has seen a wave of military coups since 2020: Mali (August 2020, May 2021), Guinea (September 2021), Burkina Faso (January and September 2022), Niger (July 2023), and Gabon (August 2023). These coups have fuelled a surge in jihadist violence, conflict-related fatalities, and humanitarian crises, directly causing the worsening security situation.'
+  },
+
+  {
+    id: 'ir-040',
+    topic: 'International Organisations',
+    subtopic: 'EU Net-Zero Industry Act — Climate Target',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'assertion',
+    assertion: 'The European Parliament approved The Net-Zero Industry Act recently.',
+    reason: 'The European Union intends to achieve carbon neutrality by 2040 and therefore aims to develop all of its own clean technology by that time.',
+    correct: 2,
+    explanation: 'Statement-I is correct: the European Parliament approved the Net-Zero Industry Act (NZIA) in April 2024 to scale up clean technology manufacturing capacity in the EU. Statement-II is incorrect on two counts: (a) the EU\'s carbon neutrality target is 2050, not 2040 (though 2040 is an interim benchmark target); and (b) the NZIA does not require the EU to develop all clean technology domestically — it allows for imports while requiring that 40% of clean technology deployment needs be met by EU manufacturing by 2030.'
+  },
+
+  {
+    id: 'ir-041',
+    topic: 'Global Groupings',
+    subtopic: 'Venezuela — Economic Crisis and Oil Reserves',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'assertion',
+    assertion: 'Recently, Venezuela has achieved a rapid recovery from its economic crisis and succeeded in preventing its people from fleeing/emigrating to other countries.',
+    reason: 'Venezuela has the world\'s largest oil reserves.',
+    correct: 3,
+    explanation: 'Statement-I is incorrect: Venezuela continues to face a severe humanitarian crisis with hyperinflation, poverty, food insecurity, and one of the world\'s largest displacement crises — over 7.7 million Venezuelans have emigrated. Statement-II is correct: Venezuela holds approximately 303 billion barrels of proven oil reserves, the largest in the world according to OPEC data. Since Statement-I is false, the correct option is that Statement-I is incorrect but Statement-II is correct.'
+  },
+
+  // ─── 2025 QUESTIONS ───────────────────────────────────────────────────────
+
+  {
+    id: 'ir-042',
+    topic: 'Global Groupings',
+    subtopic: 'BRICS — 16th Summit, Kazan and Indonesia Membership',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Consider the following statements with regard to BRICS:',
+    statements: [
+      '16th BRICS Summit was held under the Chairmanship of Russia in Kazan.',
+      'Indonesia has become a full member of BRICS.',
+      'The theme of the 16th BRICS Summit was Strengthening Multiculturalism for Just Global Development and Security.'
+    ],
+    tail: 'Which of the statements given above is/are correct?',
+    options: [
+      'I and II only',
+      'II and III only',
+      'I and III only',
+      'I only'
+    ],
+    correct: 0,
+    explanation: 'Statements I and II are correct. The 16th BRICS Summit was held from October 22–24, 2024 in Kazan, Russia, under Russia\'s chairmanship. Indonesia became the 10th full member of BRICS effective January 2025, becoming the first Southeast Asian nation to join. Statement III is incorrect: the official theme was "Strengthening Multilateralism for Just Global Development and Security" — the question substituted "Multiculturalism" for "Multilateralism", making it false.'
+  },
+
+  {
+    id: 'ir-043',
+    topic: 'International Organisations',
+    subtopic: 'NATO — Current Membership',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'Consider the following countries:\n  I. Austria  II. Bulgaria  III. Croatia  IV. Serbia  V. Sweden  VI. North Macedonia\n  How many of the above are members of the North Atlantic Treaty Organization (NATO)?',
+    options: [
+      'Only three',
+      'Only four',
+      'Only five',
+      'All six'
+    ],
+    correct: 1,
+    explanation: 'Four of the six listed countries are NATO members: Bulgaria (joined 2004), Croatia (joined 2009), Sweden (joined March 2024 as 32nd member, ending 200 years of military non-alignment), and North Macedonia (joined 2020 as 30th member after the Prespa Agreement with Greece). Austria and Serbia are NOT NATO members — Austria is permanently neutral under the 1955 State Treaty, while Serbia has not applied for membership and maintains military neutrality.'
+  },
+
+  {
+    id: 'ir-044',
+    topic: 'International Organisations',
+    subtopic: 'AI Action Summit — Paris 2025',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Consider the following statements regarding AI Action Summit held in Grand Palais, Paris in February 2025:',
+    statements: [
+      'Co-chaired with India, the event builds on the advances made at the Bletchley Park Summit held in 2023 and the Seoul Summit held in 2024.',
+      'Along with other countries, the US and UK also signed the declaration on inclusive and sustainable AI.'
+    ],
+    tail: 'Which of the statements given above is/are correct?',
+    options: [
+      'I only',
+      'II only',
+      'Both I and II',
+      'Neither I nor II'
+    ],
+    correct: 0,
+    explanation: 'Only Statement I is correct. The AI Action Summit (February 10–11, 2025) in Paris was co-chaired by France and India, following the Bletchley Park AI Safety Summit (UK, November 2023) and the Seoul AI Summit (South Korea, May 2024). Statement II is incorrect: the "Inclusive and Sustainable AI" joint statement was signed by 58 countries including India and China, but the United States and the United Kingdom did not sign, citing concerns about regulatory overreach and preferring a lighter-touch approach to AI governance.'
   },
 
   // ─── GLOBAL COMPACT & MIGRATION ──────────────────────────────────────────

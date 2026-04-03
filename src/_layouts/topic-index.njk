@@ -19,9 +19,18 @@ layout: base.njk
   <div class="container">
     <nav class="breadcrumb">
       <a href="/">Home</a><span class="breadcrumb__sep">/</span>
-      <a href="/subjects/">Subjects</a><span class="breadcrumb__sep">/</span>
-      {% if subjectData %}<a href="/subjects/{{ subject }}/">{{ subjectData.name }}</a><span class="breadcrumb__sep">/</span>{% endif %}
-      {{ title }}
+      {% if subjectData and subjectData.hub_url %}
+        {% if subjectData.hub_url == page.url %}
+          {{ subjectData.name }}
+        {% else %}
+          <a href="{{ subjectData.hub_url }}">{{ subjectData.name }}</a><span class="breadcrumb__sep">/</span>
+          {{ title }}
+        {% endif %}
+      {% else %}
+        <a href="/subjects/">Subjects</a><span class="breadcrumb__sep">/</span>
+        {% if subjectData %}<a href="/subjects/{{ subject }}/">{{ subjectData.name }}</a><span class="breadcrumb__sep">/</span>{% endif %}
+        {{ title }}
+      {% endif %}
     </nav>
     <div class="page-header__tags">
       {% if subjectData %}<span style="font-size:1.5rem;">{{ subjectData.icon }}</span>{% endif %}
@@ -121,7 +130,7 @@ layout: base.njk
           <a href="{{ sibling.url }}" style="display:block; font-size:var(--text-xs); padding:var(--space-1) 0; color:var(--color-text-muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{{ sibling.data.title }}</a>
           {% endif %}
           {% endfor %}
-          <a href="/subjects/{{ subject }}/" style="display:block; font-size:var(--text-xs); padding:var(--space-2) 0; color:var(--color-brand-light); font-weight:var(--font-semibold);">View all →</a>
+          <a href="{{ subjectData.hub_url if subjectData.hub_url else '/subjects/' + subject + '/' }}" style="display:block; font-size:var(--text-xs); padding:var(--space-2) 0; color:var(--color-brand-light); font-weight:var(--font-semibold);">View all →</a>
         </div>
         {% endif %}
 

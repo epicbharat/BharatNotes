@@ -18,9 +18,16 @@ layout: base.njk
   <div class="container">
     <nav class="breadcrumb">
       <a href="/">Home</a><span class="breadcrumb__sep">/</span>
-      <a href="/subjects/">Subjects</a><span class="breadcrumb__sep">/</span>
-      {% if subjectData %}<a href="/subjects/{{ subject }}/">{{ subjectData.name }}</a><span class="breadcrumb__sep">/</span>{% endif %}
-      {% if parent_topic_url %}<a href="{{ parent_topic_url }}">{{ parent_topic }}</a><span class="breadcrumb__sep">/</span>{% endif %}
+      {% if subjectData and subjectData.hub_url %}
+        <a href="{{ subjectData.hub_url }}">{{ subjectData.name }}</a><span class="breadcrumb__sep">/</span>
+        {% if parent_topic_url and parent_topic_url != subjectData.hub_url %}
+          <a href="{{ parent_topic_url }}">{{ parent_topic }}</a><span class="breadcrumb__sep">/</span>
+        {% endif %}
+      {% else %}
+        <a href="/subjects/">Subjects</a><span class="breadcrumb__sep">/</span>
+        {% if subjectData %}<a href="/subjects/{{ subject }}/">{{ subjectData.name }}</a><span class="breadcrumb__sep">/</span>{% endif %}
+        {% if parent_topic_url %}<a href="{{ parent_topic_url }}">{{ parent_topic }}</a><span class="breadcrumb__sep">/</span>{% endif %}
+      {% endif %}
       {{ title }}
     </nav>
     <div class="page-header__tags">
@@ -281,7 +288,7 @@ layout: base.njk
             {% endif %}
             {% endfor %}
           </ul>
-          <a href="/subjects/{{ subject }}/" class="sidebar-more-in__all">View all chapters →</a>
+          <a href="{{ subjectData.hub_url if subjectData and subjectData.hub_url else '/subjects/' + subject + '/' }}" class="sidebar-more-in__all">View all chapters →</a>
         </div>
         {% endif %}
         {% endif %}

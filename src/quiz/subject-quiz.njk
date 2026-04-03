@@ -1156,6 +1156,7 @@ eleventyComputed:
     el.innerHTML = h;
     updateProgress();
     wireQuizEvents(q);
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
   function wireQuizEvents(q) {

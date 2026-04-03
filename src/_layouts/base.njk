@@ -109,16 +109,22 @@
   {% endif %}
   {% if layout == 'topic.njk' %}
   {%- set _subjectName = subject -%}
-  {%- for s in subjects -%}{%- if s.slug == subject -%}{%- set _subjectName = s.name -%}{%- endif -%}{%- endfor -%}
+  {%- set _subjectHub = null -%}
+  {%- for s in subjects -%}{%- if s.slug == subject -%}{%- set _subjectName = s.name -%}{%- if s.hub_url -%}{%- set _subjectHub = s.hub_url -%}{%- endif -%}{%- endif -%}{%- endfor -%}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/"},
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/"}
+      {% if _subjectHub %},
+      {"@type": "ListItem", "position": 2, "name": "{{ _subjectName }}", "item": "{{ site.url }}{{ _subjectHub }}"},
+      {"@type": "ListItem", "position": 3, "name": "{{ title }}"}
+      {% else %},
       {"@type": "ListItem", "position": 2, "name": "Subjects", "item": "{{ site.url }}/subjects/"},
       {"@type": "ListItem", "position": 3, "name": "{{ _subjectName }}", "item": "{{ site.url }}/subjects/{{ subject }}/"},
       {"@type": "ListItem", "position": 4, "name": "{{ title }}"}
+      {% endif %}
     ]
   }
   </script>
@@ -231,12 +237,13 @@
         </div>
         <a href="/prelims/" class="primary-nav__link" {% if '/prelims/' in page.url %}aria-current="page"{% endif %}>Prelims</a>
         <a href="/mains/" class="primary-nav__link" {% if '/mains/' in page.url %}aria-current="page"{% endif %}>Mains</a>
+        <a href="/essay/" class="primary-nav__link" {% if '/essay/' in page.url %}aria-current="page"{% endif %}>Essay</a>
         <a href="/pyq/" class="primary-nav__link" {% if '/pyq/' in page.url %}aria-current="page"{% endif %}>PYQ Stats</a>
         <div class="primary-nav__dropdown">
           <button class="primary-nav__link primary-nav__dropdown-toggle" aria-expanded="false" aria-haspopup="true" {% if '/quiz/' in page.url or '/prelims-practice/' in page.url %}aria-current="page"{% endif %}>Practice <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="vertical-align:-1px;margin-left:2px;"><polyline points="6 9 12 15 18 9"/></svg></button>
           <div class="primary-nav__dropdown-menu" role="menu">
             <a href="/quiz/" class="primary-nav__dropdown-item" role="menuitem">🎯 Practice PYQs <span style="font-size:0.65rem;font-weight:700;background:rgba(22,163,74,0.12);color:#15803d;padding:1px 6px;border-radius:999px;margin-left:4px;">Official</span></a>
-            <a href="/prelims-practice/" class="primary-nav__dropdown-item" role="menuitem" style="opacity:0.6;pointer-events:none;">📝 Prelims Practice <span style="font-size:0.65rem;font-weight:700;background:rgba(212,160,23,0.12);color:#92400e;padding:1px 6px;border-radius:999px;margin-left:4px;">Soon</span></a>
+            <a href="/prelims-practice/" class="primary-nav__dropdown-item" role="menuitem" {% if '/prelims-practice/' in page.url %}aria-current="page"{% endif %}>📝 Prelims Practice <span style="font-size:0.65rem;font-weight:700;background:rgba(15,76,58,0.12);color:#0f4c3a;padding:1px 6px;border-radius:999px;margin-left:4px;">New</span></a>
           </div>
         </div>
         <a href="/tracker/" class="primary-nav__link" {% if '/tracker/' in page.url %}aria-current="page"{% endif %}>Tracker</a>

@@ -505,4 +505,276 @@ module.exports = [
       'All three statements are correct. The AFSPA, 1958 gives the armed forces sweeping powers in "Disturbed Areas" — including the power to search without warrant, arrest without warrant, and use lethal force — and provides security personnel immunity from prosecution without prior Central Government sanction, making it deeply controversial from a human rights perspective. The Act was first enacted in 1958 specifically to deal with the Naga insurgency in Nagaland and the Assam Rifles Act context. Suspension of Operations (SoO) agreements — under which insurgent groups halt violent activities in exchange for designated camps and government recognition — form the cornerstone of peace negotiations in Manipur and Nagaland.',
   },
 
+  // ── 2023–2025 QUESTIONS ──────────────────────────────────────────────────
+
+  {
+    id: 'sec-021',
+    topic: 'Internal Security',
+    subtopic: 'Assam Rifles',
+    year: 2023,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to Assam Rifles, consider the following statements:',
+    statements: [
+      'It is primarily responsible for guarding India\'s land borders with Pakistan and Bangladesh.',
+      'It is India\'s oldest paramilitary force.',
+      'The administrative control of the force is with the Ministry of Home Affairs (MHA) but its operational control is with the Indian Army, which is under the Ministry of Defence (MoD).',
+      'It was involved in the Sino-Indian war of 1962.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1, 2 and 3 only',
+      '2 and 4 only',
+      '1, 3 and 4 only',
+      '2, 3 and 4 only',
+    ],
+    correct: 3,
+    explanation:
+      'Statements 2, 3, and 4 are correct. Assam Rifles, established in 1835 as the "Cachar Levy" to protect British tea estates in the Northeast, is India\'s oldest paramilitary force (statement 2). It has a unique dual-control structure: administrative control rests with the Ministry of Home Affairs while operational control is exercised by the Indian Army/Ministry of Defence — a structure that has been the subject of a longstanding jurisdictional dispute (statement 3). Assam Rifles participated in the Sino-Indian War of 1962 as part of border defence in the Northeast frontier (statement 4). Statement 1 is incorrect: Assam Rifles guards India\'s approximately 1,643 km border with Myanmar — not Pakistan or Bangladesh. Borders with Pakistan and Bangladesh are guarded by the BSF (Border Security Force). (UPSC Prelims 2023; verified answer: 2, 3 and 4 only.)',
+  },
+
+  {
+    id: 'sec-022',
+    topic: 'Internal Security',
+    subtopic: 'Left-Wing Extremism — Declining Trend',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to the status of Left-Wing Extremism (LWE) in India, consider the following statements:',
+    statements: [
+      'The number of LWE-affected districts has been continuously declining from 126 districts in 2013.',
+      'The SAMADHAN strategy is India\'s integrated approach to combating Left-Wing Extremism.',
+      'CPI (Maoist) was formed in 2004 by the merger of the People\'s War Group (PWG) and the Maoist Communist Centre of India (MCCI).',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3',
+    ],
+    correct: 3,
+    explanation:
+      'All three statements are correct. Official MHA/PIB data confirms the decline: LWE-affected districts fell from 126 in 2013 to 90 in 2018, to 70 in 2021, to 38 in April 2024, and further to 18 by April 2025 — a consistent downward trend (statement 1). The SAMADHAN doctrine (2017) is the government\'s integrated multi-domain strategy: Smart Leadership, Aggressive Strategy, Motivation and Training, Actionable Intelligence, Dashboard-based KPIs, Harnessing Technology, Action Plan for Each Theatre, No access to Financing (statement 2). CPI (Maoist) was formed in September 2004 through the merger of the Marxist-Leninist Peoples War Group (PWG), active in Andhra Pradesh and Telangana, with the Maoist Communist Centre of India (MCCI), active in Bihar and Jharkhand — creating the largest and most lethal Maoist organisation in India (statement 3).',
+  },
+
+  {
+    id: 'sec-023',
+    topic: 'Internal Security',
+    subtopic: 'Cybercrime — I4C',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to the Indian Cyber Crime Coordination Centre (I4C), consider the following statements:',
+    statements: [
+      'I4C was established by the Ministry of Home Affairs as a scheme to prevent, detect, investigate and prosecute cybercrime.',
+      'I4C operates the National Cyber Crime Reporting Portal and the toll-free helpline number 1930.',
+      'I4C functions under the Ministry of Electronics and Information Technology (MeitY).',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3',
+    ],
+    correct: 0,
+    explanation:
+      'Statements 1 and 2 are correct. I4C was conceptualised under the Cyber and Information Security Division of the Ministry of Home Affairs and was formally established as an Attached Office of MHA with effect from 1 July 2024. It coordinates among law enforcement agencies and provides a citizen interface for cybercrime reporting. I4C operates cybercrime.gov.in (the National Cyber Crime Reporting Portal) and the toll-free helpline 1930 for immediate assistance in cases of financial cybercrime — enabling blocking of fraudulent transactions. Statement 3 is incorrect: I4C functions under the Ministry of Home Affairs, not MeitY. CERT-In (Indian Computer Emergency Response Team), which handles cyber security incidents, operates under MeitY.',
+  },
+
+  {
+    id: 'sec-024',
+    topic: 'Internal Security',
+    subtopic: 'Terror Financing — No Money for Terror',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'The "No Money for Terror (NMFT)" initiative to combat terrorist financing was started by which of the following?',
+    options: [
+      'Australia',
+      'France',
+      'Austria',
+      'United States',
+    ],
+    correct: 1,
+    explanation:
+      'The No Money for Terror (NMFT) Conference was started by France in 2018 as an international ministerial-level platform dedicated specifically to disrupting terrorist financing. The inaugural conference was held in Paris in April 2018. The 3rd conference was hosted by India in New Delhi in November 2022, with Union Home Minister Amit Shah presiding, reflecting India\'s growing role in global counter-terrorism financing efforts. The 4th NMFT Conference was held in 2025. The forum brings together finance ministries, interior ministries, and intelligence agencies to share best practices, discuss FATF standards, and build political will to choke funding to terrorist organisations.',
+  },
+
+  {
+    id: 'sec-025',
+    topic: 'Internal Security',
+    subtopic: 'PMLA — Amendments and Scope',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to recent amendments to the Prevention of Money Laundering Act (PMLA), 2002, consider the following statements:',
+    statements: [
+      'The 2023 amendments to PMLA sought to treat money laundering as a stand-alone offence, independent of the predicate (scheduled) offence.',
+      'The amendments expanded the definition of Politically Exposed Persons (PEPs) to include prominent foreign officials.',
+      'After the 2023 amendments, NGOs are no longer required to disclose financial information under PMLA.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3',
+    ],
+    correct: 0,
+    explanation:
+      'Statements 1 and 2 are correct. The 2023 PMLA amendments — made in alignment with Financial Action Task Force (FATF) recommendations — moved towards treating money laundering as an autonomous offence, reducing dependence on first proving a scheduled predicate offence to initiate prosecution. This was aimed at making India\'s anti-money laundering regime more effective and FATF-compliant. The amendments also redefined Politically Exposed Persons (PEPs) to include prominent foreign officials (heads of state, senior military officers, senior politicians of foreign countries), aligning with global standards for enhanced due diligence. Statement 3 is incorrect: the 2023 amendments actually increased disclosure obligations on non-profit organisations and NGOs — they must report financial transactions and are now subject to greater scrutiny to prevent misuse of charitable entities for terror financing.',
+  },
+
+  {
+    id: 'sec-026',
+    topic: 'Internal Security',
+    subtopic: 'Cyber Threats — Ransomware and Dark Web',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to cybersecurity threats, consider the following statements:',
+    statements: [
+      'Ransomware is a type of malware that encrypts victim\'s files and demands payment in exchange for the decryption key.',
+      'The dark web refers to encrypted online content that is not indexed by conventional search engines and requires specialised software such as Tor to access.',
+      'Critical Information Infrastructure (CII) in India is protected under the Information Technology Act, 2000 by the National Critical Information Infrastructure Protection Centre (NCIIPC).',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3',
+    ],
+    correct: 3,
+    explanation:
+      'All three statements are correct. Ransomware (e.g., WannaCry, Petya, LockBit) is malware that encrypts victim data and extorts cryptocurrency ransoms, increasingly targeting government systems, hospitals, and critical infrastructure (statement 1). The dark web is the portion of the internet accessible only through anonymising tools like The Onion Router (Tor) or I2P, providing anonymity for both whistleblowers and criminal activity including arms trafficking, narcotics sale, and cyberattack services (statement 2). The NCIIPC was established under Section 70A of the IT Act, 2000 (inserted by the 2008 amendment) to protect India\'s critical information infrastructure — sectors like power, banking, telecom, transport, and government — from cyber threats; it is an attached office of the National Technical Research Organisation (NTRO) under the PMO (statement 3).',
+  },
+
+  {
+    id: 'sec-027',
+    topic: 'Internal Security',
+    subtopic: 'Border Management — India-Myanmar Border',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to India\'s border management with Myanmar, consider the following statements:',
+    statements: [
+      'The Free Movement Regime (FMR) allowed residents of border villages on both sides to move up to 16 km into each other\'s territory without a visa.',
+      'The Government of India announced the suspension of the Free Movement Regime and the construction of a fence along the entire India-Myanmar border in 2024.',
+      'Assam Rifles is responsible for guarding the India-Myanmar border.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3',
+    ],
+    correct: 3,
+    explanation:
+      'All three statements are correct. The Free Movement Regime (FMR), introduced in 2018, permitted residents within 16 km of the India-Myanmar border to cross without passport or visa requirements — recognising the ethnic, cultural, and familial ties of communities straddling the border (statement 1). In February 2024, Home Minister Amit Shah announced that India would suspend the FMR and construct a comprehensive fence along the entire 1,643 km India-Myanmar border to prevent illegal immigration, drug smuggling, arms trafficking, and movement of insurgents — a significant policy reversal driven by security concerns post Myanmar\'s 2021 military coup (statement 2). The Assam Rifles, India\'s oldest paramilitary force operating under dual MHA-Army control, is the designated force for guarding the India-Myanmar border (statement 3).',
+  },
+
+  {
+    id: 'sec-028',
+    topic: 'Internal Security',
+    subtopic: 'Organised Crime — FICN and Narco-terrorism',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to the linkages between organised crime and terrorism in India, consider the following statements:',
+    statements: [
+      'The FICN Coordination Group (FCORD) was established by the Ministry of Home Affairs to counter the circulation of Fake Indian Currency Notes (FICN).',
+      'Drug trafficking from the "Golden Crescent" (Afghanistan, Pakistan, Iran) is a primary route for narcotics entering India\'s northwest.',
+      'The National Investigation Agency (NIA) has jurisdiction to investigate cases of human trafficking after the NIA Amendment Act, 2019.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3',
+    ],
+    correct: 3,
+    explanation:
+      'All three statements are correct. FCORD (FICN Coordination Group) is an MHA body that coordinates intelligence among multiple agencies — IB, RAW, NTRO, NIA, BSF, Customs, and State Police — to detect and neutralise the smuggling and circulation of Fake Indian Currency Notes, which are primarily printed in Pakistan and used for destabilisation and terror financing (statement 1). The Golden Crescent (Afghanistan, Iran, Pakistan) is the world\'s largest opium-producing zone and the primary source of heroin entering India\'s Punjab, J&K, Rajasthan, and Gujarat through the Pakistan border, generating funds for cross-border terrorism (statement 2). The NIA Amendment Act, 2019 added human trafficking (under Sections 370 and 370A of IPC) to the schedule of offences that the NIA can investigate nationwide without requiring state consent (statement 3).',
+  },
+
+  {
+    id: 'sec-029',
+    topic: 'Internal Security',
+    subtopic: 'Cyber Security — National Architecture',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Consider the following statements about India\'s cybersecurity architecture:',
+    statements: [
+      'The National Cyber Security Coordinator (NCSC) is positioned in the Prime Minister\'s Office (PMO) to coordinate cybersecurity among government agencies.',
+      'CERT-In (Indian Computer Emergency Response Team) functions under the Ministry of Electronics and Information Technology (MeitY) with the mandate of responding to cybersecurity incidents.',
+      'The National Critical Information Infrastructure Protection Centre (NCIIPC) functions as an attached office of the National Technical Research Organisation (NTRO) under the PMO.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3',
+    ],
+    correct: 3,
+    explanation:
+      'All three statements are correct. The National Cyber Security Coordinator (NCSC) was established in 2014 and is housed in the PMO to provide strategic direction and coordinate cybersecurity policies and initiatives across government ministries and agencies (statement 1). CERT-In was established in 2004 under Section 70B of the IT Act, 2000 (amended 2008) and operates under MeitY, functioning as the national nodal agency for cybersecurity incident response, threat intelligence, and issuance of advisories and directives (statement 2). NCIIPC was designated as the national nodal agency for protecting India\'s critical information infrastructure under Section 70A of the IT Act, and functions as an attached office of NTRO under the PMO, dealing with threats to power grids, banking systems, telecom networks, and government databases (statement 3).',
+  },
+
+  {
+    id: 'sec-030',
+    topic: 'Internal Security',
+    subtopic: 'UAVs — Security Threat',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to the use of Unmanned Aerial Vehicles (UAVs) as a security threat, consider the following statements:',
+    statements: [
+      'Adversaries have used UAVs to ferry arms, ammunition, drugs, and fake currency across India\'s international borders.',
+      'The Drone Rules, 2021 mandate registration of all drones operating in Indian airspace.',
+      'Counter-drone technology involves the use of radar, radiofrequency jamming, laser systems, and net-guns to detect and neutralise UAVs.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3',
+    ],
+    correct: 3,
+    explanation:
+      'All three statements are correct. Cross-border smuggling by drones has emerged as a major security challenge, particularly along India\'s borders with Pakistan — with BSF routinely intercepting drones carrying heroin, arms, and FICN in Punjab and Jammu — and is highlighted in MHA annual reports as a primary security threat (statement 1). The Drone Rules, 2021 (replacing the earlier UAS Rules, 2021) mandate registration of all drones (except nano drones below 250 g) on the Digital Sky Platform — a government portal for drone operations — to regulate airspace and enhance accountability (statement 2). Counter-drone (C-UAS) technology encompasses a layered approach: radar and RF detection (detect), jamming and spoofing (neutralise electronically), and kinetic options including laser-directed energy weapons, net guns, and trained eagles — all deployed by security forces in sensitive zones including airports, military bases, and border areas (statement 3).',
+  },
+
+  {
+    id: 'sec-031',
+    topic: 'Internal Security',
+    subtopic: 'Radicalization and Cyber Terrorism',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to cyber terrorism and online radicalisation, consider the following statements:',
+    statements: [
+      'Cyber terrorism involves politically motivated attacks on information systems with the intent to cause fear, damage, or disruption comparable to conventional terrorism.',
+      'The IT (Amendment) Act, 2008 introduced Section 66F into the Information Technology Act, specifically defining and penalising cyber terrorism.',
+      'Online radicalisation through social media and encrypted messaging platforms is a significant vector for recruitment by terrorist organisations such as ISIS.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3',
+    ],
+    correct: 3,
+    explanation:
+      'All three statements are correct. Cyber terrorism, as understood in international law and Indian security doctrine, involves attacks on critical computer systems, networks, or data with intent to intimidate or coerce governments or populations — analogous to physical terrorism in its disruptive impact on essential services (statement 1). Section 66F of the IT Act (inserted by the IT Amendment Act, 2008) specifically penalises cyber terrorism — defined as accessing protected computer systems with intent to threaten national security or cause death/injuries or damage to property — with imprisonment up to life (statement 2). Intelligence agencies worldwide, including IB and RAW, have documented ISIS and other groups systematically using platforms like Telegram, TikTok (before India\'s ban), and the dark web to recruit, radicalise, and mobilise individuals — including in India, where several radicalisation cases have been investigated by the NIA (statement 3).',
+  },
+
 ];

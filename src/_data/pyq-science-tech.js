@@ -796,4 +796,289 @@ module.exports = [
       'All three terms — the Agreement on Agriculture (AoA), the Agreement on the Application of Sanitary and Phytosanitary (SPS) Measures, and the "Peace Clause" (Article 13 of AoA, and later the 2013 Bali Package extension) — are instruments under the World Trade Organization\'s Uruguay Round agreements. They govern agricultural subsidies, food safety standards (SPS), and provide temporary protection to developing countries from WTO legal challenges on public food stockholding programmes such as India\'s Food Security Act.',
   },
 
+  // ── 2024 QUESTIONS ──────────────────────────────────────────────────────
+
+  {
+    id: 'st-036',
+    topic: 'Space Technology',
+    subtopic: 'Radioisotope Thermoelectric Generators',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to radioisotope thermoelectric generators (RTGs), consider the following statements:',
+    statements: [
+      'RTGs are miniature fission reactors.',
+      'RTGs are used for powering the onboard systems of spacecrafts.',
+      'RTGs can use Plutonium-238, which is a by-product of weapons development.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3',
+    ],
+    correct: 1,
+    explanation:
+      'Statement 1 is incorrect — RTGs are not fission reactors; they generate electricity from the natural radioactive decay of Plutonium-238 through thermocouples, with no nuclear fission involved. Statement 2 is correct — RTGs have powered deep-space NASA missions including Voyager 1 & 2, Cassini, New Horizons, and the Curiosity and Perseverance Mars rovers, where solar power is insufficient. Statement 3 is correct — Pu-238 is produced by irradiating neptunium-237, a by-product of nuclear weapons programs, and is the preferred RTG fuel due to its 87.7-year half-life and manageable heat output. (UPSC Prelims 2024; verified answer: 2 and 3 only.)',
+  },
+
+  {
+    id: 'st-037',
+    topic: 'IT & Cyber',
+    subtopic: 'Metaverse',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to Metaverse, consider the following statements:',
+    statements: [
+      'It is a network of always-on virtual environments in which many people can interact with one another and digital objects through virtual representations of themselves.',
+      'The technology industry is envisioning Metaverse as the successor to today\'s internet.',
+    ],
+    tail: 'Which of the statements given above is/are correct?',
+    options: [
+      '1 only',
+      '2 only',
+      'Both 1 and 2',
+      'Neither 1 nor 2',
+    ],
+    correct: 2,
+    explanation:
+      'Both statements are correct. The Metaverse is conceived as a persistent, always-on, interconnected network of three-dimensional virtual worlds accessible via avatars (virtual representations) that allow users to interact with each other and with digital objects in real time — encompassing virtual reality, augmented reality, and 3D internet spaces. Major technology companies (Meta, Microsoft, NVIDIA) publicly describe the Metaverse as the next evolution of the internet, transitioning from 2D web pages and apps to immersive 3D shared spaces for work, social interaction, commerce, and entertainment. (UPSC Prelims 2024; verified answer: Both 1 and 2.)',
+  },
+
+  {
+    id: 'st-038',
+    topic: 'Biotechnology',
+    subtopic: 'Nitric Oxide — Biochemistry',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'Which one of the following is synthesised in the human body that dilates blood vessels and increases blood flow?',
+    options: [
+      'Nitric oxide',
+      'Nitrous oxide',
+      'Nitrogen dioxide',
+      'Nitrogen pentoxide',
+    ],
+    correct: 0,
+    explanation:
+      'Nitric oxide (NO) is produced endogenously in the human body by nitric oxide synthase (NOS) enzymes from the amino acid L-arginine. It acts as a signalling molecule that causes smooth muscle relaxation in blood vessel walls (vasodilation), increasing blood flow. This mechanism is the basis for nitroglycerin\'s use in treating angina, and the 1998 Nobel Prize in Physiology or Medicine was awarded to Furchgott, Ignarro, and Murad for discovering NO\'s role as a cardiovascular signalling molecule. Nitrous oxide (N₂O) is a sedative/anaesthetic gas; nitrogen dioxide (NO₂) is a toxic air pollutant; nitrogen pentoxide (N₂O₅) is a chemical reagent, not a biological molecule. (UPSC Prelims 2024; verified answer: Nitric oxide.)',
+  },
+
+  {
+    id: 'st-039',
+    topic: 'Defence Technology',
+    subtopic: 'Fighter Aircraft Generations',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'Consider the following aircraft:\n1. Rafale\n2. MiG-29\n3. Tejas MK-1\n\nHow many of the above are considered fifth-generation fighter aircraft?',
+    options: [
+      'Only one',
+      'Only two',
+      'All three',
+      'None',
+    ],
+    correct: 3,
+    explanation:
+      'None of the three aircraft listed are fifth-generation fighters. The Rafale (France) is a 4.5th-generation omnirole combat aircraft with advanced avionics and AESA radar but lacks full-aperture stealth. The MiG-29 (Russia) is a classic fourth-generation air-superiority fighter in service since the 1980s. The Tejas MK-1 (India/HAL) is also a fourth-generation light combat aircraft; the fifth-generation Tejas MK-2 and the Advanced Medium Combat Aircraft (AMCA) are under development. True fifth-generation aircraft — defined by stealth shaping, sensor fusion, and supercruise — include the F-22 Raptor, F-35 Lightning II (USA), J-20 (China), and Su-57 (Russia). (UPSC Prelims 2024; verified answer: None.)',
+  },
+
+  {
+    id: 'st-040',
+    topic: 'IT & Cyber',
+    subtopic: 'Distributed Energy Resources',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'Consider the following:\n1. Battery storage systems\n2. Biomass generators\n3. Fuel cells\n4. Rooftop solar PV systems\n\nHow many of the above are considered Distributed Energy Resources (DERs)?',
+    options: [
+      'Only one',
+      'Only two',
+      'Only three',
+      'All four',
+    ],
+    correct: 3,
+    explanation:
+      'All four are Distributed Energy Resources. DERs are small-scale power generation, storage, or demand-management technologies located at or near the point of use, connected to the distribution grid. Battery storage systems (including EV batteries used in vehicle-to-grid configurations) store energy locally and can feed it back to the grid. Biomass generators convert organic material into electricity at decentralised facilities. Fuel cells generate electricity through electrochemical reactions (typically using hydrogen or natural gas) with no combustion. Rooftop solar PV systems are the most widespread DER, generating electricity at the consumer\'s premises. DERs are central to India\'s 500 GW non-fossil energy target under the National Mission on Transformative Mobility. (UPSC Prelims 2024; verified answer: All four.)',
+  },
+
+  // ── 2025 QUESTIONS ──────────────────────────────────────────────────────
+
+  {
+    id: 'st-041',
+    topic: 'Space Technology',
+    subtopic: 'Microgravity Research Missions',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'Consider the following space missions:\nI. Axiom-4\nII. SpaDeX\nIII. Gaganyaan\n\nHow many of the space missions given above encourage and support microgravity research?',
+    options: [
+      'Only one',
+      'Only two',
+      'All three',
+      'None',
+    ],
+    correct: 2,
+    explanation:
+      'All three missions support microgravity research. Axiom-4 is Axiom Space\'s fourth commercial mission to the ISS (scheduled 2025), carrying Indian astronaut Group Captain Shubhanshu Shukla, with over 25 experiments in human health, space agriculture, and biotechnology under microgravity conditions. SpaDeX (Space Docking Experiment), launched by ISRO on PSLV-C60 in December 2024, demonstrated in-orbit docking and conducted microgravity experiments through the PSLV Orbital Experimental Module (POEM-4), including plant growth studies and radiation measurements. Gaganyaan — India\'s crewed orbital programme — will carry biological and physical science experiments designed specifically for microgravity conditions once operational, making India the fourth country to conduct crewed spaceflight. (UPSC Prelims 2025; verified answer: All three.)',
+  },
+
+  {
+    id: 'st-042',
+    topic: 'Space Technology',
+    subtopic: 'GAGAN Navigation System',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'GPS-Aided Geo Augmented Navigation (GAGAN) uses a system of ground stations to provide necessary augmentation. Which of the following statements is/are correct in respect of GAGAN?',
+    statements: [
+      'It is designed to provide additional accuracy and integrity.',
+      'It will allow more uniform and high quality air traffic management.',
+      'It will provide benefits only in aviation but not in other modes of transportation.',
+    ],
+    tail: 'Select the correct answer using the code given below:',
+    options: [
+      'I, II and III',
+      'II and III only',
+      'I only',
+      'I and II only',
+    ],
+    correct: 3,
+    explanation:
+      'Statements I and II are correct. GAGAN (GPS Aided GEO Augmented Navigation) is a Satellite-Based Augmentation System (SBAS) developed jointly by ISRO and the Airports Authority of India. It augments the US GPS signal by correcting for ionospheric and other errors, providing accuracy of ±3 metres — essential for precision approaches and landing in civil aviation. It also enables more uniform, efficient air traffic management by supporting Required Navigation Performance (RNP) approaches. Statement III is incorrect: GAGAN provides benefits across multiple transport sectors beyond aviation — maritime navigation (certified by the Director General of Shipping), road transport, and geodetic surveying — wherever satellite positioning is used. (UPSC Prelims 2025; verified answer: I and II only.)',
+  },
+
+  {
+    id: 'st-043',
+    topic: 'IT & Cyber',
+    subtopic: 'Quantum Computing',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Consider the following statements regarding recent technology developments:',
+    statements: [
+      'Majorana 1 is a quantum chip that will enable quantum computing.',
+      'The Majorana 1 chip was introduced by Amazon Web Services (AWS).',
+      'Deep learning is a subset of machine learning.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      'I and II only',
+      'II and III only',
+      'I and III only',
+      'I, II and III',
+    ],
+    correct: 2,
+    explanation:
+      'Statements I and III are correct. Statement II is incorrect. Majorana 1 was introduced by Microsoft — not Amazon Web Services — in February 2025. It is the world\'s first quantum chip powered by a Topological Core architecture, using topological qubits based on Majorana fermions. Topological qubits are inherently more stable and less error-prone than superconducting or photonic qubits, potentially enabling reliable quantum computing at scale. Statement III is correct: deep learning is a subfield of machine learning that uses artificial neural networks with many layers (hence "deep") to learn hierarchical representations of data, excelling at image recognition, NLP, and generative AI tasks. (UPSC Prelims 2025; verified answer: I and III only.)',
+  },
+
+  {
+    id: 'st-044',
+    topic: 'Biotechnology',
+    subtopic: 'Monoclonal Antibodies',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to monoclonal antibodies, consider the following statements:',
+    statements: [
+      'They are man-made proteins.',
+      'They stimulate immunological function due to their ability to bind to specific antigens.',
+      'They are used in treating viral infections such as that caused by Nipah virus.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      'I and II only',
+      'II and III only',
+      'I and III only',
+      'I, II and III',
+    ],
+    correct: 3,
+    explanation:
+      'All three statements are correct. Monoclonal antibodies (mAbs) are laboratory-produced proteins engineered to mimic the immune system\'s ability to target a specific threat (statement I). They bind to specific antigens — proteins on the surface of pathogens or cancer cells — with high precision, triggering immune responses or blocking pathogen entry (statement II). mAbs have been used experimentally against Nipah virus; m102.4, a neutralising monoclonal antibody, has been used as a compassionate treatment during Nipah outbreaks and has been studied in Phase I clinical trials. Monoclonal antibodies are also used for cancer (trastuzumab for HER2+ breast cancer), autoimmune diseases (adalimumab for rheumatoid arthritis), and COVID-19 (statement III). (UPSC Prelims 2025; verified answer: I, II and III.)',
+  },
+
+  {
+    id: 'st-045',
+    topic: 'Defence Technology',
+    subtopic: 'High-Energy Military Explosives',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'What is the common characteristic of the chemical substances generally known as CL-20, HMX and LLM-105, which are sometimes mentioned in the media?',
+    options: [
+      'They are hydrofluorocarbon refrigerant alternatives.',
+      'They are military weapon explosives.',
+      'They are high-energy fuels used in cruise missiles.',
+      'They are rocket propulsion fuels.',
+    ],
+    correct: 1,
+    explanation:
+      'CL-20 (Hexanitrohexaazaisowurtzitane), HMX (High Melting eXplosive, or cyclotetramethylene tetranitramine), and LLM-105 are all high-energy explosive compounds developed for military applications. CL-20, developed in the 1980s at the US Naval Air Weapons Station China Lake, is one of the most powerful non-nuclear explosives, offering higher detonation velocity and energy density than HMX or RDX. HMX is widely used in nuclear weapon triggers (implosion lenses), shaped charges, and solid rocket propellants. LLM-105 (2,6-diamino-3,5-dinitropyrazine-1-oxide), synthesised at Lawrence Livermore National Laboratory, is an insensitive high explosive — it has high brisance but is less sensitive to accidental detonation, making it safer to handle. All three are periodic subjects of defence technology news in the context of next-generation munitions. (UPSC Prelims 2025; verified answer: Military weapon explosives.)',
+  },
+
+  {
+    id: 'st-046',
+    topic: 'IT & Cyber',
+    subtopic: 'AI Action Summit 2025',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Consider the following statements regarding the AI Action Summit held at the Grand Palais, Paris, in February 2025:',
+    statements: [
+      'Co-chaired with India, the event builds on the advances made at the Bletchley Park Summit held in 2023 and the Seoul Summit held in 2024.',
+      'Along with other countries, the USA and the UK also signed the declaration on Inclusive and Sustainable Artificial Intelligence.',
+    ],
+    tail: 'Which of the statements given above is/are correct?',
+    options: [
+      'I only',
+      'II only',
+      'Both I and II',
+      'Neither I nor II',
+    ],
+    correct: 0,
+    explanation:
+      'Statement I is correct. Prime Minister Narendra Modi co-chaired the AI Action Summit alongside French President Emmanuel Macron. The Paris summit was the third in a series of global AI governance summits: AI Safety Summit (Bletchley Park, UK, November 2023), AI Seoul Summit (May 2024), and the AI Action Summit (Paris, February 2025). Statement II is incorrect. Fifty-eight countries — including India, China, France, Brazil, and Australia — signed the joint declaration on Inclusive and Sustainable Artificial Intelligence for People and the Planet. However, the United States and the United Kingdom did not sign this declaration, opting to engage separately rather than endorse the multilateral statement. (UPSC Prelims 2025; verified answer: I only.)',
+  },
+
+  {
+    id: 'st-047',
+    topic: 'Defence Technology',
+    subtopic: 'India — Defence Aircraft',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'With reference to India\'s defence, consider the following pairs:\n\nAircraft type — Description\n1. Dornier-228 — Maritime patrol aircraft\n2. IL-76 — Supersonic combat aircraft\n3. C-17 Globemaster III — Military transport aircraft\n\nHow many of the pairs given above are correctly matched?',
+    options: [
+      'Only one',
+      'Only two',
+      'All three',
+      'None',
+    ],
+    correct: 1,
+    explanation:
+      'Pairs 1 and 3 are correctly matched; pair 2 is not. Dornier-228 (HAL-built, licensed from Germany) is a twin-turboprop aircraft operated by the Indian Navy and Indian Coast Guard for maritime patrol, surveillance, pollution monitoring, and search-and-rescue missions — correctly described. C-17 Globemaster III (Boeing) is a strategic heavy-lift military transport aircraft operated by the Indian Air Force for rapid deployment of troops, armoured vehicles, and heavy cargo — correctly described. The IL-76 (Ilyushin), operated by the Indian Air Force, is a four-engine strategic airlifter used for heavy cargo transport, humanitarian airlifts, and aerial refuelling — it is not a supersonic combat aircraft. Supersonic combat aircraft in India\'s fleet include the Su-30 MKI and Rafale. (UPSC Prelims 2025; verified answer: Only two.)',
+  },
+
+  {
+    id: 'st-048',
+    topic: 'Space Technology',
+    subtopic: 'Alternative Powertrain Vehicles',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'Consider the following vehicle types:\nI. Full battery electric vehicles\nII. Hydrogen fuel cell vehicles\nIII. Fuel cell-electric hybrid vehicles\n\nHow many of the above are considered alternative powertrain vehicles?',
+    options: [
+      'Only one',
+      'Only two',
+      'All three',
+      'None',
+    ],
+    correct: 2,
+    explanation:
+      'All three are alternative powertrain vehicles — a category that covers any vehicle not powered solely by a conventional internal combustion engine running on petrol or diesel. Full battery electric vehicles (BEVs) use electric motors powered entirely by battery packs charged from the grid. Hydrogen fuel cell vehicles (FCEVs) generate electricity onboard from hydrogen via an electrochemical fuel cell reaction (emitting only water vapour), which drives an electric motor. Fuel cell-electric hybrid vehicles combine a hydrogen fuel cell with a battery/supercapacitor to optimise energy use and recover braking energy. India\'s National Mission on Transformative Mobility and Battery Storage, and the PM E-DRIVE scheme, explicitly include all three categories under clean mobility targets. (UPSC Prelims 2025; verified answer: All three.)',
+  },
+
 ];

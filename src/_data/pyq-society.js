@@ -478,7 +478,8 @@ module.exports = [
     year: 2023,
     type: 'prelims',
     qtype: 'assertion',
-    stem: 'Consider the following statements: Statement-I: India\'s public sector health care system largely focuses on curative care with limited preventive, promotive and rehabilitative care. Statement-II: Under India\'s decentralised approach to health care delivery, the States are primarily responsible for organising health services.',
+    assertion: 'India\'s public sector health care system largely focuses on curative care with limited preventive, promotive and rehabilitative care.',
+    reason: 'Under India\'s decentralised approach to health care delivery, the States are primarily responsible for organising health services.',
     options: [
       'Both Statement-I and Statement-II are correct and Statement-II explains Statement-I',
       'Both Statement-I and Statement-II are correct but Statement-II does not explain Statement-I',
@@ -588,6 +589,232 @@ module.exports = [
     correct: 1,
     explanation:
       'Statements 2 and 3 are correct. PM-SYM is a pension scheme for unorganised sector workers launched in 2019. Statement 1 is incorrect: the entry age group is 18 to 40 years (not 21 to 40). Statement 2 is correct: the monthly contribution varies by age — younger subscribers pay less. For example, a person entering at 18 contributes ₹55/month while one entering at 40 contributes ₹200/month; the government matches each contribution. Statement 3 is correct: the scheme guarantees ₹3,000 per month pension at age 60. Statement 4 is incorrect: family pension applies only to the spouse (50% of pension), not to daughters.',
+  },
+
+  // ── 2020 QUESTIONS ───────────────────────────────────────────────────────
+
+  {
+    id: 'soc-026',
+    topic: 'Society & Social Issues',
+    subtopic: 'MPLADS — SC/ST Welfare Allocation',
+    year: 2020,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to the funds under Members of Parliament Local Area Development Scheme (MPLADS), which of the following statements are correct?',
+    statements: [
+      'MPLADS funds must be used to create durable assets like physical infrastructure for health, education, etc.',
+      'A specified portion of each MP\'s fund must benefit SC/ST populations.',
+      'MPLADS funds are sanctioned on yearly basis and the unused funds cannot be carried forward to the next year.',
+      'The district authority must inspect at least 10% of all works under implementation every year.',
+    ],
+    tail: 'Select the correct answer using the code given below:',
+    options: [
+      '1 and 2 only',
+      '3 and 4 only',
+      '1, 2 and 3 only',
+      '1, 2 and 4 only',
+    ],
+    correct: 3,
+    explanation:
+      'Statements 1, 2 and 4 are correct. Under the MPLADS Guidelines, funds must be used for creating durable community assets of national priority — drinking water, primary education, public health, sanitation, and roads. At least 15% of MPLADS funds must be recommended for areas inhabited by Scheduled Caste population and 7.5% for areas inhabited by Scheduled Tribe population (making statement 2 correct). Statement 3 is incorrect: MPLADS funds are non-lapsable — unspent balances are carried forward to the next year. The district authority is mandated to inspect at least 10% of all works under implementation each year (statement 4 correct).',
+  },
+
+  {
+    id: 'soc-027',
+    topic: 'Society & Social Issues',
+    subtopic: 'Legal Services — Free Legal Aid to Vulnerable Groups',
+    year: 2020,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'In India, Legal Services Authorities provide free legal services to which of the following type of citizens?',
+    statements: [
+      'Person with an annual income of less than Rs. 1,00,000.',
+      'Transgender with an annual income of less than Rs. 2,00,000.',
+      'Member of Other Backward Classes (OBC) with an annual income of less than Rs. 3,00,000.',
+      'All Senior Citizens.',
+    ],
+    tail: 'Select the correct answer using the code given below:',
+    options: [
+      '1 and 2 only',
+      '3 and 4 only',
+      '2 and 3 only',
+      '1 and 4 only',
+    ],
+    correct: 0,
+    explanation:
+      'Statements 1 and 2 are correct. Under the Legal Services Authorities Act, 1987, free legal aid is available to persons with annual income below ₹1,00,000 (or below the threshold prescribed by the State), women and children irrespective of income, SC/ST persons, victims of disaster/mass violence, and persons with disabilities (statement 1 correct). Transgender persons with income below ₹2,00,000 are also entitled — this was added following judicial recognition of transgender rights (statement 2 correct). OBC members are not specifically entitled as OBCs (statement 3 incorrect — SC/STs are covered, not OBCs as a class). Senior citizens are not automatically entitled irrespective of income — eligibility depends on state-wise rules (statement 4 incorrect).',
+  },
+
+  // ── 2021 QUESTIONS ───────────────────────────────────────────────────────
+
+  {
+    id: 'soc-028',
+    topic: 'Society & Social Issues',
+    subtopic: 'WaterCredit — Microfinance for WASH',
+    year: 2021,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to \'Water Credit\', consider the following statements:',
+    statements: [
+      'It puts microfinance tools to work in the water and sanitation sector.',
+      'It is a global initiative launched under the aegis of the World Health Organization and the World Bank.',
+      'It aims to enable the poor people to meet their water needs without depending on subsidies.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3',
+    ],
+    correct: 2,
+    explanation:
+      'Statements 1 and 3 are correct. WaterCredit is an initiative of Water.org, the non-profit co-founded by Matt Damon and Gary White — it is not a WHO or World Bank programme, making statement 2 incorrect. WaterCredit was the first initiative to systematically apply microfinance tools to the water and sanitation sector (WASH), enabling poor households to access small loans to build toilets and piped water connections rather than depending on charity or subsidies. The goal (statement 3) is to foster financial independence for the poor in meeting their water needs — a market-based complement to traditional subsidy approaches.',
+  },
+
+  {
+    id: 'soc-029',
+    topic: 'Society & Social Issues',
+    subtopic: 'Casual Workers — Labour Rights',
+    year: 2021,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to the casual workers employed in India, consider the following statements:',
+    statements: [
+      'All casual workers are entitled for Employees Provident Fund coverage.',
+      'All casual workers are entitled for regular working hours and overtime payment.',
+      'The government can by a notification specify that an establishment or industry shall pay wages only through its bank account.',
+    ],
+    tail: 'Which of the above statements are correct?',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3',
+    ],
+    correct: 1,
+    explanation:
+      'Statements 2 and 3 are correct. Statement 1 is incorrect: EPF coverage under the Employees\' Provident Funds and Miscellaneous Provisions Act, 1952 applies to establishments employing 20 or more persons — casual workers in smaller establishments or earning below the wage ceiling are not automatically covered. Statement 2 is correct: the Minimum Wages Act, 1948 (now subsumed under the Code on Wages, 2019) guarantees regular working hours and overtime payment to all workers including casual and contract workers, irrespective of establishment size. Statement 3 is correct: the Payment of Wages (Amendment) Act empowered the government to notify that a specific industry or establishment shall pay wages only through bank accounts, which has been done to ensure financial inclusion and prevent wage theft.',
+  },
+
+  {
+    id: 'soc-030',
+    topic: 'Society & Social Issues',
+    subtopic: 'Tribal Languages — Halbi, Ho, Kui',
+    year: 2021,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'With reference to India, the terms \'Halbi, Ho and Kui\' pertain to',
+    options: [
+      'dance forms of Northwest India',
+      'musical instruments',
+      'pre-historic cave paintings',
+      'tribal languages',
+    ],
+    correct: 3,
+    explanation:
+      'Halbi, Ho, and Kui are all tribal languages spoken in central and eastern India. Halbi (also called Bastari) is an Eastern Indo-Aryan language spoken by communities across Bastar (Chhattisgarh) and adjacent areas, written in Devanagari and Odia scripts. Ho is an Austroasiatic (Munda family) language written in the Warang Chiti script, spoken by about 10 lakh tribal people in Odisha and Jharkhand. Kui is a South-Eastern Dravidian language spoken by the Kondh (Kandha) tribal community primarily in Odisha. All three are listed as scheduled languages or tribal languages of significant anthropological importance.',
+  },
+
+  {
+    id: 'soc-031',
+    topic: 'Society & Social Issues',
+    subtopic: 'Women\'s Rights — Montagu-Chelmsford Reforms 1919',
+    year: 2021,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Consider the following statements:',
+    statements: [
+      'The Montagu-Chelmsford Reforms of 1919 recommended granting voting rights to all the women above the age of 21.',
+      'The Government of India Act of 1935 gave women reserved seats in the legislature.',
+    ],
+    tail: 'Which of the statements given above is/are correct?',
+    options: [
+      '1 only',
+      '2 only',
+      'Both 1 and 2',
+      'Neither 1 nor 2',
+    ],
+    correct: 1,
+    explanation:
+      'Only statement 2 is correct. The Montagu-Chelmsford Reforms (Government of India Act, 1919) did not grant universal voting rights to all women above 21 — the franchise was highly restricted and property/education based. Statement 1 is therefore incorrect. Statement 2 is correct: the Government of India Act, 1935 extended the principle of separate representation and reserved seats to women (alongside depressed classes and workers), significantly expanding women\'s formal political participation in provincial legislatures. Women\'s suffrage was made universal in independent India only with the Constitution of 1950.',
+  },
+
+  // ── 2025 QUESTIONS ───────────────────────────────────────────────────────
+
+  {
+    id: 'soc-032',
+    topic: 'Society & Social Issues',
+    subtopic: 'Gandhi Peace Prize — Jury Composition',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Who amongst the following are members of the Jury to select the recipient of \'Gandhi Peace Prize\'?',
+    statements: [
+      'The President of India.',
+      'The Prime Minister of India.',
+      'The Chief Justice of India.',
+      'The Leader of Opposition in the Lok Sabha.',
+    ],
+    tail: 'Select the correct answer using the code given below:',
+    options: [
+      'II and IV only',
+      'I, II and III',
+      'II, III and IV',
+      'I and III only',
+    ],
+    correct: 2,
+    explanation:
+      'The Gandhi Peace Prize jury consists of II (Prime Minister — who chairs the jury), III (Chief Justice of India or a Supreme Court Judge nominated by the CJI), and IV (Leader of the Opposition in Lok Sabha or the leader of the largest opposition party). The President of India (I) is NOT a member of the jury. The prize was instituted in 1995 on the 125th birth anniversary of Mahatma Gandhi and is awarded annually to individuals and institutions for their contribution to social, economic, and political transformation through non-violent and other Gandhian methods. It carries a cash award of ₹1 crore.',
+  },
+
+  {
+    id: 'soc-033',
+    topic: 'Society & Social Issues',
+    subtopic: 'Rashtriya Gokul Mission — Rural Poor and Livestock',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Consider the following statements about the Rashtriya Gokul Mission:',
+    statements: [
+      'It is important for the upliftment of rural poor as majority of low producing indigenous animals are with small and marginal farmers and landless labourers.',
+      'It was initiated to promote indigenous cattle and buffalo rearing and conservation in a scientific and holistic manner.',
+    ],
+    tail: 'Which of the statements given above is/are correct?',
+    options: [
+      'I only',
+      'II only',
+      'Both I and II',
+      'Neither I nor II',
+    ],
+    correct: 2,
+    explanation:
+      'Both statements are correct. Rashtriya Gokul Mission was launched in December 2014 under the Department of Animal Husbandry and Dairying. Statement I is correct: more than 80% of low-producing indigenous bovines are owned by small and marginal farmers and landless labourers — improving their productivity directly benefits rural poor households. Statement II is correct: the mission\'s core objective is to promote indigenous cattle and buffalo breeds (such as Gir, Sahiwal, Rathi, Deoni, Tharparkar, and Red Sindhi) and conserve them in a scientific and holistic manner including through Integrated Indigenous Livestock Centres called Gokul Grams.',
+  },
+
+  {
+    id: 'soc-034',
+    topic: 'Society & Social Issues',
+    subtopic: 'PM Surya Ghar Muft Bijli Yojana',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Consider the following statements about \'PM Surya Ghar Muft Bijli Yojana\':',
+    statements: [
+      'It targets installation of one crore solar rooftop panels in the residential sector.',
+      'The Ministry of New and Renewable Energy aims to impart training on installation, operation, maintenance and repairs of solar rooftop systems at grassroot levels.',
+      'It aims to create more than three lakhs skilled manpower through fresh skilling, and up-skilling, under scheme component of capacity building.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      'I and II only',
+      'I and III only',
+      'II and III only',
+      'I, II and III',
+    ],
+    correct: 3,
+    explanation:
+      'All three statements are correct. PM Surya Ghar Muft Bijli Yojana was launched in February 2024 to provide free electricity to one crore households through rooftop solar installations (statement I correct). The Ministry of New and Renewable Energy (MNRE) runs a capacity-building component to train technicians at the grassroots level in installation, operation, maintenance, and repair of solar rooftop systems (statement II correct). The scheme targets creation of over 3 lakh skilled manpower through fresh skilling and up-skilling under its capacity building component (statement III correct). Eligible households with up to 2 kW installation receive 300 units of free electricity per month, with the central government subsidising ₹30,000 to ₹78,000 per household depending on system size.',
   },
 
 ];

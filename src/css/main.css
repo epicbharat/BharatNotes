@@ -41,7 +41,7 @@ p { line-height: var(--leading-relaxed); }
   padding: 0;
   position: sticky;
   top: 0;
-  z-index: 50;
+  z-index: 400;
   border-bottom: 1px solid rgba(234,88,12,0.3);
   box-shadow: 0 2px 12px rgba(0,0,0,0.2);
 }
@@ -418,7 +418,7 @@ p { line-height: var(--leading-relaxed); }
   font-size: var(--text-md);
   line-height: var(--leading-relaxed);
   color: rgba(255,255,255,0.65);
-  max-width: 560px;
+  max-width: 720px;
   margin: 0 auto var(--space-8);
 }
 .hero__actions {

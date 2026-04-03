@@ -507,4 +507,243 @@ module.exports = [
       'All three statements are correct. The Aapda Mitra (Disaster Friend) scheme was launched by the National Disaster Management Authority (NDMA) to train community volunteers in flood-prone districts as first responders. The scheme targets highly flood-vulnerable districts to train volunteers in basic rescue operations, first aid, evacuation procedures, and use of life-saving equipment. The core concept is to build community resilience so that trained local volunteers can provide immediate assistance — ahead of the arrival of NDRF and other professional teams — thereby significantly reducing disaster mortality in the critical first hours.',
   },
 
+  // ── GLACIAL & CLIMATE DISASTERS ─────────────────────────────────────────
+
+  {
+    id: 'dm-021',
+    topic: 'Disaster Management',
+    subtopic: 'Chamoli Disaster 2021 — Rock-Ice Avalanche',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to the Chamoli disaster of February 2021 in Uttarakhand, consider the following statements:',
+    statements: [
+      'It was caused by a massive rock and ice avalanche from Ronti Peak that transformed into a debris flow.',
+      'The disaster damaged the Rishiganga and Tapovan hydropower projects.',
+      'The disaster was primarily caused by a Glacial Lake Outburst Flood (GLOF) from a supraglacial lake.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3',
+    ],
+    correct: 0,
+    explanation:
+      'Statements 1 and 2 are correct; statement 3 is incorrect. On 7 February 2021, approximately 27 million cubic metres of rock and glacier ice collapsed from the steep north face of Ronti Peak in the Nanda Devi region. This transformed rapidly into a massive debris flow — not a GLOF — as satellite imagery confirmed there was no glacial lake upstream. The resulting flash flood destroyed the 13 MW Rishiganga power project on the Rishi Ganga river and severely damaged the NTPC Tapovan-Vishnugad hydropower tunnel, with approximately 200 workers killed or missing. Statement 3 is incorrect: though widely misreported as a GLOF, scientific studies published in Science (2021) confirmed the primary trigger was a rock-ice avalanche.',
+  },
+
+  {
+    id: 'dm-022',
+    topic: 'Disaster Management',
+    subtopic: 'Sikkim GLOF 2023 — South Lhonak Lake',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to the Sikkim flash flood disaster of October 2023, consider the following statements:',
+    statements: [
+      'It was triggered by a Glacial Lake Outburst Flood (GLOF) from South Lhonak Lake.',
+      'The Teesta III hydropower dam at Chungthang was destroyed by the flood.',
+      'The GLOF was caused by a seismic event (earthquake) that fractured the moraine dam.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3',
+    ],
+    correct: 0,
+    explanation:
+      'Statements 1 and 2 are correct; statement 3 is incorrect. On 3–4 October 2023, heavy rainfall caused approximately 14.7 million cubic metres of frozen lateral moraine to collapse into South Lhonak glacial lake in north Sikkim, generating a tsunami-like wave that breached the moraine dam and drained roughly 50 million cubic metres of lake water. The resultant GLOF destroyed the 1,200 MW Teesta III dam at Chungthang before its gates could be opened. Over 90 people were confirmed dead, 31 major bridges were lost, and ~25,900 structures were damaged. Statement 3 is incorrect: the trigger was heavy rainfall causing moraine collapse, not an earthquake. The disaster highlighted the absence of an adequate early warning system for GLOFs in the Teesta basin.',
+  },
+
+  {
+    id: 'dm-023',
+    topic: 'Disaster Management',
+    subtopic: 'GLOF — Nature and Himalayan Vulnerability',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to Glacial Lake Outburst Floods (GLOFs) in India, consider the following statements:',
+    statements: [
+      'GLOFs occur when water held in a glacial lake is suddenly released due to failure of the dam holding it.',
+      'Moraine-dammed lakes, ice-dammed lakes, and supraglacial lakes are all types of glacial lakes prone to outburst.',
+      'GLOFs are restricted to the Himalayan regions of India and do not affect the river systems downstream.',
+      'Climate change-induced glacial retreat is increasing the number and volume of glacial lakes, raising GLOF risk.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1, 2 and 4 only',
+      '1 and 2 only',
+      '2, 3 and 4 only',
+      '1, 2, 3 and 4',
+    ],
+    correct: 0,
+    explanation:
+      'Statements 1, 2 and 4 are correct; statement 3 is incorrect. A GLOF occurs when natural dams of moraine (glacial debris), ice, or bedrock holding back glacial meltwater fail suddenly, releasing large volumes of water (statement 1 correct). Glacial lakes are classified into moraine-dammed, ice-dammed, bedrock-dammed, and supraglacial types — all can experience outburst events (statement 2 correct). Statement 3 is incorrect: GLOFs dramatically affect downstream river systems — the 2013 Kedarnath flood, 2021 Chamoli disaster, and 2023 Sikkim GLOF all caused massive destruction far downstream in the Mandakini, Dhauliganga, and Teesta river valleys respectively. Statement 4 is correct: accelerated glacial melting due to rising temperatures is enlarging existing glacial lakes and creating new ones, as documented by ICIMOD and ISRO studies.',
+  },
+
+  // ── NDRF STRUCTURE & FUNDS ───────────────────────────────────────────────
+
+  {
+    id: 'dm-024',
+    topic: 'Disaster Management',
+    subtopic: 'NDRF — Current Composition (Updated)',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to the National Disaster Response Force (NDRF), consider the following statements:',
+    statements: [
+      'NDRF currently has 16 battalions.',
+      'NDRF battalions are drawn from the BSF, CRPF, CISF, ITBP, SSB, and Assam Rifles.',
+      'Each NDRF battalion has the strength of approximately 1,149 personnel.',
+      'NDRF is deployed only for natural disasters and not for man-made disasters.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1, 2 and 3 only',
+      '2 and 3 only',
+      '1 and 4 only',
+      '1, 2, 3 and 4',
+    ],
+    correct: 0,
+    explanation:
+      'Statements 1, 2 and 3 are correct; statement 4 is incorrect. NDRF currently consists of 16 battalions — three each from BSF and CRPF, two each from CISF, ITBP, and SSB, and one from Assam Rifles. (Note: In earlier years, only five CAPFs contributed; Assam Rifles was added later.) Each battalion has an approximate strength of 1,149 personnel, giving a total NDRF strength of around 18,000+. Statement 4 is incorrect: Section 44 of the Disaster Management Act, 2005 mandates NDRF for specialised response to both natural and man-made (technological) disasters — NDRF has responded to chemical, biological, radiological and nuclear (CBRN) emergencies in addition to floods, earthquakes, and cyclones.',
+  },
+
+  // ── HEAT WAVE MANAGEMENT ─────────────────────────────────────────────────
+
+  {
+    id: 'dm-025',
+    topic: 'Disaster Management',
+    subtopic: 'Heat Action Plans — Ahmedabad Model',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to Heat Action Plans (HAPs) in India, consider the following statements:',
+    statements: [
+      'Ahmedabad\'s Heat Action Plan (2013) was the first such plan in South Asia.',
+      'Heat Action Plans involve a colour-coded warning system — green, yellow, orange, and red — based on the heat index.',
+      'The India Meteorological Department (IMD) declares a Heat Wave when maximum temperature of a plains station reaches 40°C or above, with a departure of at least 4.5°C from normal.',
+      'Heat waves have been a notified disaster under the SDRF norms since 2005 when the Disaster Management Act was enacted.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1, 2 and 3 only',
+      '1 and 3 only',
+      '2 and 4 only',
+      '1, 2, 3 and 4',
+    ],
+    correct: 0,
+    explanation:
+      'Statements 1, 2 and 3 are correct; statement 4 is incorrect. Ahmedabad pioneered South Asia\'s first Heat Action Plan in 2013, implemented after the devastating 2010 heat wave, and studies have credited it with preventing approximately 1,190 deaths annually. Heat Action Plans use a colour-coded alert system: green (safe), yellow (be updated), orange (be prepared), and red (take action), corresponding to rising heat index thresholds. IMD declares a heat wave for plains stations when the maximum temperature reaches at least 40°C with a departure of 4.5–6.4°C above normal (or 6.5°C+ for a severe heat wave). Statement 4 is incorrect: heat waves were not part of the original DM Act 2005 or SDRF norms; they were added to the SDRF-eligible notified disaster list through central government notifications issued in 2015 and subsequent orders.',
+  },
+
+  // ── DISASTER RISK GOVERNANCE & FINANCE ──────────────────────────────────
+
+  {
+    id: 'dm-026',
+    topic: 'Disaster Management',
+    subtopic: 'Aapda Mitra — Upscaling',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to the \'Aapda Mitra\' scheme, consider the following statements:',
+    statements: [
+      'In its pilot phase, the scheme targeted training of 6,000 community volunteers in 30 most flood-prone districts of 25 States.',
+      'The scheme is implemented by the NDRF in collaboration with state governments.',
+      'After the success of the pilot, the scheme has been upscaled to cover 350 districts of all States and Union Territories with a target of training 1,00,000 community volunteers.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1 and 3 only',
+      '2 and 3 only',
+      '1 only',
+      '1, 2 and 3',
+    ],
+    correct: 0,
+    explanation:
+      'Statements 1 and 3 are correct; statement 2 is incorrect. The pilot Aapda Mitra scheme, implemented by NDMA (not NDRF), targeted training 6,000 community volunteers (200 per district) in the 30 most flood-prone districts across 25 states/UTs — statement 1 correct. Statement 2 is incorrect: the implementing agency is the NDMA, not NDRF, in coordination with State Disaster Management Authorities. Statement 3 is correct: following the pilot\'s success, the scheme was upscaled to cover 350 districts of all States and UTs with a target of training 1,00,000 volunteers to respond to floods, landslides, cyclones, and earthquakes. NDMA confirmed the Aapda Mitra expansion was based on requests from state governments.',
+  },
+
+  {
+    id: 'dm-027',
+    topic: 'Disaster Management',
+    subtopic: 'CDRI — Membership and Mandate',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to the Coalition for Disaster Resilient Infrastructure (CDRI), consider the following statements:',
+    statements: [
+      'CDRI was co-launched by India and the United Kingdom at the UN Climate Action Summit in New York in 2019.',
+      'CDRI primarily focuses on building disaster and climate resilient infrastructure in developing countries, Small Island Developing States (SIDS), and Least Developed Countries (LDCs).',
+      'CDRI is a statutory body created under the Disaster Management Act, 2005.',
+      'CDRI has more than 40 member countries as of 2024.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '2 and 4 only',
+      '1 and 2 only',
+      '1, 2 and 4 only',
+      '2, 3 and 4 only',
+    ],
+    correct: 2,
+    explanation:
+      'Statements 1, 2 and 4 are correct; statement 3 is incorrect. CDRI was launched by Prime Minister Narendra Modi at the United Nations Climate Action Summit in New York on 23 September 2019 — originally with India as the sole founding nation, with the United Kingdom co-championing it at COP26 in 2021 (statement 1 broadly correct). CDRI\'s mandate specifically targets developing countries, SIDS, and LDCs — the nations most vulnerable to climate change — and not developed countries (statement 2 correct). Statement 3 is incorrect: CDRI is an international intergovernmental organisation, not a statutory body under India\'s DM Act 2005; it has a Headquarters Agreement with India. As of 2024, CDRI has over 40 member countries, international organisations, and private sector members (statement 4 correct).',
+  },
+
+  {
+    id: 'dm-028',
+    topic: 'Disaster Management',
+    subtopic: 'Sendai Framework — Seven Global Targets',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Which of the following are among the seven global targets of the Sendai Framework for Disaster Risk Reduction (2015–2030)?',
+    statements: [
+      'Substantially reduce global disaster mortality by 2030.',
+      'Substantially reduce the number of affected people globally by 2030.',
+      'Achieve zero carbon emissions to prevent future disasters by 2030.',
+      'Substantially increase the availability of and access to multi-hazard early warning systems by 2030.',
+    ],
+    tail: 'Select the correct answer using the code given below:',
+    options: [
+      '1, 2 and 4 only',
+      '1 and 4 only',
+      '2, 3 and 4 only',
+      '1, 2, 3 and 4',
+    ],
+    correct: 0,
+    explanation:
+      'Statements 1, 2 and 4 are among the seven Sendai Framework global targets; statement 3 is not. The seven targets are: (a) substantially reduce global disaster mortality; (b) substantially reduce the number of affected people; (c) reduce direct economic loss in relation to GDP; (d) substantially reduce disaster damage to critical infrastructure; (e) substantially increase the number of countries with national and local DRR strategies; (f) substantially enhance international cooperation to developing countries; (g) substantially increase availability of multi-hazard early warning systems and disaster risk information (statement 4). Statement 3 is incorrect: achieving zero carbon emissions is not a Sendai target — that falls under climate change frameworks such as the Paris Agreement. The Sendai Framework is a voluntary, non-binding agreement monitored through 38 indicators.',
+  },
+
+  {
+    id: 'dm-029',
+    topic: 'Disaster Management',
+    subtopic: 'Disaster Management Cycle — Risk Reduction Continuum',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Consider the following statements regarding India\'s approach to disaster risk reduction:',
+    statements: [
+      'India\'s National Disaster Management Plan (NDMP) 2016 is aligned with the four priorities of the Sendai Framework.',
+      'The Disaster Management Act, 2005 adopts a \'whole of government\' approach assigning roles to all central ministries.',
+      'India has constituted a National Disaster Mitigation Fund (NDMF) under Section 47 of the Disaster Management Act to finance long-term mitigation projects.',
+      'The Prime Minister\'s National Relief Fund (PMNRF) and the National Disaster Response Fund (NDRF) are the same fund.',
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1 and 2 only',
+      '1, 2 and 3 only',
+      '2 and 3 only',
+      '1, 2, 3 and 4',
+    ],
+    correct: 0,
+    explanation:
+      'Statements 1 and 2 are correct. The National Disaster Management Plan (NDMP) 2016 is India\'s first national plan under the DM Act and is explicitly aligned with the Sendai Framework\'s four priorities: understanding risk; strengthening governance; investing in DRR; and enhancing preparedness (statement 1 correct). The NDMP assigns specific roles to every central ministry and department — this whole-of-government approach is a defining feature of the plan (statement 2 correct). Statement 3 is incorrect: Section 47 of the DM Act provides for a National Disaster Mitigation Fund (NDMF), but as of 2024, this fund has not been formally constituted and operationalised by the Central Government. Statement 4 is incorrect: the PMNRF is a charitable fund managed by the PM\'s office for various relief purposes, while the NDRF (National Disaster Response Fund) is a statutory fund under Section 46 of the DM Act managed by the Finance Ministry for disaster response — they are entirely separate instruments.',
+  },
+
 ];

@@ -56,11 +56,11 @@ The boundary between the two sections has blurred in recent papers — a philoso
 | # | Chapter | What You'll Learn |
 |---|---------|-------------------|
 | **01** | [Essay Paper Structure & Strategy](/essay/01-essay-paper-structure-strategy/) | Paper format, marks per section, marking criteria, time management, common mistakes, how essays differ from GS answers |
-| **02** | Writing Framework | Introduction types, body structure, conclusion techniques, PESTLE analysis for essay planning, quote integration |
-| **03** | Previous Year Topics (2013–2025) | Year-wise topic list, theme categorisation, trend analysis, what UPSC has rewarded |
-| **04** | Philosophical Essays | Approach guide for abstract topics — philosophy, ethics, civilisation, human nature — with model essay plans |
-| **05** | Socio-economic Essays | Approach guide for governance, development, environment, S&T, and international topics with model essay plans |
-| **06** | Science, Ethics & Environment Essays | Dedicated approach for the growing category of S&T, bioethics, AI, climate, and environmental essays |
+| **02** | [Writing Framework](/essay/02-essay-writing-framework/) | Introduction types, body structure, conclusion techniques, PESTLE analysis for essay planning, quote integration |
+| **03** | [Previous Year Topics (2013–2025)](/essay/03-previous-year-topics/) | Year-wise topic list, theme categorisation, trend analysis, what UPSC has rewarded |
+| **04** | [Philosophical Essays](/essay/04-philosophical-abstract-essays/) | Approach guide for abstract topics — philosophy, ethics, civilisation, human nature — with model essay plans |
+| **05** | [Socio-economic Essays](/essay/05-socioeconomic-governance-essays/) | Approach guide for governance, development, environment, S&T, and international topics with model essay plans |
+| **06** | [Science, Ethics & Environment Essays](/essay/06-science-environment-ethics-essays/) | Dedicated approach for the growing category of S&T, bioethics, AI, climate, and environmental essays |
 
 ---
 

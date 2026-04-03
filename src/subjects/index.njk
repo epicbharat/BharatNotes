@@ -20,7 +20,7 @@ description: "Browse UPSC GS subjects — Polity, Economy, Geography, History, E
   <div class="container">
     <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:var(--space-6);">
       {% for subj in subjects %}
-      <a href="/subjects/{{ subj.slug }}/" class="card" style="text-decoration:none; border-left:4px solid {{ subj.color }};">
+      <a href="{{ subj.hub_url if subj.hub_url else '/subjects/' + subj.slug + '/' }}" class="card" style="text-decoration:none; border-left:4px solid {{ subj.color }};">
         <div style="display:flex; align-items:center; gap:var(--space-3); margin-bottom:var(--space-3);">
           <span style="font-size:2rem;">{{ subj.icon }}</span>
           <div>

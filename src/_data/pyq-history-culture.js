@@ -824,4 +824,369 @@ module.exports = [
     explanation: '\'Ulgulan\' (meaning \'Great Tumult\' or \'Forest Turmoil\' in the Munda language) refers to the Munda uprising of 1899–1900 led by Birsa Munda in the Chotanagpur region of present-day Jharkhand. Birsa Munda mobilised the tribal community against British colonial rule and the diku (outsiders — landlords and moneylenders) who had encroached on their traditional lands. He proclaimed himself a prophet and led a millenarian movement for Munda self-rule (Munda Raj).'
   },
 
+
+  // ─── 2021–2025 ADDITIONS (hc-041 to hc-057) ────────────────────────────────
+
+  // ── ANCIENT INDIA (2021–2025) ────────────────────────────────────────────
+
+  {
+    id: 'hc-041',
+    topic: 'Ancient India',
+    subtopic: 'Indus Valley Civilisation',
+    year: 2021,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'With reference to the ancient town of Dholavira, which of the following is/are correct?',
+    options: [
+      'It had an elaborate system of water harvesting and management by building a series of dams',
+      'It was a port city situated on the banks of the Indus River',
+      'It had no social stratification as all citizens lived in similar housing',
+      'Its script has been fully deciphered by archaeologists'
+    ],
+    correct: 0,
+    explanation: 'Dholavira (in the Kutch district of Gujarat) is renowned for its sophisticated water management system — it had 16 large reservoirs, dams, and a network of drainage channels to harvest rainwater in the otherwise arid landscape. It is one of the largest Harappan sites in India and features a three-tiered town plan suggesting social stratification. The Indus script remains undeciphered. Dholavira was inscribed as a UNESCO World Heritage Site in 2021.'
+  },
+
+  {
+    id: 'hc-042',
+    topic: 'Ancient India',
+    subtopic: 'Archaeological Sites',
+    year: 2021,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Consider the following pairs of sites and what they are known for:',
+    statements: [
+      'Burzahom — Rock-cut shrines',
+      'Chandraketugarh — Terracotta art',
+      'Ganeshwar — Copper artefacts'
+    ],
+    tail: 'Which of the pairs given above is/are correctly matched?',
+    options: [
+      '1 and 2',
+      '2 and 3',
+      '1 and 3',
+      '1, 2 and 3'
+    ],
+    correct: 1,
+    explanation: 'Statement 1 is incorrect: Burzahom (Neolithic site in Kashmir) is known for pit dwellings and hunter-gatherer culture, not rock-cut shrines — rock-cut shrines are associated with sites like Udayagiri. Statement 2 is correct: Chandraketugarh (West Bengal) is famous for its rich terracotta figurines and art tradition. Statement 3 is correct: Ganeshwar (Rajasthan) is a Chalcolithic site known for its large collection of copper artefacts including arrowheads and fishhooks, which points to an early copper-using culture predating the Harappan period.'
+  },
+
+  {
+    id: 'hc-043',
+    topic: 'Ancient India',
+    subtopic: 'Buddhism',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to ancient India, Gautama Buddha was generally known by which of the following epithets?',
+    statements: [
+      'Nayaputta',
+      'Shakyamuni',
+      'Tathagata'
+    ],
+    tail: 'Select the correct answer using the code given below.',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3'
+    ],
+    correct: 1,
+    explanation: '"Nayaputta" (meaning "son of the Naya/Jnatrika clan") is an epithet of Vardhamana Mahavira, the 24th Jain Tirthankara — NOT of Gautama Buddha. "Shakyamuni" (Sage of the Shakyas) refers to the Buddha\'s clan origin and is one of his most common epithets. "Tathagata" (one who has thus come/gone, i.e., one who has attained enlightenment) is a title the Buddha used for himself in the Pali Canon. A common UPSC trap is confusing Nayaputta (Mahavira) with a Buddha epithet.'
+  },
+
+  {
+    id: 'hc-044',
+    topic: 'Ancient India',
+    subtopic: 'Buddhism',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'Sanghabhuti, an Indian Buddhist monk who travelled to China at the end of the fourth century AD, was the author of a commentary on:',
+    options: [
+      'Prajnaparamita Sutra',
+      'Visuddhimagga',
+      'Sarvastivada Vinaya',
+      'Lalitavistara'
+    ],
+    correct: 2,
+    explanation: 'Sanghabhuti was a learned Indian Buddhist monk from Kashmir who travelled to China circa 381 CE and collaborated with Chinese scholars to translate Buddhist texts. His most significant contribution was a commentary on the Sarvastivada Vinaya — the monastic code of the Sarvastivada school of Buddhism. The Sarvastivada school was particularly influential in northwest India and Central Asia. The Visuddhimagga was composed by Buddhaghosa (5th century CE); the Lalitavistara is a Mahayana text on the Buddha\'s life.'
+  },
+
+  {
+    id: 'hc-045',
+    topic: 'Ancient India',
+    subtopic: 'Vedic Literature',
+    year: 2024,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Consider the following statements regarding the Upanishads:',
+    statements: [
+      'There are no parables in Upanishads.',
+      'Upanishads were composed earlier than the Puranas.'
+    ],
+    tail: 'Which of the statements given above is/are correct?',
+    options: [
+      '1 only',
+      '2 only',
+      'Both 1 and 2',
+      'Neither 1 nor 2'
+    ],
+    correct: 1,
+    explanation: 'Statement 1 is incorrect: The Upanishads are rich in parables and allegorical stories used to convey philosophical truths. Famous parables include the story of Nachiketa and Yama (Katha Upanishad), Satyakama Jabala (Chandogya Upanishad), and the honey doctrine (Brihadaranyaka Upanishad). Statement 2 is correct: The principal Upanishads (Brihadaranyaka, Chandogya, etc.) were composed between approximately 800–500 BCE, while the Puranas were composed mainly in the Gupta period (4th–6th century CE) and later, making the Upanishads significantly older.'
+  },
+
+  {
+    id: 'hc-046',
+    topic: 'Ancient India',
+    subtopic: 'Ashokan Administration',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'Ashokan inscriptions suggest that the "Pradesika", "Rajuka" and "Yukta" were important officers at the',
+    options: [
+      'village-level administration',
+      'district-level administration',
+      'provincial administration',
+      'level of the central administration'
+    ],
+    correct: 1,
+    explanation: 'Ashokan inscriptions (particularly Rock Edict III) refer to the Pradesika (district officer in charge of revenue and general administration), Rajuka (judicial official responsible for awarding punishments and revenue), and Yukta (subordinate secretary or accountant) as officers operating at the district (janapada) level. The Rajuka\'s role was especially highlighted by Ashoka when he granted them independent judicial powers (from the 13th year of his reign) to administer justice to the rural population without referring every matter to the centre.'
+  },
+
+  {
+    id: 'hc-047',
+    topic: 'Ancient India',
+    subtopic: 'Chola Empire',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'Who among the following led a successful military campaign against the kingdom of Srivijaya?',
+    options: [
+      'Amoghavarsha (Rashtrakuta)',
+      'Prataparudra (Kakatiya)',
+      'Rajendra I (Chola)',
+      'Vishnuvardhana (Hoysala)'
+    ],
+    correct: 2,
+    explanation: 'Rajendra Chola I (r. 1014–1044 CE), son of the great Rajaraja Chola I, launched a spectacular naval expedition circa 1025 CE against the Srivijaya Empire — a powerful maritime kingdom controlling the Strait of Malacca (in present-day Indonesia and Malaysia). The campaign resulted in the capture of several Srivijayan ports and the seizure of immense wealth. This Chola naval expedition remains one of the most remarkable examples of Indian maritime power in medieval history. Port Blair (now renamed Sri Vijaya Puram) is named after this campaign.'
+  },
+
+  // ── MEDIEVAL INDIA (2021–2025) ───────────────────────────────────────────
+
+  {
+    id: 'hc-048',
+    topic: 'Medieval India',
+    subtopic: 'Mughal Administration',
+    year: 2021,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'With reference to the Mughal administrative divisions, which of the following represents the correct ascending order of administrative units?',
+    options: [
+      'Paragana – Sarkar – Suba',
+      'Sarkar – Paragana – Suba',
+      'Suba – Sarkar – Paragana',
+      'Paragana – Suba – Sarkar'
+    ],
+    correct: 0,
+    explanation: 'The Mughal Empire was divided into Subas (provinces) — there were 15 under Akbar and 21 under Aurangzeb. Each Suba was divided into Sarkars (districts), and each Sarkar into Paraganas (sub-districts or groups of villages). So the ascending order from smallest to largest was: Mahal/Village → Paragana → Sarkar → Suba. The Suba was headed by a Subedar (or Sipahsalar), the Sarkar by a Faujdar, and the Paragana by a Shiqdar.'
+  },
+
+  {
+    id: 'hc-049',
+    topic: 'Medieval India',
+    subtopic: 'Successor States',
+    year: 2021,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Consider the following statements about Indian kingdoms in the 18th century:',
+    statements: [
+      'The Nizamat of Arcot emerged as a successor state from the Deccan subah of the Mughal Empire.',
+      'The Mysore Kingdom emerged as a successor state from the Vijayanagara Empire.',
+      'Rohilkhand emerged out of the territories conquered by Ahmad Shah Durrani.'
+    ],
+    tail: 'Which of the statements given above is/are correct?',
+    options: [
+      '1 and 2',
+      '2 and 3',
+      '1 and 3',
+      '1, 2 and 3'
+    ],
+    correct: 0,
+    explanation: 'Statement 1 is correct: The Nawabs of Arcot (Carnatic) were originally appointed as subedars under the Nizamat of Hyderabad, which itself emerged from the Mughal Deccan subah — making this lineage traceable to the Mughal provincial system. Statement 2 is correct: The Wadiyar dynasty of Mysore was a feudatory of the Vijayanagara Empire; after Vijayanagara\'s collapse post-Talikota (1565), Mysore emerged as an independent successor state. Statement 3 is incorrect: Rohilkhand was carved out by Rohilla Afghan chiefs who migrated to India independently and established control over the Gangetic plain; it was not a direct successor to Ahmad Shah Durrani\'s territories.'
+  },
+
+  {
+    id: 'hc-050',
+    topic: 'Medieval India',
+    subtopic: 'Slavery in Ancient Law',
+    year: 2022,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'According to Kautilya\'s Arthashastra, which of the following statements are correct?',
+    statements: [
+      'A person could be a slave as a result of a judicial punishment.',
+      'If a female slave bore her master a son, she was legally free.',
+      'If a son born to a female slave was fathered by her master, the son was entitled to the legal status of the master\'s son.'
+    ],
+    tail: 'Select the correct answer using the code given below.',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3'
+    ],
+    correct: 3,
+    explanation: 'All three statements are correct per Kautilya\'s Arthashastra (Book III). Statement 1: A person could be enslaved as judicial punishment for certain crimes. Statement 2: The Arthashastra states that a female slave (dasi) who bore her master a son would be manumitted (freed). Statement 3: A son fathered by the master on a female slave was to be treated as a legitimate son (putra) with rights to inheritance. These provisions reflect a more regulated and humane approach to slavery than was common in other ancient societies. The Arthashastra distinguishes between different categories of slaves (ahitaka, vyavahita, etc.).'
+  },
+
+  {
+    id: 'hc-051',
+    topic: 'Medieval India',
+    subtopic: 'Sangam Literature',
+    year: 2022,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'Which one of the following statements about Sangam literature in ancient South India is correct?',
+    options: [
+      'Sangam poems have no reference to material culture.',
+      'The social classification of Varna was known to Sangam poets.',
+      'Sangam literature refers to magical forces and treats them as rational.',
+      'Sangam poems are exclusively devotional in nature.'
+    ],
+    correct: 1,
+    explanation: 'Sangam literature (composed roughly between 300 BCE – 300 CE) does mention the fourfold varna system (Brahmin, Kshatriya, Vaishya, Shudra), showing that the north Indian social framework was known to Tamil poets. However, the jati (caste) system as it evolved later was less rigidly enforced. Sangam poems are rich in references to material culture — trade, war, agriculture, urban life and ornaments are vividly described. The Sangam corpus also includes references to magical beliefs and superstitions treated as real forces.'
+  },
+
+  // ── MODERN INDIA (2021–2025) ─────────────────────────────────────────────
+
+  {
+    id: 'hc-052',
+    topic: 'Modern India',
+    subtopic: 'Colonial Legislation',
+    year: 2023,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'By which one of the following Acts was the Governor General of Bengal designated as the Governor General of India?',
+    options: [
+      'The Regulating Act',
+      'The Pitt\'s India Act',
+      'The Charter Act of 1793',
+      'The Charter Act of 1833'
+    ],
+    correct: 3,
+    explanation: 'The Charter Act of 1833 (also called the Saint Helena Act) was the watershed legislation that transformed the Bengal-centric British administration into an all-India government. It made the Governor-General of Bengal the Governor-General of India, vested him with all civil and military powers, and ended the East India Company\'s trading monopoly. Lord William Bentinck became the first Governor-General of India under this Act. It also made the legislative council of the Governor-General the sole legislature for the entire British-controlled India.'
+  },
+
+  {
+    id: 'hc-053',
+    topic: 'Modern India',
+    subtopic: 'Social Reform',
+    year: 2025,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Consider the following statements about Raja Ram Mohan Roy:',
+    statements: [
+      'He believed in the infallibility of the Vedas.',
+      'He opposed idol worship and the concept of multiple deities.',
+      'He advocated for women\'s education and widow remarriage.'
+    ],
+    tail: 'Which of the statements given above is/are correct?',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3'
+    ],
+    correct: 1,
+    explanation: 'Statement 1 is incorrect: Ram Mohan Roy was a rationalist and rejected the infallibility of any single scripture. He believed in a rational, monotheistic interpretation of religion drawing from Vedanta, the Quran, and Christian Unitarianism — but did not consider any text infallible. Statement 2 is correct: He strongly opposed idol worship and polytheism, arguing in "Tuhfatul Muwahhiddin" (Gift to Monotheists, 1804) and through the Brahmo Samaj (1828) that the worship of one formless God was the original Vedantic truth. Statement 3 is correct: Roy campaigned vigorously against Sati (resulting in its abolition in 1829) and supported women\'s education; he also advocated widow remarriage and inheritance rights for women.'
+  },
+
+  // ── ART & CULTURE (2021–2025) ────────────────────────────────────────────
+
+  {
+    id: 'hc-054',
+    topic: 'Art & Culture',
+    subtopic: 'Temple Architecture',
+    year: 2021,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'With reference to the Chausath Yogini Temple situated near Morena, consider the following statements:',
+    statements: [
+      'It is a circular temple built during the reign of Kachchhapaghata dynasty.',
+      'It is the only circular temple built in India.',
+      'It was meant to promote the Vaishnava cult at the time of its construction.',
+      'Its design inspired the construction of the Parliament building in New Delhi.'
+    ],
+    tail: 'Which of the statements given above are correct?',
+    options: [
+      '1 and 2',
+      '2 and 3',
+      '1 and 4',
+      '2, 3 and 4'
+    ],
+    correct: 2,
+    explanation: 'Statement 1 is correct: The Chausath Yogini Temple (64 Yoginis Temple) at Mitaoli near Morena (Madhya Pradesh) was built by the Kachchhapaghata king Devapala; an inscription dated to 1323 Vikram Samvat (around 1067 CE) confirms this. Statement 2 is incorrect: There is another circular Yogini temple near Jabalpur (Madhya Pradesh), so this is not the only circular temple in India. Statement 3 is incorrect: The temple is dedicated to Yoginis (female tantric divinities associated with Shaivism), not to Vaishnavism. Statement 4 is correct: The circular plan with a central hall surrounded by a colonnade of shrine cells is widely believed to have inspired Sir Edwin Lutyens\'s design for the Indian Parliament building.'
+  },
+
+  {
+    id: 'hc-055',
+    topic: 'Art & Culture',
+    subtopic: 'Cave Architecture',
+    year: 2023,
+    type: 'prelims',
+    qtype: 'statement',
+    stem: 'Consider the following pairs of cave shrines and their religious affiliation:',
+    statements: [
+      'Besnagar — Shaivite cave shrine',
+      'Bhaja — Buddhist cave shrine',
+      'Sittanavasal — Jain cave shrine'
+    ],
+    tail: 'How many of the pairs given above are correctly matched?',
+    options: [
+      'Only one',
+      'Only two',
+      'All three',
+      'None'
+    ],
+    correct: 2,
+    explanation: 'All three pairs are correctly matched. Besnagar (Madhya Pradesh) has a Shaivite cave shrine though it is more famous for the Heliodorus pillar (a Vaishnava site) — the shrine cave is Shaivite. Bhaja Caves (Maharashtra) is one of the earliest Buddhist rock-cut cave complexes (2nd century BCE), featuring chaitya halls and viharas. Sittanavasal (Tamil Nadu) is a Jain cave shrine with remarkable 7th–9th century Pallava-era frescoes depicting a lotus pond scene — it is a significant Jain heritage site in South India.'
+  },
+
+  {
+    id: 'hc-056',
+    topic: 'Art & Culture',
+    subtopic: 'Ramanuja Philosophy',
+    year: 2022,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'Which one of the following statements correctly represents the teachings of Ramanuja?',
+    options: [
+      'The best means of attaining salvation was through intense devotion to Vishnu.',
+      'The soul and matter are both unreal and only Brahman is real.',
+      'Salvation can only be attained through rigorous asceticism and renunciation.',
+      'The path of knowledge (jnana marga) alone leads to liberation.'
+    ],
+    correct: 0,
+    explanation: 'Ramanuja (1017–1137 CE), the philosopher-saint of the Sri Vaishnava tradition, expounded Vishishtadvaita (qualified non-dualism) — the philosophy that individual souls (jivas) and the material world (jagat) are real but form the body of Brahman (identified as Vishnu-Narayana). He argued that Bhakti (devotion) — specifically loving surrender (prapatti) to Vishnu — is the supreme path to liberation (moksha). This directly opposed Adi Shankaracharya\'s Advaita doctrine that Brahman alone is real and the world is maya (illusion).'
+  },
+
+  {
+    id: 'hc-057',
+    topic: 'Art & Culture',
+    subtopic: 'Buddhist Sites',
+    year: 2023,
+    type: 'prelims',
+    qtype: 'direct',
+    stem: 'With reference to ancient South Indian ports mentioned in Sangam literature, which of the following were well known as ports?',
+    options: [
+      'Korkai, Poompuhar and Muchiri',
+      'Madurai, Kanchipuram and Thanjavur',
+      'Vatapi, Tanjore and Kaveripattanam',
+      'Arikamedu, Puhar and Mamallapuram'
+    ],
+    correct: 0,
+    explanation: 'Korkai (ancient port in present-day Tamil Nadu, once capital of the Pandyas), Poompuhar/Kaveripattinam (the Chola port at the mouth of the Kaveri River), and Muchiri/Muziri (identified with Kodungallur/Cranganore in Kerala, a major port for Rome-India trade) are all attested in Sangam literature as thriving ports. Poompuhar features prominently in the Tamil epic Silappatikaram. Archaeological evidence at Arikamedu (near Puducherry) shows Roman pottery, confirming active Indo-Roman maritime trade during the Sangam age.'
+  },
+
 ];

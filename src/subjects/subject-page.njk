@@ -10,6 +10,15 @@ eleventyComputed:
   description: "{{ subj.description }} — UPSC notes from foundation to Mains level with MCQs and PYQ analysis."
 ---
 
+{% if subj.hub_url %}
+<meta http-equiv="refresh" content="0;url={{ subj.hub_url }}">
+<section style="padding:var(--space-20) 0; text-align:center;">
+  <div class="container">
+    <p style="font-size:var(--text-lg); color:var(--color-text-muted); margin-bottom:var(--space-4);">Redirecting to {{ subj.name }} hub…</p>
+    <a href="{{ subj.hub_url }}" class="btn btn--accent">Go to {{ subj.name }} →</a>
+  </div>
+</section>
+{% else %}
 <section class="page-header">
   <div class="container">
     <nav class="breadcrumb">
@@ -134,3 +143,4 @@ eleventyComputed:
 
   </div>
 </section>
+{% endif %}

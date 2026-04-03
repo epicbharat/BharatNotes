@@ -42,6 +42,10 @@ description: "Track your UPSC preparation — syllabus completion, bookmarked to
           <span class="info-card__num" id="stat-terms">0</span>
           <span class="info-card__label">Key terms</span>
         </div>
+        <div class="info-card__item">
+          <span class="info-card__num" id="stat-pyq">0</span>
+          <span class="info-card__label">PYQ attempted</span>
+        </div>
       </div>
       <p class="info-card__note">Your progress is stored locally in this browser. Clearing browser data will reset it.</p>
     </div>
@@ -52,15 +56,18 @@ description: "Track your UPSC preparation — syllabus completion, bookmarked to
 
     <div class="info-card" style="margin-bottom:var(--space-6);">
       <div style="display:flex; justify-content:space-between; font-size:0.85rem; margin-bottom:0.4rem;">
-        <span style="color:var(--color-text-muted);"><span id="prelims-done">0</span> / <span id="prelims-total">56</span> topics read</span>
+        <span style="color:var(--color-text-muted);"><span id="prelims-done">0</span> / <span id="prelims-total">241</span> topics read</span>
         <span style="font-weight:700; color:var(--color-brand);" id="prelims-pct">0%</span>
       </div>
       <div style="background:var(--color-border); border-radius:99px; height:9px; overflow:hidden;">
         <div id="bar-prelims" style="background:var(--color-brand); height:100%; width:0%; border-radius:99px; transition:width 0.4s;"></div>
       </div>
+      <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin-top:var(--space-3);">
+        <a href="/syllabus-tracker/" style="color:var(--color-brand);">View full breakdown in Syllabus Checklist &rarr;</a>
+      </p>
     </div>
 
-    <div class="syllabus-grid" id="prelims-progress" style="margin-bottom:var(--space-10);"></div>
+    <div style="margin-bottom:var(--space-10);"></div>
 
     {# ── Mains Syllabus ── #}
     <h2 class="section-heading">Mains — Syllabus Completion</h2>
@@ -97,6 +104,16 @@ description: "Track your UPSC preparation — syllabus completion, bookmarked to
         <a href="/resources/key-terms/" style="font-size:var(--text-sm); color:var(--color-brand); font-weight:600;">Continue learning &rarr;</a>
       </div>
 
+      <div class="strategy-card" id="card-quiz">
+        <h4 class="strategy-card__title">PYQ Practice</h4>
+        <p class="strategy-card__text"><span id="quiz-attempted">0</span> questions attempted across <span id="quiz-subjects">0</span> subjects.</p>
+        <div style="background:var(--color-border); border-radius:99px; height:6px; margin:var(--space-3) 0; overflow:hidden;">
+          <div id="quiz-bar" style="background:#0369a1; height:100%; width:0%; border-radius:99px; transition:width 0.3s;"></div>
+        </div>
+        <p class="strategy-card__text" style="font-size:var(--text-xs); margin-bottom:var(--space-2);">Accuracy: <span id="quiz-accuracy">—</span></p>
+        <a href="/quiz/" style="font-size:var(--text-sm); color:var(--color-brand); font-weight:600;">Continue practicing &rarr;</a>
+      </div>
+
       <div class="strategy-card">
         <h4 class="strategy-card__title">Quick Links</h4>
         <p class="strategy-card__text" style="margin-bottom:var(--space-2);">Jump to study tools:</p>
@@ -123,57 +140,31 @@ description: "Track your UPSC preparation — syllabus completion, bookmarked to
 <script>
 (function() {
   /* ── Read localStorage ── */
-  var prelimsData = {};
-  var mainsData = {};
+  var checklistData = {};
   var bookmarks = [];
   var vocabLearned = [];
   var termsLearned = [];
-  try { prelimsData = JSON.parse(localStorage.getItem('bharatnotes_prelims_tracker') || '{}'); } catch(e) {}
-  try { mainsData = JSON.parse(localStorage.getItem('bharatnotes_syllabus') || '{}'); } catch(e) {}
+  var quizStore = {};
+  try { checklistData = JSON.parse(localStorage.getItem('bharatnotes_upsc_checklist') || '{}'); } catch(e) {}
   try { bookmarks = JSON.parse(localStorage.getItem('bharatnotes_bookmarks') || '[]'); } catch(e) {}
   try { vocabLearned = JSON.parse(localStorage.getItem('bn_vocab_learned') || '[]'); } catch(e) {}
   try { termsLearned = JSON.parse(localStorage.getItem('bn_terms_learned') || '[]'); } catch(e) {}
-
-  /* ── Prelims subjects config (matches syllabus-tracker prelims-check keys) ── */
-  var prelimsSubjects = [
-    { slug: 'history-culture', title: 'History & Culture', icon: '\uD83C\uDFDB\uFE0F', color: '#9f1239', total: 7 },
-    { slug: 'polity', title: 'Polity & Governance', icon: '\u2696\uFE0F', color: '#7c3aed', total: 10 },
-    { slug: 'geography', title: 'Geography', icon: '\uD83C\uDF0D', color: '#b45309', total: 5 },
-    { slug: 'economy', title: 'Indian Economy', icon: '\uD83D\uDCB0', color: '#0369a1', total: 7 },
-    { slug: 'society', title: 'Indian Society', icon: '\uD83D\uDC65', color: '#be123c', total: 5 },
-    { slug: 'international-relations', title: 'Intl Relations', icon: '\uD83E\uDD1D', color: '#0e7490', total: 3 },
-    { slug: 'environment', title: 'Environment', icon: '\uD83C\uDF3F', color: '#047857', total: 3 },
-    { slug: 'science-tech', title: 'Science & Tech', icon: '\uD83D\uDD2C', color: '#4338ca', total: 3 },
-    { slug: 'general-science', title: 'General Science', icon: '\u2697\uFE0F', color: '#0d9488', total: 3 },
-    { slug: 'security', title: 'Internal Security', icon: '\uD83D\uDEE1\uFE0F', color: '#1e3a5f', total: 4 },
-    { slug: 'disaster-management', title: 'Disaster Mgmt', icon: '\u26A0\uFE0F', color: '#dc2626', total: 3 },
-    { slug: 'ethics', title: 'Ethics', icon: '\uD83E\uDDED', color: '#854d0e', total: 3 }
-  ];
+  try { quizStore = JSON.parse(localStorage.getItem('bn_quiz_v2') || '{}'); } catch(e) {}
 
   /* ── Count prelims progress ── */
-  var prelimsKeys = Object.keys(prelimsData);
-  var prelimsChecked = prelimsKeys.length;
-  var prelimsTotal = 0;
-  prelimsSubjects.forEach(function(s) { prelimsTotal += s.total; });
-  var prelimsPct = prelimsTotal ? Math.round((prelimsChecked / prelimsTotal) * 100) : 0;
-
-  /* Per-subject counts */
-  var subjCounts = {};
-  prelimsSubjects.forEach(function(s) { subjCounts[s.slug] = 0; });
-  prelimsKeys.forEach(function(key) {
-    var subj = key.split('/')[0];
-    if (subjCounts[subj] !== undefined) subjCounts[subj]++;
-  });
+  var allKeys = Object.keys(checklistData);
+  var prelimsTotal = 241;
+  var prelimsChecked = allKeys.filter(function(k) { return k.startsWith('prelims-gs/'); }).length;
+  var prelimsPct = Math.round((prelimsChecked / prelimsTotal) * 100);
 
   /* ── Mains paper config ── */
   var papers = [
-    { slug: 'gs1', title: 'GS Paper 1', subtitle: 'History, Geography, Society', icon: '\uD83C\uDFDB\uFE0F', color: '#9f1239', total: 16 },
-    { slug: 'gs2', title: 'GS Paper 2', subtitle: 'Polity, Governance, IR', icon: '\u2696\uFE0F', color: '#7c3aed', total: 14 },
-    { slug: 'gs3', title: 'GS Paper 3', subtitle: 'Economy, S&T, Environment, Security', icon: '\uD83D\uDCA1', color: '#0369a1', total: 27 },
-    { slug: 'gs4', title: 'GS Paper 4', subtitle: 'Ethics, Integrity & Aptitude', icon: '\uD83E\uDDED', color: '#047857', total: 8 }
+    { slug: 'mains-gs1', title: 'GS Paper 1', subtitle: 'History, Geography, Society', icon: '\uD83C\uDFDB\uFE0F', color: '#9f1239', total: 68 },
+    { slug: 'mains-gs2', title: 'GS Paper 2', subtitle: 'Polity, Governance, IR', icon: '\u2696\uFE0F', color: '#7c3aed', total: 61 },
+    { slug: 'mains-gs3', title: 'GS Paper 3', subtitle: 'Economy, S&T, Environment', icon: '\uD83D\uDCA1', color: '#0369a1', total: 62 },
+    { slug: 'mains-gs4', title: 'GS Paper 4', subtitle: 'Ethics, Integrity & Aptitude', icon: '\uD83E\uDDED', color: '#047857', total: 48 }
   ];
 
-  var mainsKeys = Object.keys(mainsData);
   var mainsTotal = 0;
   var mainsChecked = 0;
   var paperCounts = {};
@@ -181,11 +172,29 @@ description: "Track your UPSC preparation — syllabus completion, bookmarked to
     paperCounts[p.slug] = { checked: 0, total: p.total };
     mainsTotal += p.total;
   });
-  mainsKeys.forEach(function(key) {
-    var paper = key.split('/')[0];
-    if (paperCounts[paper]) { paperCounts[paper].checked++; mainsChecked++; }
+  allKeys.forEach(function(key) {
+    papers.forEach(function(p) {
+      if (key.startsWith(p.slug + '/')) { paperCounts[p.slug].checked++; mainsChecked++; }
+    });
   });
   var mainsPct = mainsTotal ? Math.round((mainsChecked / mainsTotal) * 100) : 0;
+
+  /* ── Quiz stats ── */
+  var totalAttempted = 0, totalCorrect = 0, quizSubjects = 0;
+  Object.values(quizStore).forEach(function(subj) {
+    if (subj && typeof subj === 'object') {
+      var subjAttempted = 0;
+      Object.values(subj).forEach(function(a) {
+        if (a && typeof a === 'object' && 'ok' in a) {
+          totalAttempted++;
+          subjAttempted++;
+          if (a.ok) totalCorrect++;
+        }
+      });
+      if (subjAttempted > 0) quizSubjects++;
+    }
+  });
+  var quizAccuracy = totalAttempted > 0 ? Math.round(totalCorrect / totalAttempted * 100) : 0;
 
   /* ── Overview stats ── */
   document.getElementById('stat-prelims').textContent = prelimsPct + '%';
@@ -193,36 +202,13 @@ description: "Track your UPSC preparation — syllabus completion, bookmarked to
   document.getElementById('stat-bookmarks').textContent = bookmarks.length;
   document.getElementById('stat-vocab').textContent = vocabLearned.length;
   document.getElementById('stat-terms').textContent = termsLearned.length;
+  document.getElementById('stat-pyq').textContent = totalAttempted;
 
   /* ── Prelims progress bar ── */
   document.getElementById('prelims-done').textContent = prelimsChecked;
   document.getElementById('prelims-total').textContent = prelimsTotal;
   document.getElementById('prelims-pct').textContent = prelimsPct + '%';
   document.getElementById('bar-prelims').style.width = prelimsPct + '%';
-
-  /* ── Prelims subject cards ── */
-  var prelimsEl = document.getElementById('prelims-progress');
-  var pHTML = '';
-  prelimsSubjects.forEach(function(s) {
-    var done = subjCounts[s.slug] || 0;
-    var pct = s.total ? Math.round((done / s.total) * 100) : 0;
-    pHTML += '<div class="syl-card" style="--syl-color:' + s.color + ';">' +
-      '<div class="syl-card__head">' +
-        '<span class="syl-card__icon">' + s.icon + '</span>' +
-        '<div>' +
-          '<h3 class="syl-card__title">' + s.title + '</h3>' +
-          '<span class="syl-card__count">' + done + ' / ' + s.total + ' read</span>' +
-        '</div>' +
-        '<a href="/syllabus-tracker/" class="syl-card__all">Track &rarr;</a>' +
-      '</div>' +
-      '<div style="padding:var(--space-4);">' +
-        '<div style="background:var(--color-border); border-radius:99px; height:8px; overflow:hidden;">' +
-          '<div style="background:' + s.color + '; height:100%; width:' + pct + '%; border-radius:99px; transition:width 0.3s;"></div>' +
-        '</div>' +
-      '</div>' +
-    '</div>';
-  });
-  prelimsEl.innerHTML = pHTML;
 
   /* ── Mains progress cards ── */
   var mainsEl = document.getElementById('mains-progress');
@@ -284,20 +270,27 @@ description: "Track your UPSC preparation — syllabus completion, bookmarked to
   /* ── Vocab & Terms progress ── */
   document.getElementById('vocab-count').textContent = vocabLearned.length;
   document.getElementById('terms-count').textContent = termsLearned.length;
-  /* Approximate total vocab/terms — these are dynamic so we show count only, bar fills proportionally */
-  var vocabPct = Math.min(100, Math.round(vocabLearned.length / 3));
-  var termsPct = Math.min(100, Math.round(termsLearned.length / 3));
+  var vocabPct = Math.min(100, Math.round(vocabLearned.length / 715 * 100));
+  var termsPct = Math.min(100, Math.round(termsLearned.length / 715 * 100));
   document.getElementById('vocab-bar').style.width = vocabPct + '%';
   document.getElementById('terms-bar').style.width = termsPct + '%';
 
+  /* ── PYQ Quiz card ── */
+  document.getElementById('quiz-attempted').textContent = totalAttempted;
+  document.getElementById('quiz-subjects').textContent = quizSubjects;
+  document.getElementById('quiz-accuracy').textContent = totalAttempted > 0 ? quizAccuracy + '%' : '—';
+  var quizPct = Math.min(100, Math.round(totalAttempted / 526 * 100));
+  document.getElementById('quiz-bar').style.width = quizPct + '%';
+
   /* ── Reset ── */
   document.getElementById('reset-data').addEventListener('click', function() {
-    if (confirm('This will reset ALL your progress — Prelims notes, Mains syllabus, bookmarks, vocab, and key terms. Are you sure?')) {
-      localStorage.removeItem('bharatnotes_prelims_tracker');
-      localStorage.removeItem('bharatnotes_syllabus');
+    if (confirm('This will reset ALL your progress — Prelims notes, Mains syllabus, bookmarks, vocab, key terms, quiz history, and streak. Are you sure?')) {
+      localStorage.removeItem('bharatnotes_upsc_checklist');
       localStorage.removeItem('bharatnotes_bookmarks');
       localStorage.removeItem('bn_vocab_learned');
       localStorage.removeItem('bn_terms_learned');
+      localStorage.removeItem('bn_quiz_v2');
+      localStorage.removeItem('bn_streak_v1');
       location.reload();
     }
   });

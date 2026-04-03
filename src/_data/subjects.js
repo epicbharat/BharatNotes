@@ -127,5 +127,15 @@ module.exports = [
     description: "Natural & man-made disasters, vulnerability, resilience, NDMA, SDMA, disaster preparedness & response",
     gs_papers: ["gs3"],
     syllabus_sections: ["Disaster Management"]
+  },
+  {
+    slug: "essay",
+    name: "Essay Paper",
+    icon: "\u270D\uFE0F",
+    color: "#7c2d12",
+    description: "UPSC Essay Paper (Paper I of Mains) — structure, writing framework, previous year topics 2013–2025, and category-wise approach for philosophical, socioeconomic, and science–ethics essays",
+    gs_papers: ["essay"],
+    hub_url: "/essay/",
+    syllabus_sections: ["Essay Paper"]
   }
 ];
