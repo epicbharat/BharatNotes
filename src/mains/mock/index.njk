@@ -1,0 +1,16 @@
+---
+layout: base.njk
+title: "UPSC Mains Mock Test | BharatNotes"
+description: "Practice UPSC Mains answer writing with AI evaluation. Write answers, get Gemini-powered feedback, and compare with expert model answers."
+---
+
+<script>
+window.MAINS_CONFIG = {
+  evalUrl: 'https://mains-eval.bharatnotes.workers.dev',
+  paper:   'gs1'
+};
+window.MAINS_DATA = {{ mains_questions | dump | safe }};
+
+</script>
+
+{% include "mains-engine.njk" %}

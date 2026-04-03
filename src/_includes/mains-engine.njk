@@ -1,0 +1,1026 @@
+<style>
+/* ══ Mains Engine — me- namespace ══════════════════════════════
+   Reads: window.MAINS_DATA (array), window.MAINS_CONFIG (object)
+   Eval:  POST to window.MAINS_CONFIG.evalUrl (Cloudflare Worker)
+══════════════════════════════════════════════════════════════ */
+
+/* ── Hero ─────────────────────────────────────────────────── */
+.me-hero{
+  background:linear-gradient(135deg,#1c0a00 0%,#2d1200 55%,#3d1f00 100%);
+  padding:var(--space-12) 0 var(--space-10);
+  position:relative;overflow:hidden;
+}
+.me-hero::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 70% 50%,rgba(234,88,12,.1) 0%,transparent 60%);
+  pointer-events:none;
+}
+.me-hero__inner{position:relative;z-index:1;}
+.me-hero__kicker{
+  display:inline-flex;align-items:center;gap:7px;
+  font-size:0.65rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+  color:#fb923c;border:1px solid rgba(251,146,60,.35);
+  background:rgba(251,146,60,.1);border-radius:100px;
+  padding:4px 12px;margin-bottom:var(--space-4);
+}
+.me-hero h1{
+  font-family:var(--font-serif);font-size:clamp(1.8rem,4vw,2.8rem);
+  color:#fff;margin:0 0 var(--space-3);line-height:1.2;
+}
+.me-hero h1 em{color:#fb923c;font-style:italic;}
+.me-hero p{color:rgba(255,255,255,.6);font-size:var(--text-sm);margin:0;max-width:560px;}
+.me-hero__meta{display:flex;gap:var(--space-6);margin-top:var(--space-5);flex-wrap:wrap;}
+.me-hero__meta-item{display:flex;align-items:center;gap:6px;font-size:var(--text-xs);color:rgba(255,255,255,.5);}
+
+/* ── Setup body ───────────────────────────────────────────── */
+.me-setup-body{background:var(--color-bg);padding:var(--space-8) 0 var(--space-16);}
+.me-card{
+  background:#fff;border:1px solid #e5e7eb;border-radius:16px;
+  padding:var(--space-5) var(--space-6);margin-bottom:var(--space-4);
+  box-shadow:0 1px 3px rgba(0,0,0,.04);
+}
+.me-section-label{
+  font-size:0.62rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;
+  color:var(--color-text-muted);margin:0 0 var(--space-4);
+  display:flex;align-items:center;gap:10px;
+}
+.me-section-label::after{content:'';flex:1;height:1px;background:#f0f0ec;}
+
+/* Paper chips */
+.me-paper-row{display:flex;gap:10px;flex-wrap:wrap;}
+.me-paper-chip{
+  flex:1;min-width:120px;
+  border:2px solid #e5e7eb;border-radius:12px;
+  padding:var(--space-4) var(--space-3);text-align:center;
+  cursor:pointer;transition:all .18s;background:#fafafa;
+}
+.me-paper-chip:hover{border-color:#ea580c;background:#fff7ed;}
+.me-paper-chip.active{border-color:#ea580c;background:#ea580c;}
+.me-paper-chip.active .me-paper-chip__name{color:#fff;}
+.me-paper-chip.active .me-paper-chip__sub{color:rgba(255,255,255,.75);}
+.me-paper-chip__name{display:block;font-size:var(--text-sm);font-weight:800;color:var(--color-brand);transition:color .18s;}
+.me-paper-chip__sub{display:block;font-size:0.62rem;color:var(--color-text-muted);margin-top:3px;transition:color .18s;}
+
+/* Mode chips */
+.me-mode-row{display:flex;gap:8px;flex-wrap:wrap;}
+.me-mode-chip{
+  border:1.5px solid #e5e7eb;border-radius:8px;background:#fafafa;
+  font-size:var(--text-xs);font-weight:700;color:var(--color-text-muted);
+  padding:8px 16px;cursor:pointer;transition:all .15s;
+}
+.me-mode-chip:hover{border-color:#ea580c;color:#ea580c;}
+.me-mode-chip.active{background:#ea580c;border-color:#ea580c;color:#fff;}
+
+/* Name input */
+.me-name-wrap input{
+  width:100%;box-sizing:border-box;
+  border:1.5px solid var(--color-border);border-radius:10px;
+  padding:11px 14px;font-size:var(--text-sm);
+  font-family:var(--font-body);background:#fafafa;color:var(--color-text);
+}
+.me-name-wrap input:focus{border-color:#ea580c;background:#fff;box-shadow:0 0 0 3px rgba(234,88,12,.08);outline:none;}
+
+/* Launch */
+.me-launch{
+  background:#fff;border:1px solid #e5e7eb;border-radius:16px;
+  padding:var(--space-5) var(--space-6);
+  display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);flex-wrap:wrap;
+}
+.me-preview{flex:1;font-size:var(--text-sm);color:var(--color-text-muted);}
+.me-preview strong{color:var(--color-brand);}
+.me-start-btn{
+  flex-shrink:0;display:inline-flex;align-items:center;gap:var(--space-2);
+  background:#ea580c;color:#fff;border:none;border-radius:10px;
+  padding:13px 28px;font-size:var(--text-sm);font-weight:800;cursor:pointer;
+  transition:all .18s;box-shadow:0 4px 16px rgba(234,88,12,.3);
+}
+.me-start-btn:hover{background:#c2410c;transform:translateY(-1px);}
+.me-start-btn:disabled{opacity:.4;cursor:not-allowed;transform:none;box-shadow:none;}
+
+/* ── Test header ──────────────────────────────────────────── */
+#me-test{display:none;}
+.me-hd{
+  position:sticky;top:0;z-index:300;
+  background:#1c0a00;
+  display:flex;align-items:center;gap:var(--space-3);
+  padding:0 var(--space-5);height:54px;
+  box-shadow:0 2px 8px rgba(0,0,0,.3);
+}
+.me-hd-back{
+  display:flex;align-items:center;gap:6px;
+  background:rgba(255,255,255,.1);border:none;border-radius:8px;
+  color:#fff;font-size:var(--text-xs);font-weight:700;
+  padding:6px 12px;cursor:pointer;transition:background .15s;flex-shrink:0;
+}
+.me-hd-back:hover{background:rgba(255,255,255,.2);}
+.me-hd-title{font-size:var(--text-xs);font-weight:800;color:rgba(255,255,255,.6);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.me-hd-qnum{font-size:var(--text-xs);font-weight:700;color:rgba(255,255,255,.5);white-space:nowrap;}
+.me-hd-timer{
+  font-family:var(--font-mono);font-size:0.85rem;font-weight:700;
+  color:#fb923c;background:rgba(234,88,12,.15);
+  border:1px solid rgba(234,88,12,.3);border-radius:6px;
+  padding:4px 10px;white-space:nowrap;
+}
+.me-hd-timer.warning{color:#fca5a5;background:rgba(220,38,38,.15);border-color:rgba(220,38,38,.3);}
+.me-submit-hd{
+  flex-shrink:0;background:#ea580c;color:#fff;border:none;border-radius:8px;
+  font-size:var(--text-xs);font-weight:800;padding:7px 14px;cursor:pointer;transition:background .15s;
+}
+.me-submit-hd:hover{background:#c2410c;}
+
+/* Progress bar */
+.me-prog{height:3px;background:rgba(255,255,255,.1);position:sticky;top:54px;z-index:299;}
+.me-prog-fill{height:100%;background:linear-gradient(90deg,#ea580c,#fb923c);transition:width .4s;}
+
+/* ── Test body ────────────────────────────────────────────── */
+.me-body{display:grid;grid-template-columns:1fr 300px;min-height:calc(100vh - 57px);}
+@media(max-width:900px){.me-body{grid-template-columns:1fr;}}
+
+/* Question + answer area */
+.me-main{padding:var(--space-6) var(--space-6) var(--space-6);max-width:780px;width:100%;box-sizing:border-box;}
+
+/* Question card */
+.me-q-card{
+  background:#fff;border:1px solid #e5e7eb;border-radius:16px;
+  padding:var(--space-6) var(--space-8);
+  box-shadow:0 2px 8px rgba(0,0,0,.04);
+  margin-bottom:var(--space-4);
+}
+.me-q-meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:var(--space-4);padding-bottom:var(--space-3);border-bottom:1px solid #f0f0ec;}
+.me-q-badge{font-size:0.62rem;font-weight:800;padding:3px 9px;border-radius:100px;white-space:nowrap;}
+.me-q-badge--paper{background:#fff7ed;color:#ea580c;border:1px solid #fed7aa;}
+.me-q-badge--marks{background:#f0fdf4;color:#16a34a;border:1px solid #bbf7d0;}
+.me-q-badge--year{background:#faf5ff;color:#7c3aed;border:1px solid #ddd6fe;}
+.me-q-badge--topic{background:#f8fafc;color:#475569;border:1px solid #e2e8f0;}
+.me-q-text{
+  font-family:var(--font-serif);font-size:1.22rem;line-height:1.75;
+  color:#1c1917;margin:0 0 var(--space-4);
+}
+.me-q-hint{
+  font-size:var(--text-xs);color:var(--color-text-muted);
+  background:#f8f8f6;border-radius:8px;padding:10px 14px;
+  border-left:3px solid #d6d3d1;line-height:1.6;
+}
+.me-q-hint strong{color:var(--color-brand);}
+
+/* Answer area */
+.me-answer-card{
+  background:#fff;border:1px solid #e5e7eb;border-radius:16px;
+  overflow:hidden;
+  box-shadow:0 2px 8px rgba(0,0,0,.04);
+}
+.me-answer-hd{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:12px 20px;background:#faf9f7;border-bottom:1px solid #e5e7eb;
+}
+.me-answer-lbl{font-size:var(--text-xs);font-weight:800;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.06em;}
+.me-answer-tools{display:flex;align-items:center;gap:8px;}
+.me-word-count{font-size:var(--text-xs);font-weight:700;color:var(--color-text-muted);}
+.me-word-count.over{color:#dc2626;}
+.me-word-count.good{color:#16a34a;}
+.me-voice-btn{
+  display:inline-flex;align-items:center;gap:5px;
+  background:#f0f7f4;border:1.5px solid #d1e8de;border-radius:8px;
+  color:#0f4c3a;font-size:var(--text-xs);font-weight:700;
+  padding:5px 10px;cursor:pointer;transition:all .15s;
+}
+.me-voice-btn:hover{background:#0f4c3a;color:#fff;border-color:#0f4c3a;}
+.me-voice-btn.recording{background:#dc2626;border-color:#dc2626;color:#fff;animation:me-pulse 1.2s infinite;}
+@keyframes me-pulse{0%,100%{opacity:1;}50%{opacity:.7;}}
+.me-answer-textarea{
+  width:100%;min-height:300px;box-sizing:border-box;
+  padding:18px 20px;
+  font-family:var(--font-serif);font-size:1.1rem;line-height:1.8;color:#1c1917;
+  border:none;resize:vertical;outline:none;background:#fff;
+}
+.me-answer-textarea:focus{background:#fffef9;}
+.me-answer-textarea::placeholder{color:#a8a29e;font-style:italic;}
+
+/* ── Sidebar palette ──────────────────────────────────────── */
+.me-sidebar{
+  border-left:1px solid #e5e7eb;background:#fafaf8;
+  display:flex;flex-direction:column;
+  position:sticky;top:57px;height:calc(100vh - 57px);overflow:hidden;
+}
+@media(max-width:900px){.me-sidebar{display:none;}}
+.me-sidebar__head{
+  padding:14px 16px;border-bottom:1px solid #e5e7eb;
+  font-size:var(--text-xs);font-weight:800;color:var(--color-text-muted);
+  text-transform:uppercase;letter-spacing:.08em;flex-shrink:0;
+}
+.me-sidebar__body{flex:1;overflow-y:auto;padding:14px 16px;}
+.me-palette{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;margin-bottom:var(--space-4);}
+.me-pal-q{
+  aspect-ratio:1;border-radius:6px;border:1.5px solid #e5e7eb;
+  background:#f5f5f0;color:#9ca3af;
+  font-size:0.65rem;font-weight:700;cursor:pointer;transition:all .15s;
+}
+.me-pal-q:hover{border-color:#ea580c;color:#ea580c;}
+.me-pal-q--active{border-color:#ea580c !important;box-shadow:0 0 0 2px rgba(234,88,12,.2);}
+.me-pal-q--attempted{background:#dcfce7;color:#15803d;border-color:#86efac;}
+.me-pal-q--marked{background:#ede9fe;color:#7c3aed;border-color:#c4b5fd;}
+.me-pal-q--skipped{background:#fee2e2;color:#dc2626;border-color:#fca5a5;}
+.me-legend{display:flex;flex-direction:column;gap:5px;margin-top:var(--space-3);}
+.me-legend-item{display:flex;align-items:center;gap:7px;font-size:var(--text-xs);color:var(--color-text-muted);}
+.me-legend-chip{width:18px;height:18px;border-radius:4px;border:1.5px solid;display:inline-flex;align-items:center;justify-content:center;font-size:0.55rem;font-weight:800;flex-shrink:0;}
+.me-sidebar__stats{padding:14px 16px;border-top:1px solid #e5e7eb;flex-shrink:0;}
+.me-stat-row{display:flex;justify-content:space-between;font-size:var(--text-xs);margin-bottom:4px;}
+.me-stat-val{font-weight:800;color:var(--color-brand);}
+
+/* ── Footer nav ───────────────────────────────────────────── */
+#me-footer{display:none;}
+.me-footer{
+  position:sticky;bottom:0;z-index:200;
+  background:#fff;border-top:1px solid #e5e7eb;
+  display:flex;align-items:center;justify-content:center;
+  padding:10px 24px;gap:0;
+  box-shadow:0 -2px 8px rgba(0,0,0,.06);
+}
+.me-btn{
+  display:inline-flex;align-items:center;gap:6px;
+  border:1.5px solid #e5e7eb;border-radius:9px;background:#fff;
+  color:var(--color-brand);font-size:var(--text-xs);font-weight:700;
+  padding:9px 16px;cursor:pointer;transition:all .15s;white-space:nowrap;
+}
+.me-btn:hover{border-color:#ea580c;color:#ea580c;}
+.me-btn--prev svg{transform:rotate(180deg);}
+.me-btn--save{background:#ea580c;border-color:#ea580c;color:#fff;padding:9px 22px;}
+.me-btn--save:hover{background:#c2410c;border-color:#c2410c;color:#fff;}
+.me-btn--mark{border-color:#7c3aed;color:#7c3aed;}
+.me-btn--mark:hover{background:#7c3aed;color:#fff;}
+.me-footer__sep{width:1px;height:24px;background:#e5e7eb;margin:0 var(--space-3);}
+
+/* ── Evaluation panel ─────────────────────────────────────── */
+.me-eval{
+  background:#fff;border:1px solid #e5e7eb;border-radius:16px;
+  margin-top:var(--space-4);overflow:hidden;
+  box-shadow:0 2px 8px rgba(0,0,0,.04);
+}
+.me-eval__hd{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:14px 20px;background:#faf9f7;border-bottom:1px solid #e5e7eb;
+}
+.me-eval__lbl{font-size:var(--text-xs);font-weight:800;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.06em;}
+.me-eval__score-badge{
+  font-size:1rem;font-weight:900;color:#ea580c;
+  background:#fff7ed;border:2px solid #fed7aa;border-radius:100px;
+  padding:3px 14px;
+}
+.me-eval__body{padding:20px;}
+.me-eval__loading{display:flex;align-items:center;gap:10px;color:var(--color-text-muted);font-size:var(--text-sm);}
+.me-eval__spinner{width:16px;height:16px;border:2px solid #e5e7eb;border-top-color:#ea580c;border-radius:50%;animation:me-spin .7s linear infinite;flex-shrink:0;}
+@keyframes me-spin{to{transform:rotate(360deg);}}
+.me-eval__error{color:#dc2626;font-size:var(--text-sm);}
+
+/* Score breakdown grid */
+.me-score-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:var(--space-4);}
+@media(max-width:600px){.me-score-grid{grid-template-columns:1fr;}}
+.me-score-card{background:#f8f8f6;border-radius:10px;padding:12px 14px;}
+.me-score-card__label{font-size:0.62rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:var(--color-text-muted);margin-bottom:6px;}
+.me-score-card__bar-wrap{background:#e5e7eb;border-radius:100px;height:6px;margin-bottom:6px;}
+.me-score-card__bar{height:6px;border-radius:100px;background:#ea580c;transition:width .6s;}
+.me-score-card__nums{display:flex;justify-content:space-between;align-items:baseline;}
+.me-score-card__val{font-size:1.1rem;font-weight:900;color:var(--color-brand);}
+.me-score-card__max{font-size:0.7rem;color:var(--color-text-muted);}
+.me-score-card__comment{font-size:var(--text-xs);color:var(--color-text-muted);margin-top:5px;line-height:1.5;}
+
+/* Strengths / missing */
+.me-eval__section-title{font-size:var(--text-xs);font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:var(--color-text-muted);margin:var(--space-4) 0 var(--space-2);}
+.me-eval__list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:5px;}
+.me-eval__list li{display:flex;align-items:flex-start;gap:8px;font-size:var(--text-xs);line-height:1.55;color:#374151;}
+.me-eval__list--strengths li::before{content:'✓';color:#16a34a;font-weight:900;flex-shrink:0;margin-top:1px;}
+.me-eval__list--missing  li::before{content:'✗';color:#dc2626;font-weight:900;flex-shrink:0;margin-top:1px;}
+.me-eval__note{
+  margin-top:var(--space-4);padding:12px 14px;
+  background:#fff7ed;border-radius:10px;border-left:3px solid #ea580c;
+  font-size:var(--text-xs);color:#7c2d12;line-height:1.6;font-style:italic;
+}
+
+/* Model answer panel */
+.me-model{
+  background:#fff;border:1px solid #e5e7eb;border-radius:16px;
+  margin-top:var(--space-4);overflow:hidden;
+  box-shadow:0 2px 8px rgba(0,0,0,.04);
+}
+.me-model__hd{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:14px 20px;background:#f0fdf4;border-bottom:1px solid #bbf7d0;
+  cursor:pointer;
+}
+.me-model__lbl{font-size:var(--text-xs);font-weight:800;color:#15803d;text-transform:uppercase;letter-spacing:.06em;}
+.me-model__toggle{font-size:var(--text-xs);color:#15803d;font-weight:700;}
+.me-model__body{padding:20px;display:none;}
+.me-model__body.open{display:block;}
+.me-model__text{
+  font-family:var(--font-serif);font-size:1.05rem;line-height:1.85;color:#1c1917;
+  white-space:pre-wrap;
+}
+.me-model__kw{margin-top:var(--space-3);}
+.me-model__kw-label{font-size:0.62rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--color-text-muted);margin-bottom:var(--space-2);}
+.me-model__kw-chips{display:flex;flex-wrap:wrap;gap:6px;}
+.me-model__kw-chip{font-size:0.62rem;font-weight:700;background:#f0fdf4;color:#15803d;border:1px solid #bbf7d0;border-radius:100px;padding:2px 9px;}
+
+/* ── Results ──────────────────────────────────────────────── */
+#me-results{display:none;background:var(--color-bg);padding:var(--space-10) 0 var(--space-16);}
+.me-results-wrap{max-width:800px;margin:0 auto;}
+.me-results-hero{
+  background:linear-gradient(135deg,#1c0a00,#3d1f00);
+  border-radius:20px;padding:var(--space-8);margin-bottom:var(--space-6);
+  text-align:center;color:#fff;
+}
+.me-results-hero__score{font-size:clamp(3rem,8vw,5rem);font-weight:900;color:#fb923c;line-height:1;}
+.me-results-hero__max{font-size:var(--text-sm);color:rgba(255,255,255,.5);margin-top:4px;}
+.me-results-hero__label{font-size:var(--text-xs);font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,.4);margin-bottom:var(--space-3);}
+.me-q-result-card{
+  background:#fff;border:1px solid #e5e7eb;border-radius:14px;
+  margin-bottom:var(--space-3);overflow:hidden;
+}
+.me-q-result-hd{
+  display:flex;align-items:center;gap:10px;
+  padding:14px 18px;cursor:pointer;
+}
+.me-q-result-num{font-size:var(--text-xs);font-weight:900;color:var(--color-text-muted);flex-shrink:0;}
+.me-q-result-text{flex:1;font-size:var(--text-xs);color:var(--color-brand);font-weight:600;line-height:1.4;}
+.me-q-result-score{font-weight:900;font-size:var(--text-sm);color:#ea580c;flex-shrink:0;}
+.me-q-result-body{padding:0 18px 16px;display:none;}
+.me-q-result-body.open{display:block;}
+
+/* ── Mobile ───────────────────────────────────────────────── */
+@media(max-width:640px){
+  .me-hd{padding:0 var(--space-3);}
+  .me-hd-title{display:none;}
+  .me-main{padding:var(--space-4);}
+  .me-q-card,.me-answer-card,.me-eval,.me-model{border-radius:12px;}
+  .me-q-card{padding:var(--space-4);}
+  .me-q-text{font-size:1.08rem;}
+  .me-footer{padding:10px 12px;gap:0;}
+  .me-btn{padding:9px 12px;font-size:0.68rem;}
+  .me-start-btn{width:100%;justify-content:center;}
+  .me-paper-row{grid-template-columns:repeat(2,1fr);display:grid;}
+}
+</style>
+
+<!-- ═══ SETUP VIEW ═══════════════════════════════════════════ -->
+<div id="me-setup">
+  <!-- Hero -->
+  <div class="me-hero">
+    <div class="container">
+      <div class="me-hero__inner">
+        <div class="me-hero__kicker">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          Mains Answer Writing
+        </div>
+        <h1 id="me-title">UPSC Mains <em>Mock Test</em></h1>
+        <p id="me-subtitle">Write answers, get AI evaluation &amp; compare with expert model answers</p>
+        <div class="me-hero__meta">
+          <span class="me-hero__meta-item">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Timed — 3 hours per paper
+          </span>
+          <span class="me-hero__meta-item">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            AI evaluation via Gemini
+          </span>
+          <span class="me-hero__meta-item">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/></svg>
+            Voice typing supported
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Setup cards -->
+  <div class="me-setup-body">
+    <div class="container" style="max-width:800px;padding-top:var(--space-8);">
+
+      <!-- Paper -->
+      <div class="me-card">
+        <div class="me-section-label">Select Paper</div>
+        <div class="me-paper-row" id="me-paper-row">
+          <div class="me-paper-chip active" data-paper="gs1">
+            <span class="me-paper-chip__name">GS Paper I</span>
+            <span class="me-paper-chip__sub">History · Society · Geography</span>
+          </div>
+          <div class="me-paper-chip" data-paper="gs2">
+            <span class="me-paper-chip__name">GS Paper II</span>
+            <span class="me-paper-chip__sub">Governance · Polity · IR</span>
+          </div>
+          <div class="me-paper-chip" data-paper="gs3">
+            <span class="me-paper-chip__name">GS Paper III</span>
+            <span class="me-paper-chip__sub">Economy · Environment · Tech</span>
+          </div>
+          <div class="me-paper-chip" data-paper="gs4">
+            <span class="me-paper-chip__name">GS Paper IV</span>
+            <span class="me-paper-chip__sub">Ethics · Integrity · Aptitude</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mode -->
+      <div class="me-card">
+        <div class="me-section-label">Mode</div>
+        <div class="me-mode-row">
+          <button class="me-mode-chip active" data-mode="full">Full Paper (20 Qs · 3 hrs)</button>
+          <button class="me-mode-chip" data-mode="half">Half Paper (10 Qs · 90 min)</button>
+          <button class="me-mode-chip" data-mode="topic">Topic-wise Practice</button>
+        </div>
+      </div>
+
+      <!-- Name -->
+      <div class="me-card">
+        <div class="me-section-label">Your Name</div>
+        <div class="me-name-wrap">
+          <input type="text" id="me-name-input" placeholder="Enter your name…" maxlength="50">
+        </div>
+      </div>
+
+      <!-- Launch -->
+      <div class="me-launch">
+        <div class="me-preview" id="me-preview">
+          <strong>GS Paper I</strong> · Full Paper · 20 questions · 180 min
+        </div>
+        <button class="me-start-btn" id="me-start-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          Begin Writing
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ═══ TEST VIEW ════════════════════════════════════════════ -->
+<div id="me-test">
+  <!-- Header -->
+  <div class="me-hd">
+    <button class="me-hd-back" id="me-back-btn">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+      Exit
+    </button>
+    <span class="me-hd-title" id="me-hd-title">GS Paper I — Full Mock</span>
+    <span class="me-hd-qnum" id="me-hd-qnum">Q 1 / 20</span>
+    <span style="flex:1;"></span>
+    <span class="me-hd-timer" id="me-timer">3:00:00</span>
+    <button class="me-submit-hd" id="me-submit-btn">Submit Paper</button>
+  </div>
+
+  <!-- Progress -->
+  <div class="me-prog"><div class="me-prog-fill" id="me-prog-fill" style="width:0%"></div></div>
+
+  <!-- Body -->
+  <div class="me-body">
+    <!-- Main content -->
+    <div class="me-main" id="me-main">
+      <!-- Question + answer injected here -->
+    </div>
+
+    <!-- Sidebar palette -->
+    <aside class="me-sidebar">
+      <div class="me-sidebar__head">Questions</div>
+      <div class="me-sidebar__body">
+        <div class="me-palette" id="me-palette"></div>
+        <div class="me-legend">
+          <div class="me-legend-item"><span class="me-legend-chip" style="background:#f5f5f0;color:#9ca3af;border-color:#e5e7eb;">—</span> Not attempted</div>
+          <div class="me-legend-item"><span class="me-legend-chip" style="background:#dcfce7;color:#15803d;border-color:#86efac;">✓</span> Written</div>
+          <div class="me-legend-item"><span class="me-legend-chip" style="background:#ede9fe;color:#7c3aed;border-color:#c4b5fd;">★</span> Marked</div>
+          <div class="me-legend-item"><span class="me-legend-chip" style="background:#fee2e2;color:#dc2626;border-color:#fca5a5;">—</span> Skipped</div>
+        </div>
+      </div>
+      <div class="me-sidebar__stats">
+        <div class="me-stat-row"><span>Written</span><span class="me-stat-val" id="me-stat-written">0</span></div>
+        <div class="me-stat-row"><span>Remaining</span><span class="me-stat-val" id="me-stat-remaining">20</span></div>
+        <div class="me-stat-row"><span>Time left</span><span class="me-stat-val" id="me-stat-time">3:00:00</span></div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<!-- Footer nav -->
+<div id="me-footer">
+  <div class="me-footer">
+    <button class="me-btn me-btn--prev" id="me-prev-btn">
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+      Previous
+    </button>
+    <div class="me-footer__sep"></div>
+    <button class="me-btn me-btn--mark" id="me-mark-btn">
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      Mark
+    </button>
+    <div class="me-footer__sep"></div>
+    <button class="me-btn me-btn--save" id="me-save-btn">
+      Save &amp; Next
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+  </div>
+</div>
+
+<!-- ═══ RESULTS VIEW ══════════════════════════════════════════ -->
+<div id="me-results">
+  <div class="container">
+    <div class="me-results-wrap">
+      <div class="me-results-hero">
+        <div class="me-results-hero__label">Your Score</div>
+        <div class="me-results-hero__score" id="me-results-score">—</div>
+        <div class="me-results-hero__max" id="me-results-max">out of —</div>
+      </div>
+      <div id="me-results-list"></div>
+      <div style="margin-top:var(--space-6);text-align:center;">
+        <button onclick="location.reload()" style="background:#ea580c;color:#fff;border:none;border-radius:10px;padding:12px 28px;font-size:var(--text-sm);font-weight:800;cursor:pointer;">
+          Try Again
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ══ Config & Data ════════════════════════════════════════ */
+var CONFIG   = window.MAINS_CONFIG || {};
+var DATA     = window.MAINS_DATA   || [];
+var EVAL_URL = CONFIG.evalUrl || '';
+
+var selectedPaper = CONFIG.paper || 'gs1';
+var selectedMode  = 'full';
+var candidateName = 'Aspirant';
+
+var testQuestions  = [];
+var userAnswers    = {};   /* idx -> string */
+var qStatus        = [];   /* 'not-attempted'|'attempted'|'marked'|'skipped' */
+var evalResults    = {};   /* idx -> evaluation JSON */
+var currentQ       = 0;
+var timerInterval  = null;
+var timerSecs      = 0;
+var voiceRecog     = null;
+var isRecording    = false;
+
+var PAPER_META = {
+  gs1: { name:'GS Paper I',   sub:'History · Society · Geography',     mins:180, full:20, half:10 },
+  gs2: { name:'GS Paper II',  sub:'Governance · Polity · IR',          mins:180, full:20, half:10 },
+  gs3: { name:'GS Paper III', sub:'Economy · Environment · Technology', mins:180, full:20, half:10 },
+  gs4: { name:'GS Paper IV',  sub:'Ethics · Integrity · Aptitude',     mins:180, full:20, half:10 }
+};
+
+/* ── Restore name ─────────────────────────────────────── */
+try { var _n = localStorage.getItem('bn_exam_name'); if (_n) document.getElementById('me-name-input').value = _n; } catch(e){}
+
+/* ── Paper chips ──────────────────────────────────────── */
+document.querySelectorAll('.me-paper-chip').forEach(function(chip) {
+  chip.addEventListener('click', function() {
+    document.querySelectorAll('.me-paper-chip').forEach(function(c){ c.classList.remove('active'); });
+    chip.classList.add('active');
+    selectedPaper = chip.dataset.paper;
+    updatePreview();
+  });
+});
+
+/* ── Mode chips ───────────────────────────────────────── */
+document.querySelectorAll('.me-mode-chip').forEach(function(chip) {
+  chip.addEventListener('click', function() {
+    document.querySelectorAll('.me-mode-chip').forEach(function(c){ c.classList.remove('active'); });
+    chip.classList.add('active');
+    selectedMode = chip.dataset.mode;
+    updatePreview();
+  });
+});
+
+function updatePreview() {
+  var pm = PAPER_META[selectedPaper] || PAPER_META.gs1;
+  var n  = selectedMode === 'full' ? pm.full : (selectedMode === 'half' ? pm.half : '—');
+  var t  = selectedMode === 'full' ? pm.mins : (selectedMode === 'half' ? 90 : '—');
+  document.getElementById('me-preview').innerHTML =
+    '<strong>' + pm.name + '</strong> · ' + selectedMode.charAt(0).toUpperCase() + selectedMode.slice(1) +
+    ' · ' + n + ' questions · ' + t + ' min';
+}
+updatePreview();
+
+/* ── Build question pool ──────────────────────────────── */
+function shuffle(arr) {
+  var a = arr.slice();
+  for (var i = a.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+
+function buildTest() {
+  var pool = DATA.filter(function(q){ return q.paper === selectedPaper; });
+  if (pool.length === 0) pool = DATA; /* fallback: all questions */
+  pool = shuffle(pool);
+  var pm = PAPER_META[selectedPaper];
+  var n  = selectedMode === 'full' ? pm.full : (selectedMode === 'half' ? pm.half : pool.length);
+  testQuestions = pool.slice(0, Math.min(n, pool.length));
+  userAnswers   = {};
+  evalResults   = {};
+  qStatus       = testQuestions.map(function(){ return 'not-attempted'; });
+  currentQ      = 0;
+}
+
+/* ── Start test ───────────────────────────────────────── */
+document.getElementById('me-start-btn').addEventListener('click', startTest);
+
+function startTest() {
+  candidateName = (document.getElementById('me-name-input').value || '').trim() || 'Aspirant';
+  try { localStorage.setItem('bn_exam_name', candidateName); } catch(e){}
+
+  buildTest();
+  if (testQuestions.length === 0) { alert('No questions available for this paper.'); return; }
+
+  var pm   = PAPER_META[selectedPaper];
+  var mins = selectedMode === 'full' ? pm.mins : (selectedMode === 'half' ? 90 : pm.mins);
+  timerSecs = mins * 60;
+
+  document.getElementById('me-setup').style.display    = 'none';
+  document.getElementById('me-test').style.display     = '';
+  document.getElementById('me-footer').style.display   = '';
+  document.getElementById('me-hd-title').textContent   = pm.name + ' — ' + selectedMode.charAt(0).toUpperCase() + selectedMode.slice(1) + ' Mock';
+
+  startTimer();
+  showQuestion(0);
+  window.scrollTo(0, 0);
+  document.body.classList.add('me-exam-active');
+}
+
+/* ── Timer ────────────────────────────────────────────── */
+function startTimer() {
+  updateTimerDisplay();
+  timerInterval = setInterval(function() {
+    timerSecs--;
+    updateTimerDisplay();
+    if (timerSecs <= 0) { clearInterval(timerInterval); submitTest(true); }
+  }, 1000);
+}
+function updateTimerDisplay() {
+  var h = Math.floor(timerSecs / 3600);
+  var m = Math.floor((timerSecs % 3600) / 60);
+  var s = timerSecs % 60;
+  var str = h + ':' + (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s;
+  var el = document.getElementById('me-timer');
+  if (el) { el.textContent = str; el.classList.toggle('warning', timerSecs < 600); }
+  var st = document.getElementById('me-stat-time');
+  if (st) st.textContent = str;
+}
+
+/* ── Show question ────────────────────────────────────── */
+function showQuestion(idx) {
+  if (idx < 0 || idx >= testQuestions.length) return;
+  currentQ = idx;
+
+  /* Save current textarea content before switching */
+  var prev = document.getElementById('me-answer-ta');
+  /* (already saved via blur/input event) */
+
+  var q   = testQuestions[idx];
+  var ans = userAnswers[idx] || '';
+
+  /* Build HTML */
+  var html = '';
+
+  /* Question card */
+  html += '<div class="me-q-card">';
+  html += '<div class="me-q-meta">';
+  html += '<span class="me-q-badge me-q-badge--paper">' + (PAPER_META[q.paper] || {name:q.paper}).name + '</span>';
+  html += '<span class="me-q-badge me-q-badge--marks">' + q.marks + ' marks</span>';
+  if (q.year) html += '<span class="me-q-badge me-q-badge--year">' + q.year + '</span>';
+  if (q.topic) html += '<span class="me-q-badge me-q-badge--topic">' + escH(q.topic) + '</span>';
+  html += '</div>';
+  html += '<p class="me-q-text">' + escH(q.question) + '</p>';
+  html += '<div class="me-q-hint"><strong>Suggested:</strong> ~' + (q.words || Math.round(q.marks * 13)) + ' words &nbsp;|&nbsp; Structure: Introduction → Analysis → Way Forward → Conclusion</div>';
+  html += '</div>';
+
+  /* Answer card */
+  html += '<div class="me-answer-card">';
+  html += '<div class="me-answer-hd">';
+  html += '<span class="me-answer-lbl">Your Answer</span>';
+  html += '<div class="me-answer-tools">';
+  html += '<span class="me-word-count" id="me-wc">0 / ' + (q.words || Math.round(q.marks * 13)) + ' words</span>';
+  html += '<button class="me-voice-btn" id="me-voice-btn" title="Voice typing"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg> Voice</button>';
+  html += '</div></div>';
+  html += '<textarea class="me-answer-textarea" id="me-answer-ta" placeholder="Write your answer here… (voice typing supported)">' + escH(ans) + '</textarea>';
+  html += '</div>';
+
+  /* Eval panel (if already evaluated) */
+  if (evalResults[idx]) {
+    html += renderEvalPanel(evalResults[idx], q.marks);
+  } else if (qStatus[idx] === 'attempted' || qStatus[idx] === 'skipped') {
+    html += '<div class="me-eval" id="me-eval-wrap"><div class="me-eval__hd"><span class="me-eval__lbl">AI Evaluation</span></div><div class="me-eval__body"><div class="me-eval__loading"><div class="me-eval__spinner"></div>Evaluating with Gemini…</div></div></div>';
+    html += renderModelPanel(q, false);
+    requestEval(idx, q, ans);
+  }
+
+  document.getElementById('me-main').innerHTML = html;
+
+  /* Wire textarea */
+  var ta = document.getElementById('me-answer-ta');
+  var wl = q.words || Math.round(q.marks * 13);
+  ta.addEventListener('input', function() {
+    userAnswers[idx] = ta.value;
+    updateWordCount(ta.value, wl);
+  });
+  updateWordCount(ans, wl);
+
+  /* Wire voice button */
+  wireVoice(idx, wl);
+
+  /* Update nav */
+  updateNav(idx);
+  renderPalette();
+}
+
+function updateWordCount(text, limit) {
+  var wc  = document.getElementById('me-wc');
+  if (!wc) return;
+  var cnt = text.trim() ? text.trim().split(/\s+/).length : 0;
+  wc.textContent = cnt + ' / ' + limit + ' words';
+  wc.className = 'me-word-count' + (cnt > limit * 1.15 ? ' over' : (cnt >= limit * 0.85 ? ' good' : ''));
+}
+
+function escH(s) {
+  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+/* ── Voice typing ─────────────────────────────────────── */
+function wireVoice(idx, wl) {
+  var btn = document.getElementById('me-voice-btn');
+  if (!btn) return;
+  var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SpeechRecognition) { btn.style.display = 'none'; return; }
+
+  btn.addEventListener('click', function() {
+    if (isRecording) {
+      voiceRecog && voiceRecog.stop();
+      return;
+    }
+    voiceRecog = new SpeechRecognition();
+    voiceRecog.continuous     = true;
+    voiceRecog.interimResults = true;
+    voiceRecog.lang           = 'en-IN';
+
+    var ta   = document.getElementById('me-answer-ta');
+    var base = ta.value;
+
+    voiceRecog.onresult = function(e) {
+      var interim = '', final = '';
+      for (var i = e.resultIndex; i < e.results.length; i++) {
+        if (e.results[i].isFinal) final += e.results[i][0].transcript;
+        else interim += e.results[i][0].transcript;
+      }
+      if (final) { base += (base ? ' ' : '') + final.trim(); }
+      ta.value = base + (interim ? ' ' + interim : '');
+      userAnswers[idx] = ta.value;
+      updateWordCount(ta.value, wl);
+    };
+    voiceRecog.onend = function() {
+      isRecording = false;
+      btn.classList.remove('recording');
+      btn.innerHTML = '<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg> Voice';
+    };
+    voiceRecog.start();
+    isRecording = true;
+    btn.classList.add('recording');
+    btn.innerHTML = '<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="6" width="12" height="12"/></svg> Stop';
+  });
+}
+
+/* ── Save answer ──────────────────────────────────────── */
+function saveAnswer(idx) {
+  var ta = document.getElementById('me-answer-ta');
+  if (ta) userAnswers[idx] = ta.value;
+  var hasText = (userAnswers[idx] || '').trim().length > 0;
+  if (qStatus[idx] !== 'marked') {
+    qStatus[idx] = hasText ? 'attempted' : 'skipped';
+  }
+  renderPalette();
+}
+
+/* ── Navigation ───────────────────────────────────────── */
+document.getElementById('me-save-btn').addEventListener('click', function() {
+  saveAnswer(currentQ);
+  if (currentQ + 1 < testQuestions.length) showQuestion(currentQ + 1);
+});
+document.getElementById('me-prev-btn').addEventListener('click', function() {
+  saveAnswer(currentQ);
+  if (currentQ > 0) showQuestion(currentQ - 1);
+});
+document.getElementById('me-mark-btn').addEventListener('click', function() {
+  saveAnswer(currentQ);
+  qStatus[currentQ] = 'marked';
+  renderPalette();
+  if (currentQ + 1 < testQuestions.length) showQuestion(currentQ + 1);
+});
+
+function updateNav(idx) {
+  document.getElementById('me-hd-qnum').textContent = 'Q ' + (idx + 1) + ' / ' + testQuestions.length;
+  document.getElementById('me-prog-fill').style.width = ((idx + 1) / testQuestions.length * 100) + '%';
+  var written  = qStatus.filter(function(s){ return s === 'attempted'; }).length;
+  var remain   = testQuestions.length - qStatus.filter(function(s){ return s !== 'not-attempted'; }).length;
+  document.getElementById('me-stat-written').textContent   = written;
+  document.getElementById('me-stat-remaining').textContent = remain;
+}
+
+/* ── Palette ──────────────────────────────────────────── */
+function renderPalette() {
+  var html = '';
+  testQuestions.forEach(function(q, i) {
+    var s   = qStatus[i] || 'not-attempted';
+    var cls = 'me-pal-q me-pal-q--' + s + (i === currentQ ? ' me-pal-q--active' : '');
+    html += '<button class="' + cls + '" data-qi="' + i + '">' + (i + 1) + '</button>';
+  });
+  var el = document.getElementById('me-palette');
+  if (el) {
+    el.innerHTML = html;
+    el.querySelectorAll('.me-pal-q').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        saveAnswer(currentQ);
+        showQuestion(parseInt(btn.dataset.qi, 10));
+      });
+    });
+  }
+}
+
+/* ── AI Evaluation ────────────────────────────────────── */
+function requestEval(idx, q, answer) {
+  if (!EVAL_URL) {
+    showEvalError(idx, 'Evaluation URL not configured.');
+    return;
+  }
+  if (!answer || !answer.trim()) {
+    showEvalError(idx, 'No answer written — nothing to evaluate.');
+    return;
+  }
+  fetch(EVAL_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      question: q.question,
+      answer:   answer,
+      marks:    q.marks,
+      words:    q.words || Math.round(q.marks * 13),
+      paper:    q.paper,
+      model_key_points: (q.model_answer && q.model_answer.key_points) || []
+    })
+  })
+  .then(function(r) { return r.json(); })
+  .then(function(data) {
+    if (data.error) throw new Error(data.error);
+    evalResults[idx] = data;
+    /* If still on same question, re-render eval panel */
+    if (currentQ === idx) {
+      var wrap = document.getElementById('me-eval-wrap');
+      if (wrap) wrap.outerHTML = renderEvalPanel(data, q.marks);
+    }
+  })
+  .catch(function(err) {
+    showEvalError(idx, 'Could not evaluate: ' + err.message);
+  });
+}
+
+function showEvalError(idx, msg) {
+  if (currentQ === idx) {
+    var wrap = document.getElementById('me-eval-wrap');
+    if (wrap) wrap.querySelector('.me-eval__body').innerHTML = '<div class="me-eval__error">⚠ ' + escH(msg) + '</div>';
+  }
+}
+
+function renderEvalPanel(ev, maxMarks) {
+  var pct = Math.round((ev.total / maxMarks) * 100);
+  var barColor = pct >= 70 ? '#16a34a' : (pct >= 50 ? '#ea580c' : '#dc2626');
+  var html = '<div class="me-eval">';
+  html += '<div class="me-eval__hd">';
+  html += '<span class="me-eval__lbl">AI Evaluation</span>';
+  html += '<span class="me-eval__score-badge">' + ev.total + ' / ' + maxMarks + '</span>';
+  html += '</div><div class="me-eval__body">';
+
+  /* Score breakdown grid */
+  html += '<div class="me-score-grid">';
+  var dims = [
+    { key:'content',   label:'Content & Accuracy' },
+    { key:'analysis',  label:'Analytical Depth' },
+    { key:'structure', label:'Structure' },
+    { key:'words',     label:'Word Discipline' }
+  ];
+  dims.forEach(function(d) {
+    var b = ev.breakdown && ev.breakdown[d.key];
+    if (!b) return;
+    var p = Math.round((b.score / b.max) * 100);
+    html += '<div class="me-score-card">';
+    html += '<div class="me-score-card__label">' + d.label + '</div>';
+    html += '<div class="me-score-card__bar-wrap"><div class="me-score-card__bar" style="width:' + p + '%;background:' + (p >= 70 ? '#16a34a' : (p >= 50 ? '#ea580c' : '#dc2626')) + ';"></div></div>';
+    html += '<div class="me-score-card__nums"><span class="me-score-card__val">' + b.score + '</span><span class="me-score-card__max">/ ' + b.max + '</span></div>';
+    if (b.comment) html += '<div class="me-score-card__comment">' + escH(b.comment) + '</div>';
+    html += '</div>';
+  });
+  html += '</div>';
+
+  /* Strengths */
+  if (ev.strengths && ev.strengths.length) {
+    html += '<div class="me-eval__section-title">Strengths</div><ul class="me-eval__list me-eval__list--strengths">';
+    ev.strengths.forEach(function(s){ html += '<li>' + escH(s) + '</li>'; });
+    html += '</ul>';
+  }
+  /* Missing */
+  if (ev.missing && ev.missing.length) {
+    html += '<div class="me-eval__section-title">Key Points Missed</div><ul class="me-eval__list me-eval__list--missing">';
+    ev.missing.forEach(function(s){ html += '<li>' + escH(s) + '</li>'; });
+    html += '</ul>';
+  }
+  /* Examiner note */
+  if (ev.examiner_note) {
+    html += '<div class="me-eval__note">' + escH(ev.examiner_note) + '</div>';
+  }
+
+  html += '</div></div>';
+  return html;
+}
+
+function renderModelPanel(q, open) {
+  if (!q.model_answer) return '';
+  var ma = q.model_answer;
+  var html = '<div class="me-model">';
+  html += '<div class="me-model__hd" onclick="this.nextElementSibling.classList.toggle(\'open\');this.querySelector(\'.me-model__toggle\').textContent=this.nextElementSibling.classList.contains(\'open\')?\'Hide ▲\':\'Show ▼\'">';
+  html += '<span class="me-model__lbl">Model Answer</span>';
+  html += '<span class="me-model__toggle">' + (open ? 'Hide ▲' : 'Show ▼') + '</span>';
+  html += '</div>';
+  html += '<div class="me-model__body' + (open ? ' open' : '') + '">';
+  html += '<div class="me-model__text">' + escH(ma.text || '') + '</div>';
+  if (ma.keywords && ma.keywords.length) {
+    html += '<div class="me-model__kw"><div class="me-model__kw-label">Key Terms</div><div class="me-model__kw-chips">';
+    ma.keywords.forEach(function(k){ html += '<span class="me-model__kw-chip">' + escH(k) + '</span>'; });
+    html += '</div></div>';
+  }
+  html += '</div></div>';
+  return html;
+}
+
+/* ── Submit ───────────────────────────────────────────── */
+document.getElementById('me-submit-btn').addEventListener('click', function(){ submitTest(false); });
+document.getElementById('me-back-btn').addEventListener('click', function() {
+  if (!confirm('Exit test? Progress will be lost.')) return;
+  clearInterval(timerInterval);
+  if (voiceRecog) voiceRecog.stop();
+  document.getElementById('me-test').style.display   = 'none';
+  document.getElementById('me-footer').style.display = 'none';
+  document.getElementById('me-setup').style.display  = '';
+  document.body.classList.remove('me-exam-active');
+  window.scrollTo(0, 0);
+});
+
+function submitTest(auto) {
+  if (!auto && !confirm('Submit paper? Unanswered questions will show as skipped.')) return;
+  saveAnswer(currentQ);
+  clearInterval(timerInterval);
+  if (voiceRecog) voiceRecog.stop();
+  document.body.classList.remove('me-exam-active');
+  showResults();
+}
+
+/* ── Results ──────────────────────────────────────────── */
+function showResults() {
+  document.getElementById('me-test').style.display   = 'none';
+  document.getElementById('me-footer').style.display = 'none';
+  document.getElementById('me-results').style.display = '';
+
+  /* Calculate score from evalResults */
+  var total = 0, maxTotal = 0;
+  testQuestions.forEach(function(q, i){ maxTotal += q.marks; if (evalResults[i]) total += evalResults[i].total || 0; });
+
+  document.getElementById('me-results-score').textContent = evalResults && Object.keys(evalResults).length ? total : '—';
+  document.getElementById('me-results-max').textContent   = 'out of ' + maxTotal;
+
+  /* Question result cards */
+  var html = '';
+  testQuestions.forEach(function(q, i) {
+    var ev  = evalResults[i];
+    var ans = userAnswers[i] || '';
+    html += '<div class="me-q-result-card">';
+    html += '<div class="me-q-result-hd" onclick="var b=this.nextElementSibling;b.classList.toggle(\'open\')">';
+    html += '<span class="me-q-result-num">Q' + (i + 1) + '</span>';
+    html += '<span class="me-q-result-text">' + escH(q.question.slice(0, 100)) + (q.question.length > 100 ? '…' : '') + '</span>';
+    html += '<span class="me-q-result-score">' + (ev ? ev.total + '/' + q.marks : (ans ? '—' : 'Skip')) + '</span>';
+    html += '</div>';
+    html += '<div class="me-q-result-body">';
+    if (ans) {
+      html += '<div style="font-family:var(--font-serif);font-size:0.95rem;line-height:1.75;color:#44403c;background:#faf9f7;border-radius:10px;padding:14px 16px;margin-bottom:var(--space-3);white-space:pre-wrap;">' + escH(ans) + '</div>';
+    } else {
+      html += '<div style="font-size:var(--text-xs);color:#dc2626;margin-bottom:var(--space-3);">Not attempted</div>';
+    }
+    if (ev) html += renderEvalPanel(ev, q.marks);
+    html += renderModelPanel(q, false);
+    html += '</div></div>';
+  });
+  document.getElementById('me-results-list').innerHTML = html;
+  window.scrollTo(0, 0);
+}
+
+/* ── Keyboard shortcuts ───────────────────────────────── */
+document.addEventListener('keydown', function(e) {
+  if (document.getElementById('me-test').style.display === 'none') return;
+  var tag = e.target.tagName;
+  if (tag === 'TEXTAREA') return; /* don't intercept while writing */
+  if (e.key === 'ArrowRight') { document.getElementById('me-save-btn').click(); e.preventDefault(); }
+  if (e.key === 'ArrowLeft')  { document.getElementById('me-prev-btn').click(); e.preventDefault(); }
+  if (e.key === 'm' || e.key === 'M') { document.getElementById('me-mark-btn').click(); e.preventDefault(); }
+});
+</script>
