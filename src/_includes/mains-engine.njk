@@ -227,7 +227,20 @@
 .me-stat-row{display:flex;justify-content:space-between;font-size:var(--text-xs);margin-bottom:4px;}
 .me-stat-val{font-weight:800;color:var(--color-brand);}
 
-/* ── Footer nav ───────────────────────────────────────────── */
+/* ── Inline action row ────────────────────────────────────── */
+.me-action-row{
+  display:flex;align-items:center;gap:8px;
+  margin-top:var(--space-3);flex-wrap:wrap;
+}
+.me-action-spacer{flex:1;}
+.me-btn--eval{
+  background:#ea580c;border-color:#ea580c;color:#fff;
+  padding:9px 20px;font-size:var(--text-sm);
+}
+.me-btn--eval:hover{background:#c2410c;border-color:#c2410c;color:#fff;}
+.me-btn--eval:disabled{opacity:.5;cursor:not-allowed;}
+
+/* ── Footer nav (legacy, kept hidden) ────────────────────── */
 #me-footer{display:none;}
 .me-footer{
   position:sticky;bottom:0;z-index:200;
@@ -653,7 +666,6 @@ function startTest() {
 
   document.getElementById('me-setup').style.display    = 'none';
   document.getElementById('me-test').style.display     = 'block';
-  document.getElementById('me-footer').style.display   = 'block';
   document.getElementById('me-hd-title').textContent   = pm.name + ' — ' + selectedMode.charAt(0).toUpperCase() + selectedMode.slice(1) + ' Mock';
 
   startTimer();
@@ -720,14 +732,26 @@ function showQuestion(idx) {
   html += '<textarea class="me-answer-textarea" id="me-answer-ta" placeholder="Write your answer here… (voice typing supported)">' + escH(ans) + '</textarea>';
   html += '</div>';
 
-  /* Eval panel (if already evaluated) */
+  /* Inline action row */
+  html += '<div class="me-action-row">';
+  html += '<button class="me-btn me-btn--prev" id="me-inline-prev"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg> Prev</button>';
+  html += '<button class="me-btn me-btn--mark" id="me-inline-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Mark</button>';
+  html += '<span class="me-action-spacer"></span>';
+  if (EVAL_URL) {
+    html += '<button class="me-btn me-btn--eval" id="me-inline-eval">✨ Evaluate Answer</button>';
+  }
+  html += '<button class="me-btn me-btn--save" id="me-inline-save">Save &amp; Next <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></button>';
+  html += '</div>';
+
+  /* Eval panel (if already evaluated for this question) */
   if (evalResults[idx]) {
     html += renderEvalPanel(evalResults[idx], q.marks);
-  } else if (qStatus[idx] === 'attempted' || qStatus[idx] === 'skipped') {
-    html += '<div class="me-eval" id="me-eval-wrap"><div class="me-eval__hd"><span class="me-eval__lbl">AI Evaluation</span></div><div class="me-eval__body"><div class="me-eval__loading"><div class="me-eval__spinner"></div>Evaluating with Gemini…</div></div></div>';
-    html += renderModelPanel(q, false);
-    requestEval(idx, q, ans);
+  } else {
+    html += '<div id="me-eval-wrap"></div>';
   }
+
+  /* Model answer panel */
+  html += renderModelPanel(q, false);
 
   document.getElementById('me-main').innerHTML = html;
 
@@ -739,6 +763,41 @@ function showQuestion(idx) {
     updateWordCount(ta.value, wl);
   });
   updateWordCount(ans, wl);
+
+  /* Wire inline action buttons */
+  var btnPrev = document.getElementById('me-inline-prev');
+  var btnMark = document.getElementById('me-inline-mark');
+  var btnSave = document.getElementById('me-inline-save');
+  var btnEval = document.getElementById('me-inline-eval');
+
+  if (btnPrev) btnPrev.addEventListener('click', function() {
+    saveAnswer(currentQ);
+    if (currentQ > 0) showQuestion(currentQ - 1);
+  });
+  if (btnMark) btnMark.addEventListener('click', function() {
+    saveAnswer(currentQ);
+    qStatus[currentQ] = 'marked';
+    renderPalette();
+    if (currentQ + 1 < testQuestions.length) showQuestion(currentQ + 1);
+  });
+  if (btnSave) btnSave.addEventListener('click', function() {
+    saveAnswer(currentQ);
+    if (currentQ + 1 < testQuestions.length) showQuestion(currentQ + 1);
+  });
+  if (btnEval) btnEval.addEventListener('click', function() {
+    var curTa = document.getElementById('me-answer-ta');
+    if (curTa) userAnswers[idx] = curTa.value;
+    var curAns = (userAnswers[idx] || '').trim();
+    if (!curAns) { alert('Please write an answer first.'); return; }
+    btnEval.disabled = true;
+    btnEval.textContent = 'Evaluating…';
+    saveAnswer(idx);
+    var wrap = document.getElementById('me-eval-wrap');
+    if (wrap) {
+      wrap.outerHTML = '<div class="me-eval" id="me-eval-wrap"><div class="me-eval__hd"><span class="me-eval__lbl">AI Evaluation</span></div><div class="me-eval__body"><div class="me-eval__loading"><div class="me-eval__spinner"></div>Sending to AI — this may take 10–15 s…</div></div></div>';
+    }
+    requestEval(idx, testQuestions[idx], curAns);
+  });
 
   /* Wire voice button */
   wireVoice(idx, wl);
@@ -881,21 +940,7 @@ function saveAnswer(idx) {
   renderPalette();
 }
 
-/* ── Navigation ───────────────────────────────────────── */
-document.getElementById('me-save-btn').addEventListener('click', function() {
-  saveAnswer(currentQ);
-  if (currentQ + 1 < testQuestions.length) showQuestion(currentQ + 1);
-});
-document.getElementById('me-prev-btn').addEventListener('click', function() {
-  saveAnswer(currentQ);
-  if (currentQ > 0) showQuestion(currentQ - 1);
-});
-document.getElementById('me-mark-btn').addEventListener('click', function() {
-  saveAnswer(currentQ);
-  qStatus[currentQ] = 'marked';
-  renderPalette();
-  if (currentQ + 1 < testQuestions.length) showQuestion(currentQ + 1);
-});
+/* Navigation handled by inline action row buttons in showQuestion() */
 
 function updateNav(idx) {
   document.getElementById('me-hd-qnum').textContent = 'Q ' + (idx + 1) + ' / ' + testQuestions.length;
@@ -1105,8 +1150,8 @@ document.addEventListener('keydown', function(e) {
   if (document.getElementById('me-test').style.display === 'none') return;
   var tag = e.target.tagName;
   if (tag === 'TEXTAREA') return; /* don't intercept while writing */
-  if (e.key === 'ArrowRight') { document.getElementById('me-save-btn').click(); e.preventDefault(); }
-  if (e.key === 'ArrowLeft')  { document.getElementById('me-prev-btn').click(); e.preventDefault(); }
-  if (e.key === 'm' || e.key === 'M') { document.getElementById('me-mark-btn').click(); e.preventDefault(); }
+  if (e.key === 'ArrowRight') { var s=document.getElementById('me-inline-save'); if(s) s.click(); e.preventDefault(); }
+  if (e.key === 'ArrowLeft')  { var p=document.getElementById('me-inline-prev'); if(p) p.click(); e.preventDefault(); }
+  if (e.key === 'm' || e.key === 'M') { var mk=document.getElementById('me-inline-mark'); if(mk) mk.click(); e.preventDefault(); }
 });
 </script>
