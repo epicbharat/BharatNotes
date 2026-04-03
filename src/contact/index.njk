@@ -133,7 +133,7 @@ description: "Get in touch with the BharatNotes team — feedback, suggestions, 
   transition: background .15s, transform .1s;
   box-shadow: 0 4px 16px rgba(34,158,217,.35);
 }
-.cp-tg__btn:hover { background: #1a8abf; transform: translateY(-1px); }
+.cp-tg__btn:hover { background: #d4a017; transform: translateY(-1px); }
 
 /* Reach out list */
 .cp-list {
@@ -374,6 +374,13 @@ description: "Get in touch with the BharatNotes team — feedback, suggestions, 
         </div>
       </div>
       <div class="cf-row">
+        <label class="cf-label" for="cf-whatsapp">WhatsApp Number <span style="font-weight:500;text-transform:none;letter-spacing:0;color:#9ca3af;">(optional — for quicker replies)</span></label>
+        <div style="position:relative;">
+          <span style="position:absolute;left:14px;top:50%;transform:translateY(-50%);font-size:0.875rem;color:#6b7280;pointer-events:none;">+91</span>
+          <input class="cf-input" id="cf-whatsapp" type="tel" placeholder="98765 43210" maxlength="15" autocomplete="tel" style="padding-left:42px;">
+        </div>
+      </div>
+      <div class="cf-row">
         <label class="cf-label" for="cf-subject">Subject</label>
         <select class="cf-select" id="cf-subject">
           <option value="General Enquiry">General Enquiry</option>
@@ -420,10 +427,11 @@ description: "Get in touch with the BharatNotes team — feedback, suggestions, 
     e.preventDefault();
     var btn     = document.getElementById('cf-submit-btn');
     var errEl   = document.getElementById('cf-error');
-    var name    = document.getElementById('cf-name').value.trim();
-    var email   = document.getElementById('cf-email').value.trim();
-    var subject = document.getElementById('cf-subject').value;
-    var message = ta.value.trim();
+    var name      = document.getElementById('cf-name').value.trim();
+    var email     = document.getElementById('cf-email').value.trim();
+    var subject   = document.getElementById('cf-subject').value;
+    var message   = ta.value.trim();
+    var whatsapp  = document.getElementById('cf-whatsapp').value.trim();
 
     errEl.style.display = 'none';
     if (!name || !email || !message) {
@@ -443,7 +451,7 @@ description: "Get in touch with the BharatNotes team — feedback, suggestions, 
     fetch(RELAY_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, email, subject, message })
+      body: JSON.stringify({ name, email, subject, message, whatsapp: whatsapp || null })
     })
     .then(function(r){ return r.json(); })
     .then(function(data){

@@ -30,7 +30,7 @@ export default {
       return new Response(JSON.stringify({ error: 'Invalid JSON' }), { status: 400, headers: corsHeaders });
     }
 
-    const { name, email, subject, message } = body;
+    const { name, email, subject, message, whatsapp } = body;
 
     if (!name || !email || !message) {
       return new Response(JSON.stringify({ error: 'Name, email and message are required.' }), { status: 400, headers: corsHeaders });
@@ -42,7 +42,8 @@ export default {
     }
 
     const subjectLine = subject ? `📌 *${esc(subject)}*` : '📌 *General Enquiry*';
-    const text = `🔔 *New BharatNotes Contact*\n\n${subjectLine}\n\n👤 *Name:* ${esc(name)}\n📧 *Email:* ${esc(email)}\n\n💬 *Message:*\n${esc(message)}`;
+    const waLine = whatsapp ? `\n📱 *WhatsApp:* ${esc(whatsapp)}` : '';
+    const text = `🔔 *New BharatNotes Contact*\n\n${subjectLine}\n\n👤 *Name:* ${esc(name)}\n📧 *Email:* ${esc(email)}${waLine}\n\n💬 *Message:*\n${esc(message)}`;
 
     try {
       const tgRes = await fetch(`https://api.telegram.org/bot${env.TG_BOT_TOKEN}/sendMessage`, {
