@@ -315,6 +315,25 @@
   font-family:var(--font-serif);font-size:1.05rem;line-height:1.85;color:#1c1917;
   white-space:pre-wrap;
 }
+/* Markdown rendering inside model answer */
+.me-model__text{ font-size:1rem;line-height:1.8;color:#1c1917; }
+.me-model__text .me-md-heading{
+  font-family:var(--font-body);font-size:0.72rem;font-weight:800;
+  text-transform:uppercase;letter-spacing:.06em;color:#ea580c;
+  margin:var(--space-3) 0 var(--space-1);
+}
+.me-model__text .me-md-p{
+  font-family:var(--font-serif);font-size:1.05rem;line-height:1.85;
+  margin:0 0 var(--space-2);color:#292524;
+}
+.me-model__text .me-md-list{
+  margin:var(--space-1) 0 var(--space-3) var(--space-5);
+  font-family:var(--font-serif);font-size:1.02rem;line-height:1.75;color:#292524;
+}
+.me-model__text .me-md-list li{ margin-bottom:4px; }
+.me-model__text strong{ font-weight:800;color:#1c1917; }
+.me-model__text em{ font-style:italic;color:#44403c; }
+.me-model__text code{ font-family:var(--font-mono);font-size:0.88em;background:#f3f0eb;padding:1px 5px;border-radius:4px; }
 .me-model__kw{margin-top:var(--space-3);}
 .me-model__kw-label{font-size:0.62rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--color-text-muted);margin-bottom:var(--space-2);}
 .me-model__kw-chips{display:flex;flex-wrap:wrap;gap:6px;}
@@ -741,6 +760,73 @@ function escH(s) {
   return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
+/* Lightweight markdown renderer for model answer text.
+   Handles: **bold**, headings (line starting with **X**:), bullet lists (- item), numbered lists (1. item) */
+function renderMd(s) {
+  if (!s) return '';
+  var lines = String(s).split('\n');
+  var html  = '';
+  var inList = false, listType = '';
+
+  lines.forEach(function(raw) {
+    var line = raw;
+
+    /* Close open list if line isn't a list item */
+    var isBullet   = /^\s*[-•]\s+/.test(line);
+    var isNumbered = /^\s*\d+\.\s+/.test(line);
+
+    if (inList && !isBullet && !isNumbered) {
+      html += listType === 'ul' ? '</ul>' : '</ol>';
+      inList = false; listType = '';
+    }
+
+    /* Section heading: line is entirely **Text**: or **Text** */
+    if (/^\s*\*\*[^*]+\*\*[:\s]*$/.test(line.trim())) {
+      var heading = line.trim().replace(/\*\*/g, '').replace(/:$/, '');
+      html += '<p class="me-md-heading">' + escH(heading) + '</p>';
+      return;
+    }
+
+    /* Bullet list */
+    if (isBullet) {
+      if (!inList) { html += '<ul class="me-md-list">'; inList = true; listType = 'ul'; }
+      var content = line.replace(/^\s*[-•]\s+/, '');
+      html += '<li>' + inlineMd(content) + '</li>';
+      return;
+    }
+
+    /* Numbered list */
+    if (isNumbered) {
+      if (!inList || listType !== 'ol') {
+        if (inList) html += '</ul>';
+        html += '<ol class="me-md-list">'; inList = true; listType = 'ol';
+      }
+      var ncontent = line.replace(/^\s*\d+\.\s+/, '');
+      html += '<li>' + inlineMd(ncontent) + '</li>';
+      return;
+    }
+
+    /* Empty line */
+    if (!line.trim()) { html += '<br>'; return; }
+
+    /* Normal paragraph line */
+    html += '<p class="me-md-p">' + inlineMd(line) + '</p>';
+  });
+
+  if (inList) html += listType === 'ul' ? '</ul>' : '</ol>';
+  return html;
+}
+
+function inlineMd(s) {
+  return escH(s)
+    /* **bold** */
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    /* *italic* */
+    .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+    /* `code` */
+    .replace(/`([^`]+)`/g, '<code>$1</code>');
+}
+
 /* ── Voice typing ─────────────────────────────────────── */
 function wireVoice(idx, wl) {
   var btn = document.getElementById('me-voice-btn');
@@ -944,7 +1030,7 @@ function renderModelPanel(q, open) {
   html += '<span class="me-model__toggle">' + (open ? 'Hide ▲' : 'Show ▼') + '</span>';
   html += '</div>';
   html += '<div class="me-model__body' + (open ? ' open' : '') + '">';
-  html += '<div class="me-model__text">' + escH(ma.text || '') + '</div>';
+  html += '<div class="me-model__text">' + renderMd(ma.text || '') + '</div>';
   if (ma.keywords && ma.keywords.length) {
     html += '<div class="me-model__kw"><div class="me-model__kw-label">Key Terms</div><div class="me-model__kw-chips">';
     ma.keywords.forEach(function(k){ html += '<span class="me-model__kw-chip">' + escH(k) + '</span>'; });
