@@ -1891,6 +1891,45 @@ document.getElementById('ee-clear-btn').addEventListener('click', function() {
   renderPalette();
 });
 
+/* ══ Keyboard shortcuts ════════════════════════════════════════ */
+document.addEventListener('keydown', function(e) {
+  /* Only active while test is visible; ignore when typing in inputs */
+  var test = document.getElementById('ee-test');
+  if (!test || test.style.display === 'none') return;
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  /* Don't fire if a modal/popover is open */
+  if (document.getElementById('ee-instr-overlay').style.display !== 'none') return;
+
+  switch (e.key) {
+    case '1': case '2': case '3': case '4':
+      /* Select option A/B/C/D */
+      var oi = parseInt(e.key, 10) - 1;
+      var opts = document.querySelectorAll('.ee-opt');
+      if (opts[oi]) { opts[oi].click(); e.preventDefault(); }
+      break;
+    case 'ArrowRight':
+      /* Save & Next */
+      document.getElementById('ee-save-btn').click();
+      e.preventDefault();
+      break;
+    case 'ArrowLeft':
+      /* Previous */
+      document.getElementById('ee-prev-btn').click();
+      e.preventDefault();
+      break;
+    case 'm': case 'M':
+      /* Mark / Unmark for review */
+      document.getElementById('ee-mark-btn').click();
+      e.preventDefault();
+      break;
+    case 'c': case 'C':
+      /* Clear response */
+      document.getElementById('ee-clear-btn').click();
+      e.preventDefault();
+      break;
+  }
+});
+
 /* ══ Palette ═══════════════════════════════════════════════════ */
 function renderPalette() {
   var html = '';
