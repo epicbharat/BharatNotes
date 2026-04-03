@@ -149,6 +149,7 @@ description: "A step-by-step guide to using BharatNotes and Ujiyari together for
 
 /* ── Main content ─────────────────────────────────────────── */
 .guide-content { min-width: 0; }
+/* article-body class needed by pdf.js for content extraction */
 
 /* Section */
 .guide-section {
@@ -577,9 +578,9 @@ description: "A step-by-step guide to using BharatNotes and Ujiyari together for
         </ul>
 
         <div class="guide-actions">
-          <button class="guide-action-btn" onclick="window.print()">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
-            Print / Save PDF
+          <button class="guide-action-btn" id="btn-download-pdf">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download PDF
           </button>
           <button class="guide-action-btn" id="guide-share-btn" onclick="guideShare()">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
@@ -594,8 +595,11 @@ description: "A step-by-step guide to using BharatNotes and Ujiyari together for
 
       </div><!-- /guide-sidebar -->
 
+      <!-- Hidden title for pdf.js extraction -->
+      <h1 class="page-header__title" style="display:none;">How to Use BharatNotes &amp; Ujiyari — Complete Guide</h1>
+
       <!-- Content -->
-      <div class="guide-content">
+      <div class="guide-content article-body">
 
         <!-- ① Overview -->
         <section class="guide-section" id="overview">
