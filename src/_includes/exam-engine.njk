@@ -40,6 +40,26 @@
   font-size:var(--text-xs);color:rgba(255,255,255,.55);
 }
 .ee-hero__meta-item svg{color:rgba(255,255,255,.35);}
+.ee-hero__links{
+  display:flex;gap:10px;flex-wrap:wrap;margin-top:var(--space-5);
+}
+.ee-hero__link{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.13);
+  border-radius:10px;padding:9px 14px;
+  font-size:var(--text-xs);font-weight:600;color:rgba(255,255,255,.85);
+  text-decoration:none;cursor:pointer;transition:background .18s,border-color .18s;
+  flex-shrink:0;
+}
+.ee-hero__link:hover{ background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.25);color:#fff; }
+.ee-hero__link svg{ flex-shrink:0;color:rgba(255,255,255,.5); }
+.ee-hero__link-badge{
+  font-size:0.6rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;
+  padding:2px 7px;border-radius:100px;
+}
+.ee-hero__link-badge--official{ background:rgba(20,185,130,.22);color:#6ee7b7;border:1px solid rgba(52,211,153,.3); }
+.ee-hero__link-badge--soon{ background:rgba(255,255,255,.1);color:rgba(255,255,255,.45);border:1px solid rgba(255,255,255,.15); }
+.ee-hero__link--disabled{ opacity:.6;pointer-events:none; }
 
 /* ── Setup body ─────────────────────────────────────────────── */
 .ee-setup-body{background:var(--color-bg,#f5f5f0);padding:var(--space-8) 0 var(--space-16);}
@@ -898,6 +918,18 @@ body.ee-exam-active .ee-exit{ border-color:rgba(255,255,255,.4);color:#fff; }
           <span class="ee-hero__meta-item">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
             Official PYQs, verified
+          </span>
+        </div>
+        <div class="ee-hero__links">
+          <a class="ee-hero__link" href="/quiz/">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Practice PYQs
+            <span class="ee-hero__link-badge ee-hero__link-badge--official">Official</span>
+          </a>
+          <span class="ee-hero__link ee-hero__link--disabled">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            Prelims Practice
+            <span class="ee-hero__link-badge ee-hero__link-badge--soon">Soon</span>
           </span>
         </div>
       </div>
