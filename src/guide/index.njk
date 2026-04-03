@@ -90,10 +90,16 @@ description: "A step-by-step guide to using BharatNotes and Ujiyari together for
   align-items: start;
 }
 
-/* ── TOC Sidebar ──────────────────────────────────────────── */
-.guide-toc {
+/* ── Sidebar wrapper (single grid child = col 1) ─────────── */
+.guide-sidebar {
+  align-self: start;
   position: sticky;
   top: 72px;
+}
+
+/* ── TOC ──────────────────────────────────────────────────── */
+.guide-toc {
+  position: static; /* sticky handled by .guide-sidebar */
   background: #fff;
   border: 1px solid #e5e7eb;
   border-radius: 14px;
@@ -494,7 +500,7 @@ description: "A step-by-step guide to using BharatNotes and Ujiyari together for
 /* Mobile */
 @media (max-width: 960px) {
   .guide-layout { grid-template-columns: 1fr; }
-  .guide-toc { position: static; }
+  .guide-sidebar { position: static; }
   .guide-split { grid-template-columns: 1fr; }
 }
 @media (max-width: 600px) {
@@ -528,7 +534,9 @@ description: "A step-by-step guide to using BharatNotes and Ujiyari together for
   <div class="container">
     <div class="guide-layout">
 
-      <!-- Author card -->
+      <!-- Sidebar: author card + TOC (must be ONE grid child) -->
+      <div class="guide-sidebar">
+
       <div class="ncert-author-card" style="margin-bottom:var(--space-4);">
         <div class="ncert-author-card__header">
           <img class="ncert-author-card__photo" src="/img/bharat-choudhary.png" alt="Bharat Choudhary" loading="lazy">
@@ -583,6 +591,8 @@ description: "A step-by-step guide to using BharatNotes and Ujiyari together for
           </a>
         </div>
       </nav>
+
+      </div><!-- /guide-sidebar -->
 
       <!-- Content -->
       <div class="guide-content">
