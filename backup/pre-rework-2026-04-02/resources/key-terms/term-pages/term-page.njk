@@ -1,0 +1,208 @@
+---
+pagination:
+  data: vocabIndex.terms
+  size: 1
+  alias: term
+permalink: "/resources/key-terms/{{ term.pageSlug }}/"
+layout: base.njk
+eleventyComputed:
+  title: "{{ term.term }} — UPSC Key Term | BharatNotes"
+  description: "{{ term.definition | truncate(155, true) }}"
+---
+
+{%- set subjectName = term.subject -%}
+{%- set subjectIcon = "" -%}
+{%- set subjectColor = "#0f4c3a" -%}
+{%- for s in subjects -%}{%- if s.slug == term.subject -%}{%- set subjectName = s.name -%}{%- set subjectIcon = s.icon -%}{%- set subjectColor = s.color -%}{%- endif -%}{%- endfor -%}
+
+<style>
+.tp-bg{background:linear-gradient(180deg,rgba(30,41,59,0.03) 0%,var(--color-bg) 500px);min-height:100vh;padding:var(--space-8) 0}
+.tp-breadcrumb{margin-bottom:var(--space-5)}
+.tp-breadcrumb a{color:var(--color-text-muted);text-decoration:none;font-size:var(--text-xs)}
+.tp-breadcrumb a:hover{color:var(--color-brand)}
+.tp-breadcrumb span{color:var(--color-border);margin:0 6px;font-size:var(--text-xs)}
+
+/* ── Gist Card (reusable key term summary) ── */
+.tp-gist{background:#fff;border:1.5px solid var(--color-border);border-radius:var(--radius-xl,16px);padding:var(--space-6);margin-bottom:var(--space-6);box-shadow:0 2px 8px rgba(0,0,0,0.04);border-top:4px solid var(--tp-color,var(--color-brand))}
+.tp-gist__meta{display:flex;align-items:center;flex-wrap:wrap;gap:var(--space-2);margin-bottom:var(--space-3)}
+.tp-gist__tag{padding:4px 14px;border-radius:var(--radius-full,999px);font-size:var(--text-xs);font-weight:600}
+.tp-gist__title{font-family:var(--font-heading);font-size:clamp(1.5rem,4vw,2rem);font-weight:800;color:var(--color-text);margin:0 0 var(--space-2);line-height:1.25;letter-spacing:-0.02em}
+.tp-gist__pron{font-family:monospace;font-size:var(--text-xs);color:var(--color-text-muted);background:rgba(0,0,0,0.04);padding:3px 12px;border-radius:var(--radius-full,999px);display:inline-block;margin-bottom:var(--space-4)}
+.tp-gist__def{font-size:var(--text-base);line-height:1.85;color:var(--color-text);margin:0;padding-top:var(--space-4);border-top:1px solid var(--color-border);text-align:justify;hyphens:auto}
+
+/* ── Article Layout ── */
+.tp-layout{display:grid;grid-template-columns:1fr 320px;gap:var(--space-8);align-items:start}
+
+.tp-article{background:#fff;border:1.5px solid var(--color-border);border-radius:var(--radius-xl,16px);padding:var(--space-6);box-shadow:0 2px 8px rgba(0,0,0,0.04);margin-bottom:var(--space-6)}
+.tp-article__section{margin-bottom:var(--space-6)}
+.tp-article__heading{font-family:var(--font-body);font-size:var(--text-sm);font-weight:700;color:var(--color-text);margin:0 0 var(--space-4);padding-bottom:var(--space-2);border-bottom:2px solid var(--color-border);display:flex;align-items:center;gap:var(--space-2)}
+.tp-article__heading svg{flex-shrink:0}
+.tp-article__body{font-size:var(--text-sm);line-height:1.9;color:var(--color-text-secondary);text-align:justify;hyphens:auto}
+
+.tp-article__upsc{padding:var(--space-5) var(--space-6);background:linear-gradient(135deg,rgba(212,160,23,0.05) 0%,rgba(15,76,58,0.02) 100%);border:1px solid rgba(212,160,23,0.12);border-radius:var(--radius-lg);margin-bottom:var(--space-6)}
+.tp-article__upsc-heading{font-size:var(--text-sm);font-weight:700;color:var(--color-accent-hover);margin:0 0 var(--space-4);padding-bottom:var(--space-2);border-bottom:1px solid rgba(212,160,23,0.15);display:flex;align-items:center;gap:var(--space-2)}
+.tp-article__upsc-heading::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--color-accent);flex-shrink:0}
+.tp-article__upsc-body{font-size:var(--text-sm);line-height:1.9;color:var(--color-text-secondary);text-align:justify;hyphens:auto}
+
+/* ── Sidebar (fixed small sizes — independent of type scale) ── */
+.tp-sidebar{position:sticky;top:var(--space-6);font-size:0.8125rem}
+.tp-sb{background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:var(--space-3) var(--space-4);margin-bottom:var(--space-3);box-shadow:0 1px 3px rgba(0,0,0,0.03)}
+.tp-sb__title{font-size:0.65rem;font-weight:700;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:0.06em;margin:0 0 var(--space-2);padding-bottom:var(--space-2);border-bottom:1px solid var(--color-border)}
+.tp-sb__row{display:flex;justify-content:space-between;align-items:center;padding:5px 0;font-size:0.75rem}
+.tp-sb__row+.tp-sb__row{border-top:1px solid rgba(0,0,0,0.04)}
+.tp-sb__label{color:var(--color-text-muted);font-size:0.7rem}
+.tp-sb__value{color:var(--color-text);font-weight:600;font-size:0.75rem}
+
+.tp-chapter-link{display:flex;align-items:center;gap:var(--space-3);padding:var(--space-3);background:#fff;border:1.5px solid var(--color-border);border-radius:var(--radius-lg);text-decoration:none;color:inherit;transition:all 0.2s;margin-bottom:var(--space-3);box-shadow:0 1px 3px rgba(0,0,0,0.03)}
+.tp-chapter-link:hover{border-color:var(--tp-color);box-shadow:0 4px 12px rgba(0,0,0,0.06);transform:translateY(-1px)}
+.tp-chapter-link__icon{width:36px;height:36px;border-radius:var(--radius-md);background:color-mix(in srgb,var(--tp-color) 10%,#fff);display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0}
+.tp-chapter-link__text{flex:1}
+.tp-chapter-link__label{font-size:0.6rem;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:0.04em;margin:0 0 1px}
+.tp-chapter-link__name{font-size:0.75rem;font-weight:600;color:var(--color-text);margin:0;line-height:1.3}
+
+.tp-actions{display:flex;flex-direction:column;gap:var(--space-2);margin-bottom:var(--space-3)}
+.tp-act{display:flex;align-items:center;gap:var(--space-2);padding:8px var(--space-3);border:1.5px solid var(--color-border);border-radius:var(--radius-md);font-size:0.75rem;font-weight:600;text-decoration:none;color:var(--color-text);transition:all 0.15s;background:#fff}
+.tp-act:hover{border-color:var(--color-brand);color:var(--color-brand)}
+.tp-act--fill{background:var(--color-brand);color:#fff;border-color:var(--color-brand)}
+.tp-act--fill:hover{background:var(--color-brand-dark);color:#fff}
+
+.tp-tools{background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:var(--space-3);box-shadow:0 1px 3px rgba(0,0,0,0.03)}
+.tp-tools__title{font-size:0.65rem;font-weight:700;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:0.05em;margin:0 0 var(--space-2)}
+.tp-tools__grid{display:grid;grid-template-columns:1fr 1fr;gap:2px}
+.tp-tools__item{display:flex;align-items:center;gap:4px;padding:5px 6px;border-radius:var(--radius-sm);font-size:0.65rem;font-weight:600;color:var(--color-text-muted);text-decoration:none;transition:all 0.1s}
+.tp-tools__item:hover{background:rgba(30,41,59,0.04);color:var(--color-brand)}
+
+.tp-footer{display:flex;justify-content:space-between;padding-top:var(--space-5);border-top:1px solid var(--color-border);margin-top:var(--space-6)}
+.tp-footer a{font-size:var(--text-sm);color:var(--color-brand);text-decoration:none;font-weight:600}
+.tp-footer a:hover{text-decoration:underline}
+
+@media(max-width:768px){.tp-layout{grid-template-columns:1fr}.tp-sidebar{position:static}}
+@media(max-width:480px){.tp-gist{padding:var(--space-4)}.tp-gist__title{font-size:var(--text-xl)}}
+</style>
+
+<div class="tp-bg">
+  <div class="container">
+    <div style="--tp-color:{{ subjectColor }};">
+
+      {# ── Breadcrumb ── #}
+      <nav class="tp-breadcrumb">
+        <a href="/">Home</a><span>/</span>
+        <a href="/resources/key-terms/">Key Terms</a><span>/</span>
+        <a href="/subjects/{{ term.subject }}/">{{ subjectName }}</a><span>/</span>
+        {{ term.term }}
+      </nav>
+
+      {# ══════════════════════════════════════
+         GIST CARD — Quick reference summary
+         ══════════════════════════════════════ #}
+      <div class="tp-gist">
+        <div class="tp-gist__meta">
+          {%- for gp in term.gs_papers %}<span class="gs-badge gs-badge--{{ gp }}">{{ gp | upper }}</span>{% endfor %}
+          <span class="tp-gist__tag" style="background:color-mix(in srgb,{{ subjectColor }} 12%,transparent);color:{{ subjectColor }};">{{ subjectIcon }} {{ subjectName }}</span>
+        </div>
+        <h1 class="tp-gist__title">{{ term.term }}</h1>
+        {% if term.pronunciation %}<span class="tp-gist__pron">{{ term.pronunciation }}</span>{% endif %}
+        <div class="tp-gist__def">{{ term.definition | md | safe }}</div>
+      </div>
+
+      {# ══════════════════════════════════════
+         ARTICLE — Full content + Sidebar
+         ══════════════════════════════════════ #}
+      <div class="tp-layout">
+
+        {# ── Main Article ── #}
+        <div class="tp-article">
+
+          {# Check if a dedicated article exists for this term #}
+          {%- set article = termArticles[term.slug] -%}
+
+          {% if article %}
+            {# Full article mode — render rich content #}
+            <div class="tp-article-content article-body">
+              {{ article.html | safe }}
+            </div>
+          {% else %}
+            {# Fallback — render the 3 fields #}
+            {% if term.origin %}
+            <div class="tp-article__section">
+              <h2 class="tp-article__heading">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                Context & Background
+              </h2>
+              <div class="tp-article__body">{{ term.origin | md | safe }}</div>
+            </div>
+            {% endif %}
+
+            {% if term.upsc %}
+            <div class="tp-article__upsc">
+              <h2 class="tp-article__upsc-heading">UPSC Exam Relevance</h2>
+              <div class="tp-article__upsc-body">{{ term.upsc | md | safe }}</div>
+            </div>
+            {% endif %}
+          {% endif %}
+
+        </div>
+
+        {# ── Sidebar ── #}
+        <aside class="tp-sidebar">
+
+          <div class="tp-sb">
+            <h3 class="tp-sb__title">Quick Reference</h3>
+            <div class="tp-sb__row"><span class="tp-sb__label">Subject</span><span class="tp-sb__value" style="color:{{ subjectColor }};">{{ subjectIcon }} {{ subjectName }}</span></div>
+            <div class="tp-sb__row"><span class="tp-sb__label">GS Paper</span><span class="tp-sb__value">{%- for gp in term.gs_papers %}{{ gp | upper }}{% if not loop.last %}, {% endif %}{% endfor %}</span></div>
+            <div class="tp-sb__row"><span class="tp-sb__label">Exam</span><span class="tp-sb__value">Prelims + Mains</span></div>
+          </div>
+
+          <a href="{{ term.topicUrl }}" class="tp-chapter-link">
+            <div class="tp-chapter-link__icon">{{ subjectIcon }}</div>
+            <div class="tp-chapter-link__text">
+              <p class="tp-chapter-link__label">Source Chapter</p>
+              <p class="tp-chapter-link__name">{{ term.topicTitle | truncate(45, true) }}</p>
+            </div>
+            <span style="color:var(--tp-color);font-size:var(--text-lg);">&rarr;</span>
+          </a>
+
+          <div class="tp-actions">
+            <a href="{{ term.topicUrl }}" class="tp-act tp-act--fill">📖 Read Full Chapter</a>
+            <a href="/subjects/{{ term.subject }}/" class="tp-act">{{ subjectIcon }} All {{ subjectName }}</a>
+            <a href="/resources/key-terms/" class="tp-act">📋 Browse All Terms</a>
+          </div>
+
+          {# Current Affairs #}
+          <div class="tp-sb">
+            <h3 class="tp-sb__title">Current Affairs</h3>
+            <div class="tp-sb__row">
+              <a href="https://ujiyari.com/subjects/{{ term.subject }}/" target="_blank" rel="noopener" style="color:var(--color-brand);text-decoration:none;font-weight:600;font-size:var(--text-xs);">Latest {{ subjectName }} news &rarr;</a>
+            </div>
+            <div class="tp-sb__row">
+              <a href="https://ujiyari.com/editorial/" target="_blank" rel="noopener" style="color:var(--color-brand);text-decoration:none;font-weight:600;font-size:var(--text-xs);">Related editorials &rarr;</a>
+            </div>
+          </div>
+
+          {# Study Tools #}
+          <div class="tp-tools">
+            <h3 class="tp-tools__title">Prepare</h3>
+            <div class="tp-tools__grid">
+              <a href="/upsc-checklist/" class="tp-tools__item">📋 Checklist</a>
+              <a href="/study-kit/" class="tp-tools__item">📦 Study Kit</a>
+              <a href="/pyq/" class="tp-tools__item">📊 PYQ Analysis</a>
+              <a href="/resources/vocab-builder/" class="tp-tools__item">📚 Vocab</a>
+              <a href="/prelims/" class="tp-tools__item">📝 Prelims Hub</a>
+              <a href="/mains/" class="tp-tools__item">✍️ Mains Hub</a>
+              <a href="/tracker/" class="tp-tools__item">📈 Tracker</a>
+              <a href="/start-here/" class="tp-tools__item">🚀 Start Here</a>
+            </div>
+          </div>
+
+        </aside>
+      </div>
+
+      {# ── Footer Nav ── #}
+      <div class="tp-footer">
+        <a href="/resources/key-terms/">&larr; All Key Terms</a>
+        <a href="/upsc-checklist/">Syllabus Checklist &rarr;</a>
+      </div>
+
+    </div>
+  </div>
+</div>

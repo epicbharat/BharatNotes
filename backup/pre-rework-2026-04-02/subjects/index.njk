@@ -1,0 +1,43 @@
+---
+layout: base.njk
+title: "All Subjects"
+description: "Browse UPSC GS subjects — Polity, Economy, Geography, History, Environment, Science, IR, Society, Ethics, Security. Foundation to Mains depth."
+---
+
+<section class="page-header">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Home</a><span class="breadcrumb__sep">/</span>
+      Subjects
+    </nav>
+    <p class="page-header__eyebrow">Study by Subject</p>
+    <h1 class="page-header__title">Choose Your Subject</h1>
+    <p class="page-header__subtitle">Each subject has notes at three depth levels — Foundation, Prelims, and Mains. Start anywhere based on your preparation stage.</p>
+  </div>
+</section>
+
+<section style="padding:var(--space-8) 0;">
+  <div class="container">
+    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:var(--space-6);">
+      {% for subj in subjects %}
+      <a href="/subjects/{{ subj.slug }}/" class="card" style="text-decoration:none; border-left:4px solid {{ subj.color }};">
+        <div style="display:flex; align-items:center; gap:var(--space-3); margin-bottom:var(--space-3);">
+          <span style="font-size:2rem;">{{ subj.icon }}</span>
+          <div>
+            <h3 style="font-family:var(--font-body); font-size:var(--text-base); font-weight:var(--font-semibold); color:{{ subj.color }};">{{ subj.name }}</h3>
+            <div style="margin-top:2px;">
+              {% for paper in subj.gs_papers %}
+              <span class="gs-badge gs-badge--{{ paper }}" style="font-size:0.6rem;">{{ paper | upper }}</span>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        <p class="card__desc">{{ subj.description }}</p>
+        <div style="margin-top:var(--space-3); font-size:var(--text-xs); color:var(--color-text-muted);">
+          {{ collections.allTopics | countBySubject(subj.slug) }} topics available
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

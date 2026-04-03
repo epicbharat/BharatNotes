@@ -1,0 +1,750 @@
+/* ═══════════════════════════════════════════════════════════════
+   BHARATNOTES — NCERT Section Styles
+   Distinct academic-blue scheme, separate from GS topic pages
+═══════════════════════════════════════════════════════════════ */
+
+/* ── NCERT Color Tokens ──────────────────────────────────────── */
+:root {
+  --ncert-blue:         #1d4ed8;
+  --ncert-blue-dark:    #1e40af;
+  --ncert-blue-mid:     #2563eb;
+  --ncert-blue-pale:    #eff6ff;
+  --ncert-blue-border:  #bfdbfe;
+
+  --ncert-explainer-bg:     #eff6ff;
+  --ncert-explainer-border: #3b82f6;
+  --ncert-explainer-text:   #1e40af;
+
+  --ncert-bridge-bg:     #fffbeb;
+  --ncert-bridge-border: #f59e0b;
+  --ncert-bridge-text:   #92400e;
+
+  --ncert-upsc-bg:     #f0fdf4;
+  --ncert-upsc-border: #22c55e;
+  --ncert-upsc-text:   #14532d;
+
+  --ncert-fact-bg:     #fefce8;
+  --ncert-fact-border: #eab308;
+  --ncert-fact-text:   #713f12;
+}
+
+/* ── NCERT Page Header ───────────────────────────────────────── */
+.ncert-header {
+  background: linear-gradient(135deg, #1e3a8a 0%, #1d4ed8 60%, #2563eb 100%);
+  color: #fff;
+  padding: var(--space-10) 0 var(--space-8);
+}
+
+.ncert-header .breadcrumb a {
+  color: rgba(255,255,255,0.75);
+}
+.ncert-header .breadcrumb a:hover {
+  color: #fff;
+}
+.ncert-header .breadcrumb__sep {
+  color: rgba(255,255,255,0.4);
+}
+
+/* Meta row — class badge + GS badges side by side */
+.ncert-header__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-4);
+}
+
+.ncert-gs-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: var(--radius-sm);
+  font-size: var(--text-xs);
+  font-weight: var(--font-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  background: rgba(255,255,255,0.18);
+  border: 1px solid rgba(255,255,255,0.35);
+  color: #fff;
+}
+
+.ncert-class-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: var(--radius-full);
+  padding: var(--space-1) var(--space-4);
+  font-size: var(--text-xs);
+  font-weight: var(--font-semibold);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.9);
+  margin-bottom: 0;
+}
+
+.ncert-chapter-number {
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  font-weight: var(--font-bold);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: var(--space-2);
+}
+
+.ncert-header h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  font-weight: var(--font-bold);
+  color: #fff;
+  line-height: var(--leading-tight);
+  margin-bottom: var(--space-3);
+}
+
+.ncert-header__subtitle {
+  font-size: var(--text-base);
+  color: rgba(255,255,255,0.8);
+  line-height: var(--leading-relaxed);
+  max-width: 680px;
+}
+
+.ncert-book-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: var(--radius-md);
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-xs);
+  color: rgba(255,255,255,0.85);
+  margin-top: var(--space-4);
+}
+
+/* ── NCERT Article Body ──────────────────────────────────────── */
+.ncert-article {
+  font-size: var(--text-base);
+  line-height: var(--leading-relaxed);
+  color: var(--color-text);
+}
+
+.ncert-article h2 {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: var(--font-bold);
+  color: var(--ncert-blue-dark);
+  margin-top: var(--space-10);
+  margin-bottom: var(--space-4);
+  padding-bottom: var(--space-3);
+  border-bottom: 2px solid var(--ncert-blue-border);
+}
+
+.ncert-article h3 {
+  font-size: var(--text-lg);
+  font-weight: var(--font-semibold);
+  color: var(--ncert-blue-dark);
+  margin-top: var(--space-6);
+  margin-bottom: var(--space-3);
+}
+
+.ncert-article h4 {
+  font-size: var(--text-sm);
+  font-weight: var(--font-semibold);
+  color: var(--ncert-blue-mid);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-top: var(--space-4);
+  margin-bottom: var(--space-1);
+}
+
+/* ── NCERT Article Tables ────────────────────────────────────── */
+
+/* Scroll wrapper: outer clips corners, inner scrolls */
+.ncert-article .table-scroll {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--color-border-light);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin: var(--space-5) 0;
+}
+.ncert-article .table-scroll-inner {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Table itself strips its own chrome — wrapper handles it */
+.ncert-article table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  font-size: var(--text-sm);
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  margin: 0;
+  background: #fff;
+}
+
+.ncert-article th {
+  background: #1e293b;
+  color: #f1f5f9;
+  padding: 11px var(--space-4);
+  text-align: left;
+  font-weight: var(--font-semibold);
+  font-size: var(--text-xs);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  white-space: normal;
+  border: none;
+}
+
+.ncert-article td {
+  padding: 11px var(--space-4);
+  border-bottom: 1px solid var(--color-border-light);
+  color: var(--color-text);
+  line-height: 1.65;
+  vertical-align: top;
+  font-size: var(--text-sm);
+  background: #fff;
+}
+
+.ncert-article td:first-child {
+  font-weight: var(--font-semibold);
+  color: var(--color-text);
+  background: #fff;
+}
+
+.ncert-article tr:last-child td {
+  border-bottom: none;
+}
+
+.ncert-article tr:nth-child(even) td { background: rgba(30,41,59,0.02); }
+.ncert-article tr:hover td {
+  background: rgba(30, 41, 59, 0.04);
+}
+
+/* Tables inside special boxes — match box accent color throughout */
+.ncert-box__body .table-scroll {
+  border-color: rgba(0,0,0,0.1);
+  box-shadow: none;
+  margin-top: var(--space-4);
+}
+
+/* Box-themed table headers — slightly tinted dark to match box accent */
+.ncert-box--explainer .ncert-box__body th { background: #1e3a5f; }
+.ncert-box--bridge   .ncert-box__body th { background: #78350f; }
+.ncert-box--upsc     .ncert-box__body th { background: #14532d; }
+.ncert-box--fact     .ncert-box__body th { background: #713f12; }
+
+/* Box-themed row separators — override the default blue */
+.ncert-box--explainer .ncert-box__body td { border-bottom-color: rgba(59,130,246,0.15); }
+.ncert-box--bridge   .ncert-box__body td { border-bottom-color: rgba(245,158,11,0.15); }
+.ncert-box--upsc     .ncert-box__body td { border-bottom-color: rgba(34,197,94,0.15); }
+.ncert-box--fact     .ncert-box__body td { border-bottom-color: rgba(234,179,8,0.18); }
+
+/* Box-themed first-column — transparent, inherits box background */
+.ncert-box--explainer .ncert-box__body td:first-child { background: transparent; border-right: none; }
+.ncert-box--bridge   .ncert-box__body td:first-child { background: transparent; border-right: none; }
+.ncert-box--upsc     .ncert-box__body td:first-child { background: transparent; border-right: none; }
+.ncert-box--fact     .ncert-box__body td:first-child { background: transparent; border-right: none; }
+
+/* Box-themed hover */
+.ncert-box--explainer .ncert-box__body tr:hover td { background: rgba(59,130,246,0.05); }
+.ncert-box--bridge   .ncert-box__body tr:hover td { background: rgba(245,158,11,0.05); }
+.ncert-box--upsc     .ncert-box__body tr:hover td { background: rgba(34,197,94,0.05); }
+.ncert-box--fact     .ncert-box__body tr:hover td { background: rgba(234,179,8,0.05); }
+
+/* Number-only first columns (.ncert-num-col added via JS in ncert-chapter.njk) */
+.ncert-article td.ncert-num-col {
+  background: #fff !important;
+  border-right: none !important;
+  font-weight: var(--font-normal) !important;
+  text-align: center;
+  color: var(--color-text-muted);
+  width: 2.5rem;
+  min-width: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .ncert-article td,
+  .ncert-article th { padding: 9px var(--space-3); }
+}
+
+/* ── Special NCERT Boxes ─────────────────────────────────────── */
+
+/* Explainer box — blue, conceptual clarity */
+.ncert-box--explainer {
+  background: var(--ncert-explainer-bg);
+  border-left: 4px solid var(--ncert-explainer-border);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: var(--space-5) var(--space-6);
+  margin: var(--space-6) 0;
+}
+
+.ncert-box--explainer .ncert-box__title {
+  color: var(--ncert-explainer-text);
+  font-size: var(--text-sm);
+  font-weight: var(--font-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: var(--space-3);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.ncert-box--explainer .ncert-box__title::before {
+  content: "💡";
+  font-style: normal;
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
+}
+
+/* Bridging Gap box — amber, fills content gaps */
+.ncert-box--bridge {
+  background: var(--ncert-bridge-bg);
+  border-left: 4px solid var(--ncert-bridge-border);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: var(--space-5) var(--space-6);
+  margin: var(--space-6) 0;
+}
+
+.ncert-box--bridge .ncert-box__title {
+  color: var(--ncert-bridge-text);
+  font-size: var(--text-sm);
+  font-weight: var(--font-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: var(--space-3);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.ncert-box--bridge .ncert-box__title::before {
+  content: "🔗";
+  font-style: normal;
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
+}
+
+/* UPSC Connect box — green, exam relevance */
+.ncert-box--upsc {
+  background: var(--ncert-upsc-bg);
+  border: 1px solid var(--ncert-upsc-border);
+  border-left: 4px solid var(--ncert-upsc-border);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: var(--space-5) var(--space-6);
+  margin: var(--space-6) 0;
+}
+
+.ncert-box--upsc .ncert-box__title {
+  color: var(--ncert-upsc-text);
+  font-size: var(--text-sm);
+  font-weight: var(--font-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: var(--space-3);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.ncert-box--upsc .ncert-box__title::before {
+  content: "🎯";
+  font-style: normal;
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
+}
+
+/* Key Fact box — yellow, mnemonics/numbers */
+.ncert-box--fact {
+  background: var(--ncert-fact-bg);
+  border-left: 4px solid var(--ncert-fact-border);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: var(--space-5) var(--space-6);
+  margin: var(--space-6) 0;
+}
+
+.ncert-box--fact .ncert-box__title {
+  color: var(--ncert-fact-text);
+  font-size: var(--text-sm);
+  font-weight: var(--font-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: var(--space-3);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.ncert-box--fact .ncert-box__title::before {
+  content: "📌";
+  font-style: normal;
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
+}
+
+.ncert-box__body {
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+  color: var(--color-text);
+}
+
+.ncert-box__body p:last-child,
+.ncert-box__body ul:last-child,
+.ncert-box__body ol:last-child {
+  margin-bottom: 0;
+}
+
+/* ── NCERT Sidebar ───────────────────────────────────────────── */
+.ncert-book-info-card {
+  background: var(--ncert-blue-pale);
+  border: 1px solid var(--ncert-blue-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  margin-bottom: var(--space-5);
+}
+
+.ncert-book-info-card__label {
+  font-size: var(--text-xs);
+  font-weight: var(--font-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ncert-blue);
+  margin-bottom: var(--space-3);
+}
+
+.ncert-book-info-card__item {
+  font-size: var(--text-xs);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-2);
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: var(--space-2);
+  align-items: baseline;
+}
+
+.ncert-book-info-card__item strong {
+  color: var(--color-text);
+  font-weight: var(--font-semibold);
+  flex-shrink: 0;
+}
+
+.ncert-book-info-card__item span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ── NCERT Sidebar: correct sticky offset (nav = 56px, not 72px) ─ */
+.ncert-header ~ section .topic-sidebar {
+  top: 60px;
+}
+
+/* Author card styles moved to main.css (shared across GS + NCERT pages) */
+
+/* ── NCERT Hub Page ──────────────────────────────────────────── */
+.ncert-hub-header {
+  background: linear-gradient(135deg, #0f2d6b 0%, #1d4ed8 100%);
+  color: #fff;
+  padding: var(--space-16) 0 var(--space-12);
+  text-align: center;
+}
+
+.ncert-hub-header h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: var(--font-bold);
+  color: #fff;
+  margin-bottom: var(--space-4);
+}
+
+.ncert-hub-header p {
+  font-size: var(--text-lg);
+  color: rgba(255,255,255,0.85);
+  max-width: 640px;
+  margin: 0 auto;
+  line-height: var(--leading-relaxed);
+}
+
+.ncert-phase-badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: var(--radius-full);
+  padding: var(--space-1) var(--space-5);
+  font-size: var(--text-xs);
+  font-weight: var(--font-semibold);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.9);
+  margin-bottom: var(--space-5);
+}
+
+/* Class section heading */
+.ncert-class-section {
+  padding: var(--space-12) 0;
+}
+
+.ncert-class-section + .ncert-class-section {
+  border-top: 1px solid var(--color-border-light);
+}
+
+.ncert-class-heading {
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  font-weight: var(--font-bold);
+  color: var(--ncert-blue-dark);
+  margin-bottom: var(--space-2);
+}
+
+.ncert-class-desc {
+  font-size: var(--text-base);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-8);
+}
+
+/* Book grid */
+.ncert-book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-5);
+}
+
+.ncert-book-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-top: 3px solid var(--ncert-blue);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: box-shadow var(--transition-normal), transform var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.ncert-book-card:hover {
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-2px);
+  border-top-color: var(--ncert-blue-mid);
+}
+
+.ncert-book-card__subject {
+  font-size: var(--text-xs);
+  font-weight: var(--font-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ncert-blue);
+}
+
+.ncert-book-card__title {
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  font-weight: var(--font-bold);
+  color: var(--color-brand);
+  line-height: var(--leading-snug);
+}
+
+.ncert-book-card__meta {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  display: flex;
+  gap: var(--space-3);
+  align-items: center;
+}
+
+.ncert-book-card__chapters {
+  font-size: var(--text-xs);
+  font-weight: var(--font-semibold);
+  color: var(--ncert-blue);
+  margin-top: auto;
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-border-light);
+}
+
+/* Book index page — chapter listing */
+.ncert-chapter-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ncert-chapter-list__item {
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.ncert-chapter-list__item:last-child {
+  border-bottom: none;
+}
+
+.ncert-chapter-list__link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-4) var(--space-3);
+  text-decoration: none;
+  color: var(--color-text);
+  border-radius: var(--radius-md);
+  transition: background var(--transition-fast);
+}
+
+.ncert-chapter-list__link:hover {
+  background: var(--ncert-blue-pale);
+  color: var(--ncert-blue-dark);
+}
+
+.ncert-chapter-list__num {
+  min-width: 2rem;
+  height: 2rem;
+  background: var(--ncert-blue-pale);
+  border: 1px solid var(--ncert-blue-border);
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-xs);
+  font-weight: var(--font-bold);
+  color: var(--ncert-blue);
+  flex-shrink: 0;
+}
+
+.ncert-chapter-list__title {
+  font-size: var(--text-base);
+  font-weight: var(--font-medium);
+  line-height: var(--leading-snug);
+  flex: 1;
+}
+
+.ncert-chapter-list__arrow {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  flex-shrink: 0;
+}
+
+/* ── NCERT TOC ───────────────────────────────────────────────── */
+.ncert-toc .toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Base link */
+.ncert-toc .toc-link {
+  display: block;
+  font-size: var(--text-xs);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  padding: 4px 0 4px var(--space-3);
+  line-height: 1.4;
+  border-left: 2px solid transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color 0.12s, border-color 0.12s;
+}
+
+.ncert-toc .toc-link:hover {
+  color: var(--ncert-blue);
+  border-left-color: var(--ncert-blue-border);
+}
+
+.ncert-toc .toc-link.toc-active {
+  color: var(--ncert-blue) !important;
+  font-weight: var(--font-semibold);
+  border-left-color: var(--ncert-blue);
+}
+
+/* PART section dividers */
+.ncert-toc .toc-item--part {
+  margin-top: var(--space-3);
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--ncert-blue-border);
+}
+
+.ncert-toc .toc-item--part:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.ncert-toc .toc-link--part {
+  padding-left: 0;
+  border-left: none !important;
+  font-weight: var(--font-bold);
+  color: var(--ncert-blue-dark);
+  font-size: var(--text-xs);
+  white-space: normal;
+  line-height: 1.3;
+}
+
+.ncert-toc .toc-link--part:hover {
+  color: var(--ncert-blue-mid);
+  border-left: none !important;
+}
+
+/* H2 items */
+.ncert-toc .toc-item--h2 { margin-top: 1px; }
+
+/* H3 items — indented, slightly muted */
+.ncert-toc .toc-item--h3 .toc-link {
+  padding-left: var(--space-5);
+  color: var(--color-text-muted);
+  font-size: calc(var(--text-xs) - 0.5px);
+}
+
+/* ── PART Section Dividers ───────────────────────────────────── */
+.ncert-article h2.ncert-part-divider {
+  background: var(--ncert-blue-pale);
+  border: 1px solid var(--ncert-blue-border);
+  border-left: 4px solid var(--ncert-blue);
+  border-bottom: 1px solid var(--ncert-blue-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-5);
+  margin-top: var(--space-12);
+  font-size: var(--text-lg);
+  letter-spacing: 0.01em;
+}
+
+/* ── Table Scroll Affordance ─────────────────────────────────── */
+.ncert-article .table-scroll {
+  position: relative;
+}
+
+.ncert-article .table-scroll::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 48px;
+  height: 100%;
+  background: linear-gradient(to right, transparent, rgba(255,255,255,0.95));
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+.ncert-article .table-scroll.ncert-table-scrolled::after {
+  opacity: 0;
+}
+
+/* ── Responsive ──────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .ncert-book-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ncert-hub-header {
+    padding: var(--space-10) 0 var(--space-8);
+  }
+
+  .ncert-class-section {
+    padding: var(--space-8) 0;
+  }
+
+  .ncert-box--explainer,
+  .ncert-box--bridge,
+  .ncert-box--upsc,
+  .ncert-box--fact {
+    padding: var(--space-4);
+  }
+}

@@ -30,7 +30,12 @@ export default {
       return new Response(JSON.stringify({ error: 'Invalid JSON' }), { status: 400, headers: corsHeaders });
     }
 
-    const { name, email, subject, message, whatsapp } = body;
+    const { name, email, subject, message, whatsapp, website } = body;
+
+    /* Honeypot — bots fill hidden fields, humans don't */
+    if (website) {
+      return new Response(JSON.stringify({ ok: true }), { status: 200, headers: corsHeaders });
+    }
 
     if (!name || !email || !message) {
       return new Response(JSON.stringify({ error: 'Name, email and message are required.' }), { status: 400, headers: corsHeaders });

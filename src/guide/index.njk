@@ -149,7 +149,16 @@ description: "A step-by-step guide to using BharatNotes and Ujiyari together for
 
 /* ── Main content ─────────────────────────────────────────── */
 .guide-content { min-width: 0; }
-/* article-body class needed by pdf.js for content extraction */
+/* article-body class is needed by pdf.js — override its font cascade */
+.guide-content p,
+.guide-content h3,
+.guide-content h4,
+.guide-content li {
+  font-family: var(--font-body);
+}
+.guide-content h2 {
+  font-family: var(--font-heading); /* keep Playfair for section titles only */
+}
 
 /* Section */
 .guide-section {
@@ -211,7 +220,7 @@ description: "A step-by-step guide to using BharatNotes and Ujiyari together for
   color: var(--color-text);
 }
 .guide-card p {
-  font-size: 0.9375rem;
+  font-size: 1rem;
   color: #4b5563;
   line-height: 1.7;
   margin: 0 0 12px;
@@ -258,7 +267,7 @@ description: "A step-by-step guide to using BharatNotes and Ujiyari together for
   line-height: 1.35;
 }
 .guide-step p {
-  font-size: 0.9375rem;
+  font-size: 1rem;
   color: #4b5563;
   line-height: 1.75;
   margin: 0;
@@ -269,7 +278,7 @@ description: "A step-by-step guide to using BharatNotes and Ujiyari together for
   border-radius: 12px;
   padding: var(--space-5) var(--space-6);
   margin-bottom: var(--space-5);
-  font-size: 0.9375rem;
+  font-size: 1rem;
   line-height: 1.75;
   display: flex;
   gap: 14px;
@@ -286,7 +295,7 @@ description: "A step-by-step guide to using BharatNotes and Ujiyari together for
 .guide-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   margin-bottom: var(--space-6);
   background: #fff;
   border: 1px solid #e5e7eb;
@@ -350,7 +359,7 @@ description: "A step-by-step guide to using BharatNotes and Ujiyari together for
 .guide-platform-card ul li {
   display: flex;
   gap: 9px;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   color: #374151;
   line-height: 1.55;
 }
@@ -453,7 +462,7 @@ description: "A step-by-step guide to using BharatNotes and Ujiyari together for
   gap: 8px;
 }
 .guide-stage li {
-  font-size: 0.9375rem;
+  font-size: 1rem;
   color: #374151;
   line-height: 1.65;
 }
@@ -510,6 +519,244 @@ description: "A step-by-step guide to using BharatNotes and Ujiyari together for
   .guide-step__num { width: 34px; height: 34px; font-size: 0.9375rem; }
   .guide-hero p { font-size: 1rem; }
   .guide-section__intro { font-size: 1rem; }
+}
+
+/* ══ Print / Save as PDF ══════════════════════════════════════ */
+@media print {
+  @page {
+    size: A4;
+    margin: 18mm 16mm 22mm;
+  }
+
+  /* ── Hide chrome ───────────────────────────────────────────── */
+  .site-header,
+  .site-footer,
+  .guide-sidebar,
+  .guide-hero__pills,
+  .guide-hero__kicker,
+  .guide-hero::before,
+  .guide-divider,
+  .guide-wf-step::after {
+    display: none !important;
+  }
+
+  /* ── Hero — title block only ───────────────────────────────── */
+  .guide-hero {
+    background: #fff !important;
+    padding: 0 0 14pt;
+    border-bottom: 2pt solid #0f4c3a;
+    margin-bottom: 16pt;
+    overflow: visible;
+  }
+  .guide-hero h1 {
+    color: #0f4c3a !important;
+    font-size: 20pt;
+    margin-bottom: 8pt;
+  }
+  .guide-hero p {
+    color: #333 !important;
+    font-size: 9.5pt;
+    line-height: 1.6;
+  }
+
+  /* ── Layout — single column ────────────────────────────────── */
+  body { font-size: 10pt; line-height: 1.6; color: #111; background: #fff; }
+  .guide-body { padding: 0; background: #fff !important; }
+  .guide-body > .container { padding: 0; max-width: 100%; }
+  .guide-layout { display: block !important; }
+  .guide-content { width: 100%; }
+
+  /* ── Section page breaks ───────────────────────────────────── */
+  .guide-section {
+    page-break-before: always;
+    break-before: page;
+    margin-bottom: 0;
+    scroll-margin-top: 0;
+  }
+  /* First section — no forced break (follows hero on page 1) */
+  #overview {
+    page-break-before: auto;
+    break-before: auto;
+  }
+  .guide-section h2 {
+    page-break-after: avoid;
+    break-after: avoid;
+    color: #0f4c3a !important;
+    font-size: 15pt;
+    margin-bottom: 6pt;
+  }
+  .guide-section__label {
+    page-break-after: avoid;
+    break-after: avoid;
+    background: #eef5f2 !important;
+    color: #0f4c3a !important;
+    font-size: 7pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .guide-section__intro {
+    font-size: 10pt;
+    color: #333 !important;
+    line-height: 1.65;
+  }
+
+  /* ── Avoid orphaned components ─────────────────────────────── */
+  .guide-card,
+  .guide-step,
+  .guide-stage,
+  .guide-tip { page-break-inside: avoid; break-inside: avoid; }
+
+  /* ── Grids ─────────────────────────────────────────────────── */
+  .guide-card-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 8pt !important; }
+  .guide-split { grid-template-columns: 1fr 1fr !important; gap: 8pt !important; }
+  .guide-steps { gap: 6pt !important; }
+  .guide-workflow { overflow: visible; flex-wrap: wrap; gap: 6pt !important; }
+
+  /* ── Cards ─────────────────────────────────────────────────── */
+  .guide-card {
+    background: #fff !important;
+    border: 0.5pt solid #ccc !important;
+    border-radius: 4pt;
+    box-shadow: none;
+    padding: 8pt 10pt !important;
+  }
+  .guide-card__icon { font-size: 1.2rem; margin-bottom: 4pt; }
+  .guide-card h3 { font-size: 10pt; }
+  .guide-card p, .guide-card a { font-size: 9pt; color: #333 !important; }
+
+  /* ── Steps ─────────────────────────────────────────────────── */
+  .guide-step {
+    background: #fff !important;
+    border: 0.5pt solid #ccc !important;
+    box-shadow: none;
+    padding: 8pt 10pt !important;
+    gap: 10pt !important;
+  }
+  .guide-step__num {
+    width: 28pt; height: 28pt;
+    background: #0f4c3a !important;
+    color: #fff !important;
+    font-size: 9pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .guide-step h3 { font-size: 10pt; }
+  .guide-step p { font-size: 9pt; color: #333 !important; }
+
+  /* ── Tip boxes — left-accent strip ────────────────────────── */
+  .guide-tip {
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    border-left: 3pt solid #0f4c3a !important;
+    background: #fafaf8 !important;
+    border-radius: 0 !important;
+    padding: 6pt 10pt !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .guide-tip--gold   { border-left-color: #d4a017 !important; }
+  .guide-tip--blue   { border-left-color: #2563eb !important; }
+  .guide-tip--orange { border-left-color: #f97316 !important; }
+  .guide-tip, .guide-tip * { color: #111 !important; }
+  .guide-tip__icon { font-size: 1rem; }
+
+  /* ── Tables ────────────────────────────────────────────────── */
+  .guide-table {
+    font-size: 9pt;
+    border: 0.5pt solid #bbb !important;
+    border-radius: 0 !important;
+    overflow: visible;
+  }
+  .guide-table th {
+    background: #f3f3f0 !important;
+    color: #000 !important;
+    font-size: 8pt;
+    padding: 7pt 10pt !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .guide-table td {
+    font-size: 9pt;
+    padding: 7pt 10pt !important;
+    border-bottom: 0.5pt solid #e0e0e0 !important;
+    color: #333 !important;
+  }
+  .guide-table td:first-child { color: #000 !important; font-weight: 700; }
+
+  /* ── Stage bands ───────────────────────────────────────────── */
+  .guide-stage {
+    background: #fff !important;
+    border: 0.5pt solid #ccc !important;
+    border-left: 3pt solid #0f4c3a !important;
+    border-radius: 4pt;
+    padding: 8pt 10pt !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .guide-stage--gold { border-left-color: #d4a017 !important; }
+  .guide-stage--blue { border-left-color: #2563eb !important; }
+  .guide-stage--red  { border-left-color: #dc2626 !important; }
+  .guide-stage h3 { font-size: 10pt; flex-wrap: wrap; }
+  .guide-stage .stage-badge {
+    background: #efefec !important;
+    color: #333 !important;
+    font-size: 7pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .guide-stage li { font-size: 9pt; color: #333 !important; }
+
+  /* ── Platform cards ────────────────────────────────────────── */
+  .guide-platform-card {
+    background: #fff !important;
+    border: 0.5pt solid #ccc !important;
+    border-radius: 4pt;
+    padding: 8pt 10pt !important;
+  }
+  .guide-platform-card--bn {
+    border-left: 3pt solid #15803d !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .guide-platform-card--uj {
+    border-left: 3pt solid #b45309 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .guide-platform-card h3 { font-size: 11pt; }
+  .guide-platform-card ul li { font-size: 9pt; color: #333 !important; }
+  .guide-platform-card--bn ul li::before { color: #15803d !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .guide-platform-card--uj ul li::before { color: #b45309 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  /* ── Workflow steps ────────────────────────────────────────── */
+  .guide-wf-step {
+    background: #fff !important;
+    border: 0.5pt solid #ccc !important;
+    padding: 6pt 8pt !important;
+  }
+  .guide-wf-step__label { font-size: 7pt; color: #555 !important; }
+  .guide-wf-step__title { font-size: 8.5pt; color: #000 !important; }
+
+  /* ── Links ─────────────────────────────────────────────────── */
+  a { color: #0f4c3a !important; text-decoration: none; }
+  a[href^="http"]::after { content: none !important; }
+
+  /* ── CTA block at end ──────────────────────────────────────── */
+  [style*="background:#0f4c3a"],
+  [style*="background: #0f4c3a"] {
+    background: #0f4c3a !important;
+    color: #fff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  [style*="background:#d4a017"],
+  [style*="background: #d4a017"] {
+    background: #d4a017 !important;
+    color: #fff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
 }
 </style>
 
@@ -578,9 +825,9 @@ description: "A step-by-step guide to using BharatNotes and Ujiyari together for
         </ul>
 
         <div class="guide-actions">
-          <button class="guide-action-btn" id="btn-download-pdf">
+          <button class="guide-action-btn" id="guide-print-btn" onclick="window.print()">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-            Download PDF
+            Save as PDF
           </button>
           <button class="guide-action-btn" id="guide-share-btn" onclick="guideShare()">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>

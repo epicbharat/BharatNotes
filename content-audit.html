@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BharatNotes — Complete Content Audit</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 11pt;
+    color: #1a1a1a;
+    background: #fff;
+    line-height: 1.5;
+  }
+
+  /* ── Cover Page ── */
+  .cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: #0f4c3a;
+    color: #fff;
+    page-break-after: always;
+  }
+  .cover h1 { font-size: 36pt; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 12px; }
+  .cover .subtitle { font-size: 16pt; opacity: 0.85; margin-bottom: 32px; }
+  .cover .meta { font-size: 11pt; opacity: 0.7; line-height: 2; }
+  .cover .gold { color: #d4a017; }
+
+  /* ── Summary Stats ── */
+  .stats-page {
+    padding: 48px 56px;
+    page-break-after: always;
+  }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin: 32px 0;
+  }
+  .stat-card {
+    background: #f0f7f4;
+    border-left: 4px solid #0f4c3a;
+    padding: 16px;
+    border-radius: 4px;
+  }
+  .stat-card .num { font-size: 28pt; font-weight: 800; color: #0f4c3a; }
+  .stat-card .label { font-size: 9pt; color: #555; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 4px; }
+
+  /* ── Subject Sections ── */
+  .subject-section {
+    padding: 40px 56px;
+    page-break-inside: avoid;
+  }
+  .subject-section:not(:last-child) {
+    border-bottom: 2px solid #e8f0ed;
+  }
+
+  .subject-header {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #0f4c3a;
+  }
+  .subject-num {
+    font-size: 10pt;
+    font-weight: 700;
+    color: #fff;
+    background: #0f4c3a;
+    padding: 3px 10px;
+    border-radius: 12px;
+    white-space: nowrap;
+  }
+  .subject-title {
+    font-size: 18pt;
+    font-weight: 800;
+    color: #0f4c3a;
+  }
+  .subject-count {
+    font-size: 10pt;
+    color: #888;
+    margin-left: auto;
+    white-space: nowrap;
+  }
+
+  /* Sub-topic block */
+  .subtopic-block {
+    margin-bottom: 28px;
+  }
+  .subtopic-name {
+    font-size: 11pt;
+    font-weight: 700;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 10px;
+    padding: 6px 10px;
+    background: #f5f5f5;
+    border-radius: 3px;
+  }
+
+  /* Chapter table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10pt;
+  }
+  thead tr {
+    background: #e8f0ed;
+  }
+  thead th {
+    padding: 7px 10px;
+    text-align: left;
+    font-weight: 700;
+    color: #0f4c3a;
+    font-size: 9pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  thead th:first-child { width: 44px; text-align: center; }
+  tbody tr:nth-child(even) { background: #fafaf8; }
+  tbody tr:hover { background: #f0f7f4; }
+  tbody td {
+    padding: 6px 10px;
+    border-bottom: 1px solid #eee;
+    color: #222;
+  }
+  tbody td:first-child {
+    text-align: center;
+    font-weight: 700;
+    color: #0f4c3a;
+    font-size: 9pt;
+  }
+
+  /* Flags */
+  .flag-section {
+    padding: 40px 56px;
+    page-break-before: always;
+  }
+  .flag-section h2 {
+    font-size: 16pt;
+    color: #0f4c3a;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #0f4c3a;
+  }
+  .flag-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background: #fff8e1;
+    border-left: 4px solid #d4a017;
+  }
+  .flag-item .badge {
+    font-size: 9pt;
+    font-weight: 700;
+    background: #d4a017;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 10px;
+    white-space: nowrap;
+    margin-top: 2px;
+  }
+  .flag-item .text { font-size: 10pt; color: #333; }
+
+  /* Summary table */
+  .summary-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+  .summary-table th {
+    background: #0f4c3a;
+    color: #fff;
+    padding: 9px 14px;
+    text-align: left;
+    font-size: 10pt;
+  }
+  .summary-table th:last-child { text-align: center; }
+  .summary-table td { padding: 8px 14px; border-bottom: 1px solid #ddd; font-size: 10pt; }
+  .summary-table td:last-child { text-align: center; font-weight: 700; color: #0f4c3a; }
+  .summary-table tr:nth-child(even) td { background: #f5f5f5; }
+  .summary-table tfoot td {
+    font-weight: 800;
+    background: #e8f0ed;
+    color: #0f4c3a;
+    font-size: 11pt;
+    border-top: 2px solid #0f4c3a;
+  }
+
+  /* Page headers for multi-page subjects */
+  h2.section-h2 {
+    font-size: 14pt;
+    color: #0f4c3a;
+    margin: 24px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #cde0d9;
+  }
+
+  /* Print */
+  @media print {
+    body { font-size: 10pt; }
+    .cover { height: 100vh; }
+    .subject-section { page-break-inside: auto; }
+    table { page-break-inside: auto; }
+    tr { page-break-inside: avoid; }
+    thead { display: table-header-group; }
+    @page { margin: 15mm 18mm; }
+    @page :first { margin: 0; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     COVER PAGE
+═══════════════════════════════════════════ -->
+<div class="cover">
+  <h1>BharatNotes</h1>
+  <div class="subtitle">Complete Content Audit</div>
+  <div style="width:60px;height:3px;background:#d4a017;margin:0 auto 32px;"></div>
+  <div class="meta">
+    <div><span class="gold">12</span> Subjects &nbsp;·&nbsp; <span class="gold">23</span> Sub-topics &nbsp;·&nbsp; <span class="gold">~388</span> Chapters</div>
+    <div style="margin-top:8px;">Generated: March 2026 &nbsp;·&nbsp; bharatnotes.com</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     STATS PAGE
+═══════════════════════════════════════════ -->
+<div class="stats-page">
+  <h1 style="font-size:22pt;color:#0f4c3a;margin-bottom:6px;">Content Summary</h1>
+  <p style="color:#666;font-size:11pt;">All GS Papers covered — Prelims + Mains (GS1 · GS2 · GS3 · GS4)</p>
+  <div class="stats-grid">
+    <div class="stat-card"><div class="num">12</div><div class="label">Subjects</div></div>
+    <div class="stat-card"><div class="num">23</div><div class="label">Sub-topics</div></div>
+    <div class="stat-card"><div class="num">~388</div><div class="label">Chapters</div></div>
+    <div class="stat-card"><div class="num">715+</div><div class="label">Vocab / Key Terms</div></div>
+  </div>
+
+  <table class="summary-table">
+    <thead><tr><th>Subject</th><th>Sub-topic</th><th>Chapters</th></tr></thead>
+    <tbody>
+      <tr><td>Disaster Management</td><td>dm-framework</td><td>18</td></tr>
+      <tr><td>Economy</td><td>indian-economy</td><td>37</td></tr>
+      <tr><td>Environment</td><td>ecology-environment</td><td>23</td></tr>
+      <tr><td>Ethics</td><td>ethics-aptitude</td><td>18</td></tr>
+      <tr><td>General Science</td><td>biology</td><td>10</td></tr>
+      <tr><td>General Science</td><td>chemistry</td><td>11</td></tr>
+      <tr><td>General Science</td><td>physics</td><td>11</td></tr>
+      <tr><td>Geography</td><td>physical-geography</td><td>12</td></tr>
+      <tr><td>Geography</td><td>indian-geography</td><td>13</td></tr>
+      <tr><td>Geography</td><td>world-geography</td><td>12</td></tr>
+      <tr><td>Geography</td><td>human-economic-geography</td><td>12</td></tr>
+      <tr><td>History &amp; Culture</td><td>ancient-india</td><td>13</td></tr>
+      <tr><td>History &amp; Culture</td><td>medieval-india</td><td>13</td></tr>
+      <tr><td>History &amp; Culture</td><td>modern-india</td><td>16</td></tr>
+      <tr><td>History &amp; Culture</td><td>freedom-struggle</td><td>10</td></tr>
+      <tr><td>History &amp; Culture</td><td>post-independence-india</td><td>13</td></tr>
+      <tr><td>History &amp; Culture</td><td>world-history</td><td>13</td></tr>
+      <tr><td>History &amp; Culture</td><td>indian-culture</td><td>15</td></tr>
+      <tr><td>International Relations</td><td>global-relations</td><td>23</td></tr>
+      <tr><td>Polity</td><td>constitutional-polity</td><td>29</td></tr>
+      <tr><td>Science &amp; Technology</td><td>science-technology</td><td>20</td></tr>
+      <tr><td>Security</td><td>internal-security</td><td>19</td></tr>
+      <tr><td>Society</td><td>indian-society</td><td>25</td></tr>
+    </tbody>
+    <tfoot><tr><td colspan="2">TOTAL</td><td>~388</td></tr></tfoot>
+  </table>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     1. DISASTER MANAGEMENT
+═══════════════════════════════════════════ -->
+<div class="subject-section">
+  <div class="subject-header">
+    <span class="subject-num">01</span>
+    <span class="subject-title">Disaster Management</span>
+    <span class="subject-count">18 chapters · GS3</span>
+  </div>
+  <div class="subtopic-block">
+    <div class="subtopic-name">dm-framework</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Disaster Management — Framework, Preparedness &amp; Risk Reduction</td></tr>
+      <tr><td>2</td><td>Disaster Risk Reduction — Sendai Framework, CDRI &amp; Resilience</td></tr>
+      <tr><td>3</td><td>Disaster Preparedness &amp; Response — NDMA, NDRF &amp; Early Warning Systems</td></tr>
+      <tr><td>4</td><td>Floods, Droughts &amp; Cyclones — India's Major Natural Disasters &amp; Response</td></tr>
+      <tr><td>5</td><td>Institutional Framework for Disaster Management in India</td></tr>
+      <tr><td>6</td><td>Earthquakes, Landslides &amp; Urban Disasters</td></tr>
+      <tr><td>7</td><td>Climate-Disaster Nexus — Heat Waves, GLOFs &amp; Compound Disasters</td></tr>
+      <tr><td>8</td><td>Tsunamis &amp; Coastal Disasters</td></tr>
+      <tr><td>9</td><td>Fire, Industrial &amp; Nuclear Disasters</td></tr>
+      <tr><td>10</td><td>Pandemic Preparedness &amp; Biological Disasters</td></tr>
+      <tr><td>11</td><td>Disaster Financing, Insurance &amp; Resilient Infrastructure</td></tr>
+      <tr><td>12</td><td>Community-Based Disaster Management &amp; Early Warning Systems</td></tr>
+      <tr><td>13</td><td>Heat Waves, Cold Waves &amp; Weather Extremes</td></tr>
+      <tr><td>14</td><td>Role of Armed Forces, NGOs &amp; International Cooperation</td></tr>
+      <tr><td>15</td><td>Post-Disaster Reconstruction, Rehabilitation &amp; Build Back Better</td></tr>
+      <tr><td>16</td><td>Urban Disaster Risk, Building Safety Codes &amp; Earthquake-Resistant Construction</td></tr>
+      <tr><td>17</td><td>Space Technology &amp; Emerging Tech in Disaster Management</td></tr>
+      <tr><td>18</td><td>GLOFs, Mountain Disasters &amp; Himalayan Disaster Risk</td></tr>
+    </tbody></table>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     2. ECONOMY
+═══════════════════════════════════════════ -->
+<div class="subject-section">
+  <div class="subject-header">
+    <span class="subject-num">02</span>
+    <span class="subject-title">Economy</span>
+    <span class="subject-count">37 chapters · GS3</span>
+  </div>
+  <div class="subtopic-block">
+    <div class="subtopic-name">indian-economy</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Indian Economy — Growth, Planning &amp; Development</td></tr>
+      <tr><td>2</td><td>Indian Agriculture — Crops, MSP, Food Security &amp; Reforms</td></tr>
+      <tr><td>3</td><td>Poverty, Inequality &amp; Employment — Measurement, Schemes &amp; Skills</td></tr>
+      <tr><td>4</td><td>Banking System &amp; Monetary Policy — RBI, Rates &amp; Financial Regulation</td></tr>
+      <tr><td>5</td><td>Public Finance &amp; Fiscal Policy — Budget, Deficits, FRBM &amp; Finance Commission</td></tr>
+      <tr><td>6</td><td>Goods and Services Tax (GST) — India's Tax Reform</td></tr>
+      <tr><td>7</td><td>Infrastructure &amp; Energy — NIP, Gati Shakti, Renewables &amp; Nuclear</td></tr>
+      <tr><td>8</td><td>External Sector — BoP, Trade, FDI &amp; Trade Agreements</td></tr>
+      <tr><td>9</td><td>MSME Sector &amp; Industrial Policy — Make in India, PLI &amp; Manufacturing</td></tr>
+      <tr><td>10</td><td>Capital Markets, Insurance &amp; Financial Inclusion</td></tr>
+      <tr><td>11</td><td>Cooperatives &amp; Agricultural Credit — NABARD, PACS, SHGs &amp; Rural Finance</td></tr>
+      <tr><td>12</td><td>Regional Development &amp; Aspirational Districts</td></tr>
+      <tr><td>13</td><td>Digital Economy &amp; Fintech — UPI, Digital Payments, CBDC</td></tr>
+      <tr><td>14</td><td>Insurance, Pension &amp; Social Security — IRDAI, NPS, EPFO</td></tr>
+      <tr><td>15</td><td>Logistics &amp; Transport Infrastructure</td></tr>
+      <tr><td>16</td><td>Demographic Dividend &amp; Human Capital — Skill India, Labour Reforms</td></tr>
+      <tr><td>17</td><td>Sustainable Development &amp; Green Economy — SDGs, ESG, Carbon Markets</td></tr>
+      <tr><td>18</td><td>National Income &amp; Economic Indicators — GDP, GNP, Index Numbers</td></tr>
+      <tr><td>19</td><td>Union Budget &amp; Disinvestment</td></tr>
+      <tr><td>20</td><td>Competition Policy &amp; Consumer Protection — CCI</td></tr>
+      <tr><td>21</td><td>Food Processing Industry — Value Chain, Policy &amp; Growth Drivers</td></tr>
+      <tr><td>22</td><td>India's Startup Ecosystem — Unicorns, Startup India &amp; DPIIT</td></tr>
+      <tr><td>23</td><td>Land Reforms — Zamindari Abolition, Tenancy &amp; Digital Land Records</td></tr>
+      <tr><td>24</td><td>Animal Husbandry, Dairy &amp; Fisheries — Blue Revolution</td></tr>
+      <tr><td>25</td><td>Financial Inclusion &amp; JAM Trinity — PMJDY, DBT &amp; Fintech</td></tr>
+      <tr><td>26</td><td>Investment Models &amp; PPP — HAM, BOT, InvIT, NMP &amp; Infrastructure Finance</td></tr>
+      <tr><td>27</td><td>Inclusive Growth &amp; Rural Development — PMGSY, RURBAN, RKVY</td></tr>
+      <tr><td>28</td><td>PLI Schemes &amp; India's Manufacturing Competitiveness</td></tr>
+      <tr><td>29</td><td>Cryptocurrency, CBDC &amp; Digital Assets — RBI's e-Rupee</td></tr>
+      <tr><td>30</td><td>Global Value Chains, Supply Chain Resilience</td></tr>
+      <tr><td>31</td><td>RBI &amp; Monetary Policy — MPC, Inflation Targeting &amp; Tools</td></tr>
+      <tr><td>32</td><td>MSP &amp; Agricultural Price Policy — CACP, Procurement &amp; Farm Income</td></tr>
+      <tr><td>33</td><td>India's Trade Policy — Anti-Dumping, Export Promotion &amp; WTO Disputes</td></tr>
+      <tr><td>34</td><td>Energy Security — India's Oil, Gas, Coal &amp; Renewable Transition</td></tr>
+      <tr><td>35</td><td>Housing, Real Estate &amp; RERA — Affordable Housing &amp; Urban Development</td></tr>
+      <tr><td>36</td><td>Cooperative Sector — AMUL, PACS, NCDC &amp; Multi-State Cooperatives</td></tr>
+      <tr><td>37</td><td>Digital Public Infrastructure — UPI, India Stack, ONDC &amp; CBDC</td></tr>
+    </tbody></table>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     3. ENVIRONMENT
+═══════════════════════════════════════════ -->
+<div class="subject-section">
+  <div class="subject-header">
+    <span class="subject-num">03</span>
+    <span class="subject-title">Environment</span>
+    <span class="subject-count">23 chapters · GS3</span>
+  </div>
+  <div class="subtopic-block">
+    <div class="subtopic-name">ecology-environment</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Biodiversity and Conservation in India</td></tr>
+      <tr><td>2</td><td>Wildlife Conservation — Protected Areas, Project Tiger &amp; International Conventions</td></tr>
+      <tr><td>3</td><td>Climate Change and Pollution</td></tr>
+      <tr><td>4</td><td>Climate Change Policy — Paris Agreement, India's NDCs &amp; COP Negotiations</td></tr>
+      <tr><td>5</td><td>Environmental Laws and Governance</td></tr>
+      <tr><td>6</td><td>Waste Management &amp; Ecosystem Services</td></tr>
+      <tr><td>7</td><td>Ecology Fundamentals — Ecosystems, Food Chains &amp; Biogeochemical Cycles</td></tr>
+      <tr><td>8</td><td>Forest &amp; Wetland Conservation</td></tr>
+      <tr><td>9</td><td>Renewable Energy &amp; Sustainable Development</td></tr>
+      <tr><td>10</td><td>Environmental Movements &amp; Ethics</td></tr>
+      <tr><td>11</td><td>Air &amp; Water Pollution</td></tr>
+      <tr><td>12</td><td>River Conservation &amp; Water Governance</td></tr>
+      <tr><td>13</td><td>EIA, Forest &amp; Coastal Clearances, NGT &amp; Environmental Governance</td></tr>
+      <tr><td>14</td><td>Marine Pollution, Ozone Depletion &amp; Global Environmental Conventions</td></tr>
+      <tr><td>15</td><td>Soil Degradation, Desertification &amp; Land Use Change</td></tr>
+      <tr><td>16</td><td>Invasive Alien Species</td></tr>
+      <tr><td>17</td><td>Carbon Markets, Climate Finance &amp; Green Economy Instruments</td></tr>
+      <tr><td>18</td><td>Ecosystem Services, Natural Capital &amp; Environmental Economics</td></tr>
+      <tr><td>19</td><td>Wetlands, Ramsar Sites &amp; Freshwater Ecosystem Conservation</td></tr>
+      <tr><td>20</td><td>Forest Governance, JFM, CAMPA &amp; India's Forest Cover</td></tr>
+      <tr><td>21</td><td>Biodiversity Hotspots &amp; Species Recovery</td></tr>
+      <tr><td>22</td><td>Coastal &amp; Marine Ecosystems — Blue Economy &amp; Ocean Conservation</td></tr>
+      <tr><td>24</td><td>Climate Change Adaptation, India's NDC &amp; Loss and Damage</td></tr>
+    </tbody></table>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     4. ETHICS
+═══════════════════════════════════════════ -->
+<div class="subject-section">
+  <div class="subject-header">
+    <span class="subject-num">04</span>
+    <span class="subject-title">Ethics</span>
+    <span class="subject-count">18 chapters · GS4</span>
+  </div>
+  <div class="subtopic-block">
+    <div class="subtopic-name">ethics-aptitude</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Ethics, Integrity &amp; Aptitude — Complete GS4 Guide</td></tr>
+      <tr><td>2</td><td>Attitude, Aptitude &amp; Foundational Values for Civil Services</td></tr>
+      <tr><td>3</td><td>Emotional Intelligence — EQ in Governance &amp; Public Service</td></tr>
+      <tr><td>4</td><td>Contributions of Moral Thinkers &amp; Philosophers — Western &amp; Indian</td></tr>
+      <tr><td>5</td><td>Ethical Thinkers &amp; Case Studies</td></tr>
+      <tr><td>6</td><td>Ethics in Public Administration — Probity, Accountability &amp; Governance</td></tr>
+      <tr><td>7</td><td>Corporate Governance, Environmental &amp; Technology Ethics</td></tr>
+      <tr><td>8</td><td>Information Ethics, Conscience &amp; Ethical Governance</td></tr>
+      <tr><td>9</td><td>Professional Ethics &amp; Decision Making</td></tr>
+      <tr><td>10</td><td>Indian Ethical Thinkers — Gandhi, Ambedkar, Vivekananda, Kautilya</td></tr>
+      <tr><td>11</td><td>Ethics of Technology &amp; Environment — AI Ethics, Climate Justice, Bioethics</td></tr>
+      <tr><td>12</td><td>Probity in Governance &amp; Anti-Corruption</td></tr>
+      <tr><td>13</td><td>Civil Service Values &amp; Code of Conduct</td></tr>
+      <tr><td>14</td><td>Whistleblowing &amp; Public Interest Disclosure</td></tr>
+      <tr><td>16</td><td>Administrative Ethics, Governance Dilemmas &amp; Civil Service Conduct</td></tr>
+      <tr><td>17</td><td>Case Studies — Governance Dilemmas &amp; Administrative Ethics</td></tr>
+      <tr><td>18</td><td>International Ethics &amp; Global Justice</td></tr>
+      <tr><td>19</td><td>Corporate Governance, CSR &amp; Business Ethics</td></tr>
+    </tbody></table>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     5. GENERAL SCIENCE
+═══════════════════════════════════════════ -->
+<div class="subject-section">
+  <div class="subject-header">
+    <span class="subject-num">05</span>
+    <span class="subject-title">General Science</span>
+    <span class="subject-count">32 chapters · GS3 · Prelims</span>
+  </div>
+
+  <div class="subtopic-block">
+    <div class="subtopic-name">biology — 10 chapters</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Human Body Systems</td></tr>
+      <tr><td>2</td><td>Health, Nutrition &amp; Disease — Public Health, Epidemics &amp; Government Schemes</td></tr>
+      <tr><td>3</td><td>Genetics, Heredity &amp; Evolution</td></tr>
+      <tr><td>4</td><td>Ecology &amp; Environment Basics</td></tr>
+      <tr><td>5</td><td>Microorganisms, Immunology &amp; Vaccines</td></tr>
+      <tr><td>6</td><td>Plant Biology &amp; Agriculture Science</td></tr>
+      <tr><td>7</td><td>Human Diseases &amp; Epidemics — Infectious, Non-Communicable &amp; Emerging</td></tr>
+      <tr><td>8</td><td>Animal Kingdom &amp; Zoology</td></tr>
+      <tr><td>9</td><td>Reproductive Health &amp; Endocrine System</td></tr>
+      <tr><td>10</td><td>Cell Biology &amp; Cell Division</td></tr>
+    </tbody></table>
+  </div>
+
+  <div class="subtopic-block">
+    <div class="subtopic-name">chemistry — 11 chapters</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Atomic Structure, Periodic Table &amp; Chemical Bonding</td></tr>
+      <tr><td>2</td><td>Acids, Bases, Salts &amp; Everyday Chemistry</td></tr>
+      <tr><td>3</td><td>Metals, Non-Metals &amp; Alloys</td></tr>
+      <tr><td>4</td><td>Organic Chemistry, Polymers &amp; Environmental Chemistry</td></tr>
+      <tr><td>5</td><td>Environmental Chemistry &amp; Fertilizers</td></tr>
+      <tr><td>6</td><td>Industrial Chemistry &amp; Materials</td></tr>
+      <tr><td>7</td><td>Biochemistry &amp; Food Chemistry</td></tr>
+      <tr><td>8</td><td>Solutions, Colloids &amp; Everyday Science</td></tr>
+      <tr><td>9</td><td>Electrochemistry &amp; Batteries</td></tr>
+      <tr><td>10</td><td>Drugs, Dyes, Soaps &amp; Common Chemicals</td></tr>
+      <tr><td>11</td><td>Everyday Chemistry, Materials &amp; Industrial Processes</td></tr>
+    </tbody></table>
+  </div>
+
+  <div class="subtopic-block">
+    <div class="subtopic-name">physics — 11 chapters</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Mechanics, Motion &amp; Gravitation</td></tr>
+      <tr><td>2</td><td>Heat, Thermodynamics &amp; Sound</td></tr>
+      <tr><td>3</td><td>Light, Optics &amp; Electromagnetic Waves</td></tr>
+      <tr><td>4</td><td>Electricity, Magnetism &amp; Electronics</td></tr>
+      <tr><td>5</td><td>Modern Physics &amp; Nuclear Science</td></tr>
+      <tr><td>6</td><td>Scientific Instruments, Units &amp; Inventions</td></tr>
+      <tr><td>7</td><td>Fluid Mechanics &amp; Surface Tension</td></tr>
+      <tr><td>8</td><td>Waves, Communication Technology &amp; Fibre Optics</td></tr>
+      <tr><td>9</td><td>Energy Sources &amp; Conversion</td></tr>
+      <tr><td>10</td><td>Semiconductors, Diodes, Transistors &amp; Logic Gates</td></tr>
+      <tr><td>11</td><td>Nuclear Physics, Radioactivity &amp; Radiation</td></tr>
+    </tbody></table>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     6. GEOGRAPHY
+═══════════════════════════════════════════ -->
+<div class="subject-section">
+  <div class="subject-header">
+    <span class="subject-num">06</span>
+    <span class="subject-title">Geography</span>
+    <span class="subject-count">49 chapters · GS1 · Prelims</span>
+  </div>
+
+  <div class="subtopic-block">
+    <div class="subtopic-name">physical-geography — 12 chapters</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Climatology — Atmosphere, Pressure Belts, Winds &amp; Cyclones</td></tr>
+      <tr><td>2</td><td>Oceanography &amp; Marine Resources</td></tr>
+      <tr><td>3</td><td>Geomorphology &amp; Landforms</td></tr>
+      <tr><td>4</td><td>Soils &amp; Biogeography — Global Soil Types &amp; Biomes</td></tr>
+      <tr><td>5</td><td>Astronomical Geography</td></tr>
+      <tr><td>6</td><td>Map Reading, Remote Sensing &amp; GIS</td></tr>
+      <tr><td>7</td><td>Natural Hazards &amp; Vulnerability Mapping</td></tr>
+      <tr><td>8</td><td>Plate Tectonics &amp; Volcanism</td></tr>
+      <tr><td>9</td><td>El Niño, La Niña &amp; ENSO</td></tr>
+      <tr><td>10</td><td>Drainage Systems &amp; River Geography of India</td></tr>
+      <tr><td>11</td><td>Oceanography — Ocean Currents, Tides &amp; Marine Geography</td></tr>
+      <tr><td>12</td><td>Monsoon Mechanism, Jet Streams &amp; Tropical Cyclones</td></tr>
+    </tbody></table>
+  </div>
+
+  <div class="subtopic-block">
+    <div class="subtopic-name">indian-geography — 13 chapters</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Indian Physical Geography</td></tr>
+      <tr><td>2</td><td>Indian Drainage System</td></tr>
+      <tr><td>3</td><td>Climate of India and Monsoon Mechanism</td></tr>
+      <tr><td>4</td><td>Indian Soils &amp; Natural Vegetation</td></tr>
+      <tr><td>5</td><td>Resources and Environment</td></tr>
+      <tr><td>6</td><td>Biogeography of India</td></tr>
+      <tr><td>7</td><td>Indian Minerals &amp; Energy Resources</td></tr>
+      <tr><td>8</td><td>Transport &amp; Communication Networks</td></tr>
+      <tr><td>9</td><td>Indian Coastline &amp; Islands</td></tr>
+      <tr><td>10</td><td>Northeast India — Physical, Economic &amp; Strategic Geography</td></tr>
+      <tr><td>11</td><td>Water Resources &amp; Irrigation in India</td></tr>
+      <tr><td>12</td><td>Crop Geography &amp; Agricultural Regions</td></tr>
+      <tr><td>13</td><td>Soil Geography, Land Degradation &amp; Conservation</td></tr>
+    </tbody></table>
+  </div>
+
+  <div class="subtopic-block">
+    <div class="subtopic-name">world-geography — 12 chapters</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>World Geography Overview</td></tr>
+      <tr><td>2</td><td>World Resource Distribution &amp; Geopolitical Locations</td></tr>
+      <tr><td>3</td><td>World Economic Geography</td></tr>
+      <tr><td>4</td><td>World Climate &amp; Biomes — Koppen Classification</td></tr>
+      <tr><td>5</td><td>Global Water Resources</td></tr>
+      <tr><td>6</td><td>World Mapping — Strategic Straits, Canals, Mountain Ranges</td></tr>
+      <tr><td>7</td><td>World Population &amp; Urbanisation</td></tr>
+      <tr><td>8</td><td>Geopolitics of Arctic, Antarctic &amp; International Boundaries</td></tr>
+      <tr><td>9</td><td>Middle East &amp; Africa — Physical Geography &amp; Geopolitics</td></tr>
+      <tr><td>10</td><td>Latin America &amp; Southeast Asia</td></tr>
+      <tr><td>11</td><td>Natural Resources, Energy Geography &amp; Global Resource Politics</td></tr>
+      <tr><td>12</td><td>Climate Regions, Koppen Classification &amp; Global Biomes</td></tr>
+    </tbody></table>
+  </div>
+
+  <div class="subtopic-block">
+    <div class="subtopic-name">human-economic-geography — 12 chapters</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Human Geography of India</td></tr>
+      <tr><td>2</td><td>Agriculture Geography &amp; Food Security</td></tr>
+      <tr><td>3</td><td>Industries &amp; Location Factors</td></tr>
+      <tr><td>4</td><td>Urbanisation &amp; Smart Cities</td></tr>
+      <tr><td>5</td><td>Population &amp; Migration Geography</td></tr>
+      <tr><td>6</td><td>Tourism &amp; Cultural Geography</td></tr>
+      <tr><td>7</td><td>Land Use, Regional Planning &amp; Development</td></tr>
+      <tr><td>8</td><td>Trade Routes, Economic Corridors &amp; Connectivity</td></tr>
+      <tr><td>9</td><td>Mineral Resources &amp; Mining Economy of India</td></tr>
+      <tr><td>10</td><td>Crop Geography &amp; Agricultural Regions of India</td></tr>
+      <tr><td>11</td><td>Global Agriculture, Food Security &amp; Agrarian Systems</td></tr>
+      <tr><td>12</td><td>Industrial Geography — Location Factors &amp; Major Industrial Regions</td></tr>
+    </tbody></table>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     7. HISTORY & CULTURE
+═══════════════════════════════════════════ -->
+<div class="subject-section">
+  <div class="subject-header">
+    <span class="subject-num">07</span>
+    <span class="subject-title">History &amp; Culture</span>
+    <span class="subject-count">93 chapters · GS1 · Prelims</span>
+  </div>
+
+  <div class="subtopic-block">
+    <div class="subtopic-name">ancient-india — 13 chapters</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Indus Valley Civilization (c. 2500–1700 BCE)</td></tr>
+      <tr><td>2</td><td>Vedic Period (c. 1500–600 BCE)</td></tr>
+      <tr><td>3</td><td>Mahajanapadas &amp; Rise of Magadha</td></tr>
+      <tr><td>4</td><td>Maurya Empire &amp; Ashoka</td></tr>
+      <tr><td>5</td><td>Post-Mauryan Period</td></tr>
+      <tr><td>6</td><td>Gupta Empire — The Golden Age</td></tr>
+      <tr><td>7</td><td>Buddhism &amp; Jainism — Origins, Teachings &amp; Spread</td></tr>
+      <tr><td>8</td><td>Ancient Art, Architecture &amp; Literature</td></tr>
+      <tr><td>9</td><td>Ancient Indian Science &amp; Contributions</td></tr>
+      <tr><td>10</td><td>Sangam Age &amp; Early South India</td></tr>
+      <tr><td>11</td><td>Ancient Indian Trade, Guilds &amp; Economy</td></tr>
+      <tr><td>12</td><td>Harsha &amp; Post-Gupta Period</td></tr>
+      <tr><td>13</td><td>Ancient Indian Philosophy — Six Darshanas</td></tr>
+    </tbody></table>
+  </div>
+
+  <div class="subtopic-block">
+    <div class="subtopic-name">medieval-india — 13 chapters</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Delhi Sultanate (1206–1526)</td></tr>
+      <tr><td>2</td><td>Mughal Empire — Babur to Akbar (1526–1605)</td></tr>
+      <tr><td>3</td><td>Later Mughals &amp; Decline (1605–1857)</td></tr>
+      <tr><td>4</td><td>Vijayanagara Empire &amp; Deccan Sultanates</td></tr>
+      <tr><td>5</td><td>Bhakti &amp; Sufi Movements</td></tr>
+      <tr><td>6</td><td>Maratha Empire (1674–1818)</td></tr>
+      <tr><td>7</td><td>Chola Dynasty &amp; South Indian Powers</td></tr>
+      <tr><td>8</td><td>Medieval Society, Economy &amp; Culture</td></tr>
+      <tr><td>9</td><td>Medieval Administration &amp; Revenue Systems</td></tr>
+      <tr><td>10</td><td>Sikh Gurus, Rajput Kingdoms &amp; Regional Powers</td></tr>
+      <tr><td>11</td><td>Mughal Art, Architecture &amp; Cultural Legacy</td></tr>
+      <tr><td>12</td><td>Vijayanagara Empire &amp; Bahmani Sultanate</td></tr>
+      <tr><td>13</td><td>Mughal Administration, Economy &amp; Cultural Contributions</td></tr>
+    </tbody></table>
+  </div>
+
+  <div class="subtopic-block">
+    <div class="subtopic-name">modern-india — 16 chapters</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>British Conquest &amp; Consolidation (1757–1857)</td></tr>
+      <tr><td>2</td><td>The Revolt of 1857</td></tr>
+      <tr><td>3</td><td>Social &amp; Religious Reform Movements</td></tr>
+      <tr><td>4</td><td>British Land Revenue &amp; Economic Policies</td></tr>
+      <tr><td>5</td><td>Constitutional Development Under British Rule (1773–1947)</td></tr>
+      <tr><td>6</td><td>Education, Press &amp; Intellectual Awakening</td></tr>
+      <tr><td>7</td><td>Peasant, Tribal &amp; Working Class Movements</td></tr>
+      <tr><td>8</td><td>Women's Emancipation &amp; Dalit Movements in Colonial India</td></tr>
+      <tr><td>9</td><td>World Wars &amp; Their Impact on India</td></tr>
+      <tr><td>10</td><td>Colonial Administration &amp; Civil Services in India</td></tr>
+      <tr><td>11</td><td>Early Nationalist Economic Thought — Drain Theory, Naoroji</td></tr>
+      <tr><td>12</td><td>Revolutionary Nationalism, INA &amp; Subhas Chandra Bose</td></tr>
+      <tr><td>13</td><td>Quit India Movement, Cripps Mission &amp; Cabinet Mission</td></tr>
+      <tr><td>14</td><td>Non-Cooperation, Khilafat &amp; Civil Disobedience Movements</td></tr>
+      <tr><td>15</td><td>INC Formation, Moderates vs Extremists &amp; Swadeshi Movement</td></tr>
+      <tr><td>16</td><td>Gandhian Era — Champaran, Kheda, Rowlatt Satyagraha</td></tr>
+    </tbody></table>
+  </div>
+
+  <div class="subtopic-block">
+    <div class="subtopic-name">freedom-struggle — 10 chapters</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Rise of Indian Nationalism &amp; the INC (1857–1905)</td></tr>
+      <tr><td>2</td><td>Extremists &amp; Swadeshi Movement (1905–1919)</td></tr>
+      <tr><td>3</td><td>Gandhi's Early Movements (1915–1922)</td></tr>
+      <tr><td>4</td><td>Revolutionary Nationalists</td></tr>
+      <tr><td>5</td><td>Civil Disobedience &amp; Round Table Conferences (1928–1934)</td></tr>
+      <tr><td>6</td><td>Quit India Movement &amp; Final Phase (1939–1943)</td></tr>
+      <tr><td>7</td><td>Subhas Chandra Bose &amp; the INA</td></tr>
+      <tr><td>8</td><td>Road to Independence &amp; Partition (1944–1947)</td></tr>
+      <tr><td>9</td><td>Women in Freedom Movement, Role of Press &amp; Princely States</td></tr>
+      <tr><td>10</td><td>Khilafat Movement, Home Rule &amp; Constitutional Reforms</td></tr>
+    </tbody></table>
+  </div>
+
+  <div class="subtopic-block">
+    <div class="subtopic-name">post-independence-india — 13 chapters</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Integration of Princely States &amp; States Reorganisation</td></tr>
+      <tr><td>2</td><td>Planned Economic Development</td></tr>
+      <tr><td>3</td><td>Wars &amp; Foreign Policy</td></tr>
+      <tr><td>4</td><td>The Emergency &amp; Democratic Resilience (1975–1977)</td></tr>
+      <tr><td>5</td><td>Constitutional Evolution &amp; Landmark Cases</td></tr>
+      <tr><td>6</td><td>1991 Economic Reforms &amp; Liberalisation</td></tr>
+      <tr><td>7</td><td>Coalition Era &amp; Political Evolution</td></tr>
+      <tr><td>8</td><td>India's Nuclear &amp; Space Programme</td></tr>
+      <tr><td>9</td><td>Green Revolution &amp; Agricultural Transformation</td></tr>
+      <tr><td>10</td><td>Social Legislation &amp; Reservation Policy Since 1947</td></tr>
+      <tr><td>11</td><td>States Reorganisation &amp; Linguistic States</td></tr>
+      <tr><td>12</td><td>Communalism, Partition &amp; Ayodhya</td></tr>
+      <tr><td>13</td><td>Land Reforms, Zamindari Abolition &amp; Agrarian Change</td></tr>
+    </tbody></table>
+  </div>
+
+  <div class="subtopic-block">
+    <div class="subtopic-name">world-history — 13 chapters</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Industrial Revolution &amp; American Revolution</td></tr>
+      <tr><td>2</td><td>French Revolution &amp; Napoleonic Era</td></tr>
+      <tr><td>3</td><td>Unification of Italy &amp; Germany</td></tr>
+      <tr><td>4</td><td>World War I &amp; Russian Revolution</td></tr>
+      <tr><td>5</td><td>Rise of Fascism/Nazism &amp; World War II</td></tr>
+      <tr><td>6</td><td>Cold War, Decolonisation &amp; Globalisation</td></tr>
+      <tr><td>7</td><td>Chinese Revolution &amp; Asian Communism</td></tr>
+      <tr><td>8</td><td>Arab Nationalism, African Liberation &amp; Latin American Revolutions</td></tr>
+      <tr><td>9</td><td>United Nations &amp; Post-War World Order</td></tr>
+      <tr><td>10</td><td>Collapse of the USSR &amp; New World Order</td></tr>
+      <tr><td>11</td><td>Colonialism, Imperialism &amp; Decolonisation</td></tr>
+      <tr><td>12</td><td>Political Philosophies — Capitalism, Communism, Socialism, Fascism</td></tr>
+      <tr><td>13</td><td>Rise of Fascism, Nazism &amp; World War II ⚠️ <em>(possible duplicate of Ch 5)</em></td></tr>
+    </tbody></table>
+  </div>
+
+  <div class="subtopic-block">
+    <div class="subtopic-name">indian-culture — 15 chapters</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Indian Art — Painting &amp; Sculpture</td></tr>
+      <tr><td>2</td><td>Classical Dance Forms of India</td></tr>
+      <tr><td>3</td><td>Classical Music of India</td></tr>
+      <tr><td>4</td><td>Temple Architecture &amp; Heritage Sites</td></tr>
+      <tr><td>5</td><td>Languages, Literature &amp; Festivals</td></tr>
+      <tr><td>6</td><td>Folk Arts, Theatre &amp; Puppetry</td></tr>
+      <tr><td>7</td><td>Indian Cinema, Media &amp; Broadcasting</td></tr>
+      <tr><td>8</td><td>Indian Handicrafts, Textiles &amp; GI-Tagged Products</td></tr>
+      <tr><td>9</td><td>Indian Philosophy &amp; Knowledge Systems</td></tr>
+      <tr><td>10</td><td>UNESCO World Heritage Sites &amp; Cave Architecture</td></tr>
+      <tr><td>11</td><td>Indian Martial Arts, Traditional Sports &amp; Games</td></tr>
+      <tr><td>12</td><td>Intangible Cultural Heritage, GI Tags &amp; Living Traditions</td></tr>
+      <tr><td>13</td><td>Classical Languages — Sanskrit, Tamil &amp; Dravidian Tradition</td></tr>
+      <tr><td>14</td><td>Sufism &amp; Bhakti Movement</td></tr>
+      <tr><td>15</td><td>Folk Theatre, Puppetry &amp; Traditional Performing Arts ⚠️ <em>(possible duplicate of Ch 6)</em></td></tr>
+    </tbody></table>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     8. INTERNATIONAL RELATIONS
+═══════════════════════════════════════════ -->
+<div class="subject-section">
+  <div class="subject-header">
+    <span class="subject-num">08</span>
+    <span class="subject-title">International Relations</span>
+    <span class="subject-count">23 chapters · GS2</span>
+  </div>
+  <div class="subtopic-block">
+    <div class="subtopic-name">global-relations</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>India's Foreign Policy — Evolution, Doctrines &amp; Key Relationships</td></tr>
+      <tr><td>2</td><td>India &amp; Its Neighbours</td></tr>
+      <tr><td>3</td><td>International Organisations — UN, WTO, IMF, World Bank</td></tr>
+      <tr><td>4</td><td>International Trade, WTO &amp; Trade Agreements</td></tr>
+      <tr><td>5</td><td>India &amp; Multilateral Forums — BRICS, SCO, Quad, G20</td></tr>
+      <tr><td>6</td><td>India's Strategic Partnerships — USA, Russia, Japan, EU</td></tr>
+      <tr><td>7</td><td>Global Security &amp; Arms Control — NPT, CTBT</td></tr>
+      <tr><td>8</td><td>India's Development &amp; Humanitarian Diplomacy</td></tr>
+      <tr><td>9</td><td>International Law &amp; Treaties — UNCLOS, ICJ</td></tr>
+      <tr><td>10</td><td>India–China Relations</td></tr>
+      <tr><td>11</td><td>Indo-Pacific Strategy, QUAD &amp; ASEAN</td></tr>
+      <tr><td>12</td><td>India &amp; the Middle East, Africa &amp; Central Asia ⚠️</td></tr>
+      <tr><td>13</td><td>India–USA Relations</td></tr>
+      <tr><td>14</td><td>India–Russia &amp; India–Europe Relations ⚠️</td></tr>
+      <tr><td>15</td><td>Indian Diaspora, Soft Power &amp; Cultural Diplomacy</td></tr>
+      <tr><td>16</td><td>Climate Diplomacy &amp; Global Commons</td></tr>
+      <tr><td>17</td><td>India–Central Asia &amp; Pacific Island Relations</td></tr>
+      <tr><td>18</td><td>India-Africa Relations</td></tr>
+      <tr><td>19</td><td>India-UN Relations, UNSC Reform &amp; Peacekeeping</td></tr>
+      <tr><td>20</td><td>India-Russia &amp; India-Europe Relations ⚠️ <em>(possible duplicate of Ch 14)</em></td></tr>
+      <tr><td>21</td><td>India-Southeast Asia — ASEAN &amp; Act East Policy</td></tr>
+      <tr><td>22</td><td>India-Middle East Relations — Gulf &amp; Diaspora ⚠️ <em>(possible duplicate of Ch 12)</em></td></tr>
+      <tr><td>23</td><td>India's Nuclear Diplomacy, NSG &amp; Strategic Autonomy</td></tr>
+    </tbody></table>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     9. POLITY
+═══════════════════════════════════════════ -->
+<div class="subject-section">
+  <div class="subject-header">
+    <span class="subject-num">09</span>
+    <span class="subject-title">Polity</span>
+    <span class="subject-count">29 chapters · GS2 · Prelims</span>
+  </div>
+  <div class="subtopic-block">
+    <div class="subtopic-name">constitutional-polity</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Preamble of the Indian Constitution</td></tr>
+      <tr><td>2</td><td>Fundamental Rights — Part III (Articles 12–35)</td></tr>
+      <tr><td>3</td><td>Directive Principles of State Policy</td></tr>
+      <tr><td>4</td><td>Union Executive — President, VP, PM &amp; Council of Ministers</td></tr>
+      <tr><td>5</td><td>Indian Parliament — Structure, Powers &amp; Procedures</td></tr>
+      <tr><td>6</td><td>State Government — Governor, CM, State Legislature</td></tr>
+      <tr><td>7</td><td>Indian Judiciary — Supreme Court, High Courts &amp; Judicial Review</td></tr>
+      <tr><td>8</td><td>Indian Constitution — Historical Underpinnings &amp; Basic Structure</td></tr>
+      <tr><td>9</td><td>Local Government — Panchayati Raj &amp; Municipalities</td></tr>
+      <tr><td>10</td><td>Constitutional Bodies — ECI, CAG, UPSC, Finance Commission</td></tr>
+      <tr><td>11</td><td>RTI, Social Audit, E-Governance &amp; Administrative Tribunals</td></tr>
+      <tr><td>12</td><td>Emergency Provisions</td></tr>
+      <tr><td>13</td><td>Statutory &amp; Regulatory Bodies</td></tr>
+      <tr><td>14</td><td>Constitutional Amendments, Schedules &amp; Special Provisions</td></tr>
+      <tr><td>15</td><td>Electoral Systems &amp; Reforms</td></tr>
+      <tr><td>16</td><td>Landmark Constitutional Judgments</td></tr>
+      <tr><td>17</td><td>Governance Reforms &amp; Commissions — Sarkaria, Punchhi, 2nd ARC</td></tr>
+      <tr><td>18</td><td>Fundamental Duties &amp; Citizenship</td></tr>
+      <tr><td>19</td><td>Anti-Defection Law, PIL &amp; Tribunals</td></tr>
+      <tr><td>20</td><td>Constitutional Morality, Basic Structure &amp; Separation of Powers</td></tr>
+      <tr><td>21</td><td>Comparative Constitutional Schemes — India vs UK, USA, France</td></tr>
+      <tr><td>22</td><td>Political Parties, Pressure Groups &amp; Representative Democracy</td></tr>
+      <tr><td>23</td><td>Centre-State Financial Relations &amp; Fiscal Federalism</td></tr>
+      <tr><td>24</td><td>Parliamentary Procedures, Question Hour &amp; Committees</td></tr>
+      <tr><td>25</td><td>Governor — Discretionary Powers &amp; Controversies</td></tr>
+      <tr><td>26</td><td>Directive Principles — Welfare State &amp; Conflicts with FRs</td></tr>
+      <tr><td>27</td><td>Decentralisation — 73rd &amp; 74th Amendments</td></tr>
+      <tr><td>28</td><td>Centre-State Relations &amp; Inter-State Disputes</td></tr>
+      <tr><td>29</td><td>Judicial Reforms — Pendency, NJAC &amp; Fast-Track Courts</td></tr>
+    </tbody></table>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     10. SCIENCE & TECHNOLOGY
+═══════════════════════════════════════════ -->
+<div class="subject-section">
+  <div class="subject-header">
+    <span class="subject-num">10</span>
+    <span class="subject-title">Science &amp; Technology</span>
+    <span class="subject-count">20 chapters · GS3</span>
+  </div>
+  <div class="subtopic-block">
+    <div class="subtopic-name">science-technology</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Space Technology — ISRO, Missions, Satellites &amp; Launch Vehicles</td></tr>
+      <tr><td>2</td><td>Biotechnology — GM Crops, CRISPR, Regulatory Framework &amp; Bioeconomy</td></tr>
+      <tr><td>4</td><td>IT, Cybersecurity &amp; Defence Technology</td></tr>
+      <tr><td>5</td><td>Emerging Technologies — AI, Quantum Computing, Blockchain, IoT</td></tr>
+      <tr><td>6</td><td>Defence Technology — Missiles, Nuclear Doctrine, DRDO</td></tr>
+      <tr><td>7</td><td>Nuclear Technology, Nanotechnology &amp; New Materials</td></tr>
+      <tr><td>8</td><td>Quantum Computing &amp; Telecommunications — 5G, 6G</td></tr>
+      <tr><td>9</td><td>Scientific Research Institutions &amp; Governance</td></tr>
+      <tr><td>10</td><td>Intellectual Property Rights — Patents, GI Tags, TRIPS</td></tr>
+      <tr><td>11</td><td>Robotics, Automation &amp; Industry 4.0</td></tr>
+      <tr><td>12</td><td>Health Technology &amp; Medical Devices</td></tr>
+      <tr><td>13</td><td>AI Governance, Ethics &amp; India's AI Policy</td></tr>
+      <tr><td>14</td><td>Electric Vehicles, Battery Technology &amp; Semiconductors</td></tr>
+      <tr><td>15</td><td>Green Hydrogen &amp; Clean Energy Technology</td></tr>
+      <tr><td>16</td><td>Gene Editing, CRISPR &amp; Synthetic Biology</td></tr>
+      <tr><td>17</td><td>Advanced Materials — Graphene, Composites, Smart Materials</td></tr>
+      <tr><td>18</td><td>Drones, UAV Policy &amp; India's New Space Economy</td></tr>
+      <tr><td>19</td><td>Space Policy, ISRO &amp; Outer Space Law</td></tr>
+      <tr><td>20</td><td>Semiconductor Policy &amp; India Semiconductor Mission</td></tr>
+      <tr><td>21</td><td>Artificial Intelligence — IndiaAI Mission &amp; Governance</td></tr>
+    </tbody></table>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     11. SECURITY
+═══════════════════════════════════════════ -->
+<div class="subject-section">
+  <div class="subject-header">
+    <span class="subject-num">11</span>
+    <span class="subject-title">Security</span>
+    <span class="subject-count">19 chapters · GS3</span>
+  </div>
+  <div class="subtopic-block">
+    <div class="subtopic-name">internal-security</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Internal Security — Threats, Cyber Security &amp; Border Management</td></tr>
+      <tr><td>2</td><td>Left Wing Extremism &amp; Insurgency in India</td></tr>
+      <tr><td>3</td><td>Border Management</td></tr>
+      <tr><td>4</td><td>Cyber Security</td></tr>
+      <tr><td>5</td><td>Role of Media &amp; Social Networking in Internal Security</td></tr>
+      <tr><td>6</td><td>Organised Crime, Terrorism Financing &amp; Money Laundering</td></tr>
+      <tr><td>7</td><td>Counterterrorism &amp; Intelligence — NIA, NSG, UAPA</td></tr>
+      <tr><td>8</td><td>Drug Trafficking &amp; Narcotics Control</td></tr>
+      <tr><td>9</td><td>Maritime &amp; Coastal Security</td></tr>
+      <tr><td>10</td><td>Insurgency in Northeast India</td></tr>
+      <tr><td>11</td><td>Proxy War, Hybrid Threats &amp; Radicalisation</td></tr>
+      <tr><td>12</td><td>Police Reforms &amp; Criminal Justice System</td></tr>
+      <tr><td>13</td><td>Human Trafficking &amp; Modern Slavery</td></tr>
+      <tr><td>14</td><td>Critical Infrastructure Protection &amp; Space Security</td></tr>
+      <tr><td>15</td><td>Radicalisation &amp; Counter-Radicalisation</td></tr>
+      <tr><td>17</td><td>Development-Extremism Nexus</td></tr>
+      <tr><td>18</td><td>Emerging Technologies in Security — AI Surveillance</td></tr>
+      <tr><td>19</td><td>Intelligence Agencies, NIA &amp; NATGRID</td></tr>
+      <tr><td>20</td><td>Cybercrime, IT Laws &amp; Digital Forensics</td></tr>
+    </tbody></table>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     12. SOCIETY
+═══════════════════════════════════════════ -->
+<div class="subject-section">
+  <div class="subject-header">
+    <span class="subject-num">12</span>
+    <span class="subject-title">Society</span>
+    <span class="subject-count">25 chapters · GS1 · GS2</span>
+  </div>
+  <div class="subtopic-block">
+    <div class="subtopic-name">indian-society</div>
+    <table><thead><tr><th>Ch</th><th>Chapter Title</th></tr></thead><tbody>
+      <tr><td>1</td><td>Indian Society — Diversity, Demographics &amp; Social Issues</td></tr>
+      <tr><td>2</td><td>Social Issues — Poverty, Women Empowerment, Education</td></tr>
+      <tr><td>3</td><td>Population, Urbanisation &amp; Migration</td></tr>
+      <tr><td>4</td><td>Globalisation &amp; Its Effects on Indian Society</td></tr>
+      <tr><td>5</td><td>Welfare Schemes &amp; Social Justice</td></tr>
+      <tr><td>6</td><td>Governance, Transparency &amp; Accountability</td></tr>
+      <tr><td>7</td><td>Caste, Tribal &amp; Minority Dynamics</td></tr>
+      <tr><td>8</td><td>Gender Issues, Women Empowerment &amp; Social Inclusion</td></tr>
+      <tr><td>9</td><td>Education System &amp; NEP 2020</td></tr>
+      <tr><td>10</td><td>Food &amp; Nutrition Security</td></tr>
+      <tr><td>11</td><td>Social Movements &amp; Activism</td></tr>
+      <tr><td>12</td><td>Health &amp; Public Health</td></tr>
+      <tr><td>13</td><td>Communalism, Secularism &amp; National Integration</td></tr>
+      <tr><td>14</td><td>Role of NGOs, Civil Society &amp; SHGs</td></tr>
+      <tr><td>15</td><td>Child Rights, Elderly Welfare &amp; Disability Inclusion</td></tr>
+      <tr><td>16</td><td>Mental Health &amp; Drug Abuse</td></tr>
+      <tr><td>17</td><td>Tribal Issues, PVTGs &amp; Forest Rights</td></tr>
+      <tr><td>18</td><td>Indian Diaspora, Migration &amp; Overseas Indians</td></tr>
+      <tr><td>19</td><td>Poverty Measurement, Social Indicators &amp; Development Paradox</td></tr>
+      <tr><td>20</td><td>Urbanisation, Housing Deficit &amp; Slum Rehabilitation</td></tr>
+      <tr><td>21</td><td>Gender Equality, Women Empowerment &amp; Feminist Movements</td></tr>
+      <tr><td>22</td><td>Dalit Rights &amp; SC/ST Atrocities Act</td></tr>
+      <tr><td>23</td><td>OBC Reservation, Mandal Commission &amp; Social Justice</td></tr>
+      <tr><td>24</td><td>Women's Rights, Domestic Violence &amp; Gender Justice Laws</td></tr>
+      <tr><td>25</td><td>Tribal Rights, PVTGs &amp; Forest Rights Act</td></tr>
+    </tbody></table>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     FLAGS / REVIEW ITEMS
+═══════════════════════════════════════════ -->
+<div class="flag-section">
+  <h2>⚠ Flagged for Review</h2>
+
+  <div class="flag-item">
+    <span class="badge">DUPLICATE?</span>
+    <div class="text"><strong>World History Ch 5 &amp; Ch 13</strong> — Both titled "Rise of Fascism, Nazism &amp; World War II". Ch 5 appears to be the original; Ch 13 may be a later addition that duplicates it.</div>
+  </div>
+
+  <div class="flag-item">
+    <span class="badge">DUPLICATE?</span>
+    <div class="text"><strong>Indian Culture Ch 6 &amp; Ch 15</strong> — Ch 6 is "Folk Arts, Theatre &amp; Puppetry"; Ch 15 is "Folk Theatre, Puppetry &amp; Traditional Performing Arts". Very likely substantial overlap.</div>
+  </div>
+
+  <div class="flag-item">
+    <span class="badge">DUPLICATE?</span>
+    <div class="text"><strong>IR Ch 14 &amp; Ch 20</strong> — Both titled "India-Russia &amp; India-Europe Relations". Exact title duplication.</div>
+  </div>
+
+  <div class="flag-item">
+    <span class="badge">DUPLICATE?</span>
+    <div class="text"><strong>IR Ch 12 &amp; Ch 22</strong> — Ch 12 is "India &amp; the Middle East, Africa &amp; Central Asia"; Ch 22 is "India-Middle East Relations — Gulf &amp; Diaspora". Significant content overlap likely.</div>
+  </div>
+
+  <div class="flag-item">
+    <span class="badge">GAP</span>
+    <div class="text"><strong>Ethics Ch 15 missing</strong> — Chapter numbering jumps from Ch 14 to Ch 16. Ch 15 was merged into Ch 18 (International Ethics) in a previous session.</div>
+  </div>
+
+  <div class="flag-item">
+    <span class="badge">GAP</span>
+    <div class="text"><strong>Security Ch 16 missing</strong> — Chapter numbering jumps from Ch 15 to Ch 17.</div>
+  </div>
+
+  <div class="flag-item">
+    <span class="badge">GAP</span>
+    <div class="text"><strong>Science-Tech Ch 3 missing</strong> — Ch 3 (Biotechnology &amp; Agriculture) was merged into Ch 2 in the March 2026 cleanup session.</div>
+  </div>
+
+  <div class="flag-item">
+    <span class="badge">OVERLAP</span>
+    <div class="text"><strong>Society Ch 17 &amp; Ch 25</strong> — Ch 17 is "Tribal Issues, PVTGs &amp; Forest Rights"; Ch 25 is "Tribal Rights, PVTGs &amp; Forest Rights Act". Likely redundant.</div>
+  </div>
+
+  <div class="flag-item">
+    <span class="badge">OVERLAP</span>
+    <div class="text"><strong>Society Ch 8 &amp; Ch 21 &amp; Ch 24</strong> — Three chapters all covering women/gender: Ch 8 "Gender Issues &amp; Women Empowerment", Ch 21 "Gender Equality, Women Empowerment &amp; Feminist Movements", Ch 24 "Women's Rights, Domestic Violence &amp; Gender Justice Laws". May need consolidation.</div>
+  </div>
+
+  <div style="margin-top:32px;padding:16px;background:#f0f7f4;border-radius:6px;font-size:10pt;color:#333;">
+    <strong style="color:#0f4c3a;">Generated:</strong> March 2026 &nbsp;·&nbsp;
+    <strong style="color:#0f4c3a;">Source:</strong> d:\WebDev_2\BharatNotes\src\content\subjects\ &nbsp;·&nbsp;
+    <strong style="color:#0f4c3a;">Site:</strong> bharatnotes.com
+  </div>
+</div>
+
+</body>
+</html>

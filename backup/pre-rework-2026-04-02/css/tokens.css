@@ -1,0 +1,121 @@
+/* ═══════════════════════════════════════════════════════════════
+   BHARATNOTES — Design Tokens v3
+   Deep indigo + warm coral — scholarly, bold, distinctive
+═══════════════════════════════════════════════════════════════ */
+
+:root {
+  /* ── Colors ──────────────────────────────────────── */
+
+  /* Brand — deep indigo-navy, scholarly and authoritative */
+  --color-brand:       #1e293b;
+  --color-brand-dark:  #0f172a;
+  --color-brand-mid:   #334155;
+  --color-brand-light: #374151;
+
+  /* Accent — warm terracotta-coral, energetic and distinctive */
+  --color-accent:       #e05a33;
+  --color-accent-hover: #c94d2a;
+  --color-accent-light: #f08c6d;
+  --color-accent-pale:  #fef0eb;
+
+  /* Secondary accent — amber for highlights */
+  --color-highlight:     #d97706;
+  --color-highlight-pale:#fefbf0;
+
+  /* Surfaces — warm cream base */
+  --color-bg:          #faf8f6;
+  --color-bg-alt:      #f0ece7;   /* slightly tinted — for inset boxes, alpha bars */
+  --color-surface:     #ffffff;
+  --color-surface-alt: #f5f2ee;
+
+  /* Text */
+  --color-text:         #1a1a2e;
+  --color-text-secondary:#3a3a54;
+  --color-text-muted:   #6b6b80;
+  --color-white:        #ffffff;
+
+  /* Borders — warm-tinted */
+  --color-border:       #d6d1ca;
+  --color-border-light: #e8e3dc;
+
+  /* Status */
+  --color-success: #0f8a4c;
+  --color-warning: #d4870a;
+  --color-error:   #c9302c;
+
+  /* ── Typography ─────────────────────────────────── */
+
+  --font-heading: 'DM Serif Display', Georgia, 'Times New Roman', serif;
+  --font-body:    'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono:    'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Backward-compat aliases */
+  --font-serif: var(--font-heading);
+  --font-sans:  var(--font-body);
+
+  /* Type scale — 1.2 ratio (minor third) from 16px base */
+  --text-xs:   0.8rem;      /* 12.8px — meta, labels, captions */
+  --text-sm:   0.875rem;    /* 14px — secondary body, card text */
+  --text-base: 1rem;        /* 16px — primary body text */
+  --text-md:   1.1rem;      /* 17.6px — emphasis body */
+  --text-lg:   1.25rem;     /* 20px — section titles, card heads */
+  --text-xl:   1.5rem;      /* 24px — page subtitles */
+  --text-2xl:  1.875rem;    /* 30px — page titles */
+  --text-3xl:  2.25rem;     /* 36px — hero headings */
+  --text-4xl:  3rem;        /* 48px — display */
+
+  /* Weights */
+  --font-normal:    400;
+  --font-medium:    500;
+  --font-semibold:  600;
+  --font-bold:      700;
+  --font-extrabold: 800;
+
+  /* Line height */
+  --leading-tight:   1.2;
+  --leading-snug:    1.35;
+  --leading-normal:  1.55;
+  --leading-relaxed: 1.7;
+  --leading-loose:   1.85;
+
+  /* Letter spacing */
+  --tracking-tight:  -0.01em;
+  --tracking-normal: 0;
+  --tracking-wide:   0.04em;
+  --tracking-wider:  0.08em;
+
+  /* ── Spacing ────────────────────────────────────── */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-5:  1.25rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* ── Radius ─────────────────────────────────────── */
+  --radius-sm:   6px;
+  --radius-md:   10px;
+  --radius-lg:   14px;
+  --radius-xl:   20px;
+  --radius-2xl:  28px;
+  --radius-full: 9999px;
+
+  /* ── Shadows ────────────────────────────────────── */
+  --shadow-xs:  0 1px 2px rgba(30,41,59,0.04);
+  --shadow-sm:  0 1px 3px rgba(30,41,59,0.06), 0 1px 2px rgba(30,41,59,0.03);
+  --shadow-md:  0 4px 8px rgba(30,41,59,0.06), 0 2px 4px rgba(30,41,59,0.03);
+  --shadow-lg:  0 8px 24px rgba(30,41,59,0.08), 0 4px 8px rgba(30,41,59,0.04);
+  --shadow-xl:  0 16px 48px rgba(30,41,59,0.10), 0 8px 16px rgba(30,41,59,0.04);
+  --shadow-card-hover: 0 8px 30px rgba(30,41,59,0.10), 0 2px 8px rgba(30,41,59,0.05);
+
+  /* ── Transitions ────────────────────────────────── */
+  --transition-fast:   120ms ease;
+  --transition-normal: 200ms ease;
+  --transition-slow:   350ms cubic-bezier(0.4, 0, 0.2, 1);
+}

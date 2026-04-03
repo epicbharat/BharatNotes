@@ -1,22 +1,20 @@
 /**
  * BharatNotes Mains Evaluator — Cloudflare Worker
- * Calls Google Gemini Flash (free tier) to evaluate a UPSC Mains answer.
+ * Tries Gemini 2.0 Flash first; falls back to Groq (Llama 3.3 70B) on quota/error.
  *
- * Setup:
- *   1. wrangler secret put GEMINI_KEY   (paste your Gemini API key)
- *   2. wrangler deploy
- *
- * Allowed origin: https://bharatnotes.com (change if needed)
+ * Secrets (wrangler secret put <NAME>):
+ *   GEMINI_KEY  — Google AI Studio key
+ *   GROQ_KEY    — Groq API key
  */
 
-const ALLOWED_ORIGINS = ['https://bharatnotes.com', 'http://localhost:8080'];
-const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent';
+const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent';
+const GROQ_URL   = 'https://api.groq.com/openai/v1/chat/completions';
+const GROQ_MODEL = 'llama-3.3-70b-versatile';
 
 export default {
   async fetch(request, env) {
-    const origin = request.headers.get('Origin') || '';
     const corsHeaders = {
-      'Access-Control-Allow-Origin': ALLOWED_ORIGINS.includes(origin) ? origin : ALLOWED_ORIGINS[0],
+      'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Methods': 'POST, OPTIONS',
       'Access-Control-Allow-Headers': 'Content-Type',
       'Content-Type': 'application/json'
@@ -37,15 +35,12 @@ export default {
     }
 
     const { question, answer, marks, words, paper, model_key_points } = body;
-
     if (!question || !answer || !marks) {
       return new Response(JSON.stringify({ error: 'Missing required fields' }), { status: 400, headers: corsHeaders });
     }
 
-    /* Clamp answer length to avoid token abuse */
-    const safeAnswer = String(answer).slice(0, 3000);
-    const wordCount   = safeAnswer.trim().split(/\s+/).length;
-
+    const safeAnswer    = String(answer).slice(0, 3000);
+    const wordCount     = safeAnswer.trim().split(/\s+/).length;
     const keyPointsBlock = (model_key_points && model_key_points.length)
       ? `\nKEY POINTS THIS ANSWER SHOULD COVER:\n${model_key_points.map((p, i) => `${i + 1}. ${p}`).join('\n')}`
       : '';
@@ -83,38 +78,55 @@ Return ONLY valid JSON — no markdown, no explanation outside JSON:
   "examiner_note": "<2-3 sentences of actionable examiner-level feedback>"
 }`;
 
-    let geminiRes;
+    /* ── 1. Try Gemini ─────────────────────────────────── */
+    if (env.GEMINI_KEY) {
+      try {
+        const gr = await fetch(`${GEMINI_URL}?key=${env.GEMINI_KEY}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            contents: [{ parts: [{ text: prompt }] }],
+            generationConfig: { temperature: 0.2, responseMimeType: 'application/json' }
+          })
+        });
+        if (gr.ok) {
+          const gd  = await gr.json();
+          const raw = gd?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+          const ev  = JSON.parse(raw);
+          return new Response(JSON.stringify(ev), { status: 200, headers: corsHeaders });
+        }
+        /* 429 or other error → fall through to Groq */
+      } catch (_) { /* network error → fall through */ }
+    }
+
+    /* ── 2. Fallback: Groq (Llama 3.3 70B) ────────────── */
+    if (!env.GROQ_KEY) {
+      return new Response(JSON.stringify({ error: 'All AI providers unavailable' }), { status: 503, headers: corsHeaders });
+    }
     try {
-      geminiRes = await fetch(`${GEMINI_URL}?key=${env.GEMINI_KEY}`, {
+      const qr = await fetch(GROQ_URL, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${env.GROQ_KEY}`
+        },
         body: JSON.stringify({
-          contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: {
-            temperature: 0.2,
-            responseMimeType: 'application/json'
-          }
+          model: GROQ_MODEL,
+          messages: [{ role: 'user', content: prompt }],
+          temperature: 0.2,
+          response_format: { type: 'json_object' }
         })
       });
+      if (!qr.ok) {
+        const et = await qr.text();
+        return new Response(JSON.stringify({ error: 'Groq error', status: qr.status, detail: et }), { status: 502, headers: corsHeaders });
+      }
+      const qd  = await qr.json();
+      const raw = qd?.choices?.[0]?.message?.content || '';
+      const ev  = JSON.parse(raw);
+      return new Response(JSON.stringify(ev), { status: 200, headers: corsHeaders });
     } catch (e) {
-      return new Response(JSON.stringify({ error: 'Gemini unreachable', detail: e.message }), { status: 502, headers: corsHeaders });
+      return new Response(JSON.stringify({ error: 'Groq failed', detail: e.message }), { status: 502, headers: corsHeaders });
     }
-
-    if (!geminiRes.ok) {
-      const errText = await geminiRes.text();
-      return new Response(JSON.stringify({ error: 'Gemini error', status: geminiRes.status, detail: errText }), { status: 502, headers: corsHeaders });
-    }
-
-    const geminiData = await geminiRes.json();
-    const raw = geminiData?.candidates?.[0]?.content?.parts?.[0]?.text || '';
-
-    let evaluation;
-    try {
-      evaluation = JSON.parse(raw);
-    } catch {
-      return new Response(JSON.stringify({ error: 'Parse failed', raw }), { status: 500, headers: corsHeaders });
-    }
-
-    return new Response(JSON.stringify(evaluation), { status: 200, headers: corsHeaders });
   }
 };

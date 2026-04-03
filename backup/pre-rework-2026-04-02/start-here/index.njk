@@ -1,0 +1,370 @@
+---
+layout: base.njk
+title: "Start Here — Your UPSC Preparation Guide"
+description: "New to UPSC? Start here. Choose your preparation stage and get a clear study path — from foundation basics to Mains answer writing."
+---
+
+<style>
+.sh-nav { display:flex; gap:var(--space-3); margin-bottom:var(--space-8); flex-wrap:wrap; justify-content:center; }
+.sh-nav-btn { display:flex; align-items:center; gap:var(--space-2); padding:10px 20px; border:2px solid var(--color-border); border-radius:var(--radius-full, 999px); background:var(--color-surface); font-size:var(--text-sm); font-weight:600; color:var(--color-text); text-decoration:none; transition:all 0.2s; cursor:pointer; }
+.sh-nav-btn:hover { transform:translateY(-2px); box-shadow:var(--shadow-md); }
+.sh-nav-btn__dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
+.sh-stage { margin-bottom:var(--space-10); border-radius:var(--radius-lg); overflow:hidden; }
+.sh-stage__header { padding:var(--space-5) var(--space-6); display:flex; align-items:center; gap:var(--space-4); }
+.sh-stage__icon { font-size:1.8rem; }
+.sh-stage__info { flex:1; }
+.sh-stage__title { font-family:var(--font-heading); font-size:var(--text-xl); color:#fff; margin:0; }
+.sh-stage__sub { font-size:var(--text-sm); color:rgba(255,255,255,0.8); margin:var(--space-1) 0 0; }
+.sh-stage__body { padding:var(--space-6); background:var(--color-surface); border:1px solid var(--color-border); border-top:none; border-radius:0 0 var(--radius-lg) var(--radius-lg); }
+.sh-actions { display:grid; grid-template-columns:repeat(auto-fill, minmax(240px, 1fr)); gap:var(--space-4); margin-bottom:var(--space-5); }
+.sh-action { display:flex; gap:var(--space-3); padding:var(--space-4); border-radius:var(--radius-md); border:1px solid var(--color-border); background:var(--color-surface); transition:all 0.15s; }
+.sh-action:hover { box-shadow:var(--shadow-sm); border-color:var(--sh-color, var(--color-border)); }
+.sh-action__icon { font-size:1.3rem; flex-shrink:0; margin-top:2px; }
+.sh-action__text { flex:1; }
+.sh-action__title { font-size:var(--text-sm); font-weight:700; color:var(--color-text); margin:0 0 4px; }
+.sh-action__desc { font-size:var(--text-xs); color:var(--color-text-muted); line-height:1.5; margin:0; }
+.sh-action__desc a { color:var(--sh-color, var(--color-brand)); font-weight:600; }
+.sh-links { display:flex; flex-wrap:wrap; gap:var(--space-2); }
+.sh-link { display:inline-block; padding:6px 14px; border-radius:var(--radius-full, 999px); font-size:var(--text-xs); font-weight:600; text-decoration:none; transition:all 0.15s; border:1.5px solid; }
+.sh-link:hover { transform:translateY(-1px); box-shadow:var(--shadow-sm); }
+.sh-link--primary { background:var(--sh-color, var(--color-brand)); color:#fff; border-color:var(--sh-color, var(--color-brand)); }
+.sh-link--primary:hover { filter:brightness(1.1); color:#fff; }
+.sh-link--outline { background:transparent; color:var(--sh-color, var(--color-brand)); border-color:var(--sh-color, var(--color-brand)); }
+.sh-link--outline:hover { background:var(--sh-color, var(--color-brand)); color:#fff; }
+.sh-divider { display:flex; align-items:center; gap:var(--space-3); margin:var(--space-5) 0; font-size:var(--text-xs); color:var(--color-text-muted); text-transform:uppercase; letter-spacing:0.06em; font-weight:600; }
+.sh-divider::before, .sh-divider::after { content:''; flex:1; height:1px; background:var(--color-border); }
+.sh-quiz { background:linear-gradient(135deg, rgba(30,41,59,0.04) 0%, rgba(212,160,23,0.04) 100%); border:1px solid var(--color-border); border-radius:var(--radius-lg); padding:var(--space-6); margin-bottom:var(--space-8); text-align:center; }
+.sh-quiz h3 { font-family:var(--font-heading); color:var(--color-brand); margin:0 0 var(--space-2); }
+.sh-quiz p { font-size:var(--text-sm); color:var(--color-text-muted); margin:0 0 var(--space-4); }
+.sh-quiz-options { display:flex; flex-wrap:wrap; gap:var(--space-3); justify-content:center; }
+.sh-quiz-opt { padding:10px 20px; border:2px solid var(--color-border); border-radius:var(--radius-md); background:var(--color-surface); font-size:var(--text-sm); font-weight:600; cursor:pointer; transition:all 0.15s; text-decoration:none; color:var(--color-text); }
+.sh-quiz-opt:hover { border-color:var(--color-brand); color:var(--color-brand); transform:translateY(-1px); box-shadow:var(--shadow-sm); }
+.sh-countdown { display:inline-flex; align-items:center; gap:var(--space-2); padding:6px 16px; border-radius:var(--radius-full, 999px); background:rgba(255,255,255,0.15); font-size:var(--text-xs); color:rgba(255,255,255,0.9); font-weight:600; }
+.sh-cta { background:linear-gradient(135deg, var(--color-brand-dark) 0%, var(--color-brand) 100%); border-radius:var(--radius-lg); padding:var(--space-8); text-align:center; color:#fff; }
+.sh-cta h3 { font-family:var(--font-heading); font-size:var(--text-xl); margin:0 0 var(--space-2); }
+.sh-cta p { font-size:var(--text-sm); opacity:0.85; margin:0 0 var(--space-5); }
+.sh-cta-btns { display:flex; flex-wrap:wrap; gap:var(--space-3); justify-content:center; }
+.sh-cta-btn { display:inline-block; padding:10px 24px; border-radius:var(--radius-md); font-size:var(--text-sm); font-weight:700; text-decoration:none; transition:all 0.15s; }
+.sh-cta-btn--white { background:#fff; color:var(--color-brand); }
+.sh-cta-btn--white:hover { transform:translateY(-1px); box-shadow:var(--shadow-lg); }
+.sh-cta-btn--outline { background:transparent; color:#fff; border:2px solid rgba(255,255,255,0.4); }
+.sh-cta-btn--outline:hover { border-color:#fff; background:rgba(255,255,255,0.1); color:#fff; }
+@media (max-width:480px) {
+  .sh-nav { gap:var(--space-2); }
+  .sh-nav-btn { padding:8px 14px; font-size:var(--text-xs); }
+  .sh-stage__header { padding:var(--space-4); gap:var(--space-3); }
+  .sh-stage__title { font-size:var(--text-lg); }
+  .sh-stage__body { padding:var(--space-4); }
+  .sh-actions { grid-template-columns:1fr; }
+  .sh-action { padding:var(--space-3); }
+}
+</style>
+
+<section class="page-header">
+  <div class="container">
+    <p class="page-header__eyebrow">Welcome to BharatNotes</p>
+    <h1 class="page-header__title">Where Should You Start?</h1>
+    <p class="page-header__subtitle">Pick your preparation stage below — or let us help you find it.</p>
+  </div>
+</section>
+
+<section style="padding:var(--space-8) 0;">
+  <div class="container">
+
+    {# ── Quick Quiz ── #}
+    <div class="sh-quiz">
+      <h3>Not sure where you are?</h3>
+      <p>Pick the option that best describes you right now:</p>
+      <div class="sh-quiz-options">
+        <a href="#beginner" class="sh-quiz-opt">I'm completely new to UPSC</a>
+        <a href="#prelims" class="sh-quiz-opt">I know the basics, targeting Prelims</a>
+        <a href="#mains" class="sh-quiz-opt">Prelims done, focusing on Mains</a>
+        <a href="#revision" class="sh-quiz-opt">Exam is close, need to revise</a>
+      </div>
+    </div>
+
+    {# ── Stage Navigation Pills ── #}
+    <div class="sh-nav">
+      <a href="#beginner" class="sh-nav-btn"><span class="sh-nav-btn__dot" style="background:#16a34a;"></span> Beginner</a>
+      <a href="#prelims" class="sh-nav-btn"><span class="sh-nav-btn__dot" style="background:#d4a017;"></span> Prelims Focus</a>
+      <a href="#mains" class="sh-nav-btn"><span class="sh-nav-btn__dot" style="background:#0f4c3a;"></span> Mains Prep</a>
+      <a href="#revision" class="sh-nav-btn"><span class="sh-nav-btn__dot" style="background:#7c3aed;"></span> Revision Mode</a>
+    </div>
+
+    {# ══════════════════════════════════════════════════════════
+       STAGE 1 — BEGINNER
+       ══════════════════════════════════════════════════════════ #}
+    <div id="beginner" class="sh-stage" style="--sh-color:#16a34a;">
+      <div class="sh-stage__header" style="background:linear-gradient(135deg, #15803d 0%, #16a34a 100%);">
+        <span class="sh-stage__icon">🌱</span>
+        <div class="sh-stage__info">
+          <h2 class="sh-stage__title">Stage 1 — Complete Beginner</h2>
+          <p class="sh-stage__sub">New to UPSC? Understand the exam, then build your foundation week by week.</p>
+        </div>
+      </div>
+      <div class="sh-stage__body">
+        <div class="sh-actions">
+          <div class="sh-action">
+            <span class="sh-action__icon">📖</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Week 1 — Know the Exam</p>
+              <p class="sh-action__desc">3 stages, 11 papers, 2025 total marks. Read the <a href="/upsc-checklist/">UPSC Checklist</a> for the full pattern and syllabus breakdown.</p>
+            </div>
+          </div>
+          <div class="sh-action">
+            <span class="sh-action__icon">⚖️</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Week 2 — Start with Polity</p>
+              <p class="sh-action__desc">Most structured subject. Begin <a href="/subjects/polity/">Preamble, FR, DPSPs</a> — builds momentum and confidence fast.</p>
+            </div>
+          </div>
+          <div class="sh-action">
+            <span class="sh-action__icon">🌍</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Week 3 — Add Economy & Geography</p>
+              <p class="sh-action__desc">Start <a href="/subjects/economy/">Economy basics</a> and <a href="/subjects/geography/">Indian physical geography</a>. One topic per day — don't rush.</p>
+            </div>
+          </div>
+          <div class="sh-action">
+            <span class="sh-action__icon">📖</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Week 4 — NCERT Foundation</p>
+              <p class="sh-action__desc">NCERT is the base for UPSC. Start with <a href="/ncert/new-ncert/">New NCERT (Class 6–7)</a> for Geography & History, then <a href="/ncert/">older NCERT</a> for Class 9–12.</p>
+            </div>
+          </div>
+          <div class="sh-action">
+            <span class="sh-action__icon">📰</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Week 5 — Daily Current Affairs</p>
+              <p class="sh-action__desc">Start 30 min/day on <a href="https://ujiyari.com/daily/" target="_blank" rel="noopener">Ujiyari.com</a>. This habit carries you through the entire preparation.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sh-divider">Start reading these subjects</div>
+
+        <div class="sh-links">
+          <a href="/subjects/polity/" class="sh-link sh-link--primary">Polity</a>
+          <a href="/subjects/economy/" class="sh-link sh-link--primary">Economy</a>
+          <a href="/subjects/geography/" class="sh-link sh-link--primary">Geography</a>
+          <a href="/ncert/" class="sh-link sh-link--primary">NCERT Hub</a>
+          <a href="/ncert/new-ncert/" class="sh-link sh-link--primary">New NCERT</a>
+          <a href="/subjects/history-culture/" class="sh-link sh-link--outline">History</a>
+          <a href="/subjects/environment/" class="sh-link sh-link--outline">Environment</a>
+          <a href="/upsc-checklist/" class="sh-link sh-link--outline">UPSC Checklist</a>
+          <a href="/syllabus-tracker/" class="sh-link sh-link--outline">Syllabus Tracker</a>
+          <a href="/resources/vocab-builder/" class="sh-link sh-link--outline">Vocab Builder</a>
+        </div>
+      </div>
+    </div>
+
+    {# ══════════════════════════════════════════════════════════
+       STAGE 2 — PRELIMS FOCUSED
+       ══════════════════════════════════════════════════════════ #}
+    <div id="prelims" class="sh-stage" style="--sh-color:#d4a017;">
+      <div class="sh-stage__header" style="background:linear-gradient(135deg, #b45309 0%, #d4a017 100%);">
+        <span class="sh-stage__icon">🎯</span>
+        <div class="sh-stage__info">
+          <h2 class="sh-stage__title">Stage 2 — Prelims Focused</h2>
+          <p class="sh-stage__sub">You know the basics. Now build factual depth, practise elimination, and target the cutoff.</p>
+        </div>
+      </div>
+      <div class="sh-stage__body">
+        <div class="sh-actions">
+          <div class="sh-action">
+            <span class="sh-action__icon">📚</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Deepen Every Subject</p>
+              <p class="sh-action__desc">Read all topic notes across <a href="/prelims/">10 subjects</a>. Prelims tests recall — facts, dates, numbers, and scheme details.</p>
+            </div>
+          </div>
+          <div class="sh-action">
+            <span class="sh-action__icon">🎯</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Practice PYQs Topic-wise</p>
+              <p class="sh-action__desc"><a href="/quiz/">Quiz Hub</a> has interactive MCQ practice for every topic — tracks your scores, flags weak areas, and shows what UPSC actually asks.</p>
+            </div>
+          </div>
+          <div class="sh-action">
+            <span class="sh-action__icon">🗺️</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Master Map-based Questions</p>
+              <p class="sh-action__desc">15-20 Prelims questions test locations. Study <a href="/mapping/">India mapping</a> (rivers, passes, wildlife) and <a href="/mapping/world/">World mapping</a> (countries, straits, hotspots).</p>
+            </div>
+          </div>
+          <div class="sh-action">
+            <span class="sh-action__icon">📰</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Current Affairs Daily</p>
+              <p class="sh-action__desc">30-40% of Prelims is CA. Use <a href="https://ujiyari.com/" target="_blank" rel="noopener">Ujiyari.com</a> — daily news + monthly compilations.</p>
+            </div>
+          </div>
+          <div class="sh-action">
+            <span class="sh-action__icon">⚡</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Smart Elimination (-0.66)</p>
+              <p class="sh-action__desc">With negative marking, eliminate 2 options → attempt. Skip if unsure. Target 90+ correct on D-day.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sh-divider">Key resources for Prelims</div>
+
+        <div class="sh-links">
+          <a href="/quiz/" class="sh-link sh-link--primary">Quiz Hub</a>
+          <a href="/prelims/" class="sh-link sh-link--primary">Prelims Hub</a>
+          <a href="/mapping/" class="sh-link sh-link--primary">India Mapping</a>
+          <a href="/pyq/" class="sh-link sh-link--outline">PYQ Analysis</a>
+          <a href="/mapping/world/" class="sh-link sh-link--outline">World Mapping</a>
+          <a href="/upsc-checklist/" class="sh-link sh-link--outline">Syllabus Checklist</a>
+          <a href="/tracker/" class="sh-link sh-link--outline">Progress Tracker</a>
+          <a href="https://ujiyari.com/daily/" target="_blank" rel="noopener" class="sh-link sh-link--outline">Daily CA (Ujiyari)</a>
+        </div>
+      </div>
+    </div>
+
+    {# ══════════════════════════════════════════════════════════
+       STAGE 3 — MAINS PREPARATION
+       ══════════════════════════════════════════════════════════ #}
+    <div id="mains" class="sh-stage" style="--sh-color:#0f4c3a;">
+      <div class="sh-stage__header" style="background:linear-gradient(135deg, #064e3b 0%, #0f4c3a 100%);">
+        <span class="sh-stage__icon">✍️</span>
+        <div class="sh-stage__info">
+          <h2 class="sh-stage__title">Stage 3 — Mains Preparation</h2>
+          <p class="sh-stage__sub">Analytical depth, answer writing practice, and current affairs integration.</p>
+        </div>
+      </div>
+      <div class="sh-stage__body">
+        <div class="sh-actions">
+          <div class="sh-action">
+            <span class="sh-action__icon">🔍</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Read for Dimensions</p>
+              <p class="sh-action__desc">Mains needs analysis, not facts. Read topic pages for social, economic, political, and ethical angles on every issue.</p>
+            </div>
+          </div>
+          <div class="sh-action">
+            <span class="sh-action__icon">✏️</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Answer Writing Daily</p>
+              <p class="sh-action__desc">Write 2-3 answers daily. Use the <a href="https://ujiyari.com/mains-guide/" target="_blank" rel="noopener">I-B-C formula</a>: Introduction — Body — Conclusion with way forward.</p>
+            </div>
+          </div>
+          <div class="sh-action">
+            <span class="sh-action__icon">📰</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Editorials Are Mandatory</p>
+              <p class="sh-action__desc"><a href="https://ujiyari.com/editorial/" target="_blank" rel="noopener">Ujiyari editorials</a> give ready-made arguments for GS2/GS3 answers and Essay paper.</p>
+            </div>
+          </div>
+          <div class="sh-action">
+            <span class="sh-action__icon">📊</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Mains PYQ Trends</p>
+              <p class="sh-action__desc"><a href="/pyq/">PYQ trends</a>: GS2 → case studies, GS3 → current data, GS4 → 50% case studies. Know the pattern.</p>
+            </div>
+          </div>
+        </div>
+
+        {# ── Ujiyari Mains Guide Featured Card ── #}
+        <a href="https://ujiyari.com/mains-guide/" target="_blank" rel="noopener" style="display:flex;gap:var(--space-4);align-items:center;padding:var(--space-4) var(--space-5);margin-bottom:var(--space-5);border-radius:var(--radius-md);background:linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);border:1.5px solid #fde68a;text-decoration:none;transition:all 0.15s;">
+          <div style="width:44px;height:44px;border-radius:var(--radius-md);background:#d4a017;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1.3rem;">✍️</div>
+          <div style="flex:1;min-width:0;">
+            <p style="font-size:var(--text-sm);font-weight:700;color:#92400e;margin:0 0 2px;">Mains Answer Writing Guide — Ujiyari.com</p>
+            <p style="font-size:var(--text-xs);color:#b45309;margin:0;">I-B-C framework, directive decoder, practice lab, value bank, and model answers</p>
+          </div>
+          <span style="font-size:var(--text-sm);color:#b45309;font-weight:600;flex-shrink:0;">Open &rarr;</span>
+        </a>
+
+        <div class="sh-divider">Key resources for Mains</div>
+
+        <div class="sh-links">
+          <a href="/mains/" class="sh-link sh-link--primary">Mains Hub</a>
+          <a href="/pyq/" class="sh-link sh-link--primary">PYQ Analysis</a>
+          <a href="/mapping/" class="sh-link sh-link--primary">India Mapping</a>
+          <a href="/upsc-checklist/" class="sh-link sh-link--outline">Syllabus Checklist</a>
+          <a href="https://ujiyari.com/editorial/" target="_blank" rel="noopener" class="sh-link sh-link--outline">Editorials (Ujiyari)</a>
+          <a href="https://ujiyari.com/daily/" target="_blank" rel="noopener" class="sh-link sh-link--outline">Daily CA (Ujiyari)</a>
+          <a href="/resources/key-terms/" class="sh-link sh-link--outline">Key Terms</a>
+        </div>
+      </div>
+    </div>
+
+    {# ══════════════════════════════════════════════════════════
+       STAGE 4 — REVISION MODE
+       ══════════════════════════════════════════════════════════ #}
+    <div id="revision" class="sh-stage" style="--sh-color:#7c3aed;">
+      <div class="sh-stage__header" style="background:linear-gradient(135deg, #5b21b6 0%, #7c3aed 100%);">
+        <span class="sh-stage__icon">🔄</span>
+        <div class="sh-stage__info">
+          <h2 class="sh-stage__title">Stage 4 — Revision Mode</h2>
+          <p class="sh-stage__sub">Exam is close. No new topics — revise, practise, and consolidate what you know.</p>
+        </div>
+      </div>
+      <div class="sh-stage__body">
+        <div class="sh-actions">
+          <div class="sh-action">
+            <span class="sh-action__icon">🔖</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Revise Bookmarks</p>
+              <p class="sh-action__desc">Open your <a href="/tracker/">bookmarked topics</a> and re-read key sections. Focus on tables, mnemonics, and fact sheets.</p>
+            </div>
+          </div>
+          <div class="sh-action">
+            <span class="sh-action__icon">🎯</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Find & Fix Weak Topics</p>
+              <p class="sh-action__desc"><a href="/quiz/">Quiz Hub</a> shows exactly where you're strong vs weak. Identify gaps and do one final pass on your weakest subjects.</p>
+            </div>
+          </div>
+          <div class="sh-action">
+            <span class="sh-action__icon">🗺️</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Geography Last-Mile Revision</p>
+              <p class="sh-action__desc">Map-based questions are high-yield and quick to revise. Scan <a href="/mapping/">India mapping</a> (wildlife, rivers, passes) in a single sitting.</p>
+            </div>
+          </div>
+          <div class="sh-action">
+            <span class="sh-action__icon">🔤</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Vocab & Terms Sprint</p>
+              <p class="sh-action__desc">Final pass through <a href="/resources/vocab-builder/">Vocab</a> and <a href="/resources/key-terms/">Key Terms</a>. Small details make the difference on exam day.</p>
+            </div>
+          </div>
+          <div class="sh-action">
+            <span class="sh-action__icon">📅</span>
+            <div class="sh-action__text">
+              <p class="sh-action__title">Last 12 Months CA</p>
+              <p class="sh-action__desc">Read <a href="https://ujiyari.com/monthly/" target="_blank" rel="noopener">monthly digests</a> for the last year. In the final week, focus only on the last 6 months.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sh-divider">Revision tools</div>
+
+        <div class="sh-links">
+          <a href="/quiz/" class="sh-link sh-link--primary">Quiz Hub</a>
+          <a href="/tracker/" class="sh-link sh-link--primary">Progress Tracker</a>
+          <a href="/mapping/" class="sh-link sh-link--primary">India Mapping</a>
+          <a href="/upsc-checklist/" class="sh-link sh-link--outline">Syllabus Checklist</a>
+          <a href="/resources/vocab-builder/" class="sh-link sh-link--outline">Vocab Builder</a>
+          <a href="/resources/key-terms/" class="sh-link sh-link--outline">Key Terms</a>
+          <a href="/pyq/" class="sh-link sh-link--outline">PYQ Analysis</a>
+          <a href="/syllabus-tracker/" class="sh-link sh-link--outline">Syllabus Tracker</a>
+        </div>
+      </div>
+    </div>
+
+    {# ── Bottom CTA ── #}
+    <div class="sh-cta">
+      <h3>Still unsure? Just start.</h3>
+      <p>The best time to begin was yesterday. The second best time is now. Pick Polity, read the first chapter, and you're on your way.</p>
+      <div class="sh-cta-btns">
+        <a href="/subjects/polity/constitutional-polity/01-preamble/" class="sh-cta-btn sh-cta-btn--white">Start with Preamble</a>
+        <a href="/upsc-checklist/" class="sh-cta-btn sh-cta-btn--outline">View Full Checklist</a>
+        <a href="/tracker/" class="sh-cta-btn sh-cta-btn--outline">Track Progress</a>
+      </div>
+    </div>
+
+  </div>
+</section>
