@@ -479,11 +479,15 @@
       ".bp-ad-cta { flex-shrink:0; padding:7px 16px; font-family:'Inter',sans-serif; font-size:7pt; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:#555; background:#fff; border:1.5px solid #ccc; border-radius:4px; text-decoration:none; }",
 
       /* QR codes */
-      ".qr-row { display:flex; gap:28px; align-items:flex-start; margin-bottom:24px; }",
-      ".qr-item { display:flex; flex-direction:column; align-items:center; gap:6px; }",
-      ".qr-item img { width:80px; height:80px; display:block; border:1px solid #e2e8f0; border-radius:4px; }",
-      ".qr-item__label { font-family:'Inter',sans-serif; font-size:7pt; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:#999; text-align:center; }",
-      ".qr-item__url { font-family:'Inter',sans-serif; font-size:6.5pt; color:#bbb; text-align:center; }",
+      ".qr-row { display:flex; gap:16px; align-items:stretch; margin-bottom:28px; }",
+      ".qr-item { display:flex; flex-direction:row; align-items:center; gap:16px; flex:1; padding:14px 18px; border:1px solid #e2e8f0; border-radius:8px; background:#fafbfc; }",
+      ".qr-item--accent { border-color:#fde68a; background:#fffbeb; }",
+      ".qr-item img { width:72px; height:72px; display:block; border-radius:4px; flex-shrink:0; }",
+      ".qr-item__info { display:flex; flex-direction:column; gap:4px; }",
+      ".qr-item__label { font-family:'Inter',sans-serif; font-size:6pt; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#999; }",
+      ".qr-item__name { font-family:'Crimson Pro','Georgia',serif; font-size:13pt; font-weight:600; color:#1a1a1a; line-height:1.2; }",
+      ".qr-item__url { font-family:'Inter',sans-serif; font-size:7pt; color:#0f4c3a; font-weight:500; }",
+      ".qr-item__hint { font-family:'Inter',sans-serif; font-size:6.5pt; color:#aaa; margin-top:2px; }",
 
       /* Footer */
       ".bp-footer { margin-top:auto; text-align:center; padding-top:16px; border-top:1px solid #e2e8f0; }",
@@ -634,15 +638,23 @@
           '<div class="qr-row">' +
             (qrPageSrc ?
               '<div class="qr-item">' +
-                '<a href="' + pageUrl + '"><img src="' + qrPageSrc + '" width="80" height="80" alt="QR: this article"></a>' +
-                '<div class="qr-item__label">This Article</div>' +
-                '<a href="' + pageUrl + '" class="qr-item__url">' + pageUrl.replace(/^https?:\/\//,'').substring(0,35) + '</a>' +
+                '<img src="' + qrPageSrc + '" width="72" height="72" alt="QR: this article">' +
+                '<div class="qr-item__info">' +
+                  '<div class="qr-item__label">Scan to read</div>' +
+                  '<div class="qr-item__name">This Article</div>' +
+                  '<div class="qr-item__url">bharatnotes.com</div>' +
+                  '<div class="qr-item__hint">' + pageUrl.replace(/^https?:\/\//,'').substring(0,42) + '</div>' +
+                '</div>' +
               '</div>' : '') +
             (qrUJSrc ?
-              '<div class="qr-item">' +
-                '<a href="https://ujiyari.com"><img src="' + qrUJSrc + '" width="80" height="80" alt="QR: ujiyari.com"></a>' +
-                '<div class="qr-item__label">Current Affairs</div>' +
-                '<a href="https://ujiyari.com" class="qr-item__url">ujiyari.com</a>' +
+              '<div class="qr-item qr-item--accent">' +
+                '<img src="' + qrUJSrc + '" width="72" height="72" alt="QR: ujiyari.com">' +
+                '<div class="qr-item__info">' +
+                  '<div class="qr-item__label">Daily current affairs</div>' +
+                  '<div class="qr-item__name">Ujiyari.com</div>' +
+                  '<div class="qr-item__url">ujiyari.com</div>' +
+                  '<div class="qr-item__hint">News &middot; Editorials &middot; Mains Practice</div>' +
+                '</div>' +
               '</div>' : '') +
           '</div>'
         : '') +
