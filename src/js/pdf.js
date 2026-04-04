@@ -602,9 +602,9 @@
             '<div class="bp-author-name">Bharat Choudhary</div>' +
             '<div class="bp-author-role">Founder &amp; Content Lead</div>' +
             '<div class="bp-author-links">' +
-              '<span class="bp-link">LinkedIn</span>' +
-              '<span class="bp-link">bharatnotes.com</span>' +
-              '<span class="bp-link">ujiyari.com</span>' +
+              '<a href="https://www.linkedin.com/in/epicbharat" class="bp-link">LinkedIn</a>' +
+              '<a href="https://bharatnotes.com" class="bp-link">bharatnotes.com</a>' +
+              '<a href="https://ujiyari.com" class="bp-link">ujiyari.com</a>' +
             '</div>' +
           '</div>' +
         '</div>' +
