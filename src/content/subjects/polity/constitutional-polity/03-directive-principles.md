@@ -55,6 +55,8 @@ The Constitution does not classify DPSPs. The following classification is based 
 | **39(b)** | Ownership and control of material resources distributed for the common good |
 | **39(c)** | Operation of the economic system does not result in concentration of wealth |
 | **39(d)** | Equal pay for equal work for both men and women |
+| **39(e)** | Protect the health and strength of workers (men and women) and children; do not abuse their age; avoid work conditions injurious to health |
+| **39(f)** | Children are given opportunities to develop in a healthy manner; children and youth are protected against exploitation and against moral and material abandonment |
 | **39A** | Equal justice and free legal aid (added by **42nd Amendment, 1976**) |
 | **41** | Right to work, to education, and to public assistance in cases of unemployment, old age, sickness, disablement |
 | **42** | Just and humane conditions of work and maternity relief |

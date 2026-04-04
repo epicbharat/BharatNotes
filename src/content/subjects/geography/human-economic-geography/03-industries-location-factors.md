@@ -65,6 +65,19 @@ Harold Hotelling's model explains location choices in a **competitive market**.
 
 > **UPSC Mains tip:** Weber is the most important theory. For GS-1, be able to explain Material Index, locational triangle, and isodapane with examples. Mention Losch as a critique of Weber's cost-only focus.
 
+### 4. François Perroux's Growth Pole Theory (1955)
+
+**Growth Pole:** A propulsive industry or firm in a geographic area that generates economic growth and spreads it to surrounding areas through forward and backward linkages.
+
+| Concept | Explanation |
+|---------|------------|
+| **Propulsive industry** | Large, technologically advanced firm that generates upstream/downstream activity |
+| **Spread effects** | Benefits of growth radiating outward from the growth pole |
+| **Backwash effects** | Concentration of resources in the pole, drawing talent/capital away from periphery |
+| **Policy application** | Developing country governments use growth poles to stimulate lagging regions |
+
+**India's application:** Industrial corridors (DMIC, CBIC, etc.) are essentially modern implementations of growth pole theory — catalytic industrial nodes intended to generate regional development.
+
 ---
 
 ## Factors Affecting Industrial Location
@@ -339,8 +352,9 @@ The **Special Economic Zones Act, 2005** was passed by Parliament in May 2005, r
 | **Kanto (Tokyo-Yokohama)** | Japan | Automobiles, electronics, robotics, shipbuilding | Excellent port facilities; skilled workforce; huge domestic market in Tokyo metro; limited raw materials — relies on imports |
 | **Pearl River Delta** | China (Guangdong) | Electronics, textiles, toys, consumer goods — called "Factory of the World" | SEZs (Shenzhen was China's first SEZ); cheap labour; Hong Kong proximity for capital and trade; river/port connectivity |
 | **Silicon Valley** | USA (California) | IT, semiconductors, AI, software, venture capital | Stanford/Berkeley universities; venture capital ecosystem; culture of innovation; pleasant climate; agglomeration of tech talent |
+| **Shanghai–Yangtze Delta** | China (Shanghai, Jiangsu, Zhejiang) | Electronics, automobiles, chemicals, machinery, textiles, pharmaceuticals | World's busiest container port (Shanghai); skilled labour; massive domestic market; supply chain clusters; export-led growth model |
 | **Donbas** | Ukraine | Coal, steel, heavy machinery | Coal and iron ore deposits; river transport |
-| **Manchester-Birmingham** | UK | Textiles (historical), automotive, aerospace | First Industrial Revolution site; coal, iron; canal network; colonial-era market access |
+| **Manchester-Birmingham** | UK | Textiles (historical; "Cottonopolis"), automotive, aerospace | First Industrial Revolution site; humid climate for cotton; coal; Liverpool port for cotton imports |
 
 > **UPSC Prelims note:** The Pearl River Delta (Guangdong, China) was called the "World's Factory" — a direct UPSC-level fact. Ruhr is a classic example of industrial transformation from heavy to knowledge-based industries.
 

@@ -76,7 +76,7 @@ Dissatisfied with the Dar Commission's recommendations, the Congress Working Com
 
 **Key facts:**
 - He began his fast on **19 October 1952** in Madras.
-- He died on **15 December 1952** after **56 days of fasting** — one of the most dramatic political deaths in independent India.
+- He died on **15 December 1952** after **58 days of fasting** — one of the most dramatic political deaths in independent India.
 - His death triggered mass protests, rioting, and strikes across the Telugu-speaking districts of the Madras Presidency.
 - Prime Minister Nehru, under enormous political pressure, announced on **19 December 1952** that a separate Telugu state would be created.
 - **Andhra State** was formally inaugurated on **1 October 1953** with **Kurnool** as its capital — the **first state in India created on a linguistic basis**.
@@ -235,12 +235,27 @@ Following the **Jammu and Kashmir Reorganisation Act, 2019** (effective 31 Octob
 
 ---
 
+## Language and Nationhood — The Debate
+
+Linguistic reorganisation raised fundamental questions about the relationship between language, identity, and national unity.
+
+| Argument for linguistic reorganisation | Argument against |
+|---|---|
+| Democracy requires administration in the people's language | Might encourage regionalism, fissiparousness, linguistic chauvinism |
+| Cultural identity and linguistic identity are inseparable | Language-based states may conflict — Belgaum/Belagavi (Karnataka-Maharashtra border dispute) |
+| Governance in the mother tongue is more accessible and accountable | Federal asymmetries — large states (UP, Maharashtra) vs. small states (Goa, Sikkim) |
+| Congress itself organised on linguistic lines since 1920 | Economic viability varies dramatically across linguistic states |
+
+**The verdict of history:** India's linguistic reorganisation has, on balance, strengthened democracy and governance by bringing the state closer to the people in their own languages. The fears of fragmentation proved largely unfounded — regional identity and national identity coexisted and were both accommodated within the constitutional framework.
+
+---
+
 ## Exam Strategy
 
 **For Prelims:**
 - Memorise: Dar Commission (1948) = against linguistic states; JVP (1949) = cautious; SRC (1953–55) = for reorganisation.
 - Fazl Ali Commission = 3 members: Fazl Ali, Kunzru, Panikkar.
-- Potti Sriramulu: died 15 December 1952, 56-day fast; Andhra State created 1 October 1953.
+- Potti Sriramulu: died 15 December 1952, 58-day fast; Andhra State created 1 October 1953.
 - States Reorganisation Act 1956 → 14 states + 6 UTs.
 - Maharashtra–Gujarat: 1 May 1960 (Bombay Reorganisation Act 1960).
 - Punjab–Haryana–Himachal: 1 November 1966.

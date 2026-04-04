@@ -4,12 +4,12 @@ title: "Drainage Systems & River Geography of India — Himalayan vs Peninsular 
 subject: geography
 gs_papers:
   - gs1
-syllabus_topic: "Physical Geography"
+syllabus_topic: "Indian Geography"
 description: "UPSC notes on India's drainage systems — Himalayan rivers (Ganga, Indus, Brahmaputra), Peninsular rivers (Krishna, Godavari, Kaveri), drainage patterns, river disputes, and water sharing."
-sub_chapter: 10
-chapter: 10
-parent_topic: "Physical Geography"
-parent_topic_url: "/subjects/geography/physical-geography/"
+sub_chapter: 18
+chapter: 18
+parent_topic: "Indian Geography"
+parent_topic_url: "/subjects/geography/indian-geography/"
 date: 2026-03-29
 foundation: false
 prelims: true
