@@ -229,14 +229,6 @@ layout: base.njk
           <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin-top:var(--space-2); text-align:center;">Print-ready · ink-optimised · longer pages may take a moment</p>
         </div>
 
-        <!-- Bookmark — separate card, secondary action -->
-        <div class="card" style="margin-bottom:var(--space-5);">
-          <button id="btn-bookmark-sidebar" class="btn btn--ghost" style="width:100%;justify-content:center;gap:8px;min-height:44px;font-size:var(--text-sm);border-radius:10px;touch-action:manipulation;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="flex-shrink:0;"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
-            Bookmark this topic
-          </button>
-        </div>
-
         <!-- Topic Info -->
         <div class="card" style="margin-bottom:var(--space-5);">
           <h4 style="color:var(--color-brand); font-size:var(--text-xs); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:var(--space-3);">Topic Info</h4>
@@ -1805,19 +1797,6 @@ layout: base.njk
     tabKeys.forEach(function(k) { if (sectionMap[k]) sectionObserver.observe(sectionMap[k]); });
   }
 
-  // Sync bookmark sidebar button with hero bookmark state
-  var bookmarkHero = document.getElementById('btn-bookmark-hero');
-  var bookmarkSidebar = document.getElementById('btn-bookmark-sidebar');
-  if (bookmarkHero && bookmarkSidebar) {
-    bookmarkSidebar.addEventListener('click', function() { bookmarkHero.click(); });
-    // Mirror bookmarked state
-    var bookmarkObserver = new MutationObserver(function() {
-      var isBookmarked = bookmarkHero.classList.contains('page-header__action-btn--bookmarked');
-      bookmarkSidebar.textContent = '';
-      bookmarkSidebar.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="flex-shrink:0;"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg> ' + (isBookmarked ? 'Bookmarked ✓' : 'Bookmark this topic');
-    });
-    bookmarkObserver.observe(bookmarkHero, { attributes: true, attributeFilter: ['class'] });
-  }
 
 })();
 </script>
