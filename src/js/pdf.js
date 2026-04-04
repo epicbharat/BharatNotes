@@ -23,6 +23,22 @@
     img.src = "/img/bharat-choudhary.png";
   })();
 
+  // BharatNotes circle logo — preloaded as base64 PNG
+  var logoB64 = "";
+  (function preloadLogo() {
+    var img = new Image();
+    img.crossOrigin = "anonymous";
+    img.onload = function () {
+      try {
+        var c = document.createElement("canvas");
+        c.width = img.naturalWidth; c.height = img.naturalHeight;
+        c.getContext("2d").drawImage(img, 0, 0);
+        logoB64 = c.toDataURL("image/png");
+      } catch (e) {}
+    };
+    img.src = "/img/bharatnotes-logo.png";
+  })();
+
   // Crimson Pro fonts — fetched lazily, converted to base64 for self-contained PDF HTML
   var crimsonFontsCSS = "";
   (function preloadFonts() {
@@ -277,8 +293,10 @@
       ".tp { width:210mm; height:297mm; display:flex; flex-direction:column; padding:0; page-break-after:always; position:relative; overflow:hidden; }",
       ".tp-top { background:#fff; color:#1a1a1a; padding:28mm 28mm 24mm; flex-shrink:0; border-bottom:2px solid #1a1a1a; }",
       ".tp-brand-row { display:flex; justify-content:space-between; align-items:center; margin-bottom:40px; }",
-      ".tp-logo { font-family:'Crimson Pro','Georgia',serif; font-size:14.5pt; font-weight:600; color:#1a1a1a; letter-spacing:-0.01em; }",
-      ".tp-logo span { color:#b8860b; }",
+      ".tp-logo { display:flex; align-items:center; gap:8px; }",
+      ".tp-logo img { width:32px; height:32px; border-radius:50%; object-fit:cover; display:block; }",
+      ".tp-logo-text { font-family:'Crimson Pro','Georgia',serif; font-size:14.5pt; font-weight:600; color:#1a1a1a; letter-spacing:-0.01em; }",
+      ".tp-logo-text span { color:#b8860b; }",
       ".tp-paper { font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:600; letter-spacing:0.18em; text-transform:uppercase; color:#888; }",
       ".tp-chapter-line { font-family:'Inter',sans-serif; font-size:8.5pt; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:#999; margin-bottom:10px; }",
       ".tp-title { font-family:'Crimson Pro','Georgia',serif; font-size:38.5pt; font-weight:400; line-height:1.1; color:#1a1a1a; margin-bottom:16px; letter-spacing:-0.02em; }",
@@ -492,14 +510,20 @@
     var descText = descEl ? descEl.textContent.trim() : "";
 
     var html =
-      '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>' + titleText + '</title>' +
+      '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">' +
+      '<base href="https://bharatnotes.com/">' +
+      '<title>' + titleText + '</title>' +
+      '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap">' +
       '<style>' + crimsonFontsCSS + css + '</style></head><body>' +
 
       /* ═══ TITLE PAGE ═══ */
       '<div class="tp">' +
         '<div class="tp-top">' +
           '<div class="tp-brand-row">' +
-            '<div class="tp-logo">Bharat<span>Notes</span></div>' +
+            '<div class="tp-logo">' +
+              (logoB64 ? '<img src="' + logoB64 + '" alt="BharatNotes">' : '') +
+              '<div class="tp-logo-text">Bharat<span>Notes</span></div>' +
+            '</div>' +
             '<div class="tp-paper">' + paperText + '</div>' +
           '</div>' +
           (ncertChapterLine ? '<div class="tp-chapter-line">' + ncertChapterLine + '</div>' : '') +
