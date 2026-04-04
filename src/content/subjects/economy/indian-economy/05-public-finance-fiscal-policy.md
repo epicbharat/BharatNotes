@@ -296,6 +296,54 @@ India's tax-to-GDP ratio is approximately **11.6%** (2025-26 BE) — significant
 
 ---
 
+## New Income Tax Bill 2025 — Direct Tax Reform
+
+The **Income Tax Bill, 2025** was introduced in Lok Sabha on **13 February 2025** to replace the Income Tax Act, 1961 — India's primary direct tax legislation that had accumulated over six decades of amendments, provisos, and explanations making it one of the most complex tax laws in the world.
+
+### Legislative Timeline
+
+| Event | Date |
+|-------|------|
+| Original Income Tax Bill 2025 introduced in Lok Sabha | 13 February 2025 |
+| Referred to Parliamentary Select Committee (chaired by MP Baijayant Panda) | February 2025 |
+| Select Committee submitted 285+ recommendations | July 2025 |
+| Original bill withdrawn; revised Income Tax (No. 2) Bill introduced and passed by Lok Sabha | 11 August 2025 |
+| Passed by Rajya Sabha | 12 August 2025 |
+| Presidential assent | 21 August 2025 |
+| **Income Tax Act, 2025 came into force** | **1 April 2026** |
+
+### Key Structural Changes
+
+| Change | Old Act (1961) | New Act (2025) |
+|--------|---------------|----------------|
+| **Sections / Clauses** | 819 sections across 47 chapters | 536 sections across 23 chapters and 16 schedules |
+| **Assessment Year / Previous Year** | Two separate concepts causing perennial confusion | Replaced by a single unified **"Tax Year"** concept |
+| **Language** | Dense legal text with multiple provisos and explanations | Simplified, plain language with tabular presentation |
+| **Virtual Digital Assets** | Ad hoc provisions added by Finance Act 2022 | Dedicated structured framework for crypto and VDAs |
+| **TDS framework** | Scattered across many sections | Consolidated and rationalised |
+
+### New Tax Slabs Under New Regime (FY 2025-26 / Tax Year 2025-26)
+
+These slabs were introduced in Union Budget 2025 (Finance Act 2025) and are carried forward in the new Act:
+
+| Income Slab | Tax Rate |
+|-------------|---------|
+| Up to Rs. 4 lakh | Nil |
+| Rs. 4 lakh – Rs. 8 lakh | 5% |
+| Rs. 8 lakh – Rs. 12 lakh | 10% |
+| Rs. 12 lakh – Rs. 16 lakh | 15% |
+| Rs. 16 lakh – Rs. 20 lakh | 20% |
+| Rs. 20 lakh – Rs. 24 lakh | 25% |
+| Above Rs. 24 lakh | 30% |
+
+**Rebate under Section 87A:** Raised to Rs. 60,000, making income up to **Rs. 12 lakh effectively zero-tax** for individual taxpayers under the new regime. Combined with the Rs. 75,000 standard deduction for salaried employees, the tax-free threshold for salaried individuals effectively reaches Rs. 12.75 lakh.
+
+### Significance for UPSC
+
+The Income Tax Act, 2025 — effective 1 April 2026 — is the most significant direct tax reform since the introduction of the original 1961 Act. For Mains, key angles include: simplification as a compliance-enhancement and litigation-reduction tool; the "tax year" concept eliminating previous year/assessment year confusion; the enhanced 87A rebate as a middle-class consumption stimulus; and whether structural simplification alone, without base broadening (only ~7–8% of Indians file returns), can significantly improve India's tax-to-GDP ratio.
+
+---
+
 ## Vocabulary
 
 ### Appropriation

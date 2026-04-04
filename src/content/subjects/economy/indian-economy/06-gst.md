@@ -294,6 +294,70 @@ The backbone of GST — eliminates cascading (tax-on-tax) effect.
 
 ---
 
+## GST Reforms 2024–25
+
+### Revenue Milestone
+
+GST collections reached an **all-time high of Rs. 2.10 lakh crore in April 2024** — a 12.4% year-on-year increase, driven by 13.4% growth in domestic transactions and 8.3% growth in import-related GST. Net GST revenue (after refunds) was Rs. 1.92 lakh crore, up 15.5%.
+
+| Month | Gross GST Collection | Growth (YoY) |
+|-------|---------------------|--------------|
+| April 2024 | Rs. 2.10 lakh crore (record high as of date) | +12.4% |
+| FY 2024-25 full year | Crossed Rs. 20 lakh crore (annual gross) | New annual milestone |
+
+The April 2024 breakdown: CGST Rs. 43,846 crore, SGST Rs. 53,538 crore, IGST Rs. 99,623 crore (including Rs. 37,826 crore on imports), Compensation Cess Rs. 13,260 crore.
+
+### Rate Rationalisation — GoM Recommendations
+
+The Group of Ministers (GoM) on GST Rate Rationalisation, chaired by Bihar Deputy Chief Minister Samrat Chaudhary, examined rate changes across 100+ items through 2024:
+
+- The GoM considered **phasing out the 12% slab** by migrating items to either 5% or 18%, consolidating GST into a cleaner three-tier structure of 5%, 18%, and 28%
+- Some proposals backed elimination of the 12% slab entirely — items currently at 12% would move to 5% (consumer goods) or 18% (standard goods)
+- Broader discussion also included reducing the 28% slab to 18% for many currently demerit-categorised goods
+- Implementation timeline and final consensus remained pending GST Council approval as of end 2024
+
+**GST 2.0 (56th GST Council, September 2025)** subsequently enacted major simplification — reducing the four-slab structure to effectively three rates (0%, 5%, 18%, 40%), as detailed in the rate structure section above.
+
+### GST Appellate Tribunal (GSTAT)
+
+| Feature | Detail |
+|---------|--------|
+| **Constituted** | President of GSTAT (retired Justice Sanjaya Kumar Mishra) appointed May 2024 |
+| **Structure** | Principal Bench in New Delhi + 31 State Benches across 45 locations |
+| **E-Courts Portal** | Online filing, case tracking, and digital hearings — developed by GSTN and NIC |
+| **Procedure Rules** | GST Appellate Tribunal (Procedure) Rules, 2025 notified April 2025 |
+| **Significance** | Resolves the long-standing gap in GST dispute resolution — taxpayers previously had no forum between Commissioner (Appeals) and High Court, causing litigation backlog |
+
+The establishment of GSTAT addresses one of the biggest structural weaknesses in GST implementation since 2017 — an estimated 14,000+ pending GST appeals had no dedicated appellate forum.
+
+### Insurance GST — Ongoing Debate
+
+A major 2024 debate centred on GST on **health and term life insurance premiums**, currently taxed at 18%:
+
+- Opposition parties and consumer groups argued 18% GST on health and life insurance is regressive — it discourages insurance penetration in a country with low insurance coverage
+- The GoM on Insurance GST Reduction (chaired by Bihar Deputy CM) considered reducing GST on term life insurance to 0% and on senior citizen health insurance to 0% or 5%
+- Full implementation remained under GST Council deliberation through 2024-25
+
+India's insurance penetration is approximately 4% of GDP — among the lowest for its development level — partly attributed to the high GST burden on premiums.
+
+### E-invoicing Threshold Reduction
+
+Mandatory GST e-invoicing (B2B) was progressively extended to smaller businesses:
+
+| Phase | Threshold | Effective Date |
+|-------|-----------|----------------|
+| Phase 1 | Rs. 500 crore turnover | October 2020 |
+| Phase 4 | Rs. 10 crore turnover | October 2022 |
+| **Phase 6** | **Rs. 5 crore turnover** | **1 August 2023** |
+
+As of August 2023, all GST-registered businesses with annual turnover exceeding **Rs. 5 crore** must generate e-invoices for B2B supplies. B2C e-invoicing is under active consideration for future phases — which would bring retail transactions into the digital audit trail.
+
+### UPSC Angles for GST Reforms 2024-25
+
+Prelims: April 2024 GST collection Rs. 2.10 lakh crore (all-time high as of that date); GSTAT constituted 2024, principal bench in Delhi; e-invoicing threshold Rs. 5 crore from August 2023. Mains: GSTAT as a structural fix for GST dispute resolution — why a dedicated tribunal matters (specialised knowledge, faster disposal, less HC burden); insurance GST debate — balancing revenue with penetration goals; rate rationalisation challenges (revenue neutrality vs simplification); how GST 2.0 three-slab structure improves on the original four-slab design.
+
+---
+
 ## Current Affairs Connect
 
 Link these static concepts with live developments:
