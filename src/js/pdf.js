@@ -39,16 +39,18 @@
     img.src = "/img/logomark.png";
   })();
 
-  // Crimson Pro fonts — fetched lazily, converted to base64 for self-contained PDF HTML
+  // Fonts — fetched lazily, converted to base64 for self-contained PDF HTML
+  // Crimson Pro: primary serif; Noto Serif: Unicode/IPA/arrows fallback; Noto Serif Devanagari: Sanskrit/Hindi
   var crimsonFontsCSS = "";
   (function preloadFonts() {
     var fonts = [
-      { url: "/fonts/crimsonpro-regular.ttf",  style: "normal",  weight: "400" },
-      { url: "/fonts/crimsonpro-italic.ttf",   style: "italic",  weight: "400" },
-      { url: "/fonts/crimsonpro-semibold.ttf", style: "normal",  weight: "600" }
+      { url: "/fonts/crimsonpro-regular.ttf",  family: "Crimson Pro",          style: "normal", weight: "400" },
+      { url: "/fonts/crimsonpro-italic.ttf",   family: "Crimson Pro",          style: "italic", weight: "400" },
+      { url: "/fonts/crimsonpro-semibold.ttf", family: "Crimson Pro",          style: "normal", weight: "600" },
+      { url: "/fonts/notoserif-regular.ttf",   family: "Noto Serif",           style: "normal", weight: "400" }
     ];
     var loaded = 0;
-    var parts = ["", "", ""];
+    var parts = new Array(fonts.length).fill("");
     fonts.forEach(function(f, i) {
       fetch(f.url)
         .then(function(r) { return r.arrayBuffer(); })
@@ -57,7 +59,7 @@
           var binary = "";
           for (var b = 0; b < bytes.byteLength; b++) binary += String.fromCharCode(bytes[b]);
           var b64 = btoa(binary);
-          parts[i] = "@font-face{font-family:'Crimson Pro';font-style:" + f.style +
+          parts[i] = "@font-face{font-family:'" + f.family + "';font-style:" + f.style +
             ";font-weight:" + f.weight + ";src:url(data:font/truetype;base64," + b64 +
             ") format('truetype');}";
           loaded++;
@@ -267,7 +269,7 @@
       "@page backpage { margin:0; @bottom-left{content:none} @bottom-center{content:none} @bottom-right{content:none} }",
 
       /* Base typography — Crimson Pro (Oxford academic style) */
-      "body { font-family:'Crimson Pro','Georgia','Times New Roman','Noto Serif','Noto Serif Devanagari',serif; font-size:12.5pt; line-height:1.72; color:#1a1a1a; background:#fff; }",
+      "body { font-family:'Crimson Pro','Georgia','Times New Roman','Noto Serif','Noto Serif Devanagari','Noto Sans Symbols 2',serif; font-size:12.5pt; line-height:1.72; color:#1a1a1a; background:#fff; }",
 
       /* ─── TOC PAGE ─── */
       ".toc-pg { page:toc; page-break-after:always; padding:28mm 28mm 20mm; }",
@@ -518,7 +520,7 @@
       '<title>' + titleText + '</title>' +
       '<link rel="preconnect" href="https://fonts.googleapis.com">' +
       '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' +
-      '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Noto+Serif+Devanagari:wght@400;600&display=block" rel="stylesheet">' +
+      '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600&family=Noto+Sans+Symbols+2&display=block" rel="stylesheet">' +
       '<style>' + crimsonFontsCSS + css + '</style>' +
       '<script src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>' +
       '</head><body>' +
