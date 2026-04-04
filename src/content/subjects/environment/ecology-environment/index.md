@@ -18,7 +18,7 @@ tags:
 
 ## Overview
 
-Environment, Ecology and Biodiversity is a **high-scoring section** in both UPSC Prelims and GS3 Mains. This section covers the entire syllabus across **33 detailed chapters** — from ecology fundamentals and biodiversity to climate change, renewable energy, environmental laws, and environmental ethics. Every year, 8--12 Prelims questions and at least one Mains question are drawn from these topics.
+Environment, Ecology and Biodiversity is a **high-scoring section** in both UPSC Prelims and GS3 Mains. This section covers the entire syllabus across **32 detailed chapters** — from ecology fundamentals and biodiversity to climate change, renewable energy, environmental laws, and environmental ethics. Every year, 8--12 Prelims questions and at least one Mains question are drawn from these topics.
 
 ---
 
@@ -55,7 +55,6 @@ Environment, Ecology and Biodiversity is a **high-scoring section** in both UPSC
 | 27 | **Climate Change Adaptation, India's NDC & Loss and Damage** | Updated NDC Aug 2022 (45% intensity cut, 50% non-fossil by 2030, 2.5-3 Bt carbon sink), Panchamrit 5 targets, 8 NAPCC missions, COP27 L&D fund, COP28 $700M pledged, Ahmedabad HAP 2013, LiFE Mission, IPCC AR6 India findings |
 | 28 | **Renewable Energy & Sustainable Development** | Solar (136 GW), wind (55 GW), hydrogen mission, EVs, nuclear, SDGs, circular economy, green finance, carbon markets |
 | 29 | **Biofuels & Ethanol Blending** | National Biofuel Policy 2018, E20 target by 2025, blending progress, GOBAR-Dhan, compressed biogas, aviation biofuels, food vs. fuel debate |
-| 30 | **EIA, Forest & Coastal Clearances, NGT & Environmental Governance** | EIA 2006 (4 stages, Category A/B), CRZ 2019 (all zones, NDZ), FCA 1980/2023 (100 km exemption), CAMPA (₹95,000 crore), NBWL wildlife clearances, NGT (5 benches, 1st developing country), Draft EIA 2020 controversy, SEA, Parivesh portal, green building ratings, MoEFCC/CPCB governance structure |
-| 31 | **EIA Process & Environmental Clearance** | EIA notification 2006, four-stage process (screening, scoping, public consultation, appraisal), Category A/B projects, Parivesh portal, post-clearance monitoring, Draft EIA 2020 |
-| 32 | **Environmental Laws and Governance** | EPA 1986, Air Act, Water Act, Forest Conservation Act, Wildlife Protection Act, Biological Diversity Act, CRZ, EIA, NGT, CAMPA, international MEAs |
-| 33 | **Environmental Movements & Ethics** | Chipko, Appiko, Silent Valley, Narmada Bachao, Bishnoi, deep ecology, environmental justice, intergenerational equity |
+| 30 | **EIA, Environmental Clearance & Coastal Regulation — EIA 2006, CRZ 2019, NGT, Forest Clearance & Green Tribunal** | EIA 2006 (4 stages, Category A/B), CRZ 2019 (all zones, NDZ), FCA 1980/2023 (100 km exemption), CAMPA (₹95,000 crore), NBWL wildlife clearances, NGT (5 benches, 1st developing country), Draft EIA 2020 controversy, SEA, Parivesh portal, green building ratings, MoEFCC/CPCB governance structure |
+| 31 | **Environmental Laws and Governance** | EPA 1986, Air Act, Water Act, Forest Conservation Act, Wildlife Protection Act, Biological Diversity Act, CRZ, EIA, NGT, CAMPA, international MEAs |
+| 32 | **Environmental Movements & Ethics** | Chipko, Appiko, Silent Valley, Narmada Bachao, Bishnoi, deep ecology, environmental justice, intergenerational equity |

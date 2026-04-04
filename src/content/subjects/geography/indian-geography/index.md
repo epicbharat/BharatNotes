@@ -20,7 +20,7 @@ tags:
 
 Indian Geography is the **highest-weightage section** within Geography for UPSC — both Prelims and Mains draw heavily from India's physical setting, rivers, climate, soils, and resources. This section requires both conceptual clarity (monsoon mechanism, drainage patterns) and factual precision (river tributaries, soil types, mineral-producing states, dam locations).
 
-This section is divided into **12 detailed chapters** covering India's physical landscape, drainage, climate, vegetation, resources, and regional geography.
+This section is divided into **17 detailed chapters** covering India's physical landscape, drainage, climate, vegetation, resources, and regional geography.
 
 ### What You'll Cover
 
@@ -34,16 +34,15 @@ This section is divided into **12 detailed chapters** covering India's physical 
 | **Ch 06** | Climate & Monsoon | Climate factors, monsoon mechanism, ITCZ, ENSO, IOD, seasons, rainfall distribution, Koppen |
 | **Ch 07** | Geophysical Phenomena of India | Earthquakes, seismic zones, volcanic activity, landslides, tsunamis, geological hazards in India |
 | **Ch 08** | Northeast India — Eight Sisters | Physical geography, rivers (Brahmaputra, Barak), biodiversity, strategic location, connectivity challenges, Act East Policy |
-| **Ch 09** | Indian Coastline & Islands | Andaman & Nicobar, Lakshadweep, coastal ecosystems, blue economy, island development |
-| **Ch 10** | Indian Soils & Natural Vegetation | ICAR soil types, degradation, Champion & Seth forest classification, biogeographic zones, biosphere reserves |
-| **Ch 11** | Biogeography of India | Biogeographic zones, endemic species, biodiversity hotspots, wildlife corridors, island biogeography |
-| **Ch 12** | Resources & Environment | Mineral resources, coal, petroleum, renewable energy, water resources, conservation |
-| **Ch 13** | Indian Minerals & Energy Resources | Coal, petroleum, natural gas, nuclear energy, renewables, mineral distribution, energy policy |
-| **Ch 14** | Water Resources & Irrigation | CWC data, major river basins, inter-state disputes (Cauvery, Indus Waters Treaty), irrigation types, Jal Jeevan Mission, groundwater depletion |
-| **Ch 15** | Crop Geography & Agricultural Regions | Kharif/Rabi/Zaid seasons, crop belts (rice, wheat, cotton, jute, tea, coffee), state-crop mapping, ICAR agro-climatic zones |
-| **Ch 16** | Soil Geography, Land Degradation & Conservation | 6 ICAR soil types (Alluvial/Black/Red/Laterite/Arid/Mountain), Khadar vs Bhangar, 97.85 M ha degraded (29.7% TGA), UNCCD LDN target, Soil Health Card 2015 (12 parameters), WDC-PMKSY |
-| **Ch 17** | Transport & Communication | Railways, highways, waterways, ports, civil aviation, digital infrastructure, telecom networks |
-| **Ch 18** | Population Geography & Census | Census 2011 data, demographic trends, population distribution, density, urbanisation, migration patterns |
+| **Ch 09** | Indian Soils, Natural Vegetation & Land Degradation — Soil Types, Conservation, UNCCD & Land Use Change | ICAR soil types, degradation, Champion & Seth forest classification, biogeographic zones, biosphere reserves, 6 ICAR soil types (Alluvial/Black/Red/Laterite/Arid/Mountain), Khadar vs Bhangar, 97.85 M ha degraded (29.7% TGA), UNCCD LDN target, Soil Health Card 2015 (12 parameters), WDC-PMKSY |
+| **Ch 10** | Biogeography of India | Biogeographic zones, endemic species, biodiversity hotspots, wildlife corridors, island biogeography |
+| **Ch 11** | Resources & Environment | Mineral resources, coal, petroleum, renewable energy, water resources, conservation |
+| **Ch 12** | Indian Minerals & Energy Resources | Coal, petroleum, natural gas, nuclear energy, renewables, mineral distribution, energy policy |
+| **Ch 13** | Water Resources & Irrigation | CWC data, major river basins, inter-state disputes (Cauvery, Indus Waters Treaty), irrigation types, Jal Jeevan Mission, groundwater depletion |
+| **Ch 14** | Crop Geography & Agricultural Regions | Kharif/Rabi/Zaid seasons, crop belts (rice, wheat, cotton, jute, tea, coffee), state-crop mapping, ICAR agro-climatic zones |
+| **Ch 15** | Indian Coastline & Islands | Andaman & Nicobar, Lakshadweep, coastal ecosystems, blue economy, island development |
+| **Ch 16** | Transport & Communication | Railways, highways, waterways, ports, civil aviation, digital infrastructure, telecom networks |
+| **Ch 17** | Population Geography & Census | Census 2011 data, demographic trends, population distribution, density, urbanisation, migration patterns |
 
 > **Exam Strategy:** Indian Geography dominates Prelims with 8-12 questions per year. Focus on river-tributary associations, soil-crop-state linkages, mineral-producing states, and dam-river pairs. For Mains, connect physical geography with development — how drainage shapes agriculture, how soil degradation affects food security, how resource distribution drives regional disparities. Map practice is essential.
 
