@@ -1,11 +1,17 @@
 ---
 layout: topic.njk
+subject: history-culture
+parent_topic: "Indian Knowledge Systems"
+parent_topic_url: "/subjects/history-culture/indian-knowledge-systems/"
+sub_chapter: 1
 title: "Vedic Mathematics & India's Contribution to Numbers"
-gs_paper: gs1
+gs_papers:
+  - gs1
 syllabus_topic: "Indian Heritage & Culture"
 description: "UPSC notes on India's mathematical heritage — invention of zero by Brahmagupta (628 CE), decimal place-value system, Aryabhata's Aryabhatiya (499 CE), Sulbasutras geometry, Mahavira's Ganitasarasangraha, Bhaskara II's Lilavati, and the Kerala School of Mathematics (Madhava, c. 1340–1425 CE)."
 date: 2026-04-04
 tags:
+  - topic
   - gs1
   - indian-knowledge-systems
 ---

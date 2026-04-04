@@ -1,11 +1,17 @@
 ---
 layout: topic.njk
+subject: history-culture
+parent_topic: "Indian Knowledge Systems"
+parent_topic_url: "/subjects/history-culture/indian-knowledge-systems/"
+sub_chapter: 2
 title: "Indian Astronomy — Vedic Tradition to Jantar Mantar"
-gs_paper: gs1
+gs_papers:
+  - gs1
 syllabus_topic: "Indian Heritage & Culture"
 description: "UPSC notes on Indian astronomy — Vedanga Jyotisha, Aryabhata's Aryabhatiya (499 CE), Brahmagupta, Varahamihira's Brihat Samhita, Maharaja Jai Singh II's five Jantar Mantar observatories, Samrat Yantra, and the UNESCO inscription of Jantar Mantar Jaipur (2010)."
 date: 2026-04-04
 tags:
+  - topic
   - gs1
   - indian-knowledge-systems
 ---

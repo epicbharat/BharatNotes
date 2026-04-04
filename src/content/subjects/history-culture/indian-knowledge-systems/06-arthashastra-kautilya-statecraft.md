@@ -1,11 +1,17 @@
 ---
 layout: topic.njk
+subject: history-culture
+parent_topic: "Indian Knowledge Systems"
+parent_topic_url: "/subjects/history-culture/indian-knowledge-systems/"
+sub_chapter: 6
 title: "Arthashastra — Kautilya's Science of Statecraft & Economics"
-gs_paper: gs1
+gs_papers:
+  - gs1
 syllabus_topic: "Indian Heritage & Culture"
 description: "UPSC notes on Kautilya's Arthashastra — 15 books, rediscovery in 1905 by R. Shamasastry, saptanga theory of state (7 elements), mandala theory of foreign policy, taxation, trade, espionage, comparison with Machiavelli, and relevance to GS-2 governance and GS-4 ethics."
 date: 2026-04-04
 tags:
+  - topic
   - gs1
   - indian-knowledge-systems
 ---

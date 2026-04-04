@@ -1,11 +1,17 @@
 ---
 layout: topic.njk
+subject: history-culture
+parent_topic: "Indian Knowledge Systems"
+parent_topic_url: "/subjects/history-culture/indian-knowledge-systems/"
+sub_chapter: 3
 title: "Ayurveda — Charaka, Sushruta & Indian Medical Tradition"
-gs_paper: gs1
+gs_papers:
+  - gs1
 syllabus_topic: "Indian Heritage & Culture"
 description: "UPSC notes on Ayurveda — Tridosha theory, Charaka Samhita (internal medicine), Sushruta Samhita (surgery, rhinoplasty, 300+ procedures), Vagbhata's Ashtanga Hridayam, Nagarjuna and Rasa Shastra, AYUSH Ministry (2014), and WHO recognition of traditional medicine."
 date: 2026-04-04
 tags:
+  - topic
   - gs1
   - indian-knowledge-systems
 ---

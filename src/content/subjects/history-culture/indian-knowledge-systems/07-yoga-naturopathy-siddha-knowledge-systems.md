@@ -1,11 +1,17 @@
 ---
 layout: topic.njk
+subject: history-culture
+parent_topic: "Indian Knowledge Systems"
+parent_topic_url: "/subjects/history-culture/indian-knowledge-systems/"
+sub_chapter: 7
 title: "Yoga, Siddha & Indian Mind-Body Knowledge Systems"
-gs_paper: gs1
+gs_papers:
+  - gs1
 syllabus_topic: "Indian Heritage & Culture"
 description: "UPSC notes on Yoga as a knowledge system — Patanjali's Yoga Sutras, Ashtanga Yoga (8 limbs), International Day of Yoga (UN resolution December 2014, first celebrated June 21 2015), Siddha medicine (Tamil Nadu, 18 Siddhars), Unani, and AYUSH integration."
 date: 2026-04-04
 tags:
+  - topic
   - gs1
   - indian-knowledge-systems
 ---
