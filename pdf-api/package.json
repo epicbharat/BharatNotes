@@ -1,0 +1,9 @@
+{
+  "name": "bharatnotes-pdf-api",
+  "version": "1.0.0",
+  "description": "Puppeteer PDF generation API for BharatNotes.com",
+  "dependencies": {
+    "@sparticuz/chromium": "^123.0.1",
+    "puppeteer-core": "^22.6.0"
+  }
+}
