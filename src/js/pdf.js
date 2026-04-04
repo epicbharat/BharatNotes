@@ -23,7 +23,7 @@
     img.src = "/img/bharat-choudhary.png";
   })();
 
-  // BharatNotes circle logo — preloaded as base64 PNG
+  // BharatNotes logomark — preloaded as base64 PNG
   var logoB64 = "";
   (function preloadLogo() {
     var img = new Image();
@@ -36,7 +36,7 @@
         logoB64 = c.toDataURL("image/png");
       } catch (e) {}
     };
-    img.src = "/img/bharatnotes-logo.png";
+    img.src = "/img/logomark.png";
   })();
 
   // Crimson Pro fonts — fetched lazily, converted to base64 for self-contained PDF HTML
@@ -293,8 +293,8 @@
       ".tp { width:210mm; height:297mm; display:flex; flex-direction:column; padding:0; page-break-after:always; position:relative; overflow:hidden; }",
       ".tp-top { background:#fff; color:#1a1a1a; padding:28mm 28mm 24mm; flex-shrink:0; border-bottom:2px solid #1a1a1a; }",
       ".tp-brand-row { display:flex; justify-content:space-between; align-items:center; margin-bottom:40px; }",
-      ".tp-logo { display:flex; align-items:center; gap:8px; }",
-      ".tp-logo img { width:32px; height:32px; border-radius:50%; object-fit:cover; display:block; }",
+      ".tp-logo { display:flex; align-items:center; gap:10px; }",
+      ".tp-logo img { width:40px; height:40px; object-fit:contain; display:block; }",
       ".tp-logo-text { font-family:'Crimson Pro','Georgia',serif; font-size:14.5pt; font-weight:600; color:#1a1a1a; letter-spacing:-0.01em; }",
       ".tp-logo-text span { color:#b8860b; }",
       ".tp-paper { font-family:'Inter',sans-serif; font-size:7.5pt; font-weight:600; letter-spacing:0.18em; text-transform:uppercase; color:#888; }",
@@ -475,7 +475,10 @@
       /* Footer */
       ".bp-footer { margin-top:auto; text-align:center; padding-top:16px; border-top:1px solid #e2e8f0; }",
       ".bp-disc { font-size:7.5pt; color:#bbb; line-height:1.7; margin-bottom:6px; }",
-      ".bp-copy { font-family:'Inter',sans-serif; font-size:7pt; color:#ccc; letter-spacing:0.1em; text-transform:uppercase; }"
+      ".bp-copy { font-family:'Inter',sans-serif; font-size:7pt; color:#ccc; letter-spacing:0.1em; text-transform:uppercase; }",
+
+      /* Twemoji — inline emoji rendered as SVG images */
+      "img.emoji { height:1.1em; width:1.1em; vertical-align:-0.15em; object-fit:contain; display:inline; margin:0 0.05em; }"
     ].join(" ");
 
     /* ──────────────
@@ -513,8 +516,9 @@
       '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">' +
       '<base href="https://bharatnotes.com/">' +
       '<title>' + titleText + '</title>' +
-      '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap">' +
-      '<style>' + crimsonFontsCSS + css + '</style></head><body>' +
+      '<style>' + crimsonFontsCSS + css + '</style>' +
+      '<script src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>' +
+      '</head><body>' +
 
       /* ═══ TITLE PAGE ═══ */
       '<div class="tp">' +
@@ -639,6 +643,7 @@
         '</div>' +
       '</div>' +
 
+      '<script>if(window.twemoji){twemoji.parse(document.body,{folder:"svg",ext:".svg",base:"https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/"});}</script>' +
       '</body></html>';
 
     return { html: html, title: titleText, paper: paperText, subject: subjectText };
