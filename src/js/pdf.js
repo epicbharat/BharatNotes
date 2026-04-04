@@ -47,7 +47,8 @@
       { url: "/fonts/crimsonpro-regular.ttf",  family: "Crimson Pro",          style: "normal", weight: "400" },
       { url: "/fonts/crimsonpro-italic.ttf",   family: "Crimson Pro",          style: "italic", weight: "400" },
       { url: "/fonts/crimsonpro-semibold.ttf", family: "Crimson Pro",          style: "normal", weight: "600" },
-      { url: "/fonts/notoserif-regular.ttf",   family: "Noto Serif",           style: "normal", weight: "400" }
+      { url: "/fonts/notoserif-regular.ttf",        family: "Noto Serif",         style: "normal", weight: "400" },
+      { url: "/fonts/notosanssymbols-regular.ttf", family: "Noto Sans Symbols", style: "normal", weight: "400" }
     ];
     var loaded = 0;
     var parts = new Array(fonts.length).fill("");
@@ -269,7 +270,7 @@
       "@page backpage { margin:0; @bottom-left{content:none} @bottom-center{content:none} @bottom-right{content:none} }",
 
       /* Base typography — Crimson Pro (Oxford academic style) */
-      "body { font-family:'Crimson Pro','Georgia','Times New Roman','Noto Serif','Noto Serif Devanagari','Noto Sans Symbols 2',serif; font-size:12.5pt; line-height:1.72; color:#1a1a1a; background:#fff; }",
+      "body { font-family:'Crimson Pro','Georgia','Times New Roman','Noto Serif','Noto Sans Symbols','Noto Serif Devanagari','Noto Sans Symbols 2',serif; font-size:12.5pt; line-height:1.72; color:#1a1a1a; background:#fff; }",
 
       /* ─── TOC PAGE ─── */
       ".toc-pg { page:toc; page-break-after:always; padding:28mm 28mm 20mm; }",
