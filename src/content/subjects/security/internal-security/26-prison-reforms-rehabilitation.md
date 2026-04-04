@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 26
 title: "Prison Reforms & Rehabilitation of Offenders in India"
 gs_paper: gs3
 syllabus_topic: "Internal Security"

@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "UPSC notes on financial inclusion in India — JAM Trinity (Jan Dhan, Aadhaar, Mobile), PMJDY progress, Direct Benefit Transfer (DBT), BC model, SFB, payment banks, MUDRA, women's financial empowerment, fintech and last-mile banking."
-sub_chapter: 25
+sub_chapter: 15
 date: 2026-03-29
 foundation: false
 prelims: true

@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "General Science"
 description: "UPSC notes on genetics, heredity, DNA, RNA, Mendel's laws, mutations, genetic disorders, evolution, Darwin, natural selection, and human evolution."
-sub_chapter: 3
+sub_chapter: 4
 date: 2026-03-27
 foundation: true
 prelims: true

@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Disaster Management"
 description: "UPSC notes on technology in disaster management — ISRO's role (RISAT, INSAT), satellite-based early warning, GIS, drones, AI in DM, NDMA tech initiatives, Sendai Framework's tech emphasis, deep ocean mission."
 chapter: 17
-sub_chapter: 17
+sub_chapter: 19
 date: 2026-03-29
 tags:
   - disaster-management

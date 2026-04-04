@@ -8,7 +8,7 @@ syllabus_topic: "Ethics & Integrity"
 parent_topic: "Ethics & Integrity"
 parent_topic_url: "/subjects/ethics/ethics-aptitude/"
 description: "UPSC notes on civil service values — dedication to public service, neutrality, impartiality, objectivity, All India Services Conduct Rules, and ethical governance."
-sub_chapter: 13
+sub_chapter: 12
 chapter: 13
 date: 2026-03-29
 foundation: true

@@ -4,7 +4,7 @@ title: "UNESCO World Heritage Sites & Cave Architecture — Ajanta, Ellora, Hamp
 subject: history-culture
 parent_topic: "Indian Culture"
 parent_topic_url: /subjects/history-culture/indian-culture/
-sub_chapter: 10
+sub_chapter: 6
 gs_papers: [gs1]
 syllabus_topic: "Indian Culture"
 description: "UPSC notes on India's UNESCO World Heritage Sites (complete list), cave architecture (Ajanta, Ellora, Badami, Elephanta, Udayagiri), rock-cut traditions, and heritage conservation."

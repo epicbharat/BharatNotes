@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Internal Security"
 description: "UPSC notes on organised crime, terrorism financing, money laundering — PMLA, FATF, hawala, drug trafficking, human trafficking, and counterfeit currency."
-sub_chapter: 6
+sub_chapter: 10
 date: 2026-03-27
 foundation: true
 prelims: true

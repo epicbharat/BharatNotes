@@ -8,7 +8,7 @@ syllabus_topic: "Indian Geography"
 parent_topic: "Indian Geography"
 parent_topic_url: "/subjects/geography/indian-geography/"
 description: "UPSC notes on Western and Eastern Ghats — UNESCO World Heritage, biodiversity hotspot, endemic species, rivers, hill stations, comparison table, and environmental threats."
-sub_chapter: 5
+sub_chapter: 2
 chapter: 5
 date: 2026-04-04
 foundation: true

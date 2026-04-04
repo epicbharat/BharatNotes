@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Science & Technology"
 description: "UPSC notes on precision farming, IoT and AI in agriculture, drone crop monitoring (Namo Drone Didi), AgriStack Farmer ID, Digital Agriculture Mission (₹2,817 crore), Krishi DSS, e-NAM, PM-KISAN digitisation, and soil health sensors."
 chapter: 23
-sub_chapter: 23
+sub_chapter: 24
 date: 2026-04-04
 tags:
   - science-tech

@@ -8,7 +8,7 @@ syllabus_topic: "Internal Security"
 parent_topic: "Internal Security"
 parent_topic_url: "/subjects/security/internal-security/"
 description: "UPSC notes on human trafficking — forms, legal framework (ITPA, IPC/BNS provisions), Palermo Protocol, anti-trafficking units, bonded labour, and rehabilitation."
-sub_chapter: 13
+sub_chapter: 12
 chapter: 13
 date: 2026-03-29
 foundation: true

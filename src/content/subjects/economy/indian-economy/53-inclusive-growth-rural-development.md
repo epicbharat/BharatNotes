@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "UPSC GS3 notes on inclusive growth — definition, India's growth-equity paradox, trickle-down theory vs redistribution, rural development programmes: PMGSY, RURBAN Mission, RKVY-RAFTAAR, PURA, MGNREGS as growth tool, Panchayat Raj and local development."
-sub_chapter: 27
+sub_chapter: 53
 date: 2026-03-29
 foundation: false
 prelims: true

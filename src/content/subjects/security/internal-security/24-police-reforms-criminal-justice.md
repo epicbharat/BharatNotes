@@ -4,7 +4,7 @@ title: "Police Reforms & Criminal Justice System — Modernisation, Accountabili
 subject: security
 parent_topic: "Internal Security"
 parent_topic_url: /subjects/security/internal-security/
-sub_chapter: 12
+sub_chapter: 24
 gs_papers: [gs3]
 syllabus_topic: "Internal Security"
 description: "UPSC notes on police reforms — Prakash Singh case, Model Police Act, new criminal codes (BNS, BNSS, BSA), prison reforms, forensic science, and judicial reforms."

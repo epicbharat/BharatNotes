@@ -9,7 +9,7 @@ gs_papers:
   - gs2
 syllabus_topic: "World Geography"
 description: "UPSC notes on the Middle East and Africa — physical geography, petroleum resources, deserts (Sahara, Arabian), major rivers (Nile, Niger, Congo, Zambezi), strategic waterways (Suez Canal, Strait of Hormuz, Bab el-Mandeb), geopolitical importance for India."
-sub_chapter: 9
+sub_chapter: 11
 date: 2026-03-29
 foundation: false
 prelims: true

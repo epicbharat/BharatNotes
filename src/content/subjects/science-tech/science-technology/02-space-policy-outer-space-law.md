@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Science & Technology"
 description: "UPSC notes on India's space programme — ISRO missions (Chandrayaan-3, Gaganyaan, Aditya-L1), IN-SPACe, NewSpace India Ltd, Indian Space Policy 2023, Outer Space Treaty 1967, space debris."
 chapter: 19
-sub_chapter: 19
+sub_chapter: 2
 date: 2026-03-29
 tags:
   - science-tech

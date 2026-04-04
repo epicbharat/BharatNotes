@@ -8,7 +8,7 @@ syllabus_topic: "Medieval India"
 parent_topic: "Medieval India"
 parent_topic_url: "/subjects/history-culture/medieval-india/"
 description: "UPSC notes on medieval administration — Sultanate Iqta system, Mughal Mansabdari system, revenue reforms (Sher Shah, Todar Mal), provincial governance, and military organisation."
-sub_chapter: 9
+sub_chapter: 12
 chapter: 9
 date: 2026-03-28
 foundation: true

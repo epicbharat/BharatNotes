@@ -8,7 +8,7 @@ syllabus_topic: "Indian Constitution & Polity"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "Complete notes on the making of the Indian Constitution, its key features, landmark amendments, and the Basic Structure doctrine — essential for UPSC Prelims, Mains GS2 & Interview."
-sub_chapter: 8
+sub_chapter: 20
 date: 2026-03-26
 foundation: true
 prelims: true

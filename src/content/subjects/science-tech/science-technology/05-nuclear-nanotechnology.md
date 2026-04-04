@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Science and Technology"
 description: "Complete notes on India's nuclear programme (three-stage strategy, PFBR, thorium), nanotechnology (Nano Mission, applications), new materials, SHANTI Bill 2025, and UPSC relevance."
-sub_chapter: 7
+sub_chapter: 5
 date: 2026-03-27
 foundation: true
 prelims: true

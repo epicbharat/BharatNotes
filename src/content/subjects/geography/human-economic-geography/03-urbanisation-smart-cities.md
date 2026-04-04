@@ -4,7 +4,7 @@ title: "Urbanisation & Smart Cities — Urban Growth, Challenges, AMRUT & Smart 
 subject: geography
 parent_topic: "Human & Economic Geography"
 parent_topic_url: /subjects/geography/human-economic-geography/
-sub_chapter: 4
+sub_chapter: 3
 gs_papers: [gs1]
 syllabus_topic: "Human & Economic Geography"
 description: "UPSC notes on urbanisation and smart cities — urban growth trends, Census towns, metropolitan areas, urban challenges, AMRUT, Smart City Mission, SBM-Urban."

@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Modern Indian History"
 description: "Complete UPSC notes on Subhas Chandra Bose — Forward Bloc, escape from India, Azad Hind Government, Indian National Army (INA), Imphal-Kohima campaign, INA trials, and Bose's legacy."
-sub_chapter: 7
+sub_chapter: 12
 date: 2026-03-27
 foundation: true
 prelims: true

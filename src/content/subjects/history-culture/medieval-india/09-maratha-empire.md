@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Medieval Indian History"
 description: "Complete UPSC notes on the Maratha Empire — Shivaji's rise, Ashtapradhan council, Peshwa period, Third Battle of Panipat, Maratha Confederacy, and Anglo-Maratha Wars."
-sub_chapter: 6
+sub_chapter: 9
 date: 2026-03-27
 foundation: true
 prelims: true

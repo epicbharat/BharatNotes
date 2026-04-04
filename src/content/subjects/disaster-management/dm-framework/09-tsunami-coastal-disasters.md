@@ -4,7 +4,7 @@ title: "Tsunamis & Coastal Disasters — Early Warning, Coastal Vulnerability & 
 subject: disaster-management
 parent_topic: "Disaster Management Framework"
 parent_topic_url: /subjects/disaster-management/dm-framework/
-sub_chapter: 8
+sub_chapter: 9
 gs_papers: [gs3]
 syllabus_topic: "Disaster Management"
 description: "UPSC notes on tsunamis and coastal disasters — 2004 Indian Ocean tsunami, ITEWS, coastal vulnerability, storm surge, mangrove role, building codes."

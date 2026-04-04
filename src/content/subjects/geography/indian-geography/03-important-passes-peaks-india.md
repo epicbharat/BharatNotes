@@ -8,7 +8,7 @@ syllabus_topic: "Indian Geography"
 parent_topic: "Indian Geography"
 parent_topic_url: "/subjects/geography/indian-geography/"
 description: "UPSC notes on important Himalayan passes — Rohtang, Zoji La, Nathu La, Shipki La, Bum La, Lipulekh, Karakoram — heights, states, and strategic significance; India's highest peaks."
-sub_chapter: 8
+sub_chapter: 3
 chapter: 8
 date: 2026-04-04
 foundation: true

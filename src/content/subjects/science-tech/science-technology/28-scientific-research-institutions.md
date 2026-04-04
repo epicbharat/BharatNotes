@@ -4,7 +4,7 @@ title: "Scientific Research Institutions & Governance — CSIR, DST, ICMR & Rese
 subject: science-tech
 parent_topic: "Science & Technology"
 parent_topic_url: /subjects/science-tech/science-technology/
-sub_chapter: 9
+sub_chapter: 28
 gs_papers: [gs3]
 syllabus_topic: "Science & Technology"
 description: "UPSC notes on India's scientific research infrastructure — CSIR, DST, ICMR, ICAR, DAE, ISRO, research funding, IPR, Anusandhan National Research Foundation."

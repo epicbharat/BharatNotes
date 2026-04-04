@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Medieval Indian History"
 description: "Complete UPSC notes on the Later Mughal Empire — Jahangir, Shah Jahan's architecture, Aurangzeb's policies, Mughal decline, Nadir Shah's invasion, and the last Mughal emperor."
-sub_chapter: 3
+sub_chapter: 5
 date: 2026-03-27
 foundation: true
 prelims: true

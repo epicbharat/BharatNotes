@@ -8,7 +8,7 @@ syllabus_topic: "Disaster Management"
 parent_topic: "Disaster Management"
 parent_topic_url: "/subjects/disaster-management/dm-framework/"
 description: "UPSC notes on community-based disaster management — CBDM principles, volunteer networks, early warning systems, indigenous knowledge, and technology in disaster response."
-sub_chapter: 12
+sub_chapter: 6
 chapter: 12
 date: 2026-03-29
 foundation: true

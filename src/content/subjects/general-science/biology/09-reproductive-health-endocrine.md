@@ -8,7 +8,7 @@ syllabus_topic: "General Science"
 parent_topic: "Biology"
 parent_topic_url: "/subjects/general-science/biology/"
 description: "UPSC notes on endocrine system — glands, hormones, disorders, reproductive health, family planning methods, population policy, and related government programmes."
-sub_chapter: 9
+sub_chapter: 10
 chapter: 9
 date: 2026-03-29
 foundation: true

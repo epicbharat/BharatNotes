@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 4
 title: "Liberalisation, Privatisation & Globalisation — Effects on India's Economy"
 gs_paper: gs3
 syllabus_topic: "Indian Economy and Issues"

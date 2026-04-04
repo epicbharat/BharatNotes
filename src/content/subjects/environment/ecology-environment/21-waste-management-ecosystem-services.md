@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Environment & Ecology"
 description: "UPSC notes on waste management — solid waste, plastic waste, e-waste, biomedical waste, hazardous waste management rules, and ecosystem services valuation."
-sub_chapter: 6
+sub_chapter: 21
 date: 2026-03-27
 foundation: true
 prelims: true

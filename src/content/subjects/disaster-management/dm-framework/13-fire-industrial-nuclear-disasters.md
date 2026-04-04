@@ -4,7 +4,7 @@ title: "Fire, Industrial & Nuclear Disasters — Bhopal, Nuclear Safety & Urban 
 subject: disaster-management
 parent_topic: "Disaster Management Framework"
 parent_topic_url: /subjects/disaster-management/dm-framework/
-sub_chapter: 9
+sub_chapter: 13
 gs_papers: [gs3]
 syllabus_topic: "Disaster Management"
 description: "UPSC notes on man-made disasters — industrial disasters (Bhopal 1984), fire safety, nuclear accidents, chemical hazards, building collapse, NDMA guidelines."

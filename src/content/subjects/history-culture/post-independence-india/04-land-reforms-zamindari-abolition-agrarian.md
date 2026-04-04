@@ -8,7 +8,7 @@ gs_papers:
 syllabus_topic: "Post-Independence India"
 description: "UPSC notes on post-independence land reforms — zamindari abolition (First Amendment 1951), land ceiling laws, tenancy reforms, land redistribution outcomes, J.C. Kumarappa Committee, Kerala land reforms, and current DILRMP digital land records."
 chapter: 13
-sub_chapter: 13
+sub_chapter: 4
 date: 2026-03-29
 tags:
   - history-culture

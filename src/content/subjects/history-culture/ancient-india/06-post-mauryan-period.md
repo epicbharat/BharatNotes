@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Ancient India"
 description: "Complete UPSC notes on the Post-Mauryan Period — Sungas, Kanvas, Satavahanas, Indo-Greeks, Shakas, Kushans, Sangam Age, Indo-Roman trade, and Gandhara-Mathura art schools."
-sub_chapter: 5
+sub_chapter: 6
 date: 2026-03-27
 foundation: true
 prelims: true

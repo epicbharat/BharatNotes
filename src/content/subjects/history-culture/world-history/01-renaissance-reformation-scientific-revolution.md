@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 1
 title: "Renaissance, Reformation & Scientific Revolution"
 gs_paper: gs1
 syllabus_topic: "History of the World"

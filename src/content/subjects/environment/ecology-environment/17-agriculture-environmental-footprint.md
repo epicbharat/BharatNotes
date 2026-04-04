@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Conservation, Environmental Pollution and Degradation"
 description: "UPSC notes on agriculture's environmental impact — GHG emissions from farming (CH4, N2O, CO2), stubble burning, Punjab cancer belt, groundwater depletion, monoculture, sustainable farming solutions (ZBNF, SRI, PKVY), and India's policy response including PM-PRANAM, PM-KUSUM, and NDC commitments."
-sub_chapter: 25
+sub_chapter: 17
 date: 2026-03-29
 foundation: true
 prelims: true

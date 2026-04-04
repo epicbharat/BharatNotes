@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "General Science"
 description: "UPSC notes on cell biology — cell organelles (mitochondria, chloroplast, ribosome, nucleus), cell division (mitosis, meiosis), cell cycle, plant vs animal cells, and biotechnology relevance."
-sub_chapter: 10
+sub_chapter: 3
 date: 2026-03-28
 foundation: true
 prelims: true

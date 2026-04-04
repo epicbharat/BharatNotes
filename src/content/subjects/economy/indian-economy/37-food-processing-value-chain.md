@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "UPSC notes on India's food processing industry — PLI scheme, PM Kisan SAMPADA Yojana, PMFME scheme, cold chain infrastructure, FDI in food processing, value addition, agri-exports, food parks."
-sub_chapter: 21
+sub_chapter: 37
 date: 2026-03-28
 foundation: false
 prelims: true

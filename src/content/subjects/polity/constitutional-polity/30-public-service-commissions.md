@@ -8,7 +8,7 @@ syllabus_topic: "Indian Constitution & Polity"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "UPSC notes on Union Public Service Commission and State PSCs — constitutional provisions (Articles 315–323), composition, appointment, removal, functions, and independence safeguards."
-sub_chapter: 34
+sub_chapter: 30
 date: 2026-04-04
 foundation: true
 prelims: true

@@ -8,7 +8,7 @@ syllabus_topic: "Constitutional Polity"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "UPSC notes on Anti-Defection Law (52nd Amendment, 10th Schedule), Public Interest Litigation, judicial activism vs restraint, and administrative tribunals (Articles 323A/323B)."
-sub_chapter: 19
+sub_chapter: 39
 chapter: 19
 date: 2026-03-28
 foundation: true

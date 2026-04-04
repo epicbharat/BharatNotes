@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "External Sector"
 description: "UPSC notes on India's trade policy — anti-dumping duties, countervailing measures, WTO dispute settlement, export promotion schemes (RoDTEP, MEIS), trade deficit, FTAs, PLI scheme."
 chapter: 33
-sub_chapter: 33
+sub_chapter: 21
 date: 2026-03-29
 tags:
   - economy

@@ -4,7 +4,7 @@ title: "Chinese Revolution & Asian Communism — Mao, Cultural Revolution & Mode
 subject: history-culture
 parent_topic: "World History"
 parent_topic_url: /subjects/history-culture/world-history/
-sub_chapter: 7
+sub_chapter: 14
 gs_papers: [gs1]
 syllabus_topic: "World History"
 description: "UPSC notes on the Chinese Revolution — Sun Yat-sen, Mao Zedong, Long March, People's Republic, Great Leap Forward, Cultural Revolution, and Deng Xiaoping's reforms."

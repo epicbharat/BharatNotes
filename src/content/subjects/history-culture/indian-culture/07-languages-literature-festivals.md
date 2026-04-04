@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Heritage & Culture"
 description: "Complete UPSC notes on Indian languages, literature, and festivals — Eighth Schedule languages, Classical Language status, major literary traditions, GI-tagged crafts, and festivals of India."
-sub_chapter: 5
+sub_chapter: 7
 date: 2026-03-27
 foundation: true
 prelims: true

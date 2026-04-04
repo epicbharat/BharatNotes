@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Conservation, Environmental Pollution and Degradation"
 description: "UPSC notes on light pollution (dark sky reserves, Hanle HDSR, Pench Dark Sky Park), noise pollution (Noise Pollution Rules 2000, decibel limits by zone), thermal pollution from power plants and water bodies, and radioactive pollution basics under Atomic Energy Act 1962."
-sub_chapter: 28
+sub_chapter: 20
 date: 2026-04-04
 foundation: true
 prelims: true

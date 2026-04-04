@@ -9,7 +9,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Human & Economic Geography"
 description: "Complete notes on India's agriculture geography — major crops, cropping patterns, Green Revolution, irrigation, MSP, food security (NFSA, PDS), and UPSC relevance."
-sub_chapter: 2
+sub_chapter: 4
 date: 2026-03-27
 foundation: true
 prelims: true

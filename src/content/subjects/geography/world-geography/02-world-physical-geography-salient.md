@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "World Geography"
 description: "UPSC notes on major mountain systems (Himalayas, Andes, Rockies, Alps, Urals, Atlas), ocean basins (Pacific, Atlantic, Indian Ocean), major plains (Amazon, Indo-Gangetic), significant rivers (Nile, Amazon, Yangtze), natural regions (tundra, taiga, savanna, desert, Mediterranean), and global distribution of coal, oil, gas, and freshwater resources."
 chapter: 13
-sub_chapter: 13
+sub_chapter: 2
 date: 2026-04-04
 tags:
   - geography

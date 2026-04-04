@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "UPSC GS3 notes on microfinance, SHG-Bank Linkage Programme, NBFC-MFI RBI regulations, PMJDY (55 crore accounts), Andhra Pradesh MFI crisis 2010, Malegam Committee 2011, JAM Trinity, DAY-NRLM, Jan Samarth Portal, and financial inclusion strategy."
-sub_chapter: 38
+sub_chapter: 17
 date: 2026-03-29
 foundation: true
 prelims: true

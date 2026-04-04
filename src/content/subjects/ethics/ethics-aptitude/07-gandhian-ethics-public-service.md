@@ -8,7 +8,7 @@ gs_papers:
   - gs4
 syllabus_topic: "Ethics, Integrity & Aptitude"
 description: "UPSC GS4 notes on Gandhian ethics — Seven Social Sins (Young India 1925), Trusteeship theory, Satyagraha as an ethical tool, Sarvodaya vs Antyodaya, Ahimsa as governance principle, Swadeshi ethics, Gandhi vs Marx, Gandhian values in civil services, and Ram Rajya as an ideal state."
-sub_chapter: 26
+sub_chapter: 7
 date: 2026-04-04
 foundation: true
 prelims: false

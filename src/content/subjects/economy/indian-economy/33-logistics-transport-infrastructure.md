@@ -4,7 +4,7 @@ title: "Logistics & Transport Infrastructure — Railways, Highways, Ports, Avia
 subject: economy
 parent_topic: "Indian Economy"
 parent_topic_url: /subjects/economy/indian-economy/
-sub_chapter: 15
+sub_chapter: 33
 gs_papers: [gs3]
 syllabus_topic: "Indian Economy"
 description: "UPSC notes on logistics and transport infrastructure — Indian Railways, national highways, Bharatmala, Sagarmala, inland waterways, aviation, PM Gati Shakti, NLP."

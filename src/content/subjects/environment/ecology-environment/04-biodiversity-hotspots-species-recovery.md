@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Conservation"
 description: "UPSC notes on India's 4 biodiversity hotspots — Western Ghats, Eastern Himalayas, Indo-Burma, Sundaland; Project Tiger (58 reserves), Project Elephant, snow leopard, vulture recovery programmes."
 chapter: 21
-sub_chapter: 21
+sub_chapter: 4
 date: 2026-03-29
 tags:
   - environment

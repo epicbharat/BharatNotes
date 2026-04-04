@@ -8,7 +8,7 @@ gs_papers:
   - gs4
 syllabus_topic: "Ethics, Integrity & Aptitude"
 description: "UPSC GS4 notes on information ethics, role of conscience, ethical governance frameworks, citizen charters, work culture, quality of service delivery, and utilization of public funds."
-sub_chapter: 8
+sub_chapter: 9
 date: 2026-03-27
 foundation: true
 prelims: true

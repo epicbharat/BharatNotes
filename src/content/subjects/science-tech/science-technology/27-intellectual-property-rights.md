@@ -4,7 +4,7 @@ title: "Intellectual Property Rights — Patents, Trademarks, GI Tags, TRIPS & C
 subject: science-tech
 parent_topic: "Science & Technology"
 parent_topic_url: /subjects/science-tech/science-technology/
-sub_chapter: 10
+sub_chapter: 27
 gs_papers: [gs3]
 syllabus_topic: "Science & Technology"
 description: "UPSC notes on intellectual property rights — patents, copyrights, trademarks, GI tags, trade secrets, TRIPS, compulsory licensing, traditional knowledge, IPR policy."

@@ -8,7 +8,7 @@ syllabus_topic: "Ancient India"
 parent_topic: "Ancient India"
 parent_topic_url: "/subjects/history-culture/ancient-india/"
 description: "UPSC notes on ancient Indian scientific contributions — Aryabhata, Brahmagupta, Charaka, Sushruta, iron pillar metallurgy, Vedic mathematics, and knowledge systems."
-sub_chapter: 9
+sub_chapter: 13
 chapter: 9
 date: 2026-03-28
 foundation: true

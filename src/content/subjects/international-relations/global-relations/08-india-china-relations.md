@@ -4,7 +4,7 @@ title: "India–China Relations — Border Disputes, Trade, Competition & Strate
 subject: international-relations
 parent_topic: "Global Relations"
 parent_topic_url: /subjects/international-relations/global-relations/
-sub_chapter: 10
+sub_chapter: 8
 gs_papers: [gs2]
 syllabus_topic: "International Relations"
 description: "UPSC notes on India-China relations — LAC disputes, Galwan, Doklam, trade imbalance, BRI, CPEC, Indo-Pacific competition, and bilateral mechanisms."

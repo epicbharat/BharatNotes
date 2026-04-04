@@ -8,7 +8,7 @@ syllabus_topic: "Environment & Biodiversity"
 parent_topic: "Ecology, Environment & Biodiversity"
 parent_topic_url: "/subjects/environment/ecology-environment/"
 description: "Complete UPSC notes on EIA (4 stages, Category A/B, Draft 2020 controversy), CRZ 2019 (all zones, NDZ), forest clearances (FCA 1980/2023), CAMPA, wildlife clearances (NBWL), NGT, environmental governance (MoEFCC, CPCB, Parivesh), SEA, gaps in EIA framework."
-sub_chapter: 13
+sub_chapter: 30
 chapter: 13
 date: 2026-03-28
 foundation: true

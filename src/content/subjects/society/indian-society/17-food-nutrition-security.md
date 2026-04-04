@@ -4,7 +4,7 @@ title: "Food & Nutrition Security — Malnutrition, POSHAN, ICDS & Public Health
 subject: society
 parent_topic: "Indian Society"
 parent_topic_url: /subjects/society/indian-society/
-sub_chapter: 10
+sub_chapter: 17
 gs_papers: [gs1, gs2]
 syllabus_topic: "Indian Society"
 description: "UPSC notes on food and nutrition security — malnutrition in India, POSHAN Abhiyaan, ICDS, PM POSHAN, stunting, wasting, anaemia, food fortification."

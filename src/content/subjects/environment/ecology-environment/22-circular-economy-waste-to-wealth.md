@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Conservation, Environmental Pollution and Degradation"
 description: "UPSC notes on circular economy vs linear economy, Extended Producer Responsibility (EPR), Plastic Waste Management Rules 2022, E-Waste Management Rules 2022, product stewardship, and India's circular economy initiatives under NITI Aayog."
-sub_chapter: 26
+sub_chapter: 22
 date: 2026-04-04
 foundation: true
 prelims: true

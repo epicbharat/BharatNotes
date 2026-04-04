@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Modern Indian History"
 description: "UPSC notes on early Indian nationalist economic thought — Dadabhai Naoroji's Drain of Wealth theory (Poverty and Un-British Rule in India), R.C. Dutt's Economic History of India, Ranade's industrialisation thesis, G.K. Gokhale's budget analysis, critique of British deindustrialisation."
-sub_chapter: 11
+sub_chapter: 15
 date: 2026-03-29
 foundation: false
 prelims: true

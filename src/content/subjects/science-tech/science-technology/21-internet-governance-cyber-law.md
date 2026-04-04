@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 21
 title: "Internet Governance & Cyber Law in India"
 gs_paper: gs3
 syllabus_topic: "Science and Technology"

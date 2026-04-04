@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Environment & Biodiversity"
 description: "UPSC notes on ecosystem services — Millennium Ecosystem Assessment (2005), TEEB (The Economics of Ecosystems and Biodiversity), four categories of ecosystem services, natural capital accounting, Payment for Ecosystem Services (PES), India's green GDP debate, valuation methods."
-sub_chapter: 18
+sub_chapter: 7
 date: 2026-03-29
 foundation: false
 prelims: true

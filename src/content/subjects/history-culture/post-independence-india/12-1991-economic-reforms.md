@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Post-Independence India"
 description: "Complete UPSC notes on India's 1991 economic reforms — balance of payments crisis, LPG (Liberalisation, Privatisation, Globalisation), Manmohan Singh's budget, impact on growth, poverty, and India's global integration."
-sub_chapter: 6
+sub_chapter: 12
 date: 2026-03-27
 foundation: true
 prelims: true

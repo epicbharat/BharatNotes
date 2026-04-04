@@ -8,7 +8,7 @@ gs_papers:
   - gs4
 syllabus_topic: "Ethics and Human Interface"
 description: "UPSC GS4 notes on sources of ethical guidance — laws and rules vs conscience, when they align or conflict, ethical frameworks for civil servants, AIS Conduct Rules and Nolan Principles."
-sub_chapter: 15
+sub_chapter: 10
 date: 2026-04-02
 foundation: true
 prelims: false

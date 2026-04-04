@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 19
 title: "Administrative Tribunals and Ombudsman"
 gs_paper: gs2
 syllabus_topic: "Separation of Powers, Dispute Redressal Mechanisms"

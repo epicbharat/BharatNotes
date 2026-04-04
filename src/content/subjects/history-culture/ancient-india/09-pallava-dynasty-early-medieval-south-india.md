@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 9
 title: "Pallava Dynasty & Early Medieval South India"
 gs_paper: gs1
 syllabus_topic: "Art and Culture"

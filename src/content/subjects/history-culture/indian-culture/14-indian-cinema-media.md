@@ -8,7 +8,7 @@ syllabus_topic: "Indian Culture"
 parent_topic: "Indian Culture"
 parent_topic_url: "/subjects/history-culture/indian-culture/"
 description: "UPSC notes on history of Indian cinema, Dadasaheb Phalke, regional cinema, press evolution, broadcasting (AIR, Doordarshan), and India's cultural soft power."
-sub_chapter: 7
+sub_chapter: 14
 chapter: 7
 date: 2026-03-28
 foundation: true

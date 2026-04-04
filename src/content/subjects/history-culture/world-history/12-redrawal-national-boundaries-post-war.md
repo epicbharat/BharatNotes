@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 12
 title: "Redrawal of National Boundaries — Post-WWI and Post-WWII Settlements"
 gs_paper: gs1
 syllabus_topic: "History of the World"

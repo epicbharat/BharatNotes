@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Ancient India"
 description: "Complete UPSC notes on Buddhism and Jainism — Buddha, Mahavira, Four Noble Truths, Eightfold Path, Triratna, Buddhist Councils, Hinayana-Mahayana split, Jain Councils, sects, and spread across Asia."
-sub_chapter: 7
+sub_chapter: 4
 date: 2026-03-27
 foundation: true
 prelims: true

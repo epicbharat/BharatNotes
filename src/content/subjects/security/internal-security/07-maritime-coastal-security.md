@@ -4,7 +4,7 @@ title: "Maritime & Coastal Security — Indian Navy, Coast Guard, Sagarmala & Bl
 subject: security
 parent_topic: "Internal Security"
 parent_topic_url: /subjects/security/internal-security/
-sub_chapter: 9
+sub_chapter: 7
 gs_papers: [gs3]
 syllabus_topic: "Internal Security"
 description: "UPSC notes on maritime and coastal security — Indian Navy, Coast Guard, coastal police, Sagarmala, blue economy, piracy, SLOCs, island security."

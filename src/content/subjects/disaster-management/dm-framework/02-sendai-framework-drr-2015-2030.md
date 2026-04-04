@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 2
 title: "Sendai Framework for DRR 2015–2030 — Targets, Priorities & India"
 gs_paper: gs3
 syllabus_topic: "Disaster Management"

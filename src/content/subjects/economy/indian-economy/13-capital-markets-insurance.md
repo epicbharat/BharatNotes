@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "UPSC notes on Indian capital markets — SEBI, stock exchanges, mutual funds, insurance sector (IRDAI), pension reforms, and financial inclusion initiatives."
-sub_chapter: 10
+sub_chapter: 13
 date: 2026-03-27
 foundation: true
 prelims: true

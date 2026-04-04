@@ -8,7 +8,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Constitution & Polity"
 description: "UPSC GS2 notes on Centre-State financial relations — Article 268-293, Finance Commission (Article 280), vertical and horizontal devolution, grants-in-aid, FRBM, State Finance Commissions, 16th Finance Commission, fiscal federalism challenges."
-sub_chapter: 23
+sub_chapter: 22
 date: 2026-03-29
 foundation: false
 prelims: true

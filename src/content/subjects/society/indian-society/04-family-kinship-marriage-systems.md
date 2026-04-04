@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 4
 title: "Family, Kinship & Marriage Systems in India"
 gs_paper: gs1
 syllabus_topic: "Indian Society"

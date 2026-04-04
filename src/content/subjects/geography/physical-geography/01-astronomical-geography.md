@@ -4,7 +4,7 @@ title: "Astronomical Geography — Earth in Space, Latitude, Longitude & Time"
 subject: geography
 parent_topic: "Physical Geography"
 parent_topic_url: /subjects/geography/physical-geography/
-sub_chapter: 5
+sub_chapter: 1
 gs_papers: [gs1]
 syllabus_topic: "Physical Geography"
 description: "UPSC notes on Earth's shape, rotation, revolution, inclination, latitudes, longitudes, time zones, IST, International Date Line, eclipses, and tides."

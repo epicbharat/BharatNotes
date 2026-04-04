@@ -4,7 +4,7 @@ title: "India & the Middle East, Africa & Central Asia — Energy, Diaspora & St
 subject: international-relations
 parent_topic: "Global Relations"
 parent_topic_url: /subjects/international-relations/global-relations/
-sub_chapter: 12
+sub_chapter: 11
 gs_papers: [gs2]
 syllabus_topic: "International Relations"
 description: "UPSC notes on India's relations with Middle East (Gulf, Israel, Iran), Africa (development partnerships, IAFS), and Central Asia (connectivity, SCO)."

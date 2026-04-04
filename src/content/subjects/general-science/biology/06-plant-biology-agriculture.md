@@ -4,7 +4,7 @@ title: "Plant Biology & Agriculture Science — Photosynthesis, Crop Science & B
 subject: general-science
 parent_topic: "Biology"
 parent_topic_url: /subjects/general-science/biology/
-sub_chapter: 6
+sub_chapter: 7
 gs_papers: [gs3]
 syllabus_topic: "General Science"
 description: "UPSC notes on plant biology and agriculture science — photosynthesis, plant hormones, crop improvement, GM crops, organic farming, precision agriculture."

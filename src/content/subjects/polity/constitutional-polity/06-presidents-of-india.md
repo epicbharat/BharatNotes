@@ -8,7 +8,7 @@ syllabus_topic: "Indian Constitution & Polity"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "UPSC static GK quick-reference: all 15 Presidents of India (1950–present) with exact tenure dates, party backing, key firsts, acting presidents, constitutional provisions (Articles 52–72), electoral college, impeachment procedure, and exam traps."
-sub_chapter: 31
+sub_chapter: 6
 date: 2026-04-02
 foundation: true
 prelims: true

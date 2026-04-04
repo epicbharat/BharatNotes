@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Internal Security"
 description: "Complete notes on the role of media and social networking in internal security — fake news, radicalisation, IT Act, IT Rules 2021, deepfakes, social media regulation, and UPSC relevance."
-sub_chapter: 5
+sub_chapter: 22
 date: 2026-03-27
 foundation: true
 prelims: true

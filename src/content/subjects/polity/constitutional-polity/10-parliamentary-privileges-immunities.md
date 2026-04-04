@@ -8,7 +8,7 @@ syllabus_topic: "Indian Polity & Governance"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "UPSC notes on parliamentary privileges under Articles 105 and 194 — freedom of speech, freedom from arrest, right to exclude strangers, breach of privilege vs contempt of House, Keshav Singh case 1965, and parliamentary committees on privileges."
-sub_chapter: 39
+sub_chapter: 10
 date: 2026-04-04
 foundation: true
 prelims: true

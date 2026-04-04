@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 3
 title: "NavIC & Geospatial Technology in India"
 gs_paper: gs3
 syllabus_topic: "Science and Technology"

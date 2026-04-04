@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "World History"
 description: "Complete UPSC notes on the rise of Fascism and Nazism, World War II — Mussolini, Hitler, appeasement, key battles, Holocaust, atomic bombings, and the post-war order."
-sub_chapter: 5
+sub_chapter: 9
 date: 2026-03-27
 foundation: true
 prelims: true

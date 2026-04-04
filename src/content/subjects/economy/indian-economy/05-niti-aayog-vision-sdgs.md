@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 5
 title: "NITI Aayog — Mandate, Vision 2047 & SDG Monitoring"
 gs_paper: gs3
 syllabus_topic: "Indian Economy and Issues"

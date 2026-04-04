@@ -6,7 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "UPSC notes on global value chains — GVC concept, India's participation, China+1 strategy, supply chain disruptions (COVID, Ukraine war), reshoring trends, and India's positioning."
-sub_chapter: 30
+sub_chapter: 26
 chapter: 30
 parent_topic: "Indian Economy"
 parent_topic_url: "/subjects/economy/indian-economy/"

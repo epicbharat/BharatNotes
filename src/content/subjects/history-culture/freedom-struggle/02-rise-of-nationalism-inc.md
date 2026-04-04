@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Modern Indian History"
 description: "Complete UPSC notes on the rise of Indian nationalism — factors behind political awakening, formation of the Indian National Congress (1885), Moderate phase, Drain Theory, and early nationalist demands."
-sub_chapter: 1
+sub_chapter: 2
 date: 2026-03-27
 foundation: true
 prelims: true

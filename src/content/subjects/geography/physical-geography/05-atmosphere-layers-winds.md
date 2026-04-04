@@ -8,7 +8,7 @@ syllabus_topic: "Physical Geography"
 parent_topic: "Physical Geography"
 parent_topic_url: "/subjects/geography/physical-geography/"
 description: "UPSC notes on layers of the atmosphere, jet streams, trade winds, westerlies, Coriolis effect, ITCZ, pressure belts, and Earth's heat budget — essential for GS1 climatology."
-sub_chapter: 10
+sub_chapter: 5
 chapter: 10
 date: 2026-04-04
 foundation: true

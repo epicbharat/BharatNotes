@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Modern India"
 description: "UPSC notes on early nationalism — INC formation (1885, A.O. Hume), Moderate phase (petitions, prayers), Partition of Bengal 1905, Swadeshi Movement, Bal-Pal-Lal (Extremists), Surat Split 1907, Morley-Minto Reforms 1909."
 chapter: 15
-sub_chapter: 15
+sub_chapter: 8
 date: 2026-03-29
 tags:
   - history-culture

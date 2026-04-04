@@ -8,7 +8,7 @@ syllabus_topic: "Constitutional Polity"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "UPSC notes on Fundamental Duties (Article 51A), citizenship provisions (Articles 5-11), modes of acquisition and termination, OCI/PIO, Citizenship Amendment Act 2019, and NRC."
-sub_chapter: 18
+sub_chapter: 3
 chapter: 18
 date: 2026-03-28
 foundation: true

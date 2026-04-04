@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "Inclusive growth definition, Kuznets curve, HDI (India rank 134/193 in 2023-24 HDR), MPI (11.28% poor, NITI Aayog 2023), Gini coefficient, Lorenz curve, SDGs India progress, and UPSC GS3 inequality notes."
-sub_chapter: 46
+sub_chapter: 54
 date: 2026-04-04
 tags:
   - gs3

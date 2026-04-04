@@ -9,7 +9,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Physical Geography"
 description: "UPSC notes on oceanography — ocean currents, tides, coral reefs, mangroves, marine resources, EEZ, blue economy, deep-sea mining, and India's maritime geography."
-sub_chapter: 2
+sub_chapter: 9
 date: 2026-03-27
 foundation: true
 prelims: true

@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Disaster Management"
 description: "Complete notes on India's major natural disasters — floods, droughts, cyclones, landslides, earthquake zones, disaster statistics, NDMA/NDRF, early warning systems, and UPSC relevance."
-sub_chapter: 4
+sub_chapter: 7
 date: 2026-03-27
 foundation: true
 prelims: true

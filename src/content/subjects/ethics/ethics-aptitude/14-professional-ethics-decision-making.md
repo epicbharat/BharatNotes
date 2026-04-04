@@ -4,7 +4,7 @@ title: "Professional Ethics & Decision Making — Police, Military, Medical & Bu
 subject: ethics
 parent_topic: "Ethics, Integrity & Aptitude"
 parent_topic_url: /subjects/ethics/ethics-aptitude/
-sub_chapter: 9
+sub_chapter: 14
 gs_papers: [gs4]
 syllabus_topic: "Ethics, Integrity & Aptitude"
 description: "UPSC notes on professional ethics and ethical decision making — police ethics, military ethics, medical ethics, bureaucratic ethics, ethical dilemma resolution frameworks."

@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 1
 title: "Constitutional Acts of British India (1773–1935)"
 gs_paper: gs1
 syllabus_topic: "Modern Indian History"

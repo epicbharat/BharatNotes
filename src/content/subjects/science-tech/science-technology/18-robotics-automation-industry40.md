@@ -8,7 +8,7 @@ syllabus_topic: "Science & Technology"
 parent_topic: "Science & Technology"
 parent_topic_url: "/subjects/science-tech/science-technology/"
 description: "UPSC notes on robotics, industrial automation, Industry 4.0, drone technology, 3D printing, smart manufacturing, and India's National Strategy for Robotics."
-sub_chapter: 11
+sub_chapter: 18
 chapter: 11
 date: 2026-03-28
 foundation: true

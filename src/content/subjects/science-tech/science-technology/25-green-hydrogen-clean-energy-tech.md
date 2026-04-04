@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Science & Technology"
 description: "UPSC notes on green hydrogen — electrolysis, types of hydrogen (grey, blue, green), National Green Hydrogen Mission 2023, SIGHT scheme, electrolyser technology, hydrogen fuel cells, ammonia economy, decarbonisation targets."
-sub_chapter: 15
+sub_chapter: 25
 date: 2026-03-28
 foundation: false
 prelims: true

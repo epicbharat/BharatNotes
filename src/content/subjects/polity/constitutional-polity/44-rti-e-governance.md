@@ -8,7 +8,7 @@ syllabus_topic: "Indian Constitution & Polity"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "Complete UPSC notes on RTI Act 2005 (sections, exemptions, amendment 2019, political parties), social audit, Citizen's Charter, Sevottam, e-governance (India Stack, Digital India, PRAGATI), and administrative tribunals (CAT, Article 323A/323B)."
-sub_chapter: 11
+sub_chapter: 44
 date: 2026-03-27
 foundation: true
 prelims: true

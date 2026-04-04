@@ -8,7 +8,7 @@ syllabus_topic: "Indian Society"
 parent_topic: "Indian Society"
 parent_topic_url: "/subjects/society/indian-society/"
 description: "UPSC notes on child rights (POCSO, child labour), elderly welfare (MWPSC Act), and disability inclusion (RPWD Act 2016, accessibility, special education)."
-sub_chapter: 15
+sub_chapter: 11
 chapter: 15
 date: 2026-03-29
 foundation: true

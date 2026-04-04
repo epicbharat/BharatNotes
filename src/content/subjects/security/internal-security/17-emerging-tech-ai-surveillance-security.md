@@ -6,7 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Internal Security"
 description: "UPSC notes on emerging technology threats and tools in internal security — AI-based surveillance, facial recognition controversy, deepfakes, autonomous weapons, cyber warfare, and regulatory gaps."
-sub_chapter: 18
+sub_chapter: 17
 chapter: 18
 parent_topic: "Internal Security"
 parent_topic_url: "/subjects/security/internal-security/"

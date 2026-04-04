@@ -8,7 +8,7 @@ syllabus_topic: "Modern India"
 parent_topic: "Modern India"
 parent_topic_url: "/subjects/history-culture/modern-india/"
 description: "UPSC notes on women's emancipation movements — Sati abolition, widow remarriage, women's education, women in national movement — and Dalit assertion under Ambedkar, Jyotiba Phule, Periyar."
-sub_chapter: 8
+sub_chapter: 14
 chapter: 8
 date: 2026-03-28
 foundation: true

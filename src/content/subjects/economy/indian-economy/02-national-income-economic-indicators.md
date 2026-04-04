@@ -8,7 +8,7 @@ syllabus_topic: "Indian Economy"
 parent_topic: "Indian Economy"
 parent_topic_url: "/subjects/economy/indian-economy/"
 description: "UPSC notes on national income accounting — GDP, GNP, NNP, NDP, per capita income, base year revision, CPI, WPI, IIP, and key economic data sources."
-sub_chapter: 18
+sub_chapter: 2
 chapter: 18
 date: 2026-03-28
 foundation: true

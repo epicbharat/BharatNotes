@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Environment & Biodiversity"
 description: "UPSC notes on invasive alien species in India — Lantana camara, Parthenium, Water hyacinth, African catfish, Tilapia, Mikania, impacts on biodiversity, CBD protocols, India's management framework."
-sub_chapter: 16
+sub_chapter: 14
 date: 2026-03-28
 foundation: false
 prelims: true

@@ -8,7 +8,7 @@ gs_papers:
   - gs2
 syllabus_topic: "International Relations"
 description: "UPSC notes on India-Pakistan relations — history of wars, Simla Agreement, Kashmir issue, cross-border terrorism (Uri, Pulwama, surgical strikes, Balakot), Indus Waters Treaty, CPEC, and current state of bilateral ties."
-sub_chapter: 20
+sub_chapter: 6
 chapter: 20
 date: 2026-04-02
 foundation: true

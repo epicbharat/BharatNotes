@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "General Science"
 description: "UPSC notes on ecology basics — ecosystems, food chains, food webs, ecological pyramids, biogeochemical cycles, biomes, biodiversity, and conservation for Prelims and Mains."
-sub_chapter: 4
+sub_chapter: 5
 date: 2026-03-27
 foundation: true
 prelims: true

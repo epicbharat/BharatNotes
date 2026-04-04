@@ -8,7 +8,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Constitution & Polity"
 description: "UPSC GS2 notes on political parties in India — national vs state parties, ECI recognition criteria, anti-defection, electoral funding, pressure groups, interest groups, NGOs, lobbying and their role in Indian democracy."
-sub_chapter: 22
+sub_chapter: 37
 date: 2026-03-29
 foundation: false
 prelims: true

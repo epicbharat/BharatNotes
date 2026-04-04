@@ -8,7 +8,7 @@ gs_papers:
   - gs4
 syllabus_topic: "Ethics, Integrity & Aptitude"
 description: "UPSC GS4 notes on ethics in public administration — probity in governance, corruption, conflict of interest, whistleblower protection, code of conduct, accountability, and ethical dilemmas in civil service."
-sub_chapter: 6
+sub_chapter: 11
 date: 2026-03-27
 foundation: true
 prelims: true

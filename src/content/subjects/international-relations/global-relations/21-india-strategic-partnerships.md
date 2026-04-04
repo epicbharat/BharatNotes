@@ -8,7 +8,7 @@ gs_papers:
   - gs2
 syllabus_topic: "International Relations"
 description: "UPSC notes on India's strategic partnerships — India-US, India-Russia, India-Japan, India-EU, India-France, India-UK relations, defence cooperation, nuclear diplomacy, and Indo-Pacific strategy."
-sub_chapter: 6
+sub_chapter: 21
 date: 2026-03-27
 foundation: true
 prelims: true

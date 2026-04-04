@@ -8,7 +8,7 @@ syllabus_topic: "Indian Constitution & Polity"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "Complete notes on Indian Parliament — Lok Sabha, Rajya Sabha, composition, sessions, legislative process, money bills, joint sitting, parliamentary privileges, and key articles."
-sub_chapter: 5
+sub_chapter: 8
 date: 2026-03-26
 foundation: true
 prelims: true

@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 11
 title: "Pharma Industry — API, Drug Policy & India's Global Role"
 gs_paper: gs3
 syllabus_topic: "Science and Technology"

@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Internal Security"
 description: "UPSC notes on cybercrime — IT Act 2000 offences (Sections 43, 65, 66, 66A struck down, 67, 69), DPDP Act 2023, CERT-In, types of cybercrime, dark web, digital forensics, cyber law enforcement, online fraud, India's cybersecurity framework."
 chapter: 20
-sub_chapter: 20
+sub_chapter: 15
 date: 2026-03-29
 tags:
   - security

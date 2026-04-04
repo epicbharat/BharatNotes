@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Medieval Indian History"
 description: "Complete UPSC notes on the Chola Dynasty — Rajaraja I, Rajendra I's naval expedition, Uttaramerur inscription, and medieval South Indian dynasties (Pallavas, Chalukyas, Rashtrakutas, Hoysalas, Kakatiyas)."
-sub_chapter: 7
+sub_chapter: 2
 date: 2026-03-27
 foundation: true
 prelims: true

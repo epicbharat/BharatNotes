@@ -4,7 +4,7 @@ title: "Social Movements & Activism — Peasant, Labour, Dalit, Environmental & 
 subject: society
 parent_topic: "Indian Society"
 parent_topic_url: /subjects/society/indian-society/
-sub_chapter: 11
+sub_chapter: 20
 gs_papers: [gs1, gs2]
 syllabus_topic: "Indian Society"
 description: "UPSC notes on social movements in India — peasant movements, labour movements, Dalit rights, tribal movements, women's movements, environmental activism, digital activism."

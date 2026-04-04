@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Heritage & Culture"
 description: "Complete UPSC notes on Indian temple architecture — Nagara, Dravida, Vesara styles, rock-cut architecture, Buddhist stupas, Indo-Islamic architecture, and UNESCO World Heritage Sites in India."
-sub_chapter: 4
+sub_chapter: 5
 date: 2026-03-27
 foundation: true
 prelims: true

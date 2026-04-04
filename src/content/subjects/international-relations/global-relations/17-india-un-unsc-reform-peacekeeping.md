@@ -6,7 +6,7 @@ gs_papers:
   - gs2
 syllabus_topic: "International Relations"
 description: "UPSC notes on India-UN relations — UNSC permanent member bid, G4 group, Uniting for Consensus, India's UN peacekeeping record, UN funding, and multilateral diplomacy."
-sub_chapter: 19
+sub_chapter: 17
 chapter: 19
 parent_topic: "Global Relations"
 parent_topic_url: "/subjects/international-relations/global-relations/"

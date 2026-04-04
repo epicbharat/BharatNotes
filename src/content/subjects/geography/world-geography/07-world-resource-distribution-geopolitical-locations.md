@@ -4,7 +4,7 @@ title: "World Resource Distribution & Geopolitical Locations"
 subject: geography
 parent_topic: "World Geography"
 parent_topic_url: /subjects/geography/world-geography/
-sub_chapter: 2
+sub_chapter: 7
 gs_papers:
   - gs1
 syllabus_topic: "World Geography"

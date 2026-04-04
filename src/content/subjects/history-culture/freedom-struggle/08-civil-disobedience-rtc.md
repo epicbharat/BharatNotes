@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Modern Indian History"
 description: "Complete UPSC notes on the Civil Disobedience Movement — Simon Commission, Nehru Report, Lahore Congress, Dandi March, Gandhi-Irwin Pact, Round Table Conferences, Communal Award, and Poona Pact."
-sub_chapter: 5
+sub_chapter: 8
 date: 2026-03-27
 foundation: true
 prelims: true

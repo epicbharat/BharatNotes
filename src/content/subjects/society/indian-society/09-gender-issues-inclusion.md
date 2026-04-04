@@ -9,7 +9,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Society"
 description: "UPSC notes on gender issues, women empowerment, LGBTQ+ rights, disability inclusion — constitutional provisions, landmark judgments, government schemes, and social justice."
-sub_chapter: 8
+sub_chapter: 9
 date: 2026-03-27
 foundation: true
 prelims: true

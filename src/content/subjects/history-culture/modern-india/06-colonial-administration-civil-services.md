@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Modern Indian History"
 description: "UPSC notes on British colonial administration — Governor-General, Viceroy, ICS, provincial administration, police system (Cornwallis reforms), judicial system, colonial revenue system, and the legacy that shaped independent India's bureaucracy."
-sub_chapter: 10
+sub_chapter: 6
 date: 2026-03-29
 foundation: false
 prelims: true

@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "World History"
 description: "Complete UPSC notes on the unification of Italy and Germany — Mazzini, Cavour, Garibaldi, Bismarck, Blood and Iron, and the rise of European nationalism in the 19th century."
-sub_chapter: 3
+sub_chapter: 6
 date: 2026-03-27
 foundation: true
 prelims: true

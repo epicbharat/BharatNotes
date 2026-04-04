@@ -8,7 +8,7 @@ gs_papers:
 syllabus_topic: "Social Empowerment"
 description: "UPSC notes on OBC reservation — First Backward Classes Commission (Kaka Kalelkar 1953), Mandal Commission (1980), Indra Sawhney 1992 (50% cap, creamy layer), SEBC Act 2018, EWS 103rd Amendment, NCBC (Article 338B)."
 chapter: 23
-sub_chapter: 23
+sub_chapter: 7
 date: 2026-03-29
 tags:
   - society

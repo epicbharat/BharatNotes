@@ -6,7 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "UPSC notes on Production Linked Incentive (PLI) schemes — 14 sectors, total outlay, achievements, Make in India 2.0, industrial corridors, and India's manufacturing strategy."
-sub_chapter: 28
+sub_chapter: 30
 chapter: 28
 parent_topic: "Indian Economy"
 parent_topic_url: "/subjects/economy/indian-economy/"

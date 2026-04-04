@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 3
 title: "International Humanitarian Law — Geneva Conventions & Laws of War"
 gs_paper: gs2
 syllabus_topic: "International Law"

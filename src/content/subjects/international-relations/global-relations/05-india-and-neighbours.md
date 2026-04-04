@@ -8,7 +8,7 @@ gs_papers:
   - gs2
 syllabus_topic: "International Relations"
 description: "UPSC GS2 notes on India's relations with neighbours — China (LAC, border disputes, trade), Pakistan (Kashmir, Indus Waters, ceasefire), Bangladesh (LBA, Teesta, Rohingya), Sri Lanka (fishermen, 13th Amendment, Katchatheevu), Nepal (open border, Kalapani, Lipulekh), Bhutan (hydropower, treaty), Myanmar (Act East, FMR, insurgency), Afghanistan, and Maldives."
-sub_chapter: 2
+sub_chapter: 5
 date: 2026-03-26
 foundation: true
 prelims: true

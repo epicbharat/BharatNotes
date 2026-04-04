@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Heritage & Culture"
 description: "Complete UPSC notes on Indian classical music — Hindustani and Carnatic traditions, ragas, talas, instruments, gharanas, Carnatic Trinity, Tansen, and the evolution of Indian musical heritage."
-sub_chapter: 3
+sub_chapter: 4
 date: 2026-03-27
 foundation: true
 prelims: true

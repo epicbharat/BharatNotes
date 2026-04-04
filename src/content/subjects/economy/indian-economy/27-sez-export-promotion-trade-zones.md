@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 27
 title: "SEZ Policy, Export Promotion & Trade Zones"
 gs_paper: gs3
 syllabus_topic: "Indian Economy and Issues"

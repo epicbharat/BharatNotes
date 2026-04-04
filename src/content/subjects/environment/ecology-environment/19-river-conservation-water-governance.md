@@ -8,7 +8,7 @@ syllabus_topic: "Environment & Biodiversity"
 parent_topic: "Ecology, Environment & Biodiversity"
 parent_topic_url: "/subjects/environment/ecology-environment/"
 description: "UPSC notes on river conservation — Namami Gange, river pollution, interlinking of rivers, National Water Policy, groundwater crisis, Jal Jeevan Mission, and water governance."
-sub_chapter: 12
+sub_chapter: 19
 chapter: 12
 date: 2026-03-28
 foundation: true

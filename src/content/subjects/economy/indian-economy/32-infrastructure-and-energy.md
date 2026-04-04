@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "Comprehensive UPSC notes on India's infrastructure development — National Infrastructure Pipeline, PM Gati Shakti, Sagarmala, Bharatmala, UDAN, Smart Cities, energy sector (solar, wind, nuclear, coal, green hydrogen), electricity reforms, and DISCOM challenges."
-sub_chapter: 7
+sub_chapter: 32
 date: 2026-03-26
 foundation: true
 prelims: true

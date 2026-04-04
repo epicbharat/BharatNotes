@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "World Geography"
 description: "UPSC notes on climate regions — Koppen classification (A/B/C/D/E), major biomes (tropical rainforest, savanna, desert, temperate forest, boreal/taiga, tundra), climate change impacts on biomes, India's climate types, Mediterranean climate."
 chapter: 12
-sub_chapter: 12
+sub_chapter: 4
 date: 2026-03-29
 tags:
   - geography

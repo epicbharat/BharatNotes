@@ -9,7 +9,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Society"
 description: "Complete notes on India's population dynamics — demographic dividend, urbanisation trends, Smart Cities Mission, AMRUT, internal migration, Census, and UPSC relevance."
-sub_chapter: 3
+sub_chapter: 13
 date: 2026-03-27
 foundation: true
 prelims: true

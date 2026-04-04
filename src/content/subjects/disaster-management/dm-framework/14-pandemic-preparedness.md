@@ -4,7 +4,7 @@ title: "Pandemic Preparedness & Biological Disasters — COVID-19 Lessons, One H
 subject: disaster-management
 parent_topic: "Disaster Management Framework"
 parent_topic_url: /subjects/disaster-management/dm-framework/
-sub_chapter: 10
+sub_chapter: 14
 gs_papers: [gs3]
 syllabus_topic: "Disaster Management"
 description: "UPSC notes on pandemic preparedness — COVID-19 response, Epidemic Diseases Act, One Health approach, zoonotic diseases, biosecurity, and India's public health emergency framework."

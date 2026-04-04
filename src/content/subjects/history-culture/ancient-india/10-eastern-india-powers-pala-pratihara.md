@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Ancient India"
 description: "UPSC notes on Pala Dynasty (750–1174 CE), Gopala, Dharmapala, Devapala, Vikramashila, Nalanda, Vajrayana Buddhism; Gurjara-Pratihara dynasty — Nagabhata I & II, Mihira Bhoja; Rashtrakutas (753–982 CE) — Dantidurga, Amoghavarsha, Kailasa temple Ellora; tripartite struggle for Kannauj; Eastern Ganga dynasty and Konark Sun Temple."
 chapter: 15
-sub_chapter: 15
+sub_chapter: 10
 date: 2026-04-04
 tags:
   - history-culture

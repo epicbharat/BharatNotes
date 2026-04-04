@@ -8,7 +8,7 @@ syllabus_topic: "Ethics & Integrity"
 parent_topic: "Ethics & Integrity"
 parent_topic_url: "/subjects/ethics/ethics-aptitude/"
 description: "UPSC notes on probity in governance — concept, Lokpal & Lokayukta, whistleblower protection, CVC, anti-corruption laws, asset declaration, and institutional integrity."
-sub_chapter: 12
+sub_chapter: 13
 chapter: 12
 date: 2026-03-29
 foundation: true

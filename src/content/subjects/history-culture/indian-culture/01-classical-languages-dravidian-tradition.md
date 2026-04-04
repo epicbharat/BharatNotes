@@ -6,7 +6,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Culture"
 description: "UPSC notes on India's classical languages — criteria for classical language status, 11 classical languages (including 5 added in October 2024), Sanskrit revival, Dravidian linguistic tradition, and linguistic diversity."
-sub_chapter: 13
+sub_chapter: 1
 chapter: 13
 parent_topic: "Indian Culture"
 parent_topic_url: "/subjects/history-culture/indian-culture/"

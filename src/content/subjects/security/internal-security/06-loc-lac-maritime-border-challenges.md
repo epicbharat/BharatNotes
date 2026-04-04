@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Internal Security"
 description: "UPSC GS3 notes on LoC (740 km), LAC (3,488 km, three sectors), Galwan 2020, UNCLOS maritime zones, Sir Creek dispute, and Indian Ocean strategy."
-sub_chapter: 24
+sub_chapter: 6
 date: 2026-04-04
 foundation: true
 prelims: true

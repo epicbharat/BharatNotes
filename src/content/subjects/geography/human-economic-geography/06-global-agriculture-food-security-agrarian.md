@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Human Geography"
 description: "UPSC notes on global agricultural geography — types of farming (intensive, extensive, plantation, shifting), Green Revolution, major crop belts (wheat, rice, corn, cotton), food security (GFSI), WFP, FAO, India's global agricultural role."
 chapter: 11
-sub_chapter: 11
+sub_chapter: 6
 date: 2026-03-29
 tags:
   - geography

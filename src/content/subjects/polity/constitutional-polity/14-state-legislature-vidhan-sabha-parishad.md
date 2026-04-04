@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 14
 title: "State Legislature — Vidhan Sabha & Vidhan Parishad"
 gs_paper: gs2
 syllabus_topic: "State Government"

@@ -8,7 +8,7 @@ syllabus_topic: "Indian Economy"
 parent_topic: "Indian Economy"
 parent_topic_url: "/subjects/economy/indian-economy/"
 description: "UPSC notes on Union Budget — constitutional provisions (Article 112), budget documents, revenue/capital distinction, demand for grants, disinvestment, and strategic sale policy."
-sub_chapter: 19
+sub_chapter: 6
 chapter: 19
 date: 2026-03-28
 foundation: true

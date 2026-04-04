@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Science & Technology"
 description: "UPSC notes on health biotechnology — India's vaccine industry (Serum Institute, Bharat Biotech, CERVAVAC), mRNA vaccines, GenomeIndia project, Ayushman Bharat Digital Mission, pharmacogenomics and India's pharma exports."
-sub_chapter: 3
+sub_chapter: 9
 date: 2026-04-02
 foundation: false
 prelims: true

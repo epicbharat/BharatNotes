@@ -8,7 +8,7 @@ gs_papers:
 syllabus_topic: "Ancient India"
 description: "UPSC notes on ancient Indian philosophy — Six Orthodox Darshanas (Nyaya, Vaisheshika, Samkhya, Yoga, Mimamsa, Vedanta), Heterodox schools (Buddhism, Jainism, Charvaka/Lokayata), Advaita Vedanta, Vishishtadvaita, epistemology, Indian logic."
 chapter: 13
-sub_chapter: 13
+sub_chapter: 15
 date: 2026-03-29
 tags:
   - history-culture

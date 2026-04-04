@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "World History"
 description: "UPSC GS1 notes on political philosophies — capitalism (Adam Smith, laissez-faire, Keynesianism), communism (Marx, Engels, Lenin, Mao), socialism (Fabian, democratic socialism), fascism (Mussolini, Hitler), welfare state, and their effect on 20th century societies."
-sub_chapter: 12
+sub_chapter: 10
 date: 2026-03-29
 foundation: false
 prelims: true

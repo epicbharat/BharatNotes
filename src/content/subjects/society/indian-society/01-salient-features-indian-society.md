@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 1
 title: "Salient Features of Indian Society — Diversity, Unity & Social Structure"
 gs_paper: gs1
 syllabus_topic: "Indian Society"

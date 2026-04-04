@@ -6,7 +6,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Constitutional Polity"
 description: "UPSC notes on parliamentary procedures — Question Hour, Zero Hour, Private Member Bills, parliamentary committees (PAC, Estimates, DRSCs), and legislative process."
-sub_chapter: 24
+sub_chapter: 9
 chapter: 24
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"

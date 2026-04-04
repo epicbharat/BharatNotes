@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "World History"
 description: "Complete UPSC notes on the French Revolution — Three Estates, Bastille, Declaration of Rights, Reign of Terror, Directory, Napoleon Bonaparte, and the revolution's global impact."
-sub_chapter: 2
+sub_chapter: 5
 date: 2026-03-27
 foundation: true
 prelims: true

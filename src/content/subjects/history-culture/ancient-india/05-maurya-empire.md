@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Ancient India"
 description: "Complete UPSC notes on the Maurya Empire — Chandragupta Maurya, Kautilya's Arthashastra, Ashoka's Dhamma, rock and pillar edicts, Mauryan administration, economy, art, and decline."
-sub_chapter: 4
+sub_chapter: 5
 date: 2026-03-27
 foundation: true
 prelims: true

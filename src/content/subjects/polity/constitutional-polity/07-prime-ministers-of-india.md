@@ -8,7 +8,7 @@ syllabus_topic: "Indian Constitution & Polity"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "Complete verified list of all Prime Ministers of India (1947–present) with exact tenure dates, party, constituency, key events, records, and UPSC exam traps. Covers Articles 74, 75, 78, Deputy PMs, firsts and records."
-sub_chapter: 32
+sub_chapter: 7
 date: 2026-04-02
 foundation: true
 prelims: true

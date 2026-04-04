@@ -4,7 +4,7 @@ title: "Arab Nationalism, African Liberation & Latin American Revolutions"
 subject: history-culture
 parent_topic: "World History"
 parent_topic_url: /subjects/history-culture/world-history/
-sub_chapter: 8
+sub_chapter: 15
 gs_papers: [gs1]
 syllabus_topic: "World History"
 description: "UPSC notes on Arab nationalism, Palestinian question, African decolonisation, Apartheid, Non-Aligned Movement origins, and Latin American revolutions."

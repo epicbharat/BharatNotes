@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Indian Heritage & Culture"
 description: "UPSC notes on Sufism and Bhakti Movement — Sufi orders (Chishti, Naqshbandi, Suhrawardi, Qadiri), key saints (Nizamuddin, Moinuddin), Bhakti saints (Kabir, Mirabai, Tukaram, Chaitanya, Ramanuja, Shankaracharya), social impact."
 chapter: 14
-sub_chapter: 14
+sub_chapter: 11
 date: 2026-03-29
 tags:
   - history-culture

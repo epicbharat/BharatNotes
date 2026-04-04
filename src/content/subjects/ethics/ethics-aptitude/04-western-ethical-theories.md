@@ -8,7 +8,7 @@ gs_papers:
   - gs4
 syllabus_topic: "Ethics, Integrity & Aptitude"
 description: "UPSC GS4 notes on major Western ethical theories — Bentham's felicific calculus, Mill's harm principle, act vs rule utilitarianism, Kant's three formulations of the Categorical Imperative, Aristotle's virtue ethics (eudaimonia, phronesis, golden mean), social contract theory (Hobbes, Locke, Rousseau, Rawls' veil of ignorance), and application to governance dilemmas."
-sub_chapter: 25
+sub_chapter: 4
 date: 2026-04-04
 foundation: true
 prelims: false

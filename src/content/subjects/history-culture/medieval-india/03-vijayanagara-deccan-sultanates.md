@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Medieval Indian History"
 description: "Complete UPSC notes on the Vijayanagara Empire — Krishnadevaraya, Hampi, Nayankara system, Battle of Talikota — and the Bahmani & Deccan Sultanates."
-sub_chapter: 4
+sub_chapter: 3
 date: 2026-03-27
 foundation: true
 prelims: true

@@ -8,7 +8,7 @@ syllabus_topic: "Indian Culture"
 parent_topic: "Indian Culture"
 parent_topic_url: "/subjects/history-culture/indian-culture/"
 description: "UPSC notes on Indian martial arts (Kalaripayattu, Gatka, Silambam, Thang-Ta), traditional sports (Mallakhamb, Kabaddi, Kho-Kho), chess origins, and sports heritage."
-sub_chapter: 11
+sub_chapter: 9
 chapter: 11
 date: 2026-03-29
 foundation: true

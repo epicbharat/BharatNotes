@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Internal Security"
 description: "UPSC notes on radicalization in India — ISIS influence, online radicalization, lone wolf attacks, counter-radicalization programmes, CVE (Countering Violent Extremism), NIA, UAPA, deradicalization models from global experience."
-sub_chapter: 15
+sub_chapter: 13
 date: 2026-03-28
 foundation: false
 prelims: true

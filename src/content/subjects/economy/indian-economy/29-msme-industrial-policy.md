@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "UPSC notes on MSME sector, industrial policy, Make in India, PLI schemes, ease of doing business, startup ecosystem, and manufacturing strategy."
-sub_chapter: 9
+sub_chapter: 29
 date: 2026-03-27
 foundation: true
 prelims: true

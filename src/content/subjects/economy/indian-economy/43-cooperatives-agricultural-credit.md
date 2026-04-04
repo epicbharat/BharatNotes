@@ -4,7 +4,7 @@ title: "Cooperatives & Agricultural Credit — NABARD, PACS, SHGs & Rural Financ
 subject: economy
 parent_topic: "Indian Economy"
 parent_topic_url: /subjects/economy/indian-economy/
-sub_chapter: 11
+sub_chapter: 43
 gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"

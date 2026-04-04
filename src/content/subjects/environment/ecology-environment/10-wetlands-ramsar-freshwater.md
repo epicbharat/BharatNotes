@@ -6,7 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Environment, Ecology & Biodiversity"
 description: "UPSC notes on wetlands — Ramsar Convention, India's Ramsar sites, Wetland Conservation Rules 2017, Montreux Record, freshwater biodiversity, and wetland ecosystem services."
-sub_chapter: 19
+sub_chapter: 10
 chapter: 19
 parent_topic: "Ecology, Environment & Biodiversity"
 parent_topic_url: "/subjects/environment/ecology-environment/"

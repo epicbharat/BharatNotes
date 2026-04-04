@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 3
 title: "Planning & Resource Mobilisation for Development in India"
 gs_paper: gs3
 syllabus_topic: "Indian Economy and Issues relating to Planning"

@@ -4,7 +4,7 @@ title: "Digital Economy & Fintech — UPI, Digital Payments, CBDC & Financial In
 subject: economy
 parent_topic: "Indian Economy"
 parent_topic_url: /subjects/economy/indian-economy/
-sub_chapter: 13
+sub_chapter: 18
 gs_papers: [gs3]
 syllabus_topic: "Indian Economy"
 description: "UPSC notes on digital economy and fintech — UPI, digital payments, CBDC (e-Rupee), cryptocurrency regulation, fintech ecosystem, JAM trinity, Account Aggregator."

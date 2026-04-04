@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Internal Security"
 description: "UPSC notes on drug trafficking and narcotics control — NDPS Act, NCB, Golden Triangle, Golden Crescent, synthetic drugs, darknet, rehabilitation."
-sub_chapter: 8
+sub_chapter: 11
 date: 2026-03-28
 foundation: true
 prelims: true

@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 7
 title: "India-Bangladesh Relations"
 gs_paper: gs2
 syllabus_topic: "India and its Neighbourhood"

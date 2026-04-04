@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Heritage and Culture"
 description: "UPSC notes on ancient Indian trade — Silk Road, Roman trade, spice trade, shrenis (guilds), punch-marked coins, ports of Barygaza and Muzuris, Periplus of the Erythraean Sea, maritime trade routes."
-sub_chapter: 11
+sub_chapter: 14
 date: 2026-03-28
 foundation: false
 prelims: true

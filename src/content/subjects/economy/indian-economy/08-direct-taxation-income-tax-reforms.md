@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 8
 title: "Direct Taxation — Income Tax, Corporate Tax & Reforms"
 gs_paper: gs3
 syllabus_topic: "Indian Economy and Issues"

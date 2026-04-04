@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Agriculture"
 description: "UPSC notes on cooperative sector — cooperative principles, PACS (Primary Agricultural Credit Societies), NABARD, NCDC, AMUL model (Operation Flood), Multi-State Cooperative Societies Act, 97th Constitutional Amendment, Ministry of Cooperation 2021."
 chapter: 36
-sub_chapter: 36
+sub_chapter: 42
 date: 2026-03-29
 tags:
   - economy

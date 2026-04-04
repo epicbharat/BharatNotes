@@ -8,7 +8,7 @@ syllabus_topic: "Disaster Management"
 parent_topic: "Disaster Management"
 parent_topic_url: "/subjects/disaster-management/dm-framework/"
 description: "UPSC notes on heat waves (definition, criteria, mortality), cold waves, lightning, thunderstorms, hailstorms, fog-related disasters, and climate change amplification."
-sub_chapter: 13
+sub_chapter: 10
 chapter: 13
 date: 2026-03-29
 foundation: true

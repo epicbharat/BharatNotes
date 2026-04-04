@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Post-Independence India"
 description: "UPSC notes on communalism in post-independence India — 1947 Partition violence, anti-Sikh riots 1984, Babri Masjid demolition 1992, Ayodhya verdict 2019, minority rights, secular constitution."
 chapter: 12
-sub_chapter: 12
+sub_chapter: 14
 date: 2026-03-29
 tags:
   - history-culture

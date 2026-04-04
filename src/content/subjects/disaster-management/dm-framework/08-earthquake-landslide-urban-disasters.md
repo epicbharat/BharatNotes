@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Disaster Management"
 description: "UPSC notes on earthquakes, tsunamis, landslides, and urban disasters — seismic zones, early warning systems, NDRF operations, man-made disasters, and community-based disaster management."
-sub_chapter: 6
+sub_chapter: 8
 date: 2026-03-27
 foundation: true
 prelims: true

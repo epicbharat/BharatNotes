@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Internal Security"
 description: "UPSC GS3 notes on India's border management — border guarding forces (BSF, ITBP, SSB, AR), border infrastructure, challenges on each border, smart fencing, coastal security, and one border one force policy."
-sub_chapter: 3
+sub_chapter: 5
 date: 2026-03-26
 foundation: true
 prelims: true

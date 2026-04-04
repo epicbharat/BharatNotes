@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Medieval Indian History"
 description: "UPSC notes on Mughal art and architecture — Mughal miniature painting (Humayun, Akbar, Jahangir, Shah Jahan schools), Mughal architecture (Humayun's Tomb to Taj Mahal), Akbar's Din-i-Ilahi, Sulh-i-Kul, Persian influence, synthesis of Indo-Islamic culture."
-sub_chapter: 11
+sub_chapter: 6
 date: 2026-03-29
 foundation: false
 prelims: true

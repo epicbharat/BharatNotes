@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Environment & Biodiversity"
 description: "UPSC notes on carbon markets — cap-and-trade, carbon credits, REDD+, Article 6 Paris Agreement, India's Carbon Credit Trading Scheme (CCTS), green bonds, climate finance, Green Climate Fund, Adaptation Fund, CBDR principle."
-sub_chapter: 17
+sub_chapter: 26
 date: 2026-03-29
 foundation: false
 prelims: true

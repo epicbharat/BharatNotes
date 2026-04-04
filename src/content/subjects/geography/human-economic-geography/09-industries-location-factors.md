@@ -4,7 +4,7 @@ title: "Industries & Location Factors — Economic Geography of India & World"
 subject: geography
 parent_topic: "Human & Economic Geography"
 parent_topic_url: /subjects/geography/human-economic-geography/
-sub_chapter: 3
+sub_chapter: 9
 gs_papers:
   - gs1
 syllabus_topic: "Human & Economic Geography"

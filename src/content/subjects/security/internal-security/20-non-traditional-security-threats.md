@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Internal Security"
 description: "UPSC GS3 notes on non-traditional security: health security, climate-security nexus, energy security, cyber attacks on critical infrastructure, and India's institutional response."
-sub_chapter: 25
+sub_chapter: 20
 date: 2026-04-04
 foundation: true
 prelims: true

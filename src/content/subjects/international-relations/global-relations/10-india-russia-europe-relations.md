@@ -4,7 +4,7 @@ title: "India–Russia & India–Europe Relations — Defence, Energy, Trade & S
 subject: international-relations
 parent_topic: "Global Relations"
 parent_topic_url: /subjects/international-relations/global-relations/
-sub_chapter: 14
+sub_chapter: 10
 gs_papers: [gs2]
 syllabus_topic: "International Relations"
 description: "UPSC notes on India-Russia relations (defence, S-400, energy, INSTC) and India-EU/Europe relations (trade, FTA negotiations, green partnership, technology)."

@@ -8,7 +8,7 @@ syllabus_topic: "Science & Technology"
 parent_topic: "Science & Technology"
 parent_topic_url: "/subjects/science-tech/science-technology/"
 description: "UPSC notes on AI governance — responsible AI principles, algorithmic bias, deepfakes, AI safety, EU AI Act, India's IndiaAI Mission, and regulatory approaches."
-sub_chapter: 13
+sub_chapter: 19
 chapter: 13
 date: 2026-03-28
 foundation: true

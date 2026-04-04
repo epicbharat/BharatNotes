@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Post-Independence Consolidation and Reorganisation"
 description: "UPSC GS1 notes on Panchsheel Agreement 1954, Bandung Conference 1955, Belgrade NAM Summit 1961, Nehru's non-alignment doctrine, Hindi-Chini Bhai Bhai, Nehru vs Patel on China, 1962 war and its impact on NAM credibility, and NAM's relevance today."
-sub_chapter: 14
+sub_chapter: 2
 date: 2026-04-04
 foundation: true
 prelims: true

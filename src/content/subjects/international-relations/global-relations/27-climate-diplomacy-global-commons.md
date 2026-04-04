@@ -8,7 +8,7 @@ syllabus_topic: "International Relations"
 parent_topic: "International Relations"
 parent_topic_url: "/subjects/international-relations/global-relations/"
 description: "UPSC notes on climate diplomacy — CBDR, India at COPs, ISA, CDRI, global commons governance, high seas treaty, and climate justice."
-sub_chapter: 16
+sub_chapter: 27
 chapter: 16
 date: 2026-03-29
 foundation: true

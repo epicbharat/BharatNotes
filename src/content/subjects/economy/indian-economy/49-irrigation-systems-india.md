@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 49
 title: "Irrigation Systems in India — Types, Coverage, Efficiency & Policy"
 gs_paper: gs3
 syllabus_topic: "Indian Economy and Issues relating to Agriculture"

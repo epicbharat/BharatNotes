@@ -8,7 +8,7 @@ syllabus_topic: "Indian Constitution & Polity"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "Complete notes on the Indian Judiciary — Supreme Court composition, jurisdiction, appointment of judges, collegium vs NJAC, judicial review, PIL, High Courts, and subordinate courts."
-sub_chapter: 7
+sub_chapter: 15
 date: 2026-03-26
 foundation: true
 prelims: true

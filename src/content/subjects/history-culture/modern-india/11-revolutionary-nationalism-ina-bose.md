@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Modern India"
 description: "UPSC notes on revolutionary nationalism — Bhagat Singh, Chandrashekhar Azad, HSRA, Subhas Chandra Bose, Forward Bloc, Indian National Army (INA), Azad Hind Government, INA trials and impact."
 chapter: 12
-sub_chapter: 12
+sub_chapter: 11
 date: 2026-03-29
 tags:
   - history-culture

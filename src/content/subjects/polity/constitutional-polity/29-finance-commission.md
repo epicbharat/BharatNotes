@@ -8,7 +8,7 @@ syllabus_topic: "Indian Constitution & Polity"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "UPSC notes on Finance Commission (Article 280) — composition, functions, vertical & horizontal devolution, grants-in-aid, and 15th FC recommendations for 2021-26."
-sub_chapter: 33
+sub_chapter: 29
 date: 2026-04-04
 foundation: true
 prelims: true

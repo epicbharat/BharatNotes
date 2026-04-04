@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Science & Technology"
 description: "UPSC notes on semiconductors — global chip shortage, India Semiconductor Mission, Tata Electronics-PSMC fab, Micron fab in Sanand, CHIPS Act (USA), semiconductor supply chain, critical tech diplomacy."
 chapter: 20
-sub_chapter: 20
+sub_chapter: 16
 date: 2026-03-29
 tags:
   - science-tech

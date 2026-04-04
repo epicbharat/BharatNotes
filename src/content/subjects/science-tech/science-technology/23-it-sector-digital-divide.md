@@ -6,7 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Science & Technology"
 description: "UPSC GS3 notes on India's IT sector — NASSCOM FY2024 revenue $254 billion, 5.43 million employees, software exports $205 billion; digital divide (rural 37% vs urban 67% internet penetration); Digital India, BharatNet (2.14 lakh+ gram panchayats), India Stack (Aadhaar, UPI, DigiLocker); e-governance landmarks."
-sub_chapter: 27
+sub_chapter: 23
 chapter: 27
 date: 2026-04-04
 tags:

@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Modern India"
 description: "UPSC notes on Non-Cooperation Movement (1920-22) — Khilafat alliance, Chauri Chaura (Feb 4, 1922) withdrawal; Civil Disobedience Movement (1930) — Dandi March (March 12, 1930), Simon Commission, Gandhi-Irwin Pact, Round Table Conferences."
 chapter: 14
-sub_chapter: 14
+sub_chapter: 10
 date: 2026-03-29
 tags:
   - history-culture

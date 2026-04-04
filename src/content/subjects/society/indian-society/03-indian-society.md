@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Society"
 description: "Complete UPSC notes on Indian society — diversity, caste system, tribes, demographic dividend, urbanisation, communalism, secularism, regionalism, women's issues, social empowerment, and population policy."
-sub_chapter: 1
+sub_chapter: 3
 date: 2026-03-26
 foundation: true
 prelims: true

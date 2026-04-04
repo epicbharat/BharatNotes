@@ -8,7 +8,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Polity"
 description: "UPSC notes on constitutional amendment procedure (Article 368), 12 Schedules, 5th and 6th Schedule tribal areas, special provisions for states, and key landmark amendments."
-sub_chapter: 14
+sub_chapter: 41
 date: 2026-03-27
 foundation: true
 prelims: true

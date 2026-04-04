@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Agriculture"
 description: "UPSC notes on Minimum Support Price (MSP) — CACP, C2+50% formula, 23 crops, FCI procurement, food subsidy, legal guarantee debate, PM-AASHA, e-NAM, farm income doubling."
 chapter: 32
-sub_chapter: 32
+sub_chapter: 39
 date: 2026-03-29
 tags:
   - economy

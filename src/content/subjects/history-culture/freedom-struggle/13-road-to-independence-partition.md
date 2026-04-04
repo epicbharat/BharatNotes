@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Modern Indian History"
 description: "Complete UPSC notes on the final phase of Indian independence — Wavell Plan, RIN Mutiny, Cabinet Mission, Direct Action Day, Mountbatten Plan, Indian Independence Act 1947, Radcliffe Line, and the Partition."
-sub_chapter: 8
+sub_chapter: 13
 date: 2026-03-27
 foundation: true
 prelims: true

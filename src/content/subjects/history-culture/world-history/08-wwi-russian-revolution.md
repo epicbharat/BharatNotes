@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "World History"
 description: "Complete UPSC notes on World War I and the Russian Revolution — MAIN causes, key battles, Treaty of Versailles, February and October Revolutions, Lenin, and the rise of the Soviet Union."
-sub_chapter: 4
+sub_chapter: 7
 date: 2026-03-27
 foundation: true
 prelims: true

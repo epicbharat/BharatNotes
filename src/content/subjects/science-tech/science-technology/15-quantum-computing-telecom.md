@@ -4,7 +4,7 @@ title: "Quantum Computing & Telecommunications — 5G, 6G, Quantum Supremacy & D
 subject: science-tech
 parent_topic: "Science & Technology"
 parent_topic_url: /subjects/science-tech/science-technology/
-sub_chapter: 8
+sub_chapter: 15
 gs_papers: [gs3]
 syllabus_topic: "Science & Technology"
 description: "UPSC notes on quantum computing and telecommunications — qubits, quantum supremacy, 5G rollout, 6G vision, spectrum allocation, BharatNet, digital infrastructure."

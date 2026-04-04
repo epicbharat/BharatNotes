@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 2
 title: "Ottoman Empire — Rise, Decline & Collapse"
 gs_paper: gs1
 syllabus_topic: "History of the World"

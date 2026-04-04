@@ -8,7 +8,7 @@ syllabus_topic: "World History"
 parent_topic: "World History"
 parent_topic_url: "/subjects/history-culture/world-history/"
 description: "UPSC notes on the collapse of the Soviet Union — Gorbachev's reforms, fall of Berlin Wall, dissolution 1991, unipolar world, EU formation, and rise of globalisation."
-sub_chapter: 10
+sub_chapter: 16
 chapter: 10
 date: 2026-03-29
 foundation: true

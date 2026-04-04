@@ -4,7 +4,7 @@ title: "Indo-Pacific Strategy, QUAD & ASEAN — Maritime Security & Regional Arc
 subject: international-relations
 parent_topic: "Global Relations"
 parent_topic_url: /subjects/international-relations/global-relations/
-sub_chapter: 11
+sub_chapter: 15
 gs_papers: [gs2]
 syllabus_topic: "International Relations"
 description: "UPSC notes on Indo-Pacific concept, QUAD (India-US-Japan-Australia), ASEAN centrality, AUKUS, South China Sea, FOIP, and India's Act East Policy."

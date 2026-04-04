@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Ancient India"
 description: "UPSC notes on Harsha (606-647 CE) — Harshacharita, Xuanzang's account, Nalanda, land grants system, post-Gupta fragmentation, Chalukyas, Pallavas, early medieval polity and society."
 chapter: 12
-sub_chapter: 12
+sub_chapter: 11
 date: 2026-03-29
 tags:
   - history-culture

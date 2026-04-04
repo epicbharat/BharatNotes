@@ -6,7 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Environment, Ecology & Biodiversity"
 description: "UPSC notes on India's forest governance — India State of Forest Report, Joint Forest Management, CAMPA Act 2016, forest rights vs conservation, Van Dhan, and deforestation challenges."
-sub_chapter: 20
+sub_chapter: 9
 chapter: 20
 parent_topic: "Ecology, Environment & Biodiversity"
 parent_topic_url: "/subjects/environment/ecology-environment/"

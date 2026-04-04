@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "UPSC GS3 notes on CPI, WPI, GDP deflator, core vs headline inflation, RBI's flexible inflation targeting framework (4% ± 2%), MPC, food inflation drivers, and recent inflation trends in India 2024–26."
-sub_chapter: 40
+sub_chapter: 10
 date: 2026-04-04
 foundation: true
 prelims: true

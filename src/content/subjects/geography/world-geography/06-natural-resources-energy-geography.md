@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "World Geography"
 description: "UPSC notes on global natural resources — oil and gas geography (OPEC, Persian Gulf), coal distribution, critical minerals (lithium, cobalt, rare earths), water stress, forest resources, resource geopolitics and India's resource security."
 chapter: 11
-sub_chapter: 11
+sub_chapter: 6
 date: 2026-03-29
 tags:
   - geography

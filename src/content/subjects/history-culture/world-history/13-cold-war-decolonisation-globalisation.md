@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "World History"
 description: "Complete UPSC notes on the Cold War, decolonisation, and globalisation — NATO vs Warsaw Pact, proxy wars, Cuban Missile Crisis, decolonisation of Asia and Africa, European integration, and globalisation."
-sub_chapter: 6
+sub_chapter: 13
 date: 2026-03-27
 foundation: true
 prelims: true

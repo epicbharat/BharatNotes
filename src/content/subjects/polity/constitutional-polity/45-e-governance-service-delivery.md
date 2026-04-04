@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 45
 title: "e-Governance — Models, Service Delivery & Digital India"
 gs_paper: gs2
 syllabus_topic: "Governance"

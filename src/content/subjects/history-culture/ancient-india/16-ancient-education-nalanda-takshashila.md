@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 16
 title: "Ancient Educational Institutions — Nalanda, Takshashila & Vikramshila"
 gs_paper: gs1
 syllabus_topic: "Art and Culture"

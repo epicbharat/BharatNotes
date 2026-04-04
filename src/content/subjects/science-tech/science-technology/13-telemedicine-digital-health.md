@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Science & Technology"
 description: "UPSC notes on Telemedicine Practice Guidelines 2020, eSanjeevani platform (43+ crore consultations), Ayushman Bharat Digital Mission (ABDM), ABHA Health ID (72+ crore created), National Health Stack, CoWIN lessons for digital public infrastructure."
 chapter: 24
-sub_chapter: 24
+sub_chapter: 13
 date: 2026-04-04
 tags:
   - science-tech

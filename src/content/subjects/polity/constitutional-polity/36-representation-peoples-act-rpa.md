@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 36
 title: "Representation of the People Acts 1950 & 1951 — Salient Features"
 gs_paper: gs2
 syllabus_topic: "Electoral System"

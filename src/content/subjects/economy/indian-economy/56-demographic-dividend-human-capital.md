@@ -8,7 +8,7 @@ syllabus_topic: "Indian Economy"
 parent_topic: "Indian Economy"
 parent_topic_url: "/subjects/economy/indian-economy/"
 description: "UPSC notes on India's demographic dividend — population structure, dependency ratio, Skill India Mission, labour reforms (4 labour codes), gig economy, and human capital formation."
-sub_chapter: 16
+sub_chapter: 56
 chapter: 16
 date: 2026-03-28
 foundation: true

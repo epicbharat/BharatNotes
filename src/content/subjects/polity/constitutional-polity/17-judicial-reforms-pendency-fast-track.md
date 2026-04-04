@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Constitutional Posts"
 description: "UPSC notes on judicial reforms — 4.76 crore case pendency, NJAC judgment 2015, collegium system, e-courts, fast-track courts (754 FTSCs), Gram Nyayalayas, ADR, Law Commission recommendations, Article 39A."
 chapter: 29
-sub_chapter: 29
+sub_chapter: 17
 date: 2026-03-29
 tags:
   - polity

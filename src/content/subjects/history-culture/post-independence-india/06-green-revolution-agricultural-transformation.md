@@ -8,7 +8,7 @@ syllabus_topic: "Post-Independence India"
 parent_topic: "Post-Independence India"
 parent_topic_url: "/subjects/history-culture/post-independence-india/"
 description: "UPSC notes on India's Green Revolution — MS Swaminathan, HYV seeds, Punjab-Haryana success, White Revolution (Kurien), Blue Revolution, and agricultural policy evolution."
-sub_chapter: 9
+sub_chapter: 6
 chapter: 9
 date: 2026-03-29
 foundation: true

@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Modern Indian History"
 description: "Complete UPSC notes on India's revolutionary nationalists — Anushilan Samiti, Ghadar Movement, HRA, HSRA, Bhagat Singh, Chandrashekhar Azad, Surya Sen, Kakori Conspiracy, and the ideological evolution of armed resistance."
-sub_chapter: 4
+sub_chapter: 6
 date: 2026-03-27
 foundation: true
 prelims: true

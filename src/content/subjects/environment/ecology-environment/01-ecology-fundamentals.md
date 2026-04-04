@@ -4,7 +4,7 @@ title: "Ecology Fundamentals — Ecosystems, Food Chains & Biogeochemical Cycles
 subject: environment
 parent_topic: "Ecology, Environment & Biodiversity"
 parent_topic_url: /subjects/environment/ecology-environment/
-sub_chapter: 7
+sub_chapter: 1
 gs_papers:
   - gs3
 syllabus_topic: "Environment & Biodiversity"

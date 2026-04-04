@@ -8,7 +8,7 @@ syllabus_topic: "Indian Polity & Governance"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "UPSC notes on inter-state water disputes under Article 262, Inter-State River Water Disputes Act 1956, major tribunals (Cauvery, Krishna, Godavari, Narmada, Ravi-Beas, Mahadayi, Vansadhara), River Boards Act 1956, and the 2022 amendment."
-sub_chapter: 41
+sub_chapter: 24
 date: 2026-04-04
 foundation: true
 prelims: true

@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Internal Security"
 description: "UPSC GS3 notes on linkages between development and spread of extremism — underdevelopment driving LWE, tribal insurgency, Northeast militancy, radicalisation; governance deficit as security threat; integrated development approach; aspirational districts; SAMADHAN doctrine."
-sub_chapter: 17
+sub_chapter: 3
 date: 2026-03-29
 foundation: false
 prelims: true

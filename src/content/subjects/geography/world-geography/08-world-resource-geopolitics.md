@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "World Geography"
 description: "UPSC notes on resource geopolitics — critical minerals (rare earths, lithium, cobalt), oil geopolitics (OPEC+, Strait of Hormuz 20% world oil), water disputes (GERD, Mekong), food security (Ukraine war-wheat), Arctic resources, and India's critical mineral strategy (KABIL)."
 chapter: 14
-sub_chapter: 14
+sub_chapter: 8
 date: 2026-04-04
 tags:
   - geography

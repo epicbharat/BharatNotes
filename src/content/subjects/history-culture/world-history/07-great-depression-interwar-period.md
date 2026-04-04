@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 8
 title: "The Great Depression (1929) & the Inter-War Period"
 gs_paper: gs1
 syllabus_topic: "History of the World"

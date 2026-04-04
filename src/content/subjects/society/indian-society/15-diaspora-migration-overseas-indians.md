@@ -9,7 +9,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Society"
 description: "UPSC notes on Indian diaspora — NRI, OCI, PIO categories, Pravasi Bharatiya Divas, remittances, brain drain vs brain gain, Indian community overseas, Indian diaspora's role in foreign policy, cultural diaspora."
-sub_chapter: 18
+sub_chapter: 15
 date: 2026-03-29
 foundation: false
 prelims: true

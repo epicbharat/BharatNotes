@@ -8,7 +8,7 @@ syllabus_topic: "General Science"
 parent_topic: "Biology"
 parent_topic_url: "/subjects/general-science/biology/"
 description: "UPSC notes on animal kingdom — Linnaeus classification, major phyla (Porifera to Chordata), vertebrate classes, animal behaviour, endangered species, and wildlife conservation."
-sub_chapter: 8
+sub_chapter: 9
 chapter: 8
 date: 2026-03-28
 foundation: true

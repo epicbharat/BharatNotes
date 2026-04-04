@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 5
 title: "Biosphere Reserves of India — UNESCO MAB Programme"
 gs_paper: gs3
 syllabus_topic: "Conservation"

@@ -4,7 +4,7 @@ title: "Climatology — Atmosphere, Pressure Belts, Winds & Cyclones"
 subject: geography
 parent_topic: "Physical Geography"
 parent_topic_url: /subjects/geography/physical-geography/
-sub_chapter: 1
+sub_chapter: 6
 gs_papers:
   - gs1
 syllabus_topic: "Physical Geography"

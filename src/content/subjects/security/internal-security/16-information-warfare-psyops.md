@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Internal Security"
 description: "UPSC GS3 notes on information warfare, psychological operations (PsyOps), disinformation campaigns, deepfakes in conflict, China's Three Warfares doctrine, Pakistan's Kashmir narrative war, India's countermeasures, the Fact Check Unit (FCU) controversy, and IT Rules 2021."
-sub_chapter: 21
+sub_chapter: 16
 date: 2026-04-04
 foundation: true
 prelims: true

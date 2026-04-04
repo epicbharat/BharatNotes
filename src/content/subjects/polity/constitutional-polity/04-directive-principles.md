@@ -8,7 +8,7 @@ syllabus_topic: "Indian Constitution & Polity"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "Complete notes on DPSP — Articles 36–51, classification into Socialist, Gandhian & Liberal principles, comparison with Fundamental Rights, landmark cases, and amendments."
-sub_chapter: 3
+sub_chapter: 4
 date: 2026-03-26
 foundation: true
 prelims: true

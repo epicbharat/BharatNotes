@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Medieval Indian History"
 description: "Complete UPSC notes on medieval Indian society — Indo-Islamic architecture, textile trade, Indian Ocean commerce, Urdu emergence, coinage, social structure, and cultural synthesis."
-sub_chapter: 8
+sub_chapter: 11
 date: 2026-03-27
 foundation: true
 prelims: true

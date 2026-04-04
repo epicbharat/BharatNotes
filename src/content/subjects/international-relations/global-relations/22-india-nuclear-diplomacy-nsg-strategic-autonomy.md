@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "International Relations"
 description: "UPSC notes on India's nuclear diplomacy — Pokhran I (1974) and II (1998), nuclear doctrine (no-first-use), India-USA Civil Nuclear Deal (123 Agreement), NSG membership bid, CTBT/NPT stance, MTCR, Wassenaar Arrangement, strategic autonomy."
 chapter: 23
-sub_chapter: 23
+sub_chapter: 22
 date: 2026-03-29
 tags:
   - international-relations

@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "World History"
 description: "UPSC GS1 notes on colonialism and imperialism — Age of Exploration, new imperialism (1870-1914), scramble for Africa, colonial rule in Asia, decolonisation movements, economic impact of colonialism, legacy for developing world."
-sub_chapter: 11
+sub_chapter: 3
 date: 2026-03-29
 foundation: false
 prelims: true

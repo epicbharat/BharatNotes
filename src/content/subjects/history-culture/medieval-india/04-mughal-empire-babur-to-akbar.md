@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Medieval Indian History"
 description: "Complete UPSC notes on the early Mughal Empire — Babur's conquests, Humayun's exile, Sher Shah Suri's reforms, and Akbar's Mansabdari system, Dahsala revenue, Din-i-Ilahi, and Sulh-i-Kul."
-sub_chapter: 2
+sub_chapter: 4
 date: 2026-03-27
 foundation: true
 prelims: true

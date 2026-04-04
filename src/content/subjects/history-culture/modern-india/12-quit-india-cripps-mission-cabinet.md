@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Modern India"
 description: "UPSC notes on Quit India Movement (1942) — August Kranti, underground resistance, parallel governments (Satara, Tamralipta); Cripps Mission (1942); Cabinet Mission Plan (1946); Attlee declaration; Direct Action Day."
 chapter: 13
-sub_chapter: 13
+sub_chapter: 12
 date: 2026-03-29
 tags:
   - history-culture

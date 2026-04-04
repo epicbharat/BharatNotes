@@ -9,7 +9,7 @@ gs_papers:
 syllabus_topic: "Physical Geography"
 description: "UPSC notes on oceanography — ocean currents (warm and cold), El Niño/La Niña, tides, ocean floor relief features, salinity, temperature, Indian Ocean Dipole, deep sea mining, UNCLOS."
 chapter: 11
-sub_chapter: 11
+sub_chapter: 10
 date: 2026-03-29
 foundation: false
 prelims: true

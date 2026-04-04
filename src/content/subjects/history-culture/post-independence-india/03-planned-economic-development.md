@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Post-Independence India"
 description: "Complete UPSC notes on India's planned economy — Planning Commission, Five-Year Plans, Mahalanobis model, Green Revolution, White Revolution, Blue Revolution, and NITI Aayog."
-sub_chapter: 2
+sub_chapter: 3
 date: 2026-03-27
 foundation: true
 prelims: true

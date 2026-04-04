@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "World History"
 description: "Complete UPSC notes on the Industrial Revolution and American Revolution — why Britain led, key inventions, impact on India, causes and consequences of American independence."
-sub_chapter: 1
+sub_chapter: 4
 date: 2026-03-27
 foundation: true
 prelims: true

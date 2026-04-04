@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 7
 title: "Simon Commission, Nehru Report & Poona Pact (1927–32)"
 gs_paper: gs1
 syllabus_topic: "Freedom Struggle"

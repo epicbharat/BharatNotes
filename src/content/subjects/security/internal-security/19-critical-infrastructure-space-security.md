@@ -8,7 +8,7 @@ syllabus_topic: "Internal Security"
 parent_topic: "Internal Security"
 parent_topic_url: "/subjects/security/internal-security/"
 description: "UPSC notes on critical infrastructure protection — NCIIPC, sectors, cyber-physical threats, space security (ASAT, space debris, Outer Space Treaty), and emerging security domains."
-sub_chapter: 14
+sub_chapter: 19
 chapter: 14
 date: 2026-03-29
 foundation: true

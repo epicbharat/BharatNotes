@@ -6,7 +6,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Society"
 description: "UPSC notes on India's urbanisation — urban growth trends, housing deficit, PMAY-Urban, slum rehabilitation, Smart Cities Mission, and urban governance challenges."
-sub_chapter: 20
+sub_chapter: 14
 chapter: 20
 parent_topic: "Indian Society"
 parent_topic_url: "/subjects/society/indian-society/"

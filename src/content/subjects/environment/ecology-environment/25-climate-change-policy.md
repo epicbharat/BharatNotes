@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Environment & Biodiversity"
 description: "Complete notes on climate change policy — UNFCCC, Kyoto Protocol, Paris Agreement, India's NDCs, net zero 2070, COP28-30 outcomes, renewable energy targets, and UPSC relevance."
-sub_chapter: 4
+sub_chapter: 25
 date: 2026-03-27
 foundation: true
 prelims: true

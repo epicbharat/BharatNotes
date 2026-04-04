@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Science & Technology"
 description: "UPSC notes on gene editing technologies — CRISPR-Cas9 mechanism, gene therapy, designer babies controversy, GM organisms, synthetic biology, India's biosafety framework, He Jiankui case, Nobel Prize 2020, ethical and regulatory dimensions."
-sub_chapter: 16
+sub_chapter: 10
 date: 2026-03-29
 foundation: false
 prelims: true

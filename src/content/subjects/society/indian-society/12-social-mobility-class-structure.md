@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Social Empowerment"
 description: "UPSC GS1 notes on social mobility in India — vertical and horizontal mobility, intergenerational mobility, caste as a barrier, education and occupational mobility, IHDS findings, middle class expansion, and policy interventions."
-sub_chapter: 24
+sub_chapter: 12
 date: 2026-04-04
 foundation: true
 prelims: true

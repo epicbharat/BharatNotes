@@ -4,7 +4,7 @@ title: "International Law & Treaties — UNCLOS, ICJ, Extradition, Humanitarian 
 subject: international-relations
 parent_topic: "Global Relations"
 parent_topic_url: /subjects/international-relations/global-relations/
-sub_chapter: 9
+sub_chapter: 2
 gs_papers: [gs2]
 syllabus_topic: "International Relations"
 description: "UPSC notes on international law — UNCLOS, ICJ, ICC, extradition treaties, Geneva Conventions, space law, Antarctica Treaty, international humanitarian law."

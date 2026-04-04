@@ -9,7 +9,7 @@ gs_papers:
 syllabus_topic: "Internal Security"
 description: "UPSC notes on India's intelligence architecture — RAW, IB, DIA, NTRO, NATGRID, MAC, NIA, NSA, NSC, intelligence failures and reforms, UAPA, counter-terrorism coordination."
 chapter: 19
-sub_chapter: 19
+sub_chapter: 21
 date: 2026-03-29
 foundation: false
 prelims: true

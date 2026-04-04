@@ -9,7 +9,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Geography of India and the World"
 description: "UPSC notes on India's mineral resources — iron ore, coal, bauxite, copper, mica, manganese distribution; MMDR Act 2021, National Mineral Policy 2019, Mines and Minerals Act, critical minerals (lithium, cobalt, rare earth elements), deep sea mining."
-sub_chapter: 9
+sub_chapter: 8
 date: 2026-03-28
 foundation: false
 prelims: true

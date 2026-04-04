@@ -9,7 +9,7 @@ gs_papers:
   - gs2
 syllabus_topic: "World Geography"
 description: "UPSC notes on Latin America and Southeast Asia geography — Amazon basin, Andes mountains, Atacama Desert, Pampas; Mekong River, Southeast Asian archipelago, Ring of Fire, strategic waterways (Malacca, Sunda, Lombok), ASEAN geography, mineral resources."
-sub_chapter: 10
+sub_chapter: 12
 date: 2026-03-29
 foundation: false
 prelims: true

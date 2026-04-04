@@ -8,7 +8,7 @@ syllabus_topic: "Freedom Struggle"
 parent_topic: "Freedom Struggle"
 parent_topic_url: "/subjects/history-culture/freedom-struggle/"
 description: "UPSC notes on women's role in India's freedom struggle, the press as a tool of nationalism, and the contribution and challenges of princely states during independence."
-sub_chapter: 9
+sub_chapter: 10
 chapter: 9
 date: 2026-03-29
 foundation: true

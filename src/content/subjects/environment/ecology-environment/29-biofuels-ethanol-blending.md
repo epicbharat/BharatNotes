@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Conservation, Environmental Pollution and Degradation"
 description: "UPSC notes on National Biofuel Policy 2018 (amended 2022), ethanol blending programme (E20 achieved, E30 target), sustainable aviation fuel (SAF), biodiesel from jatropha and used cooking oil, food vs fuel debate, and India's MNRE biofuel targets."
-sub_chapter: 27
+sub_chapter: 29
 date: 2026-04-04
 foundation: true
 prelims: true

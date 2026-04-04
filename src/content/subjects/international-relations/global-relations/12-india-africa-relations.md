@@ -8,7 +8,7 @@ gs_papers:
   - gs2
 syllabus_topic: "International Relations"
 description: "UPSC notes on India-Africa relations — India-Africa Forum Summit (IAFS I, II, III), African Union's G20 permanent membership (2023), ITEC programme, Lines of Credit, trade and investment, critical minerals, Indian diaspora in Africa, Pan-African e-Network."
-sub_chapter: 18
+sub_chapter: 12
 date: 2026-03-29
 foundation: false
 prelims: true

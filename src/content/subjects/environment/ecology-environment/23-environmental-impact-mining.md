@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 23
 title: "Environmental Impact of Mining — Ecology, Policy & Rehabilitation"
 gs_paper: gs3
 syllabus_topic: "Conservation"

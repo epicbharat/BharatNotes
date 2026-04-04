@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Modern Indian History"
 description: "Complete UPSC notes on the Quit India Movement — WWII and Indian politics, Congress ministries, Pakistan Resolution, Cripps Mission, August Kranti, underground movement, parallel governments, Wavell Plan, and RIN Mutiny."
-sub_chapter: 6
+sub_chapter: 11
 date: 2026-03-27
 foundation: true
 prelims: true

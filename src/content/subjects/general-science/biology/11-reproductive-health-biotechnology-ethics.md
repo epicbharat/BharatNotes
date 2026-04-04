@@ -8,7 +8,7 @@ syllabus_topic: "General Science"
 parent_topic: "Biology"
 parent_topic_url: "/subjects/general-science/biology/"
 description: "UPSC notes on ART (IVF, surrogacy), Surrogacy Regulation Act 2021, ART Act 2021, stem cell therapy, genetic screening, cloning ethics, PCPNDT Act 1994, India's sex ratio and MMR trends."
-sub_chapter: 9
+sub_chapter: 11
 chapter: 9
 date: 2026-04-04
 foundation: true

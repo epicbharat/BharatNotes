@@ -9,7 +9,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Modern Indian History"
 description: "Complete UPSC notes on constitutional evolution under British rule — Regulating Act 1773, Pitt's India Act, Charter Acts, Government of India Acts (1858, 1919, 1935), Morley-Minto Reforms, Montagu-Chelmsford, and Indian Independence Act 1947."
-sub_chapter: 5
+sub_chapter: 7
 date: 2026-03-27
 foundation: true
 prelims: true

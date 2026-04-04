@@ -4,7 +4,7 @@ title: "Insurgency in Northeast India — AFSPA, Peace Accords & Development Str
 subject: security
 parent_topic: "Internal Security"
 parent_topic_url: /subjects/security/internal-security/
-sub_chapter: 10
+sub_chapter: 4
 gs_papers: [gs3]
 syllabus_topic: "Internal Security"
 description: "UPSC notes on Northeast insurgency — Naga issue, ULFA, Manipur, Mizo Accord, AFSPA, peace processes, Act East connectivity, and development as counter-insurgency."

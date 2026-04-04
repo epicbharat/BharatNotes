@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Ancient India"
 description: "Complete UPSC notes on Ancient Indian art and architecture — Mauryan pillars, stupas, rock-cut caves, Gandhara-Mathura-Amaravati art schools, Ajanta-Ellora, Gupta temples, and Sanskrit literature."
-sub_chapter: 8
+sub_chapter: 12
 date: 2026-03-27
 foundation: true
 prelims: true

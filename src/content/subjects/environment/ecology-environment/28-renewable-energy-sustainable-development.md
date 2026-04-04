@@ -4,7 +4,7 @@ title: "Renewable Energy & Sustainable Development — Solar, Wind, SDGs & Green
 subject: environment
 parent_topic: "Ecology, Environment & Biodiversity"
 parent_topic_url: /subjects/environment/ecology-environment/
-sub_chapter: 9
+sub_chapter: 28
 gs_papers:
   - gs3
 syllabus_topic: "Environment & Biodiversity"

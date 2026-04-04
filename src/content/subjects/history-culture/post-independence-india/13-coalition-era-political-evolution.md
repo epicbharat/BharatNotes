@@ -8,7 +8,7 @@ syllabus_topic: "Post-Independence India"
 parent_topic: "Post-Independence India"
 parent_topic_url: "/subjects/history-culture/post-independence-india/"
 description: "UPSC notes on India's coalition era — end of Congress dominance, rise of regional parties, coalition governments (NDA/UPA), anti-defection law, and political party evolution."
-sub_chapter: 7
+sub_chapter: 13
 chapter: 7
 date: 2026-03-28
 foundation: true

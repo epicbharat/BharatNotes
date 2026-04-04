@@ -4,7 +4,7 @@ title: "Environmental Movements & Ethics — Chipko, Narmada, Silent Valley & Gr
 subject: environment
 parent_topic: "Ecology, Environment & Biodiversity"
 parent_topic_url: /subjects/environment/ecology-environment/
-sub_chapter: 10
+sub_chapter: 33
 gs_papers:
   - gs3
   - gs4

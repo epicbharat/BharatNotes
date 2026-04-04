@@ -4,7 +4,7 @@ title: "Indian Ethical Thinkers — Gandhi, Ambedkar, Vivekananda, Kautilya & Mo
 subject: ethics
 parent_topic: "Ethics, Integrity & Aptitude"
 parent_topic_url: /subjects/ethics/ethics-aptitude/
-sub_chapter: 10
+sub_chapter: 5
 gs_papers: [gs4]
 syllabus_topic: "Ethics, Integrity & Aptitude"
 description: "UPSC notes on Indian ethical thinkers — Gandhi, Ambedkar, Vivekananda, Tagore, Kautilya, Aurobindo, Thiruvalluvar, and their ethical philosophies for GS4."

@@ -8,7 +8,7 @@ syllabus_topic: "Environment & Biodiversity"
 parent_topic: "Ecology, Environment & Biodiversity"
 parent_topic_url: "/subjects/environment/ecology-environment/"
 description: "UPSC notes on marine pollution (oil spills, microplastics, eutrophication), ozone depletion (Montreal Protocol, Kigali Amendment), and key global environmental conventions."
-sub_chapter: 14
+sub_chapter: 12
 chapter: 14
 date: 2026-03-28
 foundation: true

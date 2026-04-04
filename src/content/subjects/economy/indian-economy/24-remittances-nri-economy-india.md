@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 24
 title: "Remittances & NRI Economy — India's Diaspora Dividend"
 gs_paper: gs3
 syllabus_topic: "Indian Economy and Issues"

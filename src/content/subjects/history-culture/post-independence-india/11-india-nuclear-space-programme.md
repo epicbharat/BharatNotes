@@ -8,7 +8,7 @@ syllabus_topic: "Post-Independence India"
 parent_topic: "Post-Independence India"
 parent_topic_url: "/subjects/history-culture/post-independence-india/"
 description: "UPSC notes on India's nuclear programme (Pokhran I & II), nuclear doctrine, NSG waiver, ISRO milestones, Chandrayaan, Mangalyaan, and space policy."
-sub_chapter: 8
+sub_chapter: 11
 chapter: 8
 date: 2026-03-28
 foundation: true

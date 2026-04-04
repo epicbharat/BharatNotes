@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Digital Economy"
 description: "UPSC notes on Digital Public Infrastructure (DPI) — India Stack (Aadhaar, UPI, DigiLocker), UPI statistics, ONDC (Open Network for Digital Commerce), Account Aggregator framework, CBDC (e-Rupee), India's G20 DPI presidency initiative."
 chapter: 37
-sub_chapter: 37
+sub_chapter: 16
 date: 2026-03-29
 tags:
   - economy

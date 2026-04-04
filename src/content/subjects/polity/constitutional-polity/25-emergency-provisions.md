@@ -8,7 +8,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Polity"
 description: "UPSC notes on emergency provisions — National Emergency (Article 352), President's Rule (Article 356), Financial Emergency (Article 360), 44th Amendment safeguards, and landmark cases."
-sub_chapter: 12
+sub_chapter: 25
 date: 2026-03-27
 foundation: true
 prelims: true

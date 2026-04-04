@@ -6,7 +6,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Geography"
 description: "Comprehensive UPSC notes on India's drainage systems — Himalayan rivers (Ganga, Indus, Brahmaputra), Peninsular rivers (Krishna, Godavari, Kaveri), drainage patterns, river basins, water disputes, dam infrastructure, and river interlinking projects."
-sub_chapter: 18
+sub_chapter: 4
 chapter: 18
 parent_topic: "Indian Geography"
 parent_topic_url: "/subjects/geography/indian-geography/"

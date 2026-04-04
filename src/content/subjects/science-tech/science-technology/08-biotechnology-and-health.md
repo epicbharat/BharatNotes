@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Science & Technology"
 description: "Complete UPSC notes on biotechnology — GM crops (Bt cotton, GM Mustard), CRISPR-Cas9, genome editing, GMO regulatory framework, India's bioeconomy (BioE3 Policy), medical biotech (vaccines, gene therapy), biofortification, One Health, and AMR."
-sub_chapter: 2
+sub_chapter: 8
 date: 2026-03-29
 foundation: true
 prelims: true

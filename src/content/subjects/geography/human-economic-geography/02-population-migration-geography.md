@@ -4,7 +4,7 @@ title: "Population & Migration Geography — Demographic Transition, Census & Gl
 subject: geography
 parent_topic: "Human & Economic Geography"
 parent_topic_url: /subjects/geography/human-economic-geography/
-sub_chapter: 5
+sub_chapter: 2
 gs_papers: [gs1]
 syllabus_topic: "Human & Economic Geography"
 description: "UPSC notes on population geography — demographic transition model, Census 2011 data, global population distribution, migration types, refugee crises, and India's demographic dividend."

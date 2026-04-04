@@ -8,7 +8,7 @@ syllabus_topic: "International Relations"
 parent_topic: "International Relations"
 parent_topic_url: "/subjects/international-relations/global-relations/"
 description: "UPSC notes on India-EU relations — the historic FTA concluded January 2026, Trade and Technology Council (TTC), strategic partnership, Indo-Pacific cooperation, human rights conditionality, Russia sanctions divergence, and India-UK FTA signed July 2025."
-sub_chapter: 24
+sub_chapter: 26
 date: 2026-04-04
 foundation: true
 prelims: true

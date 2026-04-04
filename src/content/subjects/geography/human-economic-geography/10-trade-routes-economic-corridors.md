@@ -8,7 +8,7 @@ syllabus_topic: "Human & Economic Geography"
 parent_topic: "Human & Economic Geography"
 parent_topic_url: "/subjects/geography/human-economic-geography/"
 description: "UPSC notes on global trade routes, economic corridors (BRI, IMEC, INSTC, CPEC), shipping lanes, chokepoints, and India's connectivity initiatives."
-sub_chapter: 8
+sub_chapter: 10
 chapter: 8
 date: 2026-03-29
 foundation: true

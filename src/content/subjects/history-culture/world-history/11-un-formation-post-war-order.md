@@ -4,7 +4,7 @@ title: "United Nations & Post-War World Order — UN System, Bretton Woods, NATO
 subject: history-culture
 parent_topic: "World History"
 parent_topic_url: /subjects/history-culture/world-history/
-sub_chapter: 9
+sub_chapter: 11
 gs_papers: [gs1]
 syllabus_topic: "World History"
 description: "UPSC notes on UN formation (1945), Security Council, Bretton Woods institutions, NATO, Warsaw Pact, Non-Aligned Movement, and the post-WWII international order."

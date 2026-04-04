@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Money & Banking"
 description: "UPSC notes on RBI monetary policy — Monetary Policy Committee (MPC), inflation targeting framework, repo rate, CRR, SLR, OMO, LAF, unconventional tools, transmission mechanism."
 chapter: 31
-sub_chapter: 31
+sub_chapter: 11
 date: 2026-03-29
 tags:
   - economy

@@ -9,7 +9,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Society"
 description: "UPSC notes on caste system, tribal issues, minority dynamics — reservation policy, Scheduled Tribes, forest rights, communalism, secularism, and social justice in India."
-sub_chapter: 7
+sub_chapter: 5
 date: 2026-03-27
 foundation: true
 prelims: true

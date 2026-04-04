@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "UPSC GS3 notes on animal husbandry and fisheries — India's livestock population, dairy economy (Operation Flood, NDDB, Amul), poultry, Blue Revolution, PM Matsya Sampada Yojana, fisheries exports, challenges and policy."
-sub_chapter: 24
+sub_chapter: 44
 date: 2026-03-29
 foundation: false
 prelims: true

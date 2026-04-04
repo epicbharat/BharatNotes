@@ -4,7 +4,7 @@ title: "Proxy War, Hybrid Threats & Radicalisation — Non-Traditional Security 
 subject: security
 parent_topic: "Internal Security"
 parent_topic_url: /subjects/security/internal-security/
-sub_chapter: 11
+sub_chapter: 8
 gs_papers: [gs3]
 syllabus_topic: "Internal Security"
 description: "UPSC notes on proxy warfare, hybrid threats, online radicalisation, lone wolf attacks, information warfare, and India's counter-radicalisation strategy."

@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "International Relations"
 description: "UPSC notes on India-ASEAN relations — Act East Policy, ASEAN-India FTA, maritime cooperation, India-Japan comprehensive partnership, India-South Korea CEPA, Indo-Pacific architecture, RCEP exit."
 chapter: 21
-sub_chapter: 21
+sub_chapter: 14
 date: 2026-03-29
 tags:
   - international-relations

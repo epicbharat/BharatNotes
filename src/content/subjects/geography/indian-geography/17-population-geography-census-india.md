@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 17
 title: "Population Geography of India — Distribution, Density & Census"
 gs_paper: gs1
 syllabus_topic: "Population and Associated Issues"

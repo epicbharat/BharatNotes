@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Science & Technology"
 description: "UPSC notes on Defence Acquisition Procedure (DAP) 2020, Positive Indigenisation Lists (5 PILs — 509 DMA items + 4,666 DPSU items), iDEX (619 startups, 430 contracts), DRDO achievements (LCA Tejas, Pinaka, Akash-NG), Make in India in defence, FDI 74% auto route, defence exports Rs 21,083 crore FY 2023-24, OFB corporatisation into 7 DPSUs."
 chapter: 26
-sub_chapter: 26
+sub_chapter: 7
 date: 2026-04-04
 tags:
   - science-tech

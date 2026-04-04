@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Environment, Ecology & Disaster Management"
 description: "UPSC notes on EIA Notification 2006 (under EPA 1986) — Category A (MoEFCC/EAC) and Category B (SEIAA/SEAC), screening to grant process, public hearing, CRZ 2019 Notification (CRZ I/II/III/IV zones), Forest Conservation Act 1980 and Amendment 2023 (100km border exemption), EIA Draft 2020 controversy, and NGT's role."
 chapter: 29
-sub_chapter: 29
+sub_chapter: 31
 date: 2026-04-04
 tags:
   - environment

@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Modern Indian History"
 description: "Complete UPSC notes on education under British rule — Orientalist-Anglicist debate, Macaulay's Minute, Wood's Despatch, Hunter Commission, growth of the Indian press, and the intellectual awakening that fuelled nationalism."
-sub_chapter: 6
+sub_chapter: 5
 date: 2026-03-27
 foundation: true
 prelims: true

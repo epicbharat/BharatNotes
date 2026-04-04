@@ -8,7 +8,7 @@ gs_papers:
   - gs2
 syllabus_topic: "International Relations"
 description: "UPSC notes on global security architecture — NPT, CTBT, CWC, MTCR, NSG, Wassenaar, UN peacekeeping, India's nuclear doctrine, disarmament."
-sub_chapter: 7
+sub_chapter: 23
 date: 2026-03-28
 foundation: true
 prelims: true

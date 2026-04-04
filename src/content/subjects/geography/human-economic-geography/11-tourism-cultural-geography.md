@@ -4,7 +4,7 @@ title: "Tourism & Cultural Geography — Heritage Sites, Ecotourism & India's To
 subject: geography
 parent_topic: "Human & Economic Geography"
 parent_topic_url: /subjects/geography/human-economic-geography/
-sub_chapter: 6
+sub_chapter: 11
 gs_papers: [gs1]
 syllabus_topic: "Human & Economic Geography"
 description: "UPSC notes on tourism geography — UNESCO World Heritage Sites in India, ecotourism, medical tourism, pilgrimage circuits, Swadesh Darshan, and cultural landscapes."

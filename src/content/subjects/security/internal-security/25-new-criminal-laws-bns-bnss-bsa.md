@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Internal Security"
 description: "UPSC GS3 notes on BNS, BNSS, BSA 2023 — replacing IPC, CrPC, Evidence Act from 1 July 2024; key changes for security."
-sub_chapter: 23
+sub_chapter: 25
 date: 2026-04-04
 foundation: true
 prelims: true

@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Environment & Biodiversity"
 description: "Comprehensive UPSC guide to environmental legislation in India — EPA 1986, Air Act, Water Act, Forest Conservation Act, Wildlife Protection Act, Biological Diversity Act, CRZ, EIA, NGT, and international environmental conventions."
-sub_chapter: 5
+sub_chapter: 32
 date: 2026-03-26
 foundation: true
 prelims: true

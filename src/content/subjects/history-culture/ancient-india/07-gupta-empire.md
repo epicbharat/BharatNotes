@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Ancient India"
 description: "Complete UPSC notes on the Gupta Empire — Chandragupta I, Samudragupta, Chandragupta II, Nalanda, Aryabhata, Kalidasa, Gupta art and architecture, Iron Pillar, and the decline."
-sub_chapter: 6
+sub_chapter: 7
 date: 2026-03-27
 foundation: true
 prelims: true

@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 2
 title: "Diversity of India — Linguistic, Religious, Ethnic & Regional Mosaic"
 gs_paper: gs1
 syllabus_topic: "Indian Society"

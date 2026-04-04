@@ -9,7 +9,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Society"
 description: "UPSC notes on tribal communities in India — Scheduled Tribes, PVTGs (Particularly Vulnerable Tribal Groups), Forest Rights Act 2006, PESA 1996, displacement issues, tribal welfare schemes, Fifth & Sixth Schedules."
-sub_chapter: 17
+sub_chapter: 8
 date: 2026-03-28
 foundation: false
 prelims: true

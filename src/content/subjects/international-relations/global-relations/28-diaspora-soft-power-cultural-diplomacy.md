@@ -8,7 +8,7 @@ syllabus_topic: "International Relations"
 parent_topic: "International Relations"
 parent_topic_url: "/subjects/international-relations/global-relations/"
 description: "UPSC notes on Indian diaspora (35 million worldwide), soft power projection, cultural diplomacy (ICCR, Yoga Day), Bollywood, IT brand, and Pravasi Bharatiya Divas."
-sub_chapter: 15
+sub_chapter: 28
 chapter: 15
 date: 2026-03-29
 foundation: true

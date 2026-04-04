@@ -9,7 +9,7 @@ gs_papers:
 syllabus_topic: "Federalism & Centre-State Relations"
 description: "UPSC notes on Centre-State relations — legislative, administrative and financial relations, Article 356 (President's Rule), inter-state water disputes, Sarkaria & Punchhi Commission, Governor's role, cooperative federalism."
 chapter: 28
-sub_chapter: 28
+sub_chapter: 21
 date: 2026-03-29
 foundation: false
 prelims: true

@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Modern Indian History"
 description: "Complete UPSC notes on Gandhi's early phase — Champaran, Kheda, Ahmedabad Mill Strike, Rowlatt Satyagraha, Jallianwala Bagh Massacre, Khilafat Movement, Non-Cooperation Movement, and Chauri Chaura."
-sub_chapter: 3
+sub_chapter: 5
 date: 2026-03-27
 foundation: true
 prelims: true

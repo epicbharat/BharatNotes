@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Heritage & Culture"
 description: "Complete UPSC notes on Indian painting and sculpture — Ajanta murals, Mughal miniatures, Rajput painting, Madhubani, Warli, Kalamkari, Pattachitra, and the evolution of Indian sculpture from Mauryan to Chola periods."
-sub_chapter: 1
+sub_chapter: 2
 date: 2026-03-27
 foundation: true
 prelims: true

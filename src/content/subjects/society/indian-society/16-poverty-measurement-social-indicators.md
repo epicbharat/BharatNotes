@@ -9,7 +9,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Society"
 description: "UPSC notes on poverty measurement in India — Tendulkar Committee, Rangarajan Committee, MPI (Multidimensional Poverty Index), NFHS-5, HDI ranking, Gini coefficient, India's progress and remaining challenges on SDG-1, Below Poverty Line, SECC."
-sub_chapter: 19
+sub_chapter: 16
 date: 2026-03-29
 foundation: false
 prelims: true

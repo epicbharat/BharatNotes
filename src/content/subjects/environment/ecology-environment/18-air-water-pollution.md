@@ -4,7 +4,7 @@ title: "Air & Water Pollution — Sources, Standards, NCAP, Namami Gange & Remed
 subject: environment
 parent_topic: "Ecology, Environment & Biodiversity"
 parent_topic_url: /subjects/environment/ecology-environment/
-sub_chapter: 11
+sub_chapter: 18
 gs_papers: [gs3]
 syllabus_topic: "Environment & Biodiversity"
 description: "UPSC notes on air and water pollution — AQI, NAAQS, NCAP, vehicular emissions, river pollution, BOD, Namami Gange, industrial effluents, remediation technologies."

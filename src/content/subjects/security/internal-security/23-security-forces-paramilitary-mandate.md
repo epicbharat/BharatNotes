@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Internal Security"
 description: "UPSC notes on India's Central Armed Police Forces — BSF, CRPF, CISF, ITBP, SSB, NSG, SPG — their mandates, deployment, strength, reforms and coordination challenges."
-sub_chapter: 16
+sub_chapter: 23
 date: 2026-04-02
 foundation: true
 prelims: true

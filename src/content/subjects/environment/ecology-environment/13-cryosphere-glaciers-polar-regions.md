@@ -9,7 +9,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Environment"
 description: "UPSC notes on the cryosphere — Himalayan glaciers (Third Pole), GLOFs, Arctic and Antarctic changes, India's polar research (Maitri, Bharati, Himadri), and climate security implications for India."
-sub_chapter: 23
+sub_chapter: 13
 date: 2026-04-02
 foundation: false
 prelims: true

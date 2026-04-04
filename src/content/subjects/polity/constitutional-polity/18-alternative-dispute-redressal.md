@@ -8,7 +8,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Constitutional Polity"
 description: "Comprehensive UPSC notes on Alternative Dispute Resolution (ADR) in India — Lok Adalats, NALSA, Gram Nyayalayas Act 2008, Family Courts Act 1984, Mediation Act 2023, Arbitration & Conciliation Act 1996, pendency crisis, Article 39A, and exam strategy."
-sub_chapter: 30
+sub_chapter: 18
 date: 2026-03-29
 foundation: true
 prelims: true

@@ -8,7 +8,7 @@ gs_papers:
 syllabus_topic: "Social Empowerment"
 description: "UPSC notes on Dalit rights — SC/ST (Prevention of Atrocities) Act 1989, 2015 Amendment, sub-categorisation (Punjab case 2024), Scheduled Castes constitutional provisions, untouchability abolition, social justice."
 chapter: 22
-sub_chapter: 22
+sub_chapter: 6
 date: 2026-03-29
 tags:
   - society

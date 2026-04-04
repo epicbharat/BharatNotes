@@ -8,7 +8,7 @@ syllabus_topic: "Indian Culture"
 parent_topic: "Indian Culture"
 parent_topic_url: "/subjects/history-culture/indian-culture/"
 description: "UPSC notes on Indian folk art forms, traditional theatre (Yakshagana, Kathakali, Jatra, Tamasha), puppetry traditions, folk music, tribal art, and intangible cultural heritage."
-sub_chapter: 6
+sub_chapter: 8
 chapter: 6
 date: 2026-03-28
 foundation: true

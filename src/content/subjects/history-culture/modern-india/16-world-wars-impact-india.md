@@ -8,7 +8,7 @@ syllabus_topic: "Modern India"
 parent_topic: "Modern India"
 parent_topic_url: "/subjects/history-culture/modern-india/"
 description: "UPSC notes on the impact of World War I and World War II on India — economic exploitation, political concessions, INA, and acceleration of independence movement."
-sub_chapter: 9
+sub_chapter: 16
 chapter: 9
 date: 2026-03-29
 foundation: true

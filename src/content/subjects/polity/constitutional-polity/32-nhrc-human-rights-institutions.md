@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 32
 title: "NHRC & Human Rights Institutions in India"
 gs_paper: gs2
 syllabus_topic: "Statutory Bodies"

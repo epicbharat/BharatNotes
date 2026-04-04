@@ -8,7 +8,7 @@ syllabus_topic: "Ancient India"
 parent_topic: "Ancient India"
 parent_topic_url: "/subjects/history-culture/ancient-india/"
 description: "UPSC notes on the Sangam Age — three Sangams, Chera/Chola/Pandya dynasties, Tamil literature, trade, society, Megasthenes' accounts, and transition to Kalabhra interregnum."
-sub_chapter: 10
+sub_chapter: 8
 chapter: 10
 date: 2026-03-29
 foundation: true

@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 22
 title: "Balance of Payments — Structure, Components & India's BoP"
 gs_paper: gs3
 syllabus_topic: "Indian Economy and Issues"

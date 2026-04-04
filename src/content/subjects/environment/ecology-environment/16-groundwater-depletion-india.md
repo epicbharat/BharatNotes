@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 16
 title: "Groundwater Crisis — Depletion, Contamination & Governance"
 gs_paper: gs3
 syllabus_topic: "Conservation"

@@ -8,7 +8,7 @@ syllabus_topic: "General Science"
 parent_topic: "Biology"
 parent_topic_url: "/subjects/general-science/biology/"
 description: "UPSC notes on human diseases — bacterial, viral, fungal, protozoan diseases, non-communicable diseases, vaccines, disease eradication programmes, epidemics, and India's public health response."
-sub_chapter: 7
+sub_chapter: 8
 chapter: 7
 date: 2026-03-28
 foundation: true

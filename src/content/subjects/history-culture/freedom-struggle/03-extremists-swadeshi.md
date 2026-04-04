@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Modern Indian History"
 description: "Complete UPSC notes on the Extremist phase — Partition of Bengal, Swadeshi and Boycott movements, Lal-Bal-Pal, Surat Split, Home Rule Leagues, and the Lucknow Pact."
-sub_chapter: 2
+sub_chapter: 3
 date: 2026-03-27
 foundation: true
 prelims: true

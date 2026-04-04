@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Society"
 description: "UPSC GS1 notes on women's rights legal framework — Constitutional provisions (Art 14, 15(3), 16, 39, 42), PWDVA 2005, POSH Act 2013, Criminal Law Amendment 2013, Maternity Benefit Amendment 2017 (26 weeks), FLFPR 41.7% PLFS 2023-24, Constitution 106th Amendment 2023 (33% women's reservation), National Commission for Women, Beti Bachao Beti Padhao."
-sub_chapter: 29
+sub_chapter: 10
 date: 2026-04-04
 foundation: true
 prelims: true

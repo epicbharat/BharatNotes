@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Heritage & Culture"
 description: "UPSC notes on intangible cultural heritage — UNESCO ICH Convention 2003, India's inscribed ICH elements (Yoga, Kumbh Mela, Vedic chanting, Chhau, Navroze, Kolkata Durga Puja etc.), Geographical Indications (GI tags) in India — Darjeeling Tea, Kanjeevaram, Basmati, legal framework, importance."
-sub_chapter: 12
+sub_chapter: 13
 date: 2026-03-29
 foundation: false
 prelims: true

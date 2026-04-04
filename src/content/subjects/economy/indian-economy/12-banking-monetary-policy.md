@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "Complete notes on India's banking system — RBI functions, monetary policy tools (repo rate, CRR, SLR), inflation targeting, banking reforms, NPAs, financial inclusion, and digital payments."
-sub_chapter: 4
+sub_chapter: 12
 date: 2026-03-26
 foundation: true
 prelims: true

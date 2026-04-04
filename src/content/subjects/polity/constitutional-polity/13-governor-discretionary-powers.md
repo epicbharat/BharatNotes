@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Constitutional Posts"
 description: "UPSC notes on Governor's discretionary powers — Article 163, withholding assent to bills, swearing-in controversies, Sarkaria and Punchhi Commission recommendations, recent Supreme Court rulings."
 chapter: 25
-sub_chapter: 25
+sub_chapter: 13
 date: 2026-03-29
 tags:
   - polity

@@ -8,7 +8,7 @@ syllabus_topic: "Freedom Struggle"
 parent_topic: "Freedom Struggle"
 parent_topic_url: "/subjects/history-culture/freedom-struggle/"
 description: "UPSC notes on the Khilafat Movement, Home Rule Leagues (Tilak & Besant), Lucknow Pact, Montagu-Chelmsford Reforms, Rowlatt Act, and Jallianwala Bagh."
-sub_chapter: 10
+sub_chapter: 4
 chapter: 10
 date: 2026-03-29
 foundation: true

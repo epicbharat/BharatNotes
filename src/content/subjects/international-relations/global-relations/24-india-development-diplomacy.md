@@ -4,7 +4,7 @@ title: "India's Development & Humanitarian Diplomacy — Aid, ITEC, South-South 
 subject: international-relations
 parent_topic: "Global Relations"
 parent_topic_url: /subjects/international-relations/global-relations/
-sub_chapter: 8
+sub_chapter: 24
 gs_papers: [gs2]
 syllabus_topic: "International Relations"
 description: "UPSC notes on India's development diplomacy — ITEC, Lines of Credit, South-South cooperation, humanitarian aid, vaccine diplomacy, diaspora engagement."

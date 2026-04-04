@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Science & Technology"
 description: "Comprehensive UPSC guide to India's IT sector, cybersecurity framework, AI mission, blockchain, 5G, semiconductor policy, defence technology (DRDO missiles, INS Vikrant, Tejas, Arjun), and nuclear programme."
-sub_chapter: 4
+sub_chapter: 20
 date: 2026-03-26
 foundation: true
 prelims: true

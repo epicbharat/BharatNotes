@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Science & Technology"
 description: "UPSC notes on Indian scientists — C.V. Raman (Nobel 1930, Raman Effect), S. Chandrasekhar (Nobel 1983, Chandrasekhar limit 1.44 solar masses), Homi Bhabha, Vikram Sarabhai, A.P.J. Abdul Kalam, Meghnad Saha, J.C. Bose, Ramanujan — and India's S&T milestones: Chandrayaan-3 (August 23, 2023), Aditya-L1, INS Vikrant, GSLV, NavIC."
 chapter: 25
-sub_chapter: 25
+sub_chapter: 29
 date: 2026-04-04
 tags:
   - science-tech

@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Disaster Management"
 description: "UPSC notes on Himalayan disasters — GLOFs (Glacial Lake Outburst Floods), Chamoli 2021, Kedarnath 2013, cloud bursts, landslides, avalanches, NDMA guidelines, Teesta-3 dam collapse, climate-mountain disaster nexus, ISRO GLOF monitoring."
 chapter: 18
-sub_chapter: 18
+sub_chapter: 11
 date: 2026-03-29
 tags:
   - disaster-management

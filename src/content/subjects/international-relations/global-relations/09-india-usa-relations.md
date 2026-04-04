@@ -4,7 +4,7 @@ title: "India–USA Relations — Defence, Technology, Trade & Diaspora"
 subject: international-relations
 parent_topic: "Global Relations"
 parent_topic_url: /subjects/international-relations/global-relations/
-sub_chapter: 13
+sub_chapter: 9
 gs_papers: [gs2]
 syllabus_topic: "International Relations"
 description: "UPSC notes on India-USA bilateral relations — strategic partnership evolution, defence cooperation (BECA, LEMOA, COMCASA), iCET, trade, H-1B, diaspora, and convergences/divergences."

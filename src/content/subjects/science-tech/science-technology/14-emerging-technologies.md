@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Science and Technology"
 description: "Complete notes on emerging technologies — Artificial Intelligence, Quantum Computing, Blockchain, IoT, 5G/6G, IndiaAI Mission, National Quantum Mission, and UPSC relevance."
-sub_chapter: 5
+sub_chapter: 14
 date: 2026-03-27
 foundation: true
 prelims: true

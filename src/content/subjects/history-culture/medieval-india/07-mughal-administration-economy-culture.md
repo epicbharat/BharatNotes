@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Medieval India"
 description: "UPSC notes on Mughal administration — Mansabdari system, Dahsala settlement, Todar Mal's revenue reforms, central/provincial administration, Mughal economy (trade, agriculture, crafts), architecture (Taj Mahal, Red Fort), miniature painting, music."
 chapter: 13
-sub_chapter: 13
+sub_chapter: 7
 date: 2026-03-29
 tags:
   - history-culture

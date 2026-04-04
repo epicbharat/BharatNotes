@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Post-Independence India"
 description: "Complete UPSC notes on India's wars and foreign policy — Indo-China War 1962, Indo-Pak Wars 1965 and 1971, Shimla Agreement, Non-Aligned Movement, Panchsheel, and nuclear tests."
-sub_chapter: 3
+sub_chapter: 7
 date: 2026-03-27
 foundation: true
 prelims: true

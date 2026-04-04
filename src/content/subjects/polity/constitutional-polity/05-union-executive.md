@@ -8,7 +8,7 @@ syllabus_topic: "Indian Constitution & Polity"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "Comprehensive UPSC notes on the Union Executive — President (Articles 52-62), Vice-President, Prime Minister, Council of Ministers, Attorney General, veto powers, ordinance-making power, and pardoning power."
-sub_chapter: 4
+sub_chapter: 5
 date: 2026-03-26
 foundation: true
 prelims: true

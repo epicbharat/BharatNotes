@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Medieval Indian History"
 description: "Complete UPSC notes on the Bhakti and Sufi movements — Alvars, Nayanars, Ramanuja, Kabir, Guru Nanak, Chaitanya, Mirabai, Tulsidas, Chishti, Suhrawardi, and Naqshbandi orders."
-sub_chapter: 5
+sub_chapter: 8
 date: 2026-03-27
 foundation: true
 prelims: true

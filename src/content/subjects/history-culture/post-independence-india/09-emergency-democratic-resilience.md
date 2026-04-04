@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Post-Independence India"
 description: "Complete UPSC notes on the Emergency — JP movement, declaration under Article 352, fundamental rights suspension, press censorship, 42nd Amendment, end of Emergency, 44th Amendment, and Shah Commission."
-sub_chapter: 4
+sub_chapter: 9
 date: 2026-03-27
 foundation: true
 prelims: true

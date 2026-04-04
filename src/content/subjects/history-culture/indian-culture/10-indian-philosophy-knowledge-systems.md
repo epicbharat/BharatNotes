@@ -4,7 +4,7 @@ title: "Indian Philosophy & Knowledge Systems — Six Darshanas, Heterodox Schoo
 subject: history-culture
 parent_topic: "Indian Culture"
 parent_topic_url: /subjects/history-culture/indian-culture/
-sub_chapter: 9
+sub_chapter: 10
 gs_papers: [gs1]
 syllabus_topic: "Indian Culture"
 description: "UPSC notes on Indian philosophical schools — Nyaya, Vaisheshika, Sankhya, Yoga, Mimamsa, Vedanta (six orthodox), Charvaka, Buddhism, Jainism (heterodox), and Indian knowledge traditions."

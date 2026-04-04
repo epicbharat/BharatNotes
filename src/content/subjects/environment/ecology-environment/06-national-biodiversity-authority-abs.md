@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 6
 title: "National Biodiversity Authority & Access Benefit Sharing"
 gs_paper: gs3
 syllabus_topic: "Biodiversity Conservation"

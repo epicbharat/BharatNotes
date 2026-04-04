@@ -6,7 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Science & Technology"
 description: "UPSC notes on drone policy (Drone Rules 2021, PLI for drones), IN-SPACe, NSIL, space sector liberalisation, commercial launches, and India's growing space economy."
-sub_chapter: 18
+sub_chapter: 4
 chapter: 18
 parent_topic: "Science & Technology"
 parent_topic_url: "/subjects/science-tech/science-technology/"

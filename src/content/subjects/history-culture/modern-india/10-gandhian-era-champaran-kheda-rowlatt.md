@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Modern India"
 description: "UPSC notes on Gandhi's early India campaigns — Champaran Satyagraha 1917 (indigo, tinkathia), Kheda Satyagraha 1918, Ahmedabad Mill Strike 1918, Rowlatt Act 1919, Jallianwala Bagh, Gandhi's transformation into mass leader, Gokhale's mentorship."
 chapter: 16
-sub_chapter: 16
+sub_chapter: 9
 date: 2026-03-29
 tags:
   - history-culture

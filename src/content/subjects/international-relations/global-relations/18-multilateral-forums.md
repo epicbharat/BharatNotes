@@ -8,7 +8,7 @@ gs_papers:
   - gs2
 syllabus_topic: "International Relations"
 description: "Complete notes on India's role in multilateral forums — UN reform, BRICS expansion, SCO, Quad, G20 presidency, SAARC, ASEAN, and UPSC relevance."
-sub_chapter: 5
+sub_chapter: 18
 date: 2026-03-27
 foundation: true
 prelims: true

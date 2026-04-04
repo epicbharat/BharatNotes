@@ -8,7 +8,7 @@ syllabus_topic: "Indian Constitution & Polity"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "UPSC notes on CAG of India (Articles 148–151) — appointment, removal, tenure, functions, types of audit (compliance, performance, propriety), and reports to Parliament."
-sub_chapter: 35
+sub_chapter: 31
 date: 2026-04-04
 foundation: true
 prelims: true

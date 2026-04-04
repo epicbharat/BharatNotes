@@ -8,7 +8,7 @@ syllabus_topic: "Post-Independence India"
 parent_topic: "Post-Independence India"
 parent_topic_url: "/subjects/history-culture/post-independence-india/"
 description: "UPSC notes on post-independence social legislation — Hindu Code Bills, dowry prohibition, Mandal Commission, OBC reservation, EWS quota (103rd Amendment), and evolving reservation policy."
-sub_chapter: 10
+sub_chapter: 8
 chapter: 10
 date: 2026-03-29
 foundation: true

@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 18
 title: "Food Security and Welfare Schemes"
 gs_paper: gs2
 syllabus_topic: "Welfare Schemes for Vulnerable Sections, Issues Relating to Hunger, Poverty and Development"

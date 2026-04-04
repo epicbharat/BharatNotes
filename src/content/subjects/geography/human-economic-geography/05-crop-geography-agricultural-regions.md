@@ -6,7 +6,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Human & Economic Geography"
 description: "UPSC notes on crop geography — Kharif and Rabi seasons, major crop belts of India, agricultural regions, cropping intensity, and region-wise crop distribution."
-sub_chapter: 10
+sub_chapter: 5
 chapter: 10
 parent_topic: "Human & Economic Geography"
 parent_topic_url: "/subjects/geography/human-economic-geography/"

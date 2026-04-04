@@ -8,7 +8,7 @@ syllabus_topic: "Indian Constitution & Polity"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "Comprehensive UPSC notes on State Government — Governor (Articles 153-162), Chief Minister, State Council of Ministers (Articles 163-167), State Legislature (Articles 168-212), Advocate General (Article 165), and related controversies."
-sub_chapter: 6
+sub_chapter: 12
 date: 2026-03-26
 foundation: true
 prelims: true

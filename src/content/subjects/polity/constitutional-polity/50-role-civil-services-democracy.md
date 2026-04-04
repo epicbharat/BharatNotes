@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 50
 title: "Role of Civil Services in a Democracy — Constitutional Basis & Challenges"
 gs_paper: gs2
 syllabus_topic: "Governance"

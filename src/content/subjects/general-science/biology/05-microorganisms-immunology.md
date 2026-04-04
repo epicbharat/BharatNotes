@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "General Science"
 description: "UPSC notes on microorganisms — bacteria, viruses, fungi, protozoa, immune system, vaccines, antibiotic resistance (AMR), and India's immunization programmes."
-sub_chapter: 5
+sub_chapter: 6
 date: 2026-03-27
 foundation: true
 prelims: true

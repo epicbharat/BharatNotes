@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 20
 title: "SCO — Shanghai Cooperation Organisation"
 gs_paper: gs2
 syllabus_topic: "International Organisations"

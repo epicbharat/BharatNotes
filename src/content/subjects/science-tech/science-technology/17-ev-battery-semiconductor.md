@@ -8,7 +8,7 @@ syllabus_topic: "Science & Technology"
 parent_topic: "Science & Technology"
 parent_topic_url: "/subjects/science-tech/science-technology/"
 description: "UPSC notes on EVs (FAME, PM E-DRIVE), battery technology (lithium-ion, solid-state, sodium-ion), semiconductor manufacturing (India Semiconductor Mission), and supply chain geopolitics."
-sub_chapter: 14
+sub_chapter: 17
 chapter: 14
 date: 2026-03-28
 foundation: true

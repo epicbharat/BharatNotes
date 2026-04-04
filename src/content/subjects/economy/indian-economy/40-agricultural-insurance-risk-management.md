@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "UPSC GS3 notes on Pradhan Mantri Fasal Bima Yojana (PMFBY) 2016, Restructured Weather Based Crop Insurance Scheme (RWBCIS), actuarial premium, Centre-State subsidy sharing, 2020 optional enrolment reform, technology in crop loss assessment, and scheme limitations."
-sub_chapter: 42
+sub_chapter: 40
 date: 2026-04-04
 foundation: true
 prelims: true

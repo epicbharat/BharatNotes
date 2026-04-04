@@ -8,7 +8,7 @@ syllabus_topic: "Indian Polity & Governance"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "UPSC notes on the Attorney General of India (Article 76), Solicitor General, Additional Solicitor Generals, Advocate General of States (Article 165), qualifications, tenure, rights and disabilities, and roles in constitutional litigation."
-sub_chapter: 38
+sub_chapter: 11
 date: 2026-04-04
 foundation: true
 prelims: true

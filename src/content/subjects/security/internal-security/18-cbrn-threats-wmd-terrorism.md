@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Internal Security"
 description: "UPSC GS3 notes on Chemical, Biological, Radiological and Nuclear (CBRN) threats, nerve agents (sarin, VX), Biological Weapons Convention 1972, Chemical Weapons Convention 1993, IAEA safeguards, India's CBRN preparedness (NDMA, NDRF, DRDO), and international non-proliferation frameworks."
-sub_chapter: 22
+sub_chapter: 18
 date: 2026-04-04
 foundation: true
 prelims: true

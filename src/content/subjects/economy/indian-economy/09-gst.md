@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "Complete notes on GST — 101st Amendment, GST Council, rate structure, CGST/SGST/IGST, GST 2.0 reforms (2025), input tax credit, impact on federalism, and UPSC relevance."
-sub_chapter: 6
+sub_chapter: 9
 date: 2026-03-26
 foundation: true
 prelims: true

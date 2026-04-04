@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Internal Security"
 description: "UPSC notes on counterterrorism and intelligence — NIA, NSG, MARCOS, IB, R&AW, NATGRID, UAPA, 26/11 lessons, terror financing, deradicalisation."
-sub_chapter: 7
+sub_chapter: 9
 date: 2026-03-28
 foundation: true
 prelims: true

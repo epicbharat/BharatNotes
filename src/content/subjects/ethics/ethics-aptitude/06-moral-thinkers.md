@@ -8,7 +8,7 @@ gs_papers:
   - gs4
 syllabus_topic: "Ethics, Integrity & Aptitude"
 description: "Complete notes on moral thinkers for UPSC GS4 — Aristotle, Kant, Bentham, Rawls, Gandhi, Ambedkar, Vivekananda, Kautilya, and their ethical frameworks applied to governance."
-sub_chapter: 4
+sub_chapter: 6
 date: 2026-03-27
 foundation: true
 prelims: true

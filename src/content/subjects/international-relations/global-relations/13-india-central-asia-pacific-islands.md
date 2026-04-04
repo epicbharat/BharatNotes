@@ -8,7 +8,7 @@ gs_papers:
   - gs2
 syllabus_topic: "International Relations"
 description: "UPSC notes on India-Central Asia relations (Kazakhstan, Uzbekistan, Kyrgyzstan, Tajikistan, Turkmenistan) — Connect Central Asia policy, SCO, INSTC; India-Pacific Islands — FIPIC, climate change, Blue Pacific, India's ocean diplomacy."
-sub_chapter: 17
+sub_chapter: 13
 date: 2026-03-28
 foundation: false
 prelims: true

@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 48
 title: "Lokpal, Lokayuktas & Anti-Corruption Framework"
 gs_paper: gs2
 syllabus_topic: "Statutory Bodies"

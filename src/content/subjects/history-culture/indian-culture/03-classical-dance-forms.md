@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Indian Heritage & Culture"
 description: "Complete UPSC notes on India's 8 classical dance forms — Bharatanatyam, Kathak, Kathakali, Odissi, Manipuri, Kuchipudi, Sattriya, Mohiniyattam — origin, features, gharanas, and key exponents."
-sub_chapter: 2
+sub_chapter: 3
 date: 2026-03-27
 foundation: true
 prelims: true

@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 49
 title: "Civil Services Reforms & Lateral Entry in India"
 gs_paper: gs2
 syllabus_topic: "Governance"

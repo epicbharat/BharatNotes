@@ -8,7 +8,7 @@ syllabus_topic: "Physical Geography"
 parent_topic: "Physical Geography"
 parent_topic_url: "/subjects/geography/physical-geography/"
 description: "UPSC notes on plate tectonics — Wegener's continental drift, sea-floor spreading, plate boundaries, hotspots, volcanic types, Ring of Fire, and geothermal energy."
-sub_chapter: 8
+sub_chapter: 2
 chapter: 8
 date: 2026-03-29
 foundation: true

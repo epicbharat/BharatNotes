@@ -8,7 +8,7 @@ syllabus_topic: "Modern India"
 parent_topic: "Modern India"
 parent_topic_url: "/subjects/history-culture/modern-india/"
 description: "UPSC notes on peasant revolts (Indigo, Deccan, Moplah, Tebhaga, Telangana), tribal uprisings (Santhal, Munda, Kol), and early working class movements in colonial India."
-sub_chapter: 7
+sub_chapter: 13
 chapter: 7
 date: 2026-03-28
 foundation: true

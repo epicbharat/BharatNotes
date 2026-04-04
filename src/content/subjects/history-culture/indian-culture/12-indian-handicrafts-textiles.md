@@ -8,7 +8,7 @@ syllabus_topic: "Indian Culture"
 parent_topic: "Indian Culture"
 parent_topic_url: "/subjects/history-culture/indian-culture/"
 description: "UPSC notes on Indian handicrafts — Banarasi silk, Pashmina, Chikankari, Bidriware, GI tags, handloom sector, ODOP scheme, and craft preservation."
-sub_chapter: 8
+sub_chapter: 12
 chapter: 8
 date: 2026-03-28
 foundation: true

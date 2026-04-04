@@ -8,7 +8,7 @@ syllabus_topic: "Indian Constitution & Polity"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "UPSC notes on Inter-State Council (Article 263), Zonal Councils (States Reorganisation Act 1956), five zones, composition, functions, and role in cooperative federalism."
-sub_chapter: 36
+sub_chapter: 23
 date: 2026-04-04
 foundation: true
 prelims: true

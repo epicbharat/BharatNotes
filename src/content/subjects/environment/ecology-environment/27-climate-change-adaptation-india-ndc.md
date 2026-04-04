@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Environment & Biodiversity"
 description: "UPSC notes on climate change adaptation — India's updated NDC (2022), NAPCC 8 missions, Panchamrit, net-zero 2070 target, IPCC AR6 findings on India, loss and damage (COP27/COP28), LiFE Mission, heat action plans, coastal adaptation."
 chapter: 24
-sub_chapter: 24
+sub_chapter: 27
 date: 2026-03-29
 tags:
   - environment

@@ -1,5 +1,6 @@
 ---
 layout: topic.njk
+sub_chapter: 9
 title: "Dr. B.R. Ambedkar & the Dalit Movement in Colonial India"
 gs_paper: gs1
 syllabus_topic: "Freedom Struggle"

@@ -8,7 +8,7 @@ gs_papers:
   - gs2
 syllabus_topic: "International Relations"
 description: "UPSC notes on India's Neighbourhood First policy — bilateral relations with all 7 SAARC neighbours, BIMSTEC Charter 2024, BBIN MVA, SAARC paralysis, and sub-regional connectivity."
-sub_chapter: 22
+sub_chapter: 4
 date: 2026-04-02
 foundation: true
 prelims: true

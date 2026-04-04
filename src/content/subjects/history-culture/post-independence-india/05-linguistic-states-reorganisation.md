@@ -9,7 +9,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Modern Indian History"
 description: "UPSC notes on States Reorganisation — Dar Commission 1948, JVP Committee, States Reorganisation Commission 1953 (Fazl Ali), States Reorganisation Act 1956, Potti Sriramulu's fast, linguistic states, Telangana formation 2014."
-sub_chapter: 11
+sub_chapter: 5
 date: 2026-03-28
 foundation: false
 prelims: true

@@ -4,7 +4,7 @@ title: "World Climate & Biomes — Koppen Classification, Atmospheric Circulatio
 subject: geography
 parent_topic: "World Geography"
 parent_topic_url: /subjects/geography/world-geography/
-sub_chapter: 4
+sub_chapter: 3
 gs_papers: [gs1]
 syllabus_topic: "World Geography"
 description: "UPSC notes on Koppen climate classification, global atmospheric circulation, pressure belts, wind systems, ITCZ, jet streams, and world biome distribution."

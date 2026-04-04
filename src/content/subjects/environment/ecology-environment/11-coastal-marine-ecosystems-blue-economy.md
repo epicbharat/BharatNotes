@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Environment & Biodiversity"
 description: "UPSC notes on coastal and marine ecosystems — coral reefs (bleaching, Great Barrier Reef), mangroves, seagrasses, India's coastline, blue economy, marine protected areas, CRZ Notification 2019, UNCLOS, deep sea mining."
 chapter: 22
-sub_chapter: 22
+sub_chapter: 11
 date: 2026-03-29
 tags:
   - environment

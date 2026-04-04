@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Science & Technology"
 description: "UPSC notes on advanced materials — graphene (Nobel Prize 2010), carbon nanotubes (CNT), shape memory alloys (Nitinol), piezoelectric materials, metamaterials, composites (CFRP), smart materials, 2D materials, India's material science research (DST, JNCASR, IISc)."
-sub_chapter: 17
+sub_chapter: 26
 date: 2026-03-29
 foundation: false
 prelims: true

@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Post-Independence India"
 description: "Complete UPSC notes on India's constitutional evolution — key amendments (1st, 7th, 24th, 42nd, 44th, 73rd, 74th), Basic Structure Doctrine, and landmark Supreme Court cases."
-sub_chapter: 5
+sub_chapter: 10
 date: 2026-03-27
 foundation: true
 prelims: true

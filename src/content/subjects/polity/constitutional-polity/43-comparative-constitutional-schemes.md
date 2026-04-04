@@ -8,7 +8,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Constitution & Polity"
 description: "UPSC GS2 notes on comparative constitutional schemes — India vs UK (Westminster), USA (presidential, federal), France (semi-presidential), Canada and Australia — borrowed features, key differences, constitutional comparisons."
-sub_chapter: 21
+sub_chapter: 43
 date: 2026-03-29
 foundation: false
 prelims: true

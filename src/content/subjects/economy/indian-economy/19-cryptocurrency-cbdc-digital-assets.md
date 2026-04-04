@@ -6,7 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "UPSC notes on cryptocurrency regulation in India, RBI's CBDC (e-Rupee) pilot, FATF compliance, crypto taxation, digital assets framework, and global crypto regulation."
-sub_chapter: 29
+sub_chapter: 19
 chapter: 29
 parent_topic: "Indian Economy"
 parent_topic_url: "/subjects/economy/indian-economy/"
