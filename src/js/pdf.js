@@ -41,32 +41,42 @@
 
   // Fonts — fetched lazily, converted to base64 for self-contained PDF HTML
   // Crimson Pro: primary serif; Noto Serif: Unicode/IPA/arrows fallback; Noto Serif Devanagari: Sanskrit/Hindi
-  var crimsonFontsCSS = "";
+  var embeddedFontsCSS = "";  // built up as each font loads
+  var embeddedFontsDone = false;
   (function preloadFonts() {
     var fonts = [
-      { url: "/fonts/crimsonpro-regular.ttf",  family: "Crimson Pro",          style: "normal", weight: "400" },
-      { url: "/fonts/crimsonpro-italic.ttf",   family: "Crimson Pro",          style: "italic", weight: "400" },
-      { url: "/fonts/crimsonpro-semibold.ttf", family: "Crimson Pro",          style: "normal", weight: "600" },
-      { url: "/fonts/notoserif-regular.ttf",        family: "Noto Serif",         style: "normal", weight: "400" },
-      { url: "/fonts/notosanssymbols-regular.ttf", family: "Noto Sans Symbols", style: "normal", weight: "400" }
+      { url: "/fonts/crimsonpro-regular.ttf",        family: "Crimson Pro",       style: "normal", weight: "400" },
+      { url: "/fonts/crimsonpro-italic.ttf",          family: "Crimson Pro",       style: "italic", weight: "400" },
+      { url: "/fonts/crimsonpro-semibold.ttf",        family: "Crimson Pro",       style: "normal", weight: "600" },
+      { url: "/fonts/notoserif-regular.ttf",          family: "Noto Serif",        style: "normal", weight: "400" },
+      { url: "/fonts/notosanssymbols-regular.ttf",    family: "Noto Sans Symbols", style: "normal", weight: "400" }
     ];
     var loaded = 0;
     var parts = new Array(fonts.length).fill("");
+
+    // Fast ArrayBuffer → base64 using chunked String.fromCharCode (avoids O(n²) string concat)
+    function bufToBase64(buf) {
+      var bytes = new Uint8Array(buf);
+      var chunks = [];
+      for (var i = 0; i < bytes.length; i += 8192) {
+        chunks.push(String.fromCharCode.apply(null, bytes.subarray(i, Math.min(i + 8192, bytes.length))));
+      }
+      return btoa(chunks.join(""));
+    }
+
     fonts.forEach(function(f, i) {
       fetch(f.url)
         .then(function(r) { return r.arrayBuffer(); })
         .then(function(buf) {
-          var bytes = new Uint8Array(buf);
-          var binary = "";
-          for (var b = 0; b < bytes.byteLength; b++) binary += String.fromCharCode(bytes[b]);
-          var b64 = btoa(binary);
+          var b64 = bufToBase64(buf);
           parts[i] = "@font-face{font-family:'" + f.family + "';font-style:" + f.style +
             ";font-weight:" + f.weight + ";src:url(data:font/truetype;base64," + b64 +
             ") format('truetype');}";
           loaded++;
-          if (loaded === fonts.length) crimsonFontsCSS = parts.join("");
+          embeddedFontsCSS = parts.join("");  // update progressively after each font
+          if (loaded === fonts.length) embeddedFontsDone = true;
         })
-        .catch(function() {});
+        .catch(function() { loaded++; embeddedFontsCSS = parts.join(""); });
     });
   })();
 
@@ -522,7 +532,7 @@
       '<link rel="preconnect" href="https://fonts.googleapis.com">' +
       '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' +
       '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600&family=Noto+Sans+Symbols+2&display=block" rel="stylesheet">' +
-      '<style>' + crimsonFontsCSS + css + '</style>' +
+      '<style>' + embeddedFontsCSS + css + '</style>' +
       '<script src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>' +
       '</head><body>' +
 
@@ -695,13 +705,15 @@
     btn.innerHTML =
       '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="animation:spin 1s linear infinite;vertical-align:-2px;margin-right:6px;"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>Generating...';
 
-    /* Wait for Crimson Pro fonts to finish loading (max 5s) */
-    if (!crimsonFontsCSS) {
+    /* Wait for all fonts to finish loading (max 12s); they load progressively so
+       embeddedFontsCSS is non-empty once Crimson Pro arrives (~1s), but we wait
+       for the full set (incl. Noto Serif 444KB, Noto Sans Symbols 179KB) */
+    if (!embeddedFontsDone) {
       await new Promise(function(resolve) {
         var waited = 0;
         var check = setInterval(function() {
           waited += 100;
-          if (crimsonFontsCSS || waited >= 5000) { clearInterval(check); resolve(); }
+          if (embeddedFontsDone || waited >= 12000) { clearInterval(check); resolve(); }
         }, 100);
       });
     }
