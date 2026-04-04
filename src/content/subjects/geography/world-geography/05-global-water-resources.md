@@ -4,7 +4,7 @@ title: "Global Water Resources — Oceans, Rivers, Lakes & Transboundary Water D
 subject: geography
 parent_topic: "World Geography"
 parent_topic_url: /subjects/geography/world-geography/
-sub_chapter: 5
+sub_chapter: 4
 gs_papers: [gs1]
 syllabus_topic: "World Geography"
 description: "UPSC notes on world oceans, major rivers and lakes, transboundary water disputes, global water crisis, desalination, and UNCLOS maritime zones."

@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "UPSC GS3 notes on land reforms in India — zamindari abolition, tenancy reforms, land ceiling acts, cooperative farming, DILRMP, Swamitva Yojana, digital land records, land acquisition, LARR Act 2013."
-sub_chapter: 41
+sub_chapter: 40
 date: 2026-03-29
 foundation: false
 prelims: true

@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "UPSC notes on India's startup ecosystem — Startup India initiative (2016), DPIIT-recognised startups, unicorns and decacorns, Fund of Funds, Atal Innovation Mission, angel tax removal, SIDBI, startup hubs, deep tech startups."
-sub_chapter: 31
+sub_chapter: 30
 date: 2026-03-28
 foundation: false
 prelims: true

@@ -4,7 +4,7 @@ title: "Regional Development & Aspirational Districts — Reducing Inter-State D
 subject: economy
 parent_topic: "Indian Economy"
 parent_topic_url: /subjects/economy/indian-economy/
-sub_chapter: 55
+sub_chapter: 53
 gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"

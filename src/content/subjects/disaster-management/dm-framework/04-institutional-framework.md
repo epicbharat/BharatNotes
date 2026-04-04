@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Disaster Management"
 description: "UPSC notes on India's disaster management institutional framework — DM Act 2005, NDMA, NDRF, SDMA, DDMA, NIDM, Sendai Framework, CDRI, SDRF/NDRF funding, and PM's 10-Point Agenda."
-sub_chapter: 4
+sub_chapter: 3
 date: 2026-03-27
 foundation: true
 prelims: true

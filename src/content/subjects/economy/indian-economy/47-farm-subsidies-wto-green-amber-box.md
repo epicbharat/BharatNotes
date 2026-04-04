@@ -1,6 +1,6 @@
 ---
 layout: topic.njk
-sub_chapter: 47
+sub_chapter: 45
 title: "Farm Subsidies in India — Direct, Indirect, WTO Compatibility & Reform"
 gs_paper: gs3
 syllabus_topic: "Indian Economy and Issues"

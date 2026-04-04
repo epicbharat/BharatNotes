@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "APMC Act, mandi system problems, three Farm Laws 2020 and repeal, e-NAM (1,522 mandis), cold chain gaps, GrAMs, One Nation One Market goal, and WTO agriculture context for UPSC GS3."
-sub_chapter: 46
+sub_chapter: 44
 date: 2026-04-04
 tags:
   - gs3

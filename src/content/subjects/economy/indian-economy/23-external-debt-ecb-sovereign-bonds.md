@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "UPSC GS3 notes on India's external debt composition, External Commercial Borrowings (ECB) automatic vs approval route, Masala bonds, India's first sovereign green bonds (2023), FRBM framework, debt sustainability indicators, and IMF DSA methodology."
-sub_chapter: 23
+sub_chapter: 22
 date: 2026-04-04
 foundation: true
 prelims: true

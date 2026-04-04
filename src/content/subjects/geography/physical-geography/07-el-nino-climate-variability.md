@@ -8,7 +8,7 @@ gs_papers:
   - gs1
 syllabus_topic: "Physical Geography"
 description: "UPSC notes on El Niño, La Niña, ENSO cycle — Walker Circulation, Hadley Cell, Pacific Ocean SST, impact on Indian monsoon, droughts, floods, global teleconnections, IOD (Indian Ocean Dipole)."
-sub_chapter: 7
+sub_chapter: 6
 date: 2026-03-28
 foundation: false
 prelims: true

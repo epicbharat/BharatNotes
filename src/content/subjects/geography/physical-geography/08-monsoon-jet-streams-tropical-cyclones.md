@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Physical Geography"
 description: "UPSC notes on monsoon — differential heating theory, ITCZ, Hadley cell, Tibetan heating, Somali Jet, southwest and northeast monsoons, jet streams (Subtropical/Polar), tropical vs temperate cyclones, Madden-Julian Oscillation."
 chapter: 12
-sub_chapter: 8
+sub_chapter: 7
 date: 2026-03-29
 tags:
   - geography

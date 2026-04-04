@@ -4,7 +4,7 @@ title: "Climate-Disaster Nexus — Heat Waves, GLOFs, Compound Disasters & Adapt
 subject: disaster-management
 parent_topic: "Disaster Management Framework"
 parent_topic_url: /subjects/disaster-management/dm-framework/
-sub_chapter: 12
+sub_chapter: 11
 gs_papers: [gs3]
 syllabus_topic: "Disaster Management"
 description: "UPSC notes on climate-disaster nexus — heat waves, glacial lake outburst floods, compound disasters, climate adaptation, loss and damage, climate resilient infrastructure."

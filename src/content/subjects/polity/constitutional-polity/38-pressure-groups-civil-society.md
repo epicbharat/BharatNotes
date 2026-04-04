@@ -1,6 +1,6 @@
 ---
 layout: topic.njk
-sub_chapter: 38
+sub_chapter: 37
 title: "Pressure Groups and Civil Society"
 gs_paper: gs2
 syllabus_topic: "Role of Civil Society, NGOs, Pressure Groups"

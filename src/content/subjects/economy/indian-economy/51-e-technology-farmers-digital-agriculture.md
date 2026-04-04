@@ -1,6 +1,6 @@
 ---
 layout: topic.njk
-sub_chapter: 51
+sub_chapter: 49
 title: "E-Technology in Aid of Farmers — Digital Agriculture Mission & AgriStack"
 gs_paper: gs3
 syllabus_topic: "Indian Economy and Issues"

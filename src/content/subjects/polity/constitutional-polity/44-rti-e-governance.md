@@ -1,14 +1,14 @@
 ---
 layout: topic.njk
-title: "RTI, Social Audit, E-Governance & Administrative Tribunals"
+title: "RTI, e-Governance & Service Delivery — Social Audit, Digital India & Administrative Transparency"
 subject: polity
 gs_papers:
   - gs2
 syllabus_topic: "Indian Constitution & Polity"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
-description: "Complete UPSC notes on RTI Act 2005 (sections, exemptions, amendment 2019, political parties), social audit, Citizen's Charter, Sevottam, e-governance (India Stack, Digital India, PRAGATI), and administrative tribunals (CAT, Article 323A/323B)."
-sub_chapter: 44
+description: "Complete UPSC notes on RTI Act 2005 (sections, exemptions, amendment 2019, political parties), social audit, Citizen's Charter, Sevottam, e-governance (NeGP, Digital India, India Stack, models G2C/G2B/G2G, PRAGATI, success stories), service delivery mechanisms, and administrative tribunals (CAT, Article 323A/323B)."
+sub_chapter: 43
 date: 2026-03-27
 foundation: true
 prelims: true
@@ -202,7 +202,16 @@ India Stack is the world's largest **Digital Public Infrastructure** — a set o
 
 ### National e-Governance Plan (NeGP) 2006
 
-Launched in **2006**, NeGP aims to make government services accessible to common citizens through Common Service Centres (CSCs). It comprises **31 Mission Mode Projects (MMPs)** spanning central, state, and integrated categories — covering areas like income tax, passport, land records, agriculture, health, education, municipalities, and courts.
+The Government of India approved the **National e-Governance Plan (NeGP)** on **18 May 2006**, under the Department of Electronics and Information Technology (now MeitY).
+
+**Vision:** "Make all Government services accessible to the common man in his locality through common service delivery outlets and ensure efficiency, transparency and reliability of such services at affordable costs."
+
+NeGP comprised **27 Mission Mode Projects (MMPs)** and 8 support components:
+- **Central MMPs (9):** Income Tax, Central Excise, Passport/Visa, Immigration, Banking, Insurance, MCA-21, National ID (UID), Pensions.
+- **State MMPs (10):** Land Records (Bhoomi), Road Transport, Agriculture, Treasuries, Municipalities, Gram Panchayats, Commercial Taxes, Police, Employment Exchanges, e-District.
+- **Integrated MMPs (8):** CSCs, EDI (Trade), India Portal, e-Biz, e-Courts, e-Procurement, NSDG, e-Office.
+
+NeGP established the foundational infrastructure — State Data Centres (SDCs), State Wide Area Networks (SWANs), and Common Service Centres (CSCs) — that enabled Digital India.
 
 ### Digital India Programme (2015)
 
@@ -226,10 +235,10 @@ Launched on **1 July 2015** by PM Narendra Modi. Built on nine pillars:
 |-----------|------|---------|---------------|
 | **Aadhaar** | 2009 (UIDAI established) | 12-digit unique biometric identity | 142 crore IDs; linked to bank accounts for DBT |
 | **UPI** | 2016 (NPCI) | Real-time interbank mobile payments | 460 million users, 65 million merchants; operational in 8+ countries (UAE, Singapore, France, Mauritius) |
-| **DigiLocker** | 2015 | Cloud-based document storage and verification | 67.63 crore users (March 2026); accepted for KYC across sectors |
+| **DigiLocker** | 2015 | Cloud-based document storage and verification | 67.63 crore users (March 2026); 943+ crore documents stored; accepted for KYC across sectors |
 | **UMANG** | 2017 | Unified Mobile Application for New-age Governance | 2,400+ services from 300+ departments |
 | **Direct Benefit Transfer (DBT)** | 2013 | Transfer subsidies/benefits directly to beneficiary bank accounts | ₹49.09 lakh crore transferred as of January 2026; estimated savings of ₹3.48 lakh crore by eliminating middlemen |
-| **GeM** (Government e-Marketplace) | 2016 | Online procurement platform for government | 75+ lakh sellers; ₹4+ lakh crore in cumulative orders |
+| **GeM** (Government e-Marketplace) | 2016 | Online procurement platform for government | ₹5 lakh crore GMV in FY 2024-25; cumulative GMV ₹13.60 lakh crore (May 2025); 1.64 lakh buyer organisations; 23 lakh sellers |
 | **BharatNet** | 2011 (NOFN, renamed 2015) | Optical fibre connectivity to all gram panchayats | ~2.15 lakh gram panchayats connected |
 | **Karmayogi Bharat (iGOT)** | 2020 | Online learning platform for civil servants | Capacity building for 4.6 crore government employees |
 | **e-Courts** | 2007 (Phase I) | Digital infrastructure for courts | Case status, e-filing, virtual hearings; ~3.5 crore cases tracked |
@@ -250,7 +259,48 @@ Launched on **1 July 2015** by PM Narendra Modi. Built on nine pillars:
 
 ### Common Service Centres (CSCs)
 
-Over **5 lakh CSCs** as of 2025 act as rural digital hubs offering government and non-government services including banking, insurance, education, and healthcare at village level. They serve as the physical access points for Digital India in areas with low smartphone/internet penetration.
+CSCs are physical, single-window service delivery points, primarily in rural areas, that provide government and private services digitally. Launched under NeGP, expanded under Digital India.
+
+- **Growth:** From approximately 83,000 CSCs in 2014, the network expanded to over **6.5 lakh CSCs by 2025** — a 680% growth in a decade.
+- As of **August 2025**, over **5.82 lakh functional CSCs** were operational, with approximately 4.55 lakh in rural areas.
+- Services: Aadhaar enrolment, banking, insurance, government certificates, telemedicine, agricultural advisories.
+
+### MyGov Platform
+
+Launched in **2014**, MyGov is a citizen engagement platform allowing participation in policy consultations, surveys, and creative competitions. It facilitates two-way communication between citizens and the government — a G2C feedback loop for participatory governance.
+
+### PM Gati Shakti Portal
+
+Launched in **October 2021**, PM Gati Shakti is a digital platform integrating infrastructure project planning across 16 ministries through GIS-based mapping. It enables real-time visibility on road, rail, port, waterway, and digital connectivity projects, eliminating coordination gaps.
+
+---
+
+## Models of e-Governance
+
+| Model | Full Form | Description |
+|---|---|---|
+| G2C | Government-to-Citizen | Service delivery: Aadhaar, DigiLocker, Passport Seva |
+| G2B | Government-to-Business | Procurement, licensing: GeM, MCA-21 |
+| G2G | Government-to-Government | Inter-agency data sharing: PFMS, NeSDA |
+| G2E | Government-to-Employee | HR, payroll, SPARROW appraisal system |
+
+---
+
+## e-Governance Success Stories
+
+### Bhoomi — Karnataka
+
+Karnataka's **Bhoomi** project digitised over 20 million land records and enabled online access to Record of Rights, Tenancy and Crops (RTC). It eliminated the role of village patwaris in issuing land records, drastically reducing corruption in land transactions.
+
+### FRIENDS — Kerala
+
+**FRIENDS (Fast, Reliable, Instant, Efficient Network for Disbursement of Services)** is a single-window facility in Kerala enabling citizens to pay utility bills, taxes, and fees across 60+ government departments at one counter — reducing visits, queues, and bribery.
+
+### eSeva — Andhra Pradesh
+
+**eSeva** was a pioneering multi-service delivery platform offering 70+ citizen services through dedicated service centres — a model that inspired CSCs nationwide and became a benchmark for G2C e-governance.
+
+---
 
 ### Challenges of E-Governance
 
@@ -262,6 +312,8 @@ Over **5 lakh CSCs** as of 2025 act as rural digital hubs offering government an
 | **Last-mile delivery** | BharatNet connectivity incomplete; CSCs underperforming in many states |
 | **Cybersecurity** | Government portals face frequent attacks; CERT-In reported 15.9 lakh incidents in 2024 |
 | **Exclusion errors** | Aadhaar-linked authentication failures deny legitimate beneficiaries (biometric mismatch, connectivity issues) |
+| **Interoperability** | Legacy systems across departments hinder seamless data exchange |
+| **Language barriers** | Most platforms are English-primary; local language interfaces remain underdeveloped |
 
 ---
 
@@ -411,8 +463,10 @@ The **42nd Constitutional Amendment (1976)** added **Part XIV-A** (Articles 323A
 - CAT — when established (1 November 1985), jurisdiction, appeal route
 - *L. Chandra Kumar* case — what it decided
 - UPI, DigiLocker, UMANG, Aadhaar — when launched, nodal agencies
-- Digital India nine pillars; NeGP — 31 MMPs
+- Digital India nine pillars; NeGP — 27 MMPs (9 Central + 10 State + 8 Integrated)
 - PRAGATI — monthly PM video-conferencing
+- Models of e-governance — G2C, G2B, G2G, G2E
+- CSCs: 6.5 lakh+ as of 2025; GeM: ₹5 lakh crore GMV in FY25
 
 ### Mains Focus Areas
 - RTI as a tool for transparency — successes and challenges (vacant IC positions, delayed disposals, safety of RTI activists — 90+ killed since 2005)
@@ -424,6 +478,9 @@ The **42nd Constitutional Amendment (1976)** added **Part XIV-A** (Articles 323A
 - Tribunal independence vs executive control
 - Citizen's Charter — why legally non-binding charters have limited impact (contrast with Right to Service Acts)
 - Privacy vs surveillance in digital governance (Aadhaar, DPDP Act)
+- e-Governance success stories — Bhoomi (Karnataka), FRIENDS (Kerala), eSeva (AP) as state-level best practices
+- **NeGP vs Digital India:** NeGP (2006) focused on computerisation and MMPs; Digital India (2015) is a transformative, ecosystem-wide programme covering infrastructure, services, and digital empowerment
+- **Exam framework for e-governance answers:** Infrastructure → Platform → Services → Citizen Impact, then add challenges and way forward
 
 ---
 

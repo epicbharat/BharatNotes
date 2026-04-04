@@ -8,7 +8,7 @@ syllabus_topic: "Indian Economy"
 parent_topic: "Indian Economy"
 parent_topic_url: "/subjects/economy/indian-economy/"
 description: "UPSC notes on sustainable development — SDGs (India's progress), ESG framework, carbon markets (Indian Carbon Market), circular economy, green bonds, and climate finance."
-sub_chapter: 57
+sub_chapter: 55
 chapter: 17
 date: 2026-03-28
 foundation: true

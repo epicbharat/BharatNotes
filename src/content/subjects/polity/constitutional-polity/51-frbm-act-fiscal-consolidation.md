@@ -1,6 +1,6 @@
 ---
 layout: topic.njk
-sub_chapter: 51
+sub_chapter: 49
 title: "FRBM Act & Fiscal Consolidation Framework"
 gs_paper: gs2
 syllabus_topic: "Government Budgeting"

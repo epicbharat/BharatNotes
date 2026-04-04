@@ -4,7 +4,7 @@ title: "World Economic Geography — Global Agriculture, Industries, Trade Route
 subject: geography
 parent_topic: "World Geography"
 parent_topic_url: /subjects/geography/world-geography/
-sub_chapter: 9
+sub_chapter: 6
 gs_papers: [gs1]
 syllabus_topic: "World Geography"
 description: "UPSC notes on world economic geography — global agriculture patterns, major industries, trade routes, shipping lanes, urbanisation trends, megacities, economic regions."

@@ -8,7 +8,7 @@ syllabus_topic: "World Geography"
 parent_topic: "World Geography"
 parent_topic_url: "/subjects/geography/world-geography/"
 description: "UPSC notes on world mapping — strategic straits (Hormuz, Malacca, Bab-el-Mandeb), canals (Suez, Panama), mountain ranges, volcanoes, islands, and frequently tested map-based locations."
-sub_chapter: 14
+sub_chapter: 11
 chapter: 6
 date: 2026-03-28
 foundation: true

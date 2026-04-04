@@ -8,7 +8,7 @@ syllabus_topic: "Indian Constitution & Polity"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "UPSC notes on Model Code of Conduct — origin, key provisions, ECI enforcement, EVM & VVPAT mechanism, controversies, and election schedule in India."
-sub_chapter: 35
+sub_chapter: 34
 date: 2026-04-04
 foundation: true
 prelims: true

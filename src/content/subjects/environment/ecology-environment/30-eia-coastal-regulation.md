@@ -1,6 +1,6 @@
 ---
 layout: topic.njk
-title: "EIA, Forest & Coastal Clearances, NGT & Environmental Governance"
+title: "EIA, Environmental Clearance & Coastal Regulation — EIA 2006, CRZ 2019, NGT, Forest Clearance & Green Tribunal"
 subject: environment
 gs_papers:
   - gs3
@@ -26,7 +26,7 @@ Environmental Impact Assessment (EIA) is the cornerstone of India's environmenta
 
 ## Legal Framework for Environmental Clearances
 
-India's environmental governance rests on a **multi-layered legal architecture** anchored in the **Environment Protection Act, 1986 (EPA)**:
+India's environmental governance rests on a **multi-layered legal architecture** anchored in the **Environment Protection Act, 1986 (EPA)**. The EPA was enacted in the aftermath of the **1984 Bhopal Gas Tragedy** (and was also inspired by recommendations from the **1972 Stockholm Conference on Human Environment**). Under Section 3, the Central Government is empowered to take all measures necessary to protect and improve environmental quality. The **EIA Notification 2006** is the primary subsidiary legislation under EPA 1986 for project-level clearance, replacing the earlier EIA Notification of **1994**.
 
 | Legislation | Year | Purpose |
 |---|---|---|
@@ -85,6 +85,15 @@ Projects are classified based on spatial extent of impact, magnitude of investme
 | **Timeline** | ToR must be issued within **60 days** of receipt of complete application; if not issued, deemed granted |
 | **Baseline data** | Project proponent must collect baseline environmental data for **one season** (minimum) |
 
+### Stage 2B: EIA Study and Preparation of EIA/EMP Report
+
+| Feature | Detail |
+|---------|--------|
+| **Applies to** | Category A and B1 projects after ToR is issued |
+| **Duration** | Typically **12–18 months**, covering at least one full seasonal cycle to capture baseline environmental variability |
+| **EIA report contents** | Baseline environmental data, project description, impact prediction, **Environmental Management Plan (EMP)**, alternatives analysis, risk assessment |
+| **Consultant** | Must be an accredited EIA consultant (accredited by the **Quality Council of India — QCI**) |
+
 ### Stage 3: Public Consultation
 
 | Feature | Detail |
@@ -129,6 +138,7 @@ Projects are classified based on spatial extent of impact, magnitude of investme
 | **Compliance reports** | Changed from half-yearly to annual self-monitoring | Reduces oversight frequency; delays detection of violations |
 | **Violation window** | Introduced window allowing violating projects to apply for clearance | Incentivises "construct first, seek permission later" approach |
 | **Third-party reports** | Removed provision for third-party complaints triggering an appraisal | Eliminates civil society watchdog role |
+| **Online submissions only** | Objections required to be submitted online only | Potentially excludes non-digital rural and tribal communities who lack internet access |
 
 The Draft EIA 2020 received over **1.7 million public comments** — the highest for any draft notification in India's history. As of March 2026, the final notification has **not been issued**; the EIA Notification 2006 (as amended) remains in force.
 
@@ -173,7 +183,7 @@ The **Forest Conservation Act, 1980 (FCA)** requires Central Government approval
 
 ### Forest (Conservation) Amendment Act, 2023
 
-The **Forest (Conservation) Amendment Act, 2023** — also renamed **Van (Sanrakshan Evam Samvardhan) Adhiniyam** — was passed by Parliament in August 2023:
+The **Forest (Conservation) Amendment Act, 2023** — also renamed **Van Sanrakshan Evam Samvardhan Adhiniyam** (Forest Conservation and Enhancement Act) — was passed by **Lok Sabha on 26 July 2023** and **Rajya Sabha on 2 August 2023**, and received **Presidential assent in August 2023**:
 
 | Provision | Detail |
 |---|---|
@@ -182,6 +192,8 @@ The **Forest (Conservation) Amendment Act, 2023** — also renamed **Van (Sanrak
 | New permitted activities | Zoos and safaris (government-owned), eco-tourism within forest working plans, silviculture operations |
 | Linear projects | Up to **0.10 ha** for road/railway connectivity to habitations; up to **10 ha** for security infrastructure, without Forest Clearance |
 | LWE districts | Up to **5 ha** for public utilities in Left Wing Extremism-affected districts |
+| Surveys exempt | Geological, geophysical, and remote sensing surveys and investigations in forest areas are **not** treated as "non-forestry activities" — no FCA clearance required |
+| Carbon sink targets | Amendment supports India's NDC commitment to create **2.5–3.0 billion tonnes** of additional carbon sink by 2030 |
 | Gram Sabha consent | Required for forest diversion in tribal/Scheduled V areas |
 
 **Criticism:** The 100 km exemption covers roughly **2/3 of northeast India**, which contains some of the country's most biodiverse forests. Environmentalists warned this accelerates forest loss in already fragile ecosystems.
@@ -302,6 +314,10 @@ The NBWL, chaired by the **Prime Minister**, has a **Standing Committee** (chair
 
 NGT has emerged as a key forum for challenging environmental clearances, EIA violations, and CRZ breaches — passing landmark orders on river pollution, waste management, and illegal construction in coastal areas.
 
+- Aggrieved parties may challenge an Environmental Clearance before the NGT **within 30 days** of the grant of EC
+- Over **38,000 cases** have been filed before the NGT since its inception
+- NGT has suo motu jurisdiction to take up environmental matters; its decisions are appealable only to the **Supreme Court of India**
+
 ---
 
 ## Environmental Governance Structure
@@ -398,6 +414,10 @@ Green ratings focus on energy efficiency, water conservation, and material use �
 - Strategic Environmental Assessment — why India needs SEA for cumulative impact assessment
 - FCA 2023: 100 km border exemption — threat to northeast biodiversity
 - Judicial role in environmental governance — NGT suo motu, compensation jurisprudence
+- EIA as environmental democracy: the public hearing stage is the most contested — community voice vs. project viability
+- CRZ 2019 relaxation: coastal development opportunity vs. ecosystem degradation and climate vulnerability from rising sea levels
+- Forest Amendment 2023: security imperative (100 km border exemption) vs. tribal rights under FRA 2006 and biodiversity conservation in northeast India
+- EIA Draft 2020: post-facto regularisation normalises violation and signals enforcement failure; "ease of doing business" vs. environmental democracy
 
 ---
 

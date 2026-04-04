@@ -1,6 +1,6 @@
 ---
 layout: topic.njk
-sub_chapter: 47
+sub_chapter: 45
 title: "Delegated Legislation & Administrative Law"
 gs_paper: gs2
 syllabus_topic: "Parliament and State Legislatures"

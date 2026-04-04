@@ -8,7 +8,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Constitution"
 description: "UPSC notes on constitutional morality — Kesavananda Bharati case (Basic Structure doctrine), separation of powers in India, checks and balances, judicial review, Golaknath case, 42nd Amendment, Minerva Mills."
-sub_chapter: 42
+sub_chapter: 41
 date: 2026-03-28
 foundation: false
 prelims: true

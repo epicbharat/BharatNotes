@@ -8,7 +8,7 @@ syllabus_topic: "World Geography"
 parent_topic: "World Geography"
 parent_topic_url: "/subjects/geography/world-geography/"
 description: "UPSC notes on Arctic geopolitics (Northern Sea Route, resource race), Antarctic Treaty System, India's polar missions, and major international boundary disputes."
-sub_chapter: 13
+sub_chapter: 10
 chapter: 8
 date: 2026-03-29
 foundation: true

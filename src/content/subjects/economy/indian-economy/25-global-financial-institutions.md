@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "UPSC GS3 notes on IMF (SDR, Article IV, lending facilities, 16th quota review), World Bank Group (IBRD, IDA, IFC, MIGA), ADB, AIIB, NDB — India's voting shares, reform demands, and role in multilateral finance."
-sub_chapter: 25
+sub_chapter: 24
 date: 2026-04-04
 foundation: true
 prelims: true

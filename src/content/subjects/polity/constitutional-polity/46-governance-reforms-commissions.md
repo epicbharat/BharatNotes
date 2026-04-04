@@ -4,7 +4,7 @@ title: "Governance Reforms & Commissions — Sarkaria, Punchhi, 2nd ARC & Police
 subject: polity
 parent_topic: "Constitutional Polity"
 parent_topic_url: /subjects/polity/constitutional-polity/
-sub_chapter: 46
+sub_chapter: 44
 gs_papers: [gs2]
 syllabus_topic: "Indian Constitution & Polity"
 description: "UPSC notes on governance reforms and major commissions — Sarkaria, Punchhi, 2nd ARC, police reforms (Prakash Singh), judicial reforms, administrative reforms, civil services reform."

@@ -9,7 +9,7 @@ gs_papers:
 syllabus_topic: "Infrastructure"
 description: "UPSC notes on housing and real estate — RERA 2016, PMAY-Urban, housing deficit, affordable housing schemes, rental housing, Smart Cities Mission, AMRUT 2.0, urban infrastructure financing."
 chapter: 35
-sub_chapter: 35
+sub_chapter: 34
 date: 2026-03-29
 foundation: false
 prelims: true

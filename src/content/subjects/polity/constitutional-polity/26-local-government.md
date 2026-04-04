@@ -1,13 +1,13 @@
 ---
 layout: topic.njk
-title: "Local Government — Panchayati Raj (73rd Amendment) & Municipalities (74th Amendment)"
+title: "Local Government & Decentralisation — 73rd & 74th Amendments, Panchayati Raj, Urban Local Bodies"
 subject: polity
 gs_papers:
   - gs2
 syllabus_topic: "Indian Constitution & Polity"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
-description: "Comprehensive UPSC notes on Local Government — 73rd Amendment (Panchayati Raj, Articles 243-243O, 11th Schedule), 74th Amendment (Municipalities, Articles 243P-243ZG, 12th Schedule), State Election Commission, District Planning Committee, and Finance Commission for local bodies."
+description: "Comprehensive UPSC notes on Local Government & Decentralisation — 73rd Amendment (Panchayati Raj, Articles 243-243O, 11th Schedule), 74th Amendment (Municipalities, Articles 243P-243ZG, 12th Schedule), historical evolution, key committees, PESA Act, 3Fs problem, State Election Commission, District Planning Committee, Finance Commission for local bodies, digital governance, and challenges."
 sub_chapter: 26
 date: 2026-03-26
 foundation: true
@@ -39,12 +39,36 @@ Both amendments received Presidential assent on **20 April 1993** and came into 
 
 ---
 
+## Historical Evolution of Panchayati Raj
+
+### Pre-Constitutional Background
+
+Village panchayats existed in ancient India and were endorsed by Gandhi as the backbone of Swaraj. The colonial government made limited provisions. After independence, **Article 40** of the DPSP directed states to organise village panchayats, but implementation was left to states with no binding obligation.
+
+### Key Committees and Commissions
+
+| Committee / Report | Year | Key Recommendations |
+|---|---|---|
+| **Balwant Rai Mehta Committee** | 1957 (Report: Nov 24, 1957) | Coined "democratic decentralisation"; recommended three-tier PRIs — Gram Panchayat (village), Panchayat Samiti (block), Zila Parishad (district); village Panchayat directly elected, upper tiers indirectly elected |
+| **Ashok Mehta Committee** | Appointed Dec 1977, Report Aug 1978 | Recommended replacing three-tier with **two-tier** system (Mandal Panchayat and Zila Parishad); official participation of political parties in elections; compulsory taxation powers; but not implemented as Janata Govt fell |
+| **G.V.K. Rao Committee** | 1985 | Recommended treating district as the basic unit; district collector should chair Zila Parishad; PRIs described as "grass-roots planning" units |
+| **L.M. Singhvi Committee** | 1986 | First to recommend **constitutional status** for PRIs; emphasized importance of Gram Sabha as "embodiment of direct democracy"; suggested Nyaya Panchayats for cluster of villages |
+| **Rajiv Gandhi Initiative** | 1989 | 64th Constitutional Amendment Bill passed Lok Sabha but failed in Rajya Sabha; laid groundwork for eventual 73rd Amendment |
+| **P.K. Thungon Committee** | 1988 | Recommended constitutional recognition for PRIs as third tier |
+
+### First Panchayati Raj
+
+Rajasthan was the **first state** to establish Panchayati Raj on **October 2, 1959** (Gandhi Jayanti) at Nagaur. Andhra Pradesh followed two weeks later.
+
+---
+
 ## 73rd Amendment — Panchayati Raj (Articles 243–243O)
 
 ### Key Constitutional Provisions
 
 | Article | Subject |
 |---------|---------|
+| **243** | Definitions (Gram Sabha, Intermediate Level, Panchayat area, etc.) |
 | **243A** | Gram Sabha — body of persons registered in the electoral rolls of a village |
 | **243B** | Constitution of Panchayats — three-tier system |
 | **243C** | Composition of Panchayats |
@@ -54,6 +78,7 @@ Both amendments received Presidential assent on **20 April 1993** and came into 
 | **243G** | Powers, authority, and responsibilities (Article references 11th Schedule) |
 | **243H** | Powers to impose taxes |
 | **243I** | State Finance Commission |
+| **243J** | Audit of accounts |
 | **243K** | State Election Commission for superintendence of elections |
 | **243L** | Application to Union Territories |
 | **243M** | Exemptions — does not apply to Nagaland, Meghalaya, Mizoram, certain areas in Schedule V and VI |
@@ -68,7 +93,8 @@ Both amendments received Presidential assent on **20 April 1993** and came into 
 | **Middle tier** | Panchayat Samiti (Block/Taluk Panchayat) | Intermediate/Block |
 | **Top tier** | Zilla Parishad (District Panchayat) | District |
 
-> **Exception**: States with population **below 20 lakh** may not have the intermediate tier (Article 243B(1)).
+- States with population **below 20 lakh** may not have the intermediate tier (Article 243B(1))
+- States may use different names (e.g., "Block Panchayat" in Kerala, "Taluka Panchayat" in Gujarat)
 
 ### Gram Sabha (Article 243A)
 
@@ -77,7 +103,7 @@ Both amendments received Presidential assent on **20 April 1993** and came into 
 | **Definition** | A body consisting of persons registered in the electoral rolls relating to a village comprised within the area of a Panchayat at the village level |
 | **Role** | Foundation of the Panchayati Raj system — exercises powers and performs functions determined by State Legislature |
 | **Functions** | Approve plans, programmes, and projects for social and economic development; identify beneficiaries of poverty alleviation programmes; social audit of Panchayat accounts |
-| **Significance** | Embodies **direct democracy** at the grassroots level |
+| **Significance** | Embodies **direct democracy** at the grassroots level — L.M. Singhvi called it the "embodiment of direct democracy" |
 
 ### Composition and Election
 
@@ -97,6 +123,21 @@ Both amendments received Presidential assent on **20 April 1993** and came into 
 | **Women** | Not less than **1/3rd** of total seats (including seats reserved for SC/ST women); 1/3rd of Chairperson offices reserved for women |
 | **Backward Classes** | State Legislature **may** provide reservation for backward classes |
 | **Rotation** | Reserved seats are allotted by **rotation** to different constituencies in a Panchayat |
+
+Many states have independently increased women's reservation to **50%** (Rajasthan, Madhya Pradesh, Bihar, Uttarakhand, Himachal Pradesh, and others).
+
+### Compulsory vs Voluntary Provisions
+
+**Compulsory (Binding on States):**
+- Three-tier Panchayats
+- Elections every 5 years
+- Reservation for SCs, STs and women
+- State Election Commission
+- State Finance Commission
+
+**Voluntary (Discretionary for States):**
+- Devolution of 29 subjects to Panchayats
+- Granting financial powers (taxation)
 
 ### Duration and Elections (Article 243E)
 
@@ -166,17 +207,26 @@ The 11th Schedule lists 29 subjects for which Panchayats may be given powers and
 
 | Article | Subject |
 |---------|---------|
-| **243Q** | Constitution of Municipalities |
+| **243P** | Definitions (Metropolitan area, Municipality, etc.) |
+| **243Q** | Constitution of Municipalities — three types |
 | **243R** | Composition of Municipalities |
 | **243S** | Constitution and composition of Wards Committees |
 | **243T** | Reservation of seats |
 | **243U** | Duration of Municipalities — 5 years |
+| **243V** | Disqualifications |
 | **243W** | Powers, authority, and responsibilities |
 | **243X** | Power to impose taxes |
 | **243Y** | Finance Commission (same as Art 243I) |
+| **243Z** | Audit of accounts |
 | **243ZA** | Elections to Municipalities — State Election Commission |
+| **243ZB** | Application to Union Territories |
+| **243ZC** | Exemptions — certain hill areas, Scheduled Areas |
 | **243ZD** | Committee for District Planning |
 | **243ZE** | Committee for Metropolitan Planning |
+| **243ZF** | Continuance of existing laws |
+| **243ZG** | Bar to interference by courts in electoral matters |
+
+Also called the **Nagarpalika Act**.
 
 ### Three Types of Municipalities (Article 243Q)
 
@@ -186,7 +236,7 @@ The 11th Schedule lists 29 subjects for which Panchayats may be given powers and
 | **Municipal Council** | Smaller urban area |
 | **Municipal Corporation** | Larger urban area |
 
-> The Governor determines the classification on the basis of population, density, revenue generated, percentage employed in non-agricultural activities, and other factors.
+The Governor determines the classification on the basis of population, density, revenue generated, percentage employed in non-agricultural activities, and other factors.
 
 ### Composition
 
@@ -276,6 +326,70 @@ The 11th Schedule lists 29 subjects for which Panchayats may be given powers and
 
 ---
 
+## PESA Act, 1996
+
+The **Panchayats (Extension to Scheduled Areas) Act, 1996** extends Part IX of the Constitution to Fifth Schedule (Scheduled / Tribal) areas — with certain modifications to protect tribal rights.
+
+| Feature | PESA Provision |
+|---|---|
+| **Coverage** | Fifth Schedule areas in 10 states (Andhra Pradesh, Telangana, Chhattisgarh, Gujarat, Himachal Pradesh, Jharkhand, Madhya Pradesh, Maharashtra, Odisha, Rajasthan) |
+| **Gram Sabha powers** | Mandatory consultation before land acquisition; management of natural resources |
+| **Forest rights** | Ownership of minor forest produce |
+| **Customary law** | Traditions and customs of tribal communities recognised |
+| **Money-lending** | Regulation of money lending to tribals |
+| **Endowments** | Control over institutions and functionaries |
+
+---
+
+## Finances of Local Bodies
+
+### Revenue Sources
+
+| Source | Details |
+|---|---|
+| **Own taxes** | Property tax, profession tax, advertisement tax, water charges |
+| **Shared taxes** | State share of State taxes as per SFC recommendations |
+| **Grants** | Central Finance Commission grants (Article 243I & 280), State grants |
+| **Loans** | From state government, HUDCO, bond market |
+
+### Central Finance Commission and Local Bodies
+
+| Finance Commission | Key Recommendation for Local Bodies |
+|--------------------|------------------------------------|
+| **11th FC** (2000-05) | First to recommend grants for local bodies |
+| **13th FC** (2010-15) | Rs 87,519 crore for local bodies |
+| **14th FC** (2015-20) | Rs 2,87,436 crore for local bodies (large increase after raising states' tax share to 42%) |
+| **15th FC** (2021-26) | Rs 4,36,361 crore for local bodies — basic grants (90%) and performance-linked grants (10%) for gram panchayats |
+| **16th FC** (2026-31) | Rs 4.4 lakh crore for rural local bodies + Rs 3.6 lakh crore for urban local bodies; divided into **basic grants (80%)** and **performance-based grants (20%)**; states' share of central taxes retained at **41%** |
+
+---
+
+## Challenges Facing Local Bodies
+
+| Challenge | Details |
+|---|---|
+| **Functions not transferred** | Many states have not devolved all 29/18 subjects; "3Fs" (Functions, Functionaries, Funds) remain incomplete |
+| **Finance gaps** | Own revenue very limited; heavy dependence on state grants |
+| **Parallel bodies** | MP/MLA Local Area Development funds, District Rural Development Agencies (DRDAs), watershed committees bypass PRIs |
+| **Capacity deficit** | Elected representatives lack technical and administrative capacity |
+| **Political interference** | District Collector and state bureaucracy overshadow elected bodies |
+| **Gram Sabha dormancy** | Low attendance; meetings not held regularly |
+| **Urban infrastructure gap** | Indian cities have among the lowest per capita urban spend in Asia |
+
+---
+
+## Digital Governance Initiatives for Local Bodies
+
+| Initiative | Purpose |
+|---|---|
+| **e-Gram Swaraj** | Unified digital platform for Panchayats — decentralized planning, work-based accounting |
+| **GeM for Panchayats** | Government e-Marketplace procurement by Gram Panchayats |
+| **SVAMITVA Scheme** | Survey of villages with drones; property rights cards (ownership rights) to rural households |
+| **Meri Panchayat App** | Citizen interface for monitoring Panchayat works |
+| **Audit Online** | Digital audit of Panchayat accounts |
+
+---
+
 > **Common Mistake:** Aspirants confuse the Schedules — **11th Schedule** has **29 subjects** for Panchayats, **12th Schedule** has **18 functions** for Municipalities. Remember: 11th came first (Panchayats, rural, more subjects) and 12th came second (Municipalities, urban, fewer functions). Also note: 11th says "subjects" while 12th says "functions" — this difference in terminology is intentional.
 
 > **Exam Tip:** The real challenge of decentralisation is the **3Fs problem** — Funds, Functions, and Functionaries. The 73rd/74th Amendments transferred functions on paper, but most states have not genuinely devolved funds or functionaries to local bodies. This is the core analytical point for any Mains question on Panchayati Raj effectiveness.
@@ -293,25 +407,8 @@ The 11th Schedule lists 29 subjects for which Panchayats may be given powers and
 | **Duration** | 5 years | 5 years |
 | **Elections conducted by** | State Election Commission | State Election Commission |
 | **Finance Commission** | State Finance Commission (Art. 243I) | Same State Finance Commission (Art. 243Y) |
+| **In force** | April 24, 1993 | June 1, 1993 |
 | **Planning body** | — | DPC (Art. 243ZD) and MPC (Art. 243ZE) |
-
----
-
-## Finance Commission and Local Bodies
-
-### Constitutional Mandate
-
-Article 243I (Panchayats) and Article 243Y (Municipalities) mandate the State Government to constitute a **State Finance Commission** every 5 years to review the financial position of local bodies and recommend distribution of resources.
-
-### Central Finance Commission and Local Bodies
-
-| Finance Commission | Key Recommendation for Local Bodies |
-|--------------------|------------------------------------|
-| **11th FC** (2000-05) | First to recommend grants for local bodies |
-| **13th FC** (2010-15) | Rs 87,519 crore for local bodies |
-| **14th FC** (2015-20) | Rs 2,87,436 crore for local bodies (large increase after raising states' tax share to 42%) |
-| **15th FC** (2021-26) | Rs 4,36,361 crore for local bodies |
-| **16th FC** (2026-31) | Rs 4.4 lakh crore for rural local bodies + Rs 3.6 lakh crore for urban local bodies; divided into **basic grants (80%)** and **performance-based grants (20%)**; states' share of central taxes retained at **41%** |
 
 ---
 
@@ -324,16 +421,19 @@ Article 243I (Panchayats) and Article 243Y (Municipalities) mandate the State Go
 - State Finance Commission: Article 243I — constituted every 5 years
 - State Election Commission: Article 243K — appointed by Governor, removed like a High Court Judge
 - DPC (Art. 243ZD): 4/5th members elected; MPC (Art. 243ZE): 2/3rd members elected, for metro areas of 10 lakh+ population
-- PESA Act, 1996: Extends Panchayati Raj to Fifth Schedule areas
+- PESA Act, 1996: Extends Panchayati Raj to Fifth Schedule areas (NOT Sixth Schedule — which has Autonomous District Councils)
 - States below 20 lakh population may not have intermediate tier
 - Wards Committees mandatory for municipalities with 3 lakh+ population
+- First Panchayati Raj state: **Rajasthan** (October 2, 1959)
+- Compulsory provisions: three-tier structure, 5-year elections, SC/ST/women reservation, SEC, SFC
+- Voluntary provisions: devolution of 29 subjects, financial powers
 
 ### Mains Dimensions
 - **3Fs — Funds, Functions, Functionaries**: The real challenge of decentralisation — actual devolution vs constitutional mandate
 - **Gram Sabha as instrument of direct democracy**: Potential and limitations
 - **Urban governance challenges**: 74th Amendment implementation gaps, smart cities and municipal reforms
 - **16th Finance Commission**: Impact of new grants formula on local body finances
-- **PESA and tribal self-governance**: Conflicts between Panchayati Raj and tribal autonomy
+- **PESA and tribal self-governance**: Conflicts between Panchayati Raj and tribal autonomy; connect to Forest Rights Act 2006
 - **Women's representation**: Impact of 1/3rd reservation at the grassroots — some states have increased to 50%
 
 ### Interview Angles
@@ -343,6 +443,29 @@ Article 243I (Panchayats) and Article 243Y (Municipalities) mandate the State Go
 - Should the State Election Commission be merged with the Election Commission of India?
 
 ---
+
+## Exam Strategy
+
+**High-yield for Prelims:**
+- Articles: 243A (Gram Sabha), 243D (Reservation), 243K (SEC), 243-I (SFC), 243ZD (DPC), 243ZE (MPC)
+- 11th Schedule has **29 subjects**; 12th Schedule has **18 subjects/functions**
+- 73rd Amendment: April 24, 1993; 74th Amendment: June 1, 1993
+- Nagar Panchayat = transitional area; Municipal Council = smaller urban; Corporation = larger urban
+- PESA covers **Fifth Schedule** areas (not Sixth Schedule which has its own ADC system)
+- First Panchayati Raj state: **Rajasthan** (October 2, 1959)
+
+**For Mains (GS2):**
+- The "3Fs problem" (Functions, Functionaries, Funds) is the central argument for why decentralisation remains incomplete
+- Contrast constitutional mandate with ground reality — use SFC data, Finance Commission grants
+- Connect PESA to Forest Rights Act 2006 and tribal self-governance
+- Quote L.M. Singhvi's "embodiment of direct democracy" for Gram Sabha
+- e-Gram Swaraj and SVAMITVA as current affairs hooks
+
+**Common Mistakes to Avoid:**
+- Do NOT confuse State Election Commission (PRIs/ULBs) with Election Commission of India (LS/State Assembly)
+- Do NOT say 73rd Amendment was passed in 1993 — it was passed in 1992, came into force 1993
+- PESA covers Fifth Schedule areas, NOT Sixth Schedule (which has Autonomous District Councils)
+- Do NOT confuse DPC (4/5th elected, Article 243ZD) with MPC (2/3rd elected, Article 243ZE, metro 10 lakh+)
 
 ---
 
@@ -376,7 +499,7 @@ Article 243I (Panchayats) and Article 243Y (Municipalities) mandate the State Go
 ### 74th Amendment
 - **Pronunciation:** /ˈsɛvənti fɔːθ əˈmɛndmənt/
 - **Definition:** The Constitution (Seventy-fourth Amendment) Act, 1992, which added Part IX-A (Articles 243P to 243ZG) and the Twelfth Schedule (18 functions) to the Constitution, granting constitutional status to three types of urban local bodies — Nagar Panchayats (transitional areas from rural to urban), Municipal Councils (smaller urban areas), and Municipal Corporations (larger urban areas) — with mandatory provisions for direct elections from territorial wards, reservations for SC/ST (in proportion to population) and women (not less than one-third), five-year terms, Wards Committees for municipalities with 3 lakh or more population (Article 243S), District Planning Committees (Article 243ZD, at least 4/5th elected), and Metropolitan Planning Committees for areas with 10 lakh or more population (Article 243ZE, at least 2/3rd elected).
-- **Context:** Passed by Parliament in 1992; received Presidential assent on 20 April 1993 and came into force on 1 June 1993 — six weeks after the 73rd Amendment (24 April 1993). While the 73rd Amendment revolutionised rural governance, the 74th Amendment aimed to do the same for urban India — but its implementation has lagged significantly. The Twelfth Schedule lists 18 functional areas devolved to municipalities, including urban planning, water supply, public health, sanitation, slum improvement, and urban poverty alleviation. The Governor determines the classification of urban areas into Nagar Panchayats, Municipal Councils, or Municipal Corporations based on population, density, revenue generated, and percentage employed in non-agricultural activities. The same State Election Commission (Article 243ZA) and State Finance Commission (Article 243Y) serve both Panchayats and Municipalities. The 74th Amendment does not apply to Scheduled Areas and tribal areas, or to the Darjeeling Gorkha Hill Council in West Bengal. A key structural difference from Parliament: there is no joint sitting provision at the state level for deadlocks between the Vidhan Sabha and Vidhan Parishad — the Vidhan Sabha prevails after a 4-month waiting period.
+- **Context:** Passed by Parliament in 1992; received Presidential assent on 20 April 1993 and came into force on 1 June 1993 — six weeks after the 73rd Amendment (24 April 1993). While the 73rd Amendment revolutionised rural governance, the 74th Amendment aimed to do the same for urban India — but its implementation has lagged significantly. The Twelfth Schedule lists 18 functional areas devolved to municipalities, including urban planning, water supply, public health, sanitation, slum improvement, and urban poverty alleviation. The Governor determines the classification of urban areas into Nagar Panchayats, Municipal Councils, or Municipal Corporations based on population, density, revenue generated, and percentage employed in non-agricultural activities. The same State Election Commission (Article 243ZA) and State Finance Commission (Article 243Y) serve both Panchayats and Municipalities. The 74th Amendment does not apply to Scheduled Areas and tribal areas, or to the Darjeeling Gorkha Hill Council in West Bengal.
 - **UPSC Relevance:** GS2 Polity — Prelims: Part IX-A, Articles 243P-243ZG, 12th Schedule (18 functions — distinguish from 11th Schedule's 29 subjects for Panchayats), three types of municipalities (Nagar Panchayat, Municipal Council, Municipal Corporation), Wards Committee mandatory for 3 lakh+ population (Article 243S), DPC (Article 243ZD — 4/5th elected) vs MPC (Article 243ZE — 2/3rd elected, 10 lakh+ metro), came into force 1 June 1993; Mains: urban governance challenges and the implementation gap of the 74th Amendment (most states have not genuinely devolved the 18 functions, funds, or functionaries to ULBs), Smart Cities Mission and municipal reforms, fiscal autonomy of urban local bodies (own revenue generation vs dependence on state grants), comparison with the 73rd Amendment (rural decentralisation far more advanced than urban), the 3Fs problem in urban context.
 
 ---

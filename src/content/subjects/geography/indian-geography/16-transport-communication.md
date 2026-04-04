@@ -4,7 +4,7 @@ title: "Transport & Communication Networks in India — Railways, Highways, Port
 subject: geography
 parent_topic: "Indian Geography"
 parent_topic_url: /subjects/geography/indian-geography/
-sub_chapter: 16
+sub_chapter: 15
 gs_papers: [gs1]
 syllabus_topic: "Indian Geography"
 description: "UPSC notes on India's transport network — Indian Railways, National Highways, Golden Quadrilateral, major ports, airports, inland waterways, and digital communication infrastructure."

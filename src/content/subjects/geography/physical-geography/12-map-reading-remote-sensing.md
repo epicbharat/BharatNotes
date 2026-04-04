@@ -8,7 +8,7 @@ syllabus_topic: "Physical Geography"
 parent_topic: "Physical Geography"
 parent_topic_url: "/subjects/geography/physical-geography/"
 description: "UPSC notes on map reading — topographical maps, Survey of India, contour interpretation, remote sensing (ISRO satellites), GIS, GPS, and spatial data applications."
-sub_chapter: 12
+sub_chapter: 10
 chapter: 6
 date: 2026-03-28
 foundation: true

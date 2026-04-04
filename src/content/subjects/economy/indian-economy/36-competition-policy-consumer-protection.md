@@ -8,7 +8,7 @@ syllabus_topic: "Indian Economy"
 parent_topic: "Indian Economy"
 parent_topic_url: "/subjects/economy/indian-economy/"
 description: "UPSC notes on competition policy — Competition Act 2002, CCI, anti-competitive agreements, abuse of dominance, merger regulation, and Consumer Protection Act 2019."
-sub_chapter: 36
+sub_chapter: 35
 chapter: 20
 date: 2026-03-28
 foundation: true

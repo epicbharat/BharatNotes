@@ -7,7 +7,7 @@ gs_papers:
 syllabus_topic: "Infrastructure"
 description: "UPSC notes on India's energy security — oil import dependence, strategic petroleum reserves, coal transition, renewable energy targets (500 GW by 2030), green hydrogen, PM Surya Ghar, energy mix."
 chapter: 34
-sub_chapter: 34
+sub_chapter: 33
 date: 2026-03-29
 tags:
   - economy

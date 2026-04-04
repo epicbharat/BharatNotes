@@ -8,7 +8,7 @@ syllabus_topic: "World Geography"
 parent_topic: "World Geography"
 parent_topic_url: "/subjects/geography/world-geography/"
 description: "UPSC notes on world population distribution, growth trends, urbanisation patterns, megacities, slums, sustainable urban development, and global demographic challenges."
-sub_chapter: 10
+sub_chapter: 7
 chapter: 7
 date: 2026-03-28
 foundation: true

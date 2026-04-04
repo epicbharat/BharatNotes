@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "National Food Security Act 2013, Antyodaya Anna Yojana, FCI procurement and buffer norms, PMGKAY free ration extended to 2028, One Nation One Ration Card, PM POSHAN, and UPSC GS3 food security notes."
-sub_chapter: 45
+sub_chapter: 43
 date: 2026-04-04
 tags:
   - gs3

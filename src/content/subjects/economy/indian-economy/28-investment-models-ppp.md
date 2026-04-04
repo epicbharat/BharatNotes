@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "UPSC GS3 notes on investment models — Public-Private Partnership (PPP), Hybrid Annuity Model (HAM), BOT (toll & annuity), EPC, InvIT, National Monetisation Pipeline (NMP), TOT model, DBFOT, infrastructure investment trusts and their role in India's infrastructure financing."
-sub_chapter: 28
+sub_chapter: 27
 date: 2026-03-29
 foundation: false
 prelims: true

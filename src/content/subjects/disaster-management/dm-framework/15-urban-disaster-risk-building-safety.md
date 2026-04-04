@@ -6,7 +6,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Disaster Management"
 description: "UPSC notes on urban disaster risk — building safety codes, earthquake-resistant construction, urban flooding, fire safety, NDMA building guidelines, and disaster-resilient city planning."
-sub_chapter: 15
+sub_chapter: 14
 chapter: 16
 parent_topic: "Disaster Management"
 parent_topic_url: "/subjects/disaster-management/dm-framework/"

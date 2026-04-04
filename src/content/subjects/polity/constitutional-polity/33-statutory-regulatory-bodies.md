@@ -8,7 +8,7 @@ gs_papers:
   - gs2
 syllabus_topic: "Indian Polity"
 description: "UPSC notes on statutory and regulatory bodies — NHRC, NCW, NCSC, NCST, NCM, NCBC, CIC, NGT, NITI Aayog, tribunals, and quasi-judicial bodies in India."
-sub_chapter: 33
+sub_chapter: 32
 date: 2026-03-27
 foundation: true
 prelims: true

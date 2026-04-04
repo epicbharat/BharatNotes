@@ -4,7 +4,7 @@ title: "Disaster Financing, Insurance & Resilient Infrastructure — CDRI, NDRF 
 subject: disaster-management
 parent_topic: "Disaster Management Framework"
 parent_topic_url: /subjects/disaster-management/dm-framework/
-sub_chapter: 17
+sub_chapter: 16
 gs_papers: [gs3]
 syllabus_topic: "Disaster Management"
 description: "UPSC notes on disaster financing — NDRF, SDRF, crop insurance (PMFBY), CDRI, resilient infrastructure, catastrophe bonds, and Build Back Better approach."

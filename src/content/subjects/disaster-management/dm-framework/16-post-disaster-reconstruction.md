@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Disaster Management"
 description: "UPSC notes on post-disaster recovery — Build Back Better (BBB), PDNA (Post-Disaster Needs Assessment), reconstruction phases, housing reconstruction, livelihood restoration, psychological rehabilitation, India's recovery experiences (Odisha cyclone, Gujarat earthquake, Kerala floods, COVID)."
-sub_chapter: 16
+sub_chapter: 15
 date: 2026-03-28
 foundation: false
 prelims: true

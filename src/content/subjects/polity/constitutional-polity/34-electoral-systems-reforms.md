@@ -4,7 +4,7 @@ title: "Electoral Systems & Reforms — ECI, Delimitation, NOTA & One Nation One
 subject: polity
 parent_topic: "Constitutional Polity"
 parent_topic_url: /subjects/polity/constitutional-polity/
-sub_chapter: 34
+sub_chapter: 33
 gs_papers: [gs2]
 syllabus_topic: "Indian Constitution & Polity"
 description: "UPSC notes on electoral systems and reforms — Election Commission, RPA 1950/1951, delimitation, EVM, VVPAT, NOTA, electoral bonds, One Nation One Election, state funding."

@@ -8,7 +8,7 @@ syllabus_topic: "Disaster Management"
 parent_topic: "Disaster Management"
 parent_topic_url: "/subjects/disaster-management/dm-framework/"
 description: "UPSC notes on the Indian Armed Forces in disaster relief (Operation Madad, Raahat), civil-military coordination, NGO roles, HADR, and international disaster cooperation."
-sub_chapter: 18
+sub_chapter: 17
 chapter: 14
 date: 2026-03-29
 foundation: true

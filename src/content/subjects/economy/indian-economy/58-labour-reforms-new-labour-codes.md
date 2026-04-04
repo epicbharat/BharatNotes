@@ -8,7 +8,7 @@ gs_papers:
   - gs3
 syllabus_topic: "Indian Economy"
 description: "UPSC GS3 notes on India's four Labour Codes (Wages 2019; Industrial Relations 2020; Social Security 2020; Occupational Safety 2020), consolidation of 29 central labour laws, key provisions including fixed-term employment, gig worker recognition, threshold changes, ESIC and EPFO coverage, and implementation timeline."
-sub_chapter: 58
+sub_chapter: 56
 date: 2026-04-04
 foundation: true
 prelims: true

@@ -8,7 +8,7 @@ syllabus_topic: "Indian Polity & Governance"
 parent_topic: "Constitutional Polity"
 parent_topic_url: "/subjects/polity/constitutional-polity/"
 description: "UPSC notes on official language provisions under Articles 343–351, the 8th Schedule (22 languages), Rajbhasha policy, Three-Language Formula, Official Languages Act 1963, 11 classical languages (as of October 2024), and controversies over English in courts."
-sub_chapter: 40
+sub_chapter: 39
 date: 2026-04-04
 foundation: true
 prelims: true
