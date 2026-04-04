@@ -11,7 +11,6 @@ syllabus_topic: "Indian Heritage & Culture"
 description: "UPSC notes on Ayurveda — Tridosha theory, Charaka Samhita (internal medicine), Sushruta Samhita (surgery, rhinoplasty, 300+ procedures), Vagbhata's Ashtanga Hridayam, Nagarjuna and Rasa Shastra, AYUSH Ministry (2014), and WHO recognition of traditional medicine."
 date: 2026-04-04
 tags:
-  - topic
   - gs1
   - indian-knowledge-systems
 ---

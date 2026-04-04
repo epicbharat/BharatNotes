@@ -11,7 +11,6 @@ syllabus_topic: "Indian Heritage & Culture"
 description: "UPSC notes on ancient Indian metallurgy — Iron Pillar of Delhi (Gupta era, 98% wrought iron, phosphate rust-resistance), Wootz crucible steel (origin of Damascus steel), Zawar zinc smelting Rajasthan (world's oldest), forge welding, Nataraja lost-wax casting, and relevance to modern materials science."
 date: 2026-04-04
 tags:
-  - topic
   - gs1
   - indian-knowledge-systems
 ---

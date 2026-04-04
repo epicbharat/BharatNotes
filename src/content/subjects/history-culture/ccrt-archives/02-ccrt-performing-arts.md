@@ -11,7 +11,6 @@ syllabus_topic: "Indian Heritage & Culture"
 description: "Official CCRT notes on Indian performing arts for UPSC — classical dance forms (Bharatanatyam, Kathak, Odissi, Manipuri, Kuchipudi, Kathakali, Mohiniyattam, Sattriya), Hindustani and Carnatic music, folk dances, folk theatre, and puppetry traditions."
 date: 2026-04-04
 tags:
-  - topic
   - gs1
   - ccrt-archives
   - performing-arts

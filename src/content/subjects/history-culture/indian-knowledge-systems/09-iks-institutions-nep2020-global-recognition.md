@@ -11,7 +11,6 @@ syllabus_topic: "Indian Heritage & Culture"
 description: "UPSC notes on the institutionalisation of Indian Knowledge Systems — IKS Division under Ministry of Education (established October 2020), NEP 2020 emphasis on IKS integration, WHO Traditional Medicine Strategy 2025–2034, WHO-GCTM at Jamnagar, yoga diplomacy, India's IKS soft power, and need for evidence-based validation."
 date: 2026-04-04
 tags:
-  - topic
   - gs1
   - indian-knowledge-systems
 ---

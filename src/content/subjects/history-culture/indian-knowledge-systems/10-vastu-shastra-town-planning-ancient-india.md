@@ -11,7 +11,6 @@ syllabus_topic: "Indian Heritage & Culture"
 description: "UPSC notes on Vastu Shastra (Manasara text, 5th–7th century CE; Sthapathya Veda from Atharva Veda), Harappan town planning (grid layout, drainage, citadel at Mohenjo-daro), Arthashastra on urban administration, Pataliputra dimensions (Megasthenes), Rani ki Vav UNESCO inscription (2014), and the science of ancient Indian architecture."
 date: 2026-04-04
 tags:
-  - topic
   - gs1
   - indian-knowledge-systems
 ---

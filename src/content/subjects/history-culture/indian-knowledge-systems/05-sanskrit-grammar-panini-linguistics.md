@@ -11,7 +11,6 @@ syllabus_topic: "Indian Heritage & Culture"
 description: "UPSC notes on Panini's Ashtadhyayi (c. 4th–6th century BCE, 3,959 sutras), generative grammar, Panini as the first descriptive linguist, Patanjali's Mahabhashya, Bhartrhari's Vakyapadiya, Vyakarana as a Vedanga, Sanskrit and computer science, and NEP 2020's emphasis on Sanskrit."
 date: 2026-04-04
 tags:
-  - topic
   - gs1
   - indian-knowledge-systems
 ---

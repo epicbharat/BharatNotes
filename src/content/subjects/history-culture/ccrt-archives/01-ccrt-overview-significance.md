@@ -11,7 +11,6 @@ syllabus_topic: "Indian Heritage & Culture"
 description: "Overview of CCRT as an authoritative source for UPSC Art and Culture — its mandate, the four national akademis (Sangeet Natak, Lalit Kala, Sahitya, IGNCA), and India's cultural policy framework."
 date: 2026-04-04
 tags:
-  - topic
   - gs1
   - ccrt-archives
 ---

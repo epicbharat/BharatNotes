@@ -11,7 +11,6 @@ syllabus_topic: "Indian Heritage & Culture"
 description: "Official CCRT notes on Indian visual arts for UPSC — prehistoric cave paintings, classical sculpture traditions, painting schools (Mughal, Rajput, Pahari, Kangra), folk painting (Madhubani, Warli, Pattachitra), temple architecture styles, and traditional crafts."
 date: 2026-04-04
 tags:
-  - topic
   - gs1
   - ccrt-archives
   - visual-arts

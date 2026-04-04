@@ -11,7 +11,6 @@ syllabus_topic: "Indian Heritage & Culture"
 description: "UPSC notes on Traditional Ecological Knowledge (TEK) in India — sacred groves (Dev Van, Orans), johad, kuhl, tanka, stepwell water harvesting, Biodiversity Act 2002, People's Biodiversity Registers (268,031 PBRs), biopiracy (turmeric 1997, neem), TKDL, and IPBES recognition of TEK."
 date: 2026-04-04
 tags:
-  - topic
   - gs1
   - indian-knowledge-systems
 ---

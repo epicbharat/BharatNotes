@@ -11,7 +11,6 @@ syllabus_topic: "Indian Heritage & Culture"
 description: "UPSC notes on Kautilya's Arthashastra — 15 books, rediscovery in 1905 by R. Shamasastry, saptanga theory of state (7 elements), mandala theory of foreign policy, taxation, trade, espionage, comparison with Machiavelli, and relevance to GS-2 governance and GS-4 ethics."
 date: 2026-04-04
 tags:
-  - topic
   - gs1
   - indian-knowledge-systems
 ---

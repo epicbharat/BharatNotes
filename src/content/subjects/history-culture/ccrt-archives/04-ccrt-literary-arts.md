@@ -11,7 +11,6 @@ syllabus_topic: "Indian Heritage & Culture"
 description: "Official CCRT notes on Indian literary arts for UPSC — Vedic literature, Sanskrit epics (Ramayana, Mahabharata), classical Sanskrit drama (Kalidasa), Pali and Prakrit traditions, Tamil Sangam literature, medieval Bhakti literature, regional literary traditions, and modern Indian literature."
 date: 2026-04-04
 tags:
-  - topic
   - gs1
   - ccrt-archives
   - literary-arts
