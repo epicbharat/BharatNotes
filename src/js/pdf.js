@@ -327,7 +327,7 @@
       ".ct-sub { font-family:'Inter',sans-serif; font-size:9pt; color:#888; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:20px; padding-bottom:16px; border-bottom:1px solid #1a1a1a; }",
 
       /* Headings — never orphan at page bottom; always stay with next paragraph */
-      ".ct h2 { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:18.5pt; font-weight:600; color:#1a1a1a; margin:36px 0 10px; padding-bottom:6px; border-bottom:0.5px solid #ccc; page-break-after:avoid; break-after:avoid; }",
+      ".ct h2 { font-family:'Crimson Pro','Georgia','Times New Roman','Noto Sans Symbols',serif; font-size:18.5pt; font-weight:600; color:#1a1a1a; margin:36px 0 10px; padding-bottom:6px; border-bottom:0.5px solid #ccc; page-break-after:avoid; break-after:avoid; }",
       ".ct h2:first-child { margin-top:0; }",
       ".ct h2[data-pdf-part] { page-break-before:always; break-before:page; margin-top:0; }",
       ".ct h2[data-pdf-type='upsc'] { color:#1a1a1a; border-bottom:1.5px solid #1a1a1a; }",
@@ -339,8 +339,8 @@
       ".ct h2[data-pdf-type='vocab']::before { content:'\\25A0  '; font-size:9.5pt; }",
       ".ct h2[data-pdf-type='terms'] { color:#1a1a1a; border-bottom:1.5px solid #1a1a1a; }",
       ".ct h2[data-pdf-type='terms']::before { content:'\\25A1  '; font-size:9.5pt; }",
-      ".ct h3 { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:15pt; font-weight:400; font-style:italic; color:#333; margin:26px 0 8px; page-break-after:avoid; break-after:avoid; }",
-      ".ct h4 { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:11pt; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:#444; margin:22px 0 6px; page-break-after:avoid; break-after:avoid; }",
+      ".ct h3 { font-family:'Crimson Pro','Georgia','Times New Roman','Noto Sans Symbols',serif; font-size:15pt; font-weight:400; font-style:italic; color:#333; margin:26px 0 8px; page-break-after:avoid; break-after:avoid; }",
+      ".ct h4 { font-family:'Crimson Pro','Georgia','Times New Roman','Noto Sans Symbols',serif; font-size:11pt; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:#444; margin:22px 0 6px; page-break-after:avoid; break-after:avoid; }",
 
       /* Body text — first-line indent (academic style) + drop cap on opening para */
       ".ct p { margin-bottom:6px; text-align:justify; hyphens:auto; widows:2; orphans:2; }",
