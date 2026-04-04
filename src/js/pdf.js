@@ -267,7 +267,7 @@
       "@page backpage { margin:0; @bottom-left{content:none} @bottom-center{content:none} @bottom-right{content:none} }",
 
       /* Base typography — Crimson Pro (Oxford academic style) */
-      "body { font-family:'Crimson Pro','Georgia','Times New Roman',serif; font-size:12.5pt; line-height:1.72; color:#1a1a1a; background:#fff; }",
+      "body { font-family:'Crimson Pro','Georgia','Times New Roman','Noto Serif',serif; font-size:12.5pt; line-height:1.72; color:#1a1a1a; background:#fff; }",
 
       /* ─── TOC PAGE ─── */
       ".toc-pg { page:toc; page-break-after:always; padding:28mm 28mm 20mm; }",
@@ -516,6 +516,9 @@
       '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">' +
       '<base href="https://bharatnotes.com/">' +
       '<title>' + titleText + '</title>' +
+      '<link rel="preconnect" href="https://fonts.googleapis.com">' +
+      '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' +
+      '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=block" rel="stylesheet">' +
       '<style>' + crimsonFontsCSS + css + '</style>' +
       '<script src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>' +
       '</head><body>' +
