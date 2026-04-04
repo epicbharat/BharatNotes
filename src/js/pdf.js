@@ -4,7 +4,7 @@
 (function () {
   "use strict";
 
-  const PDF_API_URL = "https://bharatnotes-pdf.vercel.app/api/generate";
+  const PDF_API_URL = "https://rbse-pdf.vercel.app/api/generate";
 
   // Author photo — resized to 90px JPEG at load time
   var authorPhotoB64 = "";
