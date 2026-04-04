@@ -18,7 +18,7 @@ tags:
 
 ## Overview
 
-Science & Technology is the **highest-weight GS3 section** in UPSC, covering everything from ISRO missions and missile systems to CRISPR gene editing and quantum computing. This section provides comprehensive, exam-ready notes across fourteen chapters — space technology, biotechnology (health and agriculture), IT & cybersecurity, emerging technologies, defence technology, and nuclear & nanotechnology. Each chapter combines factual depth for Prelims with analytical frameworks for Mains.
+Science & Technology is the **highest-weight GS3 section** in UPSC, covering everything from ISRO missions and missile systems to CRISPR gene editing and quantum computing. This section provides comprehensive, exam-ready notes across twenty-nine chapters — space technology, biotechnology (health and agriculture), IT & cybersecurity, emerging technologies, defence technology, and nuclear & nanotechnology. Each chapter combines factual depth for Prelims with analytical frameworks for Mains.
 
 ---
 
@@ -27,23 +27,31 @@ Science & Technology is the **highest-weight GS3 section** in UPSC, covering eve
 | # | Chapter | Key Topics |
 |---|---------|------------|
 | 1 | **Space Technology** | ISRO, Chandrayaan, Mangalyaan, Gaganyaan, Aditya-L1, satellite systems, launch vehicles, space sector reforms |
-| 2 | **Biotechnology — GM Crops, CRISPR & Bioeconomy** | Colour classification, BioE3 Policy ($195.3B bioeconomy), CRISPR-Cas9 (Nobel 2020, FELUDA, BIRSA 101), GM crops (Bt cotton, Bt Brinjal moratorium, GM Mustard DMH-11 SC case, genome-edited crops 2025), 6-tier GMO regulatory framework (SDN-1/2/3), Indian vaccines (Covaxin, CERVAVAC), GenomeIndia (10,074 genomes), biofortification (71+ varieties), One Health, AMR (ESKAPE, NAP-AMR 2024), biopiracy (TKDL) |
-| 3 | **Health Biotechnology — Vaccines, Genomics & Digital Health** | Serum Institute (1.5B+ doses/year), CERVAVAC HPV vaccine (Jan 2023, ₹200/dose), Covaxin (WHO EUL Nov 2021), mRNA vaccines (saRNA HGCO19), GenomeIndia (10,074 genomes, Feb 2024), ABHA accounts (740M+), pharma exports $30.47B (FY25), API dependence on China ~72%, National Biopharma Mission (2017) |
-| 4 | **IT, Cybersecurity & Defence Technology** | IT sector, AI mission, CERT-In, DPDP Act, 5G, semiconductors, DRDO missiles, nuclear programme |
-| 5 | **Emerging Technologies** | AI, Quantum Computing, Blockchain, IoT, 5G/6G, IndiaAI Mission, National Quantum Mission |
+| 2 | **Space Policy, ISRO & Outer Space Law** | Chandrayaan-3 (Aug 23, 2023), Aditya-L1, Gaganyaan, Indian Space Policy 2023, IN-SPACe/NSIL roles, NavIC (7 satellites), Outer Space Treaty 1967, ASAT Mission Shakti (Mar 2019), Artemis Accords (Jun 2023) |
+| 3 | **NavIC & Geospatial Technology** | NavIC 7-satellite constellation, geospatial data policy 2021, GIS applications, mapping liberalisation, geospatial ecosystem |
+| 4 | **Drones, UAV Policy & New Space Economy** | Drone Rules 2021, BVLOS, PLI drones, IN-SPACe, NSIL, private space (Skyroot, Agnikul), FDI in space, India's space economy |
+| 5 | **Nuclear Technology & Nanotechnology** | Three-stage nuclear programme, PFBR, thorium, Nano Mission, new materials, SHANTI Bill |
 | 6 | **Defence Technology** | DRDO, missile programme (Agni, BrahMos), nuclear doctrine, ASAT, defence indigenisation |
-| 7 | **Nuclear Technology & Nanotechnology** | Three-stage nuclear programme, PFBR, thorium, Nano Mission, new materials, SHANTI Bill |
-| 8 | **Quantum Computing & Telecommunications** | National Quantum Mission, qubits, quantum supremacy, 5G/6G rollout, BharatNet, semiconductor fabs, telecom reforms |
-| 9 | **Scientific Research Institutions & Governance** | CSIR, ICAR, ICMR, DST, DBT, SERB, science policy, R&D spending, brain drain, National Research Foundation |
-| 10 | **Intellectual Property Rights** | Patents, copyrights, trademarks, GI tags, TRIPS, WIPO, compulsory licensing, patent amendments, traditional knowledge, IPR policy 2016 |
-| 11 | **Robotics, Automation & Industry 4.0** | AI manufacturing, drones, smart factories, cobots, Industry 4.0 framework, India's automation policy |
+| 7 | **Indigenisation, Defence Manufacturing & Atmanirbhar Bharat** | iDEX, DAP 2020, positive indigenisation lists, DPSUs disinvestment, DRDO tech transfer, MSMEs in defence, export targets |
+| 8 | **Biotechnology — GM Crops, CRISPR & Bioeconomy** | Colour classification, BioE3 Policy ($195.3B bioeconomy), CRISPR-Cas9 (Nobel 2020, FELUDA, BIRSA 101), GM crops (Bt cotton, Bt Brinjal moratorium, GM Mustard DMH-11 SC case, genome-edited crops 2025), 6-tier GMO regulatory framework (SDN-1/2/3), Indian vaccines (Covaxin, CERVAVAC), GenomeIndia (10,074 genomes), biofortification (71+ varieties), One Health, AMR (ESKAPE, NAP-AMR 2024), biopiracy (TKDL) |
+| 9 | **Health Biotechnology — Vaccines, Genomics & Digital Health** | Serum Institute (1.5B+ doses/year), CERVAVAC HPV vaccine (Jan 2023, ₹200/dose), Covaxin (WHO EUL Nov 2021), mRNA vaccines (saRNA HGCO19), GenomeIndia (10,074 genomes, Feb 2024), ABHA accounts (740M+), pharma exports $30.47B (FY25), API dependence on China ~72%, National Biopharma Mission (2017) |
+| 10 | **Gene Editing, CRISPR & Synthetic Biology** | CRISPR-Cas9 mechanism, gene drives, synthetic biology, Genome India, regulatory framework, bioethics, agricultural applications |
+| 11 | **Pharma Industry & Drug Policy in India** | Indian pharma (3rd by volume, 14th by value), generic drugs policy, Jan Aushadhi scheme, NPPA price control, UCPMP, FDC bans, API self-reliance, TRIPS flexibilities, compulsory licensing |
 | 12 | **Health Technology & Medical Devices** | Telemedicine, mRNA vaccines, genomics, digital health, medical device regulation, Ayushman Bharat Digital |
-| 13 | **AI Governance, Ethics & Policy** | AI regulation, algorithmic bias, AI safety, IndiaAI Mission, global AI governance frameworks |
-| 14 | **EVs, Battery Technology & Semiconductors** | EV policy, FAME scheme, battery technology, semiconductor fabs, India Semiconductor Mission |
-| 15 | **Green Hydrogen & Clean Energy Technology** | NGHM 2023, SIGHT scheme, green/blue/grey hydrogen, electrolysers, fuel cells, Rs 19,744 crore outlay, 5 MMT target by 2030 |
-| 16 | **Gene Editing, CRISPR & Synthetic Biology** | CRISPR-Cas9 mechanism, gene drives, synthetic biology, Genome India, regulatory framework, bioethics, agricultural applications |
-| 17 | **Advanced Materials, Composites & Smart Materials** | Graphene, carbon nanotubes, smart materials, metamaterials, CFRP, DRDO DMRL, 3D printing in defence, CSIR-NML |
-| 18 | **Drones, UAV Policy & New Space Economy** | Drone Rules 2021, BVLOS, PLI drones, IN-SPACe, NSIL, private space (Skyroot, Agnikul), FDI in space, India's space economy |
-| 19 | **Space Policy, ISRO & Outer Space Law** | Chandrayaan-3 (Aug 23, 2023), Aditya-L1, Gaganyaan, Indian Space Policy 2023, IN-SPACe/NSIL roles, NavIC (7 satellites), Outer Space Treaty 1967, ASAT Mission Shakti (Mar 2019), Artemis Accords (Jun 2023) |
-| 20 | **Semiconductor Policy & India Semiconductor Mission** | Global chip supply chain (TSMC 64%+), 2020-21 shortage, US CHIPS Act ($52B), India Semiconductor Mission (₹76,000 crore), Tata-PSMC Dholera fab (28nm), Micron Sanand ATMP, iCET, China gallium/germanium export controls |
+| 13 | **Telemedicine & Digital Health** | eSanjeevani platform, telemedicine guidelines 2020, ABHA (Ayushman Bharat Health Account), health data privacy, digital health mission |
+| 14 | **Emerging Technologies** | AI, Quantum Computing, Blockchain, IoT, 5G/6G, IndiaAI Mission, National Quantum Mission |
+| 15 | **Quantum Computing & Telecommunications** | National Quantum Mission, qubits, quantum supremacy, 5G/6G rollout, BharatNet, semiconductor fabs, telecom reforms |
+| 16 | **Semiconductor Policy & India Semiconductor Mission** | Global chip supply chain (TSMC 64%+), 2020-21 shortage, US CHIPS Act ($52B), India Semiconductor Mission (₹76,000 crore), Tata-PSMC Dholera fab (28nm), Micron Sanand ATMP, iCET, China gallium/germanium export controls |
+| 17 | **EVs, Battery Technology & Semiconductors** | EV policy, FAME scheme, battery technology, semiconductor fabs, India Semiconductor Mission |
+| 18 | **Robotics, Automation & Industry 4.0** | AI manufacturing, drones, smart factories, cobots, Industry 4.0 framework, India's automation policy |
+| 19 | **AI Governance, Ethics & Policy** | AI regulation, algorithmic bias, AI safety, IndiaAI Mission, global AI governance frameworks |
+| 20 | **IT, Cybersecurity & Defence Technology** | IT sector, AI mission, CERT-In, DPDP Act, 5G, semiconductors, DRDO missiles, nuclear programme |
 | 21 | **Artificial Intelligence — IndiaAI Mission & Governance** | IndiaAI Mission (₹10,372 crore, 7 pillars, March 2024), 10,000+ GPU compute, EU AI Act (Aug 2024, 4 risk tiers), India soft-touch approach, deepfake IT Rules, GPAI founding member, LAWS India UN position |
+| 22 | **5G, 6G & Telecom Policy** | 5G rollout India, spectrum auction, 6G vision 2030, BharatNet, USO Fund, TRAI reforms, Telecom Act 2023 |
+| 23 | **IT Sector & Digital Divide** | Indian IT industry ($254B exports), NASSCOM, digital divide — urban/rural, gender, digital literacy, BharatNet, PM-WANI |
+| 24 | **Agritech & Precision Agriculture** | Digital Agriculture Mission, AgriStack, drone use in agriculture, AI crop advisory, soil health monitoring, precision irrigation |
+| 25 | **Green Hydrogen & Clean Energy Technology** | NGHM 2023, SIGHT scheme, green/blue/grey hydrogen, electrolysers, fuel cells, Rs 19,744 crore outlay, 5 MMT target by 2030 |
+| 26 | **Advanced Materials, Composites & Smart Materials** | Graphene, carbon nanotubes, smart materials, metamaterials, CFRP, DRDO DMRL, 3D printing in defence, CSIR-NML |
+| 27 | **Intellectual Property Rights** | Patents, copyrights, trademarks, GI tags, TRIPS, WIPO, compulsory licensing, patent amendments, traditional knowledge, IPR policy 2016 |
+| 28 | **Scientific Research Institutions & Governance** | CSIR, ICAR, ICMR, DST, DBT, SERB, science policy, R&D spending, brain drain, National Research Foundation |
+| 29 | **Indian Scientists & S&T Achievements** | Notable Indian scientists, ISRO achievements, DRDO milestones, Nobel laureates of Indian origin, national science awards, recent S&T breakthroughs |

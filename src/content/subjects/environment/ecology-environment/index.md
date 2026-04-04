@@ -18,7 +18,7 @@ tags:
 
 ## Overview
 
-Environment, Ecology and Biodiversity is a **high-scoring section** in both UPSC Prelims and GS3 Mains. This section covers the entire syllabus across **15 detailed chapters** — from ecology fundamentals and biodiversity to climate change, renewable energy, environmental laws, and environmental ethics. Every year, 8--12 Prelims questions and at least one Mains question are drawn from these topics.
+Environment, Ecology and Biodiversity is a **high-scoring section** in both UPSC Prelims and GS3 Mains. This section covers the entire syllabus across **33 detailed chapters** — from ecology fundamentals and biodiversity to climate change, renewable energy, environmental laws, and environmental ethics. Every year, 8--12 Prelims questions and at least one Mains question are drawn from these topics.
 
 ---
 
@@ -26,28 +26,36 @@ Environment, Ecology and Biodiversity is a **high-scoring section** in both UPSC
 
 | # | Chapter | Key Topics |
 |---|---------|------------|
-| 1 | **Biodiversity and Conservation** | Biodiversity hotspots, IUCN Red List, National Parks, Tiger Reserves, Biosphere Reserves, Ramsar Sites, environmental legislation, international conventions (CBD, CITES, CMS, Ramsar) |
-| 2 | **Wildlife Conservation** | Protected areas network, Wildlife Protection Act 1972, Project Tiger, Project Elephant, Biosphere Reserves, Ramsar wetlands, IUCN categories, human-wildlife conflict |
-| 3 | **Climate Change and Pollution** | Greenhouse gases, IPCC reports, Paris Agreement, Panchamrit, NDCs, NAPCC 8 missions, AQI, NCAP, waste management rules, EIA, NGT |
-| 4 | **Climate Change Policy** | UNFCCC, Kyoto Protocol, Paris Agreement, COP outcomes, India's NDCs, Net Zero 2070, renewable energy, carbon markets, climate finance |
-| 5 | **Environmental Laws and Governance** | EPA 1986, Air Act, Water Act, Forest Conservation Act, Wildlife Protection Act, Biological Diversity Act, CRZ, EIA, NGT, CAMPA, international MEAs |
-| 6 | **Waste Management & Ecosystem Services** | Solid waste, plastic waste, e-waste, biomedical waste, hazardous waste rules, ecosystem services valuation, SBM |
-| 7 | **Ecology Fundamentals** | Ecosystems, food chains, food webs, ecological pyramids, 10% law, ecological succession, biogeochemical cycles, biomes, productivity |
+| 1 | **Ecology Fundamentals** | Ecosystems, food chains, food webs, ecological pyramids, 10% law, ecological succession, biogeochemical cycles, biomes, productivity |
+| 2 | **Biodiversity and Conservation** | Biodiversity hotspots, IUCN Red List, National Parks, Tiger Reserves, Biosphere Reserves, Ramsar Sites, environmental legislation, international conventions (CBD, CITES, CMS, Ramsar) |
+| 3 | **Wildlife Conservation** | Protected areas network, Wildlife Protection Act 1972, Project Tiger, Project Elephant, Biosphere Reserves, Ramsar wetlands, IUCN categories, human-wildlife conflict |
+| 4 | **Biodiversity Hotspots & Species Recovery** | Norman Myers' criteria, India's 4 hotspots (Western Ghats, Eastern Himalayas, Indo-Burma, Sundaland), Project Tiger (58 reserves, 3,682 tigers), Project Elephant, Snow Leopard, GIB breeding centre, vulture recovery |
+| 5 | **Biosphere Reserves in India** | UNESCO MAB programme, India's 18 biosphere reserves, 12 World Network sites, core/buffer/transition zones, key biodiversity values |
+| 6 | **National Biodiversity Authority & ABS** | Biological Diversity Act 2002, NBA, State Biodiversity Boards, Biodiversity Management Committees, Access and Benefit Sharing, Nagoya Protocol, People's Biodiversity Registers |
+| 7 | **Ecosystem Services & Natural Capital** | MEA 2005, four service types, TEEB framework, PES mechanisms, REDD+, CAMPA, Kunming-Montreal GBF resource mobilisation |
 | 8 | **Forest & Wetland Conservation** | Forest types (Champion & Seth), ISFR 2023, FCA 2023, FRA 2006, mangroves, coral reefs, 98 Ramsar sites, CAMPA, Green India Mission |
-| 9 | **Renewable Energy & Sustainable Development** | Solar (136 GW), wind (55 GW), hydrogen mission, EVs, nuclear, SDGs, circular economy, green finance, carbon markets |
-| 10 | **Environmental Movements & Ethics** | Chipko, Appiko, Silent Valley, Narmada Bachao, Bishnoi, deep ecology, environmental justice, intergenerational equity |
-| 11 | **Air & Water Pollution** | Air pollutants, AQI, NCAP, vehicular emissions, industrial pollution, water pollution sources, BOD/COD, effluent standards, river cleaning programmes |
-| 12 | **River Conservation & Water Governance** | Namami Gange, river interlinking, National Water Policy, water disputes, groundwater regulation |
-| 13 | **EIA, Forest & Coastal Clearances, NGT & Environmental Governance** | EIA 2006 (4 stages, Category A/B), CRZ 2019 (all zones, NDZ), FCA 1980/2023 (100 km exemption), CAMPA (₹95,000 crore), NBWL wildlife clearances, NGT (5 benches, 1st developing country), Draft EIA 2020 controversy, SEA, Parivesh portal, green building ratings, MoEFCC/CPCB governance structure |
-| 14 | **Marine Pollution, Ozone Depletion & Global Conventions** | Marine pollution sources, ozone layer, Montreal Protocol, MARPOL, global environmental MEAs |
+| 9 | **Forest Governance, JFM & CAMPA** | ISFR 2023, Forest Conservation Act 2023, JFM, FRA 2006, CAMPA Act 2016, Green India Mission, Van Dhan, forest carbon credits |
+| 10 | **Wetlands, Ramsar Sites & Freshwater Ecosystems** | Ramsar Convention 1971, India's Ramsar sites, Montreux Record, Wetland Rules 2017, Chilika, Keoladeo, Loktak, freshwater biodiversity |
+| 11 | **Coastal & Marine Ecosystems — Blue Economy** | India's 7,516.6 km coastline, coral bleaching (4th global event 2024), mangroves 4,992 sq km (ISFR 2023), CRZ Notification 2019, Blue Economy ($186B), Deep Ocean Mission (Matsya 6000), BBNJ Treaty 2023, microplastics, MPAs |
+| 12 | **Marine Pollution, Ozone Depletion & Global Conventions** | Marine pollution sources, ozone layer, Montreal Protocol, MARPOL, global environmental MEAs |
+| 13 | **Cryosphere, Himalayan Glaciers & Polar Regions** | ~9,575 Himalayan glaciers (Third Pole), Chamoli 2021 (rock-ice avalanche), Sikkim GLOF Oct 2023 (Teesta-III dam destroyed), Arctic warming 4x faster, India's polar stations: Maitri (1989), Bharati (2012), Himadri (2008 Svalbard); Arctic Council observer 2013; NMSHE |
+| 14 | **Invasive Alien Species** | IAS definition, introduction pathways, Lantana, Parthenium, Water hyacinth, African catfish, CBD Article 8(h), GBF Target 6, management methods |
 | 15 | **Soil Degradation & Desertification** | UNCCD, Land Degradation Neutrality, soil health, desertification mapping, soil conservation |
-| 16 | **Invasive Alien Species** | IAS definition, introduction pathways, Lantana, Parthenium, Water hyacinth, African catfish, CBD Article 8(h), GBF Target 6, management methods |
-| 17 | **Carbon Markets & Climate Finance** | Article 6 Paris Agreement, voluntary & compliance carbon markets, carbon credits, CDM, REDD+, CCUS, Green Climate Fund, climate bonds |
-| 18 | **Ecosystem Services & Natural Capital** | MEA 2005, four service types, TEEB framework, PES mechanisms, REDD+, CAMPA, Kunming-Montreal GBF resource mobilisation |
-| 19 | **Wetlands, Ramsar Sites & Freshwater Ecosystems** | Ramsar Convention 1971, India's Ramsar sites, Montreux Record, Wetland Rules 2017, Chilika, Keoladeo, Loktak, freshwater biodiversity |
-| 20 | **Forest Governance, JFM & CAMPA** | ISFR 2023, Forest Conservation Act 2023, JFM, FRA 2006, CAMPA Act 2016, Green India Mission, Van Dhan, forest carbon credits |
-| 21 | **Biodiversity Hotspots & Species Recovery** | Norman Myers' criteria, India's 4 hotspots (Western Ghats, Eastern Himalayas, Indo-Burma, Sundaland), Project Tiger (58 reserves, 3,682 tigers), Project Elephant, Snow Leopard, GIB breeding centre, vulture recovery |
-| 22 | **Coastal & Marine Ecosystems — Blue Economy** | India's 7,516.6 km coastline, coral bleaching (4th global event 2024), mangroves 4,992 sq km (ISFR 2023), CRZ Notification 2019, Blue Economy ($186B), Deep Ocean Mission (Matsya 6000), BBNJ Treaty 2023, microplastics, MPAs |
-| 23 | **Cryosphere, Himalayan Glaciers & Polar Regions** | ~9,575 Himalayan glaciers (Third Pole), Chamoli 2021 (rock-ice avalanche), Sikkim GLOF Oct 2023 (Teesta-III dam destroyed), Arctic warming 4x faster, India's polar stations: Maitri (1989), Bharati (2012), Himadri (2008 Svalbard); Arctic Council observer 2013; NMSHE |
-| 24 | **Climate Change Adaptation, India's NDC & Loss and Damage** | Updated NDC Aug 2022 (45% intensity cut, 50% non-fossil by 2030, 2.5-3 Bt carbon sink), Panchamrit 5 targets, 8 NAPCC missions, COP27 L&D fund, COP28 $700M pledged, Ahmedabad HAP 2013, LiFE Mission, IPCC AR6 India findings |
-| 25 | **Agriculture's Environmental Footprint** | India agriculture GHG share 13.72% (BUR-4 2024), global AFOLU ~22% (IPCC AR6), CH4 from enteric fermentation & paddy (AWD technique), N2O from fertilizers (273x GWP), stubble burning (Punjab ~19.5 MT), water pollution (nitrate leaching, Punjab cancer belt), monoculture costs, ZBNF/APCNF, SRI, PKVY 2015, PM-PRANAM 2023, PM-KUSUM 2019, India's NDC |
+| 16 | **Groundwater Depletion in India** | Aquifer types, groundwater extraction trends, over-exploited blocks, CGWB, Atal Bhujal Yojana, Model Groundwater (Sustainable Management) Bill |
+| 17 | **Agriculture's Environmental Footprint** | India agriculture GHG share 13.72% (BUR-4 2024), global AFOLU ~22% (IPCC AR6), CH4 from enteric fermentation & paddy (AWD technique), N2O from fertilizers (273x GWP), stubble burning (Punjab ~19.5 MT), water pollution (nitrate leaching, Punjab cancer belt), monoculture costs, ZBNF/APCNF, SRI, PKVY 2015, PM-PRANAM 2023, PM-KUSUM 2019, India's NDC |
+| 18 | **Air & Water Pollution** | Air pollutants, AQI, NCAP, vehicular emissions, industrial pollution, water pollution sources, BOD/COD, effluent standards, river cleaning programmes |
+| 19 | **River Conservation & Water Governance** | Namami Gange, river interlinking, National Water Policy, water disputes, groundwater regulation |
+| 20 | **Light, Noise & Thermal Pollution** | Light pollution impacts, Bortle scale, noise decibel standards, Noise Rules 2000, thermal pollution from power plants, mitigation measures |
+| 21 | **Waste Management & Ecosystem Services** | Solid waste, plastic waste, e-waste, biomedical waste, hazardous waste rules, ecosystem services valuation, SBM |
+| 22 | **Circular Economy & Waste to Wealth** | Circular economy principles, EPR, plastic waste management rules, e-waste rules, industrial symbiosis, zero-waste cities, India's circular economy roadmap |
+| 23 | **Environmental Impact of Mining** | Mining environmental impacts, illegal mining, coal vs. critical minerals, forest diversion for mining, EIA in mining, mine closure plans, restoration |
+| 24 | **Climate Change and Pollution** | Greenhouse gases, IPCC reports, Paris Agreement, Panchamrit, NDCs, NAPCC 8 missions, AQI, NCAP, waste management rules, EIA, NGT |
+| 25 | **Climate Change Policy** | UNFCCC, Kyoto Protocol, Paris Agreement, COP outcomes, India's NDCs, Net Zero 2070, renewable energy, carbon markets, climate finance |
+| 26 | **Carbon Markets & Climate Finance** | Article 6 Paris Agreement, voluntary & compliance carbon markets, carbon credits, CDM, REDD+, CCUS, Green Climate Fund, climate bonds |
+| 27 | **Climate Change Adaptation, India's NDC & Loss and Damage** | Updated NDC Aug 2022 (45% intensity cut, 50% non-fossil by 2030, 2.5-3 Bt carbon sink), Panchamrit 5 targets, 8 NAPCC missions, COP27 L&D fund, COP28 $700M pledged, Ahmedabad HAP 2013, LiFE Mission, IPCC AR6 India findings |
+| 28 | **Renewable Energy & Sustainable Development** | Solar (136 GW), wind (55 GW), hydrogen mission, EVs, nuclear, SDGs, circular economy, green finance, carbon markets |
+| 29 | **Biofuels & Ethanol Blending** | National Biofuel Policy 2018, E20 target by 2025, blending progress, GOBAR-Dhan, compressed biogas, aviation biofuels, food vs. fuel debate |
+| 30 | **EIA, Forest & Coastal Clearances, NGT & Environmental Governance** | EIA 2006 (4 stages, Category A/B), CRZ 2019 (all zones, NDZ), FCA 1980/2023 (100 km exemption), CAMPA (₹95,000 crore), NBWL wildlife clearances, NGT (5 benches, 1st developing country), Draft EIA 2020 controversy, SEA, Parivesh portal, green building ratings, MoEFCC/CPCB governance structure |
+| 31 | **EIA Process & Environmental Clearance** | EIA notification 2006, four-stage process (screening, scoping, public consultation, appraisal), Category A/B projects, Parivesh portal, post-clearance monitoring, Draft EIA 2020 |
+| 32 | **Environmental Laws and Governance** | EPA 1986, Air Act, Water Act, Forest Conservation Act, Wildlife Protection Act, Biological Diversity Act, CRZ, EIA, NGT, CAMPA, international MEAs |
+| 33 | **Environmental Movements & Ethics** | Chipko, Appiko, Silent Valley, Narmada Bachao, Bishnoi, deep ecology, environmental justice, intergenerational equity |

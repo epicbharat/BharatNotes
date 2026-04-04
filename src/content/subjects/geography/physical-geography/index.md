@@ -26,18 +26,18 @@ This section is divided into **8 detailed chapters** covering the core physical 
 
 | Chapter | Theme | Key Highlights |
 |---------|-------|----------------|
-| **Ch 01** | Climatology | Atmosphere structure, insolation, pressure belts, planetary winds, cyclones (tropical & temperate), jet streams, air masses & fronts |
-| **Ch 02** | Oceanography & Marine Resources | Ocean currents, tides, coral reefs, mangroves, EEZ, blue economy, deep-sea mining, UNCLOS |
+| **Ch 01** | Astronomical Geography | Earth in space, latitude & longitude, time zones, eclipses, solstices, equinoxes, international date line |
+| **Ch 02** | Plate Tectonics & Volcanism | Continental drift, sea-floor spreading, volcanic landforms, Ring of Fire, earthquake zones |
 | **Ch 03** | Geomorphology & Landforms | Plate tectonics, weathering, erosion, fluvial/glacial/aeolian/coastal landforms, soil formation, geomorphic agents |
 | **Ch 04** | Soils & Biogeography | Global soil types, soil formation, zonal/azonal soils, biomes, biodiversity patterns, biogeographical regions |
-| **Ch 05** | Astronomical Geography | Earth in space, latitude & longitude, time zones, eclipses, solstices, equinoxes, international date line |
-| **Ch 06** | Map Reading, Remote Sensing & GIS | Cartography, satellite imagery, GIS applications, spatial analysis, ISRO remote sensing |
-| **Ch 07** | Natural Hazards & Vulnerability Mapping | Seismic zones, flood maps, risk assessment, vulnerability indices, hazard zonation |
-| **Ch 08** | Plate Tectonics & Volcanism | Continental drift, sea-floor spreading, volcanic landforms, Ring of Fire, earthquake zones |
-| **Ch 09** | El Niño, La Niña & ENSO | Walker Circulation, SOI, ENSO cycle, IOD, impact on Indian monsoon, historical droughts, MJO, ENSO monitoring |
-| **Ch 10** | Drainage Systems & River Geography | Himalayan vs Peninsular rivers, drainage patterns, inter-state water disputes, Ken-Betwa link, major river basins, estuaries vs deltas |
-| **Ch 11** | Oceanography — Ocean Currents, Tides & Marine Geography | Ocean floor relief, salinity (avg 35 ppt), warm currents (Gulf Stream, Kuroshio, Agulhas), cold currents (Benguela, Humboldt, Labrador), Indian Ocean seasonal reversal, ENSO/IOD effects, thermohaline circulation, Deep Ocean Mission, UNCLOS maritime zones |
-| **Ch 12** | Monsoon Mechanism, Jet Streams & Tropical Cyclones | Pressure belts, Hadley Cell, ITCZ, 3 monsoon theories (Halley/Flohn/Koteswaram), Tibetan heating, Somali Jet, SW monsoon branches, NE monsoon, ENSO/IOD/MJO, STJ/PFJ/TEJ, Western Disturbances, tropical cyclone formation, WMO naming |
+| **Ch 05** | Atmosphere — Layers, Pressure Belts & Winds | Atmospheric layers, insolation, pressure belts, planetary winds, air masses & fronts |
+| **Ch 06** | Climatology | Atmosphere structure, insolation, pressure belts, planetary winds, cyclones (tropical & temperate), jet streams, air masses & fronts |
+| **Ch 07** | El Niño, La Niña & ENSO | Walker Circulation, SOI, ENSO cycle, IOD, impact on Indian monsoon, historical droughts, MJO, ENSO monitoring |
+| **Ch 08** | Monsoon Mechanism, Jet Streams & Tropical Cyclones | Pressure belts, Hadley Cell, ITCZ, 3 monsoon theories (Halley/Flohn/Koteswaram), Tibetan heating, Somali Jet, SW monsoon branches, NE monsoon, ENSO/IOD/MJO, STJ/PFJ/TEJ, Western Disturbances, tropical cyclone formation, WMO naming |
+| **Ch 09** | Oceanography & Marine Resources | Ocean currents, tides, coral reefs, mangroves, EEZ, blue economy, deep-sea mining, UNCLOS |
+| **Ch 10** | Oceanography — Ocean Currents, Tides & Marine Geography | Ocean floor relief, salinity (avg 35 ppt), warm currents (Gulf Stream, Kuroshio, Agulhas), cold currents (Benguela, Humboldt, Labrador), Indian Ocean seasonal reversal, ENSO/IOD effects, thermohaline circulation, Deep Ocean Mission, UNCLOS maritime zones |
+| **Ch 11** | Natural Hazards & Vulnerability Mapping | Seismic zones, flood maps, risk assessment, vulnerability indices, hazard zonation |
+| **Ch 12** | Map Reading, Remote Sensing & GIS | Cartography, satellite imagery, GIS applications, spatial analysis, ISRO remote sensing |
 
 > **Exam Strategy:** Physical Geography is highly conceptual — understand the *why* behind phenomena (why trade winds blow NE in Northern Hemisphere, why western coasts of continents have cold currents, why tropical cyclones don't form at the equator). For Prelims, focus on factual associations (layers, belts, current names). For Mains, link physical processes to real-world impacts — cyclone management, ocean resource exploitation, climate change.
 
