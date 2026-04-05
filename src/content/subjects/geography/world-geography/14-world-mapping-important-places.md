@@ -41,7 +41,7 @@ Straits are narrow waterways between two landmasses that connect two larger bodi
 | **Bering Strait** | Pacific Ocean (Bering Sea) -- Arctic Ocean (Chukchi Sea) | Russia (west) and USA/Alaska (east) | ~85 km | Separates Asia from North America; land bridge during Ice Age |
 | **Strait of Dover** | English Channel -- North Sea | England and France | ~34 km | One of the busiest shipping lanes in the world |
 | **Palk Strait** | Bay of Bengal -- Palk Bay | India (Tamil Nadu) and Sri Lanka | ~53--80 km | Contains Adam's Bridge (Ram Setu); shallow and not navigable by large ships |
-| **Strait of Magellan** | Atlantic Ocean -- Pacific Ocean | South America (mainland) and Tierra del Fuego | ~3.5 km at narrowest | Historic route before the Panama Canal |
+| **Strait of Magellan** | Atlantic Ocean -- Pacific Ocean | South America (mainland) and Tierra del Fuego | ~2 km at narrowest | Historic route before the Panama Canal |
 
 > **Exam Tip:** UPSC Prelims frequently asks which strait connects which two water bodies. Memorise the "connecting waters" for the top 8 straits. Also remember that the Strait of Hormuz handles about one-fifth of the world's petroleum consumption -- making it the single most important oil chokepoint.
 
@@ -151,7 +151,7 @@ Countries along the Ring of Fire include Chile, Peru, Ecuador, Colombia, Mexico,
 |---------|----------|-------------|
 | **Caspian Sea** | Between Europe and Asia (Russia, Kazakhstan, Turkmenistan, Iran, Azerbaijan) | World's largest enclosed inland body of water |
 | **Lake Baikal** | Siberia, Russia | World's deepest lake (1,642 m); largest freshwater lake by volume |
-| **Dead Sea** | Israel-Jordan border | Earth's lowest point on land (~430 m below sea level); extremely saline |
+| **Dead Sea** | Israel-Jordan border | Earth's lowest point on land (~440 m below sea level); extremely saline |
 | **Mariana Trench** | Western Pacific Ocean | Deepest point in the ocean (Challenger Deep, ~10,935 m) |
 | **Sargasso Sea** | North Atlantic Ocean | Only sea without land boundaries; bounded by ocean currents; famous for Sargassum seaweed |
 | **Great Barrier Reef** | Northeast Australia | World's largest coral reef system (~2,300 km); UNESCO World Heritage Site |
@@ -199,7 +199,7 @@ Countries along the Ring of Fire include Chile, Peru, Ecuador, Colombia, Mexico,
 | **Lake Baikal** | Siberia, Russia | 31,722 | Deepest lake (1,642 m); largest freshwater lake by volume (23,615 cu km) |
 | **Lake Tanganyika** | East Africa | 32,900 | Second deepest lake (1,470 m); longest freshwater lake |
 | **Great Salt Lake** | Utah, USA | ~4,400 (variable) | Largest saltwater lake in the Western Hemisphere |
-| **Dead Sea** | Israel/Jordan | ~605 | Lowest point on Earth's land surface (~430 m below sea level); extremely saline (~34% salinity) |
+| **Dead Sea** | Israel/Jordan | ~605 | Lowest point on Earth's land surface (~440 m below sea level); extremely saline (~34% salinity) |
 | **Lake Titicaca** | Peru/Bolivia (Andes) | 8,372 | Highest navigable lake in the world (~3,812 m altitude) |
 
 ---
