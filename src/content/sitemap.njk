@@ -39,11 +39,11 @@ robotsMeta: "index, follow"
 .si-sub__title::after { content: ''; flex: 1; height: 1px; background: var(--color-border); }
 
 /* Compact topic list — CSS columns (no row-height inconsistency) */
-.si-grid { columns: 4; column-gap: 0; border: 1px solid var(--color-border); border-radius: var(--radius-md); overflow: hidden; background: #fff; }
-.si-link { display: flex; align-items: baseline; gap: var(--space-2); padding: 7px 12px; text-decoration: none; color: var(--color-text); font-size: var(--text-sm); line-height: 1.4; background: #fff; break-inside: avoid; border-bottom: 1px solid var(--color-border-light, #f3f4f6); transition: background 0.1s, color 0.1s; }
+.si-grid { columns: 3; column-gap: 0; border: 1px solid var(--color-border); border-radius: var(--radius-md); overflow: hidden; background: #fff; }
+.si-link { display: flex; align-items: baseline; gap: var(--space-2); padding: 10px 16px; text-decoration: none; color: var(--color-text); font-size: var(--text-sm); line-height: 1.5; background: #fff; break-inside: avoid; border-bottom: 1px solid #f3f4f6; transition: background 0.1s, color 0.1s; }
 .si-link:hover { background: #f0fdf4; color: var(--color-brand); }
 .si-link:hover .si-link__num { color: var(--color-brand); }
-.si-link__num { font-size: 10px; font-weight: 700; color: #d1d5db; min-width: 18px; flex-shrink: 0; font-variant-numeric: tabular-nums; letter-spacing: 0; }
+.si-link__num { font-size: 10px; font-weight: 700; color: #d1d5db; min-width: 20px; flex-shrink: 0; font-variant-numeric: tabular-nums; letter-spacing: 0; }
 
 /* Other sections (mapping, NCERT, resources) */
 .si-other { margin-bottom: var(--space-10); scroll-margin-top: 80px; border: 1px solid var(--color-border); border-radius: var(--radius-xl); overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.04); }
@@ -54,14 +54,11 @@ robotsMeta: "index, follow"
 .si-other__body > p { margin-bottom: var(--space-4); }
 
 @media (max-width: 900px) {
-  .si-grid { columns: 3; }
-}
-@media (max-width: 640px) {
   .si-grid { columns: 2; }
-  .si-stat { padding: var(--space-3) var(--space-4); }
 }
-@media (max-width: 400px) {
+@media (max-width: 560px) {
   .si-grid { columns: 1; }
+  .si-stat { padding: var(--space-3) var(--space-4); }
 }
 </style>
 
