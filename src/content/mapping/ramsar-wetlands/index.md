@@ -31,7 +31,7 @@ India is a signatory to the Ramsar Convention (Convention on Wetlands, 1971). As
 | Bhitarkanika Mangroves | Odisha | 65,000 | 2nd largest mangrove in India; Saltwater Crocodile (largest population in India); Olive Ridley Sea Turtle mass nesting (Gahirmatha beach) |
 | Point Calimere (Kodikkarai) | Tamil Nadu | 38,500 | Blackbuck, Flamingo (largest congregation in India) |
 | Pulicat Lake | Tamil Nadu/Andhra Pradesh | 16,000 | 2nd largest brackish water lake in India; trans-boundary; Greater Flamingo breeding |
-| Vembanad Lake | Kerala | 1,51,250 | Largest Ramsar site in India; Kuttanad (below sea-level agriculture); Kumarakom and Pathiramanal bird sanctuary; backwaters |
+| Vembanad Lake | Kerala | 1,51,250 | Second largest Ramsar site in India (largest is Sundarbans at ~4,23,000 ha); Kuttanad (below sea-level agriculture); Kumarakom and Pathiramanal bird sanctuary; backwaters |
 | Ashtamudi Lake | Kerala | 6,140 | Cashew-shaped; gateway to Lakshadweep Sea; backwaters tourism |
 | Deepor Beel | Assam | 4,000 | Gauhati's lung; Greater Adjutant Stork; last remaining beel in Brahmaputra valley near Guwahati |
 | Rudrasagar Lake | Tripura | 2,400 | Neermahal (water palace) on it; migratory birds |

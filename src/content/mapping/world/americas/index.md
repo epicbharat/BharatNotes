@@ -65,7 +65,7 @@ The Americas span two continents — North America and South America — connect
 | **Bolivia** | Sucre (constitutional) / La Paz (seat of govt) | Landlocked; Lithium Triangle; Atacama salt flats (Salar de Uyuni — world's largest salt flat) | Indirect through KABIL | Landlocked countries; lithium; salt flats |
 | **Ecuador** | Quito | Galapagos Islands (Charles Darwin; UNESCO; unique biodiversity — giant tortoises, marine iguanas); oil economy | Trade | Galapagos Islands biodiversity; equator (Ecuador is named for equator) |
 | Uruguay | Montevideo | Most stable democracy in SA; high HDI; small but prosperous | Trade | South America's most progressive state |
-| Paraguay | Asuncion | Doubly landlocked (landlocked and surrounded only by landlocked countries); Itaipu Dam (on Parana River — world's 2nd largest hydropower dam by output) | Trade | Landlocked geography; Itaipu Dam |
+| Paraguay | Asuncion | Doubly landlocked (landlocked and surrounded only by landlocked countries); Itaipu Dam (on Parana River — 14,000 MW installed capacity; 3rd largest by capacity after Three Gorges 22,500 MW and Baihetan 16,000 MW, both China) | Trade | Landlocked geography; Itaipu Dam |
 
 ---
 

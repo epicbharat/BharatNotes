@@ -75,7 +75,7 @@ The Brahmaputra originates as the Yarlung Tsangpo in Tibet near Mansarovar. It e
 | Sabarmati | Aravallis, Udaipur, Rajasthan | Rajasthan, Gujarat | Wakkal, Hathmati, Watrak | Arabian Sea (Gulf of Khambhat) | Dharoi Dam; flows through Ahmedabad; Sabarmati Ashram |
 | Mahi | Vindhya Range, Dhar, MP | MP, Rajasthan, Gujarat | Som, Anas, Panam | Gulf of Khambhat | Kadana Dam; Mahi Bajaj Sagar Dam; forms estuary |
 | Periyar | Sivagiri Hills, Western Ghats, TN border | Kerala | Muthirapuzha, Mullayar | Arabian Sea | Idukki Dam; Periyar WLS; water diverted to TN via Periyar reservoir; Mullaperiyar Dam controversy |
-| Sharavati | Ambutheertha, Shivamogga, Karnataka | Karnataka | — | Arabian Sea | Linganmakki Dam; Jog Falls (highest waterfall in India) on this river |
+| Sharavati | Ambutheertha, Shivamogga, Karnataka | Karnataka | — | Arabian Sea | Linganmakki Dam; Jog Falls (highest plunge waterfall in Karnataka; 253 m — NOT highest in India; Nohkalikai Falls, Meghalaya, 340 m is India's highest plunge waterfall) on this river |
 
 ---
 

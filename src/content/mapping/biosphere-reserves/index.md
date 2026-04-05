@@ -30,8 +30,8 @@ India has 18 notified Biosphere Reserves. Of these, 13 have been recognized unde
 | Manas | Assam | Yes | 1989 | 2001 | Golden Langur, One-horned Rhino, Tiger; UNESCO WH Site also |
 | Sundarbans | West Bengal | Yes | 1989 | 2001 | Mangrove Tiger, Irrawaddy Dolphin, Estuarine Crocodile; largest mangrove forest; Ramsar site |
 | Simlipal | Odisha | Yes | 1994 | 2009 | Tiger, Elephant, Melanistic Tiger; sal forests; Simlipal NP within it |
-| Dibru-Saikhowa | Assam | No | 1986 | — | Feral Horses, Gangetic Dolphin; includes Dibru-Saikhowa NP |
-| Dehong Patkai | Arunachal Pradesh | No | 1988 | — | Tropical forest; Hoolock Gibbon, Tiger |
+| Dibru-Saikhowa | Assam | No | 1997 | — | Feral Horses, Gangetic Dolphin; includes Dibru-Saikhowa NP |
+| Dihang-Dibang (Dehang-Debang) | Arunachal Pradesh | No | 1998 | — | Tropical forest; Hoolock Gibbon, Tiger; covers Mouling NP and Dibang WLS |
 | Agasthyamalai | Kerala, Tamil Nadu | Yes | 2001 | 2016 | Shola grasslands, endemic plants; Kani tribe's Arogyapacha (Jeevani) plant; includes Neyyar, Peppara WLS |
 | Achanakmar-Amarkantak | MP, CG | Yes | 2005 | 2012 | Origin of Son and Narmada rivers; Four-horned Antelope, Indian Wild Dog |
 | Pachmarhi | Madhya Pradesh | Yes | 1999 | 2009 | Satpura landscape; Flying Squirrel, Leopard; Satpura NP and Bori & Pachmarhi WLS |

@@ -12,7 +12,7 @@ tags:
   - upsc-maps
 ---
 
-India has 58 Tiger Reserves (as of March 2025, when Madhav Tiger Reserve in MP was declared the 58th). Madhya Pradesh leads with 9 tiger reserves. Tiger Reserves span 18 states. India's 2022 Tiger Census (the most recent official census, conducted by NTCA and WII) estimated India's tiger population at **3,682** — approximately 70% of the world's wild tiger population; the statistically rigorous minimum estimate is 3,167. The largest Tiger Reserve by area is Nagarjunasagar-Srisailam (AP/Telangana). UPSC tests the newest reserves, state-wise counts, and record tiger densities.
+India has 58 Tiger Reserves (as of March 2025, when Madhav Tiger Reserve in MP was declared the 58th). Madhya Pradesh leads with 9 tiger reserves. Tiger Reserves span 18 states. India's 2022 Tiger Census (the most recent official census, conducted by NTCA and WII) estimated India's tiger population at **3,682** — approximately 75% of the world's wild tiger population; the statistically rigorous minimum estimate is 3,167. The largest Tiger Reserve by area is Nagarjunasagar-Srisailam (AP/Telangana). UPSC tests the newest reserves, state-wise counts, and record tiger densities.
 
 ---
 
