@@ -1,0 +1,494 @@
+---
+layout: base.njk
+title: "Complete Site Index — All UPSC Notes | BharatNotes"
+description: "Browse every topic on BharatNotes — 550+ free UPSC GS notes across Polity, Economy, History, Geography, Environment, Science & Technology, Ethics and more."
+permalink: /sitemap/index.html
+robotsMeta: "index, follow"
+---
+
+<style>
+.si { max-width: 1200px; margin: 0 auto; padding: var(--space-8) var(--space-5); }
+.si-hero { text-align: center; margin-bottom: var(--space-10); }
+.si-hero h1 { font-size: var(--text-4xl); font-weight: 800; color: var(--color-brand); margin-bottom: var(--space-3); }
+.si-hero p { font-size: var(--text-lg); color: var(--color-text-secondary); max-width: 600px; margin: 0 auto var(--space-5); }
+.si-stats { display: flex; justify-content: center; gap: var(--space-6); flex-wrap: wrap; margin-bottom: var(--space-8); }
+.si-stat { text-align: center; }
+.si-stat__num { font-size: var(--text-3xl); font-weight: 800; color: var(--color-brand); display: block; }
+.si-stat__label { font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-text-muted); }
+
+/* Quick nav pills */
+.si-quicknav { display: flex; flex-wrap: wrap; gap: var(--space-2); justify-content: center; margin-bottom: var(--space-10); }
+.si-quicknav a { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 999px; font-size: var(--text-xs); font-weight: 600; text-decoration: none; background: var(--color-surface); border: 1px solid var(--color-border); color: var(--color-text-secondary); transition: all 0.15s; }
+.si-quicknav a:hover { background: var(--color-brand); color: #fff; border-color: var(--color-brand); }
+
+/* Subject blocks */
+.si-subject { margin-bottom: var(--space-10); }
+.si-subject__header { display: flex; align-items: center; gap: var(--space-3); padding-bottom: var(--space-4); border-bottom: 2px solid var(--color-brand); margin-bottom: var(--space-5); }
+.si-subject__icon { font-size: 1.6rem; }
+.si-subject__name { font-size: var(--text-2xl); font-weight: 800; color: var(--color-brand); }
+.si-subject__count { margin-left: auto; font-size: var(--text-xs); font-weight: 600; color: var(--color-text-muted); background: var(--color-surface); padding: 4px 10px; border-radius: 999px; border: 1px solid var(--color-border); }
+.si-subject__hub { display: inline-flex; align-items: center; gap: 6px; font-size: var(--text-xs); font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--color-brand); text-decoration: none; margin-bottom: var(--space-4); border: 1.5px solid var(--color-brand); border-radius: var(--radius-sm); padding: 4px 12px; }
+.si-subject__hub:hover { background: var(--color-brand); color: #fff; }
+
+/* Sub-subject sections */
+.si-sub { margin-bottom: var(--space-6); }
+.si-sub__title { font-size: var(--text-sm); font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-text-secondary); margin-bottom: var(--space-3); padding-left: var(--space-3); border-left: 3px solid var(--color-accent); }
+.si-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-2); }
+.si-link { display: flex; align-items: flex-start; gap: var(--space-2); padding: var(--space-3) var(--space-3); border-radius: var(--radius-md); border: 1px solid transparent; text-decoration: none; color: var(--color-text); font-size: var(--text-sm); line-height: 1.4; transition: all 0.12s; }
+.si-link:hover { border-color: var(--color-brand); background: var(--color-brand-pale, #f0fdf4); color: var(--color-brand); }
+.si-link__num { font-size: var(--text-xs); font-weight: 700; color: var(--color-text-muted); min-width: 20px; flex-shrink: 0; padding-top: 1px; }
+
+/* Other sections */
+.si-other { margin-bottom: var(--space-10); }
+.si-other__header { display: flex; align-items: center; gap: var(--space-3); padding-bottom: var(--space-4); border-bottom: 2px solid var(--color-accent); margin-bottom: var(--space-5); }
+.si-other__name { font-size: var(--text-2xl); font-weight: 800; color: var(--color-text); }
+</style>
+
+<div class="si">
+
+  <div class="si-hero">
+    <h1>Complete Site Index</h1>
+    <p>Every topic on BharatNotes — fact-verified, exam-focused UPSC notes. Bookmark this page for quick navigation.</p>
+    <div class="si-stats">
+      <div class="si-stat"><span class="si-stat__num">557+</span><span class="si-stat__label">GS Topic Pages</span></div>
+      <div class="si-stat"><span class="si-stat__num">409+</span><span class="si-stat__label">NCERT Chapters</span></div>
+      <div class="si-stat"><span class="si-stat__num">13</span><span class="si-stat__label">Subjects</span></div>
+      <div class="si-stat"><span class="si-stat__num">100%</span><span class="si-stat__label">Free</span></div>
+    </div>
+  </div>
+
+  <!-- Quick Nav -->
+  <nav class="si-quicknav" aria-label="Jump to subject">
+    <a href="#polity">⚖️ Polity</a>
+    <a href="#economy">💰 Economy</a>
+    <a href="#history">🏛️ History & Culture</a>
+    <a href="#geography">🌍 Geography</a>
+    <a href="#environment">🌿 Environment</a>
+    <a href="#science-tech">🔬 Science & Tech</a>
+    <a href="#general-science">⚗️ General Science</a>
+    <a href="#ir">🤝 Intl. Relations</a>
+    <a href="#society">👥 Society</a>
+    <a href="#ethics">🧭 Ethics</a>
+    <a href="#security">🛡️ Security</a>
+    <a href="#disaster">⚠️ Disaster Mgmt</a>
+    <a href="#essay">✍️ Essay</a>
+    <a href="#mapping">🗺️ Mapping</a>
+    <a href="#ncert">📖 NCERT</a>
+    <a href="#resources">📚 Resources</a>
+  </nav>
+
+  {# ── Polity ── #}
+  <section class="si-subject" id="polity">
+    <div class="si-subject__header">
+      <span class="si-subject__icon">⚖️</span>
+      <span class="si-subject__name">Polity & Constitution</span>
+      <span class="si-subject__count">GS2 · 49 topics</span>
+    </div>
+    <a href="/subjects/polity/" class="si-subject__hub">Subject Hub →</a>
+    <div class="si-sub">
+      <div class="si-sub__title">Constitutional Polity</div>
+      <div class="si-grid">
+        {%- set polityPages = collections.all | selectattr("data.subject", "equalto", "polity") | sort(false, false, "data.sub_chapter") -%}
+        {%- for pg in polityPages -%}
+        <a href="{{ pg.url }}" class="si-link"><span class="si-link__num">{{ loop.index }}</span>{{ pg.data.title }}</a>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+
+  {# ── Economy ── #}
+  <section class="si-subject" id="economy">
+    <div class="si-subject__header">
+      <span class="si-subject__icon">💰</span>
+      <span class="si-subject__name">Indian Economy</span>
+      <span class="si-subject__count">GS3 · 56 topics</span>
+    </div>
+    <a href="/subjects/economy/" class="si-subject__hub">Subject Hub →</a>
+    <div class="si-sub">
+      <div class="si-sub__title">Indian Economy</div>
+      <div class="si-grid">
+        {%- set econPages = collections.all | selectattr("data.subject", "equalto", "economy") | sort(false, false, "data.sub_chapter") -%}
+        {%- for pg in econPages -%}
+        <a href="{{ pg.url }}" class="si-link"><span class="si-link__num">{{ loop.index }}</span>{{ pg.data.title }}</a>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+
+  {# ── History & Culture ── #}
+  <section class="si-subject" id="history">
+    <div class="si-subject__header">
+      <span class="si-subject__icon">🏛️</span>
+      <span class="si-subject__name">History & Culture</span>
+      <span class="si-subject__count">GS1 · 115 topics</span>
+    </div>
+    <a href="/subjects/history-culture/" class="si-subject__hub">Subject Hub →</a>
+    {% set histSubjects = [
+      ["Ancient India", "ancient-india", "/subjects/history-culture/ancient-india/"],
+      ["Medieval India", "medieval-india", "/subjects/history-culture/medieval-india/"],
+      ["Modern India", "modern-india", "/subjects/history-culture/modern-india/"],
+      ["Freedom Struggle", "freedom-struggle", "/subjects/history-culture/freedom-struggle/"],
+      ["Post-Independence India", "post-independence-india", "/subjects/history-culture/post-independence-india/"],
+      ["World History", "world-history", "/subjects/history-culture/world-history/"],
+      ["Indian Culture", "indian-culture", "/subjects/history-culture/indian-culture/"],
+      ["Indian Knowledge Systems", "indian-knowledge-systems", "/subjects/history-culture/indian-knowledge-systems/"],
+      ["CCRT Archives", "ccrt-archives", "/subjects/history-culture/ccrt-archives/"]
+    ] %}
+    {% for sub in histSubjects %}
+    <div class="si-sub">
+      <div class="si-sub__title"><a href="{{ sub[2] }}" style="color:inherit;text-decoration:none;">{{ sub[0] }}</a></div>
+      <div class="si-grid">
+        {%- set subPages = collections.all | selectattr("data.parent_topic_url", "equalto", sub[2]) | sort(false, false, "data.sub_chapter") -%}
+        {%- for pg in subPages -%}
+        <a href="{{ pg.url }}" class="si-link"><span class="si-link__num">{{ loop.index }}</span>{{ pg.data.title }}</a>
+        {%- endfor -%}
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  {# ── Geography ── #}
+  <section class="si-subject" id="geography">
+    <div class="si-subject__header">
+      <span class="si-subject__icon">🌍</span>
+      <span class="si-subject__name">Geography</span>
+      <span class="si-subject__count">GS1 · 48 topics</span>
+    </div>
+    <a href="/subjects/geography/" class="si-subject__hub">Subject Hub →</a>
+    {% set geoSubjects = [
+      ["Physical Geography", "/subjects/geography/physical-geography/"],
+      ["Indian Geography", "/subjects/geography/indian-geography/"],
+      ["World Geography", "/subjects/geography/world-geography/"],
+      ["Human & Economic Geography", "/subjects/geography/human-economic-geography/"]
+    ] %}
+    {% for sub in geoSubjects %}
+    <div class="si-sub">
+      <div class="si-sub__title"><a href="{{ sub[1] }}" style="color:inherit;text-decoration:none;">{{ sub[0] }}</a></div>
+      <div class="si-grid">
+        {%- set subPages = collections.all | selectattr("data.parent_topic_url", "equalto", sub[1]) | sort(false, false, "data.sub_chapter") -%}
+        {%- for pg in subPages -%}
+        <a href="{{ pg.url }}" class="si-link"><span class="si-link__num">{{ loop.index }}</span>{{ pg.data.title }}</a>
+        {%- endfor -%}
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  {# ── Environment ── #}
+  <section class="si-subject" id="environment">
+    <div class="si-subject__header">
+      <span class="si-subject__icon">🌿</span>
+      <span class="si-subject__name">Environment & Ecology</span>
+      <span class="si-subject__count">GS3 · 32 topics</span>
+    </div>
+    <a href="/subjects/environment/" class="si-subject__hub">Subject Hub →</a>
+    <div class="si-sub">
+      <div class="si-sub__title">Ecology & Environment</div>
+      <div class="si-grid">
+        {%- set envPages = collections.all | selectattr("data.subject", "equalto", "environment") | sort(false, false, "data.sub_chapter") -%}
+        {%- for pg in envPages -%}
+        <a href="{{ pg.url }}" class="si-link"><span class="si-link__num">{{ loop.index }}</span>{{ pg.data.title }}</a>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+
+  {# ── Science & Technology ── #}
+  <section class="si-subject" id="science-tech">
+    <div class="si-subject__header">
+      <span class="si-subject__icon">🔬</span>
+      <span class="si-subject__name">Science & Technology</span>
+      <span class="si-subject__count">GS3 · 29 topics</span>
+    </div>
+    <a href="/subjects/science-tech/" class="si-subject__hub">Subject Hub →</a>
+    <div class="si-sub">
+      <div class="si-sub__title">Science & Technology</div>
+      <div class="si-grid">
+        {%- set stPages = collections.all | selectattr("data.subject", "equalto", "science-tech") | sort(false, false, "data.sub_chapter") -%}
+        {%- for pg in stPages -%}
+        <a href="{{ pg.url }}" class="si-link"><span class="si-link__num">{{ loop.index }}</span>{{ pg.data.title }}</a>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+
+  {# ── General Science ── #}
+  <section class="si-subject" id="general-science">
+    <div class="si-subject__header">
+      <span class="si-subject__icon">⚗️</span>
+      <span class="si-subject__name">General Science</span>
+      <span class="si-subject__count">GS3 · 32 topics</span>
+    </div>
+    <a href="/subjects/general-science/" class="si-subject__hub">Subject Hub →</a>
+    {% set gsSubjects = [
+      ["Physics", "/subjects/general-science/physics/"],
+      ["Chemistry", "/subjects/general-science/chemistry/"],
+      ["Biology", "/subjects/general-science/biology/"]
+    ] %}
+    {% for sub in gsSubjects %}
+    <div class="si-sub">
+      <div class="si-sub__title"><a href="{{ sub[1] }}" style="color:inherit;text-decoration:none;">{{ sub[0] }}</a></div>
+      <div class="si-grid">
+        {%- set subPages = collections.all | selectattr("data.parent_topic_url", "equalto", sub[1]) | sort(false, false, "data.sub_chapter") -%}
+        {%- for pg in subPages -%}
+        <a href="{{ pg.url }}" class="si-link"><span class="si-link__num">{{ loop.index }}</span>{{ pg.data.title }}</a>
+        {%- endfor -%}
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  {# ── International Relations ── #}
+  <section class="si-subject" id="ir">
+    <div class="si-subject__header">
+      <span class="si-subject__icon">🤝</span>
+      <span class="si-subject__name">International Relations</span>
+      <span class="si-subject__count">GS2 · 29 topics</span>
+    </div>
+    <a href="/subjects/international-relations/" class="si-subject__hub">Subject Hub →</a>
+    <div class="si-sub">
+      <div class="si-sub__title">Global Relations</div>
+      <div class="si-grid">
+        {%- set irPages = collections.all | selectattr("data.subject", "equalto", "international-relations") | sort(false, false, "data.sub_chapter") -%}
+        {%- for pg in irPages -%}
+        <a href="{{ pg.url }}" class="si-link"><span class="si-link__num">{{ loop.index }}</span>{{ pg.data.title }}</a>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+
+  {# ── Society ── #}
+  <section class="si-subject" id="society">
+    <div class="si-subject__header">
+      <span class="si-subject__icon">👥</span>
+      <span class="si-subject__name">Society & Social Issues</span>
+      <span class="si-subject__count">GS1 · 33 topics</span>
+    </div>
+    <a href="/subjects/society/" class="si-subject__hub">Subject Hub →</a>
+    <div class="si-sub">
+      <div class="si-sub__title">Indian Society</div>
+      <div class="si-grid">
+        {%- set socPages = collections.all | selectattr("data.subject", "equalto", "society") | sort(false, false, "data.sub_chapter") -%}
+        {%- for pg in socPages -%}
+        <a href="{{ pg.url }}" class="si-link"><span class="si-link__num">{{ loop.index }}</span>{{ pg.data.title }}</a>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+
+  {# ── Ethics ── #}
+  <section class="si-subject" id="ethics">
+    <div class="si-subject__header">
+      <span class="si-subject__icon">🧭</span>
+      <span class="si-subject__name">Ethics & Integrity</span>
+      <span class="si-subject__count">GS4 · 30 topics</span>
+    </div>
+    <a href="/subjects/ethics/" class="si-subject__hub">Subject Hub →</a>
+    <div class="si-sub">
+      <div class="si-sub__title">Ethics, Integrity & Aptitude</div>
+      <div class="si-grid">
+        {%- set ethicsPages = collections.all | selectattr("data.subject", "equalto", "ethics") | sort(false, false, "data.sub_chapter") -%}
+        {%- for pg in ethicsPages -%}
+        <a href="{{ pg.url }}" class="si-link"><span class="si-link__num">{{ loop.index }}</span>{{ pg.data.title }}</a>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+
+  {# ── Internal Security ── #}
+  <section class="si-subject" id="security">
+    <div class="si-subject__header">
+      <span class="si-subject__icon">🛡️</span>
+      <span class="si-subject__name">Internal Security</span>
+      <span class="si-subject__count">GS3 · 26 topics</span>
+    </div>
+    <a href="/subjects/security/" class="si-subject__hub">Subject Hub →</a>
+    <div class="si-sub">
+      <div class="si-sub__title">Internal Security</div>
+      <div class="si-grid">
+        {%- set secPages = collections.all | selectattr("data.subject", "equalto", "security") | sort(false, false, "data.sub_chapter") -%}
+        {%- for pg in secPages -%}
+        <a href="{{ pg.url }}" class="si-link"><span class="si-link__num">{{ loop.index }}</span>{{ pg.data.title }}</a>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+
+  {# ── Disaster Management ── #}
+  <section class="si-subject" id="disaster">
+    <div class="si-subject__header">
+      <span class="si-subject__icon">⚠️</span>
+      <span class="si-subject__name">Disaster Management</span>
+      <span class="si-subject__count">GS3 · 18 topics</span>
+    </div>
+    <a href="/subjects/disaster-management/" class="si-subject__hub">Subject Hub →</a>
+    <div class="si-sub">
+      <div class="si-sub__title">DM Framework</div>
+      <div class="si-grid">
+        {%- set dmPages = collections.all | selectattr("data.subject", "equalto", "disaster-management") | sort(false, false, "data.sub_chapter") -%}
+        {%- for pg in dmPages -%}
+        <a href="{{ pg.url }}" class="si-link"><span class="si-link__num">{{ loop.index }}</span>{{ pg.data.title }}</a>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+
+  {# ── Essay ── #}
+  <section class="si-subject" id="essay">
+    <div class="si-subject__header">
+      <span class="si-subject__icon">✍️</span>
+      <span class="si-subject__name">Essay Paper</span>
+      <span class="si-subject__count">Mains Paper I</span>
+    </div>
+    <a href="/essay/" class="si-subject__hub">Essay Hub →</a>
+    <div class="si-sub">
+      <div class="si-sub__title">Essay Writing</div>
+      <div class="si-grid">
+        {%- set essayPages = collections.all | selectattr("data.subject", "equalto", "essay") | sort(false, false, "data.sub_chapter") -%}
+        {%- for pg in essayPages -%}
+        <a href="{{ pg.url }}" class="si-link"><span class="si-link__num">{{ loop.index }}</span>{{ pg.data.title }}</a>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+
+  {# ── Mapping ── #}
+  <section class="si-other" id="mapping">
+    <div class="si-other__header">
+      <span class="si-subject__icon">🗺️</span>
+      <span class="si-other__name">India & World Mapping</span>
+    </div>
+    <div class="si-grid">
+      <a href="/mapping/" class="si-link"><span class="si-link__num">→</span>Mapping Hub</a>
+      <a href="/mapping/rivers/" class="si-link"><span class="si-link__num">→</span>Rivers of India</a>
+      <a href="/mapping/dams/" class="si-link"><span class="si-link__num">→</span>Major Dams</a>
+      <a href="/mapping/national-parks/" class="si-link"><span class="si-link__num">→</span>National Parks</a>
+      <a href="/mapping/tiger-reserves/" class="si-link"><span class="si-link__num">→</span>Tiger Reserves</a>
+      <a href="/mapping/biosphere-reserves/" class="si-link"><span class="si-link__num">→</span>Biosphere Reserves</a>
+      <a href="/mapping/ramsar-wetlands/" class="si-link"><span class="si-link__num">→</span>Ramsar Wetlands</a>
+      <a href="/mapping/minerals/" class="si-link"><span class="si-link__num">→</span>Minerals & Resources</a>
+      <a href="/mapping/mountain-passes/" class="si-link"><span class="si-link__num">→</span>Mountain Passes</a>
+      <a href="/mapping/coastlines/" class="si-link"><span class="si-link__num">→</span>Coastlines & Ports</a>
+      <a href="/mapping/islands/" class="si-link"><span class="si-link__num">→</span>Islands of India</a>
+      <a href="/mapping/borders/" class="si-link"><span class="si-link__num">→</span>International Borders</a>
+      <a href="/mapping/tribes/" class="si-link"><span class="si-link__num">→</span>Tribes of India</a>
+      <a href="/mapping/world/" class="si-link"><span class="si-link__num">→</span>World Mapping Hub</a>
+      <a href="/mapping/world/overview/" class="si-link"><span class="si-link__num">→</span>World — Overview</a>
+      <a href="/mapping/world/africa/" class="si-link"><span class="si-link__num">→</span>Africa</a>
+      <a href="/mapping/world/asia/" class="si-link"><span class="si-link__num">→</span>Asia</a>
+      <a href="/mapping/world/europe/" class="si-link"><span class="si-link__num">→</span>Europe</a>
+      <a href="/mapping/world/americas/" class="si-link"><span class="si-link__num">→</span>Americas</a>
+      <a href="/mapping/world/oceania/" class="si-link"><span class="si-link__num">→</span>Oceania</a>
+      <a href="/mapping/world/straits-choke-points/" class="si-link"><span class="si-link__num">→</span>Straits & Choke Points</a>
+      <a href="/mapping/world/disputed-territories/" class="si-link"><span class="si-link__num">→</span>Disputed Territories</a>
+    </div>
+  </section>
+
+  {# ── Resources ── #}
+  <section class="si-other" id="resources">
+    <div class="si-other__header">
+      <span class="si-subject__icon">📚</span>
+      <span class="si-other__name">Resources & Tools</span>
+    </div>
+    <div class="si-grid">
+      <a href="/resources/" class="si-link"><span class="si-link__num">→</span>Resources Hub</a>
+      <a href="/ncert/" class="si-link"><span class="si-link__num">→</span>NCERT Notes Hub</a>
+      <a href="/quiz/" class="si-link"><span class="si-link__num">→</span>Prelims PYQ Practice</a>
+      <a href="/prelims-practice/" class="si-link"><span class="si-link__num">→</span>Prelims Mock Tests</a>
+      <a href="/mains/" class="si-link"><span class="si-link__num">→</span>Mains Preparation</a>
+      <a href="/mains/pyq/" class="si-link"><span class="si-link__num">→</span>Mains PYQs (2019–24)</a>
+      <a href="/pyq/" class="si-link"><span class="si-link__num">→</span>PYQ Stats & Analysis</a>
+      <a href="/tracker/" class="si-link"><span class="si-link__num">→</span>Progress Tracker</a>
+      <a href="/guide/" class="si-link"><span class="si-link__num">→</span>How to Use BharatNotes</a>
+      <a href="/start-here/" class="si-link"><span class="si-link__num">→</span>Start Here</a>
+      <a href="/about/" class="si-link"><span class="si-link__num">→</span>About</a>
+      <a href="/contact/" class="si-link"><span class="si-link__num">→</span>Contact</a>
+    </div>
+  </section>
+
+  {# ── NCERT ── #}
+  <section class="si-other" id="ncert">
+    <div class="si-other__header">
+      <span class="si-subject__icon">📖</span>
+      <span class="si-other__name">NCERT Notes</span>
+    </div>
+    <p style="font-size:var(--text-sm);color:var(--color-text-secondary);margin-bottom:var(--space-5);">Chapter-wise notes from Class 6–12 NCERTs most relevant to UPSC — 409+ chapters across 42 books.</p>
+
+    {% set ncertBooks = [
+      ["Class 6", "/ncert/class-6/", [
+        ["Our Pasts — I (History)", "/ncert/class-6/our-pasts-1/"],
+        ["Earth: Our Habitat (Geography)", "/ncert/class-6/earth-our-habitat/"],
+        ["Social & Political Life — I (Civics)", "/ncert/class-6/social-political-life-1/"],
+        ["Science", "/ncert/class-6/science/"]
+      ]],
+      ["Class 7", "/ncert/class-7/", [
+        ["Our Pasts — II (History)", "/ncert/class-7/our-pasts-2/"],
+        ["Our Environment (Geography)", "/ncert/class-7/our-environment/"],
+        ["Social & Political Life — II (Civics)", "/ncert/class-7/social-political-life-2/"],
+        ["Science", "/ncert/class-7/science/"]
+      ]],
+      ["Class 8", "/ncert/class-8/", [
+        ["Our Pasts — III (History)", "/ncert/class-8/our-pasts-3/"],
+        ["Resource & Development (Geography)", "/ncert/class-8/resource-and-development/"],
+        ["Social & Political Life — III (Civics)", "/ncert/class-8/social-political-life-3/"],
+        ["Science", "/ncert/class-8/science/"]
+      ]],
+      ["Class 9", "/ncert/class-9/", [
+        ["India & the Contemporary World — I (History)", "/ncert/class-9/india-and-the-contemporary-world-1/"],
+        ["Contemporary India — I (Geography)", "/ncert/class-9/contemporary-india-1/"],
+        ["Democratic Politics — I (Civics)", "/ncert/class-9/democratic-politics-1/"],
+        ["Economics", "/ncert/class-9/economics-understanding-economic-development/"],
+        ["Science", "/ncert/class-9/science/"]
+      ]],
+      ["Class 10", "/ncert/class-10/", [
+        ["India & the Contemporary World — II (History)", "/ncert/class-10/india-and-the-contemporary-world-2/"],
+        ["Contemporary India — II (Geography)", "/ncert/class-10/contemporary-india-2/"],
+        ["Democratic Politics — II (Civics)", "/ncert/class-10/democratic-politics-2/"],
+        ["Understanding Economic Development", "/ncert/class-10/understanding-economic-development/"],
+        ["Science", "/ncert/class-10/science/"]
+      ]],
+      ["Class 11", "/ncert/class-11/", [
+        ["Fundamentals of Physical Geography", "/ncert/class-11/fundamentals-of-physical-geography/"],
+        ["India — Physical Environment", "/ncert/class-11/india-physical-environment/"],
+        ["Indian Constitution at Work (Polity)", "/ncert/class-11/indian-constitution-at-work/"],
+        ["Indian Economic Development", "/ncert/class-11/indian-economic-development/"],
+        ["Political Theory", "/ncert/class-11/political-theory/"],
+        ["Themes in World History", "/ncert/class-11/themes-in-world-history/"],
+        ["Introduction to Indian Art", "/ncert/class-11/introduction-to-indian-art/"],
+        ["Introducing Sociology", "/ncert/class-11/introducing-sociology/"],
+        ["Understanding Society", "/ncert/class-11/understanding-society/"]
+      ]],
+      ["Class 12", "/ncert/class-12/", [
+        ["Themes in Indian History — Part I", "/ncert/class-12/themes-in-indian-history-1/"],
+        ["Themes in Indian History — Part II", "/ncert/class-12/themes-in-indian-history-2/"],
+        ["Themes in Indian History — Part III", "/ncert/class-12/themes-in-indian-history-3/"],
+        ["Fundamentals of Human Geography", "/ncert/class-12/fundamentals-of-human-geography/"],
+        ["India — People & Economy", "/ncert/class-12/india-people-and-economy/"],
+        ["Contemporary World Politics", "/ncert/class-12/contemporary-world-politics/"],
+        ["Politics in India Since Independence", "/ncert/class-12/politics-in-india-since-independence/"],
+        ["Introductory Macroeconomics", "/ncert/class-12/introductory-macroeconomics/"],
+        ["Indian Society", "/ncert/class-12/indian-society/"],
+        ["Social Change & Development in India", "/ncert/class-12/social-change-and-development-in-india/"]
+      ]],
+      ["New NCERT (2024–25)", "/ncert/new-ncert/", [
+        ["Class 6 — Exploring Society", "/ncert/new-ncert/class-6/exploring-society/"],
+        ["Class 6 — Curiosity (Science)", "/ncert/new-ncert/class-6/curiosity/"],
+        ["Class 7 — Exploring Society Part 1", "/ncert/new-ncert/class-7/exploring-society-part-1/"],
+        ["Class 7 — Exploring Society Part 2", "/ncert/new-ncert/class-7/exploring-society-part-2/"],
+        ["Class 7 — Curiosity (Science)", "/ncert/new-ncert/class-7/curiosity/"]
+      ]]
+    ] %}
+
+    {% for classGroup in ncertBooks %}
+    <div class="si-sub">
+      <div class="si-sub__title"><a href="{{ classGroup[1] }}" style="color:inherit;text-decoration:none;">{{ classGroup[0] }}</a></div>
+      <div class="si-grid">
+        {% for book in classGroup[2] %}
+        <a href="{{ book[1] }}" class="si-link"><span class="si-link__num">→</span>{{ book[0] }}</a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+</div>
